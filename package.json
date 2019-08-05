@@ -1,0 +1,27 @@
+{
+    "name": "osrs-quest-api",
+    "description": "An api using json data to see if your account is able to complete certain quests. Uses the osrs-api package as well.",
+    "version": "0.1.1",
+    "main": "quest_checker.py",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cerniglj1/osrs-quest-api.git"
+    },
+    "keywords": [
+        "runescape",
+        "osrs",
+        "old school runescape",
+        "osrs quest",
+        "osrs quest api",
+        "osrs-quest-api"
+    ],
+    "author": "James Cerniglia <imzessed@gmail.com>, credits to https://www.npmjs.com/~bardiches",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cerniglj1/osrs-quest-api/issues"
+    },
+    "homepage": "https://github.com/cerniglj1/osrs-quest-api#readme"
+}

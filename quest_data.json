@@ -1,16 +1,22 @@
 [{
-        "name": "A Soul's Bane",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/A_Soul%27s_Bane",
+        "Name": "A Soul's Bane",
+        "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "A Tail of Two Cats",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/A_Tail_of_Two_Cats",
+        "Name": "A Tail of Two Cats",
+        "url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "Icthlarin's Little Helper"
@@ -19,9 +25,12 @@
         }
     },
     {
-        "name": "A Taste of Hope",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/A_Taste_of_Hope",
+        "Name": "A Taste of Hope",
+        "url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "Darkness of Hallowvale"
@@ -55,9 +64,12 @@
         }
     },
     {
-        "name": "Animal Magnetism",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Animal_Magnetism",
+        "Name": "Animal Magnetism",
+        "url": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [
                 "The Restless Ghost",
@@ -93,9 +105,12 @@
         }
     },
     {
-        "name": "Another Slice of H.A.M.",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Another_Slice_of_H.A.M.",
+        "Name": "Another Slice of H.A.M.",
+        "url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Death to the Dorgeshuun",
@@ -117,9 +132,12 @@
         }
     },
     {
-        "name": "Between a Rock...",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Between_a_Rock...",
+        "Name": "Between a Rock...",
+        "url": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [
                 "Dwarf Cannon",
@@ -144,9 +162,12 @@
         }
     },
     {
-        "name": "Big Chompy Bird Hunting",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Big_Chompy_Bird_Hunting",
+        "Name": "Big Chompy Bird Hunting",
+        "url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -168,18 +189,24 @@
         }
     },
     {
-        "name": "Biohazard",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Biohazard",
+        "Name": "Biohazard",
+        "url": "https://oldschool.runescape.wiki/w/Biohazard",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 3,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Black Knights' Fortress",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Black_Knights%27_Fortress",
+        "Name": "Black Knights' Fortress",
+        "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 3,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -190,9 +217,12 @@
         }
     },
     {
-        "name": "Bone Voyage",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Bone_Voyage",
+        "Name": "Bone Voyage",
+        "url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [
                 "The Dig Site"
@@ -201,9 +231,12 @@
         }
     },
     {
-        "name": "Cabin Fever",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Cabin_Fever",
+        "Name": "Cabin Fever",
+        "url": "https://oldschool.runescape.wiki/w/Cabin_Fever",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Pirate's Treasure",
@@ -234,27 +267,36 @@
         }
     },
     {
-        "name": "Client of Kourend",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Client_of_Kourend",
+        "Name": "Client of Kourend",
+        "url": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium (15-20 minutes)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Clock Tower",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Clock_Tower",
+        "Name": "Clock Tower",
+        "url": "https://oldschool.runescape.wiki/w/Clock_Tower",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Cold War",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Cold_War",
+        "Name": "Cold War",
+        "url": "https://oldschool.runescape.wiki/w/Cold_War",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -286,9 +328,12 @@
         }
     },
     {
-        "name": "Contact!",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Contact!",
+        "Name": "Contact!",
+        "url": "https://oldschool.runescape.wiki/w/Contact!",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Prince Ali Rescue",
@@ -298,18 +343,24 @@
         }
     },
     {
-        "name": "Cook's Assistant",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Cook%27s_Assistant",
+        "Name": "Cook's Assistant",
+        "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short (<5 minutes)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Creature of Fenkenstrain",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Creature_of_Fenkenstrain",
+        "Name": "Creature of Fenkenstrain",
+        "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Priest in Peril",
@@ -329,9 +380,12 @@
         }
     },
     {
-        "name": "Darkness of Hallowvale",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Darkness_of_Hallowvale",
+        "Name": "Darkness of Hallowvale",
+        "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Very long",
         "requirements": {
             "quests": [
                 "In Aid of the Myreque"
@@ -375,18 +429,24 @@
         }
     },
     {
-        "name": "Death Plateau",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Death_Plateau",
+        "Name": "Death Plateau",
+        "url": "https://oldschool.runescape.wiki/w/Death_Plateau",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Death to the Dorgeshuun",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Death_to_the_Dorgeshuun",
+        "Name": "Death to the Dorgeshuun",
+        "url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "The Lost Tribe"
@@ -405,18 +465,24 @@
         }
     },
     {
-        "name": "Demon Slayer",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Demon_Slayer",
+        "Name": "Demon Slayer",
+        "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 3,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Desert Treasure",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Desert_Treasure",
+        "Name": "Desert Treasure",
+        "url": "https://oldschool.runescape.wiki/w/Desert_Treasure",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 3,
+        "Length": "Very long",
         "requirements": {
             "quests": [
                 "The Dig Site",
@@ -450,9 +516,12 @@
         }
     },
     {
-        "name": "Devious Minds",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Devious_Minds",
+        "Name": "Devious Minds",
+        "url": "https://oldschool.runescape.wiki/w/Devious_Minds",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [
                 "Wanted!",
@@ -479,9 +548,12 @@
         }
     },
     {
-        "name": "Doric's Quest",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Doric%27s_Quest",
+        "Name": "Doric's Quest",
+        "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -492,9 +564,12 @@
         }
     },
     {
-        "name": "Dragon Slayer",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Dragon_Slayer",
+        "Name": "Dragon Slayer",
+        "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer",
         "members": false,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -511,9 +586,12 @@
         }
     },
     {
-        "name": "Dragon Slayer II",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Dragon_Slayer_II",
+        "Name": "Dragon Slayer II",
+        "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
         "members": true,
+        "Difficulty": "Grandmaster",
+        "QuestPointReward": 5,
+        "Length": "Very long",
         "requirements": {
             "quests": [
                 "Legends' Quest",
@@ -532,9 +610,12 @@
         }
     },
     {
-        "name": "Dream Mentor",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Dream_Mentor",
+        "Name": "Dream Mentor",
+        "url": "https://oldschool.runescape.wiki/w/Dream_Mentor",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 2,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [
                 "Lunar Diplomacy",
@@ -548,27 +629,36 @@
         }
     },
     {
-        "name": "Druidic Ritual",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Druidic_Ritual",
+        "Name": "Druidic Ritual",
+        "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 4,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Dwarf Cannon",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Dwarf_Cannon",
+        "Name": "Dwarf Cannon",
+        "url": "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Eadgar's Ruse",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Eadgar%27s_Ruse",
+        "Name": "Eadgar's Ruse",
+        "url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [
                 "Druidic Ritual",
@@ -588,9 +678,12 @@
         }
     },
     {
-        "name": "Eagles' Peak",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Eagles%27_Peak",
+        "Name": "Eagles' Peak",
+        "url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -601,9 +694,12 @@
         }
     },
     {
-        "name": "Elemental Workshop I",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Elemental_Workshop_I",
+        "Name": "Elemental Workshop I",
+        "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -625,9 +721,12 @@
         }
     },
     {
-        "name": "Elemental Workshop II",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Elemental_Workshop_II",
+        "Name": "Elemental Workshop II",
+        "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -644,9 +743,12 @@
         }
     },
     {
-        "name": "Enakhra's Lament",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Enakhra%27s_Lament",
+        "Name": "Enakhra's Lament",
+        "url": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -678,9 +780,12 @@
         }
     },
     {
-        "name": "Enlightened Journey",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Enlightened_Journey",
+        "Name": "Enlightened Journey",
+        "url": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Short - Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -707,18 +812,24 @@
         }
     },
     {
-        "name": "Ernest the Chicken",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Ernest_the_Chicken",
+        "Name": "Ernest the Chicken",
+        "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 4,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Fairytale I - Growing Pains",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Fairytale_I_-_Growing_Pains",
+        "Name": "Fairytale I - Growing Pains",
+        "url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "Lost City",
@@ -728,9 +839,12 @@
         }
     },
     {
-        "name": "Fairytale II - Cure a Queen",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Fairytale_II_-_Cure_a_Queen",
+        "Name": "Fairytale II - Cure a Queen",
+        "url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [
                 "Fairytale I - Growing Pains"
@@ -754,9 +868,12 @@
         }
     },
     {
-        "name": "Family Crest",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Family_Crest",
+        "Name": "Family Crest",
+        "url": "https://oldschool.runescape.wiki/w/Family_Crest",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -783,18 +900,24 @@
         }
     },
     {
-        "name": "Fight Arena",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Fight_Arena",
+        "Name": "Fight Arena",
+        "url": "https://oldschool.runescape.wiki/w/Fight_Arena",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Fishing Contest",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Fishing_Contest",
+        "Name": "Fishing Contest",
+        "url": "https://oldschool.runescape.wiki/w/Fishing_Contest",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -805,9 +928,12 @@
         }
     },
     {
-        "name": "Forgettable Tale...",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Forgettable_Tale...",
+        "Name": "Forgettable Tale...",
+        "url": "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "The Giant Dwarf",
@@ -827,9 +953,12 @@
         }
     },
     {
-        "name": "Garden of Tranquillity",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Garden_of_Tranquillity",
+        "Name": "Garden of Tranquillity",
+        "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Very long",
         "requirements": {
             "quests": [
                 "Creature of Fenkenstrain"
@@ -842,36 +971,48 @@
         }
     },
     {
-        "name": "Gertrude's Cat",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Gertrude%27s_Cat",
+        "Name": "Gertrude's Cat",
+        "url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Ghosts Ahoy",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Ghosts_Ahoy",
+        "Name": "Ghosts Ahoy",
+        "url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Goblin Diplomacy",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Goblin_Diplomacy",
+        "Name": "Goblin Diplomacy",
+        "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 5,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Grim Tales",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Grim_Tales",
+        "Name": "Grim Tales",
+        "url": "https://oldschool.runescape.wiki/w/Grim_Tales",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -903,9 +1044,12 @@
         }
     },
     {
-        "name": "Haunted Mine",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Haunted_Mine",
+        "Name": "Haunted Mine",
+        "url": "https://oldschool.runescape.wiki/w/Haunted_Mine",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -922,18 +1066,24 @@
         }
     },
     {
-        "name": "Hazeel Cult",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Hazeel_Cult",
+        "Name": "Hazeel Cult",
+        "url": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Heroes' Quest",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Heroes%27_Quest",
+        "Name": "Heroes' Quest",
+        "url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [
                 "Shield of Arrav",
@@ -950,9 +1100,12 @@
         }
     },
     {
-        "name": "Holy Grail",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Holy_Grail",
+        "Name": "Holy Grail",
+        "url": "https://oldschool.runescape.wiki/w/Holy_Grail",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -963,9 +1116,12 @@
         }
     },
     {
-        "name": "Horror from the Deep",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Horror_from_the_Deep",
+        "Name": "Horror from the Deep",
+        "url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -976,27 +1132,36 @@
         }
     },
     {
-        "name": "Icthlarin's Little Helper",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Icthlarin%27s_Little_Helper",
+        "Name": "Icthlarin's Little Helper",
+        "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Imp Catcher",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Imp_Catcher",
+        "Name": "Imp Catcher",
+        "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short (<5-15 minutes)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "In Aid of the Myreque",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/In_Aid_of_the_Myreque",
+        "Name": "In Aid of the Myreque",
+        "url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "In Search of the Myreque"
@@ -1020,9 +1185,12 @@
         }
     },
     {
-        "name": "In Search of the Myreque",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/In_Search_of_the_Myreque",
+        "Name": "In Search of the Myreque",
+        "url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Short",
         "requirements": {
             "quests": [
                 "Nature Spirit"
@@ -1035,9 +1203,12 @@
         }
     },
     {
-        "name": "Jungle Potion",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Jungle_Potion",
+        "Name": "Jungle Potion",
+        "url": "https://oldschool.runescape.wiki/w/Jungle_Potion",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1048,9 +1219,12 @@
         }
     },
     {
-        "name": "King's Ransom",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/King%27s_Ransom",
+        "Name": "King's Ransom",
+        "url": "https://oldschool.runescape.wiki/w/King%27s_Ransom",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Black Knights' Fortress",
@@ -1072,9 +1246,12 @@
         }
     },
     {
-        "name": "Legends' Quest",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Legends%27_Quest",
+        "Name": "Legends' Quest",
+        "url": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 4,
+        "Length": "Very long",
         "requirements": {
             "quests": [
                 "Family Crest",
@@ -1142,9 +1319,12 @@
         }
     },
     {
-        "name": "Lost City",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Lost_City",
+        "Name": "Lost City",
+        "url": "https://oldschool.runescape.wiki/w/Lost_City",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 3,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1161,9 +1341,12 @@
         }
     },
     {
-        "name": "Lunar Diplomacy",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Lunar_Diplomacy",
+        "Name": "Lunar Diplomacy",
+        "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "The Fremennik Trials",
@@ -1205,9 +1388,12 @@
         }
     },
     {
-        "name": "Making Friends with My Arm",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Making_Friends_with_My_Arm",
+        "Name": "Making Friends with My Arm",
+        "url": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "My Arm's Big Adventure",
@@ -1239,9 +1425,12 @@
         }
     },
     {
-        "name": "Making History",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Making_History",
+        "Name": "Making History",
+        "url": "https://oldschool.runescape.wiki/w/Making_History",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 3,
+        "Length": "Short - Long",
         "requirements": {
             "quests": [
                 "Priest in Peril",
@@ -1251,36 +1440,48 @@
         }
     },
     {
-        "name": "Merlin's Crystal",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Merlin%27s_Crystal",
+        "Name": "Merlin's Crystal",
+        "url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 6,
+        "Length": "Medium-Long (Under 10 minutes with teleports)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Misthalin Mystery",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Misthalin_Mystery",
+        "Name": "Misthalin Mystery",
+        "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Monk's Friend",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Monk%27s_Friend",
+        "Name": "Monk's Friend",
+        "url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Very Short (5 minutes)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Monkey Madness I",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Monkey_Madness_I",
+        "Name": "Monkey Madness I",
+        "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 3,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "The Grand Tree",
@@ -1294,14 +1495,17 @@
         }
     },
     {
-        "name": "Monkey Madness II",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Monkey_Madness_II",
+        "Name": "Monkey Madness II",
+        "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
         "members": true,
+        "Difficulty": "Grandmaster",
+        "QuestPointReward": 4,
+        "Length": "Very long",
         "requirements": {
             "quests": [
-                "Enlightened Journey ",
+                "Enlightened Journey",
                 "The Eyes of Glouphrie",
-                "Recipe for Disaster ",
+                "Recipe for Disaster",
                 "Troll Stronghold",
                 "Watchtower"
             ],
@@ -1339,9 +1543,12 @@
         }
     },
     {
-        "name": "Mountain Daughter",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Mountain_Daughter",
+        "Name": "Mountain Daughter",
+        "url": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1352,9 +1559,12 @@
         }
     },
     {
-        "name": "Mourning's Ends Part I",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Mourning%27s_Ends_Part_I",
+        "Name": "Mourning's Ends Part I",
+        "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_I",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [
                 "Roving Elves",
@@ -1375,9 +1585,12 @@
         }
     },
     {
-        "name": "Mourning's Ends Part II",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Mourning%27s_Ends_Part_II",
+        "Name": "Mourning's Ends Part II",
+        "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_II",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1394,18 +1607,24 @@
         }
     },
     {
-        "name": "Murder Mystery",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Murder_Mystery",
+        "Name": "Murder Mystery",
+        "url": "https://oldschool.runescape.wiki/w/Murder_Mystery",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 3,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "My Arm's Big Adventure",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/My_Arm%27s_Big_Adventure",
+        "Name": "My Arm's Big Adventure",
+        "url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Eadgar's Ruse",
@@ -1426,9 +1645,12 @@
         }
     },
     {
-        "name": "Nature Spirit",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Nature_Spirit",
+        "Name": "Nature Spirit",
+        "url": "https://oldschool.runescape.wiki/w/Nature_Spirit",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Priest in Peril",
@@ -1442,9 +1664,12 @@
         }
     },
     {
-        "name": "Observatory Quest",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Observatory_Quest",
+        "Name": "Observatory Quest",
+        "url": "https://oldschool.runescape.wiki/w/Observatory_Quest",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 2,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1455,9 +1680,12 @@
         }
     },
     {
-        "name": "Olaf's Quest",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Olaf%27s_Quest",
+        "Name": "Olaf's Quest",
+        "url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Short - Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1474,9 +1702,12 @@
         }
     },
     {
-        "name": "One Small Favour",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/One_Small_Favour",
+        "Name": "One Small Favour",
+        "url": "https://oldschool.runescape.wiki/w/One_Small_Favour",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Very long",
         "requirements": {
             "quests": [
                 "Rune Mysteries",
@@ -1506,54 +1737,72 @@
         }
     },
     {
-        "name": "Pirate's Treasure",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Pirate%27s_Treasure",
+        "Name": "Pirate's Treasure",
+        "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 2,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Plague City",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Plague_City",
+        "Name": "Plague City",
+        "url": "https://oldschool.runescape.wiki/w/Plague_City",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Priest in Peril",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Priest_in_Peril",
+        "Name": "Priest in Peril",
+        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Prince Ali Rescue",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Prince_Ali_Rescue",
+        "Name": "Prince Ali Rescue",
+        "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 3,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Rag and Bone Man",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Rag_and_Bone_Man",
+        "Name": "Rag and Bone Man",
+        "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Rag and Bone Man II",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Rag_and_Bone_Man_II",
+        "Name": "Rag and Bone Man II",
+        "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1570,9 +1819,12 @@
         }
     },
     {
-        "name": "Ratcatchers",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Ratcatchers",
+        "Name": "Ratcatchers",
+        "url": "https://oldschool.runescape.wiki/w/Ratcatchers",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Long - Very long",
         "requirements": {
             "quests": [
                 "Icthlarin's Little Helper"
@@ -1581,9 +1833,12 @@
         }
     },
     {
-        "name": "Recipe for Disaster",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Recipe_for_Disaster",
+        "Name": "Recipe for Disaster",
+        "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
         "members": true,
+        "Difficulty": "Special",
+        "QuestPointReward": 10,
+        "Length": "Very long",
         "requirements": {
             "quests": [
                 "Cook's Assistant",
@@ -1679,9 +1934,12 @@
         }
     },
     {
-        "name": "Recruitment Drive",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Recruitment_Drive",
+        "Name": "Recruitment Drive",
+        "url": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1692,9 +1950,12 @@
         }
     },
     {
-        "name": "Regicide",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Regicide",
+        "Name": "Regicide",
+        "url": "https://oldschool.runescape.wiki/w/Regicide",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 3,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "Underground Pass"
@@ -1713,18 +1974,24 @@
         }
     },
     {
-        "name": "Romeo & Juliet",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Romeo_%26_Juliet",
+        "Name": "Romeo & Juliet",
+        "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 5,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Roving Elves",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Roving_Elves",
+        "Name": "Roving Elves",
+        "url": "https://oldschool.runescape.wiki/w/Roving_Elves",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 1,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [
                 "Regicide",
@@ -1734,9 +2001,12 @@
         }
     },
     {
-        "name": "Royal Trouble",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Royal_Trouble",
+        "Name": "Royal Trouble",
+        "url": "https://oldschool.runescape.wiki/w/Royal_Trouble",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1753,9 +2023,12 @@
         }
     },
     {
-        "name": "Rum Deal",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Rum_Deal",
+        "Name": "Rum Deal",
+        "url": "https://oldschool.runescape.wiki/w/Rum_Deal",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Zogre Flesh Eaters",
@@ -1790,18 +2063,24 @@
         }
     },
     {
-        "name": "Rune Mysteries",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Rune_Mysteries",
+        "Name": "Rune Mysteries",
+        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short (<5 minutes)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Scorpion Catcher",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Scorpion_Catcher",
+        "Name": "Scorpion Catcher",
+        "url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1812,18 +2091,24 @@
         }
     },
     {
-        "name": "Sea Slug",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Sea_Slug",
+        "Name": "Sea Slug",
+        "url": "https://oldschool.runescape.wiki/w/Sea_Slug",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Shades of Mort'ton",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Shades_of_Mort%27ton",
+        "Name": "Shades of Mort'ton",
+        "url": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 3,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1845,9 +2130,12 @@
         }
     },
     {
-        "name": "Shadow of the Storm",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Shadow_of_the_Storm",
+        "Name": "Shadow of the Storm",
+        "url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "The Golem",
@@ -1857,36 +2145,48 @@
         }
     },
     {
-        "name": "Sheep Herder",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Sheep_Herder",
+        "Name": "Sheep Herder",
+        "url": "https://oldschool.runescape.wiki/w/Sheep_Herder",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 4,
+        "Length": "Short/Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Sheep Shearer",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Sheep_Shearer",
+        "Name": "Sheep Shearer",
+        "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Shield of Arrav",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Shield_of_Arrav",
+        "Name": "Shield of Arrav",
+        "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Shilo Village",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Shilo_Village",
+        "Name": "Shilo Village",
+        "url": "https://oldschool.runescape.wiki/w/Shilo_Village",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1908,9 +2208,12 @@
         }
     },
     {
-        "name": "Spirits of the Elid",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Spirits_of_the_Elid",
+        "Name": "Spirits of the Elid",
+        "url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -1937,9 +2240,12 @@
         }
     },
     {
-        "name": "Swan Song",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Swan_Song",
+        "Name": "Swan Song",
+        "url": "https://oldschool.runescape.wiki/w/Swan_Song",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "One Small Favour",
@@ -1984,9 +2290,12 @@
         }
     },
     {
-        "name": "Tai Bwo Wannai Trio",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Tai_Bwo_Wannai_Trio",
+        "Name": "Tai Bwo Wannai Trio",
+        "url": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2008,9 +2317,12 @@
         }
     },
     {
-        "name": "Tale of the Righteous",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Tale_of_the_Righteous",
+        "Name": "Tale of the Righteous",
+        "url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Client of Kourend"
@@ -2029,9 +2341,12 @@
         }
     },
     {
-        "name": "Tears of Guthix (quest)",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Tears_of_Guthix_(quest)",
+        "Name": "Tears of Guthix (quest)",
+        "url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix_(quest)",
         "members": true,
+        "Difficulty": "Master",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2058,9 +2373,12 @@
         }
     },
     {
-        "name": "Temple of Ikov",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Temple_of_Ikov",
+        "Name": "Temple of Ikov",
+        "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2077,9 +2395,12 @@
         }
     },
     {
-        "name": "The Ascent of Arceuus",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Ascent_of_Arceuus",
+        "Name": "The Ascent of Arceuus",
+        "url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Client of Kourend"
@@ -2092,18 +2413,24 @@
         }
     },
     {
-        "name": "The Corsair Curse",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Corsair_Curse",
+        "Name": "The Corsair Curse",
+        "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 2,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "The Depths of Despair",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Depths_of_Despair",
+        "Name": "The Depths of Despair",
+        "url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [
                 "Client of Kourend"
@@ -2116,9 +2443,12 @@
         }
     },
     {
-        "name": "The Dig Site",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Dig_Site",
+        "Name": "The Dig Site",
+        "url": "https://oldschool.runescape.wiki/w/The_Dig_Site",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2140,9 +2470,12 @@
         }
     },
     {
-        "name": "The Eyes of Glouphrie",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Eyes_of_Glouphrie",
+        "Name": "The Eyes of Glouphrie",
+        "url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2159,9 +2492,12 @@
         }
     },
     {
-        "name": "The Feud",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Feud",
+        "Name": "The Feud",
+        "url": "https://oldschool.runescape.wiki/w/The_Feud",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2172,18 +2508,24 @@
         }
     },
     {
-        "name": "The Forsaken Tower",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Forsaken_Tower",
+        "Name": "The Forsaken Tower",
+        "url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "The Fremennik Isles",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Fremennik_Isles",
+        "Name": "The Fremennik Isles",
+        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2200,18 +2542,24 @@
         }
     },
     {
-        "name": "The Fremennik Trials",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Fremennik_Trials",
+        "Name": "The Fremennik Trials",
+        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 3,
+        "Length": "Long",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "The Giant Dwarf",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Giant_Dwarf",
+        "Name": "The Giant Dwarf",
+        "url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2248,9 +2596,12 @@
         }
     },
     {
-        "name": "The Golem",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Golem",
+        "Name": "The Golem",
+        "url": "https://oldschool.runescape.wiki/w/The_Golem",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2267,9 +2618,12 @@
         }
     },
     {
-        "name": "The Grand Tree",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Grand_Tree",
+        "Name": "The Grand Tree",
+        "url": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 5,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2280,9 +2634,12 @@
         }
     },
     {
-        "name": "The Great Brain Robbery",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Great_Brain_Robbery",
+        "Name": "The Great Brain Robbery",
+        "url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Creature of Fenkenstrain",
@@ -2308,18 +2665,24 @@
         }
     },
     {
-        "name": "The Hand in the Sand",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Hand_in_the_Sand",
+        "Name": "The Hand in the Sand",
+        "url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "The Knight's Sword",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Knight%27s_Sword",
+        "Name": "The Knight's Sword",
+        "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
         "members": false,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2330,9 +2693,12 @@
         }
     },
     {
-        "name": "The Lost Tribe",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Lost_Tribe",
+        "Name": "The Lost Tribe",
+        "url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2354,9 +2720,12 @@
         }
     },
     {
-        "name": "The Queen of Thieves",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Queen_of_Thieves",
+        "Name": "The Queen of Thieves",
+        "url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [
                 "Client of Kourend"
@@ -2369,18 +2738,24 @@
         }
     },
     {
-        "name": "The Restless Ghost",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Restless_Ghost",
+        "Name": "The Restless Ghost",
+        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short (<10 minutes)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "The Slug Menace",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Slug_Menace",
+        "Name": "The Slug Menace",
+        "url": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium - Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2407,9 +2782,12 @@
         }
     },
     {
-        "name": "The Tourist Trap",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/The_Tourist_Trap",
+        "Name": "The Tourist Trap",
+        "url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2426,9 +2804,12 @@
         }
     },
     {
-        "name": "Throne of Miscellania",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Throne_of_Miscellania",
+        "Name": "Throne of Miscellania",
+        "url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2455,9 +2836,12 @@
         }
     },
     {
-        "name": "Tower of Life",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Tower_of_Life",
+        "Name": "Tower of Life",
+        "url": "https://oldschool.runescape.wiki/w/Tower_of_Life",
         "members": true,
+        "Difficulty": "Novice",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2468,18 +2852,24 @@
         }
     },
     {
-        "name": "Tree Gnome Village",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Tree_Gnome_Village",
+        "Name": "Tree Gnome Village",
+        "url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 2,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Tribal Totem",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Tribal_Totem",
+        "Name": "Tribal Totem",
+        "url": "https://oldschool.runescape.wiki/w/Tribal_Totem",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2490,9 +2880,12 @@
         }
     },
     {
-        "name": "Troll Romance",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Troll_Romance",
+        "Name": "Troll Romance",
+        "url": "https://oldschool.runescape.wiki/w/Troll_Romance",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 2,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Troll Stronghold"
@@ -2501,9 +2894,12 @@
         }
     },
     {
-        "name": "Troll Stronghold",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Troll_Stronghold",
+        "Name": "Troll Stronghold",
+        "url": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 1,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2514,9 +2910,12 @@
         }
     },
     {
-        "name": "Underground Pass",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Underground_Pass",
+        "Name": "Underground Pass",
+        "url": "https://oldschool.runescape.wiki/w/Underground_Pass",
         "members": true,
+        "Difficulty": "Experienced",
+        "QuestPointReward": 5,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "Biohazard"
@@ -2529,18 +2928,24 @@
         }
     },
     {
-        "name": "Vampire Slayer",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Vampire_Slayer",
+        "Name": "Vampire Slayer",
+        "url": "https://oldschool.runescape.wiki/w/Vampire_Slayer",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 3,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Wanted!",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Wanted!",
+        "Name": "Wanted!",
+        "url": "https://oldschool.runescape.wiki/w/Wanted!",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Long",
         "requirements": {
             "quests": [
                 "Recruitment Drive",
@@ -2556,9 +2961,12 @@
         }
     },
     {
-        "name": "Watchtower",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Watchtower",
+        "Name": "Watchtower",
+        "url": "https://oldschool.runescape.wiki/w/Watchtower",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 4,
+        "Length": "Long",
         "requirements": {
             "quests": [],
             "levels": [{
@@ -2590,45 +2998,60 @@
         }
     },
     {
-        "name": "Waterfall Quest",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Waterfall_Quest",
+        "Name": "Waterfall Quest",
+        "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium (10-20 minutes)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "What Lies Below",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/What_Lies_Below",
+        "Name": "What Lies Below",
+        "url": "https://oldschool.runescape.wiki/w/What_Lies_Below",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Short - Medium",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Witch's House",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Witch%27s_House",
+        "Name": "Witch's House",
+        "url": "https://oldschool.runescape.wiki/w/Witch%27s_House",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 4,
+        "Length": "Short",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Witch's Potion",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Witch%27s_Potion",
+        "Name": "Witch's Potion",
+        "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
         "members": false,
+        "Difficulty": "Novice",
+        "QuestPointReward": 1,
+        "Length": "Short (<5 minutes)",
         "requirements": {
             "quests": [],
             "levels": []
         }
     },
     {
-        "name": "Zogre Flesh Eaters",
-        "url": "https:\/\/oldschool.runescape.wiki\/w\/Zogre_Flesh_Eaters",
+        "Name": "Zogre Flesh Eaters",
+        "url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
         "members": true,
+        "Difficulty": "Intermediate",
+        "QuestPointReward": 1,
+        "Length": "Medium",
         "requirements": {
             "quests": [
                 "Big Chompy Bird Hunting",

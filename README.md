@@ -1,6 +1,7 @@
-# osrs-quest-api
+# osrs-quest-api ![npm](https://img.shields.io/npm/v/osrs-quest-api.svg)
 An api using json data to see if your account is able to complete certain quests. Uses the osrs-api package as well.
-![npm](https://img.shields.io/npm/v/osrs-quest-api.svg)
+
+
 
 ## Installation 
 ```
@@ -36,3 +37,4 @@ import quest_checker as qc
 qc.ACCOUNT = 'not poop'
 qc.get_doable_quests()
 ```
+

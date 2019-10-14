@@ -1,4 +1,5 @@
-# osrs-quest-api ![npm](https://img.shields.io/npm/v/osrs-quest-api.svg)
+# osrs-quest-api ![npm](https://img.shields.io/npm/v/osrs-quest-api.svg) [![Build Status](https://travis-ci.org/cerniglj1/osrs-quest-api.svg?branch=master)](https://travis-ci.org/cerniglj1/osrs-quest-api)
+
 An api using json data to see if your account is able to complete certain quests. Uses the osrs-api package as well.
 
 

@@ -1,4 +1,5 @@
-[{
+{
+    "A Soul's Bane": {
         "Name": "A Soul's Bane",
         "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
         "members": true,
@@ -10,7 +11,7 @@
             "levels": []
         }
     },
-    {
+    "A Tail of Two Cats": {
         "Name": "A Tail of Two Cats",
         "url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
         "members": true,
@@ -24,7 +25,7 @@
             "levels": []
         }
     },
-    {
+    "A Taste of Hope": {
         "Name": "A Taste of Hope",
         "url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
         "members": true,
@@ -63,7 +64,7 @@
             ]
         }
     },
-    {
+    "Animal Magnetism": {
         "Name": "Animal Magnetism",
         "url": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
         "members": true,
@@ -104,7 +105,7 @@
             ]
         }
     },
-    {
+    "Another Slice of H.A.M.": {
         "Name": "Another Slice of H.A.M.",
         "url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
         "members": true,
@@ -131,7 +132,7 @@
             ]
         }
     },
-    {
+    "Between a Rock...": {
         "Name": "Between a Rock...",
         "url": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
         "members": true,
@@ -161,7 +162,7 @@
             ]
         }
     },
-    {
+    "Big Chompy Bird Hunting": {
         "Name": "Big Chompy Bird Hunting",
         "url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
         "members": true,
@@ -188,7 +189,7 @@
             ]
         }
     },
-    {
+    "Biohazard": {
         "Name": "Biohazard",
         "url": "https://oldschool.runescape.wiki/w/Biohazard",
         "members": true,
@@ -200,7 +201,7 @@
             "levels": []
         }
     },
-    {
+    "Black Knights' Fortress": {
         "Name": "Black Knights' Fortress",
         "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
         "members": false,
@@ -216,7 +217,7 @@
             }]
         }
     },
-    {
+    "Bone Voyage": {
         "Name": "Bone Voyage",
         "url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
         "members": true,
@@ -230,7 +231,7 @@
             "levels": []
         }
     },
-    {
+    "Cabin Fever": {
         "Name": "Cabin Fever",
         "url": "https://oldschool.runescape.wiki/w/Cabin_Fever",
         "members": true,
@@ -266,7 +267,7 @@
             ]
         }
     },
-    {
+    "Client of Kourend": {
         "Name": "Client of Kourend",
         "url": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
         "members": true,
@@ -278,7 +279,7 @@
             "levels": []
         }
     },
-    {
+    "Clock Tower": {
         "Name": "Clock Tower",
         "url": "https://oldschool.runescape.wiki/w/Clock_Tower",
         "members": true,
@@ -290,7 +291,7 @@
             "levels": []
         }
     },
-    {
+    "Cold War": {
         "Name": "Cold War",
         "url": "https://oldschool.runescape.wiki/w/Cold_War",
         "members": true,
@@ -327,7 +328,7 @@
             ]
         }
     },
-    {
+    "Contact!": {
         "Name": "Contact!",
         "url": "https://oldschool.runescape.wiki/w/Contact!",
         "members": true,
@@ -342,7 +343,7 @@
             "levels": []
         }
     },
-    {
+    "Cook's Assistant": {
         "Name": "Cook's Assistant",
         "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
         "members": false,
@@ -354,7 +355,7 @@
             "levels": []
         }
     },
-    {
+    "Creature of Fenkenstrain": {
         "Name": "Creature of Fenkenstrain",
         "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
         "members": true,
@@ -379,7 +380,7 @@
             ]
         }
     },
-    {
+    "Darkness of Hallowvale": {
         "Name": "Darkness of Hallowvale",
         "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
         "members": true,
@@ -428,7 +429,7 @@
             ]
         }
     },
-    {
+    "Death Plateau": {
         "Name": "Death Plateau",
         "url": "https://oldschool.runescape.wiki/w/Death_Plateau",
         "members": true,
@@ -440,7 +441,7 @@
             "levels": []
         }
     },
-    {
+    "Death to the Dorgeshuun": {
         "Name": "Death to the Dorgeshuun",
         "url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
         "members": true,
@@ -464,7 +465,7 @@
             ]
         }
     },
-    {
+    "Demon Slayer": {
         "Name": "Demon Slayer",
         "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
         "members": false,
@@ -476,7 +477,7 @@
             "levels": []
         }
     },
-    {
+    "Desert Treasure": {
         "Name": "Desert Treasure",
         "url": "https://oldschool.runescape.wiki/w/Desert_Treasure",
         "members": true,
@@ -515,7 +516,7 @@
             ]
         }
     },
-    {
+    "Devious Minds": {
         "Name": "Devious Minds",
         "url": "https://oldschool.runescape.wiki/w/Devious_Minds",
         "members": true,
@@ -547,7 +548,7 @@
             ]
         }
     },
-    {
+    "Doric's Quest": {
         "Name": "Doric's Quest",
         "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
         "members": false,
@@ -563,7 +564,7 @@
             }]
         }
     },
-    {
+    "Dragon Slayer": {
         "Name": "Dragon Slayer",
         "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer",
         "members": false,
@@ -585,7 +586,7 @@
             ]
         }
     },
-    {
+    "Dragon Slayer II": {
         "Name": "Dragon Slayer II",
         "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
         "members": true,
@@ -609,7 +610,7 @@
             }]
         }
     },
-    {
+    "Dream Mentor": {
         "Name": "Dream Mentor",
         "url": "https://oldschool.runescape.wiki/w/Dream_Mentor",
         "members": true,
@@ -628,7 +629,7 @@
             }]
         }
     },
-    {
+    "Druidic Ritual": {
         "Name": "Druidic Ritual",
         "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
         "members": true,
@@ -640,7 +641,7 @@
             "levels": []
         }
     },
-    {
+    "Dwarf Cannon": {
         "Name": "Dwarf Cannon",
         "url": "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
         "members": true,
@@ -652,7 +653,7 @@
             "levels": []
         }
     },
-    {
+    "Eadgar's Ruse": {
         "Name": "Eadgar's Ruse",
         "url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
         "members": true,
@@ -677,7 +678,7 @@
             ]
         }
     },
-    {
+    "Eagles' Peak": {
         "Name": "Eagles' Peak",
         "url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
         "members": true,
@@ -693,7 +694,7 @@
             }]
         }
     },
-    {
+    "Elemental Workshop I": {
         "Name": "Elemental Workshop I",
         "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
         "members": true,
@@ -720,7 +721,7 @@
             ]
         }
     },
-    {
+    "Elemental Workshop II": {
         "Name": "Elemental Workshop II",
         "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
         "members": true,
@@ -742,7 +743,7 @@
             ]
         }
     },
-    {
+    "Enakhra's Lament": {
         "Name": "Enakhra's Lament",
         "url": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
         "members": true,
@@ -779,7 +780,7 @@
             ]
         }
     },
-    {
+    "Enlightened Journey": {
         "Name": "Enlightened Journey",
         "url": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
         "members": true,
@@ -811,7 +812,7 @@
             ]
         }
     },
-    {
+    "Ernest the Chicken": {
         "Name": "Ernest the Chicken",
         "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
         "members": false,
@@ -823,7 +824,7 @@
             "levels": []
         }
     },
-    {
+    "Fairytale I - Growing Pains": {
         "Name": "Fairytale I - Growing Pains",
         "url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
         "members": true,
@@ -838,7 +839,7 @@
             "levels": []
         }
     },
-    {
+    "Fairytale II - Cure a Queen": {
         "Name": "Fairytale II - Cure a Queen",
         "url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
         "members": true,
@@ -867,7 +868,7 @@
             ]
         }
     },
-    {
+    "Family Crest": {
         "Name": "Family Crest",
         "url": "https://oldschool.runescape.wiki/w/Family_Crest",
         "members": true,
@@ -899,7 +900,7 @@
             ]
         }
     },
-    {
+    "Fight Arena": {
         "Name": "Fight Arena",
         "url": "https://oldschool.runescape.wiki/w/Fight_Arena",
         "members": true,
@@ -911,7 +912,7 @@
             "levels": []
         }
     },
-    {
+    "Fishing Contest": {
         "Name": "Fishing Contest",
         "url": "https://oldschool.runescape.wiki/w/Fishing_Contest",
         "members": true,
@@ -927,7 +928,7 @@
             }]
         }
     },
-    {
+    "Forgettable Tale...": {
         "Name": "Forgettable Tale...",
         "url": "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
         "members": true,
@@ -952,7 +953,7 @@
             ]
         }
     },
-    {
+    "Garden of Tranquillity": {
         "Name": "Garden of Tranquillity",
         "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
         "members": true,
@@ -970,7 +971,7 @@
             }]
         }
     },
-    {
+    "Gertrude's Cat": {
         "Name": "Gertrude's Cat",
         "url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
         "members": true,
@@ -982,7 +983,7 @@
             "levels": []
         }
     },
-    {
+    "Ghosts Ahoy": {
         "Name": "Ghosts Ahoy",
         "url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
         "members": true,
@@ -994,7 +995,7 @@
             "levels": []
         }
     },
-    {
+    "Goblin Diplomacy": {
         "Name": "Goblin Diplomacy",
         "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
         "members": false,
@@ -1006,7 +1007,7 @@
             "levels": []
         }
     },
-    {
+    "Grim Tales": {
         "Name": "Grim Tales",
         "url": "https://oldschool.runescape.wiki/w/Grim_Tales",
         "members": true,
@@ -1043,7 +1044,7 @@
             ]
         }
     },
-    {
+    "Haunted Mine": {
         "Name": "Haunted Mine",
         "url": "https://oldschool.runescape.wiki/w/Haunted_Mine",
         "members": true,
@@ -1065,7 +1066,7 @@
             ]
         }
     },
-    {
+    "Hazeel Cult": {
         "Name": "Hazeel Cult",
         "url": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
         "members": true,
@@ -1077,7 +1078,7 @@
             "levels": []
         }
     },
-    {
+    "Heroes' Quest": {
         "Name": "Heroes' Quest",
         "url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
         "members": true,
@@ -1099,7 +1100,7 @@
             }]
         }
     },
-    {
+    "Holy Grail": {
         "Name": "Holy Grail",
         "url": "https://oldschool.runescape.wiki/w/Holy_Grail",
         "members": true,
@@ -1115,7 +1116,7 @@
             }]
         }
     },
-    {
+    "Horror from the Deep": {
         "Name": "Horror from the Deep",
         "url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
         "members": true,
@@ -1131,7 +1132,7 @@
             }]
         }
     },
-    {
+    "Icthlarin's Little Helper": {
         "Name": "Icthlarin's Little Helper",
         "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
         "members": true,
@@ -1143,7 +1144,7 @@
             "levels": []
         }
     },
-    {
+    "Imp Catcher": {
         "Name": "Imp Catcher",
         "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
         "members": false,
@@ -1155,7 +1156,7 @@
             "levels": []
         }
     },
-    {
+    "In Aid of the Myreque": {
         "Name": "In Aid of the Myreque",
         "url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
         "members": true,
@@ -1184,7 +1185,7 @@
             ]
         }
     },
-    {
+    "In Search of the Myreque": {
         "Name": "In Search of the Myreque",
         "url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
         "members": true,
@@ -1202,7 +1203,7 @@
             }]
         }
     },
-    {
+    "Jungle Potion": {
         "Name": "Jungle Potion",
         "url": "https://oldschool.runescape.wiki/w/Jungle_Potion",
         "members": true,
@@ -1218,7 +1219,7 @@
             }]
         }
     },
-    {
+    "King's Ransom": {
         "Name": "King's Ransom",
         "url": "https://oldschool.runescape.wiki/w/King%27s_Ransom",
         "members": true,
@@ -1245,7 +1246,7 @@
             ]
         }
     },
-    {
+    "Legends' Quest": {
         "Name": "Legends' Quest",
         "url": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
         "members": true,
@@ -1318,7 +1319,7 @@
             ]
         }
     },
-    {
+    "Lost City": {
         "Name": "Lost City",
         "url": "https://oldschool.runescape.wiki/w/Lost_City",
         "members": true,
@@ -1340,7 +1341,7 @@
             ]
         }
     },
-    {
+    "Lunar Diplomacy": {
         "Name": "Lunar Diplomacy",
         "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
         "members": true,
@@ -1387,7 +1388,7 @@
             ]
         }
     },
-    {
+    "Making Friends with My Arm": {
         "Name": "Making Friends with My Arm",
         "url": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
         "members": true,
@@ -1424,7 +1425,7 @@
             ]
         }
     },
-    {
+    "Making History": {
         "Name": "Making History",
         "url": "https://oldschool.runescape.wiki/w/Making_History",
         "members": true,
@@ -1439,7 +1440,7 @@
             "levels": []
         }
     },
-    {
+    "Merlin's Crystal": {
         "Name": "Merlin's Crystal",
         "url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
         "members": true,
@@ -1451,7 +1452,7 @@
             "levels": []
         }
     },
-    {
+    "Misthalin Mystery": {
         "Name": "Misthalin Mystery",
         "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
         "members": false,
@@ -1463,7 +1464,7 @@
             "levels": []
         }
     },
-    {
+    "Monk's Friend": {
         "Name": "Monk's Friend",
         "url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
         "members": true,
@@ -1475,7 +1476,7 @@
             "levels": []
         }
     },
-    {
+    "Monkey Madness I": {
         "Name": "Monkey Madness I",
         "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
         "members": true,
@@ -1494,7 +1495,7 @@
             }]
         }
     },
-    {
+    "Monkey Madness II": {
         "Name": "Monkey Madness II",
         "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
         "members": true,
@@ -1542,7 +1543,7 @@
             ]
         }
     },
-    {
+    "Mountain Daughter": {
         "Name": "Mountain Daughter",
         "url": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
         "members": true,
@@ -1558,7 +1559,7 @@
             }]
         }
     },
-    {
+    "Mourning's Ends Part I": {
         "Name": "Mourning's Ends Part I",
         "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_I",
         "members": true,
@@ -1584,7 +1585,7 @@
             ]
         }
     },
-    {
+    "Mourning's Ends Part II": {
         "Name": "Mourning's Ends Part II",
         "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_II",
         "members": true,
@@ -1606,7 +1607,7 @@
             ]
         }
     },
-    {
+    "Murder Mystery": {
         "Name": "Murder Mystery",
         "url": "https://oldschool.runescape.wiki/w/Murder_Mystery",
         "members": true,
@@ -1618,7 +1619,7 @@
             "levels": []
         }
     },
-    {
+    "My Arm's Big Adventure": {
         "Name": "My Arm's Big Adventure",
         "url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
         "members": true,
@@ -1644,7 +1645,7 @@
             ]
         }
     },
-    {
+    "Nature Spirit": {
         "Name": "Nature Spirit",
         "url": "https://oldschool.runescape.wiki/w/Nature_Spirit",
         "members": true,
@@ -1663,7 +1664,7 @@
             }]
         }
     },
-    {
+    "Observatory Quest": {
         "Name": "Observatory Quest",
         "url": "https://oldschool.runescape.wiki/w/Observatory_Quest",
         "members": true,
@@ -1679,7 +1680,7 @@
             }]
         }
     },
-    {
+    "Olaf's Quest": {
         "Name": "Olaf's Quest",
         "url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
         "members": true,
@@ -1701,7 +1702,7 @@
             ]
         }
     },
-    {
+    "One Small Favour": {
         "Name": "One Small Favour",
         "url": "https://oldschool.runescape.wiki/w/One_Small_Favour",
         "members": true,
@@ -1736,7 +1737,7 @@
             ]
         }
     },
-    {
+    "Pirate's Treasure": {
         "Name": "Pirate's Treasure",
         "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
         "members": false,
@@ -1748,7 +1749,7 @@
             "levels": []
         }
     },
-    {
+    "Plague City": {
         "Name": "Plague City",
         "url": "https://oldschool.runescape.wiki/w/Plague_City",
         "members": true,
@@ -1760,7 +1761,7 @@
             "levels": []
         }
     },
-    {
+    "Priest in Peril": {
         "Name": "Priest in Peril",
         "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril",
         "members": true,
@@ -1772,7 +1773,7 @@
             "levels": []
         }
     },
-    {
+    "Prince Ali Rescue": {
         "Name": "Prince Ali Rescue",
         "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
         "members": false,
@@ -1784,7 +1785,7 @@
             "levels": []
         }
     },
-    {
+    "Rag and Bone Man": {
         "Name": "Rag and Bone Man",
         "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man",
         "members": true,
@@ -1796,7 +1797,7 @@
             "levels": []
         }
     },
-    {
+    "Rag and Bone Man II": {
         "Name": "Rag and Bone Man II",
         "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
         "members": true,
@@ -1818,7 +1819,7 @@
             ]
         }
     },
-    {
+    "Ratcatchers": {
         "Name": "Ratcatchers",
         "url": "https://oldschool.runescape.wiki/w/Ratcatchers",
         "members": true,
@@ -1832,7 +1833,7 @@
             "levels": []
         }
     },
-    {
+    "Recipe for Disaster": {
         "Name": "Recipe for Disaster",
         "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
         "members": true,
@@ -1933,7 +1934,7 @@
             ]
         }
     },
-    {
+    "Recruitment Drive": {
         "Name": "Recruitment Drive",
         "url": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
         "members": true,
@@ -1949,7 +1950,7 @@
             }]
         }
     },
-    {
+    "Regicide": {
         "Name": "Regicide",
         "url": "https://oldschool.runescape.wiki/w/Regicide",
         "members": true,
@@ -1973,7 +1974,7 @@
             ]
         }
     },
-    {
+    "Romeo & Juliet": {
         "Name": "Romeo & Juliet",
         "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
         "members": false,
@@ -1985,7 +1986,7 @@
             "levels": []
         }
     },
-    {
+    "Roving Elves": {
         "Name": "Roving Elves",
         "url": "https://oldschool.runescape.wiki/w/Roving_Elves",
         "members": true,
@@ -2000,7 +2001,7 @@
             "levels": []
         }
     },
-    {
+    "Royal Trouble": {
         "Name": "Royal Trouble",
         "url": "https://oldschool.runescape.wiki/w/Royal_Trouble",
         "members": true,
@@ -2022,7 +2023,7 @@
             ]
         }
     },
-    {
+    "Rum Deal": {
         "Name": "Rum Deal",
         "url": "https://oldschool.runescape.wiki/w/Rum_Deal",
         "members": true,
@@ -2062,7 +2063,7 @@
             ]
         }
     },
-    {
+    "Rune Mysteries": {
         "Name": "Rune Mysteries",
         "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
         "members": false,
@@ -2074,7 +2075,7 @@
             "levels": []
         }
     },
-    {
+    "Scorpion Catcher": {
         "Name": "Scorpion Catcher",
         "url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
         "members": true,
@@ -2090,7 +2091,7 @@
             }]
         }
     },
-    {
+    "Sea Slug": {
         "Name": "Sea Slug",
         "url": "https://oldschool.runescape.wiki/w/Sea_Slug",
         "members": true,
@@ -2102,7 +2103,7 @@
             "levels": []
         }
     },
-    {
+    "Shades of Mort'ton": {
         "Name": "Shades of Mort'ton",
         "url": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
         "members": true,
@@ -2129,7 +2130,7 @@
             ]
         }
     },
-    {
+    "Shadow of the Storm": {
         "Name": "Shadow of the Storm",
         "url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
         "members": true,
@@ -2144,7 +2145,7 @@
             "levels": []
         }
     },
-    {
+    "Sheep Herder": {
         "Name": "Sheep Herder",
         "url": "https://oldschool.runescape.wiki/w/Sheep_Herder",
         "members": true,
@@ -2156,7 +2157,7 @@
             "levels": []
         }
     },
-    {
+    "Sheep Shearer": {
         "Name": "Sheep Shearer",
         "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
         "members": false,
@@ -2168,7 +2169,7 @@
             "levels": []
         }
     },
-    {
+    "Shield of Arrav": {
         "Name": "Shield of Arrav",
         "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
         "members": false,
@@ -2180,7 +2181,7 @@
             "levels": []
         }
     },
-    {
+    "Shilo Village": {
         "Name": "Shilo Village",
         "url": "https://oldschool.runescape.wiki/w/Shilo_Village",
         "members": true,
@@ -2207,7 +2208,7 @@
             ]
         }
     },
-    {
+    "Spirits of the Elid": {
         "Name": "Spirits of the Elid",
         "url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
         "members": true,
@@ -2239,7 +2240,7 @@
             ]
         }
     },
-    {
+    "Swan Song": {
         "Name": "Swan Song",
         "url": "https://oldschool.runescape.wiki/w/Swan_Song",
         "members": true,
@@ -2289,7 +2290,7 @@
             ]
         }
     },
-    {
+    "Tai Bwo Wannai Trio": {
         "Name": "Tai Bwo Wannai Trio",
         "url": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
         "members": true,
@@ -2316,7 +2317,7 @@
             ]
         }
     },
-    {
+    "Tale of the Righteous": {
         "Name": "Tale of the Righteous",
         "url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
         "members": true,
@@ -2340,8 +2341,8 @@
             ]
         }
     },
-    {
-        "Name": "Tears of Guthix (quest)",
+    "Tears of Guthix": {
+        "Name": "Tears of Guthix",
         "url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix_(quest)",
         "members": true,
         "Difficulty": "Master",
@@ -2372,7 +2373,7 @@
             ]
         }
     },
-    {
+    "Temple of Ikov": {
         "Name": "Temple of Ikov",
         "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
         "members": true,
@@ -2394,7 +2395,7 @@
             ]
         }
     },
-    {
+    "The Ascent of Arceuus": {
         "Name": "The Ascent of Arceuus",
         "url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
         "members": true,
@@ -2412,7 +2413,7 @@
             }]
         }
     },
-    {
+    "The Corsair Curse": {
         "Name": "The Corsair Curse",
         "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
         "members": false,
@@ -2424,7 +2425,7 @@
             "levels": []
         }
     },
-    {
+    "The Depths of Despair": {
         "Name": "The Depths of Despair",
         "url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
         "members": true,
@@ -2442,7 +2443,7 @@
             }]
         }
     },
-    {
+    "The Dig Site": {
         "Name": "The Dig Site",
         "url": "https://oldschool.runescape.wiki/w/The_Dig_Site",
         "members": true,
@@ -2469,7 +2470,7 @@
             ]
         }
     },
-    {
+    "The Eyes of Glouphrie": {
         "Name": "The Eyes of Glouphrie",
         "url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
         "members": true,
@@ -2491,7 +2492,7 @@
             ]
         }
     },
-    {
+    "The Feud": {
         "Name": "The Feud",
         "url": "https://oldschool.runescape.wiki/w/The_Feud",
         "members": true,
@@ -2507,7 +2508,7 @@
             }]
         }
     },
-    {
+    "The Forsaken Tower": {
         "Name": "The Forsaken Tower",
         "url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
         "members": true,
@@ -2519,7 +2520,7 @@
             "levels": []
         }
     },
-    {
+    "The Fremennik Isles": {
         "Name": "The Fremennik Isles",
         "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
         "members": true,
@@ -2541,7 +2542,7 @@
             ]
         }
     },
-    {
+    "The Fremennik Trials": {
         "Name": "The Fremennik Trials",
         "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
         "members": true,
@@ -2553,7 +2554,7 @@
             "levels": []
         }
     },
-    {
+    "The Giant Dwarf": {
         "Name": "The Giant Dwarf",
         "url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
         "members": true,
@@ -2595,7 +2596,7 @@
             ]
         }
     },
-    {
+    "The Golem": {
         "Name": "The Golem",
         "url": "https://oldschool.runescape.wiki/w/The_Golem",
         "members": true,
@@ -2617,7 +2618,7 @@
             ]
         }
     },
-    {
+    "The Grand Tree": {
         "Name": "The Grand Tree",
         "url": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
         "members": true,
@@ -2633,7 +2634,7 @@
             }]
         }
     },
-    {
+    "The Great Brain Robbery": {
         "Name": "The Great Brain Robbery",
         "url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
         "members": true,
@@ -2664,7 +2665,7 @@
             ]
         }
     },
-    {
+    "The Hand in the Sand": {
         "Name": "The Hand in the Sand",
         "url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
         "members": true,
@@ -2676,7 +2677,7 @@
             "levels": []
         }
     },
-    {
+    "The Knight's Sword": {
         "Name": "The Knight's Sword",
         "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
         "members": false,
@@ -2692,7 +2693,7 @@
             }]
         }
     },
-    {
+    "The Lost Tribe": {
         "Name": "The Lost Tribe",
         "url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
         "members": true,
@@ -2719,7 +2720,7 @@
             ]
         }
     },
-    {
+    "The Queen of Thieves": {
         "Name": "The Queen of Thieves",
         "url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
         "members": true,
@@ -2737,7 +2738,7 @@
             }]
         }
     },
-    {
+    "The Restless Ghost": {
         "Name": "The Restless Ghost",
         "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
         "members": false,
@@ -2749,7 +2750,7 @@
             "levels": []
         }
     },
-    {
+    "The Slug Menace": {
         "Name": "The Slug Menace",
         "url": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
         "members": true,
@@ -2781,7 +2782,7 @@
             ]
         }
     },
-    {
+    "The Tourist Trap": {
         "Name": "The Tourist Trap",
         "url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
         "members": true,
@@ -2803,7 +2804,7 @@
             ]
         }
     },
-    {
+    "Throne of Miscellania": {
         "Name": "Throne of Miscellania",
         "url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
         "members": true,
@@ -2835,7 +2836,7 @@
             ]
         }
     },
-    {
+    "Tower of Life": {
         "Name": "Tower of Life",
         "url": "https://oldschool.runescape.wiki/w/Tower_of_Life",
         "members": true,
@@ -2851,7 +2852,7 @@
             }]
         }
     },
-    {
+    "Tree Gnome Village": {
         "Name": "Tree Gnome Village",
         "url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
         "members": true,
@@ -2863,7 +2864,7 @@
             "levels": []
         }
     },
-    {
+    "Tribal Totem": {
         "Name": "Tribal Totem",
         "url": "https://oldschool.runescape.wiki/w/Tribal_Totem",
         "members": true,
@@ -2879,7 +2880,7 @@
             }]
         }
     },
-    {
+    "Troll Romance": {
         "Name": "Troll Romance",
         "url": "https://oldschool.runescape.wiki/w/Troll_Romance",
         "members": true,
@@ -2893,7 +2894,7 @@
             "levels": []
         }
     },
-    {
+    "Troll Stronghold": {
         "Name": "Troll Stronghold",
         "url": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
         "members": true,
@@ -2909,7 +2910,7 @@
             }]
         }
     },
-    {
+    "Underground Pass": {
         "Name": "Underground Pass",
         "url": "https://oldschool.runescape.wiki/w/Underground_Pass",
         "members": true,
@@ -2927,7 +2928,7 @@
             }]
         }
     },
-    {
+    "Vampire Slayer": {
         "Name": "Vampire Slayer",
         "url": "https://oldschool.runescape.wiki/w/Vampire_Slayer",
         "members": false,
@@ -2939,7 +2940,7 @@
             "levels": []
         }
     },
-    {
+    "Wanted!": {
         "Name": "Wanted!",
         "url": "https://oldschool.runescape.wiki/w/Wanted!",
         "members": true,
@@ -2960,7 +2961,7 @@
             }]
         }
     },
-    {
+    "Watchtower": {
         "Name": "Watchtower",
         "url": "https://oldschool.runescape.wiki/w/Watchtower",
         "members": true,
@@ -2997,7 +2998,7 @@
             ]
         }
     },
-    {
+    "Waterfall Quest": {
         "Name": "Waterfall Quest",
         "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest",
         "members": true,
@@ -3009,7 +3010,7 @@
             "levels": []
         }
     },
-    {
+    "What Lies Below": {
         "Name": "What Lies Below",
         "url": "https://oldschool.runescape.wiki/w/What_Lies_Below",
         "members": true,
@@ -3021,7 +3022,7 @@
             "levels": []
         }
     },
-    {
+    "Witch's House": {
         "Name": "Witch's House",
         "url": "https://oldschool.runescape.wiki/w/Witch%27s_House",
         "members": true,
@@ -3033,7 +3034,7 @@
             "levels": []
         }
     },
-    {
+    "Witch's Potion": {
         "Name": "Witch's Potion",
         "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
         "members": false,
@@ -3045,7 +3046,7 @@
             "levels": []
         }
     },
-    {
+    "Zogre Flesh Eaters": {
         "Name": "Zogre Flesh Eaters",
         "url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
         "members": true,
@@ -3090,4 +3091,4 @@
             ]
         }
     }
-]
+}

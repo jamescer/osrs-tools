@@ -16,10 +16,9 @@ Used to get individual quest requirements
 
 
 ##### Example
-
 ```python
-import quest_checker as qc
-qc.ACCOUNT = 'not poop'
+from quest_checker import QuestChecker
+qc = QuestChecker('jimbo jango', 300)
 qc.has_levels_for_quest('Regicide')
 ```
 
@@ -31,10 +30,9 @@ qc.has_levels_for_quest('Regicide')
 #### `get_doable_quests()`
 
 ##### Example
-
 ```python
-import quest_checker as qc
-qc.ACCOUNT = 'not poop'
+from quest_checker import QuestChecker
+qc = QuestChecker('jimbo jango', 300)
 qc.get_doable_quests()
 ```
 

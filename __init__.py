@@ -1,0 +1,1 @@
+name = "osrs-quest-tool"

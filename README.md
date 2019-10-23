@@ -1,39 +1,31 @@
-# osrs-quest-api ![npm](https://img.shields.io/npm/v/osrs-quest-api.svg) [![Build Status](https://travis-ci.org/cerniglj1/osrs-quest-api.svg?branch=master)](https://travis-ci.org/cerniglj1/osrs-quest-api)
+# osrs-quest-tool ![npm](https://img.shields.io/npm/v/osrs-quest-api.svg)  [![Build Status](https://travis-ci.org/cerniglj1/osrs-quest-api.svg?branch=master)](https://travis-ci.org/cerniglj1/osrs-quest-api)  [![Coverage Status](https://coveralls.io/repos/github/cerniglj1/osrs-quest-api/badge.svg?branch=master)](https://coveralls.io/github/cerniglj1/osrs-quest-api?branch=master)
 
 An api using json data to see if your account is able to complete certain quests. Uses the osrs-api package as well.
 
-
-
 ## Installation 
 ```
-$ npm install --save osrs-quest-api
+pip install osrs-quest-tool
 ```
 
-## Usage
-
-### Get individual quest requirements
-#### `has_levels_for_quest(quest_name)`
-Used to get individual quest requirements
-
-
-##### Example
+### Example
 ```python
 from quest_checker import QuestChecker
 qc = QuestChecker('jimbo jango', 300)
-qc.has_levels_for_quest('Regicide')
+#QuestChecker('ACCOUNT_NAME', QUEST_POINT_AMOUNT)
+qc.meets_requirements('Regicide')
+qc.get_requirements('One Small Favour')
+doable = qc.get_doable_quests()
 ```
 
-##### Output
+### Get the requirements of a quest.
+#### `z = meets_requirements(quest_name)`
+> Used to get individual quest requirements. Returns a dictionary object
 
-<span style="color:blue">Regicide</span>
+### Obtain a dictionary of all the quests you are capable of doing with the levels.
+#### `x = get_doable_quests()`
+> Used to get individual quest requirements. Returns a dictionary object
 
-#### Get all quests that are can be done at the current levels of the account
-#### `get_doable_quests()`
 
-##### Example
-```python
-from quest_checker import QuestChecker
-qc = QuestChecker('jimbo jango', 300)
-qc.get_doable_quests()
-```
+
+
 

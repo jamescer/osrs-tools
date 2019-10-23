@@ -8,6 +8,7 @@ python:
 cache: pip
 env:
   global:
+    - CC_TEST_REPORTER_ID="58d571423b2d02e007995b3be93180be43b0a49546f96a081a3cc2a67b82c521"
     - CODECOV_TOKEN="8369c0da-f715-49f6-b3c7-3f346517c231"
 install:
   - pip install -r requirements.txt

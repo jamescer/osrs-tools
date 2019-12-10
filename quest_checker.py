@@ -87,6 +87,9 @@ class QuestChecker(object):
         '''
         Checks the requirements for the quest and if it's
         '''
+        if 'subquest of Recipe for Disaster' in quest_name:
+            # TODO
+            return True
         cur_quest = self.quest_data[quest_name]
 
         has_all_level_reqs = True
@@ -116,6 +119,10 @@ class QuestChecker(object):
 
         if "quests" in cur_quest['requirements']:
             for i in cur_quest['requirements']['quests']:
+                if 'Started ' in i:
+                    i=i.split('Started ')[1]
+                    print(i)
+                
                 if self.meets_requirements(i) == False:
                     has_all_level_reqs = False
 

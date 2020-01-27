@@ -16,6 +16,8 @@
         "old school runescape",
         "osrs quest",
         "osrs quest api",
+        "osrs quest tool",
+        "osrs-quest-tool",
         "osrs-quest-api"
     ],
     "author": "James Cerniglia <imzessed@gmail.com>, credits to https://www.npmjs.com/~bardiches",

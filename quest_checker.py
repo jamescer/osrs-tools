@@ -19,6 +19,7 @@ Red = unboostable and not doable
 
 class QuestChecker(object):
     account = 0
+    account_name=''
     quest_points = 0
     combat_level = 0
     quest_data = {}
@@ -28,7 +29,7 @@ class QuestChecker(object):
 
         with open(data_file) as json_file:
             self.quest_data = json.load(json_file)
-
+        self.account_name = args[0] if len(args) > 0 else Hiscores('jimbo jango')
         self.account = Hiscores(args[0]) if len(
             args) > 0 else Hiscores('jimbo jango')
         self.quest_points = args[1] if len(args) > 1 else 325
@@ -85,10 +86,12 @@ class QuestChecker(object):
 
     def meets_requirements(self, quest_name):
         '''
-        Checks the requirements for the quest and if it's
+        Checks the requirements for the quest and if it's possible for the account.
+        Returns a Boolean if the quest is possible to complete or not (False or True)
         '''
         if 'subquest of Recipe for Disaster' in quest_name:
             # TODO
+            # Pirate Pete Subquest of Recipe for Disaster
             return True
         cur_quest = self.quest_data[quest_name]
 
@@ -109,8 +112,11 @@ class QuestChecker(object):
                         has_all_level_reqs = False
 
                 elif self.account.skills[i['skill']].level >= i['level']:
+                    # If you have a level higher than the one required
+
                     pass
                 elif (self.account.skills[i['skill']].level - i['level'] <= 5) and i['boostable'] == True:
+                    # If the skill is boostable and the boost is within 5 levels of yours
                     boost = True
                     pass
                 else:
@@ -120,9 +126,11 @@ class QuestChecker(object):
         if "quests" in cur_quest['requirements']:
             for i in cur_quest['requirements']['quests']:
                 if 'Started ' in i:
-                    i=i.split('Started ')[1]
-                    print(i)
-                
+                    # Incase quests are formally named with "started" Legend's quests etc...
+                    # You have to have the requirements of that quest to start it as well
+                    i = i.split('Started ')[1]
+
+                # Recursively calls itself for each quest that is required to complete the current quest.
                 if self.meets_requirements(i) == False:
                     has_all_level_reqs = False
 
@@ -133,6 +141,7 @@ class QuestChecker(object):
         # elif has_all_level_reqs == False:
         #     print(Fore.RED + quest_name)
         #     print(self.get_requirements(quest_name))
+
         return has_all_level_reqs
 
     def get_cb_lvl(self, acc):
@@ -143,8 +152,13 @@ class QuestChecker(object):
         return int(0.25 * (acc.skills['defence'].level +
                            acc.skills['hitpoints'].level + (acc.skills['prayer'].level/2)) + x[-1])
 
+    def help(self):
+        return '-- Your python file can contain a simple configuration like so: --\nfrom quest_checker import QuestChecker \nqc = QuestChecker(\'jimbo jango\', 300) \nqc.meets_requirements(\'Regicide\')'
+
     def __str__(self):
-        return 'from quest_checker import QuestChecker \n qc = QuestChecker(\'jimbo jango\', 300) \n qc.meets_requirements(\'Regicide\')'
+        return 'QuestChecker object associated to the account: ' + str(self.account_name) + '\n' +\
+            'Account Quest Points: ' + str(self.quest_points) + '\n' +\
+            'Account Combat Level: ' + str(self.combat_level)
 
     def __repr__(self):
         return super().__str__()

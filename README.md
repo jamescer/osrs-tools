@@ -26,6 +26,7 @@ doable = qc.get_doable_quests()
 > Used to get individual quest requirements. Returns a dictionary object
 
 
-
+# TODO
+- Must add new quests like Song of the Elves to the api
 
 

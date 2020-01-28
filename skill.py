@@ -23,3 +23,7 @@ class Skill(object):
 
     def __repr__(self):
         return self.__str__()
+
+
+if __name__ == "__main__":
+    a = Skill('attack')

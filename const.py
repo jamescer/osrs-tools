@@ -50,4 +50,5 @@ GE_BY_ID = BASE_URL_GE + 'api/catalogue/detail.json?item='
 GE_ICON = BASE_URL_GE + "obj_sprite.gif?id="
 GE_LARGE_ICON = BASE_URL_GE + "obj_big.gif?id="
 
-OSBUDDY_PRICE_URI = "http://api.rsbuddy.com/grandExchange?a=guidePrice&i="
+# This URL does not work anymore
+# OSBUDDY_PRICE_URI = "http://api.rsbuddy.com/grandExchange?a=guidePrice&i="

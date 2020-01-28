@@ -1,10 +1,9 @@
 import sys
 import json
-import priceinfo
-import pricetrend
-from item import Item
+
+
 from hiscores import Hiscores
-import grandexchange
+
 
 # init(autoreset=True)
 

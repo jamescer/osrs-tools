@@ -3,6 +3,10 @@
     "description": "An api using json data to see if your account is able to complete certain quests. Uses the osrs-api package as well.",
     "version": "0.1.2",
     "main": "quest_checker.py",
+    "notes": [
+        "python -m pip install --user --upgrade twine -",
+        "python - m twine upload--repository - url https: //test.pypi.org/legacy/ dist/*"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },

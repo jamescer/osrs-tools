@@ -5,8 +5,8 @@ import pricetrend
 from item import Item
 from hiscores import Hiscores
 import grandexchange
-from colorama import init, Fore, Back, Style
-init(autoreset=True)
+
+# init(autoreset=True)
 
 """
 CONSTANTS

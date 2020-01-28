@@ -31,7 +31,7 @@ class PriceTrend(object):
 		return "p:%s---t:%s---c:%s" % (self.price, self.trend, self.change)
 
 def main():
-	pt = PriceTrend(' 1,320k', 'neutral', '+5.0%')
+	pt = PriceTrend('1,320k', 'neutral', '+5.0%')
 	print(str(pt))
 
 if __name__ == '__main__':

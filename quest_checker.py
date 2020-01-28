@@ -45,12 +45,14 @@ class QuestChecker(object):
                 doable.update({i: True})
         return doable
 
+
+    '''
+    Returns a dictionary with skills and quests with their respective requirements that are required for completing the quest passed in the argument.
+    Returns a dictionary object relating to the quest.
+    Recursively calls itself.
+    '''
     def get_requirements(self, quest_name):
-        '''
-        Returns a dictionary with skills and quests with their respective requirements that are required for completing the quest passed in the argument.
-        Returns a dictionary object relating to the quest.
-        Recursively calls itself.
-        '''
+       
 
         cur_quest = self.quest_data[quest_name]
 
@@ -84,11 +86,13 @@ class QuestChecker(object):
                 quest_incomplete_dict['quests'].update(temp_dict)
         return quest_incomplete_dict
 
+      
+    '''
+    Checks the requirements for the quest and if it's possible for the account.
+    Returns a Boolean if the quest is possible to complete or not (False or True)
+    '''
     def meets_requirements(self, quest_name):
-        '''
-        Checks the requirements for the quest and if it's possible for the account.
-        Returns a Boolean if the quest is possible to complete or not (False or True)
-        '''
+      
         if 'subquest of Recipe for Disaster' in quest_name:
             # TODO
             # Pirate Pete Subquest of Recipe for Disaster
@@ -131,16 +135,6 @@ class QuestChecker(object):
                 # Recursively calls itself for each quest that is required to complete the current quest.
                 if self.meets_requirements(i) == False:
                     has_all_level_reqs = False
-
-        '''
-            if has_all_level_reqs == True and boost == True:
-                print(Fore.BLUE + quest_name)
-            elif has_all_level_reqs == True:
-                print(Fore.GREEN + quest_name)
-            elif has_all_level_reqs == False:
-                print(Fore.RED + quest_name)
-                print(self.get_requirements(quest_name))
-'''
         return has_all_level_reqs
 
     def get_cb_lvl(self, acc):

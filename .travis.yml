@@ -18,9 +18,6 @@ install:
 script:
   - python test_qc.py
   - python setup.py sdist bdist_wheel
-
-  - python pricetrend.py
-  - python priceinfo.py
   - pytest test_qc.py
   - coverage run --source=./ test_qc.py
   - coveralls

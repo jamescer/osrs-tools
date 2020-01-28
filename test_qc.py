@@ -2,6 +2,7 @@
 from quest_checker import QuestChecker
 from skill import Skill
 from hiscores import Hiscores
+import const
 a = Skill('attack')
 top = Hiscores('Lelalt', const.AccountType.IRONMAN)
 print(str(top))

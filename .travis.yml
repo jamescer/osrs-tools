@@ -16,11 +16,11 @@ install:
   
 # command to run tests
 script:
-  - python test_example.py
+  - python test_qc.py
   - python setup.py
   - python pricetrend.py
   - python priceinfo.py
-  - pytest test_example.py
+  - pytest test_qc.py
   - coverage run --source=./ test_qc.py
   - coveralls
   - codecov --token=8369c0da-f715-49f6-b3c7-3f346517c231

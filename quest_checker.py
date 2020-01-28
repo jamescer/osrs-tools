@@ -19,7 +19,7 @@ Red = unboostable and not doable
 
 class QuestChecker(object):
     account = 0
-    account_name=''
+    account_name = ''
     quest_points = 0
     combat_level = 0
     quest_data = {}
@@ -29,7 +29,8 @@ class QuestChecker(object):
 
         with open(data_file) as json_file:
             self.quest_data = json.load(json_file)
-        self.account_name = args[0] if len(args) > 0 else Hiscores('jimbo jango')
+        self.account_name = args[0] if len(
+            args) > 0 else Hiscores('jimbo jango')
         self.account = Hiscores(args[0]) if len(
             args) > 0 else Hiscores('jimbo jango')
         self.quest_points = args[1] if len(args) > 1 else 325
@@ -99,21 +100,19 @@ class QuestChecker(object):
         boost = False
         if "levels" in cur_quest['requirements']:
             for i in cur_quest['requirements']['levels']:
+                # if your combat quest points are greater than required
                 if i['skill'] == 'quest':
-                    if self.quest_points >= i['level']:
-                        pass
-                    else:
+                    if self.quest_points < i['level']:
+                        # if you have less than the amount of quest oints required
                         has_all_level_reqs = False
 
                 elif i['skill'] == 'combat':
-                    if self.combat_level >= i['level']:
-                        pass
-                    else:
+                    
+                    if self.combat_level < i['level']:
+                        # if you have a combat level lower than the one required
                         has_all_level_reqs = False
-
                 elif self.account.skills[i['skill']].level >= i['level']:
                     # If you have a level higher than the one required
-
                     pass
                 elif (self.account.skills[i['skill']].level - i['level'] <= 5) and i['boostable'] == True:
                     # If the skill is boostable and the boost is within 5 levels of yours
@@ -134,14 +133,15 @@ class QuestChecker(object):
                 if self.meets_requirements(i) == False:
                     has_all_level_reqs = False
 
-        # if has_all_level_reqs == True and boost == True:
-        #     print(Fore.BLUE + quest_name)
-        # elif has_all_level_reqs == True:
-        #     print(Fore.GREEN + quest_name)
-        # elif has_all_level_reqs == False:
-        #     print(Fore.RED + quest_name)
-        #     print(self.get_requirements(quest_name))
-
+        '''
+            if has_all_level_reqs == True and boost == True:
+                print(Fore.BLUE + quest_name)
+            elif has_all_level_reqs == True:
+                print(Fore.GREEN + quest_name)
+            elif has_all_level_reqs == False:
+                print(Fore.RED + quest_name)
+                print(self.get_requirements(quest_name))
+'''
         return has_all_level_reqs
 
     def get_cb_lvl(self, acc):

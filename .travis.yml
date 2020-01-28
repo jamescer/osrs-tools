@@ -21,7 +21,7 @@ script:
   - python pricetrend.py
   - python priceinfo.py
   - pytest test_example.py
-  - coverage run --source=./ test_example.py
+  - coverage run --source=./ test_qc.py
   - coveralls
   - codecov --token=8369c0da-f715-49f6-b3c7-3f346517c231
 

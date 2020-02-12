@@ -19,7 +19,7 @@ class Skill(object):
         return const.XP_TABLE[level - 1] - self.xp
 
     def __str__(self):
-        return "rank-%s level-%s xp-%s" % (str(self.rank), str(self.level), str(self.xp))
+        return "Name:" + self.name+", rank:"+str(self.rank) + ", level:"+str(self.level) + ", xp:"+str(self.xp)
 
     def __repr__(self):
         return self.__str__()

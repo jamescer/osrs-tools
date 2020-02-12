@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="osrs-quest-tool",
-    version="0.0.1",
+    version="0.0.2",
     author="James Cerniglia",
     author_email="cerniglj1@hawkmail.newpaltz.edu",
     description="A package to help developers access a structured form of runescape quests",

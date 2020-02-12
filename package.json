@@ -1,8 +1,8 @@
 {
-    "name": "osrs-quest-api",
+    "name": "osrs-quest-tool",
     "description": "An api using json data to see if your account is able to complete certain quests. Uses the osrs-api package as well.",
-    "version": "0.1.2",
-    "main": "quest_checker.py",
+    "version": "0.1.3",
+    "main": "QuestTool.py",
     "notes": [
         "python -m pip install --user --upgrade twine",
         "python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*"

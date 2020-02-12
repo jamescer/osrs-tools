@@ -524,7 +524,11 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 3000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1029,7 +1033,11 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 2000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1116,7 +1124,11 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 12175
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1353,7 +1365,11 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 3075
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1463,7 +1479,11 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 2000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1487,7 +1507,11 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 600
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1907,7 +1931,11 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 1000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -2885,7 +2913,11 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 2500
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3229,7 +3261,11 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 2812
+                }
+            ],
             "QuestPoints": 3
         }
     },
@@ -3325,7 +3361,11 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 18400
+                }
+            ],
             "QuestPoints": 5
         }
     },
@@ -3610,7 +3650,11 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 11450
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3696,7 +3740,11 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 3000
+                }
+            ],
             "QuestPoints": 5
         }
     },
@@ -3712,7 +3760,11 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 4825
+                }
+            ],
             "QuestPoints": 3
         }
     },
@@ -3797,7 +3849,11 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "attack": 13750
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3899,4 +3955,5 @@
             "QuestPoints": 1
         }
     }
+}
 }

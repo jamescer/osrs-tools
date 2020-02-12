@@ -4,29 +4,80 @@ An api using json data to see if your account is able to complete certain quests
 
 ## Installation 
 ```
-pip install QuestTool
+pip install osrs-quest-tool
 ```
 
 ### Example
 ```python
 from QuestTool import QuestTool
-qc = QuestTool('jimbo jango', 300)
+qt = QuestTool('jimbo jango', 300)
 #QuestTool('ACCOUNT_NAME', QUEST_POINT_AMOUNT)
-qc.meetsRequirements('Regicide')
-qc.getRequirements('One Small Favour')
-doable = qc.getDoableQuests()
+qt.meetsRequirements('Regicide')
+qt.getRequirements('One Small Favour')
+doable = qt.getDoableQuests()
 ```
 
-### Get the requirements of a quest.
-#### `z = meets_requirements(quest_name)`
-> Used to get individual quest requirements. Returns a dictionary object
+### Methods
+#### `x = qt.meetsRequirements('Regicide')`
+> Used to see if the character associated with the Quest Tool is able to complete the quest input. Returns a boolean
+```python
+print(x)
+True
+```
 
-### Obtain a dictionary of all the quests you are capable of doing with the levels.
-#### `x = get_doable_quests()`
+#### `x = qt.getRequirements('One Small Favour')`
 > Used to get individual quest requirements. Returns a dictionary object
+```python
+{
+    "skills": {
+        "agility": 36,
+        "crafting": 25,
+        "herblore": 18,
+        "smithing": 30
+    },
+    "quests": {
+        "Rune Mysteries": {
+            "skills": {},
+            "quests": {}
+        },
+        "Shilo Village": {
+            "skills": {
+                "crafting": 20,
+                "agility": 32,
+                "smithing": 4
+            },
+            "quests": {}
+        }
+    }
+}
+```
+
+#### `z = qt.getDoableQuests()`
+> Used to get all quests that can be done with the associated account (includes boosts). Returns a dictionary object
+```python
+{
+    "A Soul's Bane": True,
+    "A Tail of Two Cats" True,
+    "Animal Magnetism" True,
+    "Big Chompy Bird Hunting" True,
+    "Biohazard" True,
+    "Black Knights' Fortress": True,
+    "Bone Voyage" True,
+    "Client of Kourend" True,
+    "Clock Tower" True,
+    "Contact!" True,
+    .
+    .
+    .
+    "Waterfall Quest" True,
+    "What Lies Below" True,
+    "Witch's House": True,
+    "Witch's Potion": True
+}
 
 
 # TODO
-- Must add new quests like Song of the Elves to the api
+- Must restructure Recipe for Disaster subsection and find proper structure for the subquests it involves
+- Must add new quests like Song of the Elves, Fremnick Exiles (cannot find old api I snagged data from) to the api
 
 

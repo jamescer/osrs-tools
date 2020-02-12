@@ -1,5 +1,5 @@
 
-from quest_checker import QuestChecker
+from QuestTool import QuestTool
 from skill import Skill
 from hiscores import Hiscores
 import const
@@ -9,10 +9,10 @@ print(str(top))
 
 
 def test_qc():
-    qc = QuestChecker('jimbo jango', 300)
-    print(qc.meets_requirements('Regicide'))
-    print(qc.get_requirements('One Small Favour'))
-    doable = qc.get_doable_quests()
+    qc = QuestTool('jimbo jango', 300)
+    print(qc.meetsRequirements('Regicide'))
+    print(qc.getRequirements('One Small Favour'))
+    doable = qc.getDoableQuests()
     print(doable)
 
 

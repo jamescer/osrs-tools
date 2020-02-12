@@ -39,7 +39,8 @@
             "quests": [
                 "Darkness of Hallowvale"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 48,
                     "boostable": false
@@ -81,7 +82,8 @@
                 "Ernest the Chicken",
                 "Priest in Peril"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "slayer",
                     "level": 18,
                     "boostable": false
@@ -124,7 +126,8 @@
                 "The Dig Site",
                 "Druidic Ritual"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "attack",
                     "level": 15,
                     "boostable": false
@@ -150,7 +153,8 @@
                 "Dwarf Cannon",
                 "Fishing Contest"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "defence",
                     "level": 30,
                     "boostable": false
@@ -178,7 +182,8 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "fletching",
                     "level": 5,
                     "boostable": false
@@ -219,11 +224,13 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "quest",
-                "level": 12,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "quest",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Bone Voyage": {
@@ -255,7 +262,8 @@
                 "Rum Deal",
                 "Priest in Peril"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 42,
                     "boostable": false
@@ -314,7 +322,8 @@
         "Length": "Medium - Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "hunter",
                     "level": 10,
                     "boostable": false
@@ -384,7 +393,8 @@
                 "Priest in Peril",
                 "The Restless Ghost"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -409,7 +419,8 @@
             "quests": [
                 "In Aid of the Myreque"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "construction",
                     "level": 5,
                     "boostable": false
@@ -472,7 +483,8 @@
             "quests": [
                 "The Lost Tribe"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 23,
                     "boostable": false
@@ -515,7 +527,8 @@
                 "Priest in Peril",
                 "Waterfall Quest"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "thieving",
                     "level": 53,
                     "boostable": true
@@ -553,7 +566,8 @@
                 "Doric's Quest",
                 "Enter the Abyss"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "smithing",
                     "level": 65,
                     "boostable": true
@@ -581,11 +595,13 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "mining",
-                "level": 15,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "mining",
+                    "level": 15,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Dragon Slayer": {
@@ -598,7 +614,8 @@
         "Length": "Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "quest",
                     "level": 32,
                     "boostable": false
@@ -629,11 +646,13 @@
                 "Bone Voyage",
                 "Client of Kourend"
             ],
-            "levels": [{
-                "skill": "quest",
-                "level": 200,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "quest",
+                    "level": 200,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Dream Mentor": {
@@ -649,11 +668,13 @@
                 "Lunar Diplomacy",
                 "Eadgar's Ruse"
             ],
-            "levels": [{
-                "skill": "combat",
-                "level": 85,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "combat",
+                    "level": 85,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Druidic Ritual": {
@@ -695,7 +716,8 @@
                 "Druidic Ritual",
                 "Troll Stronghold"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "herblore",
                     "level": 31,
                     "boostable": true
@@ -718,11 +740,13 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "hunter",
-                "level": 27,
-                "boostable": true
-            }]
+            "levels": [
+                {
+                    "skill": "hunter",
+                    "level": 27,
+                    "boostable": true
+                }
+            ]
         }
     },
     "Elemental Workshop I": {
@@ -735,7 +759,8 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "mining",
                     "level": 20,
                     "boostable": false
@@ -763,7 +788,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "magic",
                     "level": 20,
                     "boostable": false
@@ -786,7 +812,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 50,
                     "boostable": false
@@ -824,7 +851,8 @@
         "Length": "Short - Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "quest",
                     "level": 20,
                     "boostable": false
@@ -903,7 +931,8 @@
             "quests": [
                 "Fairytale I - Growing Pains"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "thieving",
                     "level": 40,
                     "boostable": true
@@ -931,7 +960,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "mining",
                     "level": 40,
                     "boostable": true
@@ -977,11 +1007,13 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "fishing",
-                "level": 10,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "fishing",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Forgettable Tale...": {
@@ -997,7 +1029,8 @@
                 "The Giant Dwarf",
                 "Fishing Contest"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "cooking",
                     "level": 22,
                     "boostable": false
@@ -1022,11 +1055,13 @@
             "quests": [
                 "Creature of Fenkenstrain"
             ],
-            "levels": [{
-                "skill": "farming",
-                "level": 25,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "farming",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Gertrude's Cat": {
@@ -1078,7 +1113,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "farming",
                     "level": 45,
                     "boostable": true
@@ -1116,7 +1152,8 @@
         "Length": "Medium - Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 15,
                     "boostable": false
@@ -1158,11 +1195,13 @@
                 "Dragon Slayer",
                 "Druidic Ritual"
             ],
-            "levels": [{
-                "skill": "quest",
-                "level": 55,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "quest",
+                    "level": 55,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Holy Grail": {
@@ -1175,11 +1214,13 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "attack",
-                "level": 20,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "attack",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Horror from the Deep": {
@@ -1192,11 +1233,13 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "agility",
-                "level": 35,
-                "boostable": true
-            }]
+            "levels": [
+                {
+                    "skill": "agility",
+                    "level": 35,
+                    "boostable": true
+                }
+            ]
         }
     },
     "Icthlarin's Little Helper": {
@@ -1237,7 +1280,8 @@
             "quests": [
                 "In Search of the Myreque"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 25,
                     "boostable": false
@@ -1267,11 +1311,13 @@
             "quests": [
                 "Nature Spirit"
             ],
-            "levels": [{
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "agility",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Jungle Potion": {
@@ -1284,11 +1330,13 @@
         "Length": "Short - Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "herblore",
-                "level": 3,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "herblore",
+                    "level": 3,
+                    "boostable": false
+                }
+            ]
         }
     },
     "King's Ransom": {
@@ -1306,7 +1354,8 @@
                 "Murder Mystery",
                 "One Small Favour"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "magic",
                     "level": 45,
                     "boostable": false
@@ -1335,7 +1384,8 @@
                 "Underground Pass",
                 "Waterfall Quest"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "quest",
                     "level": 107,
                     "boostable": false
@@ -1403,7 +1453,8 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 31,
                     "boostable": false
@@ -1431,7 +1482,8 @@
                 "Rune Mysteries",
                 "Shilo Village"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 61,
                     "boostable": false
@@ -1479,7 +1531,8 @@
                 "Cold War",
                 "Romeo & Juliet"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "firemaking",
                     "level": 66,
                     "boostable": false
@@ -1570,11 +1623,13 @@
                 "The Grand Tree",
                 "Tree Gnome Village"
             ],
-            "levels": [{
-                "skill": "prayer",
-                "level": 43,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "prayer",
+                    "level": 43,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Monkey Madness II": {
@@ -1593,7 +1648,8 @@
                 "Troll Stronghold",
                 "Watchtower"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "slayer",
                     "level": 69,
                     "boostable": false
@@ -1636,16 +1692,18 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "agility",
-                "level": 20,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "agility",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         }
     },
-    "Mourning's Ends Part I": {
+    "Mourning's End Part I": {
         "Miniquest": false,
-        "Name": "Mourning's Ends Part I",
+        "Name": "Mourning's End Part I",
         "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_I",
         "members": true,
         "Difficulty": "Master",
@@ -1657,7 +1715,8 @@
                 "Big Chompy Bird Hunting",
                 "Sheep Herder"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "ranged",
                     "level": 60,
                     "boostable": true
@@ -1670,9 +1729,9 @@
             ]
         }
     },
-    "Mourning's Ends Part II": {
+    "Mourning's End Part II": {
         "Miniquest": false,
-        "Name": "Mourning's Ends Part II",
+        "Name": "Mourning's End Part II",
         "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_II",
         "members": true,
         "Difficulty": "Master",
@@ -1680,7 +1739,8 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "prayer",
                     "level": 43,
                     "boostable": false
@@ -1720,7 +1780,8 @@
                 "The Feud",
                 "Jungle Potion"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "woodcutting",
                     "level": 10,
                     "boostable": false
@@ -1746,11 +1807,13 @@
                 "Priest in Peril",
                 "The Restless Ghost"
             ],
-            "levels": [{
-                "skill": "crafting",
-                "level": 18,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "crafting",
+                    "level": 18,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Observatory Quest": {
@@ -1763,11 +1826,13 @@
         "Length": "Short - Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "crafting",
-                "level": 10,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "crafting",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Olaf's Quest": {
@@ -1780,7 +1845,8 @@
         "Length": "Short - Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "firemaking",
                     "level": 40,
                     "boostable": false
@@ -1806,7 +1872,8 @@
                 "Rune Mysteries",
                 "Shilo Village"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 36,
                     "boostable": true
@@ -1904,7 +1971,8 @@
         "Length": "Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "slayer",
                     "level": 40,
                     "boostable": false
@@ -1956,7 +2024,8 @@
                 "Desert Treasure",
                 "Horror from the Deep"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "quest",
                     "level": 175,
                     "boostable": false
@@ -2044,11 +2113,13 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "quest",
-                "level": 12,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "quest",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Regicide": {
@@ -2063,7 +2134,8 @@
             "quests": [
                 "Underground Pass"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 56,
                     "boostable": true
@@ -2115,7 +2187,8 @@
         "Length": "Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 40,
                     "boostable": true
@@ -2141,7 +2214,8 @@
                 "Zogre Flesh Eaters",
                 "Priest in Peril"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 42,
                     "boostable": false
@@ -2192,11 +2266,13 @@
         "Length": "Short - Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "prayer",
-                "level": 31,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "prayer",
+                    "level": 31,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Sea Slug": {
@@ -2222,7 +2298,8 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -2305,7 +2382,8 @@
         "Length": "Medium - Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -2323,6 +2401,48 @@
             ]
         }
     },
+    "Song of the Elves": {
+        "Miniquest": false,
+        "Name": "Song of the Elves",
+        "url": "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
+        "members": true,
+        "Difficulty": "Grandmaster",
+        "QuestPointReward": 4,
+        "Length": "Very long",
+        "requirements": {
+            "quests": [
+                "Mourning's End Part II",
+                "Making History"
+            ],
+            "levels": [
+                {
+                    "skill": "crafting",
+                    "level": 48,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 45,
+                    "boostable": false
+                },
+                {
+                    "skill": "attack",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "slayer",
+                    "level": 38,
+                    "boostable": false
+                }
+            ]
+        }
+    },
     "Spirits of the Elid": {
         "Miniquest": false,
         "Name": "Spirits of the Elid",
@@ -2333,7 +2453,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "magic",
                     "level": 33,
                     "boostable": true
@@ -2369,7 +2490,8 @@
                 "One Small Favour",
                 "Garden of Tranquillity"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "quest",
                     "level": 100,
                     "boostable": false
@@ -2417,7 +2539,8 @@
         "Length": "Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 15,
                     "boostable": false
@@ -2447,7 +2570,8 @@
             "quests": [
                 "Client of Kourend"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "strength",
                     "level": 16,
                     "boostable": false
@@ -2470,7 +2594,8 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "quest",
                     "level": 43,
                     "boostable": false
@@ -2503,7 +2628,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "thieving",
                     "level": 42,
                     "boostable": true
@@ -2528,11 +2654,13 @@
             "quests": [
                 "Client of Kourend"
             ],
-            "levels": [{
-                "skill": "hunter",
-                "level": 12,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "hunter",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         }
     },
     "The Corsair Curse": {
@@ -2560,11 +2688,13 @@
             "quests": [
                 "Client of Kourend"
             ],
-            "levels": [{
-                "skill": "agility",
-                "level": 18,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "agility",
+                    "level": 18,
+                    "boostable": false
+                }
+            ]
         }
     },
     "The Dig Site": {
@@ -2577,7 +2707,8 @@
         "Length": "Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 10,
                     "boostable": false
@@ -2605,7 +2736,8 @@
         "Length": "Medium - Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "construction",
                     "level": 5,
                     "boostable": false
@@ -2628,11 +2760,13 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "thieving",
-                "level": 30,
-                "boostable": true
-            }]
+            "levels": [
+                {
+                    "skill": "thieving",
+                    "level": 30,
+                    "boostable": true
+                }
+            ]
         }
     },
     "The Forsaken Tower": {
@@ -2658,7 +2792,8 @@
         "Length": "Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "construction",
                     "level": 20,
                     "boostable": false
@@ -2694,7 +2829,8 @@
         "Length": "Medium - Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 12,
                     "boostable": false
@@ -2737,7 +2873,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -2760,11 +2897,13 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "agility",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         }
     },
     "The Great Brain Robbery": {
@@ -2781,7 +2920,8 @@
                 "Cabin Fever",
                 "Pirate Pete subquest of Recipe for Disaster"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 16,
                     "boostable": false
@@ -2822,11 +2962,13 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "mining",
-                "level": 10,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "mining",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         }
     },
     "The Lost Tribe": {
@@ -2839,7 +2981,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "agility",
                     "level": 13,
                     "boostable": false
@@ -2869,11 +3012,13 @@
             "quests": [
                 "Client of Kourend"
             ],
-            "levels": [{
-                "skill": "thieving",
-                "level": 20,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "thieving",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         }
     },
     "The Restless Ghost": {
@@ -2899,7 +3044,8 @@
         "Length": "Medium - Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "crafting",
                     "level": 30,
                     "boostable": false
@@ -2932,7 +3078,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "fletching",
                     "level": 10,
                     "boostable": false
@@ -2955,7 +3102,8 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "woodcutting",
                     "level": 45,
                     "boostable": false
@@ -2988,11 +3136,13 @@
         "Length": "Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "construction",
-                "level": 10,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "construction",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Tree Gnome Village": {
@@ -3018,11 +3168,13 @@
         "Length": "Short",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "thieving",
-                "level": 21,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "thieving",
+                    "level": 21,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Troll Romance": {
@@ -3050,11 +3202,13 @@
         "Length": "Short - Medium",
         "requirements": {
             "quests": [],
-            "levels": [{
-                "skill": "agility",
-                "level": 15,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "agility",
+                    "level": 15,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Underground Pass": {
@@ -3069,11 +3223,13 @@
             "quests": [
                 "Biohazard"
             ],
-            "levels": [{
-                "skill": "ranged",
-                "level": 25,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "ranged",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Vampire Slayer": {
@@ -3104,11 +3260,13 @@
                 "The Lost Tribe",
                 "Priest in Peril"
             ],
-            "levels": [{
-                "skill": "quest",
-                "level": 32,
-                "boostable": false
-            }]
+            "levels": [
+                {
+                    "skill": "quest",
+                    "level": 32,
+                    "boostable": false
+                }
+            ]
         }
     },
     "Watchtower": {
@@ -3121,7 +3279,8 @@
         "Length": "Long",
         "requirements": {
             "quests": [],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "magic",
                     "level": 15,
                     "boostable": false
@@ -3214,7 +3373,8 @@
                 "Big Chompy Bird Hunting",
                 "Jungle Potion"
             ],
-            "levels": [{
+            "levels": [
+                {
                     "skill": "smithing",
                     "level": 4,
                     "boostable": false

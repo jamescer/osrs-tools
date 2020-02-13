@@ -1,6 +1,6 @@
 # OSRS QuestTool  [![Build Status](https://travis-ci.org/cerniglj1/osrs-quest-tool.svg?branch=master)](https://travis-ci.org/cerniglj1/osrs-quest-tool) [![Coverage Status](https://coveralls.io/repos/github/cerniglj1/osrs-quest-api/badge.svg?branch=master)](https://coveralls.io/github/cerniglj1/osrs-quest-api?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/e005f38d1e559ad49546/maintainability)](https://codeclimate.com/github/cerniglj1/osrs-quest-tool/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/e005f38d1e559ad49546/test_coverage)](https://codeclimate.com/github/cerniglj1/osrs-quest-tool/test_coverage)
 
-An api using json data to see if your account is able to complete certain quests. Uses the osrs-api package as well.
+A collection of quest data in order to help developers create something special. Also includes a Python class QuestTool in order for pip installers to access and use this repository.
 
 ## Installation 
 ```

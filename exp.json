@@ -1,0 +1,1333 @@
+{
+    "agility": [
+        {
+            "name": "Recruitment Drive",
+            "skill": "agility",
+            "amount": 1000
+        },
+        {
+            "name": "The Depths of Despair",
+            "skill": "agility",
+            "amount": 1500
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "agility",
+            "amount": 2812
+        },
+        {
+            "name": "Underground Pass",
+            "skill": "agility",
+            "amount": 3000
+        },
+        {
+            "name": "Icthlarin's Little Helper",
+            "skill": "agility",
+            "amount": 4000
+        },
+        {
+            "name": "Cold War",
+            "skill": "agility",
+            "amount": 5000
+        },
+        {
+            "name": "Royal Trouble",
+            "skill": "agility",
+            "amount": 5000
+        },
+        {
+            "name": "Grim Tales",
+            "skill": "agility",
+            "amount": 6000
+        },
+        {
+            "name": "Cabin Fever",
+            "skill": "agility",
+            "amount": 7000
+        },
+        {
+            "name": "Darkness of Hallowvale",
+            "skill": "agility",
+            "amount": 7000
+        },
+        {
+            "name": "The Grand Tree",
+            "skill": "agility",
+            "amount": 7900
+        },
+        {
+            "name": "Troll Romance",
+            "skill": "agility",
+            "amount": 8000
+        },
+        {
+            "name": "Making Friends with My Arm",
+            "skill": "agility",
+            "amount": 10000
+        },
+        {
+            "name": "Regicide",
+            "skill": "agility",
+            "amount": 13750
+        },
+        {
+            "name": "Dragon Slayer II",
+            "skill": "agility",
+            "amount": 15000
+        },
+        {
+            "name": "Mourning's End Part II",
+            "skill": "agility",
+            "amount": 20000
+        },
+        {
+            "name": "Monkey Madness II",
+            "skill": "agility",
+            "amount": 20000
+        },
+        {
+            "name": "Song of the Elves",
+            "skill": "agility",
+            "amount": 20000
+        }
+    ],
+    "attack": [
+        {
+            "name": "Death Plateau",
+            "skill": "attack",
+            "amount": 3000
+        },
+        {
+            "name": "Fairytale I - Growing Pains",
+            "skill": "attack",
+            "amount": 2000
+        },
+        {
+            "name": "Fight Arena",
+            "skill": "attack",
+            "amount": 12175
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "attack",
+            "amount": 3075
+        },
+        {
+            "name": "In Aid of the Myreque",
+            "skill": "attack",
+            "amount": 2000
+        },
+        {
+            "name": "In Search of the Myreque",
+            "skill": "attack",
+            "amount": 600
+        },
+        {
+            "name": "Mountain Daughter",
+            "skill": "attack",
+            "amount": 1000
+        },
+        {
+            "name": "Tai Bwo Wannai Trio",
+            "skill": "attack",
+            "amount": 2500
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "attack",
+            "amount": 2812
+        },
+        {
+            "name": "The Grand Tree",
+            "skill": "attack",
+            "amount": 18400
+        },
+        {
+            "name": "Tree Gnome Village",
+            "skill": "attack",
+            "amount": 11450
+        },
+        {
+            "name": "Underground Pass",
+            "skill": "attack",
+            "amount": 3000
+        },
+        {
+            "name": "Vampire Slayer",
+            "skill": "attack",
+            "amount": 4825
+        },
+        {
+            "name": "Waterfall Quest",
+            "skill": "attack",
+            "amount": 13750
+        }
+    ],
+    "construction": [
+        {
+            "name": "The Eyes of Glouphrie",
+            "skill": "construction",
+            "amount": 250
+        },
+        {
+            "name": "Tower of Life",
+            "skill": "construction",
+            "amount": 1000
+        },
+        {
+            "name": "Cold War",
+            "skill": "construction",
+            "amount": 1500
+        },
+        {
+            "name": "Darkness of Hallowvale",
+            "skill": "construction",
+            "amount": 2000
+        },
+        {
+            "name": "The Great Brain Robbery",
+            "skill": "construction",
+            "amount": 2000
+        },
+        {
+            "name": "Making Friends with My Arm",
+            "skill": "construction",
+            "amount": 2000
+        },
+        {
+            "name": "The Fremennik Isles",
+            "skill": "construction",
+            "amount": 5000
+        },
+        {
+            "name": "Song of the Elves",
+            "skill": "construction",
+            "amount": 20000
+        }
+    ],
+    "cooking": [
+        {
+            "name": "Cook's Assistant",
+            "skill": "cooking",
+            "amount": 300
+        },
+        {
+            "name": "Rag and Bone Man",
+            "skill": "cooking",
+            "amount": 500
+        },
+        {
+            "name": "Big Chompy Bird Hunting",
+            "skill": "cooking",
+            "amount": 1470
+        },
+        {
+            "name": "Gertrude's Cat",
+            "skill": "cooking",
+            "amount": 1525
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "cooking",
+            "amount": 2825
+        },
+        {
+            "name": "Forgettable Tale...",
+            "skill": "cooking",
+            "amount": 5000
+        },
+        {
+            "name": "Tai Bwo Wannai Trio",
+            "skill": "cooking",
+            "amount": 5000
+        }
+    ],
+    "crafting": [
+        {
+            "name": "Sheep Shearer",
+            "skill": "crafting",
+            "amount": 150
+        },
+        {
+            "name": "Goblin Diplomacy",
+            "skill": "crafting",
+            "amount": 200
+        },
+        {
+            "name": "Tower of Life",
+            "skill": "crafting",
+            "amount": 500
+        },
+        {
+            "name": "In Search of the Myreque",
+            "skill": "crafting",
+            "amount": 600
+        },
+        {
+            "name": "Misthalin Mystery",
+            "skill": "crafting",
+            "amount": 600
+        },
+        {
+            "name": "Dwarf Cannon",
+            "skill": "crafting",
+            "amount": 750
+        },
+        {
+            "name": "Animal Magnetism",
+            "skill": "crafting",
+            "amount": 1000
+        },
+        {
+            "name": "The Golem",
+            "skill": "crafting",
+            "amount": 1000
+        },
+        {
+            "name": "Making History",
+            "skill": "crafting",
+            "amount": 1000
+        },
+        {
+            "name": "Tears of Guthix",
+            "skill": "crafting",
+            "amount": 1000
+        },
+        {
+            "name": "Murder Mystery",
+            "skill": "crafting",
+            "amount": 1406
+        },
+        {
+            "name": "Cold War",
+            "skill": "crafting",
+            "amount": 2000
+        },
+        {
+            "name": "Enlightened Journey",
+            "skill": "crafting",
+            "amount": 2000
+        },
+        {
+            "name": "In Aid of the Myreque",
+            "skill": "crafting",
+            "amount": 2000
+        },
+        {
+            "name": "Shades of Mort'ton",
+            "skill": "crafting",
+            "amount": 2000
+        },
+        {
+            "name": "Observatory Quest",
+            "skill": "crafting",
+            "amount": 2250
+        },
+        {
+            "name": "The Giant Dwarf",
+            "skill": "crafting",
+            "amount": 2500
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "crafting",
+            "amount": 2812
+        },
+        {
+            "name": "The Great Brain Robbery",
+            "skill": "crafting",
+            "amount": 3000
+        },
+        {
+            "name": "Nature Spirit",
+            "skill": "crafting",
+            "amount": 3000
+        },
+        {
+            "name": "The Slug Menace",
+            "skill": "crafting",
+            "amount": 3500
+        },
+        {
+            "name": "Shilo Village",
+            "skill": "crafting",
+            "amount": 3875
+        },
+        {
+            "name": "Elemental Workshop I",
+            "skill": "crafting",
+            "amount": 5000
+        },
+        {
+            "name": "The Fremennik Isles",
+            "skill": "crafting",
+            "amount": 5000
+        },
+        {
+            "name": "Cabin Fever",
+            "skill": "crafting",
+            "amount": 7000
+        },
+        {
+            "name": "Enakhra's Lament",
+            "skill": "crafting",
+            "amount": 7000
+        },
+        {
+            "name": "Elemental Workshop II",
+            "skill": "crafting",
+            "amount": 7500
+        },
+        {
+            "name": "The Hand in the Sand",
+            "skill": "crafting",
+            "amount": 9000
+        },
+        {
+            "name": "The Fremennik Exiles",
+            "skill": "crafting",
+            "amount": 15000
+        }
+    ],
+    "defence": [
+        {
+            "name": "A Soul's Bane",
+            "skill": "defence",
+            "amount": 500
+        },
+        {
+            "name": "In Search of the Myreque",
+            "skill": "defence",
+            "amount": 600
+        },
+        {
+            "name": "In Aid of the Myreque",
+            "skill": "defence",
+            "amount": 2000
+        },
+        {
+            "name": "Nature Spirit",
+            "skill": "defence",
+            "amount": 2000
+        },
+        {
+            "name": "What Lies Below",
+            "skill": "defence",
+            "amount": 2000
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "defence",
+            "amount": 2812
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "defence",
+            "amount": 3075
+        },
+        {
+            "name": "Between a Rock...",
+            "skill": "defence",
+            "amount": 5000
+        },
+        {
+            "name": "Olaf's Quest",
+            "skill": "defence",
+            "amount": 12000
+        },
+        {
+            "name": "Holy Grail",
+            "skill": "defence",
+            "amount": 15300
+        },
+        {
+            "name": "Dragon Slayer",
+            "skill": "defence",
+            "amount": 18650
+        },
+        {
+            "name": "King's Ransom",
+            "skill": "defence",
+            "amount": 33000
+        }
+    ],
+    "farming": [
+        {
+            "name": "Enlightened Journey",
+            "skill": "farming",
+            "amount": 3000
+        },
+        {
+            "name": "Fairytale I - Growing Pains",
+            "skill": "farming",
+            "amount": 3500
+        },
+        {
+            "name": "Grim Tales",
+            "skill": "farming",
+            "amount": 4000
+        },
+        {
+            "name": "Forgettable Tale...",
+            "skill": "farming",
+            "amount": 5000
+        },
+        {
+            "name": "Garden of Tranquillity",
+            "skill": "farming",
+            "amount": 5000
+        },
+        {
+            "name": "My Arm's Big Adventure",
+            "skill": "farming",
+            "amount": 5000
+        },
+        {
+            "name": "Rum Deal",
+            "skill": "farming",
+            "amount": 7000
+        },
+        {
+            "name": "Song of the Elves",
+            "skill": "farming",
+            "amount": 20000
+        }
+    ],
+    "firemaking": [
+        {
+            "name": "The Giant Dwarf",
+            "skill": "firemaking",
+            "amount": 1500
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "firemaking",
+            "amount": 1575
+        },
+        {
+            "name": "Enlightened Journey",
+            "skill": "firemaking",
+            "amount": 4000
+        },
+        {
+            "name": "Making Friends with My Arm",
+            "skill": "firemaking",
+            "amount": 5000
+        },
+        {
+            "name": "Enakhra's Lament",
+            "skill": "firemaking",
+            "amount": 7000
+        }
+    ],
+    "fishing": [
+        {
+            "name": "Fishing Contest",
+            "skill": "fishing",
+            "amount": 2437
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "fishing",
+            "amount": 2725
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "fishing",
+            "amount": 2812
+        },
+        {
+            "name": "Tai Bwo Wannai Trio",
+            "skill": "fishing",
+            "amount": 5000
+        },
+        {
+            "name": "Rum Deal",
+            "skill": "fishing",
+            "amount": 7000
+        },
+        {
+            "name": "Sea Slug",
+            "skill": "fishing",
+            "amount": 7175
+        },
+        {
+            "name": "Swan Song",
+            "skill": "fishing",
+            "amount": 10000
+        }
+    ],
+    "fletching": [
+        {
+            "name": "Big Chompy Bird Hunting",
+            "skill": "fletching",
+            "amount": 262
+        },
+        {
+            "name": "Animal Magnetism",
+            "skill": "fletching",
+            "amount": 1000
+        },
+        {
+            "name": "Zogre Flesh Eaters",
+            "skill": "fletching",
+            "amount": 2000
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "fletching",
+            "amount": 2812
+        },
+        {
+            "name": "Devious Minds",
+            "skill": "fletching",
+            "amount": 5000
+        },
+        {
+            "name": "Temple of Ikov",
+            "skill": "fletching",
+            "amount": 8000
+        }
+    ],
+    "herblore": [
+        {
+            "name": "Druidic Ritual",
+            "skill": "herblore",
+            "amount": 250
+        },
+        {
+            "name": "Jungle Potion",
+            "skill": "herblore",
+            "amount": 775
+        },
+        {
+            "name": "Recruitment Drive",
+            "skill": "herblore",
+            "amount": 1000
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "herblore",
+            "amount": 1325
+        },
+        {
+            "name": "The Dig Site",
+            "skill": "herblore",
+            "amount": 2000
+        },
+        {
+            "name": "Shades of Mort'ton",
+            "skill": "herblore",
+            "amount": 2000
+        },
+        {
+            "name": "Zogre Flesh Eaters",
+            "skill": "herblore",
+            "amount": 2000
+        },
+        {
+            "name": "Fairytale II - Cure a Queen",
+            "skill": "herblore",
+            "amount": 3500
+        },
+        {
+            "name": "Grim Tales",
+            "skill": "herblore",
+            "amount": 5000
+        },
+        {
+            "name": "My Arm's Big Adventure",
+            "skill": "herblore",
+            "amount": 10000
+        },
+        {
+            "name": "Eadgar's Ruse",
+            "skill": "herblore",
+            "amount": 11000
+        },
+        {
+            "name": "Song of the Elves",
+            "skill": "herblore",
+            "amount": 20000
+        }
+    ],
+    "hitpoints": [
+        {
+            "name": "A Soul's Bane",
+            "skill": "hitpoints",
+            "amount": 500
+        },
+        {
+            "name": "In Search of the Myreque",
+            "skill": "hitpoints",
+            "amount": 600
+        },
+        {
+            "name": "Nature Spirit",
+            "skill": "hitpoints",
+            "amount": 2000
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "hitpoints",
+            "amount": 2812
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "hitpoints",
+            "amount": 3075
+        },
+        {
+            "name": "Grim Tales",
+            "skill": "hitpoints",
+            "amount": 5000
+        },
+        {
+            "name": "Royal Trouble",
+            "skill": "hitpoints",
+            "amount": 5000
+        },
+        {
+            "name": "Witch's House",
+            "skill": "hitpoints",
+            "amount": 6325
+        },
+        {
+            "name": "Dream Mentor",
+            "skill": "hitpoints",
+            "amount": 15000
+        },
+        {
+            "name": "Mourning's End Part I",
+            "skill": "hitpoints",
+            "amount": 25000
+        }
+    ],
+    "hunter": [
+        {
+            "name": "The Ascent of Arceuus",
+            "skill": "hunter",
+            "amount": 1500
+        },
+        {
+            "name": "Eagles' Peak",
+            "skill": "hunter",
+            "amount": 2500
+        },
+        {
+            "name": "Monkey Madness II",
+            "skill": "hunter",
+            "amount": 15000
+        },
+        {
+            "name": "Song of the Elves",
+            "skill": "hunter",
+            "amount": 20000
+        }
+    ],
+    "magic": [
+        {
+            "name": "Witch's Potion",
+            "skill": "magic",
+            "amount": 325
+        },
+        {
+            "name": "Imp Catcher",
+            "skill": "magic",
+            "amount": 875
+        },
+        {
+            "name": "Fairytale I - Growing Pains",
+            "skill": "magic",
+            "amount": 1000
+        },
+        {
+            "name": "Spirits of the Elid",
+            "skill": "magic",
+            "amount": 1000
+        },
+        {
+            "name": "The Giant Dwarf",
+            "skill": "magic",
+            "amount": 1500
+        },
+        {
+            "name": "The Grand Tree",
+            "skill": "magic",
+            "amount": 2150
+        },
+        {
+            "name": "Horror from the Deep",
+            "skill": "magic",
+            "amount": 4662
+        },
+        {
+            "name": "King's Ransom",
+            "skill": "magic",
+            "amount": 5000
+        },
+        {
+            "name": "Lunar Diplomacy",
+            "skill": "magic",
+            "amount": 5000
+        },
+        {
+            "name": "Enakhra's Lament",
+            "skill": "magic",
+            "amount": 7000
+        },
+        {
+            "name": "Dream Mentor",
+            "skill": "magic",
+            "amount": 10000
+        },
+        {
+            "name": "The Eyes of Glouphrie",
+            "skill": "magic",
+            "amount": 12000
+        },
+        {
+            "name": "Swan Song",
+            "skill": "magic",
+            "amount": 15000
+        },
+        {
+            "name": "Watchtower",
+            "skill": "magic",
+            "amount": 15250
+        },
+        {
+            "name": "Desert Treasure",
+            "skill": "magic",
+            "amount": 20000
+        }
+    ],
+    "mining": [
+        {
+            "name": "The Forsaken Tower",
+            "skill": "mining",
+            "amount": 500
+        },
+        {
+            "name": "Doric's Quest",
+            "skill": "mining",
+            "amount": 1300
+        },
+        {
+            "name": "Plague City",
+            "skill": "mining",
+            "amount": 2425
+        },
+        {
+            "name": "The Giant Dwarf",
+            "skill": "mining",
+            "amount": 2500
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "mining",
+            "amount": 2575
+        },
+        {
+            "name": "Another Slice of H.A.M.",
+            "skill": "mining",
+            "amount": 3000
+        },
+        {
+            "name": "The Lost Tribe",
+            "skill": "mining",
+            "amount": 3000
+        },
+        {
+            "name": "Between a Rock...",
+            "skill": "mining",
+            "amount": 5000
+        },
+        {
+            "name": "Enakhra's Lament",
+            "skill": "mining",
+            "amount": 7000
+        },
+        {
+            "name": "Making Friends with My Arm",
+            "skill": "mining",
+            "amount": 10000
+        },
+        {
+            "name": "The Dig Site",
+            "skill": "mining",
+            "amount": 15300
+        },
+        {
+            "name": "Dragon Slayer II",
+            "skill": "mining",
+            "amount": 18000
+        },
+        {
+            "name": "Song of the Elves",
+            "skill": "mining",
+            "amount": 20000
+        }
+    ],
+    "prayer": [
+        {
+            "name": "Rag and Bone Man",
+            "skill": "prayer",
+            "amount": 500
+        },
+        {
+            "name": "Making History",
+            "skill": "prayer",
+            "amount": 1000
+        },
+        {
+            "name": "Recruitment Drive",
+            "skill": "prayer",
+            "amount": 1000
+        },
+        {
+            "name": "The Restless Ghost",
+            "skill": "prayer",
+            "amount": 1125
+        },
+        {
+            "name": "Priest in Peril",
+            "skill": "prayer",
+            "amount": 1406
+        },
+        {
+            "name": "Mountain Daughter",
+            "skill": "prayer",
+            "amount": 2000
+        },
+        {
+            "name": "Ghosts Ahoy",
+            "skill": "prayer",
+            "amount": 2400
+        },
+        {
+            "name": "Another Slice of H.A.M.",
+            "skill": "prayer",
+            "amount": 3000
+        },
+        {
+            "name": "Rag and Bone Man II",
+            "skill": "prayer",
+            "amount": 5000
+        },
+        {
+            "name": "The Great Brain Robbery",
+            "skill": "prayer",
+            "amount": 6000
+        },
+        {
+            "name": "Rum Deal",
+            "skill": "prayer",
+            "amount": 7000
+        },
+        {
+            "name": "Spirits of the Elid",
+            "skill": "prayer",
+            "amount": 8000
+        },
+        {
+            "name": "Swan Song",
+            "skill": "prayer",
+            "amount": 10000
+        },
+        {
+            "name": "Holy Grail",
+            "skill": "prayer",
+            "amount": 11000
+        }
+    ],
+    "ranged": [
+        {
+            "name": "Big Chompy Bird Hunting",
+            "skill": "ranged",
+            "amount": 735
+        },
+        {
+            "name": "Death to the Dorgeshuun",
+            "skill": "ranged",
+            "amount": 2000
+        },
+        {
+            "name": "Zogre Flesh Eaters",
+            "skill": "ranged",
+            "amount": 2000
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "ranged",
+            "amount": 2075
+        },
+        {
+            "name": "Horror from the Deep",
+            "skill": "ranged",
+            "amount": 4662.5
+        },
+        {
+            "name": "Temple of Ikov",
+            "skill": "ranged",
+            "amount": 10500
+        }
+    ],
+    "runecrafting": [
+        {
+            "name": "The Ascent of Arceuus",
+            "skill": "runecrafting",
+            "amount": 500
+        },
+        {
+            "name": "The Slug Menace",
+            "skill": "runecrafting",
+            "amount": 3500
+        },
+        {
+            "name": "Devious Minds",
+            "skill": "runecrafting",
+            "amount": 5000
+        },
+        {
+            "name": "The Fremennik Exiles",
+            "skill": "runecrafting",
+            "amount": 5000
+        },
+        {
+            "name": "Lunar Diplomacy",
+            "skill": "runecrafting",
+            "amount": 5000
+        },
+        {
+            "name": "The Eyes of Glouphrie",
+            "skill": "runecrafting",
+            "amount": 6000
+        },
+        {
+            "name": "What Lies Below",
+            "skill": "runecrafting",
+            "amount": 8000
+        }
+    ],
+    "slayer": [
+        {
+            "name": "Animal Magnetism",
+            "skill": "slayer",
+            "amount": 1000
+        },
+        {
+            "name": "Royal Trouble",
+            "skill": "slayer",
+            "amount": 5000
+        },
+        {
+            "name": "Wanted!",
+            "skill": "slayer",
+            "amount": 5000
+        },
+        {
+            "name": "The Fremennik Exiles",
+            "skill": "slayer",
+            "amount": 15000
+        },
+        {
+            "name": "Monkey Madness II",
+            "skill": "slayer",
+            "amount": 25000
+        }
+    ],
+    "smithing": [
+        {
+            "name": "The Forsaken Tower",
+            "skill": "smithing",
+            "amount": 500
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "smithing",
+            "amount": 2257
+        },
+        {
+            "name": "The Giant Dwarf",
+            "skill": "smithing",
+            "amount": 2500
+        },
+        {
+            "name": "Between a Rock...",
+            "skill": "smithing",
+            "amount": 5000
+        },
+        {
+            "name": "Elemental Workshop I",
+            "skill": "smithing",
+            "amount": 5000
+        },
+        {
+            "name": "Devious Minds",
+            "skill": "smithing",
+            "amount": 6500
+        },
+        {
+            "name": "Cabin Fever",
+            "skill": "smithing",
+            "amount": 7000
+        },
+        {
+            "name": "Elemental Workshop II",
+            "skill": "smithing",
+            "amount": 7500
+        },
+        {
+            "name": "The Knight's Sword",
+            "skill": "smithing",
+            "amount": 12725
+        },
+        {
+            "name": "Song of the Elves",
+            "skill": "smithing",
+            "amount": 20000
+        },
+        {
+            "name": "Dragon Slayer II",
+            "skill": "smithing",
+            "amount": 25000
+        }
+    ],
+    "strength": [
+        {
+            "name": "In Search of the Myreque",
+            "skill": "strength",
+            "amount": 600
+        },
+        {
+            "name": "In Aid of the Myreque",
+            "skill": "strength",
+            "amount": 2000
+        },
+        {
+            "name": "Tai Bwo Wannai Trio",
+            "skill": "strength",
+            "amount": 2500
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "strength",
+            "amount": 2812
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "strength",
+            "amount": 3075
+        },
+        {
+            "name": "Troll Romance",
+            "skill": "strength",
+            "amount": 4000
+        },
+        {
+            "name": "Horror from the Deep",
+            "skill": "strength",
+            "amount": 4662.5
+        },
+        {
+            "name": "Scorpion Catcher",
+            "skill": "strength",
+            "amount": 6625
+        },
+        {
+            "name": "Roving Elves",
+            "skill": "strength",
+            "amount": 10000
+        },
+        {
+            "name": "Waterfall Quest",
+            "skill": "strength",
+            "amount": 13750
+        },
+        {
+            "name": "Dragon Slayer",
+            "skill": "strength",
+            "amount": 18650
+        },
+        {
+            "name": "Haunted Mine",
+            "skill": "strength",
+            "amount": 22000
+        }
+    ],
+    "thieving": [
+        {
+            "name": "Tower of Life",
+            "skill": "thieving",
+            "amount": 500
+        },
+        {
+            "name": "Creature of Fenkenstrain",
+            "skill": "thieving",
+            "amount": 1000
+        },
+        {
+            "name": "The Golem",
+            "skill": "thieving",
+            "amount": 1000
+        },
+        {
+            "name": "The Hand in the Sand",
+            "skill": "thieving",
+            "amount": 1000
+        },
+        {
+            "name": "Spirits of the Elid",
+            "skill": "thieving",
+            "amount": 1000
+        },
+        {
+            "name": "Biohazard",
+            "skill": "thieving",
+            "amount": 1250
+        },
+        {
+            "name": "The Giant Dwarf",
+            "skill": "thieving",
+            "amount": 1500
+        },
+        {
+            "name": "Hazeel Cult",
+            "skill": "thieving",
+            "amount": 1500
+        },
+        {
+            "name": "Tribal Totem",
+            "skill": "thieving",
+            "amount": 1775
+        },
+        {
+            "name": "Death to the Dorgeshuun",
+            "skill": "thieving",
+            "amount": 2000
+        },
+        {
+            "name": "The Queen of Thieves",
+            "skill": "thieving",
+            "amount": 2000
+        },
+        {
+            "name": "Fight Arena",
+            "skill": "thieving",
+            "amount": 2175
+        },
+        {
+            "name": "Fairytale II - Cure a Queen",
+            "skill": "thieving",
+            "amount": 2500
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "thieving",
+            "amount": 2812
+        },
+        {
+            "name": "The Slug Menace",
+            "skill": "thieving",
+            "amount": 3500
+        },
+        {
+            "name": "Icthlarin's Little Helper",
+            "skill": "thieving",
+            "amount": 4500
+        },
+        {
+            "name": "Ratcatchers",
+            "skill": "thieving",
+            "amount": 4500
+        },
+        {
+            "name": "Darkness of Hallowvale",
+            "skill": "thieving",
+            "amount": 6000
+        },
+        {
+            "name": "Grim Tales",
+            "skill": "thieving",
+            "amount": 6000
+        },
+        {
+            "name": "Contact!",
+            "skill": "thieving",
+            "amount": 7000
+        },
+        {
+            "name": "Dragon Slayer II",
+            "skill": "thieving",
+            "amount": 15000
+        },
+        {
+            "name": "The Feud",
+            "skill": "thieving",
+            "amount": 15000
+        },
+        {
+            "name": "Monkey Madness II",
+            "skill": "thieving",
+            "amount": 15000
+        },
+        {
+            "name": "Mourning's End Part I",
+            "skill": "thieving",
+            "amount": 25000
+        }
+    ],
+    "woodcutting": [
+        {
+            "name": "Enlightened Journey",
+            "skill": "woodcutting",
+            "amount": 1500
+        },
+        {
+            "name": "Heroes' Quest",
+            "skill": "woodcutting",
+            "amount": 1575
+        },
+        {
+            "name": "Monk's Friend",
+            "skill": "woodcutting",
+            "amount": 2000
+        },
+        {
+            "name": "Animal Magnetism",
+            "skill": "woodcutting",
+            "amount": 2500
+        },
+        {
+            "name": "The Eyes of Glouphrie",
+            "skill": "woodcutting",
+            "amount": 2500
+        },
+        {
+            "name": "The Fremennik Trials",
+            "skill": "woodcutting",
+            "amount": 2812
+        },
+        {
+            "name": "Icthlarin's Little Helper",
+            "skill": "woodcutting",
+            "amount": 4000
+        },
+        {
+            "name": "The Fremennik Isles",
+            "skill": "woodcutting",
+            "amount": 10000
+        },
+        {
+            "name": "Grim Tales",
+            "skill": "woodcutting",
+            "amount": 14000
+        },
+        {
+            "name": "Song of the Elves",
+            "skill": "woodcutting",
+            "amount": 20000
+        }
+    ]
+}

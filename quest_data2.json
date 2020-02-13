@@ -11,7 +11,16 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "defence",
+                    "amount": 500
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -119,7 +128,24 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                },
+                {
+                    "skill": "fletching",
+                    "amount": 1000
+                },
+                {
+                    "skill": "slayer",
+                    "amount": 1000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 2500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -151,7 +177,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "mining",
+                    "amount": 3000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 3000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -186,7 +221,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "defence",
+                    "amount": 5000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 5000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -218,7 +266,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "cooking",
+                    "amount": 1470
+                },
+                {
+                    "skill": "fletching",
+                    "amount": 262
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 735
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -234,7 +295,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "thieving",
+                    "amount": 1250
+                }
+            ],
             "QuestPoints": 3
         }
     },
@@ -315,7 +381,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 7000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 7000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 7000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -389,7 +468,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 5000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 1500
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 2000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -408,7 +500,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "thieving",
+                    "amount": 7000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -424,7 +521,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "cooking",
+                    "amount": 300
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -454,7 +556,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -508,7 +615,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 7000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 2000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 6000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -526,7 +646,8 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 3000
+                    "skill": "attack",
+                    "amount": 3000
                 }
             ],
             "QuestPoints": 1
@@ -557,7 +678,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "ranged",
+                    "amount": 2000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 2000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -617,7 +747,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "magic",
+                    "amount": 20000
+                }
+            ],
             "QuestPoints": 3
         }
     },
@@ -654,7 +789,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "fletching",
+                    "amount": 5000
+                },
+                {
+                    "skill": "runecrafting",
+                    "amount": 5000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 6500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -676,7 +824,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "mining",
+                    "amount": 1300
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -703,7 +856,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "defence",
+                    "amount": 18650
+                },
+                {
+                    "skill": "strength",
+                    "amount": 18650
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -733,7 +895,24 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 15000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 18000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 25000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 15000
+                }
+            ],
             "QuestPoints": 5
         }
     },
@@ -758,7 +937,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "hitpoints",
+                    "amount": 15000
+                },
+                {
+                    "skill": "magic",
+                    "amount": 10000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -774,7 +962,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "herblore",
+                    "amount": 250
+                }
+            ],
             "QuestPoints": 4
         }
     },
@@ -790,7 +983,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 750
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -820,7 +1018,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "herblore",
+                    "amount": 11000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -842,7 +1045,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "hunter",
+                    "amount": 2500
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -874,7 +1082,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 5000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -901,7 +1118,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 7500
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 7500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -943,7 +1169,24 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 7000
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 7000
+                },
+                {
+                    "skill": "magic",
+                    "amount": 7000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 7000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -980,7 +1223,24 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 2000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 3000
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 4000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 1500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1035,7 +1295,16 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 2000
+                    "skill": "attack",
+                    "amount": 2000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 3500
+                },
+                {
+                    "skill": "magic",
+                    "amount": 1000
                 }
             ],
             "QuestPoints": 2
@@ -1071,7 +1340,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "herblore",
+                    "amount": 3500
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 2500
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1126,7 +1404,12 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 12175
+                    "skill": "attack",
+                    "amount": 12175
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 2175
                 }
             ],
             "QuestPoints": 2
@@ -1150,7 +1433,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "fishing",
+                    "amount": 2437
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1180,7 +1468,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "cooking",
+                    "amount": 5000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1204,7 +1501,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "farming",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1220,7 +1522,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "cooking",
+                    "amount": 1525
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1236,7 +1543,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "prayer",
+                    "amount": 2400
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1252,7 +1564,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 200
+                }
+            ],
             "QuestPoints": 5
         }
     },
@@ -1294,7 +1611,32 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 6000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 4000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 5000
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 5000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 6000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 14000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1321,7 +1663,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "strength",
+                    "amount": 22000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1337,7 +1684,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "thieving",
+                    "amount": 1500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1367,7 +1719,52 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 3075
+                    "skill": "attack",
+                    "amount": 3075
+                },
+                {
+                    "skill": "cooking",
+                    "amount": 2825
+                },
+                {
+                    "skill": "defence",
+                    "amount": 3075
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 1575
+                },
+                {
+                    "skill": "fishing",
+                    "amount": 2725
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 1325
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 3075
+                },
+                {
+                    "skill": "mining",
+                    "amount": 2575
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 2075
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 2257
+                },
+                {
+                    "skill": "strength",
+                    "amount": 3075
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 1575
                 }
             ],
             "QuestPoints": 1
@@ -1391,7 +1788,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "defence",
+                    "amount": 15300
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 11000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1413,7 +1819,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "magic",
+                    "amount": 4662
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 4662.5
+                },
+                {
+                    "skill": "strength",
+                    "amount": 4662.5
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1429,7 +1848,20 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 4000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 4500
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 4000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1445,7 +1877,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "magic",
+                    "amount": 875
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1481,7 +1918,20 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 2000
+                    "skill": "attack",
+                    "amount": 2000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 2000
+                },
+                {
+                    "skill": "defence",
+                    "amount": 2000
+                },
+                {
+                    "skill": "strength",
+                    "amount": 2000
                 }
             ],
             "QuestPoints": 2
@@ -1509,7 +1959,24 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 600
+                    "skill": "attack",
+                    "amount": 600
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 600
+                },
+                {
+                    "skill": "defence",
+                    "amount": 600
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 600
+                },
+                {
+                    "skill": "strength",
+                    "amount": 600
                 }
             ],
             "QuestPoints": 2
@@ -1533,7 +2000,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "herblore",
+                    "amount": 775
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1565,7 +2037,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "defence",
+                    "amount": 33000
+                },
+                {
+                    "skill": "magic",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1722,7 +2203,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "magic",
+                    "amount": 5000
+                },
+                {
+                    "skill": "runecrafting",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1764,7 +2254,24 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 10000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 2000
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 5000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 10000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -1783,7 +2290,16 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 1000
+                }
+            ],
             "QuestPoints": 3
         }
     },
@@ -1815,7 +2331,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 600
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1831,7 +2352,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "woodcutting",
+                    "amount": 2000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1909,7 +2435,24 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 20000
+                },
+                {
+                    "skill": "hunter",
+                    "amount": 15000
+                },
+                {
+                    "skill": "slayer",
+                    "amount": 25000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 15000
+                }
+            ],
             "QuestPoints": 4
         }
     },
@@ -1933,7 +2476,12 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 1000
+                    "skill": "attack",
+                    "amount": 1000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 2000
                 }
             ],
             "QuestPoints": 2
@@ -1966,7 +2514,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "hitpoints",
+                    "amount": 25000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 25000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -1993,7 +2550,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 20000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2009,7 +2571,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 1406
+                }
+            ],
             "QuestPoints": 3
         }
     },
@@ -2040,7 +2607,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "farming",
+                    "amount": 5000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 10000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2065,7 +2641,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 3000
+                },
+                {
+                    "skill": "defence",
+                    "amount": 2000
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 2000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -2087,7 +2676,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 2250
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -2114,7 +2708,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "defence",
+                    "amount": 12000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2186,7 +2785,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "mining",
+                    "amount": 2425
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2202,7 +2806,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "prayer",
+                    "amount": 1406
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2234,7 +2843,16 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "cooking",
+                    "amount": 500
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2261,7 +2879,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "prayer",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2279,7 +2902,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "thieving",
+                    "amount": 4500
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -2408,7 +3036,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 1000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 1000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 1000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2437,7 +3078,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 13750
+                }
+            ],
             "QuestPoints": 3
         }
     },
@@ -2472,7 +3118,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "strength",
+                    "amount": 10000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2499,7 +3150,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 5000
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 5000
+                },
+                {
+                    "skill": "slayer",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2544,7 +3208,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "farming",
+                    "amount": 7000
+                },
+                {
+                    "skill": "fishing",
+                    "amount": 7000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 7000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -2582,7 +3259,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "strength",
+                    "amount": 6625
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2598,7 +3280,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "fishing",
+                    "amount": 7175
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2630,7 +3317,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 2000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 2000
+                }
+            ],
             "QuestPoints": 3
         }
     },
@@ -2681,7 +3377,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 150
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -2729,7 +3430,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 3875
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -2789,7 +3495,40 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 20000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 20000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 20000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 20000
+                },
+                {
+                    "skill": "hunter",
+                    "amount": 20000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 20000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 20000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 20000
+                }
+            ],
             "QuestPoints": 4
         }
     },
@@ -2826,7 +3565,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "magic",
+                    "amount": 1000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 8000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -2881,7 +3633,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "fishing",
+                    "amount": 10000
+                },
+                {
+                    "skill": "magic",
+                    "amount": 15000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 10000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -2915,7 +3680,20 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 2500
+                    "skill": "attack",
+                    "amount": 2500
+                },
+                {
+                    "skill": "cooking",
+                    "amount": 5000
+                },
+                {
+                    "skill": "fishing",
+                    "amount": 5000
+                },
+                {
+                    "skill": "strength",
+                    "amount": 2500
                 }
             ],
             "QuestPoints": 2
@@ -2983,7 +3761,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3010,7 +3793,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "fletching",
+                    "amount": 8000
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 10500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3034,7 +3826,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "hunter",
+                    "amount": 1500
+                },
+                {
+                    "skill": "runecrafting",
+                    "amount": 500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3074,7 +3875,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 1500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3106,7 +3912,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "herblore",
+                    "amount": 2000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 15300
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3133,7 +3948,24 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "construction",
+                    "amount": 250
+                },
+                {
+                    "skill": "magic",
+                    "amount": 12000
+                },
+                {
+                    "skill": "runecrafting",
+                    "amount": 6000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 2500
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3155,7 +3987,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "thieving",
+                    "amount": 15000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3171,7 +4008,16 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "mining",
+                    "amount": 500
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3218,7 +4064,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 15000
+                },
+                {
+                    "skill": "runecrafting",
+                    "amount": 5000
+                },
+                {
+                    "skill": "slayer",
+                    "amount": 15000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3245,7 +4104,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "construction",
+                    "amount": 5000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 5000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 10000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3263,7 +4135,44 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 2812
+                    "skill": "agility",
+                    "amount": 2812
+                },
+                {
+                    "skill": "attack",
+                    "amount": 2812
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 2812
+                },
+                {
+                    "skill": "defence",
+                    "amount": 2812
+                },
+                {
+                    "skill": "fishing",
+                    "amount": 2812
+                },
+                {
+                    "skill": "fletching",
+                    "amount": 2812
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 2812
+                },
+                {
+                    "skill": "strength",
+                    "amount": 2812
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 2812
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 2812
                 }
             ],
             "QuestPoints": 3
@@ -3312,7 +4221,32 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 2500
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 1500
+                },
+                {
+                    "skill": "magic",
+                    "amount": 1500
+                },
+                {
+                    "skill": "mining",
+                    "amount": 2500
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 2500
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 1500
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3339,7 +4273,16 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3363,7 +4306,16 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 18400
+                    "skill": "agility",
+                    "amount": 7900
+                },
+                {
+                    "skill": "attack",
+                    "amount": 18400
+                },
+                {
+                    "skill": "magic",
+                    "amount": 2150
                 }
             ],
             "QuestPoints": 5
@@ -3401,7 +4353,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "construction",
+                    "amount": 2000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 3000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 6000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3417,7 +4382,16 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 9000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3439,7 +4413,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "smithing",
+                    "amount": 12725
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3471,7 +4450,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "mining",
+                    "amount": 3000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3495,7 +4479,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "thieving",
+                    "amount": 2000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3511,7 +4500,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "prayer",
+                    "amount": 1125
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3548,7 +4542,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "crafting",
+                    "amount": 3500
+                },
+                {
+                    "skill": "runecrafting",
+                    "amount": 3500
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 3500
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3634,7 +4641,20 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "construction",
+                    "amount": 1000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 500
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 500
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3652,7 +4672,8 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 11450
+                    "skill": "attack",
+                    "amount": 11450
                 }
             ],
             "QuestPoints": 2
@@ -3676,7 +4697,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "thieving",
+                    "amount": 1775
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3694,7 +4720,16 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "agility",
+                    "amount": 8000
+                },
+                {
+                    "skill": "strength",
+                    "amount": 4000
+                }
+            ],
             "QuestPoints": 2
         }
     },
@@ -3742,7 +4777,12 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 3000
+                    "skill": "agility",
+                    "amount": 3000
+                },
+                {
+                    "skill": "attack",
+                    "amount": 3000
                 }
             ],
             "QuestPoints": 5
@@ -3762,7 +4802,8 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 4825
+                    "skill": "attack",
+                    "amount": 4825
                 }
             ],
             "QuestPoints": 3
@@ -3791,7 +4832,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "slayer",
+                    "amount": 5000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3833,7 +4879,12 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "magic",
+                    "amount": 15250
+                }
+            ],
             "QuestPoints": 4
         }
     },
@@ -3851,7 +4902,12 @@
         "Rewards": {
             "Experience": [
                 {
-                    "attack": 13750
+                    "skill": "attack",
+                    "amount": 13750
+                },
+                {
+                    "skill": "strength",
+                    "amount": 13750
                 }
             ],
             "QuestPoints": 1
@@ -3869,7 +4925,16 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "defence",
+                    "amount": 2000
+                },
+                {
+                    "skill": "runecrafting",
+                    "amount": 8000
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3885,7 +4950,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "hitpoints",
+                    "amount": 6325
+                }
+            ],
             "QuestPoints": 4
         }
     },
@@ -3901,7 +4971,12 @@
             "levels": []
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "magic",
+                    "amount": 325
+                }
+            ],
             "QuestPoints": 1
         }
     },
@@ -3951,9 +5026,21 @@
             ]
         },
         "Rewards": {
-            "Experience": [],
+            "Experience": [
+                {
+                    "skill": "fletching",
+                    "amount": 2000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 2000
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 2000
+                }
+            ],
             "QuestPoints": 1
         }
     }
-}
 }

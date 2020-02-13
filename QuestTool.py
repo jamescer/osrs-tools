@@ -19,7 +19,7 @@ class QuestTool(object):
     quest_data = {}
 
     def __init__(self, *args):
-        data_file = "./quest_data.json"
+        data_file = "./questData.json"
 
         with open(data_file) as json_file:
             self.quest_data = json.load(json_file)

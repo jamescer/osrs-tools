@@ -149,3 +149,4 @@ class QuestTool(object):
 
     def __repr__(self):
         return super().__str__()
+

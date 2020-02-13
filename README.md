@@ -4,7 +4,7 @@ An api using json data to see if your account is able to complete certain quests
 
 ## Installation 
 ```
-pip install osrs-quest-tool
+pip install osrsquesttool
 ```
 
 ### Example

@@ -1,8 +1,8 @@
 {
     "name": "osrs-quest-tool",
-    "description": "An api using json data to see if your account is able to complete certain quests. Uses the osrs-api package as well.",
-    "version": "0.1.3",
-    "main": "QuestTool.py",
+    "description": "An npm package to provide the json for all current old school runescape quests and their respective data.",
+    "version": "0.1.5",
+    "main": "index.js",
     "notes": [
         "python -m pip install --user --upgrade twine",
         "python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*"
@@ -27,10 +27,10 @@
         "OSRS QuestTool",
         "Quest Tool osrs"
     ],
-    "author": "James Cerniglia <imzessed@gmail.com>, credits to https://www.npmjs.com/~bardiches",
+    "author": "James Cerniglia <imzessed@gmail.com> or <cerniglj1@hawkmail.newpaltz.edu>, credits to https://www.npmjs.com/~bardiches",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/cerniglj1/osrs-quest-api/issues"
+        "url": "https://github.com/cerniglj1/OSRSQuestTool/issues"
     },
-    "homepage": "https://github.com/cerniglj1/osrs-quest-api#readme"
+    "homepage": "https://github.com/cerniglj1/OSRSQuestTool#readme"
 }

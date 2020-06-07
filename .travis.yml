@@ -1,29 +1,6 @@
-
-language: python
-branches:
-  only:
-  - master
-python:
-  - "3.7"
-cache: pip
-env:
-  global:
-    - CC_TEST_REPORTER_ID="58d571423b2d02e007995b3be93180be43b0a49546f96a081a3cc2a67b82c521"
-    - CODECOV_TOKEN="8369c0da-f715-49f6-b3c7-3f346517c231"
-    - COVERALLS_REPO_TOKEN="ZsGxmoHx82BjZ9OwE8VbYdVOS9ywEiZqj"
-install:
-  - pip install -r requirements.txt
-  
-# command to run tests
-script:
-  - python test_qc.py
-  - python setup.py sdist bdist_wheel
-  - pytest test_qc.py
-  - coverage run --source=./ test_qc.py
-  - coveralls
-  - codecov --token=8369c0da-f715-49f6-b3c7-3f346517c231
-
-
-
-
-  
+language: node_js
+node_js:
+  - 4.2
+before_script:
+  - npm install -g bower
+  - bower install

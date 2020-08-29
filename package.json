@@ -1,7 +1,7 @@
 {
     "name": "osrs-quest-tool",
     "description": "An npm package to provide the json for all current old school runescape quests and their respective data.",
-    "version": "0.1.65",
+    "version": "0.1.67",
     "main": "index.js",
     "notes": [
         "python -m pip install --user --upgrade twine",

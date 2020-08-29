@@ -1,7 +1,7 @@
 {
     "name": "osrs-quest-tool",
     "description": "An npm package to provide the json for all current old school runescape quests and their respective data.",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "main": "index.js",
     "notes": [
         "python -m pip install --user --upgrade twine",
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/cerniglj1/OSRS-Quest-Tool.git"
+        "url": "https://github.com/cerniglj1/OSRSQuestTool.git"
     },
     "keywords": [
         "runescape",

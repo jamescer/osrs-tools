@@ -1,8 +1,10 @@
-var q = require('./questData.json');
-
+var questObject = require('./questData.json');
+var questArray = require('./questDataArray.json');
 exports.json = function () {
-
-    return q;
+    return questObject;
+}
+exports.questArray = function () {
+    return questArray;
 }
 exports.hello = function () {
     console.log("if you need help use the .help() method");
@@ -13,5 +15,5 @@ exports.hello = function () {
 //     return `💩${str}💩`;
 // }
 exports.help = function () {
-    console.log("import q from \"osrs-quest-tool\";\n console.log(q.json());");
+    console.log("import q from \"osrs-quest-tool\";\n console.log(q.json());\n console.log(q.questArray());");
 }

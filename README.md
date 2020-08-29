@@ -10,5 +10,5 @@ npm i osrs-quest-tool
 ### Example
 ```js
 import q from "osrs-quest-tool";
-console.log(q.json);
+console.log(q.json());
 ```

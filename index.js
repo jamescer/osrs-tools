@@ -4,6 +4,7 @@ exports.json = function () {
         "A Soul's Bane": {
             "Miniquest": false,
             "Name": "A Soul's Bane",
+            "shortName": "aSoulsBane",
             "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
             "members": true,
             "Difficulty": "Novice",
@@ -27,6 +28,7 @@ exports.json = function () {
         "A Tail of Two Cats": {
             "Miniquest": false,
             "Name": "A Tail of Two Cats",
+            "shortName": "aTailOfTwoCats",
             "url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
             "members": true,
             "Difficulty": "Intermediate",
@@ -44,6 +46,7 @@ exports.json = function () {
         "A Taste of Hope": {
             "Miniquest": false,
             "Name": "A Taste of Hope",
+            "shortName": "aTasteOfHope",
             "url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
             "members": true,
             "Difficulty": "Experienced",
@@ -81,6 +84,7 @@ exports.json = function () {
         "Animal Magnetism": {
             "Miniquest": false,
             "Name": "Animal Magnetism",
+            "shortName": "animalMagnetism",
             "url": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
             "members": true,
             "Difficulty": "Intermediate",
@@ -130,6 +134,7 @@ exports.json = function () {
         "Another Slice of H.A.M.": {
             "Miniquest": false,
             "Name": "Another Slice of H.A.M.",
+            "shortName": "anotherSliceOfHAM",
             "url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
             "members": true,
             "Difficulty": "Intermediate",
@@ -161,6 +166,7 @@ exports.json = function () {
         "Between a Rock...": {
             "Miniquest": false,
             "Name": "Between a Rock...",
+            "shortName": "betweenARock",
             "url": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
             "members": true,
             "Difficulty": "Experienced",
@@ -199,6 +205,7 @@ exports.json = function () {
         "Big Chompy Bird Hunting": {
             "Miniquest": false,
             "Name": "Big Chompy Bird Hunting",
+            "shortName": "bigChompyBirdHunting",
             "url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
             "members": true,
             "Difficulty": "Intermediate",
@@ -237,6 +244,7 @@ exports.json = function () {
         "Biohazard": {
             "Miniquest": false,
             "Name": "Biohazard",
+            "shortName": "biohazard",
             "url": "https://oldschool.runescape.wiki/w/Biohazard",
             "members": true,
             "Difficulty": "Novice",
@@ -257,6 +265,7 @@ exports.json = function () {
         "Black Knights' Fortress": {
             "Miniquest": false,
             "Name": "Black Knights' Fortress",
+            "shortName": "blackKnightsFortress",
             "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
             "members": false,
             "Difficulty": "Novice",
@@ -278,6 +287,7 @@ exports.json = function () {
         "Bone Voyage": {
             "Miniquest": false,
             "Name": "Bone Voyage",
+            "shortName": "boneVoyage",
             "url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
             "members": true,
             "Difficulty": "Intermediate",
@@ -295,6 +305,7 @@ exports.json = function () {
         "Cabin Fever": {
             "Miniquest": false,
             "Name": "Cabin Fever",
+            "shortName": "cabinFever",
             "url": "https://oldschool.runescape.wiki/w/Cabin_Fever",
             "members": true,
             "Difficulty": "Experienced",
@@ -2461,6 +2472,7 @@ exports.json = function () {
         "Recipe for Disaster": {
             "Miniquest": false,
             "Name": "Recipe for Disaster",
+            "shortName": "recipeForDisaster",
             "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
             "members": true,
             "Difficulty": "Special",

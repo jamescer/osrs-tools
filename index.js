@@ -10,7 +10,9 @@ exports.hello = function () {
     console.log("if you need help use the .help() method");
     console.log("This is a message from the demo package");
 }
-
+exports.contact = function () {
+    console.log("If you need to contact me feel free to reach out to me at cerniglj1@hawkmail.newpaltz.edu");
+}
 // exports = (str) => {
 //     return `💩${str}💩`;
 // }

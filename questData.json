@@ -346,6 +346,7 @@
     "Client of Kourend": {
         "Miniquest": false,
         "Name": "Client of Kourend",
+        "shortName": "clientOfKourend",
         "url": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
         "members": true,
         "Difficulty": "Novice",
@@ -363,6 +364,7 @@
     "Clock Tower": {
         "Miniquest": false,
         "Name": "Clock Tower",
+        "shortName": "clockTower",
         "url": "https://oldschool.runescape.wiki/w/Clock_Tower",
         "members": true,
         "Difficulty": "Novice",
@@ -380,6 +382,7 @@
     "Cold War": {
         "Miniquest": false,
         "Name": "Cold War",
+        "shortName": "coldWar",
         "url": "https://oldschool.runescape.wiki/w/Cold_War",
         "members": true,
         "Difficulty": "Intermediate",
@@ -426,6 +429,7 @@
     "Contact!": {
         "Miniquest": false,
         "Name": "Contact!",
+        "shortName": "contact",
         "url": "https://oldschool.runescape.wiki/w/Contact!",
         "members": true,
         "Difficulty": "Master",
@@ -446,6 +450,7 @@
     "Cook's Assistant": {
         "Miniquest": false,
         "Name": "Cook's Assistant",
+        "shortName": "cooksAssistant",
         "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
         "members": false,
         "Difficulty": "Novice",
@@ -466,6 +471,7 @@
     "Creature of Fenkenstrain": {
         "Miniquest": false,
         "Name": "Creature of Fenkenstrain",
+        "shortName": "creatureOfFenkenstrain",
         "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
         "members": true,
         "Difficulty": "Intermediate",
@@ -494,6 +500,7 @@
     "Darkness of Hallowvale": {
         "Miniquest": false,
         "Name": "Darkness of Hallowvale",
+        "shortName": "darknessOfHallowvale",
         "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
         "members": true,
         "Difficulty": "Intermediate",
@@ -548,6 +555,7 @@
     "Death Plateau": {
         "Miniquest": false,
         "Name": "Death Plateau",
+        "shortName": "deathPlateau",
         "url": "https://oldschool.runescape.wiki/w/Death_Plateau",
         "members": true,
         "Difficulty": "Novice",
@@ -568,6 +576,7 @@
     "Death to the Dorgeshuun": {
         "Miniquest": false,
         "Name": "Death to the Dorgeshuun",
+        "shortName": "deathToTheDorgeshuun",
         "url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
         "members": true,
         "Difficulty": "Intermediate",
@@ -599,6 +608,7 @@
     "Demon Slayer": {
         "Miniquest": false,
         "Name": "Demon Slayer",
+        "shortName": "demonSlayer",
         "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
         "members": false,
         "Difficulty": "Novice",
@@ -616,6 +626,7 @@
     "Desert Treasure": {
         "Miniquest": false,
         "Name": "Desert Treasure",
+        "shortName": "desertTreasure",
         "url": "https://oldschool.runescape.wiki/w/Desert_Treasure",
         "members": true,
         "Difficulty": "Master",
@@ -652,6 +663,7 @@
     "Devious Minds": {
         "Miniquest": false,
         "Name": "Devious Minds",
+        "shortName": "deviousMinds",
         "url": "https://oldschool.runescape.wiki/w/Devious_Minds",
         "members": true,
         "Difficulty": "Experienced",
@@ -690,6 +702,7 @@
     "Doric's Quest": {
         "Miniquest": false,
         "Name": "Doric's Quest",
+        "shortName": "doricsQuest",
         "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
         "members": false,
         "Difficulty": "Novice",
@@ -714,6 +727,7 @@
     "Dragon Slayer": {
         "Miniquest": false,
         "Name": "Dragon Slayer",
+        "shortName": "dragonSlayer",
         "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer",
         "members": false,
         "Difficulty": "Experienced",
@@ -745,6 +759,7 @@
     "Dragon Slayer II": {
         "Miniquest": false,
         "Name": "Dragon Slayer II",
+        "shortName": "dragonSlayerII",
         "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
         "members": true,
         "Difficulty": "Grandmaster",
@@ -778,6 +793,7 @@
     "Dream Mentor": {
         "Miniquest": false,
         "Name": "Dream Mentor",
+        "shortName": "dreamMentor",
         "url": "https://oldschool.runescape.wiki/w/Dream_Mentor",
         "members": true,
         "Difficulty": "Master",
@@ -805,6 +821,7 @@
     "Druidic Ritual": {
         "Miniquest": false,
         "Name": "Druidic Ritual",
+        "shortName": "druidicRitual",
         "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
         "members": true,
         "Difficulty": "Novice",
@@ -825,6 +842,7 @@
     "Dwarf Cannon": {
         "Miniquest": false,
         "Name": "Dwarf Cannon",
+        "shortName": "dwarfCannon",
         "url": "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
         "members": true,
         "Difficulty": "Novice",
@@ -845,6 +863,7 @@
     "Eadgar's Ruse": {
         "Miniquest": false,
         "Name": "Eadgar's Ruse",
+        "shortName": "eadgarsRuse",
         "url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
         "members": true,
         "Difficulty": "Experienced",
@@ -873,6 +892,7 @@
     "Eagles' Peak": {
         "Miniquest": false,
         "Name": "Eagles' Peak",
+        "shortName": "eaglesPeak",
         "url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
         "members": true,
         "Difficulty": "Novice",
@@ -897,6 +917,7 @@
     "Elemental Workshop I": {
         "Miniquest": false,
         "Name": "Elemental Workshop I",
+        "shortName": "elementalWorkshopI",
         "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
         "members": true,
         "Difficulty": "Novice",
@@ -932,6 +953,7 @@
     "Elemental Workshop II": {
         "Miniquest": false,
         "Name": "Elemental Workshop II",
+        "shortName": "elementalWorkshopII",
         "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
         "members": true,
         "Difficulty": "Intermediate",
@@ -963,6 +985,7 @@
     "Enakhra's Lament": {
         "Miniquest": false,
         "Name": "Enakhra's Lament",
+        "shortName": "enakhrasLament",
         "url": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
         "members": true,
         "Difficulty": "Experienced",
@@ -1012,6 +1035,7 @@
     "Enlightened Journey": {
         "Miniquest": false,
         "Name": "Enlightened Journey",
+        "shortName": "enlightenedJourney",
         "url": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
         "members": true,
         "Difficulty": "Intermediate",
@@ -1057,6 +1081,7 @@
     "Enter the Abyss": {
         "Miniquest": true,
         "Name": "Enter the Abyss",
+        "shortName": "enterTheAbyss",
         "url": "https://oldschool.runescape.wiki/w/Enter_the_Abyss",
         "members": true,
         "Difficulty": "Novice",
@@ -1073,6 +1098,7 @@
     "Ernest the Chicken": {
         "Miniquest": false,
         "Name": "Ernest the Chicken",
+        "shortName": "ernestTheChicken",
         "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
         "members": false,
         "Difficulty": "Novice",
@@ -1090,6 +1116,7 @@
     "Fairytale I - Growing Pains": {
         "Miniquest": false,
         "Name": "Fairytale I - Growing Pains",
+        "shortName": "fairytaleIGrowingPains",
         "url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
         "members": true,
         "Difficulty": "Experienced",
@@ -1116,6 +1143,7 @@
     "Fairytale II - Cure a Queen": {
         "Miniquest": false,
         "Name": "Fairytale II - Cure a Queen",
+        "shortName": "fairytaleIICureAQueen",
         "url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
         "members": true,
         "Difficulty": "Experienced",
@@ -1151,6 +1179,7 @@
     "Family Crest": {
         "Miniquest": false,
         "Name": "Family Crest",
+        "shortName": "familyCrest",
         "url": "https://oldschool.runescape.wiki/w/Family_Crest",
         "members": true,
         "Difficulty": "Experienced",
@@ -1184,6 +1213,7 @@
     "Fight Arena": {
         "Miniquest": false,
         "Name": "Fight Arena",
+        "shortName": "fightArena",
         "url": "https://oldschool.runescape.wiki/w/Fight_Arena",
         "members": true,
         "Difficulty": "Experienced",
@@ -1207,6 +1237,7 @@
     "Fishing Contest": {
         "Miniquest": false,
         "Name": "Fishing Contest",
+        "shortName": "fishingContest",
         "url": "https://oldschool.runescape.wiki/w/Fishing_Contest",
         "members": true,
         "Difficulty": "Novice",
@@ -1230,6 +1261,7 @@
     },
     "Forgettable Tale...": {
         "Miniquest": false,
+        "shortName": "forgettableTale",
         "Name": "Forgettable Tale...",
         "url": "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
         "members": true,
@@ -1261,6 +1293,7 @@
     },
     "Garden of Tranquillity": {
         "Miniquest": false,
+        "shortName": "gardenOfTranquillity",
         "Name": "Garden of Tranquillity",
         "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
         "members": true,
@@ -1285,6 +1318,7 @@
     },
     "Gertrude's Cat": {
         "Miniquest": false,
+        "shortName": "gertrudesCat",
         "Name": "Gertrude's Cat",
         "url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
         "members": true,
@@ -1305,6 +1339,7 @@
     },
     "Ghosts Ahoy": {
         "Miniquest": false,
+        "shortName": "ghostsAhoy",
         "Name": "Ghosts Ahoy",
         "url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
         "members": true,
@@ -1325,6 +1360,7 @@
     },
     "Goblin Diplomacy": {
         "Miniquest": false,
+        "shortName": "goblinDiplomacy",
         "Name": "Goblin Diplomacy",
         "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
         "members": false,
@@ -1345,6 +1381,7 @@
     },
     "Grim Tales": {
         "Miniquest": false,
+        "shortName": "grimTales",
         "Name": "Grim Tales",
         "url": "https://oldschool.runescape.wiki/w/Grim_Tales",
         "members": true,
@@ -1400,6 +1437,7 @@
     },
     "Haunted Mine": {
         "Miniquest": false,
+        "shortName": "hauntedMine",
         "Name": "Haunted Mine",
         "url": "https://oldschool.runescape.wiki/w/Haunted_Mine",
         "members": true,
@@ -1428,6 +1466,7 @@
     },
     "Hazeel Cult": {
         "Miniquest": false,
+        "shortName": "hazeelCult",
         "Name": "Hazeel Cult",
         "url": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
         "members": true,
@@ -1448,6 +1487,7 @@
     },
     "Heroes' Quest": {
         "Miniquest": false,
+        "shortName": "heroesQuest",
         "Name": "Heroes' Quest",
         "url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
         "members": true,
@@ -1505,6 +1545,7 @@
     },
     "Holy Grail": {
         "Miniquest": false,
+        "shortName": "holyGrail",
         "Name": "Holy Grail",
         "url": "https://oldschool.runescape.wiki/w/Holy_Grail",
         "members": true,
@@ -1532,6 +1573,7 @@
     },
     "Horror from the Deep": {
         "Miniquest": false,
+        "shortName": "horrorFromTheDeep",
         "Name": "Horror from the Deep",
         "url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
         "members": true,
@@ -1562,6 +1604,7 @@
     },
     "Icthlarin's Little Helper": {
         "Miniquest": false,
+        "shortName": "icthlarinsLittleHelper",
         "Name": "Icthlarin's Little Helper",
         "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
         "members": true,
@@ -1588,6 +1631,7 @@
     },
     "Imp Catcher": {
         "Miniquest": false,
+        "shortName": "impCatcher",
         "Name": "Imp Catcher",
         "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
         "members": false,
@@ -1608,6 +1652,7 @@
     },
     "In Aid of the Myreque": {
         "Miniquest": false,
+        "shortName": "inAidOfTheMyreque",
         "Name": "In Aid of the Myreque",
         "url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
         "members": true,
@@ -1649,6 +1694,7 @@
     },
     "In Search of the Myreque": {
         "Miniquest": false,
+        "shortName": "inSearchOfTheMyreque",
         "Name": "In Search of the Myreque",
         "url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
         "members": true,
@@ -1685,6 +1731,7 @@
     },
     "Jungle Potion": {
         "Miniquest": false,
+        "shortName": "junglePotion",
         "Name": "Jungle Potion",
         "url": "https://oldschool.runescape.wiki/w/Jungle_Potion",
         "members": true,
@@ -1709,6 +1756,7 @@
     },
     "King's Ransom": {
         "Miniquest": false,
+        "shortName": "kingsRansom",
         "Name": "King's Ransom",
         "url": "https://oldschool.runescape.wiki/w/King%27s_Ransom",
         "members": true,
@@ -1740,6 +1788,7 @@
     },
     "Legends' Quest": {
         "Miniquest": false,
+        "shortName": "legendsQuest",
         "Name": "Legends' Quest",
         "url": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
         "members": true,
@@ -1801,6 +1850,7 @@
     },
     "Lost City": {
         "Miniquest": false,
+        "shortName": "lostCity",
         "Name": "Lost City",
         "url": "https://oldschool.runescape.wiki/w/Lost_City",
         "members": true,
@@ -1826,6 +1876,7 @@
     },
     "Lunar Diplomacy": {
         "Miniquest": false,
+        "shortName": "lunarDiplomacy",
         "Name": "Lunar Diplomacy",
         "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
         "members": true,
@@ -1873,6 +1924,7 @@
     },
     "Making Friends with My Arm": {
         "Miniquest": false,
+        "shortName": "makingFriendsWithMyArm",
         "Name": "Making Friends with My Arm",
         "url": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
         "members": true,
@@ -1918,6 +1970,7 @@
     },
     "Making History": {
         "Miniquest": false,
+        "shortName": "makingHistory",
         "Name": "Making History",
         "url": "https://oldschool.runescape.wiki/w/Making_History",
         "members": true,
@@ -1941,6 +1994,7 @@
     },
     "Merlin's Crystal": {
         "Miniquest": false,
+        "shortName": "merlinsCrystal",
         "Name": "Merlin's Crystal",
         "url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
         "members": true,
@@ -1958,6 +2012,7 @@
     },
     "Misthalin Mystery": {
         "Miniquest": false,
+        "shortName": "misthalinMystery",
         "Name": "Misthalin Mystery",
         "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
         "members": false,
@@ -1978,6 +2033,7 @@
     },
     "Monk's Friend": {
         "Miniquest": false,
+        "shortName": "monksFriend",
         "Name": "Monk's Friend",
         "url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
         "members": true,
@@ -1998,6 +2054,7 @@
     },
     "Monkey Madness I": {
         "Miniquest": false,
+        "shortName": "monkeyMadnessI",
         "Name": "Monkey Madness I",
         "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
         "members": true,
@@ -2019,6 +2076,7 @@
     },
     "Monkey Madness II": {
         "Miniquest": false,
+        "shortName": "monkeyMadnessII",
         "Name": "Monkey Madness II",
         "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
         "members": true,
@@ -2072,6 +2130,7 @@
     },
     "Mountain Daughter": {
         "Miniquest": false,
+        "shortName": "mountainDaughter",
         "Name": "Mountain Daughter",
         "url": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
         "members": true,
@@ -2099,6 +2158,7 @@
     },
     "Mourning's End Part I": {
         "Miniquest": false,
+        "shortName": "mourningsEndPartI",
         "Name": "Mourning's End Part I",
         "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_I",
         "members": true,
@@ -2130,6 +2190,7 @@
     },
     "Mourning's End Part II": {
         "Miniquest": false,
+        "shortName": "mourningsEndPartII",
         "Name": "Mourning's End Part II",
         "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_II",
         "members": true,
@@ -2158,6 +2219,7 @@
     },
     "Murder Mystery": {
         "Miniquest": false,
+        "shortName": "murderMystery",
         "Name": "Murder Mystery",
         "url": "https://oldschool.runescape.wiki/w/Murder_Mystery",
         "members": true,
@@ -2178,6 +2240,7 @@
     },
     "My Arm's Big Adventure": {
         "Miniquest": false,
+        "shortName": "myArmsBigAdventure",
         "Name": "My Arm's Big Adventure",
         "url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
         "members": true,
@@ -2209,6 +2272,7 @@
     },
     "Nature Spirit": {
         "Miniquest": false,
+        "shortName": "natureSpirit",
         "Name": "Nature Spirit",
         "url": "https://oldschool.runescape.wiki/w/Nature_Spirit",
         "members": true,
@@ -2239,6 +2303,7 @@
     },
     "Observatory Quest": {
         "Miniquest": false,
+        "shortName": "observatoryQuest",
         "Name": "Observatory Quest",
         "url": "https://oldschool.runescape.wiki/w/Observatory_Quest",
         "members": true,
@@ -2263,6 +2328,7 @@
     },
     "Olaf's Quest": {
         "Miniquest": false,
+        "shortName": "olafsQuest",
         "Name": "Olaf's Quest",
         "url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
         "members": true,
@@ -2291,6 +2357,7 @@
     },
     "One Small Favour": {
         "Miniquest": false,
+        "shortName": "oneSmallFavour",
         "Name": "One Small Favour",
         "url": "https://oldschool.runescape.wiki/w/One_Small_Favour",
         "members": true,
@@ -2324,6 +2391,7 @@
     },
     "Pirate's Treasure": {
         "Miniquest": false,
+        "shortName": "piratesTreasure",
         "Name": "Pirate's Treasure",
         "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
         "members": false,
@@ -2341,6 +2409,7 @@
     },
     "Plague City": {
         "Miniquest": false,
+        "shortName": "plagueCity",
         "Name": "Plague City",
         "url": "https://oldschool.runescape.wiki/w/Plague_City",
         "members": true,
@@ -2361,6 +2430,7 @@
     },
     "Priest in Peril": {
         "Miniquest": false,
+        "shortName": "priestInPeril",
         "Name": "Priest in Peril",
         "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril",
         "members": true,
@@ -2381,6 +2451,7 @@
     },
     "Prince Ali Rescue": {
         "Miniquest": false,
+        "shortName": "princeAliRescue",
         "Name": "Prince Ali Rescue",
         "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
         "members": false,
@@ -2398,6 +2469,7 @@
     },
     "Rag and Bone Man": {
         "Miniquest": false,
+        "shortName": "ragAndBoneManI",
         "Name": "Rag and Bone Man",
         "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man",
         "members": true,
@@ -2421,6 +2493,7 @@
     },
     "Rag and Bone Man II": {
         "Miniquest": false,
+        "shortName": "ragAndBoneManII",
         "Name": "Rag and Bone Man II",
         "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
         "members": true,
@@ -2449,6 +2522,7 @@
     },
     "Ratcatchers": {
         "Miniquest": false,
+        "shortName": "ratcatchers",
         "Name": "Ratcatchers",
         "url": "https://oldschool.runescape.wiki/w/Ratcatchers",
         "members": true,
@@ -2548,6 +2622,7 @@
     },
     "Recruitment Drive": {
         "Miniquest": false,
+        "shortName": "recruitmentDrive",
         "Name": "Recruitment Drive",
         "url": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
         "members": true,
@@ -2578,6 +2653,7 @@
     },
     "Regicide": {
         "Miniquest": false,
+        "shortName": "regicide",
         "Name": "Regicide",
         "url": "https://oldschool.runescape.wiki/w/Regicide",
         "members": true,
@@ -2606,6 +2682,7 @@
     },
     "Romeo & Juliet": {
         "Miniquest": false,
+        "shortName": "romeoJuliet",
         "Name": "Romeo & Juliet",
         "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
         "members": false,
@@ -2623,6 +2700,7 @@
     },
     "Roving Elves": {
         "Miniquest": false,
+        "shortName": "rovingElves",
         "Name": "Roving Elves",
         "url": "https://oldschool.runescape.wiki/w/Roving_Elves",
         "members": true,
@@ -2643,6 +2721,7 @@
     },
     "Royal Trouble": {
         "Miniquest": false,
+        "shortName": "royalTrouble",
         "Name": "Royal Trouble",
         "url": "https://oldschool.runescape.wiki/w/Royal_Trouble",
         "members": true,
@@ -2677,6 +2756,7 @@
     },
     "Rum Deal": {
         "Miniquest": false,
+        "shortName": "rumDeal",
         "Name": "Rum Deal",
         "url": "https://oldschool.runescape.wiki/w/Rum_Deal",
         "members": true,
@@ -2723,6 +2803,7 @@
     },
     "Rune Mysteries": {
         "Miniquest": false,
+        "shortName": "runeMysteries",
         "Name": "Rune Mysteries",
         "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
         "members": false,
@@ -2740,6 +2821,7 @@
     },
     "Scorpion Catcher": {
         "Miniquest": false,
+        "shortName": "scorpionCatcher",
         "Name": "Scorpion Catcher",
         "url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
         "members": true,
@@ -2764,6 +2846,7 @@
     },
     "Sea Slug": {
         "Miniquest": false,
+        "shortName": "seaSlug",
         "Name": "Sea Slug",
         "url": "https://oldschool.runescape.wiki/w/Sea_Slug",
         "members": true,
@@ -2784,6 +2867,7 @@
     },
     "Shades of Mort'ton": {
         "Miniquest": false,
+        "shortName": "shadesOfMortton",
         "Name": "Shades of Mort'ton",
         "url": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
         "members": true,
@@ -2819,6 +2903,7 @@
     },
     "Shadow of the Storm": {
         "Miniquest": false,
+        "shortName": "shadowOfTheStorm",
         "Name": "Shadow of the Storm",
         "url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
         "members": true,
@@ -2836,6 +2921,7 @@
     },
     "Sheep Herder": {
         "Miniquest": false,
+        "shortName": "sheepHerder",
         "Name": "Sheep Herder",
         "url": "https://oldschool.runescape.wiki/w/Sheep_Herder",
         "members": true,
@@ -2853,6 +2939,7 @@
     },
     "Sheep Shearer": {
         "Miniquest": false,
+        "shortName": "sheepShearer",
         "Name": "Sheep Shearer",
         "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
         "members": false,
@@ -2873,6 +2960,7 @@
     },
     "Shield of Arrav": {
         "Miniquest": false,
+        "shortName": "fishingContest",
         "Name": "Shield of Arrav",
         "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
         "members": false,
@@ -2890,6 +2978,7 @@
     },
     "Shilo Village": {
         "Miniquest": false,
+        "shortName": "shiloVillage",
         "Name": "Shilo Village",
         "url": "https://oldschool.runescape.wiki/w/Shilo_Village",
         "members": true,
@@ -2922,6 +3011,7 @@
     },
     "Song of the Elves": {
         "Miniquest": false,
+        "shortName": "songOfTheElves",
         "Name": "Song of the Elves",
         "url": "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
         "members": true,
@@ -2995,6 +3085,7 @@
     },
     "Spirits of the Elid": {
         "Miniquest": false,
+        "shortName": "spiritsOfTheElid",
         "Name": "Spirits of the Elid",
         "url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
         "members": true,
@@ -3037,6 +3128,7 @@
     },
     "Swan Song": {
         "Miniquest": false,
+        "shortName": "swanSong",
         "Name": "Swan Song",
         "url": "https://oldschool.runescape.wiki/w/Swan_Song",
         "members": true,
@@ -3091,6 +3183,7 @@
     },
     "Tai Bwo Wannai Trio": {
         "Miniquest": false,
+        "shortName": "taiBwoWannaiTrio",
         "Name": "Tai Bwo Wannai Trio",
         "url": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
         "members": true,
@@ -3132,6 +3225,7 @@
     },
     "Tale of the Righteous": {
         "Miniquest": false,
+        "shortName": "taleOfTheRighteous",
         "Name": "Tale of the Righteous",
         "url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
         "members": true,
@@ -3157,6 +3251,7 @@
     },
     "Tears of Guthix": {
         "Miniquest": false,
+        "shortName": "tearsOfGuthix",
         "Name": "Tears of Guthix",
         "url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix_(quest)",
         "members": true,
@@ -3193,6 +3288,7 @@
     },
     "Temple of Ikov": {
         "Miniquest": false,
+        "shortName": "templeOfIkov",
         "Name": "Temple of Ikov",
         "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
         "members": true,
@@ -3224,6 +3320,7 @@
     },
     "The Ascent of Arceuus": {
         "Miniquest": false,
+        "shortName": "theAscentOfArceuus",
         "Name": "The Ascent of Arceuus",
         "url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
         "members": true,
@@ -3251,6 +3348,7 @@
     },
     "The Corsair Curse": {
         "Miniquest": false,
+        "shortName": "theCorsairCurse",
         "Name": "The Corsair Curse",
         "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
         "members": false,
@@ -3268,6 +3366,7 @@
     },
     "The Depths of Despair": {
         "Miniquest": false,
+        "shortName": "theDepthsOfDespair",
         "Name": "The Depths of Despair",
         "url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
         "members": true,
@@ -3292,6 +3391,7 @@
     },
     "The Dig Site": {
         "Miniquest": false,
+        "shortName": "theDigSite",
         "Name": "The Dig Site",
         "url": "https://oldschool.runescape.wiki/w/The_Dig_Site",
         "members": true,
@@ -3327,6 +3427,7 @@
     },
     "The Eyes of Glouphrie": {
         "Miniquest": false,
+        "shortName": "theEyesOfGlouphrie",
         "Name": "The Eyes of Glouphrie",
         "url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
         "members": true,
@@ -3364,6 +3465,7 @@
     },
     "The Feud": {
         "Miniquest": false,
+        "shortName": "theFeud",
         "Name": "The Feud",
         "url": "https://oldschool.runescape.wiki/w/The_Feud",
         "members": true,
@@ -3388,6 +3490,7 @@
     },
     "The Forsaken Tower": {
         "Miniquest": false,
+        "shortName": "theForsakenTower",
         "Name": "The Forsaken Tower",
         "url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
         "members": true,
@@ -3411,6 +3514,7 @@
     },
     "The Fremennik Exiles": {
         "Miniquest": false,
+        "shortName": "theFremennikExiles",
         "Name": "The Fremennik Exiles",
         "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles",
         "members": true,
@@ -3457,6 +3561,7 @@
     },
     "The Fremennik Isles": {
         "Miniquest": false,
+        "shortName": "theFremennikIsles",
         "Name": "The Fremennik Isles",
         "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
         "members": true,
@@ -3491,6 +3596,7 @@
     },
     "The Fremennik Trials": {
         "Miniquest": false,
+        "shortName": "theFremennikTrials",
         "Name": "The Fremennik Trials",
         "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
         "members": true,
@@ -3538,6 +3644,7 @@
     },
     "The Giant Dwarf": {
         "Miniquest": false,
+        "shortName": "theGiantDwarf",
         "Name": "The Giant Dwarf",
         "url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
         "members": true,
@@ -3597,6 +3704,7 @@
     },
     "The Golem": {
         "Miniquest": false,
+        "shortName": "theGolem",
         "Name": "The Golem",
         "url": "https://oldschool.runescape.wiki/w/The_Golem",
         "members": true,
@@ -3628,6 +3736,7 @@
     },
     "The Grand Tree": {
         "Miniquest": false,
+        "shortName": "theGrandTree",
         "Name": "The Grand Tree",
         "url": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
         "members": true,
@@ -3658,6 +3767,7 @@
     },
     "The Great Brain Robbery": {
         "Miniquest": false,
+        "shortName": "theGreatBrainRobbery",
         "Name": "The Great Brain Robbery",
         "url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
         "members": true,
@@ -3696,6 +3806,7 @@
     },
     "The Hand in the Sand": {
         "Miniquest": false,
+        "shortName": "theHandInTheSand",
         "Name": "The Hand in the Sand",
         "url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
         "members": true,
@@ -3719,6 +3830,7 @@
     },
     "The Knight's Sword": {
         "Miniquest": false,
+        "shortName": "theKnightsSword",
         "Name": "The Knight's Sword",
         "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
         "members": false,
@@ -3743,6 +3855,7 @@
     },
     "The Lost Tribe": {
         "Miniquest": false,
+        "shortName": "theLostTribe",
         "Name": "The Lost Tribe",
         "url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
         "members": true,
@@ -3775,6 +3888,7 @@
     },
     "The Queen of Thieves": {
         "Miniquest": false,
+        "shortName": "theQueenOfThieves",
         "Name": "The Queen of Thieves",
         "url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
         "members": true,
@@ -3799,6 +3913,7 @@
     },
     "The Restless Ghost": {
         "Miniquest": false,
+        "shortName": "theRestlessGhost",
         "Name": "The Restless Ghost",
         "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
         "members": false,
@@ -3819,6 +3934,7 @@
     },
     "Sins of the Father": {
         "Miniquest": false,
+        "shortName": "sinsOfTheFather",
         "Name": "Sins of the Father",
         "url": "https://oldschool.runescape.wiki/w/Sins_of_the_Father",
         "members": true,
@@ -3866,6 +3982,7 @@
     },
     "The Slug Menace": {
         "Miniquest": false,
+        "shortName": "theSlugMenace",
         "Name": "The Slug Menace",
         "url": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
         "members": true,
@@ -3908,6 +4025,7 @@
     },
     "The Tourist Trap": {
         "Miniquest": false,
+        "shortName": "theTouristTrap",
         "Name": "The Tourist Trap",
         "url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
         "members": true,
@@ -3933,6 +4051,7 @@
     },
     "Throne of Miscellania": {
         "Miniquest": false,
+        "shortName": "throneOfMiscellania",
         "Name": "Throne of Miscellania",
         "url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
         "members": true,
@@ -3966,6 +4085,7 @@
     },
     "Tower of Life": {
         "Miniquest": false,
+        "shortName": "towerOfLife",
         "Name": "Tower of Life",
         "url": "https://oldschool.runescape.wiki/w/Tower_of_Life",
         "members": true,
@@ -3996,6 +4116,7 @@
     },
     "Tree Gnome Village": {
         "Miniquest": false,
+        "shortName": "treeGnomeVillage",
         "Name": "Tree Gnome Village",
         "url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
         "members": true,
@@ -4016,6 +4137,7 @@
     },
     "Tribal Totem": {
         "Miniquest": false,
+        "shortName": "tribalTotem",
         "Name": "Tribal Totem",
         "url": "https://oldschool.runescape.wiki/w/Tribal_Totem",
         "members": true,
@@ -4040,6 +4162,7 @@
     },
     "Troll Romance": {
         "Miniquest": false,
+        "shortName": "trollRomance",
         "Name": "Troll Romance",
         "url": "https://oldschool.runescape.wiki/w/Troll_Romance",
         "members": true,
@@ -4063,6 +4186,7 @@
     },
     "Troll Stronghold": {
         "Miniquest": false,
+        "shortName": "fishingContest",
         "Name": "Troll Stronghold",
         "url": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
         "members": true,
@@ -4084,6 +4208,7 @@
     },
     "Underground Pass": {
         "Miniquest": false,
+        "shortName": "undergroundPass",
         "Name": "Underground Pass",
         "url": "https://oldschool.runescape.wiki/w/Underground_Pass",
         "members": true,
@@ -4111,6 +4236,7 @@
     },
     "Vampire Slayer": {
         "Miniquest": false,
+        "shortName": "vampireSlayer",
         "Name": "Vampire Slayer",
         "url": "https://oldschool.runescape.wiki/w/Vampire_Slayer",
         "members": false,
@@ -4131,6 +4257,7 @@
     },
     "Wanted!": {
         "Miniquest": false,
+        "shortName": "wanted",
         "Name": "Wanted!",
         "url": "https://oldschool.runescape.wiki/w/Wanted!",
         "members": true,
@@ -4155,6 +4282,7 @@
     },
     "Watchtower": {
         "Miniquest": false,
+        "shortName": "watchtower",
         "Name": "Watchtower",
         "url": "https://oldschool.runescape.wiki/w/Watchtower",
         "members": true,
@@ -4195,6 +4323,7 @@
     },
     "Waterfall Quest": {
         "Miniquest": false,
+        "shortName": "waterfallQuest",
         "Name": "Waterfall Quest",
         "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest",
         "members": true,
@@ -4218,6 +4347,7 @@
     },
     "What Lies Below": {
         "Miniquest": false,
+        "shortName": "whatLiesBelow",
         "Name": "What Lies Below",
         "url": "https://oldschool.runescape.wiki/w/What_Lies_Below",
         "members": true,
@@ -4241,6 +4371,7 @@
     },
     "Witch's House": {
         "Miniquest": false,
+        "shortName": "witchsHouse",
         "Name": "Witch's House",
         "url": "https://oldschool.runescape.wiki/w/Witch%27s_House",
         "members": true,
@@ -4261,6 +4392,7 @@
     },
     "Witch's Potion": {
         "Miniquest": false,
+        "shortName": "witchsPotion",
         "Name": "Witch's Potion",
         "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
         "members": false,
@@ -4281,6 +4413,7 @@
     },
     "X Marks the Spot": {
         "Miniquest": false,
+        "shortName": "xMarksTheSpot",
         "Name": "X Marks the Spot",
         "url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
         "members": true,
@@ -4299,6 +4432,7 @@
     },
     "Zogre Flesh Eaters": {
         "Miniquest": false,
+        "shortName": "zogreFleshEaters",
         "Name": "Zogre Flesh Eaters",
         "url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
         "members": true,

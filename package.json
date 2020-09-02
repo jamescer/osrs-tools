@@ -1,7 +1,7 @@
 {
     "name": "osrs-quest-tool",
     "description": "An npm package to provide the json for all current old school runescape quests and their respective data.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "main": "index.js",
     "notes": [
         ""

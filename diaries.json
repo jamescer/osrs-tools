@@ -416,16 +416,6 @@
                 "Underground Pass"
             ],
             "skillsRequired": [{
-                    "skill": "thieving",
-                    "level": 38,
-                    "boostable": false
-                },
-                {
-                    "skill": "strength",
-                    "level": 38,
-                    "boostable": false
-                },
-                {
                     "skill": "agility",
                     "level": 39,
                     "boostable": false
@@ -466,6 +456,15 @@
                     "boostable": false
                 },
                 {
+                    "skill": "strength",
+                    "level": 38,
+                    "boostable": false
+                }, {
+                    "skill": "thieving",
+                    "level": 38,
+                    "boostable": false
+                },
+                {
                     "skill": "woodcutting",
                     "level": 36,
                     "boostable": false
@@ -474,15 +473,96 @@
                     "skill": "quest",
                     "level": 20,
                     "boostable": false
+                }, {
+                    "skill": "fletching",
+                    "level": 20,
+                    "boostable": false,
+                    "ironman": true
+                }, {
+                    "skill": "smithing",
+                    "level": 20,
+                    "boostable": false,
+                    "ironman": true
                 }
+
             ]
         },
         "hard": {
             "itemReward": "Ardougne cloak 3",
             "tasks": [],
-            "itemsRequired": [],
+            "itemsRequired": ["An uncharged skills necklace or combat bracelet",
+                "Karamjan monkey greegree",
+                "2 earth runes",
+                "2 law runes",
+                "1 rope and small fishing net",
+                "1 palm tree seed (or 1 palm sapling), 15 papaya fruit—recommended)",
+                "1 poison ivy seed",
+                "Hammer",
+                "5 mithril bars",
+                "25,000 coins (if house isn't in Yanille)",
+                "Shield left half",
+                "Shield right half",
+                "Pure essence",
+                "Death talisman, Runecraft cape or max cape (or access to the Abyss)"
+            ],
             "questsRequired": [],
-            "skillsRequired": []
+            "skillsRequired": [{
+                "skill": "agility",
+                "level": 56,
+                "boostable": false
+            }, {
+                "skill": "construction",
+                "level": 50,
+                "boostable": false
+            }, {
+                "skill": "cooking",
+                "level": 53,
+                "boostable": false
+            }, {
+                "skill": "crafting",
+                "level": 50,
+                "boostable": false
+            }, {
+                "skill": "farming",
+                "level": 70,
+                "boostable": false
+            }, {
+                "skill": "fishing",
+                "level": 53,
+                "boostable": false
+            }, {
+                "skill": "fletching",
+                "level": 5,
+                "boostable": false
+            }, {
+                "skill": "herblore",
+                "level": 45,
+                "boostable": true
+            }, {
+                "skill": "hunter",
+                "level": 59,
+                "boostable": false
+            }, {
+                "skill": "magic",
+                "level": 66,
+                "boostable": false
+            },{
+                "skill": "mining",
+                "level": 52,
+                "boostable": false
+            },{
+                "skill": "prayer",
+                "level": 42,
+                "boostable": false
+            },{
+                "skill": "ranged",
+                "level": 60,
+                "boostable": false
+            },{
+                "skill": "runecraft",
+                "level": 59,
+                "boostable": false
+            },]
         },
         "elite": {
             "itemReward": "Ardougne cloak 4",

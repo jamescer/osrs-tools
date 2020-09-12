@@ -489,7 +489,197 @@
         },
         "hard": {
             "itemReward": "Ardougne cloak 3",
-            "tasks": [],
+            "rewards": {
+                "description": [{
+                        "main": "Ardougne cloak 3",
+                        "other": [
+                            "Five daily teleports to Ardougne farm patch"
+                        ]
+                    },
+                    {
+                        "main": "1 Antique lamp worth 15,000 experience in any skill above 50",
+                        "other": []
+                    },
+                    {
+                        "main": "150 free noted pure essence every day from Wizard Cromperty",
+                        "other": []
+                    },
+                    {
+                        "main": "Ability to toggle Watchtower Teleport to the centre of Yanille",
+                        "other": []
+                    },
+                    {
+                        "main": "10% increased chance of succeeding when pickpocketing around Gielinor (even if the cloak is not equipped or in inventory",
+                        "other": []
+                    }
+                ],
+                "lamps": [{
+                    "amount": 1,
+                    "exp": 15000,
+                    "levelToUse": 50
+                }]
+            },
+            "tasks": [{
+                    "description": "Recharge some jewellery at the Totem pole in the Legends' Guild.",
+                    "requirements": {
+                        "quests": ["Legends' Quest"],
+                        "skills": []
+                    },
+                    "other": {
+                        "itemsNeeded": "Either an uncharged skills necklace or combat bracelet(charged works just needs to have less than max charges)"
+                    }
+                },
+                {
+                    "description": "Enter the Magic Guild.",
+                    "requirements": {
+                        "quests": [],
+                        "skills": [{
+                            "skill": "magic",
+                            "level": 66,
+                            "boostable": false
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "None"
+                    }
+                }, {
+                    "description": "Attempt to steal from a chest in Ardougne Castle.",
+                    "requirements": {
+                        "quests": [],
+                        "skills": [{
+                            "skill": "thieving",
+                            "level": 72,
+                            "boostable": true
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "None"
+                    }
+                },
+                {
+                    "description": "Have a zookeeper put you in Ardougne Zoo's monkey cage. (Wear a Karamjan monkey greegree—then, talk to the Monkey Minder.)",
+                    "requirements": {
+                        "quests": ["Monkey Madness I"],
+                        "skills": []
+                    },
+                    "other": {
+                        "itemsNeeded": "Monkey greegree (Karamja). Others will not work. You may reobtain this greegree from Zooknock after the completion of Monkey Madness 2."
+                    }
+                },
+                {
+                    "description": "Teleport to the Watchtower.",
+                    "requirements": {
+                        "quests": ["Watchtower"],
+                        "skills": [{
+                            "skill": "magic",
+                            "level": 58,
+                            "boostable": false
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "2 Earth runes and 2 Law runes"
+                    }
+                },
+                {
+                    "description": "Catch a Red Salamander.",
+                    "requirements": {
+                        "quests": [],
+                        "skills": [{
+                            "skill": "hunter",
+                            "level": 59,
+                            "boostable": false
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "At least 1 rope and small fishing net"
+                    }
+                },
+                {
+                    "description": "Check the health of a palm tree near Tree Gnome Village (not in Gnome Stronghold).",
+                    "requirements": {
+                        "quests": [],
+                        "skills": [{
+                            "skill": "farming",
+                            "level": 68,
+                            "boostable": false
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "1 palm tree seed (or 1 palm sapling); recommended: 15 papaya fruit"
+                    }
+                },
+                {
+                    "description": "Pick some poison ivy berries from the patch south of East Ardougne (Near the Ardougne Monastery).",
+                    "requirements": {
+                        "quests": [],
+                        "skills": [{
+                            "skill": "farming",
+                            "level": 70,
+                            "boostable": false
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "1 poison ivy seed, seed dibber, rake"
+                    }
+                },
+                {
+                    "description": "Smith a Mithril platebody near Ardougne.",
+                    "requirements": {
+                        "quests": [],
+                        "skills": [{
+                            "skill": "smithing",
+                            "level": 68,
+                            "boostable": true
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "5 mithril bars, hammer (works at Port Khazard, Yanille, or West Ardougne anvil)"
+                    }
+                },
+                {
+                    "description": "Enter your POH from Yanille.",
+                    "requirements": {
+                        "quests": [],
+                        "skills": [{
+                            "skill": "construction",
+                            "level": 50,
+                            "boostable": true
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "25,000 coins"
+                    }
+                },
+                {
+                    "description": "Smith a Dragon sq shield in West Ardougne.",
+                    "requirements": {
+                        "quests": [],
+                        "skills": [{
+                            "skill": "smithing",
+                            "level": 60,
+                            "boostable": false
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "Shield left half, shield right half, hammer(You need to complete the Legends' Quest to wear the shield, however, smithing it does not require completion. Ironmen will need to finish the quest to acquire the shield right half, as it is only sold in the guild.)"
+                    }
+                },
+                {
+                    "description": "Craft some death runes at the Death altar.",
+                    "requirements": {
+                        "quests": ["Mourning's End Part II"],
+                        "skills": [{
+                            "skill": "runecraft",
+                            "level": 65,
+                            "boostable": true
+                        }]
+                    },
+                    "other": {
+                        "itemsNeeded": "Pure essence, death talisman (or Runecraft cape/max cape or access to the Abyss), Mourner Gear (if using Mourner Tunnels, unless Song of the Elves has been completed) and Crystal Trinket (if entering through the Temple of Light)."
+                    }
+                }
+
+            ],
             "itemsRequired": ["An uncharged skills necklace or combat bracelet",
                 "Karamjan monkey greegree",
                 "2 earth runes",
@@ -505,7 +695,13 @@
                 "Pure essence",
                 "Death talisman, Runecraft cape or max cape (or access to the Abyss)"
             ],
-            "questsRequired": [],
+            "questsRequired": [
+                "Monkey Madness I",
+                "Legends' Quest",
+                "Mourning's End Part II",
+                "Watchtower"
+
+            ],
             "skillsRequired": [{
                 "skill": "agility",
                 "level": 56,
@@ -546,23 +742,43 @@
                 "skill": "magic",
                 "level": 66,
                 "boostable": false
-            },{
+            }, {
                 "skill": "mining",
                 "level": 52,
                 "boostable": false
-            },{
+            }, {
                 "skill": "prayer",
                 "level": 42,
                 "boostable": false
-            },{
+            }, {
                 "skill": "ranged",
                 "level": 60,
                 "boostable": false
-            },{
+            }, {
                 "skill": "runecraft",
-                "level": 59,
+                "level": 65,
+                "boostable": true
+            }, {
+                "skill": "smithing",
+                "level": 68,
+                "boostable": true
+            }, {
+                "skill": "strength",
+                "level": 50,
                 "boostable": false
-            },]
+            }, {
+                "skill": "thieving",
+                "level": 72,
+                "boostable": false
+            }, {
+                "skill": "woodcutting",
+                "level": 50,
+                "boostable": false
+            }, {
+                "skill": "quest",
+                "level": 107,
+                "boostable": false
+            }]
         },
         "elite": {
             "itemReward": "Ardougne cloak 4",

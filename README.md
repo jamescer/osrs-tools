@@ -14,7 +14,9 @@ npm i osrs-quest-tool
 import q from "osrs-quest-tool";
 console.log(q.json());
 ```
+
 ### Result
+
 ```js
 {
     "A Soul's Bane": {

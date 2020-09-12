@@ -2961,7 +2961,7 @@
     },
     "Shield of Arrav": {
         "miniquest": false,
-        "shortName": "fishingContest",
+        "shortName": "shieldOfArrav",
         "name": "Shield of Arrav",
         "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
         "members": false,
@@ -4188,7 +4188,7 @@
     },
     "Troll Stronghold": {
         "miniquest": false,
-        "shortName": "fishingContest",
+        "shortName": "trollStronghold",
         "name": "Troll Stronghold",
         "url": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
         "members": true,

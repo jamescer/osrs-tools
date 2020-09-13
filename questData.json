@@ -2551,7 +2551,7 @@
         "difficulty": "Special",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["Cook's Assistant", "Fishing Contest", "Goblin Diplomacy", "Big Chompy Bird Hunting", "Murder Mystery", "Nature Spirit", "Witch's House", "Gertrude's Cat", "Shadow of the Storm", "Started Legends' Quest", "Monkey Madness I", "Desert Treasure", "Horror from the Deep"],
+            "quests": ["Cook's Assistant", "Fishing Contest", "Goblin Diplomacy", "Big Chompy Bird Hunting", "Murder Mystery", "Nature Spirit", "Witch's House", "Gertrude's Cat", "Shadow of the Storm", "Legends' Quest", "Monkey Madness I", "Desert Treasure", "Horror from the Deep"],
             "skills": [{
                 "skill": "quest",
                 "level": 175,

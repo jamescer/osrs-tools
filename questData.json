@@ -4283,11 +4283,11 @@
         },
         "series": "Elf"
     },
-    "Vampire Slayer": {
+    "Vampyre Slayer": {
         "miniquest": false,
-        "shortName": "vampireSlayer",
-        "name": "Vampire Slayer",
-        "url": "https://oldschool.runescape.wiki/w/Vampire_Slayer",
+        "shortName": "vampyreSlayer",
+        "name": "Vampyre Slayer",
+        "url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
         "members": false,
         "difficulty": "Novice",
         "questLength": "Short",

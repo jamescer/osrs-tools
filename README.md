@@ -1,18 +1,24 @@
-# OSRS QuestTool
+## Old School Runescape quest tool
 
-A collection of quest data in order to help developers create something special.
+A collection of old school runescape data in order to help developers create something special.
 
 ## Installation
 
-```
+```js
 npm i osrs-quest-tool
 ```
 
+
+| Syntax | Description | Type |
+| --- | ----------- | ----------- |
+| ```q.questObject()``` | returns an object of quest array keys. | Object { } |
+| ```q.questArray()``` | returns an array of alphabetically ordered quests. | Array [ ] |
+---
 ### Example
 
 ```js
 import q from "osrs-quest-tool";
-console.log(q.json());
+console.log(q.questObject());
 ```
 
 ### Result
@@ -44,6 +50,7 @@ console.log(q.json());
         "Series": null
     }, ...
 ```
+---
 
 ### Example 2
 

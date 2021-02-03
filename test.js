@@ -1,6 +1,6 @@
 var questTool = require('./index.js')
 var assert = require('assert');
-
+var expect = require("chai").expect;
 var testAccount = {
     "_id": "5f1af258c416362fd4e9b65a",
     "name": "not poop",
@@ -363,14 +363,34 @@ var testAccount = {
 }
 
 
-for (var index in questTool.questArray()) {
-    console.log(questTool.questArray()[index]);
-}
+// for (var index in questTool.questArray()) {
+//     console.log(questTool.questArray()[index]);
 
-describe('Array', function () {
-    describe('#indexOf()', function () {
-        it('should return -1 when the value is not present', function () {
-            assert.actual(a.json(), a.json());
+//     describe('Array', function () {
+//         describe('#indexOf()', function () {
+//             it('should be equal', function () {
+//                 assert.actual(questTool.questArray()[index], questTool.questObject[index]);
+//             });
+//         });
+//     });
+// }
+console.log(questTool.canCompleteQuest(questTool.questObject()['Regicide'],testAccount));
+
+describe("Quest Tool Array vs Quest Tool Object", function () {
+    describe("Search for differences", function () {
+        it("These objects have the same value, different schemas.", function () {
+            var testArr = questTool.questArray(); 
+            var questObj = questTool.questObject();
+
+            expect(1 + 1).to.equal(2)
+           
+            for (var index in testArr) {
+                // console.log(testArr[index],index);
+                
+                
+                expect(testArr[index]).to.deep.equal(questObj[testArr[index].name]);
+
+            }
         });
     });
 });

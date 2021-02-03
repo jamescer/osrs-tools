@@ -8,12 +8,11 @@ def makeJsonToArray():
         data = json.load(json_file)
 
     for key in data:
-        val = data[key]
         # print(val)
-        d2.append(val)
+        data[key]['subquests'] = []
 
-    with open('testarray.json', 'w') as outfile:
-        json.dump(d2, outfile)
+    with open('testObj.json', 'w') as outfile:
+        json.dump(data, outfile)
 
 
 makeJsonToArray()

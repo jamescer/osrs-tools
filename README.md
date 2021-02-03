@@ -13,6 +13,7 @@ npm i osrs-quest-tool
 | --- | ----------- | ----------- |
 | ```q.questObject()``` | returns an object of quest array keys. | Object { } |
 | ```q.questArray()``` | returns an array of alphabetically ordered quests. | Array [ ] |
+| ```q.canCompleteQuests(questObject,account)``` | returns an array of alphabetically ordered quests. | Boolean |
 ---
 ### Example
 
@@ -88,7 +89,20 @@ console.log(q.questArray());
     }, ...
 ```
 
+---
+### Example
 
+```js
+import questTool from "osrs-quest-tool";
+console.log(questTool.canCompleteQuest(questTool.questObject()['Regicide'],testAccount));
+```
+
+### Result
+
+```js
+true
+```
+---
 
 ## Notes
 

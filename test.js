@@ -1,4 +1,4 @@
-var a = require('./index.js')
+var questTool = require('./index.js')
 var assert = require('assert');
 
 var testAccount = {
@@ -363,11 +363,14 @@ var testAccount = {
 }
 
 
+for (var index in questTool.questArray()) {
+    console.log(questTool.questArray()[index]);
+}
 
 describe('Array', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
-            assert.equal(a.json(), a.json());
+            assert.actual(a.json(), a.json());
         });
     });
 });

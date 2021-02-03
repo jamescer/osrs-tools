@@ -15,6 +15,7 @@ def makeJsonToArray():
     with open('testarray.json', 'w') as outfile:
         json.dump(d2, outfile)
 
+
 makeJsonToArray()
 # We will need to make a solid array of tasks per diary?
 # so instead of ArdougneDiary.easy.tasks its

@@ -87,3 +87,9 @@ console.log(q.questArray());
         "Series": null
     }, ...
 ```
+
+
+
+## Notes
+
+Recipe for disaster is a work in progress

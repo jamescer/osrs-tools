@@ -12,14 +12,17 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 500
-            }, {
-                "skill": "hitpoints",
-                "amount": 500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "defence",
+                    "amount": 500
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 500
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -32,14 +35,59 @@
         "difficulty": "Intermediate",
         "questLength": "Long",
         "requirements": {
-            "quests": ["Icthlarin's Little Helper"],
+            "quests": [
+                "Icthlarin's Little Helper"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 2
+            "exp": [],
+            "questPoints": 2
         },
         "series": "Dragonkin"
+    },
+    "A Porcine of Interest": {
+        "miniquest": false,
+        "name": "A Porcine of Interest",
+        "shortName": "aPorcineOfInterest",
+        "url": "https://oldschool.runescape.wiki/w/A_Porcine_of_Interest",
+        "members": true,
+        "description": "Ah, the Falador Farm - filled with cabbages, cows, and even a sleepy sheepdog. A peaceful place, where you can learn to churn butter, give a dog a bone, or purchase various Farming supplies. What was once a place of happiness, joy and wholesome dairy goods has of late become dominated by a vile presence. Each morning Sarah wakes to find her crops destroyed, her cows cowering, and her loyal sheepdog looking... sheepish. She's had enough, but she thinks she's got the culprit on the trot. Can you help her track down... A Porcine of Interest?",
+        "difficulty": "Novice",
+        "questLength": "Short",
+        "requirements": {
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "exp": [
+                {
+                    "skill": "slayer",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 1,
+            "other": [
+                "30 Slayer Rewards Points",
+                "Some Reinforced Goggles"
+            ]
+        },
+        "itemsRequired": [
+            "a rope",
+            "A knife or a slash weapon (except abyssal whip, abyssal tentacle, or dragon claws) (obtainable during the quest)"
+        ],
+        "startPoint": "Read the town notice board in Draynor Village, behind Fortunato's Wine Shop.",
+        "itemsRecommended": [
+            "Charged amulet of glory",
+            "Explorer's ring 2 or above",
+            "Stamina potion",
+            "Combat equipment",
+            "Some food for lower levels"
+        ],
+        "enemiesToDefeat": [
+            "Sourhog (level 37)"
+        ],
+        "series": null
     },
     "A Taste of Hope": {
         "miniquest": false,
@@ -50,32 +98,40 @@
         "difficulty": "Experienced",
         "questLength": "Long",
         "requirements": {
-            "quests": ["Darkness of Hallowvale"],
-            "skills": [{
-                "skill": "crafting",
-                "level": 48,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 45,
-                "boostable": false
-            }, {
-                "skill": "attack",
-                "level": 40,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 40,
-                "boostable": false
-            }, {
-                "skill": "slayer",
-                "level": 38,
-                "boostable": false
-            }]
+            "quests": [
+                "Darkness of Hallowvale"
+            ],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 48,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 45,
+                    "boostable": false
+                },
+                {
+                    "skill": "attack",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "slayer",
+                    "level": 38,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": "Myreque"
     },
@@ -88,44 +144,59 @@
         "difficulty": "Intermediate",
         "questLength": "Medium - Long",
         "requirements": {
-            "quests": ["The Restless Ghost", "Ernest the Chicken", "Priest in Peril"],
-            "skills": [{
-                "skill": "slayer",
-                "level": 18,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 19,
-                "boostable": false
-            }, {
-                "skill": "ranged",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "woodcutting",
-                "level": 35,
-                "boostable": false
-            }, {
-                "skill": "prayer",
-                "level": 31,
-                "boostable": false
-            }]
+            "quests": [
+                "The Restless Ghost",
+                "Ernest the Chicken",
+                "Priest in Peril"
+            ],
+            "skills": [
+                {
+                    "skill": "slayer",
+                    "level": 18,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 19,
+                    "boostable": false
+                },
+                {
+                    "skill": "ranged",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 35,
+                    "boostable": false
+                },
+                {
+                    "skill": "prayer",
+                    "level": 31,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 1000
-            }, {
-                "skill": "fletching",
-                "amount": 1000
-            }, {
-                "skill": "slayer",
-                "amount": 1000
-            }, {
-                "skill": "woodcutting",
-                "amount": 2500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                },
+                {
+                    "skill": "fletching",
+                    "amount": 1000
+                },
+                {
+                    "skill": "slayer",
+                    "amount": 1000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 2500
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -138,26 +209,37 @@
         "difficulty": "Intermediate",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Death to the Dorgeshuun", "The Giant Dwarf", "The Dig Site", "Druidic Ritual"],
-            "skills": [{
-                "skill": "attack",
-                "level": 15,
-                "boostable": false
-            }, {
-                "skill": "prayer",
-                "level": 25,
-                "boostable": false
-            }]
+            "quests": [
+                "Death to the Dorgeshuun",
+                "The Giant Dwarf",
+                "The Dig Site",
+                "Druidic Ritual"
+            ],
+            "skills": [
+                {
+                    "skill": "attack",
+                    "level": 15,
+                    "boostable": false
+                },
+                {
+                    "skill": "prayer",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "mining",
-                "amount": 3000
-            }, {
-                "skill": "prayer",
-                "amount": 3000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "mining",
+                    "amount": 3000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 3000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Dorgeshuun (#4)"
     },
@@ -170,33 +252,44 @@
         "difficulty": "Experienced",
         "questLength": "Medium - Long",
         "requirements": {
-            "quests": ["Dwarf Cannon", "Fishing Contest"],
-            "skills": [{
-                "skill": "defence",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 40,
-                "boostable": true
-            }, {
-                "skill": "smithing",
-                "level": 50,
-                "boostable": true
-            }]
+            "quests": [
+                "Dwarf Cannon",
+                "Fishing Contest"
+            ],
+            "skills": [
+                {
+                    "skill": "defence",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 40,
+                    "boostable": true
+                },
+                {
+                    "skill": "smithing",
+                    "level": 50,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 5000
-            }, {
-                "skill": "mining",
-                "amount": 5000
-            }, {
-                "skill": "smithing",
-                "amount": 5000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "defence",
+                    "amount": 5000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 5000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Rise of the Red Axe"
     },
@@ -210,32 +303,40 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "fletching",
-                "level": 5,
-                "boostable": false
-            }, {
-                "skill": "cooking",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "ranged",
-                "level": 30,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "fletching",
+                    "level": 5,
+                    "boostable": false
+                },
+                {
+                    "skill": "cooking",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "ranged",
+                    "level": 30,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "cooking",
-                "amount": 1470
-            }, {
-                "skill": "fletching",
-                "amount": 262
-            }, {
-                "skill": "ranged",
-                "amount": 735
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "cooking",
+                    "amount": 1470
+                },
+                {
+                    "skill": "fletching",
+                    "amount": 262
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 735
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Ogre"
     },
@@ -252,11 +353,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "thieving",
-                "amount": 1250
-            }],
-            "QuestPoints": 3
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 1250
+                }
+            ],
+            "questPoints": 3
         },
         "series": "Elf"
     },
@@ -270,15 +373,17 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 12,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 3
+            "exp": [],
+            "questPoints": 3
         },
         "series": null
     },
@@ -291,12 +396,14 @@
         "difficulty": "Intermediate",
         "questLength": "Short - Medium",
         "requirements": {
-            "quests": ["The Dig Site"],
+            "quests": [
+                "The Dig Site"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": null
     },
@@ -309,37 +416,50 @@
         "difficulty": "Experienced",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Pirate's Treasure", "Rum Deal", "Priest in Peril"],
-            "skills": [{
-                "skill": "agility",
-                "level": 42,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 45,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "ranged",
-                "level": 40,
-                "boostable": false
-            }]
+            "quests": [
+                "Pirate's Treasure",
+                "Rum Deal",
+                "Priest in Peril"
+            ],
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 42,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 45,
+                    "boostable": false
+                },
+                {
+                    "skill": "smithing",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "ranged",
+                    "level": 40,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 7000
-            }, {
-                "skill": "crafting",
-                "amount": 7000
-            }, {
-                "skill": "smithing",
-                "amount": 7000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 7000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 7000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 7000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Pirate"
     },
@@ -356,8 +476,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": "Great Kourend"
     },
@@ -374,8 +494,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": null
     },
@@ -389,40 +509,50 @@
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "hunter",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "construction",
-                "level": 34,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 15,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "hunter",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "construction",
+                    "level": 34,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 15,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 5000
-            }, {
-                "skill": "construction",
-                "amount": 1500
-            }, {
-                "skill": "crafting",
-                "amount": 2000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 5000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 1500
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Penguin"
     },
@@ -435,15 +565,20 @@
         "difficulty": "Master",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Prince Ali Rescue", "Icthlarin's Little Helper"],
+            "quests": [
+                "Prince Ali Rescue",
+                "Icthlarin's Little Helper"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "thieving",
-                "amount": 7000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 7000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Desert"
     },
@@ -460,11 +595,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "cooking",
-                "amount": 300
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "cooking",
+                    "amount": 300
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -477,23 +614,31 @@
         "difficulty": "Intermediate",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Priest in Peril", "The Restless Ghost"],
-            "skills": [{
-                "skill": "crafting",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 25,
-                "boostable": false
-            }]
+            "quests": [
+                "Priest in Peril",
+                "The Restless Ghost"
+            ],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "thieving",
-                "amount": 1000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 2
         },
         "series": null
     },
@@ -506,49 +651,63 @@
         "difficulty": "Intermediate",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["In Aid of the Myreque"],
-            "skills": [{
-                "skill": "construction",
-                "level": 5,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 20,
-                "boostable": true
-            }, {
-                "skill": "thieving",
-                "level": 22,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 26,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 32,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 33,
-                "boostable": false
-            }, {
-                "skill": "strength",
-                "level": 40,
-                "boostable": false
-            }]
+            "quests": [
+                "In Aid of the Myreque"
+            ],
+            "skills": [
+                {
+                    "skill": "construction",
+                    "level": 5,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 20,
+                    "boostable": true
+                },
+                {
+                    "skill": "thieving",
+                    "level": 22,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 26,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 32,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 33,
+                    "boostable": false
+                },
+                {
+                    "skill": "strength",
+                    "level": 40,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 7000
-            }, {
-                "skill": "construction",
-                "amount": 2000
-            }, {
-                "skill": "thieving",
-                "amount": 6000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 7000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 2000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 6000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Myreque"
     },
@@ -565,11 +724,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 3000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 3000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Troll"
     },
@@ -582,26 +743,34 @@
         "difficulty": "Intermediate",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["The Lost Tribe"],
-            "skills": [{
-                "skill": "agility",
-                "level": 23,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 23,
-                "boostable": false
-            }]
+            "quests": [
+                "The Lost Tribe"
+            ],
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 23,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 23,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "ranged",
-                "amount": 2000
-            }, {
-                "skill": "thieving",
-                "amount": 2000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "ranged",
+                    "amount": 2000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Dorgeshuun"
     },
@@ -618,8 +787,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 3
+            "exp": [],
+            "questPoints": 3
         },
         "series": null
     },
@@ -632,31 +801,45 @@
         "difficulty": "Master",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["The Dig Site", "Temple of Ikov", "The Tourist Trap", "Troll Stronghold", "Priest in Peril", "Waterfall Quest"],
-            "skills": [{
-                "skill": "thieving",
-                "level": 53,
-                "boostable": true
-            }, {
-                "skill": "firemaking",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "slayer",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 50,
-                "boostable": true
-            }]
+            "quests": [
+                "The Dig Site",
+                "Temple of Ikov",
+                "The Tourist Trap",
+                "Troll Stronghold",
+                "Priest in Peril",
+                "Waterfall Quest"
+            ],
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 53,
+                    "boostable": true
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "slayer",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 50,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "magic",
-                "amount": 20000
-            }],
-            "QuestPoints": 3
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 20000
+                }
+            ],
+            "questPoints": 3
         },
         "series": "The Return of Zaros and Mahjarrat"
     },
@@ -669,33 +852,46 @@
         "difficulty": "Experienced",
         "questLength": "Short",
         "requirements": {
-            "quests": ["Wanted!", "Troll Stronghold", "Doric's Quest", "Enter the Abyss"],
-            "skills": [{
-                "skill": "smithing",
-                "level": 65,
-                "boostable": true
-            }, {
-                "skill": "runecraft",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "fletching",
-                "level": 50,
-                "boostable": false
-            }]
+            "quests": [
+                "Wanted!",
+                "Troll Stronghold",
+                "Doric's Quest",
+                "Enter the Abyss"
+            ],
+            "skills": [
+                {
+                    "skill": "smithing",
+                    "level": 65,
+                    "boostable": true
+                },
+                {
+                    "skill": "runecraft",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "fletching",
+                    "level": 50,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "fletching",
-                "amount": 5000
-            }, {
-                "skill": "runecraft",
-                "amount": 5000
-            }, {
-                "skill": "smithing",
-                "amount": 6500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "fletching",
+                    "amount": 5000
+                },
+                {
+                    "skill": "runecraft",
+                    "amount": 5000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 6500
+                }
+            ],
+            "questPoints": 1
         },
         "series": "The Return of Zaros"
     },
@@ -709,18 +905,22 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "mining",
-                "level": 15,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "mining",
+                    "level": 15,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "mining",
-                "amount": 1300
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "mining",
+                    "amount": 1300
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -734,25 +934,31 @@
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 32,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 8,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 32,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 8,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 18650
-            }, {
-                "skill": "strength",
-                "amount": 18650
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "defence",
+                    "amount": 18650
+                },
+                {
+                    "skill": "strength",
+                    "amount": 18650
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Guild"
     },
@@ -765,28 +971,43 @@
         "difficulty": "Grandmaster",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["Legends' Quest", "Dream Mentor", "A Tail of Two Cats", "Animal Magnetism", "Ghosts Ahoy", "Bone Voyage", "Client of Kourend"],
-            "skills": [{
-                "skill": "quest",
-                "level": 200,
-                "boostable": false
-            }]
+            "quests": [
+                "Legends' Quest",
+                "Dream Mentor",
+                "A Tail of Two Cats",
+                "Animal Magnetism",
+                "Ghosts Ahoy",
+                "Bone Voyage",
+                "Client of Kourend"
+            ],
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 200,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 15000
-            }, {
-                "skill": "mining",
-                "amount": 18000
-            }, {
-                "skill": "smithing",
-                "amount": 25000
-            }, {
-                "skill": "thieving",
-                "amount": 15000
-            }],
-            "QuestPoints": 5
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 15000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 18000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 25000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 15000
+                }
+            ],
+            "questPoints": 5
         },
         "series": "Dragonkin"
     },
@@ -799,22 +1020,30 @@
         "difficulty": "Master",
         "questLength": "Short - Medium",
         "requirements": {
-            "quests": ["Lunar Diplomacy", "Eadgar's Ruse"],
-            "skills": [{
-                "skill": "combat",
-                "level": 85,
-                "boostable": false
-            }]
+            "quests": [
+                "Lunar Diplomacy",
+                "Eadgar's Ruse"
+            ],
+            "skills": [
+                {
+                    "skill": "combat",
+                    "level": 85,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "hitpoints",
-                "amount": 15000
-            }, {
-                "skill": "magic",
-                "amount": 10000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "hitpoints",
+                    "amount": 15000
+                },
+                {
+                    "skill": "magic",
+                    "amount": 10000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Fremennik"
     },
@@ -831,11 +1060,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "herblore",
-                "amount": 250
-            }],
-            "QuestPoints": 4
+            "exp": [
+                {
+                    "skill": "herblore",
+                    "amount": 250
+                }
+            ],
+            "questPoints": 4
         },
         "series": null
     },
@@ -852,11 +1083,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 750
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 750
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -869,23 +1102,31 @@
         "difficulty": "Experienced",
         "questLength": "Medium - Long",
         "requirements": {
-            "quests": ["Druidic Ritual", "Troll Stronghold"],
-            "skills": [{
-                "skill": "herblore",
-                "level": 31,
-                "boostable": true
-            }, {
-                "skill": "agility",
-                "level": 44,
-                "boostable": false
-            }]
+            "quests": [
+                "Druidic Ritual",
+                "Troll Stronghold"
+            ],
+            "skills": [
+                {
+                    "skill": "herblore",
+                    "level": 31,
+                    "boostable": true
+                },
+                {
+                    "skill": "agility",
+                    "level": 44,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "herblore",
-                "amount": 11000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "herblore",
+                    "amount": 11000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Troll"
     },
@@ -899,18 +1140,22 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "hunter",
-                "level": 27,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "hunter",
+                    "level": 27,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "hunter",
-                "amount": 2500
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "hunter",
+                    "amount": 2500
+                }
+            ],
+            "questPoints": 2
         },
         "series": null
     },
@@ -924,29 +1169,36 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "mining",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "mining",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "smithing",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 5000
-            }, {
-                "skill": "smithing",
-                "amount": 5000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 5000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Elemental Workshop"
     },
@@ -960,25 +1212,31 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "magic",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "level": 30,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "magic",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "smithing",
+                    "level": 30,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 7500
-            }, {
-                "skill": "smithing",
-                "amount": 7500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 7500
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 7500
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Elemental Workshop (#2)"
     },
@@ -992,43 +1250,54 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "firemaking",
-                "level": 45,
-                "boostable": false
-            }, {
-                "skill": "prayer",
-                "level": 43,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 39,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 45,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 45,
+                    "boostable": false
+                },
+                {
+                    "skill": "prayer",
+                    "level": 43,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 39,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 45,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 7000
-            }, {
-                "skill": "firemaking",
-                "amount": 7000
-            }, {
-                "skill": "magic",
-                "amount": 7000
-            }, {
-                "skill": "mining",
-                "amount": 7000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 7000
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 7000
+                },
+                {
+                    "skill": "magic",
+                    "amount": 7000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 7000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Mahjarrat"
     },
@@ -1042,39 +1311,49 @@
         "questLength": "Short - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "firemaking",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "farming",
-                "level": 30,
-                "boostable": true
-            }, {
-                "skill": "crafting",
-                "level": 36,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "farming",
+                    "level": 30,
+                    "boostable": true
+                },
+                {
+                    "skill": "crafting",
+                    "level": 36,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 2000
-            }, {
-                "skill": "farming",
-                "amount": 3000
-            }, {
-                "skill": "firemaking",
-                "amount": 4000
-            }, {
-                "skill": "woodcutting",
-                "amount": 1500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 2000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 3000
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 4000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 1500
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -1087,12 +1366,14 @@
         "difficulty": "Novice",
         "questLength": "Short \u00e2\u20ac\u201c Long",
         "requirements": {
-            "quests": ["Rune Mysteries"],
+            "quests": [
+                "Rune Mysteries"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 0
+            "exp": [],
+            "questPoints": 0
         },
         "series": null
     },
@@ -1109,8 +1390,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 4
+            "exp": [],
+            "questPoints": 4
         },
         "series": null
     },
@@ -1123,21 +1404,28 @@
         "difficulty": "Experienced",
         "questLength": "Long",
         "requirements": {
-            "quests": ["Lost City", "Nature Spirit"],
+            "quests": [
+                "Lost City",
+                "Nature Spirit"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 2000
-            }, {
-                "skill": "farming",
-                "amount": 3500
-            }, {
-                "skill": "magic",
-                "amount": 1000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 2000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 3500
+                },
+                {
+                    "skill": "magic",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Fairy Tale (#2)"
     },
@@ -1150,30 +1438,39 @@
         "difficulty": "Experienced",
         "questLength": "Short - Medium",
         "requirements": {
-            "quests": ["Fairytale I - Growing Pains"],
-            "skills": [{
-                "skill": "thieving",
-                "level": 40,
-                "boostable": true
-            }, {
-                "skill": "farming",
-                "level": 49,
-                "boostable": true
-            }, {
-                "skill": "herblore",
-                "level": 57,
-                "boostable": true
-            }]
+            "quests": [
+                "Fairytale I - Growing Pains"
+            ],
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 40,
+                    "boostable": true
+                },
+                {
+                    "skill": "farming",
+                    "level": 49,
+                    "boostable": true
+                },
+                {
+                    "skill": "herblore",
+                    "level": 57,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "herblore",
-                "amount": 3500
-            }, {
-                "skill": "thieving",
-                "amount": 2500
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "herblore",
+                    "amount": 3500
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 2500
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Fairy Tale (#2)"
     },
@@ -1187,27 +1484,32 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "mining",
-                "level": 40,
-                "boostable": true
-            }, {
-                "skill": "smithing",
-                "level": 40,
-                "boostable": true
-            }, {
-                "skill": "magic",
-                "level": 59,
-                "boostable": true
-            }, {
-                "skill": "crafting",
-                "level": 40,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "mining",
+                    "level": 40,
+                    "boostable": true
+                },
+                {
+                    "skill": "smithing",
+                    "level": 40,
+                    "boostable": true
+                },
+                {
+                    "skill": "magic",
+                    "level": 59,
+                    "boostable": true
+                },
+                {
+                    "skill": "crafting",
+                    "level": 40,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": null
     },
@@ -1224,14 +1526,17 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 12175
-            }, {
-                "skill": "thieving",
-                "amount": 2175
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 12175
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 2175
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Mahjarrat"
     },
@@ -1245,18 +1550,22 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "fishing",
-                "level": 10,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "fishing",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "fishing",
-                "amount": 2437
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "fishing",
+                    "amount": 2437
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Dwarf"
     },
@@ -1269,26 +1578,35 @@
         "difficulty": "Intermediate",
         "questLength": "Long",
         "requirements": {
-            "quests": ["The Giant Dwarf", "Fishing Contest"],
-            "skills": [{
-                "skill": "cooking",
-                "level": 22,
-                "boostable": false
-            }, {
-                "skill": "farming",
-                "level": 17,
-                "boostable": false
-            }]
+            "quests": [
+                "The Giant Dwarf",
+                "Fishing Contest"
+            ],
+            "skills": [
+                {
+                    "skill": "cooking",
+                    "level": 22,
+                    "boostable": false
+                },
+                {
+                    "skill": "farming",
+                    "level": 17,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "cooking",
-                "amount": 5000
-            }, {
-                "skill": "farming",
-                "amount": 5000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "cooking",
+                    "amount": 5000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Rise of the Red Axe"
     },
@@ -1301,19 +1619,25 @@
         "difficulty": "Intermediate",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["Creature of Fenkenstrain"],
-            "skills": [{
-                "skill": "farming",
-                "level": 25,
-                "boostable": false
-            }]
+            "quests": [
+                "Creature of Fenkenstrain"
+            ],
+            "skills": [
+                {
+                    "skill": "farming",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "farming",
-                "amount": 5000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "farming",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 2
         },
         "series": null
     },
@@ -1330,13 +1654,77 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "cooking",
-                "amount": 1525
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "cooking",
+                    "amount": 1525
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
+    },
+    "Getting Ahead": {
+        "miniquest": false,
+        "shortName": "gettingAhead",
+        "name": "Getting Ahead",
+        "url": "https://oldschool.runescape.wiki/w/Getting_Ahead",
+        "members": true,
+        "difficulty": "Intermediate",
+        "questLength": "Short",
+        "requirements": {
+            "quests": [],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 30,
+                    "boostable": true
+                },
+                {
+                    "skill": "construction",
+                    "level": 26,
+                    "boostable": true
+                }
+            ]
+        },
+        "itemsRequired": [
+            "Bear fur or grey wolf fur (a grizzly bear and cub spawn west of the farm)",
+            "Soft clay or a pickaxe you can use (clay rocks are found in the Kebos Lowlands mine, Gordon's house has a water source and a bucket spawn)(there is a bronze pick spawn at the mine in a rock)",
+            "Hammer (obtainable near the cattle gate)",
+            "Saw (obtainable in the shed north of the house)",
+            "2 Planks (obtainable near the cave entrance)",
+            "At least 6 Nails of any kind (iron nails can be found in the workbench north of the house)",
+            "Knife (obtainable on the kitchen table in the house)",
+            "Red dye (obtainable from the shelves in the house)",
+            "Pot of flour (obtainable upstairs in the house)",
+            "Needle (obtainable upstairs in the house)",
+            "Thread (obtainable upstairs in the house)"
+        ],
+        "itemsRecommended": [
+            "Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild",
+            "Combat equipment to fight a level 82 beast."
+        ],
+        "rewards": {
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 4000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 3200
+                }
+            ],
+            "questPoints": 1,
+            "other": [
+                "3000 coins",
+                "Access to a tannery in the Kebos Lowlands (speak to Mary to access tanning services)"
+            ]
+        },
+        "enemiesToDefeat": [
+            "Headless Beast (level-82)"
+        ],
+        "series": "Twisted Tales"
     },
     "Ghosts Ahoy": {
         "miniquest": false,
@@ -1351,11 +1739,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "prayer",
-                "amount": 2400
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "prayer",
+                    "amount": 2400
+                }
+            ],
+            "questPoints": 2
         },
         "series": null
     },
@@ -1372,11 +1762,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 200
-            }],
-            "QuestPoints": 5
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 200
+                }
+            ],
+            "questPoints": 5
         },
         "series": null
     },
@@ -1390,49 +1782,62 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "farming",
-                "level": 45,
-                "boostable": true
-            }, {
-                "skill": "herblore",
-                "level": 52,
-                "boostable": true
-            }, {
-                "skill": "thieving",
-                "level": 58,
-                "boostable": true
-            }, {
-                "skill": "agility",
-                "level": 59,
-                "boostable": true
-            }, {
-                "skill": "woodcutting",
-                "level": 71,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "farming",
+                    "level": 45,
+                    "boostable": true
+                },
+                {
+                    "skill": "herblore",
+                    "level": 52,
+                    "boostable": true
+                },
+                {
+                    "skill": "thieving",
+                    "level": 58,
+                    "boostable": true
+                },
+                {
+                    "skill": "agility",
+                    "level": 59,
+                    "boostable": true
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 71,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 6000
-            }, {
-                "skill": "farming",
-                "amount": 4000
-            }, {
-                "skill": "herblore",
-                "amount": 5000
-            }, {
-                "skill": "hitpoints",
-                "amount": 5000
-            }, {
-                "skill": "thieving",
-                "amount": 6000
-            }, {
-                "skill": "woodcutting",
-                "amount": 14000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 6000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 4000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 5000
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 5000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 6000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 14000
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -1446,22 +1851,27 @@
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 15,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 35,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 15,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 35,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "strength",
-                "amount": 22000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "strength",
+                    "amount": 22000
+                }
+            ],
+            "questPoints": 2
         },
         "series": null
     },
@@ -1478,11 +1888,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "thieving",
-                "amount": 1500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 1500
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Mahjarrat"
     },
@@ -1495,52 +1907,73 @@
         "difficulty": "Experienced",
         "questLength": "Medium - Long",
         "requirements": {
-            "quests": ["Shield of Arrav", "Lost City", "Merlin's Crystal", "Dragon Slayer", "Druidic Ritual"],
-            "skills": [{
-                "skill": "quest",
-                "level": 55,
-                "boostable": false
-            }]
+            "quests": [
+                "Shield of Arrav",
+                "Lost City",
+                "Merlin's Crystal",
+                "Dragon Slayer",
+                "Druidic Ritual"
+            ],
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 55,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 3075
-            }, {
-                "skill": "cooking",
-                "amount": 2825
-            }, {
-                "skill": "defence",
-                "amount": 3075
-            }, {
-                "skill": "firemaking",
-                "amount": 1575
-            }, {
-                "skill": "fishing",
-                "amount": 2725
-            }, {
-                "skill": "herblore",
-                "amount": 1325
-            }, {
-                "skill": "hitpoints",
-                "amount": 3075
-            }, {
-                "skill": "mining",
-                "amount": 2575
-            }, {
-                "skill": "ranged",
-                "amount": 2075
-            }, {
-                "skill": "smithing",
-                "amount": 2257
-            }, {
-                "skill": "strength",
-                "amount": 3075
-            }, {
-                "skill": "woodcutting",
-                "amount": 1575
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 3075
+                },
+                {
+                    "skill": "cooking",
+                    "amount": 2825
+                },
+                {
+                    "skill": "defence",
+                    "amount": 3075
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 1575
+                },
+                {
+                    "skill": "fishing",
+                    "amount": 2725
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 1325
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 3075
+                },
+                {
+                    "skill": "mining",
+                    "amount": 2575
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 2075
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 2257
+                },
+                {
+                    "skill": "strength",
+                    "amount": 3075
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 1575
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Guild"
     },
@@ -1554,25 +1987,29 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "attack",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "attack",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 15300
-            }, {
-                "skill": "prayer",
-                "amount": 11000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "defence",
+                    "amount": 15300
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 11000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Camelot (#2)"
     },
-
     "Horror from the Deep": {
         "miniquest": false,
         "shortName": "horrorFromTheDeep",
@@ -1583,24 +2020,30 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 35,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 35,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "magic",
-                "amount": 4662
-            }, {
-                "skill": "ranged",
-                "amount": 4662.5
-            }, {
-                "skill": "strength",
-                "amount": 4662.5
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 4662
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 4662.5
+                },
+                {
+                    "skill": "strength",
+                    "amount": 4662.5
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Fremennik"
     },
@@ -1617,17 +2060,21 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 4000
-            }, {
-                "skill": "thieving",
-                "amount": 4500
-            }, {
-                "skill": "woodcutting",
-                "amount": 4000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 4000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 4500
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 4000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Desert"
     },
@@ -1644,11 +2091,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "magic",
-                "amount": 875
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 875
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -1661,36 +2110,47 @@
         "difficulty": "Intermediate",
         "questLength": "Long",
         "requirements": {
-            "quests": ["In Search of the Myreque"],
-            "skills": [{
-                "skill": "crafting",
-                "level": 25,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 15,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 7,
-                "boostable": false
-            }]
+            "quests": [
+                "In Search of the Myreque"
+            ],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 25,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 15,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 7,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 2000
-            }, {
-                "skill": "crafting",
-                "amount": 2000
-            }, {
-                "skill": "defence",
-                "amount": 2000
-            }, {
-                "skill": "strength",
-                "amount": 2000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 2000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 2000
+                },
+                {
+                    "skill": "defence",
+                    "amount": 2000
+                },
+                {
+                    "skill": "strength",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Myreque"
     },
@@ -1703,31 +2163,41 @@
         "difficulty": "Intermediate",
         "questLength": "Short",
         "requirements": {
-            "quests": ["Nature Spirit"],
-            "skills": [{
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }]
+            "quests": [
+                "Nature Spirit"
+            ],
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 600
-            }, {
-                "skill": "crafting",
-                "amount": 600
-            }, {
-                "skill": "defence",
-                "amount": 600
-            }, {
-                "skill": "hitpoints",
-                "amount": 600
-            }, {
-                "skill": "strength",
-                "amount": 600
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 600
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 600
+                },
+                {
+                    "skill": "defence",
+                    "amount": 600
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 600
+                },
+                {
+                    "skill": "strength",
+                    "amount": 600
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Myreque"
     },
@@ -1741,18 +2211,22 @@
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "herblore",
-                "level": 3,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "herblore",
+                    "level": 3,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "herblore",
-                "amount": 775
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "herblore",
+                    "amount": 775
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Karamja"
     },
@@ -1765,26 +2239,37 @@
         "difficulty": "Experienced",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Black Knights' Fortress", "Holy Grail", "Murder Mystery", "One Small Favour"],
-            "skills": [{
-                "skill": "magic",
-                "level": 45,
-                "boostable": false
-            }, {
-                "skill": "defence",
-                "level": 65,
-                "boostable": true
-            }]
+            "quests": [
+                "Black Knights' Fortress",
+                "Holy Grail",
+                "Murder Mystery",
+                "One Small Favour"
+            ],
+            "skills": [
+                {
+                    "skill": "magic",
+                    "level": 45,
+                    "boostable": false
+                },
+                {
+                    "skill": "defence",
+                    "level": 65,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 33000
-            }, {
-                "skill": "magic",
-                "amount": 5000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "defence",
+                    "amount": 33000
+                },
+                {
+                    "skill": "magic",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Camelot (#3)"
     },
@@ -1797,56 +2282,74 @@
         "difficulty": "Master",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["Family Crest", "Heroes' Quest", "Shilo Village", "Underground Pass", "Waterfall Quest"],
-            "skills": [{
-                "skill": "quest",
-                "level": 107,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 50,
-                "boostable": true
-            }, {
-                "skill": "crafting",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 45,
-                "boostable": true
-            }, {
-                "skill": "magic",
-                "level": 56,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 52,
-                "boostable": true
-            }, {
-                "skill": "prayer",
-                "level": 42,
-                "boostable": true
-            }, {
-                "skill": "smithing",
-                "level": 50,
-                "boostable": true
-            }, {
-                "skill": "strength",
-                "level": 50,
-                "boostable": true
-            }, {
-                "skill": "thieving",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "woodcutting",
-                "level": 50,
-                "boostable": true
-            }]
+            "quests": [
+                "Family Crest",
+                "Heroes' Quest",
+                "Shilo Village",
+                "Underground Pass",
+                "Waterfall Quest"
+            ],
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 107,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 50,
+                    "boostable": true
+                },
+                {
+                    "skill": "crafting",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 45,
+                    "boostable": true
+                },
+                {
+                    "skill": "magic",
+                    "level": 56,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 52,
+                    "boostable": true
+                },
+                {
+                    "skill": "prayer",
+                    "level": 42,
+                    "boostable": true
+                },
+                {
+                    "skill": "smithing",
+                    "level": 50,
+                    "boostable": true
+                },
+                {
+                    "skill": "strength",
+                    "level": 50,
+                    "boostable": true
+                },
+                {
+                    "skill": "thieving",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 50,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 4
+            "exp": [],
+            "questPoints": 4
         },
         "series": "Karamja, Guild"
     },
@@ -1860,19 +2363,22 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 31,
-                "boostable": false
-            }, {
-                "skill": "woodcutting",
-                "level": 36,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 31,
+                    "boostable": false
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 36,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 3
+            "exp": [],
+            "questPoints": 3
         },
         "series": "Fairy Tale"
     },
@@ -1885,42 +2391,57 @@
         "difficulty": "Experienced",
         "questLength": "Long",
         "requirements": {
-            "quests": ["The Fremennik Trials", "Lost City", "Rune Mysteries", "Shilo Village"],
-            "skills": [{
-                "skill": "crafting",
-                "level": 61,
-                "boostable": false
-            }, {
-                "skill": "defence",
-                "level": 40,
-                "boostable": false
-            }, {
-                "skill": "firemaking",
-                "level": 49,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 65,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 60,
-                "boostable": false
-            }, {
-                "skill": "woodcutting",
-                "level": 55,
-                "boostable": false
-            }]
+            "quests": [
+                "The Fremennik Trials",
+                "Lost City",
+                "Rune Mysteries",
+                "Shilo Village"
+            ],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 61,
+                    "boostable": false
+                },
+                {
+                    "skill": "defence",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 49,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 65,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 60,
+                    "boostable": false
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 55,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "magic",
-                "amount": 5000
-            }, {
-                "skill": "runecraft",
-                "amount": 5000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 5000
+                },
+                {
+                    "skill": "runecraft",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Fremennik"
     },
@@ -1933,40 +2454,55 @@
         "difficulty": "Master",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["My Arm's Big Adventure", "Swan Song", "Cold War", "Romeo & Juliet"],
-            "skills": [{
-                "skill": "firemaking",
-                "level": 66,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 72,
-                "boostable": false
-            }, {
-                "skill": "construction",
-                "level": 35,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 68,
-                "boostable": false
-            }]
+            "quests": [
+                "My Arm's Big Adventure",
+                "Swan Song",
+                "Cold War",
+                "Romeo & Juliet"
+            ],
+            "skills": [
+                {
+                    "skill": "firemaking",
+                    "level": 66,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 72,
+                    "boostable": false
+                },
+                {
+                    "skill": "construction",
+                    "level": 35,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 68,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 10000
-            }, {
-                "skill": "construction",
-                "amount": 2000
-            }, {
-                "skill": "firemaking",
-                "amount": 5000
-            }, {
-                "skill": "mining",
-                "amount": 10000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 10000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 2000
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 5000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 10000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Troll"
     },
@@ -1979,18 +2515,24 @@
         "difficulty": "Intermediate",
         "questLength": "Short - Long",
         "requirements": {
-            "quests": ["Priest in Peril", "The Restless Ghost"],
+            "quests": [
+                "Priest in Peril",
+                "The Restless Ghost"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 1000
-            }, {
-                "skill": "prayer",
-                "amount": 1000
-            }],
-            "QuestPoints": 3
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 3
         },
         "series": "Enchanted Key"
     },
@@ -2007,8 +2549,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 6
+            "exp": [],
+            "questPoints": 6
         },
         "series": "Camelot"
     },
@@ -2025,11 +2567,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 600
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 600
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -2046,11 +2590,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "woodcutting",
-                "amount": 2000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "woodcutting",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -2063,16 +2609,21 @@
         "difficulty": "Master",
         "questLength": "Long",
         "requirements": {
-            "quests": ["The Grand Tree", "Tree Gnome Village"],
-            "skills": [{
-                "skill": "prayer",
-                "level": 43,
-                "boostable": false
-            }]
+            "quests": [
+                "The Grand Tree",
+                "Tree Gnome Village"
+            ],
+            "skills": [
+                {
+                    "skill": "prayer",
+                    "level": 43,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 3
+            "exp": [],
+            "questPoints": 3
         },
         "series": "Gnome, Monkey"
     },
@@ -2085,48 +2636,66 @@
         "difficulty": "Grandmaster",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["Enlightened Journey", "The Eyes of Glouphrie", "Recipe for Disaster", "Troll Stronghold", "Watchtower"],
-            "skills": [{
-                "skill": "slayer",
-                "level": 69,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "hunter",
-                "level": 60,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 55,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 55,
-                "boostable": false
-            }, {
-                "skill": "firemaking",
-                "level": 60,
-                "boostable": false
-            }]
+            "quests": [
+                "Enlightened Journey",
+                "The Eyes of Glouphrie",
+                "Recipe for Disaster",
+                "Troll Stronghold",
+                "Watchtower"
+            ],
+            "skills": [
+                {
+                    "skill": "slayer",
+                    "level": 69,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "hunter",
+                    "level": 60,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 55,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 55,
+                    "boostable": false
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 60,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 20000
-            }, {
-                "skill": "hunter",
-                "amount": 15000
-            }, {
-                "skill": "slayer",
-                "amount": 25000
-            }, {
-                "skill": "thieving",
-                "amount": 15000
-            }],
-            "QuestPoints": 4
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 20000
+                },
+                {
+                    "skill": "hunter",
+                    "amount": 15000
+                },
+                {
+                    "skill": "slayer",
+                    "amount": 25000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 15000
+                }
+            ],
+            "questPoints": 4
         },
         "series": "Gnome, Monkey"
     },
@@ -2140,21 +2709,26 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 1000
-            }, {
-                "skill": "prayer",
-                "amount": 2000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 1000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Fremennik"
     },
@@ -2167,26 +2741,36 @@
         "difficulty": "Master",
         "questLength": "Short",
         "requirements": {
-            "quests": ["Roving Elves", "Big Chompy Bird Hunting", "Sheep Herder"],
-            "skills": [{
-                "skill": "ranged",
-                "level": 60,
-                "boostable": true
-            }, {
-                "skill": "thieving",
-                "level": 50,
-                "boostable": true
-            }]
+            "quests": [
+                "Roving Elves",
+                "Big Chompy Bird Hunting",
+                "Sheep Herder"
+            ],
+            "skills": [
+                {
+                    "skill": "ranged",
+                    "level": 60,
+                    "boostable": true
+                },
+                {
+                    "skill": "thieving",
+                    "level": 50,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "hitpoints",
-                "amount": 25000
-            }, {
-                "skill": "thieving",
-                "amount": 25000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "hitpoints",
+                    "amount": 25000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 25000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Elf"
     },
@@ -2200,22 +2784,27 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "prayer",
-                "level": 43,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 60,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "prayer",
+                    "level": 43,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 60,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 20000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 20000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Elf"
     },
@@ -2232,11 +2821,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 1406
-            }],
-            "QuestPoints": 3
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 1406
+                }
+            ],
+            "questPoints": 3
         },
         "series": "Camelot"
     },
@@ -2249,26 +2840,36 @@
         "difficulty": "Intermediate",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Eadgar's Ruse", "The Feud", "Jungle Potion"],
-            "skills": [{
-                "skill": "woodcutting",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "farming",
-                "level": 29,
-                "boostable": true
-            }]
+            "quests": [
+                "Eadgar's Ruse",
+                "The Feud",
+                "Jungle Potion"
+            ],
+            "skills": [
+                {
+                    "skill": "woodcutting",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "farming",
+                    "level": 29,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "farming",
-                "amount": 5000
-            }, {
-                "skill": "herblore",
-                "amount": 10000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "farming",
+                    "amount": 5000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 10000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Troll"
     },
@@ -2281,25 +2882,34 @@
         "difficulty": "Novice",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Priest in Peril", "The Restless Ghost"],
-            "skills": [{
-                "skill": "crafting",
-                "level": 18,
-                "boostable": false
-            }]
+            "quests": [
+                "Priest in Peril",
+                "The Restless Ghost"
+            ],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 18,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 3000
-            }, {
-                "skill": "defence",
-                "amount": 2000
-            }, {
-                "skill": "hitpoints",
-                "amount": 2000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 3000
+                },
+                {
+                    "skill": "defence",
+                    "amount": 2000
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Myreque"
     },
@@ -2313,18 +2923,22 @@
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 10,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 2250
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 2250
+                }
+            ],
+            "questPoints": 2
         },
         "series": null
     },
@@ -2338,22 +2952,27 @@
         "questLength": "Short - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "firemaking",
-                "level": 40,
-                "boostable": false
-            }, {
-                "skill": "woodcutting",
-                "level": 50,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "firemaking",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 50,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 12000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "defence",
+                    "amount": 12000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Fremennik"
     },
@@ -2366,77 +2985,39 @@
         "difficulty": "Experienced",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["Rune Mysteries", "Shilo Village"],
-            "skills": [{
-                "skill": "agility",
-                "level": 36,
-                "boostable": true
-            }, {
-                "skill": "crafting",
-                "level": 25,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 18,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "level": 30,
-                "boostable": false
-            }]
+            "quests": [
+                "Rune Mysteries",
+                "Shilo Village"
+            ],
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 36,
+                    "boostable": true
+                },
+                {
+                    "skill": "crafting",
+                    "level": 25,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 18,
+                    "boostable": false
+                },
+                {
+                    "skill": "smithing",
+                    "level": 30,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 2
+            "exp": [],
+            "questPoints": 2
         },
         "series": "Karamja"
     },
-    "Pirate Pete subquest of Recipe for Disaster": {
-        "miniquest": true,
-        "subquest": true,
-        "shortName": "piratePeteSubquestOfRecipeforDisaster",
-        "name": "Pirate Pete subquest of Recipe for Disaster",
-        "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
-        "members": true,
-        "difficulty": "Special",
-        "questLength": "Medium",
-        "released": "15 March 2006 (Update)",
-        "itemsRequired": ["A raw cod", "A pestle and mortar",
-            "Bread",
-            "A knife",
-            "A fishbowl (empty)",
-            "A needle",
-            "3 bronze wire"
-        ],
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "cooking",
-                "level": 31,
-                "boostable": false
-            }],
-            "other": [{
-                "description": "The ability to defeat 5 level 30 monsters."
-            }],
-            "ironman": [{
-                "skill": "crafting",
-                "description": "42 Crafting (If crafting a fishbowl yourself or by completing Rum Deal)",
-                "level": 42,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "description": "4 Smithing (To make the bronze wire.)",
-                "level": 4,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-            "Experience": [],
-            "QuestPoints": 2
-        },
-        "series": "Pirate"
-    },
-
     "Pirate's Treasure": {
         "miniquest": false,
         "shortName": "piratesTreasure",
@@ -2450,8 +3031,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 2
+            "exp": [],
+            "questPoints": 2
         },
         "series": "Pirate"
     },
@@ -2468,11 +3049,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "mining",
-                "amount": 2425
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "mining",
+                    "amount": 2425
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Elf"
     },
@@ -2489,11 +3072,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "prayer",
-                "amount": 1406
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "prayer",
+                    "amount": 1406
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Myreque"
     },
@@ -2510,8 +3095,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 3
+            "exp": [],
+            "questPoints": 3
         },
         "series": null
     },
@@ -2528,14 +3113,17 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "cooking",
-                "amount": 500
-            }, {
-                "skill": "prayer",
-                "amount": 500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "cooking",
+                    "amount": 500
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 500
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -2549,22 +3137,27 @@
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "slayer",
-                "level": 40,
-                "boostable": false
-            }, {
-                "skill": "defence",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "slayer",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "defence",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "prayer",
-                "amount": 5000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "prayer",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -2577,15 +3170,19 @@
         "difficulty": "Intermediate",
         "questLength": "Long - Very long",
         "requirements": {
-            "quests": ["Icthlarin's Little Helper"],
+            "quests": [
+                "Icthlarin's Little Helper"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "thieving",
-                "amount": 4500
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 4500
+                }
+            ],
+            "questPoints": 2
         },
         "series": null
     },
@@ -2598,74 +3195,161 @@
         "difficulty": "Special",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["Cook's Assistant", "Fishing Contest", "Goblin Diplomacy", "Big Chompy Bird Hunting", "Murder Mystery", "Nature Spirit", "Witch's House", "Gertrude's Cat", "Shadow of the Storm", "Legends' Quest", "Monkey Madness I", "Desert Treasure", "Horror from the Deep"],
-            "skills": [{
-                "skill": "quest",
-                "level": 175,
-                "boostable": false
-            }, {
-                "skill": "cooking",
-                "level": 70,
-                "boostable": true
-            }, {
-                "skill": "agility",
-                "level": 48,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 50,
-                "boostable": true
-            }, {
-                "skill": "fishing",
-                "level": 53,
-                "boostable": true
-            }, {
-                "skill": "thieving",
-                "level": 53,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 25,
-                "boostable": true
-            }, {
-                "skill": "magic",
-                "level": 59,
-                "boostable": true
-            }, {
-                "skill": "smithing",
-                "level": 40,
-                "boostable": false
-            }, {
-                "skill": "firemaking",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "ranged",
-                "level": 40,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 40,
-                "boostable": false
-            }, {
-                "skill": "fletching",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "slayer",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "woodcutting",
-                "level": 36,
-                "boostable": false
-            }]
+            "quests": [
+                "Cook's Assistant",
+                "Fishing Contest",
+                "Goblin Diplomacy",
+                "Big Chompy Bird Hunting",
+                "Murder Mystery",
+                "Nature Spirit",
+                "Witch's House",
+                "Gertrude's Cat",
+                "Shadow of the Storm",
+                "Legends' Quest",
+                "Monkey Madness I",
+                "Desert Treasure",
+                "Horror from the Deep"
+            ],
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 175,
+                    "boostable": false
+                },
+                {
+                    "skill": "cooking",
+                    "level": 70,
+                    "boostable": true
+                },
+                {
+                    "skill": "agility",
+                    "level": 48,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 50,
+                    "boostable": true
+                },
+                {
+                    "skill": "fishing",
+                    "level": 53,
+                    "boostable": true
+                },
+                {
+                    "skill": "thieving",
+                    "level": 53,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 25,
+                    "boostable": true
+                },
+                {
+                    "skill": "magic",
+                    "level": 59,
+                    "boostable": true
+                },
+                {
+                    "skill": "smithing",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "ranged",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 40,
+                    "boostable": false
+                },
+                {
+                    "skill": "fletching",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "slayer",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 36,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 10
+            "exp": [],
+            "questPoints": 10
         },
-        "subquests": [],
+        "subquests": [
+            {
+                "Pirate Pete subquest of Recipe for Disaster": {
+                    "miniquest": true,
+                    "subquest": true,
+                    "shortName": "piratePeteSubquestOfRecipeforDisaster",
+                    "name": "Pirate Pete subquest of Recipe for Disaster",
+                    "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
+                    "members": true,
+                    "difficulty": "Special",
+                    "questLength": "Medium",
+                    "released": "15 March 2006 (Update)",
+                    "itemsRequired": [
+                        "A raw cod",
+                        "A pestle and mortar",
+                        "Bread",
+                        "A knife",
+                        "A fishbowl (empty)",
+                        "A needle",
+                        "3 bronze wire"
+                    ],
+                    "requirements": {
+                        "quests": [],
+                        "skills": [
+                            {
+                                "skill": "cooking",
+                                "level": 31,
+                                "boostable": false
+                            }
+                        ],
+                        "other": [
+                            {
+                                "description": "The ability to defeat 5 level 30 monsters."
+                            }
+                        ],
+                        "ironman": [
+                            {
+                                "skill": "crafting",
+                                "description": "42 Crafting (If crafting a fishbowl yourself or by completing Rum Deal)",
+                                "level": 42,
+                                "boostable": false
+                            },
+                            {
+                                "skill": "smithing",
+                                "description": "4 Smithing (To make the bronze wire.)",
+                                "level": 4,
+                                "boostable": false
+                            }
+                        ]
+                    },
+                    "rewards": {
+                        "exp": [],
+                        "questPoints": 2
+                    },
+                    "series": "Pirate"
+                }
+            }
+        ],
         "series": null
     },
     "Recruitment Drive": {
@@ -2678,24 +3362,30 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 12,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 1000
-            }, {
-                "skill": "herblore",
-                "amount": 1000
-            }, {
-                "skill": "prayer",
-                "amount": 1000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 1000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 1000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Temple Knight"
     },
@@ -2708,23 +3398,30 @@
         "difficulty": "Master",
         "questLength": "Long",
         "requirements": {
-            "quests": ["Underground Pass"],
-            "skills": [{
-                "skill": "agility",
-                "level": 56,
-                "boostable": true
-            }, {
-                "skill": "crafting",
-                "level": 10,
-                "boostable": false
-            }]
+            "quests": [
+                "Underground Pass"
+            ],
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 56,
+                    "boostable": true
+                },
+                {
+                    "skill": "crafting",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 13750
-            }],
-            "QuestPoints": 3
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 13750
+                }
+            ],
+            "questPoints": 3
         },
         "series": "Elf"
     },
@@ -2741,8 +3438,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 5
+            "exp": [],
+            "questPoints": 5
         },
         "series": null
     },
@@ -2755,15 +3452,20 @@
         "difficulty": "Master",
         "questLength": "Short - Medium",
         "requirements": {
-            "quests": ["Regicide", "Waterfall Quest"],
+            "quests": [
+                "Regicide",
+                "Waterfall Quest"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "strength",
-                "amount": 10000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "strength",
+                    "amount": 10000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Elf, Gnome"
     },
@@ -2777,28 +3479,35 @@
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 40,
-                "boostable": true
-            }, {
-                "skill": "slayer",
-                "level": 40,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 40,
+                    "boostable": true
+                },
+                {
+                    "skill": "slayer",
+                    "level": 40,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 5000
-            }, {
-                "skill": "hitpoints",
-                "amount": 5000
-            }, {
-                "skill": "slayer",
-                "amount": 5000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 5000
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 5000
+                },
+                {
+                    "skill": "slayer",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Fremennik"
     },
@@ -2811,41 +3520,54 @@
         "difficulty": "Experienced",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Zogre Flesh Eaters", "Priest in Peril"],
-            "skills": [{
-                "skill": "crafting",
-                "level": 42,
-                "boostable": false
-            }, {
-                "skill": "fishing",
-                "level": 50,
-                "boostable": true
-            }, {
-                "skill": "farming",
-                "level": 40,
-                "boostable": true
-            }, {
-                "skill": "prayer",
-                "level": 47,
-                "boostable": true
-            }, {
-                "skill": "slayer",
-                "level": 42,
-                "boostable": true
-            }]
+            "quests": [
+                "Zogre Flesh Eaters",
+                "Priest in Peril"
+            ],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 42,
+                    "boostable": false
+                },
+                {
+                    "skill": "fishing",
+                    "level": 50,
+                    "boostable": true
+                },
+                {
+                    "skill": "farming",
+                    "level": 40,
+                    "boostable": true
+                },
+                {
+                    "skill": "prayer",
+                    "level": 47,
+                    "boostable": true
+                },
+                {
+                    "skill": "slayer",
+                    "level": 42,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "farming",
-                "amount": 7000
-            }, {
-                "skill": "fishing",
-                "amount": 7000
-            }, {
-                "skill": "prayer",
-                "amount": 7000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "farming",
+                    "amount": 7000
+                },
+                {
+                    "skill": "fishing",
+                    "amount": 7000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 7000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Pirate"
     },
@@ -2862,8 +3584,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": null
     },
@@ -2877,18 +3599,22 @@
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "prayer",
-                "level": 31,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "prayer",
+                    "level": 31,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "strength",
-                "amount": 6625
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "strength",
+                    "amount": 6625
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -2905,11 +3631,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "fishing",
-                "amount": 7175
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "fishing",
+                    "amount": 7175
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Sea Slug"
     },
@@ -2923,29 +3651,36 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 15,
-                "boostable": false
-            }, {
-                "skill": "firemaking",
-                "level": 5,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 15,
+                    "boostable": false
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 5,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 2000
-            }, {
-                "skill": "herblore",
-                "amount": 2000
-            }],
-            "QuestPoints": 3
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 2000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 3
         },
         "series": "Mort'ton"
     },
@@ -2958,12 +3693,15 @@
         "difficulty": "Intermediate",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["The Golem", "Demon Slayer"],
+            "quests": [
+                "The Golem",
+                "Demon Slayer"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": null
     },
@@ -2980,8 +3718,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 4
+            "exp": [],
+            "questPoints": 4
         },
         "series": "Plague/Elf"
     },
@@ -2998,11 +3736,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 150
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 150
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -3019,8 +3759,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": "Mahjarrat"
     },
@@ -3034,26 +3774,32 @@
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 32,
-                "boostable": true
-            }, {
-                "skill": "smithing",
-                "level": 4,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 32,
+                    "boostable": true
+                },
+                {
+                    "skill": "smithing",
+                    "level": 4,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 3875
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 3875
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Karamja"
     },
@@ -3066,68 +3812,89 @@
         "difficulty": "Grandmaster",
         "questLength": "Very long",
         "requirements": {
-            "quests": ["Mourning's End Part II", "Making History"],
-            "skills": [{
-                "skill": "agility",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "construction",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "farming",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "hunter",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "woodcutting",
-                "level": 70,
-                "boostable": false
-            }]
+            "quests": [
+                "Mourning's End Part II",
+                "Making History"
+            ],
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "construction",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "farming",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "hunter",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "smithing",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 70,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 20000
-            }, {
-                "skill": "construction",
-                "amount": 20000
-            }, {
-                "skill": "farming",
-                "amount": 20000
-            }, {
-                "skill": "herblore",
-                "amount": 20000
-            }, {
-                "skill": "hunter",
-                "amount": 20000
-            }, {
-                "skill": "mining",
-                "amount": 20000
-            }, {
-                "skill": "smithing",
-                "amount": 20000
-            }, {
-                "skill": "woodcutting",
-                "amount": 20000
-            }],
-            "QuestPoints": 4
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 20000
+                },
+                {
+                    "skill": "construction",
+                    "amount": 20000
+                },
+                {
+                    "skill": "farming",
+                    "amount": 20000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 20000
+                },
+                {
+                    "skill": "hunter",
+                    "amount": 20000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 20000
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 20000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 20000
+                }
+            ],
+            "questPoints": 4
         },
         "series": "Elf"
     },
@@ -3141,36 +3908,45 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "magic",
-                "level": 33,
-                "boostable": true
-            }, {
-                "skill": "ranged",
-                "level": 37,
-                "boostable": true
-            }, {
-                "skill": "mining",
-                "level": 37,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 37,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "magic",
+                    "level": 33,
+                    "boostable": true
+                },
+                {
+                    "skill": "ranged",
+                    "level": 37,
+                    "boostable": true
+                },
+                {
+                    "skill": "mining",
+                    "level": 37,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 37,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "magic",
-                "amount": 1000
-            }, {
-                "skill": "prayer",
-                "amount": 8000
-            }, {
-                "skill": "thieving",
-                "amount": 1000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 1000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 8000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Desert"
     },
@@ -3183,49 +3959,64 @@
         "difficulty": "Master",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["One Small Favour", "Garden of Tranquillity"],
-            "skills": [{
-                "skill": "quest",
-                "level": 100,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 66,
-                "boostable": true
-            }, {
-                "skill": "cooking",
-                "level": 62,
-                "boostable": true
-            }, {
-                "skill": "fishing",
-                "level": 62,
-                "boostable": true
-            }, {
-                "skill": "smithing",
-                "level": 45,
-                "boostable": true
-            }, {
-                "skill": "firemaking",
-                "level": 42,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 40,
-                "boostable": false
-            }]
+            "quests": [
+                "One Small Favour",
+                "Garden of Tranquillity"
+            ],
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 100,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 66,
+                    "boostable": true
+                },
+                {
+                    "skill": "cooking",
+                    "level": 62,
+                    "boostable": true
+                },
+                {
+                    "skill": "fishing",
+                    "level": 62,
+                    "boostable": true
+                },
+                {
+                    "skill": "smithing",
+                    "level": 45,
+                    "boostable": true
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 42,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 40,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "fishing",
-                "amount": 10000
-            }, {
-                "skill": "magic",
-                "amount": 15000
-            }, {
-                "skill": "prayer",
-                "amount": 10000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "fishing",
+                    "amount": 10000
+                },
+                {
+                    "skill": "magic",
+                    "amount": 15000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 10000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Wise Old Man"
     },
@@ -3239,35 +4030,44 @@
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 15,
-                "boostable": false
-            }, {
-                "skill": "cooking",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "fishing",
-                "level": 5,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 15,
+                    "boostable": false
+                },
+                {
+                    "skill": "cooking",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "fishing",
+                    "level": 5,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 2500
-            }, {
-                "skill": "cooking",
-                "amount": 5000
-            }, {
-                "skill": "fishing",
-                "amount": 5000
-            }, {
-                "skill": "strength",
-                "amount": 2500
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 2500
+                },
+                {
+                    "skill": "cooking",
+                    "amount": 5000
+                },
+                {
+                    "skill": "fishing",
+                    "amount": 5000
+                },
+                {
+                    "skill": "strength",
+                    "amount": 2500
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Karamja"
     },
@@ -3280,20 +4080,25 @@
         "difficulty": "Novice",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Client of Kourend"],
-            "skills": [{
-                "skill": "strength",
-                "level": 16,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 10,
-                "boostable": false
-            }]
+            "quests": [
+                "Client of Kourend"
+            ],
+            "skills": [
+                {
+                    "skill": "strength",
+                    "level": 16,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": "Great Kourend"
     },
@@ -3307,30 +4112,37 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 43,
-                "boostable": false
-            }, {
-                "skill": "firemaking",
-                "level": 49,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 43,
+                    "boostable": false
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 49,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 1000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -3344,25 +4156,31 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "thieving",
-                "level": 42,
-                "boostable": true
-            }, {
-                "skill": "ranged",
-                "level": 40,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 42,
+                    "boostable": true
+                },
+                {
+                    "skill": "ranged",
+                    "level": 40,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "fletching",
-                "amount": 8000
-            }, {
-                "skill": "ranged",
-                "amount": 10500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "fletching",
+                    "amount": 8000
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 10500
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Mahjarrat"
     },
@@ -3375,22 +4193,29 @@
         "difficulty": "Novice",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Client of Kourend"],
-            "skills": [{
-                "skill": "hunter",
-                "level": 12,
-                "boostable": false
-            }]
+            "quests": [
+                "Client of Kourend"
+            ],
+            "skills": [
+                {
+                    "skill": "hunter",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "hunter",
-                "amount": 1500
-            }, {
-                "skill": "runecraft",
-                "amount": 500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "hunter",
+                    "amount": 1500
+                },
+                {
+                    "skill": "runecraft",
+                    "amount": 500
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Great Kourend"
     },
@@ -3407,8 +4232,8 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 2
+            "exp": [],
+            "questPoints": 2
         },
         "series": null
     },
@@ -3421,19 +4246,25 @@
         "difficulty": "Novice",
         "questLength": "Short",
         "requirements": {
-            "quests": ["Client of Kourend"],
-            "skills": [{
-                "skill": "agility",
-                "level": 18,
-                "boostable": false
-            }]
+            "quests": [
+                "Client of Kourend"
+            ],
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 18,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 1500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 1500
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Great Kourend"
     },
@@ -3447,29 +4278,36 @@
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 25,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "herblore",
-                "amount": 2000
-            }, {
-                "skill": "mining",
-                "amount": 15300
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "herblore",
+                    "amount": 2000
+                },
+                {
+                    "skill": "mining",
+                    "amount": 15300
+                }
+            ],
+            "questPoints": 2
         },
         "series": "The Return of Zaros"
     },
@@ -3483,31 +4321,39 @@
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "construction",
-                "level": 5,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 46,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "construction",
+                    "level": 5,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 46,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "construction",
-                "amount": 250
-            }, {
-                "skill": "magic",
-                "amount": 12000
-            }, {
-                "skill": "runecraft",
-                "amount": 6000
-            }, {
-                "skill": "woodcutting",
-                "amount": 2500
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "construction",
+                    "amount": 250
+                },
+                {
+                    "skill": "magic",
+                    "amount": 12000
+                },
+                {
+                    "skill": "runecraft",
+                    "amount": 6000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 2500
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Gnome"
     },
@@ -3521,18 +4367,22 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "thieving",
-                "level": 30,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 30,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "thieving",
-                "amount": 15000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 15000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Desert"
     },
@@ -3549,14 +4399,17 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "mining",
-                "amount": 500
-            }, {
-                "skill": "smithing",
-                "amount": 500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "mining",
+                    "amount": 500
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 500
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Great Kourend"
     },
@@ -3569,41 +4422,56 @@
         "difficulty": "Master",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["The Fremennik Isles", "Lunar Diplomacy", "Mountain Daughter", "Heroes' Quest"],
-            "skills": [{
-                "skill": "crafting",
-                "level": 65,
-                "boostable": false
-            }, {
-                "skill": "slayer",
-                "level": 60,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "level": 60,
-                "boostable": false
-            }, {
-                "skill": "fishing",
-                "level": 60,
-                "boostable": false
-            }, {
-                "skill": "runecraft",
-                "level": 55,
-                "boostable": false
-            }]
+            "quests": [
+                "The Fremennik Isles",
+                "Lunar Diplomacy",
+                "Mountain Daughter",
+                "Heroes' Quest"
+            ],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 65,
+                    "boostable": false
+                },
+                {
+                    "skill": "slayer",
+                    "level": 60,
+                    "boostable": false
+                },
+                {
+                    "skill": "smithing",
+                    "level": 60,
+                    "boostable": false
+                },
+                {
+                    "skill": "fishing",
+                    "level": 60,
+                    "boostable": false
+                },
+                {
+                    "skill": "runecraft",
+                    "level": 55,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 15000
-            }, {
-                "skill": "runecraft",
-                "amount": 5000
-            }, {
-                "skill": "slayer",
-                "amount": 15000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 15000
+                },
+                {
+                    "skill": "runecraft",
+                    "amount": 5000
+                },
+                {
+                    "skill": "slayer",
+                    "amount": 15000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Fremennik"
     },
@@ -3617,28 +4485,35 @@
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "construction",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 40,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "construction",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 40,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "construction",
-                "amount": 5000
-            }, {
-                "skill": "crafting",
-                "amount": 5000
-            }, {
-                "skill": "woodcutting",
-                "amount": 10000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "construction",
+                    "amount": 5000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 5000
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 10000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Fremennik"
     },
@@ -3655,38 +4530,49 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 2812
-            }, {
-                "skill": "attack",
-                "amount": 2812
-            }, {
-                "skill": "crafting",
-                "amount": 2812
-            }, {
-                "skill": "defence",
-                "amount": 2812
-            }, {
-                "skill": "fishing",
-                "amount": 2812
-            }, {
-                "skill": "fletching",
-                "amount": 2812
-            }, {
-                "skill": "hitpoints",
-                "amount": 2812
-            }, {
-                "skill": "strength",
-                "amount": 2812
-            }, {
-                "skill": "thieving",
-                "amount": 2812
-            }, {
-                "skill": "woodcutting",
-                "amount": 2812
-            }],
-            "QuestPoints": 3
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 2812
+                },
+                {
+                    "skill": "attack",
+                    "amount": 2812
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 2812
+                },
+                {
+                    "skill": "defence",
+                    "amount": 2812
+                },
+                {
+                    "skill": "fishing",
+                    "amount": 2812
+                },
+                {
+                    "skill": "fletching",
+                    "amount": 2812
+                },
+                {
+                    "skill": "hitpoints",
+                    "amount": 2812
+                },
+                {
+                    "skill": "strength",
+                    "amount": 2812
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 2812
+                },
+                {
+                    "skill": "woodcutting",
+                    "amount": 2812
+                }
+            ],
+            "questPoints": 3
         },
         "series": "Fremennik"
     },
@@ -3700,53 +4586,67 @@
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 12,
-                "boostable": false
-            }, {
-                "skill": "firemaking",
-                "level": 16,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 33,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 14,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 12,
+                    "boostable": false
+                },
+                {
+                    "skill": "firemaking",
+                    "level": 16,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 33,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 14,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "smithing",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 2500
-            }, {
-                "skill": "firemaking",
-                "amount": 1500
-            }, {
-                "skill": "magic",
-                "amount": 1500
-            }, {
-                "skill": "mining",
-                "amount": 2500
-            }, {
-                "skill": "smithing",
-                "amount": 2500
-            }, {
-                "skill": "thieving",
-                "amount": 1500
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 2500
+                },
+                {
+                    "skill": "firemaking",
+                    "amount": 1500
+                },
+                {
+                    "skill": "magic",
+                    "amount": 1500
+                },
+                {
+                    "skill": "mining",
+                    "amount": 2500
+                },
+                {
+                    "skill": "smithing",
+                    "amount": 2500
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 1500
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Rise of the Red Axe"
     },
@@ -3760,25 +4660,31 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 20,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 25,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 20,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 1000
-            }, {
-                "skill": "thieving",
-                "amount": 1000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -3792,24 +4698,30 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 7900
-            }, {
-                "skill": "attack",
-                "amount": 18400
-            }, {
-                "skill": "magic",
-                "amount": 2150
-            }],
-            "QuestPoints": 5
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 7900
+                },
+                {
+                    "skill": "attack",
+                    "amount": 18400
+                },
+                {
+                    "skill": "magic",
+                    "amount": 2150
+                }
+            ],
+            "questPoints": 5
         },
         "series": "Gnome"
     },
@@ -3822,33 +4734,45 @@
         "difficulty": "Experienced",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Creature of Fenkenstrain", "Cabin Fever", "Pirate Pete subquest of Recipe for Disaster"],
-            "skills": [{
-                "skill": "crafting",
-                "level": 16,
-                "boostable": false
-            }, {
-                "skill": "construction",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "prayer",
-                "level": 50,
-                "boostable": true
-            }]
+            "quests": [
+                "Creature of Fenkenstrain",
+                "Cabin Fever",
+                "Pirate Pete subquest of Recipe for Disaster"
+            ],
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 16,
+                    "boostable": false
+                },
+                {
+                    "skill": "construction",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "prayer",
+                    "level": 50,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "construction",
-                "amount": 2000
-            }, {
-                "skill": "crafting",
-                "amount": 3000
-            }, {
-                "skill": "prayer",
-                "amount": 6000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "construction",
+                    "amount": 2000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 3000
+                },
+                {
+                    "skill": "prayer",
+                    "amount": 6000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Pirate"
     },
@@ -3865,14 +4789,17 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 9000
-            }, {
-                "skill": "thieving",
-                "amount": 1000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 9000
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -3886,18 +4813,22 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "mining",
-                "level": 10,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "mining",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "smithing",
-                "amount": 12725
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "smithing",
+                    "amount": 12725
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -3911,26 +4842,32 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 13,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 13,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 17,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 13,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 13,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 17,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "mining",
-                "amount": 3000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "mining",
+                    "amount": 3000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Dorgeshuun"
     },
@@ -3943,19 +4880,25 @@
         "difficulty": "Novice",
         "questLength": "Short",
         "requirements": {
-            "quests": ["Client of Kourend"],
-            "skills": [{
-                "skill": "thieving",
-                "level": 20,
-                "boostable": false
-            }]
+            "quests": [
+                "Client of Kourend"
+            ],
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "thieving",
-                "amount": 2000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Great Kourend"
     },
@@ -3972,11 +4915,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "prayer",
-                "amount": 1125
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "prayer",
+                    "amount": 1125
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -3990,42 +4935,66 @@
         "difficulty": "Master",
         "questLength": "Long",
         "requirements": {
-            "quests": ["Vampyre Slayer", "A Taste of Hope", "Darkness of Hallowvale", "In Aid of the Myreque", "In Search of the Myreque", "Nature Spirit", "Priest in Peril", "The Restless Ghost"],
-            "skills": [{
-                "skill": "woodcutting",
-                "level": 62,
-                "boostable": false
-            }, {
-                "skill": "fletching",
-                "level": 60,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 56,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 52,
-                "boostable": false
-            }, {
-                "skill": "attack",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "slayer",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 49,
-                "boostable": false
-            }]
+            "quests": [
+                "Vampyre Slayer",
+                "A Taste of Hope",
+                "Darkness of Hallowvale",
+                "In Aid of the Myreque",
+                "In Search of the Myreque",
+                "Nature Spirit",
+                "Priest in Peril",
+                "The Restless Ghost"
+            ],
+            "skills": [
+                {
+                    "skill": "woodcutting",
+                    "level": 62,
+                    "boostable": false
+                },
+                {
+                    "skill": "fletching",
+                    "level": 60,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 56,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 52,
+                    "boostable": false
+                },
+                {
+                    "skill": "attack",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "slayer",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 49,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 2,
-            "Items": ["Blisterwood flail"],
-            "other": ["Access to Darkmeyer", "A tome of experience, granting 15,000 experience to any three skills (level 60 or higher). Can be the same skill.", "Darkmeyer teleport via Drakan's medallion", "Boat travel between Burgh de Rott, Slepe and the Icyene Graveyard"]
+            "exp": [],
+            "questPoints": 2,
+            "Items": [
+                "Blisterwood flail"
+            ],
+            "other": [
+                "Access to Darkmeyer",
+                "A tome of exp, granting 15,000 exp to any three skills (level 60 or higher). Can be the same skill.",
+                "Darkmeyer teleport via Drakan's medallion",
+                "Boat travel between Burgh de Rott, Slepe and the Icyene Graveyard"
+            ]
         },
         "series": "Myreque"
     },
@@ -4039,36 +5008,45 @@
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "runecraft",
-                "level": 30,
-                "boostable": true
-            }, {
-                "skill": "slayer",
-                "level": 30,
-                "boostable": true
-            }, {
-                "skill": "thieving",
-                "level": 30,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "runecraft",
+                    "level": 30,
+                    "boostable": true
+                },
+                {
+                    "skill": "slayer",
+                    "level": 30,
+                    "boostable": true
+                },
+                {
+                    "skill": "thieving",
+                    "level": 30,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "crafting",
-                "amount": 3500
-            }, {
-                "skill": "runecraft",
-                "amount": 3500
-            }, {
-                "skill": "thieving",
-                "amount": 3500
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 3500
+                },
+                {
+                    "skill": "runecraft",
+                    "amount": 3500
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 3500
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Sea Slug"
     },
@@ -4082,19 +5060,22 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "fletching",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "smithing",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "fletching",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "smithing",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 2
+            "exp": [],
+            "questPoints": 2
         },
         "series": "Desert"
     },
@@ -4108,27 +5089,32 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "woodcutting",
-                "level": 45,
-                "boostable": false
-            }, {
-                "skill": "farming",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "fishing",
-                "level": 35,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "woodcutting",
+                    "level": 45,
+                    "boostable": false
+                },
+                {
+                    "skill": "farming",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "fishing",
+                    "level": 35,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": "Fremennik"
     },
@@ -4142,24 +5128,30 @@
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "construction",
-                "level": 10,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "construction",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "construction",
-                "amount": 1000
-            }, {
-                "skill": "crafting",
-                "amount": 500
-            }, {
-                "skill": "thieving",
-                "amount": 500
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "construction",
+                    "amount": 1000
+                },
+                {
+                    "skill": "crafting",
+                    "amount": 500
+                },
+                {
+                    "skill": "thieving",
+                    "amount": 500
+                }
+            ],
+            "questPoints": 2
         },
         "series": null
     },
@@ -4176,11 +5168,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 11450
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 11450
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Gnome"
     },
@@ -4194,18 +5188,22 @@
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "thieving",
-                "level": 21,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 21,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "thieving",
-                "amount": 1775
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 1775
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -4218,18 +5216,23 @@
         "difficulty": "Experienced",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Troll Stronghold"],
+            "quests": [
+                "Troll Stronghold"
+            ],
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 8000
-            }, {
-                "skill": "strength",
-                "amount": 4000
-            }],
-            "QuestPoints": 2
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 8000
+                },
+                {
+                    "skill": "strength",
+                    "amount": 4000
+                }
+            ],
+            "questPoints": 2
         },
         "series": "Troll"
     },
@@ -4243,15 +5246,17 @@
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 15,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 15,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1
+            "exp": [],
+            "questPoints": 1
         },
         "series": "Troll"
     },
@@ -4264,22 +5269,29 @@
         "difficulty": "Experienced",
         "questLength": "Long",
         "requirements": {
-            "quests": ["Biohazard"],
-            "skills": [{
-                "skill": "ranged",
-                "level": 25,
-                "boostable": false
-            }]
+            "quests": [
+                "Biohazard"
+            ],
+            "skills": [
+                {
+                    "skill": "ranged",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "agility",
-                "amount": 3000
-            }, {
-                "skill": "attack",
-                "amount": 3000
-            }],
-            "QuestPoints": 5
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 3000
+                },
+                {
+                    "skill": "attack",
+                    "amount": 3000
+                }
+            ],
+            "questPoints": 5
         },
         "series": "Elf"
     },
@@ -4296,11 +5308,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 4825
-            }],
-            "QuestPoints": 3
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 4825
+                }
+            ],
+            "questPoints": 3
         },
         "series": null
     },
@@ -4313,19 +5327,28 @@
         "difficulty": "Intermediate",
         "questLength": "Long",
         "requirements": {
-            "quests": ["Recruitment Drive", "Rune Mysteries", "The Lost Tribe", "Priest in Peril"],
-            "skills": [{
-                "skill": "quest",
-                "level": 32,
-                "boostable": false
-            }]
+            "quests": [
+                "Recruitment Drive",
+                "Rune Mysteries",
+                "The Lost Tribe",
+                "Priest in Peril"
+            ],
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 32,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "slayer",
-                "amount": 5000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "slayer",
+                    "amount": 5000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Temple Knight"
     },
@@ -4339,34 +5362,42 @@
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "magic",
-                "level": 15,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 15,
-                "boostable": false
-            }, {
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 14,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 40,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "magic",
+                    "level": 15,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 15,
+                    "boostable": false
+                },
+                {
+                    "skill": "agility",
+                    "level": 25,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 14,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 40,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "magic",
-                "amount": 15250
-            }],
-            "QuestPoints": 4
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 15250
+                }
+            ],
+            "questPoints": 4
         },
         "series": "Ogre"
     },
@@ -4383,14 +5414,17 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "attack",
-                "amount": 13750
-            }, {
-                "skill": "strength",
-                "amount": 13750
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 13750
+                },
+                {
+                    "skill": "strength",
+                    "amount": 13750
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Elf, Gnome"
     },
@@ -4407,14 +5441,17 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 2000
-            }, {
-                "skill": "runecraft",
-                "amount": 8000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "defence",
+                    "amount": 2000
+                },
+                {
+                    "skill": "runecraft",
+                    "amount": 8000
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -4431,11 +5468,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "hitpoints",
-                "amount": 6325
-            }],
-            "QuestPoints": 4
+            "exp": [
+                {
+                    "skill": "hitpoints",
+                    "amount": 6325
+                }
+            ],
+            "questPoints": 4
         },
         "series": null
     },
@@ -4452,11 +5491,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [{
-                "skill": "magic",
-                "amount": 325
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 325
+                }
+            ],
+            "questPoints": 1
         },
         "series": null
     },
@@ -4473,9 +5514,13 @@
             "skills": []
         },
         "rewards": {
-            "Experience": [],
-            "QuestPoints": 1,
-            "other": ["200 coins", "Antique lamp which provides 300 XP in a skill of the player's choosing.", "A beginner clue scroll (only if the player does not have one in their possession; can be claimed later if players had one in their possession already)"]
+            "exp": [],
+            "questPoints": 1,
+            "other": [
+                "200 coins",
+                "Antique lamp which provides 300 XP in a skill of the player's choosing.",
+                "A beginner clue scroll (only if the player does not have one in their possession; can be claimed later if players had one in their possession already)"
+            ]
         },
         "series": "Great Kourend"
     },
@@ -4488,45 +5533,59 @@
         "difficulty": "Intermediate",
         "questLength": "Medium",
         "requirements": {
-            "quests": ["Big Chompy Bird Hunting", "Jungle Potion"],
-            "skills": [{
-                "skill": "smithing",
-                "level": 4,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 8,
-                "boostable": false
-            }, {
-                "skill": "ranged",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "fletching",
-                "level": 30,
-                "boostable": false
-            }, {
-                "skill": "strength",
-                "level": 10,
-                "boostable": false
-            }, {
-                "skill": "prayer",
-                "level": 43,
-                "boostable": false
-            }]
+            "quests": [
+                "Big Chompy Bird Hunting",
+                "Jungle Potion"
+            ],
+            "skills": [
+                {
+                    "skill": "smithing",
+                    "level": 4,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 8,
+                    "boostable": false
+                },
+                {
+                    "skill": "ranged",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "fletching",
+                    "level": 30,
+                    "boostable": false
+                },
+                {
+                    "skill": "strength",
+                    "level": 10,
+                    "boostable": false
+                },
+                {
+                    "skill": "prayer",
+                    "level": 43,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "Experience": [{
-                "skill": "fletching",
-                "amount": 2000
-            }, {
-                "skill": "herblore",
-                "amount": 2000
-            }, {
-                "skill": "ranged",
-                "amount": 2000
-            }],
-            "QuestPoints": 1
+            "exp": [
+                {
+                    "skill": "fletching",
+                    "amount": 2000
+                },
+                {
+                    "skill": "herblore",
+                    "amount": 2000
+                },
+                {
+                    "skill": "ranged",
+                    "amount": 2000
+                }
+            ],
+            "questPoints": 1
         },
         "series": "Ogre"
     }

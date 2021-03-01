@@ -106,4 +106,4 @@ true
 
 ## Notes
 
-Recipe for disaster is a work in progress
+Recipe for disaster is a work in progress!

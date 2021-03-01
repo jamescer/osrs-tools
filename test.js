@@ -1,6 +1,6 @@
-var questTool = require('./index.js')
-var assert = require('assert');
-var expect = require("chai").expect;
+import { QuestTool } from './questTool.js';
+// var assert = require('assert');
+// var expect = require("chai").expect;
 var testAccount = {
     "_id": "5f1af258c416362fd4e9b65a",
     "name": "not poop",
@@ -361,8 +361,11 @@ var testAccount = {
     "nameLowercase": "not poop",
     "lastUpdated": 1595602146838
 }
-
-
+var tool = new QuestTool(testAccount);
+console.log(tool.getOsrsAccount().toString());
+console.log(tool.canCompleteQuest('Regicide'));
+console.log(tool.canCompleteQuest('Recipe for Disaster'));
+console.log(tool.getOsrsAccount().toString());
 // for (var index in questTool.questArray()) {
 //     console.log(questTool.questArray()[index]);
 
@@ -374,23 +377,23 @@ var testAccount = {
 //         });
 //     });
 // }
-console.log(questTool.canCompleteQuest(questTool.questObject()['Regicide'],testAccount));
+// console.log(questTool.canCompleteQuest(questTool.questObject()['Regicide'], testAccount));
 
-describe("Quest Tool Array vs Quest Tool Object", function () {
-    describe("Search for differences", function () {
-        it("These objects have the same value, different schemas.", function () {
-            var testArr = questTool.questArray(); 
-            var questObj = questTool.questObject();
+// describe("Quest Tool Array vs Quest Tool Object", function () {
+//     describe("Search for differences", function () {
+//         it("These objects have the same value, different schemas.", function () {
+//             var testArr = questTool.questArray();
+//             var questObj = questTool.questObject();
 
-            expect(1 + 1).to.equal(2)
-           
-            for (var index in testArr) {
-                // console.log(testArr[index],index);
-                
-                
-                expect(testArr[index]).to.deep.equal(questObj[testArr[index].name]);
+//             expect(1 + 1).to.equal(2)
 
-            }
-        });
-    });
-});
+//             for (var index in testArr) {
+//                 // console.log(testArr[index],index);
+
+
+//                 expect(testArr[index]).to.deep.equal(questObj[testArr[index].name]);
+
+//             }
+//         });
+//     });
+// });

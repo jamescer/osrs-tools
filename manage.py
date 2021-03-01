@@ -3,7 +3,7 @@ import json
 
 def makeJsonToArray():
     data = []
-    d2 = []
+
     with open('questData.json') as json_file:
         data = json.load(json_file)
 

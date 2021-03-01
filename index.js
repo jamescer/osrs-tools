@@ -48,27 +48,59 @@ function highestBoost(skillName) {
             break;
     }
 }
+var osrsAccount;
 
+/**
+ * Assign a OSRS account to this package.
+ * @deprecated
+ */
+exports.setOsrsAccount() = function (acc) {
+    osrsAccount = acc;
+}
 
+/**
+ * Assign a OSRS account to this package.
+ * @deprecated
+ */
+exports.getOsrsAccount() = function () {
+    return osrsAccount;
+}
+
+/**
+ * Returns a json object of all old school runescape quests.
+ * @deprecated
+ */
 exports.questObject = function () {
     return questObject;
 }
+
+/**
+ * Returns an array object of all old school runescape quests as json objects.
+ * @deprecated
+ */
 exports.questArray = function () {
     return questArray;
 }
+
+/**
+ * Returns an array object of all subquests for all old school runescape quests as json objects.
+ * @deprecated
+ */
 exports.subQuestArray = function () {
     return subQuestArray;
 }
+
+
 exports.hello = function () {
     console.log("if you need help use the .help() method");
     console.log("This is a message from the demo package");
 }
+
+
 exports.contact = function () {
-    console.log("If you need to contact me feel free to reach out to me at cerniglj1@hawkmail.newpaltz.edu");
+    console.log("If you need to contact me feel free to reach out to me at cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com");
 }
-// exports = (str) => {
-//     return `💩${str}💩`;
-// }
+
 exports.help = function () {
     console.log("import q from \"osrs-quest-tool\";\n console.log(q.questObject());\n console.log(q.questArray());");
 }
@@ -155,12 +187,22 @@ exports.meetQuestRequirements = function meetQuestRequirements(quest, account) {
     // If the account can complete all quests and skills are higher than or boostable
     return true;
 }
+
+/**
+ * 
+ * @param {*} quest - The quest object from this modules questObject, should be a Json object.
+ * @param {*} account - The account that this quest is being compared to. Plans to remove this in the future?
+ * 
+ * Recursive method that iterates through a quests requirements that determines the quest is completable with the passed account
+ * Possible revamp to remove account param to increase runtime?
+ * 
+ */
 exports.canCompleteQuest = function canCompleteQuest(quest, account) {
-    if (quest === "Recipe for Disaster") {
+    if (quest.name === "Recipe for Disaster") {
         // TODO 
         // Pirate Pete Subquest of Recipe for Disaster
         return true;
-    } else if (quest === 'Pirate Pete subquest of Recipe for Disaster') {
+    } else if (quest.name === 'Pirate Pete subquest of Recipe for Disaster') {
         // TODO 
         // Pirate Pete Subquest of Recipe for Disaster
         return true;
@@ -174,8 +216,7 @@ exports.canCompleteQuest = function canCompleteQuest(quest, account) {
              *  cur.skill
              *  cur.boostable
              *  cur.ironman
-             *  types:
-             *  "quest", "combat", "agility"...
+             *  types: "quest", "combat", "agility"...
              *  */
 
             //  If the requirement is mandatory for ironmen

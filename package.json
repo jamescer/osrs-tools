@@ -10,7 +10,7 @@
     "test": "mocha test.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/cerniglj1"
   },
   "type": "module",
   "repository": {

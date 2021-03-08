@@ -9,6 +9,9 @@
   "scripts": {
     "test": "mocha test.js"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "type": "module",
   "repository": {
     "type": "git",

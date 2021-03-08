@@ -27,7 +27,6 @@ export class OsrsAccount {
      */
     setQuestPoints(x) {
         if (x >= 0) {
-
             this.osrsAccount.main.questPoints = x;
         }
     }

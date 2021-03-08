@@ -11,9 +11,10 @@ npm i osrs-quest-tool
 
 | Syntax | Description | Type |
 | --- | ----------- | ----------- |
+| ```new q.QuestTool()``` | constructer for QuestTool class. | Class Constructer |
 | ```q.questObject()``` | returns an object of quest array keys. | Object { } |
 | ```q.questArray()``` | returns an array of alphabetically ordered quests. | Array [ ] |
-| ```q.canCompleteQuests(questObject,account)``` | returns an array of alphabetically ordered quests. | Boolean |
+| ```q.canCompleteQuests(questObject,account)``` | returns an array of alphabetically ordered quests. | Array [ ] |
 ---
 ### Example
 
@@ -27,29 +28,18 @@ console.log(q.questObject());
 ```js
 {
     "A Soul's Bane": {
-        "Miniquest": false,
-        "Name": "A Soul's Bane",
-        "shortName": "aSoulsBane",
-        "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
-        "members": true,
-        "Difficulty": "Novice",
-        "Length": "Medium",
-        "requirements": {
-            "quests": [],
-            "levels": []
-        },
-        "Rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 500
-            }, {
-                "skill": "hitpoints",
-                "amount": 500
-            }],
-            "QuestPoints": 1
-        },
-        "Series": null
-    }, ...
+        miniquest: false,
+        name: "A Soul's Bane",
+        shortName: 'aSoulsBane',
+        url: 'https://oldschool.runescape.wiki/w/A_Soul%27s_Bane',
+        members: true,
+        difficulty: 'Novice',
+        subquests: [],
+        questLength: 'Medium',
+        requirements: { quests: [], skills: [] },
+        rewards: { exp: [ [Object], [Object] ], questPoints: 1 },
+        series: null
+        }, ...
 ```
 ---
 
@@ -64,29 +54,18 @@ console.log(q.questArray());
 
 ```js
 [{
-        "Miniquest": false,
-        "Name": "A Soul's Bane",
-        "shortName": "aSoulsBane",
-        "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
-        "members": true,
-        "Difficulty": "Novice",
-        "Length": "Medium",
-        "requirements": {
-            "quests": [],
-            "levels": []
-        },
-        "Rewards": {
-            "Experience": [{
-                "skill": "defence",
-                "amount": 500
-            }, {
-                "skill": "hitpoints",
-                "amount": 500
-            }],
-            "QuestPoints": 1
-        },
-        "Series": null
-    }, ...
+  miniquest: false,
+  name: "A Soul's Bane",
+  shortName: 'aSoulsBane',
+  url: 'https://oldschool.runescape.wiki/w/A_Soul%27s_Bane',
+  members: true,
+  difficulty: 'Novice',
+  subquests: [],
+  questLength: 'Medium',
+  requirements: { quests: [], skills: [] },
+  rewards: { exp: [ [Object], [Object] ], questPoints: 1 },
+  series: null
+}, ...
 ```
 
 ---

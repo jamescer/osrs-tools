@@ -1,7 +1,6 @@
-var questObject = require('./questData.json');
-var questArray = require('./questDataArray.json');
-var subQuestArray = require('./subquestArray.json');
+import { QuestTool } from './questTool.js';
 
+var qt = new QuestTool();
 function highestBoost(skillName) {
     /**
      * List of highest boostable levels with skills including spicy stew etc
@@ -54,7 +53,7 @@ var osrsAccount;
  * Assign a OSRS account to this package.
  * @deprecated
  */
-exports.setOsrsAccount() = function (acc) {
+function setOsrsAccount(acc) {
     osrsAccount = acc;
 }
 
@@ -62,7 +61,7 @@ exports.setOsrsAccount() = function (acc) {
  * Assign a OSRS account to this package.
  * @deprecated
  */
-exports.getOsrsAccount() = function () {
+function getOsrsAccount() {
     return osrsAccount;
 }
 
@@ -70,42 +69,42 @@ exports.getOsrsAccount() = function () {
  * Returns a json object of all old school runescape quests.
  * @deprecated
  */
-exports.questObject = function () {
-    return questObject;
+function questObject() {
+    return qt.getQuestObject();
 }
 
 /**
  * Returns an array object of all old school runescape quests as json objects.
  * @deprecated
  */
-exports.questArray = function () {
-    return questArray;
+function questArray() {
+    return qt.getQuestArray();
 }
 
 /**
  * Returns an array object of all subquests for all old school runescape quests as json objects.
  * @deprecated
  */
-exports.subQuestArray = function () {
-    return subQuestArray;
+function subQuestArray() {
+    return qt.getSubObjectArray();
 }
 
 
-exports.hello = function () {
+function hello() {
     console.log("if you need help use the .help() method");
     console.log("This is a message from the demo package");
 }
 
 
-exports.contact = function () {
+function contact() {
     console.log("If you need to contact me feel free to reach out to me at cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com");
 }
 
-exports.help = function () {
+function help() {
     console.log("import q from \"osrs-quest-tool\";\n console.log(q.questObject());\n console.log(q.questArray());");
 }
 
-exports.meetQuestRequirements = function meetQuestRequirements(quest, account) {
+function meetQuestRequirements(quest, account) {
     if (quest === "Recipe for Disaster") {
         // TODO 
         // Pirate Pete Subquest of Recipe for Disaster
@@ -197,7 +196,7 @@ exports.meetQuestRequirements = function meetQuestRequirements(quest, account) {
  * Possible revamp to remove account param to increase runtime?
  * 
  */
-exports.canCompleteQuest = function canCompleteQuest(quest, account) {
+function canCompleteQuest(quest, account) {
     if (quest.name === "Recipe for Disaster") {
         // TODO 
         // Pirate Pete Subquest of Recipe for Disaster
@@ -289,7 +288,7 @@ exports.canCompleteQuest = function canCompleteQuest(quest, account) {
     // If the account can complete all quests and skills are higher than or boostable
     return true;
 }
-exports.meetsRequirement = function (quest, account) {
+function meetsRequirement(quest, account) {
     if (quest === "Recipe for Disaster") {
         // TODO 
         // Pirate Pete Subquest of Recipe for Disaster
@@ -371,3 +370,5 @@ exports.meetsRequirement = function (quest, account) {
     // If the account can complete all quests and skills are higher than or boostable
     return true;
 }
+
+export default { QuestTool, hello, setOsrsAccount, getOsrsAccount, questObject, questArray, contact, help, meetsRequirement, canCompleteQuest, subQuestArray }

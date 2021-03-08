@@ -5,8 +5,7 @@ import { OsrsAccount } from './osrsAcc.js';
 
 export class QuestTool {
     name = 'QuestTool'
-    constructor(account) {
-        this.osrsAccount = new OsrsAccount(account);
+    constructor() {
         this.questObject = questData.default[0];
         this.questArray = questDataArray.default;
         this.subQuestArray = subQuestArray.default;
@@ -16,7 +15,8 @@ export class QuestTool {
      * @todo
      * */
     toString() {
-        return 'QuestTool :) WIP ';
+       
+        return 'QuestTool :) WIP';
     }
 
     /**
@@ -250,7 +250,13 @@ export class QuestTool {
     * */
     setOsrsAccount(acc1) {
         if (acc1) { this.osrsAccount = new OsrsAccount(acc1); }
-
+    }
+    /**
+    * Set the account to be used in this quest tool
+    * @param  {Object} skillName The osrs Account to be associated with this class object.
+    * */
+    setAccount(acc1) {
+        if (acc1) { this.osrsAccount = new OsrsAccount(acc1); }
     }
 
     /**
@@ -267,6 +273,9 @@ export class QuestTool {
         return this.questObject;
     }
 
+    getSubQuestArray() {
+        return this.subQuestArray;
+    }
     getQuestArray() {
         return this.questArray;
     }

@@ -1,0 +1,1042 @@
+[
+    {'index': ['1', '\n'
+        ], 'questName': ['Novice', '\n'
+        ]
+    },
+    {'index': ['2', '\n'
+        ], 'questName': ['Intermediate', '\n'
+        ]
+    },
+    {'index': ['3', '\n'
+        ], 'questName': ['Experienced', '\n'
+        ]
+    },
+    {'index': ['4', '\n'
+        ], 'questName': ['Master', '\n'
+        ]
+    },
+    {'index': ['5', '\n'
+        ], 'questName': ['Grandmaster', '\n'
+        ]
+    },
+    {'index': ['6', '\n'
+        ], 'questName': ['Special', '\n'
+        ]
+    },
+    {'index': ['4\n'
+        ], 'questName': ['Romeo & Juliet', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['2\n'
+        ], 'questName': ['Demon Slayer', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['6\n'
+        ], 'questName': ['Shield of Arrav', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['5\n'
+        ], 'questName': ['Sheep Shearer', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['3\n'
+        ], 'questName': ['The Restless Ghost', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['7\n'
+        ], 'questName': ['Ernest the Chicken', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['8\n'
+        ], 'questName': ['Vampyre Slayer', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['9\n'
+        ], 'questName': ['Imp Catcher', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['10\n'
+        ], 'questName': ['Prince Ali Rescue', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['11\n'
+        ], 'questName': [
+            "Doric's Quest", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Very short\n'
+        ]
+    },
+    {'index': ['12\n'
+        ], 'questName': [
+            "Black Knights' Fortress", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['13\n'
+        ], 'questName': [
+            "Witch's Potion", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['14\n'
+        ], 'questName': [
+            "The Knight's Sword", '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['15\n'
+        ], 'questName': ['Goblin Diplomacy', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['16\n'
+        ], 'questName': [
+            "Pirate's Treasure", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['17\n'
+        ], 'questName': ['Dragon Slayer I', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['51\n'
+        ], 'questName': ['Rune Mysteries', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['130\n'
+        ], 'questName': ['Misthalin Mystery', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['135\n'
+        ], 'questName': ['The Corsair Curse', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['142\n'
+        ], 'questName': ['X Marks the Spot', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['1\n'
+        ], 'questName': [
+            "Cook's Assistant", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['Skills'
+        ], 'questName': ['Combat', '\n', 'Melee', '\n', 'Ranged', '\n', 'Magic', '\n', 'Defence', '\n', 'Prayer', '\n', 'Hitpoints', 'Other', '\n', 'Crafting', '\n', 'Mining', '\n', 'Smithing', '\n', 'Fishing', '\n', 'Cooking', '\n', 'Firemaking', '\n', 'Woodcutting', '\n', 'Runecraft'
+        ], 'difficulty': ['Combat'
+        ], 'length': ['\n', 'Melee', '\n', 'Ranged', '\n', 'Magic', '\n', 'Defence', '\n', 'Prayer', '\n', 'Hitpoints'
+        ]
+    },
+    {'index': ['Combat'
+        ], 'questName': ['\n', 'Melee', '\n', 'Ranged', '\n', 'Magic', '\n', 'Defence', '\n', 'Prayer', '\n', 'Hitpoints'
+        ]
+    },
+    {'index': ['Other'
+        ], 'questName': ['\n', 'Crafting', '\n', 'Mining', '\n', 'Smithing', '\n', 'Fishing', '\n', 'Cooking', '\n', 'Firemaking', '\n', 'Woodcutting', '\n', 'Runecraft'
+        ]
+    },
+    {'index': ['Account builds'
+        ], 'questName': ['\n', 'Account builds', '\n', 'Ironman guide', '\n', 'Combat pure guide'
+        ]
+    },
+    {'index': ['Quests'
+        ], 'questName': ['\n', 'Quests list', '\n', 'Quest rewards'
+        ]
+    },
+    {'index': ['Miscellaneous'
+        ], 'questName': ['\n', 'Free-to-play', '\n', 'Bestiary', '\n', 'Money making guide', '\n', 'Transportation guide', '\n', 'Closest points of interest', '\n', 'Cosmetic items'
+        ]
+    },
+    {'index': ['1', '\n'
+        ], 'questName': ['Novice', '\n'
+        ]
+    },
+    {'index': ['2', '\n'
+        ], 'questName': ['Intermediate', '\n'
+        ]
+    },
+    {'index': ['3', '\n'
+        ], 'questName': ['Experienced', '\n'
+        ]
+    },
+    {'index': ['4', '\n'
+        ], 'questName': ['Master', '\n'
+        ]
+    },
+    {'index': ['5', '\n'
+        ], 'questName': ['Grandmaster', '\n'
+        ]
+    },
+    {'index': ['6', '\n'
+        ], 'questName': ['Special', '\n'
+        ]
+    },
+    {'index': ['18\n'
+        ], 'questName': ['Druidic Ritual', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['19\n'
+        ], 'questName': ['Lost City', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['20\n'
+        ], 'questName': [
+            "Witch's House", '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['21\n'
+        ], 'questName': [
+            "Merlin's Crystal", '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['22\n'
+        ], 'questName': [
+            "Heroes' Quest", '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['23\n'
+        ], 'questName': ['Scorpion Catcher', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short � Medium\n'
+        ]
+    },
+    {'index': ['24\n'
+        ], 'questName': ['Family Crest', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['26\n'
+        ], 'questName': ['Fishing Contest', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['25\n'
+        ], 'questName': ['Tribal Totem', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['27\n'
+        ], 'questName': [
+            "Monk's Friend", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['28\n'
+        ], 'questName': ['Temple of Ikov', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['29\n'
+        ], 'questName': ['Clock Tower', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['30\n'
+        ], 'questName': ['Holy Grail', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['31\n'
+        ], 'questName': ['Tree Gnome Village', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['32\n'
+        ], 'questName': ['Fight Arena', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['33\n'
+        ], 'questName': ['Hazeel Cult', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['34\n'
+        ], 'questName': ['Sheep Herder', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['35\n'
+        ], 'questName': ['Plague City', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['36\n'
+        ], 'questName': ['Sea Slug', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['37\n'
+        ], 'questName': ['Waterfall Quest', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['39\n'
+        ], 'questName': ['Jungle Potion', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['40\n'
+        ], 'questName': ['The Grand Tree', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['42\n'
+        ], 'questName': ['Underground Pass', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Long � Very long\n'
+        ]
+    },
+    {'index': ['43\n'
+        ], 'questName': ['Observatory Quest', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['44\n'
+        ], 'questName': ['The Tourist Trap', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['45\n'
+        ], 'questName': ['Watchtower', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['46\n'
+        ], 'questName': ['Dwarf Cannon', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['47\n'
+        ], 'questName': ['Murder Mystery', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['48\n'
+        ], 'questName': ['The Dig Site', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['49\n'
+        ], 'questName': [
+            "Gertrude's Cat", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['50\n'
+        ], 'questName': [
+            "Legends' Quest", '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['56\n'
+        ], 'questName': ['Death Plateau', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['60\n'
+        ], 'questName': [
+            "Eadgar's Ruse", '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['52\n'
+        ], 'questName': ['Big Chompy Bird Hunting', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['53\n'
+        ], 'questName': ['Elemental Workshop I', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['55\n'
+        ], 'questName': ['Nature Spirit', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['54\n'
+        ], 'questName': ['Priest in Peril', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['59\n'
+        ], 'questName': ['Regicide', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['58\n'
+        ], 'questName': ['Tai Bwo Wannai Trio', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['57\n'
+        ], 'questName': ['Troll Stronghold', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Short � Medium\n'
+        ]
+    },
+    {'index': ['61\n'
+        ], 'questName': [
+            "Shades of Mort'ton", '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['62\n'
+        ], 'questName': ['The Fremennik Trials', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['63\n'
+        ], 'questName': ['Horror from the Deep', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['64\n'
+        ], 'questName': ['Throne of Miscellania', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['65\n'
+        ], 'questName': ['Monkey Madness I', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['66\n'
+        ], 'questName': ['Haunted Mine', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['67\n'
+        ], 'questName': ['Troll Romance', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['68\n'
+        ], 'questName': ['In Search of the Myreque', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['69\n'
+        ], 'questName': ['Creature of Fenkenstrain', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['70\n'
+        ], 'questName': ['Roving Elves', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Short � Medium\n'
+        ]
+    },
+    {'index': ['71\n'
+        ], 'questName': ['Ghosts Ahoy', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['72\n'
+        ], 'questName': ['One Small Favour', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['73\n'
+        ], 'questName': ['Mountain Daughter', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['74\n'
+        ], 'questName': ['Between a Rock...', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['75\n'
+        ], 'questName': ['The Feud', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['76\n'
+        ], 'questName': ['The Golem', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['77\n'
+        ], 'questName': ['Desert Treasure', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['78\n'
+        ], 'questName': [
+            "Icthlarin's Little Helper", '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['79\n'
+        ], 'questName': ['Tears of Guthix', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['81\n'
+        ], 'questName': ['The Lost Tribe', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['82\n'
+        ], 'questName': ['The Giant Dwarf', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['83\n'
+        ], 'questName': ['Recruitment Drive', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['84\n'
+        ], 'questName': [
+            "Mourning's End Part I", '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Long � Very long\n'
+        ]
+    },
+    {'index': ['85\n'
+        ], 'questName': ['Forgettable Tale...', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['86\n'
+        ], 'questName': ['Garden of Tranquillity', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['87\n'
+        ], 'questName': ['A Tail of Two Cats', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['88\n'
+        ], 'questName': ['Wanted!', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['89\n'
+        ], 'questName': [
+            "Mourning's End Part II", '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['90\n'
+        ], 'questName': ['Rum Deal', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['91\n'
+        ], 'questName': ['Shadow of the Storm', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['92\n'
+        ], 'questName': ['Making History', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short � Long\n'
+        ]
+    },
+    {'index': ['93\n'
+        ], 'questName': ['Ratcatchers', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['94\n'
+        ], 'questName': ['Spirits of the Elid', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['95\n'
+        ], 'questName': ['Devious Minds', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['96\n'
+        ], 'questName': ['The Hand in the Sand', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['97\n'
+        ], 'questName': [
+            "Enakhra's Lament", '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['98\n'
+        ], 'questName': ['Cabin Fever', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['99\n'
+        ], 'questName': ['Fairytale I - Growing Pains', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['100\n'
+        ], 'questName': ['Recipe for Disaster', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['101\n'
+        ], 'questName': ['In Aid of the Myreque', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['102\n'
+        ], 'questName': [
+            "A Soul's Bane", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['103\n'
+        ], 'questName': ['Rag and Bone Man I', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['105\n'
+        ], 'questName': ['Swan Song', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['106\n'
+        ], 'questName': ['Royal Trouble', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['107\n'
+        ], 'questName': ['Death to the Dorgeshuun', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['108\n'
+        ], 'questName': ['Fairytale II - Cure a Queen', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Short � Medium\n'
+        ]
+    },
+    {'index': ['109\n'
+        ], 'questName': ['Lunar Diplomacy', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['110\n'
+        ], 'questName': ['The Eyes of Glouphrie', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['111\n'
+        ], 'questName': ['Darkness of Hallowvale', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['112\n'
+        ], 'questName': ['The Slug Menace', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['113\n'
+        ], 'questName': ['Elemental Workshop II', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['114\n'
+        ], 'questName': [
+            "My Arm's Big Adventure", '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['115\n'
+        ], 'questName': ['Enlightened Journey', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short � Long\n'
+        ]
+    },
+    {'index': ['116\n'
+        ], 'questName': [
+            "Eagles' Peak", '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['117\n'
+        ], 'questName': ['Animal Magnetism', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['118\n'
+        ], 'questName': ['Contact!', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['119\n'
+        ], 'questName': ['Cold War', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['120\n'
+        ], 'questName': ['The Fremennik Isles', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['122\n'
+        ], 'questName': ['The Great Brain Robbery', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['123\n'
+        ], 'questName': ['What Lies Below', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short � Medium\n'
+        ]
+    },
+    {'index': ['124\n'
+        ], 'questName': [
+            "Olaf's Quest", '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short � Long\n'
+        ]
+    },
+    {'index': ['125\n'
+        ], 'questName': ['Another Slice of H.A.M.', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['126\n'
+        ], 'questName': ['Dream Mentor', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Short � Medium\n'
+        ]
+    },
+    {'index': ['127\n'
+        ], 'questName': ['Grim Tales', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['128\n'
+        ], 'questName': [
+            "King's Ransom", '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['41\n'
+        ], 'questName': ['Shilo Village', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['38\n'
+        ], 'questName': ['Biohazard', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['121\n'
+        ], 'questName': ['Tower of Life', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['104\n'
+        ], 'questName': ['Rag and Bone Man II', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['80\n'
+        ], 'questName': ['Zogre Flesh Eaters', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['129\n'
+        ], 'questName': ['Monkey Madness II', '\n'
+        ], 'difficulty': ['Grandmaster\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['131\n'
+        ], 'questName': ['Client of Kourend', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['133\n'
+        ], 'questName': ['The Queen of Thieves', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['132\n'
+        ], 'questName': ['Bone Voyage', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short � Medium\n'
+        ]
+    },
+    {'index': ['136\n'
+        ], 'questName': ['Dragon Slayer II', '\n'
+        ], 'difficulty': ['Grandmaster\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['134\n'
+        ], 'questName': ['The Depths of Despair', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['100.1\n'
+        ], 'questName': [
+            "Recipe for Disaster/Another Cook's Quest", '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['100.3\n'
+        ], 'questName': ['Recipe for Disaster/Freeing the Goblin generals', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['100.2\n'
+        ], 'questName': ['Recipe for Disaster/Freeing the Mountain Dwarf', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['100.6\n'
+        ], 'questName': ['Recipe for Disaster/Freeing Evil Dave', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['100.4\n'
+        ], 'questName': ['Recipe for Disaster/Freeing Pirate Pete', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['100.5\n'
+        ], 'questName': ['Recipe for Disaster/Freeing the Lumbridge Guide', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['100.8\n'
+        ], 'questName': ['Recipe for Disaster/Freeing Sir Amik Varze', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['100.7\n'
+        ], 'questName': ['Recipe for Disaster/Freeing King Awowogei', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Medium � Long\n'
+        ]
+    },
+    {'index': ['100.9\n'
+        ], 'questName': ['Recipe for Disaster/Freeing Skrach Uglogwee', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['138\n'
+        ], 'questName': ['A Taste of Hope', '\n'
+        ], 'difficulty': ['Experienced\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['137\n'
+        ], 'questName': ['Tale of the Righteous', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['139\n'
+        ], 'questName': ['Making Friends with My Arm', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['100.10\n'
+        ], 'questName': ['Recipe for Disaster/Defeating the Culinaromancer', '\n'
+        ], 'difficulty': ['Special\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['143\n'
+        ], 'questName': ['Song of the Elves', '\n'
+        ], 'difficulty': ['Grandmaster\n'
+        ], 'length': ['Very long\n'
+        ]
+    },
+    {'index': ['141\n'
+        ], 'questName': ['The Ascent of Arceuus', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['140\n'
+        ], 'questName': ['The Forsaken Tower', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['144\n'
+        ], 'questName': ['The Fremennik Exiles', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Medium\n'
+        ]
+    },
+    {'index': ['145\n'
+        ], 'questName': ['Sins of the Father', '\n'
+        ], 'difficulty': ['Master\n'
+        ], 'length': ['Long\n'
+        ]
+    },
+    {'index': ['146\n'
+        ], 'questName': ['A Porcine of Interest', '\n'
+        ], 'difficulty': ['Novice\n'
+        ], 'length': ['Short\n'
+        ]
+    },
+    {'index': ['147\n'
+        ], 'questName': ['Getting Ahead', '\n'
+        ], 'difficulty': ['Intermediate\n'
+        ], 'length': ['Short\n'
+        ]
+    }
+]

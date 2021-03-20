@@ -1,7 +1,7 @@
 {
   "name": "osrs-quest-tool",
   "description": "An javascript package to provide the json for all current old school runescape quests. Creating tools to help junior software developers create things they are passionate about. Work in progress and issues should be reported to cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "main": "./src/index.js",
   "notes": [
     "https://github.com/peterthehan/runescape-text/tree/main/src"

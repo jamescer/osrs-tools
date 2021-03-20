@@ -1,6 +1,6 @@
-import { QuestTool } from './questTool.js';
+// import { QuestTool } from './questTool.js';
+const { QuestTool } = require('./utils/questTool.js')
 
-var qt = new QuestTool();
 function highestBoost(skillName) {
     /**
      * List of highest boostable levels with skills including spicy stew etc
@@ -370,5 +370,5 @@ function meetsRequirement(quest, account) {
     // If the account can complete all quests and skills are higher than or boostable
     return true;
 }
-
-export default { QuestTool, hello, setOsrsAccount, getOsrsAccount, questObject, questArray, contact, help, meetsRequirement, canCompleteQuest, subQuestArray }
+module.exports = { QuestTool, hello, setOsrsAccount, getOsrsAccount, questObject, questArray, contact, help, meetsRequirement, canCompleteQuest, subQuestArray };
+// export default

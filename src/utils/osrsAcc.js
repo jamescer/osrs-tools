@@ -1,8 +1,8 @@
 
 /**
- * 
+ * OsrsAccount
  */
-export class OsrsAccount {
+ exports =class OsrsAccount {
     osrsAccount;
     constructor(acc) {
         this.osrsAccount = acc;

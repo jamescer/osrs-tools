@@ -2,17 +2,17 @@
   "name": "@cerniglj1/osrs-quest-tool",
   "description": "An javascript package to provide the json for all current old school runescape quests. Creating tools to help junior software developers create things they are passionate about. Work in progress and issues should be reported to cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com",
   "version": "0.3.1",
-  "main": "index.js",
+  "main": "./src/index.js",
   "notes": [
-    ""
+    "https://github.com/peterthehan/runescape-text/tree/main/src"
   ],
   "scripts": {
+    "start": "node src/test.js",
     "test": "mocha test.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/cerniglj1"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cerniglj1/osrs-quest-tool.git"
@@ -33,7 +33,8 @@
   "author": "James Cerniglia <imzessed@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cerniglj1/osrs-quest-tool/issues"
+    "url": "https://github.com/cerniglj1/osrs-quest-tool/issues",
+    "email": "jamesmcerniglia@gmail.com"
   },
   "homepage": "https://github.com/cerniglj1/osrs-quest-tool#readme",
   "dependencies": {
@@ -41,5 +42,27 @@
     "chai": "^4.3.0",
     "mocha": "^7.2.0"
   },
+  "funding": [
+    {
+      "type": "GitHub",
+      "url": "https://github.com/cerniglj1"
+    },
+    {
+      "type": "Patreon",
+      "url": "https://www.patreon.com/"
+    },
+    {
+      "type": "PayPal",
+      "url": "https://paypal.me/"
+    },
+    {
+      "type": "Ko-fi",
+      "url": "https://ko-fi.com/"
+    },
+    {
+      "type": "Venmo",
+      "url": "https://venmo.com/"
+    }
+  ],
   "devDependencies": {}
 }

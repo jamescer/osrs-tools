@@ -108,12 +108,17 @@ def parse_req_str(x):
         if type(int(x_arr[1])) == int and len(x_arr) >= 3:
             skill = {'level': int(x_arr[1]), 'skill': x_arr[2].lower(
             ), 'boostable': 'boost' in x_arr[3]}
+    if 'quest points' in x or 'Quest points' in x:
+        # if its boostable its definitely a skill
+        if type(int(x_arr[1])) == int and len(x_arr) >= 3:
+            skill = {'level': int(x_arr[1]), 'skill': x_arr[2].lower(
+            ), 'boostable': 'boost' in x_arr[3]}
 
     try:
-
+        pass
     except ValueError:
         print('error on', x)
-
+    print([skill, x])
     return skill
 
 

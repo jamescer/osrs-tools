@@ -1,4 +1,4 @@
-export default
+exports =
     [{
         "A Soul's Bane": {
             "miniquest": false,

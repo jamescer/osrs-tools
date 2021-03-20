@@ -1,21 +1,28 @@
-import * as questData from './data/questData.js';
-import * as questDataArray from './data/questDataArray.js';
-import * as subQuestArray from './data/subQuestArray.js';
-import { OsrsAccount } from './osrsAcc.js';
+// import * as questData from './data/questData.js';
+// import * as questDataArray from './data/questDataArray.js';
+// import * as subQuestArray from './data/subQuestArray.js';
+// import { OsrsAccount } from './osrsAcc.js';
 
-export class QuestTool {
+const questData = require('../data/questData.js')
+const questDataArray = require('../data/questDataArray.js')
+const subQuestArray = require('../data/subQuestArray.js')
+const OsrsAccount = require('./osrsAcc.js')
+
+
+class QuestTool {
     name = 'QuestTool'
     constructor() {
         this.questObject = questData.default[0];
         this.questArray = questDataArray.default;
         this.subQuestArray = subQuestArray.default;
     }
+
+
     /**
      * to string func
      * @todo
      * */
     toString() {
-       
         return 'QuestTool :) WIP';
     }
 
@@ -228,10 +235,8 @@ export class QuestTool {
     }
 
     /**
-    * Add two numbers together
-    * @param  {Number} num1 The first number
-    * @param  {Number} num2 The second number
-    * @return {Number}      The total of the two numbers
+    * Return an array of quests that can be completed with the associated account
+    * @return {Array}      The total of the two numbers
     */
     completableQuests() {
         var completed = [];
@@ -249,7 +254,9 @@ export class QuestTool {
     * @param  {Object} skillName The osrs Account to be associated with this class object.
     * */
     setOsrsAccount(acc1) {
-        if (acc1) { this.osrsAccount = new OsrsAccount(acc1); }
+        if (acc1) { this.osrsAccount = new OsrsAccount(acc1); return true; } else {
+            return false;
+        }
     }
     /**
     * Set the account to be used in this quest tool
@@ -287,5 +294,5 @@ export class QuestTool {
 }
 
 
-// module.exports = { QuestTool };
+module.exports = { QuestTool };
 // exports.QuestTool = QuestTool;

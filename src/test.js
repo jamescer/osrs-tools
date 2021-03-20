@@ -361,12 +361,15 @@ var testAccount = {
     "nameLowercase": "not poop",
     "lastUpdated": 1595602146838
 }
-var tool = new QuestTool(testAccount);
-console.log(tool.getOsrsAccount().toString());
+var tool = new QuestTool();
+
+console.log(tool.setOsrsAccount(testAccount));
+
 console.log(tool.canCompleteQuest('Regicide'));
 console.log(tool.canCompleteQuest('Recipe for Disaster'));
-console.log(tool.getOsrsAccount().toString());
+// console.log(tool.getOsrsAccount().toString());
 // for (var index in questTool.questArray()) {
+
 //     console.log(questTool.questArray()[index]);
 
 //     describe('Array', function () {

@@ -1,3 +1,3 @@
-const tool = require('./index')
+const { QuestTool } = require('./index')
 
-console.log(tool);
+console.log(QuestTool);

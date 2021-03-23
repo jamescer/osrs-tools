@@ -7,11 +7,11 @@
   "test": "node src/test.js",
   "scripts": {
     "start": "node src/test.js",
-    "test": "node src/test.js",
+    "test": "node src/test3.js",
     "test1": "mocha test.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/cerniglj1"
+    "registryBackup": "https://npm.pkg.github.com/cerniglj1"
   },
   "files": [
     "src/**"

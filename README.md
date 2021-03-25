@@ -19,8 +19,12 @@ npm i osrs-quest-tool
 ### Example
 
 ```js
-import q from "osrs-quest-tool";
-console.log(q.questObject());
+import { QuestTool, questArray, questObject } from "osrs-quest-tool";
+var tool = new QuestTool();
+this.questArray = questArray();
+this.questData = questObject();
+console.log(this.questData);
+console.log(this.questArray);
 ```
 
 ### Result

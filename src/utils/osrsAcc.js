@@ -2,8 +2,8 @@
 /**
  * OsrsAccount
  */
- exports =class OsrsAccount {
-    osrsAccount;
+exports = class OsrsAccount {
+
     constructor(acc) {
         this.osrsAccount = acc;
         this.setQuestPoints(0);

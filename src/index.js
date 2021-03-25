@@ -70,7 +70,7 @@ function getOsrsAccount() {
  * @deprecated
  */
 function questObject() {
-    return qt.getQuestObject();
+    return new QuestTool().getQuestObject();
 }
 
 /**
@@ -78,7 +78,7 @@ function questObject() {
  * @deprecated
  */
 function questArray() {
-    return qt.getQuestArray();
+    return new QuestTool().getQuestArray();
 }
 
 /**
@@ -86,7 +86,7 @@ function questArray() {
  * @deprecated
  */
 function subQuestArray() {
-    return qt.getSubObjectArray();
+    return new QuestTool().getSubObjectArray();
 }
 
 

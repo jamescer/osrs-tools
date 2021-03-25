@@ -3,6 +3,8 @@
 // import * as subQuestArray from './data/subQuestArray.js';
 // import { OsrsAccount } from './osrsAcc.js';
 
+
+// import * as subQuestArray from 'osrs-quest-tool/src/data/subQuestArray';
 const questData = require('../data/questData.js')
 const questDataArray = require('../data/questDataArray.js')
 const subQuestArray = require('../data/subQuestArray.js')
@@ -10,7 +12,7 @@ const OsrsAccount = require('./osrsAcc.js')
 
 
 class QuestTool {
-    name = 'QuestTool'
+
     constructor() {
         this.questObject = questData.default[0];
         this.questArray = questDataArray.default;

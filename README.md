@@ -11,16 +11,19 @@ npm i osrs-quest-tool
 
 | Syntax | Description | Type |
 | --- | ----------- | ----------- |
-| ```new q.QuestTool()``` | constructer for QuestTool class. | Class Constructer |
-| ```q.questObject()``` | returns an object of quest array keys. | Object { } |
-| ```q.questArray()``` | returns an array of alphabetically ordered quests. | Array [ ] |
-| ```q.canCompleteQuests(questObject,account)``` | returns an array of alphabetically ordered quests. | Array [ ] |
+| ```new QuestTool()``` | constructer for QuestTool class. | Class Constructer |
+| ```questObject()``` | returns an object of quest array keys. | Object { } |
+| ```questArray()``` | returns an array of alphabetically ordered quests. | Array [ ] |
 ---
 ### Example
 
 ```js
-import q from "osrs-quest-tool";
-console.log(q.questObject());
+import { QuestTool, questArray, questObject } from "osrs-quest-tool";
+var tool = new QuestTool();
+this.questArray = questArray();
+this.questData = questObject();
+console.log(this.questData);
+console.log(this.questArray);
 ```
 
 ### Result
@@ -86,3 +89,9 @@ true
 ## Notes
 
 Recipe for disaster is a work in progress!
+
+
+## TODO
+Implement quest completion array
+implement questArray and questObject objects instead of functions
+

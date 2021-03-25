@@ -1,4 +1,4 @@
-exports =
+module.exports = exports =
     [{
         "A Soul's Bane": {
             "miniquest": false,

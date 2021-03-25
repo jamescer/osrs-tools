@@ -1,4 +1,4 @@
-exports = [
+module.exports = exports = [
     {
         "Pirate Pete subquest of Recipe for Disaster": {
             "miniquest": true,

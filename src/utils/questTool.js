@@ -14,9 +14,9 @@ const OsrsAccount = require('./osrsAcc.js')
 class QuestTool {
 
     constructor() {
-        this.questObject = questData.default[0];
-        this.questArray = questDataArray.default;
-        this.subQuestArray = subQuestArray.default;
+        this.questObject = questData[0];
+        this.questArray = questDataArray;
+        this.subQuestArray = subQuestArray;
     }
 
 

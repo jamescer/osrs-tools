@@ -1,3 +1,3 @@
-const tool = require('./index')
-
-console.log(tool);
+const { QuestTool } = require('./index')
+// import {QuestTool} from './index'
+console.log(QuestTool);

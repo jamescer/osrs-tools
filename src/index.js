@@ -69,7 +69,7 @@ function getOsrsAccount() {
  * Returns a json object of all old school runescape quests.
  * @deprecated
  */
-function questObject() {
+function getQuestObject() {
     return new QuestTool().getQuestObject();
 }
 
@@ -77,7 +77,7 @@ function questObject() {
  * Returns an array object of all old school runescape quests as json objects.
  * @deprecated
  */
-function questArray() {
+function getQuestArray() {
     return new QuestTool().getQuestArray();
 }
 
@@ -370,5 +370,21 @@ function meetsRequirement(quest, account) {
     // If the account can complete all quests and skills are higher than or boostable
     return true;
 }
-module.exports = { QuestTool, hello, setOsrsAccount, getOsrsAccount, questObject, questArray, contact, help, meetsRequirement, canCompleteQuest, subQuestArray };
+
+
+/**
+ * Returns a json object of all old school runescape quests.
+ * 
+ */
+const questData = new QuestTool().getQuestObject();
+
+/**
+ * Returns an array object of all subquests for all old school runescape quests as json objects.
+ * 
+ */
+const questArray = new QuestTool().getQuestArray();
+
+
+
+module.exports = { QuestTool, questArray, questData, hello, setOsrsAccount, getOsrsAccount, getQuestObject, getQuestArray, contact, help, meetsRequirement, canCompleteQuest, subQuestArray };
 // export default

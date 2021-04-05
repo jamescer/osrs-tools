@@ -1,4 +1,4 @@
-## Old School Runescape quest tool
+## Old School Runescape Quest Tool
 
 A collection of old school runescape data in order to help developers create something special.
 
@@ -8,13 +8,16 @@ A collection of old school runescape data in order to help developers create som
 npm i osrs-quest-tool
 ```
 
+| Syntax            | Description                                                      | Type              |
+| ----------------- | ---------------------------------------------------------------- | ----------------- |
+| `new QuestTool()` | constructor for QuestTool class.                                 | Class Constructor |
+| `questObject()`   | function that returns an object of quest array keys.             | Object { }        |
+| `questArray()`    | function that returns an array of alphabetically ordered quests. | Array [ ]         |
+| `questObject`     | an object of quest array keys.                                   | Object { }        |
+| `questArray`      | an array of alphabetically ordered quests.                       | Array [ ]         |
 
-| Syntax | Description | Type |
-| --- | ----------- | ----------- |
-| ```new QuestTool()``` | constructer for QuestTool class. | Class Constructer |
-| ```questObject()``` | returns an object of quest array keys. | Object { } |
-| ```questArray()``` | returns an array of alphabetically ordered quests. | Array [ ] |
 ---
+
 ### Example
 
 ```js
@@ -44,6 +47,7 @@ console.log(this.questArray);
         series: null
         }, ...
 ```
+
 ---
 
 ### Example 2
@@ -72,26 +76,29 @@ console.log(q.questArray());
 ```
 
 ---
+
 ### Example
 
 ```js
 import questTool from "osrs-quest-tool";
-console.log(questTool.canCompleteQuest(questTool.questObject()['Regicide'],testAccount));
+console.log(
+  questTool.canCompleteQuest(questTool.questObject()["Regicide"], testAccount)
+);
 ```
 
 ### Result
 
 ```js
-true
+true;
 ```
+
 ---
 
 ## Notes
 
 Recipe for disaster is a work in progress!
 
-
 ## TODO
+
 Implement quest completion array
 implement questArray and questObject objects instead of functions
-

@@ -1,4 +1,8 @@
 .npmrc
+
+.npmrc
+
+*.npmrc
 ./setup.py
 # Byte-compiled / optimized / DLL files
 /node_modules/

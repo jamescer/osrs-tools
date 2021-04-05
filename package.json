@@ -1,7 +1,7 @@
 {
   "name": "osrs-quest-tool",
   "description": "An javascript package to provide the json for all current old school runescape quests. Creating tools to help junior software developers create things they are passionate about. Work in progress and issues should be reported to cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "main": "./src/index.js",
   "notes": [],
   "test": "node src/test.js",
@@ -37,7 +37,7 @@
     "OSRS QuestTool",
     "Quest Tool osrs"
   ],
-  "author": "James Cerniglia <imzessed@gmail.com>",
+  "author": "James Cerniglia <jamesmcerniglia@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cerniglj1/osrs-quest-tool/issues",
@@ -47,7 +47,8 @@
   "dependencies": {
     "babel": "^6.23.0",
     "chai": "^4.3.0",
-    "mocha": "^7.2.0"
+    "mocha": "^7.2.0",
+    "travis": "^0.1.1"
   },
   "funding": [
     {

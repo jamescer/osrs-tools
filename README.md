@@ -11,8 +11,8 @@ npm i osrs-quest-tool
 | Syntax            | Description                                                      | Type              |
 | ----------------- | ---------------------------------------------------------------- | ----------------- |
 | `new QuestTool()` | constructor for QuestTool class.                                 | Class Constructor |
-| `questObject()`   | function that returns an object of quest array keys.             | Object { }        |
-| `questArray()`    | function that returns an array of alphabetically ordered quests. | Array [ ]         |
+| `questObject()`   | function that returns an object of quest array keys.             | Function ()       |
+| `questArray()`    | function that returns an array of alphabetically ordered quests. | Function ()        |
 | `questObject`     | an object of quest array keys.                                   | Object { }        |
 | `questArray`      | an array of alphabetically ordered quests.                       | Array [ ]         |
 

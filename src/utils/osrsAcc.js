@@ -1,16 +1,30 @@
-
 /**
  * OsrsAccount
+ * Author: James Cerniglia
  */
-exports = class OsrsAccount {
+class OsrsAccount {
 
-    constructor(acc) {
-        this.osrsAccount = acc;
+    constructor(accountObject) {
+        // uses an account under the schema returned from const osrshiscores = require('osrs-json-hiscores');
+        this.osrsAccount = accountObject ? accountObject : null;
+
+
         this.setQuestPoints(0);
         this.setCombatLevel();
     }
+
+
+
     toString() {
         return this.osrsAccount.name + ':  \nCombat Level: ' + this.osrsAccount.main.combatLevel + '\nQuestPoints: ' + this.getQuestPoints();
+    }
+
+    /**
+     * Get Skills for account
+     * @return {Array} The array of skills associated with this account
+     */
+    getSkills() {
+        return this.osrsAccount.main.skills;
     }
 
     /**
@@ -26,14 +40,14 @@ exports = class OsrsAccount {
      * @param {Number} x integer that is greater than or equal to 0
      */
     setQuestPoints(x) {
-        if (x >= 0) {
-            this.osrsAccount.main.questPoints = x;
+            if (x >= 0) {
+                this.osrsAccount.main.questPoints = x;
+            }
         }
-    }
-    /**
-     * Get Combat Level for account
-     * @return {Number} The combat level for this account
-     */
+        /**
+         * Get Combat Level for account
+         * @return {Number} The combat level for this account
+         */
     getCombatLevel() {
         return this.osrsAccount.main.combatLevel;
     }
@@ -78,5 +92,4 @@ exports = class OsrsAccount {
 
 
 }
-
-
+module.exports = exports = { OsrsAccount };

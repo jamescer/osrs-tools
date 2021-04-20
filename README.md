@@ -1,6 +1,6 @@
 ## Old School Runescape Quest Tool
 
-A collection of old school runescape data in order to help developers create something special.
+A [Node Package](https://www.npmjs.com/package/osrs-quest-tool) to provide data for all current old school runescape quests. Creating tools to help junior software developers build things they are passionate about. Work in progress and issues should be reported to cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com or reported under the [issues tab on gituhb](https://github.com/cerniglj1/osrs-quest-tool/issues).
 
 ## Installation
 
@@ -18,7 +18,7 @@ npm i osrs-quest-tool
 
 ---
 
-### Example
+### Example Javascript
 
 ```js
 import { QuestTool, questArray, questObject } from "osrs-quest-tool";
@@ -29,69 +29,6 @@ console.log(this.questData);
 console.log(this.questArray);
 ```
 
-### Result
-
-```js
-{
-    "A Soul's Bane": {
-        miniquest: false,
-        name: "A Soul's Bane",
-        shortName: 'aSoulsBane',
-        url: 'https://oldschool.runescape.wiki/w/A_Soul%27s_Bane',
-        members: true,
-        difficulty: 'Novice',
-        subquests: [],
-        questLength: 'Medium',
-        requirements: { quests: [], skills: [] },
-        rewards: { exp: [ [Object], [Object] ], questPoints: 1 },
-        series: null
-        }, ...
-```
-
----
-
-### Example 2
-
-```js
-import q from "osrs-quest-tool";
-console.log(q.questArray());
-```
-
-### Result
-
-```js
-[{
-  miniquest: false,
-  name: "A Soul's Bane",
-  shortName: 'aSoulsBane',
-  url: 'https://oldschool.runescape.wiki/w/A_Soul%27s_Bane',
-  members: true,
-  difficulty: 'Novice',
-  subquests: [],
-  questLength: 'Medium',
-  requirements: { quests: [], skills: [] },
-  rewards: { exp: [ [Object], [Object] ], questPoints: 1 },
-  series: null
-}, ...
-```
-
----
-
-### Example
-
-```js
-import questTool from "osrs-quest-tool";
-console.log(
-  questTool.canCompleteQuest(questTool.questObject()["Regicide"], testAccount)
-);
-```
-
-### Result
-
-```js
-true;
-```
-
 ---
 
 ## Notes
@@ -100,5 +37,6 @@ Recipe for disaster is a work in progress!
 
 ## TODO
 
-Implement quest completion array
-implement questArray and questObject objects instead of functions
+- Implement recursive function for determining quest completion
+- Implement quest completion array
+- Implement questArray and questObject objects instead of functions

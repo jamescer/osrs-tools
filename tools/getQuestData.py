@@ -94,32 +94,43 @@ BASE_QUEST_URL = "https://oldschool.runescape.wiki/w/"
 
 
 def get_quest_url(x):
-
     return urllib.parse.urlencode({'': i['questName']}).replace('+', '_')[1:]
 
 
-def parse_req_str(x):
-    skill = {}
-    x_arr = x.split(' ')
+def parse_req_str(requirementString):
+
+    requirementObject = {}
+
+    x_arr = requirementString.split(' ')
     # TODO
     # determine if quest or skill
     if '(boostable)' in x_arr:
         # if its boostable its definitely a skill
         if type(int(x_arr[1])) == int and len(x_arr) >= 3:
-            skill = {'level': int(x_arr[1]), 'skill': x_arr[2].lower(
+            requirementObject = {'type': 'skill', 'level': int(x_arr[1]), 'skill': x_arr[2].lower(
             ), 'boostable': 'boost' in x_arr[3]}
-    if 'quest points' in x or 'Quest points' in x:
+    if 'quest points' in requirementString  \
+            or 'Quest points' in requirementString:
         # if its boostable its definitely a skill
         if type(int(x_arr[1])) == int and len(x_arr) >= 3:
-            skill = {'level': int(x_arr[1]), 'skill': x_arr[2].lower(
+            requirementObject = {'type': 'skill', 'level': int(x_arr[1]), 'skill': x_arr[2].lower(
             ), 'boostable': 'boost' in x_arr[3]}
+    if 'Completion of the following quests:' in requirementString:
+        print('x', requirementString)
+        questSplit = requirementString.split('\n')
+        requirementObject = {'type': 'quest', 'level': int(x_arr[1]), 'skill': x_arr[2].lower(
+        ), 'boostable': 'boost' in x_arr[3]}
+        print('questSplit', questSplit)
+        for i in questSplit:
+            quests.append(i)
+        print(quests)
 
     try:
         pass
     except ValueError:
         print('error on', x)
-    print([skill, x])
-    return skill
+    # print([skill, x])
+    return requirementObject
 
 
 quest_detail_array = []
@@ -155,6 +166,7 @@ for i in all_quests:
                 # first th is always the label of what data is coming
 
                 section = quest_details[i].text.lower()
+                print(section)
                 detail_row = quest_details[i].parent.find_all(
                     "td", class_="questdetails-info")
 

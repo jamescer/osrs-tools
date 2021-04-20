@@ -1,5 +1,6 @@
 // import { QuestTool } from './questTool.js';
 const { QuestTool } = require('./utils/questTool.js')
+const { OsrsAccount } = require('./utils/osrsAcc.js')
 
 function highestBoost(skillName) {
     /**
@@ -17,19 +18,19 @@ function highestBoost(skillName) {
         case 'thieving':
         case 'woodcutting':
         case 'hunter': // spicy stew
-        case 'magic':// 	Imbued heart 10
-        //spicy stew 5
+        case 'magic': // 	Imbued heart 10
+            //spicy stew 5
         case 'hitpoints':
-        //	Guthix rest	5
-        // Anglerfish
-        //Abidor Crank	15
-        // Amulet of the damned	10
-        case 'mining':// spicy stew
-        case 'prayer':// spicy stew
-        case 'ranged':// spicy stew
-        case 'runecraft'://spicy stew 5
-        case 'slayer'://spicy stew 5
-        case 'smithing'://spicy stew 5
+            //	Guthix rest	5
+            // Anglerfish
+            //Abidor Crank	15
+            // Amulet of the damned	10
+        case 'mining': // spicy stew
+        case 'prayer': // spicy stew
+        case 'ranged': // spicy stew
+        case 'runecraft': //spicy stew 5
+        case 'slayer': //spicy stew 5
+        case 'smithing': //spicy stew 5
         case 'cooking': // spicy stew
         case 'crafting': // spicy stew
         case 'defence': //spicy stew 5
@@ -39,7 +40,7 @@ function highestBoost(skillName) {
         case 'fletching': // spicy stew
         case 'herblore': // spicy stew
         case 'agility':
-        // spicy stew
+            // spicy stew
         case 'attack':
             //spicy stew 
             return 5;
@@ -288,6 +289,7 @@ function canCompleteQuest(quest, account) {
     // If the account can complete all quests and skills are higher than or boostable
     return true;
 }
+
 function meetsRequirement(quest, account) {
     if (quest === "Recipe for Disaster") {
         // TODO 
@@ -386,5 +388,5 @@ const questArray = new QuestTool().getQuestArray();
 
 
 
-module.exports = { QuestTool, questArray, questData, hello, setOsrsAccount, getOsrsAccount, getQuestObject, getQuestArray, contact, help, meetsRequirement, canCompleteQuest, subQuestArray };
+module.exports = { QuestTool, OsrsAccount, questArray, questData, hello, setOsrsAccount, getOsrsAccount, getQuestObject, getQuestArray, contact, help, meetsRequirement, canCompleteQuest, subQuestArray };
 // export default

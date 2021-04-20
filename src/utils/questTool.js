@@ -14,7 +14,7 @@ const OsrsAccount = require('./osrsAcc.js')
 class QuestTool {
 
     constructor() {
-        this.questObject = questData[0];
+        this.questObject = questData;
         this.questArray = questDataArray;
         this.subQuestArray = subQuestArray;
     }
@@ -66,10 +66,10 @@ class QuestTool {
     }
 
     /**
-    * List of highest boostable levels with skills including spicy stew etc
-    * @param  {String} skillName The first number
-    * @return {Number} The highest boost possible for that skill.
-    * */
+     * List of highest boostable levels with skills including spicy stew etc
+     * @param  {String} skillName The first number
+     * @return {Number} The highest boost possible for that skill.
+     * */
     highestBoost(skillName) {
         /**
          * 
@@ -86,19 +86,19 @@ class QuestTool {
             case 'thieving':
             case 'woodcutting':
             case 'hunter': // spicy stew
-            case 'magic':// 	Imbued heart 10
-            //spicy stew 5
+            case 'magic': // 	Imbued heart 10
+                //spicy stew 5
             case 'hitpoints':
-            //	Guthix rest	5
-            // Anglerfish
-            //Abidor Crank	15
-            // Amulet of the damned	10
-            case 'mining':// spicy stew
-            case 'prayer':// spicy stew
-            case 'ranged':// spicy stew
-            case 'runecraft'://spicy stew 5
-            case 'slayer'://spicy stew 5
-            case 'smithing'://spicy stew 5
+                //	Guthix rest	5
+                // Anglerfish
+                //Abidor Crank	15
+                // Amulet of the damned	10
+            case 'mining': // spicy stew
+            case 'prayer': // spicy stew
+            case 'ranged': // spicy stew
+            case 'runecraft': //spicy stew 5
+            case 'slayer': //spicy stew 5
+            case 'smithing': //spicy stew 5
             case 'cooking': // spicy stew
             case 'crafting': // spicy stew
             case 'defence': //spicy stew 5
@@ -108,7 +108,7 @@ class QuestTool {
             case 'fletching': // spicy stew
             case 'herblore': // spicy stew
             case 'agility':
-            // spicy stew
+                // spicy stew
             case 'attack':
                 //spicy stew 
                 return 5;
@@ -132,13 +132,11 @@ class QuestTool {
 
             if (quest == 'Pirate Pete subquest of Recipe for Disaster') {
                 quest = this.getQuest(quest);
-            }
-            else { quest = this.getQuest(quest); }
+            } else { quest = this.getQuest(quest); }
             if (quest == undefined || quest == null) {
                 return true;
             }
-        }
-        else if (typeof quest == "object") {
+        } else if (typeof quest == "object") {
             /** we want object to iterate through requirements */
 
         }
@@ -237,9 +235,9 @@ class QuestTool {
     }
 
     /**
-    * Return an array of quests that can be completed with the associated account
-    * @return {Array}      The total of the two numbers
-    */
+     * Return an array of quests that can be completed with the associated account
+     * @return {Array}      The total of the two numbers
+     */
     completableQuests() {
         var completed = [];
         for (var i in this.questArray) {
@@ -252,18 +250,19 @@ class QuestTool {
     }
 
     /**
-    * Set the account to be used in this quest tool
-    * @param  {Object} skillName The osrs Account to be associated with this class object.
-    * */
+     * Set the account to be used in this quest tool
+     * @param  {Object} skillName The osrs Account to be associated with this class object.
+     * */
     setOsrsAccount(acc1) {
         if (acc1) { this.osrsAccount = new OsrsAccount(acc1); return true; } else {
             return false;
         }
     }
+
     /**
-    * Set the account to be used in this quest tool
-    * @param  {Object} skillName The osrs Account to be associated with this class object.
-    * */
+     * Set the account to be used in this quest tool
+     * @param  {Object} skillName The osrs Account to be associated with this class object.
+     * */
     setAccount(acc1) {
         if (acc1) { this.osrsAccount = new OsrsAccount(acc1); }
     }
@@ -282,13 +281,20 @@ class QuestTool {
         return this.questObject;
     }
 
+
     getSubQuestArray() {
         return this.subQuestArray;
     }
+
+
     getQuestArray() {
         return this.questArray;
     }
 
+    /**
+     * Set the account to be used in this quest tool
+     * @return  {OsrsAccount} osrsAccount The osrs Account to be associated with this class object.
+     * */
     getOsrsAccount() {
         return this.osrsAccount;
     }

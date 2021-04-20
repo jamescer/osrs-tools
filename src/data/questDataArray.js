@@ -1,5 +1,4 @@
-module.exports = exports = [
-    {
+module.exports = exports = [{
         "miniquest": false,
         "name": "A Soul's Bane",
         "shortName": "aSoulsBane",
@@ -13,8 +12,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "defence",
                     "amount": 500
                 },
@@ -63,12 +61,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "slayer",
-                    "amount": 1000
-                }
-            ],
+            "exp": [{
+                "skill": "slayer",
+                "amount": 1000
+            }],
             "questPoints": 1,
             "other": [
                 "30 Slayer Rewards Points",
@@ -105,8 +101,7 @@ module.exports = exports = [
             "quests": [
                 "Darkness of Hallowvale"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 48,
                     "boostable": false
@@ -154,8 +149,7 @@ module.exports = exports = [
                 "Ernest the Chicken",
                 "Priest in Peril"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "slayer",
                     "level": 18,
                     "boostable": false
@@ -183,8 +177,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 1000
                 },
@@ -221,8 +214,7 @@ module.exports = exports = [
                 "The Dig Site",
                 "Druidic Ritual"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "attack",
                     "level": 15,
                     "boostable": false
@@ -235,8 +227,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "mining",
                     "amount": 3000
                 },
@@ -248,6 +239,56 @@ module.exports = exports = [
             "questPoints": 1
         },
         "series": "Dorgeshuun (#4)"
+    },
+    {
+        "miniquest": false,
+        "name": "Below Ice Mountain",
+        "shortName": "belowIceMountain",
+        "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
+        "members": true,
+        "startPoint": "Willow on the path south of Ice Mountain",
+        "difficulty": "Novice",
+        "description": "Willow, an energetic archaeologist (perhaps suspiciously so) is hunting for her next big discovery. She believes she has found the entrance to ancient underground ruins found to the west of Ice Mountain. There's a catch though - the entrance is sealed tight and she needs to re-unite her old crew to help her break in. Naturally, she has to stay close to the ruins in order to lay claim to the find, so it falls to you to bring her rag-tag group back together for one last caper and a final big pay-off.Burntof is an old dwarf with a penchant for demolition, Checkal is a well-built lifter of heavy things and Marley is a cunning thief with a knack for disarming traps.Together, they have the talents it will take to gain entry to the secret ruins. But persuading them might not be easy. See, the gang aren't all too keen on working with Willow again, and her intentions might not be as honourable as she claims...",
+        "subquests": [],
+        "questLength": "Short",
+        "itemsRecommended": [
+            "Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild",
+            "Combat equipment to fight a level 82 beast."
+        ],
+        "enemiesToDefeat": [
+            "Ancient Guardian (level 25) (optional)"
+        ],
+        "itemsRequired": [
+            "Cooked meat (can be obtained during quest)",
+            "Bread",
+            "Knife",
+            "3 coins or a beer (can be obtained during quest), alternatives include: Asgarnian ale, a dwarven stout, or a wizard's mind bomb (however the following will not work: asgoldian ale, bandit's brew, chef's delight, cider, gnome cocktails)", "A pickaxe and Mining 10 Mining (if you're a skiller)"
+        ],
+        "requirements": {
+            "quests": [
+                "Death to the Dorgeshuun",
+                "The Giant Dwarf",
+                "The Dig Site",
+                "Druidic Ritual"
+            ],
+            "skills": [{
+                "skill": "quest",
+                "level": 16,
+                "boostable": false
+            }]
+        },
+        "rewards": {
+            "exp": [
+
+            ],
+            "miscellaneous": ["2,000 coins",
+                "Access to the Ruins of Camdozaal",
+                "Flex emote",
+                "The ability to make steak sandwich"
+            ],
+            "questPoints": 1
+        },
+        "series": null
     },
     {
         "miniquest": false,
@@ -263,8 +304,7 @@ module.exports = exports = [
                 "Dwarf Cannon",
                 "Fishing Contest"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "defence",
                     "level": 30,
                     "boostable": false
@@ -282,8 +322,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "defence",
                     "amount": 5000
                 },
@@ -311,8 +350,7 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "fletching",
                     "level": 5,
                     "boostable": false
@@ -330,8 +368,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "cooking",
                     "amount": 1470
                 },
@@ -362,12 +399,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "thieving",
-                    "amount": 1250
-                }
-            ],
+            "exp": [{
+                "skill": "thieving",
+                "amount": 1250
+            }],
             "questPoints": 3
         },
         "series": "Elf"
@@ -383,13 +418,11 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "quest",
-                    "level": 12,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "quest",
+                "level": 12,
+                "boostable": false
+            }]
         },
         "rewards": {
             "exp": [],
@@ -433,8 +466,7 @@ module.exports = exports = [
                 "Rum Deal",
                 "Priest in Peril"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 42,
                     "boostable": false
@@ -457,8 +489,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 7000
                 },
@@ -524,8 +555,7 @@ module.exports = exports = [
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "hunter",
                     "level": 10,
                     "boostable": false
@@ -553,8 +583,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 5000
                 },
@@ -588,12 +617,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "thieving",
-                    "amount": 7000
-                }
-            ],
+            "exp": [{
+                "skill": "thieving",
+                "amount": 7000
+            }],
             "questPoints": 1
         },
         "series": "Desert"
@@ -612,12 +639,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "cooking",
-                    "amount": 300
-                }
-            ],
+            "exp": [{
+                "skill": "cooking",
+                "amount": 300
+            }],
             "questPoints": 1
         },
         "series": null
@@ -636,8 +661,7 @@ module.exports = exports = [
                 "Priest in Peril",
                 "The Restless Ghost"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -650,12 +674,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "thieving",
-                    "amount": 1000
-                }
-            ],
+            "exp": [{
+                "skill": "thieving",
+                "amount": 1000
+            }],
             "questPoints": 2
         },
         "series": null
@@ -673,8 +695,7 @@ module.exports = exports = [
             "quests": [
                 "In Aid of the Myreque"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "construction",
                     "level": 5,
                     "boostable": false
@@ -712,8 +733,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 7000
                 },
@@ -744,12 +764,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "attack",
-                    "amount": 3000
-                }
-            ],
+            "exp": [{
+                "skill": "attack",
+                "amount": 3000
+            }],
             "questPoints": 1
         },
         "series": "Troll"
@@ -767,8 +785,7 @@ module.exports = exports = [
             "quests": [
                 "The Lost Tribe"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 23,
                     "boostable": false
@@ -781,8 +798,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "ranged",
                     "amount": 2000
                 },
@@ -832,8 +848,7 @@ module.exports = exports = [
                 "Priest in Peril",
                 "Waterfall Quest"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "thieving",
                     "level": 53,
                     "boostable": true
@@ -856,12 +871,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "magic",
-                    "amount": 20000
-                }
-            ],
+            "exp": [{
+                "skill": "magic",
+                "amount": 20000
+            }],
             "questPoints": 3
         },
         "series": "The Return of Zaros and Mahjarrat"
@@ -882,8 +895,7 @@ module.exports = exports = [
                 "Doric's Quest",
                 "Enter the Abyss"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "smithing",
                     "level": 65,
                     "boostable": true
@@ -901,8 +913,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "fletching",
                     "amount": 5000
                 },
@@ -930,21 +941,17 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "mining",
-                    "level": 15,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "mining",
+                "level": 15,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "mining",
-                    "amount": 1300
-                }
-            ],
+            "exp": [{
+                "skill": "mining",
+                "amount": 1300
+            }],
             "questPoints": 1
         },
         "series": null
@@ -960,8 +967,7 @@ module.exports = exports = [
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "quest",
                     "level": 32,
                     "boostable": false
@@ -974,8 +980,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "defence",
                     "amount": 18650
                 },
@@ -1007,17 +1012,14 @@ module.exports = exports = [
                 "Bone Voyage",
                 "Client of Kourend"
             ],
-            "skills": [
-                {
-                    "skill": "quest",
-                    "level": 200,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "quest",
+                "level": 200,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 15000
                 },
@@ -1052,17 +1054,14 @@ module.exports = exports = [
                 "Lunar Diplomacy",
                 "Eadgar's Ruse"
             ],
-            "skills": [
-                {
-                    "skill": "combat",
-                    "level": 85,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "combat",
+                "level": 85,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "hitpoints",
                     "amount": 15000
                 },
@@ -1089,12 +1088,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "herblore",
-                    "amount": 250
-                }
-            ],
+            "exp": [{
+                "skill": "herblore",
+                "amount": 250
+            }],
             "questPoints": 4
         },
         "series": null
@@ -1113,12 +1110,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "crafting",
-                    "amount": 750
-                }
-            ],
+            "exp": [{
+                "skill": "crafting",
+                "amount": 750
+            }],
             "questPoints": 1
         },
         "series": null
@@ -1137,8 +1132,7 @@ module.exports = exports = [
                 "Druidic Ritual",
                 "Troll Stronghold"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "herblore",
                     "level": 31,
                     "boostable": true
@@ -1151,12 +1145,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "herblore",
-                    "amount": 11000
-                }
-            ],
+            "exp": [{
+                "skill": "herblore",
+                "amount": 11000
+            }],
             "questPoints": 1
         },
         "series": "Troll"
@@ -1172,21 +1164,17 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "hunter",
-                    "level": 27,
-                    "boostable": true
-                }
-            ]
+            "skills": [{
+                "skill": "hunter",
+                "level": 27,
+                "boostable": true
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "hunter",
-                    "amount": 2500
-                }
-            ],
+            "exp": [{
+                "skill": "hunter",
+                "amount": 2500
+            }],
             "questPoints": 2
         },
         "series": null
@@ -1202,8 +1190,7 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "mining",
                     "level": 20,
                     "boostable": false
@@ -1221,8 +1208,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 5000
                 },
@@ -1246,8 +1232,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "magic",
                     "level": 20,
                     "boostable": false
@@ -1260,8 +1245,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 7500
                 },
@@ -1285,8 +1269,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 50,
                     "boostable": false
@@ -1314,8 +1297,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 7000
                 },
@@ -1347,8 +1329,7 @@ module.exports = exports = [
         "questLength": "Short - Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "quest",
                     "level": 20,
                     "boostable": false
@@ -1371,8 +1352,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 2000
                 },
@@ -1450,8 +1430,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "attack",
                     "amount": 2000
                 },
@@ -1481,8 +1460,7 @@ module.exports = exports = [
             "quests": [
                 "Fairytale I - Growing Pains"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "thieving",
                     "level": 40,
                     "boostable": true
@@ -1500,8 +1478,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "herblore",
                     "amount": 3500
                 },
@@ -1525,8 +1502,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "mining",
                     "level": 40,
                     "boostable": true
@@ -1568,8 +1544,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "attack",
                     "amount": 12175
                 },
@@ -1593,21 +1568,17 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "fishing",
-                    "level": 10,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "fishing",
+                "level": 10,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "fishing",
-                    "amount": 2437
-                }
-            ],
+            "exp": [{
+                "skill": "fishing",
+                "amount": 2437
+            }],
             "questPoints": 1
         },
         "series": "Dwarf"
@@ -1626,8 +1597,7 @@ module.exports = exports = [
                 "The Giant Dwarf",
                 "Fishing Contest"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "cooking",
                     "level": 22,
                     "boostable": false
@@ -1640,8 +1610,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "cooking",
                     "amount": 5000
                 },
@@ -1667,21 +1636,17 @@ module.exports = exports = [
             "quests": [
                 "Creature of Fenkenstrain"
             ],
-            "skills": [
-                {
-                    "skill": "farming",
-                    "level": 25,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "farming",
+                "level": 25,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "farming",
-                    "amount": 5000
-                }
-            ],
+            "exp": [{
+                "skill": "farming",
+                "amount": 5000
+            }],
             "questPoints": 2
         },
         "series": null
@@ -1700,12 +1665,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "cooking",
-                    "amount": 1525
-                }
-            ],
+            "exp": [{
+                "skill": "cooking",
+                "amount": 1525
+            }],
             "questPoints": 1
         },
         "series": null
@@ -1721,8 +1684,7 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 30,
                     "boostable": true
@@ -1752,8 +1714,7 @@ module.exports = exports = [
             "Combat equipment to fight a level 82 beast."
         ],
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 4000
                 },
@@ -1787,12 +1748,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "prayer",
-                    "amount": 2400
-                }
-            ],
+            "exp": [{
+                "skill": "prayer",
+                "amount": 2400
+            }],
             "questPoints": 2
         },
         "series": null
@@ -1811,12 +1770,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "crafting",
-                    "amount": 200
-                }
-            ],
+            "exp": [{
+                "skill": "crafting",
+                "amount": 200
+            }],
             "questPoints": 5
         },
         "series": null
@@ -1832,8 +1789,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "farming",
                     "level": 45,
                     "boostable": true
@@ -1861,8 +1817,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 6000
                 },
@@ -1902,8 +1857,7 @@ module.exports = exports = [
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 15,
                     "boostable": false
@@ -1916,12 +1870,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "strength",
-                    "amount": 22000
-                }
-            ],
+            "exp": [{
+                "skill": "strength",
+                "amount": 22000
+            }],
             "questPoints": 2
         },
         "series": null
@@ -1940,12 +1892,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "thieving",
-                    "amount": 1500
-                }
-            ],
+            "exp": [{
+                "skill": "thieving",
+                "amount": 1500
+            }],
             "questPoints": 1
         },
         "series": "Mahjarrat"
@@ -1967,17 +1917,14 @@ module.exports = exports = [
                 "Dragon Slayer",
                 "Druidic Ritual"
             ],
-            "skills": [
-                {
-                    "skill": "quest",
-                    "level": 55,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "quest",
+                "level": 55,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "attack",
                     "amount": 3075
                 },
@@ -2041,17 +1988,14 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "attack",
-                    "level": 20,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "attack",
+                "level": 20,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "defence",
                     "amount": 15300
                 },
@@ -2075,17 +2019,14 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "agility",
-                    "level": 35,
-                    "boostable": true
-                }
-            ]
+            "skills": [{
+                "skill": "agility",
+                "level": 35,
+                "boostable": true
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "magic",
                     "amount": 4662
                 },
@@ -2116,8 +2057,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 4000
                 },
@@ -2148,12 +2088,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "magic",
-                    "amount": 875
-                }
-            ],
+            "exp": [{
+                "skill": "magic",
+                "amount": 875
+            }],
             "questPoints": 1
         },
         "series": null
@@ -2171,8 +2109,7 @@ module.exports = exports = [
             "quests": [
                 "In Search of the Myreque"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 25,
                     "boostable": false
@@ -2190,8 +2127,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "attack",
                     "amount": 2000
                 },
@@ -2225,17 +2161,14 @@ module.exports = exports = [
             "quests": [
                 "Nature Spirit"
             ],
-            "skills": [
-                {
-                    "skill": "agility",
-                    "level": 25,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "agility",
+                "level": 25,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "attack",
                     "amount": 600
                 },
@@ -2271,21 +2204,17 @@ module.exports = exports = [
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "herblore",
-                    "level": 3,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "herblore",
+                "level": 3,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "herblore",
-                    "amount": 775
-                }
-            ],
+            "exp": [{
+                "skill": "herblore",
+                "amount": 775
+            }],
             "questPoints": 1
         },
         "series": "Karamja"
@@ -2306,8 +2235,7 @@ module.exports = exports = [
                 "Murder Mystery",
                 "One Small Favour"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "magic",
                     "level": 45,
                     "boostable": false
@@ -2320,8 +2248,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "defence",
                     "amount": 33000
                 },
@@ -2351,8 +2278,7 @@ module.exports = exports = [
                 "Underground Pass",
                 "Waterfall Quest"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "quest",
                     "level": 107,
                     "boostable": false
@@ -2426,8 +2352,7 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 31,
                     "boostable": false
@@ -2461,8 +2386,7 @@ module.exports = exports = [
                 "Rune Mysteries",
                 "Shilo Village"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 61,
                     "boostable": false
@@ -2495,8 +2419,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "magic",
                     "amount": 5000
                 },
@@ -2525,8 +2448,7 @@ module.exports = exports = [
                 "Cold War",
                 "Romeo & Juliet"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "firemaking",
                     "level": 66,
                     "boostable": false
@@ -2549,8 +2471,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 10000
                 },
@@ -2588,8 +2509,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 1000
                 },
@@ -2635,12 +2555,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "crafting",
-                    "amount": 600
-                }
-            ],
+            "exp": [{
+                "skill": "crafting",
+                "amount": 600
+            }],
             "questPoints": 1
         },
         "series": null
@@ -2659,12 +2577,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "woodcutting",
-                    "amount": 2000
-                }
-            ],
+            "exp": [{
+                "skill": "woodcutting",
+                "amount": 2000
+            }],
             "questPoints": 1
         },
         "series": null
@@ -2683,13 +2599,11 @@ module.exports = exports = [
                 "The Grand Tree",
                 "Tree Gnome Village"
             ],
-            "skills": [
-                {
-                    "skill": "prayer",
-                    "level": 43,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "prayer",
+                "level": 43,
+                "boostable": false
+            }]
         },
         "rewards": {
             "exp": [],
@@ -2714,8 +2628,7 @@ module.exports = exports = [
                 "Troll Stronghold",
                 "Watchtower"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "slayer",
                     "level": 69,
                     "boostable": false
@@ -2748,8 +2661,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 20000
                 },
@@ -2781,17 +2693,14 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "agility",
-                    "level": 20,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "agility",
+                "level": 20,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "attack",
                     "amount": 1000
                 },
@@ -2819,8 +2728,7 @@ module.exports = exports = [
                 "Big Chompy Bird Hunting",
                 "Sheep Herder"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "ranged",
                     "level": 60,
                     "boostable": true
@@ -2833,8 +2741,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "hitpoints",
                     "amount": 25000
                 },
@@ -2858,8 +2765,7 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "prayer",
                     "level": 43,
                     "boostable": false
@@ -2872,12 +2778,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "agility",
-                    "amount": 20000
-                }
-            ],
+            "exp": [{
+                "skill": "agility",
+                "amount": 20000
+            }],
             "questPoints": 1
         },
         "series": "Elf"
@@ -2896,12 +2800,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "crafting",
-                    "amount": 1406
-                }
-            ],
+            "exp": [{
+                "skill": "crafting",
+                "amount": 1406
+            }],
             "questPoints": 3
         },
         "series": "Camelot"
@@ -2921,8 +2823,7 @@ module.exports = exports = [
                 "The Feud",
                 "Jungle Potion"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "woodcutting",
                     "level": 10,
                     "boostable": false
@@ -2935,8 +2836,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "farming",
                     "amount": 5000
                 },
@@ -2963,17 +2863,14 @@ module.exports = exports = [
                 "Priest in Peril",
                 "The Restless Ghost"
             ],
-            "skills": [
-                {
-                    "skill": "crafting",
-                    "level": 18,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "crafting",
+                "level": 18,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 3000
                 },
@@ -3001,21 +2898,17 @@ module.exports = exports = [
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "crafting",
-                    "level": 10,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "crafting",
+                "level": 10,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "crafting",
-                    "amount": 2250
-                }
-            ],
+            "exp": [{
+                "skill": "crafting",
+                "amount": 2250
+            }],
             "questPoints": 2
         },
         "series": null
@@ -3031,8 +2924,7 @@ module.exports = exports = [
         "questLength": "Short - Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "firemaking",
                     "level": 40,
                     "boostable": false
@@ -3045,12 +2937,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "defence",
-                    "amount": 12000
-                }
-            ],
+            "exp": [{
+                "skill": "defence",
+                "amount": 12000
+            }],
             "questPoints": 1
         },
         "series": "Fremennik"
@@ -3069,8 +2959,7 @@ module.exports = exports = [
                 "Rune Mysteries",
                 "Shilo Village"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 36,
                     "boostable": true
@@ -3131,12 +3020,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "mining",
-                    "amount": 2425
-                }
-            ],
+            "exp": [{
+                "skill": "mining",
+                "amount": 2425
+            }],
             "questPoints": 1
         },
         "series": "Elf"
@@ -3155,12 +3042,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "prayer",
-                    "amount": 1406
-                }
-            ],
+            "exp": [{
+                "skill": "prayer",
+                "amount": 1406
+            }],
             "questPoints": 1
         },
         "series": "Myreque"
@@ -3198,8 +3083,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "cooking",
                     "amount": 500
                 },
@@ -3223,8 +3107,7 @@ module.exports = exports = [
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "slayer",
                     "level": 40,
                     "boostable": false
@@ -3237,12 +3120,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "prayer",
-                    "amount": 5000
-                }
-            ],
+            "exp": [{
+                "skill": "prayer",
+                "amount": 5000
+            }],
             "questPoints": 1
         },
         "series": null
@@ -3263,12 +3144,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "thieving",
-                    "amount": 4500
-                }
-            ],
+            "exp": [{
+                "skill": "thieving",
+                "amount": 4500
+            }],
             "questPoints": 2
         },
         "series": null
@@ -3281,63 +3160,56 @@ module.exports = exports = [
         "members": true,
         "difficulty": "Special",
         "questLength": "Very long",
-        "subquests": [
-            {
-                "miniquest": true,
-                "subquest": true,
-                "shortName": "piratePeteSubquestOfRecipeforDisaster",
-                "name": "Pirate Pete subquest of Recipe for Disaster",
-                "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
-                "members": true,
-                "difficulty": "Special",
-                "subquests": [],
-                "questLength": "Medium",
-                "released": "15 March 2006 (Update)",
-                "itemsRequired": [
-                    "A raw cod",
-                    "A pestle and mortar",
-                    "Bread",
-                    "A knife",
-                    "A fishbowl (empty)",
-                    "A needle",
-                    "3 bronze wire"
-                ],
-                "requirements": {
-                    "quests": [],
-                    "skills": [
-                        {
-                            "skill": "cooking",
-                            "level": 31,
-                            "boostable": false
-                        }
-                    ],
-                    "other": [
-                        {
-                            "description": "The ability to defeat 5 level 30 monsters."
-                        }
-                    ],
-                    "ironman": [
-                        {
-                            "skill": "crafting",
-                            "description": "42 Crafting (If crafting a fishbowl yourself or by completing Rum Deal)",
-                            "level": 42,
-                            "boostable": false
-                        },
-                        {
-                            "skill": "smithing",
-                            "description": "4 Smithing (To make the bronze wire.)",
-                            "level": 4,
-                            "boostable": false
-                        }
-                    ]
-                },
-                "rewards": {
-                    "exp": [],
-                    "questPoints": 2
-                },
-                "series": "Pirate"
-            }
-        ],
+        "subquests": [{
+            "miniquest": true,
+            "subquest": true,
+            "shortName": "piratePeteSubquestOfRecipeforDisaster",
+            "name": "Pirate Pete subquest of Recipe for Disaster",
+            "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
+            "members": true,
+            "difficulty": "Special",
+            "subquests": [],
+            "questLength": "Medium",
+            "released": "15 March 2006 (Update)",
+            "itemsRequired": [
+                "A raw cod",
+                "A pestle and mortar",
+                "Bread",
+                "A knife",
+                "A fishbowl (empty)",
+                "A needle",
+                "3 bronze wire"
+            ],
+            "requirements": {
+                "quests": [],
+                "skills": [{
+                    "skill": "cooking",
+                    "level": 31,
+                    "boostable": false
+                }],
+                "other": [{
+                    "description": "The ability to defeat 5 level 30 monsters."
+                }],
+                "ironman": [{
+                        "skill": "crafting",
+                        "description": "42 Crafting (If crafting a fishbowl yourself or by completing Rum Deal)",
+                        "level": 42,
+                        "boostable": false
+                    },
+                    {
+                        "skill": "smithing",
+                        "description": "4 Smithing (To make the bronze wire.)",
+                        "level": 4,
+                        "boostable": false
+                    }
+                ]
+            },
+            "rewards": {
+                "exp": [],
+                "questPoints": 2
+            },
+            "series": "Pirate"
+        }],
         "requirements": {
             "quests": [
                 "Cook's Assistant",
@@ -3354,8 +3226,7 @@ module.exports = exports = [
                 "Desert Treasure",
                 "Horror from the Deep"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "quest",
                     "level": 175,
                     "boostable": false
@@ -3449,17 +3320,14 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "quest",
-                    "level": 12,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "quest",
+                "level": 12,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 1000
                 },
@@ -3489,8 +3357,7 @@ module.exports = exports = [
             "quests": [
                 "Underground Pass"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 56,
                     "boostable": true
@@ -3503,12 +3370,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "agility",
-                    "amount": 13750
-                }
-            ],
+            "exp": [{
+                "skill": "agility",
+                "amount": 13750
+            }],
             "questPoints": 3
         },
         "series": "Elf"
@@ -3549,12 +3414,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "strength",
-                    "amount": 10000
-                }
-            ],
+            "exp": [{
+                "skill": "strength",
+                "amount": 10000
+            }],
             "questPoints": 1
         },
         "series": "Elf, Gnome"
@@ -3570,8 +3433,7 @@ module.exports = exports = [
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 40,
                     "boostable": true
@@ -3584,8 +3446,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 5000
                 },
@@ -3616,8 +3477,7 @@ module.exports = exports = [
                 "Zogre Flesh Eaters",
                 "Priest in Peril"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 42,
                     "boostable": false
@@ -3645,8 +3505,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "farming",
                     "amount": 7000
                 },
@@ -3693,21 +3552,17 @@ module.exports = exports = [
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "prayer",
-                    "level": 31,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "prayer",
+                "level": 31,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "strength",
-                    "amount": 6625
-                }
-            ],
+            "exp": [{
+                "skill": "strength",
+                "amount": 6625
+            }],
             "questPoints": 1
         },
         "series": null
@@ -3726,12 +3581,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "fishing",
-                    "amount": 7175
-                }
-            ],
+            "exp": [{
+                "skill": "fishing",
+                "amount": 7175
+            }],
             "questPoints": 1
         },
         "series": "Sea Slug"
@@ -3747,8 +3600,7 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -3766,8 +3618,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 2000
                 },
@@ -3835,12 +3686,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "crafting",
-                    "amount": 150
-                }
-            ],
+            "exp": [{
+                "skill": "crafting",
+                "amount": 150
+            }],
             "questPoints": 1
         },
         "series": null
@@ -3875,8 +3724,7 @@ module.exports = exports = [
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -3894,12 +3742,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "crafting",
-                    "amount": 3875
-                }
-            ],
+            "exp": [{
+                "skill": "crafting",
+                "amount": 3875
+            }],
             "questPoints": 2
         },
         "series": "Karamja"
@@ -3918,8 +3764,7 @@ module.exports = exports = [
                 "Mourning's End Part II",
                 "Making History"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 70,
                     "boostable": false
@@ -3962,8 +3807,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 20000
                 },
@@ -4011,8 +3855,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "magic",
                     "level": 33,
                     "boostable": true
@@ -4035,8 +3878,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "magic",
                     "amount": 1000
                 },
@@ -4067,8 +3909,7 @@ module.exports = exports = [
                 "One Small Favour",
                 "Garden of Tranquillity"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "quest",
                     "level": 100,
                     "boostable": false
@@ -4106,8 +3947,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "fishing",
                     "amount": 10000
                 },
@@ -4135,8 +3975,7 @@ module.exports = exports = [
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 15,
                     "boostable": false
@@ -4154,8 +3993,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "attack",
                     "amount": 2500
                 },
@@ -4189,8 +4027,7 @@ module.exports = exports = [
             "quests": [
                 "Client of Kourend"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "strength",
                     "level": 16,
                     "boostable": false
@@ -4219,8 +4056,7 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "quest",
                     "level": 43,
                     "boostable": false
@@ -4243,12 +4079,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "crafting",
-                    "amount": 1000
-                }
-            ],
+            "exp": [{
+                "skill": "crafting",
+                "amount": 1000
+            }],
             "questPoints": 1
         },
         "series": null
@@ -4264,8 +4098,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "thieving",
                     "level": 42,
                     "boostable": true
@@ -4278,8 +4111,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "fletching",
                     "amount": 8000
                 },
@@ -4305,17 +4137,14 @@ module.exports = exports = [
             "quests": [
                 "Client of Kourend"
             ],
-            "skills": [
-                {
-                    "skill": "hunter",
-                    "level": 12,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "hunter",
+                "level": 12,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "hunter",
                     "amount": 1500
                 },
@@ -4360,21 +4189,17 @@ module.exports = exports = [
             "quests": [
                 "Client of Kourend"
             ],
-            "skills": [
-                {
-                    "skill": "agility",
-                    "level": 18,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "agility",
+                "level": 18,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "agility",
-                    "amount": 1500
-                }
-            ],
+            "exp": [{
+                "skill": "agility",
+                "amount": 1500
+            }],
             "questPoints": 1
         },
         "series": "Great Kourend"
@@ -4390,8 +4215,7 @@ module.exports = exports = [
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 10,
                     "boostable": false
@@ -4409,8 +4233,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "herblore",
                     "amount": 2000
                 },
@@ -4434,8 +4257,7 @@ module.exports = exports = [
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "construction",
                     "level": 5,
                     "boostable": false
@@ -4448,8 +4270,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "construction",
                     "amount": 250
                 },
@@ -4481,21 +4302,17 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "thieving",
-                    "level": 30,
-                    "boostable": true
-                }
-            ]
+            "skills": [{
+                "skill": "thieving",
+                "level": 30,
+                "boostable": true
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "thieving",
-                    "amount": 15000
-                }
-            ],
+            "exp": [{
+                "skill": "thieving",
+                "amount": 15000
+            }],
             "questPoints": 1
         },
         "series": "Desert"
@@ -4514,8 +4331,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "mining",
                     "amount": 500
                 },
@@ -4544,8 +4360,7 @@ module.exports = exports = [
                 "Mountain Daughter",
                 "Heroes' Quest"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 65,
                     "boostable": false
@@ -4573,8 +4388,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 15000
                 },
@@ -4602,8 +4416,7 @@ module.exports = exports = [
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "construction",
                     "level": 20,
                     "boostable": false
@@ -4616,8 +4429,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "construction",
                     "amount": 5000
                 },
@@ -4648,8 +4460,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 2812
                 },
@@ -4705,8 +4516,7 @@ module.exports = exports = [
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 12,
                     "boostable": false
@@ -4739,8 +4549,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 2500
                 },
@@ -4780,8 +4589,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -4794,8 +4602,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 1000
                 },
@@ -4819,17 +4626,14 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "agility",
-                    "level": 25,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "agility",
+                "level": 25,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 7900
                 },
@@ -4861,8 +4665,7 @@ module.exports = exports = [
                 "Cabin Fever",
                 "Pirate Pete subquest of Recipe for Disaster"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 16,
                     "boostable": false
@@ -4880,8 +4683,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "construction",
                     "amount": 2000
                 },
@@ -4912,8 +4714,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 9000
                 },
@@ -4937,21 +4738,17 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "mining",
-                    "level": 10,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "mining",
+                "level": 10,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "smithing",
-                    "amount": 12725
-                }
-            ],
+            "exp": [{
+                "skill": "smithing",
+                "amount": 12725
+            }],
             "questPoints": 1
         },
         "series": null
@@ -4967,8 +4764,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "agility",
                     "level": 13,
                     "boostable": false
@@ -4986,12 +4782,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "mining",
-                    "amount": 3000
-                }
-            ],
+            "exp": [{
+                "skill": "mining",
+                "amount": 3000
+            }],
             "questPoints": 1
         },
         "series": "Dorgeshuun"
@@ -5009,21 +4803,17 @@ module.exports = exports = [
             "quests": [
                 "Client of Kourend"
             ],
-            "skills": [
-                {
-                    "skill": "thieving",
-                    "level": 20,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "thieving",
+                "level": 20,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "thieving",
-                    "amount": 2000
-                }
-            ],
+            "exp": [{
+                "skill": "thieving",
+                "amount": 2000
+            }],
             "questPoints": 1
         },
         "series": "Great Kourend"
@@ -5042,12 +4832,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "prayer",
-                    "amount": 1125
-                }
-            ],
+            "exp": [{
+                "skill": "prayer",
+                "amount": 1125
+            }],
             "questPoints": 1
         },
         "series": null
@@ -5073,8 +4861,7 @@ module.exports = exports = [
                 "Priest in Peril",
                 "The Restless Ghost"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "woodcutting",
                     "level": 62,
                     "boostable": false
@@ -5137,8 +4924,7 @@ module.exports = exports = [
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "crafting",
                     "level": 30,
                     "boostable": false
@@ -5161,8 +4947,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "crafting",
                     "amount": 3500
                 },
@@ -5190,8 +4975,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "fletching",
                     "level": 10,
                     "boostable": false
@@ -5220,8 +5004,7 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "woodcutting",
                     "level": 45,
                     "boostable": false
@@ -5260,17 +5043,14 @@ module.exports = exports = [
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "construction",
-                    "level": 10,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "construction",
+                "level": 10,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "construction",
                     "amount": 1000
                 },
@@ -5301,12 +5081,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "attack",
-                    "amount": 11450
-                }
-            ],
+            "exp": [{
+                "skill": "attack",
+                "amount": 11450
+            }],
             "questPoints": 2
         },
         "series": "Gnome"
@@ -5322,21 +5100,17 @@ module.exports = exports = [
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "thieving",
-                    "level": 21,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "thieving",
+                "level": 21,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "thieving",
-                    "amount": 1775
-                }
-            ],
+            "exp": [{
+                "skill": "thieving",
+                "amount": 1775
+            }],
             "questPoints": 1
         },
         "series": null
@@ -5357,8 +5131,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 8000
                 },
@@ -5382,13 +5155,11 @@ module.exports = exports = [
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
-                    "skill": "agility",
-                    "level": 15,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "agility",
+                "level": 15,
+                "boostable": false
+            }]
         },
         "rewards": {
             "exp": [],
@@ -5409,17 +5180,14 @@ module.exports = exports = [
             "quests": [
                 "Biohazard"
             ],
-            "skills": [
-                {
-                    "skill": "ranged",
-                    "level": 25,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "ranged",
+                "level": 25,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "agility",
                     "amount": 3000
                 },
@@ -5446,12 +5214,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "attack",
-                    "amount": 4825
-                }
-            ],
+            "exp": [{
+                "skill": "attack",
+                "amount": 4825
+            }],
             "questPoints": 3
         },
         "series": null
@@ -5472,21 +5238,17 @@ module.exports = exports = [
                 "The Lost Tribe",
                 "Priest in Peril"
             ],
-            "skills": [
-                {
-                    "skill": "quest",
-                    "level": 32,
-                    "boostable": false
-                }
-            ]
+            "skills": [{
+                "skill": "quest",
+                "level": 32,
+                "boostable": false
+            }]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "slayer",
-                    "amount": 5000
-                }
-            ],
+            "exp": [{
+                "skill": "slayer",
+                "amount": 5000
+            }],
             "questPoints": 1
         },
         "series": "Temple Knight"
@@ -5502,8 +5264,7 @@ module.exports = exports = [
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "magic",
                     "level": 15,
                     "boostable": false
@@ -5531,12 +5292,10 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "magic",
-                    "amount": 15250
-                }
-            ],
+            "exp": [{
+                "skill": "magic",
+                "amount": 15250
+            }],
             "questPoints": 4
         },
         "series": "Ogre"
@@ -5555,8 +5314,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "attack",
                     "amount": 13750
                 },
@@ -5583,8 +5341,7 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "defence",
                     "amount": 2000
                 },
@@ -5611,12 +5368,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "hitpoints",
-                    "amount": 6325
-                }
-            ],
+            "exp": [{
+                "skill": "hitpoints",
+                "amount": 6325
+            }],
             "questPoints": 4
         },
         "series": null
@@ -5635,12 +5390,10 @@ module.exports = exports = [
             "skills": []
         },
         "rewards": {
-            "exp": [
-                {
-                    "skill": "magic",
-                    "amount": 325
-                }
-            ],
+            "exp": [{
+                "skill": "magic",
+                "amount": 325
+            }],
             "questPoints": 1
         },
         "series": null
@@ -5683,8 +5436,7 @@ module.exports = exports = [
                 "Big Chompy Bird Hunting",
                 "Jungle Potion"
             ],
-            "skills": [
-                {
+            "skills": [{
                     "skill": "smithing",
                     "level": 4,
                     "boostable": false
@@ -5717,8 +5469,7 @@ module.exports = exports = [
             ]
         },
         "rewards": {
-            "exp": [
-                {
+            "exp": [{
                     "skill": "fletching",
                     "amount": 2000
                 },

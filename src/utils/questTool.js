@@ -8,7 +8,7 @@
 const questData = require('../data/questData.js')
 const questDataArray = require('../data/questDataArray.js')
 const subQuestArray = require('../data/subQuestArray.js')
-const OsrsAccount = require('./osrsAcc.js')
+const OsrsAccount = require('./OsrsAccount.js')
 
 
 class QuestTool {

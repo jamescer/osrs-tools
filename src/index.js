@@ -1,6 +1,6 @@
 // import { QuestTool } from './questTool.js';
-const { QuestTool } = require('./utils/questTool.js')
-const { OsrsAccount } = require('./utils/osrsAcc.js')
+const { QuestTool } = require('./utils/QuestTool.js')
+const { OsrsAccount } = require('./utils/OsrsAccount.js')
 
 function highestBoost(skillName) {
     /**

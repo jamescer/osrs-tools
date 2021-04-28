@@ -8,8 +8,8 @@
 const questData = require('../data/questData.js')
 const questDataArray = require('../data/questDataArray.js')
 const subQuestArray = require('../data/subQuestArray.js')
-const OsrsAccount = require('./OsrsAccount.js')
-
+const { OsrsAccount } = require('./OsrsAccount.js')
+const { Quest } = require('./Quest.js')
 
 class QuestTool {
 
@@ -36,12 +36,30 @@ class QuestTool {
     getQuest(questName) {
         if (questName && questName != null && questName != undefined && typeof questName === 'string') {
             if (this.questObject[questName]) {
-                return this.questObject[questName];
+                return new Quest(this.questObject[questName]);
             } else {
                 /**
                  * @todo Implement AI to predict mispelling of quests
                  */
-                return this.questObject[questName];
+                return new Quest(this.questObject[questName]);
+            }
+        }
+    }
+
+    /**
+     * Get the data for a quest 
+     * @param  {String} questName The name of the quest
+     * @return {Object} The data for the input quest in a JSON object.
+     * */
+    getQuestByName(questName) {
+        if (questName && questName != null && questName != undefined && typeof questName === 'string') {
+            if (this.questObject[questName]) {
+                return new Quest(this.questObject[questName]);
+            } else {
+                /**
+                 * @todo Implement AI to predict mispelling of quests
+                 */
+                return new Quest(this.questObject[questName]);
             }
         }
     }

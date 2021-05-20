@@ -100,6 +100,7 @@ def get_quest_url(x):
 def parse_req_str(requirementString):
 
     requirementObject = {}
+
     quests = []
     x_arr = requirementString.split(' ')
     # TODO
@@ -107,33 +108,31 @@ def parse_req_str(requirementString):
     if '(boostable)' in x_arr:
         # if its boostable its definitely a skill
         if type(int(x_arr[1])) == int and len(x_arr) >= 3:
-            requirementObject = {'type': 'skill', 'level': int(x_arr[1]),
+            requirementObject = {'type': 'skill', 'level': int(
+                x_arr[1]), 'skill': x_arr[2].lower(), 'boostable': 'boost' in x_arr[3]}
+        if 'quest points' in requirementString or 'Quest points' in requirementString:
+            # if its boostable its definitely a skill
+            if type(int(x_arr[1])) == int and len(x_arr) >= 3:
+                requirementObject = {'type': 'skill', 'level': int(x_arr[1]),
+                                     'skill': x_arr[2].lower(
+                ), 'boostable': 'boost' in x_arr[3]}
+        if 'Completion of the following quests:' in requirementString:
+            print('x', requirementString)
+            questSplit = requirementString.split('\n')
+            requirementObject = {'type': 'quest', 'level': int(x_arr[1]),
                                  'skill': x_arr[2].lower(
             ), 'boostable': 'boost' in x_arr[3]}
-    if 'quest points' in requirementString  \
-            or 'Quest points' in requirementString:
-        # if its boostable its definitely a skill
-        if type(int(x_arr[1])) == int and len(x_arr) >= 3:
-            requirementObject = {'type': 'skill', 'level': int(x_arr[1]),
-                                 'skill': x_arr[2].lower(
-            ), 'boostable': 'boost' in x_arr[3]}
-    if 'Completion of the following quests:' in requirementString:
-        print('x', requirementString)
-        questSplit = requirementString.split('\n')
-        requirementObject = {'type': 'quest', 'level': int(x_arr[1]),
-                             'skill': x_arr[2].lower(
-        ), 'boostable': 'boost' in x_arr[3]}
-        print('questSplit', questSplit)
-        for i in questSplit:
-            quests.append(i)
-        print(quests)
+            print('questSplit', questSplit)
+            for i in questSplit:
+                quests.append(i)
+            print(quests)
 
-    try:
-        pass
-    except ValueError:
-        print('error on', x)
-    # print([skill, x])
-    return requirementObject
+        try:
+            pass
+        except ValueError:
+            print('error on', x)
+        # print([skill, x])
+        return requirementObject
 
 
 quest_detail_array = []

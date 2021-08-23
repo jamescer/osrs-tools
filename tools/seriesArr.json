@@ -1,0 +1,196 @@
+{
+    "Object Array": [
+        {
+            "QuestName": "A Soul's Bane",
+            "series": ""
+        },
+        {
+            "QuestName": "A Tail of Two Cats",
+            "series": "Dragonkin"
+        },
+        {
+            "QuestName": "A Taste of Hope",
+            "series": "Myreque"
+        },
+        {
+            "QuestName": "Another Slice of H.A.M.",
+            "series": "Dorgeshuun (#4)"
+        },
+        {
+            "QuestName": "Between a Rock...",
+            "series": "Rise of the Red Axe"
+        },
+        {
+            "QuestName": "Big Chompy Bird Hunting",
+            "series": "Ogre"
+        },
+        {
+            "QuestName": "Biohazard",
+            "series": "Elf"
+        },
+        {
+            "QuestName": "Cabin Fever",
+            "series": "Pirate"
+        },
+        {
+            "QuestName": "Client of Kourend",
+            "series": "Great Kourend"
+        },
+        {
+            "QuestName": "Cold War",
+            "series": "Penguin"
+        },
+        {
+            "QuestName": "Contact!",
+            "series": "Desert"
+        },
+        {
+            "QuestName": "Death Plateau",
+            "series": "Troll"
+        },
+        {
+            "QuestName": "Death to the Dorgeshuun",
+            "series": "Dorgeshuun"
+        },
+        {
+            "QuestName": "Desert Treasure",
+            "series": "The Return of Zaros and Mahjarrat"
+        },
+        {
+            "QuestName": "Devious Minds",
+            "series": "The Return of Zaros"
+        },
+        {
+            "QuestName": "Dragon Slayer",
+            "series": "Guild"
+        },
+        {
+            "QuestName": "Dream Mentor",
+            "series": "Fremennik"
+        },
+        {
+            "QuestName": "Elemental Workshop I",
+            "series": "Elemental Workshop"
+        },
+        {
+            "QuestName": "Elemental Workshop II",
+            "series": "Elemental Workshop (#2)"
+        },
+        {
+            "QuestName": "Enakhra's Lament",
+            "series": "Mahjarrat"
+        },
+        {
+            "QuestName": "Fairytale I - Growing Pains",
+            "series": "Fairy Tale (#2)"
+        },
+        {
+            "QuestName": "Fishing Contest",
+            "series": "Dwarf"
+        },
+        {
+            "QuestName": "Getting Ahead",
+            "series": "Twisted Tales"
+        },
+        {
+            "QuestName": "Holy Grail",
+            "series": "Camelot (#2)"
+        },
+        {
+            "QuestName": "Jungle Potion",
+            "series": "Karamja"
+        },
+        {
+            "QuestName": "King's Ransom",
+            "series": "Camelot (#3)"
+        },
+        {
+            "QuestName": "Legends' Quest",
+            "series": "Karamja, Guild"
+        },
+        {
+            "QuestName": "Lost City",
+            "series": "Fairy Tale"
+        },
+        {
+            "QuestName": "Making History",
+            "series": "Enchanted Key"
+        },
+        {
+            "QuestName": "Merlin's Crystal",
+            "series": "Camelot"
+        },
+        {
+            "QuestName": "Monkey Madness I",
+            "series": "Gnome, Monkey"
+        },
+        {
+            "QuestName": "Recruitment Drive",
+            "series": "Temple Knight"
+        },
+        {
+            "QuestName": "Roving Elves",
+            "series": "Elf, Gnome"
+        },
+        {
+            "QuestName": "Sea Slug",
+            "series": "Sea Slug"
+        },
+        {
+            "QuestName": "Shades of Mort'ton",
+            "series": "Mort'ton"
+        },
+        {
+            "QuestName": "Sheep Herder",
+            "series": "Plague/Elf"
+        },
+        {
+            "QuestName": "Swan Song",
+            "series": "Wise Old Man"
+        },
+        {
+            "QuestName": "The Eyes of Glouphrie",
+            "series": "Gnome"
+        }
+    ],
+    "seriesarr": [
+        "",
+        "Dragonkin",
+        "Myreque",
+        "Dorgeshuun (#4)",
+        "Rise of the Red Axe",
+        "Ogre",
+        "Elf",
+        "Pirate",
+        "Great Kourend",
+        "Penguin",
+        "Desert",
+        "Troll",
+        "Dorgeshuun",
+        "The Return of Zaros and Mahjarrat",
+        "The Return of Zaros",
+        "Guild",
+        "Fremennik",
+        "Elemental Workshop",
+        "Elemental Workshop (#2)",
+        "Mahjarrat",
+        "Fairy Tale (#2)",
+        "Dwarf",
+        "Twisted Tales",
+        "Camelot (#2)",
+        "Karamja",
+        "Camelot (#3)",
+        "Karamja, Guild",
+        "Fairy Tale",
+        "Enchanted Key",
+        "Camelot",
+        "Gnome, Monkey",
+        "Temple Knight",
+        "Elf, Gnome",
+        "Sea Slug",
+        "Mort'ton",
+        "Plague/Elf",
+        "Wise Old Man",
+        "Gnome"
+    ]
+}

@@ -110,7 +110,8 @@ def parse_req_str(requirementString):
         if type(int(x_arr[1])) == int and len(x_arr) >= 3:
             requirementObject = {'type': 'skill', 'level': int(
                 x_arr[1]), 'skill': x_arr[2].lower(), 'boostable': 'boost' in x_arr[3]}
-        if 'quest points' in requirementString or 'Quest points' in requirementString:
+        if 'quest points' in requirementString or 'Quest points' \
+                in requirementString:
             # if its boostable its definitely a skill
             if type(int(x_arr[1])) == int and len(x_arr) >= 3:
                 requirementObject = {'type': 'skill', 'level': int(x_arr[1]),
@@ -174,7 +175,8 @@ for i in all_quests:
 
                 # Start point
                 if section == 'start point' or section == 'startpoint' \
-                        or section == 'start_point' or section in 'start point':
+                        or section == 'start_point' or \
+                section in 'start point':
 
                     start_area_text = ''
                     for tag in detail_row:
@@ -183,7 +185,9 @@ for i in all_quests:
                     quest_to_add['startArea'] = start_area_text
 
                 # Official difficulty
-                if section == 'official difficulty' or section == 'officialdifficulty' or section == 'difficulty' \
+                if section == 'official difficulty' or \
+                    section == 'officialdifficulty'\
+                        or section == 'difficulty' \
                         or section == 'official_difficulty' \
                         or section in 'official difficulty':
 

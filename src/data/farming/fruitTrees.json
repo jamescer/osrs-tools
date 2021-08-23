@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Apple",
+        "level": 27,
+        "protection": {
+            "item": "Sweetcorn",
+            "amount": 9
+        },
+        "exp": {
+            "plant": 22,
+            "checkhealth": 1199.5,
+            "harvest": 8.5,
+            "total": 1272.5
+        },
+        "xp": 1272.5,
+        "time": "6×160 mins (16 Hours)",
+        "uses": [
+            "Cooking ingredient",
+            "Payment to protect strawberry plants, willow trees, and banana trees"
+        ]
+    },
+    {
+        "name": "Banana",
+        "level": 33,
+        "protection": {
+            "item": "Apples(5)",
+            "amount": 4
+        },
+        "exp": {
+            "plant": 28,
+            "checkhealth": 1750.5,
+            "harvest": 10.5,
+            "total": 1841.5
+        },
+        "xp": 1841.5,
+        "time": "6×160 mins (16 Hours)",
+        "uses": [
+            "Cooking ingredient",
+            "Ape Atoll Teleport",
+            "Payment to protect curry trees"
+        ]
+    },
+    {
+        "name": "Orange",
+        "level": 39,
+        "protection": {
+            "item": "Strawberries(5)",
+            "amount": 3
+        },
+        "exp": {
+            "plant": 35.5,
+            "checkhealth": 2470.2,
+            "harvest": 13.5,
+            "total": 2586.7
+        },
+        "xp": 2586.7,
+        "time": "6×160 mins (16 Hours)",
+        "uses": [
+            "Cooking ingredient",
+            "Payment to protect maple trees"
+        ]
+    },
+    {
+        "name": "Curry",
+        "level": 42,
+        "protection": {
+            "item": "Bananas(5)",
+            "amount": 5
+        },
+        "exp": {
+            "plant": 40,
+            "checkhealth": 2906.9,
+            "harvest": 15,
+            "total": 3036.9
+        },
+        "xp": 3036.9,
+        "time": "6×160 mins (16 Hours)",
+        "uses": [
+            "Curry ingredient",
+            "Payment to protect watermelons"
+        ]
+    },
+    {
+        "name": "Pineapple",
+        "level": 51,
+        "protection": {
+            "item": "Watermelon",
+            "amount": 10
+        },
+        "exp": {
+            "plant": 57,
+            "checkhealth": 4605.7,
+            "harvest": 21.5,
+            "total": 4791.7
+        },
+        "xp": 4791.7,
+        "time": "6×160 mins (16 Hours)",
+        "uses": [
+            "Cooking ingredient",
+            "Payment to protect papaya trees",
+            "Supercompost for Ironmen"
+        ]
+    },
+    {
+        "name": "Papaya",
+        "level": 57,
+        "protection": {
+            "item": "Pineapple",
+            "amount": 10
+        },
+        "exp": {
+            "plant": 72,
+            "checkhealth": 6146.4,
+            "harvest": 27,
+            "total": 6380.4
+        },
+        "xp": 6380.4,
+        "time": "6×160 mins (16 Hours)",
+        "uses": [
+            "Payment Method for Palm Tree",
+            "Restores Run Energy"
+        ]
+    },
+    {
+        "name": "Palm tree",
+        "level": 68,
+        "protection": {
+            "item": "Papaya fruit",
+            "amount": 15
+        },
+        "exp": {
+            "plant": 110.5,
+            "checkhealth": 10150.1,
+            "harvest": 41.5,
+            "total": 10509.6
+        },
+        "xp": 10509.6,
+        "time": "6×160 mins (16 Hours)",
+        "uses": [
+            "Used for making Coconut milk and Coconut shell",
+            "Payment to protect dragonfruit and magic trees"
+        ]
+    },
+    {
+        "name": "Dragonfruit tree",
+        "level": 81,
+        "protection": {
+            "item": "Coconut",
+            "amount": 15
+        },
+        "exp": {
+            "plant": 140,
+            "checkhealth": 17335,
+            "harvest": 70,
+            "total": 17895
+        },
+        "xp": 17895,
+        "time": "6×160 mins (16 Hours)",
+        "uses": [
+            "They are an ingredient in dragonfruit pie",
+            "Used to create bottled dragonbreath",
+            "Redwood tree protection"
+        ]
+    }
+]

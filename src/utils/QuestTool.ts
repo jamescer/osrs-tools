@@ -1,0 +1,437 @@
+// import * as questData from './data/questData.js';
+// import * as questDataArray from './data/questDataArray.js';
+// import * as subQuestArray from './data/subQuestArray.js';
+// import { OsrsAccount } from './osrsAcc.js';
+
+import { Quest, QuestObject, SubQuest } from './Quest';
+
+// import * as subQuestArray from 'osrs-quest-tool/src/data/subQuestArray';
+import { QuestData } from '../data/quest/questData';
+import { QuestArray } from '../data/quest/questDataArray';
+import { SubQuestArray } from '../data/quest/subQuestArray';
+import { OsrsAccount, OsrsAccountObject } from './OsrsAccount';
+
+export class QuestTool {
+  osrsAccount: OsrsAccount;
+  constructor() {
+    this.osrsAccount = null;
+  }
+
+  /**
+   * to string func
+   * @todo
+   * */
+  toString() {
+    return 'QuestTool :) WIP';
+  }
+
+  /**
+   * Get the data for a quest
+   * @param  {String} questName The name of the quest
+   * @return {object} The data for the input quest in a JSON object.
+   * */
+  getQuestByName(questName: string): Quest {
+    if (questName == '' || questName == null || questName == undefined) {
+      throw new Error('No Quest found');
+    }
+
+    if (questName) {
+      if (QuestData[questName]) {
+        return new Quest(QuestData[questName]);
+      } else {
+        /**
+         * @TODO Implement AI to predict mispelling of quests
+         */
+        return new Quest(QuestData[questName]);
+      }
+    }
+  }
+
+  /**
+   * Get the data for a quest
+   * @param  {String} questName The name of the quest
+   * @return {Quest} The data for the input quest in a JSON object.
+   * */
+  getSubQuestByName(subQuestName): Quest {
+    if (
+      subQuestName &&
+      subQuestName != null &&
+      subQuestName != undefined &&
+      typeof subQuestName === 'string'
+    ) {
+      var q = new Quest(SubQuestArray.filter((x) => x.name == subQuestName)[0]);
+      if (q) {
+        return q;
+      } else {
+        /**
+         * @todo Implement AI to predict mispelling of quests
+         */
+        return null;
+      }
+    }
+  }
+
+  /**
+   * List of highest boostable levels with skills including spicy stew etc
+   * @param  {String} skillName The first number
+   * @return {Number} The highest boost possible for that skill.
+   * */
+  highestBoost(skillName: string): number {
+    switch (skillName) {
+      case 'construction':
+        // spicy stew + crystal saw
+        return 8;
+      case 'strength':
+        //spicy stew 5
+        // Drunk dragon 1-7
+        // Premade dr'dragon	1-7
+        return 7;
+      case 'thieving':
+      case 'woodcutting':
+      case 'hunter': // spicy stew
+      case 'magic': // 	Imbued heart 10
+      //spicy stew 5
+      case 'hitpoints':
+      //	Guthix rest	5
+      // Anglerfish
+      //Abidor Crank	15
+      // Amulet of the damned	10
+      case 'mining': // spicy stew
+      case 'prayer': // spicy stew
+      case 'ranged': // spicy stew
+      case 'runecraft': //spicy stew 5
+      case 'slayer': //spicy stew 5
+      case 'smithing': //spicy stew 5
+      case 'cooking': // spicy stew
+      case 'crafting': // spicy stew
+      case 'defence': //spicy stew 5
+      case 'farming': // spicy stew
+      case 'firemaking': // spicy stew
+      case 'fishing': // spicy stew
+      case 'fletching': // spicy stew
+      case 'herblore': // spicy stew
+      case 'agility':
+      // spicy stew
+      case 'attack':
+        //spicy stew
+        return 5;
+      default:
+        break;
+    }
+  }
+
+  /**
+   * Add two numbers together
+   * @todo Need to implement Recipe for disaster functionality
+   * @param  {Quest} quest The either string or quest object of the quest to be determined completeable or not.
+   * @return {Boolean}  If the account currently tied to the tool can complete the quest.
+   * */
+  canCompleteQuest(quest: Quest) {
+    if (quest == undefined || quest == null) {
+      throw new Error(
+        'Cannot pass undefined or null value into canCOmpleteQuest method.'
+      );
+      return true;
+    }
+
+    if (quest.name === 'Recipe for Disaster') {
+      // @todo
+      // Pirate Pete Subquest of Recipe for Disaster
+      return true;
+    } else if (quest.name === 'Pirate Pete subquest of Recipe for Disaster') {
+      /**
+       * @Todo Implement RFD recursion
+       * */
+      // Pirate Pete Subquest of Recipe for Disaster
+      return true;
+    }
+    //check to see if the account can fulfill all skill requirements
+    if (quest.requirements.levels) {
+      for (var x in quest.requirements.levels) {
+        var cur = quest.requirements.levels[x];
+        /**
+         *  cur.level
+         *  cur.skill
+         *  cur.boostable
+         *  cur.ironman
+         *  types: "quest", "combat", "agility"...
+         **/
+
+        //  If the requirement is mandatory for ironmen
+        if (cur.ironman && cur.ironman == true) {
+          if (cur.boostable) {
+            // Can boost with highest boost
+            if (
+              this.osrsAccount.main.skills[cur.skill] +
+                this.highestBoost(cur.skill) <
+              cur.level
+            ) {
+              return false;
+            }
+          } else {
+            if (this.osrsAccount.main.skills[cur.skill] < cur.level) {
+              return false;
+            }
+          }
+        }
+        // If the requirement is quest points, check to see if the account has the quest points to complete it
+        if (cur.skill === 'quest') {
+          if (this.osrsAccount.main.questPoints < cur.level) {
+            return false;
+          }
+
+          // if the requirement is combat level to start the quest, check to see if the account's combat level is higher than or equal to the requirement
+        } else if (cur.skill === 'combat') {
+          if (this.osrsAccount.main.combatLevel < cur.level) {
+            return false;
+          }
+
+          // If this is ANY skill agility, runecraft, woodcutting, slayer, attack, defence, hitpoints, mining smithing, herblore, fletching, ranged, magic
+        } else {
+          // if the requirement is boostable
+          if (cur.boostable) {
+            // check if max stew can reach
+            if (
+              this.osrsAccount.main.skills[cur.skill] +
+                this.highestBoost(cur.skill) <
+              cur.level
+            ) {
+              return false;
+            }
+
+            // if not boostable, check to see if the skill is higher than or equal to
+          } else {
+            if (this.osrsAccount.main.skills[cur.skill] < cur.level) {
+              return false;
+            }
+          }
+        }
+      }
+    }
+
+    // Check for all quest requirements
+    // recursive method called
+    if (quest.requirements.quests && quest.requirements.quests >= 1) {
+      for (var y in quest.requirements.quests) {
+        // If any of the quests required are not completeable: return false
+        if (
+          this.canCompleteQuest(QuestData[quest.requirements.quests[y]]) != true
+        ) {
+          return false;
+        }
+      }
+    }
+
+    //iterate through any subquests and see if we can complete
+    //this is for future work with Recipe for Disaster
+    if (quest.subquests && quest.subquests.length >= 1) {
+      for (var y in quest.subquests) {
+        // If any of the quests required are not completeable: return false
+        if (
+          this.canCompleteQuest(QuestData[quest.requirements.subquests[y]]) !=
+          true
+        ) {
+          return false;
+        }
+      }
+    }
+
+    // If the account can complete all quests and skills are higher than or boostable
+    return true;
+  }
+  /**
+   * Add two numbers together
+   * @todo Need to implement Recipe for disaster functionality
+   * @param  {Quest} quest The either string or quest object of the quest to be determined completeable or not.
+   * @return {Boolean}  If the account currently tied to the tool can complete the quest.
+   * */
+  canCompleteQuestWithMap(quest: Quest, callBackMap: Map<String, Boolean>) {
+    if (quest == undefined || quest == null) {
+      throw new Error(
+        'Cannot pass undefined or null value into canCOmpleteQuest method.'
+      );
+      return true;
+    }
+
+    if (quest.name === 'Recipe for Disaster') {
+      // @todo
+      // Pirate Pete Subquest of Recipe for Disaster
+      return true;
+    } else if (quest.name === 'Pirate Pete subquest of Recipe for Disaster') {
+      /**
+       * @Todo Implement RFD recursion
+       * */
+      // Pirate Pete Subquest of Recipe for Disaster
+      return true;
+    }
+    //check to see if the account can fulfill all skill requirements
+    if (quest.requirements.levels) {
+      for (var x in quest.requirements.levels) {
+        var cur = quest.requirements.levels[x];
+        /**
+         *  cur.level
+         *  cur.skill
+         *  cur.boostable
+         *  cur.ironman
+         *  types: "quest", "combat", "agility"...
+         **/
+        //  If the requirement is mandatory for ironmen
+        if (cur.ironman && cur.ironman == true) {
+          if (cur.boostable) {
+            // Can boost with highest boost
+            if (
+              this.osrsAccount.main.skills[cur.skill] +
+                this.highestBoost(cur.skill) <
+              cur.level
+            ) {
+              return false;
+            }
+          } else {
+            if (this.osrsAccount.main.skills[cur.skill] < cur.level) {
+              return false;
+            }
+          }
+        }
+        // If the requirement is quest points, check to see if the account has the quest points to complete it
+        if (cur.skill === 'quest') {
+          if (this.osrsAccount.main.questPoints < cur.level) {
+            return false;
+          }
+
+          // if the requirement is combat level to start the quest, check to see if the account's combat level is higher than or equal to the requirement
+        } else if (cur.skill === 'combat') {
+          if (this.osrsAccount.main.combatLevel < cur.level) {
+            return false;
+          }
+
+          // If this is ANY skill agility, runecraft, woodcutting, slayer, attack, defence, hitpoints, mining smithing, herblore, fletching, ranged, magic
+        } else {
+          // if the requirement is boostable
+          if (cur.boostable) {
+            // check if max stew can reach
+            if (
+              this.osrsAccount.main.skills[cur.skill] +
+                this.highestBoost(cur.skill) <
+              cur.level
+            ) {
+              return false;
+            }
+
+            // if not boostable, check to see if the skill is higher than or equal to
+          } else {
+            if (this.osrsAccount.main.skills[cur.skill] < cur.level) {
+              return false;
+            }
+          }
+        }
+      }
+    }
+
+    // Check for all quest requirements
+    // recursive method called
+    if (quest.requirements.quests && quest.requirements.quests >= 1) {
+      for (var y in quest.requirements.quests) {
+        var curQuestReq = quest.requirements.quests[y];
+        // If any of the quests required are not completeable: return false
+        if (
+          this.canCompleteQuestWithMap(QuestData[curQuestReq], callBackMap) !=
+          true
+        ) {
+          return false;
+        } else {
+          callBackMap.set(quest.name, true);
+        }
+      }
+    }
+
+    //iterate through any subquests and see if we can complete
+    //this is for future work with Recipe for Disaster
+    if (quest.subquests && quest.subquests.length >= 1) {
+      for (var y in quest.subquests) {
+        // If any of the quests required are not completeable: return false
+        if (
+          this.canCompleteQuest(QuestData[quest.requirements.subquests[y]]) !=
+          true
+        ) {
+          return false;
+        }
+      }
+    }
+
+    // If the account can complete all quests and skills are higher than or boostable
+    return true;
+  }
+  /**
+   * Return an array of quests that can be completed with the associated account
+   * This needs to be recursive or call a recursive function to check for all quests
+   * @return {Array}<Quest>      The total of the two numbers
+   */
+  getAllCompletableQuests(): Array<any> {
+    var completed = [];
+    let checked = new Map();
+    for (var index = 0; index < QuestArray.length; index++) {
+      var currentQuest = QuestArray[index];
+      this.getQuestCompletionRecursion(currentQuest, checked);
+      if (checked.get(currentQuest.name) == true) {
+        completed.push(QuestArray[index].name);
+      }
+    }
+
+    return completed;
+  }
+
+  getQuestCompletionRecursion(
+    checkThisQuest: Quest,
+    mapOfChecked: Map<string, boolean>
+  ) {
+    checkThisQuest;
+    throw new Error('Method not implemented.');
+  }
+
+  /**
+   * Set the account to be used in this quest tool
+   * @param {OsrsAccountObject} osrsAccountObject object returned from  The osrs Account to be associated with this class object.
+   * */
+  setOsrsAccount(acc1: OsrsAccountObject) {
+    this.osrsAccount = new OsrsAccount(acc1);
+    return this.osrsAccount;
+  }
+
+  /**
+   * Set the account to be used in this quest tool
+   * @param  {OsrsAccountObject} Object osrs Account to be associated with this class object.
+   * */
+  setAccount(acc1: OsrsAccountObject) {
+    this.osrsAccount = new OsrsAccount(acc1);
+    return this.osrsAccount;
+  }
+
+  /**
+   * Add two numbers together
+   * @param  {Number} num1 The first number
+   * @param  {Number} num2 The second number
+   * @return {Number}      The total of the two numbers
+   */
+  getOsrsAccount() {
+    return this.osrsAccount;
+  }
+
+  getQuestObject() {
+    return QuestData;
+  }
+  /**
+   * Get the sub quest array
+   * @return {Array<Quest>} The data for the input quest in a JSON object.
+   * */
+  getSubQuestArray() {
+    return SubQuestArray;
+  }
+
+  /**
+   * Get thequest array
+   * @return {Array} The data for the input quest in a JSON object.
+   * */
+  getQuestArray(): Array<Quest> {
+    return QuestArray;
+  }
+}

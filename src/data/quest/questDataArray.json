@@ -1,19 +1,20 @@
-module.exports = exports = {
-    "A Soul's Bane": {
-        "miniquest": false,
+[
+    {
+        "isMiniquest": false,
         "name": "A Soul's Bane",
         "shortName": "aSoulsBane",
         "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
-        "members": true,
-        "subquests": [],
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "defence",
                     "amount": 500
                 },
@@ -24,15 +25,22 @@ module.exports = exports = {
             ],
             "questPoints": 1
         },
-        "series": null
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "A Tail of Two Cats": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "A Tail of Two Cats",
         "shortName": "aTailOfTwoCats",
         "url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
@@ -45,26 +53,34 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Dragonkin",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "A Porcine of Interest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "A Porcine of Interest",
         "shortName": "aPorcineOfInterest",
         "url": "https://oldschool.runescape.wiki/w/A_Porcine_of_Interest",
-        "members": true,
+        "isMembers": true,
         "description": "Ah, the Falador Farm - filled with cabbages, cows, and even a sleepy sheepdog. A peaceful place, where you can learn to churn butter, give a dog a bone, or purchase various Farming supplies. What was once a place of happiness, joy and wholesome dairy goods has of late become dominated by a vile presence. Each morning Sarah wakes to find her crops destroyed, her cows cowering, and her loyal sheepdog looking... sheepish. She's had enough, but she thinks she's got the culprit on the trot. Can you help her track down... A Porcine of Interest?",
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "slayer",
-                "amount": 1000
-            }],
+            "exp": [
+                {
+                    "skill": "slayer",
+                    "amount": 1000
+                }
+            ],
             "questPoints": 1,
             "other": [
                 "30 Slayer Rewards Points",
@@ -86,22 +102,24 @@ module.exports = exports = {
         "enemiesToDefeat": [
             "Sourhog (level 37)"
         ],
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false
     },
-    "A Taste of Hope": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "A Taste of Hope",
         "shortName": "aTasteOfHope",
         "url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
                 "Darkness of Hallowvale"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 48,
                     "boostable": false
@@ -133,15 +151,21 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Myreque",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Animal Magnetism": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Animal Magnetism",
         "shortName": "animalMagnetism",
         "url": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [
@@ -149,7 +173,8 @@ module.exports = exports = {
                 "Ernest the Chicken",
                 "Priest in Peril"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "slayer",
                     "level": 18,
                     "boostable": false
@@ -177,7 +202,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 1000
                 },
@@ -196,16 +222,22 @@ module.exports = exports = {
             ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Another Slice of H.A.M.": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Another Slice of H.A.M.",
         "shortName": "anotherSliceOfHAM",
         "url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -214,7 +246,8 @@ module.exports = exports = {
                 "The Dig Site",
                 "Druidic Ritual"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "attack",
                     "level": 15,
                     "boostable": false
@@ -227,7 +260,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "mining",
                     "amount": 3000
                 },
@@ -239,14 +273,19 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Dorgeshuun (#4)",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Below Ice Mountain": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Below Ice Mountain",
         "shortName": "belowIceMountain",
         "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
-        "members": true,
+        "isMembers": true,
         "startPoint": "Willow on the path south of Ice Mountain",
         "difficulty": "Novice",
         "description": "Willow, an energetic archaeologist (perhaps suspiciously so) is hunting for her next big discovery. She believes she has found the entrance to ancient underground ruins found to the west of Ice Mountain. There's a catch though - the entrance is sealed tight and she needs to re-unite her old crew to help her break in. Naturally, she has to stay close to the ruins in order to lay claim to the find, so it falls to you to bring her rag-tag group back together for one last caper and a final big pay-off.Burntof is an old dwarf with a penchant for demolition, Checkal is a well-built lifter of heavy things and Marley is a cunning thief with a knack for disarming traps.Together, they have the talents it will take to gain entry to the secret ruins. But persuading them might not be easy. See, the gang aren't all too keen on working with Willow again, and her intentions might not be as honourable as she claims...",
@@ -263,7 +302,8 @@ module.exports = exports = {
             "Cooked meat (can be obtained during quest)",
             "Bread",
             "Knife",
-            "3 coins or a beer (can be obtained during quest), alternatives include: Asgarnian ale, a dwarven stout, or a wizard's mind bomb (however the following will not work: asgoldian ale, bandit's brew, chef's delight, cider, gnome cocktails)", "A pickaxe and Mining 10 Mining (if you're a skiller)"
+            "3 coins or a beer (can be obtained during quest), alternatives include: Asgarnian ale, a dwarven stout, or a wizard's mind bomb (however the following will not work: asgoldian ale, bandit's brew, chef's delight, cider, gnome cocktails)",
+            "A pickaxe and Mining 10 Mining (if you're a skiller)"
         ],
         "requirements": {
             "quests": [
@@ -272,40 +312,43 @@ module.exports = exports = {
                 "The Dig Site",
                 "Druidic Ritual"
             ],
-            "skills": [{
-                "skill": "quest",
-                "level": 16,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 16,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [
-
-            ],
-            "miscellaneous": ["2,000 coins",
+            "exp": [],
+            "miscellaneous": [
+                "2,000 coins",
                 "Access to the Ruins of Camdozaal",
                 "Flex emote",
                 "The ability to make steak sandwich"
             ],
             "questPoints": 1
         },
-        "series": null
+        "series": "",
+        "isSubquest": false
     },
-
-    "Between a Rock...": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Between a Rock...",
         "shortName": "betweenARock",
         "url": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [
                 "Dwarf Cannon",
                 "Fishing Contest"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "defence",
                     "level": 30,
                     "boostable": false
@@ -323,7 +366,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "defence",
                     "amount": 5000
                 },
@@ -339,19 +383,26 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Rise of the Red Axe",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Big Chompy Bird Hunting": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Big Chompy Bird Hunting",
         "shortName": "bigChompyBirdHunting",
         "url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "fletching",
                     "level": 5,
                     "boostable": false
@@ -369,7 +420,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "cooking",
                     "amount": 1470
                 },
@@ -385,60 +437,82 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Ogre",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Biohazard": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Biohazard",
         "shortName": "biohazard",
         "url": "https://oldschool.runescape.wiki/w/Biohazard",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "thieving",
-                "amount": 1250
-            }],
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 1250
+                }
+            ],
             "questPoints": 3
         },
         "series": "Elf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Black Knights' Fortress": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Black Knights' Fortress",
         "shortName": "blackKnightsFortress",
         "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 12,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
             "exp": [],
             "questPoints": 3
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Bone Voyage": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Bone Voyage",
         "shortName": "boneVoyage",
         "url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [
@@ -450,16 +524,22 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Cabin Fever": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Cabin Fever",
         "shortName": "cabinFever",
         "url": "https://oldschool.runescape.wiki/w/Cabin_Fever",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -467,7 +547,8 @@ module.exports = exports = {
                 "Rum Deal",
                 "Priest in Peril"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 42,
                     "boostable": false
@@ -490,7 +571,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 7000
                 },
@@ -506,15 +588,21 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Pirate",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Client of Kourend": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Client of Kourend",
         "shortName": "clientOfKourend",
         "url": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium (15-20 minutes)",
         "requirements": {
             "quests": [],
@@ -525,15 +613,21 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Great Kourend",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Clock Tower": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Clock Tower",
         "shortName": "clockTower",
         "url": "https://oldschool.runescape.wiki/w/Clock_Tower",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
@@ -543,20 +637,27 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Cold War": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Cold War",
         "shortName": "coldWar",
         "url": "https://oldschool.runescape.wiki/w/Cold_War",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "hunter",
                     "level": 10,
                     "boostable": false
@@ -584,7 +685,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 5000
                 },
@@ -600,15 +702,21 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Penguin",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Contact!": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Contact!",
         "shortName": "contact",
         "url": "https://oldschool.runescape.wiki/w/Contact!",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -618,51 +726,68 @@ module.exports = exports = {
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "thieving",
-                "amount": 7000
-            }],
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 7000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Desert",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Cook's Assistant": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Cook's Assistant",
         "shortName": "cooksAssistant",
         "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short (<5 minutes)",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "cooking",
-                "amount": 300
-            }],
+            "exp": [
+                {
+                    "skill": "cooking",
+                    "amount": 300
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Creature of Fenkenstrain": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Creature of Fenkenstrain",
         "shortName": "creatureOfFenkenstrain",
         "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "Priest in Peril",
                 "The Restless Ghost"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -675,28 +800,37 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "thieving",
-                "amount": 1000
-            }],
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 1000
+                }
+            ],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Darkness of Hallowvale": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Darkness of Hallowvale",
         "shortName": "darknessOfHallowvale",
         "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Very long",
         "requirements": {
             "quests": [
                 "In Aid of the Myreque"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "construction",
                     "level": 5,
                     "boostable": false
@@ -734,7 +868,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 7000
                 },
@@ -750,43 +885,58 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Myreque",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Death Plateau": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Death Plateau",
         "shortName": "deathPlateau",
         "url": "https://oldschool.runescape.wiki/w/Death_Plateau",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "attack",
-                "amount": 3000
-            }],
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 3000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Troll",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Death to the Dorgeshuun": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Death to the Dorgeshuun",
         "shortName": "deathToTheDorgeshuun",
         "url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "The Lost Tribe"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 23,
                     "boostable": false
@@ -799,7 +949,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "ranged",
                     "amount": 2000
                 },
@@ -811,15 +962,21 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Dorgeshuun",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Demon Slayer": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Demon Slayer",
         "shortName": "demonSlayer",
         "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
@@ -829,16 +986,22 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 3
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Desert Treasure": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Desert Treasure",
         "shortName": "desertTreasure",
         "url": "https://oldschool.runescape.wiki/w/Desert_Treasure",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Very long",
         "requirements": {
             "quests": [
@@ -849,7 +1012,8 @@ module.exports = exports = {
                 "Priest in Peril",
                 "Waterfall Quest"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "thieving",
                     "level": 53,
                     "boostable": true
@@ -872,22 +1036,30 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "magic",
-                "amount": 20000
-            }],
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 20000
+                }
+            ],
             "questPoints": 3
         },
         "series": "The Return of Zaros and Mahjarrat",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Devious Minds": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Devious Minds",
         "shortName": "deviousMinds",
         "url": "https://oldschool.runescape.wiki/w/Devious_Minds",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [
@@ -896,7 +1068,8 @@ module.exports = exports = {
                 "Doric's Quest",
                 "Enter the Abyss"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "smithing",
                     "level": 65,
                     "boostable": true
@@ -914,7 +1087,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "fletching",
                     "amount": 5000
                 },
@@ -930,45 +1104,62 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "The Return of Zaros",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Doric's Quest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Doric's Quest",
         "shortName": "doricsQuest",
         "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "mining",
-                "level": 15,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "mining",
+                    "level": 15,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "mining",
-                "amount": 1300
-            }],
+            "exp": [
+                {
+                    "skill": "mining",
+                    "amount": 1300
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Dragon Slayer": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Dragon Slayer",
         "shortName": "dragonSlayer",
         "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "quest",
                     "level": 32,
                     "boostable": false
@@ -981,7 +1172,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "defence",
                     "amount": 18650
                 },
@@ -993,15 +1185,21 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Guild",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Dragon Slayer II": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Dragon Slayer II",
         "shortName": "dragonSlayerII",
         "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Grandmaster",
+        "subquests": [],
         "questLength": "Very long",
         "requirements": {
             "quests": [
@@ -1013,14 +1211,17 @@ module.exports = exports = {
                 "Bone Voyage",
                 "Client of Kourend"
             ],
-            "skills": [{
-                "skill": "quest",
-                "level": 200,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 200,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 15000
                 },
@@ -1040,29 +1241,38 @@ module.exports = exports = {
             "questPoints": 5
         },
         "series": "Dragonkin",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Dream Mentor": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Dream Mentor",
         "shortName": "dreamMentor",
         "url": "https://oldschool.runescape.wiki/w/Dream_Mentor",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [
                 "Lunar Diplomacy",
                 "Eadgar's Ruse"
             ],
-            "skills": [{
-                "skill": "combat",
-                "level": 85,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "combat",
+                    "level": 85,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "hitpoints",
                     "amount": 15000
                 },
@@ -1074,66 +1284,89 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Druidic Ritual": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Druidic Ritual",
         "shortName": "druidicRitual",
         "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "herblore",
-                "amount": 250
-            }],
+            "exp": [
+                {
+                    "skill": "herblore",
+                    "amount": 250
+                }
+            ],
             "questPoints": 4
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Dwarf Cannon": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Dwarf Cannon",
         "shortName": "dwarfCannon",
         "url": "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "crafting",
-                "amount": 750
-            }],
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 750
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Eadgar's Ruse": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Eadgar's Ruse",
         "shortName": "eadgarsRuse",
         "url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [
                 "Druidic Ritual",
                 "Troll Stronghold"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "herblore",
                     "level": 31,
                     "boostable": true
@@ -1146,52 +1379,71 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "herblore",
-                "amount": 11000
-            }],
+            "exp": [
+                {
+                    "skill": "herblore",
+                    "amount": 11000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Troll",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Eagles' Peak": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Eagles' Peak",
         "shortName": "eaglesPeak",
         "url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "hunter",
-                "level": 27,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "hunter",
+                    "level": 27,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "hunter",
-                "amount": 2500
-            }],
+            "exp": [
+                {
+                    "skill": "hunter",
+                    "amount": 2500
+                }
+            ],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Elemental Workshop I": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Elemental Workshop I",
         "shortName": "elementalWorkshopI",
         "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "mining",
                     "level": 20,
                     "boostable": false
@@ -1209,7 +1461,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 5000
                 },
@@ -1221,19 +1474,26 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Elemental Workshop",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Elemental Workshop II": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Elemental Workshop II",
         "shortName": "elementalWorkshopII",
         "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "magic",
                     "level": 20,
                     "boostable": false
@@ -1246,7 +1506,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 7500
                 },
@@ -1258,19 +1519,26 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Elemental Workshop (#2)",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Enakhra's Lament": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Enakhra's Lament",
         "shortName": "enakhrasLament",
         "url": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 50,
                     "boostable": false
@@ -1298,7 +1566,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 7000
                 },
@@ -1318,19 +1587,26 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Mahjarrat",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Enlightened Journey": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Enlightened Journey",
         "shortName": "enlightenedJourney",
         "url": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "quest",
                     "level": 20,
                     "boostable": false
@@ -1353,7 +1629,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 2000
                 },
@@ -1372,16 +1649,22 @@ module.exports = exports = {
             ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Enter the Abyss": {
-        "miniquest": true,
+    {
+        "isMiniquest": true,
         "name": "Enter the Abyss",
         "shortName": "enterTheAbyss",
         "url": "https://oldschool.runescape.wiki/w/Enter_the_Abyss",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short \u00e2\u20ac\u201c Long",
         "requirements": {
             "quests": [
@@ -1393,16 +1676,22 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 0
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Ernest the Chicken": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Ernest the Chicken",
         "shortName": "ernestTheChicken",
         "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
@@ -1412,16 +1701,22 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 4
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Fairytale I - Growing Pains": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Fairytale I - Growing Pains",
         "shortName": "fairytaleIGrowingPains",
         "url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
@@ -1431,7 +1726,8 @@ module.exports = exports = {
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "attack",
                     "amount": 2000
                 },
@@ -1447,21 +1743,28 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Fairy Tale (#2)",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Fairytale II - Cure a Queen": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Fairytale II - Cure a Queen",
         "shortName": "fairytaleIICureAQueen",
         "url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [
                 "Fairytale I - Growing Pains"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "thieving",
                     "level": 40,
                     "boostable": true
@@ -1479,7 +1782,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "herblore",
                     "amount": 3500
                 },
@@ -1491,19 +1795,26 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Fairy Tale (#2)",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Family Crest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Family Crest",
         "shortName": "familyCrest",
         "url": "https://oldschool.runescape.wiki/w/Family_Crest",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "mining",
                     "level": 40,
                     "boostable": true
@@ -1529,23 +1840,30 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Fight Arena": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Fight Arena",
         "shortName": "fightArena",
         "url": "https://oldschool.runescape.wiki/w/Fight_Arena",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "attack",
                     "amount": 12175
                 },
@@ -1557,48 +1875,65 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Mahjarrat",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Fishing Contest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Fishing Contest",
         "shortName": "fishingContest",
         "url": "https://oldschool.runescape.wiki/w/Fishing_Contest",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "fishing",
-                "level": 10,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "fishing",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "fishing",
-                "amount": 2437
-            }],
+            "exp": [
+                {
+                    "skill": "fishing",
+                    "amount": 2437
+                }
+            ],
             "questPoints": 1
         },
         "series": "Dwarf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Forgettable Tale...": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "forgettableTale",
         "name": "Forgettable Tale...",
         "url": "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
                 "The Giant Dwarf",
                 "Fishing Contest"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "cooking",
                     "level": 22,
                     "boostable": false
@@ -1611,7 +1946,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "cooking",
                     "amount": 5000
                 },
@@ -1623,69 +1959,94 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Rise of the Red Axe",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Garden of Tranquillity": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "gardenOfTranquillity",
         "name": "Garden of Tranquillity",
         "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Very long",
         "requirements": {
             "quests": [
                 "Creature of Fenkenstrain"
             ],
-            "skills": [{
-                "skill": "farming",
-                "level": 25,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "farming",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "farming",
-                "amount": 5000
-            }],
+            "exp": [
+                {
+                    "skill": "farming",
+                    "amount": 5000
+                }
+            ],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Gertrude's Cat": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "gertrudesCat",
         "name": "Gertrude's Cat",
         "url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "cooking",
-                "amount": 1525
-            }],
+            "exp": [
+                {
+                    "skill": "cooking",
+                    "amount": 1525
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Getting Ahead": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "gettingAhead",
         "name": "Getting Ahead",
         "url": "https://oldschool.runescape.wiki/w/Getting_Ahead",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 30,
                     "boostable": true
@@ -1715,7 +2076,8 @@ module.exports = exports = {
             "Combat equipment to fight a level 82 beast."
         ],
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 4000
                 },
@@ -1734,63 +2096,83 @@ module.exports = exports = {
             "Headless Beast (level-82)"
         ],
         "series": "Twisted Tales",
-        "subquests": []
+        "isSubquest": false,
+        "startPoint": "",
+        "description": ""
     },
-    "Ghosts Ahoy": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "ghostsAhoy",
         "name": "Ghosts Ahoy",
         "url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "prayer",
-                "amount": 2400
-            }],
+            "exp": [
+                {
+                    "skill": "prayer",
+                    "amount": 2400
+                }
+            ],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Goblin Diplomacy": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "goblinDiplomacy",
         "name": "Goblin Diplomacy",
         "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "crafting",
-                "amount": 200
-            }],
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 200
+                }
+            ],
             "questPoints": 5
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Grim Tales": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "grimTales",
         "name": "Grim Tales",
         "url": "https://oldschool.runescape.wiki/w/Grim_Tales",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "farming",
                     "level": 45,
                     "boostable": true
@@ -1818,7 +2200,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 6000
                 },
@@ -1845,20 +2228,27 @@ module.exports = exports = {
             ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Haunted Mine": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "hauntedMine",
         "name": "Haunted Mine",
         "url": "https://oldschool.runescape.wiki/w/Haunted_Mine",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 15,
                     "boostable": false
@@ -1871,44 +2261,60 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "strength",
-                "amount": 22000
-            }],
+            "exp": [
+                {
+                    "skill": "strength",
+                    "amount": 22000
+                }
+            ],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Hazeel Cult": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "hazeelCult",
         "name": "Hazeel Cult",
         "url": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "thieving",
-                "amount": 1500
-            }],
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 1500
+                }
+            ],
             "questPoints": 1
         },
         "series": "Mahjarrat",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Heroes' Quest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "heroesQuest",
         "name": "Heroes' Quest",
         "url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [
@@ -1918,14 +2324,17 @@ module.exports = exports = {
                 "Dragon Slayer",
                 "Druidic Ritual"
             ],
-            "skills": [{
-                "skill": "quest",
-                "level": 55,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 55,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "attack",
                     "amount": 3075
                 },
@@ -1977,26 +2386,35 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Guild",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Holy Grail": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "holyGrail",
         "name": "Holy Grail",
         "url": "https://oldschool.runescape.wiki/w/Holy_Grail",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "attack",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "attack",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "defence",
                     "amount": 15300
                 },
@@ -2008,26 +2426,35 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Camelot (#2)",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Horror from the Deep": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "horrorFromTheDeep",
         "name": "Horror from the Deep",
         "url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 35,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 35,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "magic",
                     "amount": 4662
                 },
@@ -2043,22 +2470,29 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Icthlarin's Little Helper": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "icthlarinsLittleHelper",
         "name": "Icthlarin's Little Helper",
         "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 4000
                 },
@@ -2074,43 +2508,58 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Desert",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Imp Catcher": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "impCatcher",
         "name": "Imp Catcher",
         "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short (<5-15 minutes)",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "magic",
-                "amount": 875
-            }],
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 875
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "In Aid of the Myreque": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "inAidOfTheMyreque",
         "name": "In Aid of the Myreque",
         "url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
                 "In Search of the Myreque"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 25,
                     "boostable": false
@@ -2128,7 +2577,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "attack",
                     "amount": 2000
                 },
@@ -2148,28 +2598,37 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Myreque",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "In Search of the Myreque": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "inSearchOfTheMyreque",
         "name": "In Search of the Myreque",
         "url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [
                 "Nature Spirit"
             ],
-            "skills": [{
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "attack",
                     "amount": 600
                 },
@@ -2193,41 +2652,57 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Myreque",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Jungle Potion": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "junglePotion",
         "name": "Jungle Potion",
         "url": "https://oldschool.runescape.wiki/w/Jungle_Potion",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "herblore",
-                "level": 3,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "herblore",
+                    "level": 3,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "herblore",
-                "amount": 775
-            }],
+            "exp": [
+                {
+                    "skill": "herblore",
+                    "amount": 775
+                }
+            ],
             "questPoints": 1
         },
         "series": "Karamja",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "King's Ransom": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "kingsRansom",
         "name": "King's Ransom",
         "url": "https://oldschool.runescape.wiki/w/King%27s_Ransom",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -2236,7 +2711,8 @@ module.exports = exports = {
                 "Murder Mystery",
                 "One Small Favour"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "magic",
                     "level": 45,
                     "boostable": false
@@ -2249,7 +2725,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "defence",
                     "amount": 33000
                 },
@@ -2261,15 +2738,21 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Camelot (#3)",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Legends' Quest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "legendsQuest",
         "name": "Legends' Quest",
         "url": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Very long",
         "requirements": {
             "quests": [
@@ -2279,7 +2762,8 @@ module.exports = exports = {
                 "Underground Pass",
                 "Waterfall Quest"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "quest",
                     "level": 107,
                     "boostable": false
@@ -2341,19 +2825,26 @@ module.exports = exports = {
             "questPoints": 4
         },
         "series": "Karamja, Guild",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Lost City": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "lostCity",
         "name": "Lost City",
         "url": "https://oldschool.runescape.wiki/w/Lost_City",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 31,
                     "boostable": false
@@ -2370,15 +2861,21 @@ module.exports = exports = {
             "questPoints": 3
         },
         "series": "Fairy Tale",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Lunar Diplomacy": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "lunarDiplomacy",
         "name": "Lunar Diplomacy",
         "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
@@ -2387,7 +2884,8 @@ module.exports = exports = {
                 "Rune Mysteries",
                 "Shilo Village"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 61,
                     "boostable": false
@@ -2420,7 +2918,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "magic",
                     "amount": 5000
                 },
@@ -2432,15 +2931,21 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Making Friends with My Arm": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "makingFriendsWithMyArm",
         "name": "Making Friends with My Arm",
         "url": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -2449,7 +2954,8 @@ module.exports = exports = {
                 "Cold War",
                 "Romeo & Juliet"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "firemaking",
                     "level": 66,
                     "boostable": false
@@ -2472,7 +2978,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 10000
                 },
@@ -2492,15 +2999,21 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Troll",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Making History": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "makingHistory",
         "name": "Making History",
         "url": "https://oldschool.runescape.wiki/w/Making_History",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short - Long",
         "requirements": {
             "quests": [
@@ -2510,7 +3023,8 @@ module.exports = exports = {
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 1000
                 },
@@ -2522,15 +3036,21 @@ module.exports = exports = {
             "questPoints": 3
         },
         "series": "Enchanted Key",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Merlin's Crystal": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "merlinsCrystal",
         "name": "Merlin's Crystal",
         "url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium-Long (Under 10 minutes with teleports)",
         "requirements": {
             "quests": [],
@@ -2541,85 +3061,115 @@ module.exports = exports = {
             "questPoints": 6
         },
         "series": "Camelot",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Misthalin Mystery": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "misthalinMystery",
         "name": "Misthalin Mystery",
         "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "crafting",
-                "amount": 600
-            }],
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 600
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Monk's Friend": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "monksFriend",
         "name": "Monk's Friend",
         "url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Very Short (5 minutes)",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "woodcutting",
-                "amount": 2000
-            }],
+            "exp": [
+                {
+                    "skill": "woodcutting",
+                    "amount": 2000
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Monkey Madness I": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "monkeyMadnessI",
         "name": "Monkey Madness I",
         "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
                 "The Grand Tree",
                 "Tree Gnome Village"
             ],
-            "skills": [{
-                "skill": "prayer",
-                "level": 43,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "prayer",
+                    "level": 43,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
             "exp": [],
             "questPoints": 3
         },
         "series": "Gnome, Monkey",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Monkey Madness II": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "monkeyMadnessII",
         "name": "Monkey Madness II",
         "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Grandmaster",
+        "subquests": [],
         "questLength": "Very long",
         "requirements": {
             "quests": [
@@ -2629,7 +3179,8 @@ module.exports = exports = {
                 "Troll Stronghold",
                 "Watchtower"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "slayer",
                     "level": 69,
                     "boostable": false
@@ -2662,7 +3213,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 20000
                 },
@@ -2682,26 +3234,35 @@ module.exports = exports = {
             "questPoints": 4
         },
         "series": "Gnome, Monkey",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Mountain Daughter": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "mountainDaughter",
         "name": "Mountain Daughter",
         "url": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "attack",
                     "amount": 1000
                 },
@@ -2713,15 +3274,21 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Mourning's End Part I": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "mourningsEndPartI",
         "name": "Mourning's End Part I",
         "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_I",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [
@@ -2729,7 +3296,8 @@ module.exports = exports = {
                 "Big Chompy Bird Hunting",
                 "Sheep Herder"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "ranged",
                     "level": 60,
                     "boostable": true
@@ -2742,7 +3310,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "hitpoints",
                     "amount": 25000
                 },
@@ -2754,19 +3323,26 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Elf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Mourning's End Part II": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "mourningsEndPartII",
         "name": "Mourning's End Part II",
         "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_II",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "prayer",
                     "level": 43,
                     "boostable": false
@@ -2779,44 +3355,60 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "agility",
-                "amount": 20000
-            }],
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 20000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Elf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Murder Mystery": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "murderMystery",
         "name": "Murder Mystery",
         "url": "https://oldschool.runescape.wiki/w/Murder_Mystery",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "crafting",
-                "amount": 1406
-            }],
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 1406
+                }
+            ],
             "questPoints": 3
         },
         "series": "Camelot",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "My Arm's Big Adventure": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "myArmsBigAdventure",
         "name": "My Arm's Big Adventure",
         "url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -2824,7 +3416,8 @@ module.exports = exports = {
                 "The Feud",
                 "Jungle Potion"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "woodcutting",
                     "level": 10,
                     "boostable": false
@@ -2837,7 +3430,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "farming",
                     "amount": 5000
                 },
@@ -2849,29 +3443,38 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Troll",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Nature Spirit": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "natureSpirit",
         "name": "Nature Spirit",
         "url": "https://oldschool.runescape.wiki/w/Nature_Spirit",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "Priest in Peril",
                 "The Restless Ghost"
             ],
-            "skills": [{
-                "skill": "crafting",
-                "level": 18,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 18,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 3000
                 },
@@ -2887,45 +3490,62 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Myreque",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Observatory Quest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "observatoryQuest",
         "name": "Observatory Quest",
         "url": "https://oldschool.runescape.wiki/w/Observatory_Quest",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 10,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "crafting",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "crafting",
-                "amount": 2250
-            }],
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 2250
+                }
+            ],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Olaf's Quest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "olafsQuest",
         "name": "Olaf's Quest",
         "url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "firemaking",
                     "level": 40,
                     "boostable": false
@@ -2938,29 +3558,38 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "defence",
-                "amount": 12000
-            }],
+            "exp": [
+                {
+                    "skill": "defence",
+                    "amount": 12000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "One Small Favour": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "oneSmallFavour",
         "name": "One Small Favour",
         "url": "https://oldschool.runescape.wiki/w/One_Small_Favour",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Very long",
         "requirements": {
             "quests": [
                 "Rune Mysteries",
                 "Shilo Village"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 36,
                     "boostable": true
@@ -2987,15 +3616,21 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Karamja",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Pirate's Treasure": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "piratesTreasure",
         "name": "Pirate's Treasure",
         "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
@@ -3006,59 +3641,81 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Pirate",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Plague City": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "plagueCity",
         "name": "Plague City",
         "url": "https://oldschool.runescape.wiki/w/Plague_City",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "mining",
-                "amount": 2425
-            }],
+            "exp": [
+                {
+                    "skill": "mining",
+                    "amount": 2425
+                }
+            ],
             "questPoints": 1
         },
         "series": "Elf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Priest in Peril": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "priestInPeril",
         "name": "Priest in Peril",
         "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "prayer",
-                "amount": 1406
-            }],
+            "exp": [
+                {
+                    "skill": "prayer",
+                    "amount": 1406
+                }
+            ],
             "questPoints": 1
         },
         "series": "Myreque",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Prince Ali Rescue": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "princeAliRescue",
         "name": "Prince Ali Rescue",
         "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
@@ -3068,23 +3725,30 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 3
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Rag and Bone Man": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "ragAndBoneManI",
         "name": "Rag and Bone Man",
         "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "cooking",
                     "amount": 500
                 },
@@ -3095,20 +3759,27 @@ module.exports = exports = {
             ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Rag and Bone Man II": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "ragAndBoneManII",
         "name": "Rag and Bone Man II",
         "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "slayer",
                     "level": 40,
                     "boostable": false
@@ -3121,22 +3792,30 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "prayer",
-                "amount": 5000
-            }],
+            "exp": [
+                {
+                    "skill": "prayer",
+                    "amount": 5000
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Ratcatchers": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "ratcatchers",
         "name": "Ratcatchers",
         "url": "https://oldschool.runescape.wiki/w/Ratcatchers",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long - Very long",
         "requirements": {
             "quests": [
@@ -3145,23 +3824,90 @@ module.exports = exports = {
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "thieving",
-                "amount": 4500
-            }],
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 4500
+                }
+            ],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Recipe for Disaster": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "name": "Recipe for Disaster",
         "shortName": "recipeForDisaster",
         "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Special",
         "questLength": "Very long",
+        "subquests": [
+            {
+                "isMiniquest": true,
+                "isSubquest": true,
+                "shortName": "piratePeteSubquestOfRecipeforDisaster",
+                "name": "Pirate Pete isSubquest of Recipe for Disaster",
+                "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
+                "isMembers": true,
+                "difficulty": "Special",
+                "subquests": [],
+                "questLength": "Medium",
+                "itemsRequired": [
+                    "A raw cod",
+                    "A pestle and mortar",
+                    "Bread",
+                    "A knife",
+                    "A fishbowl (empty)",
+                    "A needle",
+                    "3 bronze wire"
+                ],
+                "requirements": {
+                    "quests": [],
+                    "skills": [
+                        {
+                            "skill": "cooking",
+                            "level": 31,
+                            "boostable": false
+                        }
+                    ],
+                    "other": [
+                        {
+                            "description": "The ability to defeat 5 level 30 monsters."
+                        }
+                    ],
+                    "ironman": [
+                        {
+                            "skill": "crafting",
+                            "description": "42 Crafting (If crafting a fishbowl yourself or by completing Rum Deal)",
+                            "level": 42,
+                            "boostable": false
+                        },
+                        {
+                            "skill": "smithing",
+                            "description": "4 Smithing (To make the bronze wire.)",
+                            "level": 4,
+                            "boostable": false
+                        }
+                    ]
+                },
+                "itemsRecommended": [],
+                "enemiesToDefeat": [],
+                "startPoint": "",
+                "description": "",
+                "rewards": {
+                    "exp": [],
+                    "questPoints": 2
+                },
+                "series": "Pirate"
+            }
+        ],
         "requirements": {
             "quests": [
                 "Cook's Assistant",
@@ -3178,7 +3924,8 @@ module.exports = exports = {
                 "Desert Treasure",
                 "Horror from the Deep"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "quest",
                     "level": 175,
                     "boostable": false
@@ -3259,76 +4006,36 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 10
         },
-        "subquests": [{
-            "miniquest": true,
-            "subquest": true,
-            "shortName": "piratePeteSubquestOfRecipeforDisaster",
-            "name": "Pirate Pete subquest of Recipe for Disaster",
-            "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
-            "members": true,
-            "difficulty": "Special",
-            "subquests": [],
-            "questLength": "Medium",
-            "released": "15 March 2006 (Update)",
-            "itemsRequired": [
-                "A raw cod",
-                "A pestle and mortar",
-                "Bread",
-                "A knife",
-                "A fishbowl (empty)",
-                "A needle",
-                "3 bronze wire"
-            ],
-            "requirements": {
-                "quests": [],
-                "skills": [{
-                    "skill": "cooking",
-                    "level": 31,
-                    "boostable": false
-                }],
-                "other": [{
-                    "description": "The ability to defeat 5 level 30 monsters."
-                }],
-                "ironman": [{
-                        "skill": "crafting",
-                        "description": "42 Crafting (If crafting a fishbowl yourself or by completing Rum Deal)",
-                        "level": 42,
-                        "boostable": false
-                    },
-                    {
-                        "skill": "smithing",
-                        "description": "4 Smithing (To make the bronze wire.)",
-                        "level": 4,
-                        "boostable": false
-                    }
-                ]
-            },
-            "rewards": {
-                "exp": [],
-                "questPoints": 2
-            },
-            "series": "Pirate"
-        }],
-        "series": null
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Recruitment Drive": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "recruitmentDrive",
         "name": "Recruitment Drive",
         "url": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 12,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 1000
                 },
@@ -3344,21 +4051,28 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Temple Knight",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Regicide": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "regicide",
         "name": "Regicide",
         "url": "https://oldschool.runescape.wiki/w/Regicide",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
                 "Underground Pass"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 56,
                     "boostable": true
@@ -3371,22 +4085,30 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "agility",
-                "amount": 13750
-            }],
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 13750
+                }
+            ],
             "questPoints": 3
         },
         "series": "Elf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Romeo & Juliet": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "romeoJuliet",
         "name": "Romeo & Juliet",
         "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
@@ -3396,16 +4118,22 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 5
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Roving Elves": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "rovingElves",
         "name": "Roving Elves",
         "url": "https://oldschool.runescape.wiki/w/Roving_Elves",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [
@@ -3415,26 +4143,35 @@ module.exports = exports = {
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "strength",
-                "amount": 10000
-            }],
+            "exp": [
+                {
+                    "skill": "strength",
+                    "amount": 10000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Elf, Gnome",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Royal Trouble": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "royalTrouble",
         "name": "Royal Trouble",
         "url": "https://oldschool.runescape.wiki/w/Royal_Trouble",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 40,
                     "boostable": true
@@ -3447,7 +4184,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 5000
                 },
@@ -3463,22 +4201,29 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Rum Deal": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "rumDeal",
         "name": "Rum Deal",
         "url": "https://oldschool.runescape.wiki/w/Rum_Deal",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "Zogre Flesh Eaters",
                 "Priest in Peril"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 42,
                     "boostable": false
@@ -3506,7 +4251,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "farming",
                     "amount": 7000
                 },
@@ -3522,15 +4268,21 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Pirate",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Rune Mysteries": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "runeMysteries",
         "name": "Rune Mysteries",
         "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short (<5 minutes)",
         "requirements": {
             "quests": [],
@@ -3540,68 +4292,93 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Scorpion Catcher": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "scorpionCatcher",
         "name": "Scorpion Catcher",
         "url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "prayer",
-                "level": 31,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "prayer",
+                    "level": 31,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "strength",
-                "amount": 6625
-            }],
+            "exp": [
+                {
+                    "skill": "strength",
+                    "amount": 6625
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Sea Slug": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "seaSlug",
         "name": "Sea Slug",
         "url": "https://oldschool.runescape.wiki/w/Sea_Slug",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "fishing",
-                "amount": 7175
-            }],
+            "exp": [
+                {
+                    "skill": "fishing",
+                    "amount": 7175
+                }
+            ],
             "questPoints": 1
         },
         "series": "Sea Slug",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Shades of Mort'ton": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "shadesOfMortton",
         "name": "Shades of Mort'ton",
         "url": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -3619,7 +4396,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 2000
                 },
@@ -3631,15 +4409,21 @@ module.exports = exports = {
             "questPoints": 3
         },
         "series": "Mort'ton",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Shadow of the Storm": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "shadowOfTheStorm",
         "name": "Shadow of the Storm",
         "url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -3652,16 +4436,22 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Sheep Herder": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "sheepHerder",
         "name": "Sheep Herder",
         "url": "https://oldschool.runescape.wiki/w/Sheep_Herder",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short/Medium",
         "requirements": {
             "quests": [],
@@ -3672,37 +4462,51 @@ module.exports = exports = {
             "questPoints": 4
         },
         "series": "Plague/Elf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Sheep Shearer": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "sheepShearer",
         "name": "Sheep Shearer",
         "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "crafting",
-                "amount": 150
-            }],
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 150
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Shield of Arrav": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "shieldOfArrav",
         "name": "Shield of Arrav",
         "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
@@ -3713,19 +4517,26 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Mahjarrat",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Shilo Village": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "shiloVillage",
         "name": "Shilo Village",
         "url": "https://oldschool.runescape.wiki/w/Shilo_Village",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -3743,29 +4554,38 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "crafting",
-                "amount": 3875
-            }],
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 3875
+                }
+            ],
             "questPoints": 2
         },
         "series": "Karamja",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Song of the Elves": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "songOfTheElves",
         "name": "Song of the Elves",
         "url": "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Grandmaster",
+        "subquests": [],
         "questLength": "Very long",
         "requirements": {
             "quests": [
                 "Mourning's End Part II",
                 "Making History"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 70,
                     "boostable": false
@@ -3808,7 +4628,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 20000
                 },
@@ -3844,19 +4665,26 @@ module.exports = exports = {
             "questPoints": 4
         },
         "series": "Elf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Spirits of the Elid": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "spiritsOfTheElid",
         "name": "Spirits of the Elid",
         "url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "magic",
                     "level": 33,
                     "boostable": true
@@ -3879,7 +4707,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "magic",
                     "amount": 1000
                 },
@@ -3895,22 +4724,29 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Desert",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Swan Song": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "swanSong",
         "name": "Swan Song",
         "url": "https://oldschool.runescape.wiki/w/Swan_Song",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "One Small Favour",
                 "Garden of Tranquillity"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "quest",
                     "level": 100,
                     "boostable": false
@@ -3948,7 +4784,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "fishing",
                     "amount": 10000
                 },
@@ -3964,19 +4801,26 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Wise Old Man",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Tai Bwo Wannai Trio": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "taiBwoWannaiTrio",
         "name": "Tai Bwo Wannai Trio",
         "url": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 15,
                     "boostable": false
@@ -3994,7 +4838,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "attack",
                     "amount": 2500
                 },
@@ -4014,21 +4859,28 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Karamja",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Tale of the Righteous": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "taleOfTheRighteous",
         "name": "Tale of the Righteous",
         "url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "Client of Kourend"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "strength",
                     "level": 16,
                     "boostable": false
@@ -4045,19 +4897,26 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Great Kourend",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Tears of Guthix": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "tearsOfGuthix",
         "name": "Tears of Guthix",
         "url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix_(quest)",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "quest",
                     "level": 43,
                     "boostable": false
@@ -4080,26 +4939,35 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "crafting",
-                "amount": 1000
-            }],
+            "exp": [
+                {
+                    "skill": "crafting",
+                    "amount": 1000
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Temple of Ikov": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "templeOfIkov",
         "name": "Temple of Ikov",
         "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "thieving",
                     "level": 42,
                     "boostable": true
@@ -4112,7 +4980,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "fletching",
                     "amount": 8000
                 },
@@ -4124,28 +4993,37 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Mahjarrat",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Ascent of Arceuus": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theAscentOfArceuus",
         "name": "The Ascent of Arceuus",
         "url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "Client of Kourend"
             ],
-            "skills": [{
-                "skill": "hunter",
-                "level": 12,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "hunter",
+                    "level": 12,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "hunter",
                     "amount": 1500
                 },
@@ -4157,15 +5035,21 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Great Kourend",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Corsair Curse": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theCorsairCurse",
         "name": "The Corsair Curse",
         "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
@@ -4175,48 +5059,65 @@ module.exports = exports = {
             "exp": [],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Depths of Despair": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theDepthsOfDespair",
         "name": "The Depths of Despair",
         "url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [
                 "Client of Kourend"
             ],
-            "skills": [{
-                "skill": "agility",
-                "level": 18,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 18,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "agility",
-                "amount": 1500
-            }],
+            "exp": [
+                {
+                    "skill": "agility",
+                    "amount": 1500
+                }
+            ],
             "questPoints": 1
         },
         "series": "Great Kourend",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Dig Site": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theDigSite",
         "name": "The Dig Site",
         "url": "https://oldschool.runescape.wiki/w/The_Dig_Site",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 10,
                     "boostable": false
@@ -4234,7 +5135,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "herblore",
                     "amount": 2000
                 },
@@ -4246,19 +5148,26 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "The Return of Zaros",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Eyes of Glouphrie": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theEyesOfGlouphrie",
         "name": "The Eyes of Glouphrie",
         "url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "construction",
                     "level": 5,
                     "boostable": false
@@ -4271,7 +5180,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "construction",
                     "amount": 250
                 },
@@ -4291,48 +5201,65 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Gnome",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Feud": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theFeud",
         "name": "The Feud",
         "url": "https://oldschool.runescape.wiki/w/The_Feud",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "thieving",
-                "level": 30,
-                "boostable": true
-            }]
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 30,
+                    "boostable": true
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "thieving",
-                "amount": 15000
-            }],
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 15000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Desert",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Forsaken Tower": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theForsakenTower",
         "name": "The Forsaken Tower",
         "url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "mining",
                     "amount": 500
                 },
@@ -4344,15 +5271,21 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Great Kourend",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Fremennik Exiles": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theFremennikExiles",
         "name": "The Fremennik Exiles",
         "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -4361,7 +5294,8 @@ module.exports = exports = {
                 "Mountain Daughter",
                 "Heroes' Quest"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 65,
                     "boostable": false
@@ -4389,7 +5323,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 15000
                 },
@@ -4405,19 +5340,26 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Fremennik Isles": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theFremennikIsles",
         "name": "The Fremennik Isles",
         "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "construction",
                     "level": 20,
                     "boostable": false
@@ -4430,7 +5372,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "construction",
                     "amount": 5000
                 },
@@ -4446,22 +5389,29 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Fremennik Trials": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theFremennikTrials",
         "name": "The Fremennik Trials",
         "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 2812
                 },
@@ -4505,19 +5455,26 @@ module.exports = exports = {
             "questPoints": 3
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Giant Dwarf": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theGiantDwarf",
         "name": "The Giant Dwarf",
         "url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 12,
                     "boostable": false
@@ -4550,7 +5507,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 2500
                 },
@@ -4578,19 +5536,26 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Rise of the Red Axe",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Golem": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theGolem",
         "name": "The Golem",
         "url": "https://oldschool.runescape.wiki/w/The_Golem",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 20,
                     "boostable": false
@@ -4603,7 +5568,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 1000
                 },
@@ -4614,27 +5580,36 @@ module.exports = exports = {
             ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Grand Tree": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theGrandTree",
         "name": "The Grand Tree",
         "url": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 7900
                 },
@@ -4650,23 +5625,30 @@ module.exports = exports = {
             "questPoints": 5
         },
         "series": "Gnome",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Great Brain Robbery": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theGreatBrainRobbery",
         "name": "The Great Brain Robbery",
         "url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "Creature of Fenkenstrain",
                 "Cabin Fever",
-                "Pirate Pete subquest of Recipe for Disaster"
+                "Pirate Pete isSubquest of Recipe for Disaster"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 16,
                     "boostable": false
@@ -4684,7 +5666,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "construction",
                     "amount": 2000
                 },
@@ -4700,22 +5683,29 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Pirate",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Hand in the Sand": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theHandInTheSand",
         "name": "The Hand in the Sand",
         "url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 9000
                 },
@@ -4726,46 +5716,63 @@ module.exports = exports = {
             ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Knight's Sword": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theKnightsSword",
         "name": "The Knight's Sword",
         "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "mining",
-                "level": 10,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "mining",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "smithing",
-                "amount": 12725
-            }],
+            "exp": [
+                {
+                    "skill": "smithing",
+                    "amount": 12725
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Lost Tribe": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theLostTribe",
         "name": "The Lost Tribe",
         "url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "agility",
                     "level": 13,
                     "boostable": false
@@ -4783,73 +5790,99 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "mining",
-                "amount": 3000
-            }],
+            "exp": [
+                {
+                    "skill": "mining",
+                    "amount": 3000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Dorgeshuun",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Queen of Thieves": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theQueenOfThieves",
         "name": "The Queen of Thieves",
         "url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [
                 "Client of Kourend"
             ],
-            "skills": [{
-                "skill": "thieving",
-                "level": 20,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 20,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "thieving",
-                "amount": 2000
-            }],
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 2000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Great Kourend",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Restless Ghost": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theRestlessGhost",
         "name": "The Restless Ghost",
         "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short (<10 minutes)",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "prayer",
-                "amount": 1125
-            }],
+            "exp": [
+                {
+                    "skill": "prayer",
+                    "amount": 1125
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Sins of the Father": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "sinsOfTheFather",
         "name": "Sins of the Father",
         "url": "https://oldschool.runescape.wiki/w/Sins_of_the_Father",
-        "members": true,
+        "isMembers": true,
         "description": "A darkness has fallen over Morytania. The Myreque freedom fighters have achieved their first major victory over the vampyres with the death of Ranis Drakan. However, their newly found hope is unlikely to last. After many years of absence, Lord Lowerniel Drakan, the vampyre overlord of Morytania, has finally emerged from his castle. He has but one goal. To avenge his brother and eradicate the Myreque once and for all.",
         "difficulty": "Master",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
@@ -4862,7 +5895,8 @@ module.exports = exports = {
                 "Priest in Peril",
                 "The Restless Ghost"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "woodcutting",
                     "level": 62,
                     "boostable": false
@@ -4913,19 +5947,25 @@ module.exports = exports = {
             ]
         },
         "series": "Myreque",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": ""
     },
-    "The Slug Menace": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theSlugMenace",
         "name": "The Slug Menace",
         "url": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium - Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "crafting",
                     "level": 30,
                     "boostable": false
@@ -4948,7 +5988,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "crafting",
                     "amount": 3500
                 },
@@ -4964,19 +6005,26 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Sea Slug",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "The Tourist Trap": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "theTouristTrap",
         "name": "The Tourist Trap",
         "url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "fletching",
                     "level": 10,
                     "boostable": false
@@ -4993,19 +6041,26 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Desert",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Throne of Miscellania": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "throneOfMiscellania",
         "name": "Throne of Miscellania",
         "url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "woodcutting",
                     "level": 45,
                     "boostable": false
@@ -5032,26 +6087,35 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Fremennik",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Tower of Life": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "towerOfLife",
         "name": "Tower of Life",
         "url": "https://oldschool.runescape.wiki/w/Tower_of_Life",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "construction",
-                "level": 10,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "construction",
+                    "level": 10,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "construction",
                     "amount": 1000
                 },
@@ -5066,64 +6130,88 @@ module.exports = exports = {
             ],
             "questPoints": 2
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Tree Gnome Village": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "treeGnomeVillage",
         "name": "Tree Gnome Village",
         "url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "attack",
-                "amount": 11450
-            }],
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 11450
+                }
+            ],
             "questPoints": 2
         },
         "series": "Gnome",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Tribal Totem": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "tribalTotem",
         "name": "Tribal Totem",
         "url": "https://oldschool.runescape.wiki/w/Tribal_Totem",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "thieving",
-                "level": 21,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "thieving",
+                    "level": 21,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "thieving",
-                "amount": 1775
-            }],
+            "exp": [
+                {
+                    "skill": "thieving",
+                    "amount": 1775
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Troll Romance": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "trollRomance",
         "name": "Troll Romance",
         "url": "https://oldschool.runescape.wiki/w/Troll_Romance",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
@@ -5132,7 +6220,8 @@ module.exports = exports = {
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 8000
                 },
@@ -5144,51 +6233,68 @@ module.exports = exports = {
             "questPoints": 2
         },
         "series": "Troll",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Troll Stronghold": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "trollStronghold",
         "name": "Troll Stronghold",
         "url": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 15,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "agility",
+                    "level": 15,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
             "exp": [],
             "questPoints": 1
         },
         "series": "Troll",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Underground Pass": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "undergroundPass",
         "name": "Underground Pass",
         "url": "https://oldschool.runescape.wiki/w/Underground_Pass",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Experienced",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
                 "Biohazard"
             ],
-            "skills": [{
-                "skill": "ranged",
-                "level": 25,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "ranged",
+                    "level": 25,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "agility",
                     "amount": 3000
                 },
@@ -5200,37 +6306,51 @@ module.exports = exports = {
             "questPoints": 5
         },
         "series": "Elf",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Vampyre Slayer": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "vampyreSlayer",
         "name": "Vampyre Slayer",
         "url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "attack",
-                "amount": 4825
-            }],
+            "exp": [
+                {
+                    "skill": "attack",
+                    "amount": 4825
+                }
+            ],
             "questPoints": 3
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Wanted!": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "wanted",
         "name": "Wanted!",
         "url": "https://oldschool.runescape.wiki/w/Wanted!",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [
@@ -5239,33 +6359,44 @@ module.exports = exports = {
                 "The Lost Tribe",
                 "Priest in Peril"
             ],
-            "skills": [{
-                "skill": "quest",
-                "level": 32,
-                "boostable": false
-            }]
+            "skills": [
+                {
+                    "skill": "quest",
+                    "level": 32,
+                    "boostable": false
+                }
+            ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "slayer",
-                "amount": 5000
-            }],
+            "exp": [
+                {
+                    "skill": "slayer",
+                    "amount": 5000
+                }
+            ],
             "questPoints": 1
         },
         "series": "Temple Knight",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Watchtower": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "watchtower",
         "name": "Watchtower",
         "url": "https://oldschool.runescape.wiki/w/Watchtower",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Long",
         "requirements": {
             "quests": [],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "magic",
                     "level": 15,
                     "boostable": false
@@ -5293,29 +6424,38 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
-                "skill": "magic",
-                "amount": 15250
-            }],
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 15250
+                }
+            ],
             "questPoints": 4
         },
         "series": "Ogre",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Waterfall Quest": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "waterfallQuest",
         "name": "Waterfall Quest",
         "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium (10-20 minutes)",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "attack",
                     "amount": 13750
                 },
@@ -5327,22 +6467,29 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Elf, Gnome",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "What Lies Below": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "whatLiesBelow",
         "name": "What Lies Below",
         "url": "https://oldschool.runescape.wiki/w/What_Lies_Below",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short - Medium",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "defence",
                     "amount": 2000
                 },
@@ -5353,60 +6500,82 @@ module.exports = exports = {
             ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Witch's House": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "witchsHouse",
         "name": "Witch's House",
         "url": "https://oldschool.runescape.wiki/w/Witch%27s_House",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "hitpoints",
-                "amount": 6325
-            }],
+            "exp": [
+                {
+                    "skill": "hitpoints",
+                    "amount": 6325
+                }
+            ],
             "questPoints": 4
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Witch's Potion": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "witchsPotion",
         "name": "Witch's Potion",
         "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
-        "members": false,
+        "isMembers": false,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short (<5 minutes)",
         "requirements": {
             "quests": [],
             "skills": []
         },
         "rewards": {
-            "exp": [{
-                "skill": "magic",
-                "amount": 325
-            }],
+            "exp": [
+                {
+                    "skill": "magic",
+                    "amount": 325
+                }
+            ],
             "questPoints": 1
         },
-        "series": null,
-        "subquests": []
+        "series": "",
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "X Marks the Spot": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "xMarksTheSpot",
         "name": "X Marks the Spot",
         "url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Novice",
+        "subquests": [],
         "questLength": "Short",
         "requirements": {
             "quests": [],
@@ -5422,22 +6591,29 @@ module.exports = exports = {
             ]
         },
         "series": "Great Kourend",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     },
-    "Zogre Flesh Eaters": {
-        "miniquest": false,
+    {
+        "isMiniquest": false,
         "shortName": "zogreFleshEaters",
         "name": "Zogre Flesh Eaters",
         "url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
-        "members": true,
+        "isMembers": true,
         "difficulty": "Intermediate",
+        "subquests": [],
         "questLength": "Medium",
         "requirements": {
             "quests": [
                 "Big Chompy Bird Hunting",
                 "Jungle Potion"
             ],
-            "skills": [{
+            "skills": [
+                {
                     "skill": "smithing",
                     "level": 4,
                     "boostable": false
@@ -5470,7 +6646,8 @@ module.exports = exports = {
             ]
         },
         "rewards": {
-            "exp": [{
+            "exp": [
+                {
                     "skill": "fletching",
                     "amount": 2000
                 },
@@ -5486,6 +6663,11 @@ module.exports = exports = {
             "questPoints": 1
         },
         "series": "Ogre",
-        "subquests": []
+        "isSubquest": false,
+        "itemsRecommended": [],
+        "enemiesToDefeat": [],
+        "itemsRequired": [],
+        "startPoint": "",
+        "description": ""
     }
-}
+]

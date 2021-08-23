@@ -5,7 +5,8 @@
         "name": "Ardougne Diary",
         "easy": {
             "itemReward": "Ardougne cloak 1",
-            "tasks": [{
+            "tasks": [
+                {
                     "description": "Have Wizard Cromperty teleport you to the Rune essence mine.",
                     "requirements": {
                         "quests": [
@@ -21,12 +22,14 @@
                     "description": "Steal a cake from the East Ardougne market stalls.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "thieving",
-                            "level": 5,
-                            "boostable": true,
-                            "optional": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "thieving",
+                                "level": 5,
+                                "boostable": true,
+                                "optional": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "None."
@@ -78,12 +81,14 @@
                     "description": "Have Tindel Marchant identify a rusty sword for you.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "thieving",
-                            "level": 15,
-                            "boostable": true,
-                            "optional": true
-                        }]
+                        "skills": [
+                            {
+                                "skill": "thieving",
+                                "level": 15,
+                                "boostable": true,
+                                "optional": true
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "Rusty sword(s), 100 coins. If Tindel does not identify the sword as anything, it will not complete the task, so it might be worth bringing multiple."
@@ -121,7 +126,8 @@
                 }
             ],
             "rewards": {
-                "description": [{
+                "description": [
+                    {
                         "main": "Ardougne cloak 1",
                         "other": [
                             "Unlimited teleports to the Ardougne Monastery"
@@ -144,11 +150,13 @@
                         "other": []
                     }
                 ],
-                "lamps": [{
-                    "amount": 1,
-                    "exp": 2500,
-                    "levelToUse": 30
-                }]
+                "lamps": [
+                    {
+                        "amount": 1,
+                        "exp": 2500,
+                        "levelToUse": 30
+                    }
+                ]
             },
             "itemsRequired": [
                 "Around 100 coins",
@@ -160,16 +168,19 @@
                 "Biohazard",
                 "Rune Mysteries"
             ],
-            "skillsRequired": [{
-                "skill": "thieving",
-                "level": 5,
-                "boostable": true
-            }]
+            "skillsRequired": [
+                {
+                    "skill": "thieving",
+                    "level": 5,
+                    "boostable": true
+                }
+            ]
         },
         "medium": {
             "itemReward": "Ardougne cloak 2",
             "rewards": {
-                "description": [{
+                "description": [
+                    {
                         "main": "Ardougne cloak 2",
                         "other": [
                             "Three daily teleports to Ardougne farm patch"
@@ -200,13 +211,16 @@
                         "other": []
                     }
                 ],
-                "lamps": [{
-                    "amount": 1,
-                    "exp": 7500,
-                    "levelToUse": 40
-                }]
+                "lamps": [
+                    {
+                        "amount": 1,
+                        "exp": 7500,
+                        "levelToUse": 40
+                    }
+                ]
             },
-            "tasks": [{
+            "tasks": [
+                {
                     "description": "Enter the unicorn pen in Ardougne Zoo using Fairy rings.",
                     "requirements": {
                         "quests": [
@@ -222,7 +236,8 @@
                     "description": "Grapple over Yanille's south wall and jump off.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
+                        "skills": [
+                            {
                                 "skill": "agility",
                                 "level": 39,
                                 "boostable": false
@@ -247,11 +262,13 @@
                     "description": "Harvest some strawberries from the Ardougne farming patch.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "farming",
-                            "level": 31,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "farming",
+                                "level": 31,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "3 strawberry seeds, farming equipment (rake, spade, seed dibber, and watering can), 1 basket of apples (recommended)"
@@ -263,11 +280,13 @@
                         "quests": [
                             "Plague City"
                         ],
-                        "skills": [{
-                            "skill": "magic",
-                            "level": 51,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "magic",
+                                "level": 51,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "2 Water runes and 2 Law runes."
@@ -279,11 +298,13 @@
                         "quests": [
                             "Enlightened Journey"
                         ],
-                        "skills": [{
-                            "skill": "firemaking",
-                            "level": 50,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "firemaking",
+                                "level": 50,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "Yew log (11 yew logs and 1 normal log to return back if balloon route hasn't been unlocked yet—you will have to unlock the route and then use it again afterwards. Unlocking the route costs 10 yew logs)"
@@ -295,11 +316,13 @@
                         "quests": [
                             "The Hand in the Sand"
                         ],
-                        "skills": [{
-                            "skill": "crafting",
-                            "level": 49,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "crafting",
+                                "level": 49,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "None."
@@ -321,11 +344,13 @@
                     "description": "Pickpocket the master farmer north of East Ardougne.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "thieving",
-                            "level": 38,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "thieving",
+                                "level": 38,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "None."
@@ -361,7 +386,8 @@
                         "quests": [
                             "Underground Pass"
                         ],
-                        "skills": [{
+                        "skills": [
+                            {
                                 "skill": "magic",
                                 "level": 50,
                                 "boostable": false
@@ -415,7 +441,8 @@
                 "Tower of Life",
                 "Underground Pass"
             ],
-            "skillsRequired": [{
+            "skillsRequired": [
+                {
                     "skill": "agility",
                     "level": 39,
                     "boostable": false
@@ -459,7 +486,8 @@
                     "skill": "strength",
                     "level": 38,
                     "boostable": false
-                }, {
+                },
+                {
                     "skill": "thieving",
                     "level": 38,
                     "boostable": false
@@ -473,24 +501,26 @@
                     "skill": "quest",
                     "level": 20,
                     "boostable": false
-                }, {
+                },
+                {
                     "skill": "fletching",
                     "level": 20,
                     "boostable": false,
                     "ironman": true
-                }, {
+                },
+                {
                     "skill": "smithing",
                     "level": 20,
                     "boostable": false,
                     "ironman": true
                 }
-
             ]
         },
         "hard": {
             "itemReward": "Ardougne cloak 3",
             "rewards": {
-                "description": [{
+                "description": [
+                    {
                         "main": "Ardougne cloak 3",
                         "other": [
                             "Five daily teleports to Ardougne farm patch"
@@ -513,16 +543,21 @@
                         "other": []
                     }
                 ],
-                "lamps": [{
-                    "amount": 1,
-                    "exp": 15000,
-                    "levelToUse": 50
-                }]
+                "lamps": [
+                    {
+                        "amount": 1,
+                        "exp": 15000,
+                        "levelToUse": 50
+                    }
+                ]
             },
-            "tasks": [{
+            "tasks": [
+                {
                     "description": "Recharge some jewellery at the Totem pole in the Legends' Guild.",
                     "requirements": {
-                        "quests": ["Legends' Quest"],
+                        "quests": [
+                            "Legends' Quest"
+                        ],
                         "skills": []
                     },
                     "other": {
@@ -533,24 +568,29 @@
                     "description": "Enter the Magic Guild.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "magic",
-                            "level": 66,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "magic",
+                                "level": 66,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "None"
                     }
-                }, {
+                },
+                {
                     "description": "Attempt to steal from a chest in Ardougne Castle.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "thieving",
-                            "level": 72,
-                            "boostable": true
-                        }]
+                        "skills": [
+                            {
+                                "skill": "thieving",
+                                "level": 72,
+                                "boostable": true
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "None"
@@ -559,7 +599,9 @@
                 {
                     "description": "Have a zookeeper put you in Ardougne Zoo's monkey cage. (Wear a Karamjan monkey greegree—then, talk to the Monkey Minder.)",
                     "requirements": {
-                        "quests": ["Monkey Madness I"],
+                        "quests": [
+                            "Monkey Madness I"
+                        ],
                         "skills": []
                     },
                     "other": {
@@ -569,12 +611,16 @@
                 {
                     "description": "Teleport to the Watchtower.",
                     "requirements": {
-                        "quests": ["Watchtower"],
-                        "skills": [{
-                            "skill": "magic",
-                            "level": 58,
-                            "boostable": false
-                        }]
+                        "quests": [
+                            "Watchtower"
+                        ],
+                        "skills": [
+                            {
+                                "skill": "magic",
+                                "level": 58,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "2 Earth runes and 2 Law runes"
@@ -584,11 +630,13 @@
                     "description": "Catch a Red Salamander.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "hunter",
-                            "level": 59,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "hunter",
+                                "level": 59,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "At least 1 rope and small fishing net"
@@ -598,11 +646,13 @@
                     "description": "Check the health of a palm tree near Tree Gnome Village (not in Gnome Stronghold).",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "farming",
-                            "level": 68,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "farming",
+                                "level": 68,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "1 palm tree seed (or 1 palm sapling); recommended: 15 papaya fruit"
@@ -612,11 +662,13 @@
                     "description": "Pick some poison ivy berries from the patch south of East Ardougne (Near the Ardougne Monastery).",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "farming",
-                            "level": 70,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "farming",
+                                "level": 70,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "1 poison ivy seed, seed dibber, rake"
@@ -626,11 +678,13 @@
                     "description": "Smith a Mithril platebody near Ardougne.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "smithing",
-                            "level": 68,
-                            "boostable": true
-                        }]
+                        "skills": [
+                            {
+                                "skill": "smithing",
+                                "level": 68,
+                                "boostable": true
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "5 mithril bars, hammer (works at Port Khazard, Yanille, or West Ardougne anvil)"
@@ -640,11 +694,13 @@
                     "description": "Enter your POH from Yanille.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "construction",
-                            "level": 50,
-                            "boostable": true
-                        }]
+                        "skills": [
+                            {
+                                "skill": "construction",
+                                "level": 50,
+                                "boostable": true
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "25,000 coins"
@@ -654,11 +710,13 @@
                     "description": "Smith a Dragon sq shield in West Ardougne.",
                     "requirements": {
                         "quests": [],
-                        "skills": [{
-                            "skill": "smithing",
-                            "level": 60,
-                            "boostable": false
-                        }]
+                        "skills": [
+                            {
+                                "skill": "smithing",
+                                "level": 60,
+                                "boostable": false
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "Shield left half, shield right half, hammer(You need to complete the Legends' Quest to wear the shield, however, smithing it does not require completion. Ironmen will need to finish the quest to acquire the shield right half, as it is only sold in the guild.)"
@@ -667,20 +725,24 @@
                 {
                     "description": "Craft some death runes at the Death altar.",
                     "requirements": {
-                        "quests": ["Mourning's End Part II"],
-                        "skills": [{
-                            "skill": "runecraft",
-                            "level": 65,
-                            "boostable": true
-                        }]
+                        "quests": [
+                            "Mourning's End Part II"
+                        ],
+                        "skills": [
+                            {
+                                "skill": "runecraft",
+                                "level": 65,
+                                "boostable": true
+                            }
+                        ]
                     },
                     "other": {
                         "itemsNeeded": "Pure essence, death talisman (or Runecraft cape/max cape or access to the Abyss), Mourner Gear (if using Mourner Tunnels, unless Song of the Elves has been completed) and Crystal Trinket (if entering through the Temple of Light)."
                     }
                 }
-
             ],
-            "itemsRequired": ["An uncharged skills necklace or combat bracelet",
+            "itemsRequired": [
+                "An uncharged skills necklace or combat bracelet",
                 "Karamjan monkey greegree",
                 "2 earth runes",
                 "2 law runes",
@@ -700,85 +762,104 @@
                 "Legends' Quest",
                 "Mourning's End Part II",
                 "Watchtower"
-
             ],
-            "skillsRequired": [{
-                "skill": "agility",
-                "level": 56,
-                "boostable": false
-            }, {
-                "skill": "construction",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "cooking",
-                "level": 53,
-                "boostable": false
-            }, {
-                "skill": "crafting",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "farming",
-                "level": 70,
-                "boostable": false
-            }, {
-                "skill": "fishing",
-                "level": 53,
-                "boostable": false
-            }, {
-                "skill": "fletching",
-                "level": 5,
-                "boostable": false
-            }, {
-                "skill": "herblore",
-                "level": 45,
-                "boostable": true
-            }, {
-                "skill": "hunter",
-                "level": 59,
-                "boostable": false
-            }, {
-                "skill": "magic",
-                "level": 66,
-                "boostable": false
-            }, {
-                "skill": "mining",
-                "level": 52,
-                "boostable": false
-            }, {
-                "skill": "prayer",
-                "level": 42,
-                "boostable": false
-            }, {
-                "skill": "ranged",
-                "level": 60,
-                "boostable": false
-            }, {
-                "skill": "runecraft",
-                "level": 65,
-                "boostable": true
-            }, {
-                "skill": "smithing",
-                "level": 68,
-                "boostable": true
-            }, {
-                "skill": "strength",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "thieving",
-                "level": 72,
-                "boostable": false
-            }, {
-                "skill": "woodcutting",
-                "level": 50,
-                "boostable": false
-            }, {
-                "skill": "quest",
-                "level": 107,
-                "boostable": false
-            }]
+            "skillsRequired": [
+                {
+                    "skill": "agility",
+                    "level": 56,
+                    "boostable": false
+                },
+                {
+                    "skill": "construction",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "cooking",
+                    "level": 53,
+                    "boostable": false
+                },
+                {
+                    "skill": "crafting",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "farming",
+                    "level": 70,
+                    "boostable": false
+                },
+                {
+                    "skill": "fishing",
+                    "level": 53,
+                    "boostable": false
+                },
+                {
+                    "skill": "fletching",
+                    "level": 5,
+                    "boostable": false
+                },
+                {
+                    "skill": "herblore",
+                    "level": 45,
+                    "boostable": true
+                },
+                {
+                    "skill": "hunter",
+                    "level": 59,
+                    "boostable": false
+                },
+                {
+                    "skill": "magic",
+                    "level": 66,
+                    "boostable": false
+                },
+                {
+                    "skill": "mining",
+                    "level": 52,
+                    "boostable": false
+                },
+                {
+                    "skill": "prayer",
+                    "level": 42,
+                    "boostable": false
+                },
+                {
+                    "skill": "ranged",
+                    "level": 60,
+                    "boostable": false
+                },
+                {
+                    "skill": "runecraft",
+                    "level": 65,
+                    "boostable": true
+                },
+                {
+                    "skill": "smithing",
+                    "level": 68,
+                    "boostable": true
+                },
+                {
+                    "skill": "strength",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "thieving",
+                    "level": 72,
+                    "boostable": false
+                },
+                {
+                    "skill": "woodcutting",
+                    "level": 50,
+                    "boostable": false
+                },
+                {
+                    "skill": "quest",
+                    "level": 107,
+                    "boostable": false
+                }
+            ]
         },
         "elite": {
             "itemReward": "Ardougne cloak 4",

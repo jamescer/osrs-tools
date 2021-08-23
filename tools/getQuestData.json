@@ -1,1 +1,1177 @@
-[{"index": 4, "questName": "Romeo & Juliet", "difficulty": "Novice", "length": "Short", "questPoints": "5", "series": "N/A"}, {"index": 2, "questName": "Demon Slayer", "difficulty": "Novice", "length": "Medium", "questPoints": "3", "series": "N/A"}, {"index": 6, "questName": "Shield of Arrav", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "Mahjarrat"}, {"index": 5, "questName": "Sheep Shearer", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 3, "questName": "The Restless Ghost", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 7, "questName": "Ernest the Chicken", "difficulty": "Novice", "length": "Short", "questPoints": "4", "series": "N/A"}, {"index": 8, "questName": "Vampyre Slayer", "difficulty": "Novice", "length": "Short", "questPoints": "3", "series": "N/A"}, {"index": 9, "questName": "Imp Catcher", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 10, "questName": "Prince Ali Rescue", "difficulty": "Novice", "length": "Short", "questPoints": "3", "series": "N/A"}, {"index": 11, "questName": "Doric's Quest", "difficulty": "Novice", "length": "Very short", "questPoints": "1", "series": "N/A"}, {"index": 12, "questName": "Black Knights' Fortress", "difficulty": "Novice", "length": "Short", "questPoints": "3", "series": "N/A"}, {"index": 13, "questName": "Witch's Potion", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 14, "questName": "The Knight's Sword", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "N/A"}, {"index": 15, "questName": "Goblin Diplomacy", "difficulty": "Novice", "length": "Short", "questPoints": "5", "series": "N/A"}, {"index": 16, "questName": "Pirate's Treasure", "difficulty": "Novice", "length": "Short", "questPoints": "2", "series": "Pirate"}, {"index": 17, "questName": "Dragon Slayer I", "difficulty": "Experienced", "length": "Long", "questPoints": "2", "series": "Dragonkin"}, {"index": 51, "questName": "Rune Mysteries", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 130, "questName": "Misthalin Mystery", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 135, "questName": "The Corsair Curse", "difficulty": "Novice", "length": "Short", "questPoints": "2", "series": "N/A"}, {"index": 142, "questName": "X Marks the Spot", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Great Kourend"}, {"index": 1, "questName": "Cook's Assistant", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 18, "questName": "Druidic Ritual", "difficulty": "Novice", "length": "Short", "questPoints": "4", "series": "N/A"}, {"index": 19, "questName": "Lost City", "difficulty": "Experienced", "length": "Short", "questPoints": "3", "series": "Fairy Tale"}, {"index": 20, "questName": "Witch's House", "difficulty": "Intermediate", "length": "Short", "questPoints": "4", "series": "N/A"}, {"index": 21, "questName": "Merlin's Crystal", "difficulty": "Intermediate", "length": "Medium", "questPoints": "6", "series": "Camelot"}, {"index": 22, "questName": "Heroes' Quest", "difficulty": "Experienced", "length": "Medium \u2013 Long", "questPoints": "1", "series": "Guilds"}, {"index": 23, "questName": "Scorpion Catcher", "difficulty": "Intermediate", "length": "Short \u2013 Medium", "questPoints": "1", "series": "N/A"}, {"index": 24, "questName": "Family Crest", "difficulty": "Experienced", "length": "Medium", "questPoints": "1", "series": "N/A"}, {"index": 26, "questName": "Fishing Contest", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Dwarf"}, {"index": 25, "questName": "Tribal Totem", "difficulty": "Intermediate", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 27, "questName": "Monk's Friend", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 28, "questName": "Temple of Ikov", "difficulty": "Experienced", "length": "Medium", "questPoints": "1", "series": "Mahjarrat"}, {"index": 29, "questName": "Clock Tower", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 30, "questName": "Holy Grail", "difficulty": "Intermediate", "length": "Medium", "questPoints": "2", "series": "Camelot"}, {"index": 31, "questName": "Tree Gnome Village", "difficulty": "Intermediate", "length": "Short", "questPoints": "2", "series": "Gnome"}, {"index": 32, "questName": "Fight Arena", "difficulty": "Experienced", "length": "Short", "questPoints": "2", "series": "Mahjarrat"}, {"index": 33, "questName": "Hazeel Cult", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Mahjarrat"}, {"index": 34, "questName": "Sheep Herder", "difficulty": "Novice", "length": "Medium", "questPoints": "4", "series": "Plague/Elf"}, {"index": 35, "questName": "Plague City", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Elf"}, {"index": 36, "questName": "Sea Slug", "difficulty": "Intermediate", "length": "Short", "questPoints": "1", "series": "Sea Slug"}, {"index": 37, "questName": "Waterfall Quest", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "Elf"}, {"index": 39, "questName": "Jungle Potion", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Karamja"}, {"index": 40, "questName": "The Grand Tree", "difficulty": "Experienced", "length": "Medium", "questPoints": "5", "series": "Gnome"}, {"index": 42, "questName": "Underground Pass", "difficulty": "Experienced", "length": "Long \u2013 Very long", "questPoints": "5", "series": "Elf"}, {"index": 43, "questName": "Observatory Quest", "difficulty": "Novice", "length": "Medium", "questPoints": "2", "series": "N/A"}, {"index": 44, "questName": "The Tourist Trap", "difficulty": "Intermediate", "length": "Medium", "questPoints": "2", "series": "Desert"}, {"index": 45, "questName": "Watchtower", "difficulty": "Intermediate", "length": "Long", "questPoints": "4", "series": "Ogre"}, {"index": 46, "questName": "Dwarf Cannon", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 47, "questName": "Murder Mystery", "difficulty": "Novice", "length": "Short", "questPoints": "3", "series": "Camelot"}, {"index": 48, "questName": "The Dig Site", "difficulty": "Intermediate", "length": "Long", "questPoints": "2", "series": "The Return of Zaros"}, {"index": 49, "questName": "Gertrude's Cat", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 50, "questName": "Legends' Quest", "difficulty": "Master", "length": "Very long", "questPoints": "4", "series": "Karamja"}, {"index": 56, "questName": "Death Plateau", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "Troll"}, {"index": 60, "questName": "Eadgar's Ruse", "difficulty": "Experienced", "length": "Medium \u2013 Long", "questPoints": "1", "series": "Troll"}, {"index": 52, "questName": "Big Chompy Bird Hunting", "difficulty": "Intermediate", "length": "Short", "questPoints": "2", "series": "Ogre"}, {"index": 53, "questName": "Elemental Workshop I", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Elemental Workshop"}, {"index": 55, "questName": "Nature Spirit", "difficulty": "Novice", "length": "Medium", "questPoints": "2", "series": "Myreque"}, {"index": 54, "questName": "Priest in Peril", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "Myreque"}, {"index": 59, "questName": "Regicide", "difficulty": "Master", "length": "Long", "questPoints": "3", "series": "Elf"}, {"index": 58, "questName": "Tai Bwo Wannai Trio", "difficulty": "Intermediate", "length": "Long", "questPoints": "2", "series": "Karamja"}, {"index": 57, "questName": "Troll Stronghold", "difficulty": "Experienced", "length": "Short \u2013 Medium", "questPoints": "1", "series": "Troll"}, {"index": 61, "questName": "Shades of Mort'ton", "difficulty": "Intermediate", "length": "Short", "questPoints": "3", "series": "Mort'ton"}, {"index": 62, "questName": "The Fremennik Trials", "difficulty": "Intermediate", "length": "Long", "questPoints": "3", "series": "Fremennik"}, {"index": 63, "questName": "Horror from the Deep", "difficulty": "Experienced", "length": "Short", "questPoints": "2", "series": "Fremennik"}, {"index": 64, "questName": "Throne of Miscellania", "difficulty": "Experienced", "length": "Medium", "questPoints": "1", "series": "Fremennik"}, {"index": 65, "questName": "Monkey Madness I", "difficulty": "Master", "length": "Long", "questPoints": "3", "series": "Gnome"}, {"index": 66, "questName": "Haunted Mine", "difficulty": "Experienced", "length": "Medium \u2013 Long", "questPoints": "2", "series": "N/A"}, {"index": 67, "questName": "Troll Romance", "difficulty": "Experienced", "length": "Medium", "questPoints": "2", "series": "Troll"}, {"index": 68, "questName": "In Search of the Myreque", "difficulty": "Intermediate", "length": "Short", "questPoints": "2", "series": "Myreque"}, {"index": 69, "questName": "Creature of Fenkenstrain", "difficulty": "Intermediate", "length": "Medium", "questPoints": "2", "series": "N/A"}, {"index": 70, "questName": "Roving Elves", "difficulty": "Master", "length": "Short \u2013 Medium", "questPoints": "1", "series": "Elf"}, {"index": 71, "questName": "Ghosts Ahoy", "difficulty": "Intermediate", "length": "Medium \u2013 Long", "questPoints": "2", "series": "N/A"}, {"index": 72, "questName": "One Small Favour", "difficulty": "Experienced", "length": "Very long", "questPoints": "2", "series": "Karamja"}, {"index": 73, "questName": "Mountain Daughter", "difficulty": "Intermediate", "length": "Medium", "questPoints": "2", "series": "Fremennik"}, {"index": 74, "questName": "Between a Rock...", "difficulty": "Experienced", "length": "Medium \u2013 Long", "questPoints": "2", "series": "Rise of the Red Axe"}, {"index": 75, "questName": "The Feud", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "Desert"}, {"index": 76, "questName": "The Golem", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "N/A"}, {"index": 77, "questName": "Desert Treasure", "difficulty": "Master", "length": "Very long", "questPoints": "3", "series": "The Return of Zaros"}, {"index": 78, "questName": "Icthlarin's Little Helper", "difficulty": "Intermediate", "length": "Medium \u2013 Long", "questPoints": "2", "series": "Desert"}, {"index": 79, "questName": "Tears of Guthix", "difficulty": "Intermediate", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 81, "questName": "The Lost Tribe", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "Dorgeshuun"}, {"index": 82, "questName": "The Giant Dwarf", "difficulty": "Intermediate", "length": "Medium \u2013 Long", "questPoints": "2", "series": "Rise of the Red Axe"}, {"index": 83, "questName": "Recruitment Drive", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Temple Knight"}, {"index": 84, "questName": "Mourning's End Part I", "difficulty": "Master", "length": "Long \u2013 Very long", "questPoints": "2", "series": "Elf"}, {"index": 85, "questName": "Forgettable Tale...", "difficulty": "Intermediate", "length": "Long", "questPoints": "2", "series": "Rise of the Red Axe"}, {"index": 86, "questName": "Garden of Tranquillity", "difficulty": "Intermediate", "length": "Very long", "questPoints": "2", "series": "N/A"}, {"index": 87, "questName": "A Tail of Two Cats", "difficulty": "Intermediate", "length": "Long", "questPoints": "2", "series": "Dragonkin"}, {"index": 88, "questName": "Wanted!", "difficulty": "Intermediate", "length": "Long", "questPoints": "1", "series": "Temple Knight"}, {"index": 89, "questName": "Mourning's End Part II", "difficulty": "Master", "length": "Medium \u2013 Long", "questPoints": "2", "series": "Elf"}, {"index": 90, "questName": "Rum Deal", "difficulty": "Experienced", "length": "Medium", "questPoints": "2", "series": "Pirate"}, {"index": 91, "questName": "Shadow of the Storm", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "N/A"}, {"index": 92, "questName": "Making History", "difficulty": "Intermediate", "length": "Short \u2013 Long", "questPoints": "3", "series": "Enchanted Key"}, {"index": 93, "questName": "Ratcatchers", "difficulty": "Intermediate", "length": "Medium", "questPoints": "2", "series": "N/A"}, {"index": 94, "questName": "Spirits of the Elid", "difficulty": "Intermediate", "length": "Medium", "questPoints": "2", "series": "Desert"}, {"index": 95, "questName": "Devious Minds", "difficulty": "Experienced", "length": "Short", "questPoints": "1", "series": "The Return of Zaros"}, {"index": 96, "questName": "The Hand in the Sand", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "N/A"}, {"index": 97, "questName": "Enakhra's Lament", "difficulty": "Experienced", "length": "Medium", "questPoints": "2", "series": "Mahjarrat"}, {"index": 98, "questName": "Cabin Fever", "difficulty": "Experienced", "length": "Medium", "questPoints": "2", "series": "Pirate"}, {"index": 99, "questName": "Fairytale I - Growing Pains", "difficulty": "Experienced", "length": "Long", "questPoints": "2", "series": "Fairy Tale"}, {"index": 100, "questName": "Recipe for Disaster", "difficulty": "Special", "length": "Very long", "questPoints": "10", "series": "N/A"}, {"index": 101, "questName": "In Aid of the Myreque", "difficulty": "Intermediate", "length": "Long", "questPoints": "2", "series": "Myreque"}, {"index": 102, "questName": "A Soul's Bane", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "N/A"}, {"index": 103, "questName": "Rag and Bone Man I", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "N/A"}, {"index": 105, "questName": "Swan Song", "difficulty": "Master", "length": "Medium", "questPoints": "2", "series": "Wise Old Man"}, {"index": 106, "questName": "Royal Trouble", "difficulty": "Experienced", "length": "Medium", "questPoints": "1", "series": "Fremennik"}, {"index": 107, "questName": "Death to the Dorgeshuun", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "Dorgeshuun"}, {"index": 108, "questName": "Fairytale II - Cure a Queen", "difficulty": "Experienced", "length": "Short \u2013 Medium", "questPoints": "2", "series": "Fairy Tale"}, {"index": 109, "questName": "Lunar Diplomacy", "difficulty": "Experienced", "length": "Long", "questPoints": "2", "series": "Fremennik"}, {"index": 110, "questName": "The Eyes of Glouphrie", "difficulty": "Intermediate", "length": "Medium \u2013 Long", "questPoints": "2", "series": "Gnome"}, {"index": 111, "questName": "Darkness of Hallowvale", "difficulty": "Intermediate", "length": "Very long", "questPoints": "2", "series": "Myreque"}, {"index": 112, "questName": "The Slug Menace", "difficulty": "Intermediate", "length": "Medium \u2013 Long", "questPoints": "1", "series": "Sea Slug"}, {"index": 113, "questName": "Elemental Workshop II", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "Elemental Workshop"}, {"index": 114, "questName": "My Arm's Big Adventure", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "Troll"}, {"index": 115, "questName": "Enlightened Journey", "difficulty": "Intermediate", "length": "Short \u2013 Long", "questPoints": "1", "series": "N/A"}, {"index": 116, "questName": "Eagles' Peak", "difficulty": "Novice", "length": "Medium", "questPoints": "2", "series": "N/A"}, {"index": 117, "questName": "Animal Magnetism", "difficulty": "Intermediate", "length": "Medium \u2013 Long", "questPoints": "1", "series": "N/A"}, {"index": 118, "questName": "Contact!", "difficulty": "Master", "length": "Medium", "questPoints": "1", "series": "Desert"}, {"index": 119, "questName": "Cold War", "difficulty": "Intermediate", "length": "Medium \u2013 Long", "questPoints": "1", "series": "Penguin"}, {"index": 120, "questName": "The Fremennik Isles", "difficulty": "Experienced", "length": "Long", "questPoints": "1", "series": "Fremennik"}, {"index": 122, "questName": "The Great Brain Robbery", "difficulty": "Experienced", "length": "Medium", "questPoints": "2", "series": "Pirate"}, {"index": 123, "questName": "What Lies Below", "difficulty": "Intermediate", "length": "Short \u2013 Medium", "questPoints": "1", "series": "N/A"}, {"index": 124, "questName": "Olaf's Quest", "difficulty": "Intermediate", "length": "Short \u2013 Long", "questPoints": "1", "series": "Fremennik"}, {"index": 125, "questName": "Another Slice of H.A.M.", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "Dorgeshuun"}, {"index": 126, "questName": "Dream Mentor", "difficulty": "Master", "length": "Short \u2013 Medium", "questPoints": "2", "series": "Fremennik"}, {"index": 127, "questName": "Grim Tales", "difficulty": "Master", "length": "Medium", "questPoints": "1", "series": "N/A"}, {"index": 128, "questName": "King's Ransom", "difficulty": "Experienced", "length": "Medium", "questPoints": "1", "series": "Camelot"}, {"index": 41, "questName": "Shilo Village", "difficulty": "Experienced", "length": "Medium \u2013 Long", "questPoints": "2", "series": "Karamja"}, {"index": 38, "questName": "Biohazard", "difficulty": "Novice", "length": "Medium", "questPoints": "3", "series": "Elf"}, {"index": 121, "questName": "Tower of Life", "difficulty": "Novice", "length": "Medium", "questPoints": "2", "series": "N/A"}, {"index": 104, "questName": "Rag and Bone Man II", "difficulty": "Intermediate", "length": "Long", "questPoints": "1", "series": "N/A"}, {"index": 80, "questName": "Zogre Flesh Eaters", "difficulty": "Intermediate", "length": "Medium", "questPoints": "1", "series": "Ogre"}, {"index": 129, "questName": "Monkey Madness II", "difficulty": "Grandmaster", "length": "Very long", "questPoints": "4", "series": "Gnome"}, {"index": 131, "questName": "Client of Kourend", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "Great Kourend"}, {"index": 133, "questName": "The Queen of Thieves", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Great Kourend"}, {"index": 132, "questName": "Bone Voyage", "difficulty": "Intermediate", "length": "Short \u2013 Medium", "questPoints": "1", "series": "N/A"}, {"index": 136, "questName": "Dragon Slayer II", "difficulty": "Grandmaster", "length": "Very long", "questPoints": "5", "series": "Dragonkin"}, {"index": 134, "questName": "The Depths of Despair", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "Great Kourend"}, {"index": 138, "questName": "A Taste of Hope", "difficulty": "Experienced", "length": "Long", "questPoints": "1", "series": "Myreque"}, {"index": 137, "questName": "Tale of the Righteous", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "Great Kourend"}, {"index": 139, "questName": "Making Friends with My Arm", "difficulty": "Master", "length": "Medium", "questPoints": "2", "series": "Troll"}, {"index": 143, "questName": "Song of the Elves", "difficulty": "Grandmaster", "length": "Very long", "questPoints": "4", "series": "Elf"}, {"index": 141, "questName": "The Ascent of Arceuus", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "Great Kourend"}, {"index": 140, "questName": "The Forsaken Tower", "difficulty": "Novice", "length": "Medium", "questPoints": "1", "series": "Great Kourend"}, {"index": 144, "questName": "The Fremennik Exiles", "difficulty": "Master", "length": "Medium", "questPoints": "2", "series": "Fremennik"}, {"index": 145, "questName": "Sins of the Father", "difficulty": "Master", "length": "Long", "questPoints": "2", "series": "Myreque"}, {"index": 146, "questName": "A Porcine of Interest", "difficulty": "Novice", "length": "Short", "questPoints": "1", "series": "N/A"}, {"index": 147, "questName": "Getting Ahead", "difficulty": "Intermediate", "length": "Short", "questPoints": "1", "series": "Twisted Tales"}]
+[{
+        "index": 4,
+        "questName": "Romeo & Juliet",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "5",
+        "series": "N/A"
+    },
+    {
+        "index": 2,
+        "questName": "Demon Slayer",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "3",
+        "series": "N/A"
+    },
+    {
+        "index": 6,
+        "questName": "Shield of Arrav",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Mahjarrat"
+    },
+    {
+        "index": 5,
+        "questName": "Sheep Shearer",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 3,
+        "questName": "The Restless Ghost",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 7,
+        "questName": "Ernest the Chicken",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "4",
+        "series": "N/A"
+    },
+    {
+        "index": 8,
+        "questName": "Vampyre Slayer",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "3",
+        "series": "N/A"
+    },
+    {
+        "index": 9,
+        "questName": "Imp Catcher",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 10,
+        "questName": "Prince Ali Rescue",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "3",
+        "series": "N/A"
+    },
+    {
+        "index": 11,
+        "questName": "Doric's Quest",
+        "difficulty": "Novice",
+        "length": "Very short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 12,
+        "questName": "Black Knights' Fortress",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "3",
+        "series": "N/A"
+    },
+    {
+        "index": 13,
+        "questName": "Witch's Potion",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 14,
+        "questName": "The Knight's Sword",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 15,
+        "questName": "Goblin Diplomacy",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "5",
+        "series": "N/A"
+    },
+    {
+        "index": 16,
+        "questName": "Pirate's Treasure",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "2",
+        "series": "Pirate"
+    },
+    {
+        "index": 17,
+        "questName": "Dragon Slayer I",
+        "difficulty": "Experienced",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "Dragonkin"
+    },
+    {
+        "index": 51,
+        "questName": "Rune Mysteries",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 130,
+        "questName": "Misthalin Mystery",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 135,
+        "questName": "The Corsair Curse",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 142,
+        "questName": "X Marks the Spot",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Great Kourend"
+    },
+    {
+        "index": 1,
+        "questName": "Cook's Assistant",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 18,
+        "questName": "Druidic Ritual",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "4",
+        "series": "N/A"
+    },
+    {
+        "index": 19,
+        "questName": "Lost City",
+        "difficulty": "Experienced",
+        "length": "Short",
+        "questPoints": "3",
+        "series": "Fairy Tale"
+    },
+    {
+        "index": 20,
+        "questName": "Witch's House",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "4",
+        "series": "N/A"
+    },
+    {
+        "index": 21,
+        "questName": "Merlin's Crystal",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "6",
+        "series": "Camelot"
+    },
+    {
+        "index": 22,
+        "questName": "Heroes' Quest",
+        "difficulty": "Experienced",
+        "length": "Medium \u2013 Long",
+        "questPoints": "1",
+        "series": "Guilds"
+    },
+    {
+        "index": 23,
+        "questName": "Scorpion Catcher",
+        "difficulty": "Intermediate",
+        "length": "Short \u2013 Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 24,
+        "questName": "Family Crest",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 26,
+        "questName": "Fishing Contest",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Dwarf"
+    },
+    {
+        "index": 25,
+        "questName": "Tribal Totem",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 27,
+        "questName": "Monk's Friend",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 28,
+        "questName": "Temple of Ikov",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Mahjarrat"
+    },
+    {
+        "index": 29,
+        "questName": "Clock Tower",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 30,
+        "questName": "Holy Grail",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Camelot"
+    },
+    {
+        "index": 31,
+        "questName": "Tree Gnome Village",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "2",
+        "series": "Gnome"
+    },
+    {
+        "index": 32,
+        "questName": "Fight Arena",
+        "difficulty": "Experienced",
+        "length": "Short",
+        "questPoints": "2",
+        "series": "Mahjarrat"
+    },
+    {
+        "index": 33,
+        "questName": "Hazeel Cult",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Mahjarrat"
+    },
+    {
+        "index": 34,
+        "questName": "Sheep Herder",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "4",
+        "series": "Plague/Elf"
+    },
+    {
+        "index": 35,
+        "questName": "Plague City",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Elf"
+    },
+    {
+        "index": 36,
+        "questName": "Sea Slug",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Sea Slug"
+    },
+    {
+        "index": 37,
+        "questName": "Waterfall Quest",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Elf"
+    },
+    {
+        "index": 39,
+        "questName": "Jungle Potion",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Karamja"
+    },
+    {
+        "index": 40,
+        "questName": "The Grand Tree",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "5",
+        "series": "Gnome"
+    },
+    {
+        "index": 42,
+        "questName": "Underground Pass",
+        "difficulty": "Experienced",
+        "length": "Long \u2013 Very long",
+        "questPoints": "5",
+        "series": "Elf"
+    },
+    {
+        "index": 43,
+        "questName": "Observatory Quest",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 44,
+        "questName": "The Tourist Trap",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Desert"
+    },
+    {
+        "index": 45,
+        "questName": "Watchtower",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "4",
+        "series": "Ogre"
+    },
+    {
+        "index": 46,
+        "questName": "Dwarf Cannon",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 47,
+        "questName": "Murder Mystery",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "3",
+        "series": "Camelot"
+    },
+    {
+        "index": 48,
+        "questName": "The Dig Site",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "The Return of Zaros"
+    },
+    {
+        "index": 49,
+        "questName": "Gertrude's Cat",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 50,
+        "questName": "Legends' Quest",
+        "difficulty": "Master",
+        "length": "Very long",
+        "questPoints": "4",
+        "series": "Karamja"
+    },
+    {
+        "index": 56,
+        "questName": "Death Plateau",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Troll"
+    },
+    {
+        "index": 60,
+        "questName": "Eadgar's Ruse",
+        "difficulty": "Experienced",
+        "length": "Medium \u2013 Long",
+        "questPoints": "1",
+        "series": "Troll"
+    },
+    {
+        "index": 52,
+        "questName": "Big Chompy Bird Hunting",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "2",
+        "series": "Ogre"
+    },
+    {
+        "index": 53,
+        "questName": "Elemental Workshop I",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Elemental Workshop"
+    },
+    {
+        "index": 55,
+        "questName": "Nature Spirit",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Myreque"
+    },
+    {
+        "index": 54,
+        "questName": "Priest in Peril",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Myreque"
+    },
+    {
+        "index": 59,
+        "questName": "Regicide",
+        "difficulty": "Master",
+        "length": "Long",
+        "questPoints": "3",
+        "series": "Elf"
+    },
+    {
+        "index": 58,
+        "questName": "Tai Bwo Wannai Trio",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "Karamja"
+    },
+    {
+        "index": 57,
+        "questName": "Troll Stronghold",
+        "difficulty": "Experienced",
+        "length": "Short \u2013 Medium",
+        "questPoints": "1",
+        "series": "Troll"
+    },
+    {
+        "index": 61,
+        "questName": "Shades of Mort'ton",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "3",
+        "series": "Mort'ton"
+    },
+    {
+        "index": 62,
+        "questName": "The Fremennik Trials",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "3",
+        "series": "Fremennik"
+    },
+    {
+        "index": 63,
+        "questName": "Horror from the Deep",
+        "difficulty": "Experienced",
+        "length": "Short",
+        "questPoints": "2",
+        "series": "Fremennik"
+    },
+    {
+        "index": 64,
+        "questName": "Throne of Miscellania",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Fremennik"
+    },
+    {
+        "index": 65,
+        "questName": "Monkey Madness I",
+        "difficulty": "Master",
+        "length": "Long",
+        "questPoints": "3",
+        "series": "Gnome"
+    },
+    {
+        "index": 66,
+        "questName": "Haunted Mine",
+        "difficulty": "Experienced",
+        "length": "Medium \u2013 Long",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 67,
+        "questName": "Troll Romance",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Troll"
+    },
+    {
+        "index": 68,
+        "questName": "In Search of the Myreque",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "2",
+        "series": "Myreque"
+    },
+    {
+        "index": 69,
+        "questName": "Creature of Fenkenstrain",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 70,
+        "questName": "Roving Elves",
+        "difficulty": "Master",
+        "length": "Short \u2013 Medium",
+        "questPoints": "1",
+        "series": "Elf"
+    },
+    {
+        "index": 71,
+        "questName": "Ghosts Ahoy",
+        "difficulty": "Intermediate",
+        "length": "Medium \u2013 Long",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 72,
+        "questName": "One Small Favour",
+        "difficulty": "Experienced",
+        "length": "Very long",
+        "questPoints": "2",
+        "series": "Karamja"
+    },
+    {
+        "index": 73,
+        "questName": "Mountain Daughter",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Fremennik"
+    },
+    {
+        "index": 74,
+        "questName": "Between a Rock...",
+        "difficulty": "Experienced",
+        "length": "Medium \u2013 Long",
+        "questPoints": "2",
+        "series": "Rise of the Red Axe"
+    },
+    {
+        "index": 75,
+        "questName": "The Feud",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Desert"
+    },
+    {
+        "index": 76,
+        "questName": "The Golem",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 77,
+        "questName": "Desert Treasure",
+        "difficulty": "Master",
+        "length": "Very long",
+        "questPoints": "3",
+        "series": "The Return of Zaros"
+    },
+    {
+        "index": 78,
+        "questName": "Icthlarin's Little Helper",
+        "difficulty": "Intermediate",
+        "length": "Medium \u2013 Long",
+        "questPoints": "2",
+        "series": "Desert"
+    },
+    {
+        "index": 79,
+        "questName": "Tears of Guthix",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 81,
+        "questName": "The Lost Tribe",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Dorgeshuun"
+    },
+    {
+        "index": 82,
+        "questName": "The Giant Dwarf",
+        "difficulty": "Intermediate",
+        "length": "Medium \u2013 Long",
+        "questPoints": "2",
+        "series": "Rise of the Red Axe"
+    },
+    {
+        "index": 83,
+        "questName": "Recruitment Drive",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Temple Knight"
+    },
+    {
+        "index": 84,
+        "questName": "Mourning's End Part I",
+        "difficulty": "Master",
+        "length": "Long \u2013 Very long",
+        "questPoints": "2",
+        "series": "Elf"
+    },
+    {
+        "index": 85,
+        "questName": "Forgettable Tale...",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "Rise of the Red Axe"
+    },
+    {
+        "index": 86,
+        "questName": "Garden of Tranquillity",
+        "difficulty": "Intermediate",
+        "length": "Very long",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 87,
+        "questName": "A Tail of Two Cats",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "Dragonkin"
+    },
+    {
+        "index": 88,
+        "questName": "Wanted!",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "1",
+        "series": "Temple Knight"
+    },
+    {
+        "index": 89,
+        "questName": "Mourning's End Part II",
+        "difficulty": "Master",
+        "length": "Medium \u2013 Long",
+        "questPoints": "2",
+        "series": "Elf"
+    },
+    {
+        "index": 90,
+        "questName": "Rum Deal",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Pirate"
+    },
+    {
+        "index": 91,
+        "questName": "Shadow of the Storm",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 92,
+        "questName": "Making History",
+        "difficulty": "Intermediate",
+        "length": "Short \u2013 Long",
+        "questPoints": "3",
+        "series": "Enchanted Key"
+    },
+    {
+        "index": 93,
+        "questName": "Ratcatchers",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 94,
+        "questName": "Spirits of the Elid",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Desert"
+    },
+    {
+        "index": 95,
+        "questName": "Devious Minds",
+        "difficulty": "Experienced",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "The Return of Zaros"
+    },
+    {
+        "index": 96,
+        "questName": "The Hand in the Sand",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 97,
+        "questName": "Enakhra's Lament",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Mahjarrat"
+    },
+    {
+        "index": 98,
+        "questName": "Cabin Fever",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Pirate"
+    },
+    {
+        "index": 99,
+        "questName": "Fairytale I - Growing Pains",
+        "difficulty": "Experienced",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "Fairy Tale"
+    },
+    {
+        "index": 100,
+        "questName": "Recipe for Disaster",
+        "difficulty": "Special",
+        "length": "Very long",
+        "questPoints": "10",
+        "series": "N/A"
+    },
+    {
+        "index": 101,
+        "questName": "In Aid of the Myreque",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "Myreque"
+    },
+    {
+        "index": 102,
+        "questName": "A Soul's Bane",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 103,
+        "questName": "Rag and Bone Man I",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 105,
+        "questName": "Swan Song",
+        "difficulty": "Master",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Wise Old Man"
+    },
+    {
+        "index": 106,
+        "questName": "Royal Trouble",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Fremennik"
+    },
+    {
+        "index": 107,
+        "questName": "Death to the Dorgeshuun",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Dorgeshuun"
+    },
+    {
+        "index": 108,
+        "questName": "Fairytale II - Cure a Queen",
+        "difficulty": "Experienced",
+        "length": "Short \u2013 Medium",
+        "questPoints": "2",
+        "series": "Fairy Tale"
+    },
+    {
+        "index": 109,
+        "questName": "Lunar Diplomacy",
+        "difficulty": "Experienced",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "Fremennik"
+    },
+    {
+        "index": 110,
+        "questName": "The Eyes of Glouphrie",
+        "difficulty": "Intermediate",
+        "length": "Medium \u2013 Long",
+        "questPoints": "2",
+        "series": "Gnome"
+    },
+    {
+        "index": 111,
+        "questName": "Darkness of Hallowvale",
+        "difficulty": "Intermediate",
+        "length": "Very long",
+        "questPoints": "2",
+        "series": "Myreque"
+    },
+    {
+        "index": 112,
+        "questName": "The Slug Menace",
+        "difficulty": "Intermediate",
+        "length": "Medium \u2013 Long",
+        "questPoints": "1",
+        "series": "Sea Slug"
+    },
+    {
+        "index": 113,
+        "questName": "Elemental Workshop II",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Elemental Workshop"
+    },
+    {
+        "index": 114,
+        "questName": "My Arm's Big Adventure",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Troll"
+    },
+    {
+        "index": 115,
+        "questName": "Enlightened Journey",
+        "difficulty": "Intermediate",
+        "length": "Short \u2013 Long",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 116,
+        "questName": "Eagles' Peak",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 117,
+        "questName": "Animal Magnetism",
+        "difficulty": "Intermediate",
+        "length": "Medium \u2013 Long",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 118,
+        "questName": "Contact!",
+        "difficulty": "Master",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Desert"
+    },
+    {
+        "index": 119,
+        "questName": "Cold War",
+        "difficulty": "Intermediate",
+        "length": "Medium \u2013 Long",
+        "questPoints": "1",
+        "series": "Penguin"
+    },
+    {
+        "index": 120,
+        "questName": "The Fremennik Isles",
+        "difficulty": "Experienced",
+        "length": "Long",
+        "questPoints": "1",
+        "series": "Fremennik"
+    },
+    {
+        "index": 122,
+        "questName": "The Great Brain Robbery",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Pirate"
+    },
+    {
+        "index": 123,
+        "questName": "What Lies Below",
+        "difficulty": "Intermediate",
+        "length": "Short \u2013 Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 124,
+        "questName": "Olaf's Quest",
+        "difficulty": "Intermediate",
+        "length": "Short \u2013 Long",
+        "questPoints": "1",
+        "series": "Fremennik"
+    },
+    {
+        "index": 125,
+        "questName": "Another Slice of H.A.M.",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Dorgeshuun"
+    },
+    {
+        "index": 126,
+        "questName": "Dream Mentor",
+        "difficulty": "Master",
+        "length": "Short \u2013 Medium",
+        "questPoints": "2",
+        "series": "Fremennik"
+    },
+    {
+        "index": 127,
+        "questName": "Grim Tales",
+        "difficulty": "Master",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 128,
+        "questName": "King's Ransom",
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Camelot"
+    },
+    {
+        "index": 41,
+        "questName": "Shilo Village",
+        "difficulty": "Experienced",
+        "length": "Medium \u2013 Long",
+        "questPoints": "2",
+        "series": "Karamja"
+    },
+    {
+        "index": 38,
+        "questName": "Biohazard",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "3",
+        "series": "Elf"
+    },
+    {
+        "index": 121,
+        "questName": "Tower of Life",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "N/A"
+    },
+    {
+        "index": 104,
+        "questName": "Rag and Bone Man II",
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 80,
+        "questName": "Zogre Flesh Eaters",
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Ogre"
+    },
+    {
+        "index": 129,
+        "questName": "Monkey Madness II",
+        "difficulty": "Grandmaster",
+        "length": "Very long",
+        "questPoints": "4",
+        "series": "Gnome"
+    },
+    {
+        "index": 131,
+        "questName": "Client of Kourend",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Great Kourend"
+    },
+    {
+        "index": 133,
+        "questName": "The Queen of Thieves",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Great Kourend"
+    },
+    {
+        "index": 132,
+        "questName": "Bone Voyage",
+        "difficulty": "Intermediate",
+        "length": "Short \u2013 Medium",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 136,
+        "questName": "Dragon Slayer II",
+        "difficulty": "Grandmaster",
+        "length": "Very long",
+        "questPoints": "5",
+        "series": "Dragonkin"
+    },
+    {
+        "index": 134,
+        "questName": "The Depths of Despair",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Great Kourend"
+    },
+    {
+        "index": 138,
+        "questName": "A Taste of Hope",
+        "difficulty": "Experienced",
+        "length": "Long",
+        "questPoints": "1",
+        "series": "Myreque"
+    },
+    {
+        "index": 137,
+        "questName": "Tale of the Righteous",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Great Kourend"
+    },
+    {
+        "index": 139,
+        "questName": "Making Friends with My Arm",
+        "difficulty": "Master",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Troll"
+    },
+    {
+        "index": 143,
+        "questName": "Song of the Elves",
+        "difficulty": "Grandmaster",
+        "length": "Very long",
+        "questPoints": "4",
+        "series": "Elf"
+    },
+    {
+        "index": 141,
+        "questName": "The Ascent of Arceuus",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Great Kourend"
+    },
+    {
+        "index": 140,
+        "questName": "The Forsaken Tower",
+        "difficulty": "Novice",
+        "length": "Medium",
+        "questPoints": "1",
+        "series": "Great Kourend"
+    },
+    {
+        "index": 144,
+        "questName": "The Fremennik Exiles",
+        "difficulty": "Master",
+        "length": "Medium",
+        "questPoints": "2",
+        "series": "Fremennik"
+    },
+    {
+        "index": 145,
+        "questName": "Sins of the Father",
+        "difficulty": "Master",
+        "length": "Long",
+        "questPoints": "2",
+        "series": "Myreque"
+    },
+    {
+        "index": 146,
+        "questName": "A Porcine of Interest",
+        "difficulty": "Novice",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "N/A"
+    },
+    {
+        "index": 147,
+        "questName": "Getting Ahead",
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "questPoints": "1",
+        "series": "Twisted Tales"
+    }
+]

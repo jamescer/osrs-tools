@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Acorn",
+        "level": 15,
+        "exp": {
+            "plant": 14,
+            "checkhealth": 467.3,
+            "total": 481.3
+        },
+        "xp": 481.3,
+        "type": "tree",
+        "time": "3hrs 20mins",
+        "protection": {
+            "item": "Tomatoes(5)",
+            "amount": 1
+        },
+        "uses": [
+            "Source of oak logs",
+            "Axeman's folly ingredient (Roots)"
+        ]
+    },
+    {
+        "name": "Willow",
+        "level": 30,
+        "exp": {
+            "plant": 25,
+            "checkhealth": 1456.5,
+            "total": 1481.5
+        },
+        "xp": 1481.5,
+        "type": "tree",
+        "time": "4hrs 40mins",
+        "protection": {
+            "item": "Apples(5)",
+            "amount": 1
+        },
+        "uses": [
+            "Source of willow logs",
+            "Weaving a Basket on a loom (Branch)",
+            "Quest item - Enlightened Journey (Branch)"
+        ]
+    },
+    {
+        "name": "Maple",
+        "level": 45,
+        "exp": {
+            "plant": 45,
+            "checkhealth": 3403.4,
+            "total": 3448.4
+        },
+        "xp": 3448.4,
+        "type": "tree",
+        "time": "5hrs 20mins",
+        "protection": {
+            "item": "Oranges(5)",
+            "amount": 1
+        },
+        "uses": [
+            "Source of maple logs"
+        ]
+    },
+    {
+        "name": "Yew",
+        "level": 60,
+        "exp": {
+            "plant": 81,
+            "checkhealth": 7069.9,
+            "total": 7150.9
+        },
+        "xp": 7150.9,
+        "type": "tree",
+        "time": "6hrs 40mins",
+        "protection": {
+            "item": "Cactus spine",
+            "amount": 10
+        },
+        "uses": [
+            "Source of yew logs",
+            "Antipoison+ ingredient (Roots)"
+        ]
+    },
+    {
+        "name": "Magic",
+        "level": 75,
+        "exp": {
+            "plant": 145.5,
+            "checkhealth": 13768.3,
+            "total": 13913.8
+        },
+        "xp": 13913.8,
+        "type": "tree",
+        "time": "6hrs 40mins",
+        "protection": {
+            "item": "Coconut",
+            "amount": 25
+        },
+        "uses": [
+            "Source of magic logs",
+            "Making magic string (Roots)",
+            "Antipoison++ ingredient (Roots)"
+        ]
+    }
+]

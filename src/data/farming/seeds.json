@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Babyseed",
+        "level": 0,
+        "xp": 0,
+        "type": "god"
+    },
+    {
+        "name": "Potato",
+        "level": 1,
+        "xp": 98,
+        "type": "allotment"
+    },
+    {
+        "name": "Onion",
+        "level": 5,
+        "xp": 114.5,
+        "type": "allotment"
+    },
+    {
+        "name": "Cabbage",
+        "level": 7,
+        "xp": 125,
+        "type": "allotment"
+    },
+    {
+        "name": "Tomato",
+        "level": 12,
+        "xp": 152.5,
+        "type": "allotment"
+    },
+    {
+        "name": "Sweetcorn",
+        "level": 20,
+        "xp": 207,
+        "type": "allotment"
+    },
+    {
+        "name": "Strawberry",
+        "level": 31,
+        "xp": 316,
+        "type": "allotment"
+    },
+    {
+        "name": "Watermelon",
+        "level": 47,
+        "xp": 593.5,
+        "type": "allotment"
+    },
+    {
+        "name": "Marigold",
+        "level": 2,
+        "xp": 55.5,
+        "type": "flower"
+    },
+    {
+        "name": "Rosemary",
+        "level": 11,
+        "xp": 78.5,
+        "type": "flower"
+    },
+    {
+        "name": "Nasturtium",
+        "level": 24,
+        "xp": 130.5,
+        "type": "flower"
+    },
+    {
+        "name": "Woad",
+        "level": 25,
+        "xp": 136,
+        "type": "flower"
+    },
+    {
+        "name": "Limpwurt",
+        "level": 26,
+        "xp": 160,
+        "type": "flower"
+    },
+    {
+        "name": "Guam",
+        "level": 9,
+        "xp": 98.5,
+        "type": "herb"
+    },
+    {
+        "name": "Marrentill",
+        "level": 14,
+        "xp": 118.5,
+        "type": "herb"
+    },
+    {
+        "name": "Tarromin",
+        "level": 19,
+        "xp": 142,
+        "type": "herb"
+    },
+    {
+        "name": "Harralander",
+        "level": 26,
+        "xp": 189.5,
+        "type": "herb"
+    },
+    {
+        "name": "Gout",
+        "level": 29,
+        "xp": 420,
+        "type": "herb"
+    },
+    {
+        "name": "Ranarr",
+        "level": 32,
+        "xp": 240.5,
+        "type": "herb"
+    },
+    {
+        "name": "Toadflax",
+        "level": 38,
+        "xp": 303.5,
+        "type": "herb"
+    },
+    {
+        "name": "Irit",
+        "level": 44,
+        "xp": 382.5,
+        "type": "herb"
+    },
+    {
+        "name": "Avantoe",
+        "level": 50,
+        "xp": 485,
+        "type": "herb"
+    },
+    {
+        "name": "Kwuarm",
+        "level": 56,
+        "xp": 615,
+        "type": "herb"
+    },
+    {
+        "name": "Snapdragon",
+        "level": 62,
+        "xp": 777,
+        "type": "herb"
+    },
+    {
+        "name": "Cadantine",
+        "level": 67,
+        "xp": 946.5,
+        "type": "herb"
+    },
+    {
+        "name": "Lantadyme",
+        "level": 73,
+        "xp": 1195,
+        "type": "herb"
+    },
+    {
+        "name": "Dwarf",
+        "level": 79,
+        "xp": 1514.5,
+        "type": "herb"
+    },
+    {
+        "name": "Torstol",
+        "level": 85,
+        "xp": 1771,
+        "type": "herb"
+    }
+]

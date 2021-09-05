@@ -1,7 +1,7 @@
 {
-    "name": "osrs-quest-tool",
+    "name": "osrs-tools",
     "description": "A typescript package to provide the json for all current old school runescape quests. Creating tools to help junior software developers create things they are passionate about. Work in progress and issues should be reported to jamescer@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com",
-    "version": "0.4.5",
+    "version": "0.1.1",
     "main": "./src/index.ts",
     "notes": [],
     "test": "node src/test.ts",
@@ -18,16 +18,17 @@
         "src/**"
     ],
     "bin": {
-        "osrs-quest-tool": "src/cli.js"
+        "osrs-tools": "src/cli.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jamescer/osrs-quest-tool.git"
+        "url": "git+https://github.com/jamescer/osrs-tools.git"
     },
     "keywords": [
         "runescape",
         "osrs",
         "old school runescape",
+        "osrs tools",
         "osrs quest",
         "osrs quest api",
         "osrs-quest-api",

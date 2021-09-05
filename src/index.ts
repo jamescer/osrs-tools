@@ -11,7 +11,7 @@ import { SubQuestArray } from './data/quest/subQuestArray';
  * Returns the highest boost for the specified skillName
  * @deprecated
  */
-function highestBoost(skillName) {
+function highestBoost(skillName: string) {
   /**
    * List of highest boostable levels with skills including spicy stew etc
    */
@@ -58,13 +58,13 @@ function highestBoost(skillName) {
   }
 }
 
-var osrsAccount;
+var osrsAccount: any;
 
 /**
  * Assign a OSRS account to this package.
  * @deprecated
  */
-function setOsrsAccount(acc) {
+function setOsrsAccount(acc: any) {
   osrsAccount = acc;
 }
 
@@ -107,7 +107,7 @@ function hello() {
 
 function contact() {
   console.log(
-    'If you need to contact me feel free to reach out to me at cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com'
+    'If you need to contact me feel free to reach out to me at jamesmcerniglia@gmail.com'
   );
 }
 
@@ -117,96 +117,97 @@ function help() {
   );
 }
 
-function meetQuestRequirements(quest, account) {
-  if (quest === 'Recipe for Disaster') {
-    // TODO
-    // Pirate Pete Subquest of Recipe for Disaster
-    return true;
-  } else if (quest === 'Pirate Pete subquest of Recipe for Disaster') {
-    // TODO
-    // Pirate Pete Subquest of Recipe for Disaster
-    return true;
-  }
-  //check to see if the account can fulfill all skill requirements
-  if (quest.requirements.levels) {
-    for (var x in quest.requirements.levels) {
-      var cur = quest.requirements.levels[x];
-      /**
-       *  cur.level
-       *  cur.skill
-       *  cur.boostable
-       *  cur.ironman
-       *  types:
-       *  "quest", "combat", "agility"...
-       *  */
+// function meetQuestRequirements(quest, account: OsrsAccount) {
+//   if (quest === 'Recipe for Disaster') {
+//     // TODO
+//     // Pirate Pete Subquest of Recipe for Disaster
+//     return true;
+//   } else if (quest === 'Pirate Pete subquest of Recipe for Disaster') {
+//     // TODO
+//     // Pirate Pete Subquest of Recipe for Disaster
+//     return true;
+//   }
+//   //check to see if the account can fulfill all skill requirements
+//   if (quest.requirements.levels) {
+//     for (var x in quest.requirements.levels) {
+//       var cur = quest.requirements.levels[x];
+//       /**
+//        *  cur.level
+//        *  cur.skill
+//        *  cur.boostable
+//        *  cur.ironman
+//        *  types:
+//        *  "quest", "combat", "agility"...
+//        *  */
 
-      //  If the requirement is mandatory for ironmen
-      if (cur.ironman && cur.ironman == true) {
-        if (cur.boostable) {
-          // Can boost with spicy stew
-          if (
-            account.main.skills[cur.skill] + highestBoost(cur.skill) <
-            cur.level
-          ) {
-            return false;
-          }
-        } else {
-          if (account.main.skills[cur.skill] < cur.level) {
-            return false;
-          }
-        }
-      }
-      // If the requirement is quest points, check to see if the account has the quest points to complete it
-      if (cur.skill === 'quest') {
-        if (account.main.questPoints < cur.level) {
-          return false;
-        }
+//       //  If the requirement is mandatory for ironmen
+//       if (cur.ironman && cur.ironman == true) {
+//         if (cur.boostable) {
+//           // Can boost with spicy stew
+//           if (
+//             account.main.skills[cur.skill] + highestBoost(cur.skill) <
+//             cur.level
+//           ) {
+//             return false;
+//           }
+//         } else {
+//           if (account.main.skills[cur.skill] < cur.level) {
+//             return false;
+//           }
+//         }
+//       }
+//       // If the requirement is quest points, check to see if the account has the quest points to complete it
+//       if (cur.skill === 'quest') {
+//         if (account.main.questPoints < cur.level) {
+//           return false;
+//         }
 
-        // if the requirement is combat level to start the quest, check to see if the account's combat level is higher than or equal to the requirement
-      } else if (cur.skill === 'combat') {
-        if (account.main.combatLevel < cur.level) {
-          return false;
-        }
+//         // if the requirement is combat level to start the quest, check to see if the account's combat level is higher than or equal to the requirement
+//       } else if (cur.skill === 'combat') {
+//         if (account.main.combatLevel < cur.level) {
+//           return false;
+//         }
 
-        // If this is ANY skill agility, runecraft, woodcutting, slayer, attack, defence, hitpoints, mining smithing, herblore, fletching, ranged, magic
-      } else {
-        // if the requirement is boostable
-        if (cur.boostable) {
-          // check if max stew can reach
-          if (
-            account.main.skills[cur.skill] + highestBoost(cur.skill) <
-            cur.level
-          ) {
-            return false;
-          }
+//         // If this is ANY skill agility, runecraft, woodcutting, slayer, attack, defence, hitpoints, mining smithing, herblore, fletching, ranged, magic
+//       } else {
+//         // if the requirement is boostable
+//         if (cur.boostable) {
+//           // check if max stew can reach
+//           if (
+//             account.main.skills[cur.skill] + highestBoost(cur.skill) <
+//             cur.level
+//           ) {
+//             return false;
+//           }
 
-          // if not boostable, check to see if the skill is higher than or equal to
-        } else {
-          if (account.main.skills[cur.skill] < cur.level) {
-            return false;
-          }
-        }
-      }
-    }
-  }
+//           // if not boostable, check to see if the skill is higher than or equal to
+//         } else {
+//           if (account.main.skills[cur.skill] < cur.level) {
+//             return false;
+//           }
+//         }
+//       }
+//     }
+//   }
 
-  // Check for all quest requirements
-  // recursive method called
-  if (quest.requirements.quests) {
-    for (var y in quest.requirements.quests) {
-      // If any of the quests required are not completeable: return false
-      if (
-        meetQuestRequirements(this.questObject[quest.requirements.quests[y]]) !=
-        true
-      ) {
-        return false;
-      }
-    }
-  }
+//   // Check for all quest requirements
+//   // recursive method called
+//   if (quest.requirements.quests) {
+//     for (var y in quest.requirements.quests) {
+//       // If any of the quests required are not completeable: return false
+//       if (
+//         this.meetQuestRequirements(
+//           this.questObject[quest.requirements.quests[y]]
+//         ) != true
+//       ) {
+//         return false;
+//       }
+//     }
+//   }
 
-  // If the account can complete all quests and skills are higher than or boostable
-  return true;
-}
+//   // If the account can complete all quests and skills are higher than or boostable
+//   return true;
+// }
 
 /**
  *
@@ -217,108 +218,108 @@ function meetQuestRequirements(quest, account) {
  * Possible revamp to remove account param to increase runtime?
  *
  */
-function canCompleteQuest(quest, account) {
-  if (quest.name === 'Recipe for Disaster') {
-    // TODO
-    // Pirate Pete Subquest of Recipe for Disaster
-    return true;
-  } else if (quest.name === 'Pirate Pete subquest of Recipe for Disaster') {
-    // TODO
-    // Pirate Pete Subquest of Recipe for Disaster
-    return true;
-  }
-  //check to see if the account can fulfill all skill requirements
-  if (quest.requirements.levels) {
-    for (var x in quest.requirements.levels) {
-      var cur = quest.requirements.levels[x];
-      /**
-       *  cur.level
-       *  cur.skill
-       *  cur.boostable
-       *  cur.ironman
-       *  types: "quest", "combat", "agility"...
-       *  */
+// function canCompleteQuest(quest, account) {
+//   if (quest.name === 'Recipe for Disaster') {
+//     // TODO
+//     // Pirate Pete Subquest of Recipe for Disaster
+//     return true;
+//   } else if (quest.name === 'Pirate Pete subquest of Recipe for Disaster') {
+//     // TODO
+//     // Pirate Pete Subquest of Recipe for Disaster
+//     return true;
+//   }
+//   //check to see if the account can fulfill all skill requirements
+//   if (quest.requirements.levels) {
+//     for (var x in quest.requirements.levels) {
+//       var cur = quest.requirements.levels[x];
+//       /**
+//        *  cur.level
+//        *  cur.skill
+//        *  cur.boostable
+//        *  cur.ironman
+//        *  types: "quest", "combat", "agility"...
+//        *  */
 
-      //  If the requirement is mandatory for ironmen
-      if (cur.ironman && cur.ironman == true) {
-        if (cur.boostable) {
-          // Can boost with highest boost
-          if (
-            account.main.skills[cur.skill] + highestBoost(cur.skill) <
-            cur.level
-          ) {
-            return false;
-          }
-        } else {
-          if (account.main.skills[cur.skill] < cur.level) {
-            return false;
-          }
-        }
-      }
-      // If the requirement is quest points, check to see if the account has the quest points to complete it
-      if (cur.skill === 'quest') {
-        if (account.main.questPoints < cur.level) {
-          return false;
-        }
+//       //  If the requirement is mandatory for ironmen
+//       if (cur.ironman && cur.ironman == true) {
+//         if (cur.boostable) {
+//           // Can boost with highest boost
+//           if (
+//             account.main.skills[cur.skill] + highestBoost(cur.skill) <
+//             cur.level
+//           ) {
+//             return false;
+//           }
+//         } else {
+//           if (account.main.skills[cur.skill] < cur.level) {
+//             return false;
+//           }
+//         }
+//       }
+//       // If the requirement is quest points, check to see if the account has the quest points to complete it
+//       if (cur.skill === 'quest') {
+//         if (account.main.questPoints < cur.level) {
+//           return false;
+//         }
 
-        // if the requirement is combat level to start the quest, check to see if the account's combat level is higher than or equal to the requirement
-      } else if (cur.skill === 'combat') {
-        if (account.main.combatLevel < cur.level) {
-          return false;
-        }
+//         // if the requirement is combat level to start the quest, check to see if the account's combat level is higher than or equal to the requirement
+//       } else if (cur.skill === 'combat') {
+//         if (account.main.combatLevel < cur.level) {
+//           return false;
+//         }
 
-        // If this is ANY skill agility, runecraft, woodcutting, slayer, attack, defence, hitpoints, mining smithing, herblore, fletching, ranged, magic
-      } else {
-        // if the requirement is boostable
-        if (cur.boostable) {
-          // check if max stew can reach
-          if (
-            account.main.skills[cur.skill] + highestBoost(cur.skill) <
-            cur.level
-          ) {
-            return false;
-          }
+//         // If this is ANY skill agility, runecraft, woodcutting, slayer, attack, defence, hitpoints, mining smithing, herblore, fletching, ranged, magic
+//       } else {
+//         // if the requirement is boostable
+//         if (cur.boostable) {
+//           // check if max stew can reach
+//           if (
+//             account.main.skills[cur.skill] + highestBoost(cur.skill) <
+//             cur.level
+//           ) {
+//             return false;
+//           }
 
-          // if not boostable, check to see if the skill is higher than or equal to
-        } else {
-          if (account.main.skills[cur.skill] < cur.level) {
-            return false;
-          }
-        }
-      }
-    }
-  }
+//           // if not boostable, check to see if the skill is higher than or equal to
+//         } else {
+//           if (account.main.skills[cur.skill] < cur.level) {
+//             return false;
+//           }
+//         }
+//       }
+//     }
+//   }
 
-  // Check for all quest requirements
-  // recursive method called
-  if (quest.requirements.quests && quest.requirements.quests >= 1) {
-    for (var y in quest.requirements.quests) {
-      // If any of the quests required are not completeable: return false
-      if (
-        canCompleteQuest(this.questObject[quest.requirements.quests[y]]) != true
-      ) {
-        return false;
-      }
-    }
-  }
+//   // Check for all quest requirements
+//   // recursive method called
+//   if (quest.requirements.quests && quest.requirements.quests >= 1) {
+//     for (var y in quest.requirements.quests) {
+//       // If any of the quests required are not completeable: return false
+//       if (
+//         canCompleteQuest(this.questObject[quest.requirements.quests[y]]) != true
+//       ) {
+//         return false;
+//       }
+//     }
+//   }
 
-  //iterate through any subquests and see if we can complete
-  //this is for future work with Recipe for Disaster
-  if (quest.subquests && quest.subquests.length >= 1) {
-    for (var y in quest.subquests) {
-      // If any of the quests required are not completeable: return false
-      if (
-        canCompleteQuest(this.questObject[quest.requirements.subquests[y]]) !=
-        true
-      ) {
-        return false;
-      }
-    }
-  }
+//   //iterate through any subquests and see if we can complete
+//   //this is for future work with Recipe for Disaster
+//   if (quest.subquests && quest.subquests.length >= 1) {
+//     for (var y in quest.subquests) {
+//       // If any of the quests required are not completeable: return false
+//       if (
+//         canCompleteQuest(this.questObject[quest.requirements.subquests[y]]) !=
+//         true
+//       ) {
+//         return false;
+//       }
+//     }
+//   }
 
-  // If the account can complete all quests and skills are higher than or boostable
-  return true;
-}
+//   // If the account can complete all quests and skills are higher than or boostable
+//   return true;
+// }
 
 /**
  *
@@ -327,96 +328,96 @@ function canCompleteQuest(quest, account) {
  * @deprecated - Should use the QuestTool class for this;
  * @returns
  */
-function meetsRequirement(quest, account) {
-  if (quest === 'Recipe for Disaster') {
-    // TODO
-    // Pirate Pete Subquest of Recipe for Disaster
-    return true;
-  } else if (quest === 'Pirate Pete subquest of Recipe for Disaster') {
-    // TODO
-    // Pirate Pete Subquest of Recipe for Disaster
-    return true;
-  }
-  //check to see if the account can fulfill all skill requirements
-  if (quest.requirements.levels) {
-    for (var x in quest.requirements.levels) {
-      var cur = quest.requirements.levels[x];
-      /**
-       *  cur.level
-       *  cur.skill
-       *  cur.boostable
-       *  cur.ironman
-       *  types:
-       *  "quest", "combat", "agility"...
-       *  */
+// function meetsRequirement(quest, account) {
+//   if (quest === 'Recipe for Disaster') {
+//     // TODO
+//     // Pirate Pete Subquest of Recipe for Disaster
+//     return true;
+//   } else if (quest === 'Pirate Pete subquest of Recipe for Disaster') {
+//     // TODO
+//     // Pirate Pete Subquest of Recipe for Disaster
+//     return true;
+//   }
+//   //check to see if the account can fulfill all skill requirements
+//   if (quest.requirements.levels) {
+//     for (var x in quest.requirements.levels) {
+//       var cur = quest.requirements.levels[x];
+//       /**
+//        *  cur.level
+//        *  cur.skill
+//        *  cur.boostable
+//        *  cur.ironman
+//        *  types:
+//        *  "quest", "combat", "agility"...
+//        *  */
 
-      //  If the requirement is mandatory for ironmen
-      if (cur.ironman && cur.ironman == true) {
-        if (cur.boostable) {
-          // Can boost with spicy stew
-          if (
-            account.main.skills[cur.skill] + highestBoost(cur.skill) <
-            cur.level
-          ) {
-            return false;
-          }
-        } else {
-          if (account.main.skills[cur.skill] < cur.level) {
-            return false;
-          }
-        }
-      }
-      // If the requirement is quest points, check to see if the account has the quest points to complete it
-      if (cur.skill === 'quest') {
-        if (account.main.questPoints < cur.level) {
-          return false;
-        }
+//       //  If the requirement is mandatory for ironmen
+//       if (cur.ironman && cur.ironman == true) {
+//         if (cur.boostable) {
+//           // Can boost with spicy stew
+//           if (
+//             account.main.skills[cur.skill] + highestBoost(cur.skill) <
+//             cur.level
+//           ) {
+//             return false;
+//           }
+//         } else {
+//           if (account.main.skills[cur.skill] < cur.level) {
+//             return false;
+//           }
+//         }
+//       }
+//       // If the requirement is quest points, check to see if the account has the quest points to complete it
+//       if (cur.skill === 'quest') {
+//         if (account.main.questPoints < cur.level) {
+//           return false;
+//         }
 
-        // if the requirement is combat level to start the quest, check to see if the account's combat level is higher than or equal to the requirement
-      } else if (cur.skill === 'combat') {
-        if (account.main.combatLevel < cur.level) {
-          return false;
-        }
+//         // if the requirement is combat level to start the quest, check to see if the account's combat level is higher than or equal to the requirement
+//       } else if (cur.skill === 'combat') {
+//         if (account.main.combatLevel < cur.level) {
+//           return false;
+//         }
 
-        // If this is ANY skill agility, runecraft, woodcutting, slayer, attack, defence, hitpoints, mining smithing, herblore, fletching, ranged, magic
-      } else {
-        // if the requirement is boostable
-        if (cur.boostable) {
-          // check if max stew can reach
-          if (
-            account.main.skills[cur.skill] + highestBoost(cur.skill) <
-            cur.level
-          ) {
-            return false;
-          }
+//         // If this is ANY skill agility, runecraft, woodcutting, slayer, attack, defence, hitpoints, mining smithing, herblore, fletching, ranged, magic
+//       } else {
+//         // if the requirement is boostable
+//         if (cur.boostable) {
+//           // check if max stew can reach
+//           if (
+//             account.main.skills[cur.skill] + highestBoost(cur.skill) <
+//             cur.level
+//           ) {
+//             return false;
+//           }
 
-          // if not boostable, check to see if the skill is higher than or equal to
-        } else {
-          if (account.main.skills[cur.skill] < cur.level) {
-            return false;
-          }
-        }
-      }
-    }
-  }
+//           // if not boostable, check to see if the skill is higher than or equal to
+//         } else {
+//           if (account.main.skills[cur.skill] < cur.level) {
+//             return false;
+//           }
+//         }
+//       }
+//     }
+//   }
 
-  // Check for all quest requirements
-  // recursive method called
-  if (quest.requirements.quests) {
-    for (var y in quest.requirements.quests) {
-      // If any of the quests required are not completeable: return false
-      if (
-        meetQuestRequirements(this.questObject[quest.requirements.quests[y]]) !=
-        true
-      ) {
-        return false;
-      }
-    }
-  }
+//   // Check for all quest requirements
+//   // recursive method called
+//   if (quest.requirements.quests) {
+//     for (var y in quest.requirements.quests) {
+//       // If any of the quests required are not completeable: return false
+//       if (
+//         meetQuestRequirements(this.questObject[quest.requirements.quests[y]]) !=
+//         true
+//       ) {
+//         return false;
+//       }
+//     }
+//   }
 
-  // If the account can complete all quests and skills are higher than or boostable
-  return true;
-}
+//   // If the account can complete all quests and skills are higher than or boostable
+//   return true;
+// }
 
 export = {
   QuestTool,
@@ -430,8 +431,8 @@ export = {
   getQuestArray,
   contact,
   help,
-  meetsRequirement,
-  canCompleteQuest,
+  // meetsRequirement,
+  // canCompleteQuest,
   subQuestArray,
 };
 // export default

@@ -1,10 +1,10 @@
 {
-    "name": "osrs-quest-tool",
-    "description": "A javascript package to provide the json for all current old school runescape quests. Creating tools to help junior software developers create things they are passionate about. Work in progress and issues should be reported to cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com",
-    "version": "0.4.3",
-    "main": "./src/index.js",
+    "name": "osrs-tools",
+    "description": "A javascript package to provide the json for all current old school runescape quests. Creating tools to help junior software developers create things they are passionate about. Work in progress and issues should be reported to jamescer@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com",
+    "version": "0.1.2",
+    "main": "./src/index.ts",
     "notes": [],
-    "test": "node src/test.js",
+    "test": "node src/test.ts",
     "scripts": {
         "start": "node src/test.js",
         "test": "node src/test3.js",
@@ -12,25 +12,25 @@
         "test1": "mocha test.js"
     },
     "publishConfig": {
-        "registryBackup": "https://npm.pkg.github.com/cerniglj1"
+        "registryBackup": "https://npm.pkg.github.com/jamescer"
     },
     "files": [
         "src/**"
     ],
     "bin": {
-        "osrs-quest-tool": "src/cli.js"
+        "osrs-tools": "src/cli.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cerniglj1/osrs-quest-tool.git"
+        "url": "git+https://github.com/jamescer/osrs-tools.git"
     },
     "keywords": [
         "runescape",
         "osrs",
         "old school runescape",
+        "osrs tools",
         "osrs quest",
         "osrs quest api",
-        "osrs-quest-api",
         "osrs quest tool",
         "osrs-quest-tool",
         "osrs-quest-api",
@@ -40,19 +40,21 @@
     "author": "James Cerniglia <jamesmcerniglia@gmail.com>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/cerniglj1/osrs-quest-tool/issues",
+        "url": "https://github.com/jamescer/osrs-tools/issues",
         "email": "jamesmcerniglia@gmail.com"
     },
-    "homepage": "https://github.com/cerniglj1/osrs-quest-tool#readme",
+    "homepage": "https://github.com/jamescer/osrs-tools#readme",
     "dependencies": {
         "babel": "^6.23.0",
-        "chai": "^4.3.0",
+        "chai": "^4.3.4",
         "mocha": "^7.2.0",
+        "osrs-json-hiscores": "^2.6.0",
         "travis": "^0.1.1"
     },
-    "funding": [{
+    "funding": [
+        {
             "type": "GitHub",
-            "url": "https://github.com/cerniglj1"
+            "url": "https://github.com/jamescer"
         },
         {
             "type": "Patreon",
@@ -72,6 +74,6 @@
         }
     ],
     "devDependencies": {
-        "coveralls": "^3.1.0"
+        "coveralls": "^3.1.1"
     }
 }

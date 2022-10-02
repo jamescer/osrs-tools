@@ -1,0 +1,16 @@
+{
+	"extends": "@oldschoolgg/eslint-config",
+	"compilerOptions": {
+		"strictNullChecks": true,
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+		"removeComments": false,
+		"outDir": "./dist",
+		"target": "ES6",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"lib": ["DOM", "ESNext"]
+	},
+	"include": ["./src/**/*"]
+}

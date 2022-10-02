@@ -1,5 +1,7 @@
 .npmrc
 
+/coverage
+/coverage/*
 .npmrc
 .idea
 /idea/

@@ -65,11 +65,15 @@ def updateQuestDataByRow(quest_data, row):
         levels_and_quests = quest_details.find_all('ul')
         if len(levels_and_quests) > 0:
             for levelOrQuest in levels_and_quests:
-                if levelOrQuest.text is not None and 'quest points' in levelOrQuest.text.lower():
+                if len(levelOrQuest.text.split('\n')) > 0:
+                    req_items = levelOrQuest.text.split('\n')
+                    for any_requirement in req_items:
+                        reqs.append(any_requirement)
+                elif levelOrQuest.text is not None and 'quest points' in levelOrQuest.text.lower():
                     # get quest point requyirement
                     points = levelOrQuest.text.lower().split('quest points')
                     reqs.append({"questPoints": int(points[0])})
-                if 'Completion of the following quests:' in levelOrQuest.text:
+                elif 'Completion of the following quests:' in levelOrQuest.text:
                     # parse for other quests
                     some_list = levelOrQuest.find_all("li")
                     for any_requirement in some_list:
@@ -112,9 +116,14 @@ def updateQuestDataByRow(quest_data, row):
         recommended_list = []
         recommended_items = quest_details.find_all("ul")
         if len(recommended_items) > 0:
-            items = recommended_items[0].find_all("li")
-            for item in items:
-                recommended_list.append(item.text)
+            reco_list = recommended_items[0].find_all("li")
+            for reco_list_item in reco_list:
+                if len(reco_list_item.text.split('\n')) > 0:
+                    reco_slots = reco_list_item.text.split('\n')
+                    for reco1 in reco_slots:
+                        recommended_list.append(reco1)
+                else:
+                    recommended_list.append(reco_list_item.text)
         quest_data['recommended'] = recommended_list
 
     elif section_name in ['ironman concerns', 'ironmanconcerns', 'ironman_concerns']:
@@ -253,8 +262,8 @@ quest_detail_array = []
 error_on = []
 counter_stop_test = 0
 
-test_quest = '' #"Heroes' Quest"
-if test_quest is not '':
+test_quest = ''  # "Heroes' Quest"
+if test_quest != '':
     name = urllib.parse.urlencode({'': test_quest}).replace('+', '_')[1:]
     BASE_QUEST_URL = "https://oldschool.runescape.wiki/w/"
     # try:
@@ -270,11 +279,11 @@ if test_quest is not '':
 
         index = 0
         quest_to_add = {
-            'quest_name': i['quest_name'], 'url': cur_quest_url}
+            'quest_name': test_quest, 'url': cur_quest_url}
 
         # new quest to add
         new_quest_details = {'url': cur_quest_url,
-                             'quest_name': i['quest_name']}
+                             'quest_name': test_quest}
         for row in quest_details_rows:
             updateQuestDataByRow(new_quest_details, row)
         quest_detail_array.append(new_quest_details)

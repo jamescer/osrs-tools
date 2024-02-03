@@ -7,6 +7,6 @@ import { Quest } from '../../src/lib/model/quest/Quest';
 var questobj = QuestData['A Porcine of Interest'];
 
 test('questobj name should be "A Porcine of Interest"', () => {
-  var test = new Quest(questobj);
-  expect(test.name).toBe('A Porcine of Interest');
+    var test = new Quest(questobj);
+    expect(test.name).toBe('A Porcine of Interest');
 });

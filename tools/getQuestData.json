@@ -1,133 +1,34 @@
 [
     {
-        "index": "148",
-        "quest_name": "Below Ice Mountain",
+        "index": "142",
+        "quest_name": "X Marks the Spot",
         "difficulty": "Novice",
-        "quest_length": "Short",
+        "quest_length": "Very Short",
         "quest_points": "1",
-        "series": "N/A",
-        "release_date": "14 April 2021"
+        "series": "Great Kourend, #1",
+        "release_date": "7 February 2019"
     },
     {
-        "index": "12",
-        "quest_name": "Black Knights' Fortress",
+        "index": "13",
+        "quest_name": "Witch's Potion",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "6 April 2001"
+    },
+    {
+        "index": "8",
+        "quest_name": "Vampyre Slayer",
         "difficulty": "Intermediate",
         "quest_length": "Very Short",
         "quest_points": "3",
         "series": "N/A",
-        "release_date": "6 April 2001"
+        "release_date": "28 January 2001"
     },
     {
-        "index": "1",
-        "quest_name": "Cook's Assistant",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "1",
-        "series": "N/A",
-        "release_date": "4 January 2001"
-    },
-    {
-        "index": "135",
-        "quest_name": "The Corsair Curse",
-        "difficulty": "Intermediate",
-        "quest_length": "Short",
-        "quest_points": "2",
-        "series": "N/A",
-        "release_date": "7 December 2017"
-    },
-    {
-        "index": "2",
-        "quest_name": "Demon Slayer",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest _points": "3",
-        "series": "Demon Slayer, #1",
-        "release_date": "4 January 2001"
-    },
-    {
-        "index": "11",
-        "quest_name": "Doric's Quest",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "1",
-        "series": "N/A",
-        "release_date": "6 April 2001"
-    },
-    {
-        "index": "17",
-        "quest_name": "Dragon Slayer I",
-        "difficulty": "Experienced",
-        "quest_length": "Medium",
-        "quest_points": "2",
-        "series": "Dragonkin, #1",
-        "release_date": "23 September 2001"
-    },
-    {
-        "index": "7",
-        "quest_name": "Ernest the Chicken",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "4",
-        "series": "N/A",
-        "release_date": "21 January 2001"
-    },
-    {
-        "index": "15",
-        "quest_name": "Goblin Diplomacy",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "5",
-        "series": "N/A",
-        "release_date": "8 May 2001"
-    },
-    {
-        "index": "9",
-        "quest_name": "Imp Catcher",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "1",
-        "series": "N/A",
-        "release_date": "16 February 2001"
-    },
-    {
-        "index": "14",
-        "quest_name": "The Knight's Sword",
-        "difficulty": "Intermediate",
-        "quest_length": "Short",
-        "quest_points": "1",
-        "series": "N/A",
-        "release_date": "6 April 2001"
-    },
-    {
-        "index": "129",
-        "quest_name": "Misthalin Mystery",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "1",
-        "series": "N/A",
-        "release_date": "26 January 2017"
-    },
-    {
-        "index": "16",
-        "quest_name": "Pirate's Treasure",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "2",
-        "series": "N/A",
-        "release_date": "11 June 2001"
-    },
-    {
-        "index": "10",
-        "quest_name": "Prince Ali Rescue",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "3",
-        "series": "Kharidian, #1",
-        "release_date": "28 February 2001"
-    },
-    {
-        "index": "3",
-        "quest_name": "The Restless Ghost",
+        "index": "6",
+        "quest_name": "Shield of Arrav",
         "difficulty": "Novice",
         "quest_length": "Short",
         "quest_points": "1",
@@ -135,11 +36,11 @@
         "release_date": "4 January 2001"
     },
     {
-        "index": "4",
-        "quest_name": "Romeo & Juliet",
+        "index": "5",
+        "quest_name": "Sheep Shearer",
         "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "5",
+        "quest_length": "Very Short",
+        "quest_points": "1",
         "series": "N/A",
         "release_date": "4 January 2001"
     },
@@ -153,17 +54,17 @@
         "release_date": "29 March 2004"
     },
     {
-        "index": "5",
-        "quest_name": "Sheep Shearer",
+        "index": "4",
+        "quest_name": "Romeo & Juliet",
         "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "1",
+        "quest_length": "Short",
+        "quest_points": "5",
         "series": "N/A",
         "release_date": "4 January 2001"
     },
     {
-        "index": "6",
-        "quest_name": "Shield of Arrav",
+        "index": "3",
+        "quest_name": "The Restless Ghost",
         "difficulty": "Novice",
         "quest_length": "Short",
         "quest_points": "1",
@@ -171,17 +72,80 @@
         "release_date": "4 January 2001"
     },
     {
-        "index": "8",
-        "quest_name": "Vampyre Slayer",
-        "difficulty": "Intermediate",
-        "quest_length": "Very Short",
+        "index": "10",
+        "quest_name": "Prince Ali Rescue",
+        "difficulty": "Novice",
+        "quest_length": "Short",
         "quest_points": "3",
-        "series": "N/A",
-        "release_date": "28 January 2001"
+        "series": "Kharidian, #1",
+        "release_date": "28 February 2001"
     },
     {
-        "index": "13",
-        "quest_name": "Witch's Potion",
+        "index": "16",
+        "quest_name": "Pirate's Treasure",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "2",
+        "series": "N/A",
+        "release_date": "11 June 2001"
+    },
+    {
+        "index": "129",
+        "quest_name": "Misthalin Mystery",
+        "difficulty": "Novice",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "26 January 2017"
+    },
+    {
+        "index": "14",
+        "quest_name": "The Knight's Sword",
+        "difficulty": "Intermediate",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "6 April 2001"
+    },
+    {
+        "index": "9",
+        "quest_name": "Imp Catcher",
+        "difficulty": "Novice",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "16 February 2001"
+    },
+    {
+        "index": "15",
+        "quest_name": "Goblin Diplomacy",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "5",
+        "series": "N/A",
+        "release_date": "8 May 2001"
+    },
+    {
+        "index": "7",
+        "quest_name": "Ernest the Chicken",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "4",
+        "series": "N/A",
+        "release_date": "21 January 2001"
+    },
+    {
+        "index": "17",
+        "quest_name": "Dragon Slayer I",
+        "difficulty": "Experienced",
+        "quest_length": "Medium",
+        "quest_points": "2",
+        "series": "Dragonkin, #1",
+        "release_date": "23 September 2001"
+    },
+    {
+        "index": "11",
+        "quest_name": "Doric's Quest",
         "difficulty": "Novice",
         "quest_length": "Very Short",
         "quest_points": "1",
@@ -189,13 +153,49 @@
         "release_date": "6 April 2001"
     },
     {
-        "index": "142",
-        "quest_name": "X Marks the Spot",
+        "index": "2",
+        "quest_name": "Demon Slayer",
+        "difficulty": "Novice",
+        "quest_length": "Short",
+        "quest_points": "3",
+        "series": "Demon Slayer, #1",
+        "release_date": "4 January 2001"
+    },
+    {
+        "index": "135",
+        "quest_name": "The Corsair Curse",
+        "difficulty": "Intermediate",
+        "quest_length": "Short",
+        "quest_points": "2",
+        "series": "N/A",
+        "release_date": "7 December 2017"
+    },
+    {
+        "index": "1",
+        "quest_name": "Cook's Assistant",
         "difficulty": "Novice",
         "quest_length": "Very Short",
         "quest_points": "1",
-        "series": "Great Kourend, #1",
-        "release_date": "7 February 2019"
+        "series": "N/A",
+        "release_date": "4 January 2001"
+    },
+    {
+        "index": "12",
+        "quest_name": "Black Knights' Fortress",
+        "difficulty": "Intermediate",
+        "quest_length": "Very Short",
+        "quest_points": "3",
+        "series": "N/A",
+        "release_date": "6 April 2001"
+    },
+    {
+        "index": "148",
+        "quest_name": "Below Ice Mountain",
+        "difficulty": "Novice",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "14 April 2021"
     },
     {
         "index": "18",
@@ -507,7 +507,7 @@
         "index": "53",
         "quest_name": "Elemental Workshop I",
         "difficulty": "Novice",
-        "quest_length": "Short",
+        "quest_length": "Very Short",
         "quest_points": "1",
         "series": "Elemental Workshop, #1",
         "release_date": "2 June 2004"
@@ -599,7 +599,7 @@
         "difficulty": "Master",
         "quest_length": "Long",
         "quest_points": "3",
-        "series": "Gnome, #3",
+        "series": "Gnome, #4",
         "release_date": "6 December 2004"
     },
     {
@@ -1202,7 +1202,7 @@
         "difficulty": "Grandmaster",
         "quest_length": "Very Long",
         "quest_points": "4",
-        "series": "Gnome, #4",
+        "series": "Gnome, #5",
         "release_date": "6 May 2016"
     },
     {
@@ -1467,6 +1467,15 @@
         "release_date": "23 March 2022"
     },
     {
+        "index": "158",
+        "quest_name": "The Path of Glouphrie",
+        "difficulty": "Experienced",
+        "quest_length": "Medium",
+        "quest_points": "2",
+        "series": "Gnome, #3",
+        "release_date": "13 September 2023"
+    },
+    {
         "index": "154",
         "quest_name": "Sleeping Giants",
         "difficulty": "Intermediate",
@@ -1485,12 +1494,30 @@
         "release_date": "30 November 2022"
     },
     {
+        "index": "157",
+        "quest_name": "Desert Treasure II - The Fallen Empire",
+        "difficulty": "Grandmaster",
+        "quest_length": "Very Long",
+        "quest_points": "5",
+        "series": "Mahjarrat, #12",
+        "release_date": "26 July 2023"
+    },
+    {
         "index": "156",
         "quest_name": "Secrets of the North",
         "difficulty": "Master",
         "quest_length": "Medium",
         "quest_points": "2",
-        "series": "Mahjarrat, #10",
+        "series": "Mahjarrat, #11",
         "release_date": "11 January 2023"
+    },
+    {
+        "index": "159",
+        "quest_name": "Children of the Sun",
+        "difficulty": "Novice",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "Twilight Emissaries, #1",
+        "release_date": "10 January 2024"
     }
 ]

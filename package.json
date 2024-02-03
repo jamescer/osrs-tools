@@ -11,7 +11,7 @@
         "test1": "mocha test.js",
         "test": "jest --coverage",
         "build": "tsc -p .",
-		"dev": "tsc --watch -p .",
+        "dev": "tsc --watch -p .",
         "test:mocha": "mocha ./src/lib/tests/unit/Quest.test.js --timeout 30000 --exit",
         "prepublishOnly": "npm test",
         "postpublish": "git push && git push --tags",
@@ -47,6 +47,7 @@
         "runescape",
         "osrs",
         "old school runescape",
+        "old school runescape tools",
         "osrs tools",
         "osrs quest",
         "osrs quest api",
@@ -66,8 +67,7 @@
         "email": "jamesmcerniglia@gmail.com"
     },
     "homepage": "https://github.com/jamescer/osrs-tools#readme",
-    "funding": [
-        {
+    "funding": [{
             "type": "GitHub",
             "url": "https://github.com/jamescer"
         },

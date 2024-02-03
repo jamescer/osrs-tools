@@ -4,8 +4,11 @@ import json
 import urllib
 import sys
 
-# 147 quests in total
-CURRENT_QUEST_AMOUNT = 147
+# 156 quests in total
+CURRENT_QUEST_AMOUNT = 156
+TOTAL_QUEST_POINTS = 293
+BASE_QUEST_URL = "https://oldschool.runescape.wiki/w/"
+QUEST_LIST_URL = 'https://oldschool.runescape.wiki/w/Quests/List'
 
 # Create Python Script that gets all the quests currently.
 # We have to create a list of quests to get the requirements for
@@ -14,9 +17,30 @@ CURRENT_QUEST_AMOUNT = 147
 
 # Issues will definitely come with the scraping of each quest.
 # Each quest html will most likely be different.
-# WIP TODO
+# This is a work in progress
+
+# TODO - Recipe for Disaster quest most likely needs some hard-coded stuff
 
 # Update the quest data based on the row of details we are in
+
+SKILL_NAMES = [
+    'Attack', 'Hitpoints', 'Mining',
+    'Strength', 'Agility', 'Smithing',
+    'Defence', 'Herblore', 'Fishing',
+    'Ranged', 'Thieving', 'Cooking',
+    'Prayer', 'Crafting', 'Firemaking',
+    'Magic', 'Fletching', 'Woodcutting',
+    'Runecraft', 'Slayer', 'Farming',
+    'Construction', 'Hunter'
+]
+
+
+# Determines if a skill name is in the string param
+def isSkillInString(text):
+    for skill in SKILL_NAMES:
+        if skill in text or skill.lower() in text or skill.upper() in text:
+            return True
+    return False
 
 
 def createListFromDetails(details, arr):
@@ -63,12 +87,23 @@ def updateQuestDataByRow(quest_data, row):
         reqs = []
         # TODO - implement this
         levels_and_quests = quest_details.find_all('ul')
+        skills_needed = []
         if len(levels_and_quests) > 0:
             for levelOrQuest in levels_and_quests:
-                if len(levelOrQuest.text.split('\n')) > 0:
+                if levelOrQuest.text is not None and isSkillInString(levelOrQuest.text):
                     req_items = levelOrQuest.text.split('\n')
                     for any_requirement in req_items:
-                        reqs.append(any_requirement)
+                        skills_needed.append("any: "+any_requirement)
+
+                elif 'not boostable' in levelOrQuest.text or 'boostable' in levelOrQuest.text:
+                    req_items = levelOrQuest.text.split('\n')
+                    for any_requirement in req_items:
+                        skills_needed.append("any: "+any_requirement)
+
+                elif len(levelOrQuest.text.split('\n')) > 0:
+                    req_items = levelOrQuest.text.split('\n')
+                    for any_requirement in req_items:
+                        reqs.append("any: "+any_requirement)
                 elif levelOrQuest.text is not None and 'quest points' in levelOrQuest.text.lower():
                     # get quest point requyirement
                     points = levelOrQuest.text.lower().split('quest points')
@@ -196,9 +231,10 @@ def createArrayFromTable(table, isminiquest):
     return quests
 
 
-quest_data_url = 'https://oldschool.runescape.wiki/w/Quests/List'
-URL = quest_data_url
-page = requests.get(URL)
+
+# Main method -- Call Wiki quest url, parse the page for the quest list, then parse each quest individually through their own URLs
+
+page = requests.get(QUEST_LIST_URL)
 
 soup = BeautifulSoup(page.content, 'html.parser')
 
@@ -300,35 +336,34 @@ for i in all_quests:
     else:
         print('Parsing, '+i['quest_name'])
 
-    BASE_QUEST_URL = "https://oldschool.runescape.wiki/w/"
-    # try:
-    cur_quest_url = BASE_QUEST_URL + name
-    page = requests.get(cur_quest_url)
-    soup = BeautifulSoup(page.content, 'html.parser')
+    try:
+        cur_quest_url = BASE_QUEST_URL + name
+        page = requests.get(cur_quest_url)
+        soup = BeautifulSoup(page.content, 'html.parser')
 
-    quest_detail_tables = soup.find_all("table", {"class": "questdetails"})
-    if len(quest_detail_tables) > 0:
-        quest_detail_table = quest_detail_tables[0]
-        quest_detail_table_body = quest_detail_table.find('tbody')
-        quest_details_rows = quest_detail_table_body.find_all('tr')
+        quest_detail_tables = soup.find_all("table", {"class": "questdetails"})
+        if len(quest_detail_tables) > 0:
+            quest_detail_table = quest_detail_tables[0]
+            quest_detail_table_body = quest_detail_table.find('tbody')
+            quest_details_rows = quest_detail_table_body.find_all('tr')
 
-        index = 0
-        quest_to_add = {
-            'quest_name': i['quest_name'], 'url': cur_quest_url}
+            index = 0
+            quest_to_add = {
+                'quest_name': i['quest_name'], 'url': cur_quest_url}
 
-        # new quest to add
-        new_quest_details = {'url': cur_quest_url,
-                             'quest_name': i['quest_name']}
-        for row in quest_details_rows:
-            updateQuestDataByRow(new_quest_details, row)
-        quest_detail_array.append(new_quest_details)
+            # new quest to add
+            new_quest_details = {'url': cur_quest_url,
+                                'quest_name': i['quest_name']}
+            for row in quest_details_rows:
+                updateQuestDataByRow(new_quest_details, row)
+            quest_detail_array.append(new_quest_details)
 
-        # catch *all* exceptions
-    # except:
-    #     e = sys.exc_info()
-    #     print("<p>Error: %s</p>" % e[0])
-    #     print(i['quest_name'])
-    #     error_on.append(i['quest_name'])
+            # catch *all* exceptions
+    except:
+        e = sys.exc_info()
+        print("<p>Error: %s</p>" % e[0])
+        print(i['quest_name'])
+        error_on.append(i['quest_name'])
 
     # counter_stop_test += 1
     # if counter_stop_test == 34:
@@ -337,126 +372,8 @@ for i in all_quests:
 # print(quest_detail_array)
 with open('./tools/questDetailArr.json', 'w') as outfile:
     json.dump(quest_detail_array, outfile)
+
+# Dump any errors found during parse
 with open('./tools/errors.json', 'w') as outfile:
     json.dump(error_on, outfile)
 
-
-# 1-9
-    # Start point
-    # Official
-    # Description
-    # Official length
-    # Requirements
-    # Items required
-    # Recommended
-    # Enemies to defeat
-    # Ironman concerns
-    # for i in range(len(quest_details)):
-
-    #     # first th is always the label of what data is coming
-
-    #     section = quest_details[i].text.lower()
-    #     print(section)
-    #     detail_row = quest_details[i].parent.find_all(
-    #         "td", class_="questdetails-info")
-
-    #     # Start point
-    #     if section == 'start point' or section == 'startpoint' \
-    #             or section == 'start_point' or section in 'start point':
-
-    #         start_area_text = ''
-    #         for tag in detail_row:
-    #             start_area_text += tag.text
-
-    #         quest_to_add['startArea'] = start_area_text
-
-    #     # Official difficulty
-    #     if section == 'official difficulty' or section == 'officialdifficulty' or section == 'difficulty' \
-    #             or section == 'official_difficulty' \
-    #             or section in 'official difficulty':
-
-    #         difficulty_text = ''
-    #         for tag in detail_row:
-    #             difficulty_text += tag.text
-
-    #         quest_to_add['difficulty'] = difficulty_text
-    #     if section == 'description' or section == 'descri' or section in 'description':
-
-    #         description_text = ''
-    #         for tag in detail_row:
-    #             description_text += tag.text
-
-    #         quest_to_add['description'] = description_text
-
-    #         # official length
-    #     if section == 'official length' or section == 'officiallength' or section == 'official_length' or section in 'official length':
-    #         length_text = ''
-    #         for tag in detail_row:
-    #             length_text += tag.text
-
-    #         quest_to_add['length'] = length_text
-
-    #     #   Requirements
-    #     if section == 'requirements' or section == 'requirements' or section == 'req' or section in 'requirements':
-    #         reqs = []
-    #         for tag in detail_row:
-    #             tag = tag.find_all('ul')
-    #             for x in tag:
-    #                 for item in x.find_all('li'):
-    #                     parse_req_str(item.text)
-    #                     reqs.append(item.text)
-
-    #         quest_to_add['requirements'] = reqs
-
-    #         # Items required
-    #     if section == 'items required' or section == 'itemsrequired'\
-    #             or section == 'items_required' or section in 'items required':
-    #         items_required = []
-    #         for tag in detail_row:
-    #             tag = tag.find_all('ul')
-    #             for x in tag:
-    #                 for item in x.find_all('li'):
-    #                     items_required.append(item.text)
-
-    #         quest_to_add['itemsRequired'] = items_required
-
-    #         # Recommended
-    #     if section == 'recommended' or section == 'recommended' \
-    #             or section == 'reco' or section in 'recommended':
-    #         recommended_list = []
-    #         for monster in detail_row:
-    #             ul_els = monster.find_all('ul')
-    #             if len(ul_els) > 0:
-    #                 for x in ul_els:
-    #                     for item in x.find_all('li'):
-    #                         recommended_list.append(item.text)
-    #             else:
-    #                 recommended_list.append(monster.text)
-
-    #         quest_to_add['recommended'] = recommended_list
-
-    #         # Enemies to defeat
-    #     if section == 'enemies to defeat' or section == 'enemiestodefeat'\
-    #             or section == 'enemies' or section in 'enemies to defeat':
-    #         enemies_to_defeat = []
-    #         for monster in detail_row:
-    #             monster = monster.find_all('ul')
-    #             for x in monster:
-    #                 for item in x.find_all('li'):
-    #                     enemies_to_defeat.append(item.text)
-
-    #         quest_to_add['enemiesToDefeat'] = enemies_to_defeat
-    #     if section == 'ironman concerns' or section == 'ironmanconcerns' \
-    #         or section == 'ironman_concerns' \
-    #             or section == 'ironman ' or section in 'ironman concerns':
-    #         enemies_to_defeat = []
-    #         for monster in detail_row:
-    #             monster = monster.find_all('ul')
-    #             for x in monster:
-    #                 for item in x.find_all('li'):
-    #                     enemies_to_defeat.append(item.text)
-
-    #         quest_to_add['enemiesToDefeat'] = enemies_to_defeat
-
-    #     index += 1
-    # quest_detail_array.append(quest_to_add)

@@ -5,7 +5,6 @@ const SlayerUnlocks = [
     description:
       'Gargoyles are automatically dealt the finishing blow if the player has a Rock hammer in their inventory.',
   },
-
   {
     name: 'Slug salter',
     cost: 80,

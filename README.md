@@ -1,12 +1,17 @@
 ## Old School Runescape Quest Tool
 
-A [Node Package](https://www.npmjs.com/package/osrs-quest-tool) to provide data for all current old school runescape quests. Creating tools to help junior software developers build things they are passionate about. Work in progress and issues should be reported to cerniglj1@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com or reported under the [issues tab on gituhb](https://github.com/cerniglj1/osrs-quest-tool/issues).
+A [Node Package](https://www.npmjs.com/package/osrs-tools) to provide data for all current old school runescape quests. Creating tools to help junior software developers build things they are passionate about. Work in progress and issues should be reported to jamesmcerniglia@gmail.com or reported under the [issues tab on gituhb](https://github.com/jamescer/osrs-tools/issues).
 
-## Installation
+### Installation
 
-```js
-npm i osrs-quest-tool
+```bash
+npm install osrs-tools --save
 ```
+
+or simpler
+
+````bash
+npm install osrs-tools
 
 | Syntax            | Description                                                      | Type              |
 | ----------------- | ---------------------------------------------------------------- | ----------------- |
@@ -27,9 +32,13 @@ this.questArray = questArray();
 this.questData = questObject();
 console.log(this.questData);
 console.log(this.questArray);
-```
+````
 
 ---
+
+## Core concept
+
+[Osrs Tools][osrs-tools] 
 
 ## Notes
 
@@ -40,3 +49,10 @@ Recipe for disaster is a work in progress!
 - Implement recursive function for determining quest completion
 - Implement quest completion array
 - Implement questArray and questObject objects instead of functions
+
+[downloads-image]: https://img.shields.io/npm/dm/systeminformation.svg?style=flat-square
+[downloads-url]: https://www.npmjs.com/package/osrs-tools
+[nodejs-url]: https://nodejs.org/en/
+[docker-url]: https://www.docker.com/
+[new-issue]: https://github.com/jamescer/osrs-tools/issues/new/choose
+[issues-img]: https://img.shields.io/github/issues/jamescer/osrs-tools.svg?style=flat-square

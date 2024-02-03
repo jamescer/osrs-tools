@@ -30,4 +30,6 @@ const SlayerBuys = [
       'Stores up to 16,000 of three types of runes. Only one can be owned. Can also be obtained by exchanging a rune pouch note at a bank.',
   },
 ];
+
+
 module.exports = exports = { SlayerBuys };

@@ -19,8 +19,14 @@ class SlayerBuy {
     this.notes = notes;
   }
 }
+
 class SlayerReward {
   constructor() {}
 }
 
-module.exports = exports = { SlayerUnlock, SlayerReward, SlayerExtend ,SlayerBuy};
+module.exports = exports = {
+  SlayerUnlock,
+  SlayerReward,
+  SlayerExtend,
+  SlayerBuy,
+};

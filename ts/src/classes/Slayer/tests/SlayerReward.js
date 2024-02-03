@@ -5,12 +5,14 @@ const {
   SlayerBuy,
 } = require('../SlayerReward');
 
+
 var testUnlock = {
   name: 'Task Storage',
   cost: 1000,
   description:
     'Gain the ability to store your task for 50 points, allowing you to take it at a later time.',
 };
+
 
 var testExtend = {
   name: 'To dust you shall return',
@@ -23,6 +25,7 @@ var testBuy = {
   notes:
     'Stores up to 16,000 of three types of runes. Only one can be owned. Can also be obtained by exchanging a rune pouch note at a bank.',
 };
+
 var unlock = new SlayerUnlock(testUnlock);
 var extend = new SlayerExtend(testExtend);
 var buy = new SlayerBuy(testBuy);

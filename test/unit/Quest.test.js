@@ -1,8 +1,8 @@
-import { QuestData } from '../../src/lib/resources/quest/questData';
-import { Quest } from '../../src/lib/model/quest/Quest';
+// import { QuestData } from '../../src/lib/resources/quest/questData';
+// import { Quest } from '../../src/lib/model/quest/Quest';
 
-// const {QuestData} = require('../../resources/quest/questData');
-// const {Quest} = require('../../resources/quest/questData');
+const { QuestData } = require('../../resources/quest/questData');
+const { Quest } = require('../../resources/quest/questData');
 
 var questobj = QuestData['A Porcine of Interest'];
 

@@ -1,6 +1,15 @@
-const { defaults } = require('jest-config');
-const config = {
-  verbose: true,
-};
+// babel.config.js
 
-module.exports = config;
+module.exports = {
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        targets: {
+          node: 'current',
+        },
+      },
+    ],
+    '@babel/preset-typescript',
+  ],
+};

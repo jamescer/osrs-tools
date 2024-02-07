@@ -15,6 +15,9 @@ yarn-error.log
 # Optional: Build artifacts
 dist/
 coverage/
+coverage/*
+/coverage/*
+./coverage/*
 
 # Unit test / coverage reports
 htmlcov/

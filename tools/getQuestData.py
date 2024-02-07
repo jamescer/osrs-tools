@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import urllib
+import urllib2
 import sys
 
 # 156 quests in total

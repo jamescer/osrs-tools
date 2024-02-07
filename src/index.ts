@@ -1,11 +1,11 @@
-import { QuestTool } from './classes/Quest/model/QuestTool';
-import { SlayerTool } from './classes/Slayer/model/SlayerTool';
-import { OsrsAccount } from './lib/model/runescape/OsrsAccount';
+// import { QuestTool } from './questTool.js';
+import { QuestTool } from './model/quest/QuestTool';
+import { SlayerTool } from './model/slayer/SlayerTool';
+import { OsrsAccount } from './model/account/OsrsAccount';
 
-
-
-export {
-    QuestTool,
-    OsrsAccount,
-    SlayerTool
-  };
+export default {
+  QuestTool,
+  OsrsAccount,
+  SlayerTool
+};
+// export default

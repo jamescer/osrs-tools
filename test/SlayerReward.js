@@ -3,7 +3,7 @@ import {
     SlayerReward,
     SlayerExtend,
     SlayerBuy,
-} from '../src/lib/model/slayer/SlayerReward';
+} from '../lib/model/slayer/SlayerReward';
 
 var testUnlock = {
     name: 'Task Storage',

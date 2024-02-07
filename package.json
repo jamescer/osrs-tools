@@ -5,7 +5,7 @@
     "license": "MIT",
     "main": "index.js",
     "test": "node src/test.ts",
-    "notes": "To run tests, run `npm run test` -- uses Jest Framework",
+    "notes": "To run tests, run `npm run test` -- uses Jest Framework :)",
     "scripts": {
         "test3": "jest",
         "test2": "node src/index.js",

@@ -1,15 +1,10 @@
 {
     "name": "osrs-tools",
-    "description": "A javascript package to provide the json for all current old school runescape quests. Creating tools to help junior software developers create things they are passionate about. Work in progress and issues should be reported to jamescer@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com",
-    "version": "0.1.4",
+    "description": "A JavaScript package to provide JSON data for all current Old School RuneScape quests. This package aims to help junior software developers create tools related to Old School RuneScape. It's a work in progress, and issues should be reported to jamescer@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com.",
+    "version": "0.1.5",
     "license": "MIT",
     "main": "index.js",
-    "test": "node src/test.ts",
-    "notes": "To run tests, run `npm run test` -- uses Jest Framework :)",
     "scripts": {
-        "test3": "jest",
-        "test2": "node src/index.js",
-        "test1": "mocha test.js",
         "test": "jest --coverage",
         "build": "tsc -p .",
         "dev": "tsc --watch -p .",
@@ -20,19 +15,19 @@
         "version": "npm run build && git add dist && git add package.json"
     },
     "devDependencies": {
-        "@babel/core": "^7.23.9",
-        "@babel/preset-env": "^7.23.9",
-        "@babel/preset-typescript": "^7.23.3",
-        "@types/jest": "^26.0.20",
+        "@babel/core": "^7.24.4",
+        "@babel/preset-env": "^7.24.4",
+        "@babel/preset-typescript": "^7.24.1",
+        "@types/jest": "^26.0.24",
         "jest": "^26.6.3",
-        "ts-jest": "^26.5.0",
-        "typescript": "^4.1.3"
+        "ts-jest": "^26.5.6",
+        "typescript": "^4.9.5"
     },
     "dependencies": {
         "babel": "^6.23.0",
         "jest-circus": "^29.7.0",
         "mocha": "^7.2.0",
-        "osrs-json-hiscores": "^2.6.0",
+        "osrs-json-hiscores": "^2.18.0",
         "travis": "^0.1.1",
         "ts-node": "^10.9.2"
     },
@@ -50,19 +45,15 @@
         "url": "git+https://github.com/jamescer/osrs-tools.git"
     },
     "keywords": [
-        "runescape",
-        "osrs",
-        "old school runescape",
-        "old school runescape tools",
-        "osrs tools",
-        "osrs quest",
-        "osrs quest api",
-        "osrs quest tool",
-        "osrs-quest-tool",
-        "osrs-quest-api",
-        "OSRS QuestTool",
-        "Quest Tool osrs",
-        "Quest Slayer tool"
+        "RuneScape",
+        "OSRS",
+        "Old School RuneScape",
+        "OSRS tools",
+        "OSRS quest",
+        "OSRS quest API",
+        "Quest Tool",
+        "Old School RuneScape Tools",
+        "Old School RuneScape Data"
     ],
     "contributors": [
         "James Cerniglia (https://github.com/jamescer)"
@@ -80,19 +71,15 @@
         },
         {
             "type": "Patreon",
-            "url": "https://www.patreon.com/"
-        },
-        {
-            "type": "PayPal",
-            "url": "https://paypal.me/"
+            "url": "https://patreon.com/big_squeezer?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink"
         },
         {
             "type": "Ko-fi",
-            "url": "https://ko-fi.com/"
+            "url": "https://ko-fi.com/jamescer"
         },
         {
             "type": "Venmo",
-            "url": "https://venmo.com/"
+            "url": "https://venmo.com/jamescer"
         }
     ]
 }

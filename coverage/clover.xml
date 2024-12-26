@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1707237110154" clover="3.2.0">
-  <project timestamp="1707237110154" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1708488666085" clover="3.2.0">
+  <project timestamp="1708488666085" name="All files">
+    <metrics statements="13" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="16" coveredelements="14" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+    <file name="Quest.ts" path="C:\Users\James\Documents\Repos\osrs-tools\src\model\quest\Quest.ts">
+      <metrics statements="13" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="62" count="0" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>

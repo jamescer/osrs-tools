@@ -1,40 +1,82 @@
 [
     {
-        "url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
-        "quest_name": "X Marks the Spot",
-        "start_area": "Speak to Veosin The Sheared Ramin Lumbridge. Show on map",
-        "length": "Very Short",
-        "description": "Veos has long been a lover of treasure hunts and his latest hunt has brought him to Lumbridge. However, not knowing the area well, Veos could use some help finding this treasure.",
+        "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
+        "quest_name": "Romeo & Juliet",
+        "start_area": "Speak to Romeo in Varrock Square. Show on map",
+        "length": "Short",
+        "description": "Romeo and Juliet are desperately in love, but Juliet's father doesn't approve. Help them to find a way to get married and live happily ever after.",
         "requirements": [],
         "items_required": [
-            "Spade"
+            "Cadava berries (Can be obtained during quest)"
         ],
         "recommended": [
-            "Energy potions or (members only) stamina potions",
-            "(Members only) Fast travel to Draynor Village (Amulet of Glory or Necklace of Passage to the Wizards' Tower)"
+            "Several teleports to Varrock"
         ],
         "enemies_to_defeat": [
             "None"
         ]
     },
     {
-        "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
-        "quest_name": "Witch's Potion",
-        "start_area": "Talk to Hettyin her house in Rimmington, south of Faladorand west of Port Sarim. Show on map",
-        "length": "Very Short",
-        "description": "Become one with your darker side. Tap into your hidden depths of magical potential by making a potion with the help of Hetty the Rimmington witch.",
+        "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
+        "quest_name": "Demon Slayer",
+        "start_area": "Speak to Arisin the tent on the western side of Varrock Square. Show on map",
+        "length": "Short",
+        "description": "A mighty demon is being summoned to destroy the city of Varrock. You find out you are the one destined to stop him (or at least try).",
         "requirements": [],
         "items_required": [
-            "Burnt meat",
-            "Eye of newt",
-            "Onion",
-            "Rat's tail (only obtainable after starting the quest)"
+            "Bucket of water (can be obtained during the quest)",
+            "25 bones (can't be noted, but can be delivered in increments)",
+            "1 coin"
         ],
         "recommended": [
-            "Teleport to Rimmington"
+            " 15 Combat level",
+            "Armour and some food",
+            "Fast travel to Varrock (Varrock teleport, Chronicle or combat bracelet to the Champions' Guild (members only))",
+            "Fast travel to the Wizards' Tower (necklace of passage, amulet of glory to Draynor Village, amulet of the eye, or fairy rings to DIS)(members only)"
         ],
         "enemies_to_defeat": [
-            "\nRat (level 1)"
+            "\nDelrith (level 27)"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
+        "quest_name": "Shield of Arrav",
+        "start_area": "VarrockPalace library. Talk to Reldo, the librarian, located at the northern end of Varrock Castle. Show on map",
+        "length": "Short",
+        "description": "Varrockian literature tells of a valuable shield, stolen long ago from the museum of Varrock, by a gang of professional thieves. See if you can track down this shield and return it to the museum. You will need a friend to help you complete this quest.",
+        "requirements": [],
+        "items_required": [
+            "Phoenix Gang: 20 coins",
+            "Black Arm Gang: 2 Phoenix crossbows (obtained during the quest)"
+        ],
+        "recommended": [
+            " 10 Combat level"
+        ],
+        "enemies_to_defeat": [
+            "Black Arm Gang: Weaponsmaster (level 23)",
+            "Phoenix Gang: Jonny the beard (level 2)"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
+        "quest_name": "Ernest the Chicken",
+        "start_area": "Speak to Veronica, south of Draynor Manorby the gate. Show on map",
+        "length": "Very Short",
+        "description": "Veronica is very worried. Her fianc\u00e9 went into the big spooky manor house to ask for directions. An hour later and he's still not out yet.",
+        "requirements": [
+            "any: The ability to defend from a level 22 Skeleton."
+        ],
+        "items_required": [
+            "Spade (can be obtained during the quest)",
+            "Fish food (can be obtained during the quest)",
+            "Poison (can be obtained during the quest)"
+        ],
+        "recommended": [
+            "(Members only) Fast travel to Draynor Manor (Draynor Manor Teleport or amulet of glory)",
+            "Food (If lower hp a lvl 22 skeleton and dead trees attack you)"
+        ],
+        "enemies_to_defeat": [
+            "None"
         ]
     },
     {
@@ -60,86 +102,23 @@
         ]
     },
     {
-        "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
-        "quest_name": "Shield of Arrav",
-        "start_area": "VarrockPalace library. Talk to Reldo, the librarian, located at the northern end of Varrock Castle. Show on map",
+        "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
+        "quest_name": "Imp Catcher",
+        "start_area": "Speak to Wizard Mizgogon the top floor of the Wizards' Tower. Show on map",
         "length": "Short",
-        "description": "Varrockian literature tells of a valuable shield, stolen long ago from the museum of Varrock, by a gang of professional thieves. See if you can track down this shield and return it to the museum. You will need a friend to help you complete this quest.",
+        "description": "The Wizard Grayzag has summoned hundreds of little imps. They have stolen a lot of things belonging to the Wizard Mizgog including his magic beads.",
         "requirements": [],
         "items_required": [
-            "Phoenix Gang: 20 coins",
-            "Black Arm Gang: 2 Phoenix crossbows (obtained during the quest)"
+            "Black bead",
+            "Yellow bead",
+            "Red bead",
+            "White bead"
         ],
         "recommended": [
-            " 10 Combat level"
+            "(Members only) Fast travel to the Wizards' Tower (Necklace of Passage, Amulet of Glory to Draynor Village, or Fairy Rings to DIS)"
         ],
         "enemies_to_defeat": [
-            "Black Arm Gang: Weaponsmaster (level 23)",
-            "Phoenix Gang: Jonny the beard (level 2)"
-        ]
-    },
-    {
-        "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
-        "quest_name": "Sheep Shearer",
-        "start_area": "Speak to Fred the Farmerin the house by the sheeppen north of Lumbridge Castle. Show on map",
-        "length": "Very Short",
-        "description": "Fred the Farmer's sheep are getting mighty woolly. He will pay you to shear them.",
-        "requirements": [],
-        "items_required": [
-            "20 balls of wool (unnoted)"
-        ],
-        "enemies_to_defeat": [
-            "None"
-        ]
-    },
-    {
-        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
-        "quest_name": "Rune Mysteries",
-        "start_area": "Speak to Duke Horacioon the 1st\u00a0floor[UK]2nd\u00a0floor[US]of Lumbridge Castle. Show on map",
-        "length": "Short",
-        "description": "Recent research at the Wizards' Tower has found a way to create Runes for the first time in centuries. Assist the head wizard Sedridor in his research and he too may teach you these secrets!",
-        "requirements": [],
-        "items_required": [],
-        "recommended": [
-            "Fast travel to Varrock (Varrock teleport, Chronicle or (members only) Ring of Wealth to the Grand Exchange or Combat Bracelet to the Champions' Guild)",
-            "(Members only) Fast travel to the Wizards' Tower (Necklace of Passage, Amulet of Glory to Draynor Village or Fairy Rings to DIS)"
-        ],
-        "enemies_to_defeat": [
-            "None"
-        ]
-    },
-    {
-        "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
-        "quest_name": "Romeo & Juliet",
-        "start_area": "Speak to Romeo in Varrock Square. Show on map",
-        "length": "Short",
-        "description": "Romeo and Juliet are desperately in love, but Juliet's father doesn't approve. Help them to find a way to get married and live happily ever after.",
-        "requirements": [],
-        "items_required": [
-            "Cadava berries (Can be obtained during quest)"
-        ],
-        "recommended": [
-            "Several teleports to Varrock"
-        ],
-        "enemies_to_defeat": [
-            "None"
-        ]
-    },
-    {
-        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
-        "quest_name": "The Restless Ghost",
-        "start_area": "Speak to Father Aereckin the chapel south-east of Lumbridge Castle. Show on map",
-        "length": "Short",
-        "description": "A ghost is haunting Lumbridge graveyard. The priest of the Lumbridge church of Saradomin wants you to find out how to get rid of it.",
-        "requirements": [],
-        "items_required": [],
-        "recommended": [
-            " 10 Combat level",
-            "Three Lumbridge teleports",
-            "A necklace of passage, for teleporting to the Wizards' Tower (members only)"
-        ],
-        "enemies_to_defeat": [
-            "\nSkeleton (level 13) (can be avoided)"
+            "Multiple imps (level 2) (optional unless ironman)"
         ]
     },
     {
@@ -173,90 +152,72 @@
         ]
     },
     {
-        "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
-        "quest_name": "Pirate's Treasure",
-        "start_area": "Speak to Redbeard Frankat the northernmost dock at Port Sarim, just outside The Rusty Anchor. Show on map",
+        "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
+        "quest_name": "Doric's Quest",
+        "start_area": "Speak to Doricin the small house north of Falador, just outside the east gate of Taverley. Show on map",
         "length": "Very Short",
-        "description": "Redbeard Frank knows the location of pirate treasure, but he'll only part with the knowledge for a bottle of Karamjan rum.",
+        "description": "Doric the dwarf is happy to let you use his anvils but first he would like you to run an errand for him.",
         "requirements": [],
         "items_required": [
-            "Karamjan rum (obtainable during the quest for 30 coins)",
-            "White apron (obtainable during the quest in Port Sarim at Gerrant's Fishy Business.)",
-            "60 coins (only 30 is needed if using a Ring of charos(a))",
-            "10 bananas (obtainable during the quest)",
-            "Spade (obtainable during the quest)"
+            "6 clay (not soft clay)",
+            "4 copper ores",
+            "2 iron ores"
         ],
         "recommended": [
-            "Varrock Teleport",
-            "Falador Teleport"
-        ],
-        "enemies_to_defeat": [
-            "\nGardener (level 4, optional)"
-        ]
-    },
-    {
-        "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
-        "quest_name": "Misthalin Mystery",
-        "start_area": "Speak to Abigale(or Hewey, who sits next to her) in the south-eastern corner of Lumbridge Swamp, near the fishing spots. Show on map",
-        "length": "Short",
-        "description": "A woman cries as a man lays dying, desperately they beg you to stop a cryptic killer before their friends suffer a similar fate.",
-        "requirements": [],
-        "items_required": [
-            "Bucket (obtainable during quest)",
-            "Tinderbox (obtainable during quest)",
-            "Knife (obtainable during quest)"
-        ],
-        "enemies_to_defeat": [
-            "None"
-        ]
-    },
-    {
-        "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
-        "quest_name": "The Knight's Sword",
-        "start_area": "Speak to the squirein the courtyard of the White Knights' Castlein Falador. Show on map",
-        "length": "Short",
-        "description": "Sir Vyvin's squire is in trouble. He has accidentally lost Sir Vyvin's ceremonial sword. Help him find a replacement without Sir Vyvin finding out.",
-        "requirements": [],
-        "items_required": [
-            "Redberry pie (not half a redberry pie), (Members can purchase one from Romily Weaklax in the Cooks' Guild)",
-            "2 iron bars (4 if you want your own blurite sword) (one spawns west of the Graveyard of Shadows in the Wilderness)",
-            "Blurite ore (2 if you want your own blurite sword; it is obtained/obtainable during the quest) (If you plan on doing Falador easy diary AND making a second sword, mine a third blurite ore [members only])\nAny pickaxe (one spawns in south Falador)",
-            "Any pickaxe (one spawns in south Falador)"
-        ],
-        "recommended": [
-            " 20 Combat level",
-            "Fast travel to Varrock (Varrock teleport)",
-            "Fast travel to Falador (Falador teleport)",
-            "(Members only) Fast travel to Rimmington (Pest Control minigame teleport, Fairy Rings to AIQ, Rimmington Teleport or Teleport to House if the player's house is in the village)",
-            "Armour and some food for aggressive enemies near the blurite rocks"
+            "Pickaxe and  15 Mining (boostable) if you wish to mine the ores yourself (bronze pickaxe obtained during the quest)"
         ],
         "enemies_to_defeat": [
             "None"
         ],
         "ironman_concerns": [
-            " 15  Smithing (not needed if obtaining iron bar from drops)",
-            " 15  Mining (not needed if obtaining iron bar from drops)",
-            " 10  Cooking (Pie dish can be found easily in the kitchen of Varrock Palace, and can be cooked there as well. Best to come here after speaking to Reldo)"
+            " 15 Mining (boostable), OR",
+            "The ability to kill monsters such as Flesh Crawlers, Mind/Body Golems, or other monsters for their iron ore drops."
         ]
     },
     {
-        "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
-        "quest_name": "Imp Catcher",
-        "start_area": "Speak to Wizard Mizgogon the top floor of the Wizards' Tower. Show on map",
-        "length": "Short",
-        "description": "The Wizard Grayzag has summoned hundreds of little imps. They have stolen a lot of things belonging to the Wizard Mizgog including his magic beads.",
-        "requirements": [],
+        "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
+        "quest_name": "Black Knights' Fortress",
+        "start_area": "Speak to Sir Amik Varzeon the 2nd\u00a0floor[UK]3rd\u00a0floor[US]of the White Knights' Castle's western tower in Falador. Show on map",
+        "length": "Very Short",
+        "description": "The Black Knights are up to no good. You are hired by the white knights to spy on them and destroy their secret weapon.",
+        "requirements": [
+            "any:  12  Quest points",
+            "any: The ability to evade level 33 Black Knights"
+        ],
         "items_required": [
-            "Black bead",
-            "Yellow bead",
-            "Red bead",
-            "White bead"
+            "Cabbage (can be obtained from the cabbage patch in Edgeville Monastery and Lumbridge cellar. Cabbages obtained from Draynor Manor CANNOT be used)",
+            "Iron chainbody (can be purchased at Horvik's Armour Shop in Varrock and from Wayne's Chains in Falador)",
+            "Bronze med helm (can be purchased in the helmet shop in Barbarian Village, spawns by the backdoor of Draynor Manor)"
         ],
         "recommended": [
-            "(Members only) Fast travel to the Wizards' Tower (Necklace of Passage, Amulet of Glory to Draynor Village, or Fairy Rings to DIS)"
+            " 15 Combat level",
+            "Food",
+            "Armour",
+            "Falador teleports",
+            "(Members only) Combat bracelet to the Monastery and head west towards the Black Knights' Fortress"
         ],
         "enemies_to_defeat": [
-            "Multiple imps (level 2) (optional unless ironman)"
+            "None"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
+        "quest_name": "Witch's Potion",
+        "start_area": "Talk to Hettyin her house in Rimmington, south of Faladorand west of Port Sarim. Show on map",
+        "length": "Very Short",
+        "description": "Become one with your darker side. Tap into your hidden depths of magical potential by making a potion with the help of Hetty the Rimmington witch.",
+        "requirements": [],
+        "items_required": [
+            "Burnt meat",
+            "Eye of newt",
+            "Onion",
+            "Rat's tail (only obtainable after starting the quest)"
+        ],
+        "recommended": [
+            "Teleport to Rimmington"
+        ],
+        "enemies_to_defeat": [
+            "\nRat (level 1)"
         ]
     },
     {
@@ -278,25 +239,25 @@
         ]
     },
     {
-        "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
-        "quest_name": "Ernest the Chicken",
-        "start_area": "Speak to Veronica, south of Draynor Manorby the gate. Show on map",
+        "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
+        "quest_name": "Pirate's Treasure",
+        "start_area": "Speak to Redbeard Frankat the northernmost dock at Port Sarim, just outside The Rusty Anchor. Show on map",
         "length": "Very Short",
-        "description": "Veronica is very worried. Her fianc\u00e9 went into the big spooky manor house to ask for directions. An hour later and he's still not out yet.",
-        "requirements": [
-            "any: The ability to defend from a level 22 Skeleton."
-        ],
+        "description": "Redbeard Frank knows the location of pirate treasure, but he'll only part with the knowledge for a bottle of Karamjan rum.",
+        "requirements": [],
         "items_required": [
-            "Spade (can be obtained during the quest)",
-            "Fish food (can be obtained during the quest)",
-            "Poison (can be obtained during the quest)"
+            "Karamjan rum (obtainable during the quest for 30 coins)",
+            "White apron (obtainable during the quest in Port Sarim at Gerrant's Fishy Business.)",
+            "60 coins (only 30 is needed if using a Ring of charos(a))",
+            "10 bananas (obtainable during the quest)",
+            "Spade (obtainable during the quest)"
         ],
         "recommended": [
-            "(Members only) Fast travel to Draynor Manor (Draynor Manor Teleport or amulet of glory)",
-            "Food (If lower hp a lvl 22 skeleton and dead trees attack you)"
+            "Varrock Teleport",
+            "Falador Teleport"
         ],
         "enemies_to_defeat": [
-            "None"
+            "\nGardener (level 4, optional)"
         ]
     },
     {
@@ -349,111 +310,50 @@
         ]
     },
     {
-        "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
-        "quest_name": "Doric's Quest",
-        "start_area": "Speak to Doricin the small house north of Falador, just outside the east gate of Taverley. Show on map",
-        "length": "Very Short",
-        "description": "Doric the dwarf is happy to let you use his anvils but first he would like you to run an errand for him.",
+        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
+        "quest_name": "Rune Mysteries",
+        "start_area": "Speak to Duke Horacioon the 1st\u00a0floor[UK]2nd\u00a0floor[US]of Lumbridge Castle. Show on map",
+        "length": "Short",
+        "description": "Recent research at the Wizards' Tower has found a way to create Runes for the first time in centuries. Assist the head wizard Sedridor in his research and he too may teach you these secrets!",
         "requirements": [],
-        "items_required": [
-            "6 clay (not soft clay)",
-            "4 copper ores",
-            "2 iron ores"
-        ],
+        "items_required": [],
         "recommended": [
-            "Pickaxe and  15 Mining (boostable) if you wish to mine the ores yourself (bronze pickaxe obtained during the quest)"
+            "Fast travel to Varrock (Varrock teleport, Chronicle or (members only) Ring of Wealth to the Grand Exchange or Combat Bracelet to the Champions' Guild)",
+            "(Members only) Fast travel to the Wizards' Tower (Necklace of Passage, Amulet of Glory to Draynor Village or Fairy Rings to DIS)"
         ],
         "enemies_to_defeat": [
             "None"
-        ],
-        "ironman_concerns": [
-            " 15 Mining (boostable), OR",
-            "The ability to kill monsters such as Flesh Crawlers, Mind/Body Golems, or other monsters for their iron ore drops."
         ]
     },
     {
-        "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
-        "quest_name": "Demon Slayer",
-        "start_area": "Speak to Arisin the tent on the western side of Varrock Square. Show on map",
+        "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
+        "quest_name": "Misthalin Mystery",
+        "start_area": "Speak to Abigale(or Hewey, who sits next to her) in the south-eastern corner of Lumbridge Swamp, near the fishing spots. Show on map",
         "length": "Short",
-        "description": "A mighty demon is being summoned to destroy the city of Varrock. You find out you are the one destined to stop him (or at least try).",
+        "description": "A woman cries as a man lays dying, desperately they beg you to stop a cryptic killer before their friends suffer a similar fate.",
         "requirements": [],
         "items_required": [
-            "Bucket of water (can be obtained during the quest)",
-            "25 bones (can't be noted, but can be delivered in increments)",
-            "1 coin"
-        ],
-        "recommended": [
-            " 15 Combat level",
-            "Armour and some food",
-            "Fast travel to Varrock (Varrock teleport, Chronicle or combat bracelet to the Champions' Guild (members only))",
-            "Fast travel to the Wizards' Tower (necklace of passage, amulet of glory to Draynor Village, amulet of the eye, or fairy rings to DIS)(members only)"
+            "Bucket (obtainable during quest)",
+            "Tinderbox (obtainable during quest)",
+            "Knife (obtainable during quest)"
         ],
         "enemies_to_defeat": [
-            "\nDelrith (level 27)"
+            "None"
         ]
     },
     {
-        "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
-        "quest_name": "The Corsair Curse",
-        "start_area": "Speak to Captain Tockat the crossroads north of Port Sarim. Show on map",
-        "length": "Short",
-        "description": "From the newly revealed town of Corsair Cove, deep in the south of Feldip Hills, the captain of the Corsairs has sailed to Port Sarim seeking help. His crew is sick, and he suspects that a curse has been laid upon them.\nIf you can unravel the fearful and conflicting tales of ogre relics, vengeful mermaids and demonic possession, maybe you can help his ailing crew overcome The Corsair Curse.",
+        "url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
+        "quest_name": "X Marks the Spot",
+        "start_area": "Speak to Veosin The Sheared Ramin Lumbridge. Show on map",
+        "length": "Very Short",
+        "description": "Veos has long been a lover of treasure hunts and his latest hunt has brought him to Lumbridge. However, not knowing the area well, Veos could use some help finding this treasure.",
         "requirements": [],
         "items_required": [
-            "Spade (obtainable during quest)",
-            "Tinderbox (obtainable during quest)"
+            "Spade"
         ],
         "recommended": [
-            " 20 Combat level",
             "Energy potions or (members only) stamina potions",
-            "Weapon, armour and some food"
-        ],
-        "enemies_to_defeat": [
-            "\nIthoi the Navigator (level 35)"
-        ]
-    },
-    {
-        "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
-        "quest_name": "Cook's Assistant",
-        "start_area": "Speak to the Cookin the kitchen of Lumbridge Castle. Show on map",
-        "length": "Very Short",
-        "description": "The Lumbridge Castle cook is in a mess. It is the Duke of Lumbridge's birthday and the cook is making the cake.\nHe needs a lot of ingredients and doesn't have much time.",
-        "requirements": [],
-        "items_required": [
-            "Pot",
-            "Bucket"
-        ],
-        "recommended": [
-            "Egg",
-            "Bucket of milk",
-            "Pot of flour"
-        ],
-        "enemies_to_defeat": [
-            "None"
-        ]
-    },
-    {
-        "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
-        "quest_name": "Black Knights' Fortress",
-        "start_area": "Speak to Sir Amik Varzeon the 2nd\u00a0floor[UK]3rd\u00a0floor[US]of the White Knights' Castle's western tower in Falador. Show on map",
-        "length": "Very Short",
-        "description": "The Black Knights are up to no good. You are hired by the white knights to spy on them and destroy their secret weapon.",
-        "requirements": [
-            "any:  12  Quest points",
-            "any: The ability to evade level 33 Black Knights"
-        ],
-        "items_required": [
-            "Cabbage (can be obtained from the cabbage patch in Edgeville Monastery and Lumbridge cellar. Cabbages obtained from Draynor Manor CANNOT be used)",
-            "Iron chainbody (can be purchased at Horvik's Armour Shop in Varrock and from Wayne's Chains in Falador)",
-            "Bronze med helm (can be purchased in the helmet shop in Barbarian Village, spawns by the backdoor of Draynor Manor)"
-        ],
-        "recommended": [
-            " 15 Combat level",
-            "Food",
-            "Armour",
-            "Falador teleports",
-            "(Members only) Combat bracelet to the Monastery and head west towards the Black Knights' Fortress"
+            "(Members only) Fast travel to Draynor Village (Amulet of Glory or Necklace of Passage to the Wizards' Tower)"
         ],
         "enemies_to_defeat": [
             "None"
@@ -487,6 +387,106 @@
         ],
         "enemies_to_defeat": [
             "\nAncient Guardian (level 25) (Note: You can skip the fight with a pickaxe and  10 Mining (boostable))"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
+        "quest_name": "Sheep Shearer",
+        "start_area": "Speak to Fred the Farmerin the house by the sheeppen north of Lumbridge Castle. Show on map",
+        "length": "Very Short",
+        "description": "Fred the Farmer's sheep are getting mighty woolly. He will pay you to shear them.",
+        "requirements": [],
+        "items_required": [
+            "20 balls of wool (unnoted)"
+        ],
+        "enemies_to_defeat": [
+            "None"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
+        "quest_name": "Cook's Assistant",
+        "start_area": "Speak to the Cookin the kitchen of Lumbridge Castle. Show on map",
+        "length": "Very Short",
+        "description": "The Lumbridge Castle cook is in a mess. It is the Duke of Lumbridge's birthday and the cook is making the cake.\nHe needs a lot of ingredients and doesn't have much time.",
+        "requirements": [],
+        "items_required": [
+            "Pot",
+            "Bucket"
+        ],
+        "recommended": [
+            "Egg",
+            "Bucket of milk",
+            "Pot of flour"
+        ],
+        "enemies_to_defeat": [
+            "None"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
+        "quest_name": "The Corsair Curse",
+        "start_area": "Speak to Captain Tockat the crossroads north of Port Sarim. Show on map",
+        "length": "Short",
+        "description": "From the newly revealed town of Corsair Cove, deep in the south of Feldip Hills, the captain of the Corsairs has sailed to Port Sarim seeking help. His crew is sick, and he suspects that a curse has been laid upon them.\nIf you can unravel the fearful and conflicting tales of ogre relics, vengeful mermaids and demonic possession, maybe you can help his ailing crew overcome The Corsair Curse.",
+        "requirements": [],
+        "items_required": [
+            "Spade (obtainable during quest)",
+            "Tinderbox (obtainable during quest)"
+        ],
+        "recommended": [
+            " 20 Combat level",
+            "Energy potions or (members only) stamina potions",
+            "Weapon, armour and some food"
+        ],
+        "enemies_to_defeat": [
+            "\nIthoi the Navigator (level 35)"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
+        "quest_name": "The Knight's Sword",
+        "start_area": "Speak to the squirein the courtyard of the White Knights' Castlein Falador. Show on map",
+        "length": "Short",
+        "description": "Sir Vyvin's squire is in trouble. He has accidentally lost Sir Vyvin's ceremonial sword. Help him find a replacement without Sir Vyvin finding out.",
+        "requirements": [],
+        "items_required": [
+            "Redberry pie (not half a redberry pie), (Members can purchase one from Romily Weaklax in the Cooks' Guild)",
+            "2 iron bars (4 if you want your own blurite sword) (one spawns west of the Graveyard of Shadows in the Wilderness)",
+            "Blurite ore (2 if you want your own blurite sword; it is obtained/obtainable during the quest) (If you plan on doing Falador easy diary AND making a second sword, mine a third blurite ore [members only])\nAny pickaxe (one spawns in south Falador)",
+            "Any pickaxe (one spawns in south Falador)"
+        ],
+        "recommended": [
+            " 20 Combat level",
+            "Fast travel to Varrock (Varrock teleport)",
+            "Fast travel to Falador (Falador teleport)",
+            "(Members only) Fast travel to Rimmington (Pest Control minigame teleport, Fairy Rings to AIQ, Rimmington Teleport or Teleport to House if the player's house is in the village)",
+            "Armour and some food for aggressive enemies near the blurite rocks"
+        ],
+        "enemies_to_defeat": [
+            "None"
+        ],
+        "ironman_concerns": [
+            " 15  Smithing (not needed if obtaining iron bar from drops)",
+            " 15  Mining (not needed if obtaining iron bar from drops)",
+            " 10  Cooking (Pie dish can be found easily in the kitchen of Varrock Palace, and can be cooked there as well. Best to come here after speaking to Reldo) or partial completion of Perilous Moons to purchase a Redberry pie from Yarnio"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
+        "quest_name": "The Restless Ghost",
+        "start_area": "Speak to Father Aereckin the chapel south-east of Lumbridge Castle. Show on map",
+        "length": "Short",
+        "description": "A ghost is haunting Lumbridge graveyard. The priest of the Lumbridge church of Saradomin wants you to find out how to get rid of it.",
+        "requirements": [],
+        "items_required": [],
+        "recommended": [
+            " 10 Combat level",
+            "Three Lumbridge teleports",
+            "A necklace of passage, for teleporting to the Wizards' Tower (members only)"
+        ],
+        "enemies_to_defeat": [
+            "\nSkeleton (level 13) (can be avoided)"
         ]
     },
     {
@@ -617,10 +617,10 @@
             "Fast travel to several locations",
             "Burthorpe (Games Necklace or Burthorpe Games Room grouping teleport)",
             "Varrock (Varrock teleport, Chronicle, Ring of Wealth to the Grand Exchange or Combat Bracelet to the Champions' Guild)",
-            "Brimhaven (Brimhaven teleport, Teleport to House if it is in Brimhaven, charter ship or ship from Ardougne to Brimhaven or Amulet of Glory to Karamja)",
+            "Brimhaven (Brimhaven teleport, Teleport to House if it is in Brimhaven, charter ship or ship from Ardougne or Rimmington to Brimhaven or Amulet of Glory to Karamja)",
             "Burthorpe (Games Necklace or Burthorpe Games Room grouping teleport)",
             "Varrock (Varrock teleport, Chronicle, Ring of Wealth to the Grand Exchange or Combat Bracelet to the Champions' Guild)",
-            "Brimhaven (Brimhaven teleport, Teleport to House if it is in Brimhaven, charter ship or ship from Ardougne to Brimhaven or Amulet of Glory to Karamja)"
+            "Brimhaven (Brimhaven teleport, Teleport to House if it is in Brimhaven, charter ship or ship from Ardougne or Rimmington to Brimhaven or Amulet of Glory to Karamja)"
         ],
         "enemies_to_defeat": [
             "Ice Queen (level 111) (unless you already have Ice Gloves)",
@@ -674,7 +674,7 @@
             "Tuna",
             "Bass",
             "Swordfish",
-            "Pickaxe - rune highly recommended",
+            "Pickaxe - adamant or rune (41+ Mining) highly recommended",
             "2 cut rubies",
             "Ring Mould",
             "Necklace Mould",
@@ -707,11 +707,11 @@
         "description": "The mountain Dwarves' home would be an ideal way to get across White Wolf Mountain safely. However, the Dwarves aren't too fond of strangers. They will let you through if you can bring them a trophy. The trophy is the prize for the annual Hemenster fishing competition.",
         "requirements": [],
         "items_required": [
+            "Spade",
             "5 coins (10 if you buy a fishing rod from Jack)",
             "Fishing pass (obtained during quest)",
             "Garlic (obtainable during quest)",
             "Fishing rod (obtainable during quest), oily fishing rod does not work",
-            "Spade",
             "Red vine worm (obtainable during quest)"
         ],
         "recommended": [
@@ -788,7 +788,7 @@
             "Lucien (level 14) - only if siding with the Guardians of Armadyl"
         ],
         "ironman_concerns": [
-            " 20 unnoted items need to be delivered at once. You must weigh -1kg for part of this quest.",
+            " 20 unnoted items need to be delivered at once.",
             "Yew longbows can be obtained as a rare drop from young implings.\nDarts or throwing knives can be used in place of it with Ice arrows equipped in order to deal damage to Fire Warrior of Lesarkus. Since Ice arrows don't have a level restriction, 40 range is an optional completion requirement.",
             "Darts or throwing knives can be used in place of it with Ice arrows equipped in order to deal damage to Fire Warrior of Lesarkus. Since Ice arrows don't have a level restriction, 40 range is an optional completion requirement."
         ]
@@ -798,7 +798,7 @@
         "quest_name": "Clock Tower",
         "start_area": "Talk to Brother Kojoin the Clock Towersouth of East Ardougne. Show on map",
         "length": "Very Short",
-        "description": "Help the confused Brother Kojo find the missing cogs and fix his watch tower. Search the dungeon using brawn and brains to correctly place the four cogs.",
+        "description": "Help the confused Brother Kojo find the missing cogs and fix his clock tower. Search the dungeon using brawn and brains to correctly place the four cogs.",
         "requirements": [],
         "items_required": [
             "Bucket of water (obtainable during quest) or Ice gloves or Smiths gloves (i)"
@@ -860,7 +860,8 @@
         ],
         "items_required": [
             "6 normal logs (or an axe, obtainable during the quest by killing goblins in the Tree Gnome Village maze)",
-            "Combat equipment"
+            "Combat equipment",
+            "Food"
         ],
         "recommended": [
             " 45 Combat level",
@@ -922,7 +923,9 @@
             "100 coins"
         ],
         "recommended": [
-            "Energy restoring items"
+            "Energy restoring items",
+            "Ardougne Teleport for access to beginning of quest.",
+            "Skills Necklace or other teleport near fishing guild"
         ],
         "enemies_to_defeat": [
             "None"
@@ -952,7 +955,8 @@
             "None"
         ],
         "ironman_concerns": [
-            " The hangover cure can be made before the quest starts by combining milk, chocolate dust, and snape grass to conserve inventory space."
+            " The hangover cure can be made before the quest starts by combining milk, chocolate dust, and snape grass to conserve inventory space.",
+            "The hangover cure itself is an untradeable item so if preparing for Group Ironman, do not premake these as you will be unable to share them with your group through Group Storage or Trading."
         ]
     },
     {
@@ -1118,10 +1122,10 @@
         "description": "South of Al Kharid a new desert pass has opened up, leading to the dangers of the Kharid desert.\nEquip your desert garb and make sure your waterskin is full before heading off into the trackless dunes in search of desert adventure.",
         "requirements": [],
         "items_required": [
-            "Full Desert clothing (shirt, robe and boots required). You will lose them. (Desert robes, Black desert robe, and Black desert shirt does not work)",
-            "1-3 Bronze bars (can be lost while experimenting)",
+            "Full Desert clothing (shirt, robe and boots required). You will lose them. (Black desert robes, Black desert robe, and Black desert shirt does not work)",
             "A hammer",
-            "30-50 feathers",
+            "1 Bronze bar (recommended to bring at least 2 additional bars, 24-96% chance to succeed based on Smithing level)",
+            "10 feathers (recommended to bring 30-50 feathers, 24-99% chance to succeed based on Fletching level)",
             "Means to enter the desert. (Such as the Shantay pass,  Desert amulet 2, Teleport tablet or scrolls, Fairy rings or the Pharaoh's sceptre)"
         ],
         "recommended": [
@@ -1225,13 +1229,11 @@
         "requirements": [],
         "items_required": [
             "Pestle and mortar",
-            "Leather boots",
-            "Gloves (can be stolen from a Digsite workman)",
             "Vial",
             "Tinderbox",
             "Cup of tea (can be stolen from the Varrock tea stall)",
             "2 ropes (can be stolen from a Digsite workman, but with average luck, this can easily take more than 15 minutes.)",
-            "Opal or uncut opal (small chance to acquire while panning for a quest item but needs chisel)",
+            "Opal or uncut opal (small chance to acquire while panning for a quest item)",
             "Charcoal (obtainable during the quest, but may take some time)",
             "Specimen brush (obtained during the quest)",
             "Specimen jar (obtained during the quest)",
@@ -1295,8 +1297,8 @@
             "Lockpick (2 in case you fail) (Strange old lockpick does not work)",
             "Pickaxe",
             "Vial of water",
-            "Ardrigal",
-            "Snake weed",
+            "Ardrigal (obtainable during the quest)",
+            "Snake weed (obtainable during the quest)",
             "One of each cut gem up to diamond:\nSapphire\nEmerald\nRuby\nDiamond\nOpal\nJade\nRed topaz",
             "Sapphire",
             "Emerald",
@@ -1435,9 +1437,9 @@
         "description": "Hundreds of years ago, a mineral was found that had the ability to change the property of Magic.\nThe magicians, fearing the effect this may have on their profession, sealed this Workshop forever; or so they had hoped. See if you can rediscover the lost knowledge of elemental ore.",
         "requirements": [],
         "items_required": [
-            "Knife (obtainable during the quest) or a non-poisoned slash weapon (e.g. dagger or scimitar)",
+            "Knife (obtainable during the quest) or a slash weapon (e.g. dagger or scimitar)",
             "Pickaxe",
-            "Needle (obtainable during the quest)",
+            "Needle (obtainable during the quest, Costume needle does not work)",
             "Thread",
             "Leather (obtainable during the quest)",
             "Hammer",
@@ -1475,7 +1477,8 @@
             "Weapon, armour and some food (you may wish to bring extra food due to the ghasts encountered during the quest who will attempt to rot the food you bring)",
             "Stamina or energy potions",
             "Prayer potions",
-            "2 Salve Graveyard Teleports to teleport near Drezel"
+            "2 Salve Graveyard Teleports to teleport near Drezel",
+            "2 Barrows Teleports to teleport near the Filliman Tarlock to avoid walking through the swamp [optional]"
         ],
         "enemies_to_defeat": [
             "3 Ghasts (level 30)"
@@ -1532,8 +1535,7 @@
             "Pestle and mortar",
             "Gloves, the list on Quicklime shows all gloves that work.",
             "Pot  (obtainable during quest)",
-            "Cooked rabbit (obtainable during quest if you bring an axe) or roast rabbit",
-            "OPTIONAL: Your Iban's staff or its upgraded counterpart in order to recharge it, if you have space available in your inventory."
+            "Cooked rabbit (obtainable during quest if you bring an axe) or roast rabbit"
         ],
         "recommended": [
             " 60 Combat level",
@@ -1543,11 +1545,12 @@
             "At least 3 Summer pies to boost Agility for several obstacles, and to recover health from the traps",
             "Ranged, Magic or a Halberd to safespot the Tyras Guard",
             "Coins to buy food in the Underground Pass",
-            "Fast travel to Rimmington (Rimmington teleport, Teleport to House if your house is in Rimmington, or alternatively Falador teleport)",
-            "Fast travel to the Underground Pass (West Ardougne teleport or travel from East Ardougne)"
+            "Fast travel to Rimmington such as Rimmington teleport tablets, Teleport to House if your house is in Rimmington, Ring of the elements, Falador teleport, or Explorer's Ring 2 or higher.",
+            "Fast travel to the Underground Pass (West Ardougne teleport or travel from East Ardougne)",
+            "OPTIONAL: Your Iban's staff or its upgraded counterpart in order to recharge it for free by using it on the well during the Underground Pass section"
         ],
         "enemies_to_defeat": [
-            "Tyras guard (level 110)"
+            "Tyras guard (level 110) Safespottable"
         ],
         "ironman_concerns": [
             " 10 Crafting (boostable) (to make a strip of cloth)"
@@ -1569,9 +1572,10 @@
             "Sliced banana (can be obtained during the quest)",
             "Small fishing net",
             "Pestle and mortar (can be obtained during the quest for 6 gp)",
+            "2 Logs to quickly make Poison karambwan at fishing site and to cook Pasty jogre bones later in the quest",
             "Iron spear or better, which will be consumed during the quest. The following do not work: Black spear, Zamorakian spear, Leaf-bladed spear, Gilded spear and bone spear.",
             "Agility potion(4)",
-            "Ranged equipment, Magic equipment, or a halberd to kill a monkey for a monkey corpse",
+            "Ranged equipment, Magic equipment, or a halberd to kill a monkey for a monkey corpse (melee does 0 damage to monkeys)",
             "Tinderbox (If you wish to avoid running back to the range in Brimhaven)",
             "Jogre bones (can be obtained during the quest)",
             "Seaweed (can be obtained during the quest)",
@@ -1589,7 +1593,6 @@
             "Brimhaven teleport",
             "Weight-reducing clothing",
             "Lunar/Dramen staff for fairy rings",
-            "2 Logs to quickly make Poison karambwan at fishing site and to cook Pasty jogre bones later in the quest",
             " 42 Ranged,  53 Agility,  21 Strength, a mith grapple, and crossbow for the Strong Tree shortcut"
         ],
         "enemies_to_defeat": [
@@ -1599,7 +1602,7 @@
             " 34 Herblore (boostable) to create the agility potion",
             " 65 Fishing (boostable) to catch raw karambwan (necessary if you burn the one given to you)",
             "The ability to defeat a level 53 enemy (can be safespotted and the bones telegrabbed at the Ardougne Zoo)",
-            "Obtaining an iron spear or better. May be bought from the Mount Karuulm Weapon Shop, or dropped by enemies such as Moss Giants, Jogres, Tribesmen, and Hobgoblins"
+            "Obtaining an iron spear or better. A steel spear spawns in the Ancient Prison in Neypotzli at the western wall. Alternatively, it may be bought from the Mount Karuulm Weapon Shop, Fortis Blacksmith in Varlamore, or dropped by enemies such as Moss Giants, Jogres, Tribesmen, and Hobgoblins."
         ]
     },
     {
@@ -1624,7 +1627,7 @@
         "enemies_to_defeat": [
             "Dad (level 101) (can be safespotted)",
             "Troll General (level 113) (can be safespotted)",
-            "Berry and Twig (both level 71) Only if you have less than  30 Thieving or fail to pickpocket them (can be safespotted)"
+            "Berry and Twig (both level 71) (can be safespotted) Only if you have less than  30 Thieving or fail to pickpocket them (can be safespotted)"
         ]
     },
     {
@@ -1633,14 +1636,17 @@
         "start_area": "Find the Diary of Herbi Flaxon a shelf in a house at the village of Mort'ton. Show on map",
         "length": "Short",
         "description": "The townsfolk of Mort'ton have some form of strange affliction and the town is full of Shades. Can you find some way to reverse this?",
-        "requirements": [],
+        "requirements": [
+            "any:  The Restless Ghost",
+            "any:  Priest in Peril"
+        ],
         "items_required": [
             "5000+ coins (bring plenty of money just in case)",
             "2 Tarromin potion (unf) (made by adding 2 clean Tarromins (obtainable during quest) to 2 vials of water (empty vials are obtainable during quest))",
             "Tinderbox",
             "An axe for cutting pyre logs",
             "2 Ashes",
-            "Prior to building the temple, you need a hammer (1 coin at the general store). However, a regular hammer is insufficient to build the temple without a large group. An additional 13,000 coins (or 5,240 on the Grand Exchange) allows you to buy a Flamtaer hammer from Razmire, which is necessary to complete this part of the quest without a group."
+            "Prior to building the temple, you need a hammer (1 coin at the general store). However, a regular hammer is insufficient to build the temple without a large group. An additional 13,000 coins (or 5,315 on the Grand Exchange) allows you to buy a Flamtaer hammer from Razmire, which is necessary to complete this part of the quest without a group."
         ],
         "recommended": [
             " 25 Combat level",
@@ -1698,13 +1704,13 @@
             "Draugen (level 69)"
         ],
         "ironman_concerns": [
-            " 76 Fishing (boostable) is required to fish for raw sharks. Alternative methods to obtain one are:\nRufus' Meat Emporium in Canifis sells a single raw shark.\nFrankie's Fishing Emporium in Port Piscarilius sells raw shark.\nRiver trolls in the Enchanted Valley drop them commonly, but require access to fairy rings.\nWaterfiends, combat level 115, rarely drop noted raw shark.\nMogres, combat level 60, require completion of Skippy and the Mogres,  32 Slayer (boostable), and fishing explosives to attack. They can rarely drop a raw shark.\nWintertodt can drop a raw shark after  43 Fishing, though it will be very rare, but chances increases with Fishing level.",
+            " 76 Fishing (boostable) is required to fish for raw sharks. Alternative methods to obtain one are:\nRufus' Meat Emporium in Canifis sells a single raw shark.\nFrankie's Fishing Emporium in Port Piscarilius sells raw shark.\nRiver trolls in the Enchanted Valley drop them commonly, but require access to fairy rings.\nWaterfiends, combat level 115, rarely drop noted raw shark.\nMogres, combat level 60, require completion of Skippy and the Mogres,  32 Slayer (boostable), and fishing explosives to attack. They can rarely drop a raw shark.\nWintertodt can drop a raw shark after  43 Fishing, though it will be very rare, but chances increase with Fishing level.",
             "Rufus' Meat Emporium in Canifis sells a single raw shark.",
             "Frankie's Fishing Emporium in Port Piscarilius sells raw shark.",
             "River trolls in the Enchanted Valley drop them commonly, but require access to fairy rings.",
             "Waterfiends, combat level 115, rarely drop noted raw shark.",
             "Mogres, combat level 60, require completion of Skippy and the Mogres,  32 Slayer (boostable), and fishing explosives to attack. They can rarely drop a raw shark.",
-            "Wintertodt can drop a raw shark after  43 Fishing, though it will be very rare, but chances increases with Fishing level.",
+            "Wintertodt can drop a raw shark after  43 Fishing, though it will be very rare, but chances increase with Fishing level.",
             " Sections of this quest have strict inventory requirements:\nThorvald the Warrior: No weapons, armour, or runes. (A Looting bag is not allowed, regardless of its contents)\nPeer the Seer: No items at all equipped or in your inventory.",
             "Thorvald the Warrior: No weapons, armour, or runes. (A Looting bag is not allowed, regardless of its contents)",
             "Peer the Seer: No items at all equipped or in your inventory."
@@ -1734,15 +1740,15 @@
             "Means to deal damage with air, water, earth and fire spells"
         ],
         "recommended": [
+            " 40 Prayer for Protect from Missiles against the Dagannoth Mother's ranged attacks",
             " 50 Combat level",
             "Armour and some food",
-            " 40 Prayer for Protect from Missiles against the Dagannoth Mother's ranged attacks",
             "Level 13+ Magic, in order to cast required spells to defeat the creature.",
             "Fast travel to the Lighthouse (Fairy Rings to ALP or walk from the Barbarian Outpost using a Games Necklace or grouping teleport to the Barbarian Assault)"
         ],
         "enemies_to_defeat": [
-            "Dagannoth (level 100)",
-            "Dagannoth Mother (level 100)"
+            "Dagannoth (level 100) (can be completely safespotted)",
+            "Dagannoth Mother (level 100) (can no longer be 100% safespotted - ensure you can protect yourself from ranged attacks if nothing else)"
         ]
     },
     {
@@ -1754,20 +1760,19 @@
         "requirements": [],
         "items_required": [
             "Iron bar",
-            "Logs (obtainable during the quest if you bring an axe)",
-            "At least one of these tools in order to gain favour: A pickaxe, an axe (if 45 Woodcutting), a rake (if 10 Farming and 35 Herblore, obtainable during quest for 15 gp), a harpoon or lobster pot",
             "Any non-silver ring you are willing to lose (not onyx/dragonstone/explorer/beacon/'perfect' ring/nature)",
-            "Flowers you are willing to lose (can be bought from Flower Girl in Miscellania for 15 coins, or you can plant and pick mithril seeds; trollweiss or any of the Farming flowers will not work.)",
-            "If seeking the Prince: a cake (chocolate cakes work too)",
-            "If seeking the Princess: any bow (except composite, ogre, training and magic bows!) you are willing to lose"
+            "At least one of these tools in order to gain favour: A pickaxe, an axe (if 45 Woodcutting), a rake (if 10 Farming and 35 Herblore, obtainable during quest for 15 gp), a harpoon or lobster pot",
+            "Logs (obtainable during the quest if you bring an axe)"
         ],
         "recommended": [
+            "Flowers you are willing to lose (can be bought from Flower Girl in Miscellania for 15 coins, or you can plant and pick mithril seeds; trollweiss or any of the Farming flowers will not work.)",
+            "If seeking the Prince: a cake (chocolate cakes work too)",
+            "If seeking the Princess: any bow (except composite, ogre, training and magic bows!) you are willing to lose",
             " 45 Woodcutting to cut Maple trees to earn approval",
             " 10 Farming to rake flax to earn approval and  35 Herblore to rake herb patch for approval",
             "Weight-reducing clothing",
             "Stamina or energy potions",
-            "Dramen/Lunar staff for fairy rings",
-            "Fremennik Medium Diary for the shortcut between Miscellania and Etceteria"
+            "Dramen/Lunar staff for fairy rings"
         ],
         "enemies_to_defeat": [
             "None"
@@ -1805,6 +1810,7 @@
             "Weight-reducing clothing",
             "Emergency teleport (a ring of life works as well)",
             "Ardougne cloak 1 or Ardougne teleports ",
+            "A mithril seed or tinderbox and logs to skip talking to Kruk and Garkor when bringing a monkey to King Awowogei.",
             "A ring of dueling to bank quickly (the Ardougne cloak could be used instead, although it's somewhat further from a bank; the Battlefield of Khazard has a spirit tree, and the Gnome Stronghold has a bank and glider service)",
             "200,000 coins (if skipping the puzzle)"
         ],
@@ -1812,7 +1818,7 @@
             "Jungle Demon (level 195)"
         ],
         "ironman_concerns": [
-            " 40 Smithing (boostable) (to make the gold bar if not dropped by a monster) or  33 Magic (boostable) to tele-grab a gold bar from Varrock west bank. A gold bar is also a reward from The Digsite, Goblin Diplomacy, and Waterfall Quest"
+            " 40 Smithing (boostable) (to make the gold bar if not dropped by a monster) or  33 Magic (boostable) (to telegrab a gold bar from Varrock west bank basement.) A gold bar is also a reward from The Digsite, Goblin Diplomacy, and Waterfall Quest"
         ]
     },
     {
@@ -1821,7 +1827,10 @@
         "start_area": "Speak to the Zealotat the mines in Morytaniaon the path to Mort'ton. Show on map",
         "length": "Short",
         "description": "Recent forays into Morytania by some of Saradomin's more fanatical supporters have unearthed murky rumours concerning an abandoned mine in the south.\nLegend speaks of an unusual material, hidden in the depths of the mines, that is somehow linked to the desolation and fear that now surrounds the place. Do you have the nerve to find out more, and enter the haunted mines of Morytania?",
-        "requirements": [],
+        "requirements": [
+            "any:  The Restless Ghost",
+            "any:  Priest in Peril"
+        ],
         "items_required": [
             "A chisel (can be acquired during the quest)",
             "A Zealot's Key (Pickpocket from Zealot)"
@@ -1880,8 +1889,9 @@
             "OR Throne of Miscellania completed to obtain maple logs from managing Miscellania.",
             "OR  50 Firemaking (not boostable) to get a maple/yew log via Supply crate from Wintertodt.",
             "OR High enough combat stats to kill Giant Mole for a 1/12.8 drop of yew logs.",
-            " 15 Smithing (boostable) to smelt an iron bar\nOR collect a spawn in level 18 Wilderness to the west of the Graveyard of Shadows",
-            "OR collect a spawn in level 18 Wilderness to the west of the Graveyard of Shadows"
+            " 15 Smithing (boostable) to smelt an iron bar\nOR collect a spawn in level 18 Wilderness to the west of the Graveyard of Shadows.\nOR collect a spawn at Sunset Coast (Requires completion of Children of the Sun).",
+            "OR collect a spawn in level 18 Wilderness to the west of the Graveyard of Shadows.",
+            "OR collect a spawn at Sunset Coast (Requires completion of Children of the Sun)."
         ]
     },
     {
@@ -1903,7 +1913,11 @@
             "A steel mace",
             "A steel warhammer",
             "A steel dagger",
-            "225 steel nails"
+            "225 steel nails\nNote: It takes 9 steel bars to make all of steel items required (excluding nails, which can be purchased at the Sawmill; including nails, the amount is 24 steel bars). 39 Smithing is needed to smith these steel items. To make it a bit easier to obtain these as an Ironman, one can buy the two swords, longsword, and dagger from the Varrock Swordshop, mace from Flynn's Mace Market in Falador and the warhammer from Keldagrim's Vigr's Warhammers.",
+            "A Druid pouch containing at least 5 charges\nNote: The pouch takes 3 per fill (need 6 Mort myre fungus or 3 Mort myre pear or Mort myre stem to have enough charges).",
+            "A hammer or Imcando hammer",
+            "6 planks",
+            "10 coins or a ring of charos (a)"
         ],
         "recommended": [
             " 45 Combat level",
@@ -2025,7 +2039,7 @@
             "Needle (can be purchased from the Canifis general store)",
             "Thread (can be purchased from the Canifis general store)",
             "One extra bucket of slime for colouring the bed sheet (can be purchased from a Charter ship crewmember at the port).",
-            "Nettle tea (prepared ahead of time) or items to make nettle tea:\nA tinderbox and a log of which you have the Firemaking level to light. Tinderbox can be purchased from the general store during quest\nGloves (must be closed fingered - Slayer gloves, Ranger gloves, Infinity gloves, Moonclan gloves, Granite gloves, Lunar gloves and Beekeeper's gloves won't work)\nNettles (can be obtained during the quest)\nBowl of water (empty bowl can be purchased during quest -- the gold bowl won't work)",
+            "Nettle tea (prepared ahead of time, within a bowl) or items to make nettle tea:\nA tinderbox and a log of which you have the Firemaking level to light. Tinderbox can be purchased from the general store during quest\nGloves (must be closed fingered - Slayer gloves, Ranger gloves, Infinity gloves, Moonclan gloves, Granite gloves, Lunar gloves and Beekeeper's gloves won't work)\nNettles (can be obtained during the quest)\nBowl of water (empty bowl can be purchased during quest -- the gold bowl won't work)",
             "A tinderbox and a log of which you have the Firemaking level to light. Tinderbox can be purchased from the general store during quest",
             "Gloves (must be closed fingered - Slayer gloves, Ranger gloves, Infinity gloves, Moonclan gloves, Granite gloves, Lunar gloves and Beekeeper's gloves won't work)",
             "Nettles (can be obtained during the quest)",
@@ -2074,7 +2088,7 @@
             "Note: The pigeons do not need to be let out of the cages.",
             "Pot (Obtainable during the quest)",
             "Soft clay (Obtained during the quest)",
-            "Two of each of the following gems, cut or uncut: (Two of each uncut gem are obtained during the quest)\nOpal\nJade\nRed topaz\nSapphire",
+            "Two of each of the following gems: (Two of each gem are obtained uncut during the quest but must be cut before using)\nOpal\nJade\nRed topaz\nSapphire",
             "Opal",
             "Jade",
             "Red topaz",
@@ -2127,15 +2141,16 @@
             "Pickaxe",
             "Axe",
             "Plank",
-            "Staff or a pole (obtainable during the quest, Dramen Staff does not work, but elemental staves do work)",
+            "Staff or a pole (obtainable during the quest, Dramen Staff does not work, but elemental staves and Lunar staff do work)",
             "Gloves (excluding: Slayer, Mystic, Ranger, Moonclan, Lunar, vambraces, and random event apparel)"
         ],
         "recommended": [
             " 40 Combat level",
+            "Combat equipment",
             "Stamina or energy potions",
             "Weight-reducing clothing",
             "Fast travel to the White Wolf Mountain (Gnome Glider or alternatively a Camelot teleport)",
-            "Fast travel to the Mountain Camp (Slayer Ring or Fairy Rings to AJR and head north)",
+            "Fast travel to the Mountain Camp (Slayer Ring or Fairy Rings to AJR and head north, or Camelot Teleport)",
             "Fast travel to Rellekka (Enchanted lyre or Fremennik sea boots, or House teleport if your house is in Rellekka)",
             "8 free inventory spaces"
         ],
@@ -2159,6 +2174,7 @@
         ],
         "recommended": [
             " 50 Combat level",
+            "Combat gear",
             "A Falador teleport",
             "A Combat bracelet (to teleport to the Monastery)",
             "A Camelot Teleport",
@@ -2181,7 +2197,7 @@
         "requirements": [],
         "items_required": [
             "500 coins",
-            "Gloves (not all work, but leather gloves and graceful gloves do, as well as many others. Barrows gloves, ice gloves, vambraces and Slayer gloves do NOT work!)",
+            "Gloves - (Leather gloves and graceful gloves work, Barrows gloves, ice gloves, vambraces and Slayer gloves do not work!)",
             "Kharidian headpiece (can be bought from Ali Morrisane)",
             "Fake beard (can be bought from Ali Morrisane)",
             "3 beers (can be obtained during quest, bought from Ali the Barman for 2 coins each)",
@@ -2268,7 +2284,7 @@
             "Climbing boots (if Eadgar's Ruse isn't completed and/or you lack 61 Magic for the Trollheim Teleport)",
             "A facemask, slayer helmet, or gas mask",
             "A tinderbox",
-            "20-50+ lockpicks or hair clips"
+            "20-50+ lockpicks"
         ],
         "recommended": [
             " 70 Combat level",
@@ -2364,9 +2380,10 @@
             "None"
         ],
         "ironman_concerns": [
-            "A bullseye lantern (to create the required sapphire lantern), obtainable through one of the following:\nPurchase from Miltog for 600 gp (after  Death to the Dorgeshuun)\n 49 Smithing (boostable) to create a bullseye lantern (unf)\n 36 Thieving (boostable) for pickpocketing cave goblins (after  Death to the Dorgeshuun) for a bullseye lantern.\n 35 Slayer (boostable) to kill wall beasts for a bullseye lantern (unf)\nItem spawn in Darkmeyer (after  Sins of the Father)",
+            "A bullseye lantern (to create the required sapphire lantern), obtainable through one of the following:\nPurchase from Miltog for 600 gp (after  Death to the Dorgeshuun)\n 49 Smithing (boostable) to create a bullseye lantern (unf)\n 35 Crafting To complete  Haunted Mine to kill Skeleton in Tarn's Lair\n 36 Thieving (boostable) for pickpocketing cave goblins (after  Death to the Dorgeshuun) for a bullseye lantern.\n 35 Slayer (boostable) to kill wall beasts for a bullseye lantern (unf)\nItem spawn in Darkmeyer (after  Sins of the Father)",
             "Purchase from Miltog for 600 gp (after  Death to the Dorgeshuun)",
             " 49 Smithing (boostable) to create a bullseye lantern (unf)",
+            " 35 Crafting To complete  Haunted Mine to kill Skeleton in Tarn's Lair",
             " 36 Thieving (boostable) for pickpocketing cave goblins (after  Death to the Dorgeshuun) for a bullseye lantern.",
             " 35 Slayer (boostable) to kill wall beasts for a bullseye lantern (unf)",
             "Item spawn in Darkmeyer (after  Sins of the Father)"
@@ -2529,6 +2546,7 @@
             "Ardougne or West Ardougne teleport tablets (runes may be inconvenient as your Magic will be lowered by the Mourner)",
             "Ring of dueling to reset drained stats at the Pool of Refreshment in the Ferox Enclave",
             "Necklace of passage for faster access to Arandar, via the Outpost",
+            "Fast travel to Taverley (House teleport, Balloon network, Falador teleport)",
             "Fast travel to Feldip Hills (Feldip hills teleport, Gnome glider, Fairy rings to AKS or the Eagle transport system to the jungle)",
             "Fast travel to Rimmington, if you have not yet made a barrel of naphtha (Rimmington teleport or Teleport to House if it located there, Skills necklace to the Crafting Guild or a Falador teleport)"
         ],
@@ -2548,7 +2566,7 @@
             "~400 coins",
             "2 barley malt (no range in Keldagrim, plain barley has to be cooked elsewhere)",
             "2 buckets of water",
-            "Seed dibber (no Tool leprechaun in Keldagrim)",
+            "Seed dibber (no Tool leprechaun in Keldagrim) or partial completion of the Farming portion of the Barbarian Training miniquest",
             "Rake (obtainable during the quest)",
             "Ale yeast (or a Pot (obtainable during the quest) + 25 coins)",
             "Kebab (purchasable during quest for 1 coin)",
@@ -2579,15 +2597,15 @@
         ],
         "items_required": [
             "Ring of charos",
-            "All tool leprechaun tools\nA rake\nA seed dibber\nA spade\nSecateurs (magic secateurs work)\nA watering can\nA gardening trowel",
+            "All tool leprechaun tools\nA rake\nA seed dibber (or partial completion of the Farming portion of the Barbarian Training miniquest)\nA spade\nSecateurs (magic secateurs work)\nA watering can\nA gardening trowel",
             "A rake",
-            "A seed dibber",
+            "A seed dibber (or partial completion of the Farming portion of the Barbarian Training miniquest)",
             "A spade",
             "Secateurs (magic secateurs work)",
             "A watering can",
             "A gardening trowel",
             "2 plant cures",
-            "A marigold seed",
+            "A marigold seed (2 recommended in case of failure)",
             "3+ cabbage seeds (6 recommended to plant in both allotments to increase chance of survival)",
             "3+ onion seeds (6 recommended to plant in both allotments to increase chance of survival)",
             "A hammer",
@@ -2655,10 +2673,10 @@
             "Shears",
             "4 potato seeds",
             "Rake",
-            "Seed dibber",
+            "Seed dibber (or partial completion of the Farming portion of Barbarian Training)",
             "Vial of water",
             "Desert shirt (obtainable during quest) or Druid's robe top (The desert outfit does not work)",
-            "Desert robe (obtainable during quest)  or Druid's robe (The desert outfit does not work)"
+            "Desert robe (obtainable during quest) or Druid's robe (The desert outfit does not work)"
         ],
         "recommended": [
             "Fast travel to Burthorpe (Games Necklace or Burthorpe Games Room minigame teleport)",
@@ -2719,11 +2737,11 @@
             "Stamina or energy potions.",
             "Fast travel to several locations that are always visited during the quest",
             "Falador (Falador teleport)",
-            "Canifis (Kharyrll Teleport, Salve Graveyard Teleport, Fenkenstrain's Castle Teleport, Fairy Rings to CKS or Slayer Ring to the Slayer Tower)",
+            "Canifis (Kharyrll Teleport, Ectophial, Salve Graveyard Teleport, Fenkenstrain's Castle Teleport, Fairy Rings to CKS or Slayer Ring to the Slayer Tower)",
             "Champions' Guild and Varrock (Combat Bracelet, Chronicle or Varrock teleport)",
             "Lumbridge (Lumbridge teleport)",
             "Falador (Falador teleport)",
-            "Canifis (Kharyrll Teleport, Salve Graveyard Teleport, Fenkenstrain's Castle Teleport, Fairy Rings to CKS or Slayer Ring to the Slayer Tower)",
+            "Canifis (Kharyrll Teleport, Ectophial, Salve Graveyard Teleport, Fenkenstrain's Castle Teleport, Fairy Rings to CKS or Slayer Ring to the Slayer Tower)",
             "Champions' Guild and Varrock (Combat Bracelet, Chronicle or Varrock teleport)",
             "Lumbridge (Lumbridge teleport)",
             "Fast travel to several randomly chosen locations",
@@ -2807,13 +2825,13 @@
         "items_required": [
             "Full mourner clothes",
             "A chisel (one can be found in the house south of the Mourner HQ)",
-            "A death talisman/tiara, catalytic talisman/tiara, or 50 junk items",
+            "A death talisman/tiara, catalytic talisman/tiara, Runecraft cape  or 50 junk items",
             "Rope"
         ],
         "recommended": [
             " 65+ Combat level",
-            " 65+ Agility for lesser chances of failing obstacles (91 to never fail)[1]",
-            " 43+ Prayer for Protect from Melee against the Shadows",
+            " 75+ Agility for lesser chances of failing obstacles (91 to never fail)[1]",
+            " 43+ Prayer for Protect from Melee against the shadows",
             "Teleports to West Ardougne:",
             "Minigames teleport to Rat Pits (Ardougne) available every 20\u00a0minutes after completion of Ratcatchers quest",
             "West Ardougne Teleport or its tablet",
@@ -2852,7 +2870,7 @@
         ],
         "items_required": [
             "Rake (obtainable during the quest)",
-            "Seed dibber (obtainable during the quest)",
+            "Seed dibber (obtainable during the quest) or partial completion of the Farming portion of the Barbarian Training miniquest",
             "Bucket (obtainable during the quest)",
             "At least 47 prayer points for the Evil spirits part of the quest"
         ],
@@ -2871,7 +2889,7 @@
     {
         "url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
         "quest_name": "Shadow of the Storm",
-        "start_area": "Speak to Father Reen, south of Al-Kharidbank. Show on map",
+        "start_area": "Speak to Father Reen, south of Al Kharidbank. Show on map",
         "length": "Medium",
         "description": "A sinister group of dark wizards is attempting to summon Agrith-Naar, a demon of exceptional mystical power. Rather than try to prevent them, a Saradominist priest asks the player to help summon the demon and then kill it once and for all.\nBut all is not as it seems...",
         "requirements": [],
@@ -2886,7 +2904,7 @@
         ],
         "recommended": [
             " 50 Combat level",
-            "Fast travel to Al-Kharid to start the quest (Amulet of Glory or Ring of Dueling)",
+            "Fast travel to Al Kharid to start the quest (Amulet of Glory or Ring of Dueling)",
             "Fast travel to Uzer (Necklace of Passage to Eagles' Eyrie, Fairy Rings to DLQ or using the magic carpet transport)",
             "Food and armour to defeat a level 100 demon",
             "2 waterskins",
@@ -2912,7 +2930,12 @@
         "items_required": [
             "Spade",
             "Sapphire amulet",
-            "Ghostspeak amulet or Morytania legs 2 or higher"
+            "Ghostspeak amulet or Morytania legs 2 or higher",
+            "A way to enter Port Phasmatys\nCompletion of Ghosts Ahoy or\n2 ecto-token or\n1 bone, 1 pot and 1 bucket to earn 5 ecto-tokens (you still only need two) or\n4,100 gold for a Charter ship to Port Phasmatys (cheaper depending upon where you travel from and if you use ring of charos).",
+            "Completion of Ghosts Ahoy or",
+            "2 ecto-token or",
+            "1 bone, 1 pot and 1 bucket to earn 5 ecto-tokens (you still only need two) or",
+            "4,100 gold for a Charter ship to Port Phasmatys (cheaper depending upon where you travel from and if you use ring of charos)."
         ],
         "recommended": [
             "Teleport runes for Ardougne Teleport or Ardougne teleport tablets",
@@ -2923,6 +2946,9 @@
         ],
         "enemies_to_defeat": [
             "None"
+        ],
+        "ironman_concerns": [
+            " 24  Crafting (if making own sapphire amulet (u))"
         ]
     },
     {
@@ -2965,12 +2991,12 @@
             "Fast travel to several locations",
             "Varrock (Varrock teleport, Chronicle or Combat Bracelet to the Champions' Guild)",
             "Port Sarim (Rimmington teleport, Teleport to House if your house is in Rimmington, Explorer's Ring 2, Amulet of Glory to Draynor Village, Skills Necklace to the Crafting Guild or Fairy Rings to AIQ)",
-            "Pollnivneach (Pollnivneach teleport, Teleport to House if your house is in Pollniveach or Magic Carpet transport)",
+            "Pollnivneach (Pollnivneach teleport, Teleport to House if your house is in Pollnivneach or Magic Carpet transport)",
             "Ardougne (Ardougne teleport)",
             "Keldagrim (Blast Furnace grouping teleport, Varrock teleport, Ring of Wealth to the Grand Exchange or Fairy rings to DKS or DKR)",
             "Varrock (Varrock teleport, Chronicle or Combat Bracelet to the Champions' Guild)",
             "Port Sarim (Rimmington teleport, Teleport to House if your house is in Rimmington, Explorer's Ring 2, Amulet of Glory to Draynor Village, Skills Necklace to the Crafting Guild or Fairy Rings to AIQ)",
-            "Pollnivneach (Pollnivneach teleport, Teleport to House if your house is in Pollniveach or Magic Carpet transport)",
+            "Pollnivneach (Pollnivneach teleport, Teleport to House if your house is in Pollnivneach or Magic Carpet transport)",
             "Ardougne (Ardougne teleport)",
             "Keldagrim (Blast Furnace grouping teleport, Varrock teleport, Ring of Wealth to the Grand Exchange or Fairy rings to DKS or DKR)"
         ],
@@ -2986,7 +3012,7 @@
         "description": "The people in the desert village of Nardah have a problem. Their town well has dried up and any water they try to bring back to the town from the river mysteriously disappears before they can get it back.\nThe villagers suspect they have been cursed in some way. Can you unravel what is going on and save the village?",
         "requirements": [],
         "items_required": [
-            "Runes for Telekinetic Grab (One law and air runes)",
+            "Runes for Telekinetic Grab (One law and one air rune)",
             "Needle",
             "1-2 thread",
             "Crush weapon",
@@ -2995,7 +3021,7 @@
             "Light source",
             "Knife",
             "Rope",
-            "Pickaxe (can be obtained during the quest)",
+            "any Pickaxe that you have the mining level to use (a Bronze Pickaxe can be obtained during the quest)",
             "Bow and arrows (can be obtained during the quest); a crystal bow will also work"
         ],
         "recommended": [
@@ -3003,6 +3029,7 @@
             "Desert clothing to protect you from the desert heat",
             "A few waterskins",
             "Nardah teleports",
+            "Coins (if using Magic carpet transportation)",
             "Necklace of Passage to Eagle's Eyrie or a Shantay pass to go through the gate at the Shantay Pass",
             "A Spear or Hasta to save inventory space since they can use all three melee attack types",
             "Armour and some food"
@@ -3117,7 +3144,7 @@
         ],
         "recommended": [
             " 25 Combat level",
-            "Take the free ferry south-west of Al-Kharid to the Ruins of Unkah for easy access to the quest starting point -- alternatively, travel with a Pharaoh's Sceptre to Jaldraocht",
+            "Take the free ferry south-west of Al Kharid to the Ruins of Unkah for easy access to the quest starting point (requires one shantay pass) -- alternatively, travel with a Pharaoh's Sceptre to Jaldraocht",
             "One more soft clay if you would like your own camel mask (note that you can still make one after the quest has been completed)",
             "Desert equipment (desert robes and waterskins)",
             "Stamina or energy potions."
@@ -3156,7 +3183,6 @@
         "items_required": [],
         "recommended": [
             " 35 Combat level",
-            "A ghostspeak amulet if you've not finished Ghosts Ahoy.",
             "If you have not completed Ghosts Ahoy you'll need 3,500 coins to charter a ship or 2 Ecto-tokens.",
             "Food (level 57 pirates will attack you on the ship)",
             "Ectophial"
@@ -3195,7 +3221,6 @@
         ],
         "recommended": [
             " 50 Combat level",
-            " 30 Farming",
             "Decent  Strength and/or  Farming levels for the fight with the Tanglefoot (a combined level of 40 is sufficient)",
             "Fast travel to Draynor Village and Draynor Manor (Amulet of glory or Draynor Manor teleport)",
             "Fast travel to any five farm patches around Asgarnia and Misthalin",
@@ -3303,7 +3328,7 @@
         ],
         "recommended": [
             " 45 Combat level",
-            "Completion of Shades of Mort'ton for access to the Shades of Mort'ton (minigame) teleport.",
+            "Completion of Shades of Mort'ton for access to the Shades of Mort'ton minigame teleport.",
             "Partial completion of Fairytale II - Cure a Queen for quick access to Canifis via Fairy rings (code CKS).",
             " 50 Agility (boostable) to use the BIP fairy ring, which skips the swamp and most ghasts.",
             "A dramen staff",
@@ -3487,8 +3512,7 @@
         "items_required": [
             "Any light source (lanterns are recommended - open light sources such as a candle can cause gas explosions and require a tinderbox)",
             "2 full sets of H.A.M. robes (all 7 pieces) (chance to receive robes is significantly higher during the quest)[1]",
-            "Pickaxe (if not using a games necklace to teleport to Tears of Guthix (minigame))",
-            "tinderbox If tears of guthix incomplete"
+            "Pickaxe (if not using a games necklace to teleport to Tears of Guthix) - only usable after you have completed the Tears of Guthix quest"
         ],
         "recommended": [
             " 30 Combat level",
@@ -3604,14 +3628,14 @@
             "Pestle and mortar"
         ],
         "recommended": [
-            "Several free inventory slots (about 8) to solve the puzzles easier",
+            "Several free inventory slots (about 8) to solve the puzzles more easily",
             "Fast travel to the Tree Gnome Stronghold (Balloon Transport System, Gnome Glider, Spirit Tree or Slayer Ring to the Slayer Cave to directly reach the Stronghold -- alternatively, use a Necklace of Passage to the Outpost and walk north)",
             "Fast travel to Hazelmere (Fairy rings to CLS, or Watchtower or Nightmare Zone minigame teleport and walk east if you have no access to fairy rings)",
             "Slayer ring to the Slayer Dungeon or a Necklace of Passage to the Wizards' Tower for easy access to fairy rings",
             "Slayer ring to the Slayer Dungeon or a Necklace of Passage to the Wizards' Tower for easy access to fairy rings"
         ],
         "enemies_to_defeat": [
-            "\nEvil creature (x6)"
+            "\n6 x Evil creature that each have 1 HP"
         ],
         "ironman_concerns": []
     },
@@ -3642,7 +3666,7 @@
             "2 planks",
             "Hammer",
             "Knife (obtainable during the quest) or a sickle",
-            "Means to cast Telekinetic Grab (air and law rune -- both obtainable during the quest)"
+            "Means to cast Telekinetic Grab (air and law rune; both obtainable during the quest)"
         ],
         "recommended": [
             " 50 Combat level",
@@ -3655,8 +3679,9 @@
             "Burgh de Rott (Mort'ton teleport, Shades of Mort'ton grouping teleport or Morytania legs 3+, Barrows teleport (tablet))",
             "Paterdomus (Salve Graveyard teleport, Fairy rings to CKS or Kharyrll Teleport)",
             "Varrock (Varrock teleport -- runes for this teleport are provided during the quest)",
-            "Vyrewatch outfit (top, legs and shoes) as disguise against the Vyrewatch, only if your Thieving or Hitpoints is low (can be bought for 1,950 from Trader Sven during the quest)",
-            "Armour and some food or  43+ Prayer to use Protect from Melee"
+            "Vyrewatch outfit (top, legs and shoes) as disguise against the Vyrewatch, only if your Thieving or Hitpoints are low (can be bought for 1,950 from Trader Sven during the quest)",
+            "Armour and some food or  43+ Prayer to use Protect from Melee",
+            "Catspeak amulet to talk to the local cats."
         ],
         "enemies_to_defeat": [
             "None"
@@ -3757,9 +3782,9 @@
         ],
         "recommended": [
             " 15 Combat level",
-            "Fast travel to the Exam Centre (Digsite teleport or Digsite pendant)",
+            "Fast travel to the Exam Centre (Digsite teleport or Digsite pendant or Senntisten teleport)",
             "Fast travel to Seers' Village (Camelot Teleport or Combat Bracelet to the Ranging Guild)",
-            "Restore potion or Magic potion to recover magic levels if your Magic level is below 40 and you wish to smith the Mind shield",
+            "Restore potion or Magic potion to recover Magic levels if your Magic level is below 40 and you wish to smith the Mind shield",
             "The slashed book if you wish to smith the Mind shield"
         ],
         "enemies_to_defeat": [
@@ -3802,7 +3827,7 @@
             " 55 Combat level",
             " 43 Prayer (not boostable) for Protection prayers",
             " 61 Magic (boostable)for Trollheim Teleport",
-            "Fast travel to Al-Kharid (ring of dueling or amulet of glory) or Pollnivneach (Pollnivneach Teleport or coins to use the magic carpet system) to obtain Ugthanki Dung",
+            "Fast travel to Al Kharid (ring of dueling or amulet of glory) or Pollnivneach (Pollnivneach Teleport or coins to use the magic carpet system) to obtain Ugthanki Dung",
             "Fast travel to Death Plateau (games necklace to Burthorpe or combat bracelet to the Warriors' Guild)",
             "Climbing boots, if walking from the Troll Stronghold to Death Plateau (can be bought from Tenzing for 12 coins)",
             "Stamina or energy potions",
@@ -3842,7 +3867,7 @@
         "recommended": [
             "Grouping teleport to Pest Control for easy access to a bank, and quick access to Port Sarim and Entrana (alternatively, Rat Pits teleport if Ratcatchers is completed)",
             "A charged amulet of glory to teleport to Draynor Village, which is close to Port Sarim",
-            "Ability to use Cabbage Teleport via Explorer's ring for easy travel to Port Sarim"
+            "Ability to use Cabbage Teleport via Explorer's ring 2 or better for easy travel to Port Sarim"
         ],
         "enemies_to_defeat": [
             "None"
@@ -3919,7 +3944,7 @@
             "None"
         ],
         "ironman_concerns": [
-            "Mithril axe ( 51 Smithing (boostable),  28 Thieving (boostable) for the Isle of Souls dungeon chest, or  60 Woodcutting (boostable) purchase axe from Woodcutting Guild, or access to Fairy rings (BKQ) and killing Tree spirits, Blue Dragons, or King Sand Crabs)",
+            "Mithril axe ( 51 Smithing (boostable),  28 Thieving (boostable) for the Isle of Souls dungeon chest, or  60 Woodcutting (boostable) purchase axe from Perry's Chop-chop Shop in the Woodcutting Guild, or access to Fairy rings (BKQ) and killing Tree spirits, Blue Dragons, or King Sand Crabs)",
             "Holy symbol ( 31 Prayer (not boostable))"
         ]
     },
@@ -3985,13 +4010,12 @@
             "Raw cod or the ring of charos (a)",
             "Swamp tar",
             "5 feathers (only regular chicken feathers work)",
-            "Cowbell",
             "Mahogany plank",
             "Leather"
         ],
         "recommended": [
             " 30 Combat level",
-            "Fast travel to Lumbridge (Lumbridge teleport), Ardougne (Ardougne teleport or Ardougne cloak 1) and the player-owned house (Teleport to House)",
+            "Fast travel to Lumbridge (Lumbridge teleport), Ardougne (Ardougne teleport or Ardougne cloak 1) and the player-owned house (Teleport to House), Dramen or Lunar staff (as well as a teleport to access the Fairy ring network)",
             "Armour and some food"
         ],
         "enemies_to_defeat": [
@@ -4018,7 +4042,7 @@
             "a Neitiznot shield (or 56 Woodcutting, a hammer and a bronze nail)",
             "Yak-hide armour top and legs (or 46 Crafting, a needle and two thread)",
             "5000 coins (optional)",
-            "silly jester outfit (obtainable during quest)"
+            "Silly jester costume (obtainable during quest)"
         ],
         "recommended": [
             " 50 Combat level",
@@ -4053,8 +4077,8 @@
             "any: Creature of Fenkenstrain",
             "any: Cabin Fever",
             "any: Pirate's Treasure",
-            "any: Priest in Peril",
             "any: Rum Deal",
+            "any: Priest in Peril",
             "any: Zogre Flesh Eaters",
             "any: Big Chompy Bird Hunting",
             "any: Jungle Potion",
@@ -4063,12 +4087,13 @@
             "any: Another Cook's Quest",
             "any: Cook's Assistant",
             "any: Pirate's Treasure",
-            "any: Priest in Peril",
             "any: Rum Deal",
+            "any: Priest in Peril",
             "any: Zogre Flesh Eaters",
             "any: Big Chompy Bird Hunting",
             "any: Jungle Potion",
             "any: Druidic Ritual",
+            "any: Priest in Peril",
             "any: Zogre Flesh Eaters",
             "any: Big Chompy Bird Hunting",
             "any: Jungle Potion",
@@ -4084,8 +4109,8 @@
         "items_required": [
             "Fishbowl helmet",
             "Diving apparatus (obtain these from Murphy in Port Khazard if you've lost them; talk to him 2 times, 1st time for helmet and 2nd time for apparatus.)",
-            "10 wooden cats \u2013 you must progress far enough in the quest to make these yourself, or buy them from the Grand Exchange at any time\n4 oak planks and a saw (if you are providing your own crafting table and do not already have one; build in the Clockmaking space of the Workshop)\n10 planks (if making your own wooden cats)\n10 pieces of fur: fur, bear fur or grey wolf fur (if making your own wooden cats) (wolf fur can be obtained during quest by killing Canifis townsfolk. Baraek sells them for 20 gold each. Furs from Hunter monsters will not work)",
-            "4 oak planks and a saw (if you are providing your own crafting table and do not already have one; build in the Clockmaking space of the Workshop)",
+            "10 wooden cats \u2013 partial completion of The Great Brain Robbery is required to make these yourself, however they are tradable and available at the Grand Exchange\n4 oak planks, a hammer, and a saw (if you are building your own crafting table and do not already have one; build in the Clockmaking space of the Workshop)\n10 planks (if making your own wooden cats)\n10 pieces of fur: fur, bear fur or grey wolf fur (if making your own wooden cats) (wolf fur can be obtained during quest by killing Canifis townsfolk. Baraek sells them for 20 gold each. Furs from Hunter monsters will not work)",
+            "4 oak planks, a hammer, and a saw (if you are building your own crafting table and do not already have one; build in the Clockmaking space of the Workshop)",
             "10 planks (if making your own wooden cats)",
             "10 pieces of fur: fur, bear fur or grey wolf fur (if making your own wooden cats) (wolf fur can be obtained during quest by killing Canifis townsfolk. Baraek sells them for 20 gold each. Furs from Hunter monsters will not work)",
             "A hammer (Note: Imcando hammer does not work)",
@@ -4131,11 +4156,11 @@
             "Fast travel to several locations around Varrock;",
             "Varrock square (Varrock teleport)",
             "Outlaw camp (Ring of Wealth to the Grand Exchange, Skills Necklace to the Cooks' Guild or Varrock teleport if medium Varrock Diary completed)",
-            "South of Varrock (Chronicle or Combat bracelet to the Champions' Guild)",
+            "South of Varrock (Chronicle, Combat bracelet to the Champions' Guild, or Senntisten teleport)",
             "The canoe system (requires axe and level 27 woodcutting for the Dugout canoe)",
             "Varrock square (Varrock teleport)",
             "Outlaw camp (Ring of Wealth to the Grand Exchange, Skills Necklace to the Cooks' Guild or Varrock teleport if medium Varrock Diary completed)",
-            "South of Varrock (Chronicle or Combat bracelet to the Champions' Guild)",
+            "South of Varrock (Chronicle, Combat bracelet to the Champions' Guild, or Senntisten teleport)",
             "The canoe system (requires axe and level 27 woodcutting for the Dugout canoe)"
         ],
         "enemies_to_defeat": [
@@ -4197,7 +4222,7 @@
         ],
         "recommended": [
             " 35 Combat level",
-            "Fast teleports to Lumbridge Swamp (amulet of glory to Draynor Village, Lumbridge teleport, or Home Teleport)",
+            "Fast teleports to Lumbridge Swamp (Ring of the elements to water altar, amulet of glory to Draynor Village, Lumbridge teleport, or Home Teleport)",
             "Food",
             "Stamina potions",
             "At least eight empty inventory spaces at the start of the quest"
@@ -4255,7 +4280,7 @@
         ],
         "items_required": [
             "2 Tarromin potion (unf) or 2 vials of water and 2 tarromins",
-            "Seed dibber (leprechaun is nearby)",
+            "Seed dibber (leprechaun is nearby). You will need this even with a partial completion of the Farming portion of the Barbarian Training miniquest",
             "Watering can with at least 1 dose (can also be stored with the leprechaun)",
             "Any axe",
             "Leather gloves (optional) (obtainable during quest)",
@@ -4264,6 +4289,7 @@
         ],
         "recommended": [
             " 55 Combat level",
+            " 43 Prayer for Protect from Melee (for running through areas with Mouse (level 95))",
             "Falador Teleports",
             "Mind Altar Teleports",
             "House teleports Set POH to Taverley for quick access",
@@ -4334,7 +4360,7 @@
         ],
         "items_required": [
             "Spade",
-            "A lit torch or candle (lanterns, black candles or a Firemaking cape don't work) (a bruma torch will work, but you will not get this item back)",
+            "A lit torch or candle (lanterns or a Firemaking cape don't work) (a bruma torch will work, but you will not get this item back)",
             "Rope",
             "Bronze wire (can be made from scratch using the General Store and Anvil north of Tai Bwo Wannai)",
             "Chisel",
@@ -4405,7 +4431,8 @@
         ],
         "recommended": [
             "At least 11 free inventory spaces and 4 more if not wearing the builder's costume",
-            "One raw chicken and raw swordfish for a Medium Ardougne Diary task after the quest"
+            "One raw chicken and raw swordfish for a Medium Ardougne Diary task after the quest",
+            "Fairy Ring teleport DJP right next to quest start south of East Ardougne"
         ],
         "enemies_to_defeat": [
             "None"
@@ -4497,6 +4524,90 @@
             "Mosschin (level 88)",
             "Redeyes (level 121)",
             "Strongbones (level 184)"
+        ],
+        "ironman_concerns": [
+            " The player needs to unequip all items in addition to carrying the required items."
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/While_Guthix_Sleeps",
+        "quest_name": "While Guthix Sleeps",
+        "start_area": "Speak to Ivy Sophistain Taverley. Show on map",
+        "length": "Very Long",
+        "description": "This Grandmaster quest sees you continue the Mahjarrat storyline, hunting down one of the most powerful artefacts in existence while ensuring it doesn't fall into the wrong hands.\nThis artefact is known by many names \u2013 most recently, the Stone of Jas. It has shaped the course of Gielinor\u2019s history, from the creation of the first Runes to the fall of Zaros. It was last seen at the devastating end of the God Wars, when Zamorak, in a fit of rage, used it to reduce the land of Forinthry to the Wilderness we know today.\nAngered by Zamorak\u2019s actions, Guthix rose from his age-long slumber and banished the gods. He hid the Stone of Jas far underground, where it could never disturb the balance again...\nBut while Guthix sleeps, nefarious forces have been gathering; the Mahjarrat. Shaped by war and deadly ritual, their plans for the Stone can only lead to catastrophe.\n\nFacing off against the Mahjarrat is nothing new for dedicated adventurers \u2013 at every turn, they seem to grow in power and wage war against the people of Gielinor. In their last attempt, we saw them set out to tear Varrock apart with an undead army in Defender of Varrock. What are they plotting now?",
+        "requirements": [
+            "any: The Eyes of Glouphrie",
+            "any: The Grand Tree",
+            "any: Waterfall Quest",
+            "any: Tree Gnome Village",
+            "any: The Grand Tree",
+            "any: Eadgar's Ruse",
+            "any: Druidic Ritual",
+            "any: Troll Stronghold",
+            "any: Death Plateau",
+            "any: Lunar Diplomacy",
+            "any: The Fremennik Trials",
+            "any: Lost City",
+            "any: Rune Mysteries",
+            "any: Shilo Village",
+            "any: Jungle Potion",
+            "any: Druidic Ritual",
+            "any: Troll Stronghold",
+            "any: Death Plateau",
+            "any: Death Plateau",
+            "any: The Fremennik Trials",
+            "any: Lost City",
+            "any: Rune Mysteries",
+            "any: Shilo Village",
+            "any: Jungle Potion",
+            "any: Jungle Potion",
+            "any: Recruitment Drive",
+            "any: Black Knights' Fortress",
+            "any: Druidic Ritual",
+            "any: The Lost Tribe",
+            "any: Goblin Diplomacy",
+            "any: Black Knights' Fortress",
+            "any: Druidic Ritual",
+            "any: Goblin Diplomacy",
+            "any: Enter the Abyss",
+            "any: Rune Mysteries",
+            "any: Rune Mysteries",
+            "any: Priest in Peril",
+            "any: The Restless Ghost",
+            "any: Icthlarin's Little Helper",
+            "any: Gertrude's Cat",
+            "any: Gertrude's Cat"
+        ],
+        "items_required": [
+            "Knife",
+            "Ring of charos(a) or 500 coins",
+            "Seed dibber (only if Barbarian Farming Training has not been completed)",
+            "Lantern lens",
+            "Unpowered orb",
+            "Bronze med helm",
+            "Iron chainbody",
+            "Sapphire lantern",
+            "Runes to cast the NPC Contact spell four times (8 air runes, 4 astral rune, 4 cosmic rune)",
+            "Runes for any charge orb spell (30 runes of a chosen element and 3 cosmic runes)",
+            "Equipment for two different attack styles"
+        ],
+        "recommended": [
+            " 95 Combat level",
+            "Taverley teleport",
+            "Access to fairy rings",
+            "Feldip hills teleport",
+            "Ardougne Cloak 1 or greater",
+            "Multiple Falador Teleports, or a Ring of returning with your respawn set in Falador",
+            "Antipoison or items that can cure poison"
+        ],
+        "enemies_to_defeat": [
+            "2 Assassins (level 167)",
+            "2 Mercenary axemen (level 131)",
+            "Mercenary mage (level 112)",
+            "3 Elite Black Knights (level 138)",
+            "Surok Magis (level 265)",
+            "Balance Elemental (level 524)",
+            "2 Tormented Demons (level 450)"
         ]
     },
     {
@@ -4624,7 +4735,7 @@
         "recommended": [
             "Weight-reducing clothing and energy restoration (such as the Graceful outfit and a stamina potion)",
             "Fast travel to the Dark Altar (Games necklace to Wintertodt, Arceuus library teleport or Fairy rings)",
-            "Means of fast travel around Great Kourend (Fairy rings, Xeric's Talisman, or the Lovakengj Minecart Network."
+            "Means of fast travel around Great Kourend (Fairy rings, Xeric's Talisman, or Coins for the Lovakengj Minecart Network)"
         ],
         "enemies_to_defeat": [
             "None"
@@ -4828,7 +4939,7 @@
             "Bread",
             "Orange slices\nUse a knife on an orange",
             "Use a knife on an orange",
-            "Either blue, green or purple dye (purple dye spawns directly east of the spirit tree at the Khazard Battlefield, south of the Ardougne Castle)",
+            "Either blue, black, green or purple dye (purple dye spawns directly east of the spirit tree at the Khazard Battlefield, south of the Ardougne Castle)",
             "Spice or Gnome spice (can be bought or stolen from the Ardougne market, bought from the Culinaromancer's Chest or bought in the Tree Gnome Stronghold)",
             "Fishing bait",
             "Bucket of water",
@@ -4853,12 +4964,14 @@
             "any: Cook's Assistant"
         ],
         "items_required": [
-            "About 320 coins (or 120 if you have the activated ring of charos)",
             "Bucket of milk (can be bought from the Culinaromancer's Chest)",
             "Pot of flour (can be bought from the Culinaromancer's chest)",
             "Egg (can be bought from the Culinaromancer's chest)",
             "Bowl of water (a bowl and sink can be found in the kitchen of Lumbridge Castle)",
-            "4 Asgarnian ales (can be bought during the quest at the Rising Sun Inn in Falador)",
+            "4 Asgarnian ales (can be bought during the quest at the Rising Sun Inn in Falador)\nRecommended to bring at least 2 additional ales in case Rohak sobers up",
+            "Recommended to bring at least 2 additional ales in case Rohak sobers up",
+            "206 coins (200 + 1 coin per ale, 100 instead of 200 if you choose to bring an activated ring of charos)\nBring additional coins if buying the other ingredients or bringing additional ales",
+            "Bring additional coins if buying the other ingredients or bringing additional ales",
             "Gloves, If not using gloves make sure to bring Telekinetic Grab spell runes (Ice gloves are the best, but other gloves will work fine too)"
         ],
         "recommended": [
@@ -4871,7 +4984,6 @@
             "Lumbridge (Lumbridge teleport)",
             "White Wolf Mountain (Taverley teleport, Teleport to House if your house is in Taverley, Camelot teleport or a Gnome Glider)",
             "Ice Mountain, if you have no access to ice gloves (Combat bracelet to Monastery or Skull Sceptre",
-            "2 additional Asgarnian ales (in case Rohak sobers up)",
             "Additional ingredients (bucket of milk, pot of flour and egg\u2014in case you drop or lose the cake)"
         ],
         "enemies_to_defeat": [
@@ -4971,8 +5083,8 @@
         "items_required": [
             "Bucket of milk (can be bought from the Culinaromancer's Chest)",
             "Pot of cream (can be bought from the Culinaromancer's Chest)",
-            "Pot of cornflour\nSweetcorn",
-            "Sweetcorn",
+            "Pot of cornflour\nSweetcorn (Can be obtained south of Civitas illa Fortis in Varlamore without  20 Farming (boostable))",
+            "Sweetcorn (Can be obtained south of Civitas illa Fortis in Varlamore without  20 Farming (boostable))",
             "Vanilla pod or tools to get one:\nAny axe (the Blessed axe will not work!)\nAny machete (as well as Radimus notes if you haven't completed Legends' Quest)",
             "Any axe (the Blessed axe will not work!)",
             "Any machete (as well as Radimus notes if you haven't completed Legends' Quest)",
@@ -4991,9 +5103,7 @@
             "Evil Chicken (level varies) (see below)",
             "Black dragon (level 227)"
         ],
-        "ironman_concerns": [
-            " 20 Farming (boostable) to plant sweetcorn in order to make Pot of cornflour."
-        ]
+        "ironman_concerns": []
     },
     {
         "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster%2FFreeing_King_Awowogei",
@@ -5126,9 +5236,9 @@
             "Explorer's ring for the run-energy regeneration function",
             "Morytania legs 3 or 4 or another means of reaching Burgh de Rott quickly to reach Meiyerditch",
             "Alternatively: An ectophial and an additional 10,000 coins per trip for taking Andras' boat ride from Port Phasmatys",
-            "Consider the Shades of Mort'ton (minigame) teleport as well.",
+            "Consider the Shades of Mort'ton minigame teleport as well.",
             "Alternatively: An ectophial and an additional 10,000 coins per trip for taking Andras' boat ride from Port Phasmatys",
-            "Consider the Shades of Mort'ton (minigame) teleport as well.",
+            "Consider the Shades of Mort'ton minigame teleport as well.",
             "Restore potion or super restore to restore stats during the abomination fight."
         ],
         "enemies_to_defeat": [
@@ -5160,7 +5270,7 @@
             "Stamina potion and weight-reducing clothing",
             "Any kind of antipoison or Shayzien armour (tier 5) as you will encounter various types of poison dealing Lizardman, including the final boss.",
             "Food for low level players without a shortcut to the top of Mount Quidamortem",
-            "Ability to use the Lovakengj Minecart Network and 50 to travel to Mount Quidamortem",
+            "20  to use the Lovakengj Minecart Network and travel to Mount Quidamortem (free if The Forsaken Tower is completed)",
             "A charged Xeric's talisman for teleporting to Mount Quidamortem (requires unlocking it with an Ancient tablet) and Xeric's Lookout.",
             "Ability to teleport to Arceuus Library."
         ],
@@ -5358,13 +5468,13 @@
             "Tinderbox",
             "Rope",
             "Nature rune",
-            "Flowers from mithril seeds or an irit leaf",
+            "Flowers from mithril seeds or adamant seeds, or an irit leaf",
             "Adamant chainbody (consumed during the quest)",
             "Wine of zamorak OR Zamorak brew(4)",
             "Cabbage (obtainable during the quest)",
             "Black knife OR black dagger",
             "Cadantine seed",
-            "Seed dibber",
+            "Seed dibber (or partial completion of the Farming portion of the Barbarian Training miniquest)",
             "Vial of water",
             "Pestle and mortar",
             "Hammer",
@@ -5410,6 +5520,7 @@
         "items_required": [],
         "recommended": [
             " 15 Combat level",
+            "Runes to cast Crumble Undead(2 2 1 ) on Tormented Souls and Trapped Soul",
             "Access to fairy rings (Dramen/Lunar staff and started  Fairytale II - Cure a Queen)",
             "Two Battlefront teleports, or use the fairy ring  CIR",
             "A Stamina potion",
@@ -5488,9 +5599,9 @@
             "100 Astral runes",
             "Pet rock",
             "Fishing rod or fly fishing rod",
-            "Fremennik shield (this is not the tradeable Neitiznot shield)\nAlternatively, get it from Bardur AFTER being exiled, for either 150,000 or for free using a Ring of charos (a)\nRecommended: Rune thrownaxes to get to Bardur in the Waterbirth Island Dungeon",
+            "Fremennik shield (this is not the tradeable Neitiznot shield)\nAlternatively, get it from Bardur AFTER being exiled, for either 150,000 or for free using a Ring of charos (a)\nRecommended: Rune thrownaxes or 85 agility to get to Bardur in the Waterbirth Island Dungeon",
             "Alternatively, get it from Bardur AFTER being exiled, for either 150,000 or for free using a Ring of charos (a)",
-            "Recommended: Rune thrownaxes to get to Bardur in the Waterbirth Island Dungeon",
+            "Recommended: Rune thrownaxes or 85 agility to get to Bardur in the Waterbirth Island Dungeon",
             "Ice gloves or Smiths gloves (i)",
             "Hammer",
             "Glassblowing pipe",
@@ -5510,6 +5621,38 @@
             "Monstrous Basilisk (level 135)",
             "Typhor (level 218)",
             "The Jormungand (level 363)"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Defender_of_Varrock",
+        "quest_name": "Defender of Varrock",
+        "start_area": "Speak to Elias Whitein the Jolly Boar Inn. Show on map",
+        "length": "Medium",
+        "description": "Long ago, one man wielding a magic shield stood against the undead armies of the Mahjarrat. His name was Arrav, and he was strong and noble, but the fates had spoken: his downfall at the hands of the evil necromancer Zemouregal was inevitable. In one last desperate act to save his people, Arrav flung the shield towards the town now known as Varrock, protecting it from further harm. In that very moment, Zemouregal struck him down. Standing over the fatally wounded hero, Zemouregal made a promise:\n\"When I return, you shall lead my armies. You shall be my greatest champion, and suffer under the knowledge that while you hoped to save your people, you will instead be their doom.\"\n\nNow, there is fear in the air. Whispers of the dead rising. Could this be the time of the prophesied return?",
+        "requirements": [
+            "any: Creature of Fenkenstrain",
+            "any: Priest in Peril",
+            "any: The Restless Ghost",
+            "any: Priest in Peril",
+            "any: The Restless Ghost",
+            "any: Rune Mysteries"
+        ],
+        "items_required": [
+            "Chaos core (Can be obtained during the quest.)",
+            "Barronite deposit or a pickaxe to mine one"
+        ],
+        "recommended": [
+            " 65 Combat level",
+            "Ring of the elements or Lumberyard teleport",
+            "Mind Altar teleport or Lassar teleport",
+            "Multiple Varrock Teleports",
+            "43 Prayer for Protect from Melee",
+            "Salve Amulet",
+            "Food and/or Prayer potions"
+        ],
+        "enemies_to_defeat": [
+            "At least six armoured zombies (level 85)",
+            "Multiple Chaos Golems (level 70)"
         ]
     },
     {
@@ -5594,7 +5737,7 @@
         ],
         "items_required": [
             "Normal spellbook, and runes to cast a fire spell (fire bolt or better)",
-            "Melee / Ranged equipment (weapons/armour/potions/food) to defeat a level 239 enemy, and a level 168 creature that can only be damaged with Melee.)",
+            "Melee / Ranged equipment (weapons/armour/potions/food) to defeat a level 239 enemy, and a level 168 creature that can only be damaged with Melee.",
             "Any axe",
             "A defence potion (3 or 4 doses)",
             "Volcanic sulphur",
@@ -5611,8 +5754,7 @@
             "Games necklace to teleport to Wintertodt",
             "Skills necklace to teleport to Woodcutting Guild",
             "Rada's blessing 3+ to teleport to Mount Karuulm, or Rada's blessing 1+ to teleport to Kourend Woodland",
-            "Access to fairy rings",
-            "A lockpick"
+            "Access to fairy rings"
         ],
         "enemies_to_defeat": [
             "Judge of Yama (Level 168)",
@@ -5648,16 +5790,16 @@
     {
         "url": "https://oldschool.runescape.wiki/w/Getting_Ahead",
         "quest_name": "Getting Ahead",
-        "start_area": "Speak to Gordonin their farm south of the Farming Guild. Show on map",
+        "start_area": "Speak to Gordonon his farmsouth of the Farming Guild. Show on map",
         "length": "Short",
         "description": "Gordon and Mary are two small-town farmers with a big problem \u2013 some heinous beastie keeps taking their livestock! Luckily they've hit upon a solution. They just need some brave adventurer to venture into the creature's lair and bring them back its head. We can't envisage any complications with such a routine matter, right?",
         "requirements": [],
         "items_required": [
-            "Bear fur or grey wolf fur (a Grizzly bear and bear cub spawn west of the farm and two black bears spawn east of the farm)",
-            "Soft clay or a pickaxe you can use\nClay rocks are found in the Kebos Lowlands mine passed during the quest;\nGordon's house has a water source and a bucket spawn;\nThere is a bronze pickaxe spawn at the mine, stuck in some rocks.",
+            "Bear fur, grey wolf fur, or Fur (a Grizzly bear and bear cub spawn west of the farm and two black bears spawn east of the farm)",
+            "Soft clay or a pickaxe you can use\nClay rocks are found in the Kebos Lowlands mine passed during the quest;\nGordon's house has a water source and a bucket spawn;\nThere is a Bronze pickaxe spawn at the mine, stuck in some rocks.",
             "Clay rocks are found in the Kebos Lowlands mine passed during the quest;",
             "Gordon's house has a water source and a bucket spawn;",
-            "There is a bronze pickaxe spawn at the mine, stuck in some rocks.",
+            "There is a Bronze pickaxe spawn at the mine, stuck in some rocks.",
             "Hammer (obtainable near the cattle gate)",
             "Saw (obtainable in the shed north of the house)",
             "2 normal planks (obtainable near the cave entrance)",
@@ -5739,7 +5881,7 @@
         ],
         "enemies_to_defeat": [
             "Vyrewatch (Level 105)",
-            "Several venomous spiders (Levels 87 and 123) (can be avoided)",
+            "Several venomous araxyte (Levels 96 and 146) (can be avoided)",
             "Hespori (Level 302)",
             "The Maiden of Sugadinti",
             "Pestilent Bloat",
@@ -5827,9 +5969,10 @@
             "any: The Grand Tree"
         ],
         "items_required": [
-            "A crossbow and mith grapple",
-            "Tree Gnome Village dungeon key (unless Roving Elves has been started)",
-            "Combat equipment and some food"
+            "Tree Gnome Village Dungeon key (unless Roving Elves has been started)",
+            "Combat equipment and some food",
+            "Mith Grapple",
+            "Any crossbow"
         ],
         "recommended": [
             "Earmuffs or a slayer helmet to reduce damage dealt by the warped terrorbird's ranged attacks",
@@ -5852,7 +5995,7 @@
         "url": "https://oldschool.runescape.wiki/w/Sleeping_Giants",
         "quest_name": "Sleeping Giants",
         "start_area": "Speak to Kovacat the Giants' Plateau, east of Al Kharid. Show on map",
-        "length": "Short",
+        "length": "Very Short",
         "description": "Ahh, giants. We all know them. Enormous humanoids hanging about Gielinor, simply minding their own business until some adventurer or another comes along to beat them up.\nBut how much do we really know about these giants? What do they think about? Where did they come from? Would they enjoy making massive swords in some kind of... gargantuan workshop?\n\nAll these questions, and more, will be answered in the quest Sleeping Giants! You'll help Kovac, a friendly giant who's discovered an ancient forge built to his giant-size proportions!",
         "requirements": [],
         "items_required": [
@@ -6067,11 +6210,19 @@
         ],
         "items_required": [
             "Be on the Ancient Magicks spellbook",
-            "Runes to cast Blood Burst, Ice Burst, Smoke Burst, Shadow Burst",
+            "Runes to cast Blood Burst, Ice Burst, Smoke Burst, and Shadow Burst\n8 Death runes\n16 Chaos runes\n2 Fire runes\n3 Air runes\n4 Water runes\n2 Soul runes\n2 Blood runes",
+            "8 Death runes",
+            "16 Chaos runes",
+            "2 Fire runes",
+            "3 Air runes",
+            "4 Water runes",
+            "2 Soul runes",
+            "2 Blood runes",
             "Ring of visibility",
             "Tinderbox (can be obtained during quest)",
             "Pestle and mortar (can be obtained during quest)",
-            "Pickaxe (can be obtained during quest)"
+            "Pickaxe (can be obtained during quest)",
+            "Facemask or Slayer helm"
         ],
         "recommended": [
             " 100 Combat level",
@@ -6135,8 +6286,6 @@
             "any: Goblin Diplomacy",
             "any: Rune Mysteries",
             "any: Priest in Peril",
-            "any: Troll Stronghold",
-            "any: Death Plateau",
             "any: Doric's Quest",
             "any: Enter the Abyss",
             "any: Hazeel Cult",
@@ -6193,8 +6342,6 @@
             "any: Goblin Diplomacy",
             "any: Rune Mysteries",
             "any: Priest in Peril",
-            "any: Troll Stronghold",
-            "any: Death Plateau",
             "any: Doric's Quest",
             "any: Enter the Abyss",
             "any: Recruitment Drive",
@@ -6207,8 +6354,7 @@
             "any: Black Knights' Fortress",
             "any: Druidic Ritual",
             "any: Goblin Diplomacy",
-            "any: Rune Mysteries",
-            "any: Death Plateau"
+            "any: Rune Mysteries"
         ],
         "items_required": [
             "100 Coins",
@@ -6231,10 +6377,199 @@
         "url": "https://oldschool.runescape.wiki/w/Children_of_the_Sun",
         "quest_name": "Children of the Sun",
         "start_area": "Speak to Noahor Alinain Varrocksquare. Show on map",
-        "length": "Short",
+        "length": "Very Short",
         "description": "Children of the Sun begins on the familiar streets of Varrock, where a delegation from Varlamore has arrived to sign a treaty with the rulers of Misthalin. It\u2019s a day for celebration, but something\u2019s amiss\u2026 you\u2019d better find out what\u2019s going on!",
         "requirements": [],
         "items_required": [],
+        "enemies_to_defeat": [
+            "None"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Perilous_Moons",
+        "quest_name": "Perilous Moons",
+        "start_area": "Speak to Zumaor Attalaat the entrance to Cam Torum. Show on map",
+        "length": "Medium",
+        "description": "Beneath the steep and jagged cliffs of Ralos' Rise sits the dwarven town of Cam Torum. Its strong fortifications have kept it safe through all of Varlamore's history... but now the inhabitants face a new challenge.Lurking below the surface is an ancient temple, built to contain powerful entities. Now, the earth has been disturbed \u2013 and the dwarves need your help to keep these strange beings contained!",
+        "requirements": [
+            "any: Twilight's Promise",
+            "any: Children of the Sun",
+            "any: Children of the Sun"
+        ],
+        "items_required": [
+            "Knife (obtainable during quest)",
+            "Big fishing net (obtainable during quest)",
+            "Rope (obtainable during quest)",
+            "Pestle and mortar (obtainable during quest)",
+            "Combat equipment for multiple PvM encounters."
+        ],
+        "recommended": [
+            " 75 Combat level",
+            "60+  Attack,  Strength, and  Defence",
+            "Some form of energy regeneration",
+            "Antipoison",
+            "5 empty inventory spaces (for building supplies)",
+            "10 quetzal feed, 4 soft clay, 3 limestone bricks (to build a landing site for the Quetzal Transport System)"
+        ],
+        "enemies_to_defeat": [
+            "Sulphur Nagua (level 98)",
+            "Blue Moon (level 329)",
+            "Blood Moon (level 329)",
+            "Eclipse Moon (level 329)"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/The_Ribbiting_Tale_of_a_Lily_Pad_Labour_Dispute",
+        "quest_name": "The Ribbiting Tale of a Lily Pad Labour Dispute",
+        "start_area": "Speak to Marcellusat the Locus Oasis. Show on map",
+        "length": "Very Short",
+        "description": "Solve a ribbiting dispute and gain access to a new hardwood Farming patch.",
+        "requirements": [
+            "any: Children of the Sun"
+        ],
+        "items_required": [
+            "Any axe (a bronze axe is obtainable during the quest)"
+        ],
+        "enemies_to_defeat": [
+            "Cuthbert, Lord of Dread (level 1)"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Twilight%27s_Promise",
+        "quest_name": "Twilight's Promise",
+        "start_area": "Speak to Ennius Tullusor Furia Tullusin front of the Sunrise Palace. Show on map",
+        "length": "Short",
+        "description": "Take your first steps into Varlamore and unlock the Quetzal Transport System.",
+        "requirements": [
+            "any: Completion of the following quests:",
+            "any: Children of the Sun",
+            "any: Children of the Sun"
+        ],
+        "items_required": [
+            "Items for two different combat classes or a poisoned weapon (be warned that the poison method is much slower)"
+        ],
+        "recommended": [
+            " 40 Combat level",
+            "Some stamina potions"
+        ],
+        "enemies_to_defeat": [
+            "Knight of Varlamore (level 81)",
+            "8 cultists (level 34)"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/At_First_Light",
+        "quest_name": "At First Light",
+        "start_area": "Speak to Guildmaster Apaturaat the Hunter Guild. Show on map",
+        "length": "Short",
+        "description": "Learn about the role of the Hunter Guild and unlock higher tier rumours.",
+        "requirements": [
+            "any: Children of the Sun",
+            "any: Eagles' Peak"
+        ],
+        "items_required": [
+            "Needle (one spawns in Pellem's Fur Store nearby)",
+            "Box trap (can be bought from Imia's Supplies nearby)",
+            "Hammer (obtainable during quest)",
+            "2 jerboa tails (obtainable during quest)"
+        ],
+        "recommended": [
+            "Stamina potion",
+            "Catspeak amulet for extra dialogue"
+        ],
+        "enemies_to_defeat": [
+            "None"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/The_Heart_of_Darkness",
+        "quest_name": "The Heart of Darkness",
+        "start_area": "Speak to Prince Itzla Arkanat the Teomat. Show on map",
+        "length": "Medium",
+        "description": "Uncover the secrets of a mysterious cult and unlock a new dungeon.",
+        "requirements": [
+            "any: Twilight's Promise"
+        ],
+        "items_required": [
+            "Combat gear",
+            "Food",
+            "30 coins",
+            "Up to 4 empty inventory slots"
+        ],
+        "recommended": [
+            " 65 Combat level",
+            " 43  or higher Prayer level for Protect from Melee",
+            "10 Quetzal feed, 3 limestone brick, and 4 soft clay to build the Unbuilt Landing Site in Salvager Overlook",
+            "Access to several destinations in the Quetzal Transport System",
+            "Prayer potions or Super restore potions",
+            "Super combat potions or similar"
+        ],
+        "enemies_to_defeat": [
+            "Several Emissary Brawlers (levels 74 and 86)",
+            "Several Emissary Conjurers (level 71)",
+            "Prince Itzla Arkan (level 167)",
+            "Amoxliatl (level 263)"
+        ],
+        "ironman_concerns": []
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Death_on_the_Isle",
+        "quest_name": "Death on the Isle",
+        "start_area": "Speak to Patziby the entrance to Villa Lucens. Show on map",
+        "length": "Medium",
+        "description": "Solve a mysterious murder on the island of Aldarin.",
+        "requirements": [
+            "any: Children of the Sun"
+        ],
+        "items_required": [],
+        "recommended": [
+            "20 coins to use the transportation boat",
+            " 40 "
+        ],
+        "enemies_to_defeat": [
+            "\nTwo low-level enemies must be fought with no equipment"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Meat_and_Greet",
+        "quest_name": "Meat and Greet",
+        "start_area": "Talk to Emelioat his home in Outer Fortis. Show on map",
+        "length": "Short",
+        "description": "Bring the joy of kebabs to the land of Varlamore.",
+        "requirements": [
+            "any: Completion of the following quests:",
+            "any: Children of the Sun",
+            "any: Children of the Sun"
+        ],
+        "items_required": [],
+        "recommended": [
+            " 60  Combat level",
+            " 43+  Prayer to use Protect from Melee and Protect from Magic",
+            "Stamina potions or energy potions",
+            "Combat equipment",
+            "Food"
+        ],
+        "enemies_to_defeat": [
+            "Dire Wolf Alpha (level 113)",
+            "Minotaur (level 193)"
+        ]
+    },
+    {
+        "url": "https://oldschool.runescape.wiki/w/Ethically_Acquired_Antiquities",
+        "quest_name": "Ethically Acquired Antiquities",
+        "start_area": "Inspect the empty displayon the ground floor of the Grand Museumin Civitas illa Fortis. Show on map",
+        "length": "Short",
+        "description": "Investigate a mysterious theft from the Fortis Grand Museum.",
+        "requirements": [
+            "any: Children of the Sun",
+            "any: Shield of Arrav"
+        ],
+        "items_required": [],
+        "recommended": [
+            "3,000 coins for the charter ship to Port Sarim, Ring of charos for reduced charter cost, or Explorer's ring 2 or better for teleport.",
+            "Varrock Teleport",
+            "Civitas illa Fortis Teleport"
+        ],
         "enemies_to_defeat": [
             "None"
         ]

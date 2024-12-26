@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import urllib2
+import urllib
 import sys
 
 # 156 quests in total
@@ -23,16 +23,6 @@ QUEST_LIST_URL = 'https://oldschool.runescape.wiki/w/Quests/List'
 
 # Update the quest data based on the row of details we are in
 
-SKILL_NAMES = [
-    'Attack', 'Hitpoints', 'Mining',
-    'Strength', 'Agility', 'Smithing',
-    'Defence', 'Herblore', 'Fishing',
-    'Ranged', 'Thieving', 'Cooking',
-    'Prayer', 'Crafting', 'Firemaking',
-    'Magic', 'Fletching', 'Woodcutting',
-    'Runecraft', 'Slayer', 'Farming',
-    'Construction', 'Hunter'
-]
 
 
 # Determines if a skill name is in the string param

@@ -1,1 +1,1 @@
-export * from './src/lib/osrstools';
+export * from './lib/osrstools';

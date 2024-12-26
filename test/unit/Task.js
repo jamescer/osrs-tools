@@ -1,4 +1,4 @@
-const { Task } = require('../Task.js');
+const { Task, KonarTask } = require('../Task.js');
 const {
   SlayerData,
   konar,
@@ -8,7 +8,7 @@ const {
   turael,
   krystilia,
 } = require('../data/slayerData.js');
-const { SlayerMaster } = require('../SlayerMaster.js');
+const { SlayerMaster } = require('../model/SlayerMaster.js');
 
 var testTask = {
   name: 'Birds',
@@ -43,7 +43,12 @@ var kTask = {
   weight: 5,
 };
 
-// var t = new Task(testTask);
-var kt = new Task(kTask);
+var birds = new Task(testTask);
+console.log('===================');
+console.log(birds);
+console.log('===================');
+var konTaskEx = new KonarTask(kTask);
 
-console.log(kt);
+console.log('===================');
+console.log(konTaskEx);
+console.log('===================');

@@ -1,6 +1,7 @@
 Old School RuneScape Quest Tool
 
 [![NPM Version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![GitHub Issues][issues-img]][new-issue]
+[![types](https://img.shields.io/npm/types/osrs-tools.svg?style=flat-square)](https://github.com/jamescer/osrs-tools/blob/master/src/types.ts)
 
 A Node.js package to provide data for all current Old School RuneScape quests. The tool aims to help junior software developers build projects they are passionate about. It's a work in progress, and issues can be reported to [jamesmcerniglia@gmail.com](mailto:jamesmcerniglia@gmail.com) or under the [issues tab on GitHub](https://github.com/jamescer/osrs-tools/issues).
 
@@ -13,7 +14,7 @@ npm install osrs-tools --save
 ### Usage
 
 ```javascript
-import { QuestTool, questArray, questObject } from "osrs-quest-tool";
+import { QuestTool, questArray, questObject } from 'osrs-quest-tool';
 
 const tool = new QuestTool();
 const questArrayData = questArray();
@@ -25,10 +26,10 @@ console.log(questArrayData);
 
 ### API
 
-| Method           | Description                                                      | Type              |
-| ---------------- | ---------------------------------------------------------------- | ----------------- |
-| `new QuestTool()` | Constructor for the `QuestTool` class.                            | Class Constructor |
-| `questObject()`   | Function that returns an object of quest array keys.              | Function          |
+| Method            | Description                                                      | Type              |
+| ----------------- | ---------------------------------------------------------------- | ----------------- |
+| `new QuestTool()` | Constructor for the `QuestTool` class.                           | Class Constructor |
+| `questObject()`   | Function that returns an object of quest array keys.             | Function          |
 | `questArray()`    | Function that returns an array of alphabetically ordered quests. | Function          |
 
 ### Core Concept

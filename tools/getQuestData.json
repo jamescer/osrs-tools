@@ -1,30 +1,21 @@
 [
     {
-        "index": "142",
-        "quest_name": "X Marks the Spot",
+        "index": "4",
+        "quest_name": "Romeo & Juliet",
         "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "1",
-        "series": "Great Kourend, #1",
-        "release_date": "7 February 2019"
-    },
-    {
-        "index": "13",
-        "quest_name": "Witch's Potion",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "1",
+        "quest_length": "Short",
+        "quest_points": "5",
         "series": "N/A",
-        "release_date": "6 April 2001"
+        "release_date": "4 January 2001"
     },
     {
-        "index": "8",
-        "quest_name": "Vampyre Slayer",
-        "difficulty": "Intermediate",
-        "quest_length": "Very Short",
+        "index": "2",
+        "quest_name": "Demon Slayer",
+        "difficulty": "Novice",
+        "quest_length": "Short",
         "quest_points": "3",
-        "series": "N/A",
-        "release_date": "28 January 2001"
+        "series": "Demon Slayer, #1",
+        "release_date": "4 January 2001"
     },
     {
         "index": "6",
@@ -36,76 +27,22 @@
         "release_date": "4 January 2001"
     },
     {
-        "index": "5",
-        "quest_name": "Sheep Shearer",
+        "index": "7",
+        "quest_name": "Ernest the Chicken",
         "difficulty": "Novice",
         "quest_length": "Very Short",
-        "quest_points": "1",
+        "quest_points": "4",
         "series": "N/A",
-        "release_date": "4 January 2001"
+        "release_date": "21 January 2001"
     },
     {
-        "index": "51",
-        "quest_name": "Rune Mysteries",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "1",
-        "series": "Order of Wizards, #1",
-        "release_date": "29 March 2004"
-    },
-    {
-        "index": "4",
-        "quest_name": "Romeo & Juliet",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "5",
-        "series": "N/A",
-        "release_date": "4 January 2001"
-    },
-    {
-        "index": "3",
-        "quest_name": "The Restless Ghost",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "1",
-        "series": "N/A",
-        "release_date": "4 January 2001"
-    },
-    {
-        "index": "10",
-        "quest_name": "Prince Ali Rescue",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "3",
-        "series": "Kharidian, #1",
-        "release_date": "28 February 2001"
-    },
-    {
-        "index": "16",
-        "quest_name": "Pirate's Treasure",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "2",
-        "series": "N/A",
-        "release_date": "11 June 2001"
-    },
-    {
-        "index": "129",
-        "quest_name": "Misthalin Mystery",
-        "difficulty": "Novice",
-        "quest_length": "Short",
-        "quest_points": "1",
-        "series": "N/A",
-        "release_date": "26 January 2017"
-    },
-    {
-        "index": "14",
-        "quest_name": "The Knight's Sword",
+        "index": "8",
+        "quest_name": "Vampyre Slayer",
         "difficulty": "Intermediate",
-        "quest_length": "Short",
-        "quest_points": "1",
+        "quest_length": "Very Short",
+        "quest_points": "3",
         "series": "N/A",
-        "release_date": "6 April 2001"
+        "release_date": "28 January 2001"
     },
     {
         "index": "9",
@@ -117,31 +54,13 @@
         "release_date": "16 February 2001"
     },
     {
-        "index": "15",
-        "quest_name": "Goblin Diplomacy",
+        "index": "10",
+        "quest_name": "Prince Ali Rescue",
         "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "5",
-        "series": "N/A",
-        "release_date": "8 May 2001"
-    },
-    {
-        "index": "7",
-        "quest_name": "Ernest the Chicken",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "4",
-        "series": "N/A",
-        "release_date": "21 January 2001"
-    },
-    {
-        "index": "17",
-        "quest_name": "Dragon Slayer I",
-        "difficulty": "Experienced",
-        "quest_length": "Medium",
-        "quest_points": "2",
-        "series": "Dragonkin, #1",
-        "release_date": "23 September 2001"
+        "quest_length": "Short",
+        "quest_points": "3",
+        "series": "Kharidian, #1",
+        "release_date": "28 February 2001"
     },
     {
         "index": "11",
@@ -153,12 +72,102 @@
         "release_date": "6 April 2001"
     },
     {
-        "index": "2",
-        "quest_name": "Demon Slayer",
+        "index": "12",
+        "quest_name": "Black Knights' Fortress",
+        "difficulty": "Intermediate",
+        "quest_length": "Very Short",
+        "quest_points": "3",
+        "series": "N/A",
+        "release_date": "6 April 2001"
+    },
+    {
+        "index": "13",
+        "quest_name": "Witch's Potion",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "6 April 2001"
+    },
+    {
+        "index": "15",
+        "quest_name": "Goblin Diplomacy",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "5",
+        "series": "N/A",
+        "release_date": "8 May 2001"
+    },
+    {
+        "index": "16",
+        "quest_name": "Pirate's Treasure",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "2",
+        "series": "N/A",
+        "release_date": "11 June 2001"
+    },
+    {
+        "index": "17",
+        "quest_name": "Dragon Slayer I",
+        "difficulty": "Experienced",
+        "quest_length": "Medium",
+        "quest_points": "2",
+        "series": "Dragonkin, #1",
+        "release_date": "23 September 2001"
+    },
+    {
+        "index": "51",
+        "quest_name": "Rune Mysteries",
         "difficulty": "Novice",
         "quest_length": "Short",
-        "quest_points": "3",
-        "series": "Demon Slayer, #1",
+        "quest_points": "1",
+        "series": "Order of Wizards, #1",
+        "release_date": "29 March 2004"
+    },
+    {
+        "index": "129",
+        "quest_name": "Misthalin Mystery",
+        "difficulty": "Novice",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "26 January 2017"
+    },
+    {
+        "index": "142",
+        "quest_name": "X Marks the Spot",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "1",
+        "series": "Great Kourend, #1",
+        "release_date": "7 February 2019"
+    },
+    {
+        "index": "148",
+        "quest_name": "Below Ice Mountain",
+        "difficulty": "Novice",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "14 April 2021"
+    },
+    {
+        "index": "5",
+        "quest_name": "Sheep Shearer",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "4 January 2001"
+    },
+    {
+        "index": "1",
+        "quest_name": "Cook's Assistant",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "1",
+        "series": "N/A",
         "release_date": "4 January 2001"
     },
     {
@@ -171,31 +180,22 @@
         "release_date": "7 December 2017"
     },
     {
-        "index": "1",
-        "quest_name": "Cook's Assistant",
-        "difficulty": "Novice",
-        "quest_length": "Very Short",
-        "quest_points": "1",
-        "series": "N/A",
-        "release_date": "4 January 2001"
-    },
-    {
-        "index": "12",
-        "quest_name": "Black Knights' Fortress",
+        "index": "14",
+        "quest_name": "The Knight's Sword",
         "difficulty": "Intermediate",
-        "quest_length": "Very Short",
-        "quest_points": "3",
+        "quest_length": "Short",
+        "quest_points": "1",
         "series": "N/A",
         "release_date": "6 April 2001"
     },
     {
-        "index": "148",
-        "quest_name": "Below Ice Mountain",
+        "index": "3",
+        "quest_name": "The Restless Ghost",
         "difficulty": "Novice",
         "quest_length": "Short",
         "quest_points": "1",
         "series": "N/A",
-        "release_date": "14 April 2021"
+        "release_date": "4 January 2001"
     },
     {
         "index": "18",
@@ -320,7 +320,7 @@
         "difficulty": "Intermediate",
         "quest_length": "Short",
         "quest_points": "2",
-        "series": "N/A",
+        "series": "Gnome quest series",
         "release_date": "23 July 2002"
     },
     {
@@ -707,7 +707,7 @@
         "difficulty": "Master",
         "quest_length": "Long",
         "quest_points": "3",
-        "series": "Mahjarrat, #6",
+        "series": "Mahjarrat, #7",
         "release_date": "18 April 2005"
     },
     {
@@ -860,7 +860,7 @@
         "difficulty": "Experienced",
         "quest_length": "Short",
         "quest_points": "1",
-        "series": "Mahjarrat, #9",
+        "series": "Mahjarrat, #10",
         "release_date": "19 December 2005"
     },
     {
@@ -1188,6 +1188,15 @@
         "release_date": "9 February 2022"
     },
     {
+        "index": "165",
+        "quest_name": "While Guthix Sleeps",
+        "difficulty": "Grandmaster",
+        "quest_length": "Very Long",
+        "quest_points": "5",
+        "series": "Mahjarrat, #14",
+        "release_date": "10 July 2024"
+    },
+    {
         "index": "80",
         "quest_name": "Zogre Flesh Eaters",
         "difficulty": "Intermediate",
@@ -1220,7 +1229,7 @@
         "difficulty": "Intermediate",
         "quest_length": "Very Short",
         "quest_points": "1",
-        "series": "Great Kourend, #3",
+        "series": "Great Kourend, #3A",
         "release_date": "9 November 2017"
     },
     {
@@ -1247,7 +1256,7 @@
         "difficulty": "Intermediate",
         "quest_length": "Short",
         "quest_points": "1",
-        "series": "Great Kourend, #4",
+        "series": "Great Kourend, #3B",
         "release_date": "9 November 2017"
     },
     {
@@ -1346,7 +1355,7 @@
         "difficulty": "Intermediate",
         "quest_length": "Short",
         "quest_points": "1",
-        "series": "Great Kourend, #7",
+        "series": "Great Kourend, #3E",
         "release_date": "19 April 2018"
     },
     {
@@ -1382,7 +1391,7 @@
         "difficulty": "Intermediate",
         "quest_length": "Short",
         "quest_points": "1",
-        "series": "Great Kourend, #5",
+        "series": "Great Kourend, #3C",
         "release_date": "10 January 2019"
     },
     {
@@ -1391,7 +1400,7 @@
         "difficulty": "Intermediate",
         "quest_length": "Short",
         "quest_points": "1",
-        "series": "Great Kourend, #6",
+        "series": "Great Kourend, #3D",
         "release_date": "10 January 2019"
     },
     {
@@ -1402,6 +1411,15 @@
         "quest_points": "2",
         "series": "Fremennik, #4",
         "release_date": "26 September 2019"
+    },
+    {
+        "index": "160",
+        "quest_name": "Defender of Varrock",
+        "difficulty": "Experienced",
+        "quest_length": "Medium",
+        "quest_points": "2",
+        "series": "Mahjarrat, #6",
+        "release_date": "21 February 2024"
     },
     {
         "index": "145",
@@ -1418,7 +1436,7 @@
         "difficulty": "Experienced",
         "quest_length": "Long",
         "quest_points": "2",
-        "series": "Great Kourend, #8",
+        "series": "Great Kourend, #4",
         "release_date": "16 June 2021"
     },
     {
@@ -1479,7 +1497,7 @@
         "index": "154",
         "quest_name": "Sleeping Giants",
         "difficulty": "Intermediate",
-        "quest_length": "Short",
+        "quest_length": "Very Short",
         "quest_points": "1",
         "series": "N/A",
         "release_date": "8 June 2022"
@@ -1499,7 +1517,7 @@
         "difficulty": "Grandmaster",
         "quest_length": "Very Long",
         "quest_points": "5",
-        "series": "Mahjarrat, #12",
+        "series": "Mahjarrat, #13",
         "release_date": "26 July 2023"
     },
     {
@@ -1508,16 +1526,88 @@
         "difficulty": "Master",
         "quest_length": "Medium",
         "quest_points": "2",
-        "series": "Mahjarrat, #11",
+        "series": "Mahjarrat, #12",
         "release_date": "11 January 2023"
     },
     {
         "index": "159",
         "quest_name": "Children of the Sun",
         "difficulty": "Novice",
-        "quest_length": "Short",
+        "quest_length": "Very Short",
         "quest_points": "1",
         "series": "Twilight Emissaries, #1",
         "release_date": "10 January 2024"
+    },
+    {
+        "index": "163",
+        "quest_name": "Perilous Moons",
+        "difficulty": "Master",
+        "quest_length": "Medium",
+        "quest_points": "2",
+        "series": "N/A",
+        "release_date": "20 March 2024"
+    },
+    {
+        "index": "164",
+        "quest_name": "The Ribbiting Tale of a Lily Pad Labour Dispute",
+        "difficulty": "Novice",
+        "quest_length": "Very Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "20 March 2024"
+    },
+    {
+        "index": "161",
+        "quest_name": "Twilight's Promise",
+        "difficulty": "Intermediate",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "Twilight Emissaries, #2",
+        "release_date": "20 March 2024"
+    },
+    {
+        "index": "162",
+        "quest_name": "At First Light",
+        "difficulty": "Intermediate",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "20 March 2024"
+    },
+    {
+        "index": "166",
+        "quest_name": "The Heart of Darkness",
+        "difficulty": "Experienced",
+        "quest_length": "Medium",
+        "quest_points": "2",
+        "series": "Twilight Emissaries, #3",
+        "release_date": "25 September 2024"
+    },
+    {
+        "index": "167",
+        "quest_name": "Death on the Isle",
+        "difficulty": "Intermediate",
+        "quest_length": "Medium",
+        "quest_points": "2",
+        "series": "N/A",
+        "release_date": "25 September 2024"
+    },
+    {
+        "index": "168",
+        "quest_name": "Meat and Greet",
+        "difficulty": "Experienced",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "25 September 2024"
+    },
+    {
+        "index": "169",
+        "quest_name": "Ethically Acquired Antiquities",
+        "difficulty": "Novice",
+        "quest_length": "Short",
+        "quest_points": "1",
+        "series": "N/A",
+        "release_date": "25 September 2024"
     }
 ]

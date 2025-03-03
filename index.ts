@@ -1,1 +1,2 @@
-export * from './lib/osrstools';
+export * from './src/model/quest/Quest';
+export * from './src/model/quest/QuestTool';    

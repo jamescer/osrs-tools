@@ -10,6 +10,21 @@ TOTAL_QUEST_POINTS = 293
 BASE_QUEST_URL = "https://oldschool.runescape.wiki/w/"
 QUEST_LIST_URL = 'https://oldschool.runescape.wiki/w/Quests/List'
 
+quest_detail_array = []
+error_on = []
+counter_stop_test = 0
+
+SKILL_NAMES = [
+    'Attack', 'Hitpoints', 'Mining',
+    'Strength', 'Agility', 'Smithing',
+    'Defence', 'Herblore', 'Fishing',
+    'Ranged', 'Thieving', 'Cooking',
+    'Prayer', 'Crafting', 'Firemaking',
+    'Magic', 'Fletching', 'Woodcutting',
+    'Runecraft', 'Slayer', 'Farming',
+    'Construction', 'Hunter'
+]
+
 # Create Python Script that gets all the quests currently.
 # We have to create a list of quests to get the requirements for
 # We have to then get the requirements and rewards for each quest
@@ -22,7 +37,6 @@ QUEST_LIST_URL = 'https://oldschool.runescape.wiki/w/Quests/List'
 # TODO - Recipe for Disaster quest most likely needs some hard-coded stuff
 
 # Update the quest data based on the row of details we are in
-
 
 
 # Determines if a skill name is in the string param
@@ -221,9 +235,7 @@ def createArrayFromTable(table, isminiquest):
     return quests
 
 
-
 # Main method -- Call Wiki quest url, parse the page for the quest list, then parse each quest individually through their own URLs
-
 page = requests.get(QUEST_LIST_URL)
 
 soup = BeautifulSoup(page.content, 'html.parser')
@@ -237,6 +249,8 @@ free_to_play_quests = createArrayFromTable(free_to_play_quests_table, False)
 members_quests = createArrayFromTable(members_quests_table, False)
 mini_quests = createArrayFromTable(mini_quests_table, True)
 
+CURRENT_QUEST_AMOUNT = len(members_quests) + len(free_to_play_quests)
+
 print('Total free_to_play_quests: '+str(len(free_to_play_quests)))
 print('Total members_quests: '+str(len(members_quests)))
 print('Total mini_quests: '+str(len(mini_quests)))
@@ -248,6 +262,7 @@ with open('./tools/getQuestData.json', 'w') as outfile:
     json.dump(all_quests, outfile)
 
 
+# Parse the HTML string of the quest requirements from  the wiki table
 def parse_req_str(requirementString):
     requirementObject = {}
     quests = []
@@ -284,9 +299,6 @@ def parse_req_str(requirementString):
         return requirementObject
 
 
-quest_detail_array = []
-error_on = []
-counter_stop_test = 0
 
 test_quest = ''  # "Heroes' Quest"
 if test_quest != '':
@@ -343,7 +355,7 @@ for i in all_quests:
 
             # new quest to add
             new_quest_details = {'url': cur_quest_url,
-                                'quest_name': i['quest_name']}
+                                 'quest_name': i['quest_name']}
             for row in quest_details_rows:
                 updateQuestDataByRow(new_quest_details, row)
             quest_detail_array.append(new_quest_details)
@@ -351,7 +363,7 @@ for i in all_quests:
             # catch *all* exceptions
     except:
         e = sys.exc_info()
-        print("<p>Error: %s</p>" % e[0])
+        print("<p>Error: %s</p>" + str(e[0]) + ' - ' + str(e[1]))
         print(i['quest_name'])
         error_on.append(i['quest_name'])
 
@@ -366,4 +378,3 @@ with open('./tools/questDetailArr.json', 'w') as outfile:
 # Dump any errors found during parse
 with open('./tools/errors.json', 'w') as outfile:
     json.dump(error_on, outfile)
-

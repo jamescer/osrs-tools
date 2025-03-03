@@ -1,0 +1,34 @@
+{
+    "id": 1,
+    "name": "Cook's Assistant",
+    "difficulty": "Novice",
+    "skillRequirements": {},
+    "status": "Not Started",
+    "miniquest": false,
+    "shortName": "Cook's Assistant",
+    "url": "https://oldschool.runescape.wiki/w/Cook's_Assistant",
+    "series": "",
+    "members": false,
+    "questPoints": 1,
+    "length": "Short",
+    "age": "",
+    "startLocation": "Lumbridge Castle kitchen",
+    "difficultyLevel": "1",
+    "officialDifficulty": "Novice",
+    "officialLength": "Short",
+    "officialAge": "",
+    "itemRequirements": [
+        "Bucket",
+        "Pot"
+    ],
+    "recommendedItems": [],
+    "recommendedSkills": {},
+    "recommendedPrayers": [],
+    "questRequirements": [],
+    "rewards": {
+        "experience": {
+            "Cooking": 300
+        },
+        "items": []
+    }
+}

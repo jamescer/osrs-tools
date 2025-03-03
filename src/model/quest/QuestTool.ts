@@ -1,6 +1,3 @@
-import questData from '../../resources/questData';
-import questDataArray from '../../resources/questDataArray';
-import subQuestArray from '../../resources/subquestArray';
 import { OsrsAccount } from '../account/OsrsAccount';
 import { Quest } from './Quest';
 
@@ -11,14 +8,16 @@ class QuestTool {
     private osrsAccount: OsrsAccount | undefined;
 
     constructor() {
-        this.questObject = questData;
-        this.questArray = questDataArray;
-        this.subQuestArray = subQuestArray;
+        // todo need to import these data from a typescript file where its defined/stored
+        this.questObject = [];
+        this.questArray = [];
+        this.subQuestArray = [];
     }
 
     /**
      * to string func
-     * @todo
+     * @todo    Implement this function
+     * @return  {String} The string representation of the class object. 
      */
     toString(): string {
         return 'QuestTool :) WIP';

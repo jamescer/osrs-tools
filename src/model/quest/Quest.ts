@@ -1,66 +1,44 @@
-import { Requirement } from './Requirement';
 
-/**
- * Rewards are earned by Completing Quests
- */
-interface Rewards {
-    [key: string]: any;
-}
 
-/**
- * A Subquest is a smaller quest that can be needed by a Quest
- */
-interface Subquest {
-    [key: string]: any;
+// SkillRequirement interface
+interface SkillRequirement {
+    level: number;        // Required skill level
+    isBoostable: boolean; // Flag to indicate if the skill is boostable
 }
 
 
-class Quest {
-    miniquest: boolean;
-    shortName: string;
-    name: string;
-    url: string;
-    members: boolean;
-    difficulty: string;
-    questLength: string;
-    series: string;
-    subquests: Subquest[];
-    rewards: Rewards;
-    requirements: Requirement[];
-
-    constructor(
-        miniquest: boolean,
-        shortName: string,
-        name: string,
-        url: string,
-        members: boolean,
-        difficulty: string,
-        questLength: string,
-        requirements: Requirement[],
-        rewards: Rewards,
-        series: string,
-        subquests: Subquest[]
-    ) {
-        this.name = name;
-        this.miniquest = miniquest;
-        this.shortName = shortName;
-        this.url = url;
-        this.members = members;
-        this.difficulty = difficulty;
-        this.questLength = questLength;
-        this.series = series;
-        this.subquests = subquests;
-        this.rewards = rewards;
-        this.requirements = requirements;
-    }
-
-    /**
-     * Stringify quest
-     * @returns {String} string description of class
-     */
-    toString(): string {
-        return this.name;
-    }
+// Quest interface
+interface Quest {
+    id: number;                // Unique identifier
+    name: string;              // Quest name
+    difficulty: string; // Difficulty level
+    skillRequirements: { [skill: string]: SkillRequirement };  // Skill level requirements with boostable flag
+    status: 'Not Started' | 'In Progress' | 'Completed'; // Quest status
+    miniquest: boolean; // Is this a miniquest?
+    shortName: string; // Short name for the quest
+    url: string; // URL to the quest guide
+    series: string; // Series of the quest (e.g. 'Elf', 'Mahjarrat')
+    members: boolean; // Is this a members-only quest?  
+    questPoints: number; // Quest points rewarded
+    length: string; // Length of the quest
+    age: string; // Age of the quest
+    startLocation: string; // Starting location
+    difficultyLevel: string; // Difficulty level
+    officialDifficulty: string; // Official difficulty level
+    officialLength: string; // Official length
+    officialAge: string; // Official age
+    itemRequirements: string[]; // Item requirements
+    recommendedItems: string[]; // Recommended items
+    recommendedSkills: { [skill: string]: number }; // Recommended skills
+    recommendedPrayers: string[]; // Recommended prayers
+    questRequirements: string[];  // Names of quests that need to be completed before
+    rewards: {
+        experience?: { [skill: string]: number }; // Experience rewards per skill
+        items?: string[];  // List of items rewarded
+        areas?: string[];  // List of items rewarded
+    };
 }
+
+
 
 export { Quest };

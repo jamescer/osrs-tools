@@ -1,0 +1,754 @@
+[
+    {
+        "id": 1,
+        "name": "Cook's Assistant",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Cook's Assistant",
+        "url": "https://oldschool.runescape.wiki/w/Cook's_Assistant",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Lumbridge Castle kitchen",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "N/A"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Cooking": 300
+            },
+            "items": []
+        }
+    },
+    {
+        "id": 2,
+        "name": "Demon Slayer",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Demon Slayer",
+        "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
+        "series": "Demon Slayer, #1",
+        "members": false,
+        "questPoints": 3,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Varrock Square",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "N/A"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": []
+        }
+    },
+    {
+        "id": 3,
+        "name": "The Restless Ghost",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "The Restless Ghost",
+        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Lumbridge Church",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "N/A"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Prayer": 1125
+            },
+            "items": []
+        }
+    },
+    {
+        "id": 4,
+        "name": "Romeo & Juliet",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Romeo & Juliet",
+        "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
+        "series": "",
+        "members": false,
+        "questPoints": 5,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Varrock Square",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "N/A"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": []
+        }
+    },
+    {
+        "id": 5,
+        "name": "Sheep Shearer",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Sheep Shearer",
+        "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Fred the Farmer's house, north of Lumbridge",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "N/A"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Crafting": 150
+            },
+            "items": []
+        }
+    },
+    {
+        "id": 6,
+        "name": "Shield of Arrav",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Shield of Arrav",
+        "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Varrock Palace library",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "N/A"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": []
+        }
+    },
+    {
+        "id": 8,
+        "name": "Vampyre Slayer",
+        "difficulty": "Intermediate",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Vampyre Slayer",
+        "url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
+        "series": "",
+        "members": false,
+        "questPoints": 3,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Draynor Village",
+        "difficultyLevel": "2",
+        "officialDifficulty": "Intermediate",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "Garlic",
+            "Beer",
+            "Stake"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Attack": 4825
+            },
+            "items": []
+        }
+    },
+    {
+        "id": 9,
+        "name": "Imp Catcher",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Imp Catcher",
+        "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Wizard's Tower",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "Red bead",
+            "Yellow bead",
+            "Black bead",
+            "White bead"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Magic": 875
+            },
+            "items": [
+                "Amulet of accuracy"
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "name": "Prince Ali Rescue",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Prince Ali Rescue",
+        "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
+        "series": "Kharidian, #1",
+        "members": false,
+        "questPoints": 3,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Al Kharid Palace",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "Rope",
+            "3 balls of wool",
+            "Yellow dye",
+            "2 onions",
+            "Redberries",
+            "Bucket of water",
+            "Flour",
+            "Ashes",
+            "Pink skirt",
+            "3 beers",
+            "Soft clay",
+            "Bronze bar"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": []
+        }
+    },
+    {
+        "id": 11,
+        "name": "Doric's Quest",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Doric's Quest",
+        "url": "https://oldschool.runescape.wiki/w/Doric's_Quest",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Doric's Anvil, north of Falador",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "6 clay",
+            "4 copper ore",
+            "2 iron ore"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Mining": 1300
+            },
+            "items": [
+                "Use of Doric's anvils"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "Black Knights' Fortress",
+        "difficulty": "Intermediate",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Black Knights' Fortress",
+        "url": "https://oldschool.runescape.wiki/w/Black_Knights'_Fortress",
+        "series": "",
+        "members": false,
+        "questPoints": 3,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Falador Castle",
+        "difficultyLevel": "2",
+        "officialDifficulty": "Intermediate",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "Bronze medium helmet",
+            "Iron chainbody",
+            "Cabbage"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": []
+        }
+    },
+    {
+        "id": 13,
+        "name": "Witch's Potion",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Witch's Potion",
+        "url": "https://oldschool.runescape.wiki/w/Witch's_Potion",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Rimmington",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "Burnt meat",
+            "Eye of newt",
+            "Onion",
+            "Rat's tail"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Magic": 325
+            },
+            "items": []
+        }
+    },
+    {
+        "id": 14,
+        "name": "The Knight's Sword",
+        "difficulty": "Intermediate",
+        "skillRequirements": {
+            "Mining": {
+                "level": 10,
+                "isBoostable": false
+            }
+        },
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "The Knight's Sword",
+        "url": "https://oldschool.runescape.wiki/w/The_Knight's_Sword",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Falador Castle",
+        "difficultyLevel": "2",
+        "officialDifficulty": "Intermediate",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "Iron bars (2)",
+            "Redberry pie"
+        ],
+        "recommendedItems": [
+            "Food",
+            "Teleportation methods"
+        ],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Smithing": 12725
+            },
+            "items": []
+        }
+    },
+    {
+        "id": 15,
+        "name": "Goblin Diplomacy",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Goblin Diplomacy",
+        "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
+        "series": "",
+        "members": false,
+        "questPoints": 5,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Goblin Village",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "Goblin mail (3)",
+            "Orange dye",
+            "Blue dye"
+        ],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": [
+                "Gold bar"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "name": "Pirate's Treasure",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Pirate's Treasure",
+        "url": "https://oldschool.runescape.wiki/w/Pirate's_Treasure",
+        "series": "",
+        "members": false,
+        "questPoints": 2,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Port Sarim",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "White apron",
+            "Spade"
+        ],
+        "recommendedItems": [
+            "Coins"
+        ],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": [
+                "One-Eyed Hector's treasure chest"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "name": "Dragon Slayer I",
+        "difficulty": "Experienced",
+        "skillRequirements": {
+            "Quest Points": {
+                "level": 32,
+                "isBoostable": false
+            }
+        },
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Dragon Slayer I",
+        "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_I",
+        "series": "Dragonkin, #1",
+        "members": false,
+        "questPoints": 2,
+        "length": "Medium",
+        "age": "",
+        "startLocation": "Champions' Guild",
+        "difficultyLevel": "3",
+        "officialDifficulty": "Experienced",
+        "officialLength": "Medium",
+        "officialAge": "",
+        "itemRequirements": [
+            "Anti-dragon shield",
+            "Map pieces (3)",
+            "Crandor map"
+        ],
+        "recommendedItems": [
+            "Food",
+            "Potions",
+            "Teleportation methods"
+        ],
+        "recommendedSkills": {
+            "Attack": 40,
+            "Strength": 40,
+            "Defence": 40,
+            "Magic": 33,
+            "Prayer": 37
+        },
+        "recommendedPrayers": [
+            "Protect from Magic"
+        ],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Strength": 18650,
+                "Defence": 18650
+            },
+            "items": [
+                "Ability to wear Rune platebody and Green dragonhide body"
+            ]
+        }
+    },
+    {
+        "id": 51,
+        "name": "Rune Mysteries",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Rune Mysteries",
+        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
+        "series": "Order of Wizards, #1",
+        "members": false,
+        "questPoints": 1,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Lumbridge Castle",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "areas": [
+                "Access to the Rune essence mine"
+            ]
+        }
+    },
+    {
+        "id": 129,
+        "name": "Misthalin Mystery",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Misthalin Mystery",
+        "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Short",
+        "age": "",
+        "startLocation": "Lumbridge Swamp",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": [
+                "Uncut sapphire",
+                "Uncut emerald",
+                "Uncut ruby"
+            ]
+        }
+    },
+    {
+        "id": 135,
+        "name": "The Corsair Curse",
+        "difficulty": "Intermediate",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "The Corsair Curse",
+        "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
+        "series": "",
+        "members": false,
+        "questPoints": 2,
+        "length": "Short",
+        "age": "",
+        "startLocation": "North of Port Sarim",
+        "difficultyLevel": "2",
+        "officialDifficulty": "Intermediate",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [
+            "Spade",
+            "Tinderbox"
+        ],
+        "recommendedItems": [
+            "Stamina potion",
+            "Weapon",
+            "Food"
+        ],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": []
+        }
+    },
+    {
+        "id": 142,
+        "name": "X Marks the Spot",
+        "difficulty": "Novice",
+        "skillRequirements": {},
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "X Marks the Spot",
+        "url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
+        "series": "Great Kourend, #1",
+        "members": false,
+        "questPoints": 1,
+        "length": "Very Short",
+        "age": "",
+        "startLocation": "Lumbridge",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Very Short",
+        "officialAge": "",
+        "itemRequirements": [],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {},
+            "items": [
+                "1 Quest point",
+                "200 coins",
+                "Antique lamp (300 experience)"
+            ]
+        }
+    },
+    {
+        "id": 148,
+        "name": "Below Ice Mountain",
+        "difficulty": "Novice",
+        "skillRequirements": {
+            "Mining": {
+                "level": 10,
+                "isBoostable": false
+            }
+        },
+        "status": "Not Started",
+        "miniquest": false,
+        "shortName": "Below Ice Mountain",
+        "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
+        "series": "",
+        "members": false,
+        "questPoints": 1,
+        "length": "Short",
+        "age": "",
+        "startLocation": "West of Edgeville",
+        "difficultyLevel": "1",
+        "officialDifficulty": "Novice",
+        "officialLength": "Short",
+        "officialAge": "",
+        "itemRequirements": [],
+        "recommendedItems": [],
+        "recommendedSkills": {},
+        "recommendedPrayers": [],
+        "questRequirements": [],
+        "rewards": {
+            "experience": {
+                "Mining": 1500
+            },
+            "areas": [
+                "Access to the Ruins of Camdozaal"
+            ]
+        }
+    }
+]

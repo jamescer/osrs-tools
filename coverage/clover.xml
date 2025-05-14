@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1747239798873" clover="3.2.0">
-  <project timestamp="1747239798873" name="All files">
-    <metrics statements="187" coveredstatements="135" conditionals="45" coveredconditionals="29" methods="60" coveredmethods="14" elements="292" coveredelements="178" complexity="0" loc="187" ncloc="187" packages="4" files="12" classes="12"/>
+<coverage generated="1747241528129" clover="3.2.0">
+  <project timestamp="1747241528129" name="All files">
+    <metrics statements="193" coveredstatements="141" conditionals="45" coveredconditionals="29" methods="61" coveredmethods="15" elements="299" coveredelements="185" complexity="0" loc="193" ncloc="193" packages="4" files="12" classes="12"/>
     <package name="model">
-      <metrics statements="48" coveredstatements="27" conditionals="3" coveredconditionals="2" methods="22" coveredmethods="6"/>
+      <metrics statements="47" coveredstatements="26" conditionals="3" coveredconditionals="2" methods="22" coveredmethods="6"/>
       <file name="Requirement.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\model\Requirement.ts">
-        <metrics statements="48" coveredstatements="27" conditionals="3" coveredconditionals="2" methods="22" coveredmethods="6"/>
+        <metrics statements="47" coveredstatements="26" conditionals="3" coveredconditionals="2" methods="22" coveredmethods="6"/>
         <line num="9" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
@@ -46,18 +46,17 @@
         <line num="145" count="0" type="stmt"/>
         <line num="150" count="0" type="stmt"/>
         <line num="155" count="7" type="stmt"/>
+        <line num="164" count="7" type="stmt"/>
         <line num="165" count="7" type="stmt"/>
         <line num="166" count="7" type="stmt"/>
         <line num="167" count="7" type="stmt"/>
         <line num="168" count="7" type="stmt"/>
-        <line num="169" count="7" type="stmt"/>
-        <line num="170" count="7" type="stmt"/>
         <line num="171" count="7" type="stmt"/>
         <line num="172" count="7" type="stmt"/>
       </file>
     </package>
     <package name="model.slayer">
-      <metrics statements="65" coveredstatements="38" conditionals="42" coveredconditionals="27" methods="25" coveredmethods="6"/>
+      <metrics statements="65" coveredstatements="38" conditionals="42" coveredconditionals="27" methods="26" coveredmethods="7"/>
       <file name="Assignment.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\model\slayer\Assignment.ts">
         <metrics statements="8" coveredstatements="6" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="1"/>
         <line num="7" count="1" type="stmt"/>
@@ -70,7 +69,7 @@
         <line num="38" count="0" type="stmt"/>
       </file>
       <file name="SlayerMaster.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\model\slayer\SlayerMaster.ts">
-        <metrics statements="34" coveredstatements="18" conditionals="11" coveredconditionals="3" methods="12" coveredmethods="4"/>
+        <metrics statements="34" coveredstatements="18" conditionals="11" coveredconditionals="3" methods="13" coveredmethods="5"/>
         <line num="15" count="54" type="stmt"/>
         <line num="16" count="54" type="stmt"/>
         <line num="18" count="54" type="stmt"/>
@@ -134,37 +133,44 @@
       </file>
     </package>
     <package name="resources.slayer">
-      <metrics statements="57" coveredstatements="53" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="2"/>
+      <metrics statements="64" coveredstatements="60" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="2"/>
       <file name="Masters.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\resources\slayer\Masters.ts">
         <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="32" count="6" type="stmt"/>
-        <line num="50" count="6" type="stmt"/>
-        <line num="68" count="6" type="stmt"/>
-        <line num="86" count="6" type="stmt"/>
-        <line num="104" count="6" type="stmt"/>
-        <line num="122" count="6" type="stmt"/>
-        <line num="147" count="6" type="stmt"/>
-        <line num="165" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="49" count="6" type="stmt"/>
+        <line num="67" count="6" type="stmt"/>
+        <line num="85" count="6" type="stmt"/>
+        <line num="103" count="6" type="stmt"/>
+        <line num="121" count="6" type="stmt"/>
+        <line num="146" count="6" type="stmt"/>
+        <line num="164" count="6" type="stmt"/>
       </file>
       <file name="SlayerData.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\resources\slayer\SlayerData.ts">
-        <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <metrics statements="17" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="45" count="6" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
       </file>
       <file name="SlayerUnlock.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\resources\slayer\SlayerUnlock.ts">
         <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -212,9 +218,9 @@
       <file name="NieveTasks.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\resources\slayer\tasks\NieveTasks.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
-        <line num="2" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
         <line num="10" count="6" type="stmt"/>
-        <line num="233" count="6" type="stmt"/>
+        <line num="236" count="6" type="stmt"/>
       </file>
       <file name="SpriaTasks.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\resources\slayer\tasks\SpriaTasks.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -227,12 +233,12 @@
         <line num="1" count="6" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
         <line num="7" count="6" type="stmt"/>
-        <line num="436" count="6" type="stmt"/>
+        <line num="415" count="6" type="stmt"/>
       </file>
       <file name="VannakaTasks.ts" path="C:\Users\squeeze\Documents\Repos\osrs-tools\src\resources\slayer\tasks\VannakaTasks.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
-        <line num="2" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
         <line num="10" count="6" type="stmt"/>
         <line num="236" count="6" type="stmt"/>
       </file>

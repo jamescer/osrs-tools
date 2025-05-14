@@ -1,7 +1,7 @@
 {
   "name": "osrs-tools",
   "description": "A JavaScript package to provide JSON data for all current Old School RuneScape quests. This package aims to help junior software developers create tools related to Old School RuneScape. It's a work in progress, and issues should be reported to jamescer@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "main": "./dist/index.js",
   "files": [
@@ -43,12 +43,6 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "axios": "^1.7.7",
-    "babel": "^6.23.0",
-    "cheerio": "^1.0.0",
-    "jest-circus": "^29.7.0",
-    "node-fetch": "^3.3.2",
-    "travis": "^0.1.1"
   },
   "publishConfig": {
     "registryBackup": "https://npm.pkg.github.com/jamescer"

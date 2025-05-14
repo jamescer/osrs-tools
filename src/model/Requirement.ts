@@ -29,13 +29,13 @@ class LevelRequirement implements Requirement {
 
 // Enum for requirement types
 enum RequirementType {
-  SlayerLevel = 'SlayerLevel',
-  Level = 'Level',
-  CombatLevel = 'CombatLevel',
-  Quest = 'Quest',
-  Item = 'Item',
-  Location = 'Location',
-  SlayerUnlock = 'SlayerUnlock',
+  SlayerLevel = "SlayerLevel",
+  Level = "Level",
+  CombatLevel = "CombatLevel",
+  Quest = "Quest",
+  Item = "Item",
+  Location = "Location",
+  SlayerUnlock = "SlayerUnlock",
 }
 
 // Slayer Unlock requirement
@@ -155,19 +155,19 @@ class LocationRequirement implements Requirement {
 const monsterRequirements: Requirement[] = [
   new SlayerLevelRequirement(44),
   new CombatLevelRequirement(5),
-  new QuestRequirement('Dragon Slayer'),
-  new ItemRequirement('Anti-dragon shield'),
-  new LocationRequirement('Taverley Dungeon'),
+  new QuestRequirement("Dragon Slayer"),
+  new ItemRequirement("Anti-dragon shield"),
+  new LocationRequirement("Taverley Dungeon"),
 ];
 
 export {
+  CombatLevelRequirement,
+  ItemRequirement,
+  LevelRequirement,
+  LocationRequirement,
+  QuestRequirement,
   Requirement,
   RequirementType,
   SlayerLevelRequirement,
-  CombatLevelRequirement,
-  QuestRequirement,
-  ItemRequirement,
-  LocationRequirement,
   SlayerUnlockRequirement,
-  LevelRequirement,
 };

@@ -1,22 +1,23 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import * as fs from "fs";
+import * as path from "path";
+
 import {
   CombatLevelRequirement,
   QuestRequirement,
-} from '../../../model/Requirement';
-import { Task } from '../../../model/slayer/Task';
+} from "../../../model/Requirement";
+import { Task } from "../../../model/slayer/Task";
 
 // Path to your JSON file (adjust as necessary)
-const filePath = path.join(__dirname, '../slayerData.json');
-var parsedJson;
+const filePath = path.join(__dirname, "../slayerData.json");
+let parsedJson;
 try {
   // Read the JSON file synchronously
-  const data = fs.readFileSync(filePath, 'utf8');
+  const data = fs.readFileSync(filePath, "utf8");
 
   // Parse the JSON string
   parsedJson = JSON.parse(data);
 } catch (error) {
-  console.error('Error reading or parsing the file:', error);
+  console.error("Error reading or parsing the file:", error);
 }
 
 const turaelData = parsedJson.Turael;
@@ -26,16 +27,16 @@ const assignments = Object.keys(turaelData.assignments).reduce(
   (acc: Record<string, Task>, key) => {
     const assignmentData = turaelData.assignments[key];
     const unlockRequirements = new CombatLevelRequirement(
-      assignmentData.unlockRequirements.combat
+      assignmentData.unlockRequirements.combat,
     );
 
     const questRequirements =
       assignmentData.unlockRequirements.quests.map(
-        (quest: string) => new QuestRequirement(quest)
+        (quest: string) => new QuestRequirement(quest),
       ) || [];
     const partialQuestRequirements =
       assignmentData.unlockRequirements.partialQuests.map(
-        (quest: string) => new QuestRequirement(quest)
+        (quest: string) => new QuestRequirement(quest),
       ) || [];
 
     const assignment = new Task(
@@ -46,10 +47,10 @@ const assignments = Object.keys(turaelData.assignments).reduce(
       assignmentData.extendedAmountMin ?? null,
       assignmentData.extendedAmountMax ?? null,
       assignmentData.alternatives,
-      assignmentData.weight
+      assignmentData.weight,
     );
     acc[key] = assignment;
     return acc;
   },
-  {}
+  {},
 );

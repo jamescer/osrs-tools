@@ -1,21 +1,28 @@
-import { SlayerMaster } from '../../model/slayer/SlayerMaster';
-import { Assignment } from '../../model/slayer/Assignment';
-
-import { Turael, Mazchna, Duradel, Krystilia, Vannaka, Nieve, KonarQuoMaten, Spria } from './Masters';
+import { Assignment } from "../../model/slayer/Assignment";
+import { SlayerMaster } from "../../model/slayer/SlayerMaster";
+import {
+  Duradel,
+  KonarQuoMaten,
+  Krystilia,
+  Mazchna,
+  Nieve,
+  Spria,
+  Turael,
+  Vannaka,
+} from "./Masters";
 
 type SlayerData = Record<string, SlayerMaster>;
 
-
 // Gerenate the SlayerData object
 const SlayerData: SlayerData = {
-  Turael,
-  Mazchna,
   Duradel,
-  Krystilia,
-  Vannaka,
-  Nieve,
   KonarQuoMaten,
+  Krystilia,
+  Mazchna,
+  Nieve,
   Spria,
+  Turael,
+  Vannaka,
 };
 
 // Function to get a SlayerMaster by name
@@ -39,7 +46,15 @@ export class SlayerTool {
   }
 }
 
-
 // Export the SlayerData object for use in other parts of the application
 export default SlayerData;
-export { Turael, Mazchna, Duradel, Krystilia, Vannaka, Nieve, KonarQuoMaten, Spria };
+export {
+  Duradel,
+  KonarQuoMaten,
+  Krystilia,
+  Mazchna,
+  Nieve,
+  Spria,
+  Turael,
+  Vannaka,
+};

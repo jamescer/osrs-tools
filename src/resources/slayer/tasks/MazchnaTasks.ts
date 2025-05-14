@@ -1,4 +1,4 @@
-import { Task } from '../../../model/slayer/Task';
+import { Task } from "../../../model/slayer/Task";
 
 const MazchnaTasks: Task[] = [];
 

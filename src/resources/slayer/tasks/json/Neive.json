@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Aberrant spectres",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 60,
+      "combat": 65,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Deviant spectres"],
+    "weight": 6
+  },
+  {
+    "name": "Abyssal demons",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 85,
+      "combat": 85,
+      "quests": ["Priest in Peril", "Fairytale II - Cure a Queen"]
+    },
+    "alternatives": ["Abyssal sire", "Greater abyssal demon"],
+    "weight": 9
+  },
+  {
+    "name": "Adamant dragons",
+    "amountMin": 3,
+    "amountMax": 7,
+    "extendedAmountMin": 20,
+    "extendedAmountMax": 30,
+    "unlockRequirements": {
+      "quests": ["Dragon Slayer II"]
+    },
+    "alternatives": [],
+    "weight": 2
+  },
+  {
+    "name": "Ankou",
+    "amountMin": 50,
+    "amountMax": 90,
+    "extendedAmountMin": 91,
+    "extendedAmountMax": 150,
+    "unlockRequirements": {
+      "combat": 40
+    },
+    "alternatives": ["Dark Ankou"],
+    "weight": 5
+  },
+  {
+    "name": "Araxytes",
+    "amountMin": 40,
+    "amountMax": 60,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 92,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Araxxor"],
+    "weight": 8
+  },
+  {
+    "name": "Aviansie",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": "Unlocked the Watch the birdie ability via spending 80 Slayer reward points"
+    },
+    "alternatives": [
+      "Kree'arra",
+      "Flight Kilisa",
+      "Flockleader Geerin",
+      "Wingman Skree",
+      "Reanimated aviansie"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Basilisks",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 40,
+      "slayerAbility": "Basilocked ability via spending 80 Slayer reward points"
+    },
+    "alternatives": ["Basilisk Knight"],
+    "weight": 6
+  },
+  {
+    "name": "Black demons",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "combat": 80
+    },
+    "alternatives": [
+      "Demonic gorillas",
+      "Balfrug Kreeyath",
+      "Porazdir",
+      "Skotizo"
+    ],
+    "weight": 9
+  },
+  {
+    "name": "Black dragons",
+    "amountMin": 10,
+    "amountMax": 20,
+    "extendedAmountMin": 40,
+    "extendedAmountMax": 60,
+    "unlockRequirements": {
+      "combat": 80,
+      "quests": ["Dragon Slayer I (partial)"]
+    },
+    "alternatives": [
+      "Baby black dragons",
+      "King Black Dragon",
+      "Brutal black dragons (Slayer 77)"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Bloodveld",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 50,
+      "combat": 50,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Mutated Bloodveld"],
+    "weight": 9
+  },
+  {
+    "name": "Blue dragons",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 65,
+      "quests": ["Dragon Slayer I (partial)"]
+    },
+    "alternatives": ["Baby blue dragons", "Brutal blue dragons", "Vorkath"],
+    "weight": 4
+  },
+  {
+    "name": "Boss",
+    "amountMin": 3,
+    "amountMax": 35,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "slayerRewardPoints": 200,
+      "specificRequirements": "various requirements for specific bosses"
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Brine rats",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "slayer": 47,
+      "combat": 45,
+      "quests": ["Olaf's Quest (partial)"]
+    },
+    "alternatives": [],
+    "weight": 3
+  },
+  {
+    "name": "Cave horrors",
+    "amountMin": 120,
+    "amountMax": 180,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 58,
+      "combat": 85,
+      "quests": ["Cabin Fever"]
+    },
+    "alternatives": [],
+    "weight": 5
+  },
+  {
+    "name": "Cave kraken",
+    "amountMin": 100,
+    "amountMax": 120,
+    "extendedAmountMin": 150,
+    "extendedAmountMax": 200,
+    "unlockRequirements": {
+      "slayer": 87,
+      "combat": 80,
+      "magic": 50
+    },
+    "alternatives": ["Kraken"],
+    "weight": 6
+  },
+  {
+    "name": "Dagannoth",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 75,
+      "quests": ["Horror from the Deep"]
+    },
+    "alternatives": [
+      "Dagannoth spawn",
+      "Dagannoth fledgeling",
+      "Dagannoth Kings"
+    ],
+    "weight": 8
+  },
+  {
+    "name": "Dark beasts",
+    "amountMin": 10,
+    "amountMax": 20,
+    "extendedAmountMin": 110,
+    "extendedAmountMax": 135,
+    "unlockRequirements": {
+      "slayer": 90,
+      "combat": 90,
+      "quests": ["Mourning's End Part II (partial)"]
+    },
+    "alternatives": [],
+    "weight": 5
+  },
+  {
+    "name": "Drakes",
+    "amountMin": 30,
+    "amountMax": 95,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "slayer": 84
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Dust devils",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 65,
+      "combat": 70,
+      "quests": ["Desert Treasure I (partial)"]
+    },
+    "alternatives": [],
+    "weight": 6
+  },
+  {
+    "name": "Elves",
+    "amountMin": 60,
+    "amountMax": 90,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 70,
+      "quests": ["Regicide"]
+    },
+    "alternatives": [
+      "Elf warrior",
+      "mourner (Mourner Headquarters)",
+      "Guard (Prifddinas)",
+      "Reanimated elf"
+    ],
+    "weight": 4
+  },
+  {
+    "name": "Fire giants",
+    "amountMin": 120,
+    "amountMax": 185,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 65
+    },
+    "alternatives": [],
+    "weight": 9
+  },
+  {
+    "name": "Fossil Island Wyverns",
+    "amountMin": 5,
+    "amountMax": 25,
+    "extendedAmountMin": 55,
+    "extendedAmountMax": 75,
+    "unlockRequirements": {
+      "slayer": 66,
+      "combat": 60,
+      "quests": ["Bone Voyage", "Elemental Workshop I"]
+    },
+    "alternatives": [
+      "Spitting wyvern",
+      "Taloned wyvern",
+      "Long-tailed wyvern (Slayer 66)",
+      "Ancient wyvern (Slayer 82)"
+    ],
+    "weight": 5
+  }
+]

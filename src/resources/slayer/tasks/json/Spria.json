@@ -1,0 +1,345 @@
+[
+  {
+    "name": "Banshees",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "slayer": 15,
+      "combat": 20,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Twisted Banshee"],
+    "weight": 8
+  },
+  {
+    "name": "Bats",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 5
+    },
+    "alternatives": ["Giant bat", "Deathwing"],
+    "weight": 7
+  },
+  {
+    "name": "Bears",
+    "amountMin": 10,
+    "amountMax": 20,
+    "unlockRequirements": {
+      "combat": 13
+    },
+    "alternatives": [
+      "Grizzly bear cub",
+      "Bear cub",
+      "Grizzly bear",
+      "Reanimated bear",
+      "Callisto",
+      "Artio"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Birds",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 0
+    },
+    "alternatives": [
+      "Chicken",
+      "Mounted terrorbird",
+      "Terrorbird",
+      "Rooster",
+      "Chompy bird",
+      "Seagull",
+      "Penguin",
+      "Duck",
+      "Duckling"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Cave bugs",
+    "amountMin": 10,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "slayer": 7
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Cave crawlers",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "slayer": 10,
+      "combat": 10
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Cave slime",
+    "amountMin": 10,
+    "amountMax": 20,
+    "unlockRequirements": {
+      "slayer": 17,
+      "combat": 15
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Cows",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 5
+    },
+    "alternatives": ["Buffalo", "Cow calf", "Undead cow"],
+    "weight": 8
+  },
+  {
+    "name": "Crawling Hands",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "slayer": 5,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Dogs",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": ["Jackal", "Guard dog", "Wild dog", "Reanimated dog"],
+    "weight": 7
+  },
+  {
+    "name": "Dwarves",
+    "amountMin": 10,
+    "amountMax": 25,
+    "unlockRequirements": {
+      "combat": 6
+    },
+    "alternatives": ["Black Guard", "Chaos Dwarf", "Dwarf gang member"],
+    "weight": 7
+  },
+  {
+    "name": "Ghosts",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 13
+    },
+    "alternatives": ["Tortured soul", "Forgotten Soul", "Revenants"],
+    "weight": 7
+  },
+  {
+    "name": "Goblins",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 0
+    },
+    "alternatives": [
+      "Cave goblin guards",
+      "Sergeant Strongstack",
+      "Sergeant Steelwill",
+      "Sergeant Grimspike"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Icefiends",
+    "amountMin": 15,
+    "amountMax": 20,
+    "unlockRequirements": {
+      "combat": 20
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Kalphites",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": [
+      "Kalphite worker",
+      "Kalphite soldier",
+      "Kalphite guardian",
+      "Kalphite Queen"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Lizards",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "slayer": 22
+    },
+    "alternatives": [
+      "Small Lizard",
+      "Desert Lizard",
+      "Sulphur Lizard",
+      "Grimy Lizard"
+    ],
+    "weight": 8
+  },
+  {
+    "name": "Minotaurs",
+    "amountMin": 10,
+    "amountMax": 20,
+    "unlockRequirements": {
+      "combat": 7
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Monkeys",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 0
+    },
+    "alternatives": [
+      "Karamjan Monkey",
+      "Monkey Guard",
+      "Monkey Archer",
+      "Monkey Zombie",
+      "Demonic Gorilla",
+      "Tortured Gorilla"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Rats",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 0
+    },
+    "alternatives": [
+      "Giant rat",
+      "Dungeon rat",
+      "Crypt rat",
+      "Brine rat",
+      "Hell-Rat Behemoth",
+      "Giant crypt rat",
+      "Scurrius"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Scorpions",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 7
+    },
+    "alternatives": [
+      "King Scorpion",
+      "Poison Scorpion",
+      "Pit Scorpion",
+      "Scorpia",
+      "Lobstrosity",
+      "Reanimated scorpion",
+      "Scorpia's offspring",
+      "Scorpia's guardian"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Skeletons",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": [
+      "Skeleton mage",
+      "Skeletons in the Stronghold of Security",
+      "Ancient Cavern",
+      "Vet'ion",
+      "Skogre",
+      "Shayzien Crypts Skeletons",
+      "Skeleton fremennik",
+      "Calvar'ion"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Sourhogs",
+    "amountMin": 15,
+    "amountMax": 25,
+    "unlockRequirements": {
+      "quests": ["A Porcine of Interest"]
+    },
+    "alternatives": [],
+    "weight": 6
+  },
+  {
+    "name": "Spiders",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 0
+    },
+    "alternatives": [
+      "Giant spider",
+      "Shadow spider",
+      "Giant crypt spider",
+      "Sarachnis",
+      "Temple Spider",
+      "Venenatis",
+      "Spindel"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Wolves",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 20
+    },
+    "alternatives": [
+      "Big Wolf",
+      "Desert Wolf",
+      "Ice wolf",
+      "Jungle wolf",
+      "White wolf"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Zombies",
+    "amountMin": 15,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 10
+    },
+    "alternatives": [
+      "Monkey Zombie",
+      "Undead chicken",
+      "Undead cow",
+      "Undead Druid",
+      "Undead one",
+      "Zombie rat",
+      "Zogre",
+      "Vorkath"
+    ],
+    "weight": 7
+  }
+]

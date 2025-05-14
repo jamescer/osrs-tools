@@ -1,4 +1,4 @@
-import { Quest } from '../../src/model/quest/Quest';
+import { Quest } from '../../../src/model/quest/Quest';
 
 describe('Quest Interface', () => {
     it('should create a valid Quest object', () => {
@@ -63,4 +63,6 @@ describe('Quest Interface', () => {
         expect(quest.rewards.items).toContain('Quest point');
         expect(quest.rewards.areas).toContain('Lumbridge');
     });
+    
+            
 });

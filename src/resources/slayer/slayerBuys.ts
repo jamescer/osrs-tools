@@ -1,4 +1,6 @@
-const SlayerBuys = [
+import { SlayerBuy } from "../../model/slayer/SlayerReward";
+
+const SlayerBuys: SlayerBuy[] = [
   {
     item: 'Slayer ring',
     priceSoldAt: 75,
@@ -31,5 +33,6 @@ const SlayerBuys = [
   },
 ];
 
+export { SlayerBuys, SlayerBuy };
 
 module.exports = exports = { SlayerBuys };

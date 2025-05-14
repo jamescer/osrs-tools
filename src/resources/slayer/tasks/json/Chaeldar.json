@@ -1,0 +1,348 @@
+[
+  {
+    "name": "Aberrant spectres",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 60,
+      "combat": 65,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Deviant spectres"],
+    "weight": 8
+  },
+  {
+    "name": "Abyssal demons",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 85,
+      "combat": 85,
+      "quests": ["Priest in Peril", "Fairytale II - Cure a Queen"]
+    },
+    "alternatives": ["Abyssal sire"],
+    "weight": 12
+  },
+  {
+    "name": "Aviansie",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 130,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": "Unlocked the Watch the birdie ability via spending 80 Slayer reward points"
+    },
+    "alternatives": [
+      "Kree'arra",
+      "Flight Kilisa",
+      "Flockleader Geerin",
+      "Wingman Skree"
+    ],
+    "weight": 9
+  },
+  {
+    "name": "Basilisks",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 40,
+      "combat": 40,
+      "defence": 20
+    },
+    "alternatives": ["Basilisk Knight"],
+    "weight": 7
+  },
+  {
+    "name": "Black demons",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "combat": 80
+    },
+    "alternatives": [
+      "Demonic gorillas",
+      "Balfrug Kreeyath",
+      "Porazdir",
+      "Skotizo"
+    ],
+    "weight": 10
+  },
+  {
+    "name": "Bloodveld",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 50,
+      "combat": 50,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Mutated Bloodveld"],
+    "weight": 8
+  },
+  {
+    "name": "Blue dragons",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 65,
+      "quests": ["Dragon Slayer I (partial)"]
+    },
+    "alternatives": ["Baby blue dragons", "Brutal blue dragons", "Vorkath"],
+    "weight": 8
+  },
+  {
+    "name": "Brine rats",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "slayer": 47,
+      "combat": 45,
+      "quests": ["Olaf's Quest (partial)"]
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Cave horrors",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 58,
+      "combat": 85,
+      "quests": ["Cabin Fever"]
+    },
+    "alternatives": [],
+    "weight": 10
+  },
+  {
+    "name": "Cave kraken",
+    "amountMin": 30,
+    "amountMax": 50,
+    "extendedAmountMin": 150,
+    "extendedAmountMax": 200,
+    "unlockRequirements": {
+      "slayer": 87,
+      "combat": 80,
+      "magic": 50
+    },
+    "alternatives": ["Kraken"],
+    "weight": 12
+  },
+  {
+    "name": "Crabs",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "slayer": 1
+    },
+    "alternatives": [
+      "Ammonite crabs",
+      "Frost crabs",
+      "Rock crabs",
+      "Sand crabs",
+      "Swamp crabs"
+    ],
+    "weight": 8
+  },
+  {
+    "name": "Dagannoth",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 75,
+      "quests": ["Horror from the Deep"]
+    },
+    "alternatives": [
+      "Dagannoth spawn",
+      "Dagannoth fledgeling",
+      "Dagannoth Kings"
+    ],
+    "weight": 11
+  },
+  {
+    "name": "Dust devils",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 65,
+      "combat": 70,
+      "quests": ["Desert Treasure I (partial)"]
+    },
+    "alternatives": [],
+    "weight": 9
+  },
+  {
+    "name": "Elves",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 70,
+      "quests": ["Regicide"]
+    },
+    "alternatives": [
+      "Elf warrior",
+      "mourner (Mourner Headquarters)",
+      "reanimated elf"
+    ],
+    "weight": 8
+  },
+  {
+    "name": "Fever spiders",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "slayer": 42,
+      "combat": 40,
+      "quests": ["Rum Deal"]
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Fire giants",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 65
+    },
+    "alternatives": [],
+    "weight": 12
+  },
+  {
+    "name": "Fossil Island Wyverns",
+    "amountMin": 10,
+    "amountMax": 20,
+    "extendedAmountMin": 55,
+    "extendedAmountMax": 75,
+    "unlockRequirements": {
+      "slayer": 66,
+      "combat": 60,
+      "quests": ["Bone Voyage", "Elemental Workshop I"]
+    },
+    "alternatives": [
+      "Spitting",
+      "taloned",
+      "long-tailed wyvern",
+      "Ancient Wyvern"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Gargoyles",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 75,
+      "combat": 80,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Grotesque Guardians"],
+    "weight": 11
+  },
+  {
+    "name": "Greater demons",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "combat": 70
+    },
+    "alternatives": [
+      "K'ril Tsutsaroth",
+      "Tstanon Karlak",
+      "Skotizo",
+      "Tormented Demons"
+    ],
+    "weight": 9
+  },
+  {
+    "name": "Hellhounds",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 75
+    },
+    "alternatives": [
+      "Cerberus",
+      "Skeleton Hellhound",
+      "Greater Skeleton Hellhound"
+    ],
+    "weight": 9
+  },
+  {
+    "name": "Jellies",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "slayer": 52,
+      "combat": 57
+    },
+    "alternatives": ["Warped Jelly"],
+    "weight": 10
+  },
+  {
+    "name": "Jungle horrors",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 65,
+      "quests": ["Cabin Fever"]
+    },
+    "alternatives": ["Reanimated Horror"],
+    "weight": 10
+  },
+  {
+    "name": "Kalphite",
+    "amountMin": 70,
+    "amountMax": 130,
+    "extendedAmountMin": null,
+    "extendedAmountMax": null,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": [
+      "Kalphite worker",
+      "Kalphite soldier",
+      "Kalphite guardian",
+      "Kalphite Queen"
+    ],
+    "weight": 11
+  } 
+]

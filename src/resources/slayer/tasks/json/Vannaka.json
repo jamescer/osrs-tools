@@ -1,0 +1,547 @@
+[
+  {
+    "name": "Aberrant spectres",
+    "amountMin": 40,
+    "amountMax": 90,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 60,
+      "combat": 65,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Deviant spectres"],
+    "weight": 8
+  },
+  {
+    "name": "Abyssal demons",
+    "amountMin": 40,
+    "amountMax": 90,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 85,
+      "combat": 85,
+      "quests": ["Priest in Peril", "Fairytale II - Cure a Queen"]
+    },
+    "alternatives": ["Abyssal Sire"],
+    "weight": 5
+  },
+  {
+    "name": "Ankou",
+    "amountMin": 25,
+    "amountMax": 35,
+    "extendedAmountMin": 91,
+    "extendedAmountMax": 150,
+    "unlockRequirements": {
+      "combat": 40
+    },
+    "alternatives": ["Dark Ankou"],
+    "weight": 7
+  },
+  {
+    "name": "Basilisks",
+    "amountMin": 40,
+    "amountMax": 90,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 40,
+      "combat": 40,
+      "defence": 20
+    },
+    "alternatives": ["Basilisk Knight"],
+    "weight": 8
+  },
+  {
+    "name": "Bloodveld",
+    "amountMin": 40,
+    "amountMax": 90,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 50,
+      "combat": 50,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Mutated Bloodveld"],
+    "weight": 8
+  },
+  {
+    "name": "Blue dragons",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 65,
+      "quests": ["Dragon Slayer I (partial)"]
+    },
+    "alternatives": ["Baby blue dragons", "brutal blue dragons", "Vorkath"],
+    "weight": 7
+  },
+  {
+    "name": "Brine rats",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 47,
+      "combat": 45,
+      "quests": ["Olaf's Quest (partial)"]
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Cockatrice",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 25,
+      "combat": 25,
+      "defence": 20
+    },
+    "alternatives": ["Moonlight Cockatrice"],
+    "weight": 8
+  },
+  {
+    "name": "Crabs",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 1
+    },
+    "alternatives": [
+      "Ammonite crabs",
+      "Frost crabs",
+      "Rock crabs",
+      "Sand crabs",
+      "Swamp crabs"
+    ],
+    "weight": 8
+  },
+  {
+    "name": "Crocodiles",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 50
+    },
+    "alternatives": [],
+    "weight": 6
+  },
+  {
+    "name": "Dagannoth",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 75,
+      "quests": ["Horror from the Deep"]
+    },
+    "alternatives": [
+      "Dagannoth spawn",
+      "Dagannoth fledgeling",
+      "Dagannoth Kings"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Dust devils",
+    "amountMin": 40,
+    "amountMax": 90,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 65,
+      "combat": 70,
+      "quests": ["Desert Treasure I (partial)"]
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Elves",
+    "amountMin": 30,
+    "amountMax": 70,
+    "unlockRequirements": {
+      "combat": 70,
+      "quests": ["Regicide (partial)"]
+    },
+    "alternatives": ["Elf warrior", "mourner (Mourner Headquarters)"],
+    "weight": 7
+  },
+  {
+    "name": "Fever spiders",
+    "amountMin": 30,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 42,
+      "combat": 40,
+      "quests": ["Rum Deal (partial)"]
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Fire giants",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 65
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Gargoyles",
+    "amountMin": 40,
+    "amountMax": 90,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 75,
+      "combat": 80,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Grotesque Guardians"],
+    "weight": 5
+  },
+  {
+    "name": "Ghouls",
+    "amountMin": 10,
+    "amountMax": 40,
+    "unlockRequirements": {
+      "combat": 25,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Harpie Bug Swarms",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 33,
+      "combat": 45,
+      "firemaking": 33
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Hellhounds",
+    "amountMin": 30,
+    "amountMax": 60,
+    "unlockRequirements": {
+      "combat": 75
+    },
+    "alternatives": [
+      "Cerberus",
+      "Skeleton Hellhound",
+      "Greater Skeleton Hellhound"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Hill Giants",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 25
+    },
+    "alternatives": ["Obor", "Cyclops"],
+    "weight": 7
+  },
+  {
+    "name": "Hobgoblins",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 20
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Ice giants",
+    "amountMin": 30,
+    "amountMax": 80,
+    "unlockRequirements": {
+      "combat": 50
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Ice warriors",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 45
+    },
+    "alternatives": ["Icelords"],
+    "weight": 7
+  },
+  {
+    "name": "Infernal Mages",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 45,
+      "combat": 40,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Jellies",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 52,
+      "combat": 57
+    },
+    "alternatives": ["Warped Jelly", "Chilled jelly"],
+    "weight": 8
+  },
+  {
+    "name": "Jungle horrors",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 65,
+      "quests": ["Cabin Fever"]
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Kalphite",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": [
+      "Kalphite worker",
+      "Kalphite soldier",
+      "Kalphite guardian",
+      "Kalphite Queen"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Kurask",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 70,
+      "combat": 65
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Lesser demons",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 60
+    },
+    "alternatives": ["Zakl'n Gritch"],
+    "weight": 7
+  },
+  {
+    "name": "Mogres",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 32,
+      "combat": 30,
+      "quests": ["Skippy and the Mogres"]
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Molanisks",
+    "amountMin": 40,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 39,
+      "combat": 50,
+      "quests": ["Death to the Dorgeshuun"]
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Moss giants",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 40
+    },
+    "alternatives": ["Bryophyta"],
+    "weight": 7
+  },
+  {
+    "name": "Nechryael",
+    "amountMin": 40,
+    "amountMax": 90,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 80,
+      "combat": 85,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Greater Nechryael"],
+    "weight": 5
+  },
+  {
+    "name": "Ogres",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 40
+    },
+    "alternatives": ["Ogress Shaman", "Ogress Warrior"],
+    "weight": 7
+  },
+  {
+    "name": "Otherworldly beings",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 40,
+      "quests": ["Lost City"]
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Pyrefiends",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 30,
+      "combat": 25
+    },
+    "alternatives": ["Pyrelord"],
+    "weight": 8
+  },
+  {
+    "name": "Sea snakes",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 40,
+      "combat": 50,
+      "quests": ["Royal Trouble"]
+    },
+    "alternatives": ["Sea Snake Hatchling", "Sea Snake Young"],
+    "weight": 6
+  },
+  {
+    "name": "Shades",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 30
+    },
+    "alternatives": ["Loar", "Phrin", "Riyl", "Asyn", "Fiyr", "Urium Shades"],
+    "weight": 8
+  },
+  {
+    "name": "Shadow warriors",
+    "amountMin": 30,
+    "amountMax": 80,
+    "unlockRequirements": {
+      "combat": 60,
+      "quests": ["Legends' Quest"]
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Spiritual creatures",
+    "amountMin": 40,
+    "amountMax": 90,
+    "extendedAmountMin": 181,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "slayer": 63,
+      "combat": 60,
+      "quests": ["Death Plateau"],
+      "skills": {
+        "strength": 60,
+        "agility": 60
+      }
+    },
+    "alternatives": ["Spiritual ranger", "warrior", "mage"],
+    "weight": 8
+  },
+  {
+    "name": "Terror dogs",
+    "amountMin": 20,
+    "amountMax": 45,
+    "unlockRequirements": {
+      "slayer": 40,
+      "combat": 60,
+      "quests": ["Haunted Mine"]
+    },
+    "alternatives": [],
+    "weight": 6
+  },
+  {
+    "name": "Trolls",
+    "amountMin": 40,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "combat": 60
+    },
+    "alternatives": ["Mountain troll", "ice troll", "Troll general"],
+    "weight": 7
+  },
+  {
+    "name": "Turoth",
+    "amountMin": 30,
+    "amountMax": 90,
+    "unlockRequirements": {
+      "slayer": 55,
+      "combat": 60
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Vampyres",
+    "amountMin": 10,
+    "amountMax": 20,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "combat": 35,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": [
+      "Feral Vampyre",
+      "Vampyre Juvinate",
+      "Vyrewatch",
+      "Vyrewatch Sentinel"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Werewolves",
+    "amountMin": 30,
+    "amountMax": 60,
+    "unlockRequirements": {
+      "combat": 60,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": [],
+    "weight": 7
+  }
+]

@@ -1,0 +1,379 @@
+[
+  {
+    "name": "Banshees",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 15,
+      "combat": 20,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": ["Twisted Banshee"],
+    "weight": 8
+  },
+  {
+    "name": "Bats",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 5
+    },
+    "alternatives": ["Giant bat"],
+    "weight": 7
+  },
+  {
+    "name": "Bears",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 13
+    },
+    "alternatives": [
+      "Grizzly bear cub",
+      "Bear cub",
+      "Grizzly bear",
+      "Callisto"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Catablepon",
+    "amountMin": 20,
+    "amountMax": 30,
+    "unlockRequirements": {
+      "combat": 35
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Cave bugs",
+    "amountMin": 10,
+    "amountMax": 20,
+    "unlockRequirements": {
+      "slayer": 7
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Cave crawlers",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 10,
+      "combat": 10
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Cave slime",
+    "amountMin": 10,
+    "amountMax": 20,
+    "unlockRequirements": {
+      "slayer": 17,
+      "combat": 15
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Cockatrice",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 25,
+      "combat": 25,
+      "defence": 20
+    },
+    "alternatives": ["Moonlight Cockatrice"],
+    "weight": 8
+  },
+  {
+    "name": "Crabs",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 1
+    },
+    "alternatives": [
+      "Ammonite crabs",
+      "Frost crabs",
+      "Rock crabs",
+      "Sand crabs",
+      "Swamp crabs"
+    ],
+    "weight": 8
+  },
+  {
+    "name": "Crawling Hands",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 5,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Dogs",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": ["Jackal", "Guard dog", "Wild dog"],
+    "weight": 7
+  },
+  {
+    "name": "Flesh Crawlers",
+    "amountMin": 15,
+    "amountMax": 25,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Ghosts",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 13
+    },
+    "alternatives": ["Tortured soul", "Forgotten Soul", "Revenants"],
+    "weight": 7
+  },
+  {
+    "name": "Ghouls",
+    "amountMin": 10,
+    "amountMax": 20,
+    "unlockRequirements": {
+      "combat": 25,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Hill Giants",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 25
+    },
+    "alternatives": ["Obor", "Cyclops"],
+    "weight": 7
+  },
+  {
+    "name": "Hobgoblins",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 20
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Ice warriors",
+    "amountMin": 40,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 45
+    },
+    "alternatives": ["Icelords"],
+    "weight": 7
+  },
+  {
+    "name": "Kalphite",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": [
+      "Kalphite worker",
+      "Kalphite soldier",
+      "Kalphite guardian",
+      "Kalphite Queen"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Killerwatts",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 37,
+      "combat": 50,
+      "quests": ["Ernest the Chicken"]
+    },
+    "alternatives": [],
+    "weight": 6
+  },
+  {
+    "name": "Lizards",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 22
+    },
+    "alternatives": [
+      "Small Lizard",
+      "Desert Lizard",
+      "Sulphur Lizard",
+      "Grimy Lizard"
+    ],
+    "weight": 8
+  },
+  {
+    "name": "Mogres",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 32,
+      "combat": 30,
+      "quests": ["Skippy and the Mogres"]
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Pyrefiends",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 30,
+      "combat": 25
+    },
+    "alternatives": ["Pyrelords"],
+    "weight": 8
+  },
+  {
+    "name": "Rockslugs",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "slayer": 20,
+      "combat": 20
+    },
+    "alternatives": [],
+    "weight": 8
+  },
+  {
+    "name": "Scorpions",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 7
+    },
+    "alternatives": [
+      "King Scorpion",
+      "Poison Scorpion",
+      "Pit Scorpion",
+      "Scorpia",
+      "Scorpia's offspring",
+      "Scorpia's guardian"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Shades",
+    "amountMin": 30,
+    "amountMax": 70,
+    "unlockRequirements": {
+      "combat": 30
+    },
+    "alternatives": [
+      "Loar",
+      "Phrin",
+      "Riyl",
+      "Asyn",
+      "Fiyr",
+      "Urium Shades"
+    ],
+    "weight": 8
+  },
+  {
+    "name": "Skeletons",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 15
+    },
+    "alternatives": [
+      "Skeleton mage",
+      "Skeletons in the Stronghold of Security",
+      "Ancient Cavern",
+      "Vet'ion"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Vampyres",
+    "amountMin": 10,
+    "amountMax": 20,
+    "extendedAmountMin": 200,
+    "extendedAmountMax": 250,
+    "unlockRequirements": {
+      "combat": 35,
+      "quests": ["Priest in Peril"]
+    },
+    "alternatives": [
+      "Feral Vampyre",
+      "Vampyre Juvinate",
+      "Vyrewatch",
+      "Vyrewatch Sentinel"
+    ],
+    "weight": 6
+  },
+  {
+    "name": "Wall beasts",
+    "amountMin": 10,
+    "amountMax": 20,
+    "unlockRequirements": {
+      "slayer": 35,
+      "combat": 30,
+      "defence": 5
+    },
+    "alternatives": [],
+    "weight": 7
+  },
+  {
+    "name": "Wolves",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 20
+    },
+    "alternatives": [
+      "Big Wolf",
+      "Desert Wolf",
+      "Ice wolf",
+      "Jungle wolf",
+      "White wolf"
+    ],
+    "weight": 7
+  },
+  {
+    "name": "Zombies",
+    "amountMin": 30,
+    "amountMax": 50,
+    "unlockRequirements": {
+      "combat": 10
+    },
+    "alternatives": [
+      "Monkey Zombie",
+      "Undead chicken",
+      "Undead cow",
+      "Undead one",
+      "Vorkath",
+      "Undead Druid"
+    ],
+    "weight": 7
+  }
+]

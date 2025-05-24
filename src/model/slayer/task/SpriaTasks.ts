@@ -2,8 +2,8 @@ import {
   CombatLevelRequirement,
   QuestRequirement,
   SlayerLevelRequirement,
-} from "../../../model/Requirement";
-import { Task } from "../../../model/slayer/Task";
+} from "../../Requirement";
+import { Task } from "../Task";
 
 export const SpriaTasks: Task[] = [
   new Task(

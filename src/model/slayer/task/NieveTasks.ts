@@ -4,8 +4,8 @@ import {
   LocationRequirement,
   QuestRequirement,
   SlayerLevelRequirement,
-} from "../../../model/Requirement";
-import { Task } from "../../../model/slayer/Task";
+} from "../../Requirement";
+import { Task } from "../Task";
 
 const NieveTasks: Task[] = [
   new Task(

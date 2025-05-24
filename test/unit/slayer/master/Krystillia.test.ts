@@ -1,5 +1,5 @@
 import { SlayerMaster } from "../../../../src/model/slayer/SlayerMaster";
-import { Krystilia } from "../../../../src/resources/slayer/Masters";
+import { Krystilia } from "../../../../src/model/slayer/Masters";
 
 describe("Krystilia Slayer Master", () => {
   it("should be an instance of SlayerMaster", () => {

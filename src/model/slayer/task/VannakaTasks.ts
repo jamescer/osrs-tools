@@ -1,13 +1,11 @@
 import {
   CombatLevelRequirement,
-  ItemRequirement,
-  LocationRequirement,
   QuestRequirement,
   SlayerLevelRequirement,
-} from "../../../model/Requirement";
-import { Task } from "../../../model/slayer/Task";
+} from "../../Requirement";
+import { Task } from "../Task";
 
-const VannakaTasks: Task[] = [
+export const VannakaTasks: Task[] = [
   new Task(
     "Aberrant spectres",
     40,
@@ -233,4 +231,3 @@ const VannakaTasks: Task[] = [
   // Add more tasks here following the same structure...
 ];
 
-export { VannakaTasks };

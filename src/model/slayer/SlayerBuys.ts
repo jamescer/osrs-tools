@@ -1,4 +1,4 @@
-import { SlayerBuy } from "../../model/slayer/SlayerReward";
+import { SlayerBuy } from "./SlayerReward";
 
 const SlayerBuys: SlayerBuy[] = [
   {

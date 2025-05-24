@@ -1,4 +1,4 @@
-import { Mazchna } from "../../../../src/resources/slayer/Masters";
+import { Mazchna } from "../../../../src/model/slayer/Masters";
 
 describe("Vannaka", () => {
   it("should be defined", () => {

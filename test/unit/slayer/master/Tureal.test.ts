@@ -4,7 +4,7 @@ import {
   SlayerLevelRequirement,
 } from "../../../../src/model/Requirement";
 import { Task } from "../../../../src/model/slayer/Task";
-import { Turael } from "../../../../src/resources/slayer/Masters";
+import { Turael } from "../../../../src/model/slayer/Masters";
 
 describe("Turael Slayer Master", () => {
   it("should have the correct name", () => {

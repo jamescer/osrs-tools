@@ -4,8 +4,8 @@ import * as path from "path";
 import {
   CombatLevelRequirement,
   QuestRequirement,
-} from "../../../model/Requirement";
-import { Task } from "../../../model/slayer/Task";
+} from "../../Requirement";
+import { Task } from "../Task";
 
 // Path to your JSON file (adjust as necessary)
 const filePath = path.join(__dirname, "../slayerData.json");

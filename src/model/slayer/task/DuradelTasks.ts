@@ -1,8 +1,8 @@
 import {
   CombatLevelRequirement,
   SlayerLevelRequirement,
-} from "../../../model/Requirement";
-import { Task } from "../../../model/slayer/Task";
+} from "../../Requirement";
+import { Task } from "../Task";
 
 export const DuradelTasks = [
   new Task(

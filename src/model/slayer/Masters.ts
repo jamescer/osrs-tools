@@ -1,9 +1,9 @@
-import { SlayerMaster } from "../../model/slayer/SlayerMaster";
-import { DuradelTasks } from "./tasks/DuradelTasks";
-import { NieveTasks } from "./tasks/NieveTasks";
-import { SpriaTasks } from "./tasks/SpriaTasks";
-import { turealTasks } from "./tasks/Tureal";
-import { VannakaTasks } from "./tasks/VannakaTasks";
+import { SlayerMaster } from '../../model/slayer/SlayerMaster';
+import { DuradelTasks } from './task/DuradelTasks';
+import { NieveTasks } from './task/NieveTasks';
+import { SpriaTasks } from './task/SpriaTasks';
+import { turealTasks } from './task/Tureal';
+import { VannakaTasks } from './task/VannakaTasks';
 
 // TODO: Add the rest of the tasks for each master
 // TODO: Add the rest of the masters
@@ -11,11 +11,11 @@ import { VannakaTasks } from "./tasks/VannakaTasks";
 
 // Mazchna: https://oldschool.runescape.wiki/w/Mazchna
 export const Mazchna = new SlayerMaster(
-  "Mazchna",
+  'Mazchna',
   [],
-  "Canifis",
+  'Canifis',
   0,
-  "https://oldschool.runescape.wiki/w/Mazchna",
+  'https://oldschool.runescape.wiki/w/Mazchna',
   {
     1: 2,
     10: 5,
@@ -24,16 +24,16 @@ export const Mazchna = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined,
+  undefined
 );
 
 // Spria: https://oldschool.runescape.wiki/w/Spria
 export const Spria = new SlayerMaster(
-  "Spria",
+  'Spria',
   SpriaTasks,
-  "Draynor Village",
+  'Draynor Village',
   0,
-  "https://oldschool.runescape.wiki/w/Spria",
+  'https://oldschool.runescape.wiki/w/Spria',
   {
     1: 2,
     10: 5,
@@ -42,16 +42,16 @@ export const Spria = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined,
+  undefined
 );
 
 // Tureal: https://oldschool.runescape.wiki/w/Turael
 export const Turael = new SlayerMaster(
-  "Turael",
+  'Turael',
   turealTasks,
-  "Burthope",
+  'Burthope',
   0,
-  "https://oldschool.runescape.wiki/w/Turael",
+  'https://oldschool.runescape.wiki/w/Turael',
   {
     1: 2,
     10: 5,
@@ -60,16 +60,16 @@ export const Turael = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined,
+  undefined
 );
 
 // Vannaka: https://oldschool.runescape.wiki/w/Vannaka
 export const Vannaka = new SlayerMaster(
-  "Vannaka",
+  'Vannaka',
   VannakaTasks,
-  "Edgeville Dungeon",
+  'Edgeville Dungeon',
   0,
-  "https://oldschool.runescape.wiki/w/Vannaka",
+  'https://oldschool.runescape.wiki/w/Vannaka',
   {
     1: 2,
     10: 5,
@@ -78,16 +78,16 @@ export const Vannaka = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined,
+  undefined
 );
 
 // Konar Quo Maten: https://oldschool.runescape.wiki/w/Konar_Quo_Maten
 export const KonarQuoMaten = new SlayerMaster(
-  "Konar Quo Maten",
+  'Konar Quo Maten',
   [],
-  "Mount Karuulm",
+  'Mount Karuulm',
   0,
-  "https://oldschool.runescape.wiki/w/Konar_Quo_Maten",
+  'https://oldschool.runescape.wiki/w/Konar_Quo_Maten',
   {
     1: 2,
     10: 5,
@@ -96,16 +96,16 @@ export const KonarQuoMaten = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined,
+  undefined
 );
 
 // Krystilia: https://oldschool.runescape.wiki/w/Krystilia
 export const Krystilia = new SlayerMaster(
-  "Krystilia",
+  'Krystilia',
   [],
-  "Edgeville",
+  'Edgeville',
   0,
-  "https://oldschool.runescape.wiki/w/Krystilia",
+  'https://oldschool.runescape.wiki/w/Krystilia',
   {
     1: 2,
     10: 5,
@@ -114,16 +114,16 @@ export const Krystilia = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined,
+  undefined
 );
 
 // Nieve: https://oldschool.runescape.wiki/w/Nieve
 export const Nieve = new SlayerMaster(
-  "Nieve",
+  'Nieve',
   NieveTasks,
   "Nieve's Cave",
   0,
-  "https://oldschool.runescape.wiki/w/Nieve",
+  'https://oldschool.runescape.wiki/w/Nieve',
   {
     1: 12,
     10: 60,
@@ -139,16 +139,16 @@ export const Nieve = new SlayerMaster(
     1000: 750,
     250: 525,
     50: 225,
-  },
+  }
 );
 
 // Duradel: https://oldschool.runescape.wiki/w/Duradel
 export const Duradel = new SlayerMaster(
-  "Duradel",
+  'Duradel',
   DuradelTasks,
-  "Shilo Village",
+  'Shilo Village',
   85,
-  "https://oldschool.runescape.wiki/w/Duradel",
+  'https://oldschool.runescape.wiki/w/Duradel',
   {
     1: 15,
     10: 75,
@@ -157,16 +157,16 @@ export const Duradel = new SlayerMaster(
     250: 525,
     50: 225,
   },
-  undefined,
+  undefined
 );
 
 // Chaeldar: https://oldschool.runescape.wiki/w/Chaeldar
 export const Chaeldar = new SlayerMaster(
-  "Chaeldar",
+  'Chaeldar',
   [],
-  "Zanaris",
+  'Zanaris',
   0,
-  "https://oldschool.runescape.wiki/w/Chaeldar",
+  'https://oldschool.runescape.wiki/w/Chaeldar',
   {
     1: 10,
     10: 50,
@@ -175,5 +175,5 @@ export const Chaeldar = new SlayerMaster(
     250: 350,
     50: 150,
   },
-  undefined,
+  undefined
 );

@@ -3,7 +3,15 @@ class SlayerUnlock {
   cost: number;
   description: string;
 
-  constructor({ name, cost, description }: { name: string; cost: number; description: string }) {
+  constructor({
+    cost,
+    description,
+    name,
+  }: {
+    name: string;
+    cost: number;
+    description: string;
+  }) {
     this.name = name;
     this.cost = cost;
     this.description = description;
@@ -15,7 +23,15 @@ class SlayerExtend {
   cost: number;
   notes: string;
 
-  constructor({ name, cost, notes }: { name: string; cost: number; notes: string }) {
+  constructor({
+    cost,
+    name,
+    notes,
+  }: {
+    name: string;
+    cost: number;
+    notes: string;
+  }) {
     this.name = name;
     this.cost = cost;
     this.notes = notes;
@@ -27,13 +43,21 @@ class SlayerBuy {
   priceSoldAt: number;
   notes: string;
 
-  constructor({ item, priceSoldAt, notes }: { item: string; priceSoldAt: number; notes: string }) {
+  constructor({
+    item,
+    notes,
+    priceSoldAt,
+  }: {
+    item: string;
+    priceSoldAt: number;
+    notes: string;
+  }) {
     this.item = item;
     this.priceSoldAt = priceSoldAt;
     this.notes = notes;
   }
 }
 
-class SlayerReward { }
+class SlayerReward {}
 
-export { SlayerUnlock, SlayerReward, SlayerExtend, SlayerBuy };
+export { SlayerBuy, SlayerExtend, SlayerReward, SlayerUnlock };

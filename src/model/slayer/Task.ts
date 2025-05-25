@@ -1,4 +1,4 @@
-import { Requirement } from '../Requirement';
+import { Requirement } from "../Requirement";
 
 /**
  * Represents a Slayer task in the game. This class encapsulates all the properties and methods related to a Slayer task.
@@ -50,7 +50,7 @@ class Task {
     SlayerExp: number = 0,
     locations: string[] = [],
     WildernessLevels: number[] = [],
-    bosses: string[] = []
+    bosses: string[] = [],
   ) {
     this.name = name;
     this.weight = weight;
@@ -81,7 +81,7 @@ class Task {
       json.SlayerExp,
       json.locations,
       json.WildernessLevels,
-      json.bosses
+      json.bosses,
     );
   }
 
@@ -146,12 +146,12 @@ class Task {
    */
   toJSON(): any {
     return {
-      name: this.name,
-      weight: this.weight,
-      amountMin: this.amountMin,
-      amountMax: this.amountMax,
-      unlockRequirements: this.requirements,
       alternatives: this.alternatives,
+      amountMax: this.amountMax,
+      amountMin: this.amountMin,
+      name: this.name,
+      unlockRequirements: this.requirements,
+      weight: this.weight,
     };
   }
 

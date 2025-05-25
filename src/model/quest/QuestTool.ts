@@ -1,5 +1,5 @@
-import { OsrsAccount } from "../account/OsrsAccount";
-import { Quest } from "./Quest";
+import { OsrsAccount } from '../account/OsrsAccount';
+import { Quest } from './Quest';
 
 class QuestTool {
   private questObject: any;
@@ -20,7 +20,7 @@ class QuestTool {
    * @return  {String} The string representation of the class object.
    */
   toString(): string {
-    return "QuestTool :) WIP";
+    return 'QuestTool :) WIP';
   }
 
   /**
@@ -29,7 +29,7 @@ class QuestTool {
    * @return {Object} The data for the input quest in a JSON object.
    * */
   getQuest(questName: string): Quest | undefined {
-    if (typeof questName === "string" && this.questObject[questName]) {
+    if (typeof questName === 'string' && this.questObject[questName]) {
       // return new Quest(this.questObject[questName]); TODO
     }
     return undefined;

@@ -1,4 +1,4 @@
-import { Quest } from "../../../src/model/quest/Quest";
+import { Quest, QuestStatus } from "../../../src/model/quest/Quest";
 
 describe("Quest Interface", () => {
   it("should create a valid Quest object", () => {
@@ -21,9 +21,11 @@ describe("Quest Interface", () => {
       recommendedPrayers: ["None"],
       recommendedSkills: { cooking: 10 },
       rewards: {
-        areas: ["Lumbridge"],
         experience: { cooking: 300 },
+        questPoints: 1,
         items: ["Quest point"],
+        areas: ["Lumbridge"],
+        grants: [],
       },
       series: "None",
       shortName: "cooks_assistant",
@@ -31,8 +33,11 @@ describe("Quest Interface", () => {
         cooking: { isBoostable: true, level: 10 },
       },
       startLocation: "Lumbridge Castle",
-      status: "Not Started",
+      status: QuestStatus.NotStarted,
+      steps: [],
+      description: "Help the cook in Lumbridge Castle to make a cake.",
       url: "http://example.com/cooks_assistant",
+      requirements: []
     };
 
     expect(quest.id).toBe(1);
@@ -40,7 +45,13 @@ describe("Quest Interface", () => {
     expect(quest.difficulty).toBe("Novice");
     expect(quest.skillRequirements.cooking.level).toBe(10);
     expect(quest.skillRequirements.cooking.isBoostable).toBe(true);
-    expect(quest.status).toBe("Not Started");
+    expect(quest.status).toBe(QuestStatus.NotStarted);
+    expect(quest.description).toBe("Help the cook in Lumbridge Castle to make a cake.");
+    expect(quest.steps).toHaveLength(0);
+    expect(quest.requirements).toHaveLength(0);
+    expect(quest.rewards.grants).toHaveLength(0);
+    expect(quest.rewards.experience?.cooking).toBe(300);
+    expect(quest.rewards.questPoints).toBe(1);
     expect(quest.miniquest).toBe(false);
     expect(quest.shortName).toBe("cooks_assistant");
     expect(quest.url).toBe("http://example.com/cooks_assistant");

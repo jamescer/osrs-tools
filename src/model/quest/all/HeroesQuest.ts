@@ -1,0 +1,62 @@
+import { Quest, QuestStatus } from '../Quest';
+import {
+  LevelRequirement,
+  QuestPointRequirement,
+  QuestRequirement,
+  Requirement,
+} from '../../Requirement';
+
+const HeroesQuest: Quest = {
+  id: 0,
+  name: "Heroes' Quest",
+  members: true,
+  difficulty: 'Experienced',
+  length: 'Medium - Long',
+  requirements: [
+    new QuestRequirement('Shield of Arrav'),
+    new QuestRequirement('Lost City'),
+    new QuestRequirement("Merlin's Crystal"),
+    new QuestRequirement('Dragon Slayer'),
+    new QuestRequirement('Druidic Ritual'),
+    new QuestPointRequirement(55),
+  ],
+  questPoints: 1,
+  startLocation: '',
+  description: '',
+  steps: [],
+  status: QuestStatus.NotStarted,
+  miniquest: false,
+  shortName: 'heroesQuest',
+  url: 'https://oldschool.runescape.wiki/w/Heroes%27_Quest',
+  series: 'Guild',
+  age: '',
+  difficultyLevel: 'Experienced',
+  officialDifficulty: 'Experienced',
+  officialLength: 'Medium - Long',
+  officialAge: '',
+  recommendedItems: [],
+  recommendedSkills: {},
+  recommendedPrayers: [],
+  rewards: {
+    experience: {
+      Attack: 3075,
+      Cooking: 2825,
+      Defence: 3075,
+      Firemaking: 1575,
+      Fishing: 2725,
+      Herblore: 1325,
+      Hitpoints: 3075,
+      Mining: 2575,
+      Ranged: 2075,
+      Smithing: 2257,
+      Strength: 3075,
+      Woodcutting: 1575,
+    },
+    questPoints: 1,
+    items: [],
+    areas: [],
+    grants: [],
+  },
+};
+
+export default HeroesQuest;

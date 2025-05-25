@@ -1,7 +1,6 @@
 // Base interface for all types of requirements
 interface Requirement {
   description: string;
-  isMet(): boolean;
 }
 
 // TODO: Add a requirement type for all "levels" (combat, slayer, farming, crafting etc.)
@@ -20,22 +19,18 @@ class LevelRequirement implements Requirement {
   get description(): string {
     return `Level ${this.level}`;
   }
-
-  isMet(): boolean {
-    // Replace with actual logic to check the player's level
-    return false; // TODO
-  }
 }
 
 // Enum for requirement types
 enum RequirementType {
-  SlayerLevel = "SlayerLevel",
-  Level = "Level",
-  CombatLevel = "CombatLevel",
-  Quest = "Quest",
-  Item = "Item",
-  Location = "Location",
-  SlayerUnlock = "SlayerUnlock",
+  SlayerLevel = 'SlayerLevel',
+  Level = 'Level',
+  CombatLevel = 'CombatLevel',
+  Quest = 'Quest',
+  QuestPoint = 'QuestPoint',
+  Item = 'Item',
+  Location = 'Location',
+  SlayerUnlock = 'SlayerUnlock',
 }
 
 // Slayer Unlock requirement
@@ -48,11 +43,6 @@ class SlayerUnlockRequirement implements Requirement {
   }
   get description(): string {
     return `Slayer unlock: ${this.name}`;
-  }
-
-  isMet(): boolean {
-    // Replace with actual logic to check the player's Slayer level
-    return false; // TODO
   }
 }
 
@@ -68,11 +58,6 @@ class SlayerLevelRequirement implements Requirement {
   get description(): string {
     return `Slayer level ${this.level}`;
   }
-
-  isMet(): boolean {
-    // Replace with actual logic to check the player's Slayer level
-    return false; // TODO
-  }
 }
 
 // Combat level requirement
@@ -86,11 +71,6 @@ class CombatLevelRequirement implements Requirement {
 
   get description(): string {
     return `Combat level ${this.level}`;
-  }
-
-  isMet(): boolean {
-    // Replace with actual logic to check the player's Combat level
-    return false; // TODO
   }
 }
 
@@ -106,10 +86,16 @@ class QuestRequirement implements Requirement {
   get description(): string {
     return `Completed quest: ${this.questName}`;
   }
+}
 
-  isMet(): boolean {
-    // Replace with actual logic to check if the quest is completed
-    return false; // TODO
+class QuestPointRequirement implements Requirement {
+  type: RequirementType = RequirementType.Quest;
+  amount: number;
+  constructor(amount: number) {
+    this.amount = amount;
+  }
+  get description(): string {
+    return `Quest Points Needed: ${this.amount}`;
   }
 }
 
@@ -125,11 +111,6 @@ class ItemRequirement implements Requirement {
   get description(): string {
     return `Has item: ${this.itemName}`;
   }
-
-  isMet(): boolean {
-    // Replace with actual logic to check if the player has the item
-    return false; // TODO
-  }
 }
 
 // Location requirement
@@ -144,24 +125,11 @@ class LocationRequirement implements Requirement {
   get description(): string {
     return `Access to location: ${this.locationName}`;
   }
-
-  isMet(): boolean {
-    // Replace with actual logic to check if the player is in the location
-    return false; // TODO
-  }
 }
-
-// Example usage: Array of requirements for a monster
-const monsterRequirements: Requirement[] = [
-  new SlayerLevelRequirement(44),
-  new CombatLevelRequirement(5),
-  new QuestRequirement("Dragon Slayer"),
-  new ItemRequirement("Anti-dragon shield"),
-  new LocationRequirement("Taverley Dungeon"),
-];
 
 export {
   CombatLevelRequirement,
+  QuestPointRequirement,
   ItemRequirement,
   LevelRequirement,
   LocationRequirement,

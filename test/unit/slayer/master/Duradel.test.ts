@@ -1,10 +1,10 @@
 // Test for the Tureal data from the JSON file
-import { Duradel } from '../../../../src/resources/slayer/Masters';
 import {
   Requirement,
   SlayerLevelRequirement,
 } from '../../../../src/model/Requirement';
 import { Task } from '../../../../src/model/slayer/Task';
+import { Duradel } from '../../../../src/model/slayer/Masters';
 
 describe('Duradel Slayer Master', () => {
   it('should have the correct name', () => {

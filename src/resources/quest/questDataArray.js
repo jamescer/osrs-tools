@@ -1,5489 +1,5681 @@
-module.exports = exports = [{
-        "miniquest": false,
-        "name": "A Soul's Bane",
-        "shortName": "aSoulsBane",
-        "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "defence",
-                    "amount": 500
-                },
-                {
-                    "skill": "hitpoints",
-                    "amount": 500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": null
+module.exports = exports = [
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "A Soul's Bane",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "name": "A Tail of Two Cats",
-        "shortName": "aTailOfTwoCats",
-        "url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "Icthlarin's Little Helper"
-            ],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 500,
+          skill: "defence",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 2
+        {
+          amount: 500,
+          skill: "hitpoints",
         },
-        "series": "Dragonkin"
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "name": "A Porcine of Interest",
-        "shortName": "aPorcineOfInterest",
-        "url": "https://oldschool.runescape.wiki/w/A_Porcine_of_Interest",
-        "members": true,
-        "description": "Ah, the Falador Farm - filled with cabbages, cows, and even a sleepy sheepdog. A peaceful place, where you can learn to churn butter, give a dog a bone, or purchase various Farming supplies. What was once a place of happiness, joy and wholesome dairy goods has of late become dominated by a vile presence. Each morning Sarah wakes to find her crops destroyed, her cows cowering, and her loyal sheepdog looking... sheepish. She's had enough, but she thinks she's got the culprit on the trot. Can you help her track down... A Porcine of Interest?",
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    series: null,
+    shortName: "aSoulsBane",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "A Tail of Two Cats",
+    questLength: "Long",
+    requirements: {
+      quests: ["Icthlarin's Little Helper"],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 2,
+    },
+    series: "Dragonkin",
+    shortName: "aTailOfTwoCats",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
+  },
+  {
+    description:
+      "Ah, the Falador Farm - filled with cabbages, cows, and even a sleepy sheepdog. A peaceful place, where you can learn to churn butter, give a dog a bone, or purchase various Farming supplies. What was once a place of happiness, joy and wholesome dairy goods has of late become dominated by a vile presence. Each morning Sarah wakes to find her crops destroyed, her cows cowering, and her loyal sheepdog looking... sheepish. She's had enough, but she thinks she's got the culprit on the trot. Can you help her track down... A Porcine of Interest?",
+    difficulty: "Novice",
+    enemiesToDefeat: ["Sourhog (level 37)"],
+    itemsRecommended: [
+      "Charged amulet of glory",
+      "Explorer's ring 2 or above",
+      "Stamina potion",
+      "Combat equipment",
+      "Some food for lower levels",
+    ],
+    itemsRequired: [
+      "a rope",
+      "A knife or a slash weapon (except abyssal whip, abyssal tentacle, or dragon claws) (obtainable during the quest)",
+    ],
+    members: true,
+    miniquest: false,
+    name: "A Porcine of Interest",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "slayer",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "slayer",
-                "amount": 1000
-            }],
-            "questPoints": 1,
-            "other": [
-                "30 Slayer Rewards Points",
-                "Some Reinforced Goggles"
-            ]
+      ],
+      other: ["30 Slayer Rewards Points", "Some Reinforced Goggles"],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "aPorcineOfInterest",
+    startPoint:
+      "Read the town notice board in Draynor Village, behind Fortunato's Wine Shop.",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/A_Porcine_of_Interest",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "A Taste of Hope",
+    questLength: "Long",
+    requirements: {
+      quests: ["Darkness of Hallowvale"],
+      skills: [
+        {
+          boostable: false,
+          level: 48,
+          skill: "crafting",
         },
-        "itemsRequired": [
-            "a rope",
-            "A knife or a slash weapon (except abyssal whip, abyssal tentacle, or dragon claws) (obtainable during the quest)"
+        {
+          boostable: false,
+          level: 45,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "attack",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "herblore",
+        },
+        {
+          boostable: false,
+          level: 38,
+          skill: "slayer",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 1,
+    },
+    series: "Myreque",
+    shortName: "aTasteOfHope",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Animal Magnetism",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: ["The Restless Ghost", "Ernest the Chicken", "Priest in Peril"],
+      skills: [
+        {
+          boostable: false,
+          level: 18,
+          skill: "slayer",
+        },
+        {
+          boostable: false,
+          level: 19,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "ranged",
+        },
+        {
+          boostable: false,
+          level: 35,
+          skill: "woodcutting",
+        },
+        {
+          boostable: false,
+          level: 31,
+          skill: "prayer",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "crafting",
+        },
+        {
+          amount: 1000,
+          skill: "fletching",
+        },
+        {
+          amount: 1000,
+          skill: "slayer",
+        },
+        {
+          amount: 2500,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "animalMagnetism",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Animal_Magnetism",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Another Slice of H.A.M.",
+    questLength: "Medium",
+    requirements: {
+      quests: [
+        "Death to the Dorgeshuun",
+        "The Giant Dwarf",
+        "The Dig Site",
+        "Druidic Ritual",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 15,
+          skill: "attack",
+        },
+        {
+          boostable: false,
+          level: 25,
+          skill: "prayer",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 3000,
+          skill: "mining",
+        },
+        {
+          amount: 3000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Dorgeshuun (#4)",
+    shortName: "anotherSliceOfHAM",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
+  },
+  {
+    description:
+      "Willow, an energetic archaeologist (perhaps suspiciously so) is hunting for her next big discovery. She believes she has found the entrance to ancient underground ruins found to the west of Ice Mountain. There's a catch though - the entrance is sealed tight and she needs to re-unite her old crew to help her break in. Naturally, she has to stay close to the ruins in order to lay claim to the find, so it falls to you to bring her rag-tag group back together for one last caper and a final big pay-off.Burntof is an old dwarf with a penchant for demolition, Checkal is a well-built lifter of heavy things and Marley is a cunning thief with a knack for disarming traps.Together, they have the talents it will take to gain entry to the secret ruins. But persuading them might not be easy. See, the gang aren't all too keen on working with Willow again, and her intentions might not be as honourable as she claims...",
+    difficulty: "Novice",
+    enemiesToDefeat: ["Ancient Guardian (level 25) (optional)"],
+    itemsRecommended: [
+      "Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild",
+      "Combat equipment to fight a level 82 beast.",
+    ],
+    itemsRequired: [
+      "Cooked meat (can be obtained during quest)",
+      "Bread",
+      "Knife",
+      "3 coins or a beer (can be obtained during quest), alternatives include: Asgarnian ale, a dwarven stout, or a wizard's mind bomb (however the following will not work: asgoldian ale, bandit's brew, chef's delight, cider, gnome cocktails)",
+      "A pickaxe and Mining 10 Mining (if you're a skiller)",
+    ],
+    members: true,
+    miniquest: false,
+    name: "Below Ice Mountain",
+    questLength: "Short",
+    requirements: {
+      quests: [
+        "Death to the Dorgeshuun",
+        "The Giant Dwarf",
+        "The Dig Site",
+        "Druidic Ritual",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 16,
+          skill: "quest",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      miscellaneous: [
+        "2,000 coins",
+        "Access to the Ruins of Camdozaal",
+        "Flex emote",
+        "The ability to make steak sandwich",
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "belowIceMountain",
+    startPoint: "Willow on the path south of Ice Mountain",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Between a Rock...",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: ["Dwarf Cannon", "Fishing Contest"],
+      skills: [
+        {
+          boostable: false,
+          level: 30,
+          skill: "defence",
+        },
+        {
+          boostable: true,
+          level: 40,
+          skill: "mining",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "smithing",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "defence",
+        },
+        {
+          amount: 5000,
+          skill: "mining",
+        },
+        {
+          amount: 5000,
+          skill: "smithing",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Rise of the Red Axe",
+    shortName: "betweenARock",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Between_a_Rock...",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Big Chompy Bird Hunting",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 5,
+          skill: "fletching",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "cooking",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "ranged",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1470,
+          skill: "cooking",
+        },
+        {
+          amount: 262,
+          skill: "fletching",
+        },
+        {
+          amount: 735,
+          skill: "ranged",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Ogre",
+    shortName: "bigChompyBirdHunting",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Biohazard",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1250,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 3,
+    },
+    series: "Elf",
+    shortName: "biohazard",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Biohazard",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Black Knights' Fortress",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 12,
+          skill: "quest",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 3,
+    },
+    series: null,
+    shortName: "blackKnightsFortress",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Bone Voyage",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: ["The Dig Site"],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "boneVoyage",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Bone_Voyage",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Cabin Fever",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Pirate's Treasure", "Rum Deal", "Priest in Peril"],
+      skills: [
+        {
+          boostable: false,
+          level: 42,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 45,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "smithing",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "ranged",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 7000,
+          skill: "agility",
+        },
+        {
+          amount: 7000,
+          skill: "crafting",
+        },
+        {
+          amount: 7000,
+          skill: "smithing",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Pirate",
+    shortName: "cabinFever",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Cabin_Fever",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Client of Kourend",
+    questLength: "Medium (15-20 minutes)",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 1,
+    },
+    series: "Great Kourend",
+    shortName: "clientOfKourend",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Client_of_Kourend",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Clock Tower",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "clockTower",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Clock_Tower",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Cold War",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 10,
+          skill: "hunter",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 34,
+          skill: "construction",
+        },
+        {
+          boostable: false,
+          level: 15,
+          skill: "thieving",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "agility",
+        },
+        {
+          amount: 1500,
+          skill: "construction",
+        },
+        {
+          amount: 2000,
+          skill: "crafting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Penguin",
+    shortName: "coldWar",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Cold_War",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Contact!",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Prince Ali Rescue", "Icthlarin's Little Helper"],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 7000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Desert",
+    shortName: "contact",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Contact!",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Cook's Assistant",
+    questLength: "Short (<5 minutes)",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 300,
+          skill: "cooking",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "cooksAssistant",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Creature of Fenkenstrain",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Priest in Peril", "The Restless Ghost"],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 25,
+          skill: "thieving",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: null,
+    shortName: "creatureOfFenkenstrain",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Darkness of Hallowvale",
+    questLength: "Very long",
+    requirements: {
+      quests: ["In Aid of the Myreque"],
+      skills: [
+        {
+          boostable: false,
+          level: 5,
+          skill: "construction",
+        },
+        {
+          boostable: true,
+          level: 20,
+          skill: "mining",
+        },
+        {
+          boostable: false,
+          level: 22,
+          skill: "thieving",
+        },
+        {
+          boostable: false,
+          level: 26,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 32,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 33,
+          skill: "magic",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "strength",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 7000,
+          skill: "agility",
+        },
+        {
+          amount: 2000,
+          skill: "construction",
+        },
+        {
+          amount: 6000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Myreque",
+    shortName: "darknessOfHallowvale",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Death Plateau",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 3000,
+          skill: "attack",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Troll",
+    shortName: "deathPlateau",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Death_Plateau",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Death to the Dorgeshuun",
+    questLength: "Medium",
+    requirements: {
+      quests: ["The Lost Tribe"],
+      skills: [
+        {
+          boostable: false,
+          level: 23,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 23,
+          skill: "thieving",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "ranged",
+        },
+        {
+          amount: 2000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Dorgeshuun",
+    shortName: "deathToTheDorgeshuun",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Demon Slayer",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 3,
+    },
+    series: null,
+    shortName: "demonSlayer",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Demon_Slayer",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Desert Treasure",
+    questLength: "Very long",
+    requirements: {
+      quests: [
+        "The Dig Site",
+        "Temple of Ikov",
+        "The Tourist Trap",
+        "Troll Stronghold",
+        "Priest in Peril",
+        "Waterfall Quest",
+      ],
+      skills: [
+        {
+          boostable: true,
+          level: 53,
+          skill: "thieving",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "firemaking",
+        },
+        {
+          boostable: false,
+          level: 10,
+          skill: "slayer",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "magic",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 20000,
+          skill: "magic",
+        },
+      ],
+      questPoints: 3,
+    },
+    series: "The Return of Zaros and Mahjarrat",
+    shortName: "desertTreasure",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Desert_Treasure",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Devious Minds",
+    questLength: "Short",
+    requirements: {
+      quests: [
+        "Wanted!",
+        "Troll Stronghold",
+        "Doric's Quest",
+        "Enter the Abyss",
+      ],
+      skills: [
+        {
+          boostable: true,
+          level: 65,
+          skill: "smithing",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "runecraft",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "fletching",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "fletching",
+        },
+        {
+          amount: 5000,
+          skill: "runecraft",
+        },
+        {
+          amount: 6500,
+          skill: "smithing",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "The Return of Zaros",
+    shortName: "deviousMinds",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Devious_Minds",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Doric's Quest",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 15,
+          skill: "mining",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1300,
+          skill: "mining",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "doricsQuest",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
+  },
+  {
+    difficulty: "Experienced",
+    members: false,
+    miniquest: false,
+    name: "Dragon Slayer",
+    questLength: "Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 32,
+          skill: "quest",
+        },
+        {
+          boostable: false,
+          level: 8,
+          skill: "crafting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 18650,
+          skill: "defence",
+        },
+        {
+          amount: 18650,
+          skill: "strength",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Guild",
+    shortName: "dragonSlayer",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Dragon_Slayer",
+  },
+  {
+    difficulty: "Grandmaster",
+    members: true,
+    miniquest: false,
+    name: "Dragon Slayer II",
+    questLength: "Very long",
+    requirements: {
+      quests: [
+        "Legends' Quest",
+        "Dream Mentor",
+        "A Tail of Two Cats",
+        "Animal Magnetism",
+        "Ghosts Ahoy",
+        "Bone Voyage",
+        "Client of Kourend",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 200,
+          skill: "quest",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 15000,
+          skill: "agility",
+        },
+        {
+          amount: 18000,
+          skill: "mining",
+        },
+        {
+          amount: 25000,
+          skill: "smithing",
+        },
+        {
+          amount: 15000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 5,
+    },
+    series: "Dragonkin",
+    shortName: "dragonSlayerII",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Dream Mentor",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: ["Lunar Diplomacy", "Eadgar's Ruse"],
+      skills: [
+        {
+          boostable: false,
+          level: 85,
+          skill: "combat",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 15000,
+          skill: "hitpoints",
+        },
+        {
+          amount: 10000,
+          skill: "magic",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Fremennik",
+    shortName: "dreamMentor",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Dream_Mentor",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Druidic Ritual",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 250,
+          skill: "herblore",
+        },
+      ],
+      questPoints: 4,
+    },
+    series: null,
+    shortName: "druidicRitual",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Druidic_Ritual",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Dwarf Cannon",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 750,
+          skill: "crafting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "dwarfCannon",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Eadgar's Ruse",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: ["Druidic Ritual", "Troll Stronghold"],
+      skills: [
+        {
+          boostable: true,
+          level: 31,
+          skill: "herblore",
+        },
+        {
+          boostable: false,
+          level: 44,
+          skill: "agility",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 11000,
+          skill: "herblore",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Troll",
+    shortName: "eadgarsRuse",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Eagles' Peak",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 27,
+          skill: "hunter",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2500,
+          skill: "hunter",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: null,
+    shortName: "eaglesPeak",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Elemental Workshop I",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "mining",
+        },
+        {
+          boostable: false,
+          level: 20,
+          skill: "smithing",
+        },
+        {
+          boostable: false,
+          level: 20,
+          skill: "crafting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "crafting",
+        },
+        {
+          amount: 5000,
+          skill: "smithing",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Elemental Workshop",
+    shortName: "elementalWorkshopI",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Elemental Workshop II",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "magic",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "smithing",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 7500,
+          skill: "crafting",
+        },
+        {
+          amount: 7500,
+          skill: "smithing",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Elemental Workshop (#2)",
+    shortName: "elementalWorkshopII",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Enakhra's Lament",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 50,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 45,
+          skill: "firemaking",
+        },
+        {
+          boostable: false,
+          level: 43,
+          skill: "prayer",
+        },
+        {
+          boostable: false,
+          level: 39,
+          skill: "magic",
+        },
+        {
+          boostable: false,
+          level: 45,
+          skill: "mining",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 7000,
+          skill: "crafting",
+        },
+        {
+          amount: 7000,
+          skill: "firemaking",
+        },
+        {
+          amount: 7000,
+          skill: "magic",
+        },
+        {
+          amount: 7000,
+          skill: "mining",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Mahjarrat",
+    shortName: "enakhrasLament",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Enlightened Journey",
+    questLength: "Short - Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "quest",
+        },
+        {
+          boostable: false,
+          level: 20,
+          skill: "firemaking",
+        },
+        {
+          boostable: true,
+          level: 30,
+          skill: "farming",
+        },
+        {
+          boostable: false,
+          level: 36,
+          skill: "crafting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "crafting",
+        },
+        {
+          amount: 3000,
+          skill: "farming",
+        },
+        {
+          amount: 4000,
+          skill: "firemaking",
+        },
+        {
+          amount: 1500,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "enlightenedJourney",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Enlightened_Journey",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: true,
+    name: "Enter the Abyss",
+    questLength: "Short \u00e2\u20ac\u201c Long",
+    requirements: {
+      quests: ["Rune Mysteries"],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 0,
+    },
+    series: null,
+    shortName: "enterTheAbyss",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Enter_the_Abyss",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Ernest the Chicken",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 4,
+    },
+    series: null,
+    shortName: "ernestTheChicken",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Fairytale I - Growing Pains",
+    questLength: "Long",
+    requirements: {
+      quests: ["Lost City", "Nature Spirit"],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "attack",
+        },
+        {
+          amount: 3500,
+          skill: "farming",
+        },
+        {
+          amount: 1000,
+          skill: "magic",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Fairy Tale (#2)",
+    shortName: "fairytaleIGrowingPains",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Fairytale II - Cure a Queen",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: ["Fairytale I - Growing Pains"],
+      skills: [
+        {
+          boostable: true,
+          level: 40,
+          skill: "thieving",
+        },
+        {
+          boostable: true,
+          level: 49,
+          skill: "farming",
+        },
+        {
+          boostable: true,
+          level: 57,
+          skill: "herblore",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 3500,
+          skill: "herblore",
+        },
+        {
+          amount: 2500,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Fairy Tale (#2)",
+    shortName: "fairytaleIICureAQueen",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Family Crest",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 40,
+          skill: "mining",
+        },
+        {
+          boostable: true,
+          level: 40,
+          skill: "smithing",
+        },
+        {
+          boostable: true,
+          level: 59,
+          skill: "magic",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "crafting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "familyCrest",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Family_Crest",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Fight Arena",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 12175,
+          skill: "attack",
+        },
+        {
+          amount: 2175,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Mahjarrat",
+    shortName: "fightArena",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Fight_Arena",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Fishing Contest",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 10,
+          skill: "fishing",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2437,
+          skill: "fishing",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Dwarf",
+    shortName: "fishingContest",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Fishing_Contest",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Forgettable Tale...",
+    questLength: "Long",
+    requirements: {
+      quests: ["The Giant Dwarf", "Fishing Contest"],
+      skills: [
+        {
+          boostable: false,
+          level: 22,
+          skill: "cooking",
+        },
+        {
+          boostable: false,
+          level: 17,
+          skill: "farming",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "cooking",
+        },
+        {
+          amount: 5000,
+          skill: "farming",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Rise of the Red Axe",
+    shortName: "forgettableTale",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Garden of Tranquillity",
+    questLength: "Very long",
+    requirements: {
+      quests: ["Creature of Fenkenstrain"],
+      skills: [
+        {
+          boostable: false,
+          level: 25,
+          skill: "farming",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "farming",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: null,
+    shortName: "gardenOfTranquillity",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Gertrude's Cat",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1525,
+          skill: "cooking",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "gertrudesCat",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
+  },
+  {
+    difficulty: "Intermediate",
+    enemiesToDefeat: ["Headless Beast (level-82)"],
+    itemsRecommended: [
+      "Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild",
+      "Combat equipment to fight a level 82 beast.",
+    ],
+    itemsRequired: [
+      "Bear fur or grey wolf fur (a grizzly bear and cub spawn west of the farm)",
+      "Soft clay or a pickaxe you can use (clay rocks are found in the Kebos Lowlands mine, Gordon's house has a water source and a bucket spawn)(there is a bronze pick spawn at the mine in a rock)",
+      "Hammer (obtainable near the cattle gate)",
+      "Saw (obtainable in the shed north of the house)",
+      "2 Planks (obtainable near the cave entrance)",
+      "At least 6 Nails of any kind (iron nails can be found in the workbench north of the house)",
+      "Knife (obtainable on the kitchen table in the house)",
+      "Red dye (obtainable from the shelves in the house)",
+      "Pot of flour (obtainable upstairs in the house)",
+      "Needle (obtainable upstairs in the house)",
+      "Thread (obtainable upstairs in the house)",
+    ],
+    members: true,
+    miniquest: false,
+    name: "Getting Ahead",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 30,
+          skill: "crafting",
+        },
+        {
+          boostable: true,
+          level: 26,
+          skill: "construction",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 4000,
+          skill: "crafting",
+        },
+        {
+          amount: 3200,
+          skill: "construction",
+        },
+      ],
+      other: [
+        "3000 coins",
+        "Access to a tannery in the Kebos Lowlands (speak to Mary to access tanning services)",
+      ],
+      questPoints: 1,
+    },
+    series: "Twisted Tales",
+    shortName: "gettingAhead",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Getting_Ahead",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Ghosts Ahoy",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2400,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: null,
+    shortName: "ghostsAhoy",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Goblin Diplomacy",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 200,
+          skill: "crafting",
+        },
+      ],
+      questPoints: 5,
+    },
+    series: null,
+    shortName: "goblinDiplomacy",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Grim Tales",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 45,
+          skill: "farming",
+        },
+        {
+          boostable: true,
+          level: 52,
+          skill: "herblore",
+        },
+        {
+          boostable: true,
+          level: 58,
+          skill: "thieving",
+        },
+        {
+          boostable: true,
+          level: 59,
+          skill: "agility",
+        },
+        {
+          boostable: true,
+          level: 71,
+          skill: "woodcutting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 6000,
+          skill: "agility",
+        },
+        {
+          amount: 4000,
+          skill: "farming",
+        },
+        {
+          amount: 5000,
+          skill: "herblore",
+        },
+        {
+          amount: 5000,
+          skill: "hitpoints",
+        },
+        {
+          amount: 6000,
+          skill: "thieving",
+        },
+        {
+          amount: 14000,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "grimTales",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Grim_Tales",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Haunted Mine",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 15,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 35,
+          skill: "crafting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 22000,
+          skill: "strength",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: null,
+    shortName: "hauntedMine",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Haunted_Mine",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Hazeel Cult",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1500,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Mahjarrat",
+    shortName: "hazeelCult",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Hazeel_Cult",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Heroes' Quest",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [
+        "Shield of Arrav",
+        "Lost City",
+        "Merlin's Crystal",
+        "Dragon Slayer",
+        "Druidic Ritual",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 55,
+          skill: "quest",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 3075,
+          skill: "attack",
+        },
+        {
+          amount: 2825,
+          skill: "cooking",
+        },
+        {
+          amount: 3075,
+          skill: "defence",
+        },
+        {
+          amount: 1575,
+          skill: "firemaking",
+        },
+        {
+          amount: 2725,
+          skill: "fishing",
+        },
+        {
+          amount: 1325,
+          skill: "herblore",
+        },
+        {
+          amount: 3075,
+          skill: "hitpoints",
+        },
+        {
+          amount: 2575,
+          skill: "mining",
+        },
+        {
+          amount: 2075,
+          skill: "ranged",
+        },
+        {
+          amount: 2257,
+          skill: "smithing",
+        },
+        {
+          amount: 3075,
+          skill: "strength",
+        },
+        {
+          amount: 1575,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Guild",
+    shortName: "heroesQuest",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Holy Grail",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "attack",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 15300,
+          skill: "defence",
+        },
+        {
+          amount: 11000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Camelot (#2)",
+    shortName: "holyGrail",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Holy_Grail",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Horror from the Deep",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 35,
+          skill: "agility",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 4662,
+          skill: "magic",
+        },
+        {
+          amount: 4662.5,
+          skill: "ranged",
+        },
+        {
+          amount: 4662.5,
+          skill: "strength",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Fremennik",
+    shortName: "horrorFromTheDeep",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Icthlarin's Little Helper",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 4000,
+          skill: "agility",
+        },
+        {
+          amount: 4500,
+          skill: "thieving",
+        },
+        {
+          amount: 4000,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Desert",
+    shortName: "icthlarinsLittleHelper",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Imp Catcher",
+    questLength: "Short (<5-15 minutes)",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 875,
+          skill: "magic",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "impCatcher",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Imp_Catcher",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "In Aid of the Myreque",
+    questLength: "Long",
+    requirements: {
+      quests: ["In Search of the Myreque"],
+      skills: [
+        {
+          boostable: false,
+          level: 25,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 15,
+          skill: "mining",
+        },
+        {
+          boostable: false,
+          level: 7,
+          skill: "magic",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "attack",
+        },
+        {
+          amount: 2000,
+          skill: "crafting",
+        },
+        {
+          amount: 2000,
+          skill: "defence",
+        },
+        {
+          amount: 2000,
+          skill: "strength",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Myreque",
+    shortName: "inAidOfTheMyreque",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "In Search of the Myreque",
+    questLength: "Short",
+    requirements: {
+      quests: ["Nature Spirit"],
+      skills: [
+        {
+          boostable: false,
+          level: 25,
+          skill: "agility",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 600,
+          skill: "attack",
+        },
+        {
+          amount: 600,
+          skill: "crafting",
+        },
+        {
+          amount: 600,
+          skill: "defence",
+        },
+        {
+          amount: 600,
+          skill: "hitpoints",
+        },
+        {
+          amount: 600,
+          skill: "strength",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Myreque",
+    shortName: "inSearchOfTheMyreque",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Jungle Potion",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 3,
+          skill: "herblore",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 775,
+          skill: "herblore",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Karamja",
+    shortName: "junglePotion",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Jungle_Potion",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "King's Ransom",
+    questLength: "Medium",
+    requirements: {
+      quests: [
+        "Black Knights' Fortress",
+        "Holy Grail",
+        "Murder Mystery",
+        "One Small Favour",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 45,
+          skill: "magic",
+        },
+        {
+          boostable: true,
+          level: 65,
+          skill: "defence",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 33000,
+          skill: "defence",
+        },
+        {
+          amount: 5000,
+          skill: "magic",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Camelot (#3)",
+    shortName: "kingsRansom",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/King%27s_Ransom",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Legends' Quest",
+    questLength: "Very long",
+    requirements: {
+      quests: [
+        "Family Crest",
+        "Heroes' Quest",
+        "Shilo Village",
+        "Underground Pass",
+        "Waterfall Quest",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 107,
+          skill: "quest",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "crafting",
+        },
+        {
+          boostable: true,
+          level: 45,
+          skill: "herblore",
+        },
+        {
+          boostable: false,
+          level: 56,
+          skill: "magic",
+        },
+        {
+          boostable: true,
+          level: 52,
+          skill: "mining",
+        },
+        {
+          boostable: true,
+          level: 42,
+          skill: "prayer",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "smithing",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "strength",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "thieving",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "woodcutting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 4,
+    },
+    series: "Karamja, Guild",
+    shortName: "legendsQuest",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Legends%27_Quest",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Lost City",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 31,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 36,
+          skill: "woodcutting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 3,
+    },
+    series: "Fairy Tale",
+    shortName: "lostCity",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Lost_City",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Lunar Diplomacy",
+    questLength: "Long",
+    requirements: {
+      quests: [
+        "The Fremennik Trials",
+        "Lost City",
+        "Rune Mysteries",
+        "Shilo Village",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 61,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "defence",
+        },
+        {
+          boostable: false,
+          level: 49,
+          skill: "firemaking",
+        },
+        {
+          boostable: false,
+          level: 65,
+          skill: "magic",
+        },
+        {
+          boostable: false,
+          level: 60,
+          skill: "mining",
+        },
+        {
+          boostable: false,
+          level: 55,
+          skill: "woodcutting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "magic",
+        },
+        {
+          amount: 5000,
+          skill: "runecraft",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Fremennik",
+    shortName: "lunarDiplomacy",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Making Friends with My Arm",
+    questLength: "Medium",
+    requirements: {
+      quests: [
+        "My Arm's Big Adventure",
+        "Swan Song",
+        "Cold War",
+        "Romeo & Juliet",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 66,
+          skill: "firemaking",
+        },
+        {
+          boostable: false,
+          level: 72,
+          skill: "mining",
+        },
+        {
+          boostable: false,
+          level: 35,
+          skill: "construction",
+        },
+        {
+          boostable: false,
+          level: 68,
+          skill: "agility",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 10000,
+          skill: "agility",
+        },
+        {
+          amount: 2000,
+          skill: "construction",
+        },
+        {
+          amount: 5000,
+          skill: "firemaking",
+        },
+        {
+          amount: 10000,
+          skill: "mining",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Troll",
+    shortName: "makingFriendsWithMyArm",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Making History",
+    questLength: "Short - Long",
+    requirements: {
+      quests: ["Priest in Peril", "The Restless Ghost"],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "crafting",
+        },
+        {
+          amount: 1000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 3,
+    },
+    series: "Enchanted Key",
+    shortName: "makingHistory",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Making_History",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Merlin's Crystal",
+    questLength: "Medium-Long (Under 10 minutes with teleports)",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 6,
+    },
+    series: "Camelot",
+    shortName: "merlinsCrystal",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Misthalin Mystery",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 600,
+          skill: "crafting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "misthalinMystery",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Monk's Friend",
+    questLength: "Very Short (5 minutes)",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "monksFriend",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Monkey Madness I",
+    questLength: "Long",
+    requirements: {
+      quests: ["The Grand Tree", "Tree Gnome Village"],
+      skills: [
+        {
+          boostable: false,
+          level: 43,
+          skill: "prayer",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 3,
+    },
+    series: "Gnome, Monkey",
+    shortName: "monkeyMadnessI",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
+  },
+  {
+    difficulty: "Grandmaster",
+    members: true,
+    miniquest: false,
+    name: "Monkey Madness II",
+    questLength: "Very long",
+    requirements: {
+      quests: [
+        "Enlightened Journey",
+        "The Eyes of Glouphrie",
+        "Recipe for Disaster",
+        "Troll Stronghold",
+        "Watchtower",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 69,
+          skill: "slayer",
+        },
+        {
+          boostable: false,
+          level: 70,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 60,
+          skill: "hunter",
+        },
+        {
+          boostable: false,
+          level: 55,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 55,
+          skill: "thieving",
+        },
+        {
+          boostable: false,
+          level: 60,
+          skill: "firemaking",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 20000,
+          skill: "agility",
+        },
+        {
+          amount: 15000,
+          skill: "hunter",
+        },
+        {
+          amount: 25000,
+          skill: "slayer",
+        },
+        {
+          amount: 15000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 4,
+    },
+    series: "Gnome, Monkey",
+    shortName: "monkeyMadnessII",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Mountain Daughter",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "agility",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "attack",
+        },
+        {
+          amount: 2000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Fremennik",
+    shortName: "mountainDaughter",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Mountain_Daughter",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Mourning's End Part I",
+    questLength: "Short",
+    requirements: {
+      quests: ["Roving Elves", "Big Chompy Bird Hunting", "Sheep Herder"],
+      skills: [
+        {
+          boostable: true,
+          level: 60,
+          skill: "ranged",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "thieving",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 25000,
+          skill: "hitpoints",
+        },
+        {
+          amount: 25000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Elf",
+    shortName: "mourningsEndPartI",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_I",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Mourning's End Part II",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 43,
+          skill: "prayer",
+        },
+        {
+          boostable: false,
+          level: 60,
+          skill: "agility",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 20000,
+          skill: "agility",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Elf",
+    shortName: "mourningsEndPartII",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_II",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Murder Mystery",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1406,
+          skill: "crafting",
+        },
+      ],
+      questPoints: 3,
+    },
+    series: "Camelot",
+    shortName: "murderMystery",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Murder_Mystery",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "My Arm's Big Adventure",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Eadgar's Ruse", "The Feud", "Jungle Potion"],
+      skills: [
+        {
+          boostable: false,
+          level: 10,
+          skill: "woodcutting",
+        },
+        {
+          boostable: true,
+          level: 29,
+          skill: "farming",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "farming",
+        },
+        {
+          amount: 10000,
+          skill: "herblore",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Troll",
+    shortName: "myArmsBigAdventure",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Nature Spirit",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Priest in Peril", "The Restless Ghost"],
+      skills: [
+        {
+          boostable: false,
+          level: 18,
+          skill: "crafting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 3000,
+          skill: "crafting",
+        },
+        {
+          amount: 2000,
+          skill: "defence",
+        },
+        {
+          amount: 2000,
+          skill: "hitpoints",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Myreque",
+    shortName: "natureSpirit",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Nature_Spirit",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Observatory Quest",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 10,
+          skill: "crafting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2250,
+          skill: "crafting",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: null,
+    shortName: "observatoryQuest",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Observatory_Quest",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Olaf's Quest",
+    questLength: "Short - Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 40,
+          skill: "firemaking",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "woodcutting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 12000,
+          skill: "defence",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Fremennik",
+    shortName: "olafsQuest",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "One Small Favour",
+    questLength: "Very long",
+    requirements: {
+      quests: ["Rune Mysteries", "Shilo Village"],
+      skills: [
+        {
+          boostable: true,
+          level: 36,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 25,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 18,
+          skill: "herblore",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "smithing",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 2,
+    },
+    series: "Karamja",
+    shortName: "oneSmallFavour",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/One_Small_Favour",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Pirate's Treasure",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 2,
+    },
+    series: "Pirate",
+    shortName: "piratesTreasure",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Plague City",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2425,
+          skill: "mining",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Elf",
+    shortName: "plagueCity",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Plague_City",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Priest in Peril",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1406,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Myreque",
+    shortName: "priestInPeril",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Priest_in_Peril",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Prince Ali Rescue",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 3,
+    },
+    series: null,
+    shortName: "princeAliRescue",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Rag and Bone Man",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 500,
+          skill: "cooking",
+        },
+        {
+          amount: 500,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "ragAndBoneManI",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Rag and Bone Man II",
+    questLength: "Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 40,
+          skill: "slayer",
+        },
+        {
+          boostable: false,
+          level: 20,
+          skill: "defence",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "ragAndBoneManII",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Ratcatchers",
+    questLength: "Long - Very long",
+    requirements: {
+      quests: ["Icthlarin's Little Helper"],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 4500,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: null,
+    shortName: "ratcatchers",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Ratcatchers",
+  },
+  {
+    difficulty: "Special",
+    members: true,
+    miniquest: false,
+    name: "Recipe for Disaster",
+    questLength: "Very long",
+    requirements: {
+      quests: [
+        "Cook's Assistant",
+        "Fishing Contest",
+        "Goblin Diplomacy",
+        "Big Chompy Bird Hunting",
+        "Murder Mystery",
+        "Nature Spirit",
+        "Witch's House",
+        "Gertrude's Cat",
+        "Shadow of the Storm",
+        "Legends' Quest",
+        "Monkey Madness I",
+        "Desert Treasure",
+        "Horror from the Deep",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 175,
+          skill: "quest",
+        },
+        {
+          boostable: true,
+          level: 70,
+          skill: "cooking",
+        },
+        {
+          boostable: false,
+          level: 48,
+          skill: "agility",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "mining",
+        },
+        {
+          boostable: true,
+          level: 53,
+          skill: "fishing",
+        },
+        {
+          boostable: false,
+          level: 53,
+          skill: "thieving",
+        },
+        {
+          boostable: true,
+          level: 25,
+          skill: "herblore",
+        },
+        {
+          boostable: true,
+          level: 59,
+          skill: "magic",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "smithing",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "firemaking",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "ranged",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 10,
+          skill: "fletching",
+        },
+        {
+          boostable: false,
+          level: 10,
+          skill: "slayer",
+        },
+        {
+          boostable: false,
+          level: 36,
+          skill: "woodcutting",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 10,
+    },
+    series: null,
+    shortName: "recipeForDisaster",
+    subquests: [
+      {
+        difficulty: "Special",
+        itemsRequired: [
+          "A raw cod",
+          "A pestle and mortar",
+          "Bread",
+          "A knife",
+          "A fishbowl (empty)",
+          "A needle",
+          "3 bronze wire",
         ],
-        "startPoint": "Read the town notice board in Draynor Village, behind Fortunato's Wine Shop.",
-        "itemsRecommended": [
-            "Charged amulet of glory",
-            "Explorer's ring 2 or above",
-            "Stamina potion",
-            "Combat equipment",
-            "Some food for lower levels"
-        ],
-        "enemiesToDefeat": [
-            "Sourhog (level 37)"
-        ],
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "A Taste of Hope",
-        "shortName": "aTasteOfHope",
-        "url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "Darkness of Hallowvale"
-            ],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 48,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 45,
-                    "boostable": false
-                },
-                {
-                    "skill": "attack",
-                    "level": 40,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 40,
-                    "boostable": false
-                },
-                {
-                    "skill": "slayer",
-                    "level": 38,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
-        },
-        "series": "Myreque"
-    },
-    {
-        "miniquest": false,
-        "name": "Animal Magnetism",
-        "shortName": "animalMagnetism",
-        "url": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [
-                "The Restless Ghost",
-                "Ernest the Chicken",
-                "Priest in Peril"
-            ],
-            "skills": [{
-                    "skill": "slayer",
-                    "level": 18,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 19,
-                    "boostable": false
-                },
-                {
-                    "skill": "ranged",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "woodcutting",
-                    "level": 35,
-                    "boostable": false
-                },
-                {
-                    "skill": "prayer",
-                    "level": 31,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 1000
-                },
-                {
-                    "skill": "fletching",
-                    "amount": 1000
-                },
-                {
-                    "skill": "slayer",
-                    "amount": 1000
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 2500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Another Slice of H.A.M.",
-        "shortName": "anotherSliceOfHAM",
-        "url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Death to the Dorgeshuun",
-                "The Giant Dwarf",
-                "The Dig Site",
-                "Druidic Ritual"
-            ],
-            "skills": [{
-                    "skill": "attack",
-                    "level": 15,
-                    "boostable": false
-                },
-                {
-                    "skill": "prayer",
-                    "level": 25,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "mining",
-                    "amount": 3000
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 3000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Dorgeshuun (#4)"
-    },
-    {
-        "miniquest": false,
-        "name": "Below Ice Mountain",
-        "shortName": "belowIceMountain",
-        "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
-        "members": true,
-        "startPoint": "Willow on the path south of Ice Mountain",
-        "difficulty": "Novice",
-        "description": "Willow, an energetic archaeologist (perhaps suspiciously so) is hunting for her next big discovery. She believes she has found the entrance to ancient underground ruins found to the west of Ice Mountain. There's a catch though - the entrance is sealed tight and she needs to re-unite her old crew to help her break in. Naturally, she has to stay close to the ruins in order to lay claim to the find, so it falls to you to bring her rag-tag group back together for one last caper and a final big pay-off.Burntof is an old dwarf with a penchant for demolition, Checkal is a well-built lifter of heavy things and Marley is a cunning thief with a knack for disarming traps.Together, they have the talents it will take to gain entry to the secret ruins. But persuading them might not be easy. See, the gang aren't all too keen on working with Willow again, and her intentions might not be as honourable as she claims...",
-        "subquests": [],
-        "questLength": "Short",
-        "itemsRecommended": [
-            "Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild",
-            "Combat equipment to fight a level 82 beast."
-        ],
-        "enemiesToDefeat": [
-            "Ancient Guardian (level 25) (optional)"
-        ],
-        "itemsRequired": [
-            "Cooked meat (can be obtained during quest)",
-            "Bread",
-            "Knife",
-            "3 coins or a beer (can be obtained during quest), alternatives include: Asgarnian ale, a dwarven stout, or a wizard's mind bomb (however the following will not work: asgoldian ale, bandit's brew, chef's delight, cider, gnome cocktails)", "A pickaxe and Mining 10 Mining (if you're a skiller)"
-        ],
-        "requirements": {
-            "quests": [
-                "Death to the Dorgeshuun",
-                "The Giant Dwarf",
-                "The Dig Site",
-                "Druidic Ritual"
-            ],
-            "skills": [{
-                "skill": "quest",
-                "level": 16,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [
-
-            ],
-            "miscellaneous": ["2,000 coins",
-                "Access to the Ruins of Camdozaal",
-                "Flex emote",
-                "The ability to make steak sandwich"
-            ],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Between a Rock...",
-        "shortName": "betweenARock",
-        "url": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [
-                "Dwarf Cannon",
-                "Fishing Contest"
-            ],
-            "skills": [{
-                    "skill": "defence",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 40,
-                    "boostable": true
-                },
-                {
-                    "skill": "smithing",
-                    "level": 50,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "defence",
-                    "amount": 5000
-                },
-                {
-                    "skill": "mining",
-                    "amount": 5000
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 5000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Rise of the Red Axe"
-    },
-    {
-        "miniquest": false,
-        "name": "Big Chompy Bird Hunting",
-        "shortName": "bigChompyBirdHunting",
-        "url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "fletching",
-                    "level": 5,
-                    "boostable": false
-                },
-                {
-                    "skill": "cooking",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "ranged",
-                    "level": 30,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "cooking",
-                    "amount": 1470
-                },
-                {
-                    "skill": "fletching",
-                    "amount": 262
-                },
-                {
-                    "skill": "ranged",
-                    "amount": 735
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Ogre"
-    },
-    {
-        "miniquest": false,
-        "name": "Biohazard",
-        "shortName": "biohazard",
-        "url": "https://oldschool.runescape.wiki/w/Biohazard",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "thieving",
-                "amount": 1250
-            }],
-            "questPoints": 3
-        },
-        "series": "Elf"
-    },
-    {
-        "miniquest": false,
-        "name": "Black Knights' Fortress",
-        "shortName": "blackKnightsFortress",
-        "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 12,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 3
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Bone Voyage",
-        "shortName": "boneVoyage",
-        "url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [
-                "The Dig Site"
-            ],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Cabin Fever",
-        "shortName": "cabinFever",
-        "url": "https://oldschool.runescape.wiki/w/Cabin_Fever",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Pirate's Treasure",
-                "Rum Deal",
-                "Priest in Peril"
-            ],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 42,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 45,
-                    "boostable": false
-                },
-                {
-                    "skill": "smithing",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "ranged",
-                    "level": 40,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 7000
-                },
-                {
-                    "skill": "crafting",
-                    "amount": 7000
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 7000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Pirate"
-    },
-    {
-        "miniquest": false,
-        "name": "Client of Kourend",
-        "shortName": "clientOfKourend",
-        "url": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium (15-20 minutes)",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
-        },
-        "series": "Great Kourend"
-    },
-    {
-        "miniquest": false,
-        "name": "Clock Tower",
-        "shortName": "clockTower",
-        "url": "https://oldschool.runescape.wiki/w/Clock_Tower",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Cold War",
-        "shortName": "coldWar",
-        "url": "https://oldschool.runescape.wiki/w/Cold_War",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "hunter",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "construction",
-                    "level": 34,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 15,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 5000
-                },
-                {
-                    "skill": "construction",
-                    "amount": 1500
-                },
-                {
-                    "skill": "crafting",
-                    "amount": 2000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Penguin"
-    },
-    {
-        "miniquest": false,
-        "name": "Contact!",
-        "shortName": "contact",
-        "url": "https://oldschool.runescape.wiki/w/Contact!",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Prince Ali Rescue",
-                "Icthlarin's Little Helper"
-            ],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "thieving",
-                "amount": 7000
-            }],
-            "questPoints": 1
-        },
-        "series": "Desert"
-    },
-    {
-        "miniquest": false,
-        "name": "Cook's Assistant",
-        "shortName": "cooksAssistant",
-        "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short (<5 minutes)",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "cooking",
-                "amount": 300
-            }],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Creature of Fenkenstrain",
-        "shortName": "creatureOfFenkenstrain",
-        "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Priest in Peril",
-                "The Restless Ghost"
-            ],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 25,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "thieving",
-                "amount": 1000
-            }],
-            "questPoints": 2
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Darkness of Hallowvale",
-        "shortName": "darknessOfHallowvale",
-        "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Very long",
-        "requirements": {
-            "quests": [
-                "In Aid of the Myreque"
-            ],
-            "skills": [{
-                    "skill": "construction",
-                    "level": 5,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 20,
-                    "boostable": true
-                },
-                {
-                    "skill": "thieving",
-                    "level": 22,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 26,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 32,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 33,
-                    "boostable": false
-                },
-                {
-                    "skill": "strength",
-                    "level": 40,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 7000
-                },
-                {
-                    "skill": "construction",
-                    "amount": 2000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 6000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Myreque"
-    },
-    {
-        "miniquest": false,
-        "name": "Death Plateau",
-        "shortName": "deathPlateau",
-        "url": "https://oldschool.runescape.wiki/w/Death_Plateau",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "attack",
-                "amount": 3000
-            }],
-            "questPoints": 1
-        },
-        "series": "Troll"
-    },
-    {
-        "miniquest": false,
-        "name": "Death to the Dorgeshuun",
-        "shortName": "deathToTheDorgeshuun",
-        "url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "The Lost Tribe"
-            ],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 23,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 23,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "ranged",
-                    "amount": 2000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 2000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Dorgeshuun"
-    },
-    {
-        "miniquest": false,
-        "name": "Demon Slayer",
-        "shortName": "demonSlayer",
-        "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 3
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Desert Treasure",
-        "shortName": "desertTreasure",
-        "url": "https://oldschool.runescape.wiki/w/Desert_Treasure",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Very long",
-        "requirements": {
-            "quests": [
-                "The Dig Site",
-                "Temple of Ikov",
-                "The Tourist Trap",
-                "Troll Stronghold",
-                "Priest in Peril",
-                "Waterfall Quest"
-            ],
-            "skills": [{
-                    "skill": "thieving",
-                    "level": 53,
-                    "boostable": true
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "slayer",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 50,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "magic",
-                "amount": 20000
-            }],
-            "questPoints": 3
-        },
-        "series": "The Return of Zaros and Mahjarrat"
-    },
-    {
-        "miniquest": false,
-        "name": "Devious Minds",
-        "shortName": "deviousMinds",
-        "url": "https://oldschool.runescape.wiki/w/Devious_Minds",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [
-                "Wanted!",
-                "Troll Stronghold",
-                "Doric's Quest",
-                "Enter the Abyss"
-            ],
-            "skills": [{
-                    "skill": "smithing",
-                    "level": 65,
-                    "boostable": true
-                },
-                {
-                    "skill": "runecraft",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "fletching",
-                    "level": 50,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "fletching",
-                    "amount": 5000
-                },
-                {
-                    "skill": "runecraft",
-                    "amount": 5000
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 6500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "The Return of Zaros"
-    },
-    {
-        "miniquest": false,
-        "name": "Doric's Quest",
-        "shortName": "doricsQuest",
-        "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "mining",
-                "level": 15,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "mining",
-                "amount": 1300
-            }],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Dragon Slayer",
-        "shortName": "dragonSlayer",
-        "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer",
-        "members": false,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "quest",
-                    "level": 32,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 8,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "defence",
-                    "amount": 18650
-                },
-                {
-                    "skill": "strength",
-                    "amount": 18650
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Guild"
-    },
-    {
-        "miniquest": false,
-        "name": "Dragon Slayer II",
-        "shortName": "dragonSlayerII",
-        "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
-        "members": true,
-        "difficulty": "Grandmaster",
-        "subquests": [],
-        "questLength": "Very long",
-        "requirements": {
-            "quests": [
-                "Legends' Quest",
-                "Dream Mentor",
-                "A Tail of Two Cats",
-                "Animal Magnetism",
-                "Ghosts Ahoy",
-                "Bone Voyage",
-                "Client of Kourend"
-            ],
-            "skills": [{
-                "skill": "quest",
-                "level": 200,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 15000
-                },
-                {
-                    "skill": "mining",
-                    "amount": 18000
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 25000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 15000
-                }
-            ],
-            "questPoints": 5
-        },
-        "series": "Dragonkin"
-    },
-    {
-        "miniquest": false,
-        "name": "Dream Mentor",
-        "shortName": "dreamMentor",
-        "url": "https://oldschool.runescape.wiki/w/Dream_Mentor",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [
-                "Lunar Diplomacy",
-                "Eadgar's Ruse"
-            ],
-            "skills": [{
-                "skill": "combat",
-                "level": 85,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "hitpoints",
-                    "amount": 15000
-                },
-                {
-                    "skill": "magic",
-                    "amount": 10000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Fremennik"
-    },
-    {
-        "miniquest": false,
-        "name": "Druidic Ritual",
-        "shortName": "druidicRitual",
-        "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "herblore",
-                "amount": 250
-            }],
-            "questPoints": 4
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Dwarf Cannon",
-        "shortName": "dwarfCannon",
-        "url": "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "crafting",
-                "amount": 750
-            }],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Eadgar's Ruse",
-        "shortName": "eadgarsRuse",
-        "url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [
-                "Druidic Ritual",
-                "Troll Stronghold"
-            ],
-            "skills": [{
-                    "skill": "herblore",
-                    "level": 31,
-                    "boostable": true
-                },
-                {
-                    "skill": "agility",
-                    "level": 44,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "herblore",
-                "amount": 11000
-            }],
-            "questPoints": 1
-        },
-        "series": "Troll"
-    },
-    {
-        "miniquest": false,
-        "name": "Eagles' Peak",
-        "shortName": "eaglesPeak",
-        "url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "hunter",
-                "level": 27,
-                "boostable": true
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "hunter",
-                "amount": 2500
-            }],
-            "questPoints": 2
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Elemental Workshop I",
-        "shortName": "elementalWorkshopI",
-        "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "mining",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "smithing",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 20,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 5000
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 5000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Elemental Workshop"
-    },
-    {
-        "miniquest": false,
-        "name": "Elemental Workshop II",
-        "shortName": "elementalWorkshopII",
-        "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "magic",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "smithing",
-                    "level": 30,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 7500
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 7500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Elemental Workshop (#2)"
-    },
-    {
-        "miniquest": false,
-        "name": "Enakhra's Lament",
-        "shortName": "enakhrasLament",
-        "url": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 45,
-                    "boostable": false
-                },
-                {
-                    "skill": "prayer",
-                    "level": 43,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 39,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 45,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 7000
-                },
-                {
-                    "skill": "firemaking",
-                    "amount": 7000
-                },
-                {
-                    "skill": "magic",
-                    "amount": 7000
-                },
-                {
-                    "skill": "mining",
-                    "amount": 7000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Mahjarrat"
-    },
-    {
-        "miniquest": false,
-        "name": "Enlightened Journey",
-        "shortName": "enlightenedJourney",
-        "url": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short - Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "quest",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "farming",
-                    "level": 30,
-                    "boostable": true
-                },
-                {
-                    "skill": "crafting",
-                    "level": 36,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 2000
-                },
-                {
-                    "skill": "farming",
-                    "amount": 3000
-                },
-                {
-                    "skill": "firemaking",
-                    "amount": 4000
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 1500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": true,
-        "name": "Enter the Abyss",
-        "shortName": "enterTheAbyss",
-        "url": "https://oldschool.runescape.wiki/w/Enter_the_Abyss",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short \u00e2\u20ac\u201c Long",
-        "requirements": {
-            "quests": [
-                "Rune Mysteries"
-            ],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 0
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Ernest the Chicken",
-        "shortName": "ernestTheChicken",
-        "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 4
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Fairytale I - Growing Pains",
-        "shortName": "fairytaleIGrowingPains",
-        "url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "Lost City",
-                "Nature Spirit"
-            ],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "attack",
-                    "amount": 2000
-                },
-                {
-                    "skill": "farming",
-                    "amount": 3500
-                },
-                {
-                    "skill": "magic",
-                    "amount": 1000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Fairy Tale (#2)"
-    },
-    {
-        "miniquest": false,
-        "name": "Fairytale II - Cure a Queen",
-        "shortName": "fairytaleIICureAQueen",
-        "url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [
-                "Fairytale I - Growing Pains"
-            ],
-            "skills": [{
-                    "skill": "thieving",
-                    "level": 40,
-                    "boostable": true
-                },
-                {
-                    "skill": "farming",
-                    "level": 49,
-                    "boostable": true
-                },
-                {
-                    "skill": "herblore",
-                    "level": 57,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "herblore",
-                    "amount": 3500
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 2500
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Fairy Tale (#2)"
-    },
-    {
-        "miniquest": false,
-        "name": "Family Crest",
-        "shortName": "familyCrest",
-        "url": "https://oldschool.runescape.wiki/w/Family_Crest",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "mining",
-                    "level": 40,
-                    "boostable": true
-                },
-                {
-                    "skill": "smithing",
-                    "level": 40,
-                    "boostable": true
-                },
-                {
-                    "skill": "magic",
-                    "level": 59,
-                    "boostable": true
-                },
-                {
-                    "skill": "crafting",
-                    "level": 40,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Fight Arena",
-        "shortName": "fightArena",
-        "url": "https://oldschool.runescape.wiki/w/Fight_Arena",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "attack",
-                    "amount": 12175
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 2175
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Mahjarrat"
-    },
-    {
-        "miniquest": false,
-        "name": "Fishing Contest",
-        "shortName": "fishingContest",
-        "url": "https://oldschool.runescape.wiki/w/Fishing_Contest",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "fishing",
-                "level": 10,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "fishing",
-                "amount": 2437
-            }],
-            "questPoints": 1
-        },
-        "series": "Dwarf"
-    },
-    {
-        "miniquest": false,
-        "shortName": "forgettableTale",
-        "name": "Forgettable Tale...",
-        "url": "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "The Giant Dwarf",
-                "Fishing Contest"
-            ],
-            "skills": [{
-                    "skill": "cooking",
-                    "level": 22,
-                    "boostable": false
-                },
-                {
-                    "skill": "farming",
-                    "level": 17,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "cooking",
-                    "amount": 5000
-                },
-                {
-                    "skill": "farming",
-                    "amount": 5000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Rise of the Red Axe"
-    },
-    {
-        "miniquest": false,
-        "shortName": "gardenOfTranquillity",
-        "name": "Garden of Tranquillity",
-        "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Very long",
-        "requirements": {
-            "quests": [
-                "Creature of Fenkenstrain"
-            ],
-            "skills": [{
-                "skill": "farming",
-                "level": 25,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "farming",
-                "amount": 5000
-            }],
-            "questPoints": 2
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "gertrudesCat",
-        "name": "Gertrude's Cat",
-        "url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "cooking",
-                "amount": 1525
-            }],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "gettingAhead",
-        "name": "Getting Ahead",
-        "url": "https://oldschool.runescape.wiki/w/Getting_Ahead",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 30,
-                    "boostable": true
-                },
-                {
-                    "skill": "construction",
-                    "level": 26,
-                    "boostable": true
-                }
-            ]
-        },
-        "itemsRequired": [
-            "Bear fur or grey wolf fur (a grizzly bear and cub spawn west of the farm)",
-            "Soft clay or a pickaxe you can use (clay rocks are found in the Kebos Lowlands mine, Gordon's house has a water source and a bucket spawn)(there is a bronze pick spawn at the mine in a rock)",
-            "Hammer (obtainable near the cattle gate)",
-            "Saw (obtainable in the shed north of the house)",
-            "2 Planks (obtainable near the cave entrance)",
-            "At least 6 Nails of any kind (iron nails can be found in the workbench north of the house)",
-            "Knife (obtainable on the kitchen table in the house)",
-            "Red dye (obtainable from the shelves in the house)",
-            "Pot of flour (obtainable upstairs in the house)",
-            "Needle (obtainable upstairs in the house)",
-            "Thread (obtainable upstairs in the house)"
-        ],
-        "itemsRecommended": [
-            "Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild",
-            "Combat equipment to fight a level 82 beast."
-        ],
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 4000
-                },
-                {
-                    "skill": "construction",
-                    "amount": 3200
-                }
-            ],
-            "questPoints": 1,
-            "other": [
-                "3000 coins",
-                "Access to a tannery in the Kebos Lowlands (speak to Mary to access tanning services)"
-            ]
-        },
-        "enemiesToDefeat": [
-            "Headless Beast (level-82)"
-        ],
-        "series": "Twisted Tales"
-    },
-    {
-        "miniquest": false,
-        "shortName": "ghostsAhoy",
-        "name": "Ghosts Ahoy",
-        "url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "prayer",
-                "amount": 2400
-            }],
-            "questPoints": 2
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "goblinDiplomacy",
-        "name": "Goblin Diplomacy",
-        "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "crafting",
-                "amount": 200
-            }],
-            "questPoints": 5
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "grimTales",
-        "name": "Grim Tales",
-        "url": "https://oldschool.runescape.wiki/w/Grim_Tales",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "farming",
-                    "level": 45,
-                    "boostable": true
-                },
-                {
-                    "skill": "herblore",
-                    "level": 52,
-                    "boostable": true
-                },
-                {
-                    "skill": "thieving",
-                    "level": 58,
-                    "boostable": true
-                },
-                {
-                    "skill": "agility",
-                    "level": 59,
-                    "boostable": true
-                },
-                {
-                    "skill": "woodcutting",
-                    "level": 71,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 6000
-                },
-                {
-                    "skill": "farming",
-                    "amount": 4000
-                },
-                {
-                    "skill": "herblore",
-                    "amount": 5000
-                },
-                {
-                    "skill": "hitpoints",
-                    "amount": 5000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 6000
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 14000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "hauntedMine",
-        "name": "Haunted Mine",
-        "url": "https://oldschool.runescape.wiki/w/Haunted_Mine",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 15,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 35,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "strength",
-                "amount": 22000
-            }],
-            "questPoints": 2
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "hazeelCult",
-        "name": "Hazeel Cult",
-        "url": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "thieving",
-                "amount": 1500
-            }],
-            "questPoints": 1
-        },
-        "series": "Mahjarrat"
-    },
-    {
-        "miniquest": false,
-        "shortName": "heroesQuest",
-        "name": "Heroes' Quest",
-        "url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [
-                "Shield of Arrav",
-                "Lost City",
-                "Merlin's Crystal",
-                "Dragon Slayer",
-                "Druidic Ritual"
-            ],
-            "skills": [{
-                "skill": "quest",
-                "level": 55,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "attack",
-                    "amount": 3075
-                },
-                {
-                    "skill": "cooking",
-                    "amount": 2825
-                },
-                {
-                    "skill": "defence",
-                    "amount": 3075
-                },
-                {
-                    "skill": "firemaking",
-                    "amount": 1575
-                },
-                {
-                    "skill": "fishing",
-                    "amount": 2725
-                },
-                {
-                    "skill": "herblore",
-                    "amount": 1325
-                },
-                {
-                    "skill": "hitpoints",
-                    "amount": 3075
-                },
-                {
-                    "skill": "mining",
-                    "amount": 2575
-                },
-                {
-                    "skill": "ranged",
-                    "amount": 2075
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 2257
-                },
-                {
-                    "skill": "strength",
-                    "amount": 3075
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 1575
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Guild"
-    },
-    {
-        "miniquest": false,
-        "shortName": "holyGrail",
-        "name": "Holy Grail",
-        "url": "https://oldschool.runescape.wiki/w/Holy_Grail",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "attack",
-                "level": 20,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "defence",
-                    "amount": 15300
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 11000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Camelot (#2)"
-    },
-    {
-        "miniquest": false,
-        "shortName": "horrorFromTheDeep",
-        "name": "Horror from the Deep",
-        "url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 35,
-                "boostable": true
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "magic",
-                    "amount": 4662
-                },
-                {
-                    "skill": "ranged",
-                    "amount": 4662.5
-                },
-                {
-                    "skill": "strength",
-                    "amount": 4662.5
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Fremennik"
-    },
-    {
-        "miniquest": false,
-        "shortName": "icthlarinsLittleHelper",
-        "name": "Icthlarin's Little Helper",
-        "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 4000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 4500
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 4000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Desert"
-    },
-    {
-        "miniquest": false,
-        "shortName": "impCatcher",
-        "name": "Imp Catcher",
-        "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short (<5-15 minutes)",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "magic",
-                "amount": 875
-            }],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "inAidOfTheMyreque",
-        "name": "In Aid of the Myreque",
-        "url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "In Search of the Myreque"
-            ],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 25,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 15,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 7,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "attack",
-                    "amount": 2000
-                },
-                {
-                    "skill": "crafting",
-                    "amount": 2000
-                },
-                {
-                    "skill": "defence",
-                    "amount": 2000
-                },
-                {
-                    "skill": "strength",
-                    "amount": 2000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Myreque"
-    },
-    {
-        "miniquest": false,
-        "shortName": "inSearchOfTheMyreque",
-        "name": "In Search of the Myreque",
-        "url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [
-                "Nature Spirit"
-            ],
-            "skills": [{
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "attack",
-                    "amount": 600
-                },
-                {
-                    "skill": "crafting",
-                    "amount": 600
-                },
-                {
-                    "skill": "defence",
-                    "amount": 600
-                },
-                {
-                    "skill": "hitpoints",
-                    "amount": 600
-                },
-                {
-                    "skill": "strength",
-                    "amount": 600
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Myreque"
-    },
-    {
-        "miniquest": false,
-        "shortName": "junglePotion",
-        "name": "Jungle Potion",
-        "url": "https://oldschool.runescape.wiki/w/Jungle_Potion",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "herblore",
-                "level": 3,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "herblore",
-                "amount": 775
-            }],
-            "questPoints": 1
-        },
-        "series": "Karamja"
-    },
-    {
-        "miniquest": false,
-        "shortName": "kingsRansom",
-        "name": "King's Ransom",
-        "url": "https://oldschool.runescape.wiki/w/King%27s_Ransom",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Black Knights' Fortress",
-                "Holy Grail",
-                "Murder Mystery",
-                "One Small Favour"
-            ],
-            "skills": [{
-                    "skill": "magic",
-                    "level": 45,
-                    "boostable": false
-                },
-                {
-                    "skill": "defence",
-                    "level": 65,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "defence",
-                    "amount": 33000
-                },
-                {
-                    "skill": "magic",
-                    "amount": 5000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Camelot (#3)"
-    },
-    {
-        "miniquest": false,
-        "shortName": "legendsQuest",
-        "name": "Legends' Quest",
-        "url": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Very long",
-        "requirements": {
-            "quests": [
-                "Family Crest",
-                "Heroes' Quest",
-                "Shilo Village",
-                "Underground Pass",
-                "Waterfall Quest"
-            ],
-            "skills": [{
-                    "skill": "quest",
-                    "level": 107,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 50,
-                    "boostable": true
-                },
-                {
-                    "skill": "crafting",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 45,
-                    "boostable": true
-                },
-                {
-                    "skill": "magic",
-                    "level": 56,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 52,
-                    "boostable": true
-                },
-                {
-                    "skill": "prayer",
-                    "level": 42,
-                    "boostable": true
-                },
-                {
-                    "skill": "smithing",
-                    "level": 50,
-                    "boostable": true
-                },
-                {
-                    "skill": "strength",
-                    "level": 50,
-                    "boostable": true
-                },
-                {
-                    "skill": "thieving",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "woodcutting",
-                    "level": 50,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 4
-        },
-        "series": "Karamja, Guild"
-    },
-    {
-        "miniquest": false,
-        "shortName": "lostCity",
-        "name": "Lost City",
-        "url": "https://oldschool.runescape.wiki/w/Lost_City",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 31,
-                    "boostable": false
-                },
-                {
-                    "skill": "woodcutting",
-                    "level": 36,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 3
-        },
-        "series": "Fairy Tale"
-    },
-    {
-        "miniquest": false,
-        "shortName": "lunarDiplomacy",
-        "name": "Lunar Diplomacy",
-        "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "The Fremennik Trials",
-                "Lost City",
-                "Rune Mysteries",
-                "Shilo Village"
-            ],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 61,
-                    "boostable": false
-                },
-                {
-                    "skill": "defence",
-                    "level": 40,
-                    "boostable": false
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 49,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 65,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 60,
-                    "boostable": false
-                },
-                {
-                    "skill": "woodcutting",
-                    "level": 55,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "magic",
-                    "amount": 5000
-                },
-                {
-                    "skill": "runecraft",
-                    "amount": 5000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Fremennik"
-    },
-    {
-        "miniquest": false,
-        "shortName": "makingFriendsWithMyArm",
-        "name": "Making Friends with My Arm",
-        "url": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "My Arm's Big Adventure",
-                "Swan Song",
-                "Cold War",
-                "Romeo & Juliet"
-            ],
-            "skills": [{
-                    "skill": "firemaking",
-                    "level": 66,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 72,
-                    "boostable": false
-                },
-                {
-                    "skill": "construction",
-                    "level": 35,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 68,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 10000
-                },
-                {
-                    "skill": "construction",
-                    "amount": 2000
-                },
-                {
-                    "skill": "firemaking",
-                    "amount": 5000
-                },
-                {
-                    "skill": "mining",
-                    "amount": 10000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Troll"
-    },
-    {
-        "miniquest": false,
-        "shortName": "makingHistory",
-        "name": "Making History",
-        "url": "https://oldschool.runescape.wiki/w/Making_History",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short - Long",
-        "requirements": {
-            "quests": [
-                "Priest in Peril",
-                "The Restless Ghost"
-            ],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 1000
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 1000
-                }
-            ],
-            "questPoints": 3
-        },
-        "series": "Enchanted Key"
-    },
-    {
-        "miniquest": false,
-        "shortName": "merlinsCrystal",
-        "name": "Merlin's Crystal",
-        "url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium-Long (Under 10 minutes with teleports)",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 6
-        },
-        "series": "Camelot"
-    },
-    {
-        "miniquest": false,
-        "shortName": "misthalinMystery",
-        "name": "Misthalin Mystery",
-        "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "crafting",
-                "amount": 600
-            }],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "monksFriend",
-        "name": "Monk's Friend",
-        "url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Very Short (5 minutes)",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "woodcutting",
-                "amount": 2000
-            }],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "monkeyMadnessI",
-        "name": "Monkey Madness I",
-        "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "The Grand Tree",
-                "Tree Gnome Village"
-            ],
-            "skills": [{
-                "skill": "prayer",
-                "level": 43,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 3
-        },
-        "series": "Gnome, Monkey"
-    },
-    {
-        "miniquest": false,
-        "shortName": "monkeyMadnessII",
-        "name": "Monkey Madness II",
-        "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
-        "members": true,
-        "difficulty": "Grandmaster",
-        "subquests": [],
-        "questLength": "Very long",
-        "requirements": {
-            "quests": [
-                "Enlightened Journey",
-                "The Eyes of Glouphrie",
-                "Recipe for Disaster",
-                "Troll Stronghold",
-                "Watchtower"
-            ],
-            "skills": [{
-                    "skill": "slayer",
-                    "level": 69,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 70,
-                    "boostable": false
-                },
-                {
-                    "skill": "hunter",
-                    "level": 60,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 55,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 55,
-                    "boostable": false
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 60,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 20000
-                },
-                {
-                    "skill": "hunter",
-                    "amount": 15000
-                },
-                {
-                    "skill": "slayer",
-                    "amount": 25000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 15000
-                }
-            ],
-            "questPoints": 4
-        },
-        "series": "Gnome, Monkey"
-    },
-    {
-        "miniquest": false,
-        "shortName": "mountainDaughter",
-        "name": "Mountain Daughter",
-        "url": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 20,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "attack",
-                    "amount": 1000
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 2000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Fremennik"
-    },
-    {
-        "miniquest": false,
-        "shortName": "mourningsEndPartI",
-        "name": "Mourning's End Part I",
-        "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_I",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [
-                "Roving Elves",
-                "Big Chompy Bird Hunting",
-                "Sheep Herder"
-            ],
-            "skills": [{
-                    "skill": "ranged",
-                    "level": 60,
-                    "boostable": true
-                },
-                {
-                    "skill": "thieving",
-                    "level": 50,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "hitpoints",
-                    "amount": 25000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 25000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Elf"
-    },
-    {
-        "miniquest": false,
-        "shortName": "mourningsEndPartII",
-        "name": "Mourning's End Part II",
-        "url": "https://oldschool.runescape.wiki/w/Mourning%27s_Ends_Part_II",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "prayer",
-                    "level": 43,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 60,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "agility",
-                "amount": 20000
-            }],
-            "questPoints": 1
-        },
-        "series": "Elf"
-    },
-    {
-        "miniquest": false,
-        "shortName": "murderMystery",
-        "name": "Murder Mystery",
-        "url": "https://oldschool.runescape.wiki/w/Murder_Mystery",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "crafting",
-                "amount": 1406
-            }],
-            "questPoints": 3
-        },
-        "series": "Camelot"
-    },
-    {
-        "miniquest": false,
-        "shortName": "myArmsBigAdventure",
-        "name": "My Arm's Big Adventure",
-        "url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Eadgar's Ruse",
-                "The Feud",
-                "Jungle Potion"
-            ],
-            "skills": [{
-                    "skill": "woodcutting",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "farming",
-                    "level": 29,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "farming",
-                    "amount": 5000
-                },
-                {
-                    "skill": "herblore",
-                    "amount": 10000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Troll"
-    },
-    {
-        "miniquest": false,
-        "shortName": "natureSpirit",
-        "name": "Nature Spirit",
-        "url": "https://oldschool.runescape.wiki/w/Nature_Spirit",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Priest in Peril",
-                "The Restless Ghost"
-            ],
-            "skills": [{
-                "skill": "crafting",
-                "level": 18,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 3000
-                },
-                {
-                    "skill": "defence",
-                    "amount": 2000
-                },
-                {
-                    "skill": "hitpoints",
-                    "amount": 2000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Myreque"
-    },
-    {
-        "miniquest": false,
-        "shortName": "observatoryQuest",
-        "name": "Observatory Quest",
-        "url": "https://oldschool.runescape.wiki/w/Observatory_Quest",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "crafting",
-                "level": 10,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "crafting",
-                "amount": 2250
-            }],
-            "questPoints": 2
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "olafsQuest",
-        "name": "Olaf's Quest",
-        "url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short - Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "firemaking",
-                    "level": 40,
-                    "boostable": false
-                },
-                {
-                    "skill": "woodcutting",
-                    "level": 50,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "defence",
-                "amount": 12000
-            }],
-            "questPoints": 1
-        },
-        "series": "Fremennik"
-    },
-    {
-        "miniquest": false,
-        "shortName": "oneSmallFavour",
-        "name": "One Small Favour",
-        "url": "https://oldschool.runescape.wiki/w/One_Small_Favour",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Very long",
-        "requirements": {
-            "quests": [
-                "Rune Mysteries",
-                "Shilo Village"
-            ],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 36,
-                    "boostable": true
-                },
-                {
-                    "skill": "crafting",
-                    "level": 25,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 18,
-                    "boostable": false
-                },
-                {
-                    "skill": "smithing",
-                    "level": 30,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 2
-        },
-        "series": "Karamja"
-    },
-    {
-        "miniquest": false,
-        "shortName": "piratesTreasure",
-        "name": "Pirate's Treasure",
-        "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 2
-        },
-        "series": "Pirate"
-    },
-    {
-        "miniquest": false,
-        "shortName": "plagueCity",
-        "name": "Plague City",
-        "url": "https://oldschool.runescape.wiki/w/Plague_City",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "mining",
-                "amount": 2425
-            }],
-            "questPoints": 1
-        },
-        "series": "Elf"
-    },
-    {
-        "miniquest": false,
-        "shortName": "priestInPeril",
-        "name": "Priest in Peril",
-        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "prayer",
-                "amount": 1406
-            }],
-            "questPoints": 1
-        },
-        "series": "Myreque"
-    },
-    {
-        "miniquest": false,
-        "shortName": "princeAliRescue",
-        "name": "Prince Ali Rescue",
-        "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 3
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "ragAndBoneManI",
-        "name": "Rag and Bone Man",
-        "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "cooking",
-                    "amount": 500
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "ragAndBoneManII",
-        "name": "Rag and Bone Man II",
-        "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "slayer",
-                    "level": 40,
-                    "boostable": false
-                },
-                {
-                    "skill": "defence",
-                    "level": 20,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "prayer",
-                "amount": 5000
-            }],
-            "questPoints": 1
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "shortName": "ratcatchers",
-        "name": "Ratcatchers",
-        "url": "https://oldschool.runescape.wiki/w/Ratcatchers",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long - Very long",
-        "requirements": {
-            "quests": [
-                "Icthlarin's Little Helper"
-            ],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "thieving",
-                "amount": 4500
-            }],
-            "questPoints": 2
-        },
-        "series": null
-    },
-    {
-        "miniquest": false,
-        "name": "Recipe for Disaster",
-        "shortName": "recipeForDisaster",
-        "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
-        "members": true,
-        "difficulty": "Special",
-        "questLength": "Very long",
-        "subquests": [{
-            "miniquest": true,
-            "subquest": true,
-            "shortName": "piratePeteSubquestOfRecipeforDisaster",
-            "name": "Pirate Pete subquest of Recipe for Disaster",
-            "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
-            "members": true,
-            "difficulty": "Special",
-            "subquests": [],
-            "questLength": "Medium",
-            "released": "15 March 2006 (Update)",
-            "itemsRequired": [
-                "A raw cod",
-                "A pestle and mortar",
-                "Bread",
-                "A knife",
-                "A fishbowl (empty)",
-                "A needle",
-                "3 bronze wire"
-            ],
-            "requirements": {
-                "quests": [],
-                "skills": [{
-                    "skill": "cooking",
-                    "level": 31,
-                    "boostable": false
-                }],
-                "other": [{
-                    "description": "The ability to defeat 5 level 30 monsters."
-                }],
-                "ironman": [{
-                        "skill": "crafting",
-                        "description": "42 Crafting (If crafting a fishbowl yourself or by completing Rum Deal)",
-                        "level": 42,
-                        "boostable": false
-                    },
-                    {
-                        "skill": "smithing",
-                        "description": "4 Smithing (To make the bronze wire.)",
-                        "level": 4,
-                        "boostable": false
-                    }
-                ]
+        members: true,
+        miniquest: true,
+        name: "Pirate Pete subquest of Recipe for Disaster",
+        questLength: "Medium",
+        released: "15 March 2006 (Update)",
+        requirements: {
+          ironman: [
+            {
+              boostable: false,
+              description:
+                "42 Crafting (If crafting a fishbowl yourself or by completing Rum Deal)",
+              level: 42,
+              skill: "crafting",
             },
-            "rewards": {
-               "experience": [],
-                "questPoints": 2
+            {
+              boostable: false,
+              description: "4 Smithing (To make the bronze wire.)",
+              level: 4,
+              skill: "smithing",
             },
-            "series": "Pirate"
-        }],
-        "requirements": {
-            "quests": [
-                "Cook's Assistant",
-                "Fishing Contest",
-                "Goblin Diplomacy",
-                "Big Chompy Bird Hunting",
-                "Murder Mystery",
-                "Nature Spirit",
-                "Witch's House",
-                "Gertrude's Cat",
-                "Shadow of the Storm",
-                "Legends' Quest",
-                "Monkey Madness I",
-                "Desert Treasure",
-                "Horror from the Deep"
-            ],
-            "skills": [{
-                    "skill": "quest",
-                    "level": 175,
-                    "boostable": false
-                },
-                {
-                    "skill": "cooking",
-                    "level": 70,
-                    "boostable": true
-                },
-                {
-                    "skill": "agility",
-                    "level": 48,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 50,
-                    "boostable": true
-                },
-                {
-                    "skill": "fishing",
-                    "level": 53,
-                    "boostable": true
-                },
-                {
-                    "skill": "thieving",
-                    "level": 53,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 25,
-                    "boostable": true
-                },
-                {
-                    "skill": "magic",
-                    "level": 59,
-                    "boostable": true
-                },
-                {
-                    "skill": "smithing",
-                    "level": 40,
-                    "boostable": false
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "ranged",
-                    "level": 40,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 40,
-                    "boostable": false
-                },
-                {
-                    "skill": "fletching",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "slayer",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "woodcutting",
-                    "level": 36,
-                    "boostable": false
-                }
-            ]
+          ],
+          other: [
+            {
+              description: "The ability to defeat 5 level 30 monsters.",
+            },
+          ],
+          quests: [],
+          skills: [
+            {
+              boostable: false,
+              level: 31,
+              skill: "cooking",
+            },
+          ],
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 10
+        rewards: {
+          experience: [],
+          questPoints: 2,
         },
-        "series": null
+        series: "Pirate",
+        shortName: "piratePeteSubquestOfRecipeforDisaster",
+        subquest: true,
+        subquests: [],
+        url: "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
+      },
+    ],
+    url: "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Recruitment Drive",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 12,
+          skill: "quest",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "recruitmentDrive",
-        "name": "Recruitment Drive",
-        "url": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "quest",
-                "level": 12,
-                "boostable": false
-            }]
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 1000
-                },
-                {
-                    "skill": "herblore",
-                    "amount": 1000
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 1000
-                }
-            ],
-            "questPoints": 1
+        {
+          amount: 1000,
+          skill: "herblore",
         },
-        "series": "Temple Knight"
+        {
+          amount: 1000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "regicide",
-        "name": "Regicide",
-        "url": "https://oldschool.runescape.wiki/w/Regicide",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "Underground Pass"
-            ],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 56,
-                    "boostable": true
-                },
-                {
-                    "skill": "crafting",
-                    "level": 10,
-                    "boostable": false
-                }
-            ]
+    series: "Temple Knight",
+    shortName: "recruitmentDrive",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Recruitment_Drive",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Regicide",
+    questLength: "Long",
+    requirements: {
+      quests: ["Underground Pass"],
+      skills: [
+        {
+          boostable: true,
+          level: 56,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "agility",
-                "amount": 13750
-            }],
-            "questPoints": 3
+        {
+          boostable: false,
+          level: 10,
+          skill: "crafting",
         },
-        "series": "Elf"
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "romeoJuliet",
-        "name": "Romeo & Juliet",
-        "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 13750,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 5
-        },
-        "series": null
+      ],
+      questPoints: 3,
     },
-    {
-        "miniquest": false,
-        "shortName": "rovingElves",
-        "name": "Roving Elves",
-        "url": "https://oldschool.runescape.wiki/w/Roving_Elves",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [
-                "Regicide",
-                "Waterfall Quest"
-            ],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "strength",
-                "amount": 10000
-            }],
-            "questPoints": 1
-        },
-        "series": "Elf, Gnome"
+    series: "Elf",
+    shortName: "regicide",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Regicide",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Romeo & Juliet",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "royalTrouble",
-        "name": "Royal Trouble",
-        "url": "https://oldschool.runescape.wiki/w/Royal_Trouble",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 40,
-                    "boostable": true
-                },
-                {
-                    "skill": "slayer",
-                    "level": 40,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 5000
-                },
-                {
-                    "skill": "hitpoints",
-                    "amount": 5000
-                },
-                {
-                    "skill": "slayer",
-                    "amount": 5000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Fremennik"
+    rewards: {
+      experience: [],
+      questPoints: 5,
     },
-    {
-        "miniquest": false,
-        "shortName": "rumDeal",
-        "name": "Rum Deal",
-        "url": "https://oldschool.runescape.wiki/w/Rum_Deal",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Zogre Flesh Eaters",
-                "Priest in Peril"
-            ],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 42,
-                    "boostable": false
-                },
-                {
-                    "skill": "fishing",
-                    "level": 50,
-                    "boostable": true
-                },
-                {
-                    "skill": "farming",
-                    "level": 40,
-                    "boostable": true
-                },
-                {
-                    "skill": "prayer",
-                    "level": 47,
-                    "boostable": true
-                },
-                {
-                    "skill": "slayer",
-                    "level": 42,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "farming",
-                    "amount": 7000
-                },
-                {
-                    "skill": "fishing",
-                    "amount": 7000
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 7000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Pirate"
+    series: null,
+    shortName: "romeoJuliet",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Roving Elves",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: ["Regicide", "Waterfall Quest"],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "runeMysteries",
-        "name": "Rune Mysteries",
-        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short (<5 minutes)",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 10000,
+          skill: "strength",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
-        },
-        "series": null
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "scorpionCatcher",
-        "name": "Scorpion Catcher",
-        "url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "prayer",
-                "level": 31,
-                "boostable": false
-            }]
+    series: "Elf, Gnome",
+    shortName: "rovingElves",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Roving_Elves",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Royal Trouble",
+    questLength: "Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 40,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "strength",
-                "amount": 6625
-            }],
-            "questPoints": 1
+        {
+          boostable: true,
+          level: 40,
+          skill: "slayer",
         },
-        "series": null
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "seaSlug",
-        "name": "Sea Slug",
-        "url": "https://oldschool.runescape.wiki/w/Sea_Slug",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "fishing",
-                "amount": 7175
-            }],
-            "questPoints": 1
+        {
+          amount: 5000,
+          skill: "hitpoints",
         },
-        "series": "Sea Slug"
+        {
+          amount: 5000,
+          skill: "slayer",
+        },
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "shadesOfMortton",
-        "name": "Shades of Mort'ton",
-        "url": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 15,
-                    "boostable": false
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 5,
-                    "boostable": false
-                }
-            ]
+    series: "Fremennik",
+    shortName: "royalTrouble",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Royal_Trouble",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Rum Deal",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Zogre Flesh Eaters", "Priest in Peril"],
+      skills: [
+        {
+          boostable: false,
+          level: 42,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 2000
-                },
-                {
-                    "skill": "herblore",
-                    "amount": 2000
-                }
-            ],
-            "questPoints": 3
+        {
+          boostable: true,
+          level: 50,
+          skill: "fishing",
         },
-        "series": "Mort'ton"
+        {
+          boostable: true,
+          level: 40,
+          skill: "farming",
+        },
+        {
+          boostable: true,
+          level: 47,
+          skill: "prayer",
+        },
+        {
+          boostable: true,
+          level: 42,
+          skill: "slayer",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "shadowOfTheStorm",
-        "name": "Shadow of the Storm",
-        "url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "The Golem",
-                "Demon Slayer"
-            ],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 7000,
+          skill: "farming",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
+        {
+          amount: 7000,
+          skill: "fishing",
         },
-        "series": null
+        {
+          amount: 7000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "sheepHerder",
-        "name": "Sheep Herder",
-        "url": "https://oldschool.runescape.wiki/w/Sheep_Herder",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short/Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 4
-        },
-        "series": "Plague/Elf"
+    series: "Pirate",
+    shortName: "rumDeal",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Rum_Deal",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Rune Mysteries",
+    questLength: "Short (<5 minutes)",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "sheepShearer",
-        "name": "Sheep Shearer",
-        "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "crafting",
-                "amount": 150
-            }],
-            "questPoints": 1
-        },
-        "series": null
+    rewards: {
+      experience: [],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "shieldOfArrav",
-        "name": "Shield of Arrav",
-        "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    series: null,
+    shortName: "runeMysteries",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Rune_Mysteries",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Scorpion Catcher",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 31,
+          skill: "prayer",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
-        },
-        "series": "Mahjarrat"
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "shiloVillage",
-        "name": "Shilo Village",
-        "url": "https://oldschool.runescape.wiki/w/Shilo_Village",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 32,
-                    "boostable": true
-                },
-                {
-                    "skill": "smithing",
-                    "level": 4,
-                    "boostable": false
-                }
-            ]
+    rewards: {
+      experience: [
+        {
+          amount: 6625,
+          skill: "strength",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "crafting",
-                "amount": 3875
-            }],
-            "questPoints": 2
-        },
-        "series": "Karamja"
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "songOfTheElves",
-        "name": "Song of the Elves",
-        "url": "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
-        "members": true,
-        "difficulty": "Grandmaster",
-        "subquests": [],
-        "questLength": "Very long",
-        "requirements": {
-            "quests": [
-                "Mourning's End Part II",
-                "Making History"
-            ],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 70,
-                    "boostable": false
-                },
-                {
-                    "skill": "construction",
-                    "level": 70,
-                    "boostable": false
-                },
-                {
-                    "skill": "farming",
-                    "level": 70,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 70,
-                    "boostable": false
-                },
-                {
-                    "skill": "hunter",
-                    "level": 70,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 70,
-                    "boostable": false
-                },
-                {
-                    "skill": "smithing",
-                    "level": 70,
-                    "boostable": false
-                },
-                {
-                    "skill": "woodcutting",
-                    "level": 70,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 20000
-                },
-                {
-                    "skill": "construction",
-                    "amount": 20000
-                },
-                {
-                    "skill": "farming",
-                    "amount": 20000
-                },
-                {
-                    "skill": "herblore",
-                    "amount": 20000
-                },
-                {
-                    "skill": "hunter",
-                    "amount": 20000
-                },
-                {
-                    "skill": "mining",
-                    "amount": 20000
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 20000
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 20000
-                }
-            ],
-            "questPoints": 4
-        },
-        "series": "Elf"
+    series: null,
+    shortName: "scorpionCatcher",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Sea Slug",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "spiritsOfTheElid",
-        "name": "Spirits of the Elid",
-        "url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "magic",
-                    "level": 33,
-                    "boostable": true
-                },
-                {
-                    "skill": "ranged",
-                    "level": 37,
-                    "boostable": true
-                },
-                {
-                    "skill": "mining",
-                    "level": 37,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 37,
-                    "boostable": true
-                }
-            ]
+    rewards: {
+      experience: [
+        {
+          amount: 7175,
+          skill: "fishing",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "magic",
-                    "amount": 1000
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 8000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 1000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Desert"
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "swanSong",
-        "name": "Swan Song",
-        "url": "https://oldschool.runescape.wiki/w/Swan_Song",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "One Small Favour",
-                "Garden of Tranquillity"
-            ],
-            "skills": [{
-                    "skill": "quest",
-                    "level": 100,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 66,
-                    "boostable": true
-                },
-                {
-                    "skill": "cooking",
-                    "level": 62,
-                    "boostable": true
-                },
-                {
-                    "skill": "fishing",
-                    "level": 62,
-                    "boostable": true
-                },
-                {
-                    "skill": "smithing",
-                    "level": 45,
-                    "boostable": true
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 42,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 40,
-                    "boostable": false
-                }
-            ]
+    series: "Sea Slug",
+    shortName: "seaSlug",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Sea_Slug",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Shades of Mort'ton",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "fishing",
-                    "amount": 10000
-                },
-                {
-                    "skill": "magic",
-                    "amount": 15000
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 10000
-                }
-            ],
-            "questPoints": 2
+        {
+          boostable: false,
+          level: 15,
+          skill: "herblore",
         },
-        "series": "Wise Old Man"
+        {
+          boostable: false,
+          level: 5,
+          skill: "firemaking",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "taiBwoWannaiTrio",
-        "name": "Tai Bwo Wannai Trio",
-        "url": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 15,
-                    "boostable": false
-                },
-                {
-                    "skill": "cooking",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "fishing",
-                    "level": 5,
-                    "boostable": false
-                }
-            ]
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "attack",
-                    "amount": 2500
-                },
-                {
-                    "skill": "cooking",
-                    "amount": 5000
-                },
-                {
-                    "skill": "fishing",
-                    "amount": 5000
-                },
-                {
-                    "skill": "strength",
-                    "amount": 2500
-                }
-            ],
-            "questPoints": 2
+        {
+          amount: 2000,
+          skill: "herblore",
         },
-        "series": "Karamja"
+      ],
+      questPoints: 3,
     },
-    {
-        "miniquest": false,
-        "shortName": "taleOfTheRighteous",
-        "name": "Tale of the Righteous",
-        "url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Client of Kourend"
-            ],
-            "skills": [{
-                    "skill": "strength",
-                    "level": 16,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 10,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
-        },
-        "series": "Great Kourend"
+    series: "Mort'ton",
+    shortName: "shadesOfMortton",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Shadow of the Storm",
+    questLength: "Medium",
+    requirements: {
+      quests: ["The Golem", "Demon Slayer"],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "tearsOfGuthix",
-        "name": "Tears of Guthix",
-        "url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix_(quest)",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "quest",
-                    "level": 43,
-                    "boostable": false
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 49,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 20,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "crafting",
-                "amount": 1000
-            }],
-            "questPoints": 1
-        },
-        "series": null
+    rewards: {
+      experience: [],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "templeOfIkov",
-        "name": "Temple of Ikov",
-        "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "thieving",
-                    "level": 42,
-                    "boostable": true
-                },
-                {
-                    "skill": "ranged",
-                    "level": 40,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "fletching",
-                    "amount": 8000
-                },
-                {
-                    "skill": "ranged",
-                    "amount": 10500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Mahjarrat"
+    series: null,
+    shortName: "shadowOfTheStorm",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Sheep Herder",
+    questLength: "Short/Medium",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "theAscentOfArceuus",
-        "name": "The Ascent of Arceuus",
-        "url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Client of Kourend"
-            ],
-            "skills": [{
-                "skill": "hunter",
-                "level": 12,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "hunter",
-                    "amount": 1500
-                },
-                {
-                    "skill": "runecraft",
-                    "amount": 500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Great Kourend"
+    rewards: {
+      experience: [],
+      questPoints: 4,
     },
-    {
-        "miniquest": false,
-        "shortName": "theCorsairCurse",
-        "name": "The Corsair Curse",
-        "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [],
-            "questPoints": 2
-        },
-        "series": null
+    series: "Plague/Elf",
+    shortName: "sheepHerder",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Sheep_Herder",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Sheep Shearer",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "theDepthsOfDespair",
-        "name": "The Depths of Despair",
-        "url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [
-                "Client of Kourend"
-            ],
-            "skills": [{
-                "skill": "agility",
-                "level": 18,
-                "boostable": false
-            }]
+    rewards: {
+      experience: [
+        {
+          amount: 150,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "agility",
-                "amount": 1500
-            }],
-            "questPoints": 1
-        },
-        "series": "Great Kourend"
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "theDigSite",
-        "name": "The Dig Site",
-        "url": "https://oldschool.runescape.wiki/w/The_Dig_Site",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 25,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "herblore",
-                    "amount": 2000
-                },
-                {
-                    "skill": "mining",
-                    "amount": 15300
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "The Return of Zaros"
+    series: null,
+    shortName: "sheepShearer",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Sheep_Shearer",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Shield of Arrav",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "theEyesOfGlouphrie",
-        "name": "The Eyes of Glouphrie",
-        "url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "construction",
-                    "level": 5,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 46,
-                    "boostable": true
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "construction",
-                    "amount": 250
-                },
-                {
-                    "skill": "magic",
-                    "amount": 12000
-                },
-                {
-                    "skill": "runecraft",
-                    "amount": 6000
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 2500
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Gnome"
+    rewards: {
+      experience: [],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "theFeud",
-        "name": "The Feud",
-        "url": "https://oldschool.runescape.wiki/w/The_Feud",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "thieving",
-                "level": 30,
-                "boostable": true
-            }]
+    series: "Mahjarrat",
+    shortName: "shieldOfArrav",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Shilo Village",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "thieving",
-                "amount": 15000
-            }],
-            "questPoints": 1
+        {
+          boostable: true,
+          level: 32,
+          skill: "agility",
         },
-        "series": "Desert"
+        {
+          boostable: false,
+          level: 4,
+          skill: "smithing",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "theForsakenTower",
-        "name": "The Forsaken Tower",
-        "url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 3875,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "mining",
-                    "amount": 500
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 500
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Great Kourend"
+      ],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "theFremennikExiles",
-        "name": "The Fremennik Exiles",
-        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles",
-        "members": true,
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "The Fremennik Isles",
-                "Lunar Diplomacy",
-                "Mountain Daughter",
-                "Heroes' Quest"
-            ],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 65,
-                    "boostable": false
-                },
-                {
-                    "skill": "slayer",
-                    "level": 60,
-                    "boostable": false
-                },
-                {
-                    "skill": "smithing",
-                    "level": 60,
-                    "boostable": false
-                },
-                {
-                    "skill": "fishing",
-                    "level": 60,
-                    "boostable": false
-                },
-                {
-                    "skill": "runecraft",
-                    "level": 55,
-                    "boostable": false
-                }
-            ]
+    series: "Karamja",
+    shortName: "shiloVillage",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Shilo_Village",
+  },
+  {
+    difficulty: "Grandmaster",
+    members: true,
+    miniquest: false,
+    name: "Song of the Elves",
+    questLength: "Very long",
+    requirements: {
+      quests: ["Mourning's End Part II", "Making History"],
+      skills: [
+        {
+          boostable: false,
+          level: 70,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 15000
-                },
-                {
-                    "skill": "runecraft",
-                    "amount": 5000
-                },
-                {
-                    "skill": "slayer",
-                    "amount": 15000
-                }
-            ],
-            "questPoints": 2
+        {
+          boostable: false,
+          level: 70,
+          skill: "construction",
         },
-        "series": "Fremennik"
+        {
+          boostable: false,
+          level: 70,
+          skill: "farming",
+        },
+        {
+          boostable: false,
+          level: 70,
+          skill: "herblore",
+        },
+        {
+          boostable: false,
+          level: 70,
+          skill: "hunter",
+        },
+        {
+          boostable: false,
+          level: 70,
+          skill: "mining",
+        },
+        {
+          boostable: false,
+          level: 70,
+          skill: "smithing",
+        },
+        {
+          boostable: false,
+          level: 70,
+          skill: "woodcutting",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "theFremennikIsles",
-        "name": "The Fremennik Isles",
-        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "construction",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 40,
-                    "boostable": true
-                }
-            ]
+    rewards: {
+      experience: [
+        {
+          amount: 20000,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "construction",
-                    "amount": 5000
-                },
-                {
-                    "skill": "crafting",
-                    "amount": 5000
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 10000
-                }
-            ],
-            "questPoints": 1
+        {
+          amount: 20000,
+          skill: "construction",
         },
-        "series": "Fremennik"
+        {
+          amount: 20000,
+          skill: "farming",
+        },
+        {
+          amount: 20000,
+          skill: "herblore",
+        },
+        {
+          amount: 20000,
+          skill: "hunter",
+        },
+        {
+          amount: 20000,
+          skill: "mining",
+        },
+        {
+          amount: 20000,
+          skill: "smithing",
+        },
+        {
+          amount: 20000,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 4,
     },
-    {
-        "miniquest": false,
-        "shortName": "theFremennikTrials",
-        "name": "The Fremennik Trials",
-        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    series: "Elf",
+    shortName: "songOfTheElves",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Spirits of the Elid",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 33,
+          skill: "magic",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 2812
-                },
-                {
-                    "skill": "attack",
-                    "amount": 2812
-                },
-                {
-                    "skill": "crafting",
-                    "amount": 2812
-                },
-                {
-                    "skill": "defence",
-                    "amount": 2812
-                },
-                {
-                    "skill": "fishing",
-                    "amount": 2812
-                },
-                {
-                    "skill": "fletching",
-                    "amount": 2812
-                },
-                {
-                    "skill": "hitpoints",
-                    "amount": 2812
-                },
-                {
-                    "skill": "strength",
-                    "amount": 2812
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 2812
-                },
-                {
-                    "skill": "woodcutting",
-                    "amount": 2812
-                }
-            ],
-            "questPoints": 3
+        {
+          boostable: true,
+          level: 37,
+          skill: "ranged",
         },
-        "series": "Fremennik"
+        {
+          boostable: false,
+          level: 37,
+          skill: "mining",
+        },
+        {
+          boostable: true,
+          level: 37,
+          skill: "thieving",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "theGiantDwarf",
-        "name": "The Giant Dwarf",
-        "url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 12,
-                    "boostable": false
-                },
-                {
-                    "skill": "firemaking",
-                    "level": 16,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 33,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 14,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "smithing",
-                    "level": 20,
-                    "boostable": false
-                }
-            ]
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "magic",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 2500
-                },
-                {
-                    "skill": "firemaking",
-                    "amount": 1500
-                },
-                {
-                    "skill": "magic",
-                    "amount": 1500
-                },
-                {
-                    "skill": "mining",
-                    "amount": 2500
-                },
-                {
-                    "skill": "smithing",
-                    "amount": 2500
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 1500
-                }
-            ],
-            "questPoints": 2
+        {
+          amount: 8000,
+          skill: "prayer",
         },
-        "series": "Rise of the Red Axe"
+        {
+          amount: 1000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "theGolem",
-        "name": "The Golem",
-        "url": "https://oldschool.runescape.wiki/w/The_Golem",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 20,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 25,
-                    "boostable": false
-                }
-            ]
+    series: "Desert",
+    shortName: "spiritsOfTheElid",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Swan Song",
+    questLength: "Medium",
+    requirements: {
+      quests: ["One Small Favour", "Garden of Tranquillity"],
+      skills: [
+        {
+          boostable: false,
+          level: 100,
+          skill: "quest",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 1000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 1000
-                }
-            ],
-            "questPoints": 1
+        {
+          boostable: true,
+          level: 66,
+          skill: "magic",
         },
-        "series": null
+        {
+          boostable: true,
+          level: 62,
+          skill: "cooking",
+        },
+        {
+          boostable: true,
+          level: 62,
+          skill: "fishing",
+        },
+        {
+          boostable: true,
+          level: 45,
+          skill: "smithing",
+        },
+        {
+          boostable: false,
+          level: 42,
+          skill: "firemaking",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "crafting",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "theGrandTree",
-        "name": "The Grand Tree",
-        "url": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 25,
-                "boostable": false
-            }]
+    rewards: {
+      experience: [
+        {
+          amount: 10000,
+          skill: "fishing",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 7900
-                },
-                {
-                    "skill": "attack",
-                    "amount": 18400
-                },
-                {
-                    "skill": "magic",
-                    "amount": 2150
-                }
-            ],
-            "questPoints": 5
+        {
+          amount: 15000,
+          skill: "magic",
         },
-        "series": "Gnome"
+        {
+          amount: 10000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "theGreatBrainRobbery",
-        "name": "The Great Brain Robbery",
-        "url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Creature of Fenkenstrain",
-                "Cabin Fever",
-                "Pirate Pete subquest of Recipe for Disaster"
-            ],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 16,
-                    "boostable": false
-                },
-                {
-                    "skill": "construction",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "prayer",
-                    "level": 50,
-                    "boostable": true
-                }
-            ]
+    series: "Wise Old Man",
+    shortName: "swanSong",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Swan_Song",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Tai Bwo Wannai Trio",
+    questLength: "Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 15,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "construction",
-                    "amount": 2000
-                },
-                {
-                    "skill": "crafting",
-                    "amount": 3000
-                },
-                {
-                    "skill": "prayer",
-                    "amount": 6000
-                }
-            ],
-            "questPoints": 2
+        {
+          boostable: false,
+          level: 30,
+          skill: "cooking",
         },
-        "series": "Pirate"
+        {
+          boostable: false,
+          level: 5,
+          skill: "fishing",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "theHandInTheSand",
-        "name": "The Hand in the Sand",
-        "url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 2500,
+          skill: "attack",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 9000
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 1000
-                }
-            ],
-            "questPoints": 1
+        {
+          amount: 5000,
+          skill: "cooking",
         },
-        "series": null
+        {
+          amount: 5000,
+          skill: "fishing",
+        },
+        {
+          amount: 2500,
+          skill: "strength",
+        },
+      ],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "theKnightsSword",
-        "name": "The Knight's Sword",
-        "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
-        "members": false,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "mining",
-                "level": 10,
-                "boostable": false
-            }]
+    series: "Karamja",
+    shortName: "taiBwoWannaiTrio",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Tale of the Righteous",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Client of Kourend"],
+      skills: [
+        {
+          boostable: false,
+          level: 16,
+          skill: "strength",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "smithing",
-                "amount": 12725
-            }],
-            "questPoints": 1
+        {
+          boostable: false,
+          level: 10,
+          skill: "mining",
         },
-        "series": null
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "theLostTribe",
-        "name": "The Lost Tribe",
-        "url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "agility",
-                    "level": 13,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 13,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 17,
-                    "boostable": false
-                }
-            ]
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "mining",
-                "amount": 3000
-            }],
-            "questPoints": 1
-        },
-        "series": "Dorgeshuun"
+    rewards: {
+      experience: [],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "theQueenOfThieves",
-        "name": "The Queen of Thieves",
-        "url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [
-                "Client of Kourend"
-            ],
-            "skills": [{
-                "skill": "thieving",
-                "level": 20,
-                "boostable": false
-            }]
+    series: "Great Kourend",
+    shortName: "taleOfTheRighteous",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Tears of Guthix",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 43,
+          skill: "quest",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "thieving",
-                "amount": 2000
-            }],
-            "questPoints": 1
+        {
+          boostable: false,
+          level: 49,
+          skill: "firemaking",
         },
-        "series": "Great Kourend"
+        {
+          boostable: false,
+          level: 20,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 20,
+          skill: "mining",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "theRestlessGhost",
-        "name": "The Restless Ghost",
-        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short (<10 minutes)",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "prayer",
-                "amount": 1125
-            }],
-            "questPoints": 1
-        },
-        "series": null
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "sinsOfTheFather",
-        "name": "Sins of the Father",
-        "url": "https://oldschool.runescape.wiki/w/Sins_of_the_Father",
-        "members": true,
-        "description": "A darkness has fallen over Morytania. The Myreque freedom fighters have achieved their first major victory over the vampyres with the death of Ranis Drakan. However, their newly found hope is unlikely to last. After many years of absence, Lord Lowerniel Drakan, the vampyre overlord of Morytania, has finally emerged from his castle. He has but one goal. To avenge his brother and eradicate the Myreque once and for all.",
-        "difficulty": "Master",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "Vampyre Slayer",
-                "A Taste of Hope",
-                "Darkness of Hallowvale",
-                "In Aid of the Myreque",
-                "In Search of the Myreque",
-                "Nature Spirit",
-                "Priest in Peril",
-                "The Restless Ghost"
-            ],
-            "skills": [{
-                    "skill": "woodcutting",
-                    "level": 62,
-                    "boostable": false
-                },
-                {
-                    "skill": "fletching",
-                    "level": 60,
-                    "boostable": false
-                },
-                {
-                    "skill": "crafting",
-                    "level": 56,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 52,
-                    "boostable": false
-                },
-                {
-                    "skill": "attack",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "slayer",
-                    "level": 50,
-                    "boostable": false
-                },
-                {
-                    "skill": "magic",
-                    "level": 49,
-                    "boostable": false
-                }
-            ]
+    series: null,
+    shortName: "tearsOfGuthix",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Tears_of_Guthix_(quest)",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Temple of Ikov",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 42,
+          skill: "thieving",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 2,
-            "Items": [
-                "Blisterwood flail"
-            ],
-            "other": [
-                "Access to Darkmeyer",
-                "A tome of exp, granting 15,000 exp to any three skills (level 60 or higher). Can be the same skill.",
-                "Darkmeyer teleport via Drakan's medallion",
-                "Boat travel between Burgh de Rott, Slepe and the Icyene Graveyard"
-            ]
+        {
+          boostable: false,
+          level: 40,
+          skill: "ranged",
         },
-        "series": "Myreque"
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "theSlugMenace",
-        "name": "The Slug Menace",
-        "url": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium - Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "crafting",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "runecraft",
-                    "level": 30,
-                    "boostable": true
-                },
-                {
-                    "skill": "slayer",
-                    "level": 30,
-                    "boostable": true
-                },
-                {
-                    "skill": "thieving",
-                    "level": 30,
-                    "boostable": true
-                }
-            ]
+    rewards: {
+      experience: [
+        {
+          amount: 8000,
+          skill: "fletching",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "crafting",
-                    "amount": 3500
-                },
-                {
-                    "skill": "runecraft",
-                    "amount": 3500
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 3500
-                }
-            ],
-            "questPoints": 1
+        {
+          amount: 10500,
+          skill: "ranged",
         },
-        "series": "Sea Slug"
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "theTouristTrap",
-        "name": "The Tourist Trap",
-        "url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "fletching",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "smithing",
-                    "level": 20,
-                    "boostable": false
-                }
-            ]
+    series: "Mahjarrat",
+    shortName: "templeOfIkov",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "The Ascent of Arceuus",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Client of Kourend"],
+      skills: [
+        {
+          boostable: false,
+          level: 12,
+          skill: "hunter",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 2
-        },
-        "series": "Desert"
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "throneOfMiscellania",
-        "name": "Throne of Miscellania",
-        "url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "woodcutting",
-                    "level": 45,
-                    "boostable": false
-                },
-                {
-                    "skill": "farming",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "fishing",
-                    "level": 35,
-                    "boostable": false
-                }
-            ]
+    rewards: {
+      experience: [
+        {
+          amount: 1500,
+          skill: "hunter",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
+        {
+          amount: 500,
+          skill: "runecraft",
         },
-        "series": "Fremennik"
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "towerOfLife",
-        "name": "Tower of Life",
-        "url": "https://oldschool.runescape.wiki/w/Tower_of_Life",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "construction",
-                "level": 10,
-                "boostable": false
-            }]
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "construction",
-                    "amount": 1000
-                },
-                {
-                    "skill": "crafting",
-                    "amount": 500
-                },
-                {
-                    "skill": "thieving",
-                    "amount": 500
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": null
+    series: "Great Kourend",
+    shortName: "theAscentOfArceuus",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "The Corsair Curse",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "treeGnomeVillage",
-        "name": "Tree Gnome Village",
-        "url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                "skill": "attack",
-                "amount": 11450
-            }],
-            "questPoints": 2
-        },
-        "series": "Gnome"
+    rewards: {
+      experience: [],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "tribalTotem",
-        "name": "Tribal Totem",
-        "url": "https://oldschool.runescape.wiki/w/Tribal_Totem",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "thieving",
-                "level": 21,
-                "boostable": false
-            }]
+    series: null,
+    shortName: "theCorsairCurse",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "The Depths of Despair",
+    questLength: "Short",
+    requirements: {
+      quests: ["Client of Kourend"],
+      skills: [
+        {
+          boostable: false,
+          level: 18,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "thieving",
-                "amount": 1775
-            }],
-            "questPoints": 1
-        },
-        "series": null
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "trollRomance",
-        "name": "Troll Romance",
-        "url": "https://oldschool.runescape.wiki/w/Troll_Romance",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Troll Stronghold"
-            ],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 1500,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 8000
-                },
-                {
-                    "skill": "strength",
-                    "amount": 4000
-                }
-            ],
-            "questPoints": 2
-        },
-        "series": "Troll"
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "trollStronghold",
-        "name": "Troll Stronghold",
-        "url": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                "skill": "agility",
-                "level": 15,
-                "boostable": false
-            }]
+    series: "Great Kourend",
+    shortName: "theDepthsOfDespair",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Dig Site",
+    questLength: "Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 10,
+          skill: "agility",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1
+        {
+          boostable: false,
+          level: 10,
+          skill: "herblore",
         },
-        "series": "Troll"
+        {
+          boostable: false,
+          level: 25,
+          skill: "thieving",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "undergroundPass",
-        "name": "Underground Pass",
-        "url": "https://oldschool.runescape.wiki/w/Underground_Pass",
-        "members": true,
-        "difficulty": "Experienced",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "Biohazard"
-            ],
-            "skills": [{
-                "skill": "ranged",
-                "level": 25,
-                "boostable": false
-            }]
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "herblore",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "agility",
-                    "amount": 3000
-                },
-                {
-                    "skill": "attack",
-                    "amount": 3000
-                }
-            ],
-            "questPoints": 5
+        {
+          amount: 15300,
+          skill: "mining",
         },
-        "series": "Elf"
+      ],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "vampyreSlayer",
-        "name": "Vampyre Slayer",
-        "url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    series: "The Return of Zaros",
+    shortName: "theDigSite",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Dig_Site",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Eyes of Glouphrie",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 5,
+          skill: "construction",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "attack",
-                "amount": 4825
-            }],
-            "questPoints": 3
+        {
+          boostable: true,
+          level: 46,
+          skill: "magic",
         },
-        "series": null
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "wanted",
-        "name": "Wanted!",
-        "url": "https://oldschool.runescape.wiki/w/Wanted!",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [
-                "Recruitment Drive",
-                "Rune Mysteries",
-                "The Lost Tribe",
-                "Priest in Peril"
-            ],
-            "skills": [{
-                "skill": "quest",
-                "level": 32,
-                "boostable": false
-            }]
+    rewards: {
+      experience: [
+        {
+          amount: 250,
+          skill: "construction",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "slayer",
-                "amount": 5000
-            }],
-            "questPoints": 1
+        {
+          amount: 12000,
+          skill: "magic",
         },
-        "series": "Temple Knight"
+        {
+          amount: 6000,
+          skill: "runecraft",
+        },
+        {
+          amount: 2500,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "watchtower",
-        "name": "Watchtower",
-        "url": "https://oldschool.runescape.wiki/w/Watchtower",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Long",
-        "requirements": {
-            "quests": [],
-            "skills": [{
-                    "skill": "magic",
-                    "level": 15,
-                    "boostable": false
-                },
-                {
-                    "skill": "thieving",
-                    "level": 15,
-                    "boostable": false
-                },
-                {
-                    "skill": "agility",
-                    "level": 25,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 14,
-                    "boostable": false
-                },
-                {
-                    "skill": "mining",
-                    "level": 40,
-                    "boostable": false
-                }
-            ]
+    series: "Gnome",
+    shortName: "theEyesOfGlouphrie",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Feud",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: true,
+          level: 30,
+          skill: "thieving",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "magic",
-                "amount": 15250
-            }],
-            "questPoints": 4
-        },
-        "series": "Ogre"
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "waterfallQuest",
-        "name": "Waterfall Quest",
-        "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium (10-20 minutes)",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 15000,
+          skill: "thieving",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "attack",
-                    "amount": 13750
-                },
-                {
-                    "skill": "strength",
-                    "amount": 13750
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": "Elf, Gnome"
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "whatLiesBelow",
-        "name": "What Lies Below",
-        "url": "https://oldschool.runescape.wiki/w/What_Lies_Below",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short - Medium",
-        "requirements": {
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-           "experience": [{
-                    "skill": "defence",
-                    "amount": 2000
-                },
-                {
-                    "skill": "runecraft",
-                    "amount": 8000
-                }
-            ],
-            "questPoints": 1
-        },
-        "series": null
+    series: "Desert",
+    shortName: "theFeud",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Feud",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "The Forsaken Tower",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
     },
-    {
-        "miniquest": false,
-        "shortName": "witchsHouse",
-        "name": "Witch's House",
-        "url": "https://oldschool.runescape.wiki/w/Witch%27s_House",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 500,
+          skill: "mining",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "hitpoints",
-                "amount": 6325
-            }],
-            "questPoints": 4
+        {
+          amount: 500,
+          skill: "smithing",
         },
-        "series": null
+      ],
+      questPoints: 1,
     },
-    {
-        "miniquest": false,
-        "shortName": "witchsPotion",
-        "name": "Witch's Potion",
-        "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
-        "members": false,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short (<5 minutes)",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    series: "Great Kourend",
+    shortName: "theForsakenTower",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
+  },
+  {
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "The Fremennik Exiles",
+    questLength: "Medium",
+    requirements: {
+      quests: [
+        "The Fremennik Isles",
+        "Lunar Diplomacy",
+        "Mountain Daughter",
+        "Heroes' Quest",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 65,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [{
-                "skill": "magic",
-                "amount": 325
-            }],
-            "questPoints": 1
+        {
+          boostable: false,
+          level: 60,
+          skill: "slayer",
         },
-        "series": null
+        {
+          boostable: false,
+          level: 60,
+          skill: "smithing",
+        },
+        {
+          boostable: false,
+          level: 60,
+          skill: "fishing",
+        },
+        {
+          boostable: false,
+          level: 55,
+          skill: "runecraft",
+        },
+      ],
     },
-    {
-        "miniquest": false,
-        "shortName": "xMarksTheSpot",
-        "name": "X Marks the Spot",
-        "url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
-        "members": true,
-        "difficulty": "Novice",
-        "subquests": [],
-        "questLength": "Short",
-        "requirements": {
-            "quests": [],
-            "skills": []
+    rewards: {
+      experience: [
+        {
+          amount: 15000,
+          skill: "crafting",
         },
-        "rewards": {
-           "experience": [],
-            "questPoints": 1,
-            "other": [
-                "200 coins",
-                "Antique lamp which provides 300 XP in a skill of the player's choosing.",
-                "A beginner clue scroll (only if the player does not have one in their possession; can be claimed later if players had one in their possession already)"
-            ]
+        {
+          amount: 5000,
+          skill: "runecraft",
         },
-        "series": "Great Kourend"
+        {
+          amount: 15000,
+          skill: "slayer",
+        },
+      ],
+      questPoints: 2,
     },
-    {
-        "miniquest": false,
-        "shortName": "zogreFleshEaters",
-        "name": "Zogre Flesh Eaters",
-        "url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
-        "members": true,
-        "difficulty": "Intermediate",
-        "subquests": [],
-        "questLength": "Medium",
-        "requirements": {
-            "quests": [
-                "Big Chompy Bird Hunting",
-                "Jungle Potion"
-            ],
-            "skills": [{
-                    "skill": "smithing",
-                    "level": 4,
-                    "boostable": false
-                },
-                {
-                    "skill": "herblore",
-                    "level": 8,
-                    "boostable": false
-                },
-                {
-                    "skill": "ranged",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "fletching",
-                    "level": 30,
-                    "boostable": false
-                },
-                {
-                    "skill": "strength",
-                    "level": 10,
-                    "boostable": false
-                },
-                {
-                    "skill": "prayer",
-                    "level": 43,
-                    "boostable": false
-                }
-            ]
+    series: "Fremennik",
+    shortName: "theFremennikExiles",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "The Fremennik Isles",
+    questLength: "Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "construction",
         },
-        "rewards": {
-           "experience": [{
-                    "skill": "fletching",
-                    "amount": 2000
-                },
-                {
-                    "skill": "herblore",
-                    "amount": 2000
-                },
-                {
-                    "skill": "ranged",
-                    "amount": 2000
-                }
-            ],
-            "questPoints": 1
+        {
+          boostable: true,
+          level: 40,
+          skill: "agility",
         },
-        "series": "Ogre"
-    }
-]
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "construction",
+        },
+        {
+          amount: 5000,
+          skill: "crafting",
+        },
+        {
+          amount: 10000,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Fremennik",
+    shortName: "theFremennikIsles",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Fremennik Trials",
+    questLength: "Long",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2812,
+          skill: "agility",
+        },
+        {
+          amount: 2812,
+          skill: "attack",
+        },
+        {
+          amount: 2812,
+          skill: "crafting",
+        },
+        {
+          amount: 2812,
+          skill: "defence",
+        },
+        {
+          amount: 2812,
+          skill: "fishing",
+        },
+        {
+          amount: 2812,
+          skill: "fletching",
+        },
+        {
+          amount: 2812,
+          skill: "hitpoints",
+        },
+        {
+          amount: 2812,
+          skill: "strength",
+        },
+        {
+          amount: 2812,
+          skill: "thieving",
+        },
+        {
+          amount: 2812,
+          skill: "woodcutting",
+        },
+      ],
+      questPoints: 3,
+    },
+    series: "Fremennik",
+    shortName: "theFremennikTrials",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Giant Dwarf",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 12,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 16,
+          skill: "firemaking",
+        },
+        {
+          boostable: false,
+          level: 33,
+          skill: "magic",
+        },
+        {
+          boostable: false,
+          level: 14,
+          skill: "thieving",
+        },
+        {
+          boostable: false,
+          level: 20,
+          skill: "mining",
+        },
+        {
+          boostable: false,
+          level: 20,
+          skill: "smithing",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2500,
+          skill: "crafting",
+        },
+        {
+          amount: 1500,
+          skill: "firemaking",
+        },
+        {
+          amount: 1500,
+          skill: "magic",
+        },
+        {
+          amount: 2500,
+          skill: "mining",
+        },
+        {
+          amount: 2500,
+          skill: "smithing",
+        },
+        {
+          amount: 1500,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Rise of the Red Axe",
+    shortName: "theGiantDwarf",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Golem",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 25,
+          skill: "thieving",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "crafting",
+        },
+        {
+          amount: 1000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "theGolem",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Golem",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "The Grand Tree",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 25,
+          skill: "agility",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 7900,
+          skill: "agility",
+        },
+        {
+          amount: 18400,
+          skill: "attack",
+        },
+        {
+          amount: 2150,
+          skill: "magic",
+        },
+      ],
+      questPoints: 5,
+    },
+    series: "Gnome",
+    shortName: "theGrandTree",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Grand_Tree",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "The Great Brain Robbery",
+    questLength: "Medium",
+    requirements: {
+      quests: [
+        "Creature of Fenkenstrain",
+        "Cabin Fever",
+        "Pirate Pete subquest of Recipe for Disaster",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 16,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "construction",
+        },
+        {
+          boostable: true,
+          level: 50,
+          skill: "prayer",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "construction",
+        },
+        {
+          amount: 3000,
+          skill: "crafting",
+        },
+        {
+          amount: 6000,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Pirate",
+    shortName: "theGreatBrainRobbery",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Hand in the Sand",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 9000,
+          skill: "crafting",
+        },
+        {
+          amount: 1000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "theHandInTheSand",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
+  },
+  {
+    difficulty: "Intermediate",
+    members: false,
+    miniquest: false,
+    name: "The Knight's Sword",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 10,
+          skill: "mining",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 12725,
+          skill: "smithing",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "theKnightsSword",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Lost Tribe",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 13,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 13,
+          skill: "thieving",
+        },
+        {
+          boostable: false,
+          level: 17,
+          skill: "mining",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 3000,
+          skill: "mining",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Dorgeshuun",
+    shortName: "theLostTribe",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "The Queen of Thieves",
+    questLength: "Short",
+    requirements: {
+      quests: ["Client of Kourend"],
+      skills: [
+        {
+          boostable: false,
+          level: 20,
+          skill: "thieving",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Great Kourend",
+    shortName: "theQueenOfThieves",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "The Restless Ghost",
+    questLength: "Short (<10 minutes)",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1125,
+          skill: "prayer",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "theRestlessGhost",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
+  },
+  {
+    description:
+      "A darkness has fallen over Morytania. The Myreque freedom fighters have achieved their first major victory over the vampyres with the death of Ranis Drakan. However, their newly found hope is unlikely to last. After many years of absence, Lord Lowerniel Drakan, the vampyre overlord of Morytania, has finally emerged from his castle. He has but one goal. To avenge his brother and eradicate the Myreque once and for all.",
+    difficulty: "Master",
+    members: true,
+    miniquest: false,
+    name: "Sins of the Father",
+    questLength: "Long",
+    requirements: {
+      quests: [
+        "Vampyre Slayer",
+        "A Taste of Hope",
+        "Darkness of Hallowvale",
+        "In Aid of the Myreque",
+        "In Search of the Myreque",
+        "Nature Spirit",
+        "Priest in Peril",
+        "The Restless Ghost",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 62,
+          skill: "woodcutting",
+        },
+        {
+          boostable: false,
+          level: 60,
+          skill: "fletching",
+        },
+        {
+          boostable: false,
+          level: 56,
+          skill: "crafting",
+        },
+        {
+          boostable: false,
+          level: 52,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "attack",
+        },
+        {
+          boostable: false,
+          level: 50,
+          skill: "slayer",
+        },
+        {
+          boostable: false,
+          level: 49,
+          skill: "magic",
+        },
+      ],
+    },
+    rewards: {
+      Items: ["Blisterwood flail"],
+      experience: [],
+      other: [
+        "Access to Darkmeyer",
+        "A tome of exp, granting 15,000 exp to any three skills (level 60 or higher). Can be the same skill.",
+        "Darkmeyer teleport via Drakan's medallion",
+        "Boat travel between Burgh de Rott, Slepe and the Icyene Graveyard",
+      ],
+      questPoints: 2,
+    },
+    series: "Myreque",
+    shortName: "sinsOfTheFather",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Sins_of_the_Father",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Slug Menace",
+    questLength: "Medium - Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 30,
+          skill: "crafting",
+        },
+        {
+          boostable: true,
+          level: 30,
+          skill: "runecraft",
+        },
+        {
+          boostable: true,
+          level: 30,
+          skill: "slayer",
+        },
+        {
+          boostable: true,
+          level: 30,
+          skill: "thieving",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 3500,
+          skill: "crafting",
+        },
+        {
+          amount: 3500,
+          skill: "runecraft",
+        },
+        {
+          amount: 3500,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Sea Slug",
+    shortName: "theSlugMenace",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Slug_Menace",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "The Tourist Trap",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 10,
+          skill: "fletching",
+        },
+        {
+          boostable: false,
+          level: 20,
+          skill: "smithing",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 2,
+    },
+    series: "Desert",
+    shortName: "theTouristTrap",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Throne of Miscellania",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 45,
+          skill: "woodcutting",
+        },
+        {
+          boostable: false,
+          level: 10,
+          skill: "farming",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "mining",
+        },
+        {
+          boostable: false,
+          level: 35,
+          skill: "fishing",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 1,
+    },
+    series: "Fremennik",
+    shortName: "throneOfMiscellania",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "Tower of Life",
+    questLength: "Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 10,
+          skill: "construction",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1000,
+          skill: "construction",
+        },
+        {
+          amount: 500,
+          skill: "crafting",
+        },
+        {
+          amount: 500,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: null,
+    shortName: "towerOfLife",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Tower_of_Life",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Tree Gnome Village",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 11450,
+          skill: "attack",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Gnome",
+    shortName: "treeGnomeVillage",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Tribal Totem",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 21,
+          skill: "thieving",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 1775,
+          skill: "thieving",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "tribalTotem",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Tribal_Totem",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Troll Romance",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Troll Stronghold"],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 8000,
+          skill: "agility",
+        },
+        {
+          amount: 4000,
+          skill: "strength",
+        },
+      ],
+      questPoints: 2,
+    },
+    series: "Troll",
+    shortName: "trollRomance",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Troll_Romance",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Troll Stronghold",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 15,
+          skill: "agility",
+        },
+      ],
+    },
+    rewards: {
+      experience: [],
+      questPoints: 1,
+    },
+    series: "Troll",
+    shortName: "trollStronghold",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Troll_Stronghold",
+  },
+  {
+    difficulty: "Experienced",
+    members: true,
+    miniquest: false,
+    name: "Underground Pass",
+    questLength: "Long",
+    requirements: {
+      quests: ["Biohazard"],
+      skills: [
+        {
+          boostable: false,
+          level: 25,
+          skill: "ranged",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 3000,
+          skill: "agility",
+        },
+        {
+          amount: 3000,
+          skill: "attack",
+        },
+      ],
+      questPoints: 5,
+    },
+    series: "Elf",
+    shortName: "undergroundPass",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Underground_Pass",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Vampyre Slayer",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 4825,
+          skill: "attack",
+        },
+      ],
+      questPoints: 3,
+    },
+    series: null,
+    shortName: "vampyreSlayer",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Wanted!",
+    questLength: "Long",
+    requirements: {
+      quests: [
+        "Recruitment Drive",
+        "Rune Mysteries",
+        "The Lost Tribe",
+        "Priest in Peril",
+      ],
+      skills: [
+        {
+          boostable: false,
+          level: 32,
+          skill: "quest",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 5000,
+          skill: "slayer",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Temple Knight",
+    shortName: "wanted",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Wanted!",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Watchtower",
+    questLength: "Long",
+    requirements: {
+      quests: [],
+      skills: [
+        {
+          boostable: false,
+          level: 15,
+          skill: "magic",
+        },
+        {
+          boostable: false,
+          level: 15,
+          skill: "thieving",
+        },
+        {
+          boostable: false,
+          level: 25,
+          skill: "agility",
+        },
+        {
+          boostable: false,
+          level: 14,
+          skill: "herblore",
+        },
+        {
+          boostable: false,
+          level: 40,
+          skill: "mining",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 15250,
+          skill: "magic",
+        },
+      ],
+      questPoints: 4,
+    },
+    series: "Ogre",
+    shortName: "watchtower",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Watchtower",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Waterfall Quest",
+    questLength: "Medium (10-20 minutes)",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 13750,
+          skill: "attack",
+        },
+        {
+          amount: 13750,
+          skill: "strength",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Elf, Gnome",
+    shortName: "waterfallQuest",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Waterfall_Quest",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "What Lies Below",
+    questLength: "Short - Medium",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "defence",
+        },
+        {
+          amount: 8000,
+          skill: "runecraft",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "whatLiesBelow",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/What_Lies_Below",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Witch's House",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 6325,
+          skill: "hitpoints",
+        },
+      ],
+      questPoints: 4,
+    },
+    series: null,
+    shortName: "witchsHouse",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Witch%27s_House",
+  },
+  {
+    difficulty: "Novice",
+    members: false,
+    miniquest: false,
+    name: "Witch's Potion",
+    questLength: "Short (<5 minutes)",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 325,
+          skill: "magic",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: null,
+    shortName: "witchsPotion",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
+  },
+  {
+    difficulty: "Novice",
+    members: true,
+    miniquest: false,
+    name: "X Marks the Spot",
+    questLength: "Short",
+    requirements: {
+      quests: [],
+      skills: [],
+    },
+    rewards: {
+      experience: [],
+      other: [
+        "200 coins",
+        "Antique lamp which provides 300 XP in a skill of the player's choosing.",
+        "A beginner clue scroll (only if the player does not have one in their possession; can be claimed later if players had one in their possession already)",
+      ],
+      questPoints: 1,
+    },
+    series: "Great Kourend",
+    shortName: "xMarksTheSpot",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
+  },
+  {
+    difficulty: "Intermediate",
+    members: true,
+    miniquest: false,
+    name: "Zogre Flesh Eaters",
+    questLength: "Medium",
+    requirements: {
+      quests: ["Big Chompy Bird Hunting", "Jungle Potion"],
+      skills: [
+        {
+          boostable: false,
+          level: 4,
+          skill: "smithing",
+        },
+        {
+          boostable: false,
+          level: 8,
+          skill: "herblore",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "ranged",
+        },
+        {
+          boostable: false,
+          level: 30,
+          skill: "fletching",
+        },
+        {
+          boostable: false,
+          level: 10,
+          skill: "strength",
+        },
+        {
+          boostable: false,
+          level: 43,
+          skill: "prayer",
+        },
+      ],
+    },
+    rewards: {
+      experience: [
+        {
+          amount: 2000,
+          skill: "fletching",
+        },
+        {
+          amount: 2000,
+          skill: "herblore",
+        },
+        {
+          amount: 2000,
+          skill: "ranged",
+        },
+      ],
+      questPoints: 1,
+    },
+    series: "Ogre",
+    shortName: "zogreFleshEaters",
+    subquests: [],
+    url: "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
+  },
+];

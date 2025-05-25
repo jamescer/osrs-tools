@@ -1,14 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES6", // Target modern JS (ES6)
-    "module": "commonjs", // Use CommonJS module system
-    "strict": true, // Enable strict type-checking
-    "esModuleInterop": true, // For compatibility with non-ESM modules
-    "skipLibCheck": true, // Skip type checking for declaration files
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist" // Compiled JS will be placed in "dist" folder
+    "declaration": true,
+    "outDir": "dist"
   },
-  "include": [
-    "src/**/*.ts" // Include all TypeScript files in the "src" folder
-  ]
+  "exclude": ["coverage", "dist", "node_modules", "test"],
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "include": ["src/**/*"]
 }

@@ -1,13 +1,17 @@
 {
   "name": "osrs-tools",
   "description": "A JavaScript package to provide JSON data for all current Old School RuneScape quests. This package aims to help junior software developers create tools related to Old School RuneScape. It's a work in progress, and issues should be reported to jamescer@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com.",
-  "version": "0.1.5",
+  "version": "0.2.2",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**"
+  ],
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18"
   },
   "scripts": {
+    "lint": "npx eslint --fix .",
     "test": "jest --coverage",
     "scrapeQuestList": "ts-node tools/ScrapeQuestData.ts",
     "scrapeSlayerData": "ts-node tools/ScrapeSlayerData.ts",
@@ -15,40 +19,31 @@
     "getQuestDetails": "ts-node tools/GetQuestDetails.ts",
     "build": "tsc -p .",
     "dev": "tsc --watch -p .",
-    "test:mocha": "mocha ./src/lib/tests/unit/Quest.test.js --timeout 30000 --exit",
-    "prepublishOnly": "npm test",
+    "backupprepublishOnly": "npm run lint && npm run test && npm run build",
+    "prepublishOnly": " npm run build && npm test",
     "postpublish": "git push && git push --tags",
     "preversion": "gulp version && npm test",
     "version": "npm run build && git add dist && git add package.json"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.7",
-    "@babel/preset-env": "^7.25.7",
-    "@babel/preset-typescript": "^7.25.7",
-    "@types/chai": "^5.0.1",
-    "@types/jest": "^26.0.24",
+    "@tsconfig/recommended": "^1.0.7",
+    "@types/jest": "^29.5.13",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^9.11.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
     "jest": "^29.7.0",
-    "mocha": "^11.1.0",
-    "ts-jest": "^29.2.6",
-    "ts-node": "^10.9.2",
-    "typescript": "^4.9.5"
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
   },
-  "dependencies": {
-    "axios": "^1.7.7",
-    "babel": "^6.23.0",
-    "cheerio": "^1.0.0",
-    "jest-circus": "^29.7.0",
-    "node-fetch": "^3.3.2",
-    "travis": "^0.1.1"
-  },
+  "dependencies": {},
   "publishConfig": {
     "registryBackup": "https://npm.pkg.github.com/jamescer"
-  },
-  "files": [
-    "src/**"
-  ],
-  "bin": {
-    "osrs-tools": "lib/cli.js"
   },
   "repository": {
     "type": "git",

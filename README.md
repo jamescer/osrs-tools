@@ -64,75 +64,13 @@ Here’s how to use the tool in your project:
 import { QuestTool, questArray, questObject } from 'osrs-tools';
 ```
 
-### Working with Quests
+### Module Optional Dependencies
+If you want to use your account to test quest tool compatibilities or check what you can unlock for slayer, I am referencing the repository  [osrs-json-hiscores](https://www.npmjs.com/package/osrs-json-hiscores)
 
-```javascript
-// Instantiate the QuestTool class
-const tool = new QuestTool();
-
-// Get quest data as an array
-const questArrayData = questArray();
-
-// Get quest data as an object
-const questObjectData = questObject();
-
-// Output the quest data
-console.log(questArrayData);
-console.log(questObjectData);
+```bash
+npm install osrs-json-hiscores --save
 ```
 
-### Working with Slayer Masters and Tasks
-
-```javascript
-import { Turael, Duradel } from 'osrs-tools';
-
-// Access Turael's tasks
-console.log(Turael.getTasks());
-
-// Get a random task from Duradel
-const randomTask = Duradel.getRandomTask();
-console.log(randomTask);
-```
-
-### Slayer Rewards and Unlocks
-
-```javascript
-import { SlayerUnlocks, SlayerBuys } from 'osrs-tools';
-
-// List all available Slayer unlocks
-console.log(SlayerUnlocks);
-
-// List all items available for purchase with Slayer points
-console.log(SlayerBuys);
-```
-
-## API Reference
-
-### Quest API
-
-| Method            | Description                                                             | Type              |
-| ----------------- | ----------------------------------------------------------------------- | ----------------- |
-| `new QuestTool()` | Constructor for the `QuestTool` class.                                  | Class Constructor |
-| `questObject()`   | Function that returns an object with quest data (keys are quest names). | Function          |
-| `questArray()`    | Function that returns an array of quests, ordered alphabetically.       | Function          |
-
-### Slayer API
-
-| Class/Method         | Description                                                                 |
-| -------------------- | ------------------------------------------------------------------------- |
-| `SlayerMaster`       | Represents a Slayer Master, including tasks, location, and requirements. |
-| `getTasks()`         | Returns a list of tasks assigned by the Slayer Master.                   |
-| `getRandomTask()`    | Returns a random task based on task weights.                             |
-| `SlayerUnlocks`      | Predefined list of Slayer unlocks with costs and descriptions.           |
-| `SlayerBuys`         | Predefined list of items available for purchase with Slayer points.      |
-
-## To-Do
-
-- Implement a recursive function for determining quest completion.
-- Develop a quest completion tracking array.
-- Refactor `questArray()` and `questObject()` to return objects instead of functions.
-- Continue work on the **Recipe for Disaster** quest.
-- Fix and validate all Slayer data.
 
 ## Contributing
 

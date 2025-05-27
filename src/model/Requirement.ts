@@ -1,6 +1,7 @@
 // Base interface for all types of requirements
 interface Requirement {
   description: string;
+  type: RequirementType;
 }
 
 // TODO: Add a requirement type for all "levels" (combat, slayer, farming, crafting etc.)

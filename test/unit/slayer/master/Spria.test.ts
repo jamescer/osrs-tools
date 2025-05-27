@@ -4,8 +4,7 @@ import {
 } from "../../../../src/model/Requirement";
 import { Assignment } from "../../../../src/model/slayer/Assignment";
 import { Task } from "../../../../src/model/slayer/Task";
-// Test for the Tureal data from the JSON file
-import { Turael } from "../../../../src/model/slayer/SlayerData";
+// Test for the Spria data from the JSON file
 import { Spria } from "../../../../src/model/slayer/Masters";
 
 describe("Spria", () => {

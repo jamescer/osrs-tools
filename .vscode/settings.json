@@ -1,7 +1,0 @@
-{
-  "python.linting.pylintEnabled": false,
-  "python.linting.flake8Enabled": true,
-  "python.linting.pycodestyleArgs": ["--max-line-length=100"],
-  "python.linting.enabled": false,
-  "liveServer.settings.port": 5501
-}

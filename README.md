@@ -71,6 +71,8 @@ If you want to use your account to test quest tool compatibilities or check what
 npm install osrs-json-hiscores --save
 ```
 
+### Todo
+- Fix quest completion detection
 
 ## Contributing
 

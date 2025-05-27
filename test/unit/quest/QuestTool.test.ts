@@ -1,11 +1,12 @@
 import { QuestTool } from '../../../src/model/quest/QuestTool';
 import { OsrsAccount } from '../../../src/model/account/OsrsAccount';
 import { Quest } from '../../../src/model/quest/Quest';
-
+import { account } from '../../resources/A_Squeezer_Main_Data';
 describe('QuestTool', () => {
   it('should set and get OsrsAccount', () => {
-    const acc = new OsrsAccount('Test');
+    const acc = OsrsAccount.fromJson(account);
     const tool = new QuestTool();
+
     expect(tool.getOsrsAccount()).toBeUndefined();
     tool.setOsrsAccount(acc);
     expect(tool.getOsrsAccount()).toBe(acc);

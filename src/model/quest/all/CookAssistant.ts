@@ -41,11 +41,16 @@ const CookAssistant: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Cooking: 300 },
+    experience: [
+      { skill: Skill.Cooking, amount: 300 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: ["Ability to use the Cook's range"],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

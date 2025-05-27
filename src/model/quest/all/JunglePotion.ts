@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement, Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const JunglePotion: Quest = {
   id: 0,
@@ -26,11 +27,16 @@ const JunglePotion: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Herblore: 775 },
+    experience: [
+      { skill: Skill.Herblore, amount: 775 }
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

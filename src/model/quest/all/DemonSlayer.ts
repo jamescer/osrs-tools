@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const DemonSlayer: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,14 @@ const DemonSlayer: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: {},
+    experience: [],
     questPoints: 3,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

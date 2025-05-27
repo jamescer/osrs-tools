@@ -1,9 +1,47 @@
 import { Requirement } from '../Requirement';
 
-// SkillRequirement interface
-interface SkillRequirement {
-  level: number; // Required skill level
-  isBoostable: boolean; // Flag to indicate if the skill is boostable
+interface QuestRewardExperience {
+  skill: string;
+  amount: number;
+}
+
+interface QuestRewardItem {
+  name: string;
+  quantity?: number;
+  note?: string; // e.g., "choice of one", "untradeable"
+}
+
+interface QuestRewardUnlock {
+  description: string;
+  url?: string;
+}
+
+interface QuestRewardLamp {
+  amount: number;
+  skillRestriction?: string | string[]; // e.g., "Any", "60+"
+  note?: string;
+}
+
+interface QuestRewardPoints {
+  type: string; // e.g., "Slayer", "Quest"
+  amount: number;
+}
+
+interface QuestRewardPet {
+  name: string;
+  note?: string;
+}
+
+interface QuestRewards {
+  experience?: QuestRewardExperience[];
+  items?: QuestRewardItem[];
+  unlocks?: QuestRewardUnlock[];
+  lamps?: QuestRewardLamp[];
+  points?: QuestRewardPoints[];
+  pets?: QuestRewardPet[];
+  questPoints: number;
+  areas?: string[];
+  // Add more as needed
 }
 
 // Quest interface
@@ -31,13 +69,7 @@ interface Quest {
   recommendedItems: string[]; // Recommended items
   recommendedSkills: { [skill: string]: number }; // Recommended skills
   recommendedPrayers: string[]; // Recommended prayers
-  rewards: {
-    experience?: { [skill: string]: number }; // Experience rewards per skill
-    items?: string[]; // List of items rewarded
-    questPoints: number; // List of items rewarded
-    areas?: string[]; // List of items rewarded
-    grants?: string[]; // List of items rewarded
-  };
+  rewards: QuestRewards;
   [key: string]: any; // Additional properties
 }
 

@@ -26,11 +26,18 @@ const BigChompyBirdHunting: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Cooking: 1470, Fletching: 262, Ranged: 735 },
+    experience: [
+      { skill: 'Cooking', amount: 1470 },
+      { skill: 'Fletching', amount: 262 },
+      { skill: 'Ranged', amount: 735 },
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

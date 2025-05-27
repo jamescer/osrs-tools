@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const DwarfCannon: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,16 @@ const DwarfCannon: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Crafting: 750 },
+    experience: [
+      { skill: Skill.Crafting, amount: 750 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

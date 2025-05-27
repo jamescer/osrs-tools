@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement, RequirementType } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const agilityRequirement: LevelRequirement = {
   skillName: 'agility',
@@ -34,11 +35,18 @@ const HorrorFromTheDeep: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Magic: 4662, Ranged: 4662.5, Strength: 4662.5 },
+    experience: [
+      { skill: Skill.Magic, amount: 4662 },
+      { skill: Skill.Ranged, amount: 4662.5 },
+      { skill: Skill.Strength, amount: 4662.5 },
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

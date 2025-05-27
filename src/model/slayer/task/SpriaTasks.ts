@@ -1,17 +1,17 @@
 import {
   CombatLevelRequirement,
-  QuestRequirement,
   SlayerLevelRequirement,
+  QuestRequirement,
 } from "../../Requirement";
 import { Task } from "../Task";
 
-export const SpriaTasks: Task[] = [
+const spriaTasks: Task[] = [
   new Task(
     "Banshees",
     15,
     30,
     [
-      new CombatLevelRequirement(15),
+      new SlayerLevelRequirement(15),
       new CombatLevelRequirement(20),
       new QuestRequirement("Priest in Peril"),
     ],
@@ -19,6 +19,9 @@ export const SpriaTasks: Task[] = [
     null,
     ["Twisted Banshee"],
     8,
+    [],
+    0,
+    ["Slayer Tower (CKS)"],
   ),
   new Task(
     "Bats",
@@ -29,6 +32,9 @@ export const SpriaTasks: Task[] = [
     null,
     ["Giant bat", "Albino bat", "Death wing"],
     7,
+    [],
+    0,
+    ["Silvarea, North of Digsite"],
   ),
   new Task(
     "Bears",
@@ -46,6 +52,9 @@ export const SpriaTasks: Task[] = [
       "Artio",
     ],
     7,
+    [],
+    0,
+    ["South-west of Legends' Guild (cannon)"],
   ),
   new Task(
     "Birds",
@@ -66,6 +75,9 @@ export const SpriaTasks: Task[] = [
       "Duckling",
     ],
     6,
+    [],
+    0,
+    ["West of the Champions' Guild (cannon ducks)"],
   ),
   new Task(
     "Cave bugs",
@@ -76,6 +88,9 @@ export const SpriaTasks: Task[] = [
     null,
     [],
     8,
+    [],
+    0,
+    ["Dorgesh-Kaan South Dungeon (AJQ)"],
   ),
   new Task(
     "Cave crawlers",
@@ -86,6 +101,9 @@ export const SpriaTasks: Task[] = [
     null,
     [],
     8,
+    [],
+    0,
+    ["Fremennik Slayer Dungeon (AJR)"],
   ),
   new Task(
     "Cave slime",
@@ -96,6 +114,9 @@ export const SpriaTasks: Task[] = [
     null,
     [],
     8,
+    [],
+    0,
+    ["Dorgesh-Kaan South Dungeon (AJQ)"],
   ),
   new Task(
     "Cows",
@@ -106,16 +127,22 @@ export const SpriaTasks: Task[] = [
     null,
     ["Buffalo", "Cow calf", "Undead cow"],
     8,
+    [],
+    0,
+    ["East of Lumbridge"],
   ),
   new Task(
     "Crawling Hands",
     15,
     30,
-    [new SlayerLevelRequirement(5), new QuestRequirement("Priest in Peril")],
+    [new SlayerLevelRequirement(5), new CombatLevelRequirement(20)],
     null,
     null,
     [],
     8,
+    [],
+    0,
+    ["Slayer Tower (CKS)"],
   ),
   new Task(
     "Dogs",
@@ -126,6 +153,9 @@ export const SpriaTasks: Task[] = [
     null,
     ["Jackal", "Guard dog", "Wild dog", "Reanimated dog"],
     7,
+    [],
+    0,
+    ["East of Sophanem (Pharaoh's sceptre - Jaleustrophos)"],
   ),
   new Task(
     "Dwarves",
@@ -136,6 +166,9 @@ export const SpriaTasks: Task[] = [
     null,
     ["Black Guard", "Chaos Dwarf", "Dwarf gang member"],
     7,
+    [],
+    0,
+    ["White Wolf Tunnel pub"],
   ),
   new Task(
     "Ghosts",
@@ -146,6 +179,9 @@ export const SpriaTasks: Task[] = [
     null,
     ["Tortured soul", "Forgotten Soul", "Revenants", "Death wing"],
     7,
+    [],
+    0,
+    ["Catacombs of Kourend"],
   ),
   new Task(
     "Goblins",
@@ -161,6 +197,9 @@ export const SpriaTasks: Task[] = [
       "Sergeant Grimspike",
     ],
     7,
+    [],
+    0,
+    ["East of Lumbridge"],
   ),
   new Task(
     "Icefiends",
@@ -171,9 +210,12 @@ export const SpriaTasks: Task[] = [
     null,
     [],
     8,
+    [],
+    0,
+    ["Ice Mountain"],
   ),
   new Task(
-    "Kalphites",
+    "Kalphite",
     15,
     30,
     [new CombatLevelRequirement(15)],
@@ -186,6 +228,9 @@ export const SpriaTasks: Task[] = [
       "Kalphite Queen",
     ],
     6,
+    [],
+    0,
+    ["Kalphite Cave"],
   ),
   new Task(
     "Lizards",
@@ -194,13 +239,11 @@ export const SpriaTasks: Task[] = [
     [new SlayerLevelRequirement(22)],
     null,
     null,
-    [
-      "Small Lizard",
-      "Desert Lizard",
-      "Sulphur Lizard (Slayer 44)",
-      "Grimy Lizard (Slayer 44)",
-    ],
+    ["Small Lizard", "Desert Lizard", "Sulphur Lizard", "Grimy Lizard"],
     8,
+    [],
+    0,
+    ["North of Nardah Fairy Ring (DLQ)", "Karuulm Slayer Dungeon"],
   ),
   new Task(
     "Minotaurs",
@@ -211,6 +254,9 @@ export const SpriaTasks: Task[] = [
     null,
     [],
     7,
+    [],
+    0,
+    ["Stronghold of Security"],
   ),
   new Task(
     "Monkeys",
@@ -226,8 +272,17 @@ export const SpriaTasks: Task[] = [
       "Monkey Zombie",
       "Demonic Gorilla",
       "Tortured Gorilla",
+      "Maniacal Monkey",
     ],
     6,
+    [],
+    0,
+    [
+      "Ardougne Zoo",
+      "Karamja north-west of glider",
+      "Kruk's Dungeon",
+      "North of Cairn Isle",
+    ],
   ),
   new Task(
     "Rats",
@@ -246,6 +301,9 @@ export const SpriaTasks: Task[] = [
       "Scurrius",
     ],
     7,
+    [],
+    0,
+    ["Ferox Enclave"],
   ),
   new Task(
     "Scorpions",
@@ -265,6 +323,9 @@ export const SpriaTasks: Task[] = [
       "Scorpia's guardian",
     ],
     7,
+    [],
+    0,
+    ["Al Kharid Mine", "Dwarven Mine"],
   ),
   new Task(
     "Skeletons",
@@ -283,16 +344,9 @@ export const SpriaTasks: Task[] = [
       "Calvar'ion",
     ],
     7,
-  ),
-  new Task(
-    "Sourhogs",
-    15,
-    25,
-    [new QuestRequirement("A Porcine of Interest")],
-    null,
-    null,
     [],
-    6,
+    0,
+    ["Digsite Dungeon", "Catacombs of Kourend", "Edgeville Dungeon"],
   ),
   new Task(
     "Spiders",
@@ -302,6 +356,8 @@ export const SpriaTasks: Task[] = [
     null,
     null,
     [
+      "Araxxor",
+      "Araxyte",
       "Giant spider",
       "Shadow spider",
       "Giant crypt spider",
@@ -311,6 +367,9 @@ export const SpriaTasks: Task[] = [
       "Spindel",
     ],
     6,
+    [],
+    0,
+    ["Outside H.A.M. Hideout", "Clock Tower dungeon"],
   ),
   new Task(
     "Wolves",
@@ -319,8 +378,11 @@ export const SpriaTasks: Task[] = [
     [new CombatLevelRequirement(20)],
     null,
     null,
-    ["Big Wolf", "Desert Wolf", "Ice wolf", "Jungle wolf", "White wolf"],
+    ["Big Wolf", "Desert Wolf", "Dire Wolf", "Ice wolf", "Jungle wolf", "White wolf"],
     7,
+    [],
+    0,
+    ["White Wolf Mountain", "Stronghold of Security"],
   ),
   new Task(
     "Zombies",
@@ -337,8 +399,15 @@ export const SpriaTasks: Task[] = [
       "Undead one",
       "Zombie rat",
       "Zogre",
+      "Armoured zombie",
+      "Zombie pirate",
       "Vorkath",
     ],
     7,
+    [],
+    0,
+    ["Alice's Farm West of Ectofuntus"],
   ),
 ];
+
+export { spriaTasks };

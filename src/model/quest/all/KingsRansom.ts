@@ -1,5 +1,9 @@
 import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
+import {
+  LevelRequirement,
+  QuestRequirement,
+  Requirement,
+} from '../../Requirement';
 
 const KingsRansom: Quest = {
   id: 0,
@@ -8,12 +12,12 @@ const KingsRansom: Quest = {
   difficulty: 'Experienced',
   length: 'Medium',
   requirements: [
-    new QuestRequirement('Black Knights\' Fortress'),
-     new QuestRequirement('Holy Grail'),
-     new QuestRequirement('Murder Mystery'),
-     new QuestRequirement('One Small Favour'),
-     new LevelRequirement('Magic',45,false),
-     new LevelRequirement('Defence',65,true)
+    new QuestRequirement("Black Knights' Fortress"),
+    new QuestRequirement('Holy Grail'),
+    new QuestRequirement('Murder Mystery'),
+    new QuestRequirement('One Small Favour'),
+    new LevelRequirement('Magic', 45, false),
+    new LevelRequirement('Defence', 65, true),
   ],
   questPoints: 1,
   startLocation: '',
@@ -22,7 +26,7 @@ const KingsRansom: Quest = {
   status: QuestStatus.NotStarted,
   miniquest: false,
   shortName: 'kingsRansom',
-  url: "https://oldschool.runescape.wiki/w/King%27s_Ransom",
+  url: 'https://oldschool.runescape.wiki/w/King%27s_Ransom',
   series: 'Camelot (#3)',
   age: '',
   difficultyLevel: 'Experienced',
@@ -33,11 +37,17 @@ const KingsRansom: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Defence: 33000, Magic: 5000 },
+    experience: [
+      { skill: 'Defence', amount: 33000 },
+      { skill: 'Magic', amount: 5000 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

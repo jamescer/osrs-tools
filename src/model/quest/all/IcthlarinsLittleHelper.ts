@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const IcthlarinsLittleHelper: Quest = {
   id: 0,
@@ -26,11 +27,18 @@ const IcthlarinsLittleHelper: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Agility: 4000, Thieving: 4500, Woodcutting: 4000 },
+    experience: [
+      { skill: Skill.Agility, amount: 4000 },
+      { skill: Skill.Thieving, amount: 4500 },
+      { skill: Skill.Woodcutting, amount: 4000 }
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

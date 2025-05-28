@@ -26,11 +26,18 @@ const CabinFever: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Agility: 7000, Crafting: 7000, Smithing: 7000 },
+    experience: [
+      { skill: 'Agility', amount: 7000 },
+      { skill: 'Crafting', amount: 7000 },
+      { skill: 'Smithing', amount: 7000 },
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

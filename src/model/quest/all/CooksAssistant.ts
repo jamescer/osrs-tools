@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const CooksAssistant: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,16 @@ const CooksAssistant: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Cooking: 300 },
+    experience: [
+      { skill: Skill.Cooking, amount: 300 }
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

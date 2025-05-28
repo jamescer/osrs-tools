@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const GrimTales: Quest = {
   id: 0,
@@ -26,11 +27,21 @@ const GrimTales: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Agility: 6000, Farming: 4000, Herblore: 5000, Hitpoints: 5000, Thieving: 6000, Woodcutting: 14000 },
+    experience: [
+      { skill: Skill.Agility, amount: 6000 },
+      { skill: Skill.Farming, amount: 4000 },
+      { skill: Skill.Herblore, amount: 5000 },
+      { skill: Skill.Hitpoints, amount: 5000 },
+      { skill: Skill.Thieving, amount: 6000 },
+      { skill: Skill.Woodcutting, amount: 14000 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

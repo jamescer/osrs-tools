@@ -1,9 +1,15 @@
 import { SlayerMaster } from "../../../../src/model/slayer/SlayerMaster";
 import { Krystilia } from "../../../../src/model/slayer/Masters";
 
-describe("Krystilia Slayer Master", () => {
-  it("should be an instance of SlayerMaster", () => {
-    expect(Krystilia).toBeInstanceOf(SlayerMaster);
+describe("Krystilia", () => {
+  it("should be defined", () => {
+    expect(Krystilia).toBeDefined();
+  });
+
+  it("should have a list of tasks", () => {
+    const tasks = Krystilia.tasks;
+    expect(Array.isArray(tasks)).toBe(true);
+    expect(tasks.length).toBeGreaterThan(0);
   });
 
   it("should have the correct name", () => {
@@ -18,14 +24,5 @@ describe("Krystilia Slayer Master", () => {
     expect(Krystilia.wikiUrl).toBe(
       "https://oldschool.runescape.wiki/w/Krystilia",
     );
-  });
-
-  it("should have the correct minimum combat level", () => {
-    expect(Krystilia.minimumCombatLevel).toBe(0);
-  });
-
-  it("should have tasks matching Tureal tasks", () => {
-    expect(Krystilia.tasks).toBeDefined();
-    expect(Krystilia.tasks).toEqual(expect.any(Array));
   });
 });

@@ -26,11 +26,17 @@ const ASoulsBane: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Defence: 500, Hitpoints: 500 },
+    experience: [
+      { skill: 'Defence', amount: 500 },
+      { skill: 'Hitpoints', amount: 500 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

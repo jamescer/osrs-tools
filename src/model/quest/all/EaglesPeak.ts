@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const EaglesPeak: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,16 @@ const EaglesPeak: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Hunter: 2500 },
+    experience: [
+      { skill: Skill.Hunter, amount: 2500 },
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

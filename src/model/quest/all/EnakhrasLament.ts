@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const EnakhrasLament: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,14 @@ const EnakhrasLament: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Crafting: 7000, Firemaking: 7000, Magic: 7000, Mining: 7000 },
+    experience: [],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

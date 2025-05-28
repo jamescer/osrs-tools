@@ -4,6 +4,7 @@ import {
   QuestRequirement,
   Requirement,
 } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const InSearchOfTheMyreque: Quest = {
   id: 0,
@@ -33,17 +34,20 @@ const InSearchOfTheMyreque: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: {
-      Attack: 600,
-      Crafting: 600,
-      Defence: 600,
-      Hitpoints: 600,
-      Strength: 600,
-    },
+    experience: [
+      { skill: Skill.Attack, amount: 600 },
+      { skill: Skill.Crafting, amount: 600 },
+      { skill: Skill.Defence, amount: 600 },
+      { skill: Skill.Hitpoints, amount: 600 },
+      { skill: Skill.Strength, amount: 600 },
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

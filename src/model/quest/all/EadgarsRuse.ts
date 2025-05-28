@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const EadgarsRuse: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,16 @@ const EadgarsRuse: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Herblore: 11000 },
+    experience: [
+      { skill: Skill.Herblore, amount: 11000 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

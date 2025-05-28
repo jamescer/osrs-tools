@@ -1,9 +1,10 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const DragonSlayerII: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Dragon Slayer II",
+  name: 'Dragon Slayer II',
   members: true,
   difficulty: 'Grandmaster',
   length: 'Very long',
@@ -14,7 +15,7 @@ const DragonSlayerII: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "dragonSlayerII",
+  shortName: 'dragonSlayerII',
   url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer_II',
   series: 'Dragonkin',
   age: '',
@@ -26,11 +27,19 @@ const DragonSlayerII: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Agility: 15000, Mining: 18000, Smithing: 25000, Thieving: 15000 },
+    experience: [
+      { skill: Skill.Agility, amount: 15000 },
+      { skill: Skill.Mining, amount: 18000 },
+      { skill: Skill.Smithing, amount: 25000 },
+      { skill: Skill.Thieving, amount: 15000 },
+    ],
     questPoints: 5,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

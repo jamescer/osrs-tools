@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const EnlightenedJourney: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,14 @@ const EnlightenedJourney: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Crafting: 2000, Farming: 3000, Firemaking: 4000, Woodcutting: 1500 },
+    experience: [],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

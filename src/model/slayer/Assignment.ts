@@ -1,5 +1,5 @@
-import { Requirement } from "../Requirement";
-import { Task } from "./Task";
+import { Requirement } from '../Requirement';
+import { Task } from './Task';
 
 // A Class that represents an assignment of a task to a player.
 // An assignment is a specific instance of a task, with a specific quantity and requirements.
@@ -16,7 +16,7 @@ export class Assignment {
     quantity: number,
     requirements: Requirement[],
     extendedAmountMin?: number | null,
-    extendedAmountMax?: number | null,
+    extendedAmountMax?: number | null
   ) {
     this.name = name;
     this.quantity = quantity;

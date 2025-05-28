@@ -110,12 +110,16 @@ class OsrsAccount {
       skillsDetail[key.toLowerCase()] = {
         rank: srcSkills[key].rank,
         level: srcSkills[key].level,
-        xp: srcSkills[key].xp
+        xp: srcSkills[key].xp,
       };
     }
-    const bosses: Bosses | undefined = json.bosses ? { ...json.bosses } : undefined;
+    const bosses: Bosses | undefined = json.bosses
+      ? { ...json.bosses }
+      : undefined;
     const clues: Clues | undefined = json.clues ? { ...json.clues } : undefined;
-    const bountyHunter: BountyHunter | undefined = json.bountyHunter ? { ...json.bountyHunter } : undefined;
+    const bountyHunter: BountyHunter | undefined = json.bountyHunter
+      ? { ...json.bountyHunter }
+      : undefined;
     const lastManStanding: BossScore | undefined = json.lastManStanding;
     const pvpArena: BossScore | undefined = json.pvpArena;
     const soulWarsZeal: BossScore | undefined = json.soulWarsZeal;
@@ -140,7 +144,7 @@ class OsrsAccount {
       colosseumGlory,
       collectionsLogged,
       leaguePoints,
-      deadmanPoints
+      deadmanPoints,
     });
   }
 
@@ -227,6 +231,27 @@ class OsrsAccount {
   toString(): string {
     return `${this.#name}:\nCombat Level: ${this.#combatLevel}\nQuestPoints: ${this.#questPoints}`;
   }
+
+  toJson(): OsrsAccountData {
+    return {
+      name: this.#name,
+      combatLevel: this.#combatLevel,
+      questPoints: this.#questPoints,
+      skills: this.#skills,
+      skillsDetail: this.#skillsDetail,
+      bosses: this.#bosses,
+      clues: this.#clues,
+      bountyHunter: this.#bountyHunter,
+      lastManStanding: this.#lastManStanding,
+      pvpArena: this.#pvpArena,
+      soulWarsZeal: this.#soulWarsZeal,
+      riftsClosed: this.#riftsClosed,
+      colosseumGlory: this.#colosseumGlory,
+      collectionsLogged: this.#collectionsLogged,
+      leaguePoints: this.#leaguePoints,
+      deadmanPoints: this.#deadmanPoints,
+    };
+  }
 }
 
 export {
@@ -239,5 +264,5 @@ export {
   BossScore,
   Clues,
   ClueScore,
-  BountyHunter
+  BountyHunter,
 };

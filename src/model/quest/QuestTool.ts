@@ -66,13 +66,18 @@ class QuestTool {
         // Check if the account meets the level requirement
         const levelReq = req as LevelRequirement;
         const skill = this.osrsAccount.getSkill(levelReq.skillName);
-        if (
-          !skill ||
-          skill.level < levelReq.level ||
-          (levelReq.boostable &&
-            skill.level <
-              levelReq.level - QuestTool.getMaxSkillBoost(levelReq.skillName))
-        ) {
+        if (!skill) {
+          return false; // Skill not found in account
+        }
+        // If the skill is boostable, we can check if the current level + max boost is enough
+        if (levelReq.boostable) {
+          if (
+            skill.level + QuestTool.getMaxSkillBoost(levelReq.skillName) <
+            levelReq.level
+          ) {
+            return false;
+          }
+        } else if (skill.level < levelReq.level) {
           return false;
         }
       }

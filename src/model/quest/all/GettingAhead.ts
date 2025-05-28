@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const GettingAhead: Quest = {
   id: 0,
@@ -26,11 +27,14 @@ const GettingAhead: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Crafting: 4000, Construction: 3200 },
+    experience: [],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: ['3000 coins', 'Access to a tannery in the Kebos Lowlands (speak to Mary to access tanning services)'],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

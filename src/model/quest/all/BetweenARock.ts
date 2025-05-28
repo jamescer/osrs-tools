@@ -26,11 +26,18 @@ const BetweenARock: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Defence: 5000, Mining: 5000, Smithing: 5000 },
+    experience: [
+      { skill: 'Defence', amount: 5000 },
+      { skill: 'Mining', amount: 5000 },
+      { skill: 'Smithing', amount: 5000 },
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

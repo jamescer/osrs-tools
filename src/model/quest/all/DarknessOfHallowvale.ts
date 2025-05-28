@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const DarknessOfHallowvale: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,18 @@ const DarknessOfHallowvale: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Agility: 7000, Construction: 2000, Thieving: 6000 },
+    experience: [
+      { skill: Skill.Agility, amount: 7000 },
+      { skill: Skill.Construction, amount: 2000 },
+      { skill: Skill.Thieving, amount: 6000 },
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

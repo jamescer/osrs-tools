@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const ForgettableTale: Quest = {
   id: 0,
@@ -26,11 +27,14 @@ const ForgettableTale: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Cooking: 5000, Farming: 5000 },
+    experience: [],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

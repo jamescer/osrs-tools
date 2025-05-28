@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const ColdWar: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,18 @@ const ColdWar: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Agility: 5000, Construction: 1500, Crafting: 2000 },
+    experience: [
+      { skill: Skill.Agility, amount: 5000 },
+      { skill: Skill.Construction, amount: 1500 },
+      { skill: Skill.Crafting, amount: 2000 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const ElementalWorkshopII: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,17 @@ const ElementalWorkshopII: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Crafting: 7500, Smithing: 7500 },
+    experience: [
+      { skill: Skill.Crafting, amount: 7500 },
+      { skill: Skill.Smithing, amount: 7500 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

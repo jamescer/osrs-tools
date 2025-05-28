@@ -1,96 +1,153 @@
 import { OsrsAccount } from '../account/OsrsAccount';
+import {
+  LevelRequirement,
+  QuestRequirement,
+  RequirementType,
+} from '../Requirement';
 import { Quest } from './Quest';
 
 class QuestTool {
-  private questObject: any;
-  private questArray: any;
-  private subQuestArray: any;
   private osrsAccount: OsrsAccount | undefined;
 
-  constructor() {
-    // todo need to import these data from a typescript file where its defined/stored
-    this.questObject = [];
-    this.questArray = [];
-    this.subQuestArray = [];
+  constructor(account?: OsrsAccount) {
+    this.osrsAccount = account;
   }
-
-  /**
-   * to string func
-   * @todo    Implement this function
-   * @return  {String} The string representation of the class object.
-   */
-  toString(): string {
-    return 'QuestTool :) WIP';
-  }
-
-  /**
-   * Get the data for a quest
-   * @param  {String} questName The name of the quest
-   * @return {Object} The data for the input quest in a JSON object.
-   * */
-  getQuest(questName: string): Quest | undefined {
-    if (typeof questName === 'string' && this.questObject[questName]) {
-      // return new Quest(this.questObject[questName]); TODO
-    }
-    return undefined;
-  }
-
-  /**
-   * Get the data for a quest
-   * @param  {String} questName The name of the quest
-   * @return {Object} The data for the input quest in a JSON object.
-   * */
-  getQuestByName(questName: string): Quest | undefined {
-    return this.getQuest(questName);
-  }
-
-  /**
-   * Get the data for a quest
-   * @param  {String} subQuestName The name of the subquest
-   * @return {Object} The data for the input subquest in a JSON object.
-   * */
-  getSubQuest(subQuestName: string): any | undefined {
-    return this.subQuestArray.find((x: any) => x.name === subQuestName);
-  }
-
-  // Define highestBoost method, switch case omitted for brevity
-
-  /**
-   * Add two numbers together
-   * @todo Need to implement Recipe for disaster functionality
-   * @param  {String} quest The either string or quest object of the quest to be determined completeable or not.
-   * @return {Boolean}  If the account currently tied to the tool can complete the quest.
-   * */
-  canCompleteQuest(quest: string | Quest | undefined): boolean {
-    // Implementation omitted for brevity
-    return true; // Placeholder return value
-  }
-
-  // Define completableQuests method, implementation omitted for brevity
 
   /**
    * Set the account to be used in this quest tool
    * @param  {OsrsAccount} acc1 The osrs Account to be associated with this class object.
-   * */
+   */
   setOsrsAccount(acc1: OsrsAccount): boolean {
     if (acc1) {
-      // this.osrsAccount = new OsrsAccount(acc1); TODO
+      this.osrsAccount = acc1;
       return true;
     }
     return false;
   }
 
-  // Define other methods, implementation omitted for brevity
-
   /**
    * Get the osrs account associated with this quest tool
    * @return  {OsrsAccount | undefined} The osrs Account associated with this class object.
-   * */
+   */
   getOsrsAccount(): OsrsAccount | undefined {
     return this.osrsAccount;
   }
 
-  // Define other getters, implementation omitted for brevity
+  /**
+   * Determine if the account can complete a quest, including recursively checking quest requirements.
+   * @param quest The quest to check (must be a Quest instance)
+   * @param visited (internal) Set of quest names already checked to prevent infinite recursion
+   */
+  canCompleteQuest(
+    quest: Quest | undefined,
+    visited: Set<string> = new Set()
+  ): boolean {
+    if (!this.osrsAccount) return false;
+    if (!quest) return false;
+    if (visited.has(quest.name)) return true; // Prevent infinite loops
+    visited.add(quest.name);
+
+    // check requirements
+    if (!quest.requirements || quest.requirements.length === 0) return true;
+    for (const req of quest.requirements) {
+      if (req.type === RequirementType.Quest) {
+        // Recursively check quest requirements
+        const questReq = req as QuestRequirement;
+        if (
+          !questReq ||
+          !this.canCompleteQuest(
+            QuestTool.getQuestByName(questReq.questName),
+            visited
+          )
+        ) {
+          return false;
+        }
+      } else if (req.type === RequirementType.Level) {
+        // Check if the account meets the level requirement
+        const levelReq = req as LevelRequirement;
+        const skill = this.osrsAccount.getSkill(levelReq.skillName);
+        if (!skill) {
+          return false; // Skill not found in account
+        }
+        // If the skill is boostable, we can check if the current level + max boost is enough
+        if (levelReq.boostable) {
+          if (
+            skill.level + QuestTool.getMaxSkillBoost(levelReq.skillName) <
+            levelReq.level
+          ) {
+            return false;
+          }
+        } else if (skill.level < levelReq.level) {
+          return false;
+        }
+      }
+    }
+    return true;
+  }
+
+  /**
+   * Static utility to get a Quest instance by its name.
+   * This assumes all quests are exported as default from their respective files in quest/all/.
+   * @param questName The name of the quest to retrieve
+   * @returns Quest instance or undefined if not found
+   */
+  static getQuestByName(questName: string): Quest | undefined {
+    // Normalize quest name to match file naming convention
+    const normalized = questName
+      .replace(/[^a-zA-Z0-9]/g, '') // Remove non-alphanumeric
+      .replace(/\s+/g, '') // Remove spaces
+      .replace(/^./, (c) => c.toUpperCase());
+    try {
+      // Dynamically require the quest file
+      // Note: This only works in Node.js, not in browser environments
+      // and assumes all quest files are named as <QuestName>.ts/js and exported as default
+      // Example: 'Dragon Slayer' => './all/DragonSlayer'
+      // You may want to maintain a map for production use
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const questModule = require(`./all/${normalized}`);
+      return questModule.default || questModule;
+    } catch (e) {
+      return undefined;
+    }
+  }
+
+  /**
+   * Get the maximum boost for a given skill, based on OSRS Wiki data.
+   * @param skillName The name of the skill (case-insensitive, e.g. 'Attack', 'Herblore')
+   * @returns The maximum boost amount for the skill (positive integer, or 0 if unboostable)
+   */
+  static getMaxSkillBoost(skillName: string): number {
+    // Data from https://oldschool.runescape.wiki/w/Temporary_skill_boost
+    const boosts: { [key: string]: number } = {
+      Attack: 5, // Super combat potion, Overload(+)
+      Strength: 5, // Super combat potion, Overload(+)
+      Defence: 5, // Super combat potion, Overload(+)
+      Magic: 4, // Overload(+), Imbued heart
+      Ranged: 4, // Ranging potion, Overload(+)
+      Prayer: 2, // Preserve, Prayer-boosting items
+      Hitpoints: 0, // No boost
+      Agility: 5, // Summer pie
+      Herblore: 5, // Botanical pie
+      Thieving: 5, // Volcanic ash, Summer pie
+      Crafting: 3, // Mushroom pie
+      Fletching: 3, // Fletching potion
+      Slayer: 2, // Wild pie
+      Hunter: 5, // Hunter potion
+      Mining: 3, // Dwarven stout(m)
+      Smithing: 4, // Spicy stew (orange)
+      Fishing: 5, // Admiral pie
+      Cooking: 5, // Chef's delight(m)
+      Firemaking: 4, // Spicy stew (red)
+      Woodcutting: 3, // Spicy stew (yellow)
+      Farming: 5, // Garden pie
+      Runecraft: 5, // Spicy stew (orange)
+      Construction: 5, // Spicy stew (orange)
+      // Add more as needed
+    };
+    const normalized =
+      skillName.charAt(0).toUpperCase() + skillName.slice(1).toLowerCase();
+    return boosts[normalized] ?? 0;
+  }
 }
 
 export { QuestTool };

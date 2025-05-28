@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const DeviousMinds: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,18 @@ const DeviousMinds: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Fletching: 5000, Runecraft: 5000, Smithing: 6500 },
+    experience: [
+      { skill: Skill.Fletching, amount: 5000 },
+      { skill: Skill.Runecraft, amount: 5000 },
+      { skill: Skill.Smithing, amount: 6500 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

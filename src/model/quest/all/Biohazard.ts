@@ -26,11 +26,16 @@ const Biohazard: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Thieving: 1250 },
+    experience: [
+      { skill: 'Thieving', amount: 1250 },
+    ],
     questPoints: 3,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

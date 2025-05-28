@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const Contact: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,16 @@ const Contact: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Thieving: 7000 },
+    experience: [
+      { skill: Skill.Thieving, amount: 7000 }
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

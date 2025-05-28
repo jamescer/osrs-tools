@@ -26,11 +26,12 @@ const ATailOfTwoCats: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: {},
+    experience: [],
     questPoints: 2,
-    items: [],
-    areas: [],
-    grants: [],
+       unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

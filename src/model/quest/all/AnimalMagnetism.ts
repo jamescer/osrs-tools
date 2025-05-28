@@ -1,9 +1,10 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const AnimalMagnetism: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Animal Magnetism",
+  name: 'Animal Magnetism',
   members: true,
   difficulty: 'Intermediate',
   length: 'Medium - Long',
@@ -14,7 +15,7 @@ const AnimalMagnetism: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "animalMagnetism",
+  shortName: 'animalMagnetism',
   url: 'https://oldschool.runescape.wiki/w/Animal_Magnetism',
   series: null,
   age: '',
@@ -26,11 +27,19 @@ const AnimalMagnetism: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Crafting: 1000, Fletching: 1000, Slayer: 1000, Woodcutting: 2500 },
+    experience: [
+      { skill: Skill.Crafting, amount: 1000 },
+      { skill: Skill.Fletching, amount: 1000 },
+      { skill: Skill.Slayer, amount: 1000 },
+      { skill: Skill.Woodcutting, amount: 2500 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

@@ -26,11 +26,14 @@ const BlackKnightsFortress: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: {},
+    experience: [],
     questPoints: 3,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

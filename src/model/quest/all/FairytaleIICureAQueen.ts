@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const FairytaleIICureAQueen: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,14 @@ const FairytaleIICureAQueen: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Herblore: 3500, Thieving: 2500 },
+    experience: [],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

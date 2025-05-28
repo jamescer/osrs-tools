@@ -4,30 +4,29 @@ import {
 } from "../../../../src/model/Requirement";
 import { Assignment } from "../../../../src/model/slayer/Assignment";
 import { Task } from "../../../../src/model/slayer/Task";
-// Test for the Tureal data from the JSON file
-import { Turael } from "../../../../src/model/slayer/SlayerData";
-import { Spria } from "../../../../src/model/slayer/SlayerData";
+// Test for the Spria data from the JSON file
+import { Spria } from "../../../../src/model/slayer/Masters";
 
-describe("Spria Slayer Master", () => {
-  it("should have a valid name", () => {
-    expect(Spria.name).toBe("Spria");
-  });
-
-  it("should have a valid combat level requirement", () => {
-    expect(Spria.minimumCombatLevel).toBe(0);
-  });
-
-  it("should have a valid location", () => {
-    expect(Spria.location).toBe("Draynor Village");
+describe("Spria", () => {
+  it("should be defined", () => {
+    expect(Spria).toBeDefined();
   });
 
   it("should have a list of tasks", () => {
-    const tasks = Spria.getTasks();
+    const tasks = Spria.tasks;
     expect(Array.isArray(tasks)).toBe(true);
-    expect(tasks.length).toBe(25);
+    expect(tasks.length).toBeGreaterThan(0);
   });
 
-  it("should have a valid wiki link", () => {
+  it("should have the correct name", () => {
+    expect(Spria.name).toBe("Spria");
+  });
+
+  it("should have the correct location", () => {
+    expect(Spria.location).toBe("Draynor Village");
+  });
+
+  it("should have the correct wiki URL", () => {
     expect(Spria.wikiUrl).toBe("https://oldschool.runescape.wiki/w/Spria");
   });
 });

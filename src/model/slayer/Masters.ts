@@ -1,9 +1,13 @@
 import { SlayerMaster } from '../../model/slayer/SlayerMaster';
-import { DuradelTasks } from './task/DuradelTasks';
-import { NieveTasks } from './task/NieveTasks';
-import { SpriaTasks } from './task/SpriaTasks';
-import { turealTasks } from './task/Tureal';
-import { VannakaTasks } from './task/VannakaTasks';
+import { duradelTasks } from './task/DuradelTasks';
+import { nieveTasks } from './task/NieveTasks';
+import { spriaTasks } from './task/SpriaTasks';
+import { turealTasks } from './task/TurealTasks';
+import { vannakaTasks } from './task/VannakaTasks';
+import { mazchnaTasks } from './task/MazchnaTasks';
+import { chaeldarTasks } from './task/ChaelderTasks';
+import { konarTasks } from './task/KonarTasks';
+import { krystiliaTasks } from './task/KrystiliaTasks';
 
 // TODO: Add the rest of the tasks for each master
 // TODO: Add the rest of the masters
@@ -12,7 +16,7 @@ import { VannakaTasks } from './task/VannakaTasks';
 // Mazchna: https://oldschool.runescape.wiki/w/Mazchna
 export const Mazchna = new SlayerMaster(
   'Mazchna',
-  [],
+  mazchnaTasks,
   'Canifis',
   0,
   'https://oldschool.runescape.wiki/w/Mazchna',
@@ -30,7 +34,7 @@ export const Mazchna = new SlayerMaster(
 // Spria: https://oldschool.runescape.wiki/w/Spria
 export const Spria = new SlayerMaster(
   'Spria',
-  SpriaTasks,
+  spriaTasks,
   'Draynor Village',
   0,
   'https://oldschool.runescape.wiki/w/Spria',
@@ -66,7 +70,7 @@ export const Turael = new SlayerMaster(
 // Vannaka: https://oldschool.runescape.wiki/w/Vannaka
 export const Vannaka = new SlayerMaster(
   'Vannaka',
-  VannakaTasks,
+  vannakaTasks,
   'Edgeville Dungeon',
   0,
   'https://oldschool.runescape.wiki/w/Vannaka',
@@ -84,7 +88,7 @@ export const Vannaka = new SlayerMaster(
 // Konar Quo Maten: https://oldschool.runescape.wiki/w/Konar_Quo_Maten
 export const KonarQuoMaten = new SlayerMaster(
   'Konar Quo Maten',
-  [],
+  konarTasks,
   'Mount Karuulm',
   0,
   'https://oldschool.runescape.wiki/w/Konar_Quo_Maten',
@@ -102,7 +106,7 @@ export const KonarQuoMaten = new SlayerMaster(
 // Krystilia: https://oldschool.runescape.wiki/w/Krystilia
 export const Krystilia = new SlayerMaster(
   'Krystilia',
-  [],
+  krystiliaTasks,
   'Edgeville',
   0,
   'https://oldschool.runescape.wiki/w/Krystilia',
@@ -120,7 +124,7 @@ export const Krystilia = new SlayerMaster(
 // Nieve: https://oldschool.runescape.wiki/w/Nieve
 export const Nieve = new SlayerMaster(
   'Nieve',
-  NieveTasks,
+  nieveTasks,
   "Nieve's Cave",
   0,
   'https://oldschool.runescape.wiki/w/Nieve',
@@ -145,7 +149,7 @@ export const Nieve = new SlayerMaster(
 // Duradel: https://oldschool.runescape.wiki/w/Duradel
 export const Duradel = new SlayerMaster(
   'Duradel',
-  DuradelTasks,
+  duradelTasks,
   'Shilo Village',
   85,
   'https://oldschool.runescape.wiki/w/Duradel',
@@ -163,7 +167,7 @@ export const Duradel = new SlayerMaster(
 // Chaeldar: https://oldschool.runescape.wiki/w/Chaeldar
 export const Chaeldar = new SlayerMaster(
   'Chaeldar',
-  [],
+  chaeldarTasks,
   'Zanaris',
   0,
   'https://oldschool.runescape.wiki/w/Chaeldar',

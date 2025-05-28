@@ -32,11 +32,16 @@ const APorcineOfInterest: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Slayer: 1000 },
+    experience: [
+      { skill: 'Slayer', amount: 1000 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: ["30 Slayer Rewards Points", "Some Reinforced Goggles"],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

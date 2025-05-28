@@ -5,6 +5,7 @@ import {
   QuestRequirement,
   Requirement,
 } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const HeroesQuest: Quest = {
   id: 0,
@@ -38,24 +39,27 @@ const HeroesQuest: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: {
-      Attack: 3075,
-      Cooking: 2825,
-      Defence: 3075,
-      Firemaking: 1575,
-      Fishing: 2725,
-      Herblore: 1325,
-      Hitpoints: 3075,
-      Mining: 2575,
-      Ranged: 2075,
-      Smithing: 2257,
-      Strength: 3075,
-      Woodcutting: 1575,
-    },
+    experience: [
+      { skill: Skill.Attack, amount: 3075 },
+      { skill: Skill.Cooking, amount: 2825 },
+      { skill: Skill.Defence, amount: 3075 },
+      { skill: Skill.Firemaking, amount: 1575 },
+      { skill: Skill.Fishing, amount: 2725 },
+      { skill: Skill.Herblore, amount: 1325 },
+      { skill: Skill.Hitpoints, amount: 3075 },
+      { skill: Skill.Mining, amount: 2575 },
+      { skill: Skill.Ranged, amount: 2075 },
+      { skill: Skill.Smithing, amount: 2257 },
+      { skill: Skill.Strength, amount: 3075 },
+      { skill: Skill.Woodcutting, amount: 1575 }
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

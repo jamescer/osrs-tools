@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 
 const DeathToTheDorgeshuun: Quest = {
   id: 0, // Assign a unique ID if available
@@ -26,11 +27,17 @@ const DeathToTheDorgeshuun: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Ranged: 2000, Thieving: 2000 },
+    experience: [
+      { skill: Skill.Ranged, amount: 2000 },
+      { skill: Skill.Thieving, amount: 2000 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

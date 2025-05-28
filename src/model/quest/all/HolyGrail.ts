@@ -32,11 +32,17 @@ const HolyGrail: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Defence: 15300, Prayer: 11000 },
+    experience: [
+      { skill: 'Defence', amount: 15300 },
+      { skill: 'Prayer', amount: 11000 },
+    ],
     questPoints: 2,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

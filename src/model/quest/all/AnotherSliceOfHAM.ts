@@ -26,11 +26,17 @@ const AnotherSliceOfHAM: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: { Mining: 3000, Prayer: 3000 },
+    experience: [
+      { skill: 'Mining', amount: 3000 },
+      { skill: 'Prayer', amount: 3000 },
+    ],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [],
+    unlocks: [],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

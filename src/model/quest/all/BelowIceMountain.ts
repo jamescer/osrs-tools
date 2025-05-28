@@ -29,16 +29,19 @@ const BelowIceMountain: Quest = {
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: {},
+    experience: [],
     questPoints: 1,
     items: [],
     areas: [],
-    grants: [
-      "2,000 coins",
-      "Access to the Ruins of Camdozaal",
-      "Flex emote",
-      "The ability to make steak sandwich"
+    unlocks: [
+      { description: "2,000 coins" },
+      { description: "Access to the Ruins of Camdozaal" },
+      { description: "Flex emote" },
+      { description: "The ability to make steak sandwich" }
     ],
+    lamps: [],
+    points: [],
+    pets: [],
   },
 };
 

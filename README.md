@@ -72,7 +72,7 @@ npm install osrs-json-hiscores --save
 ```
 
 ### Todo
-- Fix quest completion detection
+- Fix quest data and ensure all requirements exist
 
 ## Contributing
 

@@ -1,9 +1,9 @@
-# Old School RuneScape Quest Tool
+# Old School RuneScape Tools
 
 [![NPM Version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![GitHub Issues][issues-img]][new-issue]  
 [![types](https://img.shields.io/npm/types/osrs-tools.svg?style=flat-square)](https://github.com/jamescer/osrs-tools/blob/master/src/types.ts)
 
-The **Old School RuneScape Quest Tool** is a Node.js package designed to provide comprehensive data for all current Old School RuneScape (OSRS) quests, slayer tasks, and related game mechanics. This tool is ideal for developers looking to integrate OSRS data into their projects, whether for personal use, game guides, or community tools.
+The **Old School RuneScape Tools** repo is a Node.js package designed to provide comprehensive data for all current Old School RuneScape (OSRS) quests, slayer tasks, and related game mechanics. This tool is ideal for developers looking to integrate OSRS data into their projects, whether for personal use, game guides, or community tools.
 
 ## Features
 
@@ -72,7 +72,7 @@ npm install osrs-json-hiscores --save
 ```
 
 ### Todo
-- Fix quest completion detection
+- Fix quest data and ensure all requirements exist
 
 ## Contributing
 

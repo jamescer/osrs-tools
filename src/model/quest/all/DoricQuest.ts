@@ -1,6 +1,6 @@
 import { Skill } from '../../account/Skill';
 
-export const someQuest = {
+export const DoricQuest = {
   // ...existing quest properties...
   rewards: {
     experience: [

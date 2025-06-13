@@ -4,7 +4,7 @@ export interface QuestRewards {
   experience: Array<{ skill: Skill; amount: number }>;
   questPoints: number;
   items: any[];
-  areas: any[];
+  areas: any[]; 
   unlocks: any[];
   lamps: any[];
   points: any[];

@@ -1,7 +1,7 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
 
-const AHandInTheSand: Quest = {
+export const AHandInTheSand: Quest = {
   id: 0,
   name: 'A Hand in the Sand',
   members: true,
@@ -43,4 +43,3 @@ const AHandInTheSand: Quest = {
   },
 };
 
-export default AHandInTheSand;

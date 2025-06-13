@@ -1,10 +1,11 @@
 {
   "name": "osrs-tools",
   "description": "A JavaScript package to provide JSON data for all current Old School RuneScape quests. This package aims to help junior software developers create tools related to Old School RuneScape. It's a work in progress, and issues should be reported to jamescer@hawkmail.newpaltz.edu or jamesmcerniglia@gmail.com. This is highly paired with 'osrs-json-hiscores' data structure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./dist/index.js",
-  "files": [
+   "types": "./dist/index.d.ts",
+   "files": [
     "dist/**"
   ],
   "engines": {
@@ -20,7 +21,7 @@
     "build": "tsc -p .",
     "dev": "tsc --watch -p .",
     "backupprepublishOnly": "npm run lint && npm run test && npm run build",
-    "prepublishOnly": " npm run build && npm test",
+    "prepublishOnly": "npm run build && npm test",
     "postpublish": "git push && git push --tags",
     "preversion": "gulp version && npm test",
     "version": "npm run build && git add dist && git add package.json"

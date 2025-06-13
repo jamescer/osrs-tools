@@ -65,13 +65,15 @@ import { QuestTool, questArray, questObject } from 'osrs-tools';
 ```
 
 ### Module Optional Dependencies
-If you want to use your account to test quest tool compatibilities or check what you can unlock for slayer, I am referencing the repository  [osrs-json-hiscores](https://www.npmjs.com/package/osrs-json-hiscores)
+
+If you want to use your account to test quest tool compatibilities or check what you can unlock for slayer, I am referencing the repository [osrs-json-hiscores](https://www.npmjs.com/package/osrs-json-hiscores)
 
 ```bash
 npm install osrs-json-hiscores --save
 ```
 
 ### Todo
+
 - Fix quest data and ensure all requirements exist
 
 ## Contributing

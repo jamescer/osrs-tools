@@ -1,4 +1,6 @@
 export { QuestTool } from './model/quest/QuestTool';
+
+// Quest Exports
 export * from './model/quest/Quest';
 export * from './model/quest/all/AHandInTheSand';
 export * from './model/quest/all/AKingdomDivided';
@@ -134,12 +136,19 @@ export * from './model/quest/all/WitchesPotion';
 export * from './model/quest/all/WitchsHouse';
 export * from './model/quest/all/ZogreFleshEaters';
 export { OsrsAccount } from './model/account/OsrsAccount';
+
+// Slayer Exports
 export * from './model/account/Skill';
-export * from './model/misc/Item';
+export * from './model/Item/Item';
 export * from './model/slayer/Masters';
 export * from './model/slayer/SlayerMaster';
 export * from './model/slayer/Task';
-export { SlayerReward, SlayerBuy, SlayerUnlock, SlayerExtend } from './model/slayer/SlayerReward';
+export {
+  SlayerReward,
+  SlayerBuy,
+  SlayerUnlock,
+  SlayerExtend,
+} from './model/slayer/SlayerReward';
 export { SlayerUnlocks } from './model/slayer/SlayerUnlock';
 export { SlayerExtends } from './model/slayer/SlayerExtends';
 export { SlayerBuys } from './model/slayer/SlayerBuys';

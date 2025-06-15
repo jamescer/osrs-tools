@@ -38,6 +38,7 @@ class SlayerExtend {
   }
 }
 
+// Represents a slayer buy, an item purchase.
 class SlayerBuy {
   item: string;
   priceSoldAt: number;
@@ -59,5 +60,13 @@ class SlayerBuy {
 }
 
 class SlayerReward {}
+
+export const SlayerRewards = [
+  new SlayerUnlock({
+    name: 'Abyssal Sire',
+    cost: 3000000,
+    description: 'Unlocks the Abyssal Sire as a slayer task.',
+  }),
+];
 
 export { SlayerBuy, SlayerExtend, SlayerReward, SlayerUnlock };

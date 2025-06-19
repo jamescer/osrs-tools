@@ -1,9 +1,10 @@
 import { NpcDrop } from './NpcDrop';
+import { NpcProduct } from './NpcProduct';
 
 /**
  * Represents a non-player character (NPC) in the game.
  * @property {number} id - Unique identifier for the NPC.
- *  @property {string} name - Name of the NPC.
+ * @property {string} name - Name of the NPC.
  * @property {string} examine - Description of the NPC.
  * @property {boolean} members - Indicates if the NPC is a members-only NPC.
  * @property {number} combatLevel - Combat level of the NPC.
@@ -19,7 +20,9 @@ import { NpcDrop } from './NpcDrop';
  * @property {string[]} location - Locations where the NPC can be found.
  * @property {NpcDrop[]} drops - List of items that the NPC can drop upon death.
  * @property {string[]} weaknesses - List of weaknesses of the NPC (e.g., "slash", "stab", "crush").
- *
+ * @property {string[]} [products] - List of products/services the NPC offers (e.g., runes, house teleport, etc.).
+ * @property {string[]} [dialogue] - List of notable dialogue lines or dialogue options.
+ * @property {string[]} [changes] - List of notable changes/updates to the NPC.
  */
 export class Npc {
   id: number;
@@ -38,6 +41,10 @@ export class Npc {
   location: string[];
   drops: NpcDrop[];
   weaknesses: string[];
+  products?: NpcProduct[];
+  dialogue?: string[];
+  changes?: string[];
+  trivia?: string[];
 
   constructor(
     id: number,
@@ -55,7 +62,11 @@ export class Npc {
     location: string[],
     drops: NpcDrop[],
     weaknesses: string[],
-    iconUrl?: string
+    iconUrl?: string,
+    products?: NpcProduct[],
+    dialogue?: string[],
+    changes?: string[],
+    trivia?: string[]
   ) {
     this.id = id;
     this.name = name;
@@ -73,6 +84,10 @@ export class Npc {
     this.location = location;
     this.drops = drops;
     this.weaknesses = weaknesses;
+    this.products = products;
+    this.dialogue = dialogue;
+    this.changes = changes;
+    this.trivia = trivia;
   }
 
   static createBasicNpc(name: string): Npc {
@@ -89,6 +104,10 @@ export class Npc {
       0,
       0,
       0,
+      [],
+      [],
+      [],
+      undefined,
       [],
       [],
       []

@@ -32,6 +32,7 @@ export class Item {
   rangedStrength?: number;
   magicDamage?: number;
   prayer?: number;
+  quantity: number;
 
   constructor(
     id: number,
@@ -65,7 +66,8 @@ export class Item {
     meleeStrength?: number,
     rangedStrength?: number,
     magicDamage?: number,
-    prayer?: number
+    prayer?: number,
+    quantity?: number,
   ) {
     this.id = id;
     this.name = name;
@@ -100,6 +102,7 @@ export class Item {
     this.rangedStrength = rangedStrength;
     this.magicDamage = magicDamage;
     this.prayer = prayer;
+    this.quantity = quantity || 1; // Default quantity to 1 if not provided 
   }
 
   get Id() { return this.id; }
@@ -195,4 +198,48 @@ export class Item {
 
   get Prayer() { return this.prayer; }
   set Prayer(value: number | undefined) { this.prayer = value; }
+  
+  
+  static fromJson(json: any): Item {
+  return new Item(
+    json.id,
+    json.name,
+    json.examine,
+    json.value,
+    json.highAlch,
+    json.lowAlch,
+    json.weight,
+    json.members,
+    json.tradeable,
+    json.equipable,
+    json.releaseDate,
+    json.destroy,
+    json.questItem,
+    json.stackable,
+    json.noted,
+    json.officialWikiUrl,
+    json.iconUrl,
+    json.attackStab,
+    json.attackSlash,
+    json.attackCrush,
+    json.attackMagic,
+    json.attackRanged,
+    json.defenceStab,
+    json.defenceSlash,
+    json.defenceCrush,
+    json.defenceMagic,
+    json.defenceRanged,
+    json.meleeStrength,
+    json.rangedStrength,
+    json.magicDamage,
+    json.prayer
+  );
+}
+
+  
+}
+
+// Item instance with quantity
+export interface ItemInstance extends Item {
+  quantity: number;
 }

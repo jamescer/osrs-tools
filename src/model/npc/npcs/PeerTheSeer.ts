@@ -45,7 +45,13 @@ export const Peer_the_Seer = new Npc(
   'https://oldschool.runescape.wiki/w/Peer_the_Seer',
   1, // hitpoints (not attackable, but set to 1 for completeness)
   false, // aggressive
-  'none', // attackStyle
+  false, // attackable
+  false, // canPoison
+  false, // poisonous
+  false, // canCannon
+  false, // canThrall
+  false, // canVenom
+  [], // attackStyle
   0, // maxHit
   0, // attackSpeed
   0, // respawnTime

@@ -13,7 +13,7 @@ import { NpcProduct } from './NpcProduct';
  * @property {number} hitpoints - Hitpoints of the NPC.
  * @property {boolean} aggressive - Indicates if the NPC is aggressive.
  * @property {string} attackType - The type of attack the NPC uses (e.g., "melee", "ranged", "magic").
- * @property {string} attackStyle - The primary attack style of the NPC (e.g., "melee", "ranged", "magic").
+ * @property {string[]} attackStyles - The primary attack style of the NPC (e.g., "melee", "ranged", "magic").
  * @property {number} maxHit - The maximum hit the NPC can deal.
  * @property {number} attackSpeed - The attack speed of the NPC in ticks.
  * @property {number} respawnTime - The time in seconds before the NPC respawns after being killed.
@@ -34,11 +34,17 @@ export class Npc {
   iconUrl?: string;
   hitpoints: number;
   aggressive: boolean;
-  attackStyle: string;
+  attackable: boolean;
+  canPoison: boolean;
+  poisonous: boolean;
+  canCannon: boolean;
+  canThrall: boolean;
+  canVenom: boolean;
+  attackStyles: string[];
   maxHit: number;
   attackSpeed: number;
   respawnTime: number;
-  location: string[];
+  locations: string[];
   drops: NpcDrop[];
   weaknesses: string[];
   products?: NpcProduct[];
@@ -55,11 +61,17 @@ export class Npc {
     officialWikiUrl: string,
     hitpoints: number,
     aggressive: boolean,
-    attackStyle: string,
+    attackable: boolean,
+    canPoison: boolean,
+    poisonous: boolean,
+    canCannon: boolean,
+    canThrall: boolean,
+    canVenom: boolean,
+    attackStyles: string[],
     maxHit: number,
     attackSpeed: number,
     respawnTime: number,
-    location: string[],
+    locations: string[],
     drops: NpcDrop[],
     weaknesses: string[],
     iconUrl?: string,
@@ -77,11 +89,17 @@ export class Npc {
     this.iconUrl = iconUrl;
     this.hitpoints = hitpoints;
     this.aggressive = aggressive;
-    this.attackStyle = attackStyle;
+    this.attackable = attackable;
+    this.canPoison = canPoison;
+    this.poisonous = poisonous;
+    this.canCannon = canCannon;
+    this.canThrall = canThrall;
+    this.canVenom = canVenom;
+    this.attackStyles = attackStyles;
     this.maxHit = maxHit;
     this.attackSpeed = attackSpeed;
     this.respawnTime = respawnTime;
-    this.location = location;
+    this.locations = locations;
     this.drops = drops;
     this.weaknesses = weaknesses;
     this.products = products;
@@ -100,7 +118,13 @@ export class Npc {
       '',
       0,
       false,
-      '',
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      [''],
       0,
       0,
       0,

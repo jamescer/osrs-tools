@@ -6,7 +6,7 @@ This guide provides instructions for setting up the development environment for 
 
 Before proceeding, ensure you have the following prerequisites installed on your system:
 
-- [Node.js](https://nodejs.org/) (version X.X.X or higher)
+- [Node.js](https://nodejs.org/) (version 16.x or higher)
 - [npm](https://www.npmjs.com/) (Node.js package manager)
 - [Git](https://git-scm.com/) (version control system)
 

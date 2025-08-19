@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const DragonSlayer: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Dragon Slayer",
+  name: 'Dragon Slayer',
   members: false,
-  difficulty: 'Experienced',
-  length: 'Long',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Long,
   requirements: [], // Skill: quest 32, Crafting 8
   questPoints: 2,
   startLocation: '',
@@ -15,14 +15,11 @@ const DragonSlayer: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "dragonSlayer",
+  shortName: 'dragonSlayer',
   url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer',
   series: 'Guild',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

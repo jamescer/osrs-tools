@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const MerlinsCrystal: Quest = {
   id: 0,
   name: "Merlin's Crystal",
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 6,
   startLocation: '',
@@ -15,13 +16,10 @@ const MerlinsCrystal: Quest = {
   status: QuestStatus.NotStarted,
   miniquest: false,
   shortName: 'merlinsCrystal',
-  url: "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
+  url: 'https://oldschool.runescape.wiki/w/Merlin%27s_Crystal',
   series: 'Camelot (#1)',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

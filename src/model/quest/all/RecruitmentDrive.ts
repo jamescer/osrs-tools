@@ -1,17 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const RecruitmentDrive: Quest = {
   id: 0,
   name: 'Recruitment Drive',
   members: true,
-  difficulty: 'Novice',
-  length: 'Short',
-  requirements: [
-    new QuestRequirement('Druidic Ritual'),
-    new QuestRequirement('The Lost Tribe'),
-  ],
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
+  requirements: [new QuestRequirement('Druidic Ritual'), new QuestRequirement('The Lost Tribe')],
   questPoints: 1,
   startLocation: '',
   description: '',
@@ -22,10 +19,7 @@ const RecruitmentDrive: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Recruitment_Drive',
   series: null,
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

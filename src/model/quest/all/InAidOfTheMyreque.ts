@@ -1,17 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
-import {
-  LevelRequirement,
-  QuestRequirement,
-  Requirement,
-} from '../../Requirement';
+import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const InAidOfTheMyreque: Quest = {
   id: 0,
   name: 'In Aid of the Myreque',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Long',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Long,
   requirements: [
     new QuestRequirement('In Search of the Myreque'),
     new LevelRequirement('Crafting', 25, false),
@@ -28,10 +25,7 @@ const InAidOfTheMyreque: Quest = {
   url: 'https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque',
   series: 'Myreque',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

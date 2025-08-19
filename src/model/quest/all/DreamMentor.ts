@@ -1,5 +1,5 @@
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 export const someQuest = {
   // ...existing quest properties...
   rewards: {

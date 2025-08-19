@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheGreatBrainRobbery: Quest = {
   id: 0,
   name: 'The Great Brain Robbery',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Medium,
   requirements: [
     new QuestRequirement('Cabin Fever'),
     new LevelRequirement('Crafting', 16, false),
@@ -25,10 +26,7 @@ const TheGreatBrainRobbery: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery',
   series: 'Pirate',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

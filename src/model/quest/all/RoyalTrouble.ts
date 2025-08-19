@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const RoyalTrouble: Quest = {
   id: 0,
   name: 'Royal Trouble',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Medium,
   requirements: [
     new QuestRequirement('Throne of Miscellania'),
     new LevelRequirement('Agility', 40, false),
@@ -23,10 +23,7 @@ const RoyalTrouble: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Royal_Trouble',
   series: null,
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

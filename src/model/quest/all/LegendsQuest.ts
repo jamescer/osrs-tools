@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const LegendsQuest: Quest = {
   id: 0,
   name: "Legends' Quest",
   members: true,
-  difficulty: 'Master',
-  length: 'Very long',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.VeryLong,
   requirements: [
     new QuestRequirement('Family Crest'),
     new QuestRequirement("Heroes' Quest"),
@@ -35,10 +35,7 @@ const LegendsQuest: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Legends%27_Quest',
   series: 'Guild',
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Very long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const EnlightenedJourney: Quest = {
   id: 0, // Assign a unique ID if available
   name: 'Enlightened Journey',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Short - Long',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Short,
   requirements: [], // Skills: quest 20, Firemaking 20, Farming 30, Crafting 36
   questPoints: 1,
   startLocation: '',
@@ -19,10 +19,7 @@ const EnlightenedJourney: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Enlightened_Journey',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Short - Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -16,7 +16,7 @@ describe('SlayerMaster', () => {
     50,
     'https://wiki.test/Test_Master',
     taskPoints,
-    eliteDiaryTaskPoints
+    eliteDiaryTaskPoints,
   );
 
   it('should construct with correct properties', () => {

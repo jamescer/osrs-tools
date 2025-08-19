@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const SheepHerder: Quest = {
   id: 0,
   name: 'Sheep Herder',
   members: true,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 4,
   startLocation: '',
@@ -18,10 +19,7 @@ const SheepHerder: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Sheep_Herder',
   series: null,
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const BetweenARock: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Between a Rock...",
+  name: 'Between a Rock...',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Medium - Long',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Long,
   requirements: [],
   questPoints: 2,
   startLocation: '',
@@ -14,14 +15,11 @@ const BetweenARock: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "betweenARock",
+  shortName: 'betweenARock',
   url: 'https://oldschool.runescape.wiki/w/Between_a_Rock...',
   series: 'Rise of the Red Axe',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Medium - Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

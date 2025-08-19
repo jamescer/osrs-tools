@@ -113,9 +113,7 @@ class OsrsAccount {
         xp: srcSkills[key].xp,
       };
     }
-    const bosses: Bosses | undefined = json.bosses
-      ? { ...json.bosses }
-      : undefined;
+    const bosses: Bosses | undefined = json.bosses ? { ...json.bosses } : undefined;
     const clues: Clues | undefined = json.clues ? { ...json.clues } : undefined;
     const bountyHunter: BountyHunter | undefined = json.bountyHunter
       ? { ...json.bountyHunter }

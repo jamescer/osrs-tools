@@ -28,7 +28,7 @@ export const Mazchna = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined
+  undefined,
 );
 
 // Spria: https://oldschool.runescape.wiki/w/Spria
@@ -46,7 +46,7 @@ export const Spria = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined
+  undefined,
 );
 
 // Tureal: https://oldschool.runescape.wiki/w/Turael
@@ -64,7 +64,7 @@ export const Turael = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined
+  undefined,
 );
 
 // Vannaka: https://oldschool.runescape.wiki/w/Vannaka
@@ -82,7 +82,7 @@ export const Vannaka = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined
+  undefined,
 );
 
 // Konar Quo Maten: https://oldschool.runescape.wiki/w/Konar_Quo_Maten
@@ -100,7 +100,7 @@ export const KonarQuoMaten = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined
+  undefined,
 );
 
 // Krystilia: https://oldschool.runescape.wiki/w/Krystilia
@@ -118,7 +118,7 @@ export const Krystilia = new SlayerMaster(
     250: 70,
     50: 15,
   },
-  undefined
+  undefined,
 );
 
 // Nieve: https://oldschool.runescape.wiki/w/Nieve
@@ -143,7 +143,7 @@ export const Nieve = new SlayerMaster(
     1000: 750,
     250: 525,
     50: 225,
-  }
+  },
 );
 
 // Duradel: https://oldschool.runescape.wiki/w/Duradel
@@ -161,7 +161,7 @@ export const Duradel = new SlayerMaster(
     250: 525,
     50: 225,
   },
-  undefined
+  undefined,
 );
 
 // Chaeldar: https://oldschool.runescape.wiki/w/Chaeldar
@@ -179,5 +179,5 @@ export const Chaeldar = new SlayerMaster(
     250: 350,
     50: 150,
   },
-  undefined
+  undefined,
 );

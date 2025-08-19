@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheDepthsOfDespair: Quest = {
   id: 0,
   name: 'The Depths of Despair',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Short',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Short,
   requirements: [
     new QuestRequirement('Client of Kourend'),
     new LevelRequirement('Agility', 18, false),
@@ -22,10 +23,7 @@ const TheDepthsOfDespair: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Depths_of_Despair',
   series: 'Great Kourend',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

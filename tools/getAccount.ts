@@ -14,7 +14,7 @@ Replace <username> and [gamemode] with the desired values.
 */
 
 // Usage: ts-node tools/getAccount.ts <username> [gamemode]
-// const [,, username, gamemode] = process.argv;
+// const [, username, gamemode] = process.argv;
 const gamemode = 'main'; // Default gamemode
 const username = 'A Squeezer' 
 if (!username) {

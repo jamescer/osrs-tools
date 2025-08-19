@@ -1,5 +1,6 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement, RequirementType } from '../../Requirement';
+import { QuestDifficulty, QuestLength } from '../enums';
 const attackRequirement: LevelRequirement = {
   skillName: 'attack',
   level: 20,
@@ -11,8 +12,8 @@ const HolyGrail: Quest = {
   id: 0,
   name: 'Holy Grail',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [attackRequirement],
   questPoints: 2,
   startLocation: '',
@@ -24,10 +25,7 @@ const HolyGrail: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Holy_Grail',
   series: 'Camelot (#2)',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

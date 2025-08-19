@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheAscentOfArceuus: Quest = {
   id: 0,
   name: 'The Ascent of Arceuus',
   members: true,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -18,10 +19,7 @@ const TheAscentOfArceuus: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus',
   series: 'Great Kourend',
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -1,12 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
-import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const VampyreSlayer: Quest = {
   id: 0,
   name: 'Vampyre Slayer',
   members: false,
-  difficulty: 'Novice',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 3,
   startLocation: '',
@@ -18,10 +18,7 @@ const VampyreSlayer: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Vampyre_Slayer',
   series: null,
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

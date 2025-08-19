@@ -1,12 +1,12 @@
-import { Quest, QuestStatus } from '../Quest';
+import { Quest } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
-
+import { QuestDifficulty, QuestLength, QuestStatus } from '../enums';
 const AKingdomDivided: Quest = {
   id: 0,
   name: 'A Kingdom Divided',
   members: true,
-  difficulty: 'Master',
-  length: 'Long',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.Long,
   requirements: [
     new QuestRequirement('Client of Kourend'),
     new QuestRequirement('The Depths of Despair'),
@@ -34,10 +34,7 @@ const AKingdomDivided: Quest = {
   url: 'https://oldschool.runescape.wiki/w/A_Kingdom_Divided',
   series: 'Great Kourend',
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

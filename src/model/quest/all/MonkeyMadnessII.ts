@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const MonkeyMadnessII: Quest = {
   id: 0,
   name: 'Monkey Madness II',
   members: true,
-  difficulty: 'Grandmaster',
-  length: 'Very long',
+  difficulty: QuestDifficulty.Grandmaster,
+  length: QuestLength.VeryLong,
   requirements: [
     new QuestRequirement('Monkey Madness'),
     new QuestRequirement('Recipe for Disaster'),
@@ -31,10 +32,6 @@ const MonkeyMadnessII: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Monkey_Madness_II',
   series: 'Gnome',
   age: '',
-  difficultyLevel: 'Grandmaster',
-  officialDifficulty: 'Grandmaster',
-  officialLength: 'Very long',
-  officialAge: '',
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],
@@ -42,7 +39,7 @@ const MonkeyMadnessII: Quest = {
     experience: [
       { skill: Skill.Agility, amount: 15000 },
       { skill: Skill.Hunter, amount: 15000 },
-      { skill: Skill.Thieving, amount: 15000 }
+      { skill: Skill.Thieving, amount: 15000 },
     ],
     questPoints: 4,
     items: [],

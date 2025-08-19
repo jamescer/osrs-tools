@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const SlugMenace: Quest = {
   id: 0,
   name: 'Slug Menace',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [
     new QuestRequirement('Sea Slug'),
     new QuestRequirement('Wanted!'),
@@ -27,10 +28,7 @@ const SlugMenace: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Slug_Menace',
   series: 'Sea Slug',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

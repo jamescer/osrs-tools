@@ -1,12 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const Biohazard: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Biohazard",
+  name: 'Biohazard',
   members: true,
-  difficulty: 'Novice',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 3,
   startLocation: '',
@@ -14,21 +14,16 @@ const Biohazard: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "biohazard",
+  shortName: 'biohazard',
   url: 'https://oldschool.runescape.wiki/w/Biohazard',
   series: 'Elf',
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: [
-      { skill: 'Thieving', amount: 1250 },
-    ],
+    experience: [{ skill: 'Thieving', amount: 1250 }],
     questPoints: 3,
     items: [],
     areas: [],

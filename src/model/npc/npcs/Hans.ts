@@ -28,5 +28,5 @@ export const Hans = new Npc(
   0, // respawnTime
   hansLocations,
   hansDrops,
-  [] // weaknesses
+  [], // weaknesses
 );

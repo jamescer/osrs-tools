@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheGolem: Quest = {
   id: 0,
   name: 'The Golem',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -18,10 +19,7 @@ const TheGolem: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Golem',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

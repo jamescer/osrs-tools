@@ -1,4 +1,4 @@
-import { Requirement } from "../Requirement";
+import { Requirement } from '../Requirement';
 
 /**
  * Represents a Slayer task in the game. This class encapsulates all the properties and methods related to a Slayer task.

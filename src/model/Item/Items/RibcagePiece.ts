@@ -1,4 +1,4 @@
-import { Item } from "../Item";
+import { Item } from '../Item';
 
 export const RibcagePiece = {
   name: 'Ribcage piece',
@@ -18,8 +18,7 @@ export const RibcagePiece = {
   used_for: ['Skeletal top'],
   dropped_by: ['Wallasalki'],
   drop_rate: '1/64',
-  location: ['Waterbirth Island Dungeon']
+  location: ['Waterbirth Island Dungeon'],
 };
-
 
 export const RibcagePieceItem = Item.fromJson(RibcagePiece);

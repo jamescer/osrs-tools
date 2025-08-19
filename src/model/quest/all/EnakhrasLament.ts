@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const EnakhrasLament: Quest = {
   id: 0, // Assign a unique ID if available
   name: "Enakhra's Lament",
   members: true,
-  difficulty: 'Experienced',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Medium,
   requirements: [], // Skills: Crafting 50, Firemaking 45, Prayer 43, Magic 39, Mining 45
   questPoints: 2,
   startLocation: '',
@@ -19,10 +19,7 @@ const EnakhrasLament: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Enakhra%27s_Lament',
   series: 'Mahjarrat',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

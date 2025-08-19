@@ -1,93 +1,236 @@
-# Old School RuneScape Tools
+# OSRS Tools
 
-[![NPM Version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![GitHub Issues][issues-img]][new-issue]  
-[![types](https://img.shields.io/npm/types/osrs-tools.svg?style=flat-square)](https://github.com/jamescer/osrs-tools/blob/master/src/types.ts)
+[![NPM Version](https://img.shields.io/npm/v/osrs-tools.svg?style=for-the-badge)](https://www.npmjs.com/package/osrs-tools)
+[![Downloads](https://img.shields.io/npm/dm/osrs-tools.svg?style=for-the-badge)](https://www.npmjs.com/package/osrs-tools)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue.svg?style=for-the-badge)](https://www.typescriptlang.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Node Version](https://img.shields.io/node/v/osrs-tools.svg?style=for-the-badge)](https://nodejs.org)
+[![Test Coverage](https://img.shields.io/codecov/c/github/jamescer/osrs-tools.svg?style=for-the-badge)](https://codecov.io/gh/jamescer/osrs-tools)
 
-The **Old School RuneScape Tools** repo is a Node.js package designed to provide comprehensive data for all current Old School RuneScape (OSRS) quests, slayer tasks, and related game mechanics. This tool is ideal for developers looking to integrate OSRS data into their projects, whether for personal use, game guides, or community tools.
+> A modern TypeScript library for Old School RuneScape (OSRS) data and utilities. Built for developers creating tools, bots, web applications, and analytics around OSRS content.
+
+📦 **Type-safe** &nbsp; 🚀 **Well-tested** &nbsp; 📚 **Documented** &nbsp; 🔄 **Actively maintained**
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Examples](#examples)
+- [API Reference](#api-reference)
+- [Development](#development)
+- [Contributing](#contributing)
+- [Support](#support)
+- [License](#license)
 
 ## Features
 
-- Access detailed quest data, including requirements, rewards, and steps.
-- Retrieve slayer task information, including task weights, requirements, and locations.
-- Explore slayer master data, including assigned tasks, combat level requirements, and rewards.
-- Built-in support for tracking quest and slayer progress.
-- Easy-to-use API for developers of all skill levels.
+✨ **Quest System**
 
-## Overview
+- Complete quest database with requirements and rewards
+- Quest dependency tracking and validation
+- Experience and item reward calculations
+- Quest point tracking
+- Support for miniquests
 
-This package provides a comprehensive, programmatic interface to Old School RuneScape (OSRS) quest, slayer, and account data. It is designed for developers, tool creators, and enthusiasts who want to:
+🎯 **Skill & Level System**
 
-- Access and analyze detailed quest data, including requirements, rewards, and quest steps.
-- Retrieve and filter slayer master tasks, including requirements, locations, and weights.
-- Simulate or build tools for quest progression, slayer assignment, and account planning.
-- Integrate OSRS data into bots, web apps, Discord bots, or personal utilities.
-- Track quest and slayer progress, or build custom checklists and planners.
+- Skill level tracking and validation
+- Support for boostable requirements
+- Combat level calculations
+- Quest point requirements
 
-## What You Can Do
+🗡️ **Items & Equipment**
 
-- **Quest Data**: Use the `QuestTool` class and related functions to get all quest data as objects or arrays. Filter quests by requirements, rewards, or completion status. Build quest guides, checklists, or progress trackers.
-- **Slayer Masters & Tasks**: Import any Slayer Master (e.g., `Turael`, `Duradel`, `Krystilia`) to access their full list of tasks, requirements, and locations. Randomly assign tasks, filter by requirements, or analyze task weights for planning.
-- **Account Modeling**: Use the `OsrsAccount` and `Skill` models to represent and manipulate player accounts, including skill levels and quest completions. Simulate account progression or validate requirements for quests and tasks.
-- **Slayer Rewards**: Access lists of unlockable Slayer rewards and buyable items, including costs and descriptions, for use in planning or calculators.
-- **Data Integration**: All data is available as TypeScript/JavaScript objects, making it easy to integrate into web apps, bots, or scripts. The structure is ideal for both backend and frontend use.
-- **Extendable**: The modular design allows you to add new quests, tasks, or masters, or to extend models for custom use cases.
+- Comprehensive item database
+- Equipment statistics
+- Trading and value information
+- Quest item tracking
 
-## Example Use Cases
+👹 **Slayer System**
 
-- **Quest Progress Tracker**: Build a web or mobile app that tracks quest completion, shows requirements, and suggests next quests based on your account.
-- **Slayer Task Generator**: Create a Discord bot or web tool that assigns random slayer tasks based on your current level and unlocked masters.
-- **Account Planner**: Simulate an account's progression, checking which quests or tasks are available at each stage.
-- **Data Analysis**: Analyze quest or slayer data for guides, statistics, or optimization (e.g., fastest quest cape route, most efficient slayer path).
-
-## Data Structure Highlights
-
-- **Quests**: Each quest is represented as a class with requirements, rewards, and steps. Data is available in both object and array formats for flexibility.
-- **Slayer Masters**: Each master is a class instance with a list of `Task` objects, each containing requirements, weights, and locations.
-- **Tasks**: Tasks include all relevant requirements (combat, slayer, quest), possible monsters, and location data.
-- **Account Models**: The `OsrsAccount` and `Skill` classes allow you to represent and manipulate player data programmatically.
+- Full slayer master task lists
+- Task weights and assignment logic
+- Slayer requirement validation
+- Reward shop data
 
 ## Installation
 
-Install the package via npm:
+### Prerequisites
+
+- Node.js 16.x or higher
+- TypeScript 4.9+
+
+### Package Installation
 
 ```bash
-npm install osrs-tools --save
+npm install osrs-tools
 ```
 
-## Usage
-
-Here’s how to use the tool in your project:
-
-### Importing the Module
-
-```javascript
-import { QuestTool, questArray, questObject } from 'osrs-tools';
-```
-
-### Module Optional Dependencies
-
-If you want to use your account to test quest tool compatibilities or check what you can unlock for slayer, I am referencing the repository [osrs-json-hiscores](https://www.npmjs.com/package/osrs-json-hiscores)
+For account-related features (hiscores, stats):
 
 ```bash
-npm install osrs-json-hiscores --save
+npm install osrs-json-hiscores
 ```
 
-### Todo
+## Examples
 
-- Fix quest data and ensure all requirements exist
+### Quest System
+
+```typescript
+import { QuestTool, Quest } from 'osrs-tools';
+
+// Get quest information
+const dragonSlayer = QuestTool.getQuestByName('Dragon Slayer');
+console.log(dragonSlayer.requirements);
+
+// Check quest completion requirements
+const questTool = new QuestTool();
+questTool.setOsrsAccount(playerAccount);
+const canComplete = questTool.canCompleteQuest(dragonSlayer);
+```
+
+### Slayer System
+
+```typescript
+import { Duradel } from 'osrs-tools';
+
+// Get master's task list
+const tasks = Duradel.tasks;
+
+// Get random assignment
+const task = Duradel.getRandomTask();
+console.log(task.name);         // e.g., "Abyssal demons"
+console.log(task.requirements); // Shows requirements
+```
+
+### Account Management
+
+```typescript
+import { OsrsAccount } from 'osrs-tools';
+
+// Create/load account
+const account = OsrsAccount.fromJson({
+  name: 'Player123',
+  skills: {
+    attack: { level: 60 },
+    strength: { level: 55 },
+    defence: { level: 50 }
+  }
+});
+
+// Get skill levels
+const attackLevel = account.getSkill('attack')?.level;
+```
+
+## API Reference
+
+### Core Types
+
+```typescript
+interface Quest {
+  id: number;
+  name: string;
+  difficulty: QuestDifficulty;
+  requirements: Requirement[];
+  rewards: QuestRewards;
+  status: QuestStatus;
+}
+
+interface QuestRewards {
+  experience?: QuestRewardExperience[];
+  items?: QuestRewardItem[];
+  questPoints: number;
+}
+
+interface Requirement {
+  type: RequirementType;
+  // Common requirement properties
+}
+
+interface LevelRequirement extends Requirement {
+  skillName: string;
+  level: number;
+  boostable: boolean;
+}
+
+interface QuestRequirement extends Requirement {
+  questName: string;
+}
+```
+
+### Documentation Links
+
+- [Full API Documentation](https://github.com/jamescer/osrs-tools/wiki)
+- [Type Definitions](https://github.com/jamescer/osrs-tools/blob/master/src/model/quest/types.ts)
+- [Code Examples](https://github.com/jamescer/osrs-tools/tree/master/examples)
+
+## Development
+
+### Local Setup
+
+```bash
+# Clone and setup
+git clone https://github.com/jamescer/osrs-tools.git
+cd osrs-tools
+npm install
+
+# Build and test
+npm run build
+npm test
+```
+
+### Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `build` | Build the project |
+| `test` | Run tests |
+| `test:watch` | Run tests in watch mode |
+| `lint` | Lint the code |
+| `format` | Format the code |
+| `docs` | Generate documentation |
 
 ## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/jamescer/osrs-tools).
+We welcome contributions! We use [Conventional Commits](https://www.conventionalcommits.org/).
+
+### Getting Started
+
+1. Fork and clone the repository
+2. Create a branch (`feat/amazing-feature`)
+3. Make your changes
+4. Run tests (`npm test && npm run lint`)
+5. Commit with conventional format:
+
+   ```bash
+   feat: add quest requirement validation
+   fix: correct slayer task weights
+   docs: update API documentation
+   ```
+
+6. Push and open a Pull Request
+
+### Guidelines
+
+- Add tests for new features
+- Update documentation for changes
+- Follow existing code style
+- Keep changes focused
+
+## Support
+
+Need help or want to contribute?
+
+- [Report Issues](https://github.com/jamescer/osrs-tools/issues)
+- [Request Features](https://github.com/jamescer/osrs-tools/issues)
+- [Join Discussions](https://github.com/jamescer/osrs-tools/discussions)
+
+## License
+
+[MIT](./LICENSE) © James Cerniglia
 
 ## Credits
 
 - **Author**: [James Cerniglia](mailto:jamesmcerniglia@gmail.com)
-- **Repository**: [GitHub - osrs-tools](https://github.com/jamescer/osrs-tools)
-
-[npm-image]: https://img.shields.io/npm/v/osrs-tools.svg
-[npm-url]: https://www.npmjs.com/package/osrs-tools
-[downloads-image]: https://img.shields.io/npm/dm/osrs-tools.svg
-[downloads-url]: https://npmcharts.com/compare/osrs-tools?minimal=true
-[issues-img]: https://img.shields.io/github/issues/jamescer/osrs-tools.svg
-[new-issue]: https://github.com/jamescer/osrs-tools/issues/new/choose
+- **Contributors**: [View all contributors](https://github.com/jamescer/osrs-tools/graphs/contributors)
+- **Data Source**: [Old School RuneScape Wiki](https://oldschool.runescape.wiki/)

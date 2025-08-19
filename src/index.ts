@@ -143,12 +143,7 @@ export * from './model/Item/Item';
 export * from './model/slayer/Masters';
 export * from './model/slayer/SlayerMaster';
 export * from './model/slayer/Task';
-export {
-  SlayerReward,
-  SlayerBuy,
-  SlayerUnlock,
-  SlayerExtend,
-} from './model/slayer/SlayerReward';
+export { SlayerReward, SlayerBuy, SlayerUnlock, SlayerExtend } from './model/slayer/SlayerReward';
 export { SlayerUnlocks } from './model/slayer/SlayerUnlock';
 export { SlayerExtends } from './model/slayer/SlayerExtends';
 export { SlayerBuys } from './model/slayer/SlayerBuys';

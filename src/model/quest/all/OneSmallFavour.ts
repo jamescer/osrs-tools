@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const OneSmallFavour: Quest = {
   id: 0,
   name: 'One Small Favour',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Very long',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.VeryLong,
   requirements: [
     new QuestRequirement('Rune Mysteries'),
     new QuestRequirement('Shilo Village'),
@@ -26,10 +27,7 @@ const OneSmallFavour: Quest = {
   url: 'https://oldschool.runescape.wiki/w/One_Small_Favour',
   series: null,
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Very long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

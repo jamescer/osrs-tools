@@ -75,5 +75,5 @@ export const Man = new Npc(
   15, // respawnTime (15s)
   manLocations,
   manDrops,
-  ['Crush'] // weaknesses
+  ['Crush'], // weaknesses
 );

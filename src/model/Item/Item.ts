@@ -102,141 +102,262 @@ export class Item {
     this.rangedStrength = rangedStrength;
     this.magicDamage = magicDamage;
     this.prayer = prayer;
-    this.quantity = quantity || 1; // Default quantity to 1 if not provided 
+    this.quantity = quantity || 1; // Default quantity to 1 if not provided
   }
 
-  get Id() { return this.id; }
-  set Id(value: number) { this.id = value; }
+  get Id() {
+    return this.id;
+  }
+  set Id(value: number) {
+    this.id = value;
+  }
 
-  get Name() { return this.name; }
-  set Name(value: string) { this.name = value; }
+  get Name() {
+    return this.name;
+  }
+  set Name(value: string) {
+    this.name = value;
+  }
 
-  get Examine() { return this.examine; }
-  set Examine(value: string) { this.examine = value; }
+  get Examine() {
+    return this.examine;
+  }
+  set Examine(value: string) {
+    this.examine = value;
+  }
 
-  get Value() { return this.value; }
-  set Value(value: number) { this.value = value; }
+  get Value() {
+    return this.value;
+  }
+  set Value(value: number) {
+    this.value = value;
+  }
 
-  get HighAlch() { return this.highAlch; }
-  set HighAlch(value: number) { this.highAlch = value; }
+  get HighAlch() {
+    return this.highAlch;
+  }
+  set HighAlch(value: number) {
+    this.highAlch = value;
+  }
 
-  get LowAlch() { return this.lowAlch; }
-  set LowAlch(value: number) { this.lowAlch = value; }
+  get LowAlch() {
+    return this.lowAlch;
+  }
+  set LowAlch(value: number) {
+    this.lowAlch = value;
+  }
 
-  get Weight() { return this.weight; }
-  set Weight(value: number) { this.weight = value; }
+  get Weight() {
+    return this.weight;
+  }
+  set Weight(value: number) {
+    this.weight = value;
+  }
 
-  get Members() { return this.members; }
-  set Members(value: boolean) { this.members = value; }
+  get Members() {
+    return this.members;
+  }
+  set Members(value: boolean) {
+    this.members = value;
+  }
 
-  get Tradeable() { return this.tradeable; }
-  set Tradeable(value: boolean) { this.tradeable = value; }
+  get Tradeable() {
+    return this.tradeable;
+  }
+  set Tradeable(value: boolean) {
+    this.tradeable = value;
+  }
 
-  get Equipable() { return this.equipable; }
-  set Equipable(value: boolean) { this.equipable = value; }
+  get Equipable() {
+    return this.equipable;
+  }
+  set Equipable(value: boolean) {
+    this.equipable = value;
+  }
 
-  get ReleaseDate() { return this.releaseDate; }
-  set ReleaseDate(value: string) { this.releaseDate = value; }
+  get ReleaseDate() {
+    return this.releaseDate;
+  }
+  set ReleaseDate(value: string) {
+    this.releaseDate = value;
+  }
 
-  get Destroy() { return this.destroy; }
-  set Destroy(value: string) { this.destroy = value; }
+  get Destroy() {
+    return this.destroy;
+  }
+  set Destroy(value: string) {
+    this.destroy = value;
+  }
 
-  get QuestItem() { return this.questItem; }
-  set QuestItem(value: boolean) { this.questItem = value; }
+  get QuestItem() {
+    return this.questItem;
+  }
+  set QuestItem(value: boolean) {
+    this.questItem = value;
+  }
 
-  get Stackable() { return this.stackable; }
-  set Stackable(value: boolean) { this.stackable = value; }
+  get Stackable() {
+    return this.stackable;
+  }
+  set Stackable(value: boolean) {
+    this.stackable = value;
+  }
 
-  get Noted() { return this.noted; }
-  set Noted(value: boolean) { this.noted = value; }
+  get Noted() {
+    return this.noted;
+  }
+  set Noted(value: boolean) {
+    this.noted = value;
+  }
 
-  get OfficialWikiUrl() { return this.officialWikiUrl; }
-  set OfficialWikiUrl(value: string) { this.officialWikiUrl = value; }
+  get OfficialWikiUrl() {
+    return this.officialWikiUrl;
+  }
+  set OfficialWikiUrl(value: string) {
+    this.officialWikiUrl = value;
+  }
 
-  get IconUrl() { return this.iconUrl; }
-  set IconUrl(value: string | undefined) { this.iconUrl = value; }
+  get IconUrl() {
+    return this.iconUrl;
+  }
+  set IconUrl(value: string | undefined) {
+    this.iconUrl = value;
+  }
 
   // Combat stats getters and setters
-  get AttackStab() { return this.attackStab; }
-  set AttackStab(value: number | undefined) { this.attackStab = value; }
+  get AttackStab() {
+    return this.attackStab;
+  }
+  set AttackStab(value: number | undefined) {
+    this.attackStab = value;
+  }
 
-  get AttackSlash() { return this.attackSlash; }
-  set AttackSlash(value: number | undefined) { this.attackSlash = value; }
+  get AttackSlash() {
+    return this.attackSlash;
+  }
+  set AttackSlash(value: number | undefined) {
+    this.attackSlash = value;
+  }
 
-  get AttackCrush() { return this.attackCrush; }
-  set AttackCrush(value: number | undefined) { this.attackCrush = value; }
+  get AttackCrush() {
+    return this.attackCrush;
+  }
+  set AttackCrush(value: number | undefined) {
+    this.attackCrush = value;
+  }
 
-  get AttackMagic() { return this.attackMagic; }
-  set AttackMagic(value: number | undefined) { this.attackMagic = value; }
+  get AttackMagic() {
+    return this.attackMagic;
+  }
+  set AttackMagic(value: number | undefined) {
+    this.attackMagic = value;
+  }
 
-  get AttackRanged() { return this.attackRanged; }
-  set AttackRanged(value: number | undefined) { this.attackRanged = value; }
+  get AttackRanged() {
+    return this.attackRanged;
+  }
+  set AttackRanged(value: number | undefined) {
+    this.attackRanged = value;
+  }
 
-  get DefenceStab() { return this.defenceStab; }
-  set DefenceStab(value: number | undefined) { this.defenceStab = value; }
+  get DefenceStab() {
+    return this.defenceStab;
+  }
+  set DefenceStab(value: number | undefined) {
+    this.defenceStab = value;
+  }
 
-  get DefenceSlash() { return this.defenceSlash; }
-  set DefenceSlash(value: number | undefined) { this.defenceSlash = value; }
+  get DefenceSlash() {
+    return this.defenceSlash;
+  }
+  set DefenceSlash(value: number | undefined) {
+    this.defenceSlash = value;
+  }
 
-  get DefenceCrush() { return this.defenceCrush; }
-  set DefenceCrush(value: number | undefined) { this.defenceCrush = value; }
+  get DefenceCrush() {
+    return this.defenceCrush;
+  }
+  set DefenceCrush(value: number | undefined) {
+    this.defenceCrush = value;
+  }
 
-  get DefenceMagic() { return this.defenceMagic; }
-  set DefenceMagic(value: number | undefined) { this.defenceMagic = value; }
+  get DefenceMagic() {
+    return this.defenceMagic;
+  }
+  set DefenceMagic(value: number | undefined) {
+    this.defenceMagic = value;
+  }
 
-  get DefenceRanged() { return this.defenceRanged; }
-  set DefenceRanged(value: number | undefined) { this.defenceRanged = value; }
+  get DefenceRanged() {
+    return this.defenceRanged;
+  }
+  set DefenceRanged(value: number | undefined) {
+    this.defenceRanged = value;
+  }
 
-  get MeleeStrength() { return this.meleeStrength; }
-  set MeleeStrength(value: number | undefined) { this.meleeStrength = value; }
+  get MeleeStrength() {
+    return this.meleeStrength;
+  }
+  set MeleeStrength(value: number | undefined) {
+    this.meleeStrength = value;
+  }
 
-  get RangedStrength() { return this.rangedStrength; }
-  set RangedStrength(value: number | undefined) { this.rangedStrength = value; }
+  get RangedStrength() {
+    return this.rangedStrength;
+  }
+  set RangedStrength(value: number | undefined) {
+    this.rangedStrength = value;
+  }
 
-  get MagicDamage() { return this.magicDamage; }
-  set MagicDamage(value: number | undefined) { this.magicDamage = value; }
+  get MagicDamage() {
+    return this.magicDamage;
+  }
+  set MagicDamage(value: number | undefined) {
+    this.magicDamage = value;
+  }
 
-  get Prayer() { return this.prayer; }
-  set Prayer(value: number | undefined) { this.prayer = value; }
-  
-  
+  get Prayer() {
+    return this.prayer;
+  }
+  set Prayer(value: number | undefined) {
+    this.prayer = value;
+  }
+
   static fromJson(json: any): Item {
-  return new Item(
-    json.id,
-    json.name,
-    json.examine,
-    json.value,
-    json.highAlch,
-    json.lowAlch,
-    json.weight,
-    json.members,
-    json.tradeable,
-    json.equipable,
-    json.releaseDate,
-    json.destroy,
-    json.questItem,
-    json.stackable,
-    json.noted,
-    json.officialWikiUrl,
-    json.iconUrl,
-    json.attackStab,
-    json.attackSlash,
-    json.attackCrush,
-    json.attackMagic,
-    json.attackRanged,
-    json.defenceStab,
-    json.defenceSlash,
-    json.defenceCrush,
-    json.defenceMagic,
-    json.defenceRanged,
-    json.meleeStrength,
-    json.rangedStrength,
-    json.magicDamage,
-    json.prayer
-  );
-}
-
-  
+    return new Item(
+      json.id,
+      json.name,
+      json.examine,
+      json.value,
+      json.highAlch,
+      json.lowAlch,
+      json.weight,
+      json.members,
+      json.tradeable,
+      json.equipable,
+      json.releaseDate,
+      json.destroy,
+      json.questItem,
+      json.stackable,
+      json.noted,
+      json.officialWikiUrl,
+      json.iconUrl,
+      json.attackStab,
+      json.attackSlash,
+      json.attackCrush,
+      json.attackMagic,
+      json.attackRanged,
+      json.defenceStab,
+      json.defenceSlash,
+      json.defenceCrush,
+      json.defenceMagic,
+      json.defenceRanged,
+      json.meleeStrength,
+      json.rangedStrength,
+      json.magicDamage,
+      json.prayer,
+    );
+  }
 }
 
 // Item instance with quantity

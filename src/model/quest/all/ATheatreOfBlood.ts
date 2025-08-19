@@ -1,11 +1,11 @@
 import { Quest, QuestStatus } from '../Quest';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const ATheatreOfBlood: Quest = {
   id: 0,
   name: 'A Theatre of Blood',
   members: true,
-  difficulty: 'Master',
-  length: 'Long',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.Long,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -17,10 +17,7 @@ const ATheatreOfBlood: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Theatre_of_Blood',
   series: null,
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

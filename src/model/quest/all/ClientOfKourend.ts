@@ -1,12 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const ClientOfKourend: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Client of Kourend",
+  name: 'Client of Kourend',
   members: true,
-  difficulty: 'Novice',
-  length: 'Medium (15-20 minutes)',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -14,14 +14,11 @@ const ClientOfKourend: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "clientOfKourend",
+  shortName: 'clientOfKourend',
   url: 'https://oldschool.runescape.wiki/w/Client_of_Kourend',
   series: 'Great Kourend',
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Medium (15-20 minutes)',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -1,4 +1,4 @@
-import { Item } from "../Item";
+import { Item } from '../Item';
 
 export const DagannothHide = {
   name: 'Dagannoth hide',
@@ -15,10 +15,27 @@ export const DagannothHide = {
   ge_price: 101, // as of last update
   release_date: '1 August 2005',
   wiki_url: 'https://oldschool.runescape.wiki/w/Dagannoth_hide',
-  used_for: ['Rock-shell helm', 'Rock-shell legs', 'Rock-shell plate', 'Skeletal bottoms', 'Skeletal helm', 'Skeletal top', 'Spined body', 'Spined chaps', 'Spined helm'],
-  dropped_by: ['Dagannoth Prime', 'Dagannoth Rex', 'Dagannoth Supreme', 'Dagannoth (Waterbirth Island)', 'Ninja impling jar', 'Ninja impling'],
+  used_for: [
+    'Rock-shell helm',
+    'Rock-shell legs',
+    'Rock-shell plate',
+    'Skeletal bottoms',
+    'Skeletal helm',
+    'Skeletal top',
+    'Spined body',
+    'Spined chaps',
+    'Spined helm',
+  ],
+  dropped_by: [
+    'Dagannoth Prime',
+    'Dagannoth Rex',
+    'Dagannoth Supreme',
+    'Dagannoth (Waterbirth Island)',
+    'Ninja impling jar',
+    'Ninja impling',
+  ],
   drop_rate: 'Always/1/12.8/1/19',
-  location: ['Waterbirth Island Dungeon']
+  location: ['Waterbirth Island Dungeon'],
 };
 
 export const DagannothHideItem = Item.fromJson(DagannothHide);

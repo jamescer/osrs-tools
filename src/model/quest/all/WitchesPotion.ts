@@ -1,12 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const WitchesPotion: Quest = {
   id: 0,
   name: "Witch's Potion",
   members: false,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -18,10 +18,7 @@ const WitchesPotion: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Witch%27s_Potion',
   series: null,
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

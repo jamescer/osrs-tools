@@ -6,13 +6,14 @@ import {
   Requirement,
 } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const HeroesQuest: Quest = {
   id: 0,
   name: "Heroes' Quest",
   members: true,
-  difficulty: 'Experienced',
-  length: 'Medium - Long',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Long,
   requirements: [
     new QuestRequirement('Shield of Arrav'),
     new QuestRequirement('Lost City'),
@@ -31,10 +32,7 @@ const HeroesQuest: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Heroes%27_Quest',
   series: 'Guild',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Medium - Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],
@@ -51,7 +49,7 @@ const HeroesQuest: Quest = {
       { skill: Skill.Ranged, amount: 2075 },
       { skill: Skill.Smithing, amount: 2257 },
       { skill: Skill.Strength, amount: 3075 },
-      { skill: Skill.Woodcutting, amount: 1575 }
+      { skill: Skill.Woodcutting, amount: 1575 },
     ],
     questPoints: 1,
     items: [],

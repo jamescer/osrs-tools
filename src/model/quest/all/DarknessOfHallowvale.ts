@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const DarknessOfHallowvale: Quest = {
   id: 0, // Assign a unique ID if available
   name: 'Darkness of Hallowvale',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Very long',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.VeryLong,
   requirements: [], // Quests: In Aid of the Myreque. Skills: Construction 5, Mining 20, Thieving 22, Agility 26, Crafting 32, Magic 33, Strength 40
   questPoints: 2,
   startLocation: '',
@@ -19,10 +19,7 @@ const DarknessOfHallowvale: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale',
   series: 'Myreque',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Very long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

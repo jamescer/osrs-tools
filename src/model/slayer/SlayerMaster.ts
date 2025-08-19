@@ -1,5 +1,4 @@
-import { Assignment } from "./Assignment";
-import { Task } from "./Task";
+import { Task } from './Task';
 
 /**
  * SlayerMaster class represents a Slayer Master in the game.
@@ -12,10 +11,10 @@ import { Task } from "./Task";
 class SlayerMaster {
   name: string; // Name of the Slayer Master
   totalWeight: number; // Total weight of the tasks assigned to this Slayer Master. This is used to determine the likelihood of each task being assigned.
-  location: string = ""; // Location of the Slayer Master (optional, can be set later if needed)
+  location: string = ''; // Location of the Slayer Master (optional, can be set later if needed)
   minimumCombatLevel: number = 0; // Level requirement to access this Slayer Master (optional, can be set later if needed)
   tasks: Task[]; // Array of tasks assigned to this Slayer Master. This holds the actual tasks that players can be assigned to kill.
-  wikiUrl: string = ""; // URL for the Slayer Master (optional, can be set later if needed)
+  wikiUrl: string = ''; // URL for the Slayer Master (optional, can be set later if needed)
   taskPoints: Record<number, number>; // Mapping of task intervals to points
   eliteDiaryTaskPoints?: Record<number, number>; // Mapping of task intervals to points
 
@@ -31,7 +30,7 @@ class SlayerMaster {
   ) {
     this.name = name;
     this.tasks = tasks; // Array of tasks assigned to this Slayer Master
-    this.tasks.forEach((task) => {
+    this.tasks.forEach(task => {
       task.weight = task.weight || 0; // Default weight to 0 if not provided
     }); // Initialize the tasks array
     this.totalWeight = this.calculateTotalWeight(); // Calculate the total weight of the tasks
@@ -51,7 +50,7 @@ class SlayerMaster {
     return this.tasks.reduce((total, task) => {
       return total + (task.weight || 0); // Sum up the weights of all tasks
     }, 0);
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
 
   /**

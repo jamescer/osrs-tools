@@ -1,4 +1,4 @@
 export const SkeletalHelm = {
   name: 'Skeletal helm',
-  members: true
+  members: true,
 };

@@ -1,13 +1,11 @@
 import { OsrsAccount } from '../account/OsrsAccount';
-import {
-  LevelRequirement,
-  QuestRequirement,
-  RequirementType,
-} from '../Requirement';
+import { LevelRequirement, QuestRequirement, RequirementType } from '../Requirement';
 import { Quest } from './Quest';
+import { Cache } from '../../utils/cache';
 
 class QuestTool {
   private osrsAccount: OsrsAccount | undefined;
+  private static questCache = new Cache<Quest>({ maxSize: 200, ttl: 3600000 }); // 1 hour TTL
 
   constructor(account?: OsrsAccount) {
     this.osrsAccount = account;
@@ -38,10 +36,7 @@ class QuestTool {
    * @param quest The quest to check (must be a Quest instance)
    * @param visited (internal) Set of quest names already checked to prevent infinite recursion
    */
-  canCompleteQuest(
-    quest: Quest | undefined,
-    visited: Set<string> = new Set()
-  ): boolean {
+  canCompleteQuest(quest: Quest | undefined, visited: Set<string> = new Set()): boolean {
     if (!this.osrsAccount) return false;
     if (!quest) return false;
     if (visited.has(quest.name)) return true; // Prevent infinite loops
@@ -55,10 +50,7 @@ class QuestTool {
         const questReq = req as QuestRequirement;
         if (
           !questReq ||
-          !this.canCompleteQuest(
-            QuestTool.getQuestByName(questReq.questName),
-            visited
-          )
+          !this.canCompleteQuest(QuestTool.getQuestByName(questReq.questName), visited)
         ) {
           return false;
         }
@@ -71,10 +63,7 @@ class QuestTool {
         }
         // If the skill is boostable, we can check if the current level + max boost is enough
         if (levelReq.boostable) {
-          if (
-            skill.level + QuestTool.getMaxSkillBoost(levelReq.skillName) <
-            levelReq.level
-          ) {
+          if (skill.level + QuestTool.getMaxSkillBoost(levelReq.skillName) < levelReq.level) {
             return false;
           }
         } else if (skill.level < levelReq.level) {
@@ -96,7 +85,14 @@ class QuestTool {
     const normalized = questName
       .replace(/[^a-zA-Z0-9]/g, '') // Remove non-alphanumeric
       .replace(/\s+/g, '') // Remove spaces
-      .replace(/^./, (c) => c.toUpperCase());
+      .replace(/^./, c => c.toUpperCase());
+
+    // Check cache first
+    const cached = QuestTool.questCache.get(normalized);
+    if (cached) {
+      return cached;
+    }
+
     try {
       // Dynamically require the quest file
       // Note: This only works in Node.js, not in browser environments
@@ -105,7 +101,14 @@ class QuestTool {
       // You may want to maintain a map for production use
       // eslint-disable-next-line @typescript-eslint/no-var-requires
       const questModule = require(`./all/${normalized}`);
-      return questModule.default || questModule;
+      const quest = questModule.default || questModule;
+
+      // Cache the result if found
+      if (quest) {
+        QuestTool.questCache.set(normalized, quest);
+      }
+
+      return quest;
     } catch (e) {
       return undefined;
     }
@@ -144,8 +147,7 @@ class QuestTool {
       Construction: 5, // Spicy stew (orange)
       // Add more as needed
     };
-    const normalized =
-      skillName.charAt(0).toUpperCase() + skillName.slice(1).toLowerCase();
+    const normalized = skillName.charAt(0).toUpperCase() + skillName.slice(1).toLowerCase();
     return boosts[normalized] ?? 0;
   }
 }

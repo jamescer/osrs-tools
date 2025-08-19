@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const FishingContest: Quest = {
   id: 0,
   name: 'Fishing Contest',
   members: true,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -19,10 +19,7 @@ const FishingContest: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Fishing_Contest',
   series: 'Dwarf',
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

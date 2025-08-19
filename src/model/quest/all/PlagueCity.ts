@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const PlagueCity: Quest = {
   id: 0,
   name: 'Plague City',
   members: true,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -18,10 +19,7 @@ const PlagueCity: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Plague_City',
   series: 'Elf',
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

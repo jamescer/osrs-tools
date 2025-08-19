@@ -1,21 +1,20 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const RecipeForDisaster: Quest = {
   id: 0,
   name: 'Recipe for Disaster',
   members: true,
-  difficulty: 'Master',
-  length: 'Very long',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.VeryLong,
   requirements: [
-    new QuestRequirement('Cook\'s Assistant'),
+    new QuestRequirement("Cook's Assistant"),
     new QuestRequirement('Fishing Contest'),
     new QuestRequirement('Goblin Diplomacy'),
     new QuestRequirement('Big Chompy Bird Hunting'),
     new QuestRequirement('Murder Mystery'),
     new QuestRequirement('Nature Spirit'),
-    new QuestRequirement('Gertrude\'s Cat'),
+    new QuestRequirement("Gertrude's Cat"),
     new QuestRequirement('Shadow of the Storm'),
     new QuestRequirement('The Golem'),
     new QuestRequirement('Demon Slayer'),
@@ -24,7 +23,7 @@ const RecipeForDisaster: Quest = {
     new QuestRequirement('Troll Romance'),
     new QuestRequirement('Desert Treasure'),
     new QuestRequirement('Horror from the Deep'),
-    new QuestRequirement('Witch\'s House'),
+    new QuestRequirement("Witch's House"),
     new QuestRequirement('Lost City'),
     new QuestRequirement('Monkey Madness'),
     new QuestRequirement('Shilo Village'),
@@ -41,10 +40,7 @@ const RecipeForDisaster: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Recipe_for_Disaster',
   series: null,
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Very long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -1,11 +1,12 @@
 import { Quest, QuestStatus } from '../../../src/model/quest/Quest';
-import { RequirementType, LevelRequirement, QuestRequirement } from '../../../src/model/Requirement';
+import { LevelRequirement, QuestRequirement } from '../../../src/model/Requirement';
+import { QuestDifficulty, QuestLength } from '../../../src/model/quest/types';
 
 export const simpleQuest: Quest = {
   id: 1,
   name: 'Simple Quest',
   description: 'A quest with no requirements.',
-  difficulty: 'Novice',
+  difficulty: QuestDifficulty.Novice,
   steps: [],
   requirements: [],
   status: QuestStatus.NotStarted,
@@ -14,13 +15,9 @@ export const simpleQuest: Quest = {
   url: '',
   members: false,
   questPoints: 1,
-  length: 'Short',
+  length: QuestLength.Short,
   age: 'Fifth',
   startLocation: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: 'Fifth',
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],
@@ -53,4 +50,34 @@ export const recursiveQuest: Quest = {
   id: 5,
   name: 'Recursive Quest',
   requirements: [new QuestRequirement('Quest Req Quest')],
+};
+
+export const multiRequirementQuest: Quest = {
+  ...simpleQuest,
+  id: 6,
+  name: 'Multi Requirement Quest',
+  difficulty: QuestDifficulty.Master,
+  requirements: [
+    new LevelRequirement('attack', 70, false),
+    new LevelRequirement('defence', 70, false),
+    new LevelRequirement('strength', 70, false),
+    new LevelRequirement('ranged', 70, true),
+    new QuestRequirement('Simple Quest'),
+    new QuestRequirement('Skill Quest'),
+  ],
+  series: 'Combat',
+};
+
+export const circularQuest1: Quest = {
+  ...simpleQuest,
+  id: 7,
+  name: 'Circular Quest 1',
+  requirements: [new QuestRequirement('Circular Quest 2')],
+};
+
+export const circularQuest2: Quest = {
+  ...simpleQuest,
+  id: 8,
+  name: 'Circular Quest 2',
+  requirements: [new QuestRequirement('Circular Quest 1')],
 };

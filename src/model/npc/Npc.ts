@@ -78,7 +78,7 @@ export class Npc {
     products?: NpcProduct[],
     dialogue?: string[],
     changes?: string[],
-    trivia?: string[]
+    trivia?: string[],
   ) {
     this.id = id;
     this.name = name;
@@ -134,7 +134,7 @@ export class Npc {
       undefined,
       [],
       [],
-      []
+      [],
     );
   }
 }

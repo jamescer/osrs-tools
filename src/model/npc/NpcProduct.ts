@@ -29,7 +29,7 @@ export class NpcProduct {
     materials: NpcProductMaterial[],
     facility?: string,
     skills?: { [skill: string]: number },
-    xp?: number
+    xp?: number,
   ) {
     this.product = product;
     this.members = members;

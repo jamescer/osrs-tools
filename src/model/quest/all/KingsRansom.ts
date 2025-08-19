@@ -1,16 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
-import {
-  LevelRequirement,
-  QuestRequirement,
-  Requirement,
-} from '../../Requirement';
+import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const KingsRansom: Quest = {
   id: 0,
   name: "King's Ransom",
   members: true,
-  difficulty: 'Experienced',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Medium,
   requirements: [
     new QuestRequirement("Black Knights' Fortress"),
     new QuestRequirement('Holy Grail'),
@@ -29,10 +26,7 @@ const KingsRansom: Quest = {
   url: 'https://oldschool.runescape.wiki/w/King%27s_Ransom',
   series: 'Camelot (#3)',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

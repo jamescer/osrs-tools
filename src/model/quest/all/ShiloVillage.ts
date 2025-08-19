@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const ShiloVillage: Quest = {
   id: 0,
   name: 'Shilo Village',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Long',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Long,
   requirements: [
     new QuestRequirement('Jungle Potion'),
     new LevelRequirement('Crafting', 20, false),
@@ -22,10 +23,7 @@ const ShiloVillage: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Shilo_Village',
   series: 'Karamja',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

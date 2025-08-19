@@ -21,7 +21,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Slayer Tower (CKS)']
+    ['Slayer Tower (CKS)'],
   ),
   new Task(
     'Banshees',
@@ -38,7 +38,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Slayer Tower (CKS)']
+    ['Slayer Tower (CKS)'],
   ),
   new Task(
     'Basilisks',
@@ -51,7 +51,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Fremennik Slayer Dungeon (AJR)']
+    ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
     'Bloodveld',
@@ -64,7 +64,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Meiyerditch Laboratories', 'Catacombs of Kourend']
+    ['Meiyerditch Laboratories', 'Catacombs of Kourend'],
   ),
   new Task(
     'Blue dragons',
@@ -77,21 +77,11 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Taverley Dungeon', 'Myth\'s Guild']
+    ['Taverley Dungeon', "Myth's Guild"],
   ),
-  new Task(
-    'Brine rats',
-    40,
-    70,
-    [new SlayerLevelRequirement(47)],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Brine Rat Cavern']
-  ),
+  new Task('Brine rats', 40, 70, [new SlayerLevelRequirement(47)], null, null, [], 8, [], 0, [
+    'Brine Rat Cavern',
+  ]),
   new Task(
     'Cave crawlers',
     10,
@@ -103,7 +93,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Fremennik Slayer Dungeon (AJR)']
+    ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
     'Cave horrors',
@@ -120,7 +110,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Mos Le\'Harmless Caves']
+    ["Mos Le'Harmless Caves"],
   ),
   new Task(
     'Cave slime',
@@ -133,7 +123,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Dorgesh-Kaan South Dungeon (AJQ)']
+    ['Dorgesh-Kaan South Dungeon (AJQ)'],
   ),
   new Task(
     'Dagannoth',
@@ -146,7 +136,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Lighthouse', 'Catacombs of Kourend']
+    ['Lighthouse', 'Catacombs of Kourend'],
   ),
   new Task(
     'Fever spiders',
@@ -159,60 +149,17 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Braindeath Island']
+    ['Braindeath Island'],
   ),
-  new Task(
-    'Fire giants',
-    40,
-    90,
-    [new CombatLevelRequirement(65)],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Waterfall Dungeon', 'Brimhaven Dungeon']
-  ),
-  new Task(
-    'Flesh crawlers',
-    40,
-    70,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Stronghold of Security']
-  ),
-  new Task(
-    'Ghouls',
-    40,
-    70,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['West of Canifis']
-  ),
-  new Task(
-    'Green dragons',
-    40,
-    90,
-    [],
-    null,
-    null,
-    ['Baby green dragon'],
-    8,
-    [],
-    0,
-    ['Wilderness']
-  ),
+  new Task('Fire giants', 40, 90, [new CombatLevelRequirement(65)], null, null, [], 8, [], 0, [
+    'Waterfall Dungeon',
+    'Brimhaven Dungeon',
+  ]),
+  new Task('Flesh crawlers', 40, 70, [], null, null, [], 8, [], 0, ['Stronghold of Security']),
+  new Task('Ghouls', 40, 70, [], null, null, [], 8, [], 0, ['West of Canifis']),
+  new Task('Green dragons', 40, 90, [], null, null, ['Baby green dragon'], 8, [], 0, [
+    'Wilderness',
+  ]),
   new Task(
     'Greater demons',
     40,
@@ -224,34 +171,12 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Brimhaven Dungeon', 'Catacombs of Kourend']
+    ['Brimhaven Dungeon', 'Catacombs of Kourend'],
   ),
-  new Task(
-    'Harpy bug swarms',
-    40,
-    70,
-    [new SlayerLevelRequirement(33)],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Karamja']
-  ),
-  new Task(
-    'Hill giants',
-    40,
-    70,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Edgeville Dungeon']
-  ),
+  new Task('Harpy bug swarms', 40, 70, [new SlayerLevelRequirement(33)], null, null, [], 8, [], 0, [
+    'Karamja',
+  ]),
+  new Task('Hill giants', 40, 70, [], null, null, [], 8, [], 0, ['Edgeville Dungeon']),
   new Task(
     'Infernal mages',
     45,
@@ -267,21 +192,11 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Slayer Tower (CKS)']
+    ['Slayer Tower (CKS)'],
   ),
-  new Task(
-    'Jellies',
-    52,
-    90,
-    [new SlayerLevelRequirement(52)],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Fremennik Slayer Dungeon (AJR)']
-  ),
+  new Task('Jellies', 52, 90, [new SlayerLevelRequirement(52)], null, null, [], 8, [], 0, [
+    'Fremennik Slayer Dungeon (AJR)',
+  ]),
   new Task(
     'Kalphite',
     40,
@@ -289,30 +204,16 @@ const vannakaTasks: Task[] = [
     [],
     null,
     null,
-    [
-      'Kalphite worker',
-      'Kalphite soldier',
-      'Kalphite guardian',
-      'Kalphite Queen',
-    ],
+    ['Kalphite worker', 'Kalphite soldier', 'Kalphite guardian', 'Kalphite Queen'],
     8,
     [],
     0,
-    ['Kalphite Cave']
+    ['Kalphite Cave'],
   ),
-  new Task(
-    'Lesser demons',
-    40,
-    90,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Karamja Volcano', 'Wilderness']
-  ),
+  new Task('Lesser demons', 40, 90, [], null, null, [], 8, [], 0, [
+    'Karamja Volcano',
+    'Wilderness',
+  ]),
   new Task(
     'Mogres',
     40,
@@ -324,112 +225,23 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Mudskipper Point']
+    ['Mudskipper Point'],
   ),
-  new Task(
-    'Moss giants',
-    40,
-    90,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Varrock Sewers', 'Crandor']
-  ),
-  new Task(
-    'Ogres',
-    40,
-    90,
-    [],
-    null,
-    null,
-    ['Ogress Warrior', 'Ogress Shaman'],
-    8,
-    [],
-    0,
-    ['Corsair Cove Dungeon', 'Feldip Hills']
-  ),
-  new Task(
-    'Otherworldly beings',
-    40,
-    70,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Zanaris']
-  ),
-  new Task(
-    'Poison spiders',
-    40,
-    70,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Wilderness']
-  ),
-  new Task(
-    'Pyrefiends',
-    30,
-    70,
-    [new SlayerLevelRequirement(30)],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Fremennik Slayer Dungeon (AJR)']
-  ),
-  new Task(
-    'Rockslugs',
-    20,
-    50,
-    [new SlayerLevelRequirement(20)],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Fremennik Slayer Dungeon (AJR)']
-  ),
-  new Task(
-    'Shades',
-    40,
-    70,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Mort\'ton']
-  ),
-  new Task(
-    'Shadow warriors',
-    40,
-    70,
-    [],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Legend\'s Guild Basement']
-  ),
+  new Task('Moss giants', 40, 90, [], null, null, [], 8, [], 0, ['Varrock Sewers', 'Crandor']),
+  new Task('Ogres', 40, 90, [], null, null, ['Ogress Warrior', 'Ogress Shaman'], 8, [], 0, [
+    'Corsair Cove Dungeon',
+    'Feldip Hills',
+  ]),
+  new Task('Otherworldly beings', 40, 70, [], null, null, [], 8, [], 0, ['Zanaris']),
+  new Task('Poison spiders', 40, 70, [], null, null, [], 8, [], 0, ['Wilderness']),
+  new Task('Pyrefiends', 30, 70, [new SlayerLevelRequirement(30)], null, null, [], 8, [], 0, [
+    'Fremennik Slayer Dungeon (AJR)',
+  ]),
+  new Task('Rockslugs', 20, 50, [new SlayerLevelRequirement(20)], null, null, [], 8, [], 0, [
+    'Fremennik Slayer Dungeon (AJR)',
+  ]),
+  new Task('Shades', 40, 70, [], null, null, [], 8, [], 0, ["Mort'ton"]),
+  new Task('Shadow warriors', 40, 70, [], null, null, [], 8, [], 0, ["Legend's Guild Basement"]),
   new Task(
     'Terror dogs',
     40,
@@ -441,7 +253,7 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Haunted Mine']
+    ['Haunted Mine'],
   ),
   new Task(
     'Trolls',
@@ -454,21 +266,11 @@ const vannakaTasks: Task[] = [
     8,
     [],
     0,
-    ['Death Plateau', 'Fremennik Isles']
+    ['Death Plateau', 'Fremennik Isles'],
   ),
-  new Task(
-    'Wall beasts',
-    40,
-    70,
-    [new SlayerLevelRequirement(35)],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Lumbridge Swamp Caves']
-  ),
+  new Task('Wall beasts', 40, 70, [new SlayerLevelRequirement(35)], null, null, [], 8, [], 0, [
+    'Lumbridge Swamp Caves',
+  ]),
 ];
 
 export { vannakaTasks };

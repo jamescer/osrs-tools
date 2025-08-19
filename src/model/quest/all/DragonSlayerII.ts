@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const DragonSlayerII: Quest = {
   id: 0, // Assign a unique ID if available
   name: 'Dragon Slayer II',
   members: true,
-  difficulty: 'Grandmaster',
-  length: 'Very long',
+  difficulty: QuestDifficulty.Grandmaster,
+  length: QuestLength.VeryLong,
   requirements: [], // Quests: Legends' Quest, Dream Mentor, A Tail of Two Cats, Animal Magnetism, Ghosts Ahoy, Bone Voyage, Client of Kourend. Skill: quest 200
   questPoints: 5,
   startLocation: '',
@@ -19,10 +19,7 @@ const DragonSlayerII: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer_II',
   series: 'Dragonkin',
   age: '',
-  difficultyLevel: 'Grandmaster',
-  officialDifficulty: 'Grandmaster',
-  officialLength: 'Very long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

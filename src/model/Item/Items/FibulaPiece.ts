@@ -1,4 +1,4 @@
-import { Item } from "../Item";
+import { Item } from '../Item';
 
 export const FibulaPiece = {
   name: 'Fibula piece',
@@ -18,7 +18,7 @@ export const FibulaPiece = {
   used_for: ['Skeletal bottoms'],
   dropped_by: ['Wallasalki'],
   drop_rate: '1/64',
-  location: ['Waterbirth Island Dungeon']
+  location: ['Waterbirth Island Dungeon'],
 };
 
 export const FibulaPieceItem = Item.fromJson(FibulaPiece);

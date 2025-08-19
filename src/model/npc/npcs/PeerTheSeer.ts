@@ -59,5 +59,5 @@ export const Peer_the_Seer = new Npc(
   peerTheSeerDrops,
   [], // weaknesses
   undefined, // iconUrl
-  peerTheSeerProducts
+  peerTheSeerProducts,
 );

@@ -1,4 +1,4 @@
-import { Item } from "../Item";
+import { Item } from '../Item';
 
 export const SkullPiece = {
   name: 'Skull piece',
@@ -18,8 +18,7 @@ export const SkullPiece = {
   used_for: ['Skeletal helm'],
   dropped_by: ['Wallasalki'],
   drop_rate: '1/64',
-  location: ['Waterbirth Island Dungeon']
+  location: ['Waterbirth Island Dungeon'],
 };
-
 
 export const SkullPieceItem = Item.fromJson(SkullPiece);

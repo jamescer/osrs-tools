@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const SwanSong: Quest = {
   id: 0,
   name: 'Swan Song',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Medium,
   requirements: [
     new QuestRequirement('One Small Favour'),
     new LevelRequirement('Magic', 66, false),
@@ -26,10 +27,7 @@ const SwanSong: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Swan_Song',
   series: null,
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const Contact: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Contact!",
+  name: 'Contact!',
   members: true,
-  difficulty: 'Master',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.Medium,
   requirements: [], // Quests: Prince Ali Rescue, Icthlarin's Little Helper
   questPoints: 1,
   startLocation: '',
@@ -15,21 +15,16 @@ const Contact: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "contact",
+  shortName: 'contact',
   url: 'https://oldschool.runescape.wiki/w/Contact!',
   series: 'Desert',
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: [
-      { skill: Skill.Thieving, amount: 7000 }
-    ],
+    experience: [{ skill: Skill.Thieving, amount: 7000 }],
     questPoints: 1,
     items: [],
     areas: [],

@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const GrimTales: Quest = {
   id: 0,
   name: 'Grim Tales',
   members: true,
-  difficulty: 'Master',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -19,10 +20,7 @@ const GrimTales: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Grim_Tales',
   series: null,
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

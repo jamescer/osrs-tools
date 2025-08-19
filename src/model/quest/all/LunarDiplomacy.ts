@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const LunarDiplomacy: Quest = {
   id: 0,
   name: 'Lunar Diplomacy',
   members: true,
-  difficulty: 'Master',
-  length: 'Long',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.Long,
   requirements: [
     new QuestRequirement('The Fremennik Trials'),
     new QuestRequirement('Lost City'),
@@ -30,17 +31,14 @@ const LunarDiplomacy: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Lunar_Diplomacy',
   series: 'Fremennik',
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
     experience: [
       { skill: Skill.Magic, amount: 5000 },
-      { skill: Skill.Runecraft, amount: 5000 }
+      { skill: Skill.Runecraft, amount: 5000 },
     ],
     questPoints: 2,
     items: [],

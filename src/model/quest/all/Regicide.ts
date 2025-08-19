@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const Regicide: Quest = {
   id: 0,
   name: 'Regicide',
   members: true,
-  difficulty: 'Master',
-  length: 'Long',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.Long,
   requirements: [
     new QuestRequirement('Underground Pass'),
     new LevelRequirement('Agility', 56, false),
@@ -22,10 +22,7 @@ const Regicide: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Regicide',
   series: 'Elf',
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

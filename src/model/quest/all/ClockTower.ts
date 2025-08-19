@@ -1,12 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const ClockTower: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Clock Tower",
+  name: 'Clock Tower',
   members: true,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -14,14 +14,11 @@ const ClockTower: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "clockTower",
+  shortName: 'clockTower',
   url: 'https://oldschool.runescape.wiki/w/Clock_Tower',
   series: null,
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

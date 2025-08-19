@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheFremennikTrials: Quest = {
   id: 0,
   name: 'The Fremennik Trials',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Long',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Long,
   requirements: [],
   questPoints: 3,
   startLocation: '',
@@ -18,10 +19,7 @@ const TheFremennikTrials: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Trials',
   series: 'Fremennik',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

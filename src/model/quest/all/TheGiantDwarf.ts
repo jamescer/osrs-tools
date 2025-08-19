@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheGiantDwarf: Quest = {
   id: 0,
   name: 'The Giant Dwarf',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [
     new LevelRequirement('Firemaking', 16, false),
     new LevelRequirement('Thieving', 14, false),
@@ -23,10 +24,7 @@ const TheGiantDwarf: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Giant_Dwarf',
   series: 'Rise of the Red Axe',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

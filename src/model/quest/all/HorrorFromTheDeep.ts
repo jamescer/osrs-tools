@@ -1,6 +1,7 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement, RequirementType } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const agilityRequirement: LevelRequirement = {
   skillName: 'agility',
@@ -14,8 +15,8 @@ const HorrorFromTheDeep: Quest = {
   id: 0,
   name: 'Horror from the Deep',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Short',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Short,
   requirements: [agilityRequirement],
   questPoints: 2,
   startLocation: '',
@@ -27,10 +28,7 @@ const HorrorFromTheDeep: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Horror_from_the_Deep',
   series: 'Fremennik',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

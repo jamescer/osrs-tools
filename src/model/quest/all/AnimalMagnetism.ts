@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const AnimalMagnetism: Quest = {
   id: 0, // Assign a unique ID if available
   name: 'Animal Magnetism',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium - Long',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Long,
   requirements: [], // Quests: The Restless Ghost, Ernest the Chicken, Priest in Peril. Skills: Slayer 18, Crafting 19, Ranged 30, Woodcutting 35, Prayer 31
   questPoints: 1,
   startLocation: '',
@@ -19,10 +19,7 @@ const AnimalMagnetism: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Animal_Magnetism',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium - Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

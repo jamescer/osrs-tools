@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheFremennikExiles: Quest = {
   id: 0,
   name: 'The Fremennik Exiles',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Long',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Long,
   requirements: [
     new QuestRequirement('The Fremennik Isles'),
     new LevelRequirement('Crafting', 25, false),
@@ -26,10 +27,7 @@ const TheFremennikExiles: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Exiles',
   series: 'Fremennik',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const ColdWar: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Cold War",
+  name: 'Cold War',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium - Long',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Long,
   requirements: [], // Skills: Hunter 10, Agility 30, Crafting 30, Construction 34, Thieving 15
   questPoints: 1,
   startLocation: '',
@@ -15,14 +15,11 @@ const ColdWar: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "coldWar",
+  shortName: 'coldWar',
   url: 'https://oldschool.runescape.wiki/w/Cold_War',
   series: 'Penguin',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium - Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

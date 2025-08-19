@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const MurderMystery: Quest = {
   id: 0,
   name: 'Murder Mystery',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 3,
   startLocation: '',
@@ -18,10 +19,7 @@ const MurderMystery: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Murder_Mystery',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

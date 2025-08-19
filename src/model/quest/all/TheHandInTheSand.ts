@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheHandInTheSand: Quest = {
   id: 0,
   name: 'The Hand in the Sand',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [
     new LevelRequirement('Crafting', 49, false),
     new LevelRequirement('Thieving', 40, false),
@@ -22,10 +23,7 @@ const TheHandInTheSand: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

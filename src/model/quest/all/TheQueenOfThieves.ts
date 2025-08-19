@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheQueenOfThieves: Quest = {
   id: 0,
   name: 'The Queen of Thieves',
   members: true,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [
     new QuestRequirement('Client of Kourend'),
     new LevelRequirement('Thieving', 20, false),
@@ -22,10 +22,7 @@ const TheQueenOfThieves: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Queen_of_Thieves',
   series: 'Great Kourend',
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

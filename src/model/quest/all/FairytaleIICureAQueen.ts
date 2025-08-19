@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const FairytaleIICureAQueen: Quest = {
   id: 0, // Assign a unique ID if available
   name: 'Fairytale II - Cure a Queen',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Short - Medium',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Medium,
   requirements: [], // Quests: Fairytale I - Growing Pains. Skills: Thieving 40, Farming 49, Herblore 57
   questPoints: 2,
   startLocation: '',
@@ -19,10 +19,7 @@ const FairytaleIICureAQueen: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen',
   series: 'Fairy Tale (#2)',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Short - Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

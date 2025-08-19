@@ -1,13 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const Watchtower: Quest = {
   id: 0,
   name: 'Watchtower',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Long',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Long,
   requirements: [
     new LevelRequirement('Magic', 15, false),
     new LevelRequirement('Herblore', 14, false),
@@ -24,10 +23,7 @@ const Watchtower: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Watchtower',
   series: null,
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

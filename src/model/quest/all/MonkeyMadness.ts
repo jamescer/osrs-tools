@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const MonkeyMadness: Quest = {
   id: 0,
   name: 'Monkey Madness',
   members: true,
-  difficulty: 'Master',
-  length: 'Long',
+  difficulty: QuestDifficulty.Master,
+  length: QuestLength.Long,
   requirements: [
     new QuestRequirement('The Grand Tree'),
     new QuestRequirement('Tree Gnome Village'),
@@ -22,17 +23,12 @@ const MonkeyMadness: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Monkey_Madness',
   series: 'Gnome',
   age: '',
-  difficultyLevel: 'Master',
-  officialDifficulty: 'Master',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
-    experience: [
-      { skill: Skill.Strength, amount: 10000 }
-    ],
+    experience: [{ skill: Skill.Strength, amount: 10000 }],
     questPoints: 3,
     items: [],
     areas: [],

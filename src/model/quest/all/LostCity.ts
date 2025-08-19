@@ -1,16 +1,15 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement, Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const LostCity: Quest = {
   id: 0,
   name: 'Lost City',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
-  requirements: [
-    new LevelRequirement('Woodcutting', 36, false),
-  ],
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
+  requirements: [new LevelRequirement('Woodcutting', 36, false)],
   questPoints: 3,
   startLocation: '',
   description: '',
@@ -21,10 +20,7 @@ const LostCity: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Lost_City',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

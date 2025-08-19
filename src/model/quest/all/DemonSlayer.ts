@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const DemonSlayer: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Demon Slayer",
+  name: 'Demon Slayer',
   members: false,
-  difficulty: 'Novice',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 3,
   startLocation: '',
@@ -15,14 +15,11 @@ const DemonSlayer: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "demonSlayer",
+  shortName: 'demonSlayer',
   url: 'https://oldschool.runescape.wiki/w/Demon_Slayer',
   series: null,
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

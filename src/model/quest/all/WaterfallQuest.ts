@@ -1,12 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const WaterfallQuest: Quest = {
   id: 0,
   name: 'Waterfall Quest',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 1,
   startLocation: '',
@@ -18,10 +18,7 @@ const WaterfallQuest: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Waterfall_Quest',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

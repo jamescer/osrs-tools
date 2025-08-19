@@ -1,16 +1,15 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const Ratcatchers: Quest = {
   id: 0,
   name: 'Ratcatchers',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Long',
-  requirements: [
-    new QuestRequirement("Gertrude's Cat"),
-  ],
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Long,
+  requirements: [new QuestRequirement("Gertrude's Cat")],
   questPoints: 2,
   startLocation: '',
   description: '',
@@ -21,10 +20,7 @@ const Ratcatchers: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Ratcatchers',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Long',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

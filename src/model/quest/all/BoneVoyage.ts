@@ -1,12 +1,11 @@
 import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const BoneVoyage: Quest = {
   id: 0, // Assign a unique ID if available
-  name: "Bone Voyage",
+  name: 'Bone Voyage',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Short - Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Short,
   requirements: [], // Quests: The Dig Site
   questPoints: 1,
   startLocation: '',
@@ -14,14 +13,11 @@ const BoneVoyage: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "boneVoyage",
+  shortName: 'boneVoyage',
   url: 'https://oldschool.runescape.wiki/w/Bone_Voyage',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Short - Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

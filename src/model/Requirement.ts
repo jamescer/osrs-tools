@@ -28,8 +28,8 @@ enum RequirementType {
   Level = 'Level',
   CombatLevel = 'CombatLevel',
   Quest = 'Quest',
-  QuestPoint = 'QuestPoint',
   Item = 'Item',
+  QuestPoint = 'QuestPoint',
   Location = 'Location',
   SlayerUnlock = 'SlayerUnlock',
 }
@@ -104,13 +104,47 @@ class QuestPointRequirement implements Requirement {
 class ItemRequirement implements Requirement {
   type: RequirementType = RequirementType.Item;
   itemName: string;
+  quantity: number;
+  /** Whether the item is consumed during the quest */
+  consumed: boolean;
+  /** Alternative items that can be used instead */
+  alternatives?: string[];
+  /** Whether the item must be noted */
+  noted?: boolean;
+  /** Whether the item can be banked and withdrawn during the quest */
+  bankable?: boolean;
+  /** Any additional notes about the item requirement */
+  notes?: string;
 
-  constructor(itemName: string) {
+  constructor(
+    itemName: string,
+    quantity: number = 1,
+    options: {
+      consumed?: boolean;
+      alternatives?: string[];
+      noted?: boolean;
+      bankable?: boolean;
+      notes?: string;
+    } = {},
+  ) {
     this.itemName = itemName;
+    this.quantity = quantity;
+    this.consumed = options.consumed ?? true;
+    this.alternatives = options.alternatives;
+    this.noted = options.noted;
+    this.bankable = options.bankable;
+    this.notes = options.notes;
   }
 
   get description(): string {
-    return `Has item: ${this.itemName}`;
+    let desc = `${this.quantity}x ${this.itemName}`;
+    if (this.noted) desc += ' (noted)';
+    if (!this.consumed) desc += ' (not consumed)';
+    if (this.alternatives?.length) {
+      desc += ` (or ${this.alternatives.join(' or ')})`;
+    }
+    if (this.notes) desc += ` (${this.notes})`;
+    return desc;
   }
 }
 

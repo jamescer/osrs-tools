@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement, LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const Wanted: Quest = {
   id: 0,
   name: 'Wanted!',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [
     new QuestRequirement('Recruitment Drive'),
     new QuestRequirement('The Lost Tribe'),
@@ -27,10 +27,6 @@ const Wanted: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Wanted!',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

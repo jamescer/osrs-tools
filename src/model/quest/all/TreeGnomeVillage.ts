@@ -1,12 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TreeGnomeVillage: Quest = {
   id: 0,
   name: 'Tree Gnome Village',
   members: true,
-  difficulty: 'Novice',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Medium,
   requirements: [],
   questPoints: 2,
   startLocation: '',
@@ -18,10 +19,7 @@ const TreeGnomeVillage: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Tree_Gnome_Village',
   series: 'Gnome',
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const ShadesOfMortton: Quest = {
   id: 0,
   name: 'Shades of Mortton',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Short',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Short,
   requirements: [
     new LevelRequirement('Crafting', 20, false),
     new LevelRequirement('Herblore', 15, false),
@@ -22,10 +23,7 @@ const ShadesOfMortton: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Shades_of_Mortton',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

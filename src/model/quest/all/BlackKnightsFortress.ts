@@ -1,12 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const BlackKnightsFortress: Quest = {
   id: 0, // Assign a unique ID if available
   name: "Black Knights' Fortress",
   members: false,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 3,
   startLocation: '',
@@ -14,14 +14,11 @@ const BlackKnightsFortress: Quest = {
   steps: [],
   status: QuestStatus.NotStarted,
   miniquest: false,
-  shortName: "blackKnightsFortress",
-  url: "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
+  shortName: 'blackKnightsFortress',
+  url: 'https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress',
   series: null,
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

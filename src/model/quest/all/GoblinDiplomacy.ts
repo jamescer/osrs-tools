@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const GoblinDiplomacy: Quest = {
   id: 0,
   name: 'Goblin Diplomacy',
   members: false,
-  difficulty: 'Novice',
-  length: 'Short',
+  difficulty: QuestDifficulty.Novice,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 5,
   startLocation: '',
@@ -19,10 +20,7 @@ const GoblinDiplomacy: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Goblin_Diplomacy',
   series: null,
   age: '',
-  difficultyLevel: 'Novice',
-  officialDifficulty: 'Novice',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

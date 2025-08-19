@@ -1,13 +1,12 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const ZogreFleshEaters: Quest = {
   id: 0,
   name: 'Zogre Flesh Eaters',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [
     new LevelRequirement('Herblore', 8, false),
     new LevelRequirement('Smithing', 4, false),
@@ -23,10 +22,7 @@ const ZogreFleshEaters: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters',
   series: 'Ogre',
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

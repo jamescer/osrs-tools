@@ -1,13 +1,14 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const SpiritsOfTheElid: Quest = {
   id: 0,
   name: 'Spirits of the Elid',
   members: true,
-  difficulty: 'Intermediate',
-  length: 'Medium',
+  difficulty: QuestDifficulty.Intermediate,
+  length: QuestLength.Medium,
   requirements: [
     new LevelRequirement('Magic', 33, false),
     new LevelRequirement('Thieving', 37, false),
@@ -22,10 +23,7 @@ const SpiritsOfTheElid: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Spirits_of_the_Elid',
   series: null,
   age: '',
-  difficultyLevel: 'Intermediate',
-  officialDifficulty: 'Intermediate',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

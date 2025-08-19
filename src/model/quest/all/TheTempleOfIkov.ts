@@ -1,16 +1,15 @@
 import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestDifficulty, QuestLength } from '../enums';
 
 const TheTempleOfIkov: Quest = {
   id: 0,
   name: 'Temple of Ikov',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Medium',
-  requirements: [
-    new LevelRequirement('Thieving', 42, false),
-  ],
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Medium,
+  requirements: [new LevelRequirement('Thieving', 42, false)],
   questPoints: 1,
   startLocation: '',
   description: '',
@@ -21,10 +20,7 @@ const TheTempleOfIkov: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Temple_of_Ikov',
   series: null,
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Medium',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

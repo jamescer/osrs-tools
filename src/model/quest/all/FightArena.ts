@@ -1,13 +1,13 @@
 import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
-
+import { QuestDifficulty, QuestLength } from '../enums';
 const FightArena: Quest = {
   id: 0,
   name: 'Fight Arena',
   members: true,
-  difficulty: 'Experienced',
-  length: 'Short',
+  difficulty: QuestDifficulty.Experienced,
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 2,
   startLocation: '',
@@ -19,10 +19,7 @@ const FightArena: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Fight_Arena',
   series: 'Mahjarrat',
   age: '',
-  difficultyLevel: 'Experienced',
-  officialDifficulty: 'Experienced',
-  officialLength: 'Short',
-  officialAge: '',
+
   recommendedItems: [],
   recommendedSkills: {},
   recommendedPrayers: [],

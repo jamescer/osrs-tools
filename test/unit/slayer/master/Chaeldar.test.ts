@@ -20,8 +20,6 @@ describe('Chaeldar', () => {
   });
 
   it('should have the correct wiki URL', () => {
-    expect(Chaeldar.wikiUrl).toBe(
-      'https://oldschool.runescape.wiki/w/Chaeldar'
-    );
+    expect(Chaeldar.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Chaeldar');
   });
 });

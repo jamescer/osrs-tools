@@ -1,10 +1,17 @@
 {
   "name": "osrs-tools",
   "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and game item information",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
   "files": [
     "dist/**"
   ],
@@ -60,21 +67,42 @@
     "osrs",
     "runescape",
     "oldschool",
+    "old-school-runescape",
+    "osrs-api",
+    "osrs-data",
+    "osrs-quests",
+    "osrs-skills",
+    "osrs-items",
+    "osrs-hiscores",
+    "quest-helper",
+    "quest-requirements",
+    "skill-calculator",
+    "item-database",
+    "slayer",
+    "rpg",
+    "mmorpg",
+    "gaming",
+    "jagex",
+    "rs",
+    "typescript",
+    "nodejs",
+    "game-tools",
+    "tools",
     "data",
     "api",
-    "tools",
     "quests",
     "skills",
     "items",
-    "hiscores",
-    "typescript",
-    "quest-helper",
-    "game-tools"
+    "hiscores"
   ],
   "contributors": [
     "James Cerniglia (https://github.com/jamescer)"
   ],
-  "author": "James Cerniglia",
+  "author": {
+    "name": "James Cerniglia",
+    "email": "jamesmcerniglia@gmail.com",
+    "url": "https://github.com/jamescer"
+  },
   "bugs": {
     "url": "https://github.com/jamescer/osrs-tools/issues",
     "email": "jamesmcerniglia@gmail.com"

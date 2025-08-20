@@ -1,6 +1,9 @@
 export { QuestTool } from './model/quest/QuestTool';
 
 // Quest Exports
+export * from './model/quest/types';
+export * from './model/quest/enums';
+export * from './model/quest/requirements';
 export * from './model/quest/Quest';
 export * from './model/quest/all/AHandInTheSand';
 export * from './model/quest/all/AKingdomDivided';

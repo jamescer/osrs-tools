@@ -1,12 +1,12 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Skill } from '../../account/Skill';
+import { Quest } from '../types';
+import { QuestDifficulty, QuestLength, QuestStatus } from '../enums';
 
 const TribalTotem: Quest = {
   id: 0,
   name: 'Tribal Totem',
   members: true,
   difficulty: QuestDifficulty.Intermediate,
-  length: 'Short',
+  length: QuestLength.Short,
   requirements: [],
   questPoints: 1,
   startLocation: '',

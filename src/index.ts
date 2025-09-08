@@ -5,7 +5,6 @@ export * from './model/quest/types';
 export * from './model/quest/enums';
 export * from './model/quest/requirements';
 export * from './model/quest/Quest';
-export * from './model/quest/all/AHandInTheSand';
 export * from './model/quest/all/AKingdomDivided';
 export * from './model/quest/all/AnimalMagnetism';
 export * from './model/quest/all/AnotherSliceOfHAM';

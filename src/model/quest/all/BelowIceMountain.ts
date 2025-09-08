@@ -22,18 +22,21 @@ const BelowIceMountain: Quest = {
   age: '',
 
   recommendations: [
-    'Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild',
-    'Combat equipment to fight a level 82 beast.',
+    {
+      type: 'tip',
+      name: 'Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild',
+    },
+    { type: 'tip', name: 'Combat equipment to fight a level 82 beast.' },
   ],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {
     experience: [],
     questPoints: 1,
-    items: [],
+    items: [ { name: 'Coins', quantity: 2000 } ],
     areas: [],
     unlocks: [
-      { description: '2,000 coins' },
+    
       { description: 'Access to the Ruins of Camdozaal' },
       { description: 'Flex emote' },
       { description: 'The ability to make steak sandwich' },

@@ -20,7 +20,7 @@ const PlagueCity: Quest = {
   series: 'Elf',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

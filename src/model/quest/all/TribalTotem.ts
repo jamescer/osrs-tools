@@ -19,7 +19,7 @@ const TribalTotem: Quest = {
   series: null,
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

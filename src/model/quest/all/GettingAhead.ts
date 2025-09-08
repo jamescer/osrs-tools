@@ -21,7 +21,7 @@ const GettingAhead: Quest = {
   series: 'Twisted Tales',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

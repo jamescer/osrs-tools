@@ -20,7 +20,7 @@ const FightArena: Quest = {
   series: 'Mahjarrat',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

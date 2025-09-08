@@ -20,7 +20,7 @@ const MerlinsCrystal: Quest = {
   series: 'Camelot (#1)',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

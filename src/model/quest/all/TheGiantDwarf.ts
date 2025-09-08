@@ -25,7 +25,7 @@ const TheGiantDwarf: Quest = {
   series: 'Rise of the Red Axe',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

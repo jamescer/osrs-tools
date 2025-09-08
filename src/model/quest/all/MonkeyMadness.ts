@@ -24,7 +24,7 @@ const MonkeyMadness: Quest = {
   series: 'Gnome',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

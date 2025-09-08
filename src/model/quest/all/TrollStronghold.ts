@@ -21,7 +21,7 @@ const TrollStronghold: Quest = {
   series: 'Troll',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

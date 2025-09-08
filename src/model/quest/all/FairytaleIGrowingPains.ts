@@ -20,7 +20,7 @@ const FairytaleIGrowingPains: Quest = {
   series: 'Fairy Tale (#2)',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

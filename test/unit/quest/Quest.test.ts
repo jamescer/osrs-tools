@@ -21,7 +21,7 @@ describe('Quest Rewards Structure', () => {
       name: "Cook's Assistant",
 
       questPoints: 1,
-      recommendedItems: ['None'],
+      recommendations: [],
       recommendedPrayers: ['None'],
       recommendedSkills: { cooking: 10 },
       rewards: {
@@ -77,7 +77,7 @@ describe('Quest Rewards Structure', () => {
       miniquest: false,
       name: "Cook's Assistant",
       questPoints: 1,
-      recommendedItems: ['None'],
+      recommendations: [],
       recommendedPrayers: ['None'],
       recommendedSkills: { cooking: 10 },
       rewards: {

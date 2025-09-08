@@ -18,20 +18,34 @@ const BlackKnightsFortress: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress',
   series: null,
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [],
-    questPoints: 3,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Bronze med helm, iron chainbody, cabbage',
+        note: 'Required to enter the fortress and complete the quest.'
+      },
+      {
+        type: 'tip',
+        name: 'Food',
+        note: 'Useful for low-level players.'
+      }
+    ],
+    recommendedSkills: {},
+    recommendedPrayers: [],
+    rewards: {
+      experience: [],
+      questPoints: 3,
+      items: [
+        { name: '3000 coins' }
+      ],
+      areas: [],
+      unlocks: [
+        { description: 'Ability to enter the Black Knights’ Fortress freely' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default BlackKnightsFortress;

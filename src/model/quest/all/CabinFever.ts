@@ -18,24 +18,43 @@ const CabinFever: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Cabin_Fever',
   series: 'Pirate',
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [
-      { skill: 'Agility', amount: 7000 },
-      { skill: 'Crafting', amount: 7000 },
-      { skill: 'Smithing', amount: 7000 },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Ranged weapon and ammo',
+        note: 'Required for ship defense.'
+      },
+      {
+        type: 'tip',
+        name: 'Food',
+        note: 'Useful for combat and travel.'
+      }
     ],
-    questPoints: 2,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendedSkills: {
+      Ranged: 40,
+      Agility: 42,
+      Crafting: 45,
+      Smithing: 50
+    },
+    recommendedPrayers: ['Protect from Melee'],
+    rewards: {
+      experience: [
+        { skill: 'Agility', amount: 7000 },
+        { skill: 'Crafting', amount: 7000 },
+        { skill: 'Smithing', amount: 7000 }
+      ],
+      questPoints: 2,
+      items: [
+        { name: 'Access to Mos Le’Harmless' }
+      ],
+      areas: ['Mos Le’Harmless'],
+      unlocks: [
+        { description: 'Ability to travel to Mos Le’Harmless' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default CabinFever;

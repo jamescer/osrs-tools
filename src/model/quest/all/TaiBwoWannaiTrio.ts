@@ -26,7 +26,7 @@ const TaiBwoWannaiTrio: Quest = {
   series: 'Karamja',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

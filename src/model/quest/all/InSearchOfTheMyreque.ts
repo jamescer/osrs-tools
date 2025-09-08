@@ -21,7 +21,7 @@ const InSearchOfTheMyreque: Quest = {
   series: 'Myreque',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

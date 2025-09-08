@@ -19,7 +19,7 @@ const AnotherSliceOfHAM: Quest = {
   series: 'Dorgeshuun (#4)',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

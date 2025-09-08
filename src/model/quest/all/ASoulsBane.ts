@@ -19,23 +19,37 @@ const ASoulsBane: Quest = {
   url: 'https://oldschool.runescape.wiki/w/A_Soul%27s_Bane',
   series: null,
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [
-      { skill: 'Defence', amount: 500 },
-      { skill: 'Hitpoints', amount: 500 },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Food',
+        note: 'Useful for low-level players.'
+      },
+      {
+        type: 'tip',
+        name: 'Energy potions',
+        note: 'Useful for running between locations.'
+      }
     ],
-    questPoints: 1,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendedSkills: {},
+    recommendedPrayers: [],
+    rewards: {
+      experience: [
+        { skill: 'Defence', amount: 500 },
+        { skill: 'Hitpoints', amount: 500 }
+      ],
+      questPoints: 1,
+      items: [
+        { name: 'Ability to enter the Rift' }
+      ],
+      areas: ['The Rift'],
+      unlocks: [
+        { description: 'Ability to enter the Rift freely' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default ASoulsBane;

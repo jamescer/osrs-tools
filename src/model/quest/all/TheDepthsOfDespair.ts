@@ -24,7 +24,7 @@ const TheDepthsOfDespair: Quest = {
   series: 'Great Kourend',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

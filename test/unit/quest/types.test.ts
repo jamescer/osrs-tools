@@ -87,8 +87,7 @@ describe('Quest Types and Requirements', () => {
         questPoints: 1,
         age: 'Fifth Age',
         startLocation: 'Lumbridge Castle Kitchen',
-
-        recommendedItems: ['None'],
+        recommendations: [],
         recommendedSkills: {},
         recommendedPrayers: [],
         rewards: {

@@ -27,7 +27,7 @@ const RumDeal: Quest = {
   series: 'Pirate',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

@@ -27,7 +27,7 @@ const KingsRansom: Quest = {
   series: 'Camelot (#3)',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

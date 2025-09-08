@@ -26,7 +26,7 @@ const HolyGrail: Quest = {
   series: 'Camelot (#2)',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

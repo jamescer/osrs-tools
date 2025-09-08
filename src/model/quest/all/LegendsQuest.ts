@@ -36,7 +36,7 @@ const LegendsQuest: Quest = {
   series: 'Guild',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

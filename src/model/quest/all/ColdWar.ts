@@ -19,24 +19,52 @@ const ColdWar: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Cold_War',
   series: 'Penguin',
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [
-      { skill: Skill.Agility, amount: 5000 },
-      { skill: Skill.Construction, amount: 1500 },
-      { skill: Skill.Crafting, amount: 2000 },
+    recommendations: [
+      { type: 'item', name: '10 oak planks', quantity: 10 },
+      { type: 'item', name: '10 steel nails', quantity: 10 },
+      { type: 'item', name: 'Hammer' },
+      { type: 'item', name: 'Spade' },
+      { type: 'item', name: 'Clockwork or steel bar' },
+      { type: 'item', name: 'Plank' },
+      { type: 'item', name: 'Silk' },
+      { type: 'item', name: 'Raw cod or ring of charos (a)' },
+      { type: 'item', name: 'Swamp tar' },
+      { type: 'item', name: 'Feather', quantity: 5 },
+      { type: 'item', name: 'Mahogany plank' },
+      { type: 'item', name: 'Leather' },
+      { type: 'item', name: 'Cowbell', note: 'Obtainable only during quest' },
+      { type: 'item', name: 'Ardougne cloak', note: 'Recommended for teleportation' },
+      { type: 'item', name: 'Dramen or Lunar staff', note: 'Recommended for fairy ring network' },
+      { type: 'item', name: 'Food', note: 'Recommended for low-level players' },
+      { type: 'item', name: 'Armour', note: 'Recommended for low-level players' },
+      { type: 'item', name: 'Stamina potions', note: 'Recommended for faster travel' }
     ],
-    questPoints: 1,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendedSkills: {
+      Hunter: 10,
+      Agility: 30,
+      Crafting: 30,
+      Construction: 34,
+      Thieving: 15,
+      Combat: 30
+    },
+    recommendedPrayers: [],
+    rewards: {
+      experience: [
+        { skill: 'Agility', amount: 5000 },
+        { skill: 'Construction', amount: 1500 },
+        { skill: 'Crafting', amount: 2000 }
+      ],
+      questPoints: 1,
+      items: [],
+      areas: ['Iceberg', 'Penguin agility course'],
+      unlocks: [
+        { description: 'Ability to make the penguin suit' },
+        { description: 'Ability to use the Penguin agility course' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default ColdWar;

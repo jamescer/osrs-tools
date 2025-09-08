@@ -20,7 +20,7 @@ const DeviousMinds: Quest = {
   series: 'The Return of Zaros',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

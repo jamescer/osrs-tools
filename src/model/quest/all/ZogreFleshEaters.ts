@@ -23,7 +23,7 @@ const ZogreFleshEaters: Quest = {
   series: 'Ogre',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

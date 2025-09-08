@@ -22,11 +22,11 @@ const APorcineOfInterest: Quest = {
   age: '',
 
   recommendations: [
-    'Charged amulet of glory',
-    "Explorer's ring 2 or above",
-    'Stamina potion',
-    'Combat equipment',
-    'Some food for lower levels',
+    { type: 'tip', name: 'Charged amulet of glory' },
+    { type: 'tip', name: "Explorer's ring 2 or above" },
+    { type: 'tip', name: 'Stamina potion' },
+    { type: 'tip', name: 'Combat equipment' },
+    { type: 'tip', name: 'Some food for lower levels' },
   ],
   recommendedSkills: {},
   recommendedPrayers: [],

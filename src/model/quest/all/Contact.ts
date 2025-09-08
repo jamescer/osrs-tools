@@ -19,20 +19,46 @@ const Contact: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Contact!',
   series: 'Desert',
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [{ skill: Skill.Thieving, amount: 7000 }],
-    questPoints: 1,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendations: [
+      { type: 'item', name: 'Light source', note: 'Kandarin headgear, Firemaking cape, Abyssal lantern, bruma torch recommended' },
+      { type: 'item', name: 'Tinderbox' },
+      { type: 'item', name: 'Antipoison potion' },
+      { type: 'item', name: 'Combat equipment' },
+      { type: 'item', name: 'Food' },
+      { type: 'item', name: 'Pharaoh\'s sceptre or Nardah teleport' },
+      { type: 'item', name: 'Emergency escape teleport' },
+      { type: 'item', name: 'Desert robes' },
+      { type: 'item', name: 'Waterskins' },
+      { type: 'item', name: 'Ring of dueling or amulet of glory' },
+      { type: 'item', name: 'Coins', quantity: 800, note: 'For Magic carpet transportation' },
+      { type: 'item', name: 'Shantay pass' }
+    ],
+    recommendedSkills: {
+      Combat: 70,
+      Agility: 50,
+      Thieving: 50
+    },
+    recommendedPrayers: ['Protect from Melee', 'Protect from Magic', 'Protect from Missiles'],
+    rewards: {
+      experience: [
+        { skill: 'Thieving', amount: 7000 }
+      ],
+      questPoints: 1,
+      items: [
+        { name: 'Keris dagger' }
+      ],
+      areas: ['Sophanem'],
+      unlocks: [
+        { description: 'Access to Sophanem shops' },
+        { description: 'Unlocks Giant scarab in Nightmare Zone' }
+      ],
+      lamps: [
+        { amount: 7000, note: 'Combat lamp, 2x 7,000 XP in Attack, Strength, Defence, Hitpoints, Ranged, or Magic' },
+        { amount: 7000, note: 'Combat lamp, 2x 7,000 XP in Attack, Strength, Defence, Hitpoints, Ranged, or Magic' }
+      ],
+      points: [],
+      pets: [],
+    },
 };
 
 export default Contact;

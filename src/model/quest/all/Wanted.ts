@@ -27,7 +27,7 @@ const Wanted: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Wanted!',
   series: null,
   age: '',
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

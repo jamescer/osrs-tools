@@ -19,24 +19,42 @@ const BetweenARock: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Between_a_Rock...',
   series: 'Rise of the Red Axe',
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [
-      { skill: 'Defence', amount: 5000 },
-      { skill: 'Mining', amount: 5000 },
-      { skill: 'Smithing', amount: 5000 },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Gold helmet',
+        note: 'Required for quest completion.'
+      },
+      {
+        type: 'tip',
+        name: 'Food and energy potions',
+        note: 'Useful for travel and combat.'
+      }
     ],
-    questPoints: 2,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendedSkills: {
+      Defence: 30,
+      Mining: 40,
+      Smithing: 50
+    },
+    recommendedPrayers: ['Protect from Melee'],
+    rewards: {
+      experience: [
+        { skill: 'Defence', amount: 5000 },
+        { skill: 'Mining', amount: 5000 },
+        { skill: 'Smithing', amount: 5000 }
+      ],
+      questPoints: 2,
+      items: [
+        { name: 'Gold helmet' }
+      ],
+      areas: [],
+      unlocks: [
+        { description: 'Ability to mine gold ore in the Dwarven Mine' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default BetweenARock;

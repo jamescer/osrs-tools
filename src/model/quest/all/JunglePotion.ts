@@ -21,7 +21,7 @@ const JunglePotion: Quest = {
   series: 'Karamja',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

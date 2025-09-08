@@ -23,7 +23,7 @@ const TheTaleOfTheRighteous: Quest = {
   url: 'https://oldschool.runescape.wiki/w/The_Tale_of_the_Righteous',
   series: 'Great Kourend',
   age: '',
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

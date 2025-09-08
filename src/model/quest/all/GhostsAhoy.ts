@@ -21,7 +21,7 @@ const GhostsAhoy: Quest = {
   series: null,
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

@@ -20,7 +20,7 @@ const ElementalWorkshopI: Quest = {
   series: 'Elemental Workshop',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

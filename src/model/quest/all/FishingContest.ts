@@ -20,7 +20,7 @@ const FishingContest: Quest = {
   series: 'Dwarf',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

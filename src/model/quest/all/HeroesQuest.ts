@@ -33,7 +33,7 @@ const HeroesQuest: Quest = {
   series: 'Guild',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

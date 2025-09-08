@@ -18,20 +18,46 @@ const ClockTower: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Clock_Tower',
   series: null,
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Bucket of water',
+        note: 'Required for the black cog (can be obtained during quest). Alternatives: Jug of water, Ice gloves, Smiths gloves (i).'
+      },
+      {
+        type: 'item',
+        name: 'Food',
+        note: 'Recommended for low-level players due to ogres and spiders.'
+      },
+      {
+        type: 'item',
+        name: 'Stamina potions',
+        note: 'Recommended for faster travel.'
+      },
+      {
+        type: 'item',
+        name: 'Ardougne cloak',
+        note: 'Recommended for teleportation.'
+      }
+    ],
+    recommendedSkills: {
+      Combat: 15
+    },
+    recommendedPrayers: [],
+    rewards: {
+      experience: [],
+      questPoints: 1,
+      items: [
+        { name: 'Coins', quantity: 500 }
+      ],
+      areas: [],
+      unlocks: [
+        { description: 'Ability to run past level 53 Ogres in the dungeon' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default ClockTower;

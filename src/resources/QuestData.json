@@ -21,7 +21,7 @@
         "itemRequirements": [
             "N/A"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -54,7 +54,7 @@
         "itemRequirements": [
             "N/A"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -85,7 +85,7 @@
         "itemRequirements": [
             "N/A"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -118,7 +118,7 @@
         "itemRequirements": [
             "N/A"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -149,7 +149,7 @@
         "itemRequirements": [
             "N/A"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -182,7 +182,7 @@
         "itemRequirements": [
             "N/A"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -215,7 +215,7 @@
             "Beer",
             "Stake"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -251,7 +251,7 @@
             "Black bead",
             "White bead"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -297,7 +297,7 @@
             "Soft clay",
             "Bronze bar"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -330,7 +330,7 @@
             "4 copper ore",
             "2 iron ore"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -367,7 +367,7 @@
             "Iron chainbody",
             "Cabbage"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -401,7 +401,7 @@
             "Onion",
             "Rat's tail"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -440,7 +440,7 @@
             "Iron bars (2)",
             "Redberry pie"
         ],
-        "recommendedItems": [
+        "recommendations": [
             "Food",
             "Teleportation methods"
         ],
@@ -478,7 +478,7 @@
             "Orange dye",
             "Blue dye"
         ],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -512,7 +512,7 @@
             "White apron",
             "Spade"
         ],
-        "recommendedItems": [
+        "recommendations": [
             "Coins"
         ],
         "recommendedSkills": {},
@@ -554,7 +554,7 @@
             "Map pieces (3)",
             "Crandor map"
         ],
-        "recommendedItems": [
+        "recommendations": [
             "Food",
             "Potions",
             "Teleportation methods"
@@ -600,7 +600,7 @@
         "officialLength": "Short",
         "officialAge": "",
         "itemRequirements": [],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -631,7 +631,7 @@
         "officialLength": "Short",
         "officialAge": "",
         "itemRequirements": [],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -667,7 +667,7 @@
             "Spade",
             "Tinderbox"
         ],
-        "recommendedItems": [
+        "recommendations": [
             "Stamina potion",
             "Weapon",
             "Food"
@@ -700,7 +700,7 @@
         "officialLength": "Very Short",
         "officialAge": "",
         "itemRequirements": [],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],
@@ -738,7 +738,7 @@
         "officialLength": "Short",
         "officialAge": "",
         "itemRequirements": [],
-        "recommendedItems": [],
+        "recommendations": [],
         "recommendedSkills": {},
         "recommendedPrayers": [],
         "questRequirements": [],

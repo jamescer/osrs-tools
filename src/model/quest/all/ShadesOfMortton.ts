@@ -24,7 +24,7 @@ const ShadesOfMortton: Quest = {
   series: null,
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

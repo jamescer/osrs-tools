@@ -21,7 +21,7 @@ const IcthlarinsLittleHelper: Quest = {
   series: 'Desert',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

@@ -18,7 +18,7 @@ export const simpleQuest: Quest = {
   length: QuestLength.Short,
   age: 'Fifth',
   startLocation: '',
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: { questPoints: 1 },

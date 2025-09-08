@@ -27,7 +27,7 @@ const TheGreatBrainRobbery: Quest = {
   series: 'Pirate',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

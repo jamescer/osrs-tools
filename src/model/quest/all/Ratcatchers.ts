@@ -76,7 +76,7 @@ const Ratcatchers: Quest = {
     questPoints: 2,
     items: [{ name: 'Rat Pole', quantity: 1 }],
     areas: ['Access to the Rat Pits.'],
-    unlocks: [''],
+    unlocks: [],
     lamps: [],
     points: [],
     pets: [],

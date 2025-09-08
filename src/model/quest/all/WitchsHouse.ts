@@ -18,8 +18,7 @@ const WitchsHouse: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Witch%27s_House',
   series: null,
   age: '',
-
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

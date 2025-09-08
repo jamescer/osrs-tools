@@ -23,7 +23,7 @@ const TheQueenOfThieves: Quest = {
   series: 'Great Kourend',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

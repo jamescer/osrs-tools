@@ -19,8 +19,7 @@ const RecruitmentDrive: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Recruitment_Drive',
   series: null,
   age: '',
-
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

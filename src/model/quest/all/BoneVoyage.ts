@@ -17,20 +17,29 @@ const BoneVoyage: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Bone_Voyage',
   series: null,
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Digsite pendant',
+        note: 'Useful for fast travel to Fossil Island.'
+      }
+    ],
+    recommendedSkills: {},
+    recommendedPrayers: [],
+    rewards: {
+      experience: [],
+      questPoints: 1,
+      items: [
+        { name: 'Access to Fossil Island' }
+      ],
+      areas: ['Fossil Island'],
+      unlocks: [
+        { description: 'Ability to travel to Fossil Island' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default BoneVoyage;

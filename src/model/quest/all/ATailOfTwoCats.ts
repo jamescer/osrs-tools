@@ -19,18 +19,34 @@ const ATailOfTwoCats: Quest = {
   url: 'https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats',
   series: 'Dragonkin',
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [],
-    questPoints: 2,
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Cat',
+        note: 'Required to complete the quest.'
+      },
+      {
+        type: 'tip',
+        name: 'Food and energy potions',
+        note: 'Useful for travel and combat.'
+      }
+    ],
+    recommendedSkills: {},
+    recommendedPrayers: [],
+    rewards: {
+      experience: [
+        { skill: 'Agility', amount: 2000 },
+        { skill: 'Thieving', amount: 2500 }
+      ],
+      questPoints: 2,
+      unlocks: [
+        { description: 'Ability to turn your cat into a hellcat' },
+        { description: 'Ability to obtain Bob the Cat’s collar' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default ATailOfTwoCats;

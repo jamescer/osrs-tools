@@ -25,7 +25,7 @@ const OlafsQuest: Quest = {
   series: 'Fremennik',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

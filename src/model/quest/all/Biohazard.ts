@@ -18,20 +18,36 @@ const Biohazard: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Biohazard',
   series: 'Elf',
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [{ skill: 'Thieving', amount: 1250 }],
-    questPoints: 3,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Food',
+        note: 'Useful for travel and minor combat.'
+      },
+      {
+        type: 'tip',
+        name: 'Energy potions',
+        note: 'Useful for running between locations.'
+      }
+    ],
+    recommendedSkills: {},
+    recommendedPrayers: [],
+    rewards: {
+      experience: [
+        { skill: 'Thieving', amount: 1250 }
+      ],
+      questPoints: 3,
+      items: [
+        { name: 'Access to East Ardougne' }
+      ],
+      areas: ['East Ardougne'],
+      unlocks: [
+        { description: 'Ability to enter East Ardougne freely' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default Biohazard;

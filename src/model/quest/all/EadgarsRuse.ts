@@ -20,7 +20,7 @@ const EadgarsRuse: Quest = {
   series: 'Troll',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

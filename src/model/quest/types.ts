@@ -69,6 +69,19 @@ export interface QuestRewardPet {
   note?: string;
 }
 
+export interface QuestRecommendation {
+  /** The type of recommendation (item, travel, tip, etc.) */
+  type: string; // 'item' | 'travel' | 'tip';
+  /** The main name or label */
+  name: string;
+  /** Quantity if relevant */
+  quantity?: number;
+  /** Alternatives or options */
+  alternatives?: string[];
+  /** Additional notes or explanation */
+  note?: string;
+}
+
 /**
  * All possible rewards from completing a quest
  */
@@ -89,6 +102,8 @@ export interface QuestRewards {
   questPoints: number;
   /** Areas unlocked by completing the quest */
   areas?: string[];
+  /** Miscellaneous rewards or notes */
+  misc?: string[];
 }
 
 /**
@@ -144,7 +159,7 @@ export interface Quest {
   startLocation: string;
 
   /** Items recommended (but not required) to complete the quest */
-  recommendedItems: string[];
+  recommendations: QuestRecommendation[];
 
   /** Recommended (but not required) skill levels */
   recommendedSkills: { [skill: string]: number };

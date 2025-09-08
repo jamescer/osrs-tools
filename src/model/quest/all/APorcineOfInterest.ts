@@ -21,7 +21,7 @@ const APorcineOfInterest: Quest = {
   series: null,
   age: '',
 
-  recommendedItems: [
+  recommendations: [
     'Charged amulet of glory',
     "Explorer's ring 2 or above",
     'Stamina potion',

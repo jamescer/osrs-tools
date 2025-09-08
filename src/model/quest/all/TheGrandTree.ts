@@ -20,7 +20,7 @@ const TheGrandTree: Quest = {
   series: 'Gnome',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

@@ -18,24 +18,43 @@ const BigChompyBirdHunting: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting',
   series: 'Ogre',
   age: '',
-
-  recommendedItems: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [
-      { skill: 'Cooking', amount: 1470 },
-      { skill: 'Fletching', amount: 262 },
-      { skill: 'Ranged', amount: 735 },
+    recommendations: [
+      {
+        type: 'item',
+        name: 'Chompy bird hunting gear',
+        note: 'Ogre bow, ogre arrows, and food.'
+      },
+      {
+        type: 'tip',
+        name: 'Energy potions',
+        note: 'Useful for travel.'
+      }
     ],
-    questPoints: 2,
-    items: [],
-    areas: [],
-    unlocks: [],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
+    recommendedSkills: {
+      Cooking: 30,
+      Fletching: 5,
+      Ranged: 30
+    },
+    recommendedPrayers: [],
+    rewards: {
+      experience: [
+        { skill: 'Cooking', amount: 1470 },
+        { skill: 'Fletching', amount: 262 },
+        { skill: 'Ranged', amount: 735 }
+      ],
+      questPoints: 2,
+      items: [
+        { name: 'Ogre bow' },
+        { name: 'Ogre arrows', quantity: 30 }
+      ],
+      areas: [],
+      unlocks: [
+        { description: 'Ability to hunt chompy birds' }
+      ],
+      lamps: [],
+      points: [],
+      pets: [],
+    },
 };
 
 export default BigChompyBirdHunting;

@@ -29,7 +29,7 @@ const SlugMenace: Quest = {
   series: 'Sea Slug',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

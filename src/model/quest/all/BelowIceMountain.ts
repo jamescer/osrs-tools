@@ -21,7 +21,7 @@ const BelowIceMountain: Quest = {
   series: null,
   age: '',
 
-  recommendedItems: [
+  recommendations: [
     'Skills necklace or Battlefront Teleport or fairy ring cir to teleport to the Farming Guild',
     'Combat equipment to fight a level 82 beast.',
   ],

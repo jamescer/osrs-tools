@@ -40,8 +40,7 @@ const RecipeForDisaster: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Recipe_for_Disaster',
   series: null,
   age: '',
-
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

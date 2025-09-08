@@ -20,7 +20,7 @@ const DeathToTheDorgeshuun: Quest = {
   series: 'Dorgeshuun',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

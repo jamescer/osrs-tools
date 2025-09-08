@@ -29,7 +29,7 @@ const CookAssistant: Quest = {
   series: 'None',
   age: 'Fifth Age',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

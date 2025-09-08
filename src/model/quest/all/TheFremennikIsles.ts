@@ -25,7 +25,7 @@ const TheFremennikIsles: Quest = {
   series: 'Fremennik',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

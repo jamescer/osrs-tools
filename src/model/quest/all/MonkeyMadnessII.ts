@@ -32,7 +32,7 @@ const MonkeyMadnessII: Quest = {
   url: 'https://oldschool.runescape.wiki/w/Monkey_Madness_II',
   series: 'Gnome',
   age: '',
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

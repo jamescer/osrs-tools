@@ -20,7 +20,7 @@ const DragonSlayerII: Quest = {
   series: 'Dragonkin',
   age: '',
 
-  recommendedItems: [],
+  recommendations: [],
   recommendedSkills: {},
   recommendedPrayers: [],
   rewards: {

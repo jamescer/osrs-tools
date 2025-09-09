@@ -87,10 +87,14 @@ class QuestRequirement implements Requirement {
   get description(): string {
     return `Completed quest: ${this.questName}`;
   }
+  
+  get completionDescription(): string {
+    return `Completion of ${this.questName}`;
+  }
 }
 
 class QuestPointRequirement implements Requirement {
-  type: RequirementType = RequirementType.Quest;
+  type: RequirementType = RequirementType.QuestPoint;
   amount: number;
   constructor(amount: number) {
     this.amount = amount;

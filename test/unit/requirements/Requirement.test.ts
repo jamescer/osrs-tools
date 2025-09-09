@@ -56,7 +56,7 @@ describe('Requirement', () => {
     const req = new QuestPointRequirement(135);
     expect(req.amount).toBe(135);
     expect(req.type).toBe(RequirementType.QuestPoint);
-    expect(req.description).toBe('Quest Points Needed 135');
+    expect(req.description).toBe('Quest Points Needed: 135');
   });
     // LocationRequirement
   it('should create a LocationRequirement ', () => {

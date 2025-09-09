@@ -1,4 +1,8 @@
 export const account = {
+  name: 'A Squeezer',
+  combatLevel: 126,
+  rank: 31748,
+  questPoints: 300,
   skills: {
     overall: {
       rank: 128092,

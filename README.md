@@ -11,6 +11,14 @@
 
 📦 **Type-safe** &nbsp; 🚀 **Well-tested** &nbsp; 📚 **Documented** &nbsp; 🔄 **Actively maintained**
 
+## Live Demo
+
+Explore the project interactively on CodeSandbox:
+
+[![Edit on CodeSandbox](https://img.shields.io/badge/CodeSandbox-View-blue?logo=codesandbox&style=for-the-badge)](https://codesandbox.io/p/sandbox/kcw48w)
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
@@ -234,3 +242,4 @@ Need help or want to contribute?
 - **Author**: [James Cerniglia](mailto:jamesmcerniglia@gmail.com)
 - **Contributors**: [View all contributors](https://github.com/jamescer/osrs-tools/graphs/contributors)
 - **Data Source**: [Old School RuneScape Wiki](https://oldschool.runescape.wiki/)
+

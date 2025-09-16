@@ -34,7 +34,6 @@ const AKingdomDivided: Quest = {
   url: 'https://oldschool.runescape.wiki/w/A_Kingdom_Divided',
   series: 'Great Kourend',
   age: '',
-
   recommendations: [
     { type: 'tip', name: 'Combat level 70+', note: 'Recommended for boss fights' },
     { type: 'tip', name: '43+ Prayer', note: 'Protect from Magic, Missiles, Melee' },

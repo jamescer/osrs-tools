@@ -15,7 +15,7 @@
 
 Explore the project interactively on CodeSandbox:
 
-[![Edit on CodeSandbox](https://img.shields.io/badge/CodeSandbox-View-blue?logo=codesandbox&style=for-the-badge)](https://codesandbox.io/p/sandbox/kcw48w)
+[![Edit on CodeSandbox](https://img.shields.io/badge/CodeSandbox-View-blue?logo=codesandbox&style=for-the-badge)](https://codesandbox.io/p/sandbox/xtgp9k)
 
 ---
 

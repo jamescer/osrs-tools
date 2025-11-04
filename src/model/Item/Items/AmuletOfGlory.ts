@@ -1,39 +1,31 @@
-import { Item } from '../Item';
+import { Item, ItemJson } from '../Item';
 
-const amuletOfGloryData = {
+const amuletOfGloryData: ItemJson = {
   attackCrush: 0,
   attackMagic: 10,
   attackRanged: 10,
   attackSlash: 0,
-  // Combat stats
   attackStab: 0,
-
   defenceCrush: 3,
-
   defenceMagic: 3,
-
   defenceRanged: 3,
-
   defenceSlash: 3,
-
   defenceStab: 3,
-
+  destroy: 'Drop',
   equipable: true,
-
   examine: 'A dragonstone amulet with four charges.',
-
+  highAlch: 7200,
   id: 1704,
-
+  lowAlch: 4800,
   members: true,
-
+  meleeStrength: 6,
   name: 'Amulet of glory',
-
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Amulet_of_glory',
-  prayerBonus: 3,
+  prayer: 3,
   questItem: false,
+  releaseDate: '27 February 2002',
   stackable: false,
-  strengthBonus: 6,
   tradeable: true,
   value: 12000,
   weight: 0.01,

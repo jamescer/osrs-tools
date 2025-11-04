@@ -1,6 +1,8 @@
+import { Item } from "../Item/Item";
+
 // NpcProduct.ts
 export interface NpcProductMaterial {
-  item: string; // Name of the item
+  item: Item; // Name of the item
   quantity: number;
 }
 

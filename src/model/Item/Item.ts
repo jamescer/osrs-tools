@@ -1,4 +1,7 @@
-interface ItemJson {
+/**
+ * Interface representing the JSON structure of an Item.
+ */
+export interface ItemJson {
   id: number;
   name: string;
   examine: string;
@@ -29,9 +32,13 @@ interface ItemJson {
   strengthBonus?: number;
   rangedStrength?: number;
   magicDamage?: number;
+  meleeStrength?: number;
   prayer?: number;
 }
 
+/**
+ * Represents an item in the game. This class encapsulates all the properties and methods related to an item.
+ */
 export class Item {
   id: number;
   name: string;

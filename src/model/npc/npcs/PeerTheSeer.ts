@@ -1,11 +1,11 @@
 import { Coins } from '../../Item/Items/Coins';
-import { DagannothHideItem } from '../../Item/Items/DagannothHide';
-import { FibulaPieceItem } from '../../Item/Items/FibulaPiece';
-import { RibcagePieceItem } from '../../Item/Items/RibcagePiece';
+import { DagannothHide } from '../../Item/Items/DagannothHide';
+import { FibulaPiece } from '../../Item/Items/FibulaPiece';
+import { RibcagePiece } from '../../Item/Items/RibcagePiece';
 import { SkeletalBottoms } from '../../Item/Items/SkeletalBottoms';
 import { SkeletalHelm } from '../../Item/Items/SkeletalHelm';
 import { SkeletalTop } from '../../Item/Items/SkeletalTop';
-import { SkullPieceItem } from '../../Item/Items/SkullPiece';
+import { SkullPiece } from '../../Item/Items/SkullPiece';
 import { Npc } from '../Npc';
 import { NpcDrop } from '../NpcDrop';
 import { NpcProduct } from '../NpcProduct';
@@ -20,18 +20,18 @@ export const peerTheSeerLocations: string[] = [
 
 export const peerTheSeerProducts: NpcProduct[] = [
   new NpcProduct(SkeletalBottoms.name, true, [
-    { item: DagannothHideItem, quantity: 2 },
-    { item: FibulaPieceItem, quantity: 1 },
+    { item: DagannothHide, quantity: 2 },
+    { item: FibulaPiece, quantity: 1 },
     { item: Coins, quantity: 7500 },
   ]),
   new NpcProduct(SkeletalHelm.name, true, [
-    { item: DagannothHideItem, quantity: 1 },
-    { item: SkullPieceItem, quantity: 1 },
+    { item: DagannothHide, quantity: 1 },
+    { item: SkullPiece, quantity: 1 },
     { item: Coins, quantity: 5000 },
   ]),
   new NpcProduct(SkeletalTop.name, true, [
-    { item: DagannothHideItem, quantity: 3 },
-    { item: RibcagePieceItem, quantity: 1 },
+    { item: DagannothHide, quantity: 3 },
+    { item: RibcagePiece, quantity: 1 },
     { item: Coins, quantity: 10000 },
   ]),
 ];

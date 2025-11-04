@@ -1,6 +1,6 @@
-import { Item } from '../Item';
+import { Item, ItemJson } from '../Item';
 
-const suqahTeethData = {
+const suqahTeethData: ItemJson = {
   equipable: false,
   examine: 'Sharp teeth from a Suqah.',
   id: 9079,
@@ -13,6 +13,10 @@ const suqahTeethData = {
   tradeable: false,
   value: 3,
   weight: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  releaseDate: '',
+  destroy: ''
 };
 
 export const SuqahTeeth = Item.fromJson(suqahTeethData);

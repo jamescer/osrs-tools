@@ -1,29 +1,24 @@
-import { Item } from '../Item';
+import { Item, ItemJson } from '../Item';
 
-export const FibulaPiece = {
-  drop_rate: '1/64',
-  dropped_by: ['Wallasalki'],
+const fibulaPieceData: ItemJson = {
+  destroy: 'Drop',
+  equipable: false,
   examine: 'An interesting looking bone shard.',
-  ge_price: 19309,
-  highalch: 36,
-  location: ['Waterbirth Island Dungeon'],
-  lowalch: 24,
+  highAlch: 36,
+  id: 6147,
+  lowAlch: 24,
   members: true,
-
+  meleeStrength: 0,
   name: 'Fibula piece',
-
-  noteable: true,
-
   noted: false,
-
-  // as of last update
-  release_date: '1 August 2005',
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Fibula_piece',
+  prayer: 0,
+  questItem: false,
+  releaseDate: '1 August 2005',
   stackable: false,
   tradeable: true,
-  used_for: ['Skeletal bottoms'],
   value: 60,
   weight: 3.175,
-  wiki_url: 'https://oldschool.runescape.wiki/w/Fibula_piece',
 };
 
-export const FibulaPieceItem = Item.fromJson(FibulaPiece);
+export const FibulaPiece = Item.fromJson(fibulaPieceData);

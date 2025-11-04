@@ -1,29 +1,24 @@
-import { Item } from '../Item';
+import { Item, ItemJson } from '../Item';
 
-export const RibcagePiece = {
-  drop_rate: '1/64',
-  dropped_by: ['Wallasalki'],
+const ribcagePieceData: ItemJson = {
+  destroy: 'Drop',
+  equipable: false,
   examine: 'A slightly damaged ribcage.',
-  ge_price: 17574,
-  highalch: 36,
-  location: ['Waterbirth Island Dungeon'],
-  lowalch: 24,
+  highAlch: 36,
+  id: 6146,
+  lowAlch: 24,
   members: true,
-
+  meleeStrength: 0,
   name: 'Ribcage piece',
-
-  noteable: true,
-
   noted: false,
-
-  // as of last update
-  release_date: '1 August 2005',
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ribcage_piece',
+  prayer: 0,
+  questItem: false,
+  releaseDate: '1 August 2005',
   stackable: false,
   tradeable: true,
-  used_for: ['Skeletal top'],
   value: 60,
   weight: 3.175,
-  wiki_url: 'https://oldschool.runescape.wiki/w/Ribcage_piece',
 };
 
-export const RibcagePieceItem = Item.fromJson(RibcagePiece);
+export const RibcagePiece = Item.fromJson(ribcagePieceData);

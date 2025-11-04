@@ -1,41 +1,33 @@
-import { Item } from '../Item';
+import { Item, ItemJson } from '../Item';
 
-const culinaromancerGlovesData = {
+const culinaromancerGlovesData: ItemJson = {
   attackCrush: 8,
   attackMagic: 6,
   attackRanged: 8,
   attackSlash: 8,
-  // Combat stats
   attackStab: 8,
-
   defenceCrush: 8,
-
   defenceMagic: 6,
-
   defenceRanged: 8,
-
   defenceSlash: 8,
-
   defenceStab: 8,
-
+  destroy: 'You can get another pair by completing Recipe for Disaster.',
   equipable: true,
-
   examine: 'These gloves were earned by completing Recipe for Disaster.',
-
+  highAlch: 60000,
   id: 7462,
-
+  lowAlch: 40000,
   magicDamage: 0,
-
   members: true,
-
+  meleeStrength: 8,
   name: "Culinaromancer's gloves 10",
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Culinaromancer%27s_gloves_10',
-  prayerBonus: 0,
+  prayer: 0,
   questItem: false,
   rangedStrength: 8,
+  releaseDate: '15 March 2006',
   stackable: false,
-  strengthBonus: 8,
   tradeable: false,
   value: 100000,
   weight: 0.34,

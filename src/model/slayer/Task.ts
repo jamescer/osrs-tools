@@ -1,6 +1,6 @@
 import { Requirement } from '../Requirement';
 
-interface TaskJson {
+export interface TaskJson {
   name: string;
   amountMin: number;
   amountMax: number;
@@ -10,9 +10,9 @@ interface TaskJson {
   alternatives?: string[];
   weight: number;
   combatLevels: number[];
-  SlayerExp: number;
+  slayerExp: number;
   locations: string[];
-  WildernessLevels: number[];
+  wildernessLevels: number[];
   bosses: string[];
 }
 
@@ -32,9 +32,9 @@ class Task {
   extendedAmountMax?: number | null; // Maximum amount for extended tasks (optional)
   alternatives?: string[]; // Array of alternatives for this task (optional)
   combatLevels: number[]; // Array of combat levels for this task
-  SlayerExp: number; // Slayer experience gained from this task
+  slayerExp: number; // Slayer experience gained from this task
   locations: string[]; // Array of locations where this task can be found
-  WildernessLevels: number[]; // Array of wilderness levels for this task
+  wildernessLevels: number[]; // Array of wilderness levels for this task
   bosses: string[]; // Array of bosses for this task
 
   /**
@@ -50,7 +50,7 @@ class Task {
    * @param combatLevels - Array of combat levels for this task
    * @param SlayerExp - Slayer experience gained from this task
    * @param locations - Array of locations where this task can be found
-   * @param WildernessLevels - Array of wilderness levels for this task
+   * @param wildernessLevels - Array of wilderness levels for this task
    * @param bosses - Array of bosses for this task
    */
   constructor(
@@ -65,7 +65,7 @@ class Task {
     combatLevels: number[] = [],
     SlayerExp: number = 0,
     locations: string[] = [],
-    WildernessLevels: number[] = [],
+    wildernessLevels: number[] = [],
     bosses: string[] = [],
   ) {
     this.name = name;
@@ -77,9 +77,9 @@ class Task {
     this.alternatives = alternatives ?? [];
     this.weight = weight;
     this.combatLevels = combatLevels;
-    this.SlayerExp = SlayerExp;
+    this.slayerExp = SlayerExp;
     this.locations = locations;
-    this.WildernessLevels = WildernessLevels;
+    this.wildernessLevels = wildernessLevels;
     this.bosses = bosses;
   }
 
@@ -94,9 +94,9 @@ class Task {
       json.alternatives,
       json.weight,
       json.combatLevels,
-      json.SlayerExp,
+      json.slayerExp,
       json.locations,
-      json.WildernessLevels,
+      json.wildernessLevels,
       json.bosses,
     );
   }
@@ -158,8 +158,8 @@ class Task {
    */
   toJSON(): TaskJson {
     return {
-      SlayerExp: this.SlayerExp,
-      WildernessLevels: this.WildernessLevels,
+      slayerExp: this.slayerExp,
+      wildernessLevels: this.wildernessLevels,
       alternatives: this.alternatives,
       amountMax: this.amountMax,
       amountMin: this.amountMin,

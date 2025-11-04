@@ -108,9 +108,9 @@ describe('QuestTool', () => {
           name: 'Test',
           questPoints: 0,
           skills: {
-            attack: { level: 60 },
-            defence: { level: 60 },
-            strength: { level: 60 },
+            attack: { level: 60, rank: 0, xp: 0 },
+            defence: { level: 60, rank: 0, xp: 0 },
+            strength: { level: 60, rank: 0, xp: 0 },
           },
         }),
       );
@@ -137,8 +137,8 @@ describe('QuestTool', () => {
           name: 'Test',
           questPoints: 0,
           skills: {
-            attack: { level: 60 },
-            herblore: { level: 84 }, // Max boost +5, not enough
+            attack: { level: 60, rank: 0, xp: 0 },
+            herblore: { level: 84, rank: 0, xp: 0 }, // Max boost +5, not enough
           },
         }),
       );

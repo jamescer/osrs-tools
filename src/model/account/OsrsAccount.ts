@@ -1,7 +1,7 @@
 interface SkillDetail {
-  rank: number;
+  rank?: number;
   level: number;
-  xp: number;
+  xp?: number;
 }
 
 interface Skill {
@@ -9,9 +9,9 @@ interface Skill {
 }
 
 interface SkillJsonDetail {
-  rank: number;
+  rank?: number;
   level: number;
-  xp: number;
+  xp?: number;
 }
 
 interface OsrsAccountJson {
@@ -23,7 +23,7 @@ interface OsrsAccountJson {
   };
   combatLevel?: number;
   questPoints?: number;
-  skills?: Record<string, SkillJsonDetail>;
+  skills: Record<string, SkillJsonDetail>;
   lastManStanding?: BossScore;
   pvpArena?: BossScore;
   soulWarsZeal?: BossScore;

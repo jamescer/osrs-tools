@@ -126,7 +126,6 @@ describe('Task', () => {
     it('should convert to JSON correctly via toJSON()', () => {
       const json = task.toJSON();
       expect(json).toEqual({
-        wildernessLevels: [0],
         alternatives: ['Greater demons'],
         amountMax: 200,
         amountMin: 125,
@@ -139,6 +138,7 @@ describe('Task', () => {
         requirements: [new SlayerLevelRequirement(75)],
         slayerExp: 300,
         weight: 8,
+        wildernessLevels: [0],
       });
     });
 
@@ -150,19 +150,19 @@ describe('Task', () => {
   describe('static methods', () => {
     it('should create Task from JSON via fromJSON()', () => {
       const json: TaskJson = {
-        combatLevels: [124],
-        slayerExp: 300,
-        wildernessLevels: [0],
         alternatives: ['Greater demons'],
         amountMax: 200,
         amountMin: 125,
         bosses: ['Abyssal Sire'],
+        combatLevels: [124],
         extendedAmountMax: 300,
         extendedAmountMin: 200,
         locations: ['Slayer Tower'],
         name: 'Abyssal demons',
         requirements: mockRequirements,
+        slayerExp: 300,
         weight: 8,
+        wildernessLevels: [0],
       };
 
       const task = Task.fromJSON(json);

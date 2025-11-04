@@ -158,8 +158,6 @@ class Task {
    */
   toJSON(): TaskJson {
     return {
-      slayerExp: this.slayerExp,
-      wildernessLevels: this.wildernessLevels,
       alternatives: this.alternatives,
       amountMax: this.amountMax,
       amountMin: this.amountMin,
@@ -170,7 +168,9 @@ class Task {
       locations: this.locations,
       name: this.name,
       requirements: this.requirements,
+      slayerExp: this.slayerExp,
       weight: this.weight,
+      wildernessLevels: this.wildernessLevels,
     };
   }
 

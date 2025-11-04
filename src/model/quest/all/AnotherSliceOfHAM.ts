@@ -1,8 +1,9 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const AnotherSliceOfHAM: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -13,18 +14,14 @@ const AnotherSliceOfHAM: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Another Slice of H.A.M.',
+  name: 'Another Slice of H.A.M.',
   // Quests: Death to the Dorgeshuun, The Giant Dwarf, The Dig Site, Druidic Ritual. Skills: Attack 15, Prayer 25
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Dorgeshuun (#4)',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [
@@ -38,9 +35,10 @@ name: 'Another Slice of H.A.M.',
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Dorgeshuun (#4)',
   shortName: 'anotherSliceOfHAM',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.',

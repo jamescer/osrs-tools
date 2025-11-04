@@ -1,9 +1,10 @@
 import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ElementalWorkshopII: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -14,18 +15,14 @@ const ElementalWorkshopII: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Elemental Workshop II',
+  name: 'Elemental Workshop II',
   // Skills: Magic 20, Smithing 30
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Elemental Workshop (#2)',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [
@@ -39,9 +36,10 @@ name: 'Elemental Workshop II',
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Elemental Workshop (#2)',
   shortName: 'elementalWorkshopII',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Elemental_Workshop_II',

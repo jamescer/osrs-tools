@@ -5,7 +5,6 @@ import {
   LocationRequirement,
   QuestPointRequirement,
   QuestRequirement,
-  Requirement,
   RequirementType,
   SlayerLevelRequirement,
   SlayerUnlockRequirement,

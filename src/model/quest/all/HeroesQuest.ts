@@ -1,25 +1,21 @@
 import { Skill } from '../../account/Skill';
-import {
-  LevelRequirement,
-  QuestPointRequirement,
-  QuestRequirement,
-  Requirement,
-} from '../../Requirement';
+import { QuestPointRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const HeroesQuest: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Experienced,
   id: 0,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  age: '',
   name: "Heroes' Quest",
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Shield of Arrav'),
     new QuestRequirement('Lost City'),
@@ -28,8 +24,6 @@ const HeroesQuest: Quest = {
     new QuestRequirement('Druidic Ritual'),
     new QuestPointRequirement(55),
   ],
-  recommendedSkills: {},
-  series: 'Guild',
   rewards: {
     areas: [],
     experience: [
@@ -53,9 +47,10 @@ const HeroesQuest: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Guild',
   shortName: 'heroesQuest',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Heroes%27_Quest',

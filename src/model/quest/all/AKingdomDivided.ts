@@ -2,13 +2,13 @@ import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength, QuestStatus } from '../enums';
 import { Quest } from '../Quest';
 const AKingdomDivided: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
   id: 0,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  age: '',
   name: 'A Kingdom Divided',
   questPoints: 2,
   recommendations: [
@@ -31,6 +31,11 @@ const AKingdomDivided: Quest = {
     { alternatives: ['Pickaxe', 'Chisel'], name: 'Dark essence block', type: 'item' },
   ],
   recommendedPrayers: ['Protect from Magic', 'Protect from Missiles', 'Protect from Melee'],
+  recommendedSkills: {
+    Combat: 70,
+    Hitpoints: 70,
+    Prayer: 43,
+  },
   requirements: [
     new QuestRequirement('Client of Kourend'),
     new QuestRequirement('The Depths of Despair'),
@@ -48,12 +53,6 @@ const AKingdomDivided: Quest = {
     new LevelRequirement('Hunter', 42, false),
     new LevelRequirement('Herblore', 45, false),
   ],
-  recommendedSkills: {
-    Combat: 70,
-    Hitpoints: 70,
-    Prayer: 43,
-  },
-  series: 'Great Kourend',
   rewards: {
     areas: ['Ability to set respawn point to Kourend Castle'],
     experience: [],
@@ -76,8 +75,9 @@ const AKingdomDivided: Quest = {
       { description: 'Ability to fight Yama', url: 'https://oldschool.runescape.wiki/w/Yama' },
     ],
   },
-  startLocation: '',
+  series: 'Great Kourend',
   shortName: 'aKingdomDivided',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/A_Kingdom_Divided',

@@ -1,8 +1,9 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ClockTower: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Novice,
 
   id: 0,
@@ -12,10 +13,8 @@ const ClockTower: Quest = {
   members: true,
 
   miniquest: false,
-  
-  age: '',
   // Assign a unique ID if available
-name: 'Clock Tower',
+  name: 'Clock Tower',
   questPoints: 1,
   recommendations: [
     {
@@ -40,23 +39,23 @@ name: 'Clock Tower',
     },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {
     Combat: 15,
   },
-  series: null,
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
     items: [{ name: 'Coins', quantity: 500 }],
     lamps: [],
     pets: [],
-    questPoints: 1,
     points: [],
+    questPoints: 1,
     unlocks: [{ description: 'Ability to run past level 53 Ogres in the dungeon' }],
   },
-  startLocation: '',
+  series: null,
   shortName: 'clockTower',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Clock_Tower',

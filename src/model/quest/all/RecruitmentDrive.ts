@@ -4,6 +4,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const RecruitmentDrive: Quest = {
+  age: 'Fifth Age',
   description:
     "The Temple Knights of Saradomin, a secret organisation founded many centuries ago by Saradomin himself, are currently looking to expand their ranks with some new blood. After the successful thwarting of the Black Knights' plans to take over Asgarnia, and with the personal recommendation of Sir Amik, you have now been offered the chance to apply for membership in this organisation... but are you up to the challenge?",
   difficulty: QuestDifficulty.Novice,
@@ -11,7 +12,6 @@ const RecruitmentDrive: Quest = {
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: 'Fifth Age',
   name: 'Recruitment Drive',
   questPoints: 1,
   recommendations: [
@@ -22,12 +22,11 @@ const RecruitmentDrive: Quest = {
     },
   ],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement("Black Knights' Fortress"),
     new QuestRequirement('Druidic Ritual'),
   ],
-  recommendedSkills: {},
-  series: 'Temple Knight',
   rewards: {
     experience: [
       { amount: 1000, skill: Skill.Prayer },
@@ -53,9 +52,10 @@ const RecruitmentDrive: Quest = {
       { description: 'Title of Initiate in the Order of Temple Knights' },
     ],
   },
+  series: 'Temple Knight',
+  shortName: 'recruitmentDrive',
   startLocation:
     "Speak to Sir Amik Varze on the 3rd floor[US] of the White Knights' Castle's western tower in Falador",
-  shortName: 'recruitmentDrive',
   status: QuestStatus.NotStarted,
   steps: [
     "Start the quest by speaking to Sir Amik Varze in the White Knights' Castle.",

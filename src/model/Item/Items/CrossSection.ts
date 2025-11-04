@@ -1,11 +1,11 @@
 import { Item } from '../Item';
 
 const crossSectionData = {
+  destroy: "You'll have to find this item again during Desert Treasure.",
   equipable: false,
   examine: 'A cross section of an ancient pyramid.',
   id: 4671,
   members: true,
-  destroy: "You'll have to find this item again during Desert Treasure.",
   name: 'Cross section',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Cross_section',

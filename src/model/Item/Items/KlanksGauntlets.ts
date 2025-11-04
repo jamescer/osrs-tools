@@ -1,38 +1,43 @@
 import { Item } from '../Item';
 
 const klanksGauntletsData = {
-  equipable: true,
-  examine: 'Made by the dwarf smith Klank.',
-  id: 1499,
-  members: true,
-  attackSlash: 2,
-  name: "Klank's gauntlets",
   attackCrush: 2,
-  noted: false,
   attackMagic: -3,
-  questItem: false,
   attackRanged: -3,
-
-  stackable: false,
-
+  attackSlash: 2,
   // Combat stats
-attackStab: 2,
-
-  
-  tradeable: false,
+  attackStab: 2,
 
   defenceCrush: 4,
 
-  value: 190,
   defenceMagic: 0,
+
   defenceRanged: 0,
-  weight: 0.34,
+
   defenceSlash: 4,
+
   defenceStab: 4,
+
+  equipable: true,
+
+  examine: 'Made by the dwarf smith Klank.',
+
+  id: 1499,
+
   magicDamage: 0,
+
+  members: true,
+
+  name: "Klank's gauntlets",
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Klank%27s_gauntlets',
   prayerBonus: 0,
+  questItem: false,
+  stackable: false,
   strengthBonus: 2,
+  tradeable: false,
+  value: 190,
+  weight: 0.34,
 };
 
 export const KlanksGauntlets = Item.fromJson(klanksGauntletsData);

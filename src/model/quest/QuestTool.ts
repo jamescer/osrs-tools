@@ -127,82 +127,65 @@ class QuestTool {
 
       Attack: 5,
 
+      // Spicy stew (orange)
+      Construction: 5,
+
+      // Admiral pie
+      Cooking: 5,
+
+      // Volcanic ash, Summer pie
+      Crafting: 3,
+
       // Super combat potion, Overload(+)
       Defence: 5,
 
-      // Summer pie
-      Herblore: 5,
-
-      
-      // Volcanic ash, Summer pie
-Crafting: 3,
-
-      
-      
-// Super combat potion, Overload(+)
-Magic: 4,
-
-      
-// Mushroom pie
-Fletching: 3,
-
-      
-      
-// Ranging potion, Overload(+)
-Prayer: 2,
-
-      // Super combat potion, Overload(+)
-      Strength: 5,
-
-      
-      // Admiral pie
-Cooking: 5,
-
-      
-      
-// Overload(+), Imbued heart
-Ranged: 4,
-
-      // Preserve, Prayer-boosting items
-      Hitpoints: 0,
-
-      
       // Spicy stew (yellow)
-Farming: 5,
+      Farming: 5,
 
-      
-      
-// Wild pie
-Hunter: 5,
-
-      // Hunter potion
-      Mining: 3,
-
-      
-      // Spicy stew (orange)
-Construction: 5,
-
-      
-      
-// Botanical pie
-Thieving: 5,
+      // Chef's delight(m)
+      Firemaking: 4,
 
       // Spicy stew (orange)
       Fishing: 5,
 
-      
-      // Chef's delight(m)
-Firemaking: 4,
+      // Mushroom pie
+      Fletching: 3,
 
-      
-      // Fletching potion
-Slayer: 2,
+      // Summer pie
+      Herblore: 5,
+
+      // Preserve, Prayer-boosting items
+      Hitpoints: 0,
+
+      // Wild pie
+      Hunter: 5,
+
+      // Super combat potion, Overload(+)
+      Magic: 4,
+
+      // Hunter potion
+      Mining: 3,
+
+      // Ranging potion, Overload(+)
+      Prayer: 2,
+
+      // Overload(+), Imbued heart
+      Ranged: 4,
 
       // Garden pie
       Runecraft: 5,
 
+      // Fletching potion
+      Slayer: 2,
+
       // Dwarven stout(m)
       Smithing: 4,
+
+      // Super combat potion, Overload(+)
+      Strength: 5,
+
+      // Botanical pie
+      Thieving: 5,
 
       // Spicy stew (red)
       Woodcutting: 3, // Spicy stew (orange)

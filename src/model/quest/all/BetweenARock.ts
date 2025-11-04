@@ -1,9 +1,10 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const BetweenARock: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Experienced,
 
   id: 0,
@@ -13,10 +14,8 @@ const BetweenARock: Quest = {
   members: true,
 
   miniquest: false,
-  
-  age: '',
   // Assign a unique ID if available
-name: 'Between a Rock...',
+  name: 'Between a Rock...',
   questPoints: 2,
   recommendations: [
     {
@@ -31,13 +30,12 @@ name: 'Between a Rock...',
     },
   ],
   recommendedPrayers: ['Protect from Melee'],
-  requirements: [],
   recommendedSkills: {
     Defence: 30,
     Mining: 40,
     Smithing: 50,
   },
-  series: 'Rise of the Red Axe',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [
@@ -48,12 +46,13 @@ name: 'Between a Rock...',
     items: [{ name: 'Gold helmet' }],
     lamps: [],
     pets: [],
-    questPoints: 2,
     points: [],
+    questPoints: 2,
     unlocks: [{ description: 'Ability to mine gold ore in the Dwarven Mine' }],
   },
-  startLocation: '',
+  series: 'Rise of the Red Axe',
   shortName: 'betweenARock',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Between_a_Rock...',

@@ -1,9 +1,10 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ATasteOfHope: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Experienced,
 
   id: 0,
@@ -14,11 +15,8 @@ const ATasteOfHope: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'A Taste of Hope',
+  name: 'A Taste of Hope',
   // Quests: Darkness of Hallowvale, Skills: Crafting 48, Agility 45, Attack 40, Herblore 40, Slayer 38
   questPoints: 1,
   recommendations: [
@@ -34,16 +32,15 @@ name: 'A Taste of Hope',
     },
   ],
   recommendedPrayers: ['Protect from Melee', 'Protect from Magic', 'Piety'],
-  requirements: [],
   recommendedSkills: {
     Attack: 80,
     Defence: 80,
     Hitpoints: 80,
-    Strength: 80,
     Magic: 80,
     Ranged: 80,
+    Strength: 80,
   },
-  series: 'Myreque',
+  requirements: [],
   rewards: {
     areas: ['Darkmeyer'],
     experience: [
@@ -56,15 +53,16 @@ name: 'A Taste of Hope',
     items: [{ name: 'Drakan’s medallion' }],
     lamps: [],
     pets: [],
-    questPoints: 1,
     points: [],
+    questPoints: 1,
     unlocks: [
       { description: 'Access to Darkmeyer' },
       { description: 'Ability to use Drakan’s medallion teleport' },
     ],
   },
-  startLocation: '',
+  series: 'Myreque',
   shortName: 'aTasteOfHope',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/A_Taste_of_Hope',

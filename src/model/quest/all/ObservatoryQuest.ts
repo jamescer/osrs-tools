@@ -1,22 +1,20 @@
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ObservatoryQuest: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Observatory Quest',
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
@@ -27,9 +25,10 @@ const ObservatoryQuest: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: null,
   shortName: 'observatoryQuest',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Observatory_Quest',

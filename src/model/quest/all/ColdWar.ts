@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ColdWar: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -14,11 +14,8 @@ const ColdWar: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Cold War',
+  name: 'Cold War',
   // Skills: Hunter 10, Agility 30, Crafting 30, Construction 34, Thieving 15
   questPoints: 1,
   recommendations: [
@@ -42,16 +39,15 @@ name: 'Cold War',
     { name: 'Stamina potions', note: 'Recommended for faster travel', type: 'item' },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {
     Agility: 30,
-    Construction: 34,
-    Hunter: 10,
     Combat: 30,
+    Construction: 34,
     Crafting: 30,
+    Hunter: 10,
     Thieving: 15,
   },
-  series: 'Penguin',
+  requirements: [],
   rewards: {
     areas: ['Iceberg', 'Penguin agility course'],
     experience: [
@@ -62,15 +58,16 @@ name: 'Cold War',
     items: [],
     lamps: [],
     pets: [],
-    questPoints: 1,
     points: [],
+    questPoints: 1,
     unlocks: [
       { description: 'Ability to make the penguin suit' },
       { description: 'Ability to use the Penguin agility course' },
     ],
   },
-  startLocation: '',
+  series: 'Penguin',
   shortName: 'coldWar',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Cold_War',

@@ -3,17 +3,18 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const LegendsQuest: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
   id: 0,
   length: QuestLength.VeryLong,
   members: true,
   miniquest: false,
-  age: '',
   name: "Legends' Quest",
   questPoints: 4,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Family Crest'),
     new QuestRequirement("Heroes' Quest"),
@@ -31,8 +32,6 @@ const LegendsQuest: Quest = {
     new LevelRequirement('Thieving', 50, false),
     new LevelRequirement('Woodcutting', 50, false),
   ],
-  recommendedSkills: {},
-  series: 'Guild',
   rewards: {
     areas: [],
     experience: [],
@@ -43,9 +42,10 @@ const LegendsQuest: Quest = {
     questPoints: 4,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Guild',
   shortName: 'legendsQuest',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Legends%27_Quest',

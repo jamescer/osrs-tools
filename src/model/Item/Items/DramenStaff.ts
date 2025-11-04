@@ -1,40 +1,44 @@
 import { Item } from '../Item';
 
 const dramenStaffData = {
-  equipable: true,
-  examine: 'A magical staff made from a Dramen branch.',
-  id: 772,
-  members: true,
-  // Combat stats
-attackStab: 2,
-  
-name: 'Dramen staff',
-
-  noted: false,
-
   attackCrush: 3,
 
-  questItem: true,
-
   attackMagic: 4,
-
-  stackable: false,
 
   attackRanged: 0,
 
   attackSlash: -1,
-  tradeable: false,
+
+  // Combat stats
+  attackStab: 2,
+
   defenceCrush: 1,
+
   defenceMagic: 4,
-  value: 120,
+
   defenceRanged: 0,
-  weight: 1.36,
+
   defenceSlash: 2,
+
   defenceStab: 2,
+
   destroy: 'You can cut another branch from the Dramen tree in Entrana.',
+
+  equipable: true,
+
+  examine: 'A magical staff made from a Dramen branch.',
+  id: 772,
   magicDamage: 0,
+  members: true,
+  name: 'Dramen staff',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Dramen_staff',
+  questItem: true,
+  stackable: false,
   strengthBonus: 3,
+  tradeable: false,
+  value: 120,
+  weight: 1.36,
 };
 
 export const DramenStaff = Item.fromJson(dramenStaffData);

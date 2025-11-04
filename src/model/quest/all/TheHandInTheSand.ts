@@ -4,6 +4,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheHandInTheSand: Quest = {
+  age: '',
   description:
     "Bert the Sandman in Yanille is in a spot of bother. A mysterious severed hand has appeared in his sand box. Help find out whose hand it is and, more to the point, how it got in Bert's sand box.",
   difficulty: QuestDifficulty.Intermediate,
@@ -11,7 +12,6 @@ const TheHandInTheSand: Quest = {
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: '',
   name: 'The Hand in the Sand',
   questPoints: 1,
   recommendations: [
@@ -47,6 +47,9 @@ const TheHandInTheSand: Quest = {
     },
   ],
   recommendedPrayers: [],
+  recommendedSkills: {
+    [Skill.Farming]: 59,
+  },
   requirements: [
     new LevelRequirement('Thieving', 17, false),
     new LevelRequirement('Crafting', 49, false),
@@ -63,10 +66,6 @@ const TheHandInTheSand: Quest = {
       notes: 'Obtainable during quest if you bring a bucket',
     }),
   ],
-  recommendedSkills: {
-    [Skill.Farming]: 59,
-  },
-  series: null,
   rewards: {
     areas: [],
     experience: [
@@ -81,8 +80,9 @@ const TheHandInTheSand: Quest = {
     questPoints: 1,
     unlocks: [{ description: 'Ability to collect sand from Bert daily' }],
   },
-  startLocation: 'Talk to Bert in Yanille, near the sand pit',
+  series: null,
   shortName: 'theHandInTheSand',
+  startLocation: 'Talk to Bert in Yanille, near the sand pit',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand',

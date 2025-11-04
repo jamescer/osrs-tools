@@ -1,23 +1,20 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const GhostsAhoy: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Ghosts Ahoy',
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
@@ -28,9 +25,10 @@ const GhostsAhoy: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: null,
   shortName: 'ghostsAhoy',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Ghosts_Ahoy',

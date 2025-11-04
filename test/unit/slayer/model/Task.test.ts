@@ -1,5 +1,5 @@
-import { Task } from '../../../../src/model/slayer/Task';
 import { Requirement, SlayerLevelRequirement } from '../../../../src/model/Requirement';
+import { Task } from '../../../../src/model/slayer/Task';
 
 describe('Task', () => {
   let mockRequirements: Requirement[];
@@ -18,7 +18,7 @@ describe('Task', () => {
       expect(task.requirements).toEqual(mockRequirements);
       expect(task.weight).toBe(1); // default value
       expect(task.alternatives).toEqual([]); // default value
-      expect(task.CombatLevels).toEqual([]); // default value
+      expect(task.combatLevels).toEqual([]); // default value
       expect(task.SlayerExp).toBe(0); // default value
       expect(task.locations).toEqual([]); // default value
       expect(task.WildernessLevels).toEqual([]); // default value
@@ -57,7 +57,7 @@ describe('Task', () => {
       expect(task.extendedAmountMax).toBe(300);
       expect(task.alternatives).toEqual(['Greater demons']);
       expect(task.weight).toBe(8);
-      expect(task.CombatLevels).toEqual([124]);
+      expect(task.combatLevels).toEqual([124]);
       expect(task.SlayerExp).toBe(300);
       expect(task.locations).toEqual(['Slayer Tower']);
       expect(task.WildernessLevels).toEqual([0]);
@@ -143,19 +143,19 @@ describe('Task', () => {
   describe('static methods', () => {
     it('should create Task from JSON via fromJSON()', () => {
       const json = {
-        name: 'Abyssal demons',
-        amountMin: 125,
-        amountMax: 200,
-        extendedAmountMin: 200,
-        extendedAmountMax: 300,
-        requirements: mockRequirements,
-        alternatives: ['Greater demons'],
-        weight: 8,
         CombatLevels: [124],
         SlayerExp: 300,
-        locations: ['Slayer Tower'],
         WildernessLevels: [0],
+        alternatives: ['Greater demons'],
+        amountMax: 200,
+        amountMin: 125,
         bosses: ['Abyssal Sire'],
+        extendedAmountMax: 300,
+        extendedAmountMin: 200,
+        locations: ['Slayer Tower'],
+        name: 'Abyssal demons',
+        requirements: mockRequirements,
+        weight: 8,
       };
 
       const task = Task.fromJSON(json);

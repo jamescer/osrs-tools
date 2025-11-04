@@ -4,20 +4,19 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheForsakenTower: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: '',
   name: 'The Forsaken Tower',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [new QuestRequirement('Client of Kourend')],
   recommendedSkills: {},
-  series: 'Great Kourend',
+  requirements: [new QuestRequirement('Client of Kourend')],
   rewards: {
     areas: [],
     experience: [
@@ -38,8 +37,9 @@ const TheForsakenTower: Quest = {
       { description: 'Ability to recolour the graceful outfit to the colours of Lovakengj.' },
     ],
   },
-  startLocation: '',
+  series: 'Great Kourend',
   shortName: 'theForsakenTower',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Forsaken_Tower',

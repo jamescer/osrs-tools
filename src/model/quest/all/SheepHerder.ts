@@ -1,22 +1,20 @@
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const SheepHerder: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Sheep Herder',
   questPoints: 4,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
@@ -27,9 +25,10 @@ const SheepHerder: Quest = {
     questPoints: 4,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: null,
   shortName: 'sheepHerder',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Sheep_Herder',

@@ -1,16 +1,15 @@
-import { Skill } from '../../account/Skill';
 import { ItemRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const Ratcatchers: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Ratcatchers',
   questPoints: 2,
   recommendations: [
@@ -21,8 +20,8 @@ const Ratcatchers: Quest = {
       ],
       name: 'Fish to heal your cat',
       note: '8-10 recommended',
-      type: 'item',
       quantity: 8,
+      type: 'item',
     },
     {
       name: 'Ring of charos (a)',
@@ -54,6 +53,7 @@ const Ratcatchers: Quest = {
     },
   ],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement("Gertrude's Cat"),
     new ItemRequirement('Cat', 1, { notes: '' }),
@@ -64,8 +64,6 @@ const Ratcatchers: Quest = {
     new ItemRequirement('Tinderbox', 1),
     new ItemRequirement('Free Inventory Space', 1),
   ],
-  recommendedSkills: {},
-  series: null,
   rewards: {
     areas: ['Access to the Rat Pits.'],
     experience: [{ amount: 4500, skill: 'Thieving' }],
@@ -76,8 +74,9 @@ const Ratcatchers: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
+  series: null,
   shortName: 'ratcatchers',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Ratcatchers',

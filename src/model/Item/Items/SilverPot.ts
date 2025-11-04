@@ -1,11 +1,11 @@
 import { Item } from '../Item';
 
 const silverPotData = {
+  destroy: 'You can get another one from the Lumbridge Castle kitchen.',
   equipable: false,
   examine: 'A simple silver pot with no special properties.',
   id: 7728,
   members: true,
-  destroy: 'You can get another one from the Lumbridge Castle kitchen.',
   name: 'Silver pot',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Silver_pot',

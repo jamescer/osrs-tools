@@ -1,9 +1,10 @@
 import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const DarknessOfHallowvale: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -14,18 +15,14 @@ const DarknessOfHallowvale: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Darkness of Hallowvale',
+  name: 'Darkness of Hallowvale',
   // Quests: In Aid of the Myreque. Skills: Construction 5, Mining 20, Thieving 22, Agility 26, Crafting 32, Magic 33, Strength 40
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Myreque',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [
@@ -40,9 +37,10 @@ name: 'Darkness of Hallowvale',
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Myreque',
   shortName: 'darknessOfHallowvale',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale',

@@ -1,13 +1,13 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ATheatreOfBlood: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
   id: 0,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  age: '',
   name: 'A Theatre of Blood',
   questPoints: 1,
   recommendations: [
@@ -30,16 +30,15 @@ const ATheatreOfBlood: Quest = {
     'Rigour',
     'Augury',
   ],
-  requirements: [],
   recommendedSkills: {
     Attack: 90,
     Defence: 90,
     Hitpoints: 90,
-    Strength: 90,
     Magic: 90,
     Ranged: 90,
+    Strength: 90,
   },
-  series: null,
+  requirements: [],
   rewards: {
     experience: [],
     items: [
@@ -57,8 +56,9 @@ const ATheatreOfBlood: Quest = {
       { description: 'Sins of the Father quest requirement met' },
     ],
   },
-  startLocation: '',
+  series: null,
   shortName: 'aTheatreOfBlood',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Theatre_of_Blood',

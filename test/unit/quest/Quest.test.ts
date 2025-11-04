@@ -6,16 +6,16 @@ describe('Quest Rewards Structure', () => {
   it('should support the new QuestRewards experience array structure', () => {
     const quest: Quest = {
       age: 'Fifth Age',
-      difficulty: QuestDifficulty.Novice,
+      description: 'Help the cook in Lumbridge Castle to make a cake.',
 
+      difficulty: QuestDifficulty.Novice,
       id: 1,
       length: QuestLength.Short,
       members: false,
       miniquest: false,
       name: "Cook's Assistant",
-      questPoints: 1,
 
-      description: 'Help the cook in Lumbridge Castle to make a cake.',
+      questPoints: 1,
       recommendations: [],
       recommendedPrayers: ['None'],
       recommendedSkills: { cooking: 10 },
@@ -64,6 +64,7 @@ describe('Quest Rewards Structure', () => {
   it('should allow empty experience array and all reward fields present', () => {
     const quest: Quest = {
       age: 'Fifth Age',
+      description: 'Help the cook in Lumbridge Castle to make a cake.',
       difficulty: QuestDifficulty.Novice,
       id: 1,
       length: QuestLength.Short,
@@ -71,7 +72,6 @@ describe('Quest Rewards Structure', () => {
       miniquest: false,
       name: "Cook's Assistant",
       questPoints: 1,
-      description: 'Help the cook in Lumbridge Castle to make a cake.',
       recommendations: [],
       recommendedPrayers: ['None'],
       recommendedSkills: { cooking: 10 },

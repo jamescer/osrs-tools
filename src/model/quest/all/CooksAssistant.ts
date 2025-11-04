@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const CooksAssistant: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Novice,
 
   id: 0,
@@ -13,19 +13,16 @@ const CooksAssistant: Quest = {
   members: false,
 
   miniquest: false,
-  
-  age: '',
   // Assign a unique ID if available
-name: "Cook's Assistant",
+  name: "Cook's Assistant",
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: [],
-    experience: [{ amount: 300, skill: Skill.Cooking }],
+    experience: [{ amount: 300, skill: 'Cooking' }],
     items: [],
     lamps: [],
     pets: [],
@@ -33,9 +30,10 @@ name: "Cook's Assistant",
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: null,
   shortName: 'cooksAssistant',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Cook%27s_Assistant',

@@ -1,8 +1,9 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const CabinFever: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Experienced,
 
   id: 0,
@@ -13,11 +14,8 @@ const CabinFever: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Cabin Fever',
+  name: 'Cabin Fever',
   // Quests: Pirate's Treasure, Rum Deal, Priest in Peril. Skills: Agility 42, Crafting 45, Smithing 50, Ranged 40
   questPoints: 2,
   recommendations: [
@@ -33,14 +31,13 @@ name: 'Cabin Fever',
     },
   ],
   recommendedPrayers: ['Protect from Melee'],
-  requirements: [],
   recommendedSkills: {
     Agility: 42,
     Crafting: 45,
     Ranged: 40,
     Smithing: 50,
   },
-  series: 'Pirate',
+  requirements: [],
   rewards: {
     areas: ['Mos Le’Harmless'],
     experience: [
@@ -51,12 +48,13 @@ name: 'Cabin Fever',
     items: [{ name: 'Access to Mos Le’Harmless' }],
     lamps: [],
     pets: [],
-    questPoints: 2,
     points: [],
+    questPoints: 2,
     unlocks: [{ description: 'Ability to travel to Mos Le’Harmless' }],
   },
-  startLocation: '',
+  series: 'Pirate',
   shortName: 'cabinFever',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Cabin_Fever',

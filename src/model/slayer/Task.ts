@@ -1,5 +1,21 @@
 import { Requirement } from '../Requirement';
 
+interface TaskJson {
+  name: string;
+  amountMin: number;
+  amountMax: number;
+  extendedAmountMin?: number | null;
+  extendedAmountMax?: number | null;
+  requirements: Requirement[];
+  alternatives?: string[];
+  weight: number;
+  combatLevels: number[];
+  SlayerExp: number;
+  locations: string[];
+  WildernessLevels: number[];
+  bosses: string[];
+}
+
 /**
  * Represents a Slayer task in the game. This class encapsulates all the properties and methods related to a Slayer task.
  * A Slayer task defines the monsters that players can be assigned to kill, the amount of those monsters, and various other attributes.
@@ -14,8 +30,8 @@ class Task {
   requirements: Requirement[]; // Array of requirements for this task
   extendedAmountMin?: number | null; // Minimum amount for extended tasks (optional)
   extendedAmountMax?: number | null; // Maximum amount for extended tasks (optional)
-  alternatives?: any[] | null; // Array of alternatives for this task (optional)
-  CombatLevels: number[]; // Array of combat levels for this task
+  alternatives?: string[]; // Array of alternatives for this task (optional)
+  combatLevels: number[]; // Array of combat levels for this task
   SlayerExp: number; // Slayer experience gained from this task
   locations: string[]; // Array of locations where this task can be found
   WildernessLevels: number[]; // Array of wilderness levels for this task
@@ -31,7 +47,7 @@ class Task {
    * @param extendedAmountMax - Maximum amount for extended tasks (optional)
    * @param weight - Weight of the task (default is 1)
    * @param alternatives - Array of alternatives for this task (optional)
-   * @param CombatLevels - Array of combat levels for this task
+   * @param combatLevels - Array of combat levels for this task
    * @param SlayerExp - Slayer experience gained from this task
    * @param locations - Array of locations where this task can be found
    * @param WildernessLevels - Array of wilderness levels for this task
@@ -46,28 +62,28 @@ class Task {
     extendedAmountMax?: number | null,
     alternatives: string[] = [],
     weight: number = 1,
-    CombatLevels: number[] = [],
+    combatLevels: number[] = [],
     SlayerExp: number = 0,
     locations: string[] = [],
     WildernessLevels: number[] = [],
     bosses: string[] = [],
   ) {
     this.name = name;
-    this.weight = weight;
     this.amountMin = amountMin;
     this.amountMax = amountMax;
     this.requirements = requirements;
     this.extendedAmountMin = extendedAmountMin ?? null;
     this.extendedAmountMax = extendedAmountMax ?? null;
     this.alternatives = alternatives ?? [];
-    this.CombatLevels = CombatLevels;
+    this.weight = weight;
+    this.combatLevels = combatLevels;
     this.SlayerExp = SlayerExp;
     this.locations = locations;
     this.WildernessLevels = WildernessLevels;
     this.bosses = bosses;
   }
 
-  static fromJSON(json: any): Task {
+  static fromJSON(json: TaskJson): Task {
     return new Task(
       json.name,
       json.amountMin,
@@ -77,7 +93,7 @@ class Task {
       json.extendedAmountMax,
       json.alternatives,
       json.weight,
-      json.CombatLevels,
+      json.combatLevels,
       json.SlayerExp,
       json.locations,
       json.WildernessLevels,
@@ -130,27 +146,30 @@ class Task {
 
   /**
    *
-   * @returns {any[]} An array of alternatives for this task. If alternatives are defined as an object, it flattens the values into a single array.
+   * @returns {string[]} An array of alternatives for this task. If alternatives are defined as an object, it flattens the values into a single array.
    */
-  getAlternatives(): any[] {
-    return this.alternatives
-      ? Array.isArray(this.alternatives)
-        ? this.alternatives
-        : Object.values(this.alternatives).flat()
-      : [];
+  getAlternatives(): string[] {
+    return this.alternatives || [];
   }
 
   /**
    *
    * @returns
    */
-  toJSON(): any {
+  toJSON(): TaskJson {
     return {
+      SlayerExp: this.SlayerExp,
+      WildernessLevels: this.WildernessLevels,
       alternatives: this.alternatives,
       amountMax: this.amountMax,
       amountMin: this.amountMin,
+      bosses: this.bosses,
+      combatLevels: this.combatLevels,
+      extendedAmountMax: this.extendedAmountMax,
+      extendedAmountMin: this.extendedAmountMin,
+      locations: this.locations,
       name: this.name,
-      unlockRequirements: this.requirements,
+      requirements: this.requirements,
       weight: this.weight,
     };
   }

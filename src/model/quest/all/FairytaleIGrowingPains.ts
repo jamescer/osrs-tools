@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const FairytaleIGrowingPains: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Experienced,
 
   id: 0,
@@ -14,18 +14,14 @@ const FairytaleIGrowingPains: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Fairytale I - Growing Pains',
+  name: 'Fairytale I - Growing Pains',
   // Quests: Lost City, Nature Spirit. Skills: Attack 2000, Farming 3500, Magic 1000
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Fairy Tale (#2)',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
@@ -36,9 +32,10 @@ name: 'Fairytale I - Growing Pains',
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Fairy Tale (#2)',
   shortName: 'fairytaleIGrowingPains',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains',

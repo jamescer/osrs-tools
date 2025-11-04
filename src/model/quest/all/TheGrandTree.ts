@@ -1,22 +1,20 @@
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheGrandTree: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Experienced,
   id: 0,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  age: '',
   name: 'The Grand Tree',
   questPoints: 5,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Gnome',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
@@ -27,9 +25,10 @@ const TheGrandTree: Quest = {
     questPoints: 5,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Gnome',
   shortName: 'theGrandTree',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Grand_Tree',

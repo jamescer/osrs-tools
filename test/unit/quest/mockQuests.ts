@@ -3,24 +3,24 @@ import { QuestDifficulty, QuestLength } from '../../../src/model/quest/types';
 import { LevelRequirement, QuestRequirement } from '../../../src/model/Requirement';
 
 export const simpleQuest: Quest = {
+  age: 'Fifth',
   description: 'A quest with no requirements.',
   difficulty: QuestDifficulty.Novice,
   id: 1,
   length: QuestLength.Short,
   members: false,
-  age: 'Fifth',
   miniquest: false,
   name: 'Simple Quest',
   questPoints: 1,
   recommendations: [],
-  requirements: [],
   recommendedPrayers: [],
-  shortName: 'SimpleQuest',
   recommendedSkills: {},
-  steps: [],
+  requirements: [],
   rewards: { questPoints: 1 },
-  status: QuestStatus.NotStarted,
+  shortName: 'SimpleQuest',
   startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
   url: '',
 };
 

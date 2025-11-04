@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const EnlightenedJourney: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -14,18 +14,14 @@ const EnlightenedJourney: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Enlightened Journey',
+  name: 'Enlightened Journey',
   // Skills: quest 20, Firemaking 20, Farming 30, Crafting 36
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
@@ -36,9 +32,10 @@ name: 'Enlightened Journey',
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: null,
   shortName: 'enlightenedJourney',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Enlightened_Journey',

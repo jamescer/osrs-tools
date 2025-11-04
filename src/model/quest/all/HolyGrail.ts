@@ -9,20 +9,19 @@ const attackRequirement: LevelRequirement = {
   type: RequirementType.Level,
 };
 const HolyGrail: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Holy Grail',
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [attackRequirement],
   recommendedSkills: {},
-  series: 'Camelot (#2)',
+  requirements: [attackRequirement],
   rewards: {
     areas: [],
     experience: [
@@ -36,9 +35,10 @@ const HolyGrail: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Camelot (#2)',
   shortName: 'holyGrail',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Holy_Grail',

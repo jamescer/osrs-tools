@@ -12,20 +12,19 @@ const agilityRequirement: LevelRequirement = {
 };
 
 const HorrorFromTheDeep: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Experienced,
   id: 0,
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Horror from the Deep',
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [agilityRequirement],
   recommendedSkills: {},
-  series: 'Fremennik',
+  requirements: [agilityRequirement],
   rewards: {
     areas: [],
     experience: [
@@ -40,9 +39,10 @@ const HorrorFromTheDeep: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Fremennik',
   shortName: 'horrorFromTheDeep',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Horror_from_the_Deep',

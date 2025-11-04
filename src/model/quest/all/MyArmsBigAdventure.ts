@@ -1,23 +1,22 @@
 import { Skill } from '../../account/Skill';
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const MyArmsBigAdventure: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Experienced,
   id: 0,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,
-  age: '',
   name: "My Arm's Big Adventure",
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [new QuestRequirement("Eadgar's Ruse"), new LevelRequirement('Farming', 29, false)],
   recommendedSkills: {},
-  series: 'Troll',
+  requirements: [new QuestRequirement("Eadgar's Ruse"), new LevelRequirement('Farming', 29, false)],
   rewards: {
     areas: [],
     experience: [
@@ -32,9 +31,10 @@ const MyArmsBigAdventure: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Troll',
   shortName: 'myArmsBigAdventure',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure',

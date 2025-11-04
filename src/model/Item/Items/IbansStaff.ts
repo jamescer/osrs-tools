@@ -1,38 +1,43 @@
 import { Item } from '../Item';
 
 const ibansStaffData = {
-  equipable: true,
-  examine: 'The staff of Iban.',
-  id: 1409,
-  members: true,
-  attackSlash: -1,
-  name: "Iban's staff",
   attackCrush: 10,
-  noted: false,
   attackMagic: 10,
-  questItem: false,
   attackRanged: 0,
-
-  stackable: false,
-
+  attackSlash: -1,
   // Combat stats
-attackStab: 10,
-
-  
-  tradeable: false,
+  attackStab: 10,
 
   defenceCrush: 1,
 
-  value: 15000,
   defenceMagic: 10,
+
   defenceRanged: 0,
-  weight: 2.267,
+
   defenceSlash: 3,
+
   defenceStab: 2,
+
+  equipable: true,
+
+  examine: 'The staff of Iban.',
+
+  id: 1409,
+
   magicDamage: 0,
+
+  members: true,
+
+  name: "Iban's staff",
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Iban%27s_staff',
   prayerBonus: 0,
+  questItem: false,
+  stackable: false,
   strengthBonus: 0,
+  tradeable: false,
+  value: 15000,
+  weight: 2.267,
 };
 
 export const IbansStaff = Item.fromJson(ibansStaffData);

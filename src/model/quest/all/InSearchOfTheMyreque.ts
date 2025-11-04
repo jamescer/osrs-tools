@@ -1,23 +1,22 @@
 import { Skill } from '../../account/Skill';
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const InSearchOfTheMyreque: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: '',
   name: 'In Search of the Myreque',
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [new QuestRequirement('Nature Spirit'), new LevelRequirement('Agility', 25, false)],
   recommendedSkills: {},
-  series: 'Myreque',
+  requirements: [new QuestRequirement('Nature Spirit'), new LevelRequirement('Agility', 25, false)],
   rewards: {
     areas: [],
     experience: [
@@ -34,9 +33,10 @@ const InSearchOfTheMyreque: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Myreque',
   shortName: 'inSearchOfTheMyreque',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque',

@@ -1,34 +1,25 @@
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { QuestStatus } from '../Quest';
 
 const DoricQuest = {
+  age: 'Fifth Age',
   description:
     'Help Doric the dwarf by gathering materials so he can make pickaxes, and earn access to his anvils.',
+
   difficulty: QuestDifficulty.Novice,
 
   id: 0,
 
+  length: QuestLength.VeryShort,
+
+  members: false,
+
   miniquest: false,
 
-  
-  members: false,
-  
   // TODO: Replace with actual ID
-name: "Doric's Quest",
-  
-length: QuestLength.VeryShort,
-
-  // TODO: Fill in steps
-requirements: [],
-
-  age: 'Fifth Age',
-
-  series: null,
+  name: "Doric's Quest",
 
   questPoints: 1,
-
-  shortName: 'DoricQuest',
 
   recommendations: [
     { name: 'Pickaxe', note: 'Bronze pickaxe provided during quest.', type: 'item' },
@@ -38,13 +29,13 @@ requirements: [],
     { name: 'Mining 15+', note: 'Required to mine iron ore yourself (boostable).', type: 'tip' },
   ],
 
-  steps: [],
-
   recommendedPrayers: [],
-  
-recommendedSkills: { Mining: 15 },
-  // TODO: Fill in requirements
-status: QuestStatus.NotStarted,
+
+  recommendedSkills: { Mining: 15 },
+
+  // TODO: Fill in steps
+  requirements: [],
+
   rewards: {
     areas: [],
     experience: [{ amount: 1300, skill: 'Mining' }],
@@ -58,8 +49,18 @@ status: QuestStatus.NotStarted,
       },
     ],
   },
+
+  series: null,
+
+  shortName: 'DoricQuest',
+
   startLocation: "Doric's hut north of Falador",
-  url: "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
+
+  // TODO: Fill in requirements
+  status: QuestStatus.NotStarted,
+
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Doric%27s_Quest',
 };
 
 export default DoricQuest;

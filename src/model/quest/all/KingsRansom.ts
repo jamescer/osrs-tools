@@ -1,19 +1,20 @@
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const KingsRansom: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Experienced,
   id: 0,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,
-  age: '',
   name: "King's Ransom",
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement("Black Knights' Fortress"),
     new QuestRequirement('Holy Grail'),
@@ -22,8 +23,6 @@ const KingsRansom: Quest = {
     new LevelRequirement('Magic', 45, false),
     new LevelRequirement('Defence', 65, true),
   ],
-  recommendedSkills: {},
-  series: 'Camelot (#3)',
   rewards: {
     areas: [],
     experience: [
@@ -37,9 +36,10 @@ const KingsRansom: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Camelot (#3)',
   shortName: 'kingsRansom',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/King%27s_Ransom',

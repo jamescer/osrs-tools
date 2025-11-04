@@ -1,21 +1,7 @@
 import { Item } from '../Item';
 
 export const DagannothHide = {
-  examine: 'A sturdy piece of dagannoth hide.',
-  highalch: 36,
-  ge_price: 101,
-  lowalch: 24,
-  members: true,
-  name: 'Dagannoth hide',
-  noteable: true,
-  noted: false,
-  // as of last update
-  release_date: '1 August 2005',
-
   drop_rate: 'Always/1/12.8/1/19',
-
-  stackable: false,
-
   dropped_by: [
     'Dagannoth Prime',
     'Dagannoth Rex',
@@ -24,7 +10,22 @@ export const DagannothHide = {
     'Ninja impling jar',
     'Ninja impling',
   ],
+  examine: 'A sturdy piece of dagannoth hide.',
+  ge_price: 101,
+  highalch: 36,
   location: ['Waterbirth Island Dungeon'],
+  lowalch: 24,
+  members: true,
+
+  name: 'Dagannoth hide',
+
+  noteable: true,
+
+  noted: false,
+
+  // as of last update
+  release_date: '1 August 2005',
+  stackable: false,
   tradeable: true,
   used_for: [
     'Rock-shell helm',

@@ -1,22 +1,20 @@
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const SeaSlug: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Sea Slug',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Sea Slug',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
@@ -27,9 +25,10 @@ const SeaSlug: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Sea Slug',
   shortName: 'seaSlug',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Sea_Slug',

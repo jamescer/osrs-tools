@@ -1,20 +1,20 @@
-import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const OneSmallFavour: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Experienced,
   id: 0,
   length: QuestLength.VeryLong,
   members: true,
   miniquest: false,
-  age: '',
   name: 'One Small Favour',
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Rune Mysteries'),
     new QuestRequirement('Shilo Village'),
@@ -23,8 +23,6 @@ const OneSmallFavour: Quest = {
     new LevelRequirement('Herblore', 30, false),
     new LevelRequirement('Smithing', 30, false),
   ],
-  recommendedSkills: {},
-  series: null,
   rewards: {
     areas: [],
     experience: [],
@@ -35,9 +33,10 @@ const OneSmallFavour: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: null,
   shortName: 'oneSmallFavour',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/One_Small_Favour',

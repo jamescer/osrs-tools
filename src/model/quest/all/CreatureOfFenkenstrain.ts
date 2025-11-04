@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const CreatureOfFenkenstrain: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -14,11 +14,8 @@ const CreatureOfFenkenstrain: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Creature of Fenkenstrain',
+  name: 'Creature of Fenkenstrain',
   // Quests: Priest in Peril, The Restless Ghost. Skills: Crafting 20, Thieving 25
   questPoints: 2,
   recommendations: [
@@ -33,15 +30,15 @@ name: 'Creature of Fenkenstrain',
     {
       name: 'Coins',
       note: 'For Telekinetic Grab or buying pickled brain',
-      type: 'item',
       quantity: 50,
+      type: 'item',
     },
     { name: 'Holy symbol', note: 'For safety against Feral Vampyres', type: 'item' },
     {
       name: 'Ecto-tokens',
       note: 'For access to furnace, only if Ghosts Ahoy not completed',
-      type: 'item',
       quantity: 2,
+      type: 'item',
     },
     { name: 'Weapon', type: 'item' },
     { name: 'Armour', type: 'item' },
@@ -53,14 +50,13 @@ name: 'Creature of Fenkenstrain',
     { name: 'Amulet of glory', type: 'item' },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {
+    Combat: 30,
     Crafting: 20,
     Smithing: 4,
-    Combat: 30,
     Thieving: 25,
   },
-  series: null,
+  requirements: [],
   rewards: {
     areas: ["Fenkenstrain's Castle"],
     experience: [{ amount: 1000, skill: 'Thieving' }],
@@ -72,12 +68,13 @@ name: 'Creature of Fenkenstrain',
     ],
     lamps: [],
     pets: [],
-    questPoints: 2,
     points: [],
+    questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
+  series: null,
   shortName: 'creatureOfFenkenstrain',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain',

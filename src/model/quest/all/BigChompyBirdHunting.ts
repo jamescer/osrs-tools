@@ -1,8 +1,9 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const BigChompyBirdHunting: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -12,10 +13,8 @@ const BigChompyBirdHunting: Quest = {
   members: true,
 
   miniquest: false,
-  
-  age: '',
   // Assign a unique ID if available
-name: 'Big Chompy Bird Hunting',
+  name: 'Big Chompy Bird Hunting',
   questPoints: 2,
   recommendations: [
     {
@@ -30,13 +29,12 @@ name: 'Big Chompy Bird Hunting',
     },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {
     Cooking: 30,
     Fletching: 5,
     Ranged: 30,
   },
-  series: 'Ogre',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [
@@ -47,12 +45,13 @@ name: 'Big Chompy Bird Hunting',
     items: [{ name: 'Ogre bow' }, { name: 'Ogre arrows', quantity: 30 }],
     lamps: [],
     pets: [],
-    questPoints: 2,
     points: [],
+    questPoints: 2,
     unlocks: [{ description: 'Ability to hunt chompy birds' }],
   },
-  startLocation: '',
+  series: 'Ogre',
   shortName: 'bigChompyBirdHunting',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting',

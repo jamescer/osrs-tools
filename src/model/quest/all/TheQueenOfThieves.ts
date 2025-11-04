@@ -3,23 +3,22 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheQueenOfThieves: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: '',
   name: 'The Queen of Thieves',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Client of Kourend'),
     new LevelRequirement('Thieving', 20, false),
   ],
-  recommendedSkills: {},
-  series: 'Great Kourend',
   rewards: {
     areas: [],
     experience: [],
@@ -30,9 +29,10 @@ const TheQueenOfThieves: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Great Kourend',
   shortName: 'theQueenOfThieves',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Queen_of_Thieves',

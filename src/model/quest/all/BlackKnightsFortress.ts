@@ -1,8 +1,9 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const BlackKnightsFortress: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Novice,
 
   id: 0,
@@ -12,10 +13,8 @@ const BlackKnightsFortress: Quest = {
   members: false,
 
   miniquest: false,
-  
-  age: '',
   // Assign a unique ID if available
-name: "Black Knights' Fortress",
+  name: "Black Knights' Fortress",
   questPoints: 3,
   recommendations: [
     {
@@ -30,21 +29,21 @@ name: "Black Knights' Fortress",
     },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: [],
     experience: [],
     items: [{ name: '3000 coins' }],
     lamps: [],
     pets: [],
-    questPoints: 3,
     points: [],
+    questPoints: 3,
     unlocks: [{ description: 'Ability to enter the Black Knights’ Fortress freely' }],
   },
-  startLocation: '',
+  series: null,
   shortName: 'blackKnightsFortress',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress',

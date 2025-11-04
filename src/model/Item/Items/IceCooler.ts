@@ -1,11 +1,11 @@
 import { Item } from '../Item';
 
 const iceCoolerData = {
+  destroy: 'You can get more ice coolers from the Slayer Master in Canifis.',
   equipable: false,
   examine: 'Used to freeze Desert lizards.',
   id: 6696,
   members: true,
-  destroy: 'You can get more ice coolers from the Slayer Master in Canifis.',
   name: 'Ice cooler',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ice_cooler',

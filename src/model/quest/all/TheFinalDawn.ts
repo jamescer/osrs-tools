@@ -4,17 +4,18 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheFinalDawn: Quest = {
+  age: 'New',
+  description: `The Final Dawn is a Grandmaster quest released in 2024. It is the epic conclusion to the Mahjarrat storyline, featuring challenging puzzles, high-level combat, and significant lore revelations.`,
   difficulty: QuestDifficulty.Grandmaster,
   id: 171,
-  age: 'New',
   length: QuestLength.Long,
-  description: `The Final Dawn is a Grandmaster quest released in 2024. It is the epic conclusion to the Mahjarrat storyline, featuring challenging puzzles, high-level combat, and significant lore revelations.`,
   members: true,
   miniquest: false,
   name: 'The Final Dawn',
   questPoints: 4,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('The Path of Glouphrie'),
     new QuestRequirement('Song of the Elves'),
@@ -47,8 +48,6 @@ const TheFinalDawn: Quest = {
     new LevelRequirement(Skill.Defence, 85, false),
     new LevelRequirement(Skill.Hitpoints, 85, false),
   ],
-  recommendedSkills: {},
-  status: QuestStatus.NotStarted,
   rewards: {
     misc: [
       'Access to new areas',
@@ -59,9 +58,10 @@ const TheFinalDawn: Quest = {
     ],
     questPoints: 4,
   },
-  shortName: 'theFinalDawn',
   series: 'Mahjarrat',
+  shortName: 'theFinalDawn',
   startLocation: 'To be determined',
+  status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Final_Dawn',
 };

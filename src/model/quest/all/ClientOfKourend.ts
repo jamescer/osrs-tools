@@ -1,8 +1,9 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ClientOfKourend: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Novice,
 
   id: 0,
@@ -12,10 +13,8 @@ const ClientOfKourend: Quest = {
   members: true,
 
   miniquest: false,
-  
-  age: '',
   // Assign a unique ID if available
-name: 'Client of Kourend',
+  name: 'Client of Kourend',
   questPoints: 1,
   recommendations: [
     { name: 'Feather', note: 'Stripy or coloured feather, not magic gold', type: 'item' },
@@ -32,9 +31,8 @@ name: 'Client of Kourend',
     { name: 'Coins', note: 'For Lovakengj Minecart Network', type: 'item' },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Great Kourend',
+  requirements: [],
   rewards: {
     areas: ['Great Kourend'],
     experience: [],
@@ -44,12 +42,13 @@ name: 'Client of Kourend',
       { amount: 500, note: 'Antique lamp, any skill' },
     ],
     pets: [],
-    questPoints: 1,
     points: [],
+    questPoints: 1,
     unlocks: [{ description: 'Unlocks Kourend Castle Teleport spell' }],
   },
-  startLocation: '',
+  series: 'Great Kourend',
   shortName: 'clientOfKourend',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Client_of_Kourend',

@@ -1,38 +1,43 @@
 import { Item } from '../Item';
 
 const mythicalCapeData = {
-  equipable: true,
-  examine: 'A cape awarded for completing Dragon Slayer II.',
-  id: 21295,
-  members: true,
-  attackSlash: 1,
-  name: 'Mythical cape',
   attackCrush: 1,
-  noted: false,
   attackMagic: 3,
-  questItem: false,
   attackRanged: 0,
-
-  stackable: false,
-
+  attackSlash: 1,
   // Combat stats
-attackStab: 1,
-
-  
-  tradeable: false,
+  attackStab: 1,
 
   defenceCrush: 3,
 
-  value: 50000,
   defenceMagic: 3,
+
   defenceRanged: 3,
-  weight: 0.453,
+
   defenceSlash: 3,
+
   defenceStab: 3,
+
+  equipable: true,
+
+  examine: 'A cape awarded for completing Dragon Slayer II.',
+
+  id: 21295,
+
   magicDamage: 0,
+
+  members: true,
+
+  name: 'Mythical cape',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Mythical_cape',
   prayerBonus: 1,
+  questItem: false,
+  stackable: false,
   strengthBonus: 1,
+  tradeable: false,
+  value: 50000,
+  weight: 0.453,
 };
 
 export const MythicalCape = Item.fromJson(mythicalCapeData);

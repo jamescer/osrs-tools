@@ -1,9 +1,10 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ATailOfTwoCats: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -14,11 +15,8 @@ const ATailOfTwoCats: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'A Tail of Two Cats',
+  name: 'A Tail of Two Cats',
   // Only quest requirement: Icthlarin's Little Helper
   questPoints: 2,
   recommendations: [
@@ -34,9 +32,8 @@ name: 'A Tail of Two Cats',
     },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Dragonkin',
+  requirements: [],
   rewards: {
     experience: [
       { amount: 2000, skill: 'Agility' },
@@ -51,8 +48,9 @@ name: 'A Tail of Two Cats',
       { description: 'Ability to obtain Bob the Cat’s collar' },
     ],
   },
-  startLocation: '',
+  series: 'Dragonkin',
   shortName: 'aTailOfTwoCats',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats',

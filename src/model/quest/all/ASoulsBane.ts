@@ -1,8 +1,9 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ASoulsBane: Quest = {
+  age: '',
+
   // Not specified in JSON
   description: '',
 
@@ -20,9 +21,6 @@ const ASoulsBane: Quest = {
   name: "A Soul's Bane",
   // No skill or quest requirements
   questPoints: 1,
-  age: '',
-
-  requirements: [],
 
   recommendations: [
     {
@@ -37,16 +35,13 @@ const ASoulsBane: Quest = {
     },
   ],
 
-  series: null,
-
   recommendedPrayers: [],
-
-  startLocation: '',
 
   recommendedSkills: {},
 
-  
-rewards: {
+  requirements: [],
+
+  rewards: {
     areas: ['The Rift'],
     experience: [
       { amount: 500, skill: 'Defence' },
@@ -60,10 +55,14 @@ rewards: {
     unlocks: [{ description: 'Ability to enter the Rift freely' }],
   },
 
-  // Not specified in JSON
-status: QuestStatus.NotStarted,
+  series: null,
 
   shortName: 'aSoulsBane',
+
+  startLocation: '',
+
+  // Not specified in JSON
+  status: QuestStatus.NotStarted,
   // Not specified in JSON
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/A_Soul%27s_Bane',

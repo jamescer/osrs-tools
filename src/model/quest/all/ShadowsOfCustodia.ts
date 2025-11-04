@@ -2,10 +2,10 @@
 
 import { Skill } from '../../account/Skill';
 import { Quest, QuestStatus } from '../../quest/Quest';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 
 const ShadowsOfCustodia: Quest = {
+  age: '',
   description:
     'Investigate the mysterious shadows appearing in Custodia and help restore peace to the region.',
   difficulty: QuestDifficulty.Novice,
@@ -13,14 +13,12 @@ const ShadowsOfCustodia: Quest = {
   length: QuestLength.Short,
   members: false,
   miniquest: false,
-  age: '',
   name: 'Shadows of Custodia',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: ['Custodia'],
     experience: [
@@ -34,9 +32,10 @@ const ShadowsOfCustodia: Quest = {
     questPoints: 1,
     unlocks: [{ description: 'Access to the Custodia region' }],
   },
-  startLocation: 'Speak to the Custodian in Lumbridge',
-
+  series: null,
   shortName: 'shadowsOfCustodia',
+
+  startLocation: 'Speak to the Custodian in Lumbridge',
   status: QuestStatus.NotStarted,
   steps: [
     'Speak to the Custodian in Lumbridge.',

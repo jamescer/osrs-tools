@@ -1,35 +1,25 @@
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { QuestStatus } from '../Quest';
-import { Quest } from '../types';
 
 const DesertTreasure = {
+  age: 'Fifth Age',
   description:
     'Help the archaeologist uncover the secrets of the Ancient Pyramid and unlock Ancient Magicks.',
+
   difficulty: QuestDifficulty.Master,
 
   id: 0,
 
+  length: QuestLength.Long,
+
+  members: true,
+
   miniquest: false,
 
-  
-  members: true,
-  
   // TODO: Replace with actual ID
-name: 'Desert Treasure I',
-  
-length: QuestLength.Long,
-
-  // TODO: Fill in steps
-requirements: [],
-
-  age: 'Fifth Age',
-
-  series: 'Mahjarrat',
+  name: 'Desert Treasure I',
 
   questPoints: 3,
-
-  shortName: 'DesertTreasure',
 
   recommendations: [
     {
@@ -71,13 +61,13 @@ requirements: [],
     { name: 'Slayer 10+', note: 'Required for quest.', type: 'tip' },
   ],
 
-  steps: [],
-
   recommendedPrayers: ['Protect from Melee', 'Protect from Missiles'],
-  
-recommendedSkills: { Firemaking: 50, Magic: 50, Slayer: 10, Thieving: 53 },
-  // TODO: Fill in requirements
-status: QuestStatus.NotStarted,
+
+  recommendedSkills: { Firemaking: 50, Magic: 50, Slayer: 10, Thieving: 53 },
+
+  // TODO: Fill in steps
+  requirements: [],
+
   rewards: {
     areas: ['Ancient Pyramid', 'Smoke Dungeon'],
     experience: [{ amount: 20006.9, skill: 'Magic' }],
@@ -110,8 +100,18 @@ status: QuestStatus.NotStarted,
       },
     ],
   },
+
+  series: 'Mahjarrat',
+
+  shortName: 'DesertTreasure',
+
   startLocation: 'Bedabin Camp',
-  url: "https://oldschool.runescape.wiki/w/Desert_Treasure_I",
+
+  // TODO: Fill in requirements
+  status: QuestStatus.NotStarted,
+
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Desert_Treasure_I',
 };
 
 export default DesertTreasure;

@@ -4,17 +4,18 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const MonkeyMadnessII: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Grandmaster,
   id: 0,
   length: QuestLength.VeryLong,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Monkey Madness II',
   questPoints: 4,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Monkey Madness'),
     new QuestRequirement('Recipe for Disaster'),
@@ -28,8 +29,6 @@ const MonkeyMadnessII: Quest = {
     new LevelRequirement('Slayer', 60, false),
     new LevelRequirement('Thieving', 55, false),
   ],
-  recommendedSkills: {},
-  series: 'Gnome',
   rewards: {
     areas: [],
     experience: [
@@ -44,8 +43,9 @@ const MonkeyMadnessII: Quest = {
     questPoints: 4,
     unlocks: [],
   },
-  startLocation: '',
+  series: 'Gnome',
   shortName: 'monkeyMadnessII',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Monkey_Madness_II',

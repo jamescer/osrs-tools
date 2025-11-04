@@ -18,6 +18,5 @@ describe('Assignment', () => {
 
     expect(assignment.getName()).toBe('Aberrant Spectres');
     expect(assignment.getQuantity()).toBe(10);
-
   });
 });

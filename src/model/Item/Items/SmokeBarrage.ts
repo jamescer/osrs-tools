@@ -1,11 +1,11 @@
 import { Item } from '../Item';
 
 const smokeBarrageData = {
+  destroy: null,
   equipable: false,
   examine: 'An Ancient Magicks spell.',
   id: 4000,
   members: true,
-  destroy: null,
   name: 'Smoke barrage',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Smoke_Barrage',

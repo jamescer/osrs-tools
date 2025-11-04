@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const DeviousMinds: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Experienced,
 
   id: 0,
@@ -14,24 +14,20 @@ const DeviousMinds: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Devious Minds',
+  name: 'Devious Minds',
   // Quests: Wanted!, Troll Stronghold, Doric's Quest, Enter the Abyss. Skills: Smithing 65, Runecraft 50, Fletching 50
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'The Return of Zaros',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [
-      { amount: 5000, skill: Skill.Fletching },
-      { amount: 5000, skill: Skill.Runecraft },
-      { amount: 6500, skill: Skill.Smithing },
+      { amount: 5000, skill: 'Fletching' },
+      { amount: 5000, skill: 'Runecraft' },
+      { amount: 6500, skill: 'Smithing' },
     ],
     items: [],
     lamps: [],
@@ -40,9 +36,10 @@ name: 'Devious Minds',
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'The Return of Zaros',
   shortName: 'deviousMinds',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Devious_Minds',

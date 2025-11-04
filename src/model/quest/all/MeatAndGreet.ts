@@ -2,10 +2,10 @@
 
 import { Skill } from '../../account/Skill';
 import { Quest, QuestStatus } from '../../quest/Quest';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 
 const MeatAndGreet: Quest = {
+  age: '',
   description:
     'Help the Varrock Cook prepare a feast by gathering special meats from around Gielinor.',
   difficulty: QuestDifficulty.Novice,
@@ -13,14 +13,12 @@ const MeatAndGreet: Quest = {
   length: QuestLength.Short,
   members: false,
   miniquest: false,
-  age: '',
   name: 'Meat and Greet',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: ['Varrock'],
     experience: [{ amount: 200, skill: Skill.Cooking }],
@@ -31,9 +29,10 @@ const MeatAndGreet: Quest = {
     questPoints: 1,
     unlocks: [{ description: 'Access to the Varrock Feast event' }],
   },
-  startLocation: 'Varrock Square, speak to the Cook',
-
+  series: null,
   shortName: 'meatAndGreet',
+
+  startLocation: 'Varrock Square, speak to the Cook',
   status: QuestStatus.NotStarted,
   steps: [
     'Speak to the Cook in Varrock Square.',

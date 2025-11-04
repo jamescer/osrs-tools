@@ -1,38 +1,43 @@
 import { Item } from '../Item';
 
 const moonclanHelmetData = {
-  equipable: true,
-  examine: 'A helmet of the Moon Clan.',
-  id: 9097,
-  members: true,
-  attackSlash: 0,
-  name: 'Moonclan helm',
   attackCrush: 0,
-  noted: false,
   attackMagic: 2,
-  questItem: false,
   attackRanged: -3,
-
-  stackable: false,
-
+  attackSlash: 0,
   // Combat stats
-attackStab: 0,
-
-  
-  tradeable: true,
+  attackStab: 0,
 
   defenceCrush: 19,
 
-  value: 9000,
   defenceMagic: 2,
+
   defenceRanged: 0,
-  weight: 2.267,
+
   defenceSlash: 20,
+
   defenceStab: 21,
+
+  equipable: true,
+
+  examine: 'A helmet of the Moon Clan.',
+
+  id: 9097,
+
   magicDamage: 0,
+
+  members: true,
+
+  name: 'Moonclan helm',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Moonclan_helm',
   prayerBonus: 0,
+  questItem: false,
+  stackable: false,
   strengthBonus: 0,
+  tradeable: true,
+  value: 9000,
+  weight: 2.267,
 };
 
 export const MoonclanHelmet = Item.fromJson(moonclanHelmetData);

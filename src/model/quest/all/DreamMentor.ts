@@ -1,33 +1,24 @@
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { QuestStatus } from '../Quest';
 
 const DreamMentor = {
+  age: 'Fifth Age',
   description: 'Help Cyrisus overcome his fears in the dream world and unlock new Lunar spells.',
+
   difficulty: QuestDifficulty.Master,
 
   id: 0,
 
+  length: QuestLength.Medium,
+
+  members: true,
+
   miniquest: false,
 
-  
-  members: true,
-  
   // TODO: Replace with actual ID
-name: 'Dream Mentor',
-  
-length: QuestLength.Medium,
-
-  // TODO: Fill in steps
-requirements: [],
-
-  age: 'Fifth Age',
-
-  series: 'Fremennik',
+  name: 'Dream Mentor',
 
   questPoints: 2,
-
-  shortName: 'DreamMentor',
 
   recommendations: [
     { name: 'Seal of passage', note: 'Required to access Lunar Isle.', type: 'item' },
@@ -53,13 +44,13 @@ requirements: [],
     { name: 'High Hitpoints', note: 'Recommended for survival against four bosses.', type: 'tip' },
   ],
 
-  steps: [],
-
   recommendedPrayers: [],
-  
-recommendedSkills: { Combat: 85 },
-  // TODO: Fill in requirements
-status: QuestStatus.NotStarted,
+
+  recommendedSkills: { Combat: 85 },
+
+  // TODO: Fill in steps
+  requirements: [],
+
   rewards: {
     areas: ['Lunar Isle', 'Dream World'],
     experience: [
@@ -92,8 +83,18 @@ status: QuestStatus.NotStarted,
       },
     ],
   },
+
+  series: 'Fremennik',
+
+  shortName: 'DreamMentor',
+
   startLocation: 'Lunar Isle mine',
-  url: "https://oldschool.runescape.wiki/w/Dream_Mentor",
+
+  // TODO: Fill in requirements
+  status: QuestStatus.NotStarted,
+
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Dream_Mentor',
 };
 
 export default DreamMentor;

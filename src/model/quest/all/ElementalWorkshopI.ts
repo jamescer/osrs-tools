@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ElementalWorkshopI: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Novice,
 
   id: 0,
@@ -14,23 +14,19 @@ const ElementalWorkshopI: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Elemental Workshop I',
+  name: 'Elemental Workshop I',
   // Skills: Mining 20, Smithing 20, Crafting 20
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Elemental Workshop',
+  requirements: [],
   rewards: {
     areas: [],
     experience: [
-      { amount: 5000, skill: Skill.Crafting },
-      { amount: 5000, skill: Skill.Smithing },
+      { amount: 5000, skill: 'Crafting' },
+      { amount: 5000, skill: 'Smithing' },
     ],
     items: [],
     lamps: [],
@@ -39,9 +35,10 @@ name: 'Elemental Workshop I',
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Elemental Workshop',
   shortName: 'elementalWorkshopI',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Elemental_Workshop_I',

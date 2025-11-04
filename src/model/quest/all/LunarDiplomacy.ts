@@ -1,20 +1,21 @@
 import { Skill } from '../../account/Skill';
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const LunarDiplomacy: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
   id: 0,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Lunar Diplomacy',
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('The Fremennik Trials'),
     new QuestRequirement('Lost City'),
@@ -27,8 +28,6 @@ const LunarDiplomacy: Quest = {
     new LevelRequirement('Mining', 60, false),
     new LevelRequirement('Woodcutting', 55, false),
   ],
-  recommendedSkills: {},
-  series: 'Fremennik',
   rewards: {
     areas: [],
     experience: [
@@ -42,9 +41,10 @@ const LunarDiplomacy: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Fremennik',
   shortName: 'lunarDiplomacy',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Lunar_Diplomacy',

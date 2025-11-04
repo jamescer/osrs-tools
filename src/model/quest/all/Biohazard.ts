@@ -1,8 +1,9 @@
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const Biohazard: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Novice,
 
   id: 0,
@@ -12,10 +13,8 @@ const Biohazard: Quest = {
   members: true,
 
   miniquest: false,
-  
-  age: '',
   // Assign a unique ID if available
-name: 'Biohazard',
+  name: 'Biohazard',
   questPoints: 3,
   recommendations: [
     {
@@ -30,21 +29,21 @@ name: 'Biohazard',
     },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Elf',
+  requirements: [],
   rewards: {
     areas: ['East Ardougne'],
     experience: [{ amount: 1250, skill: 'Thieving' }],
     items: [{ name: 'Access to East Ardougne' }],
     lamps: [],
     pets: [],
-    questPoints: 3,
     points: [],
+    questPoints: 3,
     unlocks: [{ description: 'Ability to enter East Ardougne freely' }],
   },
-  startLocation: '',
+  series: 'Elf',
   shortName: 'biohazard',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Biohazard',

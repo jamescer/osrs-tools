@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const EadgarsRuse: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Experienced,
 
   id: 0,
@@ -14,21 +14,17 @@ const EadgarsRuse: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: "Eadgar's Ruse",
+  name: "Eadgar's Ruse",
   // Quests: Druidic Ritual, Troll Stronghold. Skills: Herblore 31, Agility 44
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Troll',
+  requirements: [],
   rewards: {
     areas: [],
-    experience: [{ amount: 11000, skill: Skill.Herblore }],
+    experience: [{ amount: 11000, skill: 'Herblore' }],
     items: [],
     lamps: [],
     pets: [],
@@ -36,9 +32,10 @@ name: "Eadgar's Ruse",
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Troll',
   shortName: 'eadgarsRuse',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse',

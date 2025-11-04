@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const DeathPlateau: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Novice,
 
   id: 0,
@@ -13,19 +13,16 @@ const DeathPlateau: Quest = {
   members: true,
 
   miniquest: false,
-  
-  age: '',
   // Assign a unique ID if available
-name: 'Death Plateau',
+  name: 'Death Plateau',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: 'Troll',
+  requirements: [],
   rewards: {
     areas: [],
-    experience: [{ amount: 3000, skill: Skill.Attack }],
+    experience: [{ amount: 3000, skill: 'Attack' }],
     items: [],
     lamps: [],
     pets: [],
@@ -33,9 +30,10 @@ name: 'Death Plateau',
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Troll',
   shortName: 'deathPlateau',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Death_Plateau',

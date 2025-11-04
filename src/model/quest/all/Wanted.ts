@@ -3,17 +3,18 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const Wanted: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Wanted!',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Recruitment Drive'),
     new QuestRequirement('The Lost Tribe'),
@@ -23,8 +24,6 @@ const Wanted: Quest = {
     new QuestRequirement('Witchwood Icon'),
     new LevelRequirement('Slayer', 15, false),
   ],
-  recommendedSkills: {},
-  series: null,
   rewards: {
     areas: [],
     experience: [],
@@ -35,8 +34,9 @@ const Wanted: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
+  series: null,
   shortName: 'wanted',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Wanted!',

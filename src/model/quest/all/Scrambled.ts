@@ -2,24 +2,22 @@
 
 import { Skill } from '../../account/Skill';
 import { Quest, QuestStatus } from '../../quest/Quest';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 
 const Scrambled: Quest = {
+  age: '',
   description: 'Help the Egg Shrine priest recover the lost eggs and restore the shrine.',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.VeryShort,
   members: false,
   miniquest: false,
-  age: '',
   name: 'Scrambled!',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: ['Egg Shrine'],
     experience: [{ amount: 100, skill: Skill.Cooking }],
@@ -30,8 +28,9 @@ const Scrambled: Quest = {
     questPoints: 1,
     unlocks: [{ description: 'Access to the Egg Shrine' }],
   },
-  startLocation: 'Egg Shrine, south of Falador',
+  series: null,
   shortName: 'scrambled',
+  startLocation: 'Egg Shrine, south of Falador',
   status: QuestStatus.NotStarted,
   steps: [
     'Speak to the Egg Shrine priest south of Falador.',

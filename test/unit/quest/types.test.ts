@@ -65,28 +65,19 @@ describe('Quest Types and Requirements', () => {
   describe('Quest Interface', () => {
     it('should validate a complete quest object', () => {
       const quest: Quest = {
+        age: 'Fifth Age',
         description: 'Help the cook make a cake.',
         difficulty: QuestDifficulty.Novice,
         id: 1,
         length: QuestLength.Short,
         members: false,
-        age: 'Fifth Age',
         miniquest: false,
         name: "Cook's Assistant",
         questPoints: 1,
-        requirements: [],
         recommendations: [],
-        series: null,
         recommendedPrayers: [],
-        shortName: 'cooksAssistant',
         recommendedSkills: {},
-        steps: [
-          'Talk to the cook in Lumbridge Castle kitchen.',
-          'Get an egg from the farm north of Lumbridge.',
-          'Get a bucket of milk from a dairy cow.',
-          'Get a pot of flour from the mill north of Lumbridge.',
-          'Return all ingredients to the cook.',
-        ],
+        requirements: [],
         rewards: {
           areas: [],
           experience: [{ amount: 300, skill: 'Cooking' }],
@@ -97,8 +88,17 @@ describe('Quest Types and Requirements', () => {
           questPoints: 1,
           unlocks: [{ description: 'Access to the kitchen' }],
         },
-        status: QuestStatus.NotStarted,
+        series: null,
+        shortName: 'cooksAssistant',
         startLocation: 'Lumbridge Castle Kitchen',
+        status: QuestStatus.NotStarted,
+        steps: [
+          'Talk to the cook in Lumbridge Castle kitchen.',
+          'Get an egg from the farm north of Lumbridge.',
+          'Get a bucket of milk from a dairy cow.',
+          'Get a pot of flour from the mill north of Lumbridge.',
+          'Return all ingredients to the cook.',
+        ],
         url: 'https://oldschool.runescape.wiki/w/Cook%27s_Assistant',
       };
 

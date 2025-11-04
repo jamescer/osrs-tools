@@ -1,26 +1,24 @@
-import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheTaleOfTheRighteous: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  age: '',
   name: 'The Tale of the Righteous',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Client of Kourend'),
     new LevelRequirement('Agility', 16, false),
   ],
-  recommendedSkills: {},
-  series: 'Great Kourend',
   rewards: {
     areas: [],
     experience: [],
@@ -31,8 +29,9 @@ const TheTaleOfTheRighteous: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
+  series: 'Great Kourend',
   shortName: 'theTaleOfTheRighteous',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Tale_of_the_Righteous',

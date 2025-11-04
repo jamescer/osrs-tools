@@ -1,3 +1,37 @@
+interface ItemJson {
+  id: number;
+  name: string;
+  examine: string;
+  value: number;
+  highAlch: number;
+  lowAlch: number;
+  weight: number;
+  members: boolean;
+  tradeable: boolean;
+  equipable: boolean;
+  releaseDate: string;
+  destroy: string;
+  questItem: boolean;
+  stackable: boolean;
+  noted: boolean;
+  officialWikiUrl: string;
+  iconUrl?: string;
+  attackStab?: number;
+  attackSlash?: number;
+  attackCrush?: number;
+  attackMagic?: number;
+  attackRanged?: number;
+  defenceStab?: number;
+  defenceSlash?: number;
+  defenceCrush?: number;
+  defenceMagic?: number;
+  defenceRanged?: number;
+  strengthBonus?: number;
+  rangedStrength?: number;
+  magicDamage?: number;
+  prayer?: number;
+}
+
 export class Item {
   id: number;
   name: string;
@@ -323,7 +357,7 @@ export class Item {
     this.prayer = value;
   }
 
-  static fromJson(json: any): Item {
+  static fromJson(json: ItemJson): Item {
     return new Item(
       json.id,
       json.name,

@@ -8,6 +8,35 @@ interface Skill {
   level: number;
 }
 
+interface SkillJsonDetail {
+  rank: number;
+  level: number;
+  xp: number;
+}
+
+interface OsrsAccountJson {
+  name?: string;
+  main?: {
+    combatLevel?: number;
+    questPoints?: number;
+    skills?: Record<string, SkillJsonDetail>;
+  };
+  combatLevel?: number;
+  questPoints?: number;
+  skills?: Record<string, SkillJsonDetail>;
+  lastManStanding?: BossScore;
+  pvpArena?: BossScore;
+  soulWarsZeal?: BossScore;
+  riftsClosed?: BossScore;
+  colosseumGlory?: BossScore;
+  collectionsLogged?: BossScore;
+  leaguePoints?: BossScore;
+  deadmanPoints?: BossScore;
+  bosses?: Bosses;
+  clues?: Clues;
+  bountyHunter?: BountyHunter;
+}
+
 interface Skills {
   [skillName: string]: Skill;
 }
@@ -97,7 +126,7 @@ class OsrsAccount {
     this.#deadmanPoints = data.deadmanPoints;
   }
 
-  static fromJson(json: any): OsrsAccount {
+  static fromJson(json: OsrsAccountJson): OsrsAccount {
     const name = json.name || '';
     const combatLevel = json.main?.combatLevel ?? json.combatLevel ?? 3;
     const questPoints = json.main?.questPoints ?? json.questPoints ?? 0;
@@ -131,16 +160,16 @@ class OsrsAccount {
       bountyHunter,
       clues,
       collectionsLogged,
-      combatLevel,
       colosseumGlory,
-      lastManStanding,
+      combatLevel,
       deadmanPoints,
-      name,
+      lastManStanding,
       leaguePoints,
-      questPoints,
+      name,
       pvpArena,
-      skills,
+      questPoints,
       riftsClosed,
+      skills,
       skillsDetail,
       soulWarsZeal,
     });
@@ -236,16 +265,16 @@ class OsrsAccount {
       bountyHunter: this.#bountyHunter,
       clues: this.#clues,
       collectionsLogged: this.#collectionsLogged,
-      combatLevel: this.#combatLevel,
       colosseumGlory: this.#colosseumGlory,
-      lastManStanding: this.#lastManStanding,
+      combatLevel: this.#combatLevel,
       deadmanPoints: this.#deadmanPoints,
-      name: this.#name,
+      lastManStanding: this.#lastManStanding,
       leaguePoints: this.#leaguePoints,
-      questPoints: this.#questPoints,
+      name: this.#name,
       pvpArena: this.#pvpArena,
-      skills: this.#skills,
+      questPoints: this.#questPoints,
       riftsClosed: this.#riftsClosed,
+      skills: this.#skills,
       skillsDetail: this.#skillsDetail,
       soulWarsZeal: this.#soulWarsZeal,
     };

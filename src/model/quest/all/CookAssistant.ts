@@ -1,25 +1,22 @@
 import { Skill } from '../../account/Skill';
-import { QuestRequirement, Requirement, RequirementType } from '../../Requirement';
-import { Quest, QuestStatus } from '../Quest';
-const cooking = Skill.Cooking;
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const CookAssistant: Quest = {
+  age: 'Fifth Age',
   description: 'Help the cook in Lumbridge Castle by gathering ingredients for his cake.',
   difficulty: QuestDifficulty.Novice,
   id: 1,
   length: QuestLength.Short,
   members: false,
   miniquest: false,
-  age: 'Fifth Age',
   name: "Cook's Assistant",
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     /**todo fix this */
   ],
-  recommendedSkills: {},
-  series: 'None',
   rewards: {
     areas: [],
     experience: [{ amount: 300, skill: Skill.Cooking }],
@@ -30,9 +27,10 @@ const CookAssistant: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: 'Lumbridge Castle kitchen',
-
+  series: 'None',
   shortName: "Cook's Assistant",
+
+  startLocation: 'Lumbridge Castle kitchen',
   status: QuestStatus.NotStarted,
   steps: [
     'Speak to the Cook in Lumbridge Castle kitchen.',

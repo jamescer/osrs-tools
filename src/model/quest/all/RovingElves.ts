@@ -1,22 +1,20 @@
-import { Skill } from '../../account/Skill';
 import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const RovingElves: Quest = {
+  age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,
-  age: '',
   name: 'Roving Elves',
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  requirements: [new QuestRequirement('Regicide'), new QuestRequirement('Waterfall Quest')],
   recommendedSkills: {},
-  series: 'Elf',
+  requirements: [new QuestRequirement('Regicide'), new QuestRequirement('Waterfall Quest')],
   rewards: {
     areas: [],
     experience: [],
@@ -27,9 +25,10 @@ const RovingElves: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  startLocation: '',
-
+  series: 'Elf',
   shortName: 'rovingElves',
+
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Roving_Elves',

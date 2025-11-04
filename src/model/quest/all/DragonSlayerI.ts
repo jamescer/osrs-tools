@@ -1,15 +1,9 @@
-import { Skill } from '../../account/Skill';
-import {
-  CombatLevelRequirement,
-  ItemRequirement,
-  LevelRequirement,
-  QuestPointRequirement,
-  QuestRequirement,
-} from '../../Requirement';
+import { CombatLevelRequirement, LevelRequirement, QuestPointRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const DragonSlayer: Quest = {
+  age: '',
   description:
     'Prove yourself a true champion. Kill the mighty dragon Elvarg of Crandor and earn the right to buy and wear the Rune platebody.',
   difficulty: QuestDifficulty.Experienced,
@@ -17,7 +11,6 @@ const DragonSlayer: Quest = {
   length: QuestLength.Long,
   members: false,
   miniquest: false,
-  age: '',
   name: 'Dragon Slayer I',
   questPoints: 2,
   recommendations: [
@@ -97,6 +90,13 @@ const DragonSlayer: Quest = {
     },
   ],
   recommendedPrayers: ['Protect from Magic'],
+  recommendedSkills: {
+    Attack: 40,
+    Defence: 40,
+    Magic: 33,
+    Prayer: 43,
+    Strength: 40,
+  },
   requirements: [
     new QuestPointRequirement(32),
     new CombatLevelRequirement(45),
@@ -105,24 +105,16 @@ const DragonSlayer: Quest = {
     new LevelRequirement('Prayer', 37, false),
     new LevelRequirement('Smithing', 34, false),
   ],
-  recommendedSkills: {
-    [Skill.Attack]: 40,
-    [Skill.Strength]: 40,
-    [Skill.Defence]: 40,
-    [Skill.Prayer]: 43,
-    [Skill.Magic]: 33,
-  },
-  series: 'Guild',
   rewards: {
     areas: ['Crandor', 'Corsair Cove Resource Area'],
     experience: [
       {
         amount: 18650,
-        skill: Skill.Strength,
+        skill: 'Strength',
       },
       {
         amount: 18650,
-        skill: Skill.Defence,
+        skill: 'Defence',
       },
     ],
     items: [],
@@ -151,9 +143,10 @@ const DragonSlayer: Quest = {
       },
     ],
   },
-  startLocation: "Champions' Guild, south of Varrock",
-
+  series: 'Guild',
   shortName: 'dragonSlayer',
+
+  startLocation: "Champions' Guild, south of Varrock",
   status: QuestStatus.NotStarted,
   steps: [
     "Speak to the Guildmaster in the Champions' Guild.",

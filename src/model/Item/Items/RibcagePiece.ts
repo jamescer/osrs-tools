@@ -1,23 +1,24 @@
 import { Item } from '../Item';
 
 export const RibcagePiece = {
+  drop_rate: '1/64',
+  dropped_by: ['Wallasalki'],
   examine: 'A slightly damaged ribcage.',
-  highalch: 36,
   ge_price: 17574,
+  highalch: 36,
+  location: ['Waterbirth Island Dungeon'],
   lowalch: 24,
   members: true,
+
   name: 'Ribcage piece',
+
   noteable: true,
+
   noted: false,
+
   // as of last update
   release_date: '1 August 2005',
-
-  drop_rate: '1/64',
-
   stackable: false,
-
-  dropped_by: ['Wallasalki'],
-  location: ['Waterbirth Island Dungeon'],
   tradeable: true,
   used_for: ['Skeletal top'],
   value: 60,

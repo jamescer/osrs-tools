@@ -1,9 +1,9 @@
-import { Skill } from '../../account/Skill';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const Contact: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Master,
 
   id: 0,
@@ -14,11 +14,8 @@ const Contact: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Contact!',
+  name: 'Contact!',
   // Quests: Prince Ali Rescue, Icthlarin's Little Helper
   questPoints: 1,
   recommendations: [
@@ -36,17 +33,16 @@ name: 'Contact!',
     { name: 'Desert robes', type: 'item' },
     { name: 'Waterskins', type: 'item' },
     { name: 'Ring of dueling or amulet of glory', type: 'item' },
-    { name: 'Coins', note: 'For Magic carpet transportation', type: 'item', quantity: 800 },
+    { name: 'Coins', note: 'For Magic carpet transportation', quantity: 800, type: 'item' },
     { name: 'Shantay pass', type: 'item' },
   ],
   recommendedPrayers: ['Protect from Melee', 'Protect from Magic', 'Protect from Missiles'],
-  requirements: [],
   recommendedSkills: {
     Agility: 50,
     Combat: 70,
     Thieving: 50,
   },
-  series: 'Desert',
+  requirements: [],
   rewards: {
     areas: ['Sophanem'],
     experience: [{ amount: 7000, skill: 'Thieving' }],
@@ -62,15 +58,16 @@ name: 'Contact!',
       },
     ],
     pets: [],
-    questPoints: 1,
     points: [],
+    questPoints: 1,
     unlocks: [
       { description: 'Access to Sophanem shops' },
       { description: 'Unlocks Giant scarab in Nightmare Zone' },
     ],
   },
-  startLocation: '',
+  series: 'Desert',
   shortName: 'contact',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Contact!',

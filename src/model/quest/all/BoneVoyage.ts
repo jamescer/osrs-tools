@@ -1,7 +1,9 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const BoneVoyage: Quest = {
+  age: '',
   description: '',
+
   difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
@@ -12,11 +14,8 @@ const BoneVoyage: Quest = {
 
   miniquest: false,
 
-  
-  age: '',
-  
   // Assign a unique ID if available
-name: 'Bone Voyage',
+  name: 'Bone Voyage',
   // Quests: The Dig Site
   questPoints: 1,
   recommendations: [
@@ -27,21 +26,21 @@ name: 'Bone Voyage',
     },
   ],
   recommendedPrayers: [],
-  requirements: [],
   recommendedSkills: {},
-  series: null,
+  requirements: [],
   rewards: {
     areas: ['Fossil Island'],
     experience: [],
     items: [{ name: 'Access to Fossil Island' }],
     lamps: [],
     pets: [],
-    questPoints: 1,
     points: [],
+    questPoints: 1,
     unlocks: [{ description: 'Ability to travel to Fossil Island' }],
   },
-  startLocation: '',
+  series: null,
   shortName: 'boneVoyage',
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Bone_Voyage',

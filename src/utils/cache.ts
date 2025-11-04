@@ -104,7 +104,7 @@ export class Cache<T> {
   keys(): string[] {
     const now = Date.now();
     return Array.from(this.store.entries())
-      .filter(([_, item]) => !item.expiresAt || item.expiresAt > now)
+      .filter(([, item]) => !item.expiresAt || item.expiresAt > now)
       .map(([key]) => key);
   }
 

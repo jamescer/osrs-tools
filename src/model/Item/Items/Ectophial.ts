@@ -1,11 +1,11 @@
 import { Item } from '../Item';
 
 const ectophialData = {
+  destroy: 'You can get another by talking to Velorina in Port Phasmatys.',
   equipable: false,
   examine: 'A glass vial containing ectoplasm.',
   id: 4251,
   members: true,
-  destroy: 'You can get another by talking to Velorina in Port Phasmatys.',
   name: 'Ectophial',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ectophial',

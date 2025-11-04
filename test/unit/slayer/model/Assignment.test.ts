@@ -15,5 +15,9 @@ describe('Assignment', () => {
     );
     expect(assignment.name).toBe('Aberrant Spectres');
     expect(assignment.requirements).toEqual(requirements);
+
+    expect(assignment.getName()).toBe('Aberrant Spectres');
+    expect(assignment.getQuantity()).toBe(10);
+
   });
 });

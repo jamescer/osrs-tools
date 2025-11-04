@@ -1,27 +1,27 @@
 import { Quest, QuestStatus } from '../../../src/model/quest/Quest';
-import { LevelRequirement, QuestRequirement } from '../../../src/model/Requirement';
 import { QuestDifficulty, QuestLength } from '../../../src/model/quest/types';
+import { LevelRequirement, QuestRequirement } from '../../../src/model/Requirement';
 
 export const simpleQuest: Quest = {
-  id: 1,
-  name: 'Simple Quest',
   description: 'A quest with no requirements.',
   difficulty: QuestDifficulty.Novice,
-  steps: [],
-  requirements: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'SimpleQuest',
-  url: '',
-  members: false,
-  questPoints: 1,
+  id: 1,
   length: QuestLength.Short,
+  members: false,
   age: 'Fifth',
-  startLocation: '',
+  miniquest: false,
+  name: 'Simple Quest',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
+  requirements: [],
   recommendedPrayers: [],
+  shortName: 'SimpleQuest',
+  recommendedSkills: {},
+  steps: [],
   rewards: { questPoints: 1 },
+  status: QuestStatus.NotStarted,
+  startLocation: '',
+  url: '',
 };
 
 export const skillQuest: Quest = {
@@ -54,9 +54,9 @@ export const recursiveQuest: Quest = {
 
 export const multiRequirementQuest: Quest = {
   ...simpleQuest,
+  difficulty: QuestDifficulty.Master,
   id: 6,
   name: 'Multi Requirement Quest',
-  difficulty: QuestDifficulty.Master,
   requirements: [
     new LevelRequirement('attack', 70, false),
     new LevelRequirement('defence', 70, false),

@@ -1,18 +1,18 @@
 import { Item } from '../Item';
 
 const bloodRuneData = {
-  id: 565,
-  name: 'Blood rune',
-  members: true,
-  tradeable: true,
-  stackable: true,
-  noted: false,
-  value: 400,
-  examine: 'Used for high level necromancy spells.',
   equipable: false,
-  weight: 0.002,
-  questItem: false,
+  examine: 'Used for high level necromancy spells.',
+  id: 565,
+  members: true,
+  name: 'Blood rune',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Blood_rune',
+  questItem: false,
+  stackable: true,
+  tradeable: true,
+  value: 400,
+  weight: 0.002,
 };
 
 export const BloodRune = Item.fromJson(bloodRuneData);

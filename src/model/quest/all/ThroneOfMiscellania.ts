@@ -1,14 +1,20 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const ThroneOfMiscellania: Quest = {
-  id: 0,
-  name: 'Throne of Miscellania',
-  members: true,
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  age: '',
+  name: 'Throne of Miscellania',
+  questPoints: 1,
+  recommendations: [],
+  recommendedPrayers: [],
   requirements: [
     new QuestRequirement("Heroes' Quest"),
     new QuestRequirement('The Fremennik Trials'),
@@ -16,30 +22,24 @@ const ThroneOfMiscellania: Quest = {
     new LevelRequirement('Mining', 30, false),
     new LevelRequirement('Fishing', 30, false),
   ],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'throneOfMiscellania',
-  url: 'https://oldschool.runescape.wiki/w/Throne_of_Miscellania',
-  series: null,
-  age: '',
-
-  recommendations: [],
   recommendedSkills: {},
-  recommendedPrayers: [],
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'throneOfMiscellania',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Throne_of_Miscellania',
 };
 
 export default ThroneOfMiscellania;

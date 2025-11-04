@@ -1,43 +1,43 @@
-import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const MyArmsBigAdventure: Quest = {
-  id: 0,
-  name: "My Arm's Big Adventure",
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Medium,
-  requirements: [new QuestRequirement("Eadgar's Ruse"), new LevelRequirement('Farming', 29, false)],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Experienced,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
   miniquest: false,
-  shortName: 'myArmsBigAdventure',
-  url: 'https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure',
-  series: 'Troll',
   age: '',
-
+  name: "My Arm's Big Adventure",
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new QuestRequirement("Eadgar's Ruse"), new LevelRequirement('Farming', 29, false)],
+  recommendedSkills: {},
+  series: 'Troll',
   rewards: {
-    experience: [
-      { skill: Skill.Agility, amount: 10000 },
-      { skill: Skill.Farming, amount: 5000 },
-      { skill: Skill.Woodcutting, amount: 10000 },
-    ],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 10000, skill: Skill.Agility },
+      { amount: 5000, skill: Skill.Farming },
+      { amount: 10000, skill: Skill.Woodcutting },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'myArmsBigAdventure',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure',
 };
 
 export default MyArmsBigAdventure;

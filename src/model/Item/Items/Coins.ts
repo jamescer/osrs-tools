@@ -1,14 +1,14 @@
 import { Item } from '../Item';
 
 export const coins2 = {
-  id: 995,
-  name: 'Coins',
-  members: false,
-  tradeable: true,
-  stackable: true,
-  noted: false,
-  value: 1,
   examine: 'Lovely money!',
+  id: 995,
+  members: false,
+  name: 'Coins',
+  noted: false,
+  stackable: true,
+  tradeable: true,
+  value: 1,
 };
 
 export const Coins = Item.fromJson(coins2);

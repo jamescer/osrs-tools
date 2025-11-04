@@ -1,4 +1,4 @@
 export const SkeletalTop = {
-  name: 'Skeletal top',
   members: true,
+  name: 'Skeletal top',
 };

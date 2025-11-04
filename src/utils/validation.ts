@@ -17,9 +17,9 @@ export function validateSkillLevel(level: number, skillName: string): void {
 
   if (level < 1 || level > 99) {
     throw new ValidationError('level', level, 'Skill level must be between 1 and 99', {
-      skillName,
-      min: 1,
       max: 99,
+      min: 1,
+      skillName,
     });
   }
 }
@@ -70,8 +70,8 @@ export function validateCombatLevel(level: number): void {
 
   if (level < 3 || level > 126) {
     throw new ValidationError('combatLevel', level, 'Combat level must be between 3 and 126', {
-      min: 3,
       max: 126,
+      min: 3,
     });
   }
 }
@@ -121,16 +121,16 @@ export function validateExperience(xp: number, skillName: string): void {
 
   if (xp < 0) {
     throw new ValidationError('experience', xp, 'Experience cannot be negative', {
-      skillName,
       min: 0,
+      skillName,
     });
   }
 
   const MAX_XP = 200_000_000;
   if (xp > MAX_XP) {
     throw new ValidationError('experience', xp, `Experience cannot exceed ${MAX_XP}`, {
-      skillName,
       max: MAX_XP,
+      skillName,
     });
   }
 }

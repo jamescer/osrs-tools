@@ -1,30 +1,36 @@
 import { Item } from '../Item';
 
 const blackAxeData = {
-  id: 1361,
-  name: 'Black axe',
-  members: true,
-  tradeable: true,
-  stackable: false,
-  noted: false,
-  value: 180,
-  examine: 'A sinister looking axe.',
   equipable: true,
-  weight: 1.814,
-  questItem: false,
-  // Combat stats
-  attackStab: -2,
+  examine: 'A sinister looking axe.',
+  id: 1361,
+  members: true,
   attackSlash: 4,
+  name: 'Black axe',
   attackCrush: 3,
+  noted: false,
   attackMagic: 0,
+  questItem: false,
   attackRanged: 0,
-  defenceStab: 0,
-  defenceSlash: 1,
+
+  stackable: false,
+
+  // Combat stats
+attackStab: -2,
+
+  
+  tradeable: true,
+
   defenceCrush: 0,
+
+  value: 180,
   defenceMagic: 0,
   defenceRanged: 0,
-  strengthBonus: 5,
+  weight: 1.814,
+  defenceSlash: 1,
+  defenceStab: 0,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_axe',
+  strengthBonus: 5,
 };
 
 export const BlackAxe = Item.fromJson(blackAxeData);

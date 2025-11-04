@@ -1,39 +1,39 @@
-import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const JunglePotion: Quest = {
-  id: 0,
-  name: 'Jungle Potion',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [new LevelRequirement('Herblore', 3, false)],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
   miniquest: false,
-  shortName: 'junglePotion',
-  url: 'https://oldschool.runescape.wiki/w/Jungle_Potion',
-  series: 'Karamja',
   age: '',
-
+  name: 'Jungle Potion',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new LevelRequirement('Herblore', 3, false)],
+  recommendedSkills: {},
+  series: 'Karamja',
   rewards: {
-    experience: [{ skill: Skill.Herblore, amount: 775 }],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 775, skill: Skill.Herblore }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'junglePotion',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Jungle_Potion',
 };
 
 export default JunglePotion;

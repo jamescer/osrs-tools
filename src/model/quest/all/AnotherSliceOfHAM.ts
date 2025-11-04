@@ -1,40 +1,49 @@
-import { Quest, QuestStatus } from '../Quest';
 import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const AnotherSliceOfHAM: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Another Slice of H.A.M.',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Medium,
-  requirements: [], // Quests: Death to the Dorgeshuun, The Giant Dwarf, The Dig Site, Druidic Ritual. Skills: Attack 15, Prayer 25
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'anotherSliceOfHAM',
-  url: 'https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.',
-  series: 'Dorgeshuun (#4)',
-  age: '',
+  difficulty: QuestDifficulty.Intermediate,
 
+  id: 0,
+
+  length: QuestLength.Medium,
+
+  members: true,
+
+  miniquest: false,
+
+  
+  age: '',
+  
+  // Assign a unique ID if available
+name: 'Another Slice of H.A.M.',
+  // Quests: Death to the Dorgeshuun, The Giant Dwarf, The Dig Site, Druidic Ritual. Skills: Attack 15, Prayer 25
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: 'Dorgeshuun (#4)',
   rewards: {
-    experience: [
-      { skill: 'Mining', amount: 3000 },
-      { skill: 'Prayer', amount: 3000 },
-    ],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 3000, skill: 'Mining' },
+      { amount: 3000, skill: 'Prayer' },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'anotherSliceOfHAM',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.',
 };
 
 export default AnotherSliceOfHAM;

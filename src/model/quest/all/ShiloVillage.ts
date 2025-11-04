@@ -1,42 +1,42 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const ShiloVillage: Quest = {
-  id: 0,
-  name: 'Shilo Village',
-  members: true,
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Long,
+  members: true,
+  miniquest: false,
+  age: '',
+  name: 'Shilo Village',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
   requirements: [
     new QuestRequirement('Jungle Potion'),
     new LevelRequirement('Crafting', 20, false),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'shiloVillage',
-  url: 'https://oldschool.runescape.wiki/w/Shilo_Village',
-  series: 'Karamja',
-  age: '',
-
-  recommendations: [],
   recommendedSkills: {},
-  recommendedPrayers: [],
+  series: 'Karamja',
   rewards: {
-    experience: [],
-    questPoints: 3,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 3,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'shiloVillage',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Shilo_Village',
 };
 
 export default ShiloVillage;

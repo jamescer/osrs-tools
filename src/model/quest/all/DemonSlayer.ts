@@ -1,38 +1,44 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const DemonSlayer: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Demon Slayer',
-  members: false,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Medium,
-  requirements: [],
-  questPoints: 3,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'demonSlayer',
-  url: 'https://oldschool.runescape.wiki/w/Demon_Slayer',
-  series: null,
-  age: '',
+  difficulty: QuestDifficulty.Novice,
 
+  id: 0,
+
+  length: QuestLength.Medium,
+
+  members: false,
+
+  miniquest: false,
+  
+  age: '',
+  // Assign a unique ID if available
+name: 'Demon Slayer',
+  questPoints: 3,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 3,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 3,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'demonSlayer',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Demon_Slayer',
 };
 
 export default DemonSlayer;

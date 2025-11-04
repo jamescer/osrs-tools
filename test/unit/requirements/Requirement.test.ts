@@ -1,13 +1,14 @@
 // Test file for all requirement types
 import {
+  CombatLevelRequirement,
+  ItemRequirement,
+  LocationRequirement,
+  QuestPointRequirement,
+  QuestRequirement,
   Requirement,
   RequirementType,
-  ItemRequirement,
-  QuestRequirement,
-  CombatLevelRequirement,LocationRequirement,
-  SlayerUnlockRequirement,
   SlayerLevelRequirement,
-  QuestPointRequirement,
+  SlayerUnlockRequirement,
 } from '../../../src/model/Requirement';
 
 describe('Requirement', () => {
@@ -58,14 +59,10 @@ describe('Requirement', () => {
     expect(req.type).toBe(RequirementType.QuestPoint);
     expect(req.description).toBe('Quest Points Needed: 135');
   });
-    // LocationRequirement
+  // LocationRequirement
   it('should create a LocationRequirement ', () => {
     const req = new LocationRequirement('Yanille');
     expect(req.type).toBe(RequirementType.Location);
     expect(req.description).toBe('Access to location: Yanille');
   });
-  
-  
-   
-  
 });

@@ -1,46 +1,46 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const GrimTales: Quest = {
-  id: 0,
-  name: 'Grim Tales',
-  members: true,
-  difficulty: QuestDifficulty.Master,
-  length: QuestLength.Medium,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Master,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
   miniquest: false,
-  shortName: 'grimTales',
-  url: 'https://oldschool.runescape.wiki/w/Grim_Tales',
-  series: null,
   age: '',
-
+  name: 'Grim Tales',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [
-      { skill: Skill.Agility, amount: 6000 },
-      { skill: Skill.Farming, amount: 4000 },
-      { skill: Skill.Herblore, amount: 5000 },
-      { skill: Skill.Hitpoints, amount: 5000 },
-      { skill: Skill.Thieving, amount: 6000 },
-      { skill: Skill.Woodcutting, amount: 14000 },
-    ],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 6000, skill: Skill.Agility },
+      { amount: 4000, skill: Skill.Farming },
+      { amount: 5000, skill: Skill.Herblore },
+      { amount: 5000, skill: Skill.Hitpoints },
+      { amount: 6000, skill: Skill.Thieving },
+      { amount: 14000, skill: Skill.Woodcutting },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'grimTales',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Grim_Tales',
 };
 
 export default GrimTales;

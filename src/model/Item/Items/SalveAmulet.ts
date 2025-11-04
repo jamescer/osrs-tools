@@ -1,30 +1,36 @@
 import { Item } from '../Item';
 
 const salveAmuletData = {
-  id: 4081,
-  name: 'Salve amulet',
-  members: true,
-  tradeable: false,
-  stackable: false,
-  noted: false,
-  value: 1,
-  examine: 'Provides combat bonuses against undead monsters.',
   equipable: true,
-  weight: 0.01,
-  questItem: false,
-  // Combat stats
-  attackStab: 0,
+  examine: 'Provides combat bonuses against undead monsters.',
+  id: 4081,
+  members: true,
   attackSlash: 0,
+  name: 'Salve amulet',
   attackCrush: 0,
+  noted: false,
   attackMagic: 0,
+  questItem: false,
   attackRanged: 0,
-  defenceStab: 3,
-  defenceSlash: 3,
+
+  stackable: false,
+
+  // Combat stats
+attackStab: 0,
+
+  
+  tradeable: false,
+
   defenceCrush: 3,
+
+  value: 1,
   defenceMagic: 3,
   defenceRanged: 3,
-  prayerBonus: 0,
+  weight: 0.01,
+  defenceSlash: 3,
+  defenceStab: 3,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Salve_amulet',
+  prayerBonus: 0,
 };
 
 export const SalveAmulet = Item.fromJson(salveAmuletData);

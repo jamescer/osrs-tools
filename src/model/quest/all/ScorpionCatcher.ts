@@ -1,37 +1,37 @@
-import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const ScorpionCatcher: Quest = {
-  id: 0,
-  name: 'Scorpion Catcher',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Medium,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
   miniquest: false,
-  shortName: 'scorpionCatcher',
-  url: 'https://oldschool.runescape.wiki/w/Scorpion_Catcher',
-  series: null,
   age: '',
-
+  name: 'Scorpion Catcher',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'scorpionCatcher',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Scorpion_Catcher',
 };
 
 export default ScorpionCatcher;

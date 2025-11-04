@@ -1,12 +1,18 @@
-import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const RecipeForDisaster: Quest = {
-  id: 0,
-  name: 'Recipe for Disaster',
-  members: true,
+  description: '',
   difficulty: QuestDifficulty.Master,
+  id: 0,
   length: QuestLength.VeryLong,
+  members: true,
+  miniquest: false,
+  age: '',
+  name: 'Recipe for Disaster',
+  questPoints: 10,
+  recommendations: [],
+  recommendedPrayers: [],
   requirements: [
     new QuestRequirement("Cook's Assistant"),
     new QuestRequirement('Fishing Contest'),
@@ -30,29 +36,23 @@ const RecipeForDisaster: Quest = {
     new QuestRequirement('Underground Pass'),
     new QuestRequirement('Waterfall Quest'),
   ],
-  questPoints: 10,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'recipeForDisaster',
-  url: 'https://oldschool.runescape.wiki/w/Recipe_for_Disaster',
-  series: null,
-  age: '',
-  recommendations: [],
   recommendedSkills: {},
-  recommendedPrayers: [],
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+  shortName: 'recipeForDisaster',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Recipe_for_Disaster',
 };
 
 export default RecipeForDisaster;

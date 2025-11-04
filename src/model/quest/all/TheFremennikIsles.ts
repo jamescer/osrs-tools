@@ -1,43 +1,43 @@
-import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheFremennikIsles: Quest = {
-  id: 0,
-  name: 'The Fremennik Isles',
-  members: true,
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  age: '',
+  name: 'The Fremennik Isles',
+  questPoints: 1,
+  recommendations: [],
+  recommendedPrayers: [],
   requirements: [
     new LevelRequirement('Construction', 20, false),
     new LevelRequirement('Agility', 40, false),
     new LevelRequirement('Woodcutting', 56, false),
   ],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'theFremennikIsles',
-  url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Isles',
-  series: 'Fremennik',
-  age: '',
-
-  recommendations: [],
   recommendedSkills: {},
-  recommendedPrayers: [],
+  series: 'Fremennik',
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'theFremennikIsles',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Isles',
 };
 
 export default TheFremennikIsles;

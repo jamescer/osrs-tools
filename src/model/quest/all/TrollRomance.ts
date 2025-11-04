@@ -1,39 +1,39 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TrollRomance: Quest = {
-  id: 0,
-  name: 'Troll Romance',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Medium,
-  requirements: [new QuestRequirement('Death Plateau'), new LevelRequirement('Agility', 28, false)],
-  questPoints: 2,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
   miniquest: false,
-  shortName: 'trollRomance',
-  url: 'https://oldschool.runescape.wiki/w/Troll_Romance',
-  series: 'Troll',
   age: '',
-
+  name: 'Troll Romance',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new QuestRequirement('Death Plateau'), new LevelRequirement('Agility', 28, false)],
+  recommendedSkills: {},
+  series: 'Troll',
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'trollRomance',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Troll_Romance',
 };
 
 export default TrollRomance;

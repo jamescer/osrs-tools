@@ -1,14 +1,20 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheGreatBrainRobbery: Quest = {
-  id: 0,
-  name: 'The Great Brain Robbery',
-  members: true,
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  age: '',
+  name: 'The Great Brain Robbery',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
   requirements: [
     new QuestRequirement('Cabin Fever'),
     new LevelRequirement('Crafting', 16, false),
@@ -16,30 +22,24 @@ const TheGreatBrainRobbery: Quest = {
     new LevelRequirement('Prayer', 50, false),
     new LevelRequirement('Slayer', 30, false),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'theGreatBrainRobbery',
-  url: 'https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery',
-  series: 'Pirate',
-  age: '',
-
-  recommendations: [],
   recommendedSkills: {},
-  recommendedPrayers: [],
+  series: 'Pirate',
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'theGreatBrainRobbery',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery',
 };
 
 export default TheGreatBrainRobbery;

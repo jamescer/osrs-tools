@@ -1,41 +1,50 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const DeathToTheDorgeshuun: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Death to the Dorgeshuun',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Medium,
-  requirements: [], // Quests: The Lost Tribe. Skills: Agility 23, Thieving 23
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'deathToTheDorgeshuun',
-  url: 'https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun',
-  series: 'Dorgeshuun',
-  age: '',
+  difficulty: QuestDifficulty.Intermediate,
 
+  id: 0,
+
+  length: QuestLength.Medium,
+
+  members: true,
+
+  miniquest: false,
+
+  
+  age: '',
+  
+  // Assign a unique ID if available
+name: 'Death to the Dorgeshuun',
+  // Quests: The Lost Tribe. Skills: Agility 23, Thieving 23
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: 'Dorgeshuun',
   rewards: {
-    experience: [
-      { skill: Skill.Ranged, amount: 2000 },
-      { skill: Skill.Thieving, amount: 2000 },
-    ],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 2000, skill: Skill.Ranged },
+      { amount: 2000, skill: Skill.Thieving },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'deathToTheDorgeshuun',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun',
 };
 
 export default DeathToTheDorgeshuun;

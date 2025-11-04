@@ -1,19 +1,25 @@
-import { Quest, QuestStatus } from '../Quest';
+import { Skill } from '../../account/Skill';
 import {
   LevelRequirement,
   QuestPointRequirement,
   QuestRequirement,
   Requirement,
 } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const HeroesQuest: Quest = {
-  id: 0,
-  name: "Heroes' Quest",
-  members: true,
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Long,
+  members: true,
+  miniquest: false,
+  age: '',
+  name: "Heroes' Quest",
+  questPoints: 1,
+  recommendations: [],
+  recommendedPrayers: [],
   requirements: [
     new QuestRequirement('Shield of Arrav'),
     new QuestRequirement('Lost City'),
@@ -22,43 +28,37 @@ const HeroesQuest: Quest = {
     new QuestRequirement('Druidic Ritual'),
     new QuestPointRequirement(55),
   ],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'heroesQuest',
-  url: 'https://oldschool.runescape.wiki/w/Heroes%27_Quest',
-  series: 'Guild',
-  age: '',
-
-  recommendations: [],
   recommendedSkills: {},
-  recommendedPrayers: [],
+  series: 'Guild',
   rewards: {
-    experience: [
-      { skill: Skill.Attack, amount: 3075 },
-      { skill: Skill.Cooking, amount: 2825 },
-      { skill: Skill.Defence, amount: 3075 },
-      { skill: Skill.Firemaking, amount: 1575 },
-      { skill: Skill.Fishing, amount: 2725 },
-      { skill: Skill.Herblore, amount: 1325 },
-      { skill: Skill.Hitpoints, amount: 3075 },
-      { skill: Skill.Mining, amount: 2575 },
-      { skill: Skill.Ranged, amount: 2075 },
-      { skill: Skill.Smithing, amount: 2257 },
-      { skill: Skill.Strength, amount: 3075 },
-      { skill: Skill.Woodcutting, amount: 1575 },
-    ],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 3075, skill: Skill.Attack },
+      { amount: 2825, skill: Skill.Cooking },
+      { amount: 3075, skill: Skill.Defence },
+      { amount: 1575, skill: Skill.Firemaking },
+      { amount: 2725, skill: Skill.Fishing },
+      { amount: 1325, skill: Skill.Herblore },
+      { amount: 3075, skill: Skill.Hitpoints },
+      { amount: 2575, skill: Skill.Mining },
+      { amount: 2075, skill: Skill.Ranged },
+      { amount: 2257, skill: Skill.Smithing },
+      { amount: 3075, skill: Skill.Strength },
+      { amount: 1575, skill: Skill.Woodcutting },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'heroesQuest',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Heroes%27_Quest',
 };
 
 export default HeroesQuest;

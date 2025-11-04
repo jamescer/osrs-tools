@@ -1,32 +1,38 @@
 import { Item } from '../Item';
 
 const fairyRingStaffData = {
-  id: 13431,
-  name: 'Lunar staff',
-  members: true,
-  tradeable: false,
-  stackable: false,
-  noted: false,
-  value: 30000,
-  examine: 'A staff made on the Lunar Isle.',
   equipable: true,
-  weight: 2.267,
-  questItem: false,
-  // Combat stats
-  attackStab: 2,
+  examine: 'A staff made on the Lunar Isle.',
+  id: 13431,
+  members: true,
   attackSlash: -1,
+  name: 'Lunar staff',
   attackCrush: 5,
+  noted: false,
   attackMagic: 8,
+  questItem: false,
   attackRanged: 0,
-  defenceStab: 2,
-  defenceSlash: 3,
+
+  stackable: false,
+
+  // Combat stats
+attackStab: 2,
+
+  
+  tradeable: false,
+
   defenceCrush: 2,
+
+  value: 30000,
   defenceMagic: 8,
   defenceRanged: 0,
-  strengthBonus: 5,
+  weight: 2.267,
+  defenceSlash: 3,
+  defenceStab: 2,
   magicDamage: 0,
-  prayerBonus: 1,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Lunar_staff',
+  prayerBonus: 1,
+  strengthBonus: 5,
 };
 
 export const LunarStaff = Item.fromJson(fairyRingStaffData);

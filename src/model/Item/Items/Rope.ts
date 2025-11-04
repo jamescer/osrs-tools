@@ -1,18 +1,18 @@
 import { Item } from '../Item';
 
 const ropeData = {
-  id: 954,
-  name: 'Rope',
-  members: false,
-  tradeable: true,
-  stackable: false,
-  noted: false,
-  value: 15,
-  examine: 'A sturdy rope with many uses.',
   equipable: false,
-  weight: 0.3,
-  questItem: false,
+  examine: 'A sturdy rope with many uses.',
+  id: 954,
+  members: false,
+  name: 'Rope',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Rope',
+  questItem: false,
+  stackable: false,
+  tradeable: true,
+  value: 15,
+  weight: 0.3,
 };
 
 export const Rope = Item.fromJson(ropeData);

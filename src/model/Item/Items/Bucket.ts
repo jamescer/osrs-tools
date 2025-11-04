@@ -1,18 +1,18 @@
 import { Item } from '../Item';
 
 const bucketData = {
-  id: 1925,
-  name: 'Bucket',
-  members: false,
-  tradeable: true,
-  stackable: false,
-  noted: false,
-  value: 2,
-  examine: 'A wooden bucket.',
   equipable: false,
-  weight: 1,
-  questItem: false,
+  examine: 'A wooden bucket.',
+  id: 1925,
+  members: false,
+  name: 'Bucket',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Bucket',
+  questItem: false,
+  stackable: false,
+  tradeable: true,
+  value: 2,
+  weight: 1,
 };
 
 export const Bucket = Item.fromJson(bucketData);

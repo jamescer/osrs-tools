@@ -1,38 +1,47 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const EaglesPeak: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: "Eagles' Peak",
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Medium,
-  requirements: [], // Skill: Hunter 27
-  questPoints: 2,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'eaglesPeak',
-  url: 'https://oldschool.runescape.wiki/w/Eagles%27_Peak',
-  series: null,
-  age: '',
+  difficulty: QuestDifficulty.Novice,
 
+  id: 0,
+
+  length: QuestLength.Medium,
+
+  members: true,
+
+  miniquest: false,
+
+  
+  age: '',
+  
+  // Assign a unique ID if available
+name: "Eagles' Peak",
+  // Skill: Hunter 27
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [{ skill: Skill.Hunter, amount: 2500 }],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 2500, skill: Skill.Hunter }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'eaglesPeak',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Eagles%27_Peak',
 };
 
 export default EaglesPeak;

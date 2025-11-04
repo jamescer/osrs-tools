@@ -1,38 +1,38 @@
-import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const RagAndBoneMan: Quest = {
-  id: 0,
-  name: 'Rag and Bone Man',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
   miniquest: false,
-  shortName: 'ragAndBoneMan',
-  url: 'https://oldschool.runescape.wiki/w/Rag_and_Bone_Man',
-  series: null,
   age: '',
-
+  name: 'Rag and Bone Man',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'ragAndBoneMan',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Rag_and_Bone_Man',
 };
 
 export default RagAndBoneMan;

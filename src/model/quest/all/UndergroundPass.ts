@@ -1,37 +1,37 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const UndergroundPass: Quest = {
-  id: 0,
-  name: 'Underground Pass',
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Long,
-  requirements: [new QuestRequirement('Biohazard'), new LevelRequirement('Ranged', 25, false)],
-  questPoints: 5,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Experienced,
+  id: 0,
+  length: QuestLength.Long,
+  members: true,
   miniquest: false,
-  shortName: 'undergroundPass',
-  url: 'https://oldschool.runescape.wiki/w/Underground_Pass',
-  series: 'Elf',
   age: '',
-
+  name: 'Underground Pass',
+  questPoints: 5,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new QuestRequirement('Biohazard'), new LevelRequirement('Ranged', 25, false)],
+  recommendedSkills: {},
+  series: 'Elf',
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'undergroundPass',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Underground_Pass',
 };
 
 export default UndergroundPass;

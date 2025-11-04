@@ -1,38 +1,38 @@
-import { Quest, QuestStatus } from '../Quest';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheFremennikTrials: Quest = {
-  id: 0,
-  name: 'The Fremennik Trials',
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Long,
-  requirements: [],
-  questPoints: 3,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Experienced,
+  id: 0,
+  length: QuestLength.Long,
+  members: true,
   miniquest: false,
-  shortName: 'theFremennikTrials',
-  url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Trials',
-  series: 'Fremennik',
   age: '',
-
+  name: 'The Fremennik Trials',
+  questPoints: 3,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: 'Fremennik',
   rewards: {
-    experience: [],
-    questPoints: 3,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 3,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'theFremennikTrials',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Trials',
 };
 
 export default TheFremennikTrials;

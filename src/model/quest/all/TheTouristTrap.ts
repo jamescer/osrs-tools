@@ -1,42 +1,42 @@
-import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheTouristTrap: Quest = {
-  id: 0,
-  name: 'The Tourist Trap',
-  members: true,
+  description: '',
   difficulty: QuestDifficulty.Intermediate,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  age: '',
+  name: 'The Tourist Trap',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
   requirements: [
     new LevelRequirement('Smithing', 10, false),
     new LevelRequirement('Thieving', 20, false),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'theTouristTrap',
-  url: 'https://oldschool.runescape.wiki/w/The_Tourist_Trap',
-  series: null,
-  age: '',
-
-  recommendations: [],
   recommendedSkills: {},
-  recommendedPrayers: [],
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'theTouristTrap',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/The_Tourist_Trap',
 };
 
 export default TheTouristTrap;

@@ -1,51 +1,51 @@
-import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, RequirementType } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, RequirementType } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const agilityRequirement: LevelRequirement = {
-  skillName: 'agility',
-  level: 35,
   boostable: true,
-  type: RequirementType.Level,
   description: '',
+  level: 35,
+  skillName: 'agility',
+  type: RequirementType.Level,
 };
 
 const HorrorFromTheDeep: Quest = {
-  id: 0,
-  name: 'Horror from the Deep',
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Short,
-  requirements: [agilityRequirement],
-  questPoints: 2,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Experienced,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
   miniquest: false,
-  shortName: 'horrorFromTheDeep',
-  url: 'https://oldschool.runescape.wiki/w/Horror_from_the_Deep',
-  series: 'Fremennik',
   age: '',
-
+  name: 'Horror from the Deep',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [agilityRequirement],
+  recommendedSkills: {},
+  series: 'Fremennik',
   rewards: {
-    experience: [
-      { skill: Skill.Magic, amount: 4662 },
-      { skill: Skill.Ranged, amount: 4662.5 },
-      { skill: Skill.Strength, amount: 4662.5 },
-    ],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 4662, skill: Skill.Magic },
+      { amount: 4662.5, skill: Skill.Ranged },
+      { amount: 4662.5, skill: Skill.Strength },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'horrorFromTheDeep',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Horror_from_the_Deep',
 };
 
 export default HorrorFromTheDeep;

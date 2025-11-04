@@ -1,38 +1,38 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const GardenOfTranquillity: Quest = {
-  id: 0,
-  name: 'Garden of Tranquillity',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.VeryLong,
-  requirements: [],
-  questPoints: 2,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.VeryLong,
+  members: true,
   miniquest: false,
-  shortName: 'gardenOfTranquillity',
-  url: 'https://oldschool.runescape.wiki/w/Garden_of_Tranquillity',
-  series: null,
   age: '',
-
+  name: 'Garden of Tranquillity',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'gardenOfTranquillity',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Garden_of_Tranquillity',
 };
 
 export default GardenOfTranquillity;

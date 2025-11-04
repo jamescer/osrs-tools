@@ -1,45 +1,45 @@
-import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement, Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const InSearchOfTheMyreque: Quest = {
-  id: 0,
-  name: 'In Search of the Myreque',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Short,
-  requirements: [new QuestRequirement('Nature Spirit'), new LevelRequirement('Agility', 25, false)],
-  questPoints: 2,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
   miniquest: false,
-  shortName: 'inSearchOfTheMyreque',
-  url: 'https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque',
-  series: 'Myreque',
   age: '',
-
+  name: 'In Search of the Myreque',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new QuestRequirement('Nature Spirit'), new LevelRequirement('Agility', 25, false)],
+  recommendedSkills: {},
+  series: 'Myreque',
   rewards: {
-    experience: [
-      { skill: Skill.Attack, amount: 600 },
-      { skill: Skill.Crafting, amount: 600 },
-      { skill: Skill.Defence, amount: 600 },
-      { skill: Skill.Hitpoints, amount: 600 },
-      { skill: Skill.Strength, amount: 600 },
-    ],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 600, skill: Skill.Attack },
+      { amount: 600, skill: Skill.Crafting },
+      { amount: 600, skill: Skill.Defence },
+      { amount: 600, skill: Skill.Hitpoints },
+      { amount: 600, skill: Skill.Strength },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'inSearchOfTheMyreque',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque',
 };
 
 export default InSearchOfTheMyreque;

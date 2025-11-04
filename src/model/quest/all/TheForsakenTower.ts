@@ -1,39 +1,48 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheForsakenTower: Quest = {
-  id: 0,
-  name: 'The Forsaken Tower',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [new QuestRequirement('Client of Kourend')],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
   miniquest: false,
-  shortName: 'theForsakenTower',
-  url: 'https://oldschool.runescape.wiki/w/The_Forsaken_Tower',
-  series: 'Great Kourend',
   age: '',
-
+  name: 'The Forsaken Tower',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new QuestRequirement('Client of Kourend')],
+  recommendedSkills: {},
+  series: 'Great Kourend',
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 500, skill: Skill.Mining },
+      { amount: 500, skill: Skill.Smithing },
+    ],
+    items: [{ name: '6,000 coins', quantity: 6000 }],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [
+      { description: 'Free use of the Lovakengj Minecart Network' },
+      {
+        description:
+          "A page for Kharedst's memoirs, 'Jewellery of jubilation.' It teleports players north-east of the bank in Lovakengj.",
+      },
+      { description: 'Ability to recolour the graceful outfit to the colours of Lovakengj.' },
+    ],
   },
+  startLocation: '',
+  shortName: 'theForsakenTower',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/The_Forsaken_Tower',
 };
 
 export default TheForsakenTower;

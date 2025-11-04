@@ -1,30 +1,37 @@
 import { Item } from '../Item';
 
 const ghostspeakAmuletData = {
-  id: 552,
-  name: 'Ghostspeak amulet',
-  members: true,
-  tradeable: false,
-  stackable: false,
-  noted: false,
-  value: 1,
-  examine: 'A magical amulet that allows the wearer to talk to ghosts.',
   equipable: true,
-  weight: 0.01,
-  questItem: true,
+  examine: 'A magical amulet that allows the wearer to talk to ghosts.',
+  id: 552,
+  members: true,
   destroy: 'You can get another from Father Urhney in the Lumbridge Swamp.',
-  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ghostspeak_amulet',
+  name: 'Ghostspeak amulet',
   // Equipment bonuses
-  defenceStab: 0,
-  defenceSlash: 0,
+defenceStab: 0,
+  
+noted: false,
+
+  questItem: true,
+
   defenceCrush: 0,
+
+  stackable: false,
+
   defenceMagic: 0,
-  defenceRanged: 0,
+
   attackStab: 0,
-  attackSlash: 0,
+
+  tradeable: false,
   attackCrush: 0,
   attackMagic: 0,
+  value: 1,
   attackRanged: 0,
+  attackSlash: 0,
+  weight: 0.01,
+  defenceRanged: 0,
+  defenceSlash: 0,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ghostspeak_amulet',
   prayerBonus: 0,
 };
 

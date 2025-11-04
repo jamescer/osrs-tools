@@ -1,38 +1,47 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const EadgarsRuse: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: "Eadgar's Ruse",
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Long,
-  requirements: [], // Quests: Druidic Ritual, Troll Stronghold. Skills: Herblore 31, Agility 44
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'eadgarsRuse',
-  url: 'https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse',
-  series: 'Troll',
-  age: '',
+  difficulty: QuestDifficulty.Experienced,
 
+  id: 0,
+
+  length: QuestLength.Long,
+
+  members: true,
+
+  miniquest: false,
+
+  
+  age: '',
+  
+  // Assign a unique ID if available
+name: "Eadgar's Ruse",
+  // Quests: Druidic Ritual, Troll Stronghold. Skills: Herblore 31, Agility 44
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: 'Troll',
   rewards: {
-    experience: [{ skill: Skill.Herblore, amount: 11000 }],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 11000, skill: Skill.Herblore }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'eadgarsRuse',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse',
 };
 
 export default EadgarsRuse;

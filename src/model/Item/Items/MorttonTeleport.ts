@@ -1,18 +1,18 @@
 import { Item } from '../Item';
 
 const morttonTeleportData = {
-  id: 12406,
-  name: 'Mortton teleport',
-  members: true,
-  tradeable: true,
-  stackable: true,
-  noted: false,
-  value: 3405,
-  examine: "A scroll that teleports you to Mort'ton.",
   equipable: false,
-  weight: 0.006,
-  questItem: false,
+  examine: "A scroll that teleports you to Mort'ton.",
+  id: 12406,
+  members: true,
+  name: 'Mortton teleport',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Mortton_teleport',
+  questItem: false,
+  stackable: true,
+  tradeable: true,
+  value: 3405,
+  weight: 0.006,
 };
 
 export const MorttonTeleport = Item.fromJson(morttonTeleportData);

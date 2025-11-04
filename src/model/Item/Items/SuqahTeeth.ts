@@ -1,18 +1,18 @@
 import { Item } from '../Item';
 
 const suqahTeethData = {
-  id: 9079,
-  name: 'Suqah teeth',
-  members: true,
-  tradeable: false,
-  stackable: true,
-  noted: false,
-  value: 3,
-  examine: 'Sharp teeth from a Suqah.',
   equipable: false,
-  weight: 0,
-  questItem: false,
+  examine: 'Sharp teeth from a Suqah.',
+  id: 9079,
+  members: true,
+  name: 'Suqah teeth',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Suqah_teeth',
+  questItem: false,
+  stackable: true,
+  tradeable: false,
+  value: 3,
+  weight: 0,
 };
 
 export const SuqahTeeth = Item.fromJson(suqahTeethData);

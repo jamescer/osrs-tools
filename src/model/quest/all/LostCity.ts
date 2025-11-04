@@ -1,39 +1,39 @@
-import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const LostCity: Quest = {
-  id: 0,
-  name: 'Lost City',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Medium,
-  requirements: [new LevelRequirement('Woodcutting', 36, false)],
-  questPoints: 3,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
   miniquest: false,
-  shortName: 'lostCity',
-  url: 'https://oldschool.runescape.wiki/w/Lost_City',
-  series: null,
   age: '',
-
+  name: 'Lost City',
+  questPoints: 3,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new LevelRequirement('Woodcutting', 36, false)],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 3,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 3,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'lostCity',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Lost_City',
 };
 
 export default LostCity;

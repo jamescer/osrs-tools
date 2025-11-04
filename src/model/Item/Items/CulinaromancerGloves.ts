@@ -1,33 +1,39 @@
 import { Item } from '../Item';
 
 const culinaromancerGlovesData = {
-  id: 7462,
-  name: "Culinaromancer's gloves 10",
-  members: true,
-  tradeable: false,
-  stackable: false,
-  noted: false,
-  value: 100000,
-  examine: 'These gloves were earned by completing Recipe for Disaster.',
   equipable: true,
-  weight: 0.34,
-  questItem: false,
-  // Combat stats
-  attackStab: 8,
+  examine: 'These gloves were earned by completing Recipe for Disaster.',
+  id: 7462,
+  members: true,
   attackSlash: 8,
+  name: "Culinaromancer's gloves 10",
   attackCrush: 8,
+  noted: false,
   attackMagic: 6,
+  questItem: false,
   attackRanged: 8,
-  defenceStab: 8,
-  defenceSlash: 8,
+
+  stackable: false,
+
+  // Combat stats
+attackStab: 8,
+
+  
+  tradeable: false,
+
   defenceCrush: 8,
+
+  value: 100000,
   defenceMagic: 6,
   defenceRanged: 8,
-  strengthBonus: 8,
-  rangedStrength: 8,
+  weight: 0.34,
+  defenceSlash: 8,
+  defenceStab: 8,
   magicDamage: 0,
-  prayerBonus: 0,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Culinaromancer%27s_gloves_10',
+  prayerBonus: 0,
+  rangedStrength: 8,
+  strengthBonus: 8,
 };
 
 export const CulinaromancerGloves = Item.fromJson(culinaromancerGlovesData);

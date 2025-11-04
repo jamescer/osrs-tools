@@ -1,7 +1,7 @@
+import { Cache } from '../../utils/cache';
 import { OsrsAccount } from '../account/OsrsAccount';
 import { LevelRequirement, QuestRequirement, RequirementType } from '../Requirement';
 import { Quest } from './Quest';
-import { Cache } from '../../utils/cache';
 
 class QuestTool {
   private osrsAccount: OsrsAccount | undefined;
@@ -122,29 +122,90 @@ class QuestTool {
   static getMaxSkillBoost(skillName: string): number {
     // Data from https://oldschool.runescape.wiki/w/Temporary_skill_boost
     const boosts: { [key: string]: number } = {
-      Attack: 5, // Super combat potion, Overload(+)
-      Strength: 5, // Super combat potion, Overload(+)
-      Defence: 5, // Super combat potion, Overload(+)
-      Magic: 4, // Overload(+), Imbued heart
-      Ranged: 4, // Ranging potion, Overload(+)
-      Prayer: 2, // Preserve, Prayer-boosting items
-      Hitpoints: 0, // No boost
-      Agility: 5, // Summer pie
-      Herblore: 5, // Botanical pie
-      Thieving: 5, // Volcanic ash, Summer pie
-      Crafting: 3, // Mushroom pie
-      Fletching: 3, // Fletching potion
-      Slayer: 2, // Wild pie
-      Hunter: 5, // Hunter potion
-      Mining: 3, // Dwarven stout(m)
-      Smithing: 4, // Spicy stew (orange)
-      Fishing: 5, // Admiral pie
-      Cooking: 5, // Chef's delight(m)
-      Firemaking: 4, // Spicy stew (red)
-      Woodcutting: 3, // Spicy stew (yellow)
-      Farming: 5, // Garden pie
-      Runecraft: 5, // Spicy stew (orange)
-      Construction: 5, // Spicy stew (orange)
+      // No boost
+      Agility: 5,
+
+      Attack: 5,
+
+      // Super combat potion, Overload(+)
+      Defence: 5,
+
+      // Summer pie
+      Herblore: 5,
+
+      
+      // Volcanic ash, Summer pie
+Crafting: 3,
+
+      
+      
+// Super combat potion, Overload(+)
+Magic: 4,
+
+      
+// Mushroom pie
+Fletching: 3,
+
+      
+      
+// Ranging potion, Overload(+)
+Prayer: 2,
+
+      // Super combat potion, Overload(+)
+      Strength: 5,
+
+      
+      // Admiral pie
+Cooking: 5,
+
+      
+      
+// Overload(+), Imbued heart
+Ranged: 4,
+
+      // Preserve, Prayer-boosting items
+      Hitpoints: 0,
+
+      
+      // Spicy stew (yellow)
+Farming: 5,
+
+      
+      
+// Wild pie
+Hunter: 5,
+
+      // Hunter potion
+      Mining: 3,
+
+      
+      // Spicy stew (orange)
+Construction: 5,
+
+      
+      
+// Botanical pie
+Thieving: 5,
+
+      // Spicy stew (orange)
+      Fishing: 5,
+
+      
+      // Chef's delight(m)
+Firemaking: 4,
+
+      
+      // Fletching potion
+Slayer: 2,
+
+      // Garden pie
+      Runecraft: 5,
+
+      // Dwarven stout(m)
+      Smithing: 4,
+
+      // Spicy stew (red)
+      Woodcutting: 3, // Spicy stew (orange)
       // Add more as needed
     };
     const normalized = skillName.charAt(0).toUpperCase() + skillName.slice(1).toLowerCase();

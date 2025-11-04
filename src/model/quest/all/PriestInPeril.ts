@@ -1,39 +1,39 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const PriestInPeril: Quest = {
-  id: 0,
-  name: 'Priest in Peril',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Medium,
-  requirements: [new QuestRequirement('Rune Mysteries')],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
   miniquest: false,
-  shortName: 'priestInPeril',
-  url: 'https://oldschool.runescape.wiki/w/Priest_in_Peril',
-  series: null,
   age: '',
-
+  name: 'Priest in Peril',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new QuestRequirement('Rune Mysteries')],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'priestInPeril',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Priest_in_Peril',
 };
 
 export default PriestInPeril;

@@ -1,63 +1,63 @@
-import { Quest, QuestStatus } from '../../../src/model/quest/types';
 import { QuestDifficulty, QuestLength } from '../../../src/model/quest/enums';
 import {
-  RequirementType,
-  createLevelRequirement,
-  createQuestRequirement,
-  createQuestPointRequirement,
   createItemRequirement,
+  createLevelRequirement,
+  createQuestPointRequirement,
+  createQuestRequirement,
+  RequirementType,
 } from '../../../src/model/quest/requirements';
+import { Quest, QuestStatus } from '../../../src/model/quest/types';
 
 describe('Quest Types and Requirements', () => {
   describe('Requirements', () => {
     it('should create level requirements correctly', () => {
       const req = createLevelRequirement('Mining', 55, true);
       expect(req).toEqual({
-        type: RequirementType.Level,
-        skillName: 'Mining',
-        level: 55,
         boostable: true,
         description: '55 Mining',
+        level: 55,
+        skillName: 'Mining',
+        type: RequirementType.Level,
       });
     });
 
     it('should create quest requirements correctly', () => {
       const req = createQuestRequirement('Dragon Slayer');
       expect(req).toEqual({
-        type: RequirementType.Quest,
-        questName: 'Dragon Slayer',
         description: 'Completion of Dragon Slayer',
+        questName: 'Dragon Slayer',
+        type: RequirementType.Quest,
       });
     });
 
     it('should create quest point requirements correctly', () => {
       const req = createQuestPointRequirement(32);
       expect(req).toEqual({
-        type: RequirementType.QuestPoint,
-        points: 32,
         description: '32 Quest Points',
+        points: 32,
+        type: RequirementType.QuestPoint,
       });
     });
 
     it('should create item requirements correctly', () => {
       const req = createItemRequirement('Dragon bones', 3, true);
       expect(req).toEqual({
-        type: RequirementType.Item,
-        itemName: 'Dragon bones',
-        quantity: 3,
         consumed: true,
         description: '3x Dragon bones (consumed)',
+        itemName: 'Dragon bones',
+        quantity: 3,
+        type: RequirementType.Item,
       });
     });
 
     it('should handle optional item requirement parameters', () => {
       const req = createItemRequirement('Tinderbox');
       expect(req).toEqual({
-        type: RequirementType.Item,
-        itemName: 'Tinderbox',
-        quantity: 1,
         consumed: false,
         description: '1x Tinderbox',
+        itemName: 'Tinderbox',
+        quantity: 1,
+        type: RequirementType.Item,
       });
     });
   });
@@ -65,11 +65,21 @@ describe('Quest Types and Requirements', () => {
   describe('Quest Interface', () => {
     it('should validate a complete quest object', () => {
       const quest: Quest = {
-        id: 1,
-        name: "Cook's Assistant",
         description: 'Help the cook make a cake.',
         difficulty: QuestDifficulty.Novice,
+        id: 1,
         length: QuestLength.Short,
+        members: false,
+        age: 'Fifth Age',
+        miniquest: false,
+        name: "Cook's Assistant",
+        questPoints: 1,
+        requirements: [],
+        recommendations: [],
+        series: null,
+        recommendedPrayers: [],
+        shortName: 'cooksAssistant',
+        recommendedSkills: {},
         steps: [
           'Talk to the cook in Lumbridge Castle kitchen.',
           'Get an egg from the farm north of Lumbridge.',
@@ -77,29 +87,19 @@ describe('Quest Types and Requirements', () => {
           'Get a pot of flour from the mill north of Lumbridge.',
           'Return all ingredients to the cook.',
         ],
-        requirements: [],
-        status: QuestStatus.NotStarted,
-        miniquest: false,
-        shortName: 'cooksAssistant',
-        url: 'https://oldschool.runescape.wiki/w/Cook%27s_Assistant',
-        series: null,
-        members: false,
-        questPoints: 1,
-        age: 'Fifth Age',
-        startLocation: 'Lumbridge Castle Kitchen',
-        recommendations: [],
-        recommendedSkills: {},
-        recommendedPrayers: [],
         rewards: {
-          experience: [{ skill: 'Cooking', amount: 300 }],
-          questPoints: 1,
-          items: [],
           areas: [],
-          unlocks: [{ description: 'Access to the kitchen' }],
+          experience: [{ amount: 300, skill: 'Cooking' }],
+          items: [],
           lamps: [],
-          points: [],
           pets: [],
+          points: [],
+          questPoints: 1,
+          unlocks: [{ description: 'Access to the kitchen' }],
         },
+        status: QuestStatus.NotStarted,
+        startLocation: 'Lumbridge Castle Kitchen',
+        url: 'https://oldschool.runescape.wiki/w/Cook%27s_Assistant',
       };
 
       // Just checking that it compiles - TypeScript would catch type errors

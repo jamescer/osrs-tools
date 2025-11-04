@@ -1,43 +1,52 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const DragonSlayerII: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Dragon Slayer II',
-  members: true,
-  difficulty: QuestDifficulty.Grandmaster,
-  length: QuestLength.VeryLong,
-  requirements: [], // Quests: Legends' Quest, Dream Mentor, A Tail of Two Cats, Animal Magnetism, Ghosts Ahoy, Bone Voyage, Client of Kourend. Skill: quest 200
-  questPoints: 5,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'dragonSlayerII',
-  url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer_II',
-  series: 'Dragonkin',
-  age: '',
+  difficulty: QuestDifficulty.Grandmaster,
 
+  id: 0,
+
+  length: QuestLength.VeryLong,
+
+  members: true,
+
+  miniquest: false,
+
+  
+  age: '',
+  
+  // Assign a unique ID if available
+name: 'Dragon Slayer II',
+  // Quests: Legends' Quest, Dream Mentor, A Tail of Two Cats, Animal Magnetism, Ghosts Ahoy, Bone Voyage, Client of Kourend. Skill: quest 200
+  questPoints: 5,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: 'Dragonkin',
   rewards: {
-    experience: [
-      { skill: Skill.Agility, amount: 15000 },
-      { skill: Skill.Mining, amount: 18000 },
-      { skill: Skill.Smithing, amount: 25000 },
-      { skill: Skill.Thieving, amount: 15000 },
-    ],
-    questPoints: 5,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 15000, skill: Skill.Agility },
+      { amount: 18000, skill: Skill.Mining },
+      { amount: 25000, skill: Skill.Smithing },
+      { amount: 15000, skill: Skill.Thieving },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 5,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'dragonSlayerII',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer_II',
 };
 
 export default DragonSlayerII;

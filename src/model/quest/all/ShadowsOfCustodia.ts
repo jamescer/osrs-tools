@@ -1,21 +1,43 @@
 // URL: https://oldschool.runescape.wiki/w/Shadows_of_Custodia
 
+import { Skill } from '../../account/Skill';
 import { Quest, QuestStatus } from '../../quest/Quest';
 import { Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 
 const ShadowsOfCustodia: Quest = {
-  id: 0,
-  name: 'Shadows of Custodia',
-  members: false,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 1,
-  startLocation: 'Speak to the Custodian in Lumbridge',
   description:
     'Investigate the mysterious shadows appearing in Custodia and help restore peace to the region.',
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Short,
+  members: false,
+  miniquest: false,
+  age: '',
+  name: 'Shadows of Custodia',
+  questPoints: 1,
+  recommendations: [],
+  recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: null,
+  rewards: {
+    areas: ['Custodia'],
+    experience: [
+      { amount: 250, skill: Skill.Defence },
+      { amount: 250, skill: Skill.Hitpoints },
+    ],
+    items: [{ name: 'Custodian’s Token', quantity: 1 }],
+    lamps: [],
+    pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [{ description: 'Access to the Custodia region' }],
+  },
+  startLocation: 'Speak to the Custodian in Lumbridge',
+
+  shortName: 'shadowsOfCustodia',
+  status: QuestStatus.NotStarted,
   steps: [
     'Speak to the Custodian in Lumbridge.',
     'Investigate shadowy disturbances around Custodia.',
@@ -23,29 +45,7 @@ const ShadowsOfCustodia: Quest = {
     'Defeat the shadow creature.',
     'Report back to the Custodian.',
   ],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'shadowsOfCustodia',
   url: 'https://oldschool.runescape.wiki/w/Shadows_of_Custodia',
-  series: null,
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [
-      { skill: Skill.Defence, amount: 250 },
-      { skill: Skill.Hitpoints, amount: 250 },
-    ],
-    questPoints: 1,
-    items: [{ name: 'Custodian’s Token', quantity: 1 }],
-    areas: ['Custodia'],
-    unlocks: [{ description: 'Access to the Custodia region' }],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
 };
 
 export default ShadowsOfCustodia;

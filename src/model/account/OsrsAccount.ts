@@ -108,8 +108,8 @@ class OsrsAccount {
     for (const key of Object.keys(srcSkills)) {
       skills[key.toLowerCase()] = { level: srcSkills[key].level };
       skillsDetail[key.toLowerCase()] = {
-        rank: srcSkills[key].rank,
         level: srcSkills[key].level,
+        rank: srcSkills[key].rank,
         xp: srcSkills[key].xp,
       };
     }
@@ -127,22 +127,22 @@ class OsrsAccount {
     const leaguePoints: BossScore | undefined = json.leaguePoints;
     const deadmanPoints: BossScore | undefined = json.deadmanPoints;
     return new OsrsAccount({
-      name,
-      combatLevel,
-      questPoints,
-      skills,
-      skillsDetail,
       bosses,
-      clues,
       bountyHunter,
-      lastManStanding,
-      pvpArena,
-      soulWarsZeal,
-      riftsClosed,
-      colosseumGlory,
+      clues,
       collectionsLogged,
-      leaguePoints,
+      combatLevel,
+      colosseumGlory,
+      lastManStanding,
       deadmanPoints,
+      name,
+      leaguePoints,
+      questPoints,
+      pvpArena,
+      skills,
+      riftsClosed,
+      skillsDetail,
+      soulWarsZeal,
     });
   }
 
@@ -232,35 +232,35 @@ class OsrsAccount {
 
   toJson(): OsrsAccountData {
     return {
-      name: this.#name,
-      combatLevel: this.#combatLevel,
-      questPoints: this.#questPoints,
-      skills: this.#skills,
-      skillsDetail: this.#skillsDetail,
       bosses: this.#bosses,
-      clues: this.#clues,
       bountyHunter: this.#bountyHunter,
-      lastManStanding: this.#lastManStanding,
-      pvpArena: this.#pvpArena,
-      soulWarsZeal: this.#soulWarsZeal,
-      riftsClosed: this.#riftsClosed,
-      colosseumGlory: this.#colosseumGlory,
+      clues: this.#clues,
       collectionsLogged: this.#collectionsLogged,
-      leaguePoints: this.#leaguePoints,
+      combatLevel: this.#combatLevel,
+      colosseumGlory: this.#colosseumGlory,
+      lastManStanding: this.#lastManStanding,
       deadmanPoints: this.#deadmanPoints,
+      name: this.#name,
+      leaguePoints: this.#leaguePoints,
+      questPoints: this.#questPoints,
+      pvpArena: this.#pvpArena,
+      skills: this.#skills,
+      riftsClosed: this.#riftsClosed,
+      skillsDetail: this.#skillsDetail,
+      soulWarsZeal: this.#soulWarsZeal,
     };
   }
 }
 
 export {
-  OsrsAccount,
-  OsrsAccountData,
-  Skills,
-  Skill,
-  SkillsDetail,
   Bosses,
   BossScore,
+  BountyHunter,
   Clues,
   ClueScore,
-  BountyHunter,
+  OsrsAccount,
+  OsrsAccountData,
+  Skill,
+  Skills,
+  SkillsDetail,
 };

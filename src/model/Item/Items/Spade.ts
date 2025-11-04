@@ -1,18 +1,18 @@
 import { Item } from '../Item';
 
 const spadeData = {
-  id: 952,
-  name: 'Spade',
-  members: false,
-  tradeable: true,
-  stackable: false,
-  noted: false,
-  value: 3,
-  examine: 'A spade for digging things up.',
   equipable: false,
-  weight: 2.267,
-  questItem: false,
+  examine: 'A spade for digging things up.',
+  id: 952,
+  members: false,
+  name: 'Spade',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Spade',
+  questItem: false,
+  stackable: false,
+  tradeable: true,
+  value: 3,
+  weight: 2.267,
 };
 
 export const Spade = Item.fromJson(spadeData);

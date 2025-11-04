@@ -1,47 +1,47 @@
-import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement, RequirementType } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const attackRequirement: LevelRequirement = {
-  skillName: 'attack',
-  level: 20,
   boostable: false,
-  type: RequirementType.Level,
   description: '',
+  level: 20,
+  skillName: 'attack',
+  type: RequirementType.Level,
 };
 const HolyGrail: Quest = {
-  id: 0,
-  name: 'Holy Grail',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Medium,
-  requirements: [attackRequirement],
-  questPoints: 2,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
   miniquest: false,
-  shortName: 'holyGrail',
-  url: 'https://oldschool.runescape.wiki/w/Holy_Grail',
-  series: 'Camelot (#2)',
   age: '',
-
+  name: 'Holy Grail',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [attackRequirement],
+  recommendedSkills: {},
+  series: 'Camelot (#2)',
   rewards: {
-    experience: [
-      { skill: 'Defence', amount: 15300 },
-      { skill: 'Prayer', amount: 11000 },
-    ],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 15300, skill: 'Defence' },
+      { amount: 11000, skill: 'Prayer' },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'holyGrail',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Holy_Grail',
 };
 
 export default HolyGrail;

@@ -50,7 +50,7 @@ export class Cache<T> {
 
     const expiresAt = ttl || this.ttl ? Date.now() + (ttl || this.ttl!) : undefined;
 
-    this.store.set(key, { value, expiresAt });
+    this.store.set(key, { expiresAt, value });
   }
 
   /**

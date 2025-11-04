@@ -1,19 +1,19 @@
 import { Item } from '../Item';
 
 const demonic_gorilla_heartsData = {
-  id: 19622,
-  name: 'Demonic gorilla heart',
-  members: true,
-  tradeable: false,
-  stackable: false,
-  noted: false,
-  value: 0,
-  examine: 'The heart of a demonic gorilla.',
   equipable: false,
-  weight: 0.001,
-  questItem: true,
+  examine: 'The heart of a demonic gorilla.',
+  id: 19622,
+  members: true,
   destroy: 'You can get another from killing demonic gorillas during Monkey Madness II.',
+  name: 'Demonic gorilla heart',
+  noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Demonic_gorilla_heart',
+  questItem: true,
+  stackable: false,
+  tradeable: false,
+  value: 0,
+  weight: 0.001,
 };
 
 export const DemonicGorillaHeart = Item.fromJson(demonic_gorilla_heartsData);

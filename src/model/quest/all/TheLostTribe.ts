@@ -1,38 +1,38 @@
-import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheLostTribe: Quest = {
-  id: 0,
-  name: 'The Lost Tribe',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [new QuestRequirement('Rune Mysteries'), new QuestRequirement('Goblin Diplomacy')],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
   miniquest: false,
-  shortName: 'theLostTribe',
-  url: 'https://oldschool.runescape.wiki/w/The_Lost_Tribe',
-  series: null,
   age: '',
-
+  name: 'The Lost Tribe',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [new QuestRequirement('Rune Mysteries'), new QuestRequirement('Goblin Diplomacy')],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'theLostTribe',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/The_Lost_Tribe',
 };
 
 export default TheLostTribe;

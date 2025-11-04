@@ -87,7 +87,7 @@ class QuestRequirement implements Requirement {
   get description(): string {
     return `Completed quest: ${this.questName}`;
   }
-  
+
   get completionDescription(): string {
     return `Completion of ${this.questName}`;
   }
@@ -168,10 +168,10 @@ class LocationRequirement implements Requirement {
 
 export {
   CombatLevelRequirement,
-  QuestPointRequirement,
   ItemRequirement,
   LevelRequirement,
   LocationRequirement,
+  QuestPointRequirement,
   QuestRequirement,
   Requirement,
   RequirementType,

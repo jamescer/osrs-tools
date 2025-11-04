@@ -1,14 +1,14 @@
-import { Npc } from '../Npc';
-import { NpcDrop } from '../NpcDrop';
-import { NpcProduct } from '../NpcProduct';
+import { Coins } from '../../Item/Items/Coins';
+import { DagannothHideItem } from '../../Item/Items/DagannothHide';
+import { FibulaPieceItem } from '../../Item/Items/FibulaPiece';
+import { RibcagePieceItem } from '../../Item/Items/RibcagePiece';
 import { SkeletalBottoms } from '../../Item/Items/SkeletalBottoms';
 import { SkeletalHelm } from '../../Item/Items/SkeletalHelm';
 import { SkeletalTop } from '../../Item/Items/SkeletalTop';
-import { Coins } from '../../Item/Items/Coins';
-import { RibcagePieceItem } from '../../Item/Items/RibcagePiece';
-import { DagannothHideItem } from '../../Item/Items/DagannothHide';
-import { FibulaPieceItem } from '../../Item/Items/FibulaPiece';
 import { SkullPieceItem } from '../../Item/Items/SkullPiece';
+import { Npc } from '../Npc';
+import { NpcDrop } from '../NpcDrop';
+import { NpcProduct } from '../NpcProduct';
 
 export const peerTheSeerDrops: NpcDrop[] = [
   // Peer the Seer is a non-combat NPC and does not drop anything

@@ -1,42 +1,51 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const DeviousMinds: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Devious Minds',
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Short,
-  requirements: [], // Quests: Wanted!, Troll Stronghold, Doric's Quest, Enter the Abyss. Skills: Smithing 65, Runecraft 50, Fletching 50
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'deviousMinds',
-  url: 'https://oldschool.runescape.wiki/w/Devious_Minds',
-  series: 'The Return of Zaros',
-  age: '',
+  difficulty: QuestDifficulty.Experienced,
 
+  id: 0,
+
+  length: QuestLength.Short,
+
+  members: true,
+
+  miniquest: false,
+
+  
+  age: '',
+  
+  // Assign a unique ID if available
+name: 'Devious Minds',
+  // Quests: Wanted!, Troll Stronghold, Doric's Quest, Enter the Abyss. Skills: Smithing 65, Runecraft 50, Fletching 50
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: 'The Return of Zaros',
   rewards: {
-    experience: [
-      { skill: Skill.Fletching, amount: 5000 },
-      { skill: Skill.Runecraft, amount: 5000 },
-      { skill: Skill.Smithing, amount: 6500 },
-    ],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 5000, skill: Skill.Fletching },
+      { amount: 5000, skill: Skill.Runecraft },
+      { amount: 6500, skill: Skill.Smithing },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'deviousMinds',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Devious_Minds',
 };
 
 export default DeviousMinds;

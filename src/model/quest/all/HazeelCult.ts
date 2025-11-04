@@ -1,39 +1,39 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const HazeelCult: Quest = {
-  id: 0,
-  name: 'Hazeel Cult',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
   description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
   miniquest: false,
-  shortName: 'hazeelCult',
-  url: 'https://oldschool.runescape.wiki/w/Hazeel_Cult',
-  series: null,
   age: '',
-
+  name: 'Hazeel Cult',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  requirements: [],
+  recommendedSkills: {},
+  series: null,
   rewards: {
-    experience: [{ skill: Skill.Thieving, amount: 1500 }],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 1500, skill: Skill.Thieving }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  startLocation: '',
+
+  shortName: 'hazeelCult',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Hazeel_Cult',
 };
 
 export default HazeelCult;

@@ -1,15 +1,15 @@
-import { QuestTool } from '../../../src/model/quest/QuestTool';
 import { OsrsAccount } from '../../../src/model/account/OsrsAccount';
 import { Quest } from '../../../src/model/quest/Quest';
-import { account } from '../../resources/A_Squeezer_Main_Data';
+import { QuestTool } from '../../../src/model/quest/QuestTool';
 import { LevelRequirement, QuestRequirement } from '../../../src/model/Requirement';
+import { account } from '../../resources/A_Squeezer_Main_Data';
 import { simpleQuest } from './mockQuests';
 
 // Helper: create an account with a given skill level
 function makeAccountWithSkill(skill: string, level: number) {
   return OsrsAccount.fromJson({
-    name: 'Test',
     combatLevel: 3,
+    name: 'Test',
     questPoints: 0,
     skills: { [skill]: { level } },
   });
@@ -104,8 +104,8 @@ describe('QuestTool', () => {
       // Test with all requirements met
       tool.setOsrsAccount(
         OsrsAccount.fromJson({
-          name: 'Test',
           combatLevel: 3,
+          name: 'Test',
           questPoints: 0,
           skills: {
             attack: { level: 60 },
@@ -133,8 +133,8 @@ describe('QuestTool', () => {
       // Test with boostable but insufficient herblore
       tool.setOsrsAccount(
         OsrsAccount.fromJson({
-          name: 'Test',
           combatLevel: 3,
+          name: 'Test',
           questPoints: 0,
           skills: {
             attack: { level: 60 },
@@ -147,8 +147,8 @@ describe('QuestTool', () => {
       // Test with both requirements met (one through boost)
       tool.setOsrsAccount(
         OsrsAccount.fromJson({
-          name: 'Test',
           combatLevel: 3,
+          name: 'Test',
           questPoints: 0,
           skills: {
             attack: { level: 60 },

@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - release/production
   pull_request:
     branches:
-      - master
+      - release/production
 
 jobs:
   build:
@@ -32,3 +32,7 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+        # Todo add npm publish here for production releases
+
+

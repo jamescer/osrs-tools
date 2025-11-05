@@ -130,7 +130,6 @@ const account = OsrsAccount.fromJson({
 const attackLevel = account.getSkill('attack')?.level;
 ```
 
-
 ### Documentation Links
 
 - [Full API Documentation](https://github.com/jamescer/osrs-tools/wiki)

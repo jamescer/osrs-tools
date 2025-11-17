@@ -5,22 +5,13 @@ const DesertTreasure = {
   age: 'Fifth Age',
   description:
     'Help the archaeologist uncover the secrets of the Ancient Pyramid and unlock Ancient Magicks.',
-
   difficulty: QuestDifficulty.Master,
-
   id: 0,
-
   length: QuestLength.Long,
-
   members: true,
-
   miniquest: false,
-
-  // TODO: Replace with actual ID
   name: 'Desert Treasure I',
-
   questPoints: 3,
-
   recommendations: [
     {
       name: 'Shantay pass',
@@ -60,14 +51,9 @@ const DesertTreasure = {
     { name: 'Firemaking 50+', note: 'Required for quest.', type: 'tip' },
     { name: 'Slayer 10+', note: 'Required for quest.', type: 'tip' },
   ],
-
   recommendedPrayers: ['Protect from Melee', 'Protect from Missiles'],
-
   recommendedSkills: { Firemaking: 50, Magic: 50, Slayer: 10, Thieving: 53 },
-
-  // TODO: Fill in steps
   requirements: [],
-
   rewards: {
     areas: ['Ancient Pyramid', 'Smoke Dungeon'],
     experience: [{ amount: 20006.9, skill: 'Magic' }],

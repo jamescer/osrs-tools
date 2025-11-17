@@ -4,15 +4,10 @@ import { Quest, QuestStatus } from '../Quest';
 const AnimalMagnetism: Quest = {
   age: '',
   description: '',
-
   difficulty: QuestDifficulty.Intermediate,
-
   id: 0,
-
   length: QuestLength.Long,
-
   members: true,
-
   miniquest: false,
 
   // Assign a unique ID if available

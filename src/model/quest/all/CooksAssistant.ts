@@ -1,28 +1,25 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const CooksAssistant: Quest = {
-  age: '',
-  description: '',
-
+  age: 'Fifth Age',
+  description: 'Help the cook in Lumbridge Castle by gathering ingredients for his cake.',
   difficulty: QuestDifficulty.Novice,
-
-  id: 0,
-
+  id: 1,
   length: QuestLength.Short,
-
   members: false,
-
   miniquest: false,
-  // Assign a unique ID if available
   name: "Cook's Assistant",
   questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    /**todo fix this */
+  ],
   rewards: {
     areas: [],
-    experience: [{ amount: 300, skill: 'Cooking' }],
+    experience: [{ amount: 300, skill: Skill.Cooking }],
     items: [],
     lamps: [],
     pets: [],
@@ -30,12 +27,18 @@ const CooksAssistant: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: null,
-  shortName: 'cooksAssistant',
+  series: 'None',
+  shortName: "Cook's Assistant",
 
-  startLocation: '',
+  startLocation: 'Lumbridge Castle kitchen',
   status: QuestStatus.NotStarted,
-  steps: [],
+  steps: [
+    'Speak to the Cook in Lumbridge Castle kitchen.',
+    'Collect a bucket of milk.',
+    'Collect a pot of flour.',
+    'Collect an egg.',
+    'Return to the Cook with all the ingredients.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Cook%27s_Assistant',
 };
 

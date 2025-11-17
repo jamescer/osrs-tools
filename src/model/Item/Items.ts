@@ -1,4 +1,9 @@
 import { Item } from './Item';
+import { Bones } from './all/Bones';
+import { BucketOfWater } from './all/BucketofWater';
+import { Coins } from './all/Coins';
+import { DagannothHide } from './all/DagannothHide';
+import { Nosepeg } from './all/Nosepeg';
 
 const ReinforcedGoggles = new Item(
   23264,
@@ -47,35 +52,6 @@ const FaceMask = new Item(
   false,
   'https://oldschool.runescape.wiki/w/Face_mask',
   'https://oldschool.runescape.wiki/images/2/2a/Face_mask.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const NosePeg = new Item(
-  4168,
-  'Nose peg',
-  'A peg to protect your nose.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Nose_peg',
-  'https://oldschool.runescape.wiki/images/6/6a/Nose_peg.png',
   0,
   0,
   0,
@@ -871,6 +847,10 @@ const SlayerHelmetI = new Item(
 );
 
 export {
+  Coins,
+  BucketOfWater,
+  Bones,
+  DagannothHide,
   BagOfSalt,
   BroadArrowheads,
   BroadBolts,
@@ -890,7 +870,7 @@ export {
   FungicideSpray9,
   FungicideSpray10,
   IceCooler,
-  NosePeg,
+  Nosepeg,
   ReinforcedGoggles,
   RockHammer,
   SlayerBell,

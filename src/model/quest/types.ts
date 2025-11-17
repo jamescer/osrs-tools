@@ -173,5 +173,16 @@ export interface Quest {
 
   /** All rewards for completing the quest */
   rewards: QuestRewards;
+
+  /** Additional notes about the quest */
+  notes?: string;
+
+  /** Alternative names or abbreviations for the quest */
+  altNames?: string[];
+
+  /** Date the quest was originally released */
+  releaseDate?: string; // e.g.,
+
+  leadDeveloper?: string; // e.g., James B
 }
 export { QuestDifficulty, QuestLength, QuestStatus };

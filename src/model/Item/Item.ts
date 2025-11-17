@@ -55,6 +55,7 @@ export class Item {
   questItem: boolean;
   stackable: boolean;
   noted: boolean;
+  notable = false;
   officialWikiUrl: string;
   iconUrl?: string;
 
@@ -109,6 +110,7 @@ export class Item {
     magicDamage?: number,
     prayer?: number,
     quantity?: number,
+    notable: boolean = false,
   ) {
     this.id = id;
     this.name = name;
@@ -144,6 +146,7 @@ export class Item {
     this.magicDamage = magicDamage;
     this.prayer = prayer;
     this.quantity = quantity || 1; // Default quantity to 1 if not provided
+    this.notable = notable;
   }
 
   get Id() {

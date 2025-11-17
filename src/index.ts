@@ -21,7 +21,6 @@ export * from './model/quest/all/ClientOfKourend';
 export * from './model/quest/all/ClockTower';
 export * from './model/quest/all/ColdWar';
 export * from './model/quest/all/Contact';
-export * from './model/quest/all/CookAssistant';
 export * from './model/quest/all/CooksAssistant';
 export * from './model/quest/all/CreatureOfFenkenstrain';
 export * from './model/quest/all/DarknessOfHallowvale';

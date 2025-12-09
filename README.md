@@ -21,45 +21,12 @@ Explore the project interactively on CodeSandbox:
 
 ## Table of Contents
 
-- [Features](#features)
 - [Installation](#installation)
 - [Examples](#examples)
-- [API Reference](#api-reference)
 - [Development](#development)
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
-
-## Features
-
-✨ **Quest System**
-
-- Complete quest database with requirements and rewards
-- Quest dependency tracking and validation
-- Experience and item reward calculations
-- Quest point tracking
-- Support for miniquests
-
-🎯 **Skill & Level System**
-
-- Skill level tracking and validation
-- Support for boostable requirements
-- Combat level calculations
-- Quest point requirements
-
-🗡️ **Items & Equipment**
-
-- Comprehensive item database
-- Equipment statistics
-- Trading and value information
-- Quest item tracking
-
-👹 **Slayer System**
-
-- Full slayer master task lists
-- Task weights and assignment logic
-- Slayer requirement validation
-- Reward shop data
 
 ## Installation
 

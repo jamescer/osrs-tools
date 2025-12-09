@@ -1,6 +1,5 @@
 import { getStatsByGamemode, getSkillPage } from 'osrs-json-hiscores';
 
-
 /*
 To run this file in Command Prompt, use:
 
@@ -16,7 +15,7 @@ Replace <username> and [gamemode] with the desired values.
 // Usage: ts-node tools/getAccount.ts <username> [gamemode]
 // const [, username, gamemode] = process.argv;
 const gamemode = 'main'; // Default gamemode
-const username = 'A Squeezer' 
+const username = 'A Squeezer';
 if (!username) {
   console.error('Usage: ts-node tools/getAccount.ts <username> [gamemode]');
   process.exit(1);
@@ -31,4 +30,3 @@ if (!username) {
     process.exit(1);
   }
 })();
-

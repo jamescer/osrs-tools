@@ -1,0 +1,150 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --bg: #071328;
+  --card: #071b2a;
+  --muted: #9fb0c6;
+  --accent1: #9f7aea;
+  --accent2: #34d399;
+  --danger-start: #ef4444;
+  --danger-end: #f97316;
+  --glass: rgba(255, 255, 255, 0.03);
+  --radius: 16px;
+  --gap: 16px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: radial-gradient(
+      800px 300px at 10% 10%,
+      rgba(159, 122, 234, 0.06),
+      transparent
+    ),
+    linear-gradient(180deg, #021026 0%, #041827 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  color: #e6eef8;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: min(880px, 96vw);
+}
+
+.header h1 {
+  margin: 0 0 6px 0;
+  font-size: 1.5rem;
+  letter-spacing: -0.3px;
+}
+.lead {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Card */
+.card {
+  margin-top: 18px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.01)
+  );
+  border-radius: var(--radius);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+  align-items: center;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.6);
+  overflow: hidden;
+}
+
+/* badge */
+.badge {
+  width: 88px;
+  height: 88px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px;
+  font-size: 0.95rem;
+  color: white;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.5);
+}
+
+/* body */
+.card-body h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.muted {
+  color: var(--muted);
+  margin: 6px 0 0 0;
+}
+.notes {
+  margin: 8px 0 0 0;
+  color: #cfe9df;
+  font-size: 0.95rem;
+}
+
+/* actions */
+.card-actions {
+  display: flex;
+  gap: 12px;
+  justify-self: end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.link {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 8px;
+  border-radius: 8px;
+}
+.link:hover {
+  color: var(--accent2);
+}
+
+.footer {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+/* responsive */
+@media (max-width: 640px) {
+  .card {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+  .badge {
+    width: 64px;
+    height: 64px;
+    font-size: 0.85rem;
+  }
+  .card-actions {
+    justify-content: flex-start;
+  }
+}

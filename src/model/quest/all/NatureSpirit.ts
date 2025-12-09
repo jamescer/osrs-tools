@@ -1,42 +1,41 @@
-import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const NatureSpirit: Quest = {
-  id: 0,
-  name: 'Nature Spirit',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Intermediate,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Nature Spirit',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('The Restless Ghost'),
     new QuestRequirement('Priest in Peril'),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'natureSpirit',
-  url: 'https://oldschool.runescape.wiki/w/Nature_Spirit',
-  series: null,
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'natureSpirit',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Nature_Spirit',
 };
 
 export default NatureSpirit;

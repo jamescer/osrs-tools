@@ -1,37 +1,37 @@
-import { Quest } from '../types';
 import { QuestDifficulty, QuestLength, QuestStatus } from '../enums';
+import { Quest } from '../types';
 
 const TribalTotem: Quest = {
-  id: 0,
-  name: 'Tribal Totem',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'tribalTotem',
-  url: 'https://oldschool.runescape.wiki/w/Tribal_Totem',
-  series: null,
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
+  miniquest: false,
+  name: 'Tribal Totem',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'tribalTotem',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Tribal_Totem',
 };
 
 export default TribalTotem;

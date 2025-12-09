@@ -1,39 +1,38 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const ImpCatcher: Quest = {
-  id: 0,
-  name: 'Imp Catcher',
-  members: false,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'impCatcher',
-  url: 'https://oldschool.runescape.wiki/w/Imp_Catcher',
-  series: null,
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Short,
+  members: false,
+  miniquest: false,
+  name: 'Imp Catcher',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [{ skill: Skill.Magic, amount: 875 }],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 875, skill: Skill.Magic }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'impCatcher',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Imp_Catcher',
 };
 
 export default ImpCatcher;

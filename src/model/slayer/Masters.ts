@@ -1,13 +1,13 @@
 import { SlayerMaster } from '../../model/slayer/SlayerMaster';
+import { chaeldarTasks } from './task/ChaelderTasks';
 import { duradelTasks } from './task/DuradelTasks';
+import { konarTasks } from './task/KonarTasks';
+import { krystiliaTasks } from './task/KrystiliaTasks';
+import { mazchnaTasks } from './task/MazchnaTasks';
 import { nieveTasks } from './task/NieveTasks';
 import { spriaTasks } from './task/SpriaTasks';
 import { turealTasks } from './task/TurealTasks';
 import { vannakaTasks } from './task/VannakaTasks';
-import { mazchnaTasks } from './task/MazchnaTasks';
-import { chaeldarTasks } from './task/ChaelderTasks';
-import { konarTasks } from './task/KonarTasks';
-import { krystiliaTasks } from './task/KrystiliaTasks';
 
 // TODO: Add the rest of the tasks for each master
 // TODO: Add the rest of the masters

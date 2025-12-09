@@ -1,14 +1,20 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheFremennikExiles: Quest = {
-  id: 0,
-  name: 'The Fremennik Exiles',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Long,
+  members: true,
+  miniquest: false,
+  name: 'The Fremennik Exiles',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('The Fremennik Isles'),
     new LevelRequirement('Crafting', 25, false),
@@ -17,30 +23,23 @@ const TheFremennikExiles: Quest = {
     new LevelRequirement('Smithing', 30, false),
     new LevelRequirement('Defence', 60, false),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'theFremennikExiles',
-  url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Exiles',
-  series: 'Fremennik',
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: 'Fremennik',
+  shortName: 'theFremennikExiles',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Exiles',
 };
 
 export default TheFremennikExiles;

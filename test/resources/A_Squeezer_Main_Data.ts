@@ -1,210 +1,4 @@
 export const account = {
-  name: 'A Squeezer',
-  combatLevel: 126,
-  rank: 31748,
-  questPoints: 300,
-  skills: {
-    overall: {
-      rank: 128092,
-      level: 2185,
-      xp: 252737198,
-    },
-    attack: {
-      rank: 209891,
-      level: 99,
-      xp: 15057003,
-    },
-    defence: {
-      rank: 244468,
-      level: 99,
-      xp: 13595705,
-    },
-    strength: {
-      rank: 337927,
-      level: 99,
-      xp: 14660672,
-    },
-    hitpoints: {
-      rank: 280654,
-      level: 99,
-      xp: 23817468,
-    },
-    ranged: {
-      rank: 380024,
-      level: 99,
-      xp: 15904871,
-    },
-    prayer: {
-      rank: 249810,
-      level: 90,
-      xp: 5689303,
-    },
-    magic: {
-      rank: 377497,
-      level: 99,
-      xp: 13429705,
-    },
-    cooking: {
-      rank: 130879,
-      level: 99,
-      xp: 13800774,
-    },
-    woodcutting: {
-      rank: 135561,
-      level: 99,
-      xp: 13197668,
-    },
-    fletching: {
-      rank: 223800,
-      level: 99,
-      xp: 13036552,
-    },
-    fishing: {
-      rank: 125754,
-      level: 99,
-      xp: 13052764,
-    },
-    firemaking: {
-      rank: 603071,
-      level: 88,
-      xp: 4473930,
-    },
-    crafting: {
-      rank: 84868,
-      level: 99,
-      xp: 13645482,
-    },
-    smithing: {
-      rank: 131398,
-      level: 98,
-      xp: 12084488,
-    },
-    mining: {
-      rank: 88776,
-      level: 99,
-      xp: 13369968,
-    },
-    herblore: {
-      rank: 366503,
-      level: 85,
-      xp: 3376252,
-    },
-    agility: {
-      rank: 296040,
-      level: 84,
-      xp: 3135919,
-    },
-    thieving: {
-      rank: 252496,
-      level: 91,
-      xp: 6154434,
-    },
-    slayer: {
-      rank: 132848,
-      level: 99,
-      xp: 14162676,
-    },
-    farming: {
-      rank: 243143,
-      level: 99,
-      xp: 13245384,
-    },
-    runecraft: {
-      rank: 136245,
-      level: 91,
-      xp: 6387413,
-    },
-    hunter: {
-      rank: 256655,
-      level: 87,
-      xp: 4200146,
-    },
-    construction: {
-      rank: 303230,
-      level: 85,
-      xp: 3258621,
-    },
-  },
-  leaguePoints: {
-    rank: -1,
-    score: -1,
-  },
-  deadmanPoints: {
-    rank: -1,
-    score: -1,
-  },
-  bountyHunter: {
-    hunterV2: {
-      rank: -1,
-      score: -1,
-    },
-    rogueV2: {
-      rank: -1,
-      score: -1,
-    },
-    hunter: {
-      rank: -1,
-      score: -1,
-    },
-    rogue: {
-      rank: -1,
-      score: -1,
-    },
-  },
-  lastManStanding: {
-    rank: 280319,
-    score: 536,
-  },
-  pvpArena: {
-    rank: -1,
-    score: -1,
-  },
-  soulWarsZeal: {
-    rank: 191499,
-    score: 277,
-  },
-  riftsClosed: {
-    rank: 510867,
-    score: 43,
-  },
-  colosseumGlory: {
-    rank: -1,
-    score: -1,
-  },
-  collectionsLogged: {
-    rank: -1,
-    score: -1,
-  },
-  clues: {
-    all: {
-      rank: 204288,
-      score: 313,
-    },
-    beginner: {
-      rank: 534282,
-      score: 8,
-    },
-    easy: {
-      rank: 251703,
-      score: 27,
-    },
-    medium: {
-      rank: 387064,
-      score: 31,
-    },
-    hard: {
-      rank: 97874,
-      score: 217,
-    },
-    elite: {
-      rank: 178116,
-      score: 26,
-    },
-    master: {
-      rank: 260502,
-      score: 4,
-    },
-  },
   bosses: {
     abyssalSire: {
       rank: -1,
@@ -270,6 +64,10 @@ export const account = {
       rank: -1,
       score: -1,
     },
+    corruptedGauntlet: {
+      rank: 186921,
+      score: 53,
+    },
     crazyArchaeologist: {
       rank: 206946,
       score: 36,
@@ -294,6 +92,10 @@ export const account = {
       rank: -1,
       score: -1,
     },
+    gauntlet: {
+      rank: 299089,
+      score: 5,
+    },
     generalGraardor: {
       rank: 228638,
       score: 135,
@@ -309,6 +111,10 @@ export const account = {
     hespori: {
       rank: 597256,
       score: 10,
+    },
+    hueycoatl: {
+      rank: -1,
+      score: -1,
     },
     kalphiteQueen: {
       rank: 220866,
@@ -330,6 +136,10 @@ export const account = {
       rank: 329555,
       score: 5,
     },
+    leviathan: {
+      rank: -1,
+      score: -1,
+    },
     lunarChests: {
       rank: -1,
       score: -1,
@@ -346,15 +156,19 @@ export const account = {
       rank: -1,
       score: -1,
     },
-    phosanisNightmare: {
-      rank: -1,
-      score: -1,
-    },
     obor: {
       rank: -1,
       score: -1,
     },
     phantomMuspah: {
+      rank: -1,
+      score: -1,
+    },
+    phosanisNightmare: {
+      rank: -1,
+      score: -1,
+    },
+    royalTitans: {
       rank: -1,
       score: -1,
     },
@@ -385,30 +199,6 @@ export const account = {
     tempoross: {
       rank: 582913,
       score: 26,
-    },
-    gauntlet: {
-      rank: 299089,
-      score: 5,
-    },
-    corruptedGauntlet: {
-      rank: 186921,
-      score: 53,
-    },
-    hueycoatl: {
-      rank: -1,
-      score: -1,
-    },
-    leviathan: {
-      rank: -1,
-      score: -1,
-    },
-    royalTitans: {
-      rank: -1,
-      score: -1,
-    },
-    whisperer: {
-      rank: -1,
-      score: -1,
     },
     theatreOfBlood: {
       rank: -1,
@@ -454,6 +244,10 @@ export const account = {
       rank: 209751,
       score: 398,
     },
+    whisperer: {
+      rank: -1,
+      score: -1,
+    },
     wintertodt: {
       rank: 589629,
       score: 181,
@@ -470,5 +264,211 @@ export const account = {
       rank: 327720,
       score: 152,
     },
+  },
+  bountyHunter: {
+    hunter: {
+      rank: -1,
+      score: -1,
+    },
+    hunterV2: {
+      rank: -1,
+      score: -1,
+    },
+    rogue: {
+      rank: -1,
+      score: -1,
+    },
+    rogueV2: {
+      rank: -1,
+      score: -1,
+    },
+  },
+  clues: {
+    all: {
+      rank: 204288,
+      score: 313,
+    },
+    beginner: {
+      rank: 534282,
+      score: 8,
+    },
+    easy: {
+      rank: 251703,
+      score: 27,
+    },
+    elite: {
+      rank: 178116,
+      score: 26,
+    },
+    hard: {
+      rank: 97874,
+      score: 217,
+    },
+    master: {
+      rank: 260502,
+      score: 4,
+    },
+    medium: {
+      rank: 387064,
+      score: 31,
+    },
+  },
+  collectionsLogged: {
+    rank: -1,
+    score: -1,
+  },
+  colosseumGlory: {
+    rank: -1,
+    score: -1,
+  },
+  combatLevel: 126,
+  deadmanPoints: {
+    rank: -1,
+    score: -1,
+  },
+  lastManStanding: {
+    rank: 280319,
+    score: 536,
+  },
+  leaguePoints: {
+    rank: -1,
+    score: -1,
+  },
+  name: 'A Squeezer',
+  pvpArena: {
+    rank: -1,
+    score: -1,
+  },
+  questPoints: 300,
+  rank: 31748,
+  riftsClosed: {
+    rank: 510867,
+    score: 43,
+  },
+  skills: {
+    agility: {
+      level: 84,
+      rank: 296040,
+      xp: 3135919,
+    },
+    attack: {
+      level: 99,
+      rank: 209891,
+      xp: 15057003,
+    },
+    construction: {
+      level: 85,
+      rank: 303230,
+      xp: 3258621,
+    },
+    cooking: {
+      level: 99,
+      rank: 130879,
+      xp: 13800774,
+    },
+    crafting: {
+      level: 99,
+      rank: 84868,
+      xp: 13645482,
+    },
+    defence: {
+      level: 99,
+      rank: 244468,
+      xp: 13595705,
+    },
+    farming: {
+      level: 99,
+      rank: 243143,
+      xp: 13245384,
+    },
+    firemaking: {
+      level: 88,
+      rank: 603071,
+      xp: 4473930,
+    },
+    fishing: {
+      level: 99,
+      rank: 125754,
+      xp: 13052764,
+    },
+    fletching: {
+      level: 99,
+      rank: 223800,
+      xp: 13036552,
+    },
+    herblore: {
+      level: 85,
+      rank: 366503,
+      xp: 3376252,
+    },
+    hitpoints: {
+      level: 99,
+      rank: 280654,
+      xp: 23817468,
+    },
+    hunter: {
+      level: 87,
+      rank: 256655,
+      xp: 4200146,
+    },
+    magic: {
+      level: 99,
+      rank: 377497,
+      xp: 13429705,
+    },
+    mining: {
+      level: 99,
+      rank: 88776,
+      xp: 13369968,
+    },
+    overall: {
+      level: 2185,
+      rank: 128092,
+      xp: 252737198,
+    },
+    prayer: {
+      level: 90,
+      rank: 249810,
+      xp: 5689303,
+    },
+    ranged: {
+      level: 99,
+      rank: 380024,
+      xp: 15904871,
+    },
+    runecraft: {
+      level: 91,
+      rank: 136245,
+      xp: 6387413,
+    },
+    slayer: {
+      level: 99,
+      rank: 132848,
+      xp: 14162676,
+    },
+    smithing: {
+      level: 98,
+      rank: 131398,
+      xp: 12084488,
+    },
+    strength: {
+      level: 99,
+      rank: 337927,
+      xp: 14660672,
+    },
+    thieving: {
+      level: 91,
+      rank: 252496,
+      xp: 6154434,
+    },
+    woodcutting: {
+      level: 99,
+      rank: 135561,
+      xp: 13197668,
+    },
+  },
+  soulWarsZeal: {
+    rank: 191499,
+    score: 277,
   },
 };

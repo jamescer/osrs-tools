@@ -1,38 +1,36 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const FightArena: Quest = {
-  id: 0,
-  name: 'Fight Arena',
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'fightArena',
-  url: 'https://oldschool.runescape.wiki/w/Fight_Arena',
-  series: 'Mahjarrat',
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Experienced,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
+  miniquest: false,
+  name: 'Fight Arena',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: 'Mahjarrat',
+  shortName: 'fightArena',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Fight_Arena',
 };
 
 export default FightArena;

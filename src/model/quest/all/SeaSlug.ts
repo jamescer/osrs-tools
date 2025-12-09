@@ -1,38 +1,37 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const SeaSlug: Quest = {
-  id: 0,
-  name: 'Sea Slug',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'seaSlug',
-  url: 'https://oldschool.runescape.wiki/w/Sea_Slug',
-  series: 'Sea Slug',
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
+  miniquest: false,
+  name: 'Sea Slug',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: 'Sea Slug',
+  shortName: 'seaSlug',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Sea_Slug',
 };
 
 export default SeaSlug;

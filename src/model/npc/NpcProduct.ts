@@ -1,8 +1,8 @@
-import { Item } from '../Item/Item';
+import { Item } from "../Item/Item";
 
 // NpcProduct.ts
 export interface NpcProductMaterial {
-  item: any; // Reference to the item object or class
+  item: Item; // Name of the item
   quantity: number;
 }
 

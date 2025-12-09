@@ -1,39 +1,37 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const GettingAhead: Quest = {
-  id: 0,
-  name: 'Getting Ahead',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'gettingAhead',
-  url: 'https://oldschool.runescape.wiki/w/Getting_Ahead',
-  series: 'Twisted Tales',
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Short,
+  members: true,
+  miniquest: false,
+  name: 'Getting Ahead',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: 'Twisted Tales',
+  shortName: 'gettingAhead',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Getting_Ahead',
 };
 
 export default GettingAhead;

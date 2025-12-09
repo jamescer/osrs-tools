@@ -1,42 +1,41 @@
-import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const SpiritsOfTheElid: Quest = {
-  id: 0,
-  name: 'Spirits of the Elid',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Intermediate,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Spirits of the Elid',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new LevelRequirement('Magic', 33, false),
     new LevelRequirement('Thieving', 37, false),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'spiritsOfTheElid',
-  url: 'https://oldschool.runescape.wiki/w/Spirits_of_the_Elid',
-  series: null,
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'spiritsOfTheElid',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Spirits_of_the_Elid',
 };
 
 export default SpiritsOfTheElid;

@@ -1,7 +1,7 @@
 import {
   CombatLevelRequirement,
-  SlayerLevelRequirement,
   QuestRequirement,
+  SlayerLevelRequirement,
 } from '../../Requirement';
 import { Task } from '../Task';
 

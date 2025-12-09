@@ -1,38 +1,37 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const MurderMystery: Quest = {
-  id: 0,
-  name: 'Murder Mystery',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Medium,
-  requirements: [],
-  questPoints: 3,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'murderMystery',
-  url: 'https://oldschool.runescape.wiki/w/Murder_Mystery',
-  series: null,
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Murder Mystery',
+  questPoints: 3,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'murderMystery',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Murder_Mystery',
 };
 
 export default MurderMystery;

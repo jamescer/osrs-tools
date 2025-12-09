@@ -1,37 +1,37 @@
-import { Quest, QuestStatus } from '../Quest';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const VampyreSlayer: Quest = {
-  id: 0,
-  name: 'Vampyre Slayer',
-  members: false,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Medium,
-  requirements: [],
-  questPoints: 3,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'vampyreSlayer',
-  url: 'https://oldschool.runescape.wiki/w/Vampyre_Slayer',
-  series: null,
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Medium,
+  members: false,
+  miniquest: false,
+  name: 'Vampyre Slayer',
+  questPoints: 3,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 3,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 3,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'vampyreSlayer',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Vampyre_Slayer',
 };
 
 export default VampyreSlayer;

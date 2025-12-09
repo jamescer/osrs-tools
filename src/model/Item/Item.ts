@@ -1,3 +1,44 @@
+/**
+ * Interface representing the JSON structure of an Item.
+ */
+export interface ItemJson {
+  id: number;
+  name: string;
+  examine: string;
+  value: number;
+  highAlch: number;
+  lowAlch: number;
+  weight: number;
+  members: boolean;
+  tradeable: boolean;
+  equipable: boolean;
+  releaseDate: string;
+  destroy: string;
+  questItem: boolean;
+  stackable: boolean;
+  noted: boolean;
+  officialWikiUrl: string;
+  iconUrl?: string;
+  attackStab?: number;
+  attackSlash?: number;
+  attackCrush?: number;
+  attackMagic?: number;
+  attackRanged?: number;
+  defenceStab?: number;
+  defenceSlash?: number;
+  defenceCrush?: number;
+  defenceMagic?: number;
+  defenceRanged?: number;
+  strengthBonus?: number;
+  rangedStrength?: number;
+  magicDamage?: number;
+  meleeStrength?: number;
+  prayer?: number;
+}
+
+/**
+ * Represents an item in the game. This class encapsulates all the properties and methods related to an item.
+ */
 export class Item {
   id: number;
   name: string;
@@ -14,6 +55,7 @@ export class Item {
   questItem: boolean;
   stackable: boolean;
   noted: boolean;
+  notable = false;
   officialWikiUrl: string;
   iconUrl?: string;
 
@@ -68,6 +110,7 @@ export class Item {
     magicDamage?: number,
     prayer?: number,
     quantity?: number,
+    notable: boolean = false,
   ) {
     this.id = id;
     this.name = name;
@@ -103,6 +146,7 @@ export class Item {
     this.magicDamage = magicDamage;
     this.prayer = prayer;
     this.quantity = quantity || 1; // Default quantity to 1 if not provided
+    this.notable = notable;
   }
 
   get Id() {
@@ -323,7 +367,7 @@ export class Item {
     this.prayer = value;
   }
 
-  static fromJson(json: any): Item {
+  static fromJson(json: ItemJson): Item {
     return new Item(
       json.id,
       json.name,

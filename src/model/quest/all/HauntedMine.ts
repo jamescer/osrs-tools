@@ -1,39 +1,38 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const HauntedMine: Quest = {
-  id: 0,
-  name: 'Haunted Mine',
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Long,
-  requirements: [],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'hauntedMine',
-  url: 'https://oldschool.runescape.wiki/w/Haunted_Mine',
-  series: null,
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Experienced,
+  id: 0,
+  length: QuestLength.Long,
+  members: true,
+  miniquest: false,
+  name: 'Haunted Mine',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [{ skill: Skill.Strength, amount: 22000 }],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 22000, skill: Skill.Strength }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'hauntedMine',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Haunted_Mine',
 };
 
 export default HauntedMine;

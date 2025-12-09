@@ -1,13 +1,19 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const RumDeal: Quest = {
-  id: 0,
-  name: 'Rum Deal',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Rum Deal',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Zogre Flesh Eaters'),
     new LevelRequirement('Crafting', 42, false),
@@ -16,30 +22,23 @@ const RumDeal: Quest = {
     new LevelRequirement('Prayer', 47, false),
     new LevelRequirement('Slayer', 42, false),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'rumDeal',
-  url: 'https://oldschool.runescape.wiki/w/Rum_Deal',
-  series: 'Pirate',
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: 'Pirate',
+  shortName: 'rumDeal',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Rum_Deal',
 };
 
 export default RumDeal;

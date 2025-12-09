@@ -94,4 +94,7 @@ export const QuestList: string[] = [
   "Witch's Potion",
   'X Marks the Spot',
   'Zogre Flesh Eaters',
+  'The Final Dawn',
+  'Shadows of Custodia',
+  'Scrambled!',
 ];

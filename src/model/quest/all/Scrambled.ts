@@ -1,46 +1,44 @@
 // URL: https://oldschool.runescape.wiki/w/Scrambled!
 
-import { Quest, QuestStatus } from '../../quest/Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { Quest, QuestStatus } from '../../quest/Quest';
 import { QuestDifficulty, QuestLength } from '../enums';
 
 const Scrambled: Quest = {
-  id: 0,
-  name: 'Scrambled!',
-  members: false,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.VeryShort,
-  requirements: [],
-  questPoints: 1,
-  startLocation: 'Egg Shrine, south of Falador',
+  age: '',
   description: 'Help the Egg Shrine priest recover the lost eggs and restore the shrine.',
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.VeryShort,
+  members: false,
+  miniquest: false,
+  name: 'Scrambled!',
+  questPoints: 1,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
+  rewards: {
+    areas: ['Egg Shrine'],
+    experience: [{ amount: 100, skill: Skill.Cooking }],
+    items: [{ name: 'Egg Shrine Token', quantity: 1 }],
+    lamps: [],
+    pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [{ description: 'Access to the Egg Shrine' }],
+  },
+  series: null,
+  shortName: 'scrambled',
+  startLocation: 'Egg Shrine, south of Falador',
+  status: QuestStatus.NotStarted,
   steps: [
     'Speak to the Egg Shrine priest south of Falador.',
     'Collect the lost eggs scattered around the area.',
     'Return the eggs to the priest.',
     'Restore the Egg Shrine.',
   ],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'scrambled',
   url: 'https://oldschool.runescape.wiki/w/Scrambled!',
-  series: null,
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
-  rewards: {
-    experience: [{ skill: Skill.Cooking, amount: 100 }],
-    questPoints: 1,
-    items: [{ name: 'Egg Shrine Token', quantity: 1 }],
-    areas: ['Egg Shrine'],
-    unlocks: [{ description: 'Access to the Egg Shrine' }],
-    lamps: [],
-    points: [],
-    pets: [],
-  },
 };
 
 export default Scrambled;

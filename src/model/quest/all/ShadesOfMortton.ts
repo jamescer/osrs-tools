@@ -1,42 +1,41 @@
-import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const ShadesOfMortton: Quest = {
-  id: 0,
-  name: 'Shades of Mortton',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Intermediate,
+  id: 0,
   length: QuestLength.Short,
+  members: true,
+  miniquest: false,
+  name: 'Shades of Mortton',
+  questPoints: 3,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new LevelRequirement('Crafting', 20, false),
     new LevelRequirement('Herblore', 15, false),
   ],
-  questPoints: 3,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'shadesOfMortton',
-  url: 'https://oldschool.runescape.wiki/w/Shades_of_Mortton',
-  series: null,
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 3,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 3,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'shadesOfMortton',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Shades_of_Mortton',
 };
 
 export default ShadesOfMortton;

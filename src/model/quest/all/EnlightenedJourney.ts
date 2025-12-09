@@ -1,38 +1,44 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const EnlightenedJourney: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Enlightened Journey',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Short,
-  requirements: [], // Skills: quest 20, Firemaking 20, Farming 30, Crafting 36
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'enlightenedJourney',
-  url: 'https://oldschool.runescape.wiki/w/Enlightened_Journey',
-  series: null,
   age: '',
+  description: '',
 
+  difficulty: QuestDifficulty.Intermediate,
+
+  id: 0,
+
+  length: QuestLength.Short,
+
+  members: true,
+
+  miniquest: false,
+
+  // Assign a unique ID if available
+  name: 'Enlightened Journey',
+  // Skills: quest 20, Firemaking 20, Farming 30, Crafting 36
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'enlightenedJourney',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Enlightened_Journey',
 };
 
 export default EnlightenedJourney;

@@ -3,13 +3,47 @@ coverage:
     project:
       default:
         target: 80%
+        threshold: 1%
     patch:
       default:
         target: 80%
+        threshold: 1%
 
 comment:
-  layout: 'reach, diff, flags, files'
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: true
+
+parsers:
+  javascript:
+    enable_partials: yes
+
+github_checks:
+  annotations: true
+
+coverage:
+  status:
+    project:
+      default:
+        target: 80%
+        threshold: 1%
+    patch:
+      default:
+        target: 80%
+        threshold: 1%
+
+comment:
+  layout: "reach, diff, flags, files"
   behavior: default
   require_changes: false
-  require_base: no
-  require_head: yes
+  require_base: false
+  require_head: true
+
+ignore:
+  - "dist/**/*"
+  - "coverage/**/*"
+  - "node_modules/**/*"
+  - "build/**/*"
+  - "examples/*"
+  - "test/**/*"
+  - "**/*.test.ts"

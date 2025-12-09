@@ -1,53 +1,52 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const Biohazard: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Biohazard',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Medium,
-  requirements: [],
-  questPoints: 3,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'biohazard',
-  url: 'https://oldschool.runescape.wiki/w/Biohazard',
-  series: 'Elf',
   age: '',
-    recommendations: [
-      {
-        type: 'item',
-        name: 'Food',
-        note: 'Useful for travel and minor combat.'
-      },
-      {
-        type: 'tip',
-        name: 'Energy potions',
-        note: 'Useful for running between locations.'
-      }
-    ],
-    recommendedSkills: {},
-    recommendedPrayers: [],
-    rewards: {
-      experience: [
-        { skill: 'Thieving', amount: 1250 }
-      ],
-      questPoints: 3,
-      items: [
-        { name: 'Access to East Ardougne' }
-      ],
-      areas: ['East Ardougne'],
-      unlocks: [
-        { description: 'Ability to enter East Ardougne freely' }
-      ],
-      lamps: [],
-      points: [],
-      pets: [],
+  description: '',
+
+  difficulty: QuestDifficulty.Novice,
+
+  id: 0,
+
+  length: QuestLength.Medium,
+
+  members: true,
+
+  miniquest: false,
+  // Assign a unique ID if available
+  name: 'Biohazard',
+  questPoints: 3,
+  recommendations: [
+    {
+      name: 'Food',
+      note: 'Useful for travel and minor combat.',
+      type: 'item',
     },
+    {
+      name: 'Energy potions',
+      note: 'Useful for running between locations.',
+      type: 'tip',
+    },
+  ],
+  recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
+  rewards: {
+    areas: ['East Ardougne'],
+    experience: [{ amount: 1250, skill: 'Thieving' }],
+    items: [{ name: 'Access to East Ardougne' }],
+    lamps: [],
+    pets: [],
+    points: [],
+    questPoints: 3,
+    unlocks: [{ description: 'Ability to enter East Ardougne freely' }],
+  },
+  series: 'Elf',
+  shortName: 'biohazard',
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Biohazard',
 };
 
 export default Biohazard;

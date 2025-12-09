@@ -1,38 +1,44 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const FamilyCrest: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Family Crest',
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Medium,
-  requirements: [], // Skills: Mining 40, Smithing 40, Magic 59, Crafting 40
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'familyCrest',
-  url: 'https://oldschool.runescape.wiki/w/Family_Crest',
-  series: null,
   age: '',
+  description: '',
 
+  difficulty: QuestDifficulty.Experienced,
+
+  id: 0,
+
+  length: QuestLength.Medium,
+
+  members: true,
+
+  miniquest: false,
+
+  // Assign a unique ID if available
+  name: 'Family Crest',
+  // Skills: Mining 40, Smithing 40, Magic 59, Crafting 40
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'familyCrest',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Family_Crest',
 };
 
 export default FamilyCrest;

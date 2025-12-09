@@ -1,14 +1,20 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const SwanSong: Quest = {
-  id: 0,
-  name: 'Swan Song',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Swan Song',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('One Small Favour'),
     new LevelRequirement('Magic', 66, false),
@@ -17,30 +23,23 @@ const SwanSong: Quest = {
     new LevelRequirement('Smithing', 45, false),
     new LevelRequirement('Firemaking', 42, false),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'swanSong',
-  url: 'https://oldschool.runescape.wiki/w/Swan_Song',
-  series: null,
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'swanSong',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Swan_Song',
 };
 
 export default SwanSong;

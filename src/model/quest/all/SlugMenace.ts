@@ -1,14 +1,20 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const SlugMenace: Quest = {
-  id: 0,
-  name: 'Slug Menace',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Intermediate,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Slug Menace',
+  questPoints: 1,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Sea Slug'),
     new QuestRequirement('Wanted!'),
@@ -18,30 +24,23 @@ const SlugMenace: Quest = {
     new LevelRequirement('Slayer', 30, false),
     new LevelRequirement('Thieving', 30, false),
   ],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'slugMenace',
-  url: 'https://oldschool.runescape.wiki/w/Slug_Menace',
-  series: 'Sea Slug',
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: 'Sea Slug',
+  shortName: 'slugMenace',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Slug_Menace',
 };
 
 export default SlugMenace;

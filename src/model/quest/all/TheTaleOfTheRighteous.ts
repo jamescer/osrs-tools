@@ -1,41 +1,40 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheTaleOfTheRighteous: Quest = {
-  id: 0,
-  name: 'The Tale of the Righteous',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Novice,
+  id: 0,
   length: QuestLength.Short,
+  members: true,
+  miniquest: false,
+  name: 'The Tale of the Righteous',
+  questPoints: 1,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Client of Kourend'),
     new LevelRequirement('Agility', 16, false),
   ],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'theTaleOfTheRighteous',
-  url: 'https://oldschool.runescape.wiki/w/The_Tale_of_the_Righteous',
-  series: 'Great Kourend',
-  age: '',
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: 'Great Kourend',
+  shortName: 'theTaleOfTheRighteous',
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/The_Tale_of_the_Righteous',
 };
 
 export default TheTaleOfTheRighteous;

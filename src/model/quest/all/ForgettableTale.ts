@@ -1,38 +1,36 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const ForgettableTale: Quest = {
-  id: 0,
-  name: 'Forgettable Tale...',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Long,
-  requirements: [],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'forgettableTale',
-  url: 'https://oldschool.runescape.wiki/w/Forgettable_Tale...',
-  series: 'Rise of the Red Axe',
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Long,
+  members: true,
+  miniquest: false,
+  name: 'Forgettable Tale...',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: 'Rise of the Red Axe',
+  shortName: 'forgettableTale',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Forgettable_Tale...',
 };
 
 export default ForgettableTale;

@@ -1,38 +1,42 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const DwarfCannon: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Dwarf Cannon',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'dwarfCannon',
-  url: 'https://oldschool.runescape.wiki/w/Dwarf_Cannon',
-  series: null,
   age: '',
+  description: '',
 
+  difficulty: QuestDifficulty.Novice,
+
+  id: 0,
+
+  length: QuestLength.Short,
+
+  members: true,
+
+  miniquest: false,
+  // Assign a unique ID if available
+  name: 'Dwarf Cannon',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [{ skill: Skill.Crafting, amount: 750 }],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 750, skill: 'Crafting' }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'dwarfCannon',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Dwarf_Cannon',
 };
 
 export default DwarfCannon;

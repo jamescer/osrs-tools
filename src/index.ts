@@ -1,10 +1,7 @@
 export { QuestTool } from './model/quest/QuestTool';
 
 // Quest Exports
-export * from './model/quest/types';
-export * from './model/quest/enums';
-export * from './model/quest/requirements';
-export * from './model/quest/Quest';
+export { OsrsAccount } from './model/account/OsrsAccount';
 export * from './model/quest/all/AKingdomDivided';
 export * from './model/quest/all/AnimalMagnetism';
 export * from './model/quest/all/AnotherSliceOfHAM';
@@ -24,7 +21,6 @@ export * from './model/quest/all/ClientOfKourend';
 export * from './model/quest/all/ClockTower';
 export * from './model/quest/all/ColdWar';
 export * from './model/quest/all/Contact';
-export * from './model/quest/all/CookAssistant';
 export * from './model/quest/all/CooksAssistant';
 export * from './model/quest/all/CreatureOfFenkenstrain';
 export * from './model/quest/all/DarknessOfHallowvale';
@@ -35,7 +31,7 @@ export * from './model/quest/all/DesertTreasure';
 export * from './model/quest/all/DeviousMinds';
 export * from './model/quest/all/DoricQuest';
 export * from './model/quest/all/DoricsQuest';
-export * from './model/quest/all/DragonSlayer';
+export * from './model/quest/all/DragonSlayerI';
 export * from './model/quest/all/DragonSlayerII';
 export * from './model/quest/all/DreamMentor';
 export * from './model/quest/all/DruidicRitual';
@@ -137,15 +133,18 @@ export * from './model/quest/all/WhatLiesBelow';
 export * from './model/quest/all/WitchesPotion';
 export * from './model/quest/all/WitchsHouse';
 export * from './model/quest/all/ZogreFleshEaters';
-export { OsrsAccount } from './model/account/OsrsAccount';
+export * from './model/quest/enums';
+export * from './model/quest/Quest';
+export * from './model/quest/requirements';
+export * from './model/quest/types';
 
 // Slayer Exports
 export * from './model/account/Skill';
 export * from './model/Item/Item';
 export * from './model/slayer/Masters';
-export * from './model/slayer/SlayerMaster';
-export * from './model/slayer/Task';
-export { SlayerReward, SlayerBuy, SlayerUnlock, SlayerExtend } from './model/slayer/SlayerReward';
-export { SlayerUnlocks } from './model/slayer/SlayerUnlock';
-export { SlayerExtends } from './model/slayer/SlayerExtends';
 export { SlayerBuys } from './model/slayer/SlayerBuys';
+export { SlayerExtends } from './model/slayer/SlayerExtends';
+export * from './model/slayer/SlayerMaster';
+export { SlayerBuy, SlayerExtend, SlayerReward, SlayerUnlock } from './model/slayer/SlayerReward';
+export { SlayerUnlocks } from './model/slayer/SlayerUnlock';
+export * from './model/slayer/Task';

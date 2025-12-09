@@ -1,13 +1,20 @@
-import { Quest, QuestStatus } from '../Quest';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const LegendsQuest: Quest = {
-  id: 0,
-  name: "Legends' Quest",
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Master,
+  id: 0,
   length: QuestLength.VeryLong,
+  members: true,
+  miniquest: false,
+  name: "Legends' Quest",
+  questPoints: 4,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Family Crest'),
     new QuestRequirement("Heroes' Quest"),
@@ -25,30 +32,23 @@ const LegendsQuest: Quest = {
     new LevelRequirement('Thieving', 50, false),
     new LevelRequirement('Woodcutting', 50, false),
   ],
-  questPoints: 4,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'legendsQuest',
-  url: 'https://oldschool.runescape.wiki/w/Legends%27_Quest',
-  series: 'Guild',
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 4,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 4,
+    unlocks: [],
   },
+  series: 'Guild',
+  shortName: 'legendsQuest',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Legends%27_Quest',
 };
 
 export default LegendsQuest;

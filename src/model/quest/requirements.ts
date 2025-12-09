@@ -145,20 +145,20 @@ export function createLevelRequirement(
   description?: string,
 ): LevelRequirement {
   return {
-    type: RequirementType.Level,
-    skillName,
-    level,
     boostable,
     description: description || `${level} ${skillName}`,
+    level,
+    skillName,
+    type: RequirementType.Level,
   };
 }
 
 /** Helper function to create a quest requirement */
 export function createQuestRequirement(questName: string, description?: string): QuestRequirement {
   return {
-    type: RequirementType.Quest,
-    questName,
     description: description || `Completion of ${questName}`,
+    questName,
+    type: RequirementType.Quest,
   };
 }
 
@@ -168,9 +168,9 @@ export function createQuestPointRequirement(
   description?: string,
 ): QuestPointRequirement {
   return {
-    type: RequirementType.QuestPoint,
-    points,
     description: description || `${points} Quest Points`,
+    points,
+    type: RequirementType.QuestPoint,
   };
 }
 
@@ -182,10 +182,10 @@ export function createItemRequirement(
   description?: string,
 ): ItemRequirement {
   return {
-    type: RequirementType.Item,
-    itemName,
-    quantity,
     consumed,
     description: description || `${quantity}x ${itemName}${consumed ? ' (consumed)' : ''}`,
+    itemName,
+    quantity,
+    type: RequirementType.Item,
   };
 }

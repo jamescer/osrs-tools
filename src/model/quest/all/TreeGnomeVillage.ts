@@ -1,38 +1,37 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TreeGnomeVillage: Quest = {
-  id: 0,
-  name: 'Tree Gnome Village',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Medium,
-  requirements: [],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'treeGnomeVillage',
-  url: 'https://oldschool.runescape.wiki/w/Tree_Gnome_Village',
-  series: 'Gnome',
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Novice,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Tree Gnome Village',
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: 'Gnome',
+  shortName: 'treeGnomeVillage',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Tree_Gnome_Village',
 };
 
 export default TreeGnomeVillage;

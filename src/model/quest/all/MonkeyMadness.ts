@@ -1,42 +1,41 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const MonkeyMadness: Quest = {
-  id: 0,
-  name: 'Monkey Madness',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Master,
+  id: 0,
   length: QuestLength.Long,
+  members: true,
+  miniquest: false,
+  name: 'Monkey Madness',
+  questPoints: 3,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('The Grand Tree'),
     new QuestRequirement('Tree Gnome Village'),
   ],
-  questPoints: 3,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'monkeyMadness',
-  url: 'https://oldschool.runescape.wiki/w/Monkey_Madness',
-  series: 'Gnome',
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [{ skill: Skill.Strength, amount: 10000 }],
-    questPoints: 3,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 10000, skill: 'Strength' }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 3,
+    unlocks: [],
   },
+  series: 'Gnome',
+  shortName: 'monkeyMadness',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Monkey_Madness',
 };
 
 export default MonkeyMadness;

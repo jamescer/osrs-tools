@@ -1,39 +1,38 @@
-import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TrollStronghold: Quest = {
-  id: 0,
-  name: 'Troll Stronghold',
-  members: true,
-  difficulty: QuestDifficulty.Experienced,
-  length: QuestLength.Medium,
-  requirements: [new QuestRequirement('Death Plateau')],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'trollStronghold',
-  url: 'https://oldschool.runescape.wiki/w/Troll_Stronghold',
-  series: 'Troll',
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Experienced,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Troll Stronghold',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [new QuestRequirement('Death Plateau')],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: 'Troll',
+  shortName: 'trollStronghold',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Troll_Stronghold',
 };
 
 export default TrollStronghold;

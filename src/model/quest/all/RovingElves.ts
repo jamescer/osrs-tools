@@ -1,38 +1,37 @@
-import { Quest, QuestStatus } from '../Quest';
 import { QuestRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const RovingElves: Quest = {
-  id: 0,
-  name: 'Roving Elves',
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Medium,
-  requirements: [new QuestRequirement('Regicide'), new QuestRequirement('Waterfall Quest')],
-  questPoints: 1,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'rovingElves',
-  url: 'https://oldschool.runescape.wiki/w/Roving_Elves',
-  series: 'Elf',
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Roving Elves',
+  questPoints: 1,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [new QuestRequirement('Regicide'), new QuestRequirement('Waterfall Quest')],
   rewards: {
-    experience: [],
-    questPoints: 1,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 1,
+    unlocks: [],
   },
+  series: 'Elf',
+  shortName: 'rovingElves',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Roving_Elves',
 };
 
 export default RovingElves;

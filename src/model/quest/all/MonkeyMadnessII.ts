@@ -1,14 +1,21 @@
-import { Quest, QuestStatus } from '../Quest';
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const MonkeyMadnessII: Quest = {
-  id: 0,
-  name: 'Monkey Madness II',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Grandmaster,
+  id: 0,
   length: QuestLength.VeryLong,
+  members: true,
+  miniquest: false,
+  name: 'Monkey Madness II',
+  questPoints: 4,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Monkey Madness'),
     new QuestRequirement('Recipe for Disaster'),
@@ -22,33 +29,26 @@ const MonkeyMadnessII: Quest = {
     new LevelRequirement('Slayer', 60, false),
     new LevelRequirement('Thieving', 55, false),
   ],
-  questPoints: 4,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'monkeyMadnessII',
-  url: 'https://oldschool.runescape.wiki/w/Monkey_Madness_II',
-  series: 'Gnome',
-  age: '',
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [
-      { skill: Skill.Agility, amount: 15000 },
-      { skill: Skill.Hunter, amount: 15000 },
-      { skill: Skill.Thieving, amount: 15000 },
-    ],
-    questPoints: 4,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 15000, skill: Skill.Agility },
+      { amount: 15000, skill: Skill.Hunter },
+      { amount: 15000, skill: Skill.Thieving },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 4,
+    unlocks: [],
   },
+  series: 'Gnome',
+  shortName: 'monkeyMadnessII',
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Monkey_Madness_II',
 };
 
 export default MonkeyMadnessII;

@@ -1,43 +1,42 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const IcthlarinsLittleHelper: Quest = {
-  id: 0,
-  name: "Icthlarin's Little Helper",
-  members: true,
-  difficulty: QuestDifficulty.Intermediate,
-  length: QuestLength.Long,
-  requirements: [],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'icthlarinsLittleHelper',
-  url: 'https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper',
-  series: 'Desert',
   age: '',
-
+  description: '',
+  difficulty: QuestDifficulty.Intermediate,
+  id: 0,
+  length: QuestLength.Long,
+  members: true,
+  miniquest: false,
+  name: "Icthlarin's Little Helper",
+  questPoints: 2,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [
-      { skill: Skill.Agility, amount: 4000 },
-      { skill: Skill.Thieving, amount: 4500 },
-      { skill: Skill.Woodcutting, amount: 4000 },
-    ],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [
+      { amount: 4000, skill: Skill.Agility },
+      { amount: 4500, skill: Skill.Thieving },
+      { amount: 4000, skill: Skill.Woodcutting },
+    ],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: 'Desert',
+  shortName: 'icthlarinsLittleHelper',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper',
 };
 
 export default IcthlarinsLittleHelper;

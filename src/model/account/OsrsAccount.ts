@@ -1,11 +1,40 @@
 interface SkillDetail {
-  rank: number;
+  rank?: number;
   level: number;
-  xp: number;
+  xp?: number;
 }
 
 interface Skill {
   level: number;
+}
+
+interface SkillJsonDetail {
+  rank?: number;
+  level: number;
+  xp?: number;
+}
+
+interface OsrsAccountJson {
+  name?: string;
+  main?: {
+    combatLevel?: number;
+    questPoints?: number;
+    skills?: Record<string, SkillJsonDetail>;
+  };
+  combatLevel?: number;
+  questPoints?: number;
+  skills: Record<string, SkillJsonDetail>;
+  lastManStanding?: BossScore;
+  pvpArena?: BossScore;
+  soulWarsZeal?: BossScore;
+  riftsClosed?: BossScore;
+  colosseumGlory?: BossScore;
+  collectionsLogged?: BossScore;
+  leaguePoints?: BossScore;
+  deadmanPoints?: BossScore;
+  bosses?: Bosses;
+  clues?: Clues;
+  bountyHunter?: BountyHunter;
 }
 
 interface Skills {
@@ -97,7 +126,7 @@ class OsrsAccount {
     this.#deadmanPoints = data.deadmanPoints;
   }
 
-  static fromJson(json: any): OsrsAccount {
+  static fromJson(json: OsrsAccountJson): OsrsAccount {
     const name = json.name || '';
     const combatLevel = json.main?.combatLevel ?? json.combatLevel ?? 3;
     const questPoints = json.main?.questPoints ?? json.questPoints ?? 0;
@@ -108,8 +137,8 @@ class OsrsAccount {
     for (const key of Object.keys(srcSkills)) {
       skills[key.toLowerCase()] = { level: srcSkills[key].level };
       skillsDetail[key.toLowerCase()] = {
-        rank: srcSkills[key].rank,
         level: srcSkills[key].level,
+        rank: srcSkills[key].rank,
         xp: srcSkills[key].xp,
       };
     }
@@ -127,22 +156,22 @@ class OsrsAccount {
     const leaguePoints: BossScore | undefined = json.leaguePoints;
     const deadmanPoints: BossScore | undefined = json.deadmanPoints;
     return new OsrsAccount({
-      name,
+      bosses,
+      bountyHunter,
+      clues,
+      collectionsLogged,
+      colosseumGlory,
       combatLevel,
+      deadmanPoints,
+      lastManStanding,
+      leaguePoints,
+      name,
+      pvpArena,
       questPoints,
+      riftsClosed,
       skills,
       skillsDetail,
-      bosses,
-      clues,
-      bountyHunter,
-      lastManStanding,
-      pvpArena,
       soulWarsZeal,
-      riftsClosed,
-      colosseumGlory,
-      collectionsLogged,
-      leaguePoints,
-      deadmanPoints,
     });
   }
 
@@ -232,35 +261,35 @@ class OsrsAccount {
 
   toJson(): OsrsAccountData {
     return {
-      name: this.#name,
+      bosses: this.#bosses,
+      bountyHunter: this.#bountyHunter,
+      clues: this.#clues,
+      collectionsLogged: this.#collectionsLogged,
+      colosseumGlory: this.#colosseumGlory,
       combatLevel: this.#combatLevel,
+      deadmanPoints: this.#deadmanPoints,
+      lastManStanding: this.#lastManStanding,
+      leaguePoints: this.#leaguePoints,
+      name: this.#name,
+      pvpArena: this.#pvpArena,
       questPoints: this.#questPoints,
+      riftsClosed: this.#riftsClosed,
       skills: this.#skills,
       skillsDetail: this.#skillsDetail,
-      bosses: this.#bosses,
-      clues: this.#clues,
-      bountyHunter: this.#bountyHunter,
-      lastManStanding: this.#lastManStanding,
-      pvpArena: this.#pvpArena,
       soulWarsZeal: this.#soulWarsZeal,
-      riftsClosed: this.#riftsClosed,
-      colosseumGlory: this.#colosseumGlory,
-      collectionsLogged: this.#collectionsLogged,
-      leaguePoints: this.#leaguePoints,
-      deadmanPoints: this.#deadmanPoints,
     };
   }
 }
 
 export {
-  OsrsAccount,
-  OsrsAccountData,
-  Skills,
-  Skill,
-  SkillsDetail,
   Bosses,
   BossScore,
+  BountyHunter,
   Clues,
   ClueScore,
-  BountyHunter,
+  OsrsAccount,
+  OsrsAccountData,
+  Skill,
+  Skills,
+  SkillsDetail,
 };

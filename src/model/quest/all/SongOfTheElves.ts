@@ -1,12 +1,19 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const SongOfTheElves: Quest = {
-  id: 0,
-  name: 'Song of the Elves',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Grandmaster,
+  id: 0,
   length: QuestLength.VeryLong,
+  members: true,
+  miniquest: false,
+  name: 'Song of the Elves',
+  questPoints: 4,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement("Mourning's End Part II"),
     new LevelRequirement('Agility', 70, false),
@@ -18,30 +25,23 @@ const SongOfTheElves: Quest = {
     new LevelRequirement('Smithing', 70, false),
     new LevelRequirement('Woodcutting', 70, false),
   ],
-  questPoints: 4,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'songOfTheElves',
-  url: 'https://oldschool.runescape.wiki/w/Song_of_the_Elves',
-  series: 'Elf',
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: 'Elf',
+  shortName: 'songOfTheElves',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Song_of_the_Elves',
 };
 
 export default SongOfTheElves;

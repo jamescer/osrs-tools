@@ -17,10 +17,10 @@ export class OsrsToolsError extends Error {
    */
   toJSON() {
     return {
-      name: this.name,
       message: this.message,
-      timestamp: this.timestamp,
+      name: this.name,
       stack: this.stack,
+      timestamp: this.timestamp,
     };
   }
 }
@@ -105,8 +105,8 @@ export class ApiError extends OsrsToolsError {
   toJSON() {
     return {
       ...super.toJSON(),
-      statusCode: this.statusCode,
       endpoint: this.endpoint,
+      statusCode: this.statusCode,
     };
   }
 }
@@ -135,9 +135,9 @@ export class ValidationError extends OsrsToolsError {
   toJSON() {
     return {
       ...super.toJSON(),
+      constraints: this.constraints,
       field: this.field,
       value: this.value,
-      constraints: this.constraints,
     };
   }
 }

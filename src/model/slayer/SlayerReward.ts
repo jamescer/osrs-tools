@@ -39,9 +39,9 @@ class SlayerReward {}
 
 export const SlayerRewards = [
   new SlayerUnlock({
-    name: 'Abyssal Sire',
     cost: 3000000,
     description: 'Unlocks the Abyssal Sire as a slayer task.',
+    name: 'Abyssal Sire',
   }),
 ];
 

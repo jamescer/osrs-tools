@@ -1,44 +1,43 @@
-import { Quest, QuestStatus } from '../Quest';
-import { QuestRequirement, LevelRequirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TaiBwoWannaiTrio: Quest = {
-  id: 0,
-  name: 'Tai Bwo Wannai Trio',
-  members: true,
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Experienced,
+  id: 0,
   length: QuestLength.Medium,
+  members: true,
+  miniquest: false,
+  name: 'Tai Bwo Wannai Trio',
+  questPoints: 2,
+  recommendations: [],
+  recommendedPrayers: [],
+  recommendedSkills: {},
   requirements: [
     new QuestRequirement('Jungle Potion'),
     new LevelRequirement('Cooking', 30, false),
     new LevelRequirement('Fishing', 15, false),
     new LevelRequirement('Agility', 15, false),
   ],
-  questPoints: 2,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'taiBwoWannaiTrio',
-  url: 'https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio',
-  series: 'Karamja',
-  age: '',
-
-  recommendations: [],
-  recommendedSkills: {},
-  recommendedPrayers: [],
   rewards: {
-    experience: [],
-    questPoints: 2,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 2,
+    unlocks: [],
   },
+  series: 'Karamja',
+  shortName: 'taiBwoWannaiTrio',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio',
 };
 
 export default TaiBwoWannaiTrio;

@@ -15,51 +15,18 @@
 
 Explore the project interactively on CodeSandbox:
 
-[![Edit on CodeSandbox](https://img.shields.io/badge/CodeSandbox-View-blue?logo=codesandbox&style=for-the-badge)](https://codesandbox.io/p/sandbox/kcw48w)
+[![Edit on CodeSandbox](https://img.shields.io/badge/CodeSandbox-View-blue?logo=codesandbox&style=for-the-badge)](https://codesandbox.io/p/sandbox/xtgp9k)
 
 ---
 
 ## Table of Contents
 
-- [Features](#features)
 - [Installation](#installation)
 - [Examples](#examples)
-- [API Reference](#api-reference)
 - [Development](#development)
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
-
-## Features
-
-✨ **Quest System**
-
-- Complete quest database with requirements and rewards
-- Quest dependency tracking and validation
-- Experience and item reward calculations
-- Quest point tracking
-- Support for miniquests
-
-🎯 **Skill & Level System**
-
-- Skill level tracking and validation
-- Support for boostable requirements
-- Combat level calculations
-- Quest point requirements
-
-🗡️ **Items & Equipment**
-
-- Comprehensive item database
-- Equipment statistics
-- Trading and value information
-- Quest item tracking
-
-👹 **Slayer System**
-
-- Full slayer master task lists
-- Task weights and assignment logic
-- Slayer requirement validation
-- Reward shop data
 
 ## Installation
 
@@ -107,7 +74,7 @@ const tasks = Duradel.tasks;
 
 // Get random assignment
 const task = Duradel.getRandomTask();
-console.log(task.name);         // e.g., "Abyssal demons"
+console.log(task.name); // e.g., "Abyssal demons"
 console.log(task.requirements); // Shows requirements
 ```
 
@@ -122,55 +89,19 @@ const account = OsrsAccount.fromJson({
   skills: {
     attack: { level: 60 },
     strength: { level: 55 },
-    defence: { level: 50 }
-  }
+    defence: { level: 50 },
+  },
 });
 
 // Get skill levels
 const attackLevel = account.getSkill('attack')?.level;
 ```
 
-## API Reference
-
-### Core Types
-
-```typescript
-interface Quest {
-  id: number;
-  name: string;
-  difficulty: QuestDifficulty;
-  requirements: Requirement[];
-  rewards: QuestRewards;
-  status: QuestStatus;
-}
-
-interface QuestRewards {
-  experience?: QuestRewardExperience[];
-  items?: QuestRewardItem[];
-  questPoints: number;
-}
-
-interface Requirement {
-  type: RequirementType;
-  // Common requirement properties
-}
-
-interface LevelRequirement extends Requirement {
-  skillName: string;
-  level: number;
-  boostable: boolean;
-}
-
-interface QuestRequirement extends Requirement {
-  questName: string;
-}
-```
-
 ### Documentation Links
 
 - [Full API Documentation](https://github.com/jamescer/osrs-tools/wiki)
 - [Type Definitions](https://github.com/jamescer/osrs-tools/blob/master/src/model/quest/types.ts)
-- [Code Examples](https://github.com/jamescer/osrs-tools/tree/master/examples)
+- [Code Examples](https://github.com/jamescer/osrs-tools//examples)
 
 ## Development
 
@@ -189,14 +120,14 @@ npm test
 
 ### Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `build` | Build the project |
-| `test` | Run tests |
+| Command      | Description             |
+| ------------ | ----------------------- |
+| `build`      | Build the project       |
+| `test`       | Run tests               |
 | `test:watch` | Run tests in watch mode |
-| `lint` | Lint the code |
-| `format` | Format the code |
-| `docs` | Generate documentation |
+| `lint`       | Lint the code           |
+| `format`     | Format the code         |
+| `docs`       | Generate documentation  |
 
 ## Contributing
 
@@ -242,4 +173,3 @@ Need help or want to contribute?
 - **Author**: [James Cerniglia](mailto:jamesmcerniglia@gmail.com)
 - **Contributors**: [View all contributors](https://github.com/jamescer/osrs-tools/graphs/contributors)
 - **Data Source**: [Old School RuneScape Wiki](https://oldschool.runescape.wiki/)
-

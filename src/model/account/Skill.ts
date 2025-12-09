@@ -1,25 +1,36 @@
+
+
+/**
+ * Enumeration of possible skills in the game.
+ * Used for accessing skill-related data in accounts.
+ * See:: https://oldschool.runescape.wiki/w/Skills
+ * @enum {string}
+ * @readonly
+ * @reference Skill names from OSRS APIv1
+ */
 export enum Skill {
-  Attack = 'Attack',
-  Defence = 'Defence',
-  Strength = 'Strength',
-  Hitpoints = 'Hitpoints',
-  Ranged = 'Ranged',
-  Prayer = 'Prayer',
-  Magic = 'Magic',
-  Cooking = 'Cooking',
-  Woodcutting = 'Woodcutting',
-  Fletching = 'Fletching',
-  Fishing = 'Fishing',
-  Firemaking = 'Firemaking',
-  Crafting = 'Crafting',
-  Smithing = 'Smithing',
-  Mining = 'Mining',
-  Herblore = 'Herblore',
   Agility = 'Agility',
-  Thieving = 'Thieving',
-  Slayer = 'Slayer',
-  Farming = 'Farming',
-  Runecraft = 'Runecraft',
-  Hunter = 'Hunter',
+  Attack = 'Attack',
   Construction = 'Construction',
+  Cooking = 'Cooking',
+  Crafting = 'Crafting',
+  Defence = 'Defence',
+  Farming = 'Farming',
+  Firemaking = 'Firemaking',
+  Fishing = 'Fishing',
+  Fletching = 'Fletching',
+  Herblore = 'Herblore',
+  Hitpoints = 'Hitpoints',
+  Hunter = 'Hunter',
+  Magic = 'Magic',
+  Mining = 'Mining',
+  Prayer = 'Prayer',
+  Ranged = 'Ranged',
+  Runecraft = 'Runecraft',
+  Sailing = 'Sailing',
+  Slayer = 'Slayer',
+  Smithing = 'Smithing',
+  Strength = 'Strength',
+  Thieving = 'Thieving',
+  Woodcutting = 'Woodcutting',
 }

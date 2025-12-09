@@ -1,38 +1,42 @@
-import { Quest, QuestStatus } from '../Quest';
-import { Requirement } from '../../Requirement';
-import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const DruidicRitual: Quest = {
-  id: 0, // Assign a unique ID if available
-  name: 'Druidic Ritual',
-  members: true,
-  difficulty: QuestDifficulty.Novice,
-  length: QuestLength.Short,
-  requirements: [],
-  questPoints: 4,
-  startLocation: '',
-  description: '',
-  steps: [],
-  status: QuestStatus.NotStarted,
-  miniquest: false,
-  shortName: 'druidicRitual',
-  url: 'https://oldschool.runescape.wiki/w/Druidic_Ritual',
-  series: null,
   age: '',
+  description: '',
 
+  difficulty: QuestDifficulty.Novice,
+
+  id: 0,
+
+  length: QuestLength.Short,
+
+  members: true,
+
+  miniquest: false,
+  // Assign a unique ID if available
+  name: 'Druidic Ritual',
+  questPoints: 4,
   recommendations: [],
-  recommendedSkills: {},
   recommendedPrayers: [],
+  recommendedSkills: {},
+  requirements: [],
   rewards: {
-    experience: [{ skill: Skill.Herblore, amount: 250 }],
-    questPoints: 4,
-    items: [],
     areas: [],
-    unlocks: [],
+    experience: [{ amount: 250, skill: 'Herblore' }],
+    items: [],
     lamps: [],
-    points: [],
     pets: [],
+    points: [],
+    questPoints: 4,
+    unlocks: [],
   },
+  series: null,
+  shortName: 'druidicRitual',
+
+  startLocation: '',
+  status: QuestStatus.NotStarted,
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Druidic_Ritual',
 };
 
 export default DruidicRitual;

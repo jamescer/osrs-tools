@@ -1,18 +1,20 @@
-import { getExperienceForLevel, getLevelForExperience, LEVEL_TO_EXPERIENCE } from '../../../src/tools/experience';
+import {
+  getExperienceForLevel,
+  getLevelForExperience,
+  LEVEL_TO_EXPERIENCE,
+} from '../../../src/tools/experience';
 
 /**
  * Test the experience module
  */
 describe('Experience', () => {
   it('should calculate experience for levels correctly', () => {
-
     const levelExpMap = LEVEL_TO_EXPERIENCE;
 
     for (const [levelStr, expectedExp] of Object.entries(levelExpMap)) {
       const level = parseInt(levelStr, 10);
       expect(getExperienceForLevel(level)).toBe(expectedExp);
     }
-
   });
 
   // test getLevelForExperience

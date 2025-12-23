@@ -1,6 +1,6 @@
-import { Quest, QuestStatus } from '../../../src/model/quest/Quest';
-import { QuestDifficulty, QuestLength } from '../../../src/model/quest/types';
-import { LevelRequirement, QuestRequirement } from '../../../src/model/Requirement';
+import { Quest, QuestStatus } from '../../../source/model/quest/Quest';
+import { QuestDifficulty, QuestLength } from '../../../source/model/quest/types';
+import { LevelRequirement, QuestRequirement } from '../../../source/model/Requirement';
 
 export const simpleQuest: Quest = {
   age: 'Fifth',

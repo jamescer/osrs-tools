@@ -8,7 +8,7 @@ import {
   RequirementType,
   SlayerLevelRequirement,
   SlayerUnlockRequirement,
-} from '../../../src/model/Requirement';
+} from '../../../source/runescape/model/Requirement';
 
 describe('Requirement', () => {
   it('should create a QuestRequirement', () => {

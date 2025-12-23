@@ -1,5 +1,5 @@
 // Test for the Tureal data from the JSON file
-import { Duradel } from '../../../../src/model/slayer/Masters';
+import { Duradel } from '../../../../source/runescape/model/slayer/Masters';
 
 describe('Duradel', () => {
   it('should be defined', () => {

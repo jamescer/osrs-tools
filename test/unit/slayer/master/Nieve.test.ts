@@ -1,4 +1,4 @@
-import { Nieve } from '../../../../src/model/slayer/Masters';
+import { Nieve } from '../../../../source/runescape/model/slayer/Masters';
 
 describe('Nieve', () => {
   it('should be defined', () => {

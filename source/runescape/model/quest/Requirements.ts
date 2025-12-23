@@ -7,28 +7,28 @@
  */
 export enum RequirementType {
   /** Level requirement for a specific skill */
-  Level = 'Level',
+  Level = "Level",
 
   /** Required combat level */
-  CombatLevel = 'CombatLevel',
+  CombatLevel = "CombatLevel",
 
   /** Required Slayer level */
-  SlayerLevel = 'SlayerLevel',
+  SlayerLevel = "SlayerLevel",
 
   /** Quest that must be completed */
-  Quest = 'Quest',
+  Quest = "Quest",
 
   /** Number of quest points needed */
-  QuestPoint = 'QuestPoint',
+  QuestPoint = "QuestPoint",
 
   /** Item that must be possessed */
-  Item = 'Item',
+  Item = "Item",
 
   /** Location that must be accessible */
-  Location = 'Location',
+  Location = "Location",
 
   /** Slayer reward that must be unlocked */
-  SlayerUnlock = 'SlayerUnlock',
+  SlayerUnlock = "SlayerUnlock",
 }
 
 /**
@@ -138,12 +138,7 @@ export interface SlayerUnlockRequirement extends Requirement {
 }
 
 /** Helper function to create a level requirement */
-export function createLevelRequirement(
-  skillName: string,
-  level: number,
-  boostable: boolean = false,
-  description?: string,
-): LevelRequirement {
+export function createLevelRequirement(skillName: string, level: number, boostable: boolean = false, description?: string): LevelRequirement {
   return {
     boostable,
     description: description || `${level} ${skillName}`,
@@ -163,10 +158,7 @@ export function createQuestRequirement(questName: string, description?: string):
 }
 
 /** Helper function to create a quest points requirement */
-export function createQuestPointRequirement(
-  points: number,
-  description?: string,
-): QuestPointRequirement {
+export function createQuestPointRequirement(points: number, description?: string): QuestPointRequirement {
   return {
     description: description || `${points} Quest Points`,
     points,
@@ -175,15 +167,10 @@ export function createQuestPointRequirement(
 }
 
 /** Helper function to create an item requirement */
-export function createItemRequirement(
-  itemName: string,
-  quantity: number = 1,
-  consumed: boolean = false,
-  description?: string,
-): ItemRequirement {
+export function createItemRequirement(itemName: string, quantity: number = 1, consumed: boolean = false, description?: string): ItemRequirement {
   return {
     consumed,
-    description: description || `${quantity}x ${itemName}${consumed ? ' (consumed)' : ''}`,
+    description: description || `${quantity}x ${itemName}${consumed ? " (consumed)" : ""}`,
     itemName,
     quantity,
     type: RequirementType.Item,

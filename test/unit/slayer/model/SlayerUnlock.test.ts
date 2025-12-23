@@ -1,4 +1,4 @@
-import { SlayerUnlock, SlayerUnlocks } from '../../../../src/model/slayer/SlayerUnlock';
+import { SlayerUnlock, SlayerUnlocks } from '../../../../source/runescape/model/slayer/SlayerUnlock';
 describe('SlayerUnlock', () => {
   it('should create a SlayerUnlock instance with correct properties', () => {
     const unlock = new SlayerUnlock('Test Unlock', 100, 'Test description');

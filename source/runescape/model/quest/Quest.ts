@@ -11,19 +11,10 @@ import {
   Requirement,
   RequirementType,
   SlayerUnlockRequirement,
-} from './requirements';
-import {
-  Quest,
-  QuestRewardExperience,
-  QuestRewardItem,
-  QuestRewardLamp,
-  QuestRewardPet,
-  QuestRewardPoints,
-  QuestRewards,
-  QuestRewardUnlock,
-  QuestStatus,
-} from './types';
+} from "./Requirements";
+import { Quest, QuestRewardExperience, QuestRewardItem, QuestRewardLamp, QuestRewardPet, QuestRewardPoints, QuestRewards, QuestRewardUnlock, QuestStatus } from "./types";
 
+import { QuestDifficulty, QuestLength } from "./types";
 export {
   createItemRequirement,
   createLevelRequirement,

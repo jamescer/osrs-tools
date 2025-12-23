@@ -1,14 +1,10 @@
-import {
-  getExperienceForLevel,
-  getLevelForExperience,
-  LEVEL_TO_EXPERIENCE,
-} from '../../../src/tools/experience';
+import { getExperienceForLevel, getLevelForExperience, LEVEL_TO_EXPERIENCE } from "../../../source/runescape/tools/experience";
 
 /**
  * Test the experience module
  */
-describe('Experience', () => {
-  it('should calculate experience for levels correctly', () => {
+describe("Experience", () => {
+  it("should calculate experience for levels correctly", () => {
     const levelExpMap = LEVEL_TO_EXPERIENCE;
 
     for (const [levelStr, expectedExp] of Object.entries(levelExpMap)) {
@@ -18,7 +14,7 @@ describe('Experience', () => {
   });
 
   // test getLevelForExperience
-  it('should calculate level for experience correctly', () => {
+  it("should calculate level for experience correctly", () => {
     const expLevelMap = LEVEL_TO_EXPERIENCE;
 
     const randomExp = [0, 500, 2000, 10000, 50000, 200000, 1000000, 5000000, 13034431];

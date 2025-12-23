@@ -1,4 +1,4 @@
-import { Chaeldar } from '../../../../src/model/slayer/Masters';
+import { Chaeldar } from '../../../../source/runescape/model/slayer/Masters';
 
 describe('Chaeldar', () => {
   it('should be defined', () => {

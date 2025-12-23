@@ -1,4 +1,4 @@
-import { Cache } from '../../../src/utils/cache';
+import { Cache } from '../../../source/runescape/utils/cache';
 
 describe('Cache', () => {
   let cache: Cache<string>;

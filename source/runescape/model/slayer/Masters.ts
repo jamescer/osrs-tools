@@ -1,4 +1,4 @@
-import { SlayerMaster } from '../../model/slayer/SlayerMaster';
+import { SlayerMaster } from './SlayerMaster';
 import { chaeldarTasks } from './task/ChaelderTasks';
 import { duradelTasks } from './task/DuradelTasks';
 import { konarTasks } from './task/KonarTasks';

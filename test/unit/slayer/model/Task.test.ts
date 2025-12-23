@@ -1,5 +1,5 @@
-import { Requirement, SlayerLevelRequirement } from '../../../../src/model/Requirement';
-import { Task, TaskJson } from '../../../../src/model/slayer/Task';
+import { Requirement, SlayerLevelRequirement } from '../../../../source/runescape/model/Requirement';
+import { Task, TaskJson } from '../../../../source/runescape/model/slayer/Task';
 
 describe('Task', () => {
   let mockRequirements: Requirement[];

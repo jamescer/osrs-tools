@@ -1,6 +1,6 @@
-import { Requirement, SlayerLevelRequirement } from '../../../../src/model/Requirement';
-import { Assignment } from '../../../../src/model/slayer/Assignment';
-import { Task } from '../../../../src/model/slayer/Task';
+import { Requirement, SlayerLevelRequirement } from '../../../../source/runescape/model/Requirement';
+import { Assignment } from '../../../../source/runescape/model/slayer/Assignment';
+import { Task } from '../../../../source/runescape/model/slayer/Task';
 
 describe('Assignment', () => {
   it('should set properties correctly via constructor', () => {

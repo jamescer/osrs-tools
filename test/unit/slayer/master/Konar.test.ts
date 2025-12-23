@@ -1,4 +1,4 @@
-import { KonarQuoMaten } from '../../../../src/model/slayer/Masters';
+import { KonarQuoMaten } from '../../../../source/runescape/model/slayer/Masters';
 
 describe('Konar Quo Maten', () => {
   it('should be defined', () => {

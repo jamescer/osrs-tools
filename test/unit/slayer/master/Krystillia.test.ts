@@ -1,4 +1,4 @@
-import { Krystilia } from '../../../../src/model/slayer/Masters';
+import { Krystilia } from '../../../../source/runescape/model/slayer/Masters';
 
 describe('Krystilia', () => {
   it('should be defined', () => {

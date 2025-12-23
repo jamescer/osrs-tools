@@ -1,7 +1,7 @@
 // URL: https://oldschool.runescape.wiki/w/Meat_and_Greet
 
 import { Skill } from '../../account/Skill';
-import { Quest, QuestStatus } from '../../quest/Quest';
+import { Quest, QuestStatus } from '../Quest';
 import { QuestDifficulty, QuestLength } from '../enums';
 
 const MeatAndGreet: Quest = {

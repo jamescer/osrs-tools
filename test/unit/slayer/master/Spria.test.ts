@@ -1,5 +1,5 @@
 // Test for the Spria data from the JSON file
-import { Spria } from '../../../../src/model/slayer/Masters';
+import { Spria } from '../../../../source/runescape/model/slayer/Masters';
 
 describe('Spria', () => {
   it('should be defined', () => {

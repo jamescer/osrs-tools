@@ -1,7 +1,7 @@
 // URL: https://oldschool.runescape.wiki/w/Scrambled!
 
 import { Skill } from '../../account/Skill';
-import { Quest, QuestStatus } from '../../quest/Quest';
+import { Quest, QuestStatus } from '../Quest';
 import { QuestDifficulty, QuestLength } from '../enums';
 
 const Scrambled: Quest = {

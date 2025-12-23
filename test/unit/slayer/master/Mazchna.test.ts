@@ -1,4 +1,4 @@
-import { Mazchna } from '../../../../src/model/slayer/Masters';
+import { Mazchna } from '../../../../source/runescape/model/slayer/Masters';
 
 describe('Mazchna', () => {
   it('should be defined', () => {

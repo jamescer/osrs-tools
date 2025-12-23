@@ -1,5 +1,5 @@
 import { QuestDifficulty, QuestLength, QuestStatus } from './enums';
-import { Requirement } from './requirements';
+import { Requirement } from './Requirements';
 
 /**
  * Types and interfaces for the OSRS Quests system

@@ -2,7 +2,7 @@
 //  this would be the real import
 // import { QuestTool } from 'osrs-tools';
 
-import { QuestTool } from '../src/model/quest/QuestTool';
+import { QuestTool } from '../runescape/model/quest/QuestTool';
 
 /**
  * This is a code example file for the OSRS Tools library.

@@ -1,42 +1,11 @@
 {
   "name": "osrs-tools",
   "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and game item information",
-  "version": "2.3.0",
-  "license": "MIT",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
-    }
-  },
-  "sideEffects": false,
-  "files": [
-    "dist/**"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jamescer/osrs-tools.git"
-  },
-  "keywords": [
-    "osrs",
-    "runescape",
-    "typescript",
-    "quest",
-    "game-data"
-  ],
+  "version": "2.3.1",
   "scripts": {
-    "run:osrs-tools-demo": "npm --prefix ./projects/osrs-tools-demo run start",
-    "build:osrs-tools": "tsc -p tsconfig.osrs-tools.json",
-      "build:osrs-tools-demo": "npm --prefix ./projects/osrs-tools-demo run build",
-      "package:osrs-tools": "node ./scripts/assemble-package.js",
-      "pack-and-install-demo": "node ./scripts/pack-and-install-demo.js",
+    "build:osrs-tools": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
     "build:osrs-tools:npm": "tsc -p tsconfig.build.json",
-    "clean": "rimraf dist coverage",
     "dev": "tsc --watch -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
@@ -91,5 +60,32 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  }
+  },
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/**"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamescer/osrs-tools.git"
+  },
+  "keywords": [
+    "osrs",
+    "runescape",
+    "typescript",
+    "quest",
+    "game-data"
+  ]
 }

@@ -1,4 +1,4 @@
-import { Vannaka } from '../../../../src/model/slayer/Masters';
+import { Vannaka } from '../../../../source/runescape/model/slayer/Masters';
 
 describe('Vannaka', () => {
   it('should be defined', () => {

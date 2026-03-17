@@ -66,5 +66,3 @@ const HorrorFromTheDeep: Quest = {
 };
 
 export default HorrorFromTheDeep;
-
-export default HorrorFromTheDeep;

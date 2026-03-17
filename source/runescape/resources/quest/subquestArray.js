@@ -1,4 +1,4 @@
-module.exports = exports = [
+export const subquestArray = [
   {
     "Pirate Pete subquest of Recipe for Disaster": {
       difficulty: "Special",

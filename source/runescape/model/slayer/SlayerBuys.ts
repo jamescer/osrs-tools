@@ -34,5 +34,3 @@ const SlayerBuys: SlayerBuy[] = [
 ];
 
 export { SlayerBuy, SlayerBuys };
-
-module.exports = exports = { SlayerBuys };

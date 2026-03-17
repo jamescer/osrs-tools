@@ -1,4 +1,4 @@
-module.exports = exports = [
+export const questDataArray = [
   {
     difficulty: "Novice",
     members: true,

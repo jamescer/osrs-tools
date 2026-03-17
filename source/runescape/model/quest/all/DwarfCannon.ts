@@ -1,19 +1,14 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
+
 const DwarfCannon: Quest = {
-  age: '',
-  description: '',
-
+  age: 'Third Age',
+  description: 'Help the dwarves by delivering a cannon to a friend in need.',
   difficulty: QuestDifficulty.Novice,
-
   id: 0,
-
   length: QuestLength.Short,
-
-  members: true,
-
+  members: false,
   miniquest: false,
-  // Assign a unique ID if available
   name: 'Dwarf Cannon',
   questPoints: 1,
   recommendations: [],
@@ -33,9 +28,15 @@ const DwarfCannon: Quest = {
   series: null,
   shortName: 'dwarfCannon',
 
-  startLocation: '',
+  startLocation: 'Falador south of the lodestone',
   status: QuestStatus.NotStarted,
-  steps: [],
+  steps: [
+    'Speak to the dwarf captain south of Falador.',
+    'The captain asks you to deliver a cannon to a friend.',
+    'Collect the cannon from the dwarf.',
+    'Travel to the designated location and assemble the cannon.',
+    'Return to the captain to complete the quest.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Dwarf_Cannon',
 };
 

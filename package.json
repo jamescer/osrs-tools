@@ -1,29 +1,64 @@
 {
   "name": "osrs-tools",
+  "version": "2.3.2",
   "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and game item information",
-  "version": "2.3.1",
+  "license": "MIT",
+  "keywords": [
+    "osrs",
+    "runescape",
+    "typescript",
+    "quest",
+    "game-data"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamescer/osrs-tools.git"
+  },
+  "homepage": "https://github.com/jamescer/osrs-tools#readme",
+  "bugs": {
+    "url": "https://github.com/jamescer/osrs-tools/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "build:osrs-tools": "tsc -p tsconfig.json",
     "build": "tsc -p tsconfig.json",
+    "build:osrs-tools": "tsc -p tsconfig.json",
     "build:osrs-tools:npm": "tsc -p tsconfig.build.json",
+    "clean": "rimraf dist",
+    "coverage": "jest --coverage && codecov",
     "dev": "tsc --watch -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "getAccountData": "ts-node tools/GetAccountData.ts",
+    "getQuestDetails": "ts-node tools/GetQuestDetails.ts",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
+    "postpublish": "git push && git push --tags",
+    "prebuild": "npm run clean",
+    "prepublishOnly": "npm run build && npm test",
+    "preversion": "npm test",
     "runExample": "ts-node examples/ExampleQuest.ts",
     "scrapeQuestList": "ts-node tools/ScrapeQuestData.ts",
     "scrapeSlayerData": "ts-node tools/ScrapeSlayerData.ts",
-    "getAccountData": "ts-node tools/GetAccountData.ts",
-    "getQuestDetails": "ts-node tools/GetQuestDetails.ts",
-    "prebuild": "npm run clean",
-    "prepublishOnly": "npm run build && npm test",
     "test": "jest",
+    "test:ci": "jest --ci --coverage",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "test:ci": "jest --ci --coverage",
-    "coverage": "jest --coverage && codecov",
-    "postpublish": "git push && git push --tags",
-    "preversion": "npm test",
     "version": "npm run build && git add dist"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
@@ -60,32 +95,5 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "license": "MIT",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
-    }
-  },
-  "sideEffects": false,
-  "files": [
-    "dist/**"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jamescer/osrs-tools.git"
-  },
-  "keywords": [
-    "osrs",
-    "runescape",
-    "typescript",
-    "quest",
-    "game-data"
-  ]
+  }
 }

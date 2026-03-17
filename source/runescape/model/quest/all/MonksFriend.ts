@@ -8,7 +8,7 @@ const MonksFriend: Quest = {
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
-  members: true,
+  members: false,
   miniquest: false,
   name: "Monk's Friend",
   questPoints: 1,

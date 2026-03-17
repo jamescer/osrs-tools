@@ -4,7 +4,7 @@ import { Quest, QuestStatus } from '../Quest';
 const RumDeal: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Medium,
   members: true,

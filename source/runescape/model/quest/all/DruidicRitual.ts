@@ -1,19 +1,14 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
+
 const DruidicRitual: Quest = {
-  age: '',
-  description: '',
-
+  age: 'Third Age',
+  description: 'Help the druids of Taibwo Taiboa island by performing a ritual during a sacred ceremony.',
   difficulty: QuestDifficulty.Novice,
-
   id: 0,
-
   length: QuestLength.Short,
-
   members: true,
-
   miniquest: false,
-  // Assign a unique ID if available
   name: 'Druidic Ritual',
   questPoints: 4,
   recommendations: [],
@@ -33,9 +28,15 @@ const DruidicRitual: Quest = {
   series: null,
   shortName: 'druidicRitual',
 
-  startLocation: '',
+  startLocation: 'Taibwo Taiboa island',
   status: QuestStatus.NotStarted,
-  steps: [],
+  steps: [
+    'Travel to Taibwo Taiboa island and speak to the druid.',
+    'The druid tells you about a sacred herblore ceremony.',
+    'Collect the required ingredients: olive oil, a goat horn, serrated bones, and herbs.',
+    'Travel to the sacred altar and perform the ritual.',
+    'Use your ingredients to complete the druidic ritual.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Druidic_Ritual',
 };
 

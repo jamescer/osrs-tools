@@ -10,7 +10,7 @@ const Regicide: Quest = {
   members: true,
   miniquest: false,
   name: 'Regicide',
-  questPoints: 2,
+  questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},

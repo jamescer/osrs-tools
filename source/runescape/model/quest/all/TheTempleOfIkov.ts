@@ -5,7 +5,7 @@ import { Quest, QuestStatus } from '../Quest';
 const TheTempleOfIkov: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Medium,
   members: true,

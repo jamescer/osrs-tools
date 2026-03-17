@@ -1,8 +1,15 @@
-import { Cache } from '../../utils/cache';
-import { OsrsAccount } from '../account/OsrsAccount';
-import { LevelRequirement, QuestRequirement, RequirementType } from '../Requirement';
-import { Quest } from './Quest';
+import { Cache } from "../../utils/cache";
+import { OsrsAccount } from "../account/OsrsAccount";
+import { LevelRequirement, QuestRequirement, RequirementType } from "../Requirement";
+import AKingdomDivided from "./all/AKingdomDivided";
+import { Quest } from "./Quest";
 
+/**
+ * OSRS Quest utility tool
+ *
+ * @description A tool to help with quest-related operations, such as checking if an account can complete a quest.
+ * @author James Cerniglia
+ */
 class QuestTool {
   private osrsAccount: OsrsAccount | undefined;
   private static questCache = new Cache<Quest>({ maxSize: 200, ttl: 3600000 }); // 1 hour TTL
@@ -48,10 +55,7 @@ class QuestTool {
       if (req.type === RequirementType.Quest) {
         // Recursively check quest requirements
         const questReq = req as QuestRequirement;
-        if (
-          !questReq ||
-          !this.canCompleteQuest(QuestTool.getQuestByName(questReq.questName), visited)
-        ) {
+        if (!questReq || !this.canCompleteQuest(QuestTool.getQuestByName(questReq.questName), visited)) {
           return false;
         }
       } else if (req.type === RequirementType.Level) {
@@ -83,9 +87,9 @@ class QuestTool {
   static getQuestByName(questName: string): Quest | undefined {
     // Normalize quest name to match file naming convention
     const normalized = questName
-      .replace(/[^a-zA-Z0-9]/g, '') // Remove non-alphanumeric
-      .replace(/\s+/g, '') // Remove spaces
-      .replace(/^./, c => c.toUpperCase());
+      .replace(/[^a-zA-Z0-9]/g, "") // Remove non-alphanumeric
+      .replace(/\s+/g, "") // Remove spaces
+      .replace(/^./, (c) => c.toUpperCase());
 
     // Check cache first
     const cached = QuestTool.questCache.get(normalized);
@@ -106,9 +110,17 @@ class QuestTool {
       // Cache the result if found
       if (quest) {
         QuestTool.questCache.set(normalized, quest);
+        return quest;
       }
 
-      return quest;
+      //todo add quest name guessing logic here
+      switch (questName.toLocaleLowerCase()) {
+        case "a kingdome divided":
+        case "aKingdomDivided":
+          return AKingdomDivided;
+      }
+
+      return undefined;
     } catch (e) {
       return undefined;
     }

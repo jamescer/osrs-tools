@@ -4,7 +4,7 @@ import { Quest, QuestStatus } from '../Quest';
 const GettingAhead: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Intermediate,
+  difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
   members: true,

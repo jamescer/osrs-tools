@@ -4,7 +4,7 @@ const CabinFever: Quest = {
   age: '',
   description: '',
 
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
 

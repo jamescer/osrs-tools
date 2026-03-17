@@ -5,7 +5,7 @@ const ElementalWorkshopII: Quest = {
   age: '',
   description: '',
 
-  difficulty: QuestDifficulty.Intermediate,
+  difficulty: QuestDifficulty.Novice,
 
   id: 0,
 

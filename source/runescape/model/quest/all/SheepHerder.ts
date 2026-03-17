@@ -2,8 +2,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const SheepHerder: Quest = {
-  age: '',
-  description: '',
+  age: 'First Age',
+  description: 'Help a farmer herd sheep and manage a farm in the countryside.',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
@@ -17,8 +17,8 @@ const SheepHerder: Quest = {
   requirements: [],
   rewards: {
     areas: [],
-    experience: [],
-    items: [],
+    experience: [{ amount: 1200, skill: 'Herding' }],
+    items: [{ name: 'Experience lamp' }],
     lamps: [],
     pets: [],
     points: [],
@@ -28,9 +28,16 @@ const SheepHerder: Quest = {
   series: null,
   shortName: 'sheepHerder',
 
-  startLocation: '',
+  startLocation: 'Catherby farm',
   status: QuestStatus.NotStarted,
-  steps: [],
+  steps: [
+    'Travel to Catherby farm.',
+    'Speak to the farmer.',
+    'Learn about the sheep escaping.',
+    'Gather and herd the sheep.',
+    'Return them to the farm.',
+    'Complete the herding task.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Sheep_Herder',
 };
 

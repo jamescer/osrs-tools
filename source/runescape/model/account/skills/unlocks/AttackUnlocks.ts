@@ -85,7 +85,7 @@ export interface AttackUnlock extends SkillUnlock {
   name: string;
   description: string;
   skill: Skill.Attack;
-  otherRequirements?: Requirement[];
+  requirements?: Requirement[];
 }
 
 /** Attack skill unlocks */
@@ -94,7 +94,7 @@ export const AttackUnlocks: AttackUnlock[] = [
     level: 1,
     name: "Bronze",
     description: "None.",
-    skill: Skill.Attack
+    skill: Skill.Attack,
   },
   {
     level: 1,
@@ -124,7 +124,7 @@ export const AttackUnlocks: AttackUnlock[] = [
     level: 10,
     name: "White",
     description: "Completion of the Wanted! quest.",
-    otherRequirements: [ QuestRequirement.fromQuestName("Wanted!") ],
+    requirements: [QuestRequirement.fromQuestName("Wanted!")],
     skill: Skill.Attack,
   },
   {

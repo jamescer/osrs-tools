@@ -5,7 +5,7 @@ const ATasteOfHope: Quest = {
   age: '',
   description: '',
 
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
 
@@ -18,7 +18,7 @@ const ATasteOfHope: Quest = {
   // Assign a unique ID if available
   name: 'A Taste of Hope',
   // Quests: Darkness of Hallowvale, Skills: Crafting 48, Agility 45, Attack 40, Herblore 40, Slayer 38
-  questPoints: 1,
+  questPoints: 2,
   recommendations: [
     {
       name: 'High combat stats (80+ recommended)',
@@ -54,7 +54,7 @@ const ATasteOfHope: Quest = {
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 1,
+    questPoints: 2,
     unlocks: [
       { description: 'Access to Darkmeyer' },
       { description: 'Ability to use Drakan’s medallion teleport' },

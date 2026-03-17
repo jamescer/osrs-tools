@@ -2,9 +2,9 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheGolem: Quest = {
-  age: '',
-  description: '',
-  difficulty: QuestDifficulty.Intermediate,
+  age: 'Third Age',
+  description: 'Investigate a mysterious golem in the desert and help the surrounding community.',
+  difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Medium,
   members: true,
@@ -17,7 +17,7 @@ const TheGolem: Quest = {
   requirements: [],
   rewards: {
     areas: [],
-    experience: [],
+    experience: [{ amount: 1000, skill: 'Magic' }],
     items: [],
     lamps: [],
     pets: [],
@@ -28,9 +28,16 @@ const TheGolem: Quest = {
   series: null,
   shortName: 'theGolem',
 
-  startLocation: '',
+  startLocation: 'Desert town',
   status: QuestStatus.NotStarted,
-  steps: [],
+  steps: [
+    'Travel to the desert town.',
+    'Speak to the locals.',
+    'Discover the legend of the golem.',
+    'Find clues about the golem\'s location.',
+    'Face the golem in the desert.',
+    'Resolve the conflict and return.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/The_Golem',
 };
 

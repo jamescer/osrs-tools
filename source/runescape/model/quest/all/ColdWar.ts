@@ -8,7 +8,7 @@ const ColdWar: Quest = {
 
   id: 0,
 
-  length: QuestLength.Long,
+  length: QuestLength.MediumLong,
 
   members: true,
 
@@ -17,7 +17,7 @@ const ColdWar: Quest = {
   // Assign a unique ID if available
   name: 'Cold War',
   // Skills: Hunter 10, Agility 30, Crafting 30, Construction 34, Thieving 15
-  questPoints: 1,
+  questPoints: 2,
   recommendations: [
     { name: '10 oak planks', quantity: 10, type: 'item' },
     { name: '10 steel nails', quantity: 10, type: 'item' },

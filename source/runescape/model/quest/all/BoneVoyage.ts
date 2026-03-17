@@ -8,7 +8,7 @@ const BoneVoyage: Quest = {
 
   id: 0,
 
-  length: QuestLength.Short,
+  length: QuestLength.ShortMedium,
 
   members: true,
 

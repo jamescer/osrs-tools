@@ -5,10 +5,10 @@ import { Quest, QuestStatus } from '../Quest';
 const ShadowOfTheStorm: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Intermediate,
+  difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Medium,
-  members: true,
+  members: false,
   miniquest: false,
   name: 'Shadow of the Storm',
   questPoints: 1,

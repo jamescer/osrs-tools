@@ -1,3 +1,4 @@
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { QuestStatus } from '../Quest';
 
@@ -15,10 +16,9 @@ const DreamMentor = {
 
   miniquest: false,
 
-  // TODO: Replace with actual ID
   name: 'Dream Mentor',
 
-  questPoints: 2,
+  questPoints: 1,
 
   recommendations: [
     { name: 'Seal of passage', note: 'Required to access Lunar Isle.', type: 'item' },
@@ -48,8 +48,12 @@ const DreamMentor = {
 
   recommendedSkills: { Combat: 85 },
 
-  // TODO: Fill in steps
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Lunar Diplomacy'),
+    new LevelRequirement('Magic', 65, false),
+    new LevelRequirement('Defence', 40, false),
+    new LevelRequirement('Hitpoints', 40, false),
+  ],
 
   rewards: {
     areas: ['Lunar Isle', 'Dream World'],
@@ -68,7 +72,7 @@ const DreamMentor = {
     misc: [
       'Required for Dragon Slayer II, While Guthix Sleeps, Hard Desert Diary, Hard Kourend & Kebos Diary, Elite Varrock Diary',
     ],
-    questPoints: 2,
+    questPoints: 1,
     unlocks: [
       {
         description:
@@ -90,10 +94,17 @@ const DreamMentor = {
 
   startLocation: 'Lunar Isle mine',
 
-  // TODO: Fill in requirements
   status: QuestStatus.NotStarted,
 
-  steps: [],
+  steps: [
+    'Talk to Cyrisus on Lunar Isle to begin the quest.',
+    'Enter the Dream World through the portal.',
+    'Defeat the Sorrow in the dream world.',
+    'Defeat the Despair in the dream world.',
+    'Defeat the Fear in the dream world.',
+    'Defeat the Anger in the dream world.',
+    'Talk to Cyrisus in the real world to complete the quest.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Dream_Mentor',
 };
 

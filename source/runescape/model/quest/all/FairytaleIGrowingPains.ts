@@ -4,7 +4,7 @@ const FairytaleIGrowingPains: Quest = {
   age: '',
   description: '',
 
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Novice,
 
   id: 0,
 

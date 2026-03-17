@@ -1,3 +1,4 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
@@ -17,12 +18,12 @@ const MurderMystery: Quest = {
   requirements: [],
   rewards: {
     areas: [],
-    experience: [],
+    experience: [{ amount: 3325, skill: Skill.Magic }],
     items: [],
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 1,
+    questPoints: 3,
     unlocks: [],
   },
   series: null,

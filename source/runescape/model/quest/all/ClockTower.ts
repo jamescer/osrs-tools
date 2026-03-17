@@ -1,8 +1,8 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ClockTower: Quest = {
-  age: '',
-  description: '',
+  age: 'Third Age',
+  description: 'Repair the Grand Clock Tower in Ardougne and restore it to working order.',
 
   difficulty: QuestDifficulty.Novice,
 
@@ -10,7 +10,7 @@ const ClockTower: Quest = {
 
   length: QuestLength.Short,
 
-  members: true,
+  members: false,
 
   miniquest: false,
   // Assign a unique ID if available
@@ -45,7 +45,7 @@ const ClockTower: Quest = {
   requirements: [],
   rewards: {
     areas: [],
-    experience: [],
+    experience: [{ amount: 1000, skill: 'Crafting' }],
     items: [{ name: 'Coins', quantity: 500 }],
     lamps: [],
     pets: [],
@@ -55,9 +55,16 @@ const ClockTower: Quest = {
   },
   series: null,
   shortName: 'clockTower',
-  startLocation: '',
+  startLocation: 'Ardougne Clock Tower',
   status: QuestStatus.NotStarted,
-  steps: [],
+  steps: [
+    'Travel to the Ardougne Clock Tower.',
+    'Speak to the guard.',
+    'Enter the tower and assess damage.',
+    'Gather required cogs and parts.',
+    'Repair each section of the clock.',
+    'Activate the clock to complete the quest.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Clock_Tower',
 };
 

@@ -4,7 +4,7 @@ import { Quest, QuestStatus } from '../Quest';
 const RoyalTrouble: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Medium,
   members: true,
@@ -17,7 +17,7 @@ const RoyalTrouble: Quest = {
   requirements: [
     new QuestRequirement('Throne of Miscellania'),
     new LevelRequirement('Agility', 40, false),
-    new LevelRequirement('Slayer', 10, false),
+    new LevelRequirement('Slayer', 40, true),
   ],
   rewards: {
     areas: [],
@@ -26,7 +26,7 @@ const RoyalTrouble: Quest = {
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 2,
+    questPoints: 1,
     unlocks: [],
   },
   series: null,

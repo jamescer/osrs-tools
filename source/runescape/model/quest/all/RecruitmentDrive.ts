@@ -10,7 +10,7 @@ const RecruitmentDrive: Quest = {
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
-  members: true,
+  members: false,
   miniquest: false,
   name: 'Recruitment Drive',
   questPoints: 1,

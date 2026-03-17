@@ -8,7 +8,7 @@ const EnlightenedJourney: Quest = {
 
   id: 0,
 
-  length: QuestLength.Short,
+  length: QuestLength.Long,
 
   members: true,
 
@@ -17,7 +17,7 @@ const EnlightenedJourney: Quest = {
   // Assign a unique ID if available
   name: 'Enlightened Journey',
   // Skills: quest 20, Firemaking 20, Farming 30, Crafting 36
-  questPoints: 1,
+  questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
@@ -29,7 +29,7 @@ const EnlightenedJourney: Quest = {
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 1,
+    questPoints: 2,
     unlocks: [],
   },
   series: null,

@@ -4,11 +4,11 @@ const FairytaleIICureAQueen: Quest = {
   age: '',
   description: '',
 
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
 
-  length: QuestLength.Medium,
+  length: QuestLength.ShortMedium,
 
   members: true,
 

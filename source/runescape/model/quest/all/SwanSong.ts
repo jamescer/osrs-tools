@@ -5,7 +5,7 @@ import { Quest, QuestStatus } from '../Quest';
 const SwanSong: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Master,
   id: 0,
   length: QuestLength.Medium,
   members: true,

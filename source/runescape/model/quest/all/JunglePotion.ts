@@ -4,8 +4,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const JunglePotion: Quest = {
-  age: '',
-  description: '',
+  age: 'Third Age',
+  description: 'Help a shaman by making a herblore potion to cure a tribe member.',
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
@@ -30,9 +30,16 @@ const JunglePotion: Quest = {
   series: 'Karamja',
   shortName: 'junglePotion',
 
-  startLocation: '',
+  startLocation: 'Karamja, south of the volcano',
   status: QuestStatus.NotStarted,
-  steps: [],
+  steps: [
+    'Travel to Karamja and speak to the jungle shaman.',
+    'The shaman tells you about a tribe member who is ill.',
+    'Collect the required ingredients: Ardrigal, Sito foil, Volencia moss, and Roecdartis.',
+    'Return to the shaman with all ingredients.',
+    'The shaman will make you make the potion.',
+    'Give the potion to the tribe member.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Jungle_Potion',
 };
 

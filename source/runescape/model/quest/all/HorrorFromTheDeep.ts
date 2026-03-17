@@ -14,7 +14,7 @@ const agilityRequirement: LevelRequirement = {
 const HorrorFromTheDeep: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Intermediate,
   id: 0,
   length: QuestLength.Short,
   members: true,

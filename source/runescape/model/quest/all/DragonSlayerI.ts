@@ -12,7 +12,7 @@ const DragonSlayer: Quest = {
   members: false,
   miniquest: false,
   name: 'Dragon Slayer I',
-  questPoints: 2,
+  questPoints: 3,
   recommendations: [
     {
       name: 'Coins',

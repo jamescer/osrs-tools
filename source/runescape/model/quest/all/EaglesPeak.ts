@@ -5,7 +5,7 @@ const EaglesPeak: Quest = {
   age: '',
   description: '',
 
-  difficulty: QuestDifficulty.Novice,
+  difficulty: QuestDifficulty.Intermediate,
 
   id: 0,
 

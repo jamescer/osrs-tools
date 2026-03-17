@@ -176,8 +176,9 @@ export {
   LocationRequirement,
   QuestPointRequirement,
   QuestRequirement,
-  Requirement,
   RequirementType,
   SlayerLevelRequirement,
   SlayerUnlockRequirement,
 };
+
+export type { Requirement };

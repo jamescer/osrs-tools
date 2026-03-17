@@ -15,7 +15,9 @@ export enum QuestDifficulty {
 export enum QuestLength {
   VeryShort = 'Very short',
   Short = 'Short',
+  ShortMedium = 'Short-Medium',
   Medium = 'Medium',
+  MediumLong = 'Medium-Long',
   Long = 'Long',
   VeryLong = 'Very long',
 }

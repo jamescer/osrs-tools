@@ -2,16 +2,19 @@ import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
+/**
+ * Icthlarin's Little Helper is a quest in Old School RuneScape that involves assisting the god Icthlarin with various tasks. The quest is set in the desert and requires players to complete a series of challenges to earn rewards and progress through the storyline.
+ */
 const IcthlarinsLittleHelper: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Intermediate,
+  difficulty: QuestDifficulty.Novice,
   id: 0,
-  length: QuestLength.Long,
+  length: QuestLength.Medium,
   members: true,
   miniquest: false,
   name: "Icthlarin's Little Helper",
-  questPoints: 2,
+  questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
@@ -27,7 +30,7 @@ const IcthlarinsLittleHelper: Quest = {
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 2,
+    questPoints: 1,
     unlocks: [],
   },
   series: 'Desert',

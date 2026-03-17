@@ -1,5 +1,10 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
+/**
+ * Witch's House quest data
+ * @author James Cerniglia
+ * @see https://oldschool.runescape.wiki/w/Witch%27s_House for quest details and requirements
+ */
 const WitchsHouse: Quest = {
   age: '',
   description: '',

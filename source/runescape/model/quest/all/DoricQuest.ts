@@ -16,7 +16,6 @@ const DoricQuest = {
 
   miniquest: false,
 
-  // TODO: Replace with actual ID
   name: "Doric's Quest",
 
   questPoints: 1,
@@ -33,8 +32,7 @@ const DoricQuest = {
 
   recommendedSkills: { Mining: 15 },
 
-  // TODO: Fill in steps
-  requirements: [],
+  requirements: [], // No mandatory level or quest requirements
 
   rewards: {
     areas: [],
@@ -56,10 +54,17 @@ const DoricQuest = {
 
   startLocation: "Doric's hut north of Falador",
 
-  // TODO: Fill in requirements
   status: QuestStatus.NotStarted,
 
-  steps: [],
+  steps: [
+    "Talk to Doric in his hut north of Falador.",
+    'Collect 6 clay and bring it back to Doric.',
+    'Collect 4 copper ore and bring it back to Doric.',
+    'Collect 2 iron ore and bring it back to Doric.',
+    "Collect one more ore and bring it to Doric (or obtain one from him).",
+    'Talk to Doric to complete the quest.',
+  ],
+
   url: 'https://oldschool.runescape.wiki/w/Doric%27s_Quest',
 };
 

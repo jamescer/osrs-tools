@@ -281,15 +281,16 @@ class OsrsAccount {
   }
 }
 
-export {
+export type {
   Bosses,
   BossScore,
   BountyHunter,
   Clues,
   ClueScore,
-  OsrsAccount,
   OsrsAccountData,
   Skill,
   Skills,
   SkillsDetail,
 };
+
+export { OsrsAccount };

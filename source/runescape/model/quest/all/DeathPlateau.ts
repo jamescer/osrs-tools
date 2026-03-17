@@ -10,7 +10,7 @@ const DeathPlateau: Quest = {
 
   length: QuestLength.Medium,
 
-  members: true,
+  members: false,
 
   miniquest: false,
   // Assign a unique ID if available

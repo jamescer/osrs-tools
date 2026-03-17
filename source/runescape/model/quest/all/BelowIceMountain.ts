@@ -12,7 +12,7 @@ const BelowIceMountain: Quest = {
 
   length: QuestLength.Short,
 
-  members: true,
+  members: false,
 
   miniquest: false,
   // Assign a unique ID if available

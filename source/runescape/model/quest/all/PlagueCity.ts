@@ -7,7 +7,7 @@ const PlagueCity: Quest = {
   difficulty: QuestDifficulty.Novice,
   id: 0,
   length: QuestLength.Short,
-  members: true,
+  members: false,
   miniquest: false,
   name: 'Plague City',
   questPoints: 1,

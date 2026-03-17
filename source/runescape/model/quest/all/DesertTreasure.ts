@@ -1,3 +1,4 @@
+import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { QuestStatus } from '../Quest';
 
@@ -53,7 +54,12 @@ const DesertTreasure = {
   ],
   recommendedPrayers: ['Protect from Melee', 'Protect from Missiles'],
   recommendedSkills: { Firemaking: 50, Magic: 50, Slayer: 10, Thieving: 53 },
-  requirements: [],
+  requirements: [
+    new LevelRequirement('Magic', 50, false),
+    new LevelRequirement('Thieving', 53, false),
+    new LevelRequirement('Firemaking', 50, false),
+    new LevelRequirement('Slayer', 10, false),
+  ],
   rewards: {
     areas: ['Ancient Pyramid', 'Smoke Dungeon'],
     experience: [{ amount: 20006.9, skill: 'Magic' }],
@@ -93,10 +99,20 @@ const DesertTreasure = {
 
   startLocation: 'Bedabin Camp',
 
-  // TODO: Fill in requirements
   status: QuestStatus.NotStarted,
 
-  steps: [],
+  steps: [
+    'Talk to the archaeologist in the Bedabin Camp.',
+    'Collect the Diamond from the volcano dungeon in the south.',
+    'Collect the Ruby from the Scorpion Pit west of Al Kharid.',
+    'Collect the Sapphire from the Emir at Al Kharid.',
+    'Collect the Emerald from the underground tomb west of Desert Treasure.',
+    'Return to the archaeologist and defeat Dessous.',
+    'Defeat Damis in the dungeon.',
+    'Defeat Fareed in the dungeon.',
+    'Defeat Kamil in the dungeon.',
+    'Return to the archaeologist to complete the quest.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Desert_Treasure_I',
 };
 

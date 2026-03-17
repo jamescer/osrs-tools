@@ -32,7 +32,7 @@ const SongOfTheElves: Quest = {
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 2,
+    questPoints: 4,
     unlocks: [],
   },
   series: 'Elf',

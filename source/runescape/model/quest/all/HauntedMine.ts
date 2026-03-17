@@ -5,9 +5,9 @@ import { Quest, QuestStatus } from '../Quest';
 const HauntedMine: Quest = {
   age: '',
   description: '',
-  difficulty: QuestDifficulty.Experienced,
+  difficulty: QuestDifficulty.Intermediate,
   id: 0,
-  length: QuestLength.Long,
+  length: QuestLength.MediumLong,
   members: true,
   miniquest: false,
   name: 'Haunted Mine',

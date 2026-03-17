@@ -1,22 +1,17 @@
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
+
 const Contact: Quest = {
-  age: '',
-  description: '',
-
+  age: 'Fifth Age',
+  description: 'Make contact with a high priest in the desert and complete a sacred mission.',
   difficulty: QuestDifficulty.Master,
-
   id: 0,
-
   length: QuestLength.Medium,
-
   members: true,
-
   miniquest: false,
-
-  // Assign a unique ID if available
   name: 'Contact!',
-  // Quests: Prince Ali Rescue, Icthlarin's Little Helper
   questPoints: 1,
   recommendations: [
     {
@@ -42,10 +37,15 @@ const Contact: Quest = {
     Combat: 70,
     Thieving: 50,
   },
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Prince Ali Rescue'),
+    new QuestRequirement("Icthlarin's Little Helper"),
+    new LevelRequirement('Agility', 50, false),
+    new LevelRequirement('Thieving', 50, false),
+  ],
   rewards: {
     areas: ['Sophanem'],
-    experience: [{ amount: 7000, skill: 'Thieving' }],
+    experience: [{ amount: 7000, skill: Skill.Thieving }],
     items: [{ name: 'Keris dagger' }],
     lamps: [
       {
@@ -67,9 +67,16 @@ const Contact: Quest = {
   },
   series: 'Desert',
   shortName: 'contact',
-  startLocation: '',
+  startLocation: 'Sophanem, in a chamber beneath the temple',
   status: QuestStatus.NotStarted,
-  steps: [],
+  steps: [
+    'Travel to Sophanem temple.',
+    'Navigate through the temple dungeons.',
+    'Meet with the high priest.',
+    'Receive the sacred mission.',
+    'Gather artifacts and complete rituals.',
+    'Return to the priest and complete the contact.',
+  ],
   url: 'https://oldschool.runescape.wiki/w/Contact!',
 };
 

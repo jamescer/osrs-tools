@@ -4,7 +4,7 @@ const DragonSlayerII: Quest = {
   age: '',
   description: '',
 
-  difficulty: QuestDifficulty.Grandmaster,
+  difficulty: QuestDifficulty.Experienced,
 
   id: 0,
 
@@ -17,7 +17,7 @@ const DragonSlayerII: Quest = {
   // Assign a unique ID if available
   name: 'Dragon Slayer II',
   // Quests: Legends' Quest, Dream Mentor, A Tail of Two Cats, Animal Magnetism, Ghosts Ahoy, Bone Voyage, Client of Kourend. Skill: quest 200
-  questPoints: 5,
+  questPoints: 3,
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
@@ -34,7 +34,7 @@ const DragonSlayerII: Quest = {
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 5,
+    questPoints: 3,
     unlocks: [],
   },
   series: 'Dragonkin',

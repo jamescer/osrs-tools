@@ -1,8 +1,9 @@
 import { Cache } from "../../utils/cache";
 import { OsrsAccount } from "../account/OsrsAccount";
 import { LevelRequirement, QuestRequirement, RequirementType } from "../Requirement";
-import AKingdomDivided from "./all/AKingdomDivided";
+import { QuestList } from "./QuestList";
 import { Quest } from "./Quest";
+import AKingdomDivided from "./all/AKingdomDivided";
 
 /**
  * OSRS Quest utility tool
@@ -76,6 +77,14 @@ class QuestTool {
       }
     }
     return true;
+  }
+
+  public static getAllQuests(): Quest[] {
+    return QuestList.map((name) => QuestTool.getQuestByName(name)).filter((q) => q !== undefined) as Quest[];
+  }
+
+  public static getAllMiniQuests(): Quest[] {
+    return QuestList.map((name) => QuestTool.getQuestByName(name)).filter((q) => q !== undefined && q.miniquest) as Quest[];
   }
 
   /**

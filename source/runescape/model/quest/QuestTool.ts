@@ -2,7 +2,147 @@ import { OsrsAccount } from "../account/OsrsAccount";
 import { LevelRequirement, QuestRequirement, RequirementType } from "../Requirement";
 import { QuestList } from "./QuestList";
 import { Quest } from "./Quest";
+
+// Import all quests for registry
 import AKingdomDivided from "./all/AKingdomDivided";
+import AnimalMagnetism from "./all/AnimalMagnetism";
+import AnotherSliceOfHAM from "./all/AnotherSliceOfHAM";
+import APorcineOfInterest from "./all/APorcineOfInterest";
+import ASoulsBane from "./all/ASoulsBane";
+import ATailOfTwoCats from "./all/ATailOfTwoCats";
+import ATasteOfHope from "./all/ATasteOfHope";
+import ATheatreOfBlood from "./all/ATheatreOfBlood";
+import BelowIceMountain from "./all/BelowIceMountain";
+import BetweenARock from "./all/BetweenARock";
+import BigChompyBirdHunting from "./all/BigChompyBirdHunting";
+import Biohazard from "./all/Biohazard";
+import BlackKnightsFortress from "./all/BlackKnightsFortress";
+import BoneVoyage from "./all/BoneVoyage";
+import CabinFever from "./all/CabinFever";
+import ClientOfKourend from "./all/ClientOfKourend";
+import ClockTower from "./all/ClockTower";
+import ColdWar from "./all/ColdWar";
+import Contact from "./all/Contact";
+import CooksAssistant from "./all/CooksAssistant";
+import CreatureOfFenkenstrain from "./all/CreatureOfFenkenstrain";
+import CurrentAffairs from "./all/CurrentAffairs";
+import DarknessOfHallowvale from "./all/DarknessOfHallowvale";
+import DeathPlateau from "./all/DeathPlateau";
+import DeathToTheDorgeshuun from "./all/DeathToTheDorgeshuun";
+import DemonSlayer from "./all/DemonSlayer";
+import DesertTreasure from "./all/DesertTreasure";
+import DeviousMinds from "./all/DeviousMinds";
+import DoricQuest from "./all/DoricQuest";
+import DoricsQuest from "./all/DoricsQuest";
+import DragonSlayerI from "./all/DragonSlayerI";
+import DragonSlayerII from "./all/DragonSlayerII";
+import DreamMentor from "./all/DreamMentor";
+import DruidicRitual from "./all/DruidicRitual";
+import DwarfCannon from "./all/DwarfCannon";
+import EadgarsRuse from "./all/EadgarsRuse";
+import EaglesPeak from "./all/EaglesPeak";
+import ElementalWorkshopI from "./all/ElementalWorkshopI";
+import ElementalWorkshopII from "./all/ElementalWorkshopII";
+import EnakhrasLament from "./all/EnakhrasLament";
+import EnlightenedJourney from "./all/EnlightenedJourney";
+import FairytaleIGrowingPains from "./all/FairytaleIGrowingPains";
+import FairytaleIICureAQueen from "./all/FairytaleIICureAQueen";
+import FamilyCrest from "./all/FamilyCrest";
+import FightArena from "./all/FightArena";
+import FishingContest from "./all/FishingContest";
+import ForgettableTale from "./all/ForgettableTale";
+import GardenOfTranquillity from "./all/GardenOfTranquillity";
+import GertrudesCat from "./all/GertrudesCat";
+import GettingAhead from "./all/GettingAhead";
+import GhostsAhoy from "./all/GhostsAhoy";
+import GoblinDiplomacy from "./all/GoblinDiplomacy";
+import GrimTales from "./all/GrimTales";
+import HauntedMine from "./all/HauntedMine";
+import HazeelCult from "./all/HazeelCult";
+import HeroesQuest from "./all/HeroesQuest";
+import HolyGrail from "./all/HolyGrail";
+import HorrorFromTheDeep from "./all/HorrorFromTheDeep";
+import IcthlarinsLittleHelper from "./all/IcthlarinsLittleHelper";
+import ImpCatcher from "./all/ImpCatcher";
+import InAidOfTheMyreque from "./all/InAidOfTheMyreque";
+import InSearchOfTheMyreque from "./all/InSearchOfTheMyreque";
+import JunglePotion from "./all/JunglePotion";
+import KingsRansom from "./all/KingsRansom";
+import LegendsQuest from "./all/LegendsQuest";
+import LostCity from "./all/LostCity";
+import LunarDiplomacy from "./all/LunarDiplomacy";
+import MakingHistory from "./all/MakingHistory";
+import MeatAndGreet from "./all/MeatAndGreet";
+import MerlinsCrystal from "./all/MerlinsCrystal";
+import MonkeyMadness from "./all/MonkeyMadness";
+import MonkeyMadnessII from "./all/MonkeyMadnessII";
+import MonksFriend from "./all/MonksFriend";
+import MurderMystery from "./all/MurderMystery";
+import MyArmsBigAdventure from "./all/MyArmsBigAdventure";
+import NatureSpirit from "./all/NatureSpirit";
+import ObservatoryQuest from "./all/ObservatoryQuest";
+import OlafsQuest from "./all/OlafsQuest";
+import OneSmallFavour from "./all/OneSmallFavour";
+import Pandemonium from "./all/Pandemonium";
+import PlagueCity from "./all/PlagueCity";
+import PriestInPeril from "./all/PriestInPeril";
+import PryingTimes from "./all/PryingTimes";
+import RagAndBoneMan from "./all/RagAndBoneMan";
+import Ratcatchers from "./all/Ratcatchers";
+import RecipeForDisaster from "./all/RecipeForDisaster";
+import RecruitmentDrive from "./all/RecruitmentDrive";
+import Regicide from "./all/Regicide";
+import RovingElves from "./all/RovingElves";
+import RoyalTrouble from "./all/RoyalTrouble";
+import RumDeal from "./all/RumDeal";
+import ScorpionCatcher from "./all/ScorpionCatcher";
+import Scrambled from "./all/Scrambled";
+import SeaSlug from "./all/SeaSlug";
+import ShadesOfMortton from "./all/ShadesOfMortton";
+import ShadowOfTheStorm from "./all/ShadowOfTheStorm";
+import ShadowsOfCustodia from "./all/ShadowsOfCustodia";
+import SheepHerder from "./all/SheepHerder";
+import ShiloVillage from "./all/ShiloVillage";
+import SlugMenace from "./all/SlugMenace";
+import SongOfTheElves from "./all/SongOfTheElves";
+import SpiritsOfTheElid from "./all/SpiritsOfTheElid";
+import SwanSong from "./all/SwanSong";
+import TaiBwoWannaiTrio from "./all/TaiBwoWannaiTrio";
+import TheAscentOfArceuus from "./all/TheAscentOfArceuus";
+import TheDepthsOfDespair from "./all/TheDepthsOfDespair";
+import TheFinalDawn from "./all/TheFinalDawn";
+import TheForsakenTower from "./all/TheForsakenTower";
+import TheFremennikExiles from "./all/TheFremennikExiles";
+import TheFremennikIsles from "./all/TheFremennikIsles";
+import TheFremennikTrials from "./all/TheFremennikTrials";
+import TheGiantDwarf from "./all/TheGiantDwarf";
+import TheGolem from "./all/TheGolem";
+import TheGrandTree from "./all/TheGrandTree";
+import TheGreatBrainRobbery from "./all/TheGreatBrainRobbery";
+import TheHandInTheSand from "./all/TheHandInTheSand";
+import TheKnightsSword from "./all/TheKnightsSword";
+import TheLostTribe from "./all/TheLostTribe";
+import TheQueenOfThieves from "./all/TheQueenOfThieves";
+import TheSlugMenace from "./all/TheSlugMenace";
+import TheTaleOfTheRighteous from "./all/TheTaleOfTheRighteous";
+import TheTempleOfIkov from "./all/TheTempleOfIkov";
+import TheTouristTrap from "./all/TheTouristTrap";
+import ThroneOfMiscellania from "./all/ThroneOfMiscellania";
+import TowerOfLife from "./all/TowerOfLife";
+import TreeGnomeVillage from "./all/TreeGnomeVillage";
+import TribalTotem from "./all/TribalTotem";
+import TrollRomance from "./all/TrollRomance";
+import TrollStronghold from "./all/TrollStronghold";
+import TroubledTortugans from "./all/TroubledTortugans";
+import UndergroundPass from "./all/UndergroundPass";
+import VampyreSlayer from "./all/VampyreSlayer";
+import Wanted from "./all/Wanted";
+import Watchtower from "./all/Watchtower";
+import WaterfallQuest from "./all/WaterfallQuest";
+import WhatLiesBelow from "./all/WhatLiesBelow";
+import WitchesPotion from "./all/WitchesPotion";
+import WitchsHouse from "./all/WitchsHouse";
+import ZogreFleshEaters from "./all/ZogreFleshEaters";
 
 /**
  * OSRS Quest utility tool
@@ -86,43 +226,272 @@ class QuestTool {
   }
 
   /**
-   * Static utility to get a Quest instance by its name.
-   * This assumes all quests are exported as default from their respective files in quest/all/.
+   * Build the quest registry mapping canonical names to quest objects.
+   * Uses QuestList as the source of truth for quest names.
+   * @returns Map of normalized quest names to Quest objects
+   */
+  private static buildQuestRegistry(): Map<string, Quest> {
+    const registry = new Map<string, Quest>();
+
+    // All available quests imported above
+    const allQuests: Record<string, unknown> = {
+      AKingdomDivided,
+      AnimalMagnetism,
+      AnotherSliceOfHAM,
+      APorcineOfInterest,
+      ASoulsBane,
+      ATailOfTwoCats,
+      ATasteOfHope,
+      ATheatreOfBlood,
+      BelowIceMountain,
+      BetweenARock,
+      BigChompyBirdHunting,
+      Biohazard,
+      BlackKnightsFortress,
+      BoneVoyage,
+      CabinFever,
+      ClientOfKourend,
+      ClockTower,
+      ColdWar,
+      Contact,
+      CooksAssistant,
+      CreatureOfFenkenstrain,
+      CurrentAffairs,
+      DarknessOfHallowvale,
+      DeathPlateau,
+      DeathToTheDorgeshuun,
+      DemonSlayer,
+      DesertTreasure,
+      DeviousMinds,
+      DoricQuest,
+      DoricsQuest,
+      DragonSlayerI,
+      DragonSlayerII,
+      DreamMentor,
+      DruidicRitual,
+      DwarfCannon,
+      EadgarsRuse,
+      EaglesPeak,
+      ElementalWorkshopI,
+      ElementalWorkshopII,
+      EnakhrasLament,
+      EnlightenedJourney,
+      FairytaleIGrowingPains,
+      FairytaleIICureAQueen,
+      FamilyCrest,
+      FightArena,
+      FishingContest,
+      ForgettableTale,
+      GardenOfTranquillity,
+      GertrudesCat,
+      GettingAhead,
+      GhostsAhoy,
+      GoblinDiplomacy,
+      GrimTales,
+      HauntedMine,
+      HazeelCult,
+      HeroesQuest,
+      HolyGrail,
+      HorrorFromTheDeep,
+      IcthlarinsLittleHelper,
+      ImpCatcher,
+      InAidOfTheMyreque,
+      InSearchOfTheMyreque,
+      JunglePotion,
+      KingsRansom,
+      LegendsQuest,
+      LostCity,
+      LunarDiplomacy,
+      MakingHistory,
+      MeatAndGreet,
+      MerlinsCrystal,
+      MonkeyMadness,
+      MonkeyMadnessII,
+      MonksFriend,
+      MurderMystery,
+      MyArmsBigAdventure,
+      NatureSpirit,
+      ObservatoryQuest,
+      OlafsQuest,
+      OneSmallFavour,
+      Pandemonium,
+      PlagueCity,
+      PriestInPeril,
+      PryingTimes,
+      RagAndBoneMan,
+      Ratcatchers,
+      RecipeForDisaster,
+      RecruitmentDrive,
+      Regicide,
+      RovingElves,
+      RoyalTrouble,
+      RumDeal,
+      ScorpionCatcher,
+      Scrambled,
+      SeaSlug,
+      ShadesOfMortton,
+      ShadowOfTheStorm,
+      ShadowsOfCustodia,
+      SheepHerder,
+      ShiloVillage,
+      SlugMenace,
+      SongOfTheElves,
+      SpiritsOfTheElid,
+      SwanSong,
+      TaiBwoWannaiTrio,
+      TheAscentOfArceuus,
+      TheDepthsOfDespair,
+      TheFinalDawn,
+      TheForsakenTower,
+      TheFremennikExiles,
+      TheFremennikIsles,
+      TheFremennikTrials,
+      TheGiantDwarf,
+      TheGolem,
+      TheGrandTree,
+      TheGreatBrainRobbery,
+      TheHandInTheSand,
+      TheKnightsSword,
+      TheLostTribe,
+      TheQueenOfThieves,
+      TheSlugMenace,
+      TheTaleOfTheRighteous,
+      TheTempleOfIkov,
+      TheTouristTrap,
+      ThroneOfMiscellania,
+      TowerOfLife,
+      TreeGnomeVillage,
+      TribalTotem,
+      TrollRomance,
+      TrollStronghold,
+      TroubledTortugans,
+      UndergroundPass,
+      VampyreSlayer,
+      Wanted,
+      Watchtower,
+      WaterfallQuest,
+      WhatLiesBelow,
+      WitchesPotion,
+      WitchsHouse,
+      ZogreFleshEaters,
+    };
+
+    // Map canonical quest names from QuestList to quest objects
+    for (const questName of QuestList) {
+      const quest = QuestTool.findQuestByCanonicalName(questName, allQuests);
+      if (quest) {
+        registry.set(QuestTool.normalizeQuestName(questName), quest);
+      }
+    }
+
+    return registry;
+  }
+
+  /**
+   * Find the quest object matching a canonical quest name from QuestList.
+   * Uses the quest's name property to match against the canonical name.
+   * @param canonicalName The canonical name from QuestList
+   * @param questMap Map of available quest objects
+   * @returns The matching Quest object or undefined
+   */
+  private static findQuestByCanonicalName(canonicalName: string, questMap: Record<string, unknown>): Quest | undefined {
+    // Direct match by quest.name property
+    for (const quest of Object.values(questMap)) {
+      if (quest && typeof quest === "object" && "name" in quest && (quest as Record<string, unknown>)["name"] === canonicalName) {
+        return quest as Quest;
+      }
+    }
+    return undefined;
+  }
+
+  /**
+   * Normalize a quest name for comparison purposes.
+   * Removes punctuation, extra spaces, and converts to lowercase.
+   * @param questName The quest name to normalize
+   * @returns Normalized quest name
+   */
+  private static normalizeQuestName(questName: string): string {
+    return questName
+      .toLowerCase()
+      .replace(/[^\w\s]/g, "") // Remove punctuation (except word chars and spaces)
+      .replace(/\s+/g, " ") // Normalize spaces
+      .trim();
+  }
+
+  /**
+   * Calculate Levenshtein distance between two strings for fuzzy matching.
+   * @param str1 First string
+   * @param str2 Second string
+   * @returns Levenshtein distance
+   */
+  private static levenshteinDistance(str1: string, str2: string): number {
+    const matrix: number[][] = [];
+
+    for (let i = 0; i <= str2.length; i++) {
+      matrix[i] = [i];
+    }
+
+    for (let j = 0; j <= str1.length; j++) {
+      matrix[0][j] = j;
+    }
+
+    for (let i = 1; i <= str2.length; i++) {
+      for (let j = 1; j <= str1.length; j++) {
+        if (str2.charAt(i - 1) === str1.charAt(j - 1)) {
+          matrix[i][j] = matrix[i - 1][j - 1];
+        } else {
+          matrix[i][j] = Math.min(
+            matrix[i - 1][j - 1] + 1, // Substitution
+            matrix[i][j - 1] + 1, // Insertion
+            matrix[i - 1][j] + 1, // Deletion
+          );
+        }
+      }
+    }
+
+    return matrix[str2.length][str1.length];
+  }
+
+  /**
+   * Get a quest by name with support for fuzzy matching and common variations.
+   * Supports exact matches, case-insensitive matches, and approximate matches.
    * @param questName The name of the quest to retrieve
    * @returns Quest instance or undefined if not found
    */
   static getQuestByName(questName: string): Quest | undefined {
-    // Normalize quest name to match file naming convention
-    const normalized = questName
-      .replace(/[^a-zA-Z0-9]/g, '') // Remove non-alphanumeric
-      .replace(/\s+/g, '') // Remove spaces
-      .replace(/^./, (c) => c.toUpperCase());
-
-    try {
-      // Dynamically require the quest file
-      // Note: This only works in Node.js, not in browser environments
-      // and assumes all quest files are named as <QuestName>.ts and exported as default
-      // Example: 'Dragon Slayer' => './all/DragonSlayer'
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      const questModule = require(`./all/${normalized}`);
-      const quest = questModule.default || questModule;
-
-      if (quest) {
-        return quest;
-      }
-
-      // Handle known quest name variations
-      switch (questName.toLocaleLowerCase()) {
-        case 'a kingdome divided':
-        case 'akingdomdivided':
-          return AKingdomDivided;
-        default:
-          return undefined;
-      }
-    } catch (e) {
+    if (!questName || questName.trim() === "") {
       return undefined;
     }
+
+    // Initialize cache on first use (lazy initialization)
+    if (!QuestTool.questCache) {
+      QuestTool.questCache = QuestTool.buildQuestRegistry();
+    }
+
+    const normalized = QuestTool.normalizeQuestName(questName);
+
+    // Try exact match first
+    if (QuestTool.questCache.has(normalized)) {
+      return QuestTool.questCache.get(normalized);
+    }
+
+    // Try fuzzy matching if exact match fails
+    let bestMatch: Quest | undefined;
+    let bestDistance = 5; // Threshold for fuzzy matching
+
+    for (const [registryKey, quest] of QuestTool.questCache.entries()) {
+      const distance = QuestTool.levenshteinDistance(normalized, registryKey);
+      if (distance < bestDistance) {
+        bestDistance = distance;
+        bestMatch = quest;
+      }
+    }
+
+    return bestMatch;
   }
+
+  // Static cache for quest registry (initialized lazily)
+  private static questCache: Map<string, Quest> | undefined;
 
   /**
    * Get the maximum boost for a given skill, based on OSRS Wiki data.

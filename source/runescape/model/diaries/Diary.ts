@@ -10,9 +10,6 @@ import { LumbridgeDraynorDiary as typedLumbridgeDraynorDiary } from "./lumbridge
 import { MorytaniaDiary as typedMorytaniaDiary } from "./morytania/Morytania";
 import { WildernessDiary as typedWildernessDiary } from "./wilderness/Wilderness";
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const diariesData: Record<string, any> = require("../../resources/diary/diaries.json");
-
 export interface DiaryTask {
   description: string;
   requirements: Requirement[];
@@ -154,11 +151,6 @@ const diaries: Record<string, Diary> = {
   "Morytania Diary": typedMorytaniaDiary,
   "Wilderness Diary": typedWildernessDiary,
 };
-for (const k of Object.keys(diariesData)) {
-  if (!diaries[k]) {
-    diaries[k] = buildDiary(k, diariesData[k]);
-  }
-}
 
 export default diaries;
 

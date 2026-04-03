@@ -3,7 +3,7 @@
  * Provides centralized access to all Slayer masters and core functions
  */
 
-import { SlayerMaster } from '../core/SlayerMaster';
+import { SlayerMaster } from "../core/SlayerMaster";
 
 // Import master instances (to be created)
 let mastersRegistry: Map<string, SlayerMaster> | null = null;
@@ -52,7 +52,7 @@ export function registerMaster(master: SlayerMaster): void {
  * Get all masters by minimum combat level
  */
 export function getMastersByMinimumLevel(level: number): SlayerMaster[] {
-  return getAllMasters().filter(master => master.getMinimumCombatLevel() <= level);
+  return getAllMasters().filter((master) => master.getMinimumCombatLevel() <= level);
 }
 
 /**
@@ -76,12 +76,12 @@ export function getRandomMasterForLevel(combatLevel: number): SlayerMaster | nul
  * Reference: https://oldschool.runescape.wiki/w/Slayer
  */
 export enum SlayerMasterProgression {
-  TURAEL = 'Turael',       // Combat 1
-  MAZCHNA = 'Mazchna',     // Combat 20
-  VANNAKA = 'Vannaka',     // Combat 40
-  CHAELDAR = 'Chaeldar',   // Combat 70
-  KONAR = 'Konar quo Maten', // Combat 75
-  NIEVE = 'Nieve',         // Combat 85
-  DURADEL = 'Duradel',     // Combat 50
-  KRYSTILIA = 'Krystilia', // Combat 1 (Wilderness)
+  TURAEL = "Turael", // Combat 1
+  MAZCHNA = "Mazchna", // Combat 20
+  VANNAKA = "Vannaka", // Combat 40
+  CHAELDAR = "Chaeldar", // Combat 70
+  KONAR = "Konar quo Maten", // Combat 75
+  NIEVE = "Nieve", // Combat 85
+  DURADEL = "Duradel", // Combat 50
+  KRYSTILIA = "Krystilia", // Combat 1 (Wilderness)
 }

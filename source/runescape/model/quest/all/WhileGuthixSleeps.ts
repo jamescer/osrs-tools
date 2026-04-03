@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const WhileGuthixSleeps: Quest = { age: 'Fifth Age', description: 'Act while Guthix sleeps.', difficulty: QuestDifficulty.Grandmaster, id: 1033, length: QuestLength.VeryLong, members: true, miniquest: false, name: 'While Guthix Sleeps', questPoints: 5, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 5, unlocks: [] }, series: 'Mahjarrat, #15', shortName: 'While Guthix Sleeps', startLocation: 'Location', status: QuestStatus.NotStarted, steps: ['Act while sleeping'], url: 'https://oldschool.runescape.wiki/w/While_Guthix_Sleeps' };
+export default WhileGuthixSleeps;

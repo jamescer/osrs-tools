@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const DesertTreasureIITheFallenEmpire: Quest = { age: 'Fifth Age', description: 'Find treasure in the fallen desert empire.', difficulty: QuestDifficulty.Grandmaster, id: 1015, length: QuestLength.VeryLong, members: true, miniquest: false, name: 'Desert Treasure II - The Fallen Empire', questPoints: 5, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 5, unlocks: [] }, series: 'Mahjarrat, #14', shortName: 'Desert Treasure II', startLocation: 'Desert', status: QuestStatus.NotStarted, steps: ['Find treasure'], url: 'https://oldschool.runescape.wiki/w/Desert_Treasure_II' };
+export default DesertTreasureIITheFallenEmpire;

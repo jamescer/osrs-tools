@@ -77,7 +77,7 @@ const TheHandInTheSand: Quest = {
       'The player briefly visits Entrana (Ultimate Ironman note)',
       'White berries can be obtained through: Farming level 59 (boostable), monster drops (cave crawlers are easiest), spawn at Wilderness Lava Dragon Isle, from Isafdar north of the Elf Tracker, or from Chaos druid warrior in Yanille Agility Dungeon (requires 40 Agility)',
     ],
-    questPoints: 1,
+    questPoints: 2,
     unlocks: [{ description: 'Ability to collect sand from Bert daily' }],
   },
   series: null,

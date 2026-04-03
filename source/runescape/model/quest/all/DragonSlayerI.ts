@@ -121,7 +121,7 @@ const DragonSlayer: Quest = {
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 2,
+    questPoints: 3,
     unlocks: [
       {
         description: 'The ability to equip and use the rune platebody and its variants',

@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const TaleOfTheRighteous: Quest = { age: 'Fifth Age', description: 'Hear the tale of the righteous.', difficulty: QuestDifficulty.Intermediate, id: 1046, length: QuestLength.Short, members: true, miniquest: false, name: 'Tale of the Righteous', questPoints: 1, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] }, series: 'Great Kourend, #3E', shortName: 'Tale of the Righteous', startLocation: 'Great Kourend', status: QuestStatus.NotStarted, steps: ['Hear tale'], url: 'https://oldschool.runescape.wiki/w/Tale_of_the_Righteous' };
+export default TaleOfTheRighteous;

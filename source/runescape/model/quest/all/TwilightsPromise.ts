@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const TwilightsPromise: Quest = { age: 'Fifth Age', description: 'Fulfill twilight\'s promise.', difficulty: QuestDifficulty.Intermediate, id: 1048, length: QuestLength.Short, members: true, miniquest: false, name: 'Twilight\'s Promise', questPoints: 1, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] }, series: 'Twilight Emissaries, #2', shortName: 'Twilight\'s Promise', startLocation: 'Location', status: QuestStatus.NotStarted, steps: ['Fulfill promise'], url: 'https://oldschool.runescape.wiki/w/Twilight%27s_Promise' };
+export default TwilightsPromise;

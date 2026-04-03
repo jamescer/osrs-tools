@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const TheEyesOfGlouphrie: Quest = { age: 'Fifth Age', description: 'Investigate the eyes of Glouphrie.', difficulty: QuestDifficulty.Intermediate, id: 1027, length: QuestLength.Medium, members: true, miniquest: false, name: 'The Eyes of Glouphrie', questPoints: 2, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] }, series: 'Gnome, #2', shortName: 'The Eyes of Glouphrie', startLocation: 'Gnome Land', status: QuestStatus.NotStarted, steps: ['Investigate'], url: 'https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie' };
+export default TheEyesOfGlouphrie;

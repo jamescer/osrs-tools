@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const RagAndBoneManII: Quest = { age: 'Fifth Age', description: 'Collect more bones for a collector.', difficulty: QuestDifficulty.Experienced, id: 1024, length: QuestLength.Medium, members: true, miniquest: false, name: 'Rag and Bone Man II', questPoints: 1, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] }, series: 'Rag and Bone Man, #2', shortName: 'Rag and Bone Man II', startLocation: 'Location', status: QuestStatus.NotStarted, steps: ['Collect bones'], url: 'https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II' };
+export default RagAndBoneManII;

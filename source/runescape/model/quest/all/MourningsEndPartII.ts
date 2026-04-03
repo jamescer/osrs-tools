@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const MourningsEndPartII: Quest = { age: 'Fifth Age', description: 'Continue the Mourning\'s End quest.', difficulty: QuestDifficulty.Master, id: 1021, length: QuestLength.Long, members: true, miniquest: false, name: 'Mourning\'s End Part II', questPoints: 2, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] }, series: 'Elf, #7', shortName: 'Mourning\'s End Part II', startLocation: 'Elf Land', status: QuestStatus.NotStarted, steps: ['Continue quest'], url: 'https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_II' };
+export default MourningsEndPartII;

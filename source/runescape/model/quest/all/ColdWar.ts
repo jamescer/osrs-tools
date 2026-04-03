@@ -59,7 +59,7 @@ const ColdWar: Quest = {
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 1,
+    questPoints: 2,
     unlocks: [
       { description: 'Ability to make the penguin suit' },
       { description: 'Ability to use the Penguin agility course' },

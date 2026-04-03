@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const EthicallyAcquiredAntiquities: Quest = { age: 'Fifth Age', description: 'Acquire antiquities ethically.', difficulty: QuestDifficulty.Novice, id: 1040, length: QuestLength.Short, members: true, miniquest: false, name: 'Ethically Acquired Antiquities', questPoints: 1, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] }, series: 'None', shortName: 'Ethically Acquired', startLocation: 'Location', status: QuestStatus.NotStarted, steps: ['Acquire antiquities'], url: 'https://oldschool.runescape.wiki/w/Ethically_Acquired_Antiquities' };
+export default EthicallyAcquiredAntiquities;

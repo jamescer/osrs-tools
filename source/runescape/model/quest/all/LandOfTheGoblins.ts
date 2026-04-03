@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const LandOfTheGoblins: Quest = { age: 'Fifth Age', description: 'Visit the land of the goblins.', difficulty: QuestDifficulty.Experienced, id: 1041, length: QuestLength.Medium, members: true, miniquest: false, name: 'Land of the Goblins', questPoints: 2, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] }, series: 'Dorgeshuun, #4', shortName: 'Land of the Goblins', startLocation: 'Goblin Camp', status: QuestStatus.NotStarted, steps: ['Visit goblins'], url: 'https://oldschool.runescape.wiki/w/Land_of_the_Goblins' };
+export default LandOfTheGoblins;

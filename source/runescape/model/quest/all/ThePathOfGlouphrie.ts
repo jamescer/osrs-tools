@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const ThePathOfGlouphrie: Quest = { age: 'Fifth Age', description: 'Follow the path of Glouphrie.', difficulty: QuestDifficulty.Experienced, id: 1031, length: QuestLength.Medium, members: true, miniquest: false, name: 'The Path of Glouphrie', questPoints: 2, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] }, series: 'Gnome, #3', shortName: 'The Path of Glouphrie', startLocation: 'Gnome Land', status: QuestStatus.NotStarted, steps: ['Follow path'], url: 'https://oldschool.runescape.wiki/w/The_Path_of_Glouphrie' };
+export default ThePathOfGlouphrie;

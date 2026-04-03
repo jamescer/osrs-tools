@@ -1,0 +1,4 @@
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
+const ChildrenOfTheSun: Quest = { age: 'Fifth Age', description: 'Meet the children of the sun.', difficulty: QuestDifficulty.Novice, id: 1037, length: QuestLength.VeryShort, members: true, miniquest: false, name: 'Children of the Sun', questPoints: 1, recommendations: [], recommendedPrayers: [], recommendedSkills: {}, requirements: [], rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] }, series: 'Twilight Emissaries, #1', shortName: 'Children of the Sun', startLocation: 'Location', status: QuestStatus.NotStarted, steps: ['Meet children'], url: 'https://oldschool.runescape.wiki/w/Children_of_the_Sun' };
+export default ChildrenOfTheSun;

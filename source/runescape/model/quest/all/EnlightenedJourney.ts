@@ -6,7 +6,7 @@ const EnlightenedJourney: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 40,
 
   length: QuestLength.Long,
 

@@ -6,7 +6,7 @@ const EnakhrasLament: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 39,
 
   length: QuestLength.Medium,
 

@@ -6,7 +6,7 @@ const CabinFever: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 14,
 
   length: QuestLength.Medium,
 

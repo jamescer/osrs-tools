@@ -6,7 +6,7 @@ const TheFremennikExiles: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
-  id: 0,
+  id: 108,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

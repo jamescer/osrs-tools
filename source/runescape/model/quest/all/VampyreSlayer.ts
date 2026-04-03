@@ -5,7 +5,7 @@ const VampyreSlayer: Quest = {
   age: 'First Age',
   description: 'Help a citizen by slaying a vampire that has been terrorizing the area.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 131,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

@@ -6,7 +6,7 @@ const MonkeyMadness: Quest = {
   age: 'Fifth Age',
   description: 'Escape a quest-time problem on Ape Atoll and find a way home while dealing with mysterious forces.',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 70,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

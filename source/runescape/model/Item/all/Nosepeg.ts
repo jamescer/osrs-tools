@@ -17,7 +17,7 @@ const NosePeg1 = new Item(
   false,
   false,
   'https://oldschool.runescape.wiki/w/Nose_peg',
-  'https://oldschool.runescape.wiki/images/6/6a/Nose_peg.png',
+  '/assets/items/nose-peg.png',
   0,
   0,
   0,

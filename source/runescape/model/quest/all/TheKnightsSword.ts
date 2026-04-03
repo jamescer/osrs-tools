@@ -5,7 +5,7 @@ const TheKnightsSword: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 116,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

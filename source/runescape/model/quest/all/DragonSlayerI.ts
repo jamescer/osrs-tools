@@ -7,7 +7,7 @@ const DragonSlayer: Quest = {
   description:
     'Prove yourself a true champion. Kill the mighty dragon Elvarg of Crandor and earn the right to buy and wear the Rune platebody.',
   difficulty: QuestDifficulty.Experienced,
-  id: 0,
+  id: 30,
   length: QuestLength.Long,
   members: false,
   miniquest: false,

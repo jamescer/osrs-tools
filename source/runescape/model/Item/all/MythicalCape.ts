@@ -20,6 +20,7 @@ const mythicalCapeData: ItemJson = {
   members: true,
   meleeStrength: 1,
   name: 'Mythical cape',
+  iconUrl: '/assets/items/mythical-cape.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Mythical_cape',
   prayer: 1,

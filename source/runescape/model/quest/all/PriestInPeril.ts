@@ -6,7 +6,7 @@ const PriestInPeril: Quest = {
   age: 'First Age',
   description: 'Rescue a priest who has been trapped in a cursed temple by dark forces.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 81,
   length: QuestLength.Medium,
   members: false,
   miniquest: false,

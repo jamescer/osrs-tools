@@ -5,7 +5,7 @@ const WitchesPotion: Quest = {
   age: 'First Age',
   description: 'Help the witch by collecting ingredients for her potion in exchange for an artifact.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 136,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

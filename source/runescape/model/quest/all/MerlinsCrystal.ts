@@ -5,7 +5,7 @@ const MerlinsCrystal: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 69,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

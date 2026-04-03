@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const studdedChapsMetadata = {
+  id: 1333,
+  name: 'Studded chaps',
+  iconUrl: '/assets/items/studded-chaps.png',
+  examine: 'Leather chaps with metal studs.',
+  value: 50,
+  highAlch: 30,
+  lowAlch: 20,
+  weight: 2.721,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Studded_chaps',
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: 0,
+  attackMagic: -5,
+  defenceStab: 15,
+  defenceSlash: 18,
+  defenceCrush: 12,
+  defenceRanged: 15,
+  defenceMagic: -3,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const StuddedChaps = Item.fromJson(studdedChapsMetadata);

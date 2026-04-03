@@ -7,7 +7,7 @@ const ATailOfTwoCats: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 5,
 
   length: QuestLength.Long,
 

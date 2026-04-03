@@ -7,7 +7,7 @@ const ATasteOfHope: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 6,
 
   length: QuestLength.Long,
 

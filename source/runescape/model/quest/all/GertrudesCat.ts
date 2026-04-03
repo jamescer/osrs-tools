@@ -5,7 +5,7 @@ const GertrudesCat: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 48,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

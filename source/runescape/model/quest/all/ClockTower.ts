@@ -6,7 +6,7 @@ const ClockTower: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 16,
 
   length: QuestLength.Short,
 

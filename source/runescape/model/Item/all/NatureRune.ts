@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const natureRuneData = {
+  id: 564,
+  name: 'Nature rune',
+  iconUrl: '/assets/items/nature-rune.png',
+  examine: 'A nature rune.',
+  value: 365,
+  highAlch: 219,
+  lowAlch: 146,
+  weight: 0.001,
+  members: true,
+  tradeable: true,
+  equipable: false,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: true,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Nature_rune',
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: 0,
+  attackMagic: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const NatureRune = Item.fromJson(natureRuneData);

@@ -7,7 +7,7 @@ const TheTaleOfTheRighteous: Quest = {
   age: 'Fifth Age',
   description: 'Learn the tale of a righteous knight from ancient Kourend and help settle unfinished business. A spiritual story of honor and redemption in the mystical lands.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 120,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

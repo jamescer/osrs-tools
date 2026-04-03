@@ -6,6 +6,7 @@ const suqahTeethData: ItemJson = {
   id: 9079,
   members: true,
   name: 'Suqah teeth',
+  iconUrl: '/assets/items/suqah-teeth.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Suqah_teeth',
   questItem: false,

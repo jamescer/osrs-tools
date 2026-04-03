@@ -10,6 +10,7 @@ const demonicGorillaHeartData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Demonic gorilla heart',
+  iconUrl: '/assets/items/demonic-gorilla-heart.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Demonic_gorilla_heart',
   prayer: 0,

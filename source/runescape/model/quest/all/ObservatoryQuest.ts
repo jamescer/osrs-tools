@@ -5,7 +5,7 @@ const ObservatoryQuest: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 76,
   length: QuestLength.ShortMedium,
   members: false,
   miniquest: false,

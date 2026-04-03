@@ -6,7 +6,7 @@ const KingsRansom: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 63,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

@@ -8,7 +8,7 @@ const APorcineOfInterest: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 3,
 
   length: QuestLength.Short,
 

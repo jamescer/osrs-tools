@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const willowLongbowData = {
+  id: 4378,
+  name: 'Willow longbow',
+  iconUrl: '/assets/items/willow-longbow.png',
+  examine: 'A longbow made of willow wood.',
+  value: 287,
+  highAlch: 172,
+  lowAlch: 115,
+  weight: 1.361,
+  members: false,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Willow_longbow',
+  attackStab: -8,
+  attackSlash: -5,
+  attackCrush: -15,
+  attackRanged: 30,
+  attackMagic: -10,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const WillowLongbow = Item.fromJson(willowLongbowData);

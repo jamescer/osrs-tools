@@ -8,7 +8,7 @@ const DoricQuest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 28,
 
   length: QuestLength.VeryShort,
 

@@ -1,0 +1,35 @@
+import { Item, ItemJson } from '../Item';
+
+const amuletOfPowerTData: ItemJson = {
+  id: 2529,
+  name: 'Amulet of power (t)',
+  iconUrl: '/assets/items/amulet-of-power-t.png',
+  examine: 'An amulet of power (trimmed).',
+  value: 20000,
+  highAlch: 12000,
+  lowAlch: 8000,
+  weight: 0,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2006-12-05',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: true,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Amulet_of_power_(t)',
+  attackStab: 3,
+  attackSlash: 3,
+  attackCrush: 3,
+  attackMagic: 3,
+  attackRanged: 3,
+  defenceStab: 3,
+  defenceSlash: 3,
+  defenceCrush: 3,
+  defenceMagic: 3,
+  defenceRanged: 3,
+  strengthBonus: 3,
+  rangedStrength: 3,
+};
+
+export const AmuletOfPowerT = Item.fromJson(amuletOfPowerTData);

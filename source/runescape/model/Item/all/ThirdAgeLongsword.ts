@@ -1,0 +1,35 @@
+import { Item } from '../Item';
+
+const thirdAgeLongswordData = {
+  id: 12793,
+  name: '3rd age longsword',
+  iconUrl: '/assets/items/3rd-age-longsword.png',
+  examine: 'A 3rd age sword from the God Wars.',
+  value: 4000000,
+  highAlch: 2400000,
+  lowAlch: 1600000,
+  weight: 2.4,
+  members: true,
+  tradeable: false,
+  equipable: true,
+  releaseDate: '2005-04-05',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/3rd_age_longsword',
+  attackStab: 80,
+  attackSlash: 82,
+  attackCrush: -2,
+  attackRanged: 0,
+  attackMagic: -15,
+  defenceStab: 1,
+  defenceSlash: 1,
+  defenceCrush: 2,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  meleeStrength: 65,
+  prayer: 0,
+};
+
+export const ThirdAgeLongsword = Item.fromJson(thirdAgeLongswordData);

@@ -20,6 +20,7 @@ const ghostspeakAmuletData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Ghostspeak amulet',
+  iconUrl: '/assets/items/ghostspeak-amulet.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ghostspeak_amulet',
   prayer: 0,

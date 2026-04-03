@@ -7,7 +7,7 @@ const AnotherSliceOfHAM: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 2,
 
   length: QuestLength.Medium,
 

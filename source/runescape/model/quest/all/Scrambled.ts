@@ -8,7 +8,7 @@ const Scrambled: Quest = {
   age: '',
   description: 'Help the Egg Shrine priest recover the lost eggs and restore the shrine.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 92,
   length: QuestLength.VeryShort,
   members: false,
   miniquest: false,

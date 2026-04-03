@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const blackBattleaxeData = {
+  id: 588,
+  name: 'Black battleaxe',
+  iconUrl: '/assets/items/black-battleaxe.png',
+  examine: 'A battleaxe made of black metal.',
+  value: 448,
+  highAlch: 268,
+  lowAlch: 179,
+  weight: 2.268,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_battleaxe',
+  attackStab: -2,
+  attackSlash: 28,
+  attackCrush: 20,
+  attackRanged: 0,
+  attackMagic: -5,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  strength: 40,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const BlackBattleaxe = Item.fromJson(blackBattleaxeData);

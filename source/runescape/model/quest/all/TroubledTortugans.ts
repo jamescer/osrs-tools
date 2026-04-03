@@ -40,7 +40,7 @@ const TroubledTortugans = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Experienced,
-  id: 177,
+  id: 129,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

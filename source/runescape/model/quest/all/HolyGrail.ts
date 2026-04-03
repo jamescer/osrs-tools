@@ -1,18 +1,12 @@
-import { LevelRequirement, RequirementType } from '../../Requirement';
+import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
-const attackRequirement: LevelRequirement = {
-  boostable: false,
-  description: '',
-  level: 20,
-  skillName: 'attack',
-  type: RequirementType.Level,
-};
+const attackRequirement = new LevelRequirement('attack', 20, false);
 const HolyGrail: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 56,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

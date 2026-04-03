@@ -20,6 +20,7 @@ const antidragonShieldData: ItemJson = {
   members: false,
   meleeStrength: 0,
   name: 'Anti-dragon shield',
+  iconUrl: '/assets/items/anti-dragon-shield.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Anti-dragon_shield',
   prayer: 0,

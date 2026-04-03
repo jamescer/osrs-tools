@@ -5,7 +5,7 @@ const CooksAssistant: Quest = {
   age: 'Fifth Age',
   description: 'Help the cook in Lumbridge Castle by gathering ingredients for his cake.',
   difficulty: QuestDifficulty.Novice,
-  id: 1,
+  id: 19,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

@@ -6,7 +6,7 @@ const CreatureOfFenkenstrain: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 20,
 
   length: QuestLength.Medium,
 

@@ -10,6 +10,7 @@ const dagannothHideData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Dagannoth hide',
+  iconUrl: '/assets/items/dagannoth-hide.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Dagannoth_hide',
   prayer: 0,

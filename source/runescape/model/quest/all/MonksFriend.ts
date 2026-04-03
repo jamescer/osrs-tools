@@ -6,7 +6,7 @@ const MonksFriend: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 72,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

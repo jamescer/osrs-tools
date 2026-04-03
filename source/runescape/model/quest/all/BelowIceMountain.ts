@@ -8,7 +8,7 @@ const BelowIceMountain: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 8,
 
   length: QuestLength.Short,
 

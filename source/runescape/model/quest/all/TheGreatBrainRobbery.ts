@@ -12,7 +12,7 @@ const TheGreatBrainRobbery: Quest = {
   age: "Fifth Age",
   description: "Travel to the island of Mos Le'Harmless and uncover a mad scientist plot involving mind control and theft of consciousness. Stop the nefarious experiments.",
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 114,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

@@ -6,7 +6,7 @@ const BlackKnightsFortress: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 12,
 
   length: QuestLength.Short,
 

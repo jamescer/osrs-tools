@@ -6,7 +6,7 @@ const Biohazard: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 11,
 
   length: QuestLength.Medium,
 

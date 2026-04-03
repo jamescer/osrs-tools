@@ -6,7 +6,7 @@ const HazeelCult: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 54,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

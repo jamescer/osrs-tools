@@ -9,7 +9,7 @@ const IcthlarinsLittleHelper: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 58,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

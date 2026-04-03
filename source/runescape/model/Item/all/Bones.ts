@@ -3,6 +3,7 @@ import { Item, ItemJson } from '../Item';
 const bonesData: ItemJson = {
   id: 20,
   name: 'Bones',
+  iconUrl: '/assets/items/bones.png',
   examine: 'Just some regular bones.',
   members: false,
   stackable: false,

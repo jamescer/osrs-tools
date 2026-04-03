@@ -3,6 +3,7 @@ import { Item } from '../Item';
 const BucketOfWaterData = {
   id: 1929,
   name: 'Bucket of water',
+  iconUrl: '/assets/items/bucket-of-water.png',
   examine: 'A bucket filled with water.',
   destroy: 'Drop',
   equipable: false,

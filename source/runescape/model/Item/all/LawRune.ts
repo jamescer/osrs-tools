@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const lawRuneData = {
+  id: 573,
+  name: 'Law rune',
+  iconUrl: '/assets/items/law-rune.png',
+  examine: 'A law rune.',
+  value: 1106,
+  highAlch: 663,
+  lowAlch: 442,
+  weight: 0.001,
+  members: true,
+  tradeable: true,
+  equipable: false,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: true,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Law_rune',
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: 0,
+  attackMagic: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const LawRune = Item.fromJson(lawRuneData);

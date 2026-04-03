@@ -10,6 +10,7 @@ const crossSectionData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Cross section',
+  iconUrl: '/assets/items/cross-section.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Cross_section',
   prayer: 0,

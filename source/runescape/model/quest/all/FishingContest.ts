@@ -5,7 +5,7 @@ const FishingContest: Quest = {
   age: 'Third Age',
   description: 'Help a dwarf participate in a fishing contest and prove your fishing skills.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 45,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

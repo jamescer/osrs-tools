@@ -6,7 +6,7 @@ const TheDepthsOfDespair: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 105,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

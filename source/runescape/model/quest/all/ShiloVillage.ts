@@ -7,7 +7,7 @@ const ShiloVillage: Quest = {
   age: 'Fifth Age',
   description: 'A village hidden in the jungles of Karamja has been plagued by a terrible disease. Travel deep into the jungle to find a cure and restore peace to the settlement.',
   difficulty: QuestDifficulty.Experienced,
-  id: 0,
+  id: 98,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

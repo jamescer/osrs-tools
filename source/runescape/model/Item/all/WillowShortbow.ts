@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const willowShortbowData = {
+  id: 849,
+  name: 'Willow shortbow',
+  iconUrl: '/assets/items/willow-shortbow.png',
+  examine: 'A bow made of willow wood.',
+  value: 35,
+  highAlch: 21,
+  lowAlch: 14,
+  weight: 0.9072,
+  members: false,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Willow_shortbow',
+  attackStab: -8,
+  attackSlash: -5,
+  attackCrush: -15,
+  attackRanged: 20,
+  attackMagic: -10,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const WillowShortbow = Item.fromJson(willowShortbowData);

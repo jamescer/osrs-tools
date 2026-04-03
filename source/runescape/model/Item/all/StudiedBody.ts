@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const studiedBodyData = {
+  id: 1331,
+  name: 'Studded body',
+  iconUrl: '/assets/items/studded-body.png',
+  examine: 'A leather body with metal studs.',
+  value: 75,
+  highAlch: 45,
+  lowAlch: 30,
+  weight: 4.536,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Studded_body',
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: 0,
+  attackMagic: -10,
+  defenceStab: 25,
+  defenceSlash: 28,
+  defenceCrush: 20,
+  defenceRanged: 25,
+  defenceMagic: -5,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const StudiedBody = Item.fromJson(studiedBodyData);

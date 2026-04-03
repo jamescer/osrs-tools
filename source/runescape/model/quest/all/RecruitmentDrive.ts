@@ -8,7 +8,7 @@ const RecruitmentDrive: Quest = {
   description:
     "The Temple Knights of Saradomin, a secret organisation founded many centuries ago by Saradomin himself, are currently looking to expand their ranks with some new blood. After the successful thwarting of the Black Knights' plans to take over Asgarnia, and with the personal recommendation of Sir Amik, you have now been offered the chance to apply for membership in this organisation... but are you up to the challenge?",
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 86,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

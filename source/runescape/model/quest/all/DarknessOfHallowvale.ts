@@ -11,7 +11,7 @@ const DarknessOfHallowvale: Quest = {
   age: "",
   description: "",
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 22,
   length: QuestLength.VeryLong,
   members: true,
   miniquest: false,

@@ -1,4 +1,3 @@
-import { Cache } from "../../utils/cache";
 import { OsrsAccount } from "../account/OsrsAccount";
 import { LevelRequirement, QuestRequirement, RequirementType } from "../Requirement";
 import { QuestList } from "./QuestList";
@@ -13,7 +12,6 @@ import AKingdomDivided from "./all/AKingdomDivided";
  */
 class QuestTool {
   private osrsAccount: OsrsAccount | undefined;
-  private static questCache = new Cache<Quest>({ maxSize: 200, ttl: 3600000 }); // 1 hour TTL
 
   constructor(account?: OsrsAccount) {
     this.osrsAccount = account;
@@ -96,40 +94,31 @@ class QuestTool {
   static getQuestByName(questName: string): Quest | undefined {
     // Normalize quest name to match file naming convention
     const normalized = questName
-      .replace(/[^a-zA-Z0-9]/g, "") // Remove non-alphanumeric
-      .replace(/\s+/g, "") // Remove spaces
+      .replace(/[^a-zA-Z0-9]/g, '') // Remove non-alphanumeric
+      .replace(/\s+/g, '') // Remove spaces
       .replace(/^./, (c) => c.toUpperCase());
-
-    // Check cache first
-    const cached = QuestTool.questCache.get(normalized);
-    if (cached) {
-      return cached;
-    }
 
     try {
       // Dynamically require the quest file
       // Note: This only works in Node.js, not in browser environments
-      // and assumes all quest files are named as <QuestName>.ts/js and exported as default
+      // and assumes all quest files are named as <QuestName>.ts and exported as default
       // Example: 'Dragon Slayer' => './all/DragonSlayer'
-      // You may want to maintain a map for production use
       // eslint-disable-next-line @typescript-eslint/no-var-requires
       const questModule = require(`./all/${normalized}`);
       const quest = questModule.default || questModule;
 
-      // Cache the result if found
       if (quest) {
-        QuestTool.questCache.set(normalized, quest);
         return quest;
       }
 
-      //todo add quest name guessing logic here
+      // Handle known quest name variations
       switch (questName.toLocaleLowerCase()) {
-        case "a kingdome divided":
-        case "aKingdomDivided":
+        case 'a kingdome divided':
+        case 'akingdomdivided':
           return AKingdomDivided;
+        default:
+          return undefined;
       }
-
-      return undefined;
     } catch (e) {
       return undefined;
     }

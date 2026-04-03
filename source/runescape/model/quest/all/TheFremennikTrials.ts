@@ -5,7 +5,7 @@ const TheFremennikTrials: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 110,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

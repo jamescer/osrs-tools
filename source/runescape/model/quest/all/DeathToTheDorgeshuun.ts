@@ -6,7 +6,7 @@ const DeathToTheDorgeshuun: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 24,
 
   length: QuestLength.Medium,
 

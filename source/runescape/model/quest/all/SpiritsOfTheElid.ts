@@ -6,7 +6,7 @@ const SpiritsOfTheElid: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 101,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

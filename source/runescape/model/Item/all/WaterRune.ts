@@ -5,6 +5,7 @@ const waterRuneData: ItemJson = {
   id: 555,
   members: false,
   name: 'Water rune',
+  iconUrl: '/assets/items/water-rune.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Water_rune',
   questItem: false,

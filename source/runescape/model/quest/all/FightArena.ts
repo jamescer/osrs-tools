@@ -4,7 +4,7 @@ const FightArena: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 44,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

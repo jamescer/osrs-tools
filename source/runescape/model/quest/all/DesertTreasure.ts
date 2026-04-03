@@ -7,7 +7,7 @@ const DesertTreasure = {
   description:
     'Help the archaeologist uncover the secrets of the Ancient Pyramid and unlock Ancient Magicks.',
   difficulty: QuestDifficulty.Master,
-  id: 0,
+  id: 26,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

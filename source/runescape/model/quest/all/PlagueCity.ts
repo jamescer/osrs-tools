@@ -5,7 +5,7 @@ const PlagueCity: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 80,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

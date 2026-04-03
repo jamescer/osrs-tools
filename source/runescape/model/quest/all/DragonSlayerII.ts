@@ -6,7 +6,7 @@ const DragonSlayerII: Quest = {
 
   difficulty: QuestDifficulty.Experienced,
 
-  id: 0,
+  id: 31,
 
   length: QuestLength.VeryLong,
 

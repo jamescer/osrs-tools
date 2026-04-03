@@ -1,5 +1,2 @@
-import { getDiaryByName } from './Diary';
-import type { Diary } from './Diary';
-
-export const ArdougneDiary: Diary = getDiaryByName('Ardougne Diary')!;
-export default ArdougneDiary;
+export { ArdougneDiary } from "./ardougne/Ardougne";
+export { ArdougneDiary as default } from "./ardougne/Ardougne";

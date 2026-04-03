@@ -6,7 +6,7 @@ const SwanSong: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
-  id: 0,
+  id: 102,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

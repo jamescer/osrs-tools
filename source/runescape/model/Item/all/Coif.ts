@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const coifData = {
+  id: 1169,
+  name: 'Coif',
+  iconUrl: '/assets/items/coif.png',
+  examine: 'A protective headpiece made of leather.',
+  value: 25,
+  highAlch: 15,
+  lowAlch: 10,
+  weight: 0.453,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Coif',
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: 2,
+  attackMagic: 0,
+  defenceStab: 5,
+  defenceSlash: 5,
+  defenceCrush: 4,
+  defenceRanged: 8,
+  defenceMagic: 0,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const Coif = Item.fromJson(coifData);

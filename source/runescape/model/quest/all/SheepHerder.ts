@@ -5,7 +5,7 @@ const SheepHerder: Quest = {
   age: 'First Age',
   description: 'Help a farmer herd sheep and manage a farm in the countryside.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 97,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

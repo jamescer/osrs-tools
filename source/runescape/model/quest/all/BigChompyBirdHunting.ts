@@ -6,7 +6,7 @@ const BigChompyBirdHunting: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 10,
 
   length: QuestLength.Short,
 

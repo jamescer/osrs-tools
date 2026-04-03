@@ -6,7 +6,7 @@ const TheTempleOfIkov: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 121,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

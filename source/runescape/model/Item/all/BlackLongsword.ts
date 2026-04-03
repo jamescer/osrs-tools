@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const blackLongswordData = {
+  id: 564,
+  name: 'Black longsword',
+  iconUrl: '/assets/items/black-longsword.png',
+  examine: 'A longsword made of black metal.',
+  value: 392,
+  highAlch: 235,
+  lowAlch: 156,
+  weight: 1.814,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_longsword',
+  attackStab: 18,
+  attackSlash: 32,
+  attackCrush: -5,
+  attackRanged: 0,
+  attackMagic: -5,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  strength: 25,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const BlackLongsword = Item.fromJson(blackLongswordData);

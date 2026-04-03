@@ -7,7 +7,7 @@ const JunglePotion: Quest = {
   age: 'Third Age',
   description: 'Help a shaman by making a herblore potion to cure a tribe member.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 62,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

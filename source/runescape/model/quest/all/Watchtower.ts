@@ -6,7 +6,7 @@ const Watchtower: Quest = {
   age: "",
   description: "",
   difficulty: QuestDifficulty.Experienced,
-  id: 0,
+  id: 133,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

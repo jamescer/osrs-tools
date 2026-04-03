@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const fireRuneData = {
+  id: 562,
+  name: 'Fire rune',
+  iconUrl: '/assets/items/fire-rune.png',
+  examine: 'A fire rune.',
+  value: 5,
+  highAlch: 3,
+  lowAlch: 1,
+  weight: 0.001,
+  members: false,
+  tradeable: true,
+  equipable: false,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: true,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Fire_rune',
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: 0,
+  attackMagic: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const FireRune = Item.fromJson(fireRuneData);

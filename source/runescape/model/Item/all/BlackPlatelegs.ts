@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const blackPlateLegsData = {
+  id: 521,
+  name: 'Black platelegs',
+  iconUrl: '/assets/items/black-platelegs.png',
+  examine: 'A pair of very strong trousers.',
+  value: 320,
+  highAlch: 192,
+  lowAlch: 128,
+  weight: 6.804,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_platelegs',
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: -10,
+  attackMagic: -10,
+  defenceStab: 50,
+  defenceSlash: 52,
+  defenceCrush: 48,
+  defenceRanged: 50,
+  defenceMagic: -8,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const BlackPlatelegs = Item.fromJson(blackPlateLegsData);

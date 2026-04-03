@@ -6,7 +6,7 @@ const GoblinDiplomacy: Quest = {
   age: 'First Age',
   description: 'Help negotiate peace between feuding goblin generals.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 51,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

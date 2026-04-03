@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const blackPlatebodyData = {
+  id: 503,
+  name: 'Black platebody',
+  iconUrl: '/assets/items/black-platebody.png',
+  examine: 'A very strong piece of armour.',
+  value: 480,
+  highAlch: 288,
+  lowAlch: 192,
+  weight: 9.072,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_platebody',
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: -15,
+  attackMagic: -15,
+  defenceStab: 80,
+  defenceSlash: 82,
+  defenceCrush: 75,
+  defenceRanged: 80,
+  defenceMagic: -10,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const BlackPlatebody = Item.fromJson(blackPlatebodyData);

@@ -40,7 +40,7 @@ const CurrentAffairs: Quest = {
   description:
     'Help Arhein get past some political red tape and unlock the current duck, a useful Sailing tool.',
   difficulty: QuestDifficulty.Novice,
-  id: 276,
+  id: 21,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

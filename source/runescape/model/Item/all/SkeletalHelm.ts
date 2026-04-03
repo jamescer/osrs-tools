@@ -20,6 +20,7 @@ const skeletalHelmData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Skeletal helm',
+  iconUrl: '/assets/items/skeletal-helm.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Skeletal_helm',
   prayer: 0,

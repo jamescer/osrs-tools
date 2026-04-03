@@ -6,7 +6,7 @@ const ColdWar: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 17,
 
   length: QuestLength.MediumLong,
 

@@ -7,7 +7,7 @@ const ThroneOfMiscellania: Quest = {
   age: 'Fifth Age',
   description: 'A king has gone missing on the island of Miscellania. Investigate the disappearance, challenge for leadership, and restore order to the troubled kingdom.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 123,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

@@ -6,7 +6,7 @@ const LegendsQuest: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
-  id: 0,
+  id: 64,
   length: QuestLength.VeryLong,
   members: true,
   miniquest: false,

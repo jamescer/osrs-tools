@@ -6,7 +6,7 @@ const FairytaleIICureAQueen: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 42,
 
   length: QuestLength.ShortMedium,
 

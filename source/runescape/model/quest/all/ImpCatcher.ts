@@ -6,7 +6,7 @@ const ImpCatcher: Quest = {
   age: 'First Age',
   description: 'Help a wizard catch imps for an experiment and learn to summon allies.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 59,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

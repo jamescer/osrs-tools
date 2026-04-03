@@ -1,7 +1,17 @@
-import { LevelRequirement, QuestRequirement, ItemRequirement, Requirement } from '../Requirement';
+import { LevelRequirement, QuestRequirement, ItemRequirement, Requirement } from "../Requirement";
+import { ArdougneDiary as typedArdougneDiary } from "./ardougne/Ardougne";
+import { KaramjaDiary as typedKaramjaDiary } from "./karamja/Karamja";
+import { DesertDiary as typedDesertDiary } from "./desert/Desert";
+import { VarrockDiary as typedVarrockDiary } from "./varrock/Varrock";
+import { FremennikDiary as typedFremennikDiary } from "./fremennik/Fremennik";
+import { KandarinDiary as typedKandarinDiary } from "./kandarin/Kandarin";
+import { KourendKebosDiary as typedKourendKebosDiary } from "./kourend-kebos/KourendKebos";
+import { LumbridgeDraynorDiary as typedLumbridgeDraynorDiary } from "./lumbridge-draynor/LumbridgeDraynor";
+import { MorytaniaDiary as typedMorytaniaDiary } from "./morytania/Morytania";
+import { WildernessDiary as typedWildernessDiary } from "./wilderness/Wilderness";
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const diariesData: Record<string, any> = require('../../resources/diary/diaries.json');
+const diariesData: Record<string, any> = require("../../resources/diary/diaries.json");
 
 export interface DiaryTask {
   description: string;
@@ -19,6 +29,17 @@ export interface DiaryLevel {
   skillsRequired?: any[];
 }
 
+/**
+ * Diary interface representing the structure of a RuneScape diary, including its name, rewards, and tasks for each difficulty level. Tasks include descriptions, requirements (such as quests and skills), and optional notes.
+ * The diaries are built from a JSON resource file and can be accessed by name or retrieved as a list of all diaries.
+ * Example usage:
+ * const ardougneDiary = getDiaryByName("Ardougne Diary");
+ * if (ardougneDiary) {
+ *   console.log(ardougneDiary.name); // "Ardougne Diary"
+ *   console.log(ardougneDiary.easy.tasks[0].description); // Description of the first easy task
+ *   console.log(ardougneDiary.easy.tasks[0].requirements); // Requirements for the first easy task
+ * }
+ */
 export interface Diary {
   name: string;
   itemReward?: string;
@@ -42,7 +63,7 @@ function mapTask(task: any): DiaryTask {
     // quests
     if (Array.isArray(task.requirements.quests)) {
       for (const q of task.requirements.quests) {
-        if (q && typeof q === 'string') requirements.push(new QuestRequirement(q));
+        if (q && typeof q === "string") requirements.push(new QuestRequirement(q));
       }
     }
     // skills
@@ -55,11 +76,10 @@ function mapTask(task: any): DiaryTask {
   }
 
   // items are stored as freeform notes in the resource file
-  const notes =
-    task.other?.itemsNeeded || task.other?.itemsNeeded === '' ? task.other.itemsNeeded : undefined;
+  const notes = task.other?.itemsNeeded || task.other?.itemsNeeded === "" ? task.other.itemsNeeded : undefined;
 
   return {
-    description: task.description || '',
+    description: task.description || "",
     requirements,
     notes,
   };
@@ -73,16 +93,14 @@ function mapLevel(level: any): DiaryLevel {
     rewards: level.rewards,
     tasks,
     itemsRequired: level.itemsRequired,
-    itemRequirements: Array.isArray(level.itemsRequired)
-      ? level.itemsRequired.map((s: string) => mapItemString(s)).filter(Boolean as any)
-      : undefined,
+    itemRequirements: Array.isArray(level.itemsRequired) ? level.itemsRequired.map((s: string) => mapItemString(s)).filter(Boolean as any) : undefined,
     questsRequired: level.questsRequired,
     skillsRequired: level.skillsRequired,
   };
 }
 
 function mapItemString(s: string): ItemRequirement | null {
-  if (!s || typeof s !== 'string') return null;
+  if (!s || typeof s !== "string") return null;
   // Try to extract a leading quantity: "3 strawberry seeds" or "2x item"
   const qtyMatch = s.trim().match(/^(\d+)\s*(?:x|×)?\s*(.+)$/i);
   let qty = 1;
@@ -95,7 +113,7 @@ function mapItemString(s: string): ItemRequirement | null {
   const noted = /noted/i.test(name);
   const notConsumed = /not consumed/i.test(name);
   // strip parenthetical notes from name
-  name = name.replace(/\(.+\)/g, '').trim();
+  name = name.replace(/\(.+\)/g, "").trim();
   return new ItemRequirement(name, qty, { consumed: !notConsumed, noted, notes: s });
 }
 
@@ -115,7 +133,7 @@ export function getDiaryByName(name: string): Diary | undefined {
   // exact match first
   if (diaries[name]) return diaries[name];
   // try case-insensitive
-  const found = Object.keys(diaries).find(k => k.toLowerCase() === name.toLowerCase());
+  const found = Object.keys(diaries).find((k) => k.toLowerCase() === name.toLowerCase());
   return found ? diaries[found] : undefined;
 }
 
@@ -124,23 +142,36 @@ export function getAllDiaries(): Diary[] {
 }
 
 //Build the Diaries for Export
-const diaries: Record<string, Diary> = {};
+const diaries: Record<string, Diary> = {
+  "Ardougne Diary": typedArdougneDiary,
+  "Karamja Diary": typedKaramjaDiary,
+  "Desert Diary": typedDesertDiary,
+  "Varrock Diary": typedVarrockDiary,
+  "Fremennik Diary": typedFremennikDiary,
+  "Kandarin Diary": typedKandarinDiary,
+  "Kourend & Kebos Diary": typedKourendKebosDiary,
+  "Lumbridge & Draynor Diary": typedLumbridgeDraynorDiary,
+  "Morytania Diary": typedMorytaniaDiary,
+  "Wilderness Diary": typedWildernessDiary,
+};
 for (const k of Object.keys(diariesData)) {
-  diaries[k] = buildDiary(k, diariesData[k]);
+  if (!diaries[k]) {
+    diaries[k] = buildDiary(k, diariesData[k]);
+  }
 }
 
 export default diaries;
 
 // Named exports for convenient imports
-export const ArdougneDiary = diaries['Ardougne Diary'];
-export const DesertDiary = diaries['Desert Diary'];
-export const FaladorDiary = diaries['Falador Diary'];
-export const FremennikDiary = diaries['Fremennik Diary'];
-export const KandarinDiary = diaries['Kandarin Diary'];
-export const KaramjaDiary = diaries['Karamja Diary'];
-export const KourendKebosDiary = diaries['Kourend & Kebos Diary'];
-export const LumbridgeDraynorDiary = diaries['Lumbridge & Draynor Diary'];
-export const MorytaniaDiary = diaries['Morytania Diary'];
-export const VarrockDiary = diaries['Varrock Diary'];
-export const WesternProvincesDiary = diaries['Western Provinces Diary'];
-export const WildernessDiary = diaries['Wilderness Diary'];
+export const ArdougneDiary = diaries["Ardougne Diary"];
+export const DesertDiary = diaries["Desert Diary"];
+export const FaladorDiary = diaries["Falador Diary"];
+export const FremennikDiary = diaries["Fremennik Diary"];
+export const KandarinDiary = diaries["Kandarin Diary"];
+export const KaramjaDiary = diaries["Karamja Diary"];
+export const KourendKebosDiary = diaries["Kourend & Kebos Diary"];
+export const LumbridgeDraynorDiary = diaries["Lumbridge & Draynor Diary"];
+export const MorytaniaDiary = diaries["Morytania Diary"];
+export const VarrockDiary = diaries["Varrock Diary"];
+export const WesternProvincesDiary = diaries["Western Provinces Diary"];
+export const WildernessDiary = diaries["Wilderness Diary"];

@@ -5,7 +5,7 @@ const TribalTotem: Quest = {
   age: 'Third Age',
   description: 'Help a tribe recover their sacred totem that has been stolen.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 126,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

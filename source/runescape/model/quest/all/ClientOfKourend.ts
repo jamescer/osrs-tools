@@ -6,7 +6,7 @@ const ClientOfKourend: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 15,
 
   length: QuestLength.Medium,
 

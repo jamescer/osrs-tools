@@ -7,7 +7,7 @@ const Contact: Quest = {
   age: 'Fifth Age',
   description: 'Make contact with a high priest in the desert and complete a sacred mission.',
   difficulty: QuestDifficulty.Master,
-  id: 0,
+  id: 18,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

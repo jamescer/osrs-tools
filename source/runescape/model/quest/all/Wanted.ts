@@ -73,7 +73,7 @@ const Wanted: Quest = {
   age: "",
   description: "A wanted man is on the loose. Can you track him down?",
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 132,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

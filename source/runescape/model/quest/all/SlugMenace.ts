@@ -6,7 +6,7 @@ const SlugMenace: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 99,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

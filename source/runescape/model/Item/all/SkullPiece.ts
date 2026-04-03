@@ -10,6 +10,7 @@ const skullPieceData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Skull piece',
+  iconUrl: '/assets/items/skull-piece.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Skull_piece',
   prayer: 0,

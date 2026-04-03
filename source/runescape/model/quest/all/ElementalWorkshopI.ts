@@ -6,7 +6,7 @@ const ElementalWorkshopI: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 37,
 
   length: QuestLength.Short,
 

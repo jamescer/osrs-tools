@@ -6,7 +6,7 @@ const TheLostTribe: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 117,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

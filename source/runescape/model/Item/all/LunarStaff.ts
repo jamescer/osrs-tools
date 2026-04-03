@@ -20,6 +20,7 @@ const lunarStaffData: ItemJson = {
   members: true,
   meleeStrength: 5,
   name: 'Lunar staff',
+  iconUrl: '/assets/items/lunar-staff.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Lunar_staff',
   prayer: 1,

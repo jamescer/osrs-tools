@@ -10,6 +10,7 @@ const coinsData: ItemJson = {
   members: false,
   meleeStrength: 0,
   name: 'Coins',
+  iconUrl: '/assets/items/coins.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Coins',
   prayer: 0,

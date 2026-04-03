@@ -7,7 +7,7 @@ const InAidOfTheMyreque: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 60,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

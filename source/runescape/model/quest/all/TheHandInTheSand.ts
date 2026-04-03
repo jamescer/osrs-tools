@@ -8,7 +8,7 @@ const TheHandInTheSand: Quest = {
   description:
     "Bert the Sandman in Yanille is in a spot of bother. A mysterious severed hand has appeared in his sand box. Help find out whose hand it is and, more to the point, how it got in Bert's sand box.",
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 115,
   length: QuestLength.ShortMedium,
   members: true,
   miniquest: false,

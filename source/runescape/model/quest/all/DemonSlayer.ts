@@ -7,7 +7,7 @@ const DemonSlayer: Quest = {
   description:
     'A mighty demon is being summoned to destroy the city of Varrock. You find out you are the one destined to stop him (or at least try).',
   difficulty: QuestDifficulty.Novice,
-  id: 2,
+  id: 25,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

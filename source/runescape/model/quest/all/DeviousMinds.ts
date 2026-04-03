@@ -6,7 +6,7 @@ const DeviousMinds: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 27,
 
   length: QuestLength.Short,
 

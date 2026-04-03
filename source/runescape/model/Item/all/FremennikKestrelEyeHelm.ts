@@ -20,6 +20,7 @@ const fremKestrelEyeHelmData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Fremennik kestrel-eye helm',
+  iconUrl: '/assets/items/fremennik-kestrel-eye-helm.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Fremennik_kestrel-eye_helm',
   prayer: 0,

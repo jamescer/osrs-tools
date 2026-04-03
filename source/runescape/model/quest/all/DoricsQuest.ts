@@ -6,7 +6,7 @@ const DoricsQuest: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 29,
 
   length: QuestLength.Short,
 

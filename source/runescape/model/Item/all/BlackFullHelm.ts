@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const blackFullHelmData = {
+  id: 550,
+  name: 'Black full helm',
+  iconUrl: '/assets/items/black-full-helm.png',
+  examine: 'A full helmet made of black metal.',
+  value: 320,
+  highAlch: 192,
+  lowAlch: 128,
+  weight: 2.268,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_full_helm',
+  attackStab: -8,
+  attackSlash: -4,
+  attackCrush: 10,
+  attackRanged: -8,
+  attackMagic: 0,
+  defenceStab: 35,
+  defenceSlash: 36,
+  defenceCrush: 32,
+  defenceRanged: 34,
+  defenceMagic: 0,
+  strength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const BlackFullHelm = Item.fromJson(blackFullHelmData);

@@ -9,7 +9,7 @@ const ASoulsBane: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 4,
 
   length: QuestLength.Medium,
 

@@ -5,7 +5,7 @@ const WaterfallQuest: Quest = {
   age: 'Third Age',
   description: 'Help a tribesperson recover a sacred totem from a mysterious waterfall.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 134,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

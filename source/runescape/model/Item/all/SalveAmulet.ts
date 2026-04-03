@@ -20,6 +20,7 @@ const salveAmuletData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Salve amulet',
+  iconUrl: '/assets/items/salve-amulet.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Salve_amulet',
   prayer: 0,

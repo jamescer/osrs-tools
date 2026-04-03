@@ -1,6 +1,6 @@
 {
   "name": "osrs-tools",
-  "version": "2.3.6",
+  "version": "2.5.0",
   "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and game item information",
   "license": "MIT",
   "scripts": {
@@ -9,17 +9,12 @@
     "build:osrs-tools:npm": "tsc -p tsconfig.build.json",
     "coverage": "jest --coverage && codecov",
     "dev": "tsc --watch -p tsconfig.build.json",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "getAccountData": "ts-node tools/GetAccountData.ts",
-    "getQuestDetails": "ts-node tools/GetQuestDetails.ts",
-    "lint": "eslint \"{src,test}/**/*.ts\" --fix",
+    "format": "prettier --write \"source/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"{source,test}/**/*.ts\" --fix",
     "postpublish": "git push && git push --tags",
     "prebuild-backup": "npm run clean",
     "prepublishOnly": "npm run build && npm test",
     "preversion": "npm test",
-    "runExample": "ts-node examples/ExampleQuest.ts",
-    "scrapeQuestList": "ts-node tools/ScrapeQuestData.ts",
-    "scrapeSlayerData": "ts-node tools/ScrapeSlayerData.ts",
     "test": "jest",
     "test:ci": "jest --ci --coverage",
     "test:coverage": "jest --coverage",
@@ -55,12 +50,45 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.js"
-    }
+    },
+    "./account": {
+      "types": "./dist/runescape/model/account/index.d.ts",
+      "import": "./dist/runescape/model/account/index.js",
+      "require": "./dist/runescape/model/account/index.js"
+    },
+    "./diary": {
+      "types": "./dist/runescape/model/diaries/index.d.ts",
+      "import": "./dist/runescape/model/diaries/index.js",
+      "require": "./dist/runescape/model/diaries/index.js"
+    },
+    "./quest": {
+      "types": "./dist/runescape/model/quest/index.d.ts",
+      "import": "./dist/runescape/model/quest/index.js",
+      "require": "./dist/runescape/model/quest/index.js"
+    },
+    "./slayer": {
+      "types": "./dist/runescape/model/slayer/index.d.ts",
+      "import": "./dist/runescape/model/slayer/index.js",
+      "require": "./dist/runescape/model/slayer/index.js"
+    },
+    "./tools": {
+      "types": "./dist/runescape/tools/index.d.ts",
+      "import": "./dist/runescape/tools/index.js",
+      "require": "./dist/runescape/tools/index.js"
+    },
+    "./utils": {
+      "types": "./dist/runescape/utils/index.d.ts",
+      "import": "./dist/runescape/utils/index.js",
+      "require": "./dist/runescape/utils/index.js"
+    },
+    "./models/*": "./dist/runescape/model/Item/models/*"
   },
   "files": [
-    "dist"
+    "dist",
+    "public"
   ],
   "engines": {
     "node": ">=18"

@@ -7,7 +7,7 @@ const BetweenARock: Quest = {
 
   difficulty: QuestDifficulty.Experienced,
 
-  id: 0,
+  id: 9,
 
   length: QuestLength.Long,
 

@@ -10,7 +10,7 @@ const FamilyCrest: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 6,
+  id: 43,
 
   length: QuestLength.Long,
 

@@ -5,7 +5,7 @@ const TheGolem: Quest = {
   age: 'Third Age',
   description: 'Investigate a mysterious golem in the desert and help the surrounding community.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 112,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

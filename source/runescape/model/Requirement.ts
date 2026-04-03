@@ -1,24 +1,47 @@
+import { Skill, SKILL_METADATA } from './account/Skill';
+
 // Base interface for all types of requirements
 interface Requirement {
   description: string;
   type: RequirementType;
 }
 
-// TODO: Add a requirement type for all "levels" (combat, slayer, farming, crafting etc.)
+/**
+ * Level requirement for a specific skill.
+ * Automatically determines boostability from skill metadata.
+ * Supports both Skill enum and string skill names for backwards compatibility.
+ */
 class LevelRequirement implements Requirement {
   type: RequirementType = RequirementType.Level;
   skillName: string;
   level: number;
-  boostable: boolean = false; // Indicates if the level can be boosted
+  boostable: boolean;
 
-  constructor(skillName: string, level: number, boostable: boolean = false) {
-    this.boostable = boostable;
-    this.skillName = skillName;
+  constructor(skillName: string | Skill, level: number, boostable?: boolean) {
+    this.skillName = skillName as string;
     this.level = level;
+
+    // If boostable is not explicitly provided, use metadata
+    if (boostable !== undefined) {
+      this.boostable = boostable;
+    } else {
+      // Try to infer from metadata, default to false if skill not found
+      const meta = SKILL_METADATA[this.skillName as Skill];
+      this.boostable = meta?.isBoostable ?? false;
+    }
   }
 
   get description(): string {
     return `Level ${this.level}`;
+  }
+
+  /**
+   * Get the expected max level for this skill from metadata.
+   * Useful for validation and display purposes.
+   */
+  getMaxLevel(): number {
+    const meta = SKILL_METADATA[this.skillName as Skill];
+    return meta?.maxLevel ?? 99;
   }
 }
 

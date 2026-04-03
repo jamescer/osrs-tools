@@ -9,7 +9,7 @@ const MeatAndGreet: Quest = {
   description:
     'Help the Varrock Cook prepare a feast by gathering special meats from around Gielinor.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 68,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

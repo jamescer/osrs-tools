@@ -1,862 +1,208 @@
-import { Item } from './Item';
-import { Bones } from './all/Bones';
-import { BucketOfWater } from './all/BucketofWater';
-import { Coins } from './all/Coins';
-import { DagannothHide } from './all/DagannothHide';
-import { Nosepeg } from './all/Nosepeg';
-
-const ReinforcedGoggles = new Item(
-  23264,
-  'Reinforced goggles',
-  'A pair of reinforced goggles.',
-  0,
-  0,
-  0,
-  0.1,
-  true,
-  false,
-  false,
-  '2023-10-02',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Reinforced_goggles',
-  'https://oldschool.runescape.wiki/images/2/2c/Reinforced_goggles.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FaceMask = new Item(
-  4164,
-  'Face mask',
-  'A mask to protect against airborne hazards.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Face_mask',
-  'https://oldschool.runescape.wiki/images/2/2a/Face_mask.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const Earmuffs = new Item(
-  4166,
-  'Earmuffs',
-  'A pair of soundproof earmuffs.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Earmuffs',
-  'https://oldschool.runescape.wiki/images/2/2d/Earmuffs.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const SlayerGloves = new Item(
-  1009,
-  'Slayer gloves',
-  'A pair of gloves for slayer tasks.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Slayer_gloves',
-  'https://oldschool.runescape.wiki/images/0/0e/Slayer_gloves.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const SpinyHelmet = new Item(
-  4551,
-  'Spiny helmet',
-  'A helmet with spikes to protect against wall beasts.',
-  0,
-  0,
-  0,
-  1.0,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Spiny_helmet',
-  'https://oldschool.runescape.wiki/images/0/0b/Spiny_helmet.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const EnchantedGem = new Item(
-  4155,
-  'Enchanted gem',
-  'A gem used to contact your Slayer master.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Enchanted_gem',
-  'https://oldschool.runescape.wiki/images/7/7e/Enchanted_gem.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const SlayerBell = new Item(
-  21256,
-  'Slayer bell',
-  'A bell used to attract certain slayer monsters.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2018-01-11',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Slayer_bell',
-  'https://oldschool.runescape.wiki/images/7/7e/Slayer_bell.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const IceCooler = new Item(
-  6696,
-  'Ice cooler',
-  'A box of ice for cooling certain slayer monsters.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2007-07-05',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Ice_cooler',
-  'https://oldschool.runescape.wiki/images/2/2b/Ice_cooler.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const BagOfSalt = new Item(
-  4162,
-  'Bag of salt',
-  'A bag of salt for slayer tasks.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Bag_of_salt',
-  'https://oldschool.runescape.wiki/images/2/2e/Bag_of_salt.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const RockHammer = new Item(
-  4162,
-  'Rock hammer',
-  'A hammer for smashing gargoyles.',
-  0,
-  0,
-  0,
-  2.0,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Rock_hammer',
-  'https://oldschool.runescape.wiki/images/6/6e/Rock_hammer.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray = new Item(
-  4166,
-  'Fungicide spray',
-  'A spray for killing fungus creatures.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray10 = new Item(
-  4168,
-  'Fungicide spray (10)',
-  'A spray for killing fungus creatures. 10 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(10)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray9 = new Item(
-  4169,
-  'Fungicide spray (9)',
-  'A spray for killing fungus creatures. 9 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(9)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray8 = new Item(
-  4170,
-  'Fungicide spray (8)',
-  'A spray for killing fungus creatures. 8 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(8)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray7 = new Item(
-  4171,
-  'Fungicide spray (7)',
-  'A spray for killing fungus creatures. 7 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(7)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray6 = new Item(
-  4172,
-  'Fungicide spray (6)',
-  'A spray for killing fungus creatures. 6 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(6)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray5 = new Item(
-  4173,
-  'Fungicide spray (5)',
-  'A spray for killing fungus creatures. 5 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(5)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray4 = new Item(
-  4174,
-  'Fungicide spray (4)',
-  'A spray for killing fungus creatures. 4 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(4)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray3 = new Item(
-  4175,
-  'Fungicide spray (3)',
-  'A spray for killing fungus creatures. 3 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(3)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray2 = new Item(
-  4176,
-  'Fungicide spray (2)',
-  'A spray for killing fungus creatures. 2 charges left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(2)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray1 = new Item(
-  4177,
-  'Fungicide spray (1)',
-  'A spray for killing fungus creatures. 1 charge left.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(1)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const FungicideSpray0 = new Item(
-  4178,
-  'Fungicide spray (empty)',
-  'An empty fungicide spray.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Fungicide_spray_(empty)',
-  'https://oldschool.runescape.wiki/images/6/6d/Fungicide_spray.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const SlayerStaff = new Item(
-  4170,
-  "Slayer's staff",
-  'A staff used for slayer magic.',
-  0,
-  0,
-  0,
-  2.0,
-  true,
-  false,
-  false,
-  '2005-06-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Slayer%27s_staff',
-  'https://oldschool.runescape.wiki/images/2/2d/Slayer%27s_staff.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const BroadArrowheads = new Item(
-  11874,
-  'Broad arrowheads',
-  'Arrowheads for making broad arrows.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2008-11-05',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Broad_arrowheads',
-  'https://oldschool.runescape.wiki/images/5/5e/Broad_arrowheads.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const BroadBolts = new Item(
-  11875,
-  'Broad bolts',
-  'Bolts for use with a crossbow.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2008-11-05',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Broad_bolts',
-  'https://oldschool.runescape.wiki/images/5/5e/Broad_bolts.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const UnfinishedBroadBolts = new Item(
-  11876,
-  'Unfinished broad bolts',
-  'Unfinished broad bolts for fletching.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2008-11-05',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Unfinished_broad_bolts',
-  'https://oldschool.runescape.wiki/images/5/5e/Unfinished_broad_bolts.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const SlayerRing = new Item(
-  13281,
-  'Slayer ring (8)',
-  'A ring with 8 charges for slayer teleports.',
-  0,
-  0,
-  0,
-  0.01,
-  true,
-  false,
-  false,
-  '2016-01-07',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Slayer_ring_(8)',
-  'https://oldschool.runescape.wiki/images/2/2a/Slayer_ring_%288%29.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const SlayerHelmet = new Item(
-  11864,
-  'Slayer helmet',
-  'A helmet for slayer tasks.',
-  0,
-  0,
-  0,
-  2.2,
-  true,
-  false,
-  false,
-  '2008-11-05',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Slayer_helmet',
-  'https://oldschool.runescape.wiki/images/2/2d/Slayer_helmet.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
-
-const SlayerHelmetI = new Item(
-  11865,
-  'Slayer helmet (i)',
-  'An imbued slayer helmet.',
-  0,
-  0,
-  0,
-  2.2,
-  true,
-  false,
-  false,
-  '2014-06-05',
-  'Destroy',
-  false,
-  false,
-  false,
-  'https://oldschool.runescape.wiki/w/Slayer_helmet_(i)',
-  'https://oldschool.runescape.wiki/images/2/2d/Slayer_helmet_%28i%29.png',
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-);
+import { AdamantPlatebody } from "./all/AdamantPlatebody";
+import { AdamantPlatelegs } from "./all/AdamantPlatelegs";
+import { AdamantShieldG } from "./all/AdamantShieldG";
+import { AirRune } from "./all/AirRune";
+import { AmuletOfMagic } from "./all/AmuletOfMagic";
+import { AmuletOfMagicT } from "./all/AmuletOfMagicT";
+import { AmuletOfPowerT } from "./all/AmuletOfPowerT";
+import { AmuletOfTheVoid } from "./all/AmuletOfTheVoid";
+import { AncestralRobeBottom } from "./all/AncestralRobeBottom";
+import { AncestralRobeTop } from "./all/AncestralRobeTop";
+import { BagOfSalt } from "./all/BagOfSalt";
+import { BlackBattleaxe } from "./all/BlackBattleaxe";
+import { BlackDagger } from "./all/BlackDagger";
+import { BlackFullHelm } from "./all/BlackFullHelm";
+import { BlackFullHelmT } from "./all/BlackFullHelmT";
+import { BlackPlatebody } from "./all/BlackPlatebody";
+import { BlackPlatebodyT } from "./all/BlackPlatebodyT";
+import { BlackPlatelegs } from "./all/BlackPlatelegs";
+import { BlackPlatelegsT } from "./all/BlackPlatelegsT";
+import { BlackLongsword } from "./all/BlackLongsword";
+import { BlackPickaxe } from "./all/BlackPickaxe";
+import { BodyRune } from "./all/BodyRune";
+import { BlueDHideBody } from "./all/BlueDHideBody";
+import { BlueDHideChaps } from "./all/BlueDHideChaps";
+import { Bones } from "./all/Bones";
+import { BroadArrowheads } from "./all/BroadArrowheads";
+import { BroadBolts } from "./all/BroadBolts";
+import { BucketOfWater } from "./all/BucketofWater";
+import { CapeOfSkulls } from "./all/CapeOfSkulls";
+import { ChaosRune } from "./all/ChaosRune";
+import { ClueScrollBeginner } from "./all/ClueScrollBeginner";
+import { ClueScrollEasy } from "./all/ClueScrollEasy";
+import { ClueScrollElite } from "./all/ClueScrollElite";
+import { ClueScrollHard } from "./all/ClueScrollHard";
+import { ClueScrollMaster } from "./all/ClueScrollMaster";
+import { ClueScrollMedium } from "./all/ClueScrollMedium";
+import { Coif } from "./all/Coif";
+import { Coins } from "./all/Coins";
+import { CrawsBow } from "./all/CrawsBow";
+import { DagannothHide } from "./all/DagannothHide";
+import { DragonBoots } from "./all/DragonBoots";
+import { DragonFullHelm } from "./all/DragonFullHelm";
+import { DragonMediumHelm } from "./all/DragonMediumHelm";
+import { DragonPlatebody } from "./all/DragonPlatebody";
+import { DragonPlatelegs } from "./all/DragonPlatelegs";
+import { EarthRune } from "./all/EarthRune";
+import { Earmuffs } from "./all/Earmuffs";
+import { EnchantedGem } from "./all/EnchantedGem";
+import { FaceMask } from "./all/FaceMask";
+import { FireRune } from "./all/FireRune";
+import { FlaredTrousers } from "./all/FlaredTrousersItem";
+import { FungicideSpray } from "./all/FungicideSpray";
+import { FungicideSpray0 } from "./all/FungicideSpray0";
+import { FungicideSpray1 } from "./all/FungicideSpray1";
+import { FungicideSpray2 } from "./all/FungicideSpray2";
+import { FungicideSpray3 } from "./all/FungicideSpray3";
+import { FungicideSpray4 } from "./all/FungicideSpray4";
+import { FungicideSpray5 } from "./all/FungicideSpray5";
+import { FungicideSpray6 } from "./all/FungicideSpray6";
+import { FungicideSpray7 } from "./all/FungicideSpray7";
+import { FungicideSpray8 } from "./all/FungicideSpray8";
+import { FungicideSpray9 } from "./all/FungicideSpray9";
+import { FungicideSpray10 } from "./all/FungicideSpray10";
+import { GildedFullHelm } from "./all/GildedFullHelm";
+import { GildedLegs } from "./all/GildedLegs";
+import { GildedPlatebody } from "./all/GildedPlatebody";
+import { GoldenApron } from "./all/GoldenApron";
+import { GoldenChefsHat } from "./all/GoldenChefsHat";
+import { GreenDHideBody } from "./all/GreenDHideBody";
+import { HamJoint } from "./all/HamJoint";
+import { IceCooler } from "./all/IceCooler";
+import { IronBoots } from "./all/IronBoots";
+import { IronFullHelm } from "./all/IronFullHelm";
+import { IronFullHelmT } from "./all/IronFullHelmT";
+import { IronPlatebody } from "./all/IronPlatebody";
+import { IronPlatebodyT } from "./all/IronPlatebodyT";
+import { IronPlatelegs } from "./all/IronPlatelegs";
+import { LawRune } from "./all/LawRune";
+import { MasterScrollBookEmpty } from "./all/MasterScrollBookEmpty";
+import { MindRune } from "./all/MindRune";
+import { MithrilBoots } from "./all/MithrilBoots";
+import { MithrilFullHelm } from "./all/MithrilFullHelm";
+import { MithrilPlatebody } from "./all/MithrilPlatebody";
+import { MithrilPlatelegs } from "./all/MithrilPlatelegs";
+import { MithrilShieldT } from "./all/MithrilShieldT";
+import { MonksRobeG } from "./all/MonksRobeG";
+import { MonksRobeTopG } from "./all/MonksRobeTopG";
+import { NatureRune } from "./all/NatureRune";
+import { Nosepeg } from "./all/Nosepeg";
+import { RainBow } from "./all/RainBow";
+import { RangerBoots } from "./all/RangerBoots";
+import { RangerGloves } from "./all/RangerGloves";
+import { RangerLegs } from "./all/RangerLegs";
+import { RangerTunic } from "./all/RangerTunic";
+import { RedDHideBody } from "./all/RedDHideBody";
+import { RedDHideChaps } from "./all/RedDHideChaps";
+import { RedElegantShirt } from "./all/RedElegantShirt";
+import { ReinforcedGoggles } from "./all/ReinforcedGoggles";
+import { RewardCasketBeginner } from "./all/RewardCasketBeginner";
+import { RewardCasketEasy } from "./all/RewardCasketEasy";
+import { RewardCasketElite } from "./all/RewardCasketElite";
+import { RewardCasketHard } from "./all/RewardCasketHard";
+import { RewardCasketMaster } from "./all/RewardCasketMaster";
+import { RewardCasketMedium } from "./all/RewardCasketMedium";
+import { RockHammer } from "./all/RockHammer";
+import { RuneFullHelm } from "./all/RuneFullHelm";
+import { RuneFullHelmT } from "./all/RuneFullHelmT";
+import { RuneMediumHelm } from "./all/RuneMediumHelm";
+import { RunePlatebody } from "./all/RunePlatebody";
+import { RunePlatebodyT } from "./all/RunePlatebodyT";
+import { RunePlatelegs } from "./all/RunePlatelegs";
+import { RuniteBar } from "./all/RuniteBar";
+import { Salmon } from "./all/Salmon";
+import { SlayerBell } from "./all/SlayerBell";
+import { SlayerGloves } from "./all/SlayerGloves";
+import { SlayerHelmet } from "./all/SlayerHelmet";
+import { SlayerHelmetI } from "./all/SlayerHelmetI";
+import { SlayerRing } from "./all/SlayerRing";
+import { SlayerStaff } from "./all/SlayerStaff";
+import { SpinyHelmet } from "./all/SpinyHelmet";
+import { StaffOfAir } from "./all/StaffOfAir";
+import { StaffOfBobTheCat } from "./all/StaffOfBobTheCat";
+import { SteelBoots } from "./all/SteelBoots";
+import { SteelFullHelm } from "./all/SteelFullHelm";
+import { SteelFullHelmT } from "./all/SteelFullHelmT";
+import { SteelPickaxe } from "./all/SteelPickaxe";
+import { SteelPlatebody } from "./all/SteelPlatebody";
+import { SteelPlatebodyT } from "./all/SteelPlatebodyT";
+import { SteelPlatelegs } from "./all/SteelPlatelegs";
+import { StudiedBody } from "./all/StudiedBody";
+import { StuddedChaps } from "./all/StuddedChaps";
+import { TeamCapeI } from "./all/TeamCapeI";
+import { TeamCapeX } from "./all/TeamCapeX";
+import { TeamCapeZero } from "./all/TeamCapeZero";
+import { ThammaronsSceptre } from "./all/ThammaronsSceptre";
+import { ThirdAgeLongsword } from "./all/ThirdAgeLongsword";
+import { ThirdAgePlatebody } from "./all/ThirdAgePlatebody";
+import { ThirdAgePlatelegs } from "./all/ThirdAgePlatelegs";
+import { TreasonousRing } from "./all/TreasonousRing";
+import { Trout } from "./all/Trout";
+import { TwistedBow } from "./all/TwistedBow";
+import { UncutDiamond } from "./all/UncutDiamond";
+import { UncutEmerald } from "./all/UncutEmerald";
+import { UncutRuby } from "./all/UncutRuby";
+import { UncutSapphire } from "./all/UncutSapphire";
+import { UnfinishedBroadBolts } from "./all/UnfinishedBroadBolts";
+import { WaterRune } from "./all/WaterRune";
+import { WillowCompBow } from "./all/WillowCompBow";
+import { WillowLongbow } from "./all/WillowLongbow";
+import { WillowShortbow } from "./all/WillowShortbow";
+import { WoodenShieldG } from "./all/WoodenShieldG";
+import { BEGINNER_REWARDS, EASY_REWARDS, MEDIUM_REWARDS, HARD_REWARDS, ELITE_REWARDS, MASTER_REWARDS, getClueRewardsByTier, getClueItemsList } from "../clue/ClueScrollRewards";
 
 export {
-  Coins,
-  BucketOfWater,
-  Bones,
-  DagannothHide,
+  AdamantPlatebody,
+  AdamantPlatelegs,
+  AdamantShieldG,
+  AirRune,
+  AmuletOfMagic,
+  AmuletOfMagicT,
+  AmuletOfPowerT,
+  AmuletOfTheVoid,
+  AncestralRobeBottom,
+  AncestralRobeTop,
   BagOfSalt,
+  BlackBattleaxe,
+  BlackDagger,
+  BlackFullHelm,
+  BlackFullHelmT,
+  BlackLongsword,
+  BlackPlatebody,
+  BlackPlatebodyT,
+  BlackPlatelegs,
+  BlackPlatelegsT,
+  BlackPickaxe,
+  BodyRune,
+  BlueDHideBody,
+  BlueDHideChaps,
+  Bones,
   BroadArrowheads,
   BroadBolts,
+  BucketOfWater,
+  CapeOfSkulls,
+  ChaosRune,
+  ClueScrollBeginner,
+  ClueScrollEasy,
+  ClueScrollMedium,
+  ClueScrollHard,
+  ClueScrollElite,
+  ClueScrollMaster,
+  Coif,
+  Coins,
+  CrawsBow,
+  DagannothHide,
+  DragonBoots,
+  DragonFullHelm,
+  DragonMediumHelm,
+  DragonPlatebody,
+  DragonPlatelegs,
+  EarthRune,
   Earmuffs,
   EnchantedGem,
   FaceMask,
+  FireRune,
+  FlaredTrousers,
   FungicideSpray,
   FungicideSpray0,
   FungicideSpray1,
@@ -869,10 +215,56 @@ export {
   FungicideSpray8,
   FungicideSpray9,
   FungicideSpray10,
+  GildedFullHelm,
+  GildedLegs,
+  GildedPlatebody,
+  GoldenApron,
+  GoldenChefsHat,
+  GreenDHideBody,
+  HamJoint,
   IceCooler,
+  IronBoots,
+  IronFullHelm,
+  IronFullHelmT,
+  IronPlatebody,
+  IronPlatebodyT,
+  IronPlatelegs,
+  LawRune,
+  MasterScrollBookEmpty,
+  MindRune,
+  MithrilBoots,
+  MithrilFullHelm,
+  MithrilPlatebody,
+  MithrilPlatelegs,
+  MithrilShieldT,
+  MonksRobeG,
+  MonksRobeTopG,
+  NatureRune,
   Nosepeg,
+  RainBow,
+  RangerBoots,
+  RangerGloves,
+  RangerLegs,
+  RangerTunic,
+  RedDHideBody,
+  RedDHideChaps,
+  RedElegantShirt,
   ReinforcedGoggles,
+  RewardCasketBeginner,
+  RewardCasketEasy,
+  RewardCasketMedium,
+  RewardCasketHard,
+  RewardCasketElite,
+  RewardCasketMaster,
   RockHammer,
+  RuneFullHelm,
+  RuneFullHelmT,
+  RuneMediumHelm,
+  RunePlatebody,
+  RunePlatebodyT,
+  RunePlatelegs,
+  RuniteBar,
+  Salmon,
   SlayerBell,
   SlayerGloves,
   SlayerHelmet,
@@ -880,5 +272,43 @@ export {
   SlayerRing,
   SlayerStaff,
   SpinyHelmet,
+  StaffOfAir,
+  StaffOfBobTheCat,
+  SteelBoots,
+  SteelFullHelm,
+  SteelFullHelmT,
+  SteelPickaxe,
+  SteelPlatebody,
+  SteelPlatebodyT,
+  SteelPlatelegs,
+  StudiedBody,
+  StuddedChaps as StudiedChaps,
+  TeamCapeI,
+  TeamCapeX,
+  TeamCapeZero,
+  ThammaronsSceptre,
+  ThirdAgeLongsword,
+  ThirdAgePlatebody,
+  ThirdAgePlatelegs,
+  TreasonousRing,
+  Trout,
+  TwistedBow,
+  UncutDiamond,
+  UncutEmerald,
+  UncutRuby,
+  UncutSapphire,
   UnfinishedBroadBolts,
+  WaterRune,
+  WillowCompBow,
+  WillowLongbow,
+  WillowShortbow,
+  WoodenShieldG,
+  BEGINNER_REWARDS,
+  EASY_REWARDS,
+  MEDIUM_REWARDS,
+  HARD_REWARDS,
+  ELITE_REWARDS,
+  MASTER_REWARDS,
+  getClueRewardsByTier,
+  getClueItemsList,
 };

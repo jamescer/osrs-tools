@@ -35,7 +35,7 @@ const WhatLiesBelow: Quest = {
   description:
     "A travelling trader has been stranded south of Varrock after his cart was attacked by local outlaws. He needs the help of a hero to recover his lost documents, but that's not all... The Varrock Palace Secret Guard (VPSG) are on the trail of treacherous dealings with the Monks of Zamorak. Will you be able to help the VPSG and uncover what lies below?",
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 135,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

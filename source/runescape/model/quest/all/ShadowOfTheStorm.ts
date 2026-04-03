@@ -6,7 +6,7 @@ const ShadowOfTheStorm: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 95,
   length: QuestLength.Medium,
   members: false,
   miniquest: false,

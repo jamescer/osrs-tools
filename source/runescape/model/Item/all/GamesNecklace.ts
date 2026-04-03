@@ -20,6 +20,7 @@ const gamesNecklaceData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Games necklace(8)',
+  iconUrl: '/assets/items/games-necklace8.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Games_necklace',
   prayer: 0,

@@ -10,6 +10,7 @@ const fibulaPieceData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Fibula piece',
+  iconUrl: '/assets/items/fibula-piece.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Fibula_piece',
   prayer: 0,

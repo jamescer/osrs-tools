@@ -7,7 +7,7 @@ const UndergroundPass: Quest = {
   age: 'Fifth Age',
   description: 'Travel through a dangerous underground passage to reach the land of the elves, avoiding traps and dark magic.',
   difficulty: QuestDifficulty.Experienced,
-  id: 0,
+  id: 130,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

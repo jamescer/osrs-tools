@@ -1,0 +1,37 @@
+import { Item } from '../Item';
+
+const blackDaggerData = {
+  id: 485,
+  name: 'Black dagger',
+  iconUrl: '/assets/items/black-dagger.png',
+  examine: 'A dagger made of black metal.',
+  value: 120,
+  highAlch: 72,
+  lowAlch: 48,
+  weight: 0.453,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: '2001-12-10',
+  destroy: 'Drop',
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_dagger',
+  attackStab: 10,
+  attackSlash: 0,
+  attackCrush: -2,
+  attackRanged: 0,
+  attackMagic: -5,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  defenceMagic: 0,
+  strength: 8,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0,
+};
+
+export const BlackDagger = Item.fromJson(blackDaggerData);

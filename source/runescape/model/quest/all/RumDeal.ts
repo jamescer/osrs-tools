@@ -5,7 +5,7 @@ const RumDeal: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 90,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

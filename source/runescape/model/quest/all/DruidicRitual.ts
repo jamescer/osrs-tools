@@ -5,7 +5,7 @@ const DruidicRitual: Quest = {
   age: 'Third Age',
   description: 'Help the druids of Taibwo Taiboa island by performing a ritual during a sacred ceremony.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 33,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

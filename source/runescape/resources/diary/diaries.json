@@ -870,32 +870,118 @@
         }
     },
     "Desert Diary": {
+        "name": "Desert Diary",
         "itemReward": "Desert amulet",
         "rewards": [],
-        "name": "Desert Diary",
         "easy": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Desert amulet 1",
+            "rewards": {
+                "description": [
+                    {"main": "Desert amulet 1", "other": ["Cosmetic purposes only"]},
+                    {"main": "1 Antique lamp worth 2,500 experience in any skill of at least level 30", "other": []},
+                    {"main": "Pharaoh's sceptre will now hold up to 10 charges, up from 3", "other": []},
+                    {"main": "Desert goat horns from goats are now noted", "other": []},
+                    {"main": "Simon Templeton now also buys artefacts in noted form", "other": []}
+                ],
+                "lamps": [{"amount": 1, "experience": 2500, "levelToUse": 30}]
+            },
+            "tasks": [
+                {"description": "Catch a Golden Warbler.", "requirements": {"quests": [], "skills": [{"skill": "hunter", "level": 5, "boostable": true}]}, "other": {"itemsNeeded": "Bird snare, Necklace of passage recommended"}},
+                {"description": "Mine 5 clay in the north-eastern desert.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Any pickaxe, Necklace of passage recommended"}},
+                {"description": "Enter the Kalphite Hive.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Rope"}},
+                {"description": "Enter the Desert with a set of Desert robes equipped.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Desert shirt, desert robe, and desert boots"}},
+                {"description": "Kill a Vulture. Note: These are found north of Menaphos or Sophanem.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Weaponry, preferably Ranged or Magic"}},
+                {"description": "Have the Nardah Herbalist clean a Herb for you.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Any grimy herb and 200 coins"}},
+                {"description": "Collect 5 Potato Cactus from the Kalphite Hive.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Rope, Antipoison and food recommended"}},
+                {"description": "Sell some artefacts to Simon Templeton.", "requirements": {"quests": ["Icthlarin's Little Helper"], "skills": []}, "other": {"itemsNeeded": "Any artefact from Pyramid Plunder"}},
+                {"description": "Open the Sarcophagus in the first room of Pyramid Plunder.", "requirements": {"quests": ["Icthlarin's Little Helper"], "skills": [{"skill": "thieving", "level": 21, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Cut a desert cactus open to fill a waterskin.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Knife or a slash weapon, and an empty waterskin"}},
+                {"description": "Travel from the Shantay Pass to Pollnivneach by Magic Carpet.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "200 coins and a Shantay Pass or another 5 coins"}}
+            ],
+            "itemsRequired": ["Bird snare", "Any pickaxe", "Necklace of passage", "Rope", "Desert shirt", "Desert robe", "Desert boots", "Any grimy herb", "Any artefact from Pyramid Plunder", "Knife or slash weapon", "Empty waterskin"],
+            "questsRequired": ["Icthlarin's Little Helper"],
+            "skillsRequired": [{"skill": "hunter", "level": 5, "boostable": true}, {"skill": "thieving", "level": 21, "boostable": true}]
         },
         "medium": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Desert amulet 2",
+            "rewards": {
+                "description": [
+                    {"main": "Desert amulet 2", "other": ["One daily teleport to Nardah"]},
+                    {"main": "1 Antique lamp worth 7,500 experience in any skill of at least level 40", "other": []},
+                    {"main": "Pharaoh's sceptre will now hold up to 25 charges, up from 10", "other": []}
+                ],
+                "lamps": [{"amount": 1, "experience": 7500, "levelToUse": 40}]
+            },
+            "tasks": [
+                {"description": "Climb to the summit of the Agility Pyramid.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 30, "boostable": false}]}, "other": {"itemsNeeded": "Protection against desert heat recommended"}},
+                {"description": "Slay a desert lizard.", "requirements": {"quests": [], "skills": [{"skill": "slayer", "level": 22, "boostable": false}]}, "other": {"itemsNeeded": "Ice cooler"}},
+                {"description": "Catch an Orange Salamander.", "requirements": {"quests": [], "skills": [{"skill": "hunter", "level": 47, "boostable": false}]}, "other": {"itemsNeeded": "Rope and a small fishing net"}},
+                {"description": "Steal a feather from the Desert Phoenix.", "requirements": {"quests": [], "skills": [{"skill": "thieving", "level": 25, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Travel to Uzer via Magic Carpet.", "requirements": {"quests": ["The Golem"], "skills": []}, "other": {"itemsNeeded": "200 coins or 205 coins if using Shantay Pass"}},
+                {"description": "Travel to the Desert via Eagle.", "requirements": {"quests": ["Eagles' Peak"], "skills": []}, "other": {"itemsNeeded": "Rope"}},
+                {"description": "Pray at the Elidinis statuette in Nardah.", "requirements": {"quests": ["Spirits of the Elid"], "skills": []}, "other": {"itemsNeeded": "Must have less than full Prayer points"}},
+                {"description": "Create a combat potion in the desert.", "requirements": {"quests": [], "skills": [{"skill": "herblore", "level": 36, "boostable": false}]}, "other": {"itemsNeeded": "Harralander potion unf and goat horn dust"}},
+                {"description": "Teleport to Enakhra's Temple with the Camulet.", "requirements": {"quests": ["Enakhra's Lament"], "skills": []}, "other": {"itemsNeeded": "Camulet"}},
+                {"description": "Visit the Genie.", "requirements": {"quests": ["Spirits of the Elid"], "skills": []}, "other": {"itemsNeeded": "Rope and light source"}},
+                {"description": "Teleport to Pollnivneach with a redirected teleport to house tablet.", "requirements": {"quests": [], "skills": [{"skill": "construction", "level": 20, "boostable": false}]}, "other": {"itemsNeeded": "Scroll of redirection and a house tablet"}},
+                {"description": "Chop some Teak Logs near Uzer.", "requirements": {"quests": [], "skills": [{"skill": "woodcutting", "level": 35, "boostable": false}]}, "other": {"itemsNeeded": "Any axe"}}
+            ],
+            "itemsRequired": ["Ice cooler", "Rope", "Small fishing net", "Harralander potion unf", "Goat horn dust", "Camulet", "Scroll of redirection", "House tablet", "Any axe"],
+            "questsRequired": ["The Golem", "Eagles' Peak", "Spirits of the Elid", "Enakhra's Lament"],
+            "skillsRequired": [{"skill": "agility", "level": 30, "boostable": false}, {"skill": "slayer", "level": 22, "boostable": false}, {"skill": "hunter", "level": 47, "boostable": false}, {"skill": "thieving", "level": 25, "boostable": true}, {"skill": "herblore", "level": 36, "boostable": false}, {"skill": "construction", "level": 20, "boostable": false}, {"skill": "woodcutting", "level": 35, "boostable": false}]
         },
         "hard": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Desert amulet 3",
+            "rewards": {
+                "description": [
+                    {"main": "Desert amulet 3", "other": ["No new benefits"]},
+                    {"main": "1 Antique lamp worth 15,000 experience in any skill of at least level 50", "other": []},
+                    {"main": "Pharaoh's sceptre will now hold up to 50 charges, up from 25", "other": []},
+                    {"main": "Free carpet rides throughout the Kharidian Desert", "other": []},
+                    {"main": "Ropes are now permanently secured in Kalphite Lair", "other": []},
+                    {"main": "Increased experience and marks of grace from Pollnivneach Rooftop Course", "other": []}
+                ],
+                "lamps": [{"amount": 1, "experience": 15000, "levelToUse": 50}]
+            },
+            "tasks": [
+                {"description": "Knock out and pickpocket a Menaphite Thug.", "requirements": {"quests": ["The Feud"], "skills": [{"skill": "thieving", "level": 65, "boostable": true}]}, "other": {"itemsNeeded": "Any blackjack"}},
+                {"description": "Mine some Granite.", "requirements": {"quests": [], "skills": [{"skill": "mining", "level": 45, "boostable": false}]}, "other": {"itemsNeeded": "Any pickaxe"}},
+                {"description": "Refill your waterskins in the Desert using Lunar magic.", "requirements": {"quests": ["Dream Mentor"], "skills": [{"skill": "magic", "level": 68, "boostable": false}]}, "other": {"itemsNeeded": "Lunar spellbook, waterskin, rune components for Humidify"}},
+                {"description": "Kill the Kalphite Queen.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Appropriate equipment for the boss fight"}},
+                {"description": "Complete a lap of the Pollnivneach agility course.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 70, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Slay a Dust Devil in the desert cave with a Slayer helmet equipped.", "requirements": {"quests": ["Desert Treasure I"], "skills": [{"skill": "slayer", "level": 65, "boostable": false}, {"skill": "defence", "level": 10, "boostable": false}]}, "other": {"itemsNeeded": "Slayer helmet"}},
+                {"description": "Activate Ancient Magicks at the altar in the Jaldraocht Pyramid.", "requirements": {"quests": ["Desert Treasure I"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Defeat a Locust Rider with Keris.", "requirements": {"quests": ["Contact!"], "skills": [{"skill": "attack", "level": 50, "boostable": false}]}, "other": {"itemsNeeded": "Keris or Keris partisan and light source"}},
+                {"description": "Burn some yew logs on the Nardah Mayor's balcony.", "requirements": {"quests": [], "skills": [{"skill": "firemaking", "level": 60, "boostable": false}]}, "other": {"itemsNeeded": "Yew log and tinderbox"}},
+                {"description": "Create a Mithril Platebody in Nardah.", "requirements": {"quests": [], "skills": [{"skill": "smithing", "level": 68, "boostable": true}]}, "other": {"itemsNeeded": "5 mithril bars and hammer"}}
+            ],
+            "itemsRequired": ["Any blackjack", "Any pickaxe", "Lunar spellbook", "Waterskin", "Slayer helmet", "Keris or Keris partisan", "Light source", "Yew log", "Tinderbox", "5 mithril bars", "Hammer"],
+            "questsRequired": ["The Feud", "Dream Mentor", "Desert Treasure I", "Contact!"],
+            "skillsRequired": [{"skill": "thieving", "level": 65, "boostable": true}, {"skill": "mining", "level": 45, "boostable": false}, {"skill": "magic", "level": 68, "boostable": false}, {"skill": "agility", "level": 70, "boostable": false}, {"skill": "slayer", "level": 65, "boostable": false}, {"skill": "defence", "level": 10, "boostable": false}, {"skill": "attack", "level": 50, "boostable": false}, {"skill": "firemaking", "level": 60, "boostable": false}, {"skill": "smithing", "level": 68, "boostable": true}]
         },
         "elite": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Desert amulet 4",
+            "rewards": {
+                "description": [
+                    {"main": "Desert amulet 4", "other": ["Unlimited teleports to Nardah", "Unlimited teleports to Kalphite Cave entrance", "Fully protects against desert heat"]},
+                    {"main": "1 Antique lamp worth 50,000 experience in any skill of at least level 70", "other": []},
+                    {"main": "Pharaoh's sceptre will now hold up to 100 charges", "other": []},
+                    {"main": "Free passage through Shantay Pass and Ruins of Unkah", "other": []},
+                    {"main": "Access to crevice shortcut in Kalphite Lair with 86 Agility", "other": []}
+                ],
+                "lamps": [{"amount": 1, "experience": 50000, "levelToUse": 70}]
+            },
+            "tasks": [
+                {"description": "Bake a wild pie at the Nardah Clay Oven.", "requirements": {"quests": [], "skills": [{"skill": "cooking", "level": 85, "boostable": true}]}, "other": {"itemsNeeded": "Raw wild pie"}},
+                {"description": "Cast Ice Barrage against a foe in the Desert.", "requirements": {"quests": ["Desert Treasure I"], "skills": [{"skill": "magic", "level": 94, "boostable": true}]}, "other": {"itemsNeeded": "Rune components for Ice Barrage"}},
+                {"description": "Fletch some Dragon darts at the Bedabin Camp.", "requirements": {"quests": [], "skills": [{"skill": "fletching", "level": 95, "boostable": true}]}, "other": {"itemsNeeded": "Dragon dart tips and feathers"}},
+                {"description": "Speak to the KQ head in your POH.", "requirements": {"quests": ["Priest in Peril"], "skills": [{"skill": "construction", "level": 78, "boostable": true}]}, "other": {"itemsNeeded": "KQ head, mahogany planks, gold leaves, 50,000 coins"}},
+                {"description": "Steal from the Grand Gold Chest in the final room of Pyramid Plunder.", "requirements": {"quests": ["Icthlarin's Little Helper"], "skills": [{"skill": "thieving", "level": 91, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Restore at least 85 Prayer points when praying at the Altar in Sophanem.", "requirements": {"quests": ["Icthlarin's Little Helper"], "skills": [{"skill": "prayer", "level": 85, "boostable": true}]}, "other": {"itemsNeeded": "None"}}
+            ],
+            "itemsRequired": ["Raw wild pie", "Dragon dart tips", "Dragon feathers", "KQ head", "Mahogany planks", "Gold leaves"],
+            "questsRequired": ["Desert Treasure I", "Priest in Peril", "Icthlarin's Little Helper"],
+            "skillsRequired": [{"skill": "cooking", "level": 85, "boostable": true}, {"skill": "magic", "level": 94, "boostable": true}, {"skill": "fletching", "level": 95, "boostable": true}, {"skill": "construction", "level": 78, "boostable": true}, {"skill": "thieving", "level": 91, "boostable": true}, {"skill": "prayer", "level": 85, "boostable": true}]
         }
     },
     "Falador Diary": {
@@ -927,11 +1013,26 @@
     },
     "Fremennik Diary": {
         "itemReward": "Fremennik sea boots",
+        "rewards": [],
+        "name": "Fremennik Diary",
         "easy": {
-            "tasks": [],
+            "itemReward": "Fremennik sea boots 1",
+            "tasks": [
+                {"description": "Kill a cave crawler in the Fremennik Slayer Dungeon.", "requirements": {"quests": [], "skills": [{"skill": "slayer", "level": 10, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Kill five rock crabs on the shore near Rellekka or on Waterbirth Island.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Find the highest tree on the Fremennik mainland.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "View the rewards in the Barbarian Assault tutorial.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Speak to Otto Godblessed about barbarian training.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Collect three seaweed from the shore north-east of Rellekka.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Find the hunting expert on the northern ice plains.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Catch a fish off one of Rellekka's piers.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Recharge your Summoning points near Rellekka's gate.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Kill an adult black unicorn.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}}
+            ],
+            "rewards": {"description": [{"main": "Fremennik sea boots 1", "other": []}], "lamps": [{"amount": 1, "experience": 2500, "levelToUse": 30}]},
             "itemsRequired": [],
             "questsRequired": [],
-            "skillsRequired": []
+            "skillsRequired": [{"skill": "slayer", "level": 10, "boostable": true}]
         },
         "medium": {
             "tasks": [],
@@ -980,30 +1081,91 @@
         }
     },
     "Karamja Diary": {
+        "name": "Karamja Diary",
         "itemReward": "Karamja gloves",
+        "rewards": [],
         "easy": {
-            "tasks": [],
+            "itemReward": "Karamja gloves 1",
+            "tasks": [
+                {"description": "Pick 5 bananas from the plantation located east of the volcano.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Travel to Port Sarim via the dock east of Musa Point.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Use the rope swing to travel to the moss giant island north-west of Karamja.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 10, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Explore Cairn Island to the west of Karamja.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 15, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Use the fishing spots north of the banana plantation.", "requirements": {"quests": [], "skills": [{"skill": "fishing", "level": 5, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Collect 5 seaweed from anywhere on Karamja.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Mine some gold from the rocks on the north-west peninsula of Karamja.", "requirements": {"quests": [], "skills": [{"skill": "mining", "level": 40, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Travel to Ardougne via the port near Brimhaven.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Attempt the TzHaar Fight Pit or Fight Cave.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Kill a jogre in the Pothole dungeon.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}}
+            ],
+            "rewards": {"description": [{"main": "Karamja gloves 1", "other": ["Teleport to Shilo Village using gloves"]}], "lamps": [{"amount": 1, "experience": 2500, "levelToUse": 30}]},
             "itemsRequired": [],
             "questsRequired": [],
-            "skillsRequired": []
+            "skillsRequired": [{"skill": "agility", "level": 15, "boostable": true}, {"skill": "fishing", "level": 5, "boostable": true}, {"skill": "mining", "level": 40, "boostable": true}]
         },
         "medium": {
-            "tasks": [],
+            "itemReward": "Karamja gloves 2",
+            "tasks": [
+                {"description": "Claim a ticket from Brimhaven Agility Arena.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Discover the hidden wall in the dungeon below the volcano.", "requirements": {"quests": ["Dragon Slayer"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Visit the isle of Crandor via the dungeon below the volcano.", "requirements": {"quests": ["Dragon Slayer"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Use Vigroy and Hajedy's cart service.", "requirements": {"quests": ["Shilo Village"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Earn 100% favour in Tai Bwo Wannai.", "requirements": {"quests": ["Jungle Potion"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Cook a spider on stick.", "requirements": {"quests": [], "skills": [{"skill": "cooking", "level": 16, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Use the gnome glider to travel to Karamja.", "requirements": {"quests": ["The Grand Tree"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Grow a healthy fruit tree in the patch near Brimhaven.", "requirements": {"quests": [], "skills": [{"skill": "farming", "level": 27, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Chop the vines to gain deeper access to Brimhaven Dungeon.", "requirements": {"quests": [], "skills": [{"skill": "woodcutting", "level": 10, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Cross the spiky pit using the stepping stones within Brimhaven Dungeon.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 12, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Mine a red topaz from a gem rock.", "requirements": {"quests": ["Jungle Potion or Shilo Village"], "skills": [{"skill": "mining", "level": 40, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Cut a log from a teak tree.", "requirements": {"quests": ["Tai Bwo Wannai Trio"], "skills": [{"skill": "woodcutting", "level": 35, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Cut a log from a mahogany tree.", "requirements": {"quests": ["Tai Bwo Wannai Trio"], "skills": [{"skill": "woodcutting", "level": 50, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Trap a horned graahk.", "requirements": {"quests": [], "skills": [{"skill": "hunter", "level": 41, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Catch a karambwam.", "requirements": {"quests": ["Tai Bwo Wannai Trio"], "skills": [{"skill": "fishing", "level": 65, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Exchange gems for a machete.", "requirements": {"quests": ["Jungle Potion"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Climb the stairs within Brimhaven Dungeon.", "requirements": {"quests": [], "skills": [{"skill": "woodcutting", "level": 10, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Charter the Lady of the Waves from Cairn Isle to Port Khazard.", "requirements": {"quests": ["Shilo Village"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Charter a ship from the shipyard in the far east of Karamja.", "requirements": {"quests": ["The Grand Tree"], "skills": []}, "other": {"itemsNeeded": "None"}}
+            ],
+            "rewards": {"description": [{"main": "Karamja gloves 2", "other": ["Increased ore from some rocks"]}], "lamps": [{"amount": 1, "experience": 7500, "levelToUse": 40}]},
             "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "questsRequired": ["Dragon Slayer", "Shilo Village", "Jungle Potion", "The Grand Tree", "Tai Bwo Wannai Trio"],
+            "skillsRequired": [{"skill": "agility", "level": 12, "boostable": true}, {"skill": "cooking", "level": 16, "boostable": true}, {"skill": "farming", "level": 27, "boostable": true}, {"skill": "fishing", "level": 65, "boostable": true}, {"skill": "hunter", "level": 41, "boostable": true}, {"skill": "mining", "level": 40, "boostable": true}, {"skill": "woodcutting", "level": 50, "boostable": true}]
         },
         "hard": {
-            "tasks": [],
+            "itemReward": "Karamja gloves 3",
+            "tasks": [
+                {"description": "Become the champion of the Fight Pit.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Kill a Ket-Zek in the Fight Caves.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Eat an oomlie wrap.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Craft some nature runes.", "requirements": {"quests": [], "skills": [{"skill": "runecraft", "level": 44, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Cook a Karambwam thoroughly.", "requirements": {"quests": ["Tai Bwo Wannai Trio"], "skills": [{"skill": "cooking", "level": 30, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Kill a Deathwing in the dungeon under Kharazi Jungle.", "requirements": {"quests": ["Legends' Quest"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Use the crossbow shortcut south of the volcano.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 53, "boostable": true}, {"skill": "ranged", "level": 42, "boostable": true}, {"skill": "strength", "level": 21, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Collect 5 palm leaves.", "requirements": {"quests": ["Legends' Quest"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Be assigned a Slayer task in Shilo Village.", "requirements": {"quests": ["Shilo Village"], "skills": [{"skill": "slayer", "level": 50, "boostable": false}, {"skill": "combat", "level": 100, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Kill a metal dragon in Brimhaven Dungeon.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}}
+            ],
+            "rewards": {"description": [{"main": "Karamja gloves 3", "other": ["Teleports unlocked"]}], "lamps": [{"amount": 1, "experience": 15000, "levelToUse": 50}]},
             "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "questsRequired": ["Tai Bwo Wannai Trio", "Legends' Quest", "Shilo Village"],
+            "skillsRequired": [{"skill": "agility", "level": 53, "boostable": true}, {"skill": "combat", "level": 100, "boostable": false}, {"skill": "cooking", "level": 30, "boostable": true}, {"skill": "ranged", "level": 42, "boostable": true}, {"skill": "runecraft", "level": 44, "boostable": true}, {"skill": "slayer", "level": 50, "boostable": false}, {"skill": "strength", "level": 21, "boostable": true}]
         },
         "elite": {
-            "tasks": [],
+            "itemReward": "Karamja gloves 4",
+            "tasks": [
+                {"description": "Craft 56 nature runes simultaneously, without using pouches or familiars.", "requirements": {"quests": [], "skills": [{"skill": "runecraft", "level": 91, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Equip a TzHaar fire cape while standing in TzHaar.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Box-trap a monkey on Karamja.", "requirements": {"quests": [], "skills": [{"skill": "hunter", "level": 27, "boostable": true}, {"skill": "summoning", "level": 95, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Cook a shark over a sulphur pit.", "requirements": {"quests": [], "skills": [{"skill": "cooking", "level": 80, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Buy a snapdragon from Pirate Jackie the Fruit and create a super restore potion in Brimhaven.", "requirements": {"quests": [], "skills": [{"skill": "herblore", "level": 63, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Take your chameleon for a walk around Cairn Isle to see its egg-home.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 15, "boostable": true}, {"skill": "summoning", "level": 90, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Use the stepping stone across the river in Shilo Village.", "requirements": {"quests": ["Shilo Village"], "skills": [{"skill": "agility", "level": 74, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Earn 75+ Slayer points from Lapalok.", "requirements": {"quests": ["Smoking Kills", "While Guthix Sleeps"], "skills": [{"skill": "slayer", "level": 50, "boostable": false}, {"skill": "combat", "level": 100, "boostable": false}]}, "other": {"itemsNeeded": "None"}}
+            ],
+            "rewards": {"description": [{"main": "Karamja gloves 4", "other": ["Final Tier Rewards"]}], "lamps": [{"amount": 2, "experience": 50000, "levelToUse": 75}]},
             "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "questsRequired": ["Shilo Village", "Smoking Kills", "While Guthix Sleeps"],
+            "skillsRequired": [{"skill": "agility", "level": 74, "boostable": true}, {"skill": "combat", "level": 100, "boostable": false}, {"skill": "cooking", "level": 80, "boostable": true}, {"skill": "herblore", "level": 63, "boostable": true}, {"skill": "hunter", "level": 27, "boostable": true}, {"skill": "runecraft", "level": 91, "boostable": true}, {"skill": "slayer", "level": 50, "boostable": false}, {"skill": "summoning", "level": 95, "boostable": false}]
         }
     },
     "Kourend & Kebos Diary": {
@@ -1035,11 +1197,28 @@
     },
     "Lumbridge & Draynor Diary": {
         "itemReward": "Explorer's ring",
+        "rewards": [],
+        "name": "Lumbridge & Draynor Diary",
         "easy": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Explorer's ring 1",
+            "tasks": [
+                {"description": "Have Wizard Cromperty teleport you to the Rune essence mine.", "requirements": {"quests": ["Rune Mysteries"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Mine some copper ore in the mine south of Varrock.", "requirements": {"quests": [], "skills": [{"skill": "mining", "level": 1, "boostable": false}]}, "other": {"itemsNeeded": "Any pickaxe"}},
+                {"description": "Have a smithing tutor in Lumbridge create an item for you.", "requirements": {"quests": [], "skills": [{"skill": "smithing", "level": 1, "boostable": false}]}, "other": {"itemsNeeded": "Ore, bar or item to create"}},
+                {"description": "Light a fire in Lumbridge.", "requirements": {"quests": [], "skills": [{"skill": "firemaking", "level": 1, "boostable": false}]}, "other": {"itemsNeeded": "Logs, tinderbox"}},
+                {"description": "Catch some shrimp in Lumbridge.", "requirements": {"quests": [], "skills": [{"skill": "fishing", "level": 1, "boostable": false}]}, "other": {"itemsNeeded": "Fishing rod, paste"}},
+                {"description": "Cook a piece of chicken in the kitchen of Lumbridge Castle.", "requirements": {"quests": [], "skills": [{"skill": "cooking", "level": 1, "boostable": false}]}, "other": {"itemsNeeded": "Raw chicken"}},
+                {"description": "Enter the Lumbridge Swamp.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Pick a cabbage from the cabbage patch north of Lumbridge Castle.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Pray at the altar in the Church of Saradomin.", "requirements": {"quests": [], "skills": [{"skill": "prayer", "level": 1, "boostable": false}]}, "other": {"itemsNeeded": "Bones"}},
+                {"description": "Make a Strength potion in the Abyss.", "requirements": {"quests": [], "skills": [{"skill": "herblore", "level": 12, "boostable": false}]}, "other": {"itemsNeeded": "Herblore ingredients"}},
+                {"description": "Chop a tree and take the logs in Lumbridge.", "requirements": {"quests": [], "skills": [{"skill": "woodcutting", "level": 1, "boostable": false}]}, "other": {"itemsNeeded": "Any axe"}},
+                {"description": "Talk to the Guildmaster in the Culinaromancer's Chest room.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}}
+            ],
+            "rewards": {"description": [{"main": "Explorer's ring 1", "other": ["Free entry to the Abyss"]}], "lamps": [{"amount": 1, "experience": 2500, "levelToUse": 30}]},
+            "itemsRequired": ["Any pickaxe", "Logs", "Tinderbox", "Raw chicken", "Fishing rod", "Paste", "Bones"],
+            "questsRequired": ["Rune Mysteries"],
+            "skillsRequired": [{"skill": "mining", "level": 1, "boostable": false}, {"skill": "smithing", "level": 1, "boostable": false}, {"skill": "firemaking", "level": 1, "boostable": false}, {"skill": "fishing", "level": 1, "boostable": false}, {"skill": "cooking", "level": 1, "boostable": false}, {"skill": "prayer", "level": 1, "boostable": false}, {"skill": "herblore", "level": 12, "boostable": false}, {"skill": "woodcutting", "level": 1, "boostable": false}]
         },
         "medium": {
             "tasks": [],
@@ -1062,53 +1241,140 @@
     },
     "Morytania Diary": {
         "itemReward": "Morytania legs",
+        "rewards": [],
+        "name": "Morytania Diary",
         "easy": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Morytania legs 1",
+            "tasks": [
+                {"description": "Craft your own snelm in Morytania.", "requirements": {"quests": [], "skills": [{"skill": "crafting", "level": 15, "boostable": false}]}, "other": {"itemsNeeded": "Chisel, snail shell"}},
+                {"description": "Cook a thin snail in Morytania.", "requirements": {"quests": [], "skills": [{"skill": "cooking", "level": 12, "boostable": false}]}, "other": {"itemsNeeded": "Raw thin snail, range"}},
+                {"description": "Kill a werewolf in its human form using the wolfbane dagger whilst in Canifis.", "requirements": {"quests": ["Priest in Peril"], "skills": []}, "other": {"itemsNeeded": "Wolfbane dagger"}},
+                {"description": "Finish a game of Werewolf Skullball.", "requirements": {"quests": ["Creature of Fenkenstrain"], "skills": [{"skill": "agility", "level": 25, "boostable": false}]}, "other": {"itemsNeeded": "Ring of charos"}},
+                {"description": "Kill an experiment under Castle Fenkenstrain.", "requirements": {"quests": ["Creature of Fenkenstrain"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Restore and boost your prayer points at the altar in the Nature Grotto.", "requirements": {"quests": ["Nature Spirit"], "skills": []}, "other": {"itemsNeeded": "Bones"}},
+                {"description": "Kill a ghast in Morytania.", "requirements": {"quests": ["Nature Spirit"], "skills": []}, "other": {"itemsNeeded": "Full druid pouch"}},
+                {"description": "Grow some fungus in the Mort Myre Swamp using Bloom.", "requirements": {"quests": ["Nature Spirit"], "skills": []}, "other": {"itemsNeeded": "Silver sickle or Ivandis flail"}},
+                {"description": "Take an easy companion through an easy route of Temple Trekking.", "requirements": {"quests": ["In Aid of the Myreque"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Kill anything on the ground floor of the Slayer Tower.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Weapon"}},
+                {"description": "Harvest limpwurt in the farming patch near Port Phasmatys.", "requirements": {"quests": [], "skills": [{"skill": "farming", "level": 26, "boostable": false}]}, "other": {"itemsNeeded": "Limpwurt seed"}}
+            ],
+            "rewards": {"description": [{"main": "Morytania legs 1", "other": ["5% extra Temple Trekking rewards"]}], "lamps": [{"amount": 1, "experience": 4000, "levelToUse": 25}]},
+            "itemsRequired": ["Chisel", "Snail shell", "Raw thin snail", "Wolfbane dagger", "Ring of charos", "Silver sickle or Ivandis flail", "Limpwurt seed"],
+            "questsRequired": ["Priest in Peril", "Creature of Fenkenstrain", "Nature Spirit", "In Aid of the Myreque"],
+            "skillsRequired": [{"skill": "crafting", "level": 15, "boostable": false}, {"skill": "cooking", "level": 12, "boostable": false}, {"skill": "agility", "level": 25, "boostable": false}, {"skill": "farming", "level": 26, "boostable": false}]
         },
         "medium": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Morytania legs 2",
+            "tasks": [
+                {"description": "Charter a course on a charter ship to the Port Phasmatys dock.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Coins"}},
+                {"description": "Use an ectophial to return to Port Phasmatys.", "requirements": {"quests": ["Ghosts Ahoy"], "skills": []}, "other": {"itemsNeeded": "Ectophial"}},
+                {"description": "Exchange ecto-tokens for brewing yeast with Metarialus.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Ecto-tokens"}},
+                {"description": "Use the fairy rings to travel to the Haunted Woods.", "requirements": {"quests": ["Fairy Tale II - Cure a Queen"], "skills": []}, "other": {"itemsNeeded": "Dramen staff"}},
+                {"description": "Obtain some bark from hollow trees.", "requirements": {"quests": [], "skills": [{"skill": "woodcutting", "level": 45, "boostable": false}]}, "other": {"itemsNeeded": "Knife"}},
+                {"description": "Enter through the western gate of Port Phasmatys.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Coins"}},
+                {"description": "Take a medium companion through a medium route of Temple Trekking.", "requirements": {"quests": ["In Aid of the Myreque"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Complete a Burgh de Rott Ramble.", "requirements": {"quests": ["Darkness of Hallowvale"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Unlock a chest in the Shade Catacombs.", "requirements": {"quests": ["Shades of Mort'ton"], "skills": []}, "other": {"itemsNeeded": "Key"}},
+                {"description": "Trap a swamp lizard in the Haunted Woods.", "requirements": {"quests": [], "skills": [{"skill": "hunter", "level": 29, "boostable": false}]}, "other": {"itemsNeeded": "Net, rope"}},
+                {"description": "Mix a Guthix Balance potion while in Morytania.", "requirements": {"quests": ["In Aid of the Myreque"], "skills": [{"skill": "herblore", "level": 22, "boostable": false}]}, "other": {"itemsNeeded": "Potion ingredients"}},
+                {"description": "Start any ale brewing below the Green Ghost Inn.", "requirements": {"quests": [], "skills": [{"skill": "cooking", "level": 14, "boostable": false}]}, "other": {"itemsNeeded": "Ale yeast"}}
+            ],
+            "rewards": {"description": [{"main": "Morytania legs 2", "other": ["Cannonballs smelted 2x faster", "10% chance of second blood rune"]}], "lamps": [{"amount": 1, "experience": 10000, "levelToUse": 46}]},
+            "itemsRequired": ["Ectophial", "Ecto-tokens", "Dramen staff", "Knife", "Net", "Rope"],
+            "questsRequired": ["Ghosts Ahoy", "Fairy Tale II - Cure a Queen", "In Aid of the Myreque", "Darkness of Hallowvale", "Shades of Mort'ton"],
+            "skillsRequired": [{"skill": "woodcutting", "level": 45, "boostable": false}, {"skill": "hunter", "level": 29, "boostable": false}, {"skill": "herblore", "level": 22, "boostable": false}, {"skill": "cooking", "level": 14, "boostable": false}]
         },
         "hard": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Morytania legs 3",
+            "tasks": [
+                {"description": "Kill Tarn Razorlor (or visit his lair if already dead).", "requirements": {"quests": ["Haunted Mine"], "skills": [{"skill": "slayer", "level": 40, "boostable": false}]}, "other": {"itemsNeeded": "Slayer gear"}},
+                {"description": "Break a Blood Altar teletablet.", "requirements": {"quests": ["Legacy of Seergaze"], "skills": [{"skill": "runecraft", "level": 50, "boostable": true}]}, "other": {"itemsNeeded": "Blood teletablet"}},
+                {"description": "Cast Bloom using a Flail of Ivandis upgraded with 200+ burnt vyre corpses.", "requirements": {"quests": ["Legacy of Seergaze"], "skills": []}, "other": {"itemsNeeded": "Flail of Ivandis"}},
+                {"description": "Hand in your stick at the end of the Werewolf Agility Course.", "requirements": {"quests": ["Creature of Fenkenstrain"], "skills": [{"skill": "agility", "level": 60, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Use the shortcut to cross the River Salve without the temple.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 65, "boostable": true}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Attune your house portal to Kharyrll.", "requirements": {"quests": ["Desert Treasure"], "skills": [{"skill": "construction", "level": 50, "boostable": false}, {"skill": "magic", "level": 66, "boostable": false}]}, "other": {"itemsNeeded": "Planks, gold leaf"}},
+                {"description": "Equip a full set of Barrows gear in the Barrows.", "requirements": {"quests": [], "skills": [{"skill": "defence", "level": 70, "boostable": false}]}, "other": {"itemsNeeded": "Barrows gear"}},
+                {"description": "Raise the stakes and fletch a blisterwood polearm within Morytania.", "requirements": {"quests": ["The Branches of Darkmeyer"], "skills": [{"skill": "woodcutting", "level": 76, "boostable": false}, {"skill": "fletching", "level": 70, "boostable": false}]}, "other": {"itemsNeeded": "Blisterwood logs"}},
+                {"description": "Use a Columbarium key to unlock an alcove.", "requirements": {"quests": ["Legacy of Seergaze"], "skills": []}, "other": {"itemsNeeded": "Columbarium key"}},
+                {"description": "Take a hard companion through a hard route of Temple Trekking.", "requirements": {"quests": ["In Aid of the Myreque"], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Burn a Haunted Wood torch while wearing the Ring of Fire.", "requirements": {"quests": ["All Fired Up"], "skills": [{"skill": "firemaking", "level": 62, "boostable": false}]}, "other": {"itemsNeeded": "Haunted logs, Ring of Fire"}}
+            ],
+            "rewards": {"description": [{"main": "Morytania legs 3", "other": ["50% more prayer experience from shades", "Prayer drain halved in Barrows", "Double runes from Barrows"]}], "lamps": [{"amount": 1, "experience": 20000, "levelToUse": 65}]},
+            "itemsRequired": ["Slayer gear", "Blood teletablet", "Flail of Ivandis", "Barrows gear", "Blisterwood logs", "Columbarium key", "Ring of Fire", "Haunted logs"],
+            "questsRequired": ["Haunted Mine", "Legacy of Seergaze", "Creature of Fenkenstrain", "Desert Treasure", "The Branches of Darkmeyer", "All Fired Up", "In Aid of the Myreque"],
+            "skillsRequired": [{"skill": "slayer", "level": 40, "boostable": false}, {"skill": "runecraft", "level": 50, "boostable": true}, {"skill": "agility", "level": 60, "boostable": false}, {"skill": "construction", "level": 50, "boostable": false}, {"skill": "magic", "level": 66, "boostable": false}, {"skill": "defence", "level": 70, "boostable": false}, {"skill": "woodcutting", "level": 76, "boostable": false}, {"skill": "fletching", "level": 70, "boostable": false}, {"skill": "firemaking", "level": 62, "boostable": false}]
         },
         "elite": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Morytania legs 4",
+            "tasks": [
+                {"description": "Kill an abyssal demon in the Slayer Tower.", "requirements": {"quests": [], "skills": [{"skill": "slayer", "level": 85, "boostable": true}]}, "other": {"itemsNeeded": "Slayer gear"}},
+                {"description": "Craft blood runes at the Blood altar.", "requirements": {"quests": ["Legacy of Seergaze"], "skills": [{"skill": "runecraft", "level": 77, "boostable": true}]}, "other": {"itemsNeeded": "Pure essence"}},
+                {"description": "Summon a ghast familiar in Morytania.", "requirements": {"quests": ["Darkness of Hallowvale"], "skills": [{"skill": "summoning", "level": 87, "boostable": false}]}, "other": {"itemsNeeded": "Pouches"}},
+                {"description": "Farm and mix prayer renewal potion entirely in Morytania.", "requirements": {"quests": [], "skills": [{"skill": "herblore", "level": 94, "boostable": true}, {"skill": "farming", "level": 91, "boostable": true}]}, "other": {"itemsNeeded": "Herblore ingredients"}},
+                {"description": "Fish barrehanded off the Burgh de Rott dock.", "requirements": {"quests": [], "skills": [{"skill": "fishing", "level": 96, "boostable": true}, {"skill": "strength", "level": 76, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Teleport to Burgh de Rott using a games necklace.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Games necklace"}},
+                {"description": "Burn a fiyr shade with pyre wood.", "requirements": {"quests": ["Shades of Mort'ton"], "skills": [{"skill": "firemaking", "level": 80, "boostable": false}]}, "other": {"itemsNeeded": "Pyre wood"}},
+                {"description": "Defeat the first seven Barrows Brothers including Akrisae.", "requirements": {"quests": ["Ritual of the Mahjarrat"], "skills": []}, "other": {"itemsNeeded": "Combat gear"}},
+                {"description": "Use Drakan's Medallion to teleport to Darkmeyer.", "requirements": {"quests": ["The Branches of Darkmeyer"], "skills": []}, "other": {"itemsNeeded": "Drakan's Medallion"}}
+            ],
+            "rewards": {"description": [{"main": "Morytania legs 4", "other": ["50% more firemaking and prayer xp from vyre corpses", "Double harvests from mushroom patches", "Robin converts 39 sets of bones"]}], "lamps": [{"amount": 2, "experience": 50000, "levelToUse": 80}, {"amount": 1, "experience": 40000, "levelToUse": 75}]},
+            "itemsRequired": ["Slayer gear", "Pure essence", "Pouches", "Herblore ingredients", "Games necklace", "Pyre wood", "Combat gear", "Drakan's Medallion"],
+            "questsRequired": ["Legacy of Seergaze", "Darkness of Hallowvale", "Shades of Mort'ton", "Ritual of the Mahjarrat", "The Branches of Darkmeyer"],
+            "skillsRequired": [{"skill": "slayer", "level": 85, "boostable": true}, {"skill": "runecraft", "level": 77, "boostable": true}, {"skill": "summoning", "level": 87, "boostable": false}, {"skill": "herblore", "level": 94, "boostable": true}, {"skill": "farming", "level": 91, "boostable": true}, {"skill": "fishing", "level": 96, "boostable": true}, {"skill": "strength", "level": 76, "boostable": false}, {"skill": "firemaking", "level": 80, "boostable": false}]
         }
     },
     "Varrock Diary": {
         "itemReward": "Varrock armour",
+        "rewards": [],
+        "name": "Varrock Diary",
         "easy": {
-            "tasks": [],
-            "itemsRequired": [],
+            "itemReward": "Varrock armour 1",
+            "tasks": [
+                {"description": "Have Thessalia show you what outfits you can wear.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Have Aubury teleport you to the Rune Essence mine.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Mine some iron ore in the mining spot south-east of Varrock.", "requirements": {"quests": [], "skills": [{"skill": "mining", "level": 15, "boostable": false}]}, "other": {"itemsNeeded": "Any pickaxe"}},
+                {"description": "Make a plank at the sawmill.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Coins, logs"}},
+                {"description": "Enter the second level of the Stronghold of Security.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Jump over the fence south of Varrock.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 13, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Chop down a dying tree in the Lumber Yard.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Any axe"}},
+                {"description": "Buy a copy of the Varrock Herald.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Coins"}},
+                {"description": "Give a bone to one of Varrock's stray dogs.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Bone"}},
+                {"description": "Make a bowl on the potter's wheel then fire it.", "requirements": {"quests": [], "skills": [{"skill": "crafting", "level": 8, "boostable": false}]}, "other": {"itemsNeeded": "Clay"}},
+                {"description": "Enter Edgeville Dungeon from the south.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Move your POH portal by talking to the Varrock estate agent.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Coins"}},
+                {"description": "Speak to Haig Halen after obtaining 50 Kudos.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Enter the Earth Altar using an earth tiara or talisman.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Earth tiara or talisman"}},
+                {"description": "Have Elsie tell you a story.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Mine some limestone near Paterdomus.", "requirements": {"quests": [], "skills": [{"skill": "mining", "level": 10, "boostable": false}]}, "other": {"itemsNeeded": "Any pickaxe"}},
+                {"description": "Catch a trout in the river east of Barbarian Village.", "requirements": {"quests": [], "skills": [{"skill": "fishing", "level": 20, "boostable": false}]}, "other": {"itemsNeeded": "Fishing rod, bait"}},
+                {"description": "Find the highest point in Varrock.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Venture through the cobwebbed corridor in Varrock sewers.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}}
+            ],
+            "rewards": {"description": [{"main": "Varrock armour 1", "other": ["Chance to smelt 2 ores at once (coal and below)", "Chance to mine 2 ores at once (coal and below)"]}], "lamps": [{"amount": 1, "experience": 1000, "levelToUse": 30}]},
+            "itemsRequired": ["Any pickaxe", "Any axe", "Coins", "Logs", "Clay", "Bone", "Earth tiara or talisman", "Fishing rod", "Bait"],
             "questsRequired": [],
-            "skillsRequired": []
+            "skillsRequired": [{"skill": "mining", "level": 15, "boostable": false}, {"skill": "agility", "level": 13, "boostable": false}, {"skill": "crafting", "level": 8, "boostable": false}, {"skill": "fishing", "level": 20, "boostable": false}]
         },
         "medium": {
-            "tasks": [],
+            "itemReward": "Varrock armour 2",
+            "tasks": [{"description": "Have the apothecary in Varrock make a strength potion.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Coins"}}],
+            "rewards": {"description": [{"main": "Varrock armour 2", "other": ["Chance to smelt 2 bars at once (mithril and below)", "Chance to mine 2 ores at once (mithril and below)"]}], "lamps": [{"amount": 1, "experience": 5000, "levelToUse": 40}]},
             "itemsRequired": [],
             "questsRequired": [],
             "skillsRequired": []
         },
         "hard": {
-            "tasks": [],
+            "itemReward": "Varrock armour 3",
+            "tasks": [{"description": "Pick poison ivy from your bush farming patch in Varrock.", "requirements": {"quests": [], "skills": [{"skill": "farming", "level": 70, "boostable": true}]}, "other": {"itemsNeeded": "Seed"}}],
+            "rewards": {"description": [{"main": "Varrock armour 3", "other": ["Chance to smelt 2 bars at once (adamant and below)", "Chance to mine 2 ores at once (adamant and below)", "Access to Cook's Guild without chef's hat"]}], "lamps": [{"amount": 1, "experience": 10000, "levelToUse": 50}]},
             "itemsRequired": [],
             "questsRequired": [],
-            "skillsRequired": []
+            "skillsRequired": [{"skill": "farming", "level": 70, "boostable": true}]
         },
         "elite": {
-            "tasks": [],
+            "itemReward": "Varrock armour 4",
+            "tasks": [{"description": "Defeat Bork.", "requirements": {"quests": ["What Lies Below"], "skills": []}, "other": {"itemsNeeded": "Combat gear"}}],
+            "rewards": {"description": [{"main": "Varrock armour 4", "other": ["5 free bolt enchantments daily", "Chance to smith faster (runite)", "Access to log storage boxes"]}], "lamps": [{"amount": 3, "experience": 40000, "levelToUse": 88}, {"amount": 1, "experience": 30000, "levelToUse": 65}]},
             "itemsRequired": [],
             "questsRequired": [],
             "skillsRequired": []
@@ -1143,29 +1409,76 @@
     },
     "Wilderness Diary": {
         "itemReward": "Wilderness sword",
+        "rewards": [],
+        "name": "Wilderness Diary",
         "easy": {
-            "tasks": [],
-            "itemsRequired": [],
+            "itemReward": "Wilderness sword 1",
+            "tasks": [
+                {"description": "Enter the Wilderness by any means.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Offer some bones on the Chaos Altar in level 12 Wilderness.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Bones"}},
+                {"description": "Enter the chaos tunnels from an entrance in the Wilderness.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "View the recent wilderness kills on the death list noticeboard in Edgeville.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "View your bank in the Wilderness via Wilderness cape sellers.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Coins"}},
+                {"description": "Deposit 50 cursed memories at the cursed Divination rift.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Cursed memories"}},
+                {"description": "Reach a score of 10 using the strange switches in Wilderness.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Teleport to the lodestone in the Wilderness.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Ask Mr Ex in Edgeville to skull you.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}}
+            ],
+            "rewards": {"description": [{"main": "Wilderness sword 1", "other": ["Free teleports to herb patch", "Locate Hellfire bow"]}], "lamps": [{"amount": 2, "experience": 10000, "levelToUse": 30}]},
+            "itemsRequired": ["Bones", "Cursed memories", "Coins"],
             "questsRequired": [],
             "skillsRequired": []
         },
         "medium": {
-            "tasks": [],
-            "itemsRequired": [],
+            "itemReward": "Wilderness sword 2",
+            "tasks": [
+                {"description": "Use a waka canoe to travel to the Wilderness.", "requirements": {"quests": [], "skills": [{"skill": "woodcutting", "level": 57, "boostable": false}]}, "other": {"itemsNeeded": "Logs"}},
+                {"description": "Loot a chest in the magic axe hut in deep Wilderness.", "requirements": {"quests": [], "skills": [{"skill": "thieving", "level": 13, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Open the chest in Lava Maze with a muddy key.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Muddy key"}},
+                {"description": "Complete a full lap of the Wilderness agility course.", "requirements": {"quests": [], "skills": [{"skill": "agility", "level": 52, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Create a luck potion from scratch whilst in the Wilderness.", "requirements": {"quests": [], "skills": [{"skill": "farming", "level": 57, "boostable": false}, {"skill": "herblore", "level": 57, "boostable": false}]}, "other": {"itemsNeeded": "Ingredients"}},
+                {"description": "Persuade Noterazzo in Bandit Camp to show his goods.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Coins"}},
+                {"description": "Purchase a God staff from Chamber guardian in Mage Arena.", "requirements": {"quests": [], "skills": [{"skill": "magic", "level": 60, "boostable": false}]}, "other": {"itemsNeeded": "Coins"}},
+                {"description": "Create an anchovy pizza from scratch in Bandit Camp.", "requirements": {"quests": [], "skills": [{"skill": "cooking", "level": 55, "boostable": false}, {"skill": "fishing", "level": 15, "boostable": false}]}, "other": {"itemsNeeded": "Ingredients"}},
+                {"description": "Pickpocket a rogue in Rogues' Castle.", "requirements": {"quests": [], "skills": [{"skill": "thieving", "level": 32, "boostable": false}]}, "other": {"itemsNeeded": "None"}},
+                {"description": "Catch a Black Salamander near the Boneyard.", "requirements": {"quests": [], "skills": [{"skill": "hunter", "level": 67, "boostable": false}]}, "other": {"itemsNeeded": "Net, rope"}}
+            ],
+            "rewards": {"description": [{"main": "Wilderness sword 2", "other": ["+5% XP at Wilderness Agility course", "Free teleports to Forinthry dungeon"]}], "lamps": [{"amount": 2, "experience": 40000, "levelToUse": 52}]},
+            "itemsRequired": ["Logs", "Muddy key", "Coins", "Ingredients", "Net", "Rope"],
             "questsRequired": [],
-            "skillsRequired": []
+            "skillsRequired": [{"skill": "woodcutting", "level": 57, "boostable": false}, {"skill": "thieving", "level": 32, "boostable": false}, {"skill": "agility", "level": 52, "boostable": false}, {"skill": "farming", "level": 57, "boostable": false}, {"skill": "herblore", "level": 57, "boostable": false}, {"skill": "magic", "level": 60, "boostable": false}, {"skill": "cooking", "level": 55, "boostable": false}, {"skill": "fishing", "level": 15, "boostable": false}, {"skill": "hunter", "level": 67, "boostable": false}]
         },
         "hard": {
-            "tasks": [],
-            "itemsRequired": [],
-            "questsRequired": [],
-            "skillsRequired": []
+            "itemReward": "Wilderness sword 3",
+            "tasks": [
+                {"description": "Activate and teleport from each Wilderness teleport obelisk.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Complete one of Erskine's Wilderness slayer contracts.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Defeat the Chaos Elemental dealing the most damage.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Combat gear"}},
+                {"description": "Make a Camouflage potion whilst in Wilderness from scratch.", "requirements": {"quests": [], "skills": [{"skill": "farming", "level": 57, "boostable": false}, {"skill": "herblore", "level": 65, "boostable": false}]}, "other": {"itemsNeeded": "Ingredients"}},
+                {"description": "Charge an orb at the obelisk of air.", "requirements": {"quests": [], "skills": [{"skill": "magic", "level": 66, "boostable": false}]}, "other": {"itemsNeeded": "Empty orb"}},
+                {"description": "Defeat the King Black Dragon with Wilderness entrance buff dealing most damage.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Combat gear"}},
+                {"description": "Harvest a Limpwurt Root from Farming Patch in Western Ruins.", "requirements": {"quests": ["Summer's End"], "skills": [{"skill": "farming", "level": 26, "boostable": false}]}, "other": {"itemsNeeded": "Limpwurt seed"}},
+                {"description": "Defeat a Tormented wraith.", "requirements": {"quests": ["Summer's End"], "skills": []}, "other": {"itemsNeeded": "Combat gear"}}
+            ],
+            "rewards": {"description": [{"main": "Wilderness sword 3", "other": ["Mage of Zamorak teleports to Abyss", "Un-note items with Harrison", "Herb patch never diseased"]}], "lamps": [{"amount": 2, "experience": 77000, "levelToUse": 67}]},
+            "itemsRequired": ["Combat gear", "Ingredients", "Empty orb", "Limpwurt seed"],
+            "questsRequired": ["Summer's End"],
+            "skillsRequired": [{"skill": "farming", "level": 57, "boostable": false}, {"skill": "herblore", "level": 65, "boostable": false}, {"skill": "magic", "level": 66, "boostable": false}, {"skill": "farming", "level": 26, "boostable": false}]
         },
         "elite": {
-            "tasks": [],
-            "itemsRequired": [],
+            "itemReward": "Wilderness sword 4",
+            "tasks": [
+                {"description": "Loot supplies from a Wilderness Warbands camp.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "None"}},
+                {"description": "Defeat a lava strykewyrm.", "requirements": {"quests": [], "skills": [{"skill": "slayer", "level": 94, "boostable": false}]}, "other": {"itemsNeeded": "Slayer gear"}},
+                {"description": "Defeat one of each revenant creature in Forinthry dungeon.", "requirements": {"quests": [], "skills": []}, "other": {"itemsNeeded": "Combat gear"}},
+                {"description": "Capture a charming moth.", "requirements": {"quests": [], "skills": [{"skill": "hunter", "level": 88, "boostable": false}, {"skill": "agility", "level": 83, "boostable": false}]}, "other": {"itemsNeeded": "Net"}},
+                {"description": "Create an aggression potion from scratch in Wilderness.", "requirements": {"quests": [], "skills": [{"skill": "herblore", "level": 82, "boostable": true}, {"skill": "farming", "level": 57, "boostable": false}]}, "other": {"itemsNeeded": "Ingredients"}},
+                {"description": "Craft some bakriminel bolts from scratch in Wilderness.", "requirements": {"quests": [], "skills": [{"skill": "woodcutting", "level": 85, "boostable": false}, {"skill": "fletching", "level": 93, "boostable": false}]}, "other": {"itemsNeeded": "Materials"}}
+            ],
+            "rewards": {"description": [{"main": "Wilderness sword 4", "other": ["Searing ashes always noted", "5% more Ancient warriors' equipment", "Free teleport daily to Warbands camp"]}], "lamps": [{"amount": 2, "experience": 95000, "levelToUse": 85}]},
+            "itemsRequired": ["Slayer gear", "Combat gear", "Net", "Ingredients", "Materials"],
             "questsRequired": [],
-            "skillsRequired": []
+            "skillsRequired": [{"skill": "slayer", "level": 94, "boostable": false}, {"skill": "hunter", "level": 88, "boostable": false}, {"skill": "agility", "level": 83, "boostable": false}, {"skill": "herblore", "level": 82, "boostable": true}, {"skill": "farming", "level": 57, "boostable": false}, {"skill": "woodcutting", "level": 85, "boostable": false}, {"skill": "fletching", "level": 93, "boostable": false}]
         }
     }
 }

@@ -10,6 +10,7 @@ const ribcagePieceData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Ribcage piece',
+  iconUrl: '/assets/items/ribcage-piece.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ribcage_piece',
   prayer: 0,

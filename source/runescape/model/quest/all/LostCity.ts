@@ -6,7 +6,7 @@ const LostCity: Quest = {
   age: 'Third Age',
   description: 'Discover a hidden city in the jungle and help a woodcutter reach it safely.',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 65,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

@@ -41,7 +41,7 @@ const Pandemonium: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 274,
+  id: 79,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

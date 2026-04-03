@@ -6,7 +6,7 @@ const BoneVoyage: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 13,
 
   length: QuestLength.ShortMedium,
 

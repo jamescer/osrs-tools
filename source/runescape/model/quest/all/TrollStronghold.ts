@@ -6,7 +6,7 @@ const TrollStronghold: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 128,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

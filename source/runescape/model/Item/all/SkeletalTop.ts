@@ -20,6 +20,7 @@ const skeletalTopData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Skeletal top',
+  iconUrl: '/assets/items/skeletal-top.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Skeletal_top',
   prayer: 0,

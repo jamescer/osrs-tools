@@ -6,7 +6,7 @@ const Ratcatchers: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 84,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

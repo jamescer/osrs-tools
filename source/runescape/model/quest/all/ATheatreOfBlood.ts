@@ -4,7 +4,7 @@ const ATheatreOfBlood: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
-  id: 0,
+  id: 7,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

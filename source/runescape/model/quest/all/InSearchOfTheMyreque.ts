@@ -7,7 +7,7 @@ const InSearchOfTheMyreque: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 61,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

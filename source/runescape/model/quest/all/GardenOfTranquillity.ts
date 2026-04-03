@@ -4,7 +4,7 @@ const GardenOfTranquillity: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 47,
   length: QuestLength.VeryLong,
   members: true,
   miniquest: false,

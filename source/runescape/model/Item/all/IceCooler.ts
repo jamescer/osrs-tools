@@ -10,6 +10,7 @@ const iceCoolerData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Ice cooler',
+  iconUrl: '/assets/items/ice-cooler.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ice_cooler',
   prayer: 0,

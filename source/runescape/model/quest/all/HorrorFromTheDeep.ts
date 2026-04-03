@@ -1,21 +1,15 @@
 import { Skill } from '../../account/Skill';
-import { LevelRequirement, RequirementType } from '../../Requirement';
+import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
-const agilityRequirement: LevelRequirement = {
-  boostable: true,
-  description: '',
-  level: 35,
-  skillName: 'agility',
-  type: RequirementType.Level,
-};
+const agilityRequirement = new LevelRequirement('agility', 35, true);
 
 const HorrorFromTheDeep: Quest = {
   age: 'Fifth Age',
   description: 'A horrifying creature has emerged from the deep. Help defeat it to protect the shores and unlock ancient barrow dungeons.',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 57,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

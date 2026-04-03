@@ -6,7 +6,7 @@ const HauntedMine: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 53,
   length: QuestLength.MediumLong,
   members: true,
   miniquest: false,

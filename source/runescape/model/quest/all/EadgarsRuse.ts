@@ -6,7 +6,7 @@ const EadgarsRuse: Quest = {
   age: 'Fifth Age',
   description: 'Help Eadgar, a druid in the Troll Stronghold, discover a cure for a troll curse.',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 35,
   length: QuestLength.MediumLong,
   members: true,
   miniquest: false,

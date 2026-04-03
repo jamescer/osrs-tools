@@ -7,7 +7,7 @@ const LunarDiplomacy: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 66,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

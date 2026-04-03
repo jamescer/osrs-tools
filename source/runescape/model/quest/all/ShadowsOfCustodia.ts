@@ -9,7 +9,7 @@ const ShadowsOfCustodia: Quest = {
   description:
     'Investigate the mysterious shadows appearing in Custodia and help restore peace to the region.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 96,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

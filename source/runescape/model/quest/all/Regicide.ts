@@ -7,7 +7,7 @@ const Regicide: Quest = {
   age: 'Fifth Age',
   description: 'Assassinate a tyrant king threatening the elf kingdom. A dangerous mission requiring cunning and combat prowess.',
   difficulty: QuestDifficulty.Master,
-  id: 0,
+  id: 87,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

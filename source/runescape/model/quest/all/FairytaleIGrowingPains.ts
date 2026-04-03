@@ -6,7 +6,7 @@ const FairytaleIGrowingPains: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 41,
 
   length: QuestLength.Long,
 

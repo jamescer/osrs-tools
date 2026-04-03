@@ -82,7 +82,7 @@ const PryingTimes: Quest = {
     ],
     // items: '25 sawmill coupon (oak plank), Unlimited crowbars from the crate of crowbars',
   },
-  id: 175,
+  id: 82,
   miniquest: false,
   shortName: 'pryingTimes',
   startLocation: 'Speak to Steve Beanie on the Pandemonium.',

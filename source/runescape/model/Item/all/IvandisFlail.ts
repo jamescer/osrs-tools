@@ -20,6 +20,7 @@ const ivandisFlailData: ItemJson = {
   members: true,
   meleeStrength: 42,
   name: 'Ivandis flail',
+  iconUrl: '/assets/items/ivandis-flail.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ivandis_flail',
   prayer: 3,

@@ -8,7 +8,7 @@ const DreamMentor = {
 
   difficulty: QuestDifficulty.Master,
 
-  id: 0,
+  id: 32,
 
   length: QuestLength.Medium,
 

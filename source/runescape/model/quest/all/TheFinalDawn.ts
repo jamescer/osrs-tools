@@ -7,7 +7,7 @@ const TheFinalDawn: Quest = {
   age: 'New',
   description: `The Final Dawn is a Grandmaster quest released in 2024. It is the epic conclusion to the Mahjarrat storyline, featuring challenging puzzles, high-level combat, and significant lore revelations.`,
   difficulty: QuestDifficulty.Grandmaster,
-  id: 171,
+  id: 106,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

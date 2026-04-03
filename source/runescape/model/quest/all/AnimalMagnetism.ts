@@ -12,7 +12,7 @@ const AnimalMagnetism: Quest = {
   age: "Fifth Age",
   description: "Help bury the restless dead by collecting a variety of bones and skulls scattered across Gielinor. Investigate a sinister force manipulating these undead creatures.",
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 1,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

@@ -5,7 +5,7 @@ const GettingAhead: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 49,
   length: QuestLength.Short,
   members: true,
   miniquest: false,

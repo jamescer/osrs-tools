@@ -5,7 +5,7 @@ const RecipeForDisaster: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Master,
-  id: 0,
+  id: 85,
   length: QuestLength.VeryLong,
   members: true,
   miniquest: false,

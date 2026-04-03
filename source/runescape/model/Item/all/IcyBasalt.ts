@@ -10,6 +10,7 @@ const icyBasaltData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Icy basalt',
+  iconUrl: '/assets/items/icy-basalt.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Icy_basalt',
   prayer: 0,

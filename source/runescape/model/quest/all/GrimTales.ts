@@ -6,7 +6,7 @@ const GrimTales: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 52,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

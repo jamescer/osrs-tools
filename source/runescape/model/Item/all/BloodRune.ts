@@ -10,6 +10,7 @@ const bloodRuneData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Blood rune',
+  iconUrl: '/assets/items/blood-rune.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Blood_rune',
   prayer: 0,

@@ -5,7 +5,7 @@ const SongOfTheElves: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Grandmaster,
-  id: 0,
+  id: 100,
   length: QuestLength.VeryLong,
   members: true,
   miniquest: false,

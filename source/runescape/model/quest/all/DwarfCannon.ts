@@ -5,7 +5,7 @@ const DwarfCannon: Quest = {
   age: 'Third Age',
   description: 'Help the dwarves by delivering a cannon to a friend in need.',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 34,
   length: QuestLength.Short,
   members: false,
   miniquest: false,

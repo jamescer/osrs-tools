@@ -7,7 +7,7 @@ const MyArmsBigAdventure: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Experienced,
-  id: 0,
+  id: 74,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

@@ -7,7 +7,7 @@ const ElementalWorkshopII: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 38,
 
   length: QuestLength.Medium,
 

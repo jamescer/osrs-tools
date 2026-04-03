@@ -7,7 +7,7 @@ const EaglesPeak: Quest = {
 
   difficulty: QuestDifficulty.Intermediate,
 
-  id: 0,
+  id: 36,
 
   length: QuestLength.Medium,
 

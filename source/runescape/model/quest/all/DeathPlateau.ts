@@ -6,7 +6,7 @@ const DeathPlateau: Quest = {
 
   difficulty: QuestDifficulty.Novice,
 
-  id: 0,
+  id: 23,
 
   length: QuestLength.Medium,
 

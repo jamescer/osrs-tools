@@ -6,7 +6,7 @@ const TaiBwoWannaiTrio: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Novice,
-  id: 0,
+  id: 103,
   length: QuestLength.Long,
   members: true,
   miniquest: false,

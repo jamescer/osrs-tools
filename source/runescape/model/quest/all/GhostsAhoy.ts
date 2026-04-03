@@ -5,7 +5,7 @@ const GhostsAhoy: Quest = {
   age: '',
   description: '',
   difficulty: QuestDifficulty.Intermediate,
-  id: 0,
+  id: 50,
   length: QuestLength.MediumLong,
   members: true,
   miniquest: false,

@@ -1,32 +1,66 @@
-import { Npc } from '../Npc';
-import { NpcDrop } from '../NpcDrop';
+import { Npc } from "../Npc";
+import { NpcDrop } from "../NpcDrop";
 
-export const hansDrops: NpcDrop[] = [
-  // Hans does not drop anything when killed (not attackable in OSRS)
-];
+/**
+ * Hans
+ * Wiki reference: https://oldschool.runescape.wiki/w/Hans
+ *
+ * The loyal servant of Duke Horacio. Hans is a non-attackable NPC.
+ */
+export const hans = new Npc({
+  id: 2,
+  name: "Hans",
+  examine: "The loyal servant of Duke Horacio, found walking around Lumbridge Castle.",
+  members: false,
+  officialWikiUrl: "https://oldschool.runescape.wiki/w/Hans",
+  combatLevel: 1,
 
-export const hansLocations: string[] = ['Lumbridge Castle'];
+  stats: {
+    hitpoints: 1,
+    attack: 1,
+    strength: 1,
+    defence: 1,
+    magic: 1,
+    ranged: 1,
+  },
 
-export const Hans = new Npc(
-  2, // id (arbitrary, unique within your system)
-  'Hans',
-  'The loyal servant of Duke Horacio, found walking around Lumbridge Castle.',
-  false, // members
-  1, // combat level (not attackable, but shown as 1 in some sources)
-  'https://oldschool.runescape.wiki/w/Hans',
-  1, // hitpoints (not attackable, but set to 1 for completeness)
-  false, // aggressive
-  false, // attackable
-  false, // canPoison
-  false, // poisonous
-  false, // canCannon
-  false, // canThrall
-  false, // canVenom
-  ['none'], // attackStyle
-  0, // maxHit
-  0, // attackSpeed
-  0, // respawnTime
-  hansLocations,
-  hansDrops,
-  [], // weaknesses
-);
+  aggressiveStats: {
+    attackBonus: 0,
+    strengthBonus: 0,
+    magicStrengthBonus: 0,
+    rangedStrengthBonus: 0,
+  },
+
+  defences: {
+    melee: { stab: 0, slash: 0, crush: 0 },
+    magic: { bonus: 0, elementalWeakness: undefined },
+    ranged: { light: 0, standard: 0, heavy: 0 },
+  },
+
+  combat: {
+    maxHit: 0,
+    attackSpeed: 0,
+    respawnTime: 0,
+    isAggressive: false,
+    isAttackable: false,
+    attackStyles: [],
+    isPoisonous: false,
+    hasWeaponVenom: false,
+    weaknesses: [],
+  },
+
+  immunities: {
+    canBePoison: false,
+    isPoisonous: false,
+    canBeVenom: false,
+    canBeCannoned: false,
+    canBeThralled: false,
+  },
+
+  locations: ["Lumbridge Castle"],
+  drops: [],
+
+  trivia: ["The loyal servant of Duke Horacio", "Non-attackable NPC", "Found walking around Lumbridge Castle"],
+});
+
+export default hans;

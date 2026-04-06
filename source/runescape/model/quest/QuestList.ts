@@ -1,5 +1,3 @@
-
-
 /**
  * List of all Old School RuneScape quests, in the format they are commonly referred to in-game and on the OSRS Wiki.
  * This is used by QuestTool to dynamically load quest data based on quest names.
@@ -92,12 +90,13 @@ export const QuestList: string[] = [
   "Meat and Greet",
   "Merlin's Crystal",
   "Misthalin Mystery",
-  "Monk's Friend",
+  "Monkey Madness",
   "Monkey Madness I",
   "Monkey Madness II",
-  "Mountain Daughter",
+  "Monk's Friend",
   "Mourning's End Part I",
   "Mourning's End Part II",
+  "Mountain Daughter",
   "Murder Mystery",
   "My Arm's Big Adventure",
   "Nature Spirit",
@@ -111,10 +110,12 @@ export const QuestList: string[] = [
   "Priest in Peril",
   "Prince Ali Rescue",
   "Prying Times",
+  "Rag and Bone Man",
   "Rag and Bone Man I",
   "Rag and Bone Man II",
   "Ratcatchers",
   "Recipe for Disaster",
+  "Recruitment Drive",
   "Regicide",
   "Romeo & Juliet",
   "Roving Elves",
@@ -126,6 +127,7 @@ export const QuestList: string[] = [
   "Sea Slug",
   "Secrets of the North",
   "Shadow of the Storm",
+  "Shadows of Custodia",
   "Shades of Mort'ton",
   "Sheep Herder",
   "Sheep Shearer",
@@ -133,6 +135,7 @@ export const QuestList: string[] = [
   "Shilo Village",
   "Sins of the Father",
   "Sleeping Giants",
+  "Slug Menace",
   "Song of the Elves",
   "Spirits of the Elid",
   "Swan Song",
@@ -191,4 +194,3 @@ export const QuestList: string[] = [
   "X Marks the Spot",
   "Zogre Flesh Eaters",
 ];
-

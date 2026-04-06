@@ -4,7 +4,7 @@ const MountainDaughter: Quest = {
   age: "Fifth Age",
   description: "Help a troll find his daughter.",
   difficulty: QuestDifficulty.Intermediate,
-  id: 10,
+  id: 139,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,

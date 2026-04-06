@@ -1,10 +1,4 @@
-
-
 Refer to modern Node Packages. Update the Package.json to ONLY need the modern dependencies, reduce packages as much as possible.
-
-
-
-
 
 # OSRS Tools
 
@@ -62,16 +56,11 @@ npm install osrs-json-hiscores
 The main `osrs-tools` export provides the most frequently used classes:
 
 ```typescript
-import { 
-  QuestTool, 
-  OsrsAccount, 
-  ClueScrollHelper,
-  Item 
-} from 'osrs-tools';
+import { QuestTool, OsrsAccount, ClueScrollHelper, Item } from "osrs-tools";
 
 // Use core API directly
 const questTool = new QuestTool();
-const account = OsrsAccount.fromJson({ name: 'Player123' });
+const account = OsrsAccount.fromJson({ name: "Player123" });
 ```
 
 ### Subpackage Imports (Tree-Shakeable)
@@ -80,31 +69,31 @@ Import from subpackages for more granular control and better tree-shaking:
 
 ```typescript
 // Quest module - access all quests and quest utilities
-import { QuestTool, DragonSlayerI } from 'osrs-tools/quest';
+import { QuestTool, DragonSlayerI } from "osrs-tools/quest";
 
 // Slayer module - slayer masters and utilities
-import { Duradel, SlayerMaster } from 'osrs-tools/slayer';
+import { Duradel, SlayerMaster } from "osrs-tools/slayer";
 
 // Account & skills
-import { OsrsAccount, Skill } from 'osrs-tools/account';
+import { OsrsAccount, Skill } from "osrs-tools/account";
 
 // Achievement diaries
-import { Ardougne, DiaryName } from 'osrs-tools/diary';
+import { Ardougne, DiaryName } from "osrs-tools/diary";
 
 // Tools & utilities
-import { ClueScrollHelper, experience } from 'osrs-tools/tools';
-import { cache, validation } from 'osrs-tools/utils';
+import { ClueScrollHelper, experience } from "osrs-tools/tools";
+import { cache, validation } from "osrs-tools/utils";
 ```
 
 ### Quest System
 
 ```typescript
 // Access a specific quest
-import { DragonSlayerI } from 'osrs-tools/quest';
+import { DragonSlayerI } from "osrs-tools/quest";
 
 // Or get by name from QuestTool
-import { QuestTool } from 'osrs-tools';
-const dragonSlayer = QuestTool.getQuestByName('Dragon Slayer');
+import { QuestTool } from "osrs-tools";
+const dragonSlayer = QuestTool.getQuestByName("Dragon Slayer");
 console.log(dragonSlayer.requirements);
 
 // Check quest completion requirements
@@ -116,7 +105,7 @@ const canComplete = questTool.canCompleteQuest(dragonSlayer);
 ### Slayer System
 
 ```typescript
-import { Duradel } from 'osrs-tools/slayer';
+import { Duradel } from "osrs-tools/slayer";
 
 // Get master's task list
 const tasks = Duradel.tasks;
@@ -130,11 +119,11 @@ console.log(task.requirements); // Shows requirements
 ### Account Management
 
 ```typescript
-import { OsrsAccount } from 'osrs-tools/account';
+import { OsrsAccount } from "osrs-tools/account";
 
 // Create/load account
 const account = OsrsAccount.fromJson({
-  name: 'Player123',
+  name: "Player123",
   skills: {
     attack: { level: 60 },
     strength: { level: 55 },
@@ -143,13 +132,13 @@ const account = OsrsAccount.fromJson({
 });
 
 // Get skill levels
-const attackLevel = account.getSkill('attack')?.level;
+const attackLevel = account.getSkill("attack")?.level;
 ```
 
 ### 3D Item Models
 
 ```typescript
-import { yellowPartyhatModelPath } from 'osrs-tools';
+import { yellowPartyhatModelPath } from "osrs-tools";
 
 console.log(yellowPartyhatModelPath);
 // "osrs-tools/models/YellowPartyhat.obj"
@@ -181,15 +170,15 @@ npm test
 
 ### Available Scripts
 
-| Command         | Description                    |
-| --------------- | ------------------------------ |
-| `build`         | Compile TypeScript to dist/    |
-| `dev`           | Watch mode compilation         |
-| `test`          | Run test suite                 |
-| `test:watch`    | Run tests in watch mode        |
-| `test:coverage` | Generate coverage report       |
-| `lint`          | Lint and fix code              |
-| `format`        | Format code with Prettier      |
+| Command         | Description                 |
+| --------------- | --------------------------- |
+| `build`         | Compile TypeScript to dist/ |
+| `dev`           | Watch mode compilation      |
+| `test`          | Run test suite              |
+| `test:watch`    | Run tests in watch mode     |
+| `test:coverage` | Generate coverage report    |
+| `lint`          | Lint and fix code           |
+| `format`        | Format code with Prettier   |
 
 ### Project Structure
 

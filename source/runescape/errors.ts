@@ -8,7 +8,7 @@ export class ValidationError extends Error {
 
   constructor(fieldName: string, value: unknown, message: string, context?: Record<string, unknown>) {
     super(message);
-    this.name = 'ValidationError';
+    this.name = "ValidationError";
     this.fieldName = fieldName;
     this.value = value;
     this.context = context;

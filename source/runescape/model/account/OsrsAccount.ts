@@ -89,6 +89,11 @@ interface OsrsAccountData {
   deadmanPoints?: BossScore;
 }
 
+/**
+ * Represents an Old School RuneScape account with various properties and methods to access skills, bosses, clues, and other relevant data.
+ * The class is designed to be initialized from a JSON object that may come from an API response or other data source, and provides methods to retrieve specific information about the account.
+ * It also includes a method to convert the account data back into a JSON format, which can be useful for saving or transmitting the account information.
+ */
 class OsrsAccount {
   #name: string;
   #combatLevel: number;
@@ -127,7 +132,7 @@ class OsrsAccount {
   }
 
   static fromJson(json: OsrsAccountJson): OsrsAccount {
-    const name = json.name || '';
+    const name = json.name || "";
     const combatLevel = json.main?.combatLevel ?? json.combatLevel ?? 3;
     const questPoints = json.main?.questPoints ?? json.questPoints ?? 0;
     // Accept both lower and upper case skill keys
@@ -144,9 +149,7 @@ class OsrsAccount {
     }
     const bosses: Bosses | undefined = json.bosses ? { ...json.bosses } : undefined;
     const clues: Clues | undefined = json.clues ? { ...json.clues } : undefined;
-    const bountyHunter: BountyHunter | undefined = json.bountyHunter
-      ? { ...json.bountyHunter }
-      : undefined;
+    const bountyHunter: BountyHunter | undefined = json.bountyHunter ? { ...json.bountyHunter } : undefined;
     const lastManStanding: BossScore | undefined = json.lastManStanding;
     const pvpArena: BossScore | undefined = json.pvpArena;
     const soulWarsZeal: BossScore | undefined = json.soulWarsZeal;
@@ -281,16 +284,6 @@ class OsrsAccount {
   }
 }
 
-export type {
-  Bosses,
-  BossScore,
-  BountyHunter,
-  Clues,
-  ClueScore,
-  OsrsAccountData,
-  Skill,
-  Skills,
-  SkillsDetail,
-};
+export type { Bosses, BossScore, BountyHunter, Clues, ClueScore, OsrsAccountData, Skill, Skills, SkillsDetail };
 
 export { OsrsAccount };

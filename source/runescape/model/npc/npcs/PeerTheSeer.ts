@@ -1,63 +1,61 @@
 import { Coins } from '../../Item/Items';
-import { DagannothHide } from '../../Item/all/DagannothHide';
-import { FibulaPiece } from '../../Item/all/FibulaPiece';
-import { RibcagePiece } from '../../Item/all/RibcagePiece';
-import { SkeletalBottoms } from '../../Item/all/SkeletalBottoms';
-import { SkeletalHelm } from '../../Item/all/SkeletalHelm';
-import { SkeletalTop } from '../../Item/all/SkeletalTop';
-import { SkullPiece } from '../../Item/all/SkullPiece';
 import { Npc } from '../Npc';
 import { NpcDrop } from '../NpcDrop';
-import { NpcProduct } from '../NpcProduct';
 
-export const peerTheSeerDrops: NpcDrop[] = [
-  // Peer the Seer is a non-combat NPC and does not drop anything
-];
-
-export const peerTheSeerLocations: string[] = [
-  "Rellekka (Seers' Village area, inside his house north-east of the market)",
-];
-
-export const peerTheSeerProducts: NpcProduct[] = [
-  new NpcProduct(SkeletalBottoms.name, true, [
-    { item: DagannothHide, quantity: 2 },
-    { item: FibulaPiece, quantity: 1 },
-    { item: Coins, quantity: 7500 },
-  ]),
-  new NpcProduct(SkeletalHelm.name, true, [
-    { item: DagannothHide, quantity: 1 },
-    { item: SkullPiece, quantity: 1 },
-    { item: Coins, quantity: 5000 },
-  ]),
-  new NpcProduct(SkeletalTop.name, true, [
-    { item: DagannothHide, quantity: 3 },
-    { item: RibcagePiece, quantity: 1 },
-    { item: Coins, quantity: 10000 },
-  ]),
-];
-
-export const Peer_the_Seer = new Npc(
-  3, // id (arbitrary, unique within your system)
-  'Peer the Seer',
-  'A wise Fremennik who helps with the Fremennik Trials and can reset your house location.',
-  false, // members
-  1, // combat level (not attackable, but set to 1 for completeness)
-  'https://oldschool.runescape.wiki/w/Peer_the_Seer',
-  1, // hitpoints (not attackable, but set to 1 for completeness)
-  false, // aggressive
-  false, // attackable
-  false, // canPoison
-  false, // poisonous
-  false, // canCannon
-  false, // canThrall
-  false, // canVenom
-  [], // attackStyle
-  0, // maxHit
-  0, // attackSpeed
-  0, // respawnTime
-  peerTheSeerLocations,
-  peerTheSeerDrops,
-  [], // weaknesses
-  undefined, // iconUrl
-  peerTheSeerProducts,
-);
+/**
+ * Peer the Seer
+ * A wise Fremennik who helps with the Fremennik Trials and can reset house location.
+ * Wiki: https://oldschool.runescape.wiki/w/Peer_the_Seer
+ */
+export const peerTheSeer = new Npc({
+  id: 3,
+  name: 'Peer the Seer',
+  examine: 'A wise Fremennik who helps with the Fremennik Trials and can reset your house location.',
+  members: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Peer_the_Seer',
+  combatLevel: 1,
+  stats: {
+    hitpoints: 1,
+    attack: 1,
+    strength: 1,
+    defence: 1,
+    magic: 1,
+    ranged: 1,
+  },
+  aggressiveStats: {
+    attackBonus: 0,
+    strengthBonus: 0,
+    magicStrengthBonus: 0,
+    rangedStrengthBonus: 0,
+  },
+  defences: {
+    melee: { stab: 0, slash: 0, crush: 0 },
+    magic: { bonus: 0, elementalWeakness: 'None' },
+    ranged: { light: 0, standard: 0, heavy: 0 },
+  },
+  combat: {
+    maxHit: 0,
+    attackSpeed: 0,
+    respawnTime: 0,
+    isAggressive: false,
+    isAttackable: false,
+    attackStyles: [],
+    isPoisonous: false,
+    hasWeaponVenom: false,
+    weaknesses: [],
+  },
+  immunities: {
+    canBePoison: true,
+    isPoisonous: false,
+    canBeVenom: true,
+    canBeCannoned: true,
+    canBeThralled: true,
+  },
+  locations: ["Rellekka (Seers' Village area, inside his house north-east of the market)"],
+  drops: [],
+  trivia: [
+    'Peer the Seer is a non-combat NPC.',
+    'He provides services related to Fremennik Trials.',
+    'He can reset your player-owned house location.',
+  ],
+});

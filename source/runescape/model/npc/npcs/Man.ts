@@ -54,26 +54,17 @@ export const manLocations: string[] = [
   'Shayzien Styles',
 ];
 
-export const Man = new Npc(
-  1,
-  'Man',
-  "One of Gielinor's many citizens.",
-  false, // members
-  2, // combat level
-  'https://oldschool.runescape.wiki/w/Man',
-  7, // hitpoints
-  false, // aggressive
-  true, // attackable
-  false, // canPoison
-  false, // poisonous
-  false, // canCannon
-  false, // canThrall
-  false, // canVenom
-  ['melee'], // attackStyle
-  1, // maxHit
-  4, // attackSpeed (4 ticks = 2.4s)
-  15, // respawnTime (15s)
-  manLocations,
-  manDrops,
-  ['Crush'], // weaknesses
-);
+export const Man = new Npc({
+  id: 1,
+  name: 'Man',
+  examine: "One of Gielinor's many citizens.",
+  members: false,
+  combatLevel: 2,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Man',
+  hitpoints: 7,
+  locations: manLocations,
+  drops: manDrops,
+  weaknesses: ['Crush'],
+});
+
+export default Man;

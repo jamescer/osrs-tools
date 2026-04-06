@@ -45,7 +45,7 @@ export const scorpia = new Npc({
   },
   immunities: {
     canBePoison: true,
-    isPoisonious: true,
+    isPoisonous: true,
     canBeVenom: true,
     canBeCannoned: true,
     canBeThralled: true,

@@ -1,5 +1,3 @@
-Refer to modern Node Packages. Update the Package.json to ONLY need the modern dependencies, reduce packages as much as possible.
-
 # OSRS Tools
 
 [![NPM Version](https://img.shields.io/npm/v/osrs-tools.svg?style=for-the-badge)](https://www.npmjs.com/package/osrs-tools)

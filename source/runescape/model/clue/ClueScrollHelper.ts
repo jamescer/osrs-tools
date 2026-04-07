@@ -7,7 +7,7 @@
  */
 
 import { Item } from "../Item/Item";
-import { getClueRewardsByTier, getClueRewardTables, BEGINNER_REWARDS, EASY_REWARDS, MEDIUM_REWARDS, HARD_REWARDS, ELITE_REWARDS, MASTER_REWARDS } from "./ClueScrollRewards";
+import { getClueRewardsByTier, getClueRewardTables, ELITE_REWARDS, MASTER_REWARDS } from "./ClueScrollRewards";
 
 /**
  * Result of opening a casket - contains all rewards obtained
@@ -17,7 +17,18 @@ export interface CasketReward {
   count: number;
   /** Optional: master clue if obtained from certain tiers */
   masterClue?: Item;
+  /** Optional: true when a casket triggered a mimic encounter roll */
+  mimicTriggered?: boolean;
+  /** Optional: true when mimic trigger came from guaranteed pity logic */
+  mimicGuaranteed?: boolean;
+  /** Optional: mimic bonus reward roll for master caskets */
+  mimicBonusItem?: Item;
 }
+
+const ELITE_MIMIC_BASE_CHANCE = 1 / 35;
+const ELITE_MIMIC_GUARANTEE_STREAK = 25;
+
+let eliteCasketsSinceMimic = 0;
 
 //======================================================================================
 // CORE UTILITY METHODS - Weighted Selection
@@ -286,30 +297,107 @@ function openHardCasket(): CasketReward {
 function openEliteCasket(): CasketReward {
   const rewardCount = getEliteRewardCount();
   const rewards: Item[] = [];
-  const tables = getClueRewardTables("elite")!;
+  const uniqueTable = ELITE_REWARDS.tables.find((t) => t.name === "unique")?.items;
+  const standardTable = ELITE_REWARDS.tables.find((t) => t.name === "standard")?.items;
+  const megaRareTable = ELITE_REWARDS.tables.find((t) => t.name === "mega-rare")?.items;
+  const masterBonusTable = ELITE_REWARDS.tables.find((t) => t.name === "master")?.items;
 
-  // Main rewards
+  if (!uniqueTable || !standardTable || !megaRareTable) {
+    throw new Error("Elite reward tables are missing required unique/standard/mega-rare entries.");
+  }
+
+  // Main rewards (4-6): explicit hierarchy per roll.
   for (let i = 0; i < rewardCount; i++) {
-    const selectedTable = selectWeightedTable(tables);
-    const item = selectRandomReward(selectedTable);
-    rewards.push(item);
+    rewards.push(generateElitePrimaryRoll(uniqueTable, standardTable, megaRareTable));
+  }
+
+  const mimicGuaranteed = eliteCasketsSinceMimic >= ELITE_MIMIC_GUARANTEE_STREAK - 1;
+  const mimicTriggered = mimicGuaranteed || Math.random() < ELITE_MIMIC_BASE_CHANCE;
+
+  if (mimicTriggered) {
+    eliteCasketsSinceMimic = 0;
+  } else {
+    eliteCasketsSinceMimic += 1;
   }
 
   // Master clue: 1/5 chance (20%), DOES NOT consume a slot
   const masterClueRoll = Math.random();
   let masterClue: Item | undefined;
   if (masterClueRoll < 1 / 5) {
-    const masterTable = tables.find((t) => t.weight === 0 && "items" in t);
-    if (masterTable && "Clue scroll (master)" in masterTable.items) {
-      masterClue = masterTable.items["Clue scroll (master)"].item;
+    if (masterBonusTable && "Clue scroll (master)" in masterBonusTable) {
+      masterClue = masterBonusTable["Clue scroll (master)"].item;
     }
   }
 
-  const result: CasketReward = { items: rewards, count: rewardCount };
+  // Pity roll behavior is not fully public; this simulation uses a conservative
+  // threshold + proc chance to emulate the documented mechanic.
+
+  const result: CasketReward = {
+    items: rewards,
+    count: rewardCount,
+    mimicTriggered,
+    mimicGuaranteed: mimicTriggered ? mimicGuaranteed : undefined,
+  };
   if (masterClue) {
     result.masterClue = masterClue;
   }
   return result;
+}
+
+function generateElitePrimaryRoll(
+  uniqueTable: { [itemName: string]: { item: Item; rarity: number } },
+  standardTable: { [itemName: string]: { item: Item; rarity: number } },
+  megaRareTable: { [itemName: string]: { item: Item; rarity: number } },
+): Item {
+  // Elite mega-rare gate per roll.
+  if (Math.random() < 1 / 13616) {
+    return selectEliteMegaRareWithThirdAgeWeaponsBias(megaRareTable);
+  }
+
+  // Elite uniques are roughly 1/14 per roll.
+  if (Math.random() < 1 / 14) {
+    return selectRandomReward(uniqueTable);
+  }
+
+  // Default fallback.
+  return selectRandomReward(standardTable);
+}
+
+function selectEliteMegaRareWithThirdAgeWeaponsBias(megaRareTable: { [itemName: string]: { item: Item; rarity: number } }): Item {
+  const weightedItems: Array<{ item: Item; weight: number }> = [];
+  let totalWeight = 0;
+
+  for (const [name, { item, rarity }] of Object.entries(megaRareTable)) {
+    const key = name.toLowerCase();
+    const isDruidic = key.includes("druidic");
+    const isEliteFavoredThirdAge = key.includes("3rd age longsword") || key.includes("3rd age bow") || key.includes("3rd age cloak") || key.includes("3rd age wand");
+
+    // Elite tables emphasize 3rd age weapon/cloak outcomes and do not include druidic pieces.
+    if (isDruidic) {
+      continue;
+    }
+
+    const baseWeight = 1 / rarity;
+    const boostedWeight = isEliteFavoredThirdAge ? baseWeight * 2 : baseWeight;
+    weightedItems.push({ item, weight: boostedWeight });
+    totalWeight += boostedWeight;
+  }
+
+  if (weightedItems.length === 0) {
+    return selectRandomReward(megaRareTable);
+  }
+
+  const roll = Math.random() * totalWeight;
+  let cumulative = 0;
+
+  for (const candidate of weightedItems) {
+    cumulative += candidate.weight;
+    if (roll < cumulative) {
+      return candidate.item;
+    }
+  }
+
+  return weightedItems[weightedItems.length - 1].item;
 }
 
 /**
@@ -321,15 +409,101 @@ function openEliteCasket(): CasketReward {
 function openMasterCasket(): CasketReward {
   const rewardCount = getMasterRewardCount();
   const rewards: Item[] = [];
-  const tables = getClueRewardTables("master")!;
 
-  for (let i = 0; i < rewardCount; i++) {
-    const selectedTable = selectWeightedTable(tables);
-    const item = selectRandomReward(selectedTable);
-    rewards.push(item);
+  // Master casket hierarchy modeled from OSRS behavior:
+  // 1) Mega-rare gate
+  // 2) Unique gate
+  // 3) Standard fallback
+  const uniqueTable = MASTER_REWARDS.tables.find((t) => t.name === "unique")?.items;
+  const standardTable = MASTER_REWARDS.tables.find((t) => t.name === "standard")?.items;
+  const megaRareTable = MASTER_REWARDS.tables.find((t) => t.name === "mega-rare")?.items;
+
+  if (!uniqueTable || !standardTable || !megaRareTable) {
+    throw new Error("Master reward tables are missing required unique/standard/mega-rare entries.");
   }
 
-  return { items: rewards, count: rewardCount };
+  for (let i = 0; i < rewardCount; i++) {
+    rewards.push(generateMasterPrimaryRoll(uniqueTable, standardTable, megaRareTable));
+  }
+
+  // Mimic encounter: 1/15 chance per casket opening.
+  // Defeating mimic grants one extra roll with improved 3rd-age odds.
+  const mimicTriggered = Math.random() < 1 / 15;
+  if (!mimicTriggered) {
+    return { items: rewards, count: rewardCount };
+  }
+
+  const mimicBonusItem = generateMasterMimicBonusRoll(uniqueTable, standardTable, megaRareTable);
+  rewards.push(mimicBonusItem);
+
+  return {
+    items: rewards,
+    count: rewardCount,
+    mimicTriggered: true,
+    mimicBonusItem,
+  };
+}
+
+function generateMasterPrimaryRoll(
+  uniqueTable: { [itemName: string]: { item: Item; rarity: number } },
+  standardTable: { [itemName: string]: { item: Item; rarity: number } },
+  megaRareTable: { [itemName: string]: { item: Item; rarity: number } },
+): Item {
+  // Mega-rare table gate per-roll.
+  if (Math.random() < 1 / 13616) {
+    return selectRandomReward(megaRareTable);
+  }
+
+  // Master unique table is approximately 1/10 per roll.
+  if (Math.random() < 0.1) {
+    return selectRandomReward(uniqueTable);
+  }
+
+  // Default fallback.
+  return selectRandomReward(standardTable);
+}
+
+function generateMasterMimicBonusRoll(
+  uniqueTable: { [itemName: string]: { item: Item; rarity: number } },
+  standardTable: { [itemName: string]: { item: Item; rarity: number } },
+  megaRareTable: { [itemName: string]: { item: Item; rarity: number } },
+): Item {
+  // Mimic bonus roll has boosted mega-rare access.
+  if (Math.random() < 1 / 6808) {
+    return selectMasterMegaRareWithThirdAgeBoost(megaRareTable);
+  }
+
+  // Keep the same unique/common hierarchy for non-mega outcomes.
+  if (Math.random() < 0.1) {
+    return selectRandomReward(uniqueTable);
+  }
+
+  return selectRandomReward(standardTable);
+}
+
+function selectMasterMegaRareWithThirdAgeBoost(megaRareTable: { [itemName: string]: { item: Item; rarity: number } }): Item {
+  const weightedItems: Array<{ item: Item; weight: number }> = [];
+  let totalWeight = 0;
+
+  for (const [name, { item, rarity }] of Object.entries(megaRareTable)) {
+    const baseWeight = 1 / rarity;
+    const isThirdAge = name.toLowerCase().includes("3rd age");
+    const boostedWeight = isThirdAge ? baseWeight * 2 : baseWeight;
+    weightedItems.push({ item, weight: boostedWeight });
+    totalWeight += boostedWeight;
+  }
+
+  const roll = Math.random() * totalWeight;
+  let cumulative = 0;
+
+  for (const candidate of weightedItems) {
+    cumulative += candidate.weight;
+    if (roll < cumulative) {
+      return candidate.item;
+    }
+  }
+
+  return weightedItems[weightedItems.length - 1].item;
 }
 
 //======================================================================================
@@ -340,6 +514,13 @@ function openMasterCasket(): CasketReward {
  * Main ClueScrollHelper class that provides methods to simulate clue scroll rewards
  */
 export class ClueScrollHelper {
+  /**
+   * Resets internal simulation counters used for pity/guaranteed mechanics.
+   */
+  static resetSimulationState(): void {
+    eliteCasketsSinceMimic = 0;
+  }
+
   /**
    * Simulate opening a clue casket and return all rewards
    *

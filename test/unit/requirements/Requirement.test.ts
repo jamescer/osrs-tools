@@ -1,5 +1,7 @@
 // Comprehensive tests for all requirement types
 import { CombatLevelRequirement, ItemRequirement, LocationRequirement, QuestPointRequirement, QuestRequirement, RequirementType, SlayerLevelRequirement, SlayerUnlockRequirement, } from '../../../source/runescape/model/Requirement';
+import { LevelRequirement } from '../../../source/runescape/model/Requirement';
+import { Skill } from '../../../source/runescape/model/account/Skill';
 
 /**
  * Comprehensive test suite for Requirement classes
@@ -35,6 +37,30 @@ describe('Requirement - Quest, item, and level requirements', () => {
     it('should support quests with special characters', () => {
       const req = new QuestRequirement("Cook's Assistant");
       expect(req.questName).toBe("Cook's Assistant");
+    });
+
+    it('should throw for fromQuestName placeholder implementation', () => {
+      expect(() => QuestRequirement.fromQuestName('Dragon Slayer')).toThrow('Method not implemented.');
+    });
+  });
+
+  describe('LevelRequirement - Skill level constraints', () => {
+    it('should infer boostable from known metadata when omitted', () => {
+      const req = new LevelRequirement(Skill.Attack, 70);
+      expect(req.type).toBe(RequirementType.Level);
+      expect(req.boostable).toBe(true);
+      expect(req.description).toBe('Level 70');
+    });
+
+    it('should honor explicit boostable override', () => {
+      const req = new LevelRequirement(Skill.Attack, 70, false);
+      expect(req.boostable).toBe(false);
+    });
+
+    it('should default boostable to false for unknown skill names', () => {
+      const req = new LevelRequirement('Unknown Skill', 10);
+      expect(req.boostable).toBe(false);
+      expect(req.getMaxLevel()).toBe(99);
     });
   });
 
@@ -77,6 +103,26 @@ describe('Requirement - Quest, item, and level requirements', () => {
     it('should support large quantities', () => {
       const req = new ItemRequirement('Coins', 1000000);
       expect(req.quantity).toBe(1000000);
+    });
+
+    it('should include optional description suffixes', () => {
+      const req = new ItemRequirement('Stamina potion', 2, {
+        consumed: false,
+        alternatives: ['Energy potion', 'Super energy'],
+        noted: true,
+        notes: 'for agility shortcut',
+      });
+
+      expect(req.description).toContain('(noted)');
+      expect(req.description).toContain('(not consumed)');
+      expect(req.description).toContain('(or Energy potion or Super energy)');
+      expect(req.description).toContain('(for agility shortcut)');
+    });
+
+    it('should default consumed to true when omitted', () => {
+      const req = new ItemRequirement('Spade', 1);
+      expect(req.consumed).toBe(true);
+      expect(req.description).not.toContain('not consumed');
     });
   });
 

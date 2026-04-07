@@ -53,8 +53,33 @@ describe("ClueScrollHelper", () => {
         const reward = ClueScrollHelper.openCasket("elite");
         expect(reward.count).toBeGreaterThanOrEqual(4);
         expect(reward.count).toBeLessThanOrEqual(6);
-        expect(reward.items.length).toBe(reward.count);
+        expect(reward.items.length).toBeGreaterThanOrEqual(reward.count);
+        expect(reward.items.length).toBeLessThanOrEqual(reward.count + 1);
       }
+    });
+
+    it("should expose elite master clue bonus independently of 4-6 base rolls", () => {
+      for (let i = 0; i < 50; i++) {
+        const reward = ClueScrollHelper.openCasket("elite");
+        expect(reward.count).toBeGreaterThanOrEqual(4);
+        expect(reward.count).toBeLessThanOrEqual(6);
+        expect(reward.items.length).toBeGreaterThanOrEqual(reward.count);
+      }
+    });
+
+    it("should guarantee elite mimic by the 25th casket streak", () => {
+      ClueScrollHelper.resetSimulationState();
+
+      let guaranteedMimicSeen = false;
+      for (let i = 0; i < 28; i++) {
+        const reward = ClueScrollHelper.openCasket("elite");
+        if (reward.mimicTriggered && reward.mimicGuaranteed) {
+          guaranteedMimicSeen = true;
+          break;
+        }
+      }
+
+      expect(guaranteedMimicSeen).toBe(true);
     });
 
     it("should return master casket with 5-7 items", () => {
@@ -62,8 +87,26 @@ describe("ClueScrollHelper", () => {
         const reward = ClueScrollHelper.openCasket("master");
         expect(reward.count).toBeGreaterThanOrEqual(5);
         expect(reward.count).toBeLessThanOrEqual(7);
-        expect(reward.items.length).toBe(reward.count);
+        expect(reward.items.length).toBeGreaterThanOrEqual(reward.count);
+        expect(reward.items.length).toBeLessThanOrEqual(reward.count + 1);
       }
+    });
+
+    it("should include mimic bonus metadata when mimic triggers", () => {
+      let sawMimic = false;
+
+      // 1/15 trigger chance; this bound keeps the test deterministic enough for CI while still fast.
+      for (let i = 0; i < 600; i++) {
+        const reward = ClueScrollHelper.openCasket("master");
+        if (reward.mimicTriggered) {
+          sawMimic = true;
+          expect(reward.mimicBonusItem).toBeDefined();
+          expect(reward.items.length).toBe(reward.count + 1);
+          break;
+        }
+      }
+
+      expect(sawMimic).toBe(true);
     });
 
     it("should return items that exist in the reward table", () => {
@@ -82,6 +125,19 @@ describe("ClueScrollHelper", () => {
 
     it("should all items have valid item properties", () => {
       const reward = ClueScrollHelper.openCasket("beginner");
+      for (const item of reward.items) {
+        expect(item).toHaveProperty("id");
+        expect(item).toHaveProperty("name");
+        expect(typeof item.id).toBe("number");
+        expect(typeof item.name).toBe("string");
+      }
+    });
+
+    it("should open a master casket", () => {
+      const reward = ClueScrollHelper.openCasket("master");
+
+      console.log("Casket Reward:", reward);
+
       for (const item of reward.items) {
         expect(item).toHaveProperty("id");
         expect(item).toHaveProperty("name");

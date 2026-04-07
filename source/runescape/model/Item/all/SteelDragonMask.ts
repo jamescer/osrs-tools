@@ -1,0 +1,23 @@
+import { Item } from '../Item';
+
+const steelDragonMaskData = {
+  id: 12367,
+  name: "Steel dragon mask",
+  iconUrl: "/assets/items/steel-dragon-mask.png",
+  examine: "Do I look scary?",
+  value: 10000,
+  highAlch: 6000,
+  lowAlch: 4000,
+  weight: 2.267,
+  members: true,
+  tradeable: true,
+  equipable: true,
+  releaseDate: "2014-06-12",
+  destroy: "Wear",
+  questItem: false,
+  stackable: false,
+  noted: true,
+  officialWikiUrl: "https://oldschool.runescape.wiki/w/Steel_dragon_mask",
+};
+
+export const SteelDragonMask = Item.fromJson(steelDragonMaskData);

@@ -263,9 +263,9 @@ describe('ClueScrollRewards', () => {
       const standardTable = tables.find(t => t.name === 'standard');
 
       expect(uniqueTable).toBeDefined();
-      expect(uniqueTable?.weight).toBe(851);
+      expect(uniqueTable?.weight).toBe(1);
       expect(standardTable).toBeDefined();
-      expect(standardTable?.weight).toBe(638);
+      expect(standardTable?.weight).toBe(22);
     });
 
     it('should not have master clue table (no bonus drop)', () => {

@@ -1,10 +1,10 @@
-import { Item } from '../Item';
+import { Item } from "../Item";
 
 const greenDHideBodyData = {
   id: 1135,
-  name: 'Green d\'hide body',
-  iconUrl: '/assets/items/green-dhide-body.png',
-  examine: 'Body armour made from green dragon hide.',
+  name: "Green d'hide body",
+  iconUrl: "/assets/items/green-dhide-body.png",
+  examine: "Body armour made from green dragon hide.",
   value: 1315,
   highAlch: 789,
   lowAlch: 526,
@@ -12,12 +12,12 @@ const greenDHideBodyData = {
   members: true,
   tradeable: true,
   equipable: true,
-  releaseDate: '2004-01-15',
-  destroy: 'Drop',
+  releaseDate: "2004-01-15",
+  destroy: "Drop",
   questItem: false,
   stackable: false,
   noted: false,
-  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Green_d\'hide_body',
+  officialWikiUrl: "https://oldschool.runescape.wiki/w/Green_d'hide_body",
   attackStab: 0,
   attackSlash: 0,
   attackCrush: 0,

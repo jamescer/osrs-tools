@@ -3,6 +3,42 @@ import { BEGINNER_REWARDS, EASY_REWARDS, MEDIUM_REWARDS, HARD_REWARDS, ELITE_REW
 import { expect, describe, it } from "@jest/globals";
 
 describe("ClueScrollHelper", () => {
+  describe("table weight alignment", () => {
+    it("should keep primary table ratios aligned with documented per-roll odds", () => {
+      const beginnerUnique = BEGINNER_REWARDS.tables.find((t) => t.name === "unique")?.weight ?? 0;
+      const beginnerBlack = BEGINNER_REWARDS.tables.find((t) => t.name === "black")?.weight ?? 0;
+      const beginnerCommon = BEGINNER_REWARDS.tables.find((t) => t.name === "common")?.weight ?? 0;
+      const beginnerTotal = beginnerUnique + beginnerBlack + beginnerCommon;
+      expect(beginnerUnique / beginnerTotal).toBeCloseTo(41 / 492, 5);
+      expect(beginnerBlack / beginnerTotal).toBeCloseTo(11 / 492, 5);
+
+      const easyUnique = EASY_REWARDS.tables.find((t) => t.name === "unique")?.weight ?? 0;
+      const easyStandard = EASY_REWARDS.tables.find((t) => t.name === "standard")?.weight ?? 0;
+      const easyTotal = easyUnique + easyStandard;
+      expect(easyUnique / easyTotal).toBeCloseTo(247 / 1080, 5);
+
+      const mediumUnique = MEDIUM_REWARDS.tables.find((t) => t.name === "unique")?.weight ?? 0;
+      const mediumStandard = MEDIUM_REWARDS.tables.find((t) => t.name === "standard")?.weight ?? 0;
+      const mediumTotal = mediumUnique + mediumStandard;
+      expect(mediumUnique / mediumTotal).toBeCloseTo(1 / 10, 5);
+
+      const hardUnique = HARD_REWARDS.tables.find((t) => t.name === "unique")?.weight ?? 0;
+      const hardStandard = HARD_REWARDS.tables.find((t) => t.name === "standard")?.weight ?? 0;
+      const hardTotal = hardUnique + hardStandard;
+      expect(hardUnique / hardTotal).toBeCloseTo(1 / 13, 5);
+
+      const eliteUnique = ELITE_REWARDS.tables.find((t) => t.name === "unique")?.weight ?? 0;
+      const eliteStandard = ELITE_REWARDS.tables.find((t) => t.name === "standard")?.weight ?? 0;
+      const eliteTotal = eliteUnique + eliteStandard;
+      expect(eliteUnique / eliteTotal).toBeCloseTo(1 / 25, 5);
+
+      const masterUnique = MASTER_REWARDS.tables.find((t) => t.name === "unique")?.weight ?? 0;
+      const masterStandard = MASTER_REWARDS.tables.find((t) => t.name === "standard")?.weight ?? 0;
+      const masterTotal = masterUnique + masterStandard;
+      expect(masterUnique / masterTotal).toBeCloseTo(1 / 23, 5);
+    });
+  });
+
   describe("openCasket", () => {
     it("should return a CasketReward object with items and count", () => {
       const reward = ClueScrollHelper.openCasket("beginner");
@@ -67,19 +103,19 @@ describe("ClueScrollHelper", () => {
       }
     });
 
-    it("should guarantee elite mimic by the 25th casket streak", () => {
+    it("should trigger elite mimic under base 1/35 chance", () => {
       ClueScrollHelper.resetSimulationState();
 
-      let guaranteedMimicSeen = false;
-      for (let i = 0; i < 28; i++) {
+      let mimicSeen = false;
+      for (let i = 0; i < 2000; i++) {
         const reward = ClueScrollHelper.openCasket("elite");
-        if (reward.mimicTriggered && reward.mimicGuaranteed) {
-          guaranteedMimicSeen = true;
+        if (reward.mimicTriggered) {
+          mimicSeen = true;
           break;
         }
       }
 
-      expect(guaranteedMimicSeen).toBe(true);
+      expect(mimicSeen).toBe(true);
     });
 
     it("should return master casket with 5-7 items", () => {
@@ -144,6 +180,111 @@ describe("ClueScrollHelper", () => {
         expect(typeof item.id).toBe("number");
         expect(typeof item.name).toBe("string");
       }
+    });
+
+    it("should open 500 of each casket tier and print reward quantities", () => {
+      const tiers = ["beginner", "easy", "medium", "hard", "elite", "master"] as const;
+      const casketsPerTier = 500;
+
+      ClueScrollHelper.resetSimulationState();
+
+      for (const tier of tiers) {
+        const rewardCounts = new Map<string, number>();
+
+        for (let i = 0; i < casketsPerTier; i++) {
+          const reward = ClueScrollHelper.openCasket(tier);
+
+          for (const item of reward.items) {
+            rewardCounts.set(item.name, (rewardCounts.get(item.name) ?? 0) + 1);
+          }
+
+          if (reward.masterClue) {
+            rewardCounts.set(reward.masterClue.name, (rewardCounts.get(reward.masterClue.name) ?? 0) + 1);
+          }
+        }
+
+        const lines = [...rewardCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([name, qty]) => `${name} x${qty}`);
+
+        console.log(`\n=== ${tier.toUpperCase()} (${casketsPerTier} caskets) ===`);
+        console.log(lines.join(" - "));
+
+        expect(lines.length).toBeGreaterThan(0);
+      }
+    });
+
+    it("should keep master item frequencies within statistical confidence bands", () => {
+      const simulatedCaskets = 6000;
+      const masterRewards = MASTER_REWARDS.tables;
+      const uniqueTableMeta = masterRewards.find((t) => t.name === "unique");
+      const standardTableMeta = masterRewards.find((t) => t.name === "standard");
+
+      expect(uniqueTableMeta).toBeDefined();
+      expect(standardTableMeta).toBeDefined();
+
+      if (!uniqueTableMeta || !standardTableMeta) {
+        return;
+      }
+
+      const uniqueTableWeight = uniqueTableMeta.weight;
+      const standardTableWeight = standardTableMeta.weight;
+      const primaryTableTotalWeight = uniqueTableWeight + standardTableWeight;
+
+      const uniqueItems = uniqueTableMeta.items;
+      const standardItems = standardTableMeta.items;
+
+      const uniqueTargetName = "Gloves of darkness";
+      const standardTargetName = "Dragon halberd";
+
+      const uniqueTarget = uniqueItems[uniqueTargetName];
+      const standardTarget = standardItems[standardTargetName];
+
+      expect(uniqueTarget).toBeDefined();
+      expect(standardTarget).toBeDefined();
+
+      if (!uniqueTarget || !standardTarget) {
+        return;
+      }
+
+      const uniqueTargetItemId = uniqueTarget.item.id;
+      const standardTargetItemId = standardTarget.item.id;
+
+      const uniqueTotalItemWeight = Object.values(uniqueItems).reduce((sum, reward) => sum + 1 / reward.rarity, 0);
+      const standardTotalItemWeight = Object.values(standardItems).reduce((sum, reward) => sum + 1 / reward.rarity, 0);
+
+      const pUniquePerPrimaryRoll = (uniqueTableWeight / primaryTableTotalWeight) * (1 / uniqueTarget.rarity / uniqueTotalItemWeight);
+      const pStandardPerPrimaryRoll = (standardTableWeight / primaryTableTotalWeight) * (1 / standardTarget.rarity / standardTotalItemWeight);
+
+      // Master rolls per casket: 20%*5 + 60%*6 + 20%*7 = 6, plus mimic bonus 1/15.
+      const expectedPrimaryRollsPerCasket = 6 + 1 / 15;
+      const variancePrimaryRollsPerCasket = 0.4 + (1 / 15) * (14 / 15);
+      const totalExpectedPrimaryRolls = simulatedCaskets * expectedPrimaryRollsPerCasket;
+      const totalVariancePrimaryRolls = simulatedCaskets * variancePrimaryRollsPerCasket;
+
+      let observedUniqueCount = 0;
+      let observedStandardCount = 0;
+
+      ClueScrollHelper.resetSimulationState();
+
+      for (let i = 0; i < simulatedCaskets; i++) {
+        const reward = ClueScrollHelper.openCasket("master");
+        for (const item of reward.items) {
+          if (item.id === uniqueTargetItemId) observedUniqueCount++;
+          if (item.id === standardTargetItemId) observedStandardCount++;
+        }
+      }
+
+      const expectedUniqueCount = totalExpectedPrimaryRolls * pUniquePerPrimaryRoll;
+      const expectedStandardCount = totalExpectedPrimaryRolls * pStandardPerPrimaryRoll;
+
+      const uniqueVariance = totalExpectedPrimaryRolls * pUniquePerPrimaryRoll * (1 - pUniquePerPrimaryRoll) + totalVariancePrimaryRolls * pUniquePerPrimaryRoll * pUniquePerPrimaryRoll;
+      const standardVariance = totalExpectedPrimaryRolls * pStandardPerPrimaryRoll * (1 - pStandardPerPrimaryRoll) + totalVariancePrimaryRolls * pStandardPerPrimaryRoll * pStandardPerPrimaryRoll;
+
+      const uniqueStdDev = Math.sqrt(uniqueVariance);
+      const standardStdDev = Math.sqrt(standardVariance);
+
+      const zBand = 5;
+      expect(Math.abs(observedUniqueCount - expectedUniqueCount)).toBeLessThanOrEqual(zBand * uniqueStdDev);
+      expect(Math.abs(observedStandardCount - expectedStandardCount)).toBeLessThanOrEqual(zBand * standardStdDev);
     });
   });
 

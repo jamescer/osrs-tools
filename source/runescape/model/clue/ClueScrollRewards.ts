@@ -5,6 +5,43 @@
  */
 
 import { Item } from "../Item/Item";
+import { Black2hSword } from "../Item/all/Black2hSword";
+import { BlackChainbody } from "../Item/all/BlackChainbody";
+import { BlackKiteshield } from "../Item/all/BlackKiteshield";
+import { BlackMace } from "../Item/all/BlackMace";
+import { BlackMedHelm } from "../Item/all/BlackMedHelm";
+import { BlackRobe } from "../Item/all/BlackRobe";
+import { BlackScimitar } from "../Item/all/BlackScimitar";
+import { BlackSword } from "../Item/all/BlackSword";
+import { BlackWarhammer } from "../Item/all/BlackWarhammer";
+import { BlueWizardHat } from "../Item/all/BlueWizardHat";
+import { BlueWizardRobe } from "../Item/all/BlueWizardRobe";
+import { BronzeArrow } from "../Item/all/BronzeArrow";
+import { DeathRune } from "../Item/all/DeathRune";
+import { DragonLongsword } from "../Item/all/DragonLongsword";
+import { HardleatherBody } from "../Item/all/HardleatherBody";
+import { Herring } from "../Item/all/Herring";
+import { IronArrow } from "../Item/all/IronArrow";
+import { IronPickaxe } from "../Item/all/IronPickaxe";
+import { LeatherBody } from "../Item/all/LeatherBody";
+import { LeatherCowl } from "../Item/all/LeatherCowl";
+import { LeatherVambraces } from "../Item/all/LeatherVambraces";
+import { Longbow } from "../Item/all/Longbow";
+import { OakLongbow } from "../Item/all/OakLongbow";
+import { OakShortbow } from "../Item/all/OakShortbow";
+import { Sardine } from "../Item/all/Sardine";
+import { Shrimps } from "../Item/all/Shrimps";
+import { Shortbow } from "../Item/all/Shortbow";
+import { SoulRune } from "../Item/all/SoulRune";
+import { StaffOfEarth } from "../Item/all/StaffOfEarth";
+import { StaffOfFire } from "../Item/all/StaffOfFire";
+import { StaffOfWater } from "../Item/all/StaffOfWater";
+import { SteelAxe } from "../Item/all/SteelAxe";
+import { SteelDagger } from "../Item/all/SteelDagger";
+import { SteelLongsword } from "../Item/all/SteelLongsword";
+import { SummerPie } from "../Item/all/SummerPie";
+import { TunaPotato } from "../Item/all/TunaPotato";
+import { WizardHat } from "../Item/all/WizardHat";
 import { AdamantPlatebody } from "../Item/all/AdamantPlatebody";
 import { AdamantPlatelegs } from "../Item/all/AdamantPlatelegs";
 import { AdamantShieldG } from "../Item/all/AdamantShieldG";
@@ -44,6 +81,7 @@ import { GildedPlatebody } from "../Item/all/GildedPlatebody";
 import { GoldenApron } from "../Item/all/GoldenApron";
 import { GoldenChefsHat } from "../Item/all/GoldenChefsHat";
 import { GreenDHideBody } from "../Item/all/GreenDHideBody";
+import { GreenDHideChaps } from "../Item/all/GreenDHideChaps";
 import { HamJoint } from "../Item/all/HamJoint";
 import { IronBoots } from "../Item/all/IronBoots";
 import { IronFullHelm } from "../Item/all/IronFullHelm";
@@ -168,6 +206,7 @@ import { BandosStole } from "../Item/all/BandosStole";
 import { BearFeet } from "../Item/all/BearFeet";
 import { BigPirateHat } from "../Item/all/BigPirateHat";
 import { BlackBoater } from "../Item/all/BlackBoater";
+import { BloodRune } from "../Item/all/BloodRune";
 import { BlackCavalier } from "../Item/all/BlackCavalier";
 import { BlackDemonMask } from "../Item/all/BlackDemonMask";
 import { BlackDragonhide } from "../Item/all/BlackDragonhide";
@@ -455,8 +494,21 @@ import { ZamorakDHideShield } from "../Item/all/ZamorakDHideShield";
  * Average clues for all uniques: 597
  */
 
+export interface RewardEntry {
+  item: Item;
+  rarity: number;
+  quantity?: number;
+  quantityMin?: number;
+  quantityMax?: number;
+  noted?: boolean;
+}
+
 interface RewardTable {
-  [itemName: string]: { item: Item; rarity: number };
+  [itemName: string]: RewardEntry;
+}
+
+function withDefaultQuantity(table: RewardTable, quantity = 1): RewardTable {
+  return Object.fromEntries(Object.entries(table).map(([itemName, reward]) => [itemName, { ...reward, quantity: reward.quantity ?? quantity }])) as RewardTable;
 }
 
 /**
@@ -496,24 +548,24 @@ const BEGINNER_CABBAGE_TABLE: RewardTable = {
  * Source: https://oldschool.runescape.wiki/w/Reward_casket_(beginner)#Black_items_table
  */
 const BEGINNER_BLACK_ITEMS_TABLE: RewardTable = {
-  "Black 2h sword": { item: BlackAxe, rarity: 805 }, // Placeholder
+  "Black 2h sword": { item: Black2hSword, rarity: 805 },
   "Black axe": { item: BlackAxe, rarity: 805 },
   "Black battleaxe": { item: BlackBattleaxe, rarity: 805 },
-  "Black chainbody": { item: BlackDagger, rarity: 805 }, // Placeholder
+  "Black chainbody": { item: BlackChainbody, rarity: 805 },
   "Black dagger": { item: BlackDagger, rarity: 805 },
   "Black full helm": { item: BlackFullHelm, rarity: 805 },
-  "Black kiteshield": { item: BlackPickaxe, rarity: 805 }, // Placeholder
+  "Black kiteshield": { item: BlackKiteshield, rarity: 805 },
   "Black longsword": { item: BlackLongsword, rarity: 805 },
-  "Black mace": { item: BlackBattleaxe, rarity: 805 }, // Placeholder
-  "Black med helm": { item: BlackFullHelm, rarity: 805 }, // Placeholder
+  "Black mace": { item: BlackMace, rarity: 805 },
+  "Black med helm": { item: BlackMedHelm, rarity: 805 },
   "Black pickaxe": { item: BlackPickaxe, rarity: 805 },
   "Black platebody": { item: BlackPlatebody, rarity: 805 },
   "Black plateskirt": { item: BlackPlatelegs, rarity: 805 }, // Placeholder
   "Black platelegs": { item: BlackPlatelegs, rarity: 805 },
   "Black sq shield": { item: BlackPickaxe, rarity: 805 }, // Placeholder
-  "Black scimitar": { item: BlackLongsword, rarity: 805 }, // Placeholder
-  "Black sword": { item: BlackLongsword, rarity: 805 }, // Placeholder
-  "Black warhammer": { item: BlackBattleaxe, rarity: 805 }, // Placeholder
+  "Black scimitar": { item: BlackScimitar, rarity: 805 },
+  "Black sword": { item: BlackSword, rarity: 805 },
+  "Black warhammer": { item: BlackWarhammer, rarity: 805 },
 };
 
 /**
@@ -523,38 +575,38 @@ const BEGINNER_BLACK_ITEMS_TABLE: RewardTable = {
  */
 const BEGINNER_COMMON_ITEMS_TABLE: RewardTable = {
   // Weapons
-  Shortbow: { item: WillowShortbow, rarity: 45 }, // Placeholder
-  Longbow: { item: WillowLongbow, rarity: 45 }, // Placeholder
-  "Oak shortbow": { item: WillowShortbow, rarity: 45 }, // Placeholder
-  "Oak longbow": { item: WillowLongbow, rarity: 45 }, // Placeholder
-  "Iron pickaxe": { item: SteelPickaxe, rarity: 45 }, // Placeholder
+  Shortbow: { item: Shortbow, rarity: 45 },
+  Longbow: { item: Longbow, rarity: 45 },
+  "Oak shortbow": { item: OakShortbow, rarity: 45 },
+  "Oak longbow": { item: OakLongbow, rarity: 45 },
+  "Iron pickaxe": { item: IronPickaxe, rarity: 45 },
   "Staff of air": { item: StaffOfAir, rarity: 45 },
-  "Staff of water": { item: StaffOfAir, rarity: 45 }, // Placeholder
-  "Staff of earth": { item: StaffOfAir, rarity: 45 }, // Placeholder
-  "Staff of fire": { item: StaffOfAir, rarity: 45 }, // Placeholder
+  "Staff of water": { item: StaffOfWater, rarity: 45 },
+  "Staff of earth": { item: StaffOfEarth, rarity: 45 },
+  "Staff of fire": { item: StaffOfFire, rarity: 45 },
 
   // Steel armor
   "Steel full helm": { item: SteelFullHelm, rarity: 45 },
   "Steel platebody": { item: SteelPlatebody, rarity: 45 },
   "Steel platelegs": { item: SteelPlatelegs, rarity: 45 },
   "Steel plateskirt": { item: SteelPlatelegs, rarity: 45 }, // Placeholder
-  "Steel longsword": { item: BlackLongsword, rarity: 45 }, // Placeholder
-  "Steel dagger": { item: BlackDagger, rarity: 45 }, // Placeholder
-  "Steel axe": { item: BlackAxe, rarity: 45 }, // Placeholder
+  "Steel longsword": { item: SteelLongsword, rarity: 45 },
+  "Steel dagger": { item: SteelDagger, rarity: 45 },
+  "Steel axe": { item: SteelAxe, rarity: 45 },
   "Steel battleaxe": { item: BlackBattleaxe, rarity: 45 },
 
   // Leather armor
-  "Leather cowl": { item: Coif, rarity: 45 }, // Placeholder
-  "Leather body": { item: Coif, rarity: 45 }, // Placeholder
+  "Leather cowl": { item: LeatherCowl, rarity: 45 },
+  "Leather body": { item: LeatherBody, rarity: 45 },
   "Leather chaps": { item: StuddedChaps, rarity: 45 }, // Placeholder
-  "Leather vambraces": { item: Coif, rarity: 45 }, // Placeholder
-  "Hardleather body": { item: StudiedBody, rarity: 45 }, // Placeholder
+  "Leather vambraces": { item: LeatherVambraces, rarity: 45 },
+  "Hardleather body": { item: HardleatherBody, rarity: 45 },
 
   // Wizard robes
-  "Blue wizard hat": { item: Coif, rarity: 45 }, // Placeholder
-  "Blue wizard robe": { item: StudiedBody, rarity: 45 }, // Placeholder
-  "Wizard hat": { item: Coif, rarity: 45 }, // Placeholder
-  "Black robe": { item: StudiedBody, rarity: 45 }, // Placeholder
+  "Blue wizard hat": { item: BlueWizardHat, rarity: 45 },
+  "Blue wizard robe": { item: BlueWizardRobe, rarity: 45 },
+  "Wizard hat": { item: WizardHat, rarity: 45 },
+  "Black robe": { item: BlackRobe, rarity: 45 },
 
   // Runes - quantities vary (15-35 or 2-9 or 2-7 noted)
   "Air rune": { item: AirRune, rarity: 45 },
@@ -568,13 +620,13 @@ const BEGINNER_COMMON_ITEMS_TABLE: RewardTable = {
   "Law rune": { item: LawRune, rarity: 45 },
 
   // Ammunition
-  "Bronze arrow": { item: WillowShortbow, rarity: 45 }, // Placeholder
-  "Iron arrow": { item: WillowShortbow, rarity: 45 }, // Placeholder
+  "Bronze arrow": { item: BronzeArrow, rarity: 45 },
+  "Iron arrow": { item: IronArrow, rarity: 45 },
 
   // Food
-  Shrimps: { item: Salmon, rarity: 45 }, // Placeholder
-  Sardine: { item: Salmon, rarity: 45 }, // Placeholder
-  Herring: { item: Salmon, rarity: 45 }, // Placeholder
+  Shrimps: { item: Shrimps, rarity: 45 },
+  Sardine: { item: Sardine, rarity: 45 },
+  Herring: { item: Herring, rarity: 45 },
 };
 
 /**
@@ -839,7 +891,7 @@ export const EASY_REWARDS = {
  * Overall unique probability: 1/10 per reward roll
  * Source: https://oldschool.runescape.wiki/w/Reward_casket_(medium)#Medium_clue_uniques
  */
-const MEDIUM_UNIQUE_ITEMS: RewardTable = {
+const MEDIUM_UNIQUE_ITEMS_BASE: RewardTable = {
   "Gnomish firelighter": { item: GnomishFirelighter, rarity: 341 },
   "Yew comp bow": { item: RainBow, rarity: 341 },
   "Strength amulet (t)": { item: AmuletOfMagicT, rarity: 341 },
@@ -939,37 +991,56 @@ const MEDIUM_UNIQUE_ITEMS: RewardTable = {
   "Wolf cloak": { item: WolfCloak, rarity: 1133 },
   "Black unicorn mask": { item: BlackUnicornMask, rarity: 2266 },
   "White unicorn mask": { item: WhiteUnicornMask, rarity: 2266 },
+  "Purple elegant shirt": { item: RedElegantShirt, rarity: 2266 },
+  "Purple elegant blouse": { item: RedElegantShirt, rarity: 2266 },
+  "Purple elegant legs": { item: RedElegantShirt, rarity: 2266 },
+  "Purple elegant skirt": { item: RedElegantShirt, rarity: 2266 },
+  "Black elegant shirt": { item: RedElegantShirt, rarity: 2266 },
+  "White elegant blouse": { item: RedElegantShirt, rarity: 2266 },
+  "Black elegant legs": { item: RedElegantShirt, rarity: 2266 },
+  "White elegant skirt": { item: RedElegantShirt, rarity: 2266 },
+  "Pink elegant shirt": { item: RedElegantShirt, rarity: 2266 },
+  "Pink elegant blouse": { item: RedElegantShirt, rarity: 2266 },
+  "Pink elegant legs": { item: RedElegantShirt, rarity: 2266 },
+  "Pink elegant skirt": { item: RedElegantShirt, rarity: 2266 },
+  "Gold elegant shirt": { item: RedElegantShirt, rarity: 2266 },
+  "Gold elegant blouse": { item: RedElegantShirt, rarity: 2266 },
+  "Gold elegant legs": { item: RedElegantShirt, rarity: 2266 },
+  "Gold elegant skirt": { item: RedElegantShirt, rarity: 2266 },
 };
+
+const MEDIUM_UNIQUE_ITEMS: RewardTable = withDefaultQuantity(MEDIUM_UNIQUE_ITEMS_BASE);
 
 /**
  * Medium tier standard table
  * Weapons, armor, runes, food at 1/34.1 base rarity
  */
 const MEDIUM_STANDARD_TABLE: RewardTable = {
-  "Adamant full helm": { item: AdamantShieldG, rarity: 34 },
-  "Adamant platebody": { item: AdamantPlatebody, rarity: 34 },
-  "Adamant platelegs": { item: AdamantPlatelegs, rarity: 34 },
-  "Adamant longsword": { item: BlackLongsword, rarity: 34 },
-  "Adamant dagger": { item: BlackDagger, rarity: 34 },
-  "Adamant battleaxe": { item: BlackBattleaxe, rarity: 34 },
-  "Adamant axe": { item: BlackAxe, rarity: 34 },
-  "Adamant pickaxe": { item: AdamantPickaxe, rarity: 34 },
-  "Green d'hide body": { item: GreenDHideBody, rarity: 34 },
-  "Green d'hide chaps": { item: GreenDHideBody, rarity: 34 },
-  "Yew shortbow": { item: WillowShortbow, rarity: 34 },
-  "Fire battlestaff": { item: StaffOfAir, rarity: 34 },
-  "Yew longbow": { item: WillowLongbow, rarity: 38 },
-  "Amulet of power": { item: AmuletOfMagic, rarity: 38 },
-  "Air rune": { item: AirRune, rarity: 34 },
-  "Mind rune": { item: MindRune, rarity: 34 },
-  "Water rune": { item: WaterRune, rarity: 34 },
-  "Earth rune": { item: EarthRune, rarity: 34 },
-  "Fire rune": { item: FireRune, rarity: 34 },
-  "Chaos rune": { item: ChaosRune, rarity: 34 },
-  "Nature rune": { item: NatureRune, rarity: 34 },
-  "Law rune": { item: LawRune, rarity: 34 },
-  Lobster: { item: HamJoint, rarity: 34 },
-  Swordfish: { item: Salmon, rarity: 34 },
+  "Adamant full helm": { item: AdamantShieldG, rarity: 34.1, quantity: 1 },
+  "Adamant platebody": { item: AdamantPlatebody, rarity: 34.1, quantity: 1 },
+  "Adamant platelegs": { item: AdamantPlatelegs, rarity: 34.1, quantity: 1 },
+  "Adamant longsword": { item: BlackLongsword, rarity: 34.1, quantity: 1 },
+  "Adamant dagger": { item: BlackDagger, rarity: 34.1, quantity: 1 },
+  "Adamant battleaxe": { item: BlackBattleaxe, rarity: 34.1, quantity: 1 },
+  "Adamant axe": { item: BlackAxe, rarity: 34.1, quantity: 1 },
+  "Adamant pickaxe": { item: AdamantPickaxe, rarity: 34.1, quantity: 1 },
+  "Green d'hide body": { item: GreenDHideBody, rarity: 34.1, quantity: 1 },
+  "Green d'hide chaps": { item: GreenDHideChaps, rarity: 34.1, quantity: 1 },
+  "Yew shortbow": { item: WillowShortbow, rarity: 34.1, quantity: 1 },
+  "Fire battlestaff": { item: StaffOfAir, rarity: 34.1, quantity: 1 },
+  "Yew longbow": { item: WillowLongbow, rarity: 37.89, quantity: 1 },
+  "Amulet of power": { item: AmuletOfMagic, rarity: 37.89, quantity: 1 },
+  "Air rune": { item: AirRune, rarity: 34.1, quantityMin: 50, quantityMax: 100 },
+  "Mind rune": { item: MindRune, rarity: 34.1, quantityMin: 50, quantityMax: 100 },
+  "Water rune": { item: WaterRune, rarity: 34.1, quantityMin: 50, quantityMax: 100 },
+  "Earth rune": { item: EarthRune, rarity: 34.1, quantityMin: 50, quantityMax: 100 },
+  "Fire rune": { item: FireRune, rarity: 34.1, quantityMin: 50, quantityMax: 100 },
+  "Chaos rune": { item: ChaosRune, rarity: 34.1, quantityMin: 10, quantityMax: 20 },
+  "Nature rune": { item: NatureRune, rarity: 34.1, quantityMin: 10, quantityMax: 20 },
+  "Law rune": { item: LawRune, rarity: 34.1, quantityMin: 10, quantityMax: 20 },
+  "Death rune": { item: DeathRune, rarity: 34.1, quantityMin: 10, quantityMax: 20 },
+  Lobster: { item: HamJoint, rarity: 34.1, quantityMin: 8, quantityMax: 12, noted: true },
+  Swordfish: { item: Salmon, rarity: 34.1, quantityMin: 8, quantityMax: 12, noted: true },
 };
 
 /**
@@ -977,54 +1048,58 @@ const MEDIUM_STANDARD_TABLE: RewardTable = {
  * Coins, purple sweets, scrolls, teleports, blessings, pages at various rarities
  */
 const MEDIUM_SHARED_ITEMS: RewardTable = {
-  Coins: { item: Coins, rarity: 34 },
-  "Purple sweets": { item: PurpleSweets, rarity: 97 },
-  "Red firelighter": { item: RedFirelighter, rarity: 189 },
-  "Green firelighter": { item: GreenFirelighter, rarity: 189 },
-  "Blue firelighter": { item: BlueFirelighter, rarity: 189 },
-  "Purple firelighter": { item: PurpleFirelighter, rarity: 189 },
-  "White firelighter": { item: WhiteFirelighter, rarity: 189 },
-  "Charge dragonstone jewellery scroll": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Nardah teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Mos le'harmless teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Mort'ton teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Feldip hills teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Lunar isle teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Digsite teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Piscatoris teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Pest control teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Tai bwo wannai teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Lumberyard teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Iorwerth camp teleport": { item: MasterScrollBookEmpty, rarity: 429 },
-  "Holy blessing": { item: HolyBlessing, rarity: 682 },
-  "Unholy blessing": { item: UnholyBlessing, rarity: 682 },
-  "Peaceful blessing": { item: PeacefulBlessing, rarity: 682 },
-  "War blessing": { item: WarBlessing, rarity: 682 },
-  "Honourable blessing": { item: HonourableBlessing, rarity: 682 },
-  "Ancient blessing": { item: AncientBlessing, rarity: 682 },
-  "Master scroll book (empty)": { item: MasterScrollBookEmpty, rarity: 750 },
-  "Saradomin page 1": { item: SaradominPage1, rarity: 818 },
-  "Saradomin page 2": { item: SaradominPage2, rarity: 818 },
-  "Saradomin page 3": { item: SaradominPage3, rarity: 818 },
-  "Saradomin page 4": { item: SaradominPage4, rarity: 818 },
-  "Zamorak page 1": { item: ZamorakPage1, rarity: 818 },
-  "Zamorak page 2": { item: ZamorakPage2, rarity: 818 },
-  "Zamorak page 3": { item: ZamorakPage3, rarity: 818 },
-  "Zamorak page 4": { item: ZamorakPage4, rarity: 818 },
-  "Guthix page 1": { item: GuthixPage1, rarity: 818 },
-  "Guthix page 2": { item: GuthixPage2, rarity: 818 },
-  "Guthix page 3": { item: GuthixPage3, rarity: 818 },
-  "Guthix page 4": { item: GuthixPage4, rarity: 818 },
-  "Bandos page 1": { item: BandosPage1, rarity: 818 },
-  "Bandos page 2": { item: BandosPage2, rarity: 818 },
-  "Bandos page 3": { item: BandosPage3, rarity: 818 },
-  "Bandos page 4": { item: BandosPage4, rarity: 818 },
-  "Armadyl page 1": { item: ArmadylPage1, rarity: 818 },
-  "Armadyl page 2": { item: ArmadylPage2, rarity: 818 },
-  "Armadyl page 3": { item: ArmadylPage3, rarity: 818 },
-  "Armadyl page 4": { item: ArmadylPage4, rarity: 818 },
-  "Ancient page 1": { item: AncientPage1, rarity: 818 },
-  "Ancient page 2": { item: AncientPage2, rarity: 818 },
+  "Coins (200-1000)": { item: Coins, rarity: 34.1, quantityMin: 200, quantityMax: 1000 },
+  "Purple sweets (5-10)": { item: PurpleSweets, rarity: 34.1, quantityMin: 5, quantityMax: 10 },
+  "Coins (10k-15k)": { item: Coins, rarity: 97.43, quantityMin: 10000, quantityMax: 15000 },
+  "Purple sweets (8-12)": { item: PurpleSweets, rarity: 97.43, quantityMin: 8, quantityMax: 12 },
+  "Red firelighter": { item: RedFirelighter, rarity: 189.4, quantityMin: 4, quantityMax: 10 },
+  "Green firelighter": { item: GreenFirelighter, rarity: 189.4, quantityMin: 4, quantityMax: 10 },
+  "Blue firelighter": { item: BlueFirelighter, rarity: 189.4, quantityMin: 4, quantityMax: 10 },
+  "Purple firelighter": { item: PurpleFirelighter, rarity: 189.4, quantityMin: 4, quantityMax: 10 },
+  "White firelighter": { item: WhiteFirelighter, rarity: 189.4, quantityMin: 4, quantityMax: 10 },
+  "Charge dragonstone jewellery scroll": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Nardah teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Mos le'harmless teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Mort'ton teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Feldip hills teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Lunar isle teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Digsite teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Piscatoris teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Pest control teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Tai bwo wannai teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Lumberyard teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Iorwerth camp teleport": { item: MasterScrollBookEmpty, rarity: 428.7, quantityMin: 5, quantityMax: 15 },
+  "Holy blessing": { item: HolyBlessing, rarity: 682, quantity: 1 },
+  "Unholy blessing": { item: UnholyBlessing, rarity: 682, quantity: 1 },
+  "Peaceful blessing": { item: PeacefulBlessing, rarity: 682, quantity: 1 },
+  "War blessing": { item: WarBlessing, rarity: 682, quantity: 1 },
+  "Honourable blessing": { item: HonourableBlessing, rarity: 682, quantity: 1 },
+  "Ancient blessing": { item: AncientBlessing, rarity: 682, quantity: 1 },
+  "Master scroll book (empty)": { item: MasterScrollBookEmpty, rarity: 750.2, quantity: 1 },
+  "Saradomin page 1": { item: SaradominPage1, rarity: 818.4, quantity: 1 },
+  "Saradomin page 2": { item: SaradominPage2, rarity: 818.4, quantity: 1 },
+  "Saradomin page 3": { item: SaradominPage3, rarity: 818.4, quantity: 1 },
+  "Saradomin page 4": { item: SaradominPage4, rarity: 818.4, quantity: 1 },
+  "Zamorak page 1": { item: ZamorakPage1, rarity: 818.4, quantity: 1 },
+  "Zamorak page 2": { item: ZamorakPage2, rarity: 818.4, quantity: 1 },
+  "Zamorak page 3": { item: ZamorakPage3, rarity: 818.4, quantity: 1 },
+  "Zamorak page 4": { item: ZamorakPage4, rarity: 818.4, quantity: 1 },
+  "Guthix page 1": { item: GuthixPage1, rarity: 818.4, quantity: 1 },
+  "Guthix page 2": { item: GuthixPage2, rarity: 818.4, quantity: 1 },
+  "Guthix page 3": { item: GuthixPage3, rarity: 818.4, quantity: 1 },
+  "Guthix page 4": { item: GuthixPage4, rarity: 818.4, quantity: 1 },
+  "Bandos page 1": { item: BandosPage1, rarity: 818.4, quantity: 1 },
+  "Bandos page 2": { item: BandosPage2, rarity: 818.4, quantity: 1 },
+  "Bandos page 3": { item: BandosPage3, rarity: 818.4, quantity: 1 },
+  "Bandos page 4": { item: BandosPage4, rarity: 818.4, quantity: 1 },
+  "Armadyl page 1": { item: ArmadylPage1, rarity: 818.4, quantity: 1 },
+  "Armadyl page 2": { item: ArmadylPage2, rarity: 818.4, quantity: 1 },
+  "Armadyl page 3": { item: ArmadylPage3, rarity: 818.4, quantity: 1 },
+  "Armadyl page 4": { item: ArmadylPage4, rarity: 818.4, quantity: 1 },
+  "Ancient page 1": { item: AncientPage1, rarity: 818.4, quantity: 1 },
+  "Ancient page 2": { item: AncientPage2, rarity: 818.4, quantity: 1 },
+  "Ancient page 3": { item: AncientPage1, rarity: 818.4, quantity: 1 },
+  "Ancient page 4": { item: AncientPage2, rarity: 818.4, quantity: 1 },
 };
 
 /**
@@ -1032,7 +1107,7 @@ const MEDIUM_SHARED_ITEMS: RewardTable = {
  * 1/30 chance when opening a medium casket
  */
 const MEDIUM_MASTER_CLUE: RewardTable = {
-  "Clue scroll (master)": { item: Coins, rarity: 30 },
+  "Clue scroll (master)": { item: Coins, rarity: 30, quantity: 1 },
 };
 
 /**
@@ -1043,13 +1118,13 @@ export const MEDIUM_REWARDS = {
   tables: [
     {
       name: "unique",
-      weight: 341, // ~10% of rolls hit unique items (1/10 per roll)
+      weight: 1, // 1/10 per roll
       items: MEDIUM_UNIQUE_ITEMS,
       description: "Medium clue unique items (100+ items at 1/341 base)",
     },
     {
       name: "standard",
-      weight: 306, // Standard weapons, armor, runes, food (1/34.1 base)
+      weight: 9, // 9/10 per roll
       items: MEDIUM_STANDARD_TABLE,
       description: "Standard weapons, armor, runes, food (1/34.1 base)",
     },
@@ -1084,8 +1159,8 @@ export const MEDIUM_REWARDS = {
  * Hard tier unique items
  * Major rare table items at 1/1,625 or 1/12,765 rarity
  */
-const HARD_UNIQUE_ITEMS: RewardTable = {
-  "Magic comp bow": { item: RainBow, rarity: 271 },
+const HARD_UNIQUE_ITEMS_BASE: RewardTable = {
+  "Magic comp bow": { item: RainBow, rarity: 270.8 },
   "Amulet of glory (t4)": { item: AmuletOfMagicT, rarity: 1625 },
   "Robin hood hat": { item: RobinHoodHat, rarity: 1625 },
   "Enchanted hat": { item: EnchantedHat, rarity: 1625 },
@@ -1169,11 +1244,19 @@ const HARD_UNIQUE_ITEMS: RewardTable = {
   "Armadyl chaps": { item: ArmadylChaps, rarity: 1625 },
   "Armadyl bracers": { item: ArmadylBracers, rarity: 1625 },
   "Armadyl d'hide boots": { item: ArmadylDHideBoots, rarity: 1625 },
+  "Saradomin stole": { item: SaradominMitre, rarity: 1625 },
+  "Saradomin crozier": { item: AncientCrozier, rarity: 1625 },
+  "Guthix stole": { item: GuthixMitre, rarity: 1625 },
+  "Guthix crozier": { item: AncientCrozier, rarity: 1625 },
+  "Zamorak stole": { item: ZamorakMitre, rarity: 1625 },
+  "Zamorak crozier": { item: AncientCrozier, rarity: 1625 },
   "Ancient coif": { item: AncientCoif, rarity: 1625 },
   "Ancient d'hide body": { item: AncientDHideBody, rarity: 1625 },
   "Ancient chaps": { item: AncientChaps, rarity: 1625 },
   "Ancient bracers": { item: AncientBracers, rarity: 1625 },
   "Ancient d'hide boots": { item: AncientDHideBoots, rarity: 1625 },
+  "Zombie head (Treasure Trails)": { item: PiratesHat, rarity: 1625 },
+  "Cyclops head": { item: PiratesHat, rarity: 1625 },
   "Pirate's hat": { item: PiratesHat, rarity: 1625 },
   "Red cavalier": { item: RedCavalier, rarity: 1625 },
   "White cavalier": { item: WhiteCavalier, rarity: 1625 },
@@ -1181,10 +1264,19 @@ const HARD_UNIQUE_ITEMS: RewardTable = {
   "Tan cavalier": { item: TanCavalier, rarity: 1625 },
   "Dark cavalier": { item: DarkCavalier, rarity: 1625 },
   "Black cavalier": { item: BlackCavalier, rarity: 1625 },
+  "Pith helmet": { item: PiratesHat, rarity: 1625 },
+  "Explorer backpack": { item: Briefcase, rarity: 1625 },
   "Green dragon mask": { item: GreenDragonMask, rarity: 1625 },
   "Blue dragon mask": { item: BlueDragonMask, rarity: 1625 },
   "Red dragon mask": { item: RedDragonMask, rarity: 1625 },
   "Black dragon mask": { item: BlackDragonMask, rarity: 1625 },
+  Nunchaku: { item: Katana, rarity: 1625 },
+  "Rune cane": { item: AdamantCane, rarity: 1625 },
+  "Dual sai": { item: Katana, rarity: 1625 },
+  "Thieving bag": { item: Briefcase, rarity: 1625 },
+  "Rune defender ornament kit": { item: DragonDefenderOrnamentKit, rarity: 1625 },
+  "Berserker necklace ornament kit": { item: TortureOrnamentKit, rarity: 1625 },
+  "Tzhaar-ket-om ornament kit": { item: TormentedOrnamentKit, rarity: 1625 },
   "Rune platebody (h1)": { item: RunePlatebody, rarity: 8125 },
   "Rune platebody (h2)": { item: RunePlatebody, rarity: 8125 },
   "Rune platebody (h3)": { item: RunePlatebody, rarity: 8125 },
@@ -1198,30 +1290,32 @@ const HARD_UNIQUE_ITEMS: RewardTable = {
   "Ancient d'hide shield": { item: AncientDHideShield, rarity: 9750 },
 };
 
+const HARD_UNIQUE_ITEMS: RewardTable = withDefaultQuantity(HARD_UNIQUE_ITEMS_BASE);
+
 /**
  * Hard tier standard table
  * Common weapons, armor, runes, food at 1/27.1 base rarity
  */
 const HARD_STANDARD_TABLE: RewardTable = {
-  "Rune full helm": { item: RuneFullHelm, rarity: 27 },
-  "Rune platebody": { item: RunePlatebody, rarity: 27 },
-  "Rune platelegs": { item: RunePlatelegs, rarity: 27 },
-  "Rune plateskirt": { item: RunePlatelegs, rarity: 27 },
-  "Rune kiteshield": { item: RuneKiteshield, rarity: 27 },
-  "Rune longsword": { item: BlackLongsword, rarity: 27 },
-  "Rune dagger": { item: BlackDagger, rarity: 27 },
-  "Rune battleaxe": { item: BlackBattleaxe, rarity: 27 },
-  "Rune axe": { item: BlackAxe, rarity: 27 },
-  "Rune pickaxe": { item: RunePickaxe, rarity: 27 },
-  "Black d'hide body": { item: BlackFullHelm, rarity: 27 },
-  "Black d'hide chaps": { item: BlueDHideChaps, rarity: 27 },
-  "Magic shortbow": { item: WillowShortbow, rarity: 27 },
-  "Magic longbow": { item: WillowLongbow, rarity: 30 },
-  "Nature rune": { item: NatureRune, rarity: 27 },
-  "Law rune": { item: LawRune, rarity: 27 },
-  "Blood rune": { item: FireRune, rarity: 27 },
-  Lobster: { item: HamJoint, rarity: 27 },
-  Shark: { item: Salmon, rarity: 27 },
+  "Rune full helm": { item: RuneFullHelm, rarity: 27.1, quantity: 1 },
+  "Rune platebody": { item: RunePlatebody, rarity: 27.1, quantity: 1 },
+  "Rune platelegs": { item: RunePlatelegs, rarity: 27.1, quantity: 1 },
+  "Rune plateskirt": { item: RunePlatelegs, rarity: 27.1, quantity: 1 },
+  "Rune kiteshield": { item: RuneKiteshield, rarity: 27.1, quantity: 1 },
+  "Rune longsword": { item: BlackLongsword, rarity: 27.1, quantity: 1 },
+  "Rune dagger": { item: BlackDagger, rarity: 27.1, quantity: 1 },
+  "Rune battleaxe": { item: BlackBattleaxe, rarity: 27.1, quantity: 1 },
+  "Rune axe": { item: BlackAxe, rarity: 27.1, quantity: 1 },
+  "Rune pickaxe": { item: RunePickaxe, rarity: 27.1, quantity: 1 },
+  "Black d'hide body": { item: BlackFullHelm, rarity: 27.1, quantity: 1 },
+  "Black d'hide chaps": { item: BlueDHideChaps, rarity: 27.1, quantity: 1 },
+  "Magic shortbow": { item: WillowShortbow, rarity: 27.1, quantity: 1 },
+  "Magic longbow": { item: WillowLongbow, rarity: 30.1, quantity: 1 },
+  "Nature rune": { item: NatureRune, rarity: 27.1, quantityMin: 30, quantityMax: 50 },
+  "Law rune": { item: LawRune, rarity: 27.1, quantityMin: 30, quantityMax: 50 },
+  "Blood rune": { item: BloodRune, rarity: 27.1, quantityMin: 20, quantityMax: 30 },
+  Lobster: { item: HamJoint, rarity: 27.1, quantityMin: 12, quantityMax: 15, noted: true },
+  Shark: { item: Salmon, rarity: 27.1, quantityMin: 12, quantityMax: 15, noted: true },
 };
 
 /**
@@ -1229,54 +1323,58 @@ const HARD_STANDARD_TABLE: RewardTable = {
  * Coins, purple sweets, scrolls, teleports, blessings, pages
  */
 const HARD_SHARED_ITEMS: RewardTable = {
-  Coins: { item: Coins, rarity: 27 },
-  "Purple sweets": { item: PurpleSweets, rarity: 77 },
-  "Red firelighter": { item: RedFirelighter, rarity: 135 },
-  "Green firelighter": { item: GreenFirelighter, rarity: 135 },
-  "Blue firelighter": { item: BlueFirelighter, rarity: 135 },
-  "Purple firelighter": { item: PurpleFirelighter, rarity: 135 },
-  "White firelighter": { item: WhiteFirelighter, rarity: 135 },
-  "Charge dragonstone jewellery scroll": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Nardah teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Mos le'harmless teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Mort'ton teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Feldip hills teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Lunar isle teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Digsite teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Piscatoris teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Pest control teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Tai bwo wannai teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Lumberyard teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Iorwerth camp teleport": { item: MasterScrollBookEmpty, rarity: 341 },
-  "Holy blessing": { item: HolyBlessing, rarity: 542 },
-  "Unholy blessing": { item: UnholyBlessing, rarity: 542 },
-  "Peaceful blessing": { item: PeacefulBlessing, rarity: 542 },
-  "War blessing": { item: WarBlessing, rarity: 542 },
-  "Honourable blessing": { item: HonourableBlessing, rarity: 542 },
-  "Ancient blessing": { item: AncientBlessing, rarity: 542 },
-  "Master scroll book (empty)": { item: MasterScrollBookEmpty, rarity: 596 },
-  "Saradomin page 1": { item: SaradominPage1, rarity: 650 },
-  "Saradomin page 2": { item: SaradominPage2, rarity: 650 },
-  "Saradomin page 3": { item: SaradominPage3, rarity: 650 },
-  "Saradomin page 4": { item: SaradominPage4, rarity: 650 },
-  "Zamorak page 1": { item: ZamorakPage1, rarity: 650 },
-  "Zamorak page 2": { item: ZamorakPage2, rarity: 650 },
-  "Zamorak page 3": { item: ZamorakPage3, rarity: 650 },
-  "Zamorak page 4": { item: ZamorakPage4, rarity: 650 },
-  "Guthix page 1": { item: GuthixPage1, rarity: 650 },
-  "Guthix page 2": { item: GuthixPage2, rarity: 650 },
-  "Guthix page 3": { item: GuthixPage3, rarity: 650 },
-  "Guthix page 4": { item: GuthixPage4, rarity: 650 },
-  "Bandos page 1": { item: BandosPage1, rarity: 650 },
-  "Bandos page 2": { item: BandosPage2, rarity: 650 },
-  "Bandos page 3": { item: BandosPage3, rarity: 650 },
-  "Bandos page 4": { item: BandosPage4, rarity: 650 },
-  "Armadyl page 1": { item: ArmadylPage1, rarity: 650 },
-  "Armadyl page 2": { item: ArmadylPage2, rarity: 650 },
-  "Armadyl page 3": { item: ArmadylPage3, rarity: 650 },
-  "Armadyl page 4": { item: ArmadylPage4, rarity: 650 },
-  "Ancient page 1": { item: AncientPage1, rarity: 650 },
-  "Ancient page 2": { item: AncientPage2, rarity: 650 },
+  "Coins (1k-5k)": { item: Coins, rarity: 27.1, quantityMin: 1000, quantityMax: 5000 },
+  "Purple sweets (7-15)": { item: PurpleSweets, rarity: 27.1, quantityMin: 7, quantityMax: 15 },
+  "Coins (10k-15k)": { item: Coins, rarity: 77.4, quantityMin: 10000, quantityMax: 15000 },
+  "Purple sweets (8-12)": { item: PurpleSweets, rarity: 77.4, quantityMin: 8, quantityMax: 12 },
+  "Red firelighter": { item: RedFirelighter, rarity: 135.4, quantityMin: 9, quantityMax: 15 },
+  "Green firelighter": { item: GreenFirelighter, rarity: 135.4, quantityMin: 9, quantityMax: 15 },
+  "Blue firelighter": { item: BlueFirelighter, rarity: 135.4, quantityMin: 9, quantityMax: 15 },
+  "Purple firelighter": { item: PurpleFirelighter, rarity: 135.4, quantityMin: 9, quantityMax: 15 },
+  "White firelighter": { item: WhiteFirelighter, rarity: 135.4, quantityMin: 9, quantityMax: 15 },
+  "Charge dragonstone jewellery scroll": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Nardah teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Mos le'harmless teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Mort'ton teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Feldip hills teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Lunar isle teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Digsite teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Piscatoris teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Pest control teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Tai bwo wannai teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Lumberyard teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Iorwerth camp teleport": { item: MasterScrollBookEmpty, rarity: 340.5, quantityMin: 5, quantityMax: 15 },
+  "Holy blessing": { item: HolyBlessing, rarity: 541.7, quantity: 1 },
+  "Unholy blessing": { item: UnholyBlessing, rarity: 541.7, quantity: 1 },
+  "Peaceful blessing": { item: PeacefulBlessing, rarity: 541.7, quantity: 1 },
+  "War blessing": { item: WarBlessing, rarity: 541.7, quantity: 1 },
+  "Honourable blessing": { item: HonourableBlessing, rarity: 541.7, quantity: 1 },
+  "Ancient blessing": { item: AncientBlessing, rarity: 541.7, quantity: 1 },
+  "Master scroll book (empty)": { item: MasterScrollBookEmpty, rarity: 595.8, quantity: 1 },
+  "Saradomin page 1": { item: SaradominPage1, rarity: 650, quantity: 1 },
+  "Saradomin page 2": { item: SaradominPage2, rarity: 650, quantity: 1 },
+  "Saradomin page 3": { item: SaradominPage3, rarity: 650, quantity: 1 },
+  "Saradomin page 4": { item: SaradominPage4, rarity: 650, quantity: 1 },
+  "Zamorak page 1": { item: ZamorakPage1, rarity: 650, quantity: 1 },
+  "Zamorak page 2": { item: ZamorakPage2, rarity: 650, quantity: 1 },
+  "Zamorak page 3": { item: ZamorakPage3, rarity: 650, quantity: 1 },
+  "Zamorak page 4": { item: ZamorakPage4, rarity: 650, quantity: 1 },
+  "Guthix page 1": { item: GuthixPage1, rarity: 650, quantity: 1 },
+  "Guthix page 2": { item: GuthixPage2, rarity: 650, quantity: 1 },
+  "Guthix page 3": { item: GuthixPage3, rarity: 650, quantity: 1 },
+  "Guthix page 4": { item: GuthixPage4, rarity: 650, quantity: 1 },
+  "Bandos page 1": { item: BandosPage1, rarity: 650, quantity: 1 },
+  "Bandos page 2": { item: BandosPage2, rarity: 650, quantity: 1 },
+  "Bandos page 3": { item: BandosPage3, rarity: 650, quantity: 1 },
+  "Bandos page 4": { item: BandosPage4, rarity: 650, quantity: 1 },
+  "Armadyl page 1": { item: ArmadylPage1, rarity: 650, quantity: 1 },
+  "Armadyl page 2": { item: ArmadylPage2, rarity: 650, quantity: 1 },
+  "Armadyl page 3": { item: ArmadylPage3, rarity: 650, quantity: 1 },
+  "Armadyl page 4": { item: ArmadylPage4, rarity: 650, quantity: 1 },
+  "Ancient page 1": { item: AncientPage1, rarity: 650, quantity: 1 },
+  "Ancient page 2": { item: AncientPage2, rarity: 650, quantity: 1 },
+  "Ancient page 3": { item: AncientPage1, rarity: 650, quantity: 1 },
+  "Ancient page 4": { item: AncientPage2, rarity: 650, quantity: 1 },
 };
 
 /**
@@ -1285,30 +1383,36 @@ const HARD_SHARED_ITEMS: RewardTable = {
  * 3rd age: 1/211,250 per roll
  */
 const HARD_MEGA_RARE_ITEMS: RewardTable = {
-  "Gilded full helm": { item: GildedFullHelm, rarity: 35750 },
-  "Gilded platebody": { item: GildedPlatebody, rarity: 35750 },
-  "Gilded platelegs": { item: GildedLegs, rarity: 35750 },
-  "Gilded plateskirt": { item: GildedLegs, rarity: 35750 },
-  "Gilded kiteshield": { item: GildedKiteshield, rarity: 35750 },
-  "Gilded med helm": { item: GildedMedHelm, rarity: 35750 },
-  "Gilded chainbody": { item: GildedChainbody, rarity: 35750 },
-  "Gilded sq shield": { item: GildedSqShield, rarity: 35750 },
-  "Gilded 2h sword": { item: Gilded2hSword, rarity: 35750 },
-  "Gilded spear": { item: GildedSpear, rarity: 35750 },
-  "Gilded hasta": { item: GildedHasta, rarity: 35750 },
-  "3rd age full helmet": { item: ThirdAgeFullHelmet, rarity: 211250 },
-  "3rd age platebody": { item: ThirdAgePlatebody, rarity: 211250 },
-  "3rd age platelegs": { item: ThirdAgePlatelegs, rarity: 211250 },
-  "3rd age plateskirt": { item: ThirdAgePlatelegs, rarity: 211250 },
-  "3rd age kiteshield": { item: ThirdAgeKiteshield, rarity: 211250 },
-  "3rd age range coif": { item: ThirdAgeRangeCoif, rarity: 211250 },
-  "3rd age range top": { item: ThirdAgeRangeTop, rarity: 211250 },
-  "3rd age range legs": { item: ThirdAgeRangeLegs, rarity: 211250 },
-  "3rd age vambraces": { item: ThirdAgeVambraces, rarity: 211250 },
-  "3rd age mage hat": { item: ThirdAgeMageHat, rarity: 211250 },
-  "3rd age robe top": { item: ThirdAgeRobeTop, rarity: 211250 },
-  "3rd age robe": { item: ThirdAgeRobe, rarity: 211250 },
-  "3rd age amulet": { item: AmuletOfMagic, rarity: 211250 },
+  "Super energy(4)": { item: SuperRestore4, rarity: 16250, quantity: 15, noted: true },
+  "Super restore(4)": { item: SuperRestore4, rarity: 16250, quantity: 15, noted: true },
+  "Antifire potion(4)": { item: ExtendedAntifire4, rarity: 16250, quantity: 15, noted: true },
+  "Super attack(4)": { item: SuperRestore4, rarity: 16250, quantity: 5, noted: true },
+  "Super strength(4)": { item: SuperRestore4, rarity: 16250, quantity: 5, noted: true },
+  "Super defence(4)": { item: SuperRestore4, rarity: 16250, quantity: 5, noted: true },
+  "Gilded full helm": { item: GildedFullHelm, rarity: 35750, quantity: 1 },
+  "Gilded platebody": { item: GildedPlatebody, rarity: 35750, quantity: 1 },
+  "Gilded platelegs": { item: GildedLegs, rarity: 35750, quantity: 1 },
+  "Gilded plateskirt": { item: GildedLegs, rarity: 35750, quantity: 1 },
+  "Gilded kiteshield": { item: GildedKiteshield, rarity: 35750, quantity: 1 },
+  "Gilded med helm": { item: GildedMedHelm, rarity: 35750, quantity: 1 },
+  "Gilded chainbody": { item: GildedChainbody, rarity: 35750, quantity: 1 },
+  "Gilded sq shield": { item: GildedSqShield, rarity: 35750, quantity: 1 },
+  "Gilded 2h sword": { item: Gilded2hSword, rarity: 35750, quantity: 1 },
+  "Gilded spear": { item: GildedSpear, rarity: 35750, quantity: 1 },
+  "Gilded hasta": { item: GildedHasta, rarity: 35750, quantity: 1 },
+  "3rd age full helmet": { item: ThirdAgeFullHelmet, rarity: 211250, quantity: 1 },
+  "3rd age platebody": { item: ThirdAgePlatebody, rarity: 211250, quantity: 1 },
+  "3rd age platelegs": { item: ThirdAgePlatelegs, rarity: 211250, quantity: 1 },
+  "3rd age plateskirt": { item: ThirdAgePlatelegs, rarity: 211250, quantity: 1 },
+  "3rd age kiteshield": { item: ThirdAgeKiteshield, rarity: 211250, quantity: 1 },
+  "3rd age range coif": { item: ThirdAgeRangeCoif, rarity: 211250, quantity: 1 },
+  "3rd age range top": { item: ThirdAgeRangeTop, rarity: 211250, quantity: 1 },
+  "3rd age range legs": { item: ThirdAgeRangeLegs, rarity: 211250, quantity: 1 },
+  "3rd age vambraces": { item: ThirdAgeVambraces, rarity: 211250, quantity: 1 },
+  "3rd age mage hat": { item: ThirdAgeMageHat, rarity: 211250, quantity: 1 },
+  "3rd age robe top": { item: ThirdAgeRobeTop, rarity: 211250, quantity: 1 },
+  "3rd age robe": { item: ThirdAgeRobe, rarity: 211250, quantity: 1 },
+  "3rd age amulet": { item: AmuletOfMagic, rarity: 211250, quantity: 1 },
 };
 
 /**
@@ -1316,7 +1420,7 @@ const HARD_MEGA_RARE_ITEMS: RewardTable = {
  * 1/15 chance when opening a hard casket
  */
 const HARD_MASTER_CLUE: RewardTable = {
-  "Clue scroll (master)": { item: Coins, rarity: 15 },
+  "Clue scroll (master)": { item: Coins, rarity: 15, quantity: 1 },
 };
 
 /**
@@ -1327,13 +1431,16 @@ export const HARD_REWARDS = {
   tables: [
     {
       name: "unique",
-      weight: 1625, // Hard clue unique items (~1/12.5 per roll)
-      items: HARD_UNIQUE_ITEMS,
+      weight: 1, // ~1/13 primary roll branch for unique outcomes
+      items: {
+        ...HARD_UNIQUE_ITEMS,
+        ...HARD_MEGA_RARE_ITEMS,
+      },
       description: "Hard clue unique items (100+ at various rarities)",
     },
     {
       name: "standard",
-      weight: 706, // Standard weapons, armor, runes, food (~1/27.1 base)
+      weight: 12, // ~12/13 primary roll branch for standard/shared outcomes
       items: HARD_STANDARD_TABLE,
       description: "Standard weapons, armor, runes, food",
     },
@@ -1376,59 +1483,64 @@ export const HARD_REWARDS = {
  * Major rare table at 1/1,275 rarity
  */
 const ELITE_UNIQUE_ITEMS: RewardTable = {
-  "Dragon full helm ornament kit": { item: DragonFullHelmOrnamentKit, rarity: 1275 },
-  "Dragon chainbody ornament kit": { item: DragonChainbodyOrnamentKit, rarity: 1275 },
-  "Dragon legs/skirt ornament kit": { item: DragonLegsSkirtOrnamentKit, rarity: 1275 },
-  "Dragon sq shield ornament kit": { item: DragonSqShieldOrnamentKit, rarity: 1275 },
-  "Dragon scimitar ornament kit": { item: DragonScimitarOrnamentKit, rarity: 1275 },
-  "Fury ornament kit": { item: FuryOrnamentKit, rarity: 1275 },
-  "Light infinity colour kit": { item: LightInfinityColourKit, rarity: 1275 },
-  "Dark infinity colour kit": { item: DarkInfinityColourKit, rarity: 1275 },
-  "Royal crown": { item: RoyalCrown, rarity: 1275 },
-  "Royal gown top": { item: RoyalGownTop, rarity: 1275 },
-  "Royal gown bottom": { item: RoyalGownBottom, rarity: 1275 },
-  "Royal sceptre": { item: RoyalSceptre, rarity: 1275 },
-  "Musketeer hat": { item: MusketeerHat, rarity: 1275 },
-  "Musketeer tabard": { item: MusketeerTabard, rarity: 1275 },
-  "Musketeer pants": { item: MusketeerPants, rarity: 1275 },
-  "Black d'hide body (g)": { item: BlackFullHelm, rarity: 1275 },
-  "Black d'hide body (t)": { item: BlackFullHelm, rarity: 1275 },
-  "Black d'hide chaps (g)": { item: BlueDHideChaps, rarity: 1275 },
-  "Black d'hide chaps (t)": { item: BlueDHideChaps, rarity: 1275 },
-  "Ranger's tunic": { item: RangerTunic, rarity: 1275 },
-  "Ranger gloves": { item: RangerGloves, rarity: 1275 },
-  "Holy wraps": { item: HolyWraps, rarity: 1275 },
-  "Bronze dragon mask": { item: BronzeDragonMask, rarity: 1275 },
-  "Iron dragon mask": { item: IronDragonMask, rarity: 1275 },
-  "Steel dragon mask": { item: SteelDragonMask, rarity: 1275 },
-  "Mithril dragon mask": { item: MithrilDragonMask, rarity: 1275 },
-  "Adamant dragon mask": { item: AdamantDragonMask, rarity: 1275 },
-  "Rune dragon mask": { item: RuneDragonMask, rarity: 1275 },
-  Katana: { item: Katana, rarity: 1275 },
-  "Dragon cane": { item: DragonCane, rarity: 1275 },
-  "Bucket helm": { item: BucketHelm, rarity: 1275 },
-  "Blacksmith's helm": { item: BlacksmithsHelm, rarity: 1275 },
-  Deerstalker: { item: Deerstalker, rarity: 1275 },
-  Afro: { item: Afro, rarity: 1275 },
-  "Big pirate hat": { item: BigPirateHat, rarity: 1275 },
-  "Top hat": { item: TopHat, rarity: 1275 },
-  Monocle: { item: Monocle, rarity: 1275 },
-  Briefcase: { item: Briefcase, rarity: 1275 },
-  "Sagacious spectacles": { item: SagaciousSpectacles, rarity: 1275 },
-  "Ranger's tights": { item: RangerLegs, rarity: 1275 },
-  "Uri's hat": { item: UrisHat, rarity: 1275 },
-  "Giant boot": { item: GiantBoot, rarity: 1275 },
-  "Fremennik kilt": { item: FremennikKilt, rarity: 1275 },
-  "Dark bow tie": { item: DarkBowTie, rarity: 12750 },
-  "Dark tuxedo jacket": { item: DarkTuxedoJacket, rarity: 12750 },
-  "Dark tuxedo cuffs": { item: DarkTuxedoCuffs, rarity: 12750 },
-  "Dark trousers": { item: DarkTrousers, rarity: 12750 },
-  "Dark tuxedo shoes": { item: DarkTuxedoShoes, rarity: 12750 },
-  "Light bow tie": { item: LightBowTie, rarity: 12750 },
-  "Light tuxedo jacket": { item: LightTuxedoJacket, rarity: 12750 },
-  "Light tuxedo cuffs": { item: LightTuxedoCuffs, rarity: 12750 },
-  "Light trousers": { item: LightTrousers, rarity: 12750 },
-  "Light tuxedo shoes": { item: LightTuxedoShoes, rarity: 12750 },
+  "Dragon full helm ornament kit": { item: DragonFullHelmOrnamentKit, rarity: 1275, quantity: 1 },
+  "Dragon chainbody ornament kit": { item: DragonChainbodyOrnamentKit, rarity: 1275, quantity: 1 },
+  "Dragon legs/skirt ornament kit": { item: DragonLegsSkirtOrnamentKit, rarity: 1275, quantity: 1 },
+  "Dragon sq shield ornament kit": { item: DragonSqShieldOrnamentKit, rarity: 1275, quantity: 1 },
+  "Dragon scimitar ornament kit": { item: DragonScimitarOrnamentKit, rarity: 1275, quantity: 1 },
+  "Fury ornament kit": { item: FuryOrnamentKit, rarity: 1275, quantity: 1 },
+  "Light infinity colour kit": { item: LightInfinityColourKit, rarity: 1275, quantity: 1 },
+  "Dark infinity colour kit": { item: DarkInfinityColourKit, rarity: 1275, quantity: 1 },
+  "Royal crown": { item: RoyalCrown, rarity: 1275, quantity: 1 },
+  "Royal gown top": { item: RoyalGownTop, rarity: 1275, quantity: 1 },
+  "Royal gown bottom": { item: RoyalGownBottom, rarity: 1275, quantity: 1 },
+  "Royal sceptre": { item: RoyalSceptre, rarity: 1275, quantity: 1 },
+  "Musketeer hat": { item: MusketeerHat, rarity: 1275, quantity: 1 },
+  "Musketeer tabard": { item: MusketeerTabard, rarity: 1275, quantity: 1 },
+  "Musketeer pants": { item: MusketeerPants, rarity: 1275, quantity: 1 },
+  "Black d'hide body (g)": { item: BlackFullHelm, rarity: 1275, quantity: 1 },
+  "Black d'hide body (t)": { item: BlackFullHelm, rarity: 1275, quantity: 1 },
+  "Black d'hide chaps (g)": { item: BlueDHideChaps, rarity: 1275, quantity: 1 },
+  "Black d'hide chaps (t)": { item: BlueDHideChaps, rarity: 1275, quantity: 1 },
+  "Ranger's tunic": { item: RangerTunic, rarity: 1275, quantity: 1 },
+  "Ranger gloves": { item: RangerGloves, rarity: 1275, quantity: 1 },
+  "Holy wraps": { item: HolyWraps, rarity: 1275, quantity: 1 },
+  "Bronze dragon mask": { item: BronzeDragonMask, rarity: 1275, quantity: 1 },
+  "Iron dragon mask": { item: IronDragonMask, rarity: 1275, quantity: 1 },
+  "Steel dragon mask": { item: SteelDragonMask, rarity: 1275, quantity: 1 },
+  "Mithril dragon mask": { item: MithrilDragonMask, rarity: 1275, quantity: 1 },
+  "Adamant dragon mask": { item: AdamantDragonMask, rarity: 1275, quantity: 1 },
+  "Rune dragon mask": { item: RuneDragonMask, rarity: 1275, quantity: 1 },
+  "Arceuus scarf": { item: ArceuusHood, rarity: 1275, quantity: 1 },
+  "Hosidius scarf": { item: HosidiusHood, rarity: 1275, quantity: 1 },
+  "Lovakengj scarf": { item: LovakengjHood, rarity: 1275, quantity: 1 },
+  "Piscarilius scarf": { item: PiscariliusHood, rarity: 1275, quantity: 1 },
+  "Shayzien scarf": { item: ShayzienHood, rarity: 1275, quantity: 1 },
+  Katana: { item: Katana, rarity: 1275, quantity: 1 },
+  "Dragon cane": { item: DragonCane, rarity: 1275, quantity: 1 },
+  "Bucket helm": { item: BucketHelm, rarity: 1275, quantity: 1 },
+  "Blacksmith's helm": { item: BlacksmithsHelm, rarity: 1275, quantity: 1 },
+  Deerstalker: { item: Deerstalker, rarity: 1275, quantity: 1 },
+  Afro: { item: Afro, rarity: 1275, quantity: 1 },
+  "Big pirate hat": { item: BigPirateHat, rarity: 1275, quantity: 1 },
+  "Top hat": { item: TopHat, rarity: 1275, quantity: 1 },
+  Monocle: { item: Monocle, rarity: 1275, quantity: 1 },
+  Briefcase: { item: Briefcase, rarity: 1275, quantity: 1 },
+  "Sagacious spectacles": { item: SagaciousSpectacles, rarity: 1275, quantity: 1 },
+  "Ranger's tights": { item: RangerLegs, rarity: 1275, quantity: 1 },
+  "Uri's hat": { item: UrisHat, rarity: 1275, quantity: 1 },
+  "Giant boot": { item: GiantBoot, rarity: 1275, quantity: 1 },
+  "Fremennik kilt": { item: FremennikKilt, rarity: 1275, quantity: 1 },
+  "Dark bow tie": { item: DarkBowTie, rarity: 12750, quantity: 1 },
+  "Dark tuxedo jacket": { item: DarkTuxedoJacket, rarity: 12750, quantity: 1 },
+  "Dark tuxedo cuffs": { item: DarkTuxedoCuffs, rarity: 12750, quantity: 1 },
+  "Dark trousers": { item: DarkTrousers, rarity: 12750, quantity: 1 },
+  "Dark tuxedo shoes": { item: DarkTuxedoShoes, rarity: 12750, quantity: 1 },
+  "Light bow tie": { item: LightBowTie, rarity: 12750, quantity: 1 },
+  "Light tuxedo jacket": { item: LightTuxedoJacket, rarity: 12750, quantity: 1 },
+  "Light tuxedo cuffs": { item: LightTuxedoCuffs, rarity: 12750, quantity: 1 },
+  "Light trousers": { item: LightTrousers, rarity: 12750, quantity: 1 },
+  "Light tuxedo shoes": { item: LightTuxedoShoes, rarity: 12750, quantity: 1 },
 };
 
 /**
@@ -1436,138 +1548,142 @@ const ELITE_UNIQUE_ITEMS: RewardTable = {
  * Rune equipment, dragon weapons, runes, jewellery, food, resources at 1/32.3 base
  */
 const ELITE_STANDARD_TABLE: RewardTable = {
-  "Rune platebody": { item: RunePlatebody, rarity: 32 },
-  "Rune platelegs": { item: RunePlatelegs, rarity: 32 },
-  "Rune plateskirt": { item: RunePlatelegs, rarity: 32 },
-  "Rune kiteshield": { item: RuneKiteshield, rarity: 32 },
-  "Rune crossbow": { item: RuneCrossbow, rarity: 32 },
-  "Dragon dagger": { item: DragonDagger, rarity: 32 },
-  "Dragon mace": { item: DragonMace, rarity: 32 },
-  "Dragon longsword": { item: BlackLongsword, rarity: 32 },
-  "Onyx bolt tips": { item: OnyxBoltTips, rarity: 32 },
-  "Law rune": { item: LawRune, rarity: 32 },
-  "Death rune": { item: FireRune, rarity: 32 },
-  "Blood rune": { item: FireRune, rarity: 32 },
-  "Soul rune": { item: FireRune, rarity: 32 },
-  "Dragonstone bracelet": { item: DragonstoneBracelet, rarity: 32 },
-  "Dragon necklace": { item: DragonNecklace, rarity: 32 },
-  "Dragonstone ring": { item: DragonstoneRing, rarity: 32 },
-  "Tuna potato": { item: HamJoint, rarity: 32 },
-  "Summer pie": { item: HamJoint, rarity: 32 },
-  "Oak plank": { item: OakPlank, rarity: 32 },
-  "Teak plank": { item: TeakPlank, rarity: 32 },
-  "Mahogany plank": { item: MahoganyPlank, rarity: 32 },
-  "Runite bar": { item: RuniteBar, rarity: 32 },
-  "Tooth half of key": { item: ToothHalfOfKey, rarity: 65 },
-  "Loop half of key": { item: LoopHalfOfKey, rarity: 65 },
-  "Palm tree seed": { item: PalmTreeSeed, rarity: 97 },
-  "Yew seed": { item: YewSeed, rarity: 97 },
-  "Magic seed": { item: MagicSeed, rarity: 97 },
+  "Rune platebody": { item: RunePlatebody, rarity: 32.3, quantity: 1 },
+  "Rune platelegs": { item: RunePlatelegs, rarity: 32.3, quantity: 1 },
+  "Rune plateskirt": { item: RunePlatelegs, rarity: 32.3, quantity: 1 },
+  "Rune kiteshield": { item: RuneKiteshield, rarity: 32.3, quantity: 1 },
+  "Rune crossbow": { item: RuneCrossbow, rarity: 32.3, quantity: 1 },
+  "Dragon dagger": { item: DragonDagger, rarity: 32.3, quantity: 1 },
+  "Dragon mace": { item: DragonMace, rarity: 32.3, quantity: 1 },
+  "Dragon longsword": { item: DragonLongsword, rarity: 32.3, quantity: 1 },
+  "Onyx bolt tips": { item: OnyxBoltTips, rarity: 32.3, quantityMin: 8, quantityMax: 12 },
+  "Law rune": { item: LawRune, rarity: 32.3, quantityMin: 50, quantityMax: 75 },
+  "Death rune": { item: DeathRune, rarity: 32.3, quantityMin: 50, quantityMax: 75 },
+  "Blood rune": { item: BloodRune, rarity: 32.3, quantityMin: 50, quantityMax: 75 },
+  "Soul rune": { item: SoulRune, rarity: 32.3, quantityMin: 50, quantityMax: 75 },
+  "Dragonstone bracelet": { item: DragonstoneBracelet, rarity: 32.3, quantity: 1 },
+  "Dragon necklace": { item: DragonNecklace, rarity: 32.3, quantity: 1 },
+  "Dragonstone ring": { item: DragonstoneRing, rarity: 32.3, quantity: 1 },
+  "Tuna potato": { item: TunaPotato, rarity: 32.3, quantityMin: 15, quantityMax: 20, noted: true },
+  "Summer pie": { item: SummerPie, rarity: 32.3, quantityMin: 15, quantityMax: 20, noted: true },
+  "Oak plank": { item: OakPlank, rarity: 32.3, quantityMin: 60, quantityMax: 80, noted: true },
+  "Teak plank": { item: TeakPlank, rarity: 32.3, quantityMin: 40, quantityMax: 50, noted: true },
+  "Mahogany plank": { item: MahoganyPlank, rarity: 32.3, quantityMin: 20, quantityMax: 30, noted: true },
+  "Runite bar": { item: RuniteBar, rarity: 32.3, quantityMin: 1, quantityMax: 3, noted: true },
+  "Tooth half of key": { item: ToothHalfOfKey, rarity: 64.6, quantity: 1 },
+  "Loop half of key": { item: LoopHalfOfKey, rarity: 64.6, quantity: 1 },
+  "Palm tree seed": { item: PalmTreeSeed, rarity: 96.9, quantity: 1 },
+  "Yew seed": { item: YewSeed, rarity: 96.9, quantity: 1 },
+  "Magic seed": { item: MagicSeed, rarity: 96.9, quantity: 1 },
 };
 
 /**
  * Elite tier mega-rare items (gilded + 3rd age + special)
  */
 const ELITE_MEGA_RARE_ITEMS: RewardTable = {
-  "Ring of nature": { item: RingOfNature, rarity: 14663 },
-  "Crystal key": { item: CrystalKey, rarity: 14663 },
-  "Lava dragon mask": { item: LavaDragonMask, rarity: 14663 },
-  Battlestaff: { item: StaffOfAir, rarity: 14663 },
-  "Extended antifire(4)": { item: ExtendedAntifire4, rarity: 14663 },
-  "Super restore(4)": { item: SuperRestore4, rarity: 14663 },
-  "Saradomin brew(4)": { item: SaradominBrew4, rarity: 14663 },
-  "Ranging potion(4)": { item: RangingPotion4, rarity: 14663 },
-  "Gilded scimitar": { item: GildedScimitar, rarity: 14663 },
-  "Gilded boots": { item: GildedBoots, rarity: 14663 },
-  "Gilded coif": { item: GildedCoif, rarity: 14663 },
-  "Gilded d'hide vambraces": { item: HideVambraces, rarity: 14663 },
-  "Gilded d'hide body": { item: GildedDHideBody, rarity: 14663 },
-  "Gilded d'hide chaps": { item: GildedDHideChaps, rarity: 14663 },
-  "Gilded pickaxe": { item: GildedPickaxe, rarity: 14663 },
-  "Gilded axe": { item: GildedAxe, rarity: 14663 },
-  "Gilded spade": { item: GildedSpade, rarity: 14663 },
-  "Gilded full helm": { item: GildedFullHelm, rarity: 32258 },
-  "Gilded platebody": { item: GildedPlatebody, rarity: 32258 },
-  "Gilded platelegs": { item: GildedLegs, rarity: 32258 },
-  "Gilded plateskirt": { item: GildedLegs, rarity: 32258 },
-  "Gilded kiteshield": { item: GildedKiteshield, rarity: 32258 },
-  "Gilded med helm": { item: GildedMedHelm, rarity: 32258 },
-  "Gilded chainbody": { item: GildedChainbody, rarity: 32258 },
-  "Gilded sq shield": { item: GildedSqShield, rarity: 32258 },
-  "Gilded 2h sword": { item: Gilded2hSword, rarity: 32258 },
-  "Gilded spear": { item: GildedSpear, rarity: 32258 },
-  "Gilded hasta": { item: GildedHasta, rarity: 32258 },
-  "3rd age full helmet": { item: ThirdAgeFullHelmet, rarity: 249262 },
-  "3rd age platebody": { item: ThirdAgePlatebody, rarity: 249262 },
-  "3rd age platelegs": { item: ThirdAgePlatelegs, rarity: 249262 },
-  "3rd age plateskirt": { item: ThirdAgePlatelegs, rarity: 249262 },
-  "3rd age kiteshield": { item: ThirdAgeKiteshield, rarity: 249262 },
-  "3rd age range coif": { item: ThirdAgeRangeCoif, rarity: 249262 },
-  "3rd age range top": { item: ThirdAgeRangeTop, rarity: 249262 },
-  "3rd age range legs": { item: ThirdAgeRangeLegs, rarity: 249262 },
-  "3rd age vambraces": { item: ThirdAgeVambraces, rarity: 249262 },
-  "3rd age mage hat": { item: ThirdAgeMageHat, rarity: 249262 },
-  "3rd age robe top": { item: ThirdAgeRobeTop, rarity: 249262 },
-  "3rd age robe": { item: ThirdAgeRobe, rarity: 249262 },
-  "3rd age amulet": { item: AmuletOfMagic, rarity: 249262 },
-  "3rd age longsword": { item: ThirdAgeLongsword, rarity: 249262 },
-  "3rd age wand": { item: ThirdAgeWand, rarity: 249262 },
-  "3rd age cloak": { item: ThirdAgeCloak, rarity: 249262 },
-  "3rd age bow": { item: ThirdAgeBow, rarity: 249262 },
+  "Ring of nature": { item: RingOfNature, rarity: 14663, quantity: 1 },
+  "Crystal key": { item: CrystalKey, rarity: 14663, quantity: 1 },
+  "Lava dragon mask": { item: LavaDragonMask, rarity: 14663, quantity: 1 },
+  Battlestaff: { item: StaffOfAir, rarity: 14663, quantity: 100, noted: true },
+  "Extended antifire(4)": { item: ExtendedAntifire4, rarity: 14663, quantity: 30, noted: true },
+  "Super restore(4)": { item: SuperRestore4, rarity: 14663, quantity: 30, noted: true },
+  "Saradomin brew(4)": { item: SaradominBrew4, rarity: 14663, quantity: 30, noted: true },
+  "Ranging potion(4)": { item: RangingPotion4, rarity: 14663, quantity: 30, noted: true },
+  "Gilded scimitar": { item: GildedScimitar, rarity: 14663, quantity: 1 },
+  "Gilded boots": { item: GildedBoots, rarity: 14663, quantity: 1 },
+  "Gilded coif": { item: GildedCoif, rarity: 14663, quantity: 1 },
+  "Gilded d'hide vambraces": { item: HideVambraces, rarity: 14663, quantity: 1 },
+  "Gilded d'hide body": { item: GildedDHideBody, rarity: 14663, quantity: 1 },
+  "Gilded d'hide chaps": { item: GildedDHideChaps, rarity: 14663, quantity: 1 },
+  "Gilded pickaxe": { item: GildedPickaxe, rarity: 14663, quantity: 1 },
+  "Gilded axe": { item: GildedAxe, rarity: 14663, quantity: 1 },
+  "Gilded spade": { item: GildedSpade, rarity: 14663, quantity: 1 },
+  "Gilded full helm": { item: GildedFullHelm, rarity: 32258, quantity: 1 },
+  "Gilded platebody": { item: GildedPlatebody, rarity: 32258, quantity: 1 },
+  "Gilded platelegs": { item: GildedLegs, rarity: 32258, quantity: 1 },
+  "Gilded plateskirt": { item: GildedLegs, rarity: 32258, quantity: 1 },
+  "Gilded kiteshield": { item: GildedKiteshield, rarity: 32258, quantity: 1 },
+  "Gilded med helm": { item: GildedMedHelm, rarity: 32258, quantity: 1 },
+  "Gilded chainbody": { item: GildedChainbody, rarity: 32258, quantity: 1 },
+  "Gilded sq shield": { item: GildedSqShield, rarity: 32258, quantity: 1 },
+  "Gilded 2h sword": { item: Gilded2hSword, rarity: 32258, quantity: 1 },
+  "Gilded spear": { item: GildedSpear, rarity: 32258, quantity: 1 },
+  "Gilded hasta": { item: GildedHasta, rarity: 32258, quantity: 1 },
+  "3rd age full helmet": { item: ThirdAgeFullHelmet, rarity: 249262, quantity: 1 },
+  "3rd age platebody": { item: ThirdAgePlatebody, rarity: 249262, quantity: 1 },
+  "3rd age platelegs": { item: ThirdAgePlatelegs, rarity: 249262, quantity: 1 },
+  "3rd age plateskirt": { item: ThirdAgePlatelegs, rarity: 249262, quantity: 1 },
+  "3rd age kiteshield": { item: ThirdAgeKiteshield, rarity: 249262, quantity: 1 },
+  "3rd age range coif": { item: ThirdAgeRangeCoif, rarity: 249262, quantity: 1 },
+  "3rd age range top": { item: ThirdAgeRangeTop, rarity: 249262, quantity: 1 },
+  "3rd age range legs": { item: ThirdAgeRangeLegs, rarity: 249262, quantity: 1 },
+  "3rd age vambraces": { item: ThirdAgeVambraces, rarity: 249262, quantity: 1 },
+  "3rd age mage hat": { item: ThirdAgeMageHat, rarity: 249262, quantity: 1 },
+  "3rd age robe top": { item: ThirdAgeRobeTop, rarity: 249262, quantity: 1 },
+  "3rd age robe": { item: ThirdAgeRobe, rarity: 249262, quantity: 1 },
+  "3rd age amulet": { item: AmuletOfMagic, rarity: 249262, quantity: 1 },
+  "3rd age longsword": { item: ThirdAgeLongsword, rarity: 249262, quantity: 1 },
+  "3rd age wand": { item: ThirdAgeWand, rarity: 249262, quantity: 1 },
+  "3rd age cloak": { item: ThirdAgeCloak, rarity: 249262, quantity: 1 },
+  "3rd age bow": { item: ThirdAgeBow, rarity: 249262, quantity: 1 },
 };
 
 /**
  * Elite tier shared treasure trail items
  */
 const ELITE_SHARED_ITEMS: RewardTable = {
-  Coins: { item: Coins, rarity: 32 },
-  "Purple sweets": { item: PurpleSweets, rarity: 92 },
-  "Red firelighter": { item: RedFirelighter, rarity: 162 },
-  "Green firelighter": { item: GreenFirelighter, rarity: 162 },
-  "Blue firelighter": { item: BlueFirelighter, rarity: 162 },
-  "Purple firelighter": { item: PurpleFirelighter, rarity: 162 },
-  "White firelighter": { item: WhiteFirelighter, rarity: 162 },
-  "Charge dragonstone jewellery scroll": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Nardah teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Mos le'harmless teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Mort'ton teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Feldip hills teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Lunar isle teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Digsite teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Piscatoris teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Pest control teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Tai bwo wannai teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Lumberyard teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Iorwerth camp teleport": { item: MasterScrollBookEmpty, rarity: 203 },
-  "Master scroll book (empty)": { item: MasterScrollBookEmpty, rarity: 355 },
-  "Holy blessing": { item: HolyBlessing, rarity: 646 },
-  "Unholy blessing": { item: UnholyBlessing, rarity: 646 },
-  "Peaceful blessing": { item: PeacefulBlessing, rarity: 646 },
-  "War blessing": { item: WarBlessing, rarity: 646 },
-  "Honourable blessing": { item: HonourableBlessing, rarity: 646 },
-  "Ancient blessing": { item: AncientBlessing, rarity: 646 },
-  "Saradomin page 1": { item: SaradominPage1, rarity: 775 },
-  "Saradomin page 2": { item: SaradominPage2, rarity: 775 },
-  "Saradomin page 3": { item: SaradominPage3, rarity: 775 },
-  "Saradomin page 4": { item: SaradominPage4, rarity: 775 },
-  "Zamorak page 1": { item: ZamorakPage1, rarity: 775 },
-  "Zamorak page 2": { item: ZamorakPage2, rarity: 775 },
-  "Zamorak page 3": { item: ZamorakPage3, rarity: 775 },
-  "Zamorak page 4": { item: ZamorakPage4, rarity: 775 },
-  "Guthix page 1": { item: GuthixPage1, rarity: 775 },
-  "Guthix page 2": { item: GuthixPage2, rarity: 775 },
-  "Guthix page 3": { item: GuthixPage3, rarity: 775 },
-  "Guthix page 4": { item: GuthixPage4, rarity: 775 },
-  "Bandos page 1": { item: BandosPage1, rarity: 775 },
-  "Bandos page 2": { item: BandosPage2, rarity: 775 },
-  "Bandos page 3": { item: BandosPage3, rarity: 775 },
-  "Bandos page 4": { item: BandosPage4, rarity: 775 },
-  "Armadyl page 1": { item: ArmadylPage1, rarity: 775 },
-  "Armadyl page 2": { item: ArmadylPage2, rarity: 775 },
-  "Armadyl page 3": { item: ArmadylPage3, rarity: 775 },
-  "Armadyl page 4": { item: ArmadylPage4, rarity: 775 },
-  "Ancient page 1": { item: AncientPage1, rarity: 775 },
-  "Ancient page 2": { item: AncientPage2, rarity: 775 },
+  "Coins (20k-30k)": { item: Coins, rarity: 32.3, quantityMin: 20000, quantityMax: 30000 },
+  "Purple sweets (9-23)": { item: PurpleSweets, rarity: 32.3, quantityMin: 9, quantityMax: 23 },
+  "Coins (10k-15k)": { item: Coins, rarity: 92.3, quantityMin: 10000, quantityMax: 15000 },
+  "Purple sweets (8-12)": { item: PurpleSweets, rarity: 92.3, quantityMin: 8, quantityMax: 12 },
+  "Red firelighter": { item: RedFirelighter, rarity: 161.5, quantityMin: 9, quantityMax: 15 },
+  "Green firelighter": { item: GreenFirelighter, rarity: 161.5, quantityMin: 9, quantityMax: 15 },
+  "Blue firelighter": { item: BlueFirelighter, rarity: 161.5, quantityMin: 9, quantityMax: 15 },
+  "Purple firelighter": { item: PurpleFirelighter, rarity: 161.5, quantityMin: 9, quantityMax: 15 },
+  "White firelighter": { item: WhiteFirelighter, rarity: 161.5, quantityMin: 9, quantityMax: 15 },
+  "Charge dragonstone jewellery scroll": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Nardah teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Mos le'harmless teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Mort'ton teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Feldip hills teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Lunar isle teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Digsite teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Piscatoris teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Pest control teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Tai bwo wannai teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Lumberyard teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Iorwerth camp teleport": { item: MasterScrollBookEmpty, rarity: 203, quantityMin: 5, quantityMax: 15 },
+  "Master scroll book (empty)": { item: MasterScrollBookEmpty, rarity: 355.2, quantity: 1 },
+  "Holy blessing": { item: HolyBlessing, rarity: 645.8, quantity: 1 },
+  "Unholy blessing": { item: UnholyBlessing, rarity: 645.8, quantity: 1 },
+  "Peaceful blessing": { item: PeacefulBlessing, rarity: 645.8, quantity: 1 },
+  "War blessing": { item: WarBlessing, rarity: 645.8, quantity: 1 },
+  "Honourable blessing": { item: HonourableBlessing, rarity: 645.8, quantity: 1 },
+  "Ancient blessing": { item: AncientBlessing, rarity: 645.8, quantity: 1 },
+  "Saradomin page 1": { item: SaradominPage1, rarity: 775, quantity: 1 },
+  "Saradomin page 2": { item: SaradominPage2, rarity: 775, quantity: 1 },
+  "Saradomin page 3": { item: SaradominPage3, rarity: 775, quantity: 1 },
+  "Saradomin page 4": { item: SaradominPage4, rarity: 775, quantity: 1 },
+  "Zamorak page 1": { item: ZamorakPage1, rarity: 775, quantity: 1 },
+  "Zamorak page 2": { item: ZamorakPage2, rarity: 775, quantity: 1 },
+  "Zamorak page 3": { item: ZamorakPage3, rarity: 775, quantity: 1 },
+  "Zamorak page 4": { item: ZamorakPage4, rarity: 775, quantity: 1 },
+  "Guthix page 1": { item: GuthixPage1, rarity: 775, quantity: 1 },
+  "Guthix page 2": { item: GuthixPage2, rarity: 775, quantity: 1 },
+  "Guthix page 3": { item: GuthixPage3, rarity: 775, quantity: 1 },
+  "Guthix page 4": { item: GuthixPage4, rarity: 775, quantity: 1 },
+  "Bandos page 1": { item: BandosPage1, rarity: 775, quantity: 1 },
+  "Bandos page 2": { item: BandosPage2, rarity: 775, quantity: 1 },
+  "Bandos page 3": { item: BandosPage3, rarity: 775, quantity: 1 },
+  "Bandos page 4": { item: BandosPage4, rarity: 775, quantity: 1 },
+  "Armadyl page 1": { item: ArmadylPage1, rarity: 775, quantity: 1 },
+  "Armadyl page 2": { item: ArmadylPage2, rarity: 775, quantity: 1 },
+  "Armadyl page 3": { item: ArmadylPage3, rarity: 775, quantity: 1 },
+  "Armadyl page 4": { item: ArmadylPage4, rarity: 775, quantity: 1 },
+  "Ancient page 1": { item: AncientPage1, rarity: 775, quantity: 1 },
+  "Ancient page 2": { item: AncientPage2, rarity: 775, quantity: 1 },
+  "Ancient page 3": { item: AncientPage1, rarity: 775, quantity: 1 },
+  "Ancient page 4": { item: AncientPage2, rarity: 775, quantity: 1 },
 };
 
 /**
@@ -1575,7 +1691,7 @@ const ELITE_SHARED_ITEMS: RewardTable = {
  * 1/5 chance when opening an elite casket (doesn't take up a reward slot)
  */
 const ELITE_MASTER_CLUE: RewardTable = {
-  "Clue scroll (master)": { item: Coins, rarity: 5 },
+  "Clue scroll (master)": { item: Coins, rarity: 5, quantity: 1 },
 };
 
 /**
@@ -1586,13 +1702,16 @@ export const ELITE_REWARDS = {
   tables: [
     {
       name: "unique",
-      weight: 1275, // Elite clue unique items (~1/26 per roll)
-      items: ELITE_UNIQUE_ITEMS,
+      weight: 1, // ~1/25 primary roll branch for unique outcomes
+      items: {
+        ...ELITE_UNIQUE_ITEMS,
+        ...ELITE_MEGA_RARE_ITEMS,
+      },
       description: "Elite clue unique items (50+ at various rarities)",
     },
     {
       name: "standard",
-      weight: 621, // Standard equipment (~1/32.3 base)
+      weight: 24, // ~24/25 primary roll branch for standard/shared outcomes
       items: ELITE_STANDARD_TABLE,
       description: "Standard rune equipment, dragon weapons, runes, jewellery, food, resources",
     },
@@ -1635,53 +1754,53 @@ export const ELITE_REWARDS = {
  * Major rare table at various rarities (1/851 to 1/25,530)
  */
 export const MASTER_UNIQUE_ITEMS: RewardTable = {
-  "Occult ornament kit": { item: OccultOrnamentKit, rarity: 851 },
-  "Torture ornament kit": { item: TortureOrnamentKit, rarity: 851 },
-  "Anguish ornament kit": { item: AnguishOrnamentKit, rarity: 851 },
-  "Tormented ornament kit": { item: TormentedOrnamentKit, rarity: 851 },
-  "Dragon defender ornament kit": { item: DragonDefenderOrnamentKit, rarity: 851 },
-  "Hood of darkness": { item: HoodOfDarkness, rarity: 851 },
-  "Robe top of darkness": { item: RobeTopOfDarkness, rarity: 851 },
-  "Gloves of darkness": { item: GlovesOfDarkness, rarity: 851 },
-  "Robe bottom of darkness": { item: RobeBottomOfDarkness, rarity: 851 },
-  "Boots of darkness": { item: BootsOfDarkness, rarity: 851 },
-  "Samurai kasa": { item: SamuraiKasa, rarity: 851 },
-  "Samurai shirt": { item: SamuraiShirt, rarity: 851 },
-  "Samurai gloves": { item: SamuraiGloves, rarity: 851 },
-  "Samurai greaves": { item: SamuraiGreaves, rarity: 851 },
-  "Samurai boots": { item: SamuraiBoots, rarity: 851 },
-  "Arceuus hood": { item: ArceuusHood, rarity: 851 },
-  "Hosidius hood": { item: HosidiusHood, rarity: 851 },
-  "Lovakengj hood": { item: LovakengjHood, rarity: 851 },
-  "Piscarilius hood": { item: PiscariliusHood, rarity: 851 },
-  "Shayzien hood": { item: ShayzienHood, rarity: 851 },
-  "Old demon mask": { item: OldDemonMask, rarity: 851 },
-  "Lesser demon mask": { item: LesserDemonMask, rarity: 851 },
-  "Greater demon mask": { item: GreaterDemonMask, rarity: 851 },
-  "Black demon mask": { item: BlackDemonMask, rarity: 851 },
-  "Jungle demon mask": { item: JungleDemonMask, rarity: 851 },
-  "Left eye patch": { item: LeftEyePatch, rarity: 851 },
-  "Bowl wig": { item: BowlWig, rarity: 851 },
-  "Ale of the gods": { item: AleOfTheGods, rarity: 851 },
-  "Obsidian cape (r)": { item: CapeOfSkulls, rarity: 851 },
-  "Fancy tiara": { item: FancyTiara, rarity: 851 },
-  "Half moon spectacles": { item: HalfMoonSpectacles, rarity: 851 },
-  "Armadyl godsword ornament kit": { item: ArmadylGodswordOrnamentKit, rarity: 3404 },
-  "Bandos godsword ornament kit": { item: BandosGodswordOrnamentKit, rarity: 3404 },
-  "Saradomin godsword ornament kit": { item: SaradominGodswordOrnamentKit, rarity: 3404 },
-  "Zamorak godsword ornament kit": { item: ZamorakGodswordOrnamentKit, rarity: 3404 },
-  "Dragon platebody ornament kit": { item: DragonPlatebodyOrnamentKit, rarity: 12765 },
-  "Ankou mask": { item: AnkouMask, rarity: 12765 },
-  "Ankou top": { item: AnkouTop, rarity: 12765 },
-  "Ankou gloves": { item: AnkouGloves, rarity: 12765 },
-  "Ankou's leggings": { item: SLeggings, rarity: 12765 },
-  "Ankou socks": { item: AnkouSocks, rarity: 12765 },
-  "Mummy's head": { item: SHead, rarity: 12765 },
-  "Mummy's body": { item: MummysBody, rarity: 12765 },
-  "Mummy's hands": { item: MummysHands, rarity: 12765 },
-  "Mummy's legs": { item: SLegs, rarity: 12765 },
-  "Mummy's feet": { item: SFeet, rarity: 12765 },
-  "Dragon kiteshield ornament kit": { item: DragonKiteshieldOrnamentKit, rarity: 25530 },
+  "Occult ornament kit": { item: OccultOrnamentKit, rarity: 851, quantity: 1 },
+  "Torture ornament kit": { item: TortureOrnamentKit, rarity: 851, quantity: 1 },
+  "Anguish ornament kit": { item: AnguishOrnamentKit, rarity: 851, quantity: 1 },
+  "Tormented ornament kit": { item: TormentedOrnamentKit, rarity: 851, quantity: 1 },
+  "Dragon defender ornament kit": { item: DragonDefenderOrnamentKit, rarity: 851, quantity: 1 },
+  "Hood of darkness": { item: HoodOfDarkness, rarity: 851, quantity: 1 },
+  "Robe top of darkness": { item: RobeTopOfDarkness, rarity: 851, quantity: 1 },
+  "Gloves of darkness": { item: GlovesOfDarkness, rarity: 851, quantity: 1 },
+  "Robe bottom of darkness": { item: RobeBottomOfDarkness, rarity: 851, quantity: 1 },
+  "Boots of darkness": { item: BootsOfDarkness, rarity: 851, quantity: 1 },
+  "Samurai kasa": { item: SamuraiKasa, rarity: 851, quantity: 1 },
+  "Samurai shirt": { item: SamuraiShirt, rarity: 851, quantity: 1 },
+  "Samurai gloves": { item: SamuraiGloves, rarity: 851, quantity: 1 },
+  "Samurai greaves": { item: SamuraiGreaves, rarity: 851, quantity: 1 },
+  "Samurai boots": { item: SamuraiBoots, rarity: 851, quantity: 1 },
+  "Arceuus hood": { item: ArceuusHood, rarity: 851, quantity: 1 },
+  "Hosidius hood": { item: HosidiusHood, rarity: 851, quantity: 1 },
+  "Lovakengj hood": { item: LovakengjHood, rarity: 851, quantity: 1 },
+  "Piscarilius hood": { item: PiscariliusHood, rarity: 851, quantity: 1 },
+  "Shayzien hood": { item: ShayzienHood, rarity: 851, quantity: 1 },
+  "Old demon mask": { item: OldDemonMask, rarity: 851, quantity: 1 },
+  "Lesser demon mask": { item: LesserDemonMask, rarity: 851, quantity: 1 },
+  "Greater demon mask": { item: GreaterDemonMask, rarity: 851, quantity: 1 },
+  "Black demon mask": { item: BlackDemonMask, rarity: 851, quantity: 1 },
+  "Jungle demon mask": { item: JungleDemonMask, rarity: 851, quantity: 1 },
+  "Left eye patch": { item: LeftEyePatch, rarity: 851, quantity: 1 },
+  "Bowl wig": { item: BowlWig, rarity: 851, quantity: 1 },
+  "Ale of the gods": { item: AleOfTheGods, rarity: 851, quantity: 1 },
+  "Obsidian cape (r)": { item: CapeOfSkulls, rarity: 851, quantity: 1 },
+  "Fancy tiara": { item: FancyTiara, rarity: 851, quantity: 1 },
+  "Half moon spectacles": { item: HalfMoonSpectacles, rarity: 851, quantity: 1 },
+  "Armadyl godsword ornament kit": { item: ArmadylGodswordOrnamentKit, rarity: 3404, quantity: 1 },
+  "Bandos godsword ornament kit": { item: BandosGodswordOrnamentKit, rarity: 3404, quantity: 1 },
+  "Saradomin godsword ornament kit": { item: SaradominGodswordOrnamentKit, rarity: 3404, quantity: 1 },
+  "Zamorak godsword ornament kit": { item: ZamorakGodswordOrnamentKit, rarity: 3404, quantity: 1 },
+  "Dragon platebody ornament kit": { item: DragonPlatebodyOrnamentKit, rarity: 12765, quantity: 1 },
+  "Ankou mask": { item: AnkouMask, rarity: 12765, quantity: 1 },
+  "Ankou top": { item: AnkouTop, rarity: 12765, quantity: 1 },
+  "Ankou gloves": { item: AnkouGloves, rarity: 12765, quantity: 1 },
+  "Ankou's leggings": { item: SLeggings, rarity: 12765, quantity: 1 },
+  "Ankou socks": { item: AnkouSocks, rarity: 12765, quantity: 1 },
+  "Mummy's head": { item: SHead, rarity: 12765, quantity: 1 },
+  "Mummy's body": { item: MummysBody, rarity: 12765, quantity: 1 },
+  "Mummy's hands": { item: MummysHands, rarity: 12765, quantity: 1 },
+  "Mummy's legs": { item: SLegs, rarity: 12765, quantity: 1 },
+  "Mummy's feet": { item: SFeet, rarity: 12765, quantity: 1 },
+  "Dragon kiteshield ornament kit": { item: DragonKiteshieldOrnamentKit, rarity: 25530, quantity: 1 },
 };
 
 /**
@@ -1689,87 +1808,144 @@ export const MASTER_UNIQUE_ITEMS: RewardTable = {
  * Dragon weapons, runes, food, resources at 1/30.3 base
  */
 export const MASTER_STANDARD_TABLE: RewardTable = {
-  "Dragon dagger": { item: DragonDagger, rarity: 30 },
-  "Dragon mace": { item: DragonMace, rarity: 30 },
-  "Dragon longsword": { item: BlackLongsword, rarity: 30 },
-  "Dragon scimitar": { item: DragonScimitar, rarity: 30 },
-  "Dragon battleaxe": { item: DragonBattleaxe, rarity: 30 },
-  "Dragon halberd": { item: DragonHalberd, rarity: 30 },
-  "Nature rune": { item: NatureRune, rarity: 30 },
-  "Death rune": { item: FireRune, rarity: 30 },
-  "Blood rune": { item: FireRune, rarity: 30 },
-  "Soul rune": { item: FireRune, rarity: 30 },
-  "Onyx bolts (e)": { item: OnyxBoltsE, rarity: 30 },
-  "Manta ray": { item: Salmon, rarity: 30 },
-  "Wine of zamorak": { item: WineOfZamorak, rarity: 30 },
-  "Limpwurt root": { item: LimpwurtRoot, rarity: 30 },
-  "Grimy ranarr weed": { item: GrimyRanarrWeed, rarity: 30 },
-  "Grimy toadflax": { item: GrimyToadflax, rarity: 30 },
-  "Grimy snapdragon": { item: GrimySnapdragon, rarity: 30 },
-  "Runite ore": { item: RuniteOre, rarity: 30 },
-  "Runite bar": { item: RuniteBar, rarity: 30 },
-  "Black dragonhide": { item: BlackDragonhide, rarity: 30 },
+  "Dragon dagger": { item: DragonDagger, rarity: 30.3, quantity: 1 },
+  "Dragon mace": { item: DragonMace, rarity: 30.3, quantity: 1 },
+  "Dragon longsword": { item: DragonLongsword, rarity: 30.3, quantity: 1 },
+  "Dragon scimitar": { item: DragonScimitar, rarity: 30.3, quantity: 1 },
+  "Dragon battleaxe": { item: DragonBattleaxe, rarity: 30.3, quantity: 1 },
+  "Dragon halberd": { item: DragonHalberd, rarity: 30.3, quantity: 1 },
+  "Nature rune": { item: NatureRune, rarity: 30.3, quantityMin: 100, quantityMax: 200 },
+  "Death rune": { item: DeathRune, rarity: 30.3, quantityMin: 100, quantityMax: 200 },
+  "Blood rune": { item: BloodRune, rarity: 30.3, quantityMin: 100, quantityMax: 200 },
+  "Soul rune": { item: SoulRune, rarity: 30.3, quantityMin: 100, quantityMax: 200 },
+  "Onyx bolts (e)": { item: OnyxBoltsE, rarity: 30.3, quantityMin: 15, quantityMax: 25 },
+  "Manta ray": { item: Salmon, rarity: 30.3, quantityMin: 15, quantityMax: 25, noted: true },
+  "Wine of zamorak": { item: WineOfZamorak, rarity: 30.3, quantityMin: 35, quantityMax: 50, noted: true },
+  "Limpwurt root": { item: LimpwurtRoot, rarity: 30.3, quantityMin: 40, quantityMax: 60, noted: true },
+  "Grimy ranarr weed": { item: GrimyRanarrWeed, rarity: 30.3, quantityMin: 5, quantityMax: 10, noted: true },
+  "Grimy toadflax": { item: GrimyToadflax, rarity: 30.3, quantityMin: 25, quantityMax: 35, noted: true },
+  "Grimy snapdragon": { item: GrimySnapdragon, rarity: 30.3, quantityMin: 5, quantityMax: 10, noted: true },
+  "Runite ore": { item: RuniteOre, rarity: 30.3, quantityMin: 5, quantityMax: 8, noted: true },
+  "Runite bar": { item: RuniteBar, rarity: 30.3, quantityMin: 5, quantityMax: 7, noted: true },
+  "Black dragonhide": { item: BlackDragonhide, rarity: 30.3, quantityMin: 5, quantityMax: 25, noted: true },
+  "Tooth half of key": { item: ToothHalfOfKey, rarity: 60.6, quantity: 1 },
+  "Loop half of key": { item: LoopHalfOfKey, rarity: 60.6, quantity: 1 },
+  "Palm tree seed": { item: PalmTreeSeed, rarity: 91, quantityMin: 1, quantityMax: 2 },
+  "Yew seed": { item: YewSeed, rarity: 91, quantityMin: 1, quantityMax: 2 },
+  "Magic seed": { item: MagicSeed, rarity: 91, quantityMin: 1, quantityMax: 2 },
 };
 
 /**
  * Master tier mega-rare items (gilded + 3rd age + special)
  */
 export const MASTER_MEGA_RARE_ITEMS: RewardTable = {
-  "Bucket helm (g)": { item: BucketHelmG, rarity: 13616 },
-  "Ring of coins": { item: RingOfCoins, rarity: 13616 },
-  Cabbage: { item: Cabbage, rarity: 13616 },
-  "Anti-venom+(4)": { item: AntiVenomPlus4, rarity: 13616 },
-  Torstol: { item: Torstol, rarity: 13616 },
-  "Gilded scimitar": { item: GildedScimitar, rarity: 13616 },
-  "Gilded boots": { item: GildedBoots, rarity: 13616 },
-  "Gilded coif": { item: GildedCoif, rarity: 13616 },
-  "Gilded d'hide vambraces": { item: HideVambraces, rarity: 13616 },
-  "Gilded d'hide body": { item: GildedDHideBody, rarity: 13616 },
-  "Gilded d'hide chaps": { item: GildedDHideChaps, rarity: 13616 },
-  "Gilded pickaxe": { item: GildedPickaxe, rarity: 13616 },
-  "Gilded axe": { item: GildedAxe, rarity: 13616 },
-  "Gilded spade": { item: GildedSpade, rarity: 13616 },
-  "Gilded full helm": { item: GildedFullHelm, rarity: 149776 },
-  "Gilded platebody": { item: GildedPlatebody, rarity: 149776 },
-  "Gilded platelegs": { item: GildedLegs, rarity: 149776 },
-  "Gilded plateskirt": { item: GildedLegs, rarity: 149776 },
-  "Gilded kiteshield": { item: GildedKiteshield, rarity: 149776 },
-  "Gilded med helm": { item: GildedMedHelm, rarity: 149776 },
-  "Gilded chainbody": { item: GildedChainbody, rarity: 149776 },
-  "Gilded sq shield": { item: GildedSqShield, rarity: 149776 },
-  "Gilded 2h sword": { item: Gilded2hSword, rarity: 149776 },
-  "Gilded spear": { item: GildedSpear, rarity: 149776 },
-  "Gilded hasta": { item: GildedHasta, rarity: 149776 },
-  "3rd age full helmet": { item: ThirdAgeFullHelmet, rarity: 313168 },
-  "3rd age platebody": { item: ThirdAgePlatebody, rarity: 313168 },
-  "3rd age platelegs": { item: ThirdAgePlatelegs, rarity: 313168 },
-  "3rd age plateskirt": { item: ThirdAgePlatelegs, rarity: 313168 },
-  "3rd age kiteshield": { item: ThirdAgeKiteshield, rarity: 313168 },
-  "3rd age range coif": { item: ThirdAgeRangeCoif, rarity: 313168 },
-  "3rd age range top": { item: ThirdAgeRangeTop, rarity: 313168 },
-  "3rd age range legs": { item: ThirdAgeRangeLegs, rarity: 313168 },
-  "3rd age vambraces": { item: ThirdAgeVambraces, rarity: 313168 },
-  "3rd age mage hat": { item: ThirdAgeMageHat, rarity: 313168 },
-  "3rd age robe top": { item: ThirdAgeRobeTop, rarity: 313168 },
-  "3rd age robe": { item: ThirdAgeRobe, rarity: 313168 },
-  "3rd age amulet": { item: AmuletOfMagic, rarity: 313168 },
-  "3rd age druidic robe top": { item: ThirdAgeDruidicRobeTop, rarity: 313168 },
-  "3rd age druidic robe bottoms": { item: ThirdAgeDruidicRobeBottoms, rarity: 313168 },
-  "3rd age druidic cloak": { item: ThirdAgeDruidicCloak, rarity: 313168 },
-  "3rd age longsword": { item: ThirdAgeLongsword, rarity: 313168 },
-  "3rd age bow": { item: ThirdAgeBow, rarity: 313168 },
-  "3rd age wand": { item: ThirdAgeWand, rarity: 313168 },
-  "3rd age druidic staff": { item: ThirdAgeDruidicStaff, rarity: 313168 },
-  "3rd age cloak": { item: ThirdAgeCloak, rarity: 313168 },
-  "3rd age pickaxe": { item: ThirdAgePickaxe, rarity: 313168 },
-  "3rd age axe": { item: ThirdAgeAxe, rarity: 313168 },
+  "Bucket helm (g)": { item: BucketHelmG, rarity: 13616, quantity: 1 },
+  "Ring of coins": { item: RingOfCoins, rarity: 13616, quantity: 1 },
+  Cabbage: { item: Cabbage, rarity: 13616, quantity: 3 },
+  "Anti-venom+(4)": { item: AntiVenomPlus4, rarity: 13616, quantity: 15, noted: true },
+  Torstol: { item: Torstol, rarity: 13616, quantity: 50, noted: true },
+  "Gilded scimitar": { item: GildedScimitar, rarity: 13616, quantity: 1 },
+  "Gilded boots": { item: GildedBoots, rarity: 13616, quantity: 1 },
+  "Gilded coif": { item: GildedCoif, rarity: 13616, quantity: 1 },
+  "Gilded d'hide vambraces": { item: HideVambraces, rarity: 13616, quantity: 1 },
+  "Gilded d'hide body": { item: GildedDHideBody, rarity: 13616, quantity: 1 },
+  "Gilded d'hide chaps": { item: GildedDHideChaps, rarity: 13616, quantity: 1 },
+  "Gilded pickaxe": { item: GildedPickaxe, rarity: 13616, quantity: 1 },
+  "Gilded axe": { item: GildedAxe, rarity: 13616, quantity: 1 },
+  "Gilded spade": { item: GildedSpade, rarity: 13616, quantity: 1 },
+  "Gilded full helm": { item: GildedFullHelm, rarity: 149776, quantity: 1 },
+  "Gilded platebody": { item: GildedPlatebody, rarity: 149776, quantity: 1 },
+  "Gilded platelegs": { item: GildedLegs, rarity: 149776, quantity: 1 },
+  "Gilded plateskirt": { item: GildedLegs, rarity: 149776, quantity: 1 },
+  "Gilded kiteshield": { item: GildedKiteshield, rarity: 149776, quantity: 1 },
+  "Gilded med helm": { item: GildedMedHelm, rarity: 149776, quantity: 1 },
+  "Gilded chainbody": { item: GildedChainbody, rarity: 149776, quantity: 1 },
+  "Gilded sq shield": { item: GildedSqShield, rarity: 149776, quantity: 1 },
+  "Gilded 2h sword": { item: Gilded2hSword, rarity: 149776, quantity: 1 },
+  "Gilded spear": { item: GildedSpear, rarity: 149776, quantity: 1 },
+  "Gilded hasta": { item: GildedHasta, rarity: 149776, quantity: 1 },
+  "3rd age full helmet": { item: ThirdAgeFullHelmet, rarity: 313168, quantity: 1 },
+  "3rd age platebody": { item: ThirdAgePlatebody, rarity: 313168, quantity: 1 },
+  "3rd age platelegs": { item: ThirdAgePlatelegs, rarity: 313168, quantity: 1 },
+  "3rd age plateskirt": { item: ThirdAgePlatelegs, rarity: 313168, quantity: 1 },
+  "3rd age kiteshield": { item: ThirdAgeKiteshield, rarity: 313168, quantity: 1 },
+  "3rd age range coif": { item: ThirdAgeRangeCoif, rarity: 313168, quantity: 1 },
+  "3rd age range top": { item: ThirdAgeRangeTop, rarity: 313168, quantity: 1 },
+  "3rd age range legs": { item: ThirdAgeRangeLegs, rarity: 313168, quantity: 1 },
+  "3rd age vambraces": { item: ThirdAgeVambraces, rarity: 313168, quantity: 1 },
+  "3rd age mage hat": { item: ThirdAgeMageHat, rarity: 313168, quantity: 1 },
+  "3rd age robe top": { item: ThirdAgeRobeTop, rarity: 313168, quantity: 1 },
+  "3rd age robe": { item: ThirdAgeRobe, rarity: 313168, quantity: 1 },
+  "3rd age amulet": { item: AmuletOfMagic, rarity: 313168, quantity: 1 },
+  "3rd age druidic robe top": { item: ThirdAgeDruidicRobeTop, rarity: 313168, quantity: 1 },
+  "3rd age druidic robe bottoms": { item: ThirdAgeDruidicRobeBottoms, rarity: 313168, quantity: 1 },
+  "3rd age druidic cloak": { item: ThirdAgeDruidicCloak, rarity: 313168, quantity: 1 },
+  "3rd age longsword": { item: ThirdAgeLongsword, rarity: 313168, quantity: 1 },
+  "3rd age bow": { item: ThirdAgeBow, rarity: 313168, quantity: 1 },
+  "3rd age wand": { item: ThirdAgeWand, rarity: 313168, quantity: 1 },
+  "3rd age druidic staff": { item: ThirdAgeDruidicStaff, rarity: 313168, quantity: 1 },
+  "3rd age cloak": { item: ThirdAgeCloak, rarity: 313168, quantity: 1 },
+  "3rd age pickaxe": { item: ThirdAgePickaxe, rarity: 313168, quantity: 1 },
+  "3rd age axe": { item: ThirdAgeAxe, rarity: 313168, quantity: 1 },
 };
 
 /**
  * Master tier shared treasure trail items
  */
 const MASTER_SHARED_ITEMS: RewardTable = {
-  Coins: { item: Coins, rarity: 30 },
+  "Coins (20k-35k)": { item: Coins, rarity: 30.3, quantityMin: 20000, quantityMax: 35000 },
+  "Purple sweets (14-33)": { item: PurpleSweets, rarity: 30.3, quantityMin: 14, quantityMax: 33 },
+  "Coins (10k-15k)": { item: Coins, rarity: 86.6, quantityMin: 10000, quantityMax: 15000 },
+  "Purple sweets (8-12)": { item: PurpleSweets, rarity: 86.6, quantityMin: 8, quantityMax: 12 },
+  "Red firelighter": { item: RedFirelighter, rarity: 151.6, quantityMin: 20, quantityMax: 38 },
+  "Green firelighter": { item: GreenFirelighter, rarity: 151.6, quantityMin: 20, quantityMax: 38 },
+  "Blue firelighter": { item: BlueFirelighter, rarity: 151.6, quantityMin: 20, quantityMax: 38 },
+  "Purple firelighter": { item: PurpleFirelighter, rarity: 151.6, quantityMin: 20, quantityMax: 38 },
+  "White firelighter": { item: WhiteFirelighter, rarity: 151.6, quantityMin: 20, quantityMax: 38 },
+  "Charge dragonstone jewellery scroll": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Nardah teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Mos le'harmless teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Mort'ton teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Feldip hills teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Lunar isle teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Digsite teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Piscatoris teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Pest control teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Tai bwo wannai teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Lumberyard teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Iorwerth camp teleport": { item: MasterScrollBookEmpty, rarity: 190.6, quantityMin: 5, quantityMax: 15 },
+  "Master scroll book (empty)": { item: MasterScrollBookEmpty, rarity: 333.5, quantity: 1 },
+  "Coins (15k-30k)": { item: Coins, rarity: 381, quantityMin: 15000, quantityMax: 30000 },
+  "Holy blessing": { item: HolyBlessing, rarity: 606.4, quantity: 1 },
+  "Unholy blessing": { item: UnholyBlessing, rarity: 606.4, quantity: 1 },
+  "Peaceful blessing": { item: PeacefulBlessing, rarity: 606.4, quantity: 1 },
+  "War blessing": { item: WarBlessing, rarity: 606.4, quantity: 1 },
+  "Honourable blessing": { item: HonourableBlessing, rarity: 606.4, quantity: 1 },
+  "Ancient blessing": { item: AncientBlessing, rarity: 606.4, quantity: 1 },
+  "Saradomin page 1": { item: SaradominPage1, rarity: 702.6, quantity: 1 },
+  "Saradomin page 2": { item: SaradominPage2, rarity: 702.6, quantity: 1 },
+  "Saradomin page 3": { item: SaradominPage3, rarity: 702.6, quantity: 1 },
+  "Saradomin page 4": { item: SaradominPage4, rarity: 702.6, quantity: 1 },
+  "Zamorak page 1": { item: ZamorakPage1, rarity: 702.6, quantity: 1 },
+  "Zamorak page 2": { item: ZamorakPage2, rarity: 702.6, quantity: 1 },
+  "Zamorak page 3": { item: ZamorakPage3, rarity: 702.6, quantity: 1 },
+  "Zamorak page 4": { item: ZamorakPage4, rarity: 702.6, quantity: 1 },
+  "Guthix page 1": { item: GuthixPage1, rarity: 702.6, quantity: 1 },
+  "Guthix page 2": { item: GuthixPage2, rarity: 702.6, quantity: 1 },
+  "Guthix page 3": { item: GuthixPage3, rarity: 702.6, quantity: 1 },
+  "Guthix page 4": { item: GuthixPage4, rarity: 702.6, quantity: 1 },
+  "Bandos page 1": { item: BandosPage1, rarity: 702.6, quantity: 1 },
+  "Bandos page 2": { item: BandosPage2, rarity: 702.6, quantity: 1 },
+  "Bandos page 3": { item: BandosPage3, rarity: 702.6, quantity: 1 },
+  "Bandos page 4": { item: BandosPage4, rarity: 702.6, quantity: 1 },
+  "Armadyl page 1": { item: ArmadylPage1, rarity: 702.6, quantity: 1 },
+  "Armadyl page 2": { item: ArmadylPage2, rarity: 702.6, quantity: 1 },
+  "Armadyl page 3": { item: ArmadylPage3, rarity: 702.6, quantity: 1 },
+  "Armadyl page 4": { item: ArmadylPage4, rarity: 702.6, quantity: 1 },
+  "Ancient page 1": { item: AncientPage1, rarity: 702.6, quantity: 1 },
+  "Ancient page 2": { item: AncientPage2, rarity: 702.6, quantity: 1 },
+  "Ancient page 3": { item: AncientPage1, rarity: 702.6, quantity: 1 },
+  "Ancient page 4": { item: AncientPage2, rarity: 702.6, quantity: 1 },
 };
 
 /**
@@ -1788,13 +1964,16 @@ export const MASTER_REWARDS = {
   tables: [
     {
       name: "unique",
-      weight: 851, // Master clue unique items
-      items: MASTER_UNIQUE_ITEMS,
+      weight: 1, // ~1/23 primary roll branch for unique outcomes
+      items: {
+        ...MASTER_UNIQUE_ITEMS,
+        ...MASTER_MEGA_RARE_ITEMS,
+      },
       description: "Master clue unique items (40+ at various rarities)",
     },
     {
       name: "standard",
-      weight: 638, // Standard dragon weapons and resources (~1/30.3 base)
+      weight: 22, // ~22/23 primary roll branch for standard/shared outcomes
       items: MASTER_STANDARD_TABLE,
       description: "Dragon weapons, runes, food, resources",
     },
@@ -1828,7 +2007,7 @@ export const MASTER_REWARDS = {
 /**
  * Gets all reward odds for a specific clue tier
  */
-export function getClueRewardsByTier(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master"): { [itemName: string]: { item: Item; rarity: number } } {
+export function getClueRewardsByTier(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master"): RewardTable {
   switch (tier.toLowerCase()) {
     case "beginner":
       return BEGINNER_REWARDS.flattened;
@@ -1851,9 +2030,7 @@ export function getClueRewardsByTier(tier: "beginner" | "easy" | "medium" | "har
  * Gets the table structure for a specific clue tier (if available)
  * Returns null for tiers that don't have table-based rewards
  */
-export function getClueRewardTables(
-  tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master",
-): Array<{ name: string; weight: number; items: { [itemName: string]: { item: Item; rarity: number } } }> | null {
+export function getClueRewardTables(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master"): Array<{ name: string; weight: number; items: RewardTable }> | null {
   switch (tier.toLowerCase()) {
     case "beginner":
       return BEGINNER_REWARDS.tables;

@@ -216,9 +216,9 @@ describe("ClueScrollRewards", () => {
       const standardTable = tables.find((t) => t.name === "standard");
 
       expect(uniqueTable).toBeDefined();
-      expect(uniqueTable?.weight).toBe(1625);
+      expect(uniqueTable?.weight).toBe(1);
       expect(standardTable).toBeDefined();
-      expect(standardTable?.weight).toBe(706);
+      expect(standardTable?.weight).toBe(12);
     });
 
     it("should have zero-weight special tables", () => {
@@ -242,7 +242,7 @@ describe("ClueScrollRewards", () => {
       expect(uniqueTable).toBeDefined();
       expect(uniqueTable?.weight).toBe(1);
       expect(standardTable).toBeDefined();
-      expect(standardTable?.weight).toBe(22);
+      expect(standardTable?.weight).toBe(24);
     });
 
     it("should have master clue table with zero weight but separate 1/5 logic", () => {

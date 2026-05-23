@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const leftEyePatchData = {
   id: 19724,
   name: "Left eye patch",
-  iconUrl: "/assets/items/left-eye-patch.png",
+  iconUrl: "/assets/items/19724.png",
   examine: "A black piece of cloth on a string.",
   value: 2,
   highAlch: 1,

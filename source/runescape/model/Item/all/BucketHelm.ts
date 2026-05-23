@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bucketHelmData = {
   id: 19991,
   name: "Bucket helm",
-  iconUrl: "/assets/items/bucket-helm.png",
+  iconUrl: "/assets/items/19991.png",
   examine: "A helm made from a bucket.",
   value: 14000,
   highAlch: 8400,

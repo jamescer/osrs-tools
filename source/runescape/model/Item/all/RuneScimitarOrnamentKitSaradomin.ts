@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeScimitarOrnamentKitSaradominData = {
   id: 23324,
   name: "Rune scimitar ornament kit (saradomin)",
-  iconUrl: "/assets/items/rune-scimitar-ornament-kit-saradomin.png",
+  iconUrl: "/assets/items/23324.png",
   examine: "Use on a rune scimitar to make it look fancier!",
   value: 5000,
   highAlch: 3000,

@@ -17,7 +17,7 @@ const oakLongbowData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Oak_longbow',
-  iconUrl: '/assets/items/oak-longbow.png',
+  iconUrl: '/assets/items/845.png',
 };
 
 export const OakLongbow = Item.fromJson(oakLongbowData);

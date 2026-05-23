@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackPlatebodyTData = {
   id: 3473,
   name: 'Black platebody (t)',
-  iconUrl: '/assets/items/black-platebody-t.png',
+  iconUrl: '/assets/items/3473.png',
   examine: 'A full suit of black body armour, decorated with gold trim.',
   value: 12000,
   highAlch: 7200,

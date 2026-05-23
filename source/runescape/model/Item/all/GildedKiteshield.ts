@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedKiteshieldData = {
   id: 3488,
   name: "Gilded kiteshield",
-  iconUrl: "/assets/items/gilded-kiteshield.png",
+  iconUrl: "/assets/items/3488.png",
   examine: "Rune kiteshield with gold plate.",
   value: 54400,
   highAlch: 32640,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const lavaDragonMaskData = {
   id: 12371,
   name: "Lava dragon mask",
-  iconUrl: "/assets/items/lava-dragon-mask.png",
+  iconUrl: "/assets/items/12371.png",
   examine: "Do I look scary?",
   value: 10000,
   highAlch: 6000,

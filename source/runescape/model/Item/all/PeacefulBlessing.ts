@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const peacefulBlessingData = {
   id: 20226,
   name: "Peaceful blessing",
-  iconUrl: "/assets/items/peaceful-blessing.png",
+  iconUrl: "/assets/items/20226.png",
   examine: "Life and death, old and new, day and night. Balance is the key to all.",
   value: 80,
   highAlch: 48,

@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const treasonousRingData: ItemJson = {
   id: 22549,
   name: 'Treasonous ring',
-  iconUrl: '/assets/items/treasonous-ring.png',
+  iconUrl: '/assets/items/22549.png',
   examine: 'A treacherous ring from a darker time.',
   value: 650000,
   highAlch: 390000,

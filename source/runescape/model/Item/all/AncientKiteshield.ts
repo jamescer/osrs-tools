@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientKiteshieldData = {
   id: 12468,
   name: "Ancient kiteshield",
-  iconUrl: "/assets/items/ancient-kiteshield.png",
+  iconUrl: "/assets/items/12468.png",
   examine: "Rune kiteshield in the colours of a long-forgotten god.",
   value: 54400,
   highAlch: 32640,

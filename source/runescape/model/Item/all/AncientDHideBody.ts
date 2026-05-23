@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientDHideBodyData = {
   id: 12492,
   name: "Ancient d'hide body",
-  iconUrl: "/assets/items/ancient-dhide-body.png",
+  iconUrl: "/assets/items/12492.png",
   examine: "Ancient blessed dragonhide body armour.",
   value: 13000,
   highAlch: 7800,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosDHideShieldData = {
   id: 23203,
   name: "Bandos d'hide shield",
-  iconUrl: "/assets/items/bandos-dhide-shield.png",
+  iconUrl: "/assets/items/23203.png",
   examine: "Bandos blessed wooden shield covered in dragon leather.",
   value: 28334,
   highAlch: 17000,

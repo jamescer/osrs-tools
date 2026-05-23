@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeShieldH4Data = {
   id: 7354,
   name: "Rune shield (h4)",
-  iconUrl: "/assets/items/rune-shield-h4.png",
+  iconUrl: "/assets/items/7354.png",
   examine: "A shield with a heraldic design",
   value: 54400,
   highAlch: 32640,

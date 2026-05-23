@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runePickaxeData = {
   id: 1275,
   name: "Rune pickaxe",
-  iconUrl: "/assets/items/rune-pickaxe.png",
+  iconUrl: "/assets/items/1275.png",
   examine: "Used for mining.",
   value: 32000,
   highAlch: 19200,

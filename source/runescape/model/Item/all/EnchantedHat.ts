@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const enchantedHatData = {
   id: 7400,
   name: "Enchanted hat",
-  iconUrl: "/assets/items/enchanted-hat.png",
+  iconUrl: "/assets/items/7400.png",
   examine: "A three pointed hat of magic.",
   value: 15000,
   highAlch: 9000,

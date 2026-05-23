@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonKiteshieldOrnamentKitData = {
   id: 22239,
   name: "Dragon kiteshield ornament kit",
-  iconUrl: "/assets/items/dragon-kiteshield-ornament-kit.png",
+  iconUrl: "/assets/items/22239.png",
   examine: "Use on a dragon kiteshield to make it look fancier!",
   value: 5000,
   highAlch: 3000,

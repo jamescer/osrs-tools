@@ -17,7 +17,7 @@ const ironPickaxeData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Iron_pickaxe',
-  iconUrl: '/assets/items/iron-pickaxe.png',
+  iconUrl: '/assets/items/1267.png',
 };
 
 export const IronPickaxe = Item.fromJson(ironPickaxeData);

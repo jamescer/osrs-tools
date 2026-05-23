@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgePickaxeData = {
   id: 20014,
   name: "3rd age pickaxe",
-  iconUrl: "/assets/items/3rd-age-pickaxe.png",
+  iconUrl: "/assets/items/20014.png",
   examine: "A beautifully crafted pickaxe, shaped by ancient smiths.",
   value: 97950,
   highAlch: 58770,

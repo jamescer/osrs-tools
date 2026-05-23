@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedHastaData = {
   id: 20161,
   name: "Gilded hasta",
-  iconUrl: "/assets/items/gilded-hasta.png",
+  iconUrl: "/assets/items/20161.png",
   examine: "A rune-tipped, one-handed hasta, with gold plate.",
   value: 20800,
   highAlch: 12480,

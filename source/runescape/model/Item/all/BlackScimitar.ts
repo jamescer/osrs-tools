@@ -17,7 +17,7 @@ const blackScimitarData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_scimitar',
-  iconUrl: '/assets/items/black-scimitar.png',
+  iconUrl: '/assets/items/1327.png',
 };
 
 export const BlackScimitar = Item.fromJson(blackScimitarData);

@@ -17,7 +17,7 @@ const deathRuneData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Death_rune',
-  iconUrl: '/assets/items/death-rune.png',
+  iconUrl: '/assets/items/560.png',
 };
 
 export const DeathRune = Item.fromJson(deathRuneData);

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientPage1Data = {
   id: 12621,
   name: "Ancient page 1",
-  iconUrl: "/assets/items/ancient-page-1.png",
+  iconUrl: "/assets/items/12621.png",
   examine: "This seems to have been torn from a book...",
   value: 400,
   highAlch: 240,

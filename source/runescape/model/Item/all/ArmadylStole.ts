@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylStoleData = {
   id: 12257,
   name: "Armadyl stole",
-  iconUrl: "/assets/items/armadyl-stole.png",
+  iconUrl: "/assets/items/12257.png",
   examine: "An Armadyl stole.",
   value: 2500,
   highAlch: 1500,

@@ -17,7 +17,7 @@ const blueWizardRobeData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Blue_wizard_robe',
-  iconUrl: '/assets/items/blue-wizard-robe.png',
+  iconUrl: '/assets/items/577.png',
 };
 
 export const BlueWizardRobe = Item.fromJson(blueWizardRobeData);

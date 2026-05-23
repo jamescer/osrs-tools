@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const aleOfTheGodsData = {
   id: 20056,
   name: "Ale of the gods",
-  iconUrl: "/assets/items/ale-of-the-gods.png",
+  iconUrl: "/assets/items/20056.png",
   examine: "Ale of the gods.",
   value: 850,
   highAlch: 510,

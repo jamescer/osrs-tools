@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const lawRuneData = {
   id: 573,
   name: 'Law rune',
-  iconUrl: '/assets/items/law-rune.png',
+  iconUrl: '/assets/items/573.png',
   examine: 'A law rune.',
   value: 1106,
   highAlch: 663,

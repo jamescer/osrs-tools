@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedDHideBodyData = {
   id: 23264,
   name: "Gilded d'hide body",
-  iconUrl: "/assets/items/gilded-dhide-body.png",
+  iconUrl: "/assets/items/23264.png",
   examine: "Made with 100% golden dragonhide.",
   value: 50000,
   highAlch: 30000,

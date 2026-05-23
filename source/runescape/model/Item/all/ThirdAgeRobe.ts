@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeRobeData = {
   id: 10340,
   name: "3rd age robe",
-  iconUrl: "/assets/items/3rd-age-robe.png",
+  iconUrl: "/assets/items/10340.png",
   examine: "Fabulously ancient mage protection enchanted in the 3rd Age.",
   value: 50600,
   highAlch: 30360,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominGodswordOrnamentKitData = {
   id: 20074,
   name: "Saradomin godsword ornament kit",
-  iconUrl: "/assets/items/saradomin-godsword-ornament-kit.png",
+  iconUrl: "/assets/items/20074.png",
   examine: "Use on a Saradomin godsword to make it look fancier!",
   value: 5000,
   highAlch: 3000,

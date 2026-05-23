@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedMedHelmData = {
   id: 20146,
   name: "Gilded med helm",
-  iconUrl: "/assets/items/gilded-med-helm.png",
+  iconUrl: "/assets/items/20146.png",
   examine: "A medium sized helmet with gold plate.",
   value: 19200,
   highAlch: 11520,

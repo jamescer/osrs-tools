@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sagaciousSpectaclesData = {
   id: 12337,
   name: "Sagacious spectacles",
-  iconUrl: "/assets/items/sagacious-spectacles.png",
+  iconUrl: "/assets/items/12337.png",
   examine: "Do they make me look... old?",
   value: 1400,
   highAlch: 840,

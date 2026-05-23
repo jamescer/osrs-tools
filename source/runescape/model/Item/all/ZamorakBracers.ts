@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakBracersData = {
   id: 10368,
   name: "Zamorak bracers",
-  iconUrl: "/assets/items/zamorak-bracers.png",
+  iconUrl: "/assets/items/10368.png",
   examine: "Zamorak blessed dragonhide vambraces.",
   value: 4000,
   highAlch: 2400,

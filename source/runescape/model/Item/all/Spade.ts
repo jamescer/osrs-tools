@@ -10,7 +10,7 @@ const spadeData: ItemJson = {
   members: false,
   meleeStrength: 0,
   name: 'Spade',
-  iconUrl: '/assets/items/spade.png',
+  iconUrl: '/assets/items/952.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Spade',
   prayer: 0,

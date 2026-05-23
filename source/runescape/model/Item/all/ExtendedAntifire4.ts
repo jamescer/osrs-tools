@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const extendedAntifire4Data = {
   id: 11951,
   name: "Extended antifire(4)",
-  iconUrl: "/assets/items/extended-antifire-4.png",
+  iconUrl: "/assets/items/11951.png",
   examine: "4 doses of extended anti-firebreath potion.",
   value: 440,
   highAlch: 264,

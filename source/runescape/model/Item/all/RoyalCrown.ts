@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const royalCrownData = {
   id: 12397,
   name: "Royal crown",
-  iconUrl: "/assets/items/royal-crown.png",
+  iconUrl: "/assets/items/12397.png",
   examine: "Who said I'd never be royal?",
   value: 6000,
   highAlch: 3600,

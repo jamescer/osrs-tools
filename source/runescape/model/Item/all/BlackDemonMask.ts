@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackDemonMaskData = {
   id: 20026,
   name: "Black demon mask",
-  iconUrl: "/assets/items/black-demon-mask.png",
+  iconUrl: "/assets/items/20026.png",
   examine: "Evil.",
   value: 4000,
   highAlch: 2400,

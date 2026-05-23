@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sandwichLadyTopData = {
   id: 23315,
   name: "Sandwich lady top",
-  iconUrl: "/assets/items/sandwich-lady-top.png",
+  iconUrl: "/assets/items/23315.png",
   examine: "A top worn by a sandwich lady.",
   value: 500,
   highAlch: 300,

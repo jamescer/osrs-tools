@@ -20,7 +20,7 @@ const silverSickleData: ItemJson = {
   members: true,
   meleeStrength: 5,
   name: 'Silver sickle (b)',
-  iconUrl: '/assets/items/silver-sickle-b.png',
+  iconUrl: '/assets/items/2961.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Silver_sickle_(b)',
   prayer: 2,

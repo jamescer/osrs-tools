@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const halfMoonSpectaclesData = {
   id: 20053,
   name: "Half moon spectacles",
-  iconUrl: "/assets/items/half-moon-spectacles.png",
+  iconUrl: "/assets/items/20053.png",
   examine: "The two halfs would surely make a full moon?",
   value: 19450,
   highAlch: 11670,

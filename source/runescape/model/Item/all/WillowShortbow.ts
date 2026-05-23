@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const willowShortbowData = {
   id: 849,
   name: 'Willow shortbow',
-  iconUrl: '/assets/items/willow-shortbow.png',
+  iconUrl: '/assets/items/849.png',
   examine: 'A bow made of willow wood.',
   value: 35,
   highAlch: 21,

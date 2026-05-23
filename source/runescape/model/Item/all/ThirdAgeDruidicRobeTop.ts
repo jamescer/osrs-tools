@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeDruidicRobeTopData = {
   id: 23336,
   name: "3rd age druidic robe top",
-  iconUrl: "/assets/items/3rd-age-druidic-robe-top.png",
+  iconUrl: "/assets/items/23336.png",
   examine: "A fabulously ancient woven robe top as worn by the druids of old.",
   value: 200000,
   highAlch: 120000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ankouTopData = {
   id: 20098,
   name: "Ankou top",
-  iconUrl: "/assets/items/ankou-top.png",
+  iconUrl: "/assets/items/20098.png",
   examine: "This top will make your flesh transparent.",
   value: 1,
   highAlch: 0,

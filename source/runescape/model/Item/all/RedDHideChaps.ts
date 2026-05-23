@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const redDHideChapsData = {
   id: 2505,
   name: 'Red d\'hide chaps',
-  iconUrl: '/assets/items/red-dhide-chaps.png',
+  iconUrl: '/assets/items/2505.png',
   examine: 'Leg armour made from red dragon hide.',
   value: 4500,
   highAlch: 2700,

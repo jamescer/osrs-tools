@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonCaneData = {
   id: 12373,
   name: "Dragon cane",
-  iconUrl: "/assets/items/dragon-cane.png",
+  iconUrl: "/assets/items/12373.png",
   examine: "An onyx topped cane.",
   value: 30000,
   highAlch: 18000,

@@ -10,7 +10,7 @@ const dragonkinMapData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Dragonkin map',
-  iconUrl: '/assets/items/dragonkin-map.png',
+  iconUrl: '/assets/items/21043.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Dragonkin_map',
   prayer: 0,

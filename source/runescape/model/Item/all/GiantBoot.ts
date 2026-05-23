@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const giantBootData = {
   id: 23252,
   name: "Giant boot",
-  iconUrl: "/assets/items/giant-boot.png",
+  iconUrl: "/assets/items/23252.png",
   examine: "Worn on head. Warning: Smelly.",
   value: 14000,
   highAlch: 8400,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const uncutRubyData = {
   id: 1619,
   name: 'Uncut ruby',
-  iconUrl: '/assets/items/uncut-ruby.png',
+  iconUrl: '/assets/items/1619.png',
   examine: 'An uncut ruby.',
   value: 732,
   highAlch: 439,

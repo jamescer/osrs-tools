@@ -17,7 +17,7 @@ const steelLongswordData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Steel_longsword',
-  iconUrl: '/assets/items/steel-longsword.png',
+  iconUrl: '/assets/items/1295.png',
 };
 
 export const SteelLongsword = Item.fromJson(steelLongswordData);

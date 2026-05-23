@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const rangingPotion4Data = {
   id: 2444,
   name: "Ranging potion(4)",
-  iconUrl: "/assets/items/ranging-potion-4.png",
+  iconUrl: "/assets/items/2444.png",
   examine: "4 doses of ranging potion.",
   value: 360,
   highAlch: 216,

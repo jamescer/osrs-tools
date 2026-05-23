@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const onyxBoltTipsData = {
   id: 9194,
   name: "Onyx bolt tips",
-  iconUrl: "/assets/items/onyx-bolt-tips.png",
+  iconUrl: "/assets/items/9194.png",
   examine: "Onyx bolt tips.",
   value: 1000,
   highAlch: 600,

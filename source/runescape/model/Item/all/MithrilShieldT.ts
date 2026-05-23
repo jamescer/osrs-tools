@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const mithrilShieldTData = {
   id: 3503,
   name: 'Mithril shield (t)',
-  iconUrl: '/assets/items/mithril-shield-t.png',
+  iconUrl: '/assets/items/3503.png',
   examine: 'A mithril shield, decorated with gold trim.',
   value: 1300,
   highAlch: 780,

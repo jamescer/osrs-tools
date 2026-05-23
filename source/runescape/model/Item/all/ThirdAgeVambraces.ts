@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeVambracesData = {
   id: 10336,
   name: "3rd age vambraces",
-  iconUrl: "/assets/items/3rd-age-vambraces.png",
+  iconUrl: "/assets/items/10336.png",
   examine: "Fabulously ancient range protection crafted from white dragonhide.",
   value: 50500,
   highAlch: 30300,

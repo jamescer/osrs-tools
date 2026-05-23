@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominDHideBodyData = {
   id: 10386,
   name: "Saradomin d'hide body",
-  iconUrl: "/assets/items/saradomin-dhide-body.png",
+  iconUrl: "/assets/items/10386.png",
   examine: "Saradomin blessed dragonhide body armour.",
   value: 13000,
   highAlch: 7800,

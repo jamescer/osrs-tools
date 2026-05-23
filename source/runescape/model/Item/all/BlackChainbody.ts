@@ -17,7 +17,7 @@ const blackChainbodyData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_chainbody',
-  iconUrl: '/assets/items/black-chainbody.png',
+  iconUrl: '/assets/items/1107.png',
 };
 
 export const BlackChainbody = Item.fromJson(blackChainbodyData);

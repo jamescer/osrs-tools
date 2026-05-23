@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const robeBottomOfDarknessData = {
   id: 20137,
   name: "Robe bottom of darkness",
-  iconUrl: "/assets/items/robe-bottom-of-darkness.png",
+  iconUrl: "/assets/items/20137.png",
   examine: "A dark power is woven into this robe bottom.",
   value: 80000,
   highAlch: 48000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const steelPlatebodyData = {
   id: 1595,
   name: 'Steel platebody',
-  iconUrl: '/assets/items/steel-platebody.png',
+  iconUrl: '/assets/items/1595.png',
   examine: 'A suit of steel body armour.',
   value: 312,
   highAlch: 187,

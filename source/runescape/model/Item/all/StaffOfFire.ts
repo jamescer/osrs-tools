@@ -17,7 +17,7 @@ const staffOfFireData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Staff_of_fire',
-  iconUrl: '/assets/items/staff-of-fire.png',
+  iconUrl: '/assets/items/1387.png',
 };
 
 export const StaffOfFire = Item.fromJson(staffOfFireData);

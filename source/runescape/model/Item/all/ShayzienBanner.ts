@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const shayzienBannerData = {
   id: 20263,
   name: "Shayzien banner",
-  iconUrl: "/assets/items/shayzien-banner.png",
+  iconUrl: "/assets/items/20263.png",
   examine: "A war torn banner bearing the Shayzien sigil.",
   value: 70,
   highAlch: 42,

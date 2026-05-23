@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const thirdAgePlatebodyData = {
   id: 12825,
   name: '3rd age platebody',
-  iconUrl: '/assets/items/3rd-age-platebody.png',
+  iconUrl: '/assets/items/12825.png',
   examine: 'A 3rd age platebody from the God Wars.',
   value: 4000000,
   highAlch: 2400000,

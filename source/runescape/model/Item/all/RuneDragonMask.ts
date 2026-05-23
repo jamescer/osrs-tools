@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeDragonMaskData = {
   id: 23273,
   name: "Rune dragon mask",
-  iconUrl: "/assets/items/rune-dragon-mask.png",
+  iconUrl: "/assets/items/23273.png",
   examine: "Do I look scary?",
   value: 10000,
   highAlch: 6000,

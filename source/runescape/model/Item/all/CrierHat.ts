@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const crierHatData = {
   id: 12319,
   name: "Crier hat",
-  iconUrl: "/assets/items/crier-hat.png",
+  iconUrl: "/assets/items/12319.png",
   examine: "Hear ye! Hear ye!",
   value: 5000,
   highAlch: 3000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeMediumHelmData = {
   id: 1739,
   name: 'Rune medium helm',
-  iconUrl: '/assets/items/rune-medium-helm.png',
+  iconUrl: '/assets/items/1739.png',
   examine: 'A medium rune helmet.',
   value: 5460,
   highAlch: 3276,

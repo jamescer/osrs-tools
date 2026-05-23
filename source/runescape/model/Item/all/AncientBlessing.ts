@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientBlessingData = {
   id: 20235,
   name: "Ancient blessing",
-  iconUrl: "/assets/items/ancient-blessing.png",
+  iconUrl: "/assets/items/20235.png",
   examine: "The misery that is now upon us is but the passing of greed, the bitterness of those who fear the way of progress.",
   value: 80,
   highAlch: 48,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeFullHelmetData = {
   id: 10350,
   name: "3rd age full helmet",
-  iconUrl: "/assets/items/3rd-age-full-helmet.png",
+  iconUrl: "/assets/items/10350.png",
   examine: "Fabulously ancient armour beaten from magical silver.",
   value: 90000,
   highAlch: 54000,

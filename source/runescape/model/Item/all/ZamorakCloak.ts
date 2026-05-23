@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakCloakData = {
   id: 10450,
   name: "Zamorak cloak",
-  iconUrl: "/assets/items/zamorak-cloak.png",
+  iconUrl: "/assets/items/10450.png",
   examine: "A Zamorak cloak.",
   value: 2000,
   highAlch: 1200,

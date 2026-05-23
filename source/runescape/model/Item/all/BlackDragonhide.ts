@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackDragonhideData = {
   id: 1747,
   name: "Black dragonhide",
-  iconUrl: "/assets/items/black-dragonhide.png",
+  iconUrl: "/assets/items/1747.png",
   examine: "The scaly rough hide from a Black Dragon.",
   value: 150,
   highAlch: 90,

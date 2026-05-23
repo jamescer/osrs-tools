@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const oakPlankData = {
   id: 8778,
   name: "Oak plank",
-  iconUrl: "/assets/items/oak-plank.png",
+  iconUrl: "/assets/items/8778.png",
   examine: "A plank of sturdy oak.",
   value: 250,
   highAlch: 150,

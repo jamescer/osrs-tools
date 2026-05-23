@@ -21,7 +21,7 @@ const ancientStaffData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Ancient staff',
-  iconUrl: '/assets/items/ancient-staff.png',
+  iconUrl: '/assets/items/4675.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ancient_staff',
   prayer: 1,

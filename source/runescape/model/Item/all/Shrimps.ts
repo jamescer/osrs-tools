@@ -17,7 +17,7 @@ const shrimpsData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Shrimps',
-  iconUrl: '/assets/items/shrimps.png',
+  iconUrl: '/assets/items/315.png',
 };
 
 export const Shrimps = Item.fromJson(shrimpsData);

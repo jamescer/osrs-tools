@@ -17,7 +17,7 @@ const black2hSwordData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_2h_sword',
-  iconUrl: '/assets/items/black-2h-sword.png',
+  iconUrl: '/assets/items/1313.png',
 };
 
 export const Black2hSword = Item.fromJson(black2hSwordData);

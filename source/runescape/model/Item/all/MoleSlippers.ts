@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const moleSlippersData = {
   id: 23285,
   name: "Mole slippers",
-  iconUrl: "/assets/items/mole-slippers.png",
+  iconUrl: "/assets/items/23285.png",
   examine: "Cute mole slippers.",
   value: 1000,
   highAlch: 600,

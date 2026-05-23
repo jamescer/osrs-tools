@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const piscariliusBannerData = {
   id: 20260,
   name: "Piscarilius banner",
-  iconUrl: "/assets/items/piscarilius-banner.png",
+  iconUrl: "/assets/items/20260.png",
   examine: "A stained glass banner displaying the Piscarilius sigil.",
   value: 70,
   highAlch: 42,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const penguinMaskData = {
   id: 12428,
   name: "Penguin mask",
-  iconUrl: "/assets/items/penguin-mask.png",
+  iconUrl: "/assets/items/12428.png",
   examine: "Thankfully this doesn't reset every week.",
   value: 1200,
   highAlch: 720,

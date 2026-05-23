@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const wineOfZamorakData = {
   id: 245,
   name: "Wine of zamorak",
-  iconUrl: "/assets/items/wine-of-zamorak.png",
+  iconUrl: "/assets/items/245.png",
   examine: "An evil wine for an evil god.",
   value: 1,
   highAlch: 0,

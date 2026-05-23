@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ringOfCoinsData = {
   id: 20017,
   name: "Ring of coins",
-  iconUrl: "/assets/items/ring-of-coins.png",
+  iconUrl: "/assets/items/20017.png",
   examine: "A valuable ring.",
   value: 8000,
   highAlch: 4800,

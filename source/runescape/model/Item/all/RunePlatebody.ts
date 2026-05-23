@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runePlatebodyData = {
   id: 1735,
   name: 'Rune platebody',
-  iconUrl: '/assets/items/rune-platebody.png',
+  iconUrl: '/assets/items/1735.png',
   examine: 'A suit of rune body armour.',
   value: 38850,
   highAlch: 23310,

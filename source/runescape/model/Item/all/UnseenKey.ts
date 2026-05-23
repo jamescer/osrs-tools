@@ -7,7 +7,7 @@ const unseenKeyData : ItemJson = {
   id: 21089,
   members: true,
   name: 'Unseen key',
-  iconUrl: '/assets/items/unseen-key.png',
+  iconUrl: '/assets/items/21089.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Unseen_key',
   questItem: true,

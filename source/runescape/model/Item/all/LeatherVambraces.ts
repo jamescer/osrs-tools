@@ -17,7 +17,7 @@ const leatherVambracesData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Leather_vambraces',
-  iconUrl: '/assets/items/leather-vambraces.png',
+  iconUrl: '/assets/items/1063.png',
 };
 
 export const LeatherVambraces = Item.fromJson(leatherVambracesData);

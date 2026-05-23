@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientDHideShieldData = {
   id: 23197,
   name: "Ancient d'hide shield",
-  iconUrl: "/assets/items/ancient-dhide-shield.png",
+  iconUrl: "/assets/items/23197.png",
   examine: "Ancient blessed wooden shield covered in dragon leather.",
   value: 28334,
   highAlch: 17000,

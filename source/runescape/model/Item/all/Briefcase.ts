@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const briefcaseData = {
   id: 12335,
   name: "Briefcase",
-  iconUrl: "/assets/items/briefcase.png",
+  iconUrl: "/assets/items/12335.png",
   examine: "For your first day in the big city.",
   value: 666,
   highAlch: 399,

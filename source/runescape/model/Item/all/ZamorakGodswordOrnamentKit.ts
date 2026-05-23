@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakGodswordOrnamentKitData = {
   id: 20077,
   name: "Zamorak godsword ornament kit",
-  iconUrl: "/assets/items/zamorak-godsword-ornament-kit.png",
+  iconUrl: "/assets/items/20077.png",
   examine: "Use on a Zamorak godsword to make it look fancier!",
   value: 5000,
   highAlch: 3000,

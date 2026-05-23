@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const rangerGlovesData: ItemJson = {
   id: 7662,
   name: 'Ranger gloves',
-  iconUrl: '/assets/items/ranger-gloves.png',
+  iconUrl: '/assets/items/7662.png',
   examine: 'Lightweight gloves ideal for rangers.',
   value: 2040,
   highAlch: 2040,

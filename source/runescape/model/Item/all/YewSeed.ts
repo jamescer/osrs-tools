@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const yewSeedData = {
   id: 5315,
   name: "Yew seed",
-  iconUrl: "/assets/items/yew-seed.png",
+  iconUrl: "/assets/items/5315.png",
   examine: "Plant this in a plantpot of soil to grow a sapling.",
   value: 143,
   highAlch: 85,

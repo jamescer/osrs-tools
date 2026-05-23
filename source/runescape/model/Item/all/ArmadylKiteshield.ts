@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylKiteshieldData = {
   id: 12478,
   name: "Armadyl kiteshield",
-  iconUrl: "/assets/items/armadyl-kiteshield.png",
+  iconUrl: "/assets/items/12478.png",
   examine: "Rune kiteshield in the colours of Armadyl.",
   value: 54400,
   highAlch: 32640,

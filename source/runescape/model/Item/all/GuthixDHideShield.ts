@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const guthixDHideShieldData = {
   id: 23188,
   name: "Guthix d'hide shield",
-  iconUrl: "/assets/items/guthix-dhide-shield.png",
+  iconUrl: "/assets/items/23188.png",
   examine: "Guthix blessed wooden shield covered in dragon leather.",
   value: 28334,
   highAlch: 17000,

@@ -17,7 +17,7 @@ const summerPieData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Summer_pie',
-  iconUrl: '/assets/items/summer-pie.png',
+  iconUrl: '/assets/items/7218.png',
 };
 
 export const SummerPie = Item.fromJson(summerPieData);

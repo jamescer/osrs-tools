@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const darkTuxedoCuffsData = {
   id: 19961,
   name: "Dark tuxedo cuffs",
-  iconUrl: "/assets/items/dark-tuxedo-cuffs.png",
+  iconUrl: "/assets/items/19961.png",
   examine: "Linked tuxedo cuffs with a dark trim.",
   value: 3000,
   highAlch: 1800,

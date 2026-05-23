@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const holyBlessingData = {
   id: 20220,
   name: "Holy blessing",
-  iconUrl: "/assets/items/holy-blessing.png",
+  iconUrl: "/assets/items/20220.png",
   examine: "The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men.",
   value: 80,
   highAlch: 48,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bowlWigData = {
   id: 20110,
   name: "Bowl wig",
-  iconUrl: "/assets/items/bowl-wig.png",
+  iconUrl: "/assets/items/20110.png",
   examine: "The bowl wig.",
   value: 1,
   highAlch: 0,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sHatData = {
   id: 1949,
   name: "Chef's hat",
-  iconUrl: "/assets/items/chefs-hat.png",
+  iconUrl: "/assets/items/1949.png",
   examine: "What a silly hat.",
   value: 2,
   highAlch: 1,

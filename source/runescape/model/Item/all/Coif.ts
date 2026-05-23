@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const coifData = {
   id: 1169,
   name: 'Coif',
-  iconUrl: '/assets/items/coif.png',
+  iconUrl: '/assets/items/1169.png',
   examine: 'A protective headpiece made of leather.',
   value: 25,
   highAlch: 15,

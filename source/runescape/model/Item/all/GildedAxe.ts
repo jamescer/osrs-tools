@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedAxeData = {
   id: 23279,
   name: "Gilded axe",
-  iconUrl: "/assets/items/gilded-axe.png",
+  iconUrl: "/assets/items/23279.png",
   examine: "A powerful axe.",
   value: 35000,
   highAlch: 21000,

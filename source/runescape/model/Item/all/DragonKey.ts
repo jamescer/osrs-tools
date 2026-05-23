@@ -10,7 +10,7 @@ const dragonKeyData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Dragon key',
-  iconUrl: '/assets/items/dragon-key.png',
+  iconUrl: '/assets/items/21042.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Dragon_key',
   prayer: 0,

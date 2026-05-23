@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const chaosRuneData = {
   id: 561,
   name: 'Chaos rune',
-  iconUrl: '/assets/items/chaos-rune.png',
+  iconUrl: '/assets/items/561.png',
   examine: 'A chaos rune.',
   value: 96,
   highAlch: 57,

@@ -10,7 +10,7 @@ const bucketData: ItemJson = {
   members: false,
   meleeStrength: 0,
   name: 'Bucket',
-  iconUrl: '/assets/items/bucket.png',
+  iconUrl: '/assets/items/1925.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Bucket',
   prayer: 0,

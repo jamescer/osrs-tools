@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runiteBarData = {
   id: 2363,
   name: 'Runite bar',
-  iconUrl: '/assets/items/runite-bar.png',
+  iconUrl: '/assets/items/2363.png',
   examine: 'A bar of runite, ready to be smelted or forged.',
   value: 12500,
   highAlch: 7500,

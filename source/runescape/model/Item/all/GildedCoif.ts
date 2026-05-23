@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedCoifData = {
   id: 23258,
   name: "Gilded coif",
-  iconUrl: "/assets/items/gilded-coif.png",
+  iconUrl: "/assets/items/23258.png",
   examine: "Made with 100% golden dragonhide.",
   value: 2000,
   highAlch: 1200,

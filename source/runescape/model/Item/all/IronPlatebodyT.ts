@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ironPlatebodyTData = {
   id: 3483,
   name: 'Iron platebody (t)',
-  iconUrl: '/assets/items/iron-platebody-t.png',
+  iconUrl: '/assets/items/3483.png',
   examine: 'A suit of iron body armour, decorated with gold trim.',
   value: 2700,
   highAlch: 1620,

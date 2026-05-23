@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const grimyRanarrWeedData = {
   id: 207,
   name: "Grimy ranarr weed",
-  iconUrl: "/assets/items/grimy-ranarr-weed.png",
+  iconUrl: "/assets/items/207.png",
   examine: "It needs cleaning.",
   value: 30,
   highAlch: 18,

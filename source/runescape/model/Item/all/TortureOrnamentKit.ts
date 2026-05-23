@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const tortureOrnamentKitData = {
   id: 20062,
   name: "Torture ornament kit",
-  iconUrl: "/assets/items/torture-ornament-kit.png",
+  iconUrl: "/assets/items/20062.png",
   examine: "Use on an amulet of torture to make it look fancier!",
   value: 5000,
   highAlch: 3000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const palmTreeSeedData = {
   id: 5289,
   name: "Palm tree seed",
-  iconUrl: "/assets/items/palm-tree-seed.png",
+  iconUrl: "/assets/items/5289.png",
   examine: "Plant in a plantpot of soil to grow a sapling.",
   value: 254,
   highAlch: 152,

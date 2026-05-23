@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeDruidicCloakData = {
   id: 23345,
   name: "3rd age druidic cloak",
-  iconUrl: "/assets/items/3rd-age-druidic-cloak.png",
+  iconUrl: "/assets/items/23345.png",
   examine: "A fabulously ancient vine cloak as worn by the druids of old.",
   value: 200000,
   highAlch: 120000,

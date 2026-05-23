@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonScimitarOrnamentKitData = {
   id: 20002,
   name: "Dragon scimitar ornament kit",
-  iconUrl: "/assets/items/dragon-scimitar-ornament-kit.png",
+  iconUrl: "/assets/items/20002.png",
   examine: "Use on the dragon scimitar to trim it with gold.",
   value: 5000,
   highAlch: 3000,

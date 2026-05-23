@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedPickaxeData = {
   id: 23276,
   name: "Gilded pickaxe",
-  iconUrl: "/assets/items/gilded-pickaxe.png",
+  iconUrl: "/assets/items/23276.png",
   examine: "Used for mining and very stylish.",
   value: 50000,
   highAlch: 30000,

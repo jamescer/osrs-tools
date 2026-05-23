@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeFullHelmData = {
   id: 1743,
   name: 'Rune full helm',
-  iconUrl: '/assets/items/rune-full-helm.png',
+  iconUrl: '/assets/items/1743.png',
   examine: 'A full rune helmet, it fully covers the head.',
   value: 20280,
   highAlch: 12168,

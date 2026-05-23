@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runiteOreData = {
   id: 451,
   name: "Runite ore",
-  iconUrl: "/assets/items/runite-ore.png",
+  iconUrl: "/assets/items/451.png",
   examine: "This needs refining.",
   value: 3200,
   highAlch: 1920,

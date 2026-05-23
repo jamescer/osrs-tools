@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosKiteshieldData = {
   id: 12488,
   name: "Bandos kiteshield",
-  iconUrl: "/assets/items/bandos-kiteshield.png",
+  iconUrl: "/assets/items/12488.png",
   examine: "Rune kiteshield in the colours of Bandos.",
   value: 54400,
   highAlch: 32640,

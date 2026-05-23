@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const airRuneData = {
   id: 556,
   name: 'Air rune',
-  iconUrl: '/assets/items/air-rune.png',
+  iconUrl: '/assets/items/556.png',
   examine: 'An air rune.',
   value: 4,
   highAlch: 2,

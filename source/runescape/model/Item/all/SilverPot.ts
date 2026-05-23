@@ -10,7 +10,7 @@ const silverPotData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Silver pot',
-  iconUrl: '/assets/items/silver-pot.png',
+  iconUrl: '/assets/items/7728.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Silver_pot',
   prayer: 0,

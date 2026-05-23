@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const mithrilFullHelmData = {
   id: 1603,
   name: 'Mithril full helm',
-  iconUrl: '/assets/items/mithril-full-helm.png',
+  iconUrl: '/assets/items/1603.png',
   examine: 'A full mithril helmet, it fully covers the head.',
   value: 447,
   highAlch: 268,

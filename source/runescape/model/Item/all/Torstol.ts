@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const torstolData = {
   id: 269,
   name: "Torstol",
-  iconUrl: "/assets/items/torstol.png",
+  iconUrl: "/assets/items/269.png",
   examine: "A powerful herb.",
   value: 75,
   highAlch: 45,

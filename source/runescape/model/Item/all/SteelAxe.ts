@@ -17,7 +17,7 @@ const steelAxeData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Steel_axe',
-  iconUrl: '/assets/items/steel-axe.png',
+  iconUrl: '/assets/items/1353.png',
 };
 
 export const SteelAxe = Item.fromJson(steelAxeData);

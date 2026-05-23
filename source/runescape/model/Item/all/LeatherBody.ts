@@ -17,7 +17,7 @@ const leatherBodyData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Leather_body',
-  iconUrl: '/assets/items/leather-body.png',
+  iconUrl: '/assets/items/1129.png',
 };
 
 export const LeatherBody = Item.fromJson(leatherBodyData);

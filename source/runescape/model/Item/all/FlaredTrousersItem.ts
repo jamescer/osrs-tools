@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const flaredTrousersData: ItemJson = {
   id: 7934,
   name: 'Flared trousers',
-  iconUrl: '/assets/items/flared-trousers.png',
+  iconUrl: '/assets/items/7934.png',
   examine: 'These\'ll help me stay alive.',
   value: 2000,
   highAlch: 1200,

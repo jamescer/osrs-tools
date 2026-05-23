@@ -6,7 +6,7 @@ const tinderboxData: ItemJson = {
   id: 590,
   members: false,
   name: 'Tinderbox',
-  iconUrl: '/assets/items/tinderbox.png',
+  iconUrl: '/assets/items/590.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Tinderbox',
   questItem: false,

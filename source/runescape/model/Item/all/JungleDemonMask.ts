@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const jungleDemonMaskData = {
   id: 20032,
   name: "Jungle demon mask",
-  iconUrl: "/assets/items/jungle-demon-mask.png",
+  iconUrl: "/assets/items/20032.png",
   examine: "A mask resembling a visage of a Greater Jungle demon.",
   value: 4000,
   highAlch: 2400,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosCoifData = {
   id: 12504,
   name: "Bandos coif",
-  iconUrl: "/assets/items/bandos-coif.png",
+  iconUrl: "/assets/items/12504.png",
   examine: "Bandos blessed dragonhide coif.",
   value: 2000,
   highAlch: 1200,

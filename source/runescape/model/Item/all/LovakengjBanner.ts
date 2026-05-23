@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const lovakengjBannerData = {
   id: 20257,
   name: "Lovakengj banner",
-  iconUrl: "/assets/items/lovakengj-banner.png",
+  iconUrl: "/assets/items/20257.png",
   examine: "A lovakite banner bearing the Lovakengj sigil.",
   value: 70,
   highAlch: 42,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const mithrilBootsData = {
   id: 4111,
   name: 'Mithril boots',
-  iconUrl: '/assets/items/mithril-boots.png',
+  iconUrl: '/assets/items/4111.png',
   examine: 'A pair of mithril boots.',
   value: 213,
   highAlch: 127,

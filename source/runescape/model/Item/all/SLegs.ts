@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sLegsData = {
   id: 8859,
   name: "22lb shot",
-  iconUrl: "/assets/items/22lb-shot.png",
+  iconUrl: "/assets/items/8859.png",
   examine: "Just landed 22lb shot.",
   value: 1,
   highAlch: 0,

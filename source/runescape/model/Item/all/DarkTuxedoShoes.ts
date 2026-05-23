@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const darkTuxedoShoesData = {
   id: 19967,
   name: "Dark tuxedo shoes",
-  iconUrl: "/assets/items/dark-tuxedo-shoes.png",
+  iconUrl: "/assets/items/19967.png",
   examine: "Dark shoes to match your dark tuxedo.",
   value: 3000,
   highAlch: 1800,

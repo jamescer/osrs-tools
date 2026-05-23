@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const tormentedOrnamentKitData = {
   id: 23348,
   name: "Tormented ornament kit",
-  iconUrl: "/assets/items/tormented-ornament-kit.png",
+  iconUrl: "/assets/items/23348.png",
   examine: "Use on a tormented bracelet to make it look fancier!",
   value: 5000,
   highAlch: 3000,

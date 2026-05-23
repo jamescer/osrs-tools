@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const cabbageRoundShieldData = {
   id: 20272,
   name: "Cabbage round shield",
-  iconUrl: "/assets/items/cabbage-round-shield.png",
+  iconUrl: "/assets/items/20272.png",
   examine: "An adamant shield shaped like a cabbage.",
   value: 3000,
   highAlch: 1800,

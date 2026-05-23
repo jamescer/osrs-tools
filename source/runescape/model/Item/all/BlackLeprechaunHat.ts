@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackLeprechaunHatData = {
   id: 20246,
   name: "Black leprechaun hat",
-  iconUrl: "/assets/items/black-leprechaun-hat.png",
+  iconUrl: "/assets/items/20246.png",
   examine: "Try as they will, and try as they might, who steals me gold won't live through the night.",
   value: 5000,
   highAlch: 3000,

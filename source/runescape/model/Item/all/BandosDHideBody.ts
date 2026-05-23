@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosDHideBodyData = {
   id: 12500,
   name: "Bandos d'hide body",
-  iconUrl: "/assets/items/bandos-dhide-body.png",
+  iconUrl: "/assets/items/12500.png",
   examine: "Bandos blessed dragonhide body armour.",
   value: 13000,
   highAlch: 7800,

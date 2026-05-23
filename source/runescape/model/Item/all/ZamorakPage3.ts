@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakPage3Data = {
   id: 3833,
   name: "Zamorak page 3",
-  iconUrl: "/assets/items/zamorak-page-3.png",
+  iconUrl: "/assets/items/3833.png",
   examine: "This seems to have been torn from a book...",
   value: 200,
   highAlch: 120,

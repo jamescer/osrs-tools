@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylBracersData = {
   id: 12506,
   name: "Armadyl bracers",
-  iconUrl: "/assets/items/armadyl-bracers.png",
+  iconUrl: "/assets/items/12506.png",
   examine: "Armadyl blessed dragonhide vambraces.",
   value: 4000,
   highAlch: 2400,

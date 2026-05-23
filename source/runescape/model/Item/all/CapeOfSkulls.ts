@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const capeOfSkullsData = {
   id: 10398,
   name: 'Cape of skulls',
-  iconUrl: '/assets/items/cape-of-skulls.png',
+  iconUrl: '/assets/items/10398.png',
   examine: 'A black cape with a skull design.',
   value: 936,
   highAlch: 561,

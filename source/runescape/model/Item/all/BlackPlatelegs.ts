@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackPlateLegsData = {
   id: 521,
   name: 'Black platelegs',
-  iconUrl: '/assets/items/black-platelegs.png',
+  iconUrl: '/assets/items/521.png',
   examine: 'A pair of very strong trousers.',
   value: 320,
   highAlch: 192,

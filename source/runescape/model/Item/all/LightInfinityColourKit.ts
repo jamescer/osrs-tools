@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const lightInfinityColourKitData = {
   id: 12530,
   name: "Light infinity colour kit",
-  iconUrl: "/assets/items/light-infinity-colour-kit.png",
+  iconUrl: "/assets/items/12530.png",
   examine: "Use on infinity pieces to recolour them!",
   value: 5000,
   highAlch: 3000,

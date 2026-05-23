@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedDHideChapsData = {
   id: 23267,
   name: "Gilded d'hide chaps",
-  iconUrl: "/assets/items/gilded-dhide-chaps.png",
+  iconUrl: "/assets/items/23267.png",
   examine: "Made with 100% golden dragonhide.",
   value: 40000,
   highAlch: 24000,

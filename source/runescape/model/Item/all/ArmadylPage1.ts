@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylPage1Data = {
   id: 12617,
   name: "Armadyl page 1",
-  iconUrl: "/assets/items/armadyl-page-1.png",
+  iconUrl: "/assets/items/12617.png",
   examine: "This seems to have been torn from a book...",
   value: 400,
   highAlch: 240,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const royalSceptreData = {
   id: 12439,
   name: "Royal sceptre",
-  iconUrl: "/assets/items/royal-sceptre.png",
+  iconUrl: "/assets/items/12439.png",
   examine: "I dub thee...",
   value: 5000,
   highAlch: 3000,

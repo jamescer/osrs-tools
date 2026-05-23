@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const studiedBodyData = {
   id: 1331,
   name: 'Studded body',
-  iconUrl: '/assets/items/studded-body.png',
+  iconUrl: '/assets/items/1331.png',
   examine: 'A leather body with metal studs.',
   value: 75,
   highAlch: 45,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const hoodOfDarknessData = {
   id: 20128,
   name: "Hood of darkness",
-  iconUrl: "/assets/items/hood-of-darkness.png",
+  iconUrl: "/assets/items/20128.png",
   examine: "A dark power is woven into this hood.",
   value: 10000,
   highAlch: 6000,

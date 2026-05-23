@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const mummysBodyData = {
   id: 20083,
   name: "Mummy's body",
-  iconUrl: '/assets/items/mummys-body.png',
+  iconUrl: '/assets/items/20083.png',
   examine: "A mummy's body.",
   value: 1,
   highAlch: 0,

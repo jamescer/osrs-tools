@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosPage4Data = {
   id: 12616,
   name: "Bandos page 4",
-  iconUrl: "/assets/items/bandos-page-4.png",
+  iconUrl: "/assets/items/12616.png",
   examine: "This seems to have been torn from a book...",
   value: 400,
   highAlch: 240,

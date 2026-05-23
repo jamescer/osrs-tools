@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominCloakData = {
   id: 10446,
   name: "Saradomin cloak",
-  iconUrl: "/assets/items/saradomin-cloak.png",
+  iconUrl: "/assets/items/10446.png",
   examine: "A Saradomin cloak.",
   value: 2000,
   highAlch: 1200,

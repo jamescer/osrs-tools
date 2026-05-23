@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const shayzienHoodData = {
   id: 20125,
   name: "Shayzien hood",
-  iconUrl: "/assets/items/shayzien-hood.png",
+  iconUrl: "/assets/items/20125.png",
   examine: "A rare hood from Shayzien.",
   value: 1,
   highAlch: 0,

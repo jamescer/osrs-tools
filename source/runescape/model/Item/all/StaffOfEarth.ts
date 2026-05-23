@@ -17,7 +17,7 @@ const staffOfEarthData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Staff_of_earth',
-  iconUrl: '/assets/items/staff-of-earth.png',
+  iconUrl: '/assets/items/1385.png',
 };
 
 export const StaffOfEarth = Item.fromJson(staffOfEarthData);

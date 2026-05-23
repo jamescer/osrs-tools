@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const fremennikKiltData = {
   id: 23246,
   name: "Fremennik kilt",
-  iconUrl: "/assets/items/fremennik-kilt.png",
+  iconUrl: "/assets/items/23246.png",
   examine: "A kilt worn by the mightiest of Fremennik warriors.",
   value: 60000,
   highAlch: 36000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const willowLongbowData = {
   id: 4378,
   name: 'Willow longbow',
-  iconUrl: '/assets/items/willow-longbow.png',
+  iconUrl: '/assets/items/4378.png',
   examine: 'A longbow made of willow wood.',
   value: 287,
   highAlch: 172,

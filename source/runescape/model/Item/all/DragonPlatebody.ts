@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonPlatebodyData = {
   id: 1727,
   name: 'Dragon platebody',
-  iconUrl: '/assets/items/dragon-platebody.png',
+  iconUrl: '/assets/items/1727.png',
   examine: 'A suit of dragon body armour.',
   value: 165000,
   highAlch: 99000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const staffOfAirData = {
   id: 1381,
   name: 'Staff of air',
-  iconUrl: '/assets/items/staff-of-air.png',
+  iconUrl: '/assets/items/1381.png',
   examine: 'A magical staff of air.',
   value: 30,
   highAlch: 18,

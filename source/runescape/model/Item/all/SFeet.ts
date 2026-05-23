@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sFeetData = {
   id: 20092,
   name: "Mummy's feet",
-  iconUrl: "/assets/items/mummys-feet.png",
+  iconUrl: "/assets/items/20092.png",
   examine: "A mummy's feet.",
   value: 1,
   highAlch: 0,

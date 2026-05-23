@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const mindRuneData = {
   id: 558,
   name: 'Mind rune',
-  iconUrl: '/assets/items/mind-rune.png',
+  iconUrl: '/assets/items/558.png',
   examine: 'A mind rune.',
   value: 5,
   highAlch: 3,

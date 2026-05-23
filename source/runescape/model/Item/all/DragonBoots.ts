@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonBootsData = {
   id: 11734,
   name: 'Dragon boots',
-  iconUrl: '/assets/items/dragon-boots.png',
+  iconUrl: '/assets/items/11734.png',
   examine: 'A pair of dragon boots.',
   value: 60000,
   highAlch: 36000,

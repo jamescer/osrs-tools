@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const guthixBracersData = {
   id: 10376,
   name: "Guthix bracers",
-  iconUrl: "/assets/items/guthix-bracers.png",
+  iconUrl: "/assets/items/10376.png",
   examine: "Guthix blessed dragonhide vambraces.",
   value: 6000,
   highAlch: 3600,

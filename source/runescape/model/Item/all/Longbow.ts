@@ -17,7 +17,7 @@ const longbowData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Longbow',
-  iconUrl: '/assets/items/longbow.png',
+  iconUrl: '/assets/items/839.png',
 };
 
 export const Longbow = Item.fromJson(longbowData);

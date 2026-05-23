@@ -17,7 +17,7 @@ const bronzeArrowData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Bronze_arrow',
-  iconUrl: '/assets/items/bronze-arrow.png',
+  iconUrl: '/assets/items/882.png',
 };
 
 export const BronzeArrow = Item.fromJson(bronzeArrowData);

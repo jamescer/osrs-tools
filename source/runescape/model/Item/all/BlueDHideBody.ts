@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blueDHideBodyData = {
   id: 2499,
   name: 'Blue d\'hide body',
-  iconUrl: '/assets/items/blue-dhide-body.png',
+  iconUrl: '/assets/items/2499.png',
   examine: 'Body armour made from blue dragon hide.',
   value: 3000,
   highAlch: 1800,

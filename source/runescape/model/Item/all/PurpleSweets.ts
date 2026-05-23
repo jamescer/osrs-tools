@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const purpleSweetsData = {
   id: 10476,
   name: "Purple sweets",
-  iconUrl: "/assets/items/purple-sweets.png",
+  iconUrl: "/assets/items/10476.png",
   examine: "Remember to brush after eating!",
   value: 15,
   highAlch: 9,

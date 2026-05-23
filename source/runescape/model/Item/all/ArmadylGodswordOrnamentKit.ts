@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylGodswordOrnamentKitData = {
   id: 20068,
   name: "Armadyl godsword ornament kit",
-  iconUrl: "/assets/items/armadyl-godsword-ornament-kit.png",
+  iconUrl: "/assets/items/20068.png",
   examine: "Use on an Armadyl godsword to make it look fancier!",
   value: 5000,
   highAlch: 3000,

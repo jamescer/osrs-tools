@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const loopHalfOfKeyData = {
   id: 987,
   name: "Loop half of key",
-  iconUrl: "/assets/items/loop-half-of-key.png",
+  iconUrl: "/assets/items/987.png",
   examine: "The loop end of the mysterious Crystal Key. Can you find the other half?",
   value: 100,
   highAlch: 60,

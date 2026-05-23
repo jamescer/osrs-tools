@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const purpleFirelighterData = {
   id: 10326,
   name: "Purple firelighter",
-  iconUrl: "/assets/items/purple-firelighter.png",
+  iconUrl: "/assets/items/10326.png",
   examine: "Makes firelighting a lot easier.",
   value: 15,
   highAlch: 9,

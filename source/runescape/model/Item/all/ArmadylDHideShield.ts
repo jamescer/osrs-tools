@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylDHideShieldData = {
   id: 23200,
   name: "Armadyl d'hide shield",
-  iconUrl: "/assets/items/armadyl-dhide-shield.png",
+  iconUrl: "/assets/items/23200.png",
   examine: "Armadyl blessed wooden shield covered in dragon leather.",
   value: 28334,
   highAlch: 17000,

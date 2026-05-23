@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const clueScrollEliteData: ItemJson = {
   id: 12070,
   name: 'Clue scroll (elite)',
-  iconUrl: '/assets/items/clue-scroll-elite.png',
+  iconUrl: '/assets/items/12070.png',
   examine: 'A clue for a treasure trail.',
   value: 0,
   highAlch: 0,

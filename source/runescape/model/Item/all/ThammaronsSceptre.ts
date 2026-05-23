@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const thammaronsSceptreData: ItemJson = {
   id: 22547,
   name: 'Thammaron\'s sceptre',
-  iconUrl: '/assets/items/thammarons-sceptre.png',
+  iconUrl: '/assets/items/22547.png',
   examine: 'An ancient sceptre infused with dark magic.',
   value: 800000,
   highAlch: 480000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const monksRobeTopTData = {
   id: 23303,
   name: "Monk's robe top (t)",
-  iconUrl: "/assets/items/monks-robe-top-t.png",
+  iconUrl: "/assets/items/23303.png",
   examine: "I feel the gods don't enjoy my materialistic obsessions.",
   value: 500,
   highAlch: 300,

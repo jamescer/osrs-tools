@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const katanaData = {
   id: 12357,
   name: "Katana",
-  iconUrl: "/assets/items/katana.png",
+  iconUrl: "/assets/items/12357.png",
   examine: "Created by Hattori Hanzo in the Eastern Lands.",
   value: 24000,
   highAlch: 14400,

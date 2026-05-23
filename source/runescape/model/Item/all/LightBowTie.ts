@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const lightBowTieData = {
   id: 19985,
   name: "Light bow tie",
-  iconUrl: "/assets/items/light-bow-tie.png",
+  iconUrl: "/assets/items/19985.png",
   examine: "Bow ties are cool.",
   value: 5000,
   highAlch: 3000,

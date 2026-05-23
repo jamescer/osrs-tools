@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const hosidiusBannerData = {
   id: 20254,
   name: "Hosidius banner",
-  iconUrl: "/assets/items/hosidius-banner.png",
+  iconUrl: "/assets/items/20254.png",
   examine: "A banner made of redwood bearing the Hosidius sigil.",
   value: 70,
   highAlch: 42,

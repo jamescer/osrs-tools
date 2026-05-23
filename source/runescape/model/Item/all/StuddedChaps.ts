@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const studdedChapsMetadata = {
   id: 1333,
   name: 'Studded chaps',
-  iconUrl: '/assets/items/studded-chaps.png',
+  iconUrl: '/assets/items/1333.png',
   examine: 'Leather chaps with metal studs.',
   value: 50,
   highAlch: 30,

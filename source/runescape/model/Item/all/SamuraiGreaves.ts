@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const samuraiGreavesData = {
   id: 20044,
   name: "Samurai greaves",
-  iconUrl: "/assets/items/samurai-greaves.png",
+  iconUrl: "/assets/items/20044.png",
   examine: "Armoured greaves of the Samurai.",
   value: 3200,
   highAlch: 1920,

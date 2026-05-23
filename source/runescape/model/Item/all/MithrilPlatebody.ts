@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const mithrilPlatebodyData = {
   id: 1601,
   name: 'Mithril platebody',
-  iconUrl: '/assets/items/mithril-platebody.png',
+  iconUrl: '/assets/items/1601.png',
   examine: 'A suit of mithril body armour.',
   value: 967,
   highAlch: 580,

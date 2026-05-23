@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominKiteshieldData = {
   id: 2667,
   name: "Saradomin kiteshield",
-  iconUrl: "/assets/items/saradomin-kiteshield.png",
+  iconUrl: "/assets/items/2667.png",
   examine: "Rune kiteshield in the colours of Saradomin.",
   value: 54400,
   highAlch: 32640,

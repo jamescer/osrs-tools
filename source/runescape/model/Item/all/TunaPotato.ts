@@ -17,7 +17,7 @@ const tunaPotatoData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Tuna_potato',
-  iconUrl: '/assets/items/tuna-potato.png',
+  iconUrl: '/assets/items/7060.png',
 };
 
 export const TunaPotato = Item.fromJson(tunaPotatoData);

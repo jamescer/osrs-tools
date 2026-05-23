@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackLongswordData = {
   id: 564,
   name: 'Black longsword',
-  iconUrl: '/assets/items/black-longsword.png',
+  iconUrl: '/assets/items/564.png',
   examine: 'A longsword made of black metal.',
   value: 392,
   highAlch: 235,

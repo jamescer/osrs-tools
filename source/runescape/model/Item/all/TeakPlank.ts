@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const teakPlankData = {
   id: 8780,
   name: "Teak plank",
-  iconUrl: "/assets/items/teak-plank.png",
+  iconUrl: "/assets/items/8780.png",
   examine: "A plank of fine teak.",
   value: 500,
   highAlch: 300,

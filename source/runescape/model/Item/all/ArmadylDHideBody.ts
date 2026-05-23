@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylDHideBodyData = {
   id: 12508,
   name: "Armadyl d'hide body",
-  iconUrl: "/assets/items/armadyl-dhide-body.png",
+  iconUrl: "/assets/items/12508.png",
   examine: "Armadyl blessed dragonhide body armour.",
   value: 13000,
   highAlch: 7800,

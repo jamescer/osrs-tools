@@ -10,7 +10,7 @@ const rockCakeData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Dwarven rock cake',
-  iconUrl: '/assets/items/dwarven-rock-cake.png',
+  iconUrl: '/assets/items/7509.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Dwarven_rock_cake',
   prayer: 0,

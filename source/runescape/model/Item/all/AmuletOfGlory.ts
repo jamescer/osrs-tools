@@ -20,7 +20,7 @@ const amuletOfGloryData: ItemJson = {
   members: true,
   meleeStrength: 6,
   name: 'Amulet of glory',
-  iconUrl: '/assets/items/amulet-of-glory.png',
+  iconUrl: '/assets/items/1704.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Amulet_of_glory',
   prayer: 3,

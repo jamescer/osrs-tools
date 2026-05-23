@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const adamantPickaxeData = {
   id: 1271,
   name: "Adamant pickaxe",
-  iconUrl: "/assets/items/adamant-pickaxe.png",
+  iconUrl: "/assets/items/1271.png",
   examine: "Used for mining.",
   value: 3200,
   highAlch: 1920,

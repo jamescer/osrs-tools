@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominDHideBootsData = {
   id: 19933,
   name: "Saradomin d'hide boots",
-  iconUrl: "/assets/items/saradomin-dhide-boots.png",
+  iconUrl: "/assets/items/19933.png",
   examine: "Saradomin blessed dragonhide boots.",
   value: 9300,
   highAlch: 5580,

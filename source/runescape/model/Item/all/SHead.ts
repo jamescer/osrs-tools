@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sHeadData = {
   id: 21909,
   name: "Vorkath's stuffed head",
-  iconUrl: "/assets/items/vorkaths-stuffed-head.png",
+  iconUrl: "/assets/items/21909.png",
   examine: "I could mount this on my wall!",
   value: 50000,
   highAlch: 30000,

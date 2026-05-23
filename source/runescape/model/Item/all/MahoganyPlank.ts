@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const mahoganyPlankData = {
   id: 8782,
   name: "Mahogany plank",
-  iconUrl: "/assets/items/mahogany-plank.png",
+  iconUrl: "/assets/items/8782.png",
   examine: "A plank of expensive mahogany.",
   value: 1500,
   highAlch: 900,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackPickaxeData = {
   id: 1543,
   name: 'Black pickaxe',
-  iconUrl: '/assets/items/black-pickaxe.png',
+  iconUrl: '/assets/items/1543.png',
   examine: 'A black pickaxe is a tool for mining.',
   value: 682,
   highAlch: 409,

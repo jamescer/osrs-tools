@@ -17,7 +17,7 @@ const soulRuneData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Soul_rune',
-  iconUrl: '/assets/items/soul-rune.png',
+  iconUrl: '/assets/items/566.png',
 };
 
 export const SoulRune = Item.fromJson(soulRuneData);

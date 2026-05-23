@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeScimitarOrnamentKitGuthixData = {
   id: 23321,
   name: "Rune scimitar ornament kit (guthix)",
-  iconUrl: "/assets/items/rune-scimitar-ornament-kit-guthix.png",
+  iconUrl: "/assets/items/23321.png",
   examine: "Use on a rune scimitar to make it look fancier!",
   value: 5000,
   highAlch: 3000,

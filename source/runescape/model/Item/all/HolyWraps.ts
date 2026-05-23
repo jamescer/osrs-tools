@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const holyWrapsData = {
   id: 19997,
   name: "Holy wraps",
-  iconUrl: "/assets/items/holy-wraps.png",
+  iconUrl: "/assets/items/19997.png",
   examine: "Holy handwear!",
   value: 9600,
   highAlch: 5760,

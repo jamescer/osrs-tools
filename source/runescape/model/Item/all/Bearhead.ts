@@ -20,7 +20,7 @@ const bearheadData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Bearhead',
-  iconUrl: '/assets/items/bearhead.png',
+  iconUrl: '/assets/items/4181.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Bearhead',
   prayer: 0,

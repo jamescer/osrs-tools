@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const amuletOfMagicData = {
   id: 1478,
   name: 'Amulet of magic',
-  iconUrl: '/assets/items/amulet-of-magic.png',
+  iconUrl: '/assets/items/1478.png',
   examine: 'A mystical amulet.',
   value: 315,
   highAlch: 189,

@@ -20,7 +20,7 @@ const blackAxeData: ItemJson = {
   members: true,
   meleeStrength: 5,
   name: 'Black axe',
-  iconUrl: '/assets/items/black-axe.png',
+  iconUrl: '/assets/items/1361.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_axe',
   prayer: 0,

@@ -17,7 +17,7 @@ const wizardHatData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Wizard_hat',
-  iconUrl: '/assets/items/wizard-hat.png',
+  iconUrl: '/assets/items/1017.png',
 };
 
 export const WizardHat = Item.fromJson(wizardHatData);

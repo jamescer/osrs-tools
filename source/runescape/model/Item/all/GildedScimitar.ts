@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedScimitarData = {
   id: 12389,
   name: "Gilded scimitar",
-  iconUrl: "/assets/items/gilded-scimitar.png",
+  iconUrl: "/assets/items/12389.png",
   examine: "Rune scimitar with gold plate.",
   value: 25600,
   highAlch: 15360,

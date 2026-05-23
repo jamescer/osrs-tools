@@ -10,7 +10,7 @@ const catData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Cat',
-  iconUrl: '/assets/items/cat.png',
+  iconUrl: '/assets/items/1561.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Cat',
   prayer: 0,

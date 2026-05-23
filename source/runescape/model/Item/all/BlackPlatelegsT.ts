@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackPlatesLegsTData = {
   id: 3475,
   name: 'Black platelegs (t)',
-  iconUrl: '/assets/items/black-platelegs-t.png',
+  iconUrl: '/assets/items/3475.png',
   examine: 'A suit of black leg armour, decorated with gold trim.',
   value: 7200,
   highAlch: 4320,

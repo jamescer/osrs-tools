@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const guthixDHideBodyData = {
   id: 10378,
   name: "Guthix d'hide body",
-  iconUrl: "/assets/items/guthix-dhide-body.png",
+  iconUrl: "/assets/items/10378.png",
   examine: "Guthix blessed dragonhide body armour.",
   value: 13000,
   highAlch: 7800,

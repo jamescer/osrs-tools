@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackFullHelmData = {
   id: 550,
   name: 'Black full helm',
-  iconUrl: '/assets/items/black-full-helm.png',
+  iconUrl: '/assets/items/550.png',
   examine: 'A full helmet made of black metal.',
   value: 320,
   highAlch: 192,

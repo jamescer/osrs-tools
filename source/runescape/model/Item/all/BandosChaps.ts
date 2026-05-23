@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosChapsData = {
   id: 12502,
   name: "Bandos chaps",
-  iconUrl: "/assets/items/bandos-chaps.png",
+  iconUrl: "/assets/items/12502.png",
   examine: "Bandos blessed dragonhide chaps.",
   value: 6000,
   highAlch: 3600,

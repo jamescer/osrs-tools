@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeKiteshieldData = {
   id: 10352,
   name: "3rd age kiteshield",
-  iconUrl: "/assets/items/3rd-age-kiteshield.png",
+  iconUrl: "/assets/items/10352.png",
   examine: "Fabulously ancient armour beaten from magical silver.",
   value: 180000,
   highAlch: 108000,

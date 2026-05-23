@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const rainBowData = {
   id: 1365,
   name: 'Rain bow',
-  iconUrl: '/assets/items/rain-bow.png',
+  iconUrl: '/assets/items/1365.png',
   examine: 'A colourful bow.',
   value: 780,
   highAlch: 468,

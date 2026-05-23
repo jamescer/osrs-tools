@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const adamantPlatesData = {
   id: 1609,
   name: 'Adamant platelegs',
-  iconUrl: '/assets/items/adamant-platelegs.png',
+  iconUrl: '/assets/items/1609.png',
   examine: 'A suit of adamant leg armour.',
   value: 1100,
   highAlch: 660,

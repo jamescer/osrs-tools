@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonFullHelmData = {
   id: 1731,
   name: 'Dragon full helm',
-  iconUrl: '/assets/items/dragon-full-helm.png',
+  iconUrl: '/assets/items/1731.png',
   examine: 'A full dragon helmet, it fully covers the head.',
   value: 123750,
   highAlch: 74250,

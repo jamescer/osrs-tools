@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const guthixPage3Data = {
   id: 3837,
   name: "Guthix page 3",
-  iconUrl: "/assets/items/guthix-page-3.png",
+  iconUrl: "/assets/items/3837.png",
   examine: "This seems to have been torn from a book...",
   value: 200,
   highAlch: 120,

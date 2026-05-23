@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const anguishOrnamentKitData = {
   id: 22246,
   name: "Anguish ornament kit",
-  iconUrl: "/assets/items/anguish-ornament-kit.png",
+  iconUrl: "/assets/items/22246.png",
   examine: "Use on a necklace of anguish to make it look fancier!",
   value: 5000,
   highAlch: 3000,

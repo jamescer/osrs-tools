@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeRangeCoifData = {
   id: 10334,
   name: "3rd age range coif",
-  iconUrl: "/assets/items/3rd-age-range-coif.png",
+  iconUrl: "/assets/items/10334.png",
   examine: "Fabulously ancient range protection crafted from white dragonhide.",
   value: 50400,
   highAlch: 30240,

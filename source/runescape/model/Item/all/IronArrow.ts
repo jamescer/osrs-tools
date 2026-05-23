@@ -17,7 +17,7 @@ const ironArrowData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Iron_arrow',
-  iconUrl: '/assets/items/iron-arrow.png',
+  iconUrl: '/assets/items/884.png',
 };
 
 export const IronArrow = Item.fromJson(ironArrowData);

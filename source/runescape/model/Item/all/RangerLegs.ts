@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const rangerLegsData: ItemJson = {
   id: 7658,
   name: 'Ranger legs',
-  iconUrl: '/assets/items/ranger-legs.png',
+  iconUrl: '/assets/items/7658.png',
   examine: 'Comfortable and practical trousers.',
   value: 40000,
   highAlch: 12000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosDHideBootsData = {
   id: 19924,
   name: "Bandos d'hide boots",
-  iconUrl: "/assets/items/bandos-dhide-boots.png",
+  iconUrl: "/assets/items/19924.png",
   examine: "Bandos blessed dragonhide boots.",
   value: 9300,
   highAlch: 5580,

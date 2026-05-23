@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientMitreData = {
   id: 12203,
   name: "Ancient mitre",
-  iconUrl: "/assets/items/ancient-mitre.png",
+  iconUrl: "/assets/items/12203.png",
   examine: "An Ancient mitre.",
   value: 5000,
   highAlch: 3000,

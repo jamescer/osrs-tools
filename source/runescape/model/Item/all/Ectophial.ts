@@ -10,7 +10,7 @@ const ectophialData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Ectophial',
-  iconUrl: '/assets/items/ectophial.png',
+  iconUrl: '/assets/items/4251.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ectophial',
   prayer: 0,

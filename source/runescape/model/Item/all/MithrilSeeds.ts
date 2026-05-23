@@ -10,7 +10,7 @@ const mithrilSeedsData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Mithril seeds',
-  iconUrl: '/assets/items/mithril-seeds.png',
+  iconUrl: '/assets/items/299.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Mithril_seeds',
   prayer: 0,

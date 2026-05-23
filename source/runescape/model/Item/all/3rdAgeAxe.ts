@@ -3,7 +3,7 @@ import { Item } from "../Item";
 const ThirdAgeAxeData = {
   id: 20011,
   name: "3rd age axe",
-  iconUrl: "/assets/items/3rd-age-axe.png",
+  iconUrl: "/assets/items/20011.png",
   examine: "A beautifully crafted axe, shaped by ancient smiths.",
   value: 55000,
   highAlch: 33000,

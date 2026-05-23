@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackDaggerData = {
   id: 485,
   name: 'Black dagger',
-  iconUrl: '/assets/items/black-dagger.png',
+  iconUrl: '/assets/items/485.png',
   examine: 'A dagger made of black metal.',
   value: 120,
   highAlch: 72,

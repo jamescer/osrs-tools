@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const oldDemonMaskData = {
   id: 20029,
   name: "Old demon mask",
-  iconUrl: "/assets/items/old-demon-mask.png",
+  iconUrl: "/assets/items/20029.png",
   examine: "Lost in time.",
   value: 4000,
   highAlch: 2400,

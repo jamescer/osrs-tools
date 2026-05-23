@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeRangeLegsData = {
   id: 10332,
   name: "3rd age range legs",
-  iconUrl: "/assets/items/3rd-age-range-legs.png",
+  iconUrl: "/assets/items/10332.png",
   examine: "Fabulously ancient range protection crafted from white dragonhide.",
   value: 50600,
   highAlch: 30360,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosCrozierData = {
   id: 12275,
   name: "Bandos crozier",
-  iconUrl: "/assets/items/bandos-crozier.png",
+  iconUrl: "/assets/items/12275.png",
   examine: "A Bandos crozier.",
   value: 5000,
   highAlch: 3000,

@@ -17,7 +17,7 @@ const steelDaggerData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: "https://oldschool.runescape.wiki/w/Steel_dagger",
-  iconUrl: "/assets/items/steel-dagger.png",
+  iconUrl: "/assets/items/1207.png",
 };
 
 export const SteelDagger = Item.fromJson(steelDaggerData);

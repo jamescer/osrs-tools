@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackBattleaxeData = {
   id: 588,
   name: 'Black battleaxe',
-  iconUrl: '/assets/items/black-battleaxe.png',
+  iconUrl: '/assets/items/588.png',
   examine: 'A battleaxe made of black metal.',
   value: 448,
   highAlch: 268,

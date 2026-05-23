@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const monksRobeTopGData = {
   id: 7639,
   name: 'Monk\'s robe top (g)',
-  iconUrl: '/assets/items/monks-robe-top-g.png',
+  iconUrl: '/assets/items/7639.png',
   examine: 'A religious robe, decorated with gold trim.',
   value: 1560,
   highAlch: 936,

@@ -17,7 +17,7 @@ const herringData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Herring',
-  iconUrl: '/assets/items/herring.png',
+  iconUrl: '/assets/items/345.png',
 };
 
 export const Herring = Item.fromJson(herringData);

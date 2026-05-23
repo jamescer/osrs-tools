@@ -17,7 +17,7 @@ const blackRobeData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_robe',
-  iconUrl: '/assets/items/black-robe.png',
+  iconUrl: '/assets/items/581.png',
 };
 
 export const BlackRobe = Item.fromJson(blackRobeData);

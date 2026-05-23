@@ -17,7 +17,7 @@ const dragonLongswordData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Dragon_longsword',
-  iconUrl: '/assets/items/dragon-longsword.png',
+  iconUrl: '/assets/items/1305.png',
 };
 
 export const DragonLongsword = Item.fromJson(dragonLongswordData);

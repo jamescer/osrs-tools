@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const deerstalkerData = {
   id: 12540,
   name: "Deerstalker",
-  iconUrl: "/assets/items/deerstalker.png",
+  iconUrl: "/assets/items/12540.png",
   examine: "Elementary!",
   value: 2300,
   highAlch: 1380,

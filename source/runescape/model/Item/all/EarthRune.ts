@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const earthRuneData = {
   id: 560,
   name: 'Earth rune',
-  iconUrl: '/assets/items/earth-rune.png',
+  iconUrl: '/assets/items/560.png',
   examine: 'An earth rune.',
   value: 4,
   highAlch: 2,

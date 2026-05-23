@@ -20,7 +20,7 @@ const ringOfDuelingData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Ring of dueling(8)',
-  iconUrl: '/assets/items/ring-of-dueling8.png',
+  iconUrl: '/assets/items/2552.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Ring_of_dueling',
   prayer: 0,

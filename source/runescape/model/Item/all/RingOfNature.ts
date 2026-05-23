@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ringOfNatureData = {
   id: 20005,
   name: "Ring of nature",
-  iconUrl: "/assets/items/ring-of-nature.png",
+  iconUrl: "/assets/items/20005.png",
   examine: "A ring shaped like the nature rune symbol.",
   value: 8000,
   highAlch: 4800,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedSpadeData = {
   id: 23282,
   name: "Gilded spade",
-  iconUrl: "/assets/items/gilded-spade.png",
+  iconUrl: "/assets/items/23282.png",
   examine: "Oh, I'm a gold digger?",
   value: 1000,
   highAlch: 600,

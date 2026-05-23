@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sHelmData = {
   id: 11864,
   name: "Slayer helmet",
-  iconUrl: "/assets/items/slayer-helmet.png",
+  iconUrl: "/assets/items/11864.png",
   examine: "You don't want to wear it inside-out.",
   value: 40000,
   highAlch: 24000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sBodyData = {
   id: 0,
   name: "Morrigan's leather body (bh)",
-  iconUrl: "/assets/items/morrigans-leather-body-bh.png",
+  iconUrl: "/assets/items/0.png",
   examine: "A morrigan's leather body (bh).",
   value: 0,
   highAlch: 0,

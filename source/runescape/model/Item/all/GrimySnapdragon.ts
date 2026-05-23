@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const grimySnapdragonData = {
   id: 3051,
   name: "Grimy snapdragon",
-  iconUrl: "/assets/items/grimy-snapdragon.png",
+  iconUrl: "/assets/items/3051.png",
   examine: "It needs cleaning.",
   value: 21,
   highAlch: 12,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeDruidicStaffData = {
   id: 23342,
   name: "3rd age druidic staff",
-  iconUrl: "/assets/items/3rd-age-druidic-staff.png",
+  iconUrl: "/assets/items/23342.png",
   examine: "A fabulously ancient gnarled staff as used by the druids of old.",
   value: 200000,
   highAlch: 120000,

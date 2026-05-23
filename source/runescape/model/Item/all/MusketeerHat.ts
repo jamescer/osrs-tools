@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const musketeerHatData = {
   id: 12351,
   name: "Musketeer hat",
-  iconUrl: "/assets/items/musketeer-hat.png",
+  iconUrl: "/assets/items/12351.png",
   examine: "Engarde!",
   value: 3500,
   highAlch: 2100,

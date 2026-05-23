@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeCloakData = {
   id: 12437,
   name: "3rd age cloak",
-  iconUrl: "/assets/items/3rd-age-cloak.png",
+  iconUrl: "/assets/items/12437.png",
   examine: "A beautiful cloak woven by ancient tailors.",
   value: 85000,
   highAlch: 51000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeBowData = {
   id: 12424,
   name: "3rd age bow",
-  iconUrl: "/assets/items/3rd-age-bow.png",
+  iconUrl: "/assets/items/12424.png",
   examine: "A beautifully crafted bow carved by ancient archers.",
   value: 150000,
   highAlch: 90000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakMitreData = {
   id: 10456,
   name: "Zamorak mitre",
-  iconUrl: "/assets/items/zamorak-mitre.png",
+  iconUrl: "/assets/items/10456.png",
   examine: "A Zamorak mitre.",
   value: 5000,
   highAlch: 3000,

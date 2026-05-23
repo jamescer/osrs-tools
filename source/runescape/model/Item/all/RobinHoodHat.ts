@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const robinHoodHatData = {
   id: 2581,
   name: "Robin hood hat",
-  iconUrl: "/assets/items/robin-hood-hat.png",
+  iconUrl: "/assets/items/2581.png",
   examine: "Endorsed by Robin Hood.",
   value: 450,
   highAlch: 270,

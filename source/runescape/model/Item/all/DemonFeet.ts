@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const demonFeetData = {
   id: 23294,
   name: "Demon feet",
-  iconUrl: "/assets/items/demon-feet.png",
+  iconUrl: "/assets/items/23294.png",
   examine: "Vicious demon slippers.",
   value: 1000,
   highAlch: 600,

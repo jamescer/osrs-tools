@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const piratesHatData = {
   id: 2651,
   name: "Pirate's hat",
-  iconUrl: '/assets/items/pirates-hat.png',
+  iconUrl: '/assets/items/2651.png',
   examine: 'Shiver me timbers!',
   value: 180,
   highAlch: 108,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakKiteshieldData = {
   id: 2659,
   name: "Zamorak kiteshield",
-  iconUrl: "/assets/items/zamorak-kiteshield.png",
+  iconUrl: "/assets/items/2659.png",
   examine: "Rune kiteshield in the colours of Zamorak.",
   value: 54400,
   highAlch: 32640,

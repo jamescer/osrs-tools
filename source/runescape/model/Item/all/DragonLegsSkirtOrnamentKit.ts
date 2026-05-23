@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonLegsSkirtOrnamentKitData = {
   id: 12536,
   name: "Dragon legs/skirt ornament kit",
-  iconUrl: "/assets/items/dragon-legs-skirt-ornament-kit.png",
+  iconUrl: "/assets/items/12536.png",
   examine: "Use on dragon platelegs or plateskirt to make them look fancier!",
   value: 5000,
   highAlch: 3000,

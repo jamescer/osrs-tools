@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeCrossbowData = {
   id: 9185,
   name: "Rune crossbow",
-  iconUrl: "/assets/items/rune-crossbow.png",
+  iconUrl: "/assets/items/9185.png",
   examine: "A runite crossbow.",
   value: 16200,
   highAlch: 9720,

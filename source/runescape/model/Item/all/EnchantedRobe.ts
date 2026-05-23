@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const enchantedRobeData = {
   id: 7398,
   name: "Enchanted robe",
-  iconUrl: "/assets/items/enchanted-robe.png",
+  iconUrl: "/assets/items/7398.png",
   examine: "Enchanted Wizards robes.",
   value: 80000,
   highAlch: 48000,

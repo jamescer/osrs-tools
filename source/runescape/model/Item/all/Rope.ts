@@ -10,7 +10,7 @@ const ropeData: ItemJson = {
   members: false,
   meleeStrength: 0,
   name: 'Rope',
-  iconUrl: '/assets/items/rope.png',
+  iconUrl: '/assets/items/954.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Rope',
   questItem: false,

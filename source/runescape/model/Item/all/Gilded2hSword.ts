@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gilded2hSwordData = {
   id: 20155,
   name: "Gilded 2h sword",
-  iconUrl: "/assets/items/gilded-2h-sword.png",
+  iconUrl: "/assets/items/20155.png",
   examine: "A two handed sword with gold plate.",
   value: 64000,
   highAlch: 38400,

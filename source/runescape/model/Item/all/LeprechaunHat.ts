@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const leprechaunHatData = {
   id: 12359,
   name: "Leprechaun hat",
-  iconUrl: "/assets/items/leprechaun-hat.png",
+  iconUrl: "/assets/items/12359.png",
   examine: "Top o' the morning!",
   value: 1000,
   highAlch: 600,

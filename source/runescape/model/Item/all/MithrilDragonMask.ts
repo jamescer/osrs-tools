@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const mithrilDragonMaskData = {
   id: 12369,
   name: "Mithril dragon mask",
-  iconUrl: "/assets/items/mithril-dragon-mask.png",
+  iconUrl: "/assets/items/12369.png",
   examine: "Do I look scary?",
   value: 10000,
   highAlch: 6000,

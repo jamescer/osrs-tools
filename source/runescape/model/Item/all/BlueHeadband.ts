@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blueHeadbandData = {
   id: 12301,
   name: "Blue headband",
-  iconUrl: "/assets/items/blue-headband.png",
+  iconUrl: "/assets/items/12301.png",
   examine: "A minimalist's hat.",
   value: 40,
   highAlch: 24,

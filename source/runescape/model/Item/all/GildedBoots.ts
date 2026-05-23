@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedBootsData = {
   id: 12391,
   name: "Gilded boots",
-  iconUrl: "/assets/items/gilded-boots.png",
+  iconUrl: "/assets/items/12391.png",
   examine: "Rune boots with gold plate.",
   value: 12500,
   highAlch: 7500,

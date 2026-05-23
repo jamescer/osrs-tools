@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const teamCapeZeroData = {
   id: 6387,
   name: 'Team cape zero',
-  iconUrl: '/assets/items/team-cape-zero.png',
+  iconUrl: '/assets/items/6387.png',
   examine: 'A cape worn by team zero.',
   value: 468,
   highAlch: 280,

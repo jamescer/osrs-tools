@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ironPlatesData = {
   id: 1593,
   name: 'Iron platelegs',
-  iconUrl: '/assets/items/iron-platelegs.png',
+  iconUrl: '/assets/items/1593.png',
   examine: 'A suit of iron leg armour.',
   value: 62,
   highAlch: 37,

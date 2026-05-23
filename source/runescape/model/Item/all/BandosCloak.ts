@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bandosCloakData = {
   id: 12273,
   name: "Bandos cloak",
-  iconUrl: "/assets/items/bandos-cloak.png",
+  iconUrl: "/assets/items/12273.png",
   examine: "A Bandos cloak.",
   value: 2000,
   highAlch: 1200,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const amuletOfTheVoidData = {
   id: 12202,
   name: 'Amulet of the void',
-  iconUrl: '/assets/items/amulet-of-the-void.png',
+  iconUrl: '/assets/items/12202.png',
   examine: 'A carefully woven amulet that draws power from the void.',
   value: 2500,
   highAlch: 1500,

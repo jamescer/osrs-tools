@@ -17,7 +17,7 @@ const blackKiteshieldData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_kiteshield',
-  iconUrl: '/assets/items/black-kiteshield.png',
+  iconUrl: '/assets/items/1195.png',
 };
 
 export const BlackKiteshield = Item.fromJson(blackKiteshieldData);

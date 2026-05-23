@@ -17,7 +17,7 @@ const blackMedHelmData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_med_helm',
-  iconUrl: '/assets/items/black-med-helm.png',
+  iconUrl: '/assets/items/1137.png',
 };
 
 export const BlackMedHelm = Item.fromJson(blackMedHelmData);

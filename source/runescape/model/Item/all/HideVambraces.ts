@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const hideVambracesData = {
   id: 30082,
   name: "Hueycoatl hide vambraces",
-  iconUrl: "/assets/items/hueycoatl-hide-vambraces.png",
+  iconUrl: "/assets/items/30082.png",
   examine: "Made from real Huey hide!",
   value: 4320,
   highAlch: 2592,

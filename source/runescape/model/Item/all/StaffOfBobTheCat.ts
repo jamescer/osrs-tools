@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const staffOfBobTheCatData = {
   id: 9616,
   name: 'Staff of bob the cat',
-  iconUrl: '/assets/items/staff-of-bob-the-cat.png',
+  iconUrl: '/assets/items/9616.png',
   examine: 'A staff in the shape of a cat.',
   value: 1560,
   highAlch: 936,

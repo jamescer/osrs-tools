@@ -20,7 +20,7 @@ const skeletalBottomsData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Skeletal bottoms',
-  iconUrl: '/assets/items/skeletal-bottoms.png',
+  iconUrl: '/assets/items/6143.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Skeletal_bottoms',
   prayer: 0,

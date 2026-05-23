@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonstoneBraceletData = {
   id: 11115,
   name: "Dragonstone bracelet",
-  iconUrl: "/assets/items/dragonstone-bracelet.png",
+  iconUrl: "/assets/items/11115.png",
   examine: "I wonder if this is valuable.",
   value: 19125,
   highAlch: 11475,

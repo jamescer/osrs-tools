@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runePlatesData = {
   id: 1737,
   name: 'Rune platelegs',
-  iconUrl: '/assets/items/rune-platelegs.png',
+  iconUrl: '/assets/items/1737.png',
   examine: 'A suit of rune leg armour.',
   value: 23250,
   highAlch: 13950,

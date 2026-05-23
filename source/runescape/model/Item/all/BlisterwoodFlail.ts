@@ -20,7 +20,7 @@ const blisterWoodFlailData: ItemJson = {
   members: true,
   meleeStrength: 66,
   name: 'Blisterwood flail',
-  iconUrl: '/assets/items/blisterwood-flail.png',
+  iconUrl: '/assets/items/24699.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Blisterwood_flail',
   prayer: 3,

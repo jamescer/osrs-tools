@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const jesterCapeData = {
   id: 23297,
   name: "Jester cape",
-  iconUrl: "/assets/items/jester-cape.png",
+  iconUrl: "/assets/items/23297.png",
   examine: "A jester cape.",
   value: 1000,
   highAlch: 600,

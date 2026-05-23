@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedSpearData = {
   id: 20158,
   name: "Gilded spear",
-  iconUrl: "/assets/items/gilded-spear.png",
+  iconUrl: "/assets/items/20158.png",
   examine: "A rune tipped spear with gold plate.",
   value: 20800,
   highAlch: 12480,

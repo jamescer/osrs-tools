@@ -3,7 +3,7 @@ import { Item } from "../Item";
 const greenDHideBodyData = {
   id: 1135,
   name: "Green d'hide body",
-  iconUrl: "/assets/items/green-dhide-body.png",
+  iconUrl: "/assets/items/1135.png",
   examine: "Body armour made from green dragon hide.",
   value: 1315,
   highAlch: 789,

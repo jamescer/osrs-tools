@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const amuletOfMagicTData: ItemJson = {
   id: 2523,
   name: 'Amulet of magic (t)',
-  iconUrl: '/assets/items/amulet-of-magic-t.png',
+  iconUrl: '/assets/items/2523.png',
   examine: 'An amulet of magic (trimmed).',
   value: 12000,
   highAlch: 7200,

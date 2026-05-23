@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const adamantShieldGData = {
   id: 3505,
   name: 'Adamant shield (g)',
-  iconUrl: '/assets/items/adamant-shield-g.png',
+  iconUrl: '/assets/items/3505.png',
   examine: 'An adamant shield, decorated with gold.',
   value: 2200,
   highAlch: 1320,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakDHideBootsData = {
   id: 19936,
   name: "Zamorak d'hide boots",
-  iconUrl: "/assets/items/zamorak-dhide-boots.png",
+  iconUrl: "/assets/items/19936.png",
   examine: "Zamorak blessed dragonhide boots.",
   value: 9300,
   highAlch: 5580,

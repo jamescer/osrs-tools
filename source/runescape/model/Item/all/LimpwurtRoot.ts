@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const limpwurtRootData = {
   id: 225,
   name: "Limpwurt root",
-  iconUrl: "/assets/items/limpwurt-root.png",
+  iconUrl: "/assets/items/225.png",
   examine: "The root of a limpwurt plant.",
   value: 7,
   highAlch: 4,

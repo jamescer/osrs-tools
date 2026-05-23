@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientCoifData = {
   id: 12496,
   name: "Ancient coif",
-  iconUrl: "/assets/items/ancient-coif.png",
+  iconUrl: "/assets/items/12496.png",
   examine: "Ancient blessed dragonhide coif.",
   value: 2000,
   highAlch: 1200,

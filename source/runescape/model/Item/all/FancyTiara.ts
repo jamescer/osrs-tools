@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const fancyTiaraData = {
   id: 20008,
   name: "Fancy tiara",
-  iconUrl: "/assets/items/fancy-tiara.png",
+  iconUrl: "/assets/items/20008.png",
   examine: "Call me princess.",
   value: 8000,
   highAlch: 4800,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const hamJointData = {
   id: 2678,
   name: 'Ham joint',
-  iconUrl: '/assets/items/ham-joint.png',
+  iconUrl: '/assets/items/2678.png',
   examine: 'A prime cut of meat.',
   value: 156,
   highAlch: 93,

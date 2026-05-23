@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackCavalierData = {
   id: 2643,
   name: "Black cavalier",
-  iconUrl: "/assets/items/black-cavalier.png",
+  iconUrl: "/assets/items/2643.png",
   examine: "All for one and one for all!",
   value: 200,
   highAlch: 120,

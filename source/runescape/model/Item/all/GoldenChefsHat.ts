@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const goldenChefsHatData: ItemJson = {
   id: 13213,
   name: 'Golden chef\'s hat',
-  iconUrl: '/assets/items/golden-chefs-hat.png',
+  iconUrl: '/assets/items/13213.png',
   examine: 'What a perfectly reasonable hat.',
   value: 366692,
   highAlch: 1,

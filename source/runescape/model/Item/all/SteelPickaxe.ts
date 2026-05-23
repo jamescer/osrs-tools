@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const steelPickaxeData = {
   id: 1539,
   name: 'Steel pickaxe',
-  iconUrl: '/assets/items/steel-pickaxe.png',
+  iconUrl: '/assets/items/1539.png',
   examine: 'A steel pickaxe is a basic tool for mining.',
   value: 325,
   highAlch: 195,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const crierCoatData = {
   id: 20240,
   name: "Crier coat",
-  iconUrl: "/assets/items/crier-coat.png",
+  iconUrl: "/assets/items/20240.png",
   examine: "Don't shoot the messenger!",
   value: 5000,
   highAlch: 3000,

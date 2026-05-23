@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonDaggerData = {
   id: 1215,
   name: "Dragon dagger",
-  iconUrl: "/assets/items/dragon-dagger.png",
+  iconUrl: "/assets/items/1215.png",
   examine: "A powerful dagger.",
   value: 30000,
   highAlch: 18000,

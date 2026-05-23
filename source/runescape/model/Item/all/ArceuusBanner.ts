@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const arceuusBannerData = {
   id: 20251,
   name: "Arceuus banner",
-  iconUrl: "/assets/items/arceuus-banner.png",
+  iconUrl: "/assets/items/20251.png",
   examine: "An ancient banner bearing the mark of the Arceuus Elders.",
   value: 70,
   highAlch: 42,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeScimitarOrnamentKitZamorakData = {
   id: 23327,
   name: "Rune scimitar ornament kit (zamorak)",
-  iconUrl: "/assets/items/rune-scimitar-ornament-kit-zamorak.png",
+  iconUrl: "/assets/items/23327.png",
   examine: "Use on a rune scimitar to make it look fancier!",
   value: 5000,
   highAlch: 3000,

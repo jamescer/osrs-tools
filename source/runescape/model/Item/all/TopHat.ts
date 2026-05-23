@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const topHatData = {
   id: 12432,
   name: "Top hat",
-  iconUrl: "/assets/items/top-hat.png",
+  iconUrl: "/assets/items/12432.png",
   examine: "Aint no rabbits in this hat.",
   value: 1800,
   highAlch: 1080,

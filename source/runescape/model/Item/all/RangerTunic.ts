@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const rangerTunicData = {
   id: 11601,
   name: 'Ranger tunic',
-  iconUrl: '/assets/items/ranger-tunic.png',
+  iconUrl: '/assets/items/11601.png',
   examine: 'A tunic suited for combat.',
   value: 41000,
   highAlch: 24600,

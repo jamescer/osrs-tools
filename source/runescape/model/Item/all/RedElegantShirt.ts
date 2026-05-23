@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const redElegantShirtData = {
   id: 7619,
   name: 'Red elegant shirt',
-  iconUrl: '/assets/items/red-elegant-shirt.png',
+  iconUrl: '/assets/items/7619.png',
   examine: 'An elegant red shirt.',
   value: 384,
   highAlch: 230,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakDHideShieldData = {
   id: 23194,
   name: "Zamorak d'hide shield",
-  iconUrl: "/assets/items/zamorak-dhide-shield.png",
+  iconUrl: "/assets/items/23194.png",
   examine: "Zamorak blessed wooden shield covered in dragon leather.",
   value: 28334,
   highAlch: 17000,

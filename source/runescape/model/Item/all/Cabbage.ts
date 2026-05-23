@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const cabbageData = {
   id: 1965,
   name: "Cabbage",
-  iconUrl: "/assets/items/cabbage.png",
+  iconUrl: "/assets/items/1965.png",
   examine: "Yuck I don't like cabbage.",
   value: 1,
   highAlch: 0,

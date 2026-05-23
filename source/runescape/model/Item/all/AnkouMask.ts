@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ankouMaskData = {
   id: 20095,
   name: "Ankou mask",
-  iconUrl: "/assets/items/ankou-mask.png",
+  iconUrl: "/assets/items/20095.png",
   examine: "This mask will make your flesh transparent.",
   value: 1,
   highAlch: 0,

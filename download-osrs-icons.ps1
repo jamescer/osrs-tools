@@ -70,7 +70,7 @@ $skills = @(
     "Attack", "Defence", "Strength", "Hitpoints", "Ranged", "Prayer", "Magic",
     "Cooking", "Woodcutting", "Fletching", "Fishing", "Firemaking", "Crafting",
     "Smithing", "Mining", "Herblore", "Agility", "Thieving", "Slayer", "Farming",
-    "Runecrafting", "Construction", "Dungeoneering", "Divination", "Sailing"
+    "Runecraft", "Construction", "Hunter", "Sailing"
 )
 
 foreach ($skill in $skills) {

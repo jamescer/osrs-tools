@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const urisHatData = {
   id: 23255,
   name: "Uri's hat",
-  iconUrl: '/assets/items/uris-hat.png',
+  iconUrl: '/assets/items/23255.png',
   examine: 'This is top secret comrade...',
   value: 1000,
   highAlch: 600,

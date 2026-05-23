@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blackUnicornMaskData = {
   id: 20266,
   name: "Black unicorn mask",
-  iconUrl: "/assets/items/black-unicorn-mask.png",
+  iconUrl: "/assets/items/20266.png",
   examine: "Pointy shadows.",
   value: 1000,
   highAlch: 600,

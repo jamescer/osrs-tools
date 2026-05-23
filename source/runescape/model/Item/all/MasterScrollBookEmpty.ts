@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const masterScrollBookEmptyData: ItemJson = {
   id: 16644,
   name: 'Master scroll book (empty)',
-  iconUrl: '/assets/items/master-scroll-book-empty.png',
+  iconUrl: '/assets/items/16644.png',
   examine: 'A blank book for storing the pages of treasure trail rewards.',
   value: 65000,
   highAlch: 39000,

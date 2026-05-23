@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const goldenApronData = {
   id: 10330,
   name: 'Golden apron',
-  iconUrl: '/assets/items/golden-apron.png',
+  iconUrl: '/assets/items/10330.png',
   examine: 'A golden-coloured apron.',
   value: 1560,
   highAlch: 936,

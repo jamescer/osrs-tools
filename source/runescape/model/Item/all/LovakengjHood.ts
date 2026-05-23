@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const lovakengjHoodData = {
   id: 20119,
   name: "Lovakengj hood",
-  iconUrl: "/assets/items/lovakengj-hood.png",
+  iconUrl: "/assets/items/20119.png",
   examine: "A rare hood from Lovakengj.",
   value: 1,
   highAlch: 0,

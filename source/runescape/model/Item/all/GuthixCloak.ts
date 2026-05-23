@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const guthixCloakData = {
   id: 10448,
   name: "Guthix cloak",
-  iconUrl: "/assets/items/guthix-cloak.png",
+  iconUrl: "/assets/items/10448.png",
   examine: "A Guthix cloak.",
   value: 2000,
   highAlch: 1200,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const guthixKiteshieldData = {
   id: 2675,
   name: "Guthix kiteshield",
-  iconUrl: "/assets/items/guthix-kiteshield.png",
+  iconUrl: "/assets/items/2675.png",
   examine: "Rune kiteshield in the colours of Guthix.",
   value: 54400,
   highAlch: 32640,

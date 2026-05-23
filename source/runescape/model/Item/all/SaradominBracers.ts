@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominBracersData = {
   id: 10384,
   name: "Saradomin bracers",
-  iconUrl: "/assets/items/saradomin-bracers.png",
+  iconUrl: "/assets/items/10384.png",
   examine: "Saradomin blessed dragonhide vambraces.",
   value: 4000,
   highAlch: 2400,

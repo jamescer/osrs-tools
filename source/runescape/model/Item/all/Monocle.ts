@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const monocleData = {
   id: 12353,
   name: "Monocle",
-  iconUrl: "/assets/items/monocle.png",
+  iconUrl: "/assets/items/12353.png",
   examine: "Hmm, shallow and pedantic.",
   value: 1200,
   highAlch: 720,

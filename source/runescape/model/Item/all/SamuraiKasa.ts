@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const samuraiKasaData = {
   id: 20035,
   name: "Samurai kasa",
-  iconUrl: "/assets/items/samurai-kasa.png",
+  iconUrl: "/assets/items/20035.png",
   examine: "A conical hat.",
   value: 4000,
   highAlch: 2400,

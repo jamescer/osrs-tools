@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonBootsOrnamentKitData = {
   id: 22231,
   name: "Dragon boots ornament kit",
-  iconUrl: "/assets/items/dragon-boots-ornament-kit.png",
+  iconUrl: "/assets/items/22231.png",
   examine: "Use on some dragon boots to make them look fancier!",
   value: 5000,
   highAlch: 3000,

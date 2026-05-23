@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylCoifData = {
   id: 12512,
   name: "Armadyl coif",
-  iconUrl: "/assets/items/armadyl-coif.png",
+  iconUrl: "/assets/items/12512.png",
   examine: "Armadyl blessed dragonhide coif.",
   value: 2000,
   highAlch: 1200,

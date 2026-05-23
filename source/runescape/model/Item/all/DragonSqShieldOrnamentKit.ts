@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonSqShieldOrnamentKitData = {
   id: 12532,
   name: "Dragon sq shield ornament kit",
-  iconUrl: "/assets/items/dragon-sq-shield-ornament-kit.png",
+  iconUrl: "/assets/items/12532.png",
   examine: "Use on a dragon square shield to make it look fancier!",
   value: 5000,
   highAlch: 3000,

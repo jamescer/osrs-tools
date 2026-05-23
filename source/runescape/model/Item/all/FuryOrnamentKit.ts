@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const furyOrnamentKitData = {
   id: 12526,
   name: "Fury ornament kit",
-  iconUrl: "/assets/items/fury-ornament-kit.png",
+  iconUrl: "/assets/items/12526.png",
   examine: "Use on an amulet of fury to make it look fancier!",
   value: 5000,
   highAlch: 3000,

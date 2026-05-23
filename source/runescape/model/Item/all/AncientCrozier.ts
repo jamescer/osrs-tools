@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientCrozierData = {
   id: 12199,
   name: "Ancient crozier",
-  iconUrl: "/assets/items/ancient-crozier.png",
+  iconUrl: "/assets/items/12199.png",
   examine: "An Ancient crozier.",
   value: 5000,
   highAlch: 3000,

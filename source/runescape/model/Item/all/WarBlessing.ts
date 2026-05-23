@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const warBlessingData = {
   id: 20232,
   name: "War blessing",
-  iconUrl: "/assets/items/war-blessing.png",
+  iconUrl: "/assets/items/20232.png",
   examine: "The blood of the soldier makes the glory of the general.",
   value: 80,
   highAlch: 48,

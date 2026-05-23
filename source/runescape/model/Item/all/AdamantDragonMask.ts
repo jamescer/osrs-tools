@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const adamantDragonMaskData = {
   id: 23270,
   name: "Adamant dragon mask",
-  iconUrl: "/assets/items/adamant-dragon-mask.png",
+  iconUrl: "/assets/items/23270.png",
   examine: "Do I look scary?",
   value: 10000,
   highAlch: 6000,

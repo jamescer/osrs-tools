@@ -17,7 +17,7 @@ const hardleatherBodyData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Hardleather_body',
-  iconUrl: '/assets/items/hardleather-body.png',
+  iconUrl: '/assets/items/1131.png',
 };
 
 export const HardleatherBody = Item.fromJson(hardleatherBodyData);

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const frogSlippersData = {
   id: 23288,
   name: "Frog slippers",
-  iconUrl: "/assets/items/frog-slippers.png",
+  iconUrl: "/assets/items/23288.png",
   examine: "Cute frog slippers.",
   value: 1000,
   highAlch: 600,

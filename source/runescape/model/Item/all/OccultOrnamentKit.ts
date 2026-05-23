@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const occultOrnamentKitData = {
   id: 20065,
   name: "Occult ornament kit",
-  iconUrl: "/assets/items/occult-ornament-kit.png",
+  iconUrl: "/assets/items/20065.png",
   examine: "Use on an occult necklace to make it look fancier!",
   value: 5000,
   highAlch: 3000,

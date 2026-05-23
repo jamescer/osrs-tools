@@ -10,7 +10,7 @@ const crystalKeyData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Crystal key',
-  iconUrl: '/assets/items/crystal-key.png',
+  iconUrl: '/assets/items/989.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Crystal_key',
   prayer: 0,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const magicSeedData = {
   id: 5316,
   name: "Magic seed",
-  iconUrl: "/assets/items/magic-seed.png",
+  iconUrl: "/assets/items/5316.png",
   examine: "Plant this in a plantpot of soil to grow a sapling.",
   value: 422,
   highAlch: 253,

@@ -14,7 +14,7 @@ const greenDHideChapsData: ItemJson = {
   value: 1,
   releaseDate: "24 September 2001",
   weight: 0,
-  iconUrl: "/assets/items/green-dhide-chaps.png",
+  iconUrl: "/assets/items/1099.png",
   officialWikiUrl: "https://oldschool.runescape.wiki/w/Green_d%27hide_chaps",
   equipable: true,
   destroy: "drop",

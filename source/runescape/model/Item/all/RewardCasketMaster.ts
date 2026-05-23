@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const rewardCasketMasterData: ItemJson = {
   id: 13266,
   name: 'Reward casket (master)',
-  iconUrl: '/assets/items/reward-casket-master.png',
+  iconUrl: '/assets/items/13266.png',
   examine: 'Cross your fingers and your toes.',
   value: 50,
   highAlch: 30,

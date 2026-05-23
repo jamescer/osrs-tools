@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const toothHalfOfKeyData = {
   id: 985,
   name: "Tooth half of key",
-  iconUrl: "/assets/items/tooth-half-of-key.png",
+  iconUrl: "/assets/items/985.png",
   examine: "The tooth end of the mysterious Crystal Key. Can you find the other half?",
   value: 100,
   highAlch: 60,

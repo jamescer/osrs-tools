@@ -20,7 +20,7 @@ const moonclanHelmetData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Moonclan helm',
-  iconUrl: '/assets/items/moonclan-helm.png',
+  iconUrl: '/assets/items/9097.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Moonclan_helm',
   prayer: 0,

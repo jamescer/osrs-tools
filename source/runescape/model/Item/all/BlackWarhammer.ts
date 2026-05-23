@@ -17,7 +17,7 @@ const blackWarhammerData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_warhammer',
-  iconUrl: '/assets/items/black-warhammer.png',
+  iconUrl: '/assets/items/1331.png',
 };
 
 export const BlackWarhammer = Item.fromJson(blackWarhammerData);

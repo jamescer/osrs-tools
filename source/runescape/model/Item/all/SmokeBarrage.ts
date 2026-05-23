@@ -10,7 +10,7 @@ const smokeBarrageData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Smoke barrage',
-  iconUrl: '/assets/items/smoke-barrage.png',
+  iconUrl: '/assets/items/4000.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Smoke_Barrage',
   prayer: 0,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const zamorakCoifData = {
   id: 10374,
   name: "Zamorak coif",
-  iconUrl: "/assets/items/zamorak-coif.png",
+  iconUrl: "/assets/items/10374.png",
   examine: "Zamorak blessed dragonhide coif.",
   value: 2000,
   highAlch: 1200,

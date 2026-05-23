@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const onyxBoltsEData = {
   id: 9245,
   name: "Onyx bolts (e)",
-  iconUrl: "/assets/items/onyx-bolts-e.png",
+  iconUrl: "/assets/items/9245.png",
   examine: "Enchanted Onyx tipped Runite Crossbow Bolts.",
   value: 15000,
   highAlch: 9000,

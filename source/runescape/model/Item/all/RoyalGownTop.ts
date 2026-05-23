@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const royalGownTopData = {
   id: 12393,
   name: "Royal gown top",
-  iconUrl: "/assets/items/royal-gown-top.png",
+  iconUrl: "/assets/items/12393.png",
   examine: "Feeling distinctly ornate.",
   value: 5000,
   highAlch: 3000,

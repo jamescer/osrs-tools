@@ -10,7 +10,7 @@ const morttonTeleportData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Mortton teleport',
-  iconUrl: '/assets/items/mortton-teleport.png',
+  iconUrl: '/assets/items/12406.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Mortton_teleport',
   prayer: 0,

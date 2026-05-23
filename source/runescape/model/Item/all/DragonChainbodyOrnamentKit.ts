@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonChainbodyOrnamentKitData = {
   id: 12534,
   name: "Dragon chainbody ornament kit",
-  iconUrl: "/assets/items/dragon-chainbody-ornament-kit.png",
+  iconUrl: "/assets/items/12534.png",
   examine: "Use on a dragon chainbody to make it look fancier!",
   value: 5000,
   highAlch: 3000,

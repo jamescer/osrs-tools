@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const afroData = {
   id: 12430,
   name: "Afro",
-  iconUrl: "/assets/items/afro.png",
+  iconUrl: "/assets/items/12430.png",
   examine: "Wild!",
   value: 684,
   highAlch: 410,

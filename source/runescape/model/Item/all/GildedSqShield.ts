@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedSqShieldData = {
   id: 20152,
   name: "Gilded sq shield",
-  iconUrl: "/assets/items/gilded-sq-shield.png",
+  iconUrl: "/assets/items/20152.png",
   examine: "A medium square shield in gold plate.",
   value: 38400,
   highAlch: 23040,

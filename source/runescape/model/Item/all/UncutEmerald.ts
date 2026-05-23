@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const uncutEmeraldData = {
   id: 1621,
   name: 'Uncut emerald',
-  iconUrl: '/assets/items/uncut-emerald.png',
+  iconUrl: '/assets/items/1621.png',
   examine: 'An uncut emerald.',
   value: 456,
   highAlch: 273,

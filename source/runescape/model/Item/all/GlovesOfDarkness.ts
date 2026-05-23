@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const glovesOfDarknessData = {
   id: 20134,
   name: "Gloves of darkness",
-  iconUrl: "/assets/items/gloves-of-darkness.png",
+  iconUrl: "/assets/items/20134.png",
   examine: "A dark power is woven into these gloves.",
   value: 10000,
   highAlch: 6000,

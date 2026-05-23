@@ -20,7 +20,7 @@ const dramenStaffData: ItemJson = {
   magicDamage: 0,
   members: true,
   name: 'Dramen staff',
-  iconUrl: '/assets/items/dramen-staff.png',
+  iconUrl: '/assets/items/772.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Dramen_staff',
   questItem: true,

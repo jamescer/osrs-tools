@@ -10,7 +10,7 @@ const royalSeedPodData: ItemJson = {
   members: true,
   meleeStrength: 0,
   name: 'Royal seed pod',
-  iconUrl: '/assets/items/royal-seed-pod.png',
+  iconUrl: '/assets/items/19564.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Royal_seed_pod',
   questItem: false,

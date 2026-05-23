@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const antiVenomPlus4Data = {
   id: 12913,
   name: "Anti-venom+(4)",
-  iconUrl: "/assets/items/anti-venom-plus-4.png",
+  iconUrl: "/assets/items/12913.png",
   examine: "4 doses of super antivenom potion.",
   value: 444,
   highAlch: 266,

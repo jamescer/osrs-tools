@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonPlatebodyOrnamentKitData = {
   id: 22236,
   name: "Dragon platebody ornament kit",
-  iconUrl: "/assets/items/dragon-platebody-ornament-kit.png",
+  iconUrl: "/assets/items/22236.png",
   examine: "Use on a dragon platebody to make it look fancier!",
   value: 5000,
   highAlch: 3000,

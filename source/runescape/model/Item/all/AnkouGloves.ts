@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ankouGlovesData = {
   id: 20101,
   name: "Ankou gloves",
-  iconUrl: "/assets/items/ankou-gloves.png",
+  iconUrl: "/assets/items/20101.png",
   examine: "These gloves will make your flesh transparent.",
   value: 1,
   highAlch: 0,

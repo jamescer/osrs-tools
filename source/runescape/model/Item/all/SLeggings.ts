@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const sLeggingsData = {
   id: 20104,
   name: "Ankou's leggings",
-  iconUrl: "/assets/items/ankous-leggings.png",
+  iconUrl: "/assets/items/20104.png",
   examine: "These leggings will make your flesh transparent.",
   value: 1,
   highAlch: 0,

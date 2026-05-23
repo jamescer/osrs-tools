@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const armadylMitreData = {
   id: 12259,
   name: "Armadyl mitre",
-  iconUrl: "/assets/items/armadyl-mitre.png",
+  iconUrl: "/assets/items/12259.png",
   examine: "An Armadyl mitre.",
   value: 5000,
   highAlch: 3000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const woodenShieldGData = {
   id: 2585,
   name: 'Wooden shield (g)',
-  iconUrl: '/assets/items/wooden-shield-g.png',
+  iconUrl: '/assets/items/2585.png',
   examine: 'A basic wooden shield, decorated with gold.',
   value: 159,
   highAlch: 95,

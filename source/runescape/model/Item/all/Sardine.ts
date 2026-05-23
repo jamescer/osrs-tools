@@ -17,7 +17,7 @@ const sardineData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Sardine',
-  iconUrl: '/assets/items/sardine.png',
+  iconUrl: '/assets/items/327.png',
 };
 
 export const Sardine = Item.fromJson(sardineData);

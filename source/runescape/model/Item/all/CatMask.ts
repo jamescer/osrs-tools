@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const catMaskData = {
   id: 12361,
   name: "Cat mask",
-  iconUrl: "/assets/items/cat-mask.png",
+  iconUrl: "/assets/items/12361.png",
   examine: "Miaow!",
   value: 2400,
   highAlch: 1440,

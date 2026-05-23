@@ -17,7 +17,7 @@ const blackMaceData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Black_mace',
-  iconUrl: '/assets/items/black-mace.png',
+  iconUrl: '/assets/items/1420.png',
 };
 
 export const BlackMace = Item.fromJson(blackMaceData);

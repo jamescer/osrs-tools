@@ -17,7 +17,7 @@ const staffOfWaterData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Staff_of_water',
-  iconUrl: '/assets/items/staff-of-water.png',
+  iconUrl: '/assets/items/1383.png',
 };
 
 export const StaffOfWater = Item.fromJson(staffOfWaterData);

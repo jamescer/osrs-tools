@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ThirdAgeWandData = {
   id: 12422,
   name: "3rd age wand",
-  iconUrl: "/assets/items/3rd-age-wand.png",
+  iconUrl: "/assets/items/12422.png",
   examine: "A beautifully crafted wand infused by ancient wizards.",
   value: 150000,
   highAlch: 90000,

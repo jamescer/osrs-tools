@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonScimitarData = {
   id: 4587,
   name: "Dragon scimitar",
-  iconUrl: "/assets/items/dragon-scimitar.png",
+  iconUrl: "/assets/items/4587.png",
   examine: "A vicious, curved sword.",
   value: 100000,
   highAlch: 60000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ironFullHelmTData = {
   id: 3481,
   name: 'Iron full helm (t)',
-  iconUrl: '/assets/items/iron-full-helm-t.png',
+  iconUrl: '/assets/items/3481.png',
   examine: 'A full iron helmet, decorated with gold trim.',
   value: 1400,
   highAlch: 840,

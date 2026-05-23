@@ -17,7 +17,7 @@ const leatherCowlData: ItemJson = {
   stackable: false,
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Leather_cowl',
-  iconUrl: '/assets/items/leather-cowl.png',
+  iconUrl: '/assets/items/1167.png',
 };
 
 export const LeatherCowl = Item.fromJson(leatherCowlData);

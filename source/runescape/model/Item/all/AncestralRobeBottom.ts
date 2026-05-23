@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const ancestralRobeBottomData: ItemJson = {
   id: 13073,
   name: 'Ancestral robe bottom',
-  iconUrl: '/assets/items/ancestral-robe-bottom.png',
+  iconUrl: '/assets/items/13073.png',
   examine: 'The robe bottoms of a powerful sorceress from a bygone era.',
   value: 48000,
   highAlch: 48000,

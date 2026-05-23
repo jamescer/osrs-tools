@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const amuletOfDefenceTData = {
   id: 23309,
   name: "Amulet of defence (t)",
-  iconUrl: "/assets/items/amulet-of-defence-t.png",
+  iconUrl: "/assets/items/23309.png",
   examine: "An enchanted emerald amulet of protection that looks good.",
   value: 1275,
   highAlch: 765,

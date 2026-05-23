@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const blacksmithsHelmData = {
   id: 19988,
   name: "Blacksmith's helm",
-  iconUrl: '/assets/items/blacksmiths-helm.png',
+  iconUrl: '/assets/items/19988.png',
   examine: 'A helm worn by blacksmiths.',
   value: 3000,
   highAlch: 1800,

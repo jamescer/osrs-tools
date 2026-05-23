@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const gildedFullHelmData: ItemJson = {
   id: 3827,
   name: 'Gilded full helm',
-  iconUrl: '/assets/items/gilded-full-helm.png',
+  iconUrl: '/assets/items/3827.png',
   examine: 'Rune full helm with gold plate.',
   value: 21000,
   highAlch: 21000,

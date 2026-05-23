@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ancientChapsData = {
   id: 12494,
   name: "Ancient chaps",
-  iconUrl: "/assets/items/ancient-chaps.png",
+  iconUrl: "/assets/items/12494.png",
   examine: "Ancient blessed dragonhide chaps.",
   value: 6000,
   highAlch: 3600,

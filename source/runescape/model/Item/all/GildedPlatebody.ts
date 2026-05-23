@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const gildedPlatebodyData: ItemJson = {
   id: 3829,
   name: 'Gilded platebody',
-  iconUrl: '/assets/items/gilded-platebody.png',
+  iconUrl: '/assets/items/3829.png',
   examine: 'Rune platebody with gold plate.',
   value: 39000,
   highAlch: 39000,

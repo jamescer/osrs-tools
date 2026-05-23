@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const dragonDefenderOrnamentKitData = {
   id: 20143,
   name: "Dragon defender ornament kit",
-  iconUrl: "/assets/items/dragon-defender-ornament-kit.png",
+  iconUrl: "/assets/items/20143.png",
   examine: "Use on the dragon defender to trim it with gold.",
   value: 5000,
   highAlch: 3000,

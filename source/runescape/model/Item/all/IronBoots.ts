@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const ironBootsData = {
   id: 4099,
   name: 'Iron boots',
-  iconUrl: '/assets/items/iron-boots.png',
+  iconUrl: '/assets/items/4099.png',
   examine: 'A pair of iron boots.',
   value: 19,
   highAlch: 11,

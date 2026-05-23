@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominBrew4Data = {
   id: 6685,
   name: "Saradomin brew(4)",
-  iconUrl: "/assets/items/saradomin-brew-4.png",
+  iconUrl: "/assets/items/6685.png",
   examine: "4 doses of Saradomin brew.",
   value: 200,
   highAlch: 120,

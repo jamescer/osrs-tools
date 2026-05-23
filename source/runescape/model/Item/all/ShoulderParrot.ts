@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const shoulderParrotData = {
   id: 23300,
   name: "Shoulder parrot",
-  iconUrl: "/assets/items/shoulder-parrot.png",
+  iconUrl: "/assets/items/23300.png",
   examine: "Polly want a cracker?",
   value: 1000,
   highAlch: 600,

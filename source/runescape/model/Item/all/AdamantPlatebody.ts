@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const adamantPlatebodyData = {
   id: 1607,
   name: 'Adamant platebody',
-  iconUrl: '/assets/items/adamant-platebody.png',
+  iconUrl: '/assets/items/1607.png',
   examine: 'A suit of adamant body armour.',
   value: 1835,
   highAlch: 1101,

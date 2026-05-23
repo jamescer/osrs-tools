@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominCoifData = {
   id: 10390,
   name: "Saradomin coif",
-  iconUrl: "/assets/items/saradomin-coif.png",
+  iconUrl: "/assets/items/10390.png",
   examine: "Saradomin blessed dragonhide coif.",
   value: 2000,
   highAlch: 1200,

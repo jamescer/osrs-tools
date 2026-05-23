@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const superRestore4Data = {
   id: 3024,
   name: "Super restore(4)",
-  iconUrl: "/assets/items/super-restore-4.png",
+  iconUrl: "/assets/items/3024.png",
   examine: "4 doses of super restore potion.",
   value: 300,
   highAlch: 180,

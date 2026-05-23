@@ -10,7 +10,7 @@ const blueDyeData: ItemJson = {
   members: false,
   meleeStrength: 0,
   name: 'Blue dye',
-  iconUrl: '/assets/items/blue-dye.png',
+  iconUrl: '/assets/items/1767.png',
   noted: false,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Blue_dye',
   prayer: 0,

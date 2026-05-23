@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const runeKiteshieldData = {
   id: 1201,
   name: "Rune kiteshield",
-  iconUrl: "/assets/items/rune-kiteshield.png",
+  iconUrl: "/assets/items/1201.png",
   examine: "A large metal shield.",
   value: 54400,
   highAlch: 32640,

@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const willowCompBowData: ItemJson = {
   id: 4675,
   name: 'Willow comp bow',
-  iconUrl: '/assets/items/willow-comp-bow.png',
+  iconUrl: '/assets/items/4675.png',
   examine: 'A powerful bow made from willow wood.',
   value: 300,
   highAlch: 180,

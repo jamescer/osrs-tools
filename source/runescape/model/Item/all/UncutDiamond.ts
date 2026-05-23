@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const uncutDiamondData = {
   id: 1617,
   name: 'Uncut diamond',
-  iconUrl: '/assets/items/uncut-diamond.png',
+  iconUrl: '/assets/items/1617.png',
   examine: 'An uncut diamond.',
   value: 2144,
   highAlch: 1286,

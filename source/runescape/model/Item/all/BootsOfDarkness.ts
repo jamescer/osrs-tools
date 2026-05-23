@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bootsOfDarknessData = {
   id: 20140,
   name: "Boots of darkness",
-  iconUrl: "/assets/items/boots-of-darkness.png",
+  iconUrl: "/assets/items/20140.png",
   examine: "A dark power is woven into these boots.",
   value: 10000,
   highAlch: 6000,

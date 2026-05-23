@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const bearFeetData = {
   id: 23291,
   name: "Bear feet",
-  iconUrl: "/assets/items/bear-feet.png",
+  iconUrl: "/assets/items/23291.png",
   examine: "Vicious bear slippers.",
   value: 1000,
   highAlch: 600,

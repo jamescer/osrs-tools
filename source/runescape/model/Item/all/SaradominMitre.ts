@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominMitreData = {
   id: 10452,
   name: "Saradomin mitre",
-  iconUrl: "/assets/items/saradomin-mitre.png",
+  iconUrl: "/assets/items/10452.png",
   examine: "A Saradomin mitre.",
   value: 5000,
   highAlch: 3000,

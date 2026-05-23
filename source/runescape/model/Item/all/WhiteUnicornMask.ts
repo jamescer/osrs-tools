@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const whiteUnicornMaskData = {
   id: 20269,
   name: "White unicorn mask",
-  iconUrl: "/assets/items/white-unicorn-mask.png",
+  iconUrl: "/assets/items/20269.png",
   examine: "Pointy rainbows.",
   value: 1000,
   highAlch: 600,

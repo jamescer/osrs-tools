@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const gildedChainbodyData = {
   id: 20149,
   name: "Gilded chainbody",
-  iconUrl: "/assets/items/gilded-chainbody.png",
+  iconUrl: "/assets/items/20149.png",
   examine: "A series of connected metal rings plated in gold.",
   value: 50000,
   highAlch: 30000,

@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const thirdAgeLongswordData = {
   id: 12793,
   name: '3rd age longsword',
-  iconUrl: '/assets/items/3rd-age-longsword.png',
+  iconUrl: '/assets/items/12793.png',
   examine: 'A 3rd age sword from the God Wars.',
   value: 4000000,
   highAlch: 2400000,

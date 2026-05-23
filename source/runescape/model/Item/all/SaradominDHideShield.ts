@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const saradominDHideShieldData = {
   id: 23191,
   name: "Saradomin d'hide shield",
-  iconUrl: "/assets/items/saradomin-dhide-shield.png",
+  iconUrl: "/assets/items/23191.png",
   examine: "Saradomin blessed wooden shield covered in dragon leather.",
   value: 28334,
   highAlch: 17000,

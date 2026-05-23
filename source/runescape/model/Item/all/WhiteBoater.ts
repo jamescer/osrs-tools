@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const whiteBoaterData = {
   id: 12313,
   name: "White boater",
-  iconUrl: "/assets/items/white-boater.png",
+  iconUrl: "/assets/items/12313.png",
   examine: "Stylish!",
   value: 225,
   highAlch: 135,

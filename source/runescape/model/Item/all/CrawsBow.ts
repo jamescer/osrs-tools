@@ -3,7 +3,7 @@ import { Item, ItemJson } from '../Item';
 const crawsBowtData: ItemJson = {
   id: 22550,
   name: 'Craw\'s bow',
-  iconUrl: '/assets/items/craws-bow.png',
+  iconUrl: '/assets/items/22550.png',
   examine: 'A bow twisted from the claws of Craw.',
   value: 1000000,
   highAlch: 600000,

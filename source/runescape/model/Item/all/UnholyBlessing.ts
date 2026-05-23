@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const unholyBlessingData = {
   id: 20223,
   name: "Unholy blessing",
-  iconUrl: "/assets/items/unholy-blessing.png",
+  iconUrl: "/assets/items/20223.png",
   examine: "The Dark Lord will rise again with his servant's aid, greater and more terrible than ever he was.",
   value: 80,
   highAlch: 48,

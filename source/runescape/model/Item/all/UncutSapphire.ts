@@ -3,7 +3,7 @@ import { Item } from '../Item';
 const uncutSapphireData = {
   id: 1623,
   name: 'Uncut sapphire',
-  iconUrl: '/assets/items/uncut-sapphire.png',
+  iconUrl: '/assets/items/1623.png',
   examine: 'An uncut sapphire.',
   value: 258,
   highAlch: 154,

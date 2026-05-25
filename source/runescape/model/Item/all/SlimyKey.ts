@@ -1,0 +1,21 @@
+import { Item } from "../Item";
+
+const SlimyKeyData = {{
+    examine: "",
+    value: 0,
+    highAlch: 0,
+    lowAlch: 0,
+    weight: 0,
+    members: false,
+    tradeable: false,
+    equipable: false,
+    releaseDate: "",
+    destroy: "Drop",
+    questItem: false,
+    stackable: false,
+    noted: false,
+    officialWikiUrl: "",
+    id: 28441,
+    name: "Slimy key"
+  }
+export const SlimyKey = Item.fromJson(SlimyKeyData);

@@ -1,0 +1,21 @@
+import { Item } from "../Item";
+
+const TomeOfEarthchargedData = {{
+    examine: "",
+    value: 0,
+    highAlch: 0,
+    lowAlch: 0,
+    weight: 0,
+    members: false,
+    tradeable: false,
+    equipable: false,
+    releaseDate: "",
+    destroy: "Drop",
+    questItem: false,
+    stackable: false,
+    noted: false,
+    officialWikiUrl: "",
+    id: 30064,
+    name: "Tome of earth#Charged"
+  }
+export const TomeOfEarthcharged = Item.fromJson(TomeOfEarthchargedData);

@@ -1,23 +1,23 @@
 import { Item } from '../Item';
 
-const bowlWigData = {
-  id: 20110,
-  name: "Bowl wig",
-  iconUrl: "/assets/items/20110.png",
-  examine: "The bowl wig.",
-  value: 1,
-  highAlch: 0,
-  lowAlch: 0,
-  weight: 0.1,
-  members: true,
-  tradeable: true,
-  equipable: true,
-  releaseDate: "2016-07-06",
-  destroy: "Wield",
-  questItem: false,
-  stackable: false,
-  noted: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Bowl_wig",
-};
+const bowlWigData = {{
+    examine: "The bowl wig.",
+    value: 1,
+    highAlch: 0,
+    lowAlch: 0,
+    weight: 0.1,
+    members: true,
+    tradeable: true,
+    equipable: true,
+    releaseDate: "2016-07-06",
+    destroy: "Wield",
+    questItem: false,
+    stackable: false,
+    noted: true,
+    officialWikiUrl: "https://oldschool.runescape.wiki/w/Bowl_wig",
+    id: 20110,
+    name: "Bowl wig",
+    iconUrl: "/assets/items/20110.png"
+  }
 
 export const BowlWig = Item.fromJson(bowlWigData);

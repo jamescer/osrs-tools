@@ -1,23 +1,23 @@
 import { Item } from '../Item';
 
-const greenHeadbandData = {
-  id: 12307,
-  name: "Green headband",
-  iconUrl: "/assets/items/12307.png",
-  examine: "A minimalist's hat.",
-  value: 40,
-  highAlch: 24,
-  lowAlch: 16,
-  weight: 0.04,
-  members: true,
-  tradeable: true,
-  equipable: true,
-  releaseDate: "2014-06-12",
-  destroy: "Wear",
-  questItem: false,
-  stackable: false,
-  noted: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Green_headband",
-};
+const greenHeadbandData = {{
+    examine: "A minimalist's hat.",
+    value: 40,
+    highAlch: 24,
+    lowAlch: 16,
+    weight: 0.04,
+    members: true,
+    tradeable: true,
+    equipable: true,
+    releaseDate: "2014-06-12",
+    destroy: "Wear",
+    questItem: false,
+    stackable: false,
+    noted: true,
+    officialWikiUrl: "https://oldschool.runescape.wiki/w/Green_headband",
+    id: 12307,
+    name: "Green headband",
+    iconUrl: "/assets/items/12307.png"
+  }
 
 export const GreenHeadband = Item.fromJson(greenHeadbandData);

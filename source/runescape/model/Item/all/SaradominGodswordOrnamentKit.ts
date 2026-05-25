@@ -1,23 +1,23 @@
 import { Item } from '../Item';
 
-const saradominGodswordOrnamentKitData = {
-  id: 20074,
-  name: "Saradomin godsword ornament kit",
-  iconUrl: "/assets/items/20074.png",
-  examine: "Use on a Saradomin godsword to make it look fancier!",
-  value: 5000,
-  highAlch: 3000,
-  lowAlch: 2000,
-  weight: 0.5,
-  members: true,
-  tradeable: true,
-  equipable: false,
-  releaseDate: "2016-07-06",
-  destroy: "Drop",
-  questItem: false,
-  stackable: false,
-  noted: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Saradomin_godsword_ornament_kit",
-};
+const saradominGodswordOrnamentKitData = {{
+    examine: "Use on a Saradomin godsword to make it look fancier!",
+    value: 5000,
+    highAlch: 3000,
+    lowAlch: 2000,
+    weight: 0.5,
+    members: true,
+    tradeable: true,
+    equipable: false,
+    releaseDate: "2016-07-06",
+    destroy: "Drop",
+    questItem: false,
+    stackable: false,
+    noted: true,
+    officialWikiUrl: "https://oldschool.runescape.wiki/w/Saradomin_godsword_ornament_kit",
+    id: 20074,
+    name: "Saradomin godsword ornament kit",
+    iconUrl: "/assets/items/20074.png"
+  }
 
 export const SaradominGodswordOrnamentKit = Item.fromJson(saradominGodswordOrnamentKitData);

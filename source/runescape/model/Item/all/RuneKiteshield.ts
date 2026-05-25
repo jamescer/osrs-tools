@@ -1,23 +1,23 @@
 import { Item } from '../Item';
 
-const runeKiteshieldData = {
-  id: 1201,
-  name: "Rune kiteshield",
-  iconUrl: "/assets/items/1201.png",
-  examine: "A large metal shield.",
-  value: 54400,
-  highAlch: 32640,
-  lowAlch: 21760,
-  weight: 5.443,
-  members: false,
-  tradeable: true,
-  equipable: true,
-  releaseDate: "2001-08-13",
-  destroy: "Wear",
-  questItem: false,
-  stackable: false,
-  noted: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Rune_kiteshield",
-};
+const runeKiteshieldData = {{
+    examine: "A large metal shield.",
+    value: 54400,
+    highAlch: 32640,
+    lowAlch: 21760,
+    weight: 5.443,
+    members: false,
+    tradeable: true,
+    equipable: true,
+    releaseDate: "2001-08-13",
+    destroy: "Wear",
+    questItem: false,
+    stackable: false,
+    noted: true,
+    officialWikiUrl: "https://oldschool.runescape.wiki/w/Rune_kiteshield",
+    id: 1201,
+    name: "Rune kiteshield",
+    iconUrl: "/assets/items/1201.png"
+  }
 
 export const RuneKiteshield = Item.fromJson(runeKiteshieldData);

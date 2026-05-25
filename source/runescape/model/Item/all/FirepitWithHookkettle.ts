@@ -1,0 +1,21 @@
+import { Item } from "../Item";
+
+const FirepitWithHookkettleData = {{
+    examine: "",
+    value: 0,
+    highAlch: 0,
+    lowAlch: 0,
+    weight: 0,
+    members: false,
+    tradeable: false,
+    equipable: false,
+    releaseDate: "",
+    destroy: "Drop",
+    questItem: false,
+    stackable: false,
+    noted: false,
+    officialWikiUrl: "",
+    id: 8217,
+    name: "Firepit with hook#Kettle"
+  }
+export const FirepitWithHookkettle = Item.fromJson(FirepitWithHookkettleData);

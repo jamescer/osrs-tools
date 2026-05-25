@@ -1,23 +1,23 @@
 import { Item } from '../Item';
 
-const gildedBootsData = {
-  id: 12391,
-  name: "Gilded boots",
-  iconUrl: "/assets/items/12391.png",
-  examine: "Rune boots with gold plate.",
-  value: 12500,
-  highAlch: 7500,
-  lowAlch: 5000,
-  weight: 1.36,
-  members: true,
-  tradeable: true,
-  equipable: true,
-  releaseDate: "2014-06-12",
-  destroy: "Wear",
-  questItem: false,
-  stackable: false,
-  noted: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Gilded_boots",
-};
+const gildedBootsData = {{
+    examine: "Rune boots with gold plate.",
+    value: 12500,
+    highAlch: 7500,
+    lowAlch: 5000,
+    weight: 1.36,
+    members: true,
+    tradeable: true,
+    equipable: true,
+    releaseDate: "2014-06-12",
+    destroy: "Wear",
+    questItem: false,
+    stackable: false,
+    noted: true,
+    officialWikiUrl: "https://oldschool.runescape.wiki/w/Gilded_boots",
+    id: 12391,
+    name: "Gilded boots",
+    iconUrl: "/assets/items/12391.png"
+  }
 
 export const GildedBoots = Item.fromJson(gildedBootsData);

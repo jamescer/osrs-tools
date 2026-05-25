@@ -1,23 +1,23 @@
 import { Item } from '../Item';
 
-const sLeggingsData = {
-  id: 20104,
-  name: "Ankou's leggings",
-  iconUrl: "/assets/items/20104.png",
-  examine: "These leggings will make your flesh transparent.",
-  value: 1,
-  highAlch: 0,
-  lowAlch: 0,
-  weight: 0.5,
-  members: true,
-  tradeable: true,
-  equipable: true,
-  releaseDate: "2016-07-06",
-  destroy: "Wear",
-  questItem: false,
-  stackable: false,
-  noted: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Ankou's_leggings",
-};
+const sLeggingsData = {{
+    examine: "These leggings will make your flesh transparent.",
+    value: 1,
+    highAlch: 0,
+    lowAlch: 0,
+    weight: 0.5,
+    members: true,
+    tradeable: true,
+    equipable: true,
+    releaseDate: "2016-07-06",
+    destroy: "Wear",
+    questItem: false,
+    stackable: false,
+    noted: true,
+    officialWikiUrl: "https://oldschool.runescape.wiki/w/Ankou's_leggings",
+    id: 20104,
+    name: "Ankou's leggings",
+    iconUrl: "/assets/items/20104.png"
+  }
 
 export const SLeggings = Item.fromJson(sLeggingsData);

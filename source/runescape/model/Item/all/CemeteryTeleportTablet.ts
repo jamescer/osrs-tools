@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CemeteryTeleportTabletData = {{
+const CemeteryTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

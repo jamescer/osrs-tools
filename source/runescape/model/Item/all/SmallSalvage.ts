@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallSalvageData = {{
+const SmallSalvageData = {
     examine: "",
     value: 0,
     highAlch: 0,

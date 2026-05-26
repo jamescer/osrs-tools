@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KarilsCoifbrokenData = {{
+const KarilsCoifbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

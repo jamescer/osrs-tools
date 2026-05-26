@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OpulentCurtainschristmasData = {{
+const OpulentCurtainschristmasData = {
     examine: "",
     value: 0,
     highAlch: 0,

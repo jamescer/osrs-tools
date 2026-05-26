@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilvthrillRodunenchantedData = {{
+const SilvthrillRodunenchantedData = {
     examine: "",
     value: 0,
     highAlch: 0,

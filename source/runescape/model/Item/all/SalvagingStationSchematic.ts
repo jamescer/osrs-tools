@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SalvagingStationSchematicData = {{
+const SalvagingStationSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

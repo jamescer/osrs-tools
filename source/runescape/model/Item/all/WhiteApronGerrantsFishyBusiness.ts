@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteApronGerrantsFishyBusinessData = {{
+const WhiteApronGerrantsFishyBusinessData = {
     examine: "",
     value: 0,
     highAlch: 0,

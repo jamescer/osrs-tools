@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemflamesOfZamorakData = {{
+const SpellUnobtainableItemflamesOfZamorakData = {
     examine: "",
     value: 0,
     highAlch: 0,

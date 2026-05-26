@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const crierCoatData = {{
+const crierCoatData = {
     examine: "Don't shoot the messenger!",
     value: 5000,
     highAlch: 3000,

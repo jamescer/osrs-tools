@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrudeCarvingData = {{
+const CrudeCarvingData = {
     examine: "",
     value: 0,
     highAlch: 0,

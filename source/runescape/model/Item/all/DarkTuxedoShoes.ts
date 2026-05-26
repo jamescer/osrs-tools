@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const darkTuxedoShoesData = {{
+const darkTuxedoShoesData = {
     examine: "Dark shoes to match your dark tuxedo.",
     value: 3000,
     highAlch: 1800,

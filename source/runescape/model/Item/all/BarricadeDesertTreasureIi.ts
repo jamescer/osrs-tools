@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarricadeDesertTreasureIiData = {{
+const BarricadeDesertTreasureIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

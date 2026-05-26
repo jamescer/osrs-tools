@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedHalberdBasicData = {{
+const CorruptedHalberdBasicData = {
     examine: "",
     value: 0,
     highAlch: 0,

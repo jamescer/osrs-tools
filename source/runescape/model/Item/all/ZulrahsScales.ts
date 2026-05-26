@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZulrahsScalesData = {{
+const ZulrahsScalesData = {
     examine: "",
     value: 0,
     highAlch: 0,

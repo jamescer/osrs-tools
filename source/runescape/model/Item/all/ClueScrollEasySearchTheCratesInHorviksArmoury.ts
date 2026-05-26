@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasySearchTheCratesInHorviksArmouryData = {{
+const ClueScrollEasySearchTheCratesInHorviksArmouryData = {
     examine: "",
     value: 0,
     highAlch: 0,

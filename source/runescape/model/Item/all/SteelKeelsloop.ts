@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelKeelsloopData = {{
+const SteelKeelsloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaskOfBalanceData = {{
+const MaskOfBalanceData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectorIcondaliData = {{
+const CollectorIcondaliData = {
     examine: "",
     value: 0,
     highAlch: 0,

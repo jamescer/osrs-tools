@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const thirdAgePlatesData = {{
+const thirdAgePlatesData = {
     examine: "A 3rd age platelegs from the God Wars.",
     value: 4000000,
     highAlch: 2400000,

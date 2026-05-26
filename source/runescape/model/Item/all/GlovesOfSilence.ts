@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlovesOfSilenceData = {{
+const GlovesOfSilenceData = {
     examine: "",
     value: 0,
     highAlch: 0,

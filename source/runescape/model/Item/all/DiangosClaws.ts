@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DiangosClawsData = {{
+const DiangosClawsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChoppedTunaData = {{
+const ChoppedTunaData = {
     examine: "",
     value: 0,
     highAlch: 0,

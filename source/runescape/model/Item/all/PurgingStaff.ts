@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PurgingStaffData = {{
+const PurgingStaffData = {
     examine: "",
     value: 0,
     highAlch: 0,

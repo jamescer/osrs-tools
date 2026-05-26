@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasoriChapsFLastManStandingData = {{
+const MasoriChapsFLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

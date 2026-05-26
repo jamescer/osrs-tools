@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollBeginnerInThePlaceDukeHoracioCallsHomeData = {{
+const ClueScrollBeginnerInThePlaceDukeHoracioCallsHomeData = {
     examine: "",
     value: 0,
     highAlch: 0,

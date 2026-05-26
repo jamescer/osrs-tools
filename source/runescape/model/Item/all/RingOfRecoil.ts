@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfRecoilData = {{
+const RingOfRecoilData = {
     examine: "",
     value: 0,
     highAlch: 0,

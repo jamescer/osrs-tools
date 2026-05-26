@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZaryteCrossbowData = {{
+const ZaryteCrossbowData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PungentPotData = {{
+const PungentPotData = {
     examine: "",
     value: 0,
     highAlch: 0,

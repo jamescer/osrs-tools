@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CarrallangerTeleportTabletData = {{
+const CarrallangerTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

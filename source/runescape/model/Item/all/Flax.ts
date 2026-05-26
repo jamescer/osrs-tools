@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlaxData = {{
+const FlaxData = {
     examine: "",
     value: 0,
     highAlch: 0,

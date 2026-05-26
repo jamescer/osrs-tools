@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeasonedChompyData = {{
+const SeasonedChompyData = {
     examine: "",
     value: 0,
     highAlch: 0,

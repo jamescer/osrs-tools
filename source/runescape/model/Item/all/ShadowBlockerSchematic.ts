@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShadowBlockerSchematicData = {{
+const ShadowBlockerSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

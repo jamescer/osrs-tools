@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WarriorRingInightmareZoneData = {{
+const WarriorRingInightmareZoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

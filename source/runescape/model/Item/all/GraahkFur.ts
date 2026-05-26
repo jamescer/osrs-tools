@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GraahkFurData = {{
+const GraahkFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

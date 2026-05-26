@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EliteVoidToplockedData = {{
+const EliteVoidToplockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

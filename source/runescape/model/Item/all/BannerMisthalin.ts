@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BannerMisthalinData = {{
+const BannerMisthalinData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmadylHalonormalData = {{
+const ArmadylHalonormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

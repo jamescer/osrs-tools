@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const saradominPlatelegsData = {{
+const saradominPlatelegsData = {
     examine: "Rune platelegs in the colours of Saradomin.",
     value: 64000,
     highAlch: 38400,

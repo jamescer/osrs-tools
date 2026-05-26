@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const capeOfSkullsData = {{
+const capeOfSkullsData = {
     examine: "A black cape with a skull design.",
     value: 936,
     highAlch: 561,

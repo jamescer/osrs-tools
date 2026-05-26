@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EclecticImplingJarData = {{
+const EclecticImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

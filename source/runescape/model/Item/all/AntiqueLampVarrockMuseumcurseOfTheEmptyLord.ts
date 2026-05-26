@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntiqueLampVarrockMuseumcurseOfTheEmptyLordData = {{
+const AntiqueLampVarrockMuseumcurseOfTheEmptyLordData = {
     examine: "",
     value: 0,
     highAlch: 0,

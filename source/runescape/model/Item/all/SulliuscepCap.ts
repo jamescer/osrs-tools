@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SulliuscepCapData = {{
+const SulliuscepCapData = {
     examine: "",
     value: 0,
     highAlch: 0,

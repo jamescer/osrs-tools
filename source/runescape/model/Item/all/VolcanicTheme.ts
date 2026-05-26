@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VolcanicThemeData = {{
+const VolcanicThemeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const robeTopOfDarknessData = {{
+const robeTopOfDarknessData = {
     examine: "A dark power is woven into this robe top.",
     value: 120000,
     highAlch: 72000,

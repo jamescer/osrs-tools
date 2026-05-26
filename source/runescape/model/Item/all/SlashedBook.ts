@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SlashedBookData = {{
+const SlashedBookData = {
     examine: "",
     value: 0,
     highAlch: 0,

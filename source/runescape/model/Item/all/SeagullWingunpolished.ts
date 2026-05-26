@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeagullWingunpolishedData = {{
+const SeagullWingunpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

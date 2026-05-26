@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemwindBoltData = {{
+const SpellUnobtainableItemwindBoltData = {
     examine: "",
     value: 0,
     highAlch: 0,

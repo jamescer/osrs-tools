@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OgreArrowData = {{
+const OgreArrowData = {
     examine: "",
     value: 0,
     highAlch: 0,

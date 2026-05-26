@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OddCocktailcreamyData = {{
+const OddCocktailcreamyData = {
     examine: "",
     value: 0,
     highAlch: 0,

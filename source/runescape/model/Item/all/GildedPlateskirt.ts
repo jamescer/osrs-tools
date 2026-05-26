@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedPlateskirtData = {{
+const gildedPlateskirtData = {
     examine: "Rune plateskirt with gold plate.",
     value: 64000,
     highAlch: 38400,

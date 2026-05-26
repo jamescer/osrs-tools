@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiderCaveTeleportData = {{
+const SpiderCaveTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

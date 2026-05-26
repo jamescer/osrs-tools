@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpecialCupData = {{
+const SpecialCupData = {
     examine: "",
     value: 0,
     highAlch: 0,

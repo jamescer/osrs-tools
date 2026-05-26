@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EarthboundTecpatlData = {{
+const EarthboundTecpatlData = {
     examine: "",
     value: 0,
     highAlch: 0,

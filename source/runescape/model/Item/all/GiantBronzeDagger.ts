@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantBronzeDaggerData = {{
+const GiantBronzeDaggerData = {
     examine: "",
     value: 0,
     highAlch: 0,

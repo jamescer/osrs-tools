@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KbdHeadsData = {{
+const KbdHeadsData = {
     examine: "",
     value: 0,
     highAlch: 0,

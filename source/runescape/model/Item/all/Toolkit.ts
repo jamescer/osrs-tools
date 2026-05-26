@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ToolkitData = {{
+const ToolkitData = {
     examine: "",
     value: 0,
     highAlch: 0,

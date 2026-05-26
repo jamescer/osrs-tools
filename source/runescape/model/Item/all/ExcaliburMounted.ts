@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExcaliburMountedData = {{
+const ExcaliburMountedData = {
     examine: "",
     value: 0,
     highAlch: 0,

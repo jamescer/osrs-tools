@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahjarratNotesajData = {{
+const MahjarratNotesajData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GardeningTrowelData = {{
+const GardeningTrowelData = {
     examine: "",
     value: 0,
     highAlch: 0,

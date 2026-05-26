@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlantCureData = {{
+const PlantCureData = {
     examine: "",
     value: 0,
     highAlch: 0,

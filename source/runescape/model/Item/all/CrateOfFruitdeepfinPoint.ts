@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfFruitdeepfinPointData = {{
+const CrateOfFruitdeepfinPointData = {
     examine: "",
     value: 0,
     highAlch: 0,

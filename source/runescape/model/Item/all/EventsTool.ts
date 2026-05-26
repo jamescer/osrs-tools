@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EventsToolData = {{
+const EventsToolData = {
     examine: "",
     value: 0,
     highAlch: 0,

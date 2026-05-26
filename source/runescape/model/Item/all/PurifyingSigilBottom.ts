@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PurifyingSigilBottomData = {{
+const PurifyingSigilBottomData = {
     examine: "",
     value: 0,
     highAlch: 0,

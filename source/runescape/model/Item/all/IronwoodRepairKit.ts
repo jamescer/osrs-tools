@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IronwoodRepairKitData = {{
+const IronwoodRepairKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlattenedHideData = {{
+const FlattenedHideData = {
     examine: "",
     value: 0,
     highAlch: 0,

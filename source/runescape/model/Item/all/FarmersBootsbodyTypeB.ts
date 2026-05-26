@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FarmersBootsbodyTypeBData = {{
+const FarmersBootsbodyTypeBData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const giantBootData = {{
+const giantBootData = {
     examine: "Worn on head. Warning: Smelly.",
     value: 14000,
     highAlch: 8400,

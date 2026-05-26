@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RepairBenchData = {{
+const RepairBenchData = {
     examine: "",
     value: 0,
     highAlch: 0,

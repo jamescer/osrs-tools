@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntidragonShieldMountedData = {{
+const AntidragonShieldMountedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MossyKeyData = {{
+const MossyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KnapsackclosedData = {{
+const KnapsackclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

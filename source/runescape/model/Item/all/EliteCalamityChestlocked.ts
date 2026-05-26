@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EliteCalamityChestlockedData = {{
+const EliteCalamityChestlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

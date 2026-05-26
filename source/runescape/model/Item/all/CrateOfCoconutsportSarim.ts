@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfCoconutsportSarimData = {{
+const CrateOfCoconutsportSarimData = {
     examine: "",
     value: 0,
     highAlch: 0,

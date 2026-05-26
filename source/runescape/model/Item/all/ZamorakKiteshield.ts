@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const zamorakKiteshieldData = {{
+const zamorakKiteshieldData = {
     examine: "Rune kiteshield in the colours of Zamorak.",
     value: 54400,
     highAlch: 32640,

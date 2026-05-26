@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StormChasersFlagData = {{
+const StormChasersFlagData = {
     examine: "",
     value: 0,
     highAlch: 0,

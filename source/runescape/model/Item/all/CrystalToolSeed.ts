@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalToolSeedData = {{
+const CrystalToolSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

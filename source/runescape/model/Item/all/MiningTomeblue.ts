@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MiningTomeblueData = {{
+const MiningTomeblueData = {
     examine: "",
     value: 0,
     highAlch: 0,

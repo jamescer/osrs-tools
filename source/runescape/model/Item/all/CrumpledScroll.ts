@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrumpledScrollData = {{
+const CrumpledScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

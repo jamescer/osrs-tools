@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelSalvagingHooksloopData = {{
+const SteelSalvagingHooksloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

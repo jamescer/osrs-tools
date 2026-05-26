@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoblinPaintCannonData = {{
+const GoblinPaintCannonData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneHelmraftData = {{
+const RuneHelmraftData = {
     examine: "",
     value: 0,
     highAlch: 0,

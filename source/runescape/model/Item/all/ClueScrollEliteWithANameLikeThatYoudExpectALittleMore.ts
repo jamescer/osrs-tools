@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteWithANameLikeThatYoudExpectALittleMoreData = {{
+const ClueScrollEliteWithANameLikeThatYoudExpectALittleMoreData = {
     examine: "",
     value: 0,
     highAlch: 0,

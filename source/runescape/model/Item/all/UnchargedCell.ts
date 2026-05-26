@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnchargedCellData = {{
+const UnchargedCellData = {
     examine: "",
     value: 0,
     highAlch: 0,

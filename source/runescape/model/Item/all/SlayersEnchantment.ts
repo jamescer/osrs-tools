@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SlayersEnchantmentData = {{
+const SlayersEnchantmentData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerTeleportScrollData = {{
+const TrailblazerTeleportScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

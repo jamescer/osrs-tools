@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeaweedSandwichData = {{
+const SeaweedSandwichData = {
     examine: "",
     value: 0,
     highAlch: 0,

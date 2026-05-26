@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const amuletOfTheVoidData = {{
+const amuletOfTheVoidData = {
     examine: "A carefully woven amulet that draws power from the void.",
     value: 2500,
     highAlch: 1500,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TephraData = {{
+const TephraData = {
     examine: "",
     value: 0,
     highAlch: 0,

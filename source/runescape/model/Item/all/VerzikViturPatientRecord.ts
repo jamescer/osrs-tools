@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VerzikViturPatientRecordData = {{
+const VerzikViturPatientRecordData = {
     examine: "",
     value: 0,
     highAlch: 0,

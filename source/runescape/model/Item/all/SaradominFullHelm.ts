@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const saradominFullHelmData = {{
+const saradominFullHelmData = {
     examine: "Rune full helmet in the colours of Saradomin.",
     value: 35200,
     highAlch: 21120,

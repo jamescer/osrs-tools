@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NecklaceOfAnguishLastManStandingData = {{
+const NecklaceOfAnguishLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

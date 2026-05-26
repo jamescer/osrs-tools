@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const crierBellData = {{
+const crierBellData = {
     examine: "For whom?",
     value: 5000,
     highAlch: 3000,

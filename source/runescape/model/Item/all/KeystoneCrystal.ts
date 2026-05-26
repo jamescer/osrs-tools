@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeystoneCrystalData = {{
+const KeystoneCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantDartpData = {{
+const AdamantDartpData = {
     examine: "",
     value: 0,
     highAlch: 0,

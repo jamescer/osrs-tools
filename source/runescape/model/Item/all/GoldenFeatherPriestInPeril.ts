@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoldenFeatherPriestInPerilData = {{
+const GoldenFeatherPriestInPerilData = {
     examine: "",
     value: 0,
     highAlch: 0,

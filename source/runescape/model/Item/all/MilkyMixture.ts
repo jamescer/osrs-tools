@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MilkyMixtureData = {{
+const MilkyMixtureData = {
     examine: "",
     value: 0,
     highAlch: 0,

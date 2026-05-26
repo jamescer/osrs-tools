@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ModelShipwithoutFlagData = {{
+const ModelShipwithoutFlagData = {
     examine: "",
     value: 0,
     highAlch: 0,

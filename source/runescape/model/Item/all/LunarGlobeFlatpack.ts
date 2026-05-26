@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LunarGlobeFlatpackData = {{
+const LunarGlobeFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelHeraldicHelmMoneyData = {{
+const SteelHeraldicHelmMoneyData = {
     examine: "",
     value: 0,
     highAlch: 0,

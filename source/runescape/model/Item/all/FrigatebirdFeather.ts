@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrigatebirdFeatherData = {{
+const FrigatebirdFeatherData = {
     examine: "",
     value: 0,
     highAlch: 0,

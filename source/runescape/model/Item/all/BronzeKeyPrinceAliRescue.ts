@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeKeyPrinceAliRescueData = {{
+const BronzeKeyPrinceAliRescueData = {
     examine: "",
     value: 0,
     highAlch: 0,

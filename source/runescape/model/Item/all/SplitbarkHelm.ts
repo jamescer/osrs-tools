@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SplitbarkHelmData = {{
+const SplitbarkHelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

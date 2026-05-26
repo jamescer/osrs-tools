@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenSextantData = {{
+const BrokenSextantData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DesertCamoLegswornData = {{
+const DesertCamoLegswornData = {
     examine: "",
     value: 0,
     highAlch: 0,

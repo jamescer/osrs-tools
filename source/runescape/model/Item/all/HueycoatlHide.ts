@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HueycoatlHideData = {{
+const HueycoatlHideData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueContractData = {{
+const ClueContractData = {
     examine: "",
     value: 0,
     highAlch: 0,

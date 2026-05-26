@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CavernKeyData = {{
+const CavernKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

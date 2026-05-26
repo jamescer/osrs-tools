@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenVanePartweathervanePillarData = {{
+const BrokenVanePartweathervanePillarData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackPlateskirtData = {{
+const blackPlateskirtData = {
     examine: "Big, black and heavy looking.",
     value: 1920,
     highAlch: 1152,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteamBattlestaffData = {{
+const SteamBattlestaffData = {
     examine: "",
     value: 0,
     highAlch: 0,

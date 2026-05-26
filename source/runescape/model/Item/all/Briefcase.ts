@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const briefcaseData = {{
+const briefcaseData = {
     examine: "For your first day in the big city.",
     value: 666,
     highAlch: 399,

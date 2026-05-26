@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OakWallDecorationData = {{
+const OakWallDecorationData = {
     examine: "",
     value: 0,
     highAlch: 0,

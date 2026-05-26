@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalPickaxeinactiveData = {{
+const CrystalPickaxeinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

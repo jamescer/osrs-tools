@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OnyxData = {{
+const OnyxData = {
     examine: "",
     value: 0,
     highAlch: 0,

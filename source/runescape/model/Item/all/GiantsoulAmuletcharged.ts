@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantsoulAmuletchargedData = {{
+const GiantsoulAmuletchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

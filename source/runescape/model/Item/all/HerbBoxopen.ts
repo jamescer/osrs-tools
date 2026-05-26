@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HerbBoxopenData = {{
+const HerbBoxopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const topHatData = {{
+const topHatData = {
     examine: "Aint no rabbits in this hat.",
     value: 1800,
     highAlch: 1080,

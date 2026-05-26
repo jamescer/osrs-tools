@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumAGracefulManOfManyColoursData = {{
+const ClueScrollMediumAGracefulManOfManyColoursData = {
     examine: "",
     value: 0,
     highAlch: 0,

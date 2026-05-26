@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TektonsJournalData = {{
+const TektonsJournalData = {
     examine: "",
     value: 0,
     highAlch: 0,

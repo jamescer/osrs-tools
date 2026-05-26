@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SuspectSketchData = {{
+const SuspectSketchData = {
     examine: "",
     value: 0,
     highAlch: 0,

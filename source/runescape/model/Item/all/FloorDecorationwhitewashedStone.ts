@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FloorDecorationwhitewashedStoneData = {{
+const FloorDecorationwhitewashedStoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VeryLongRopeData = {{
+const VeryLongRopeData = {
     examine: "",
     value: 0,
     highAlch: 0,

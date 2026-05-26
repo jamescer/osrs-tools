@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VanguardJudgementData = {{
+const VanguardJudgementData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntKarambwanData = {{
+const BurntKarambwanData = {
     examine: "",
     value: 0,
     highAlch: 0,

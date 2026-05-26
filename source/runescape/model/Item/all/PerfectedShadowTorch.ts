@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PerfectedShadowTorchData = {{
+const PerfectedShadowTorchData = {
     examine: "",
     value: 0,
     highAlch: 0,

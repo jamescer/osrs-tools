@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmptyCupClayData = {{
+const EmptyCupClayData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesPortalScrollData = {{
+const RagingEchoesPortalScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RiylRemainsData = {{
+const RiylRemainsData = {
     examine: "",
     value: 0,
     highAlch: 0,

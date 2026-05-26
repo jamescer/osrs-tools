@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThousanddragonWardData = {{
+const ThousanddragonWardData = {
     examine: "",
     value: 0,
     highAlch: 0,

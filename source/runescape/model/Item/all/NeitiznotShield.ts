@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NeitiznotShieldData = {{
+const NeitiznotShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

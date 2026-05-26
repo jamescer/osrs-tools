@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicStoneTearsOfGuthixData = {{
+const MagicStoneTearsOfGuthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

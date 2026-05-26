@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SluglingsData = {{
+const SluglingsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixedHideBaseData = {{
+const MixedHideBaseData = {
     examine: "",
     value: 0,
     highAlch: 0,

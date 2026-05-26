@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const hamJointData = {{
+const hamJointData = {
     examine: "A prime cut of meat.",
     value: 156,
     highAlch: 93,

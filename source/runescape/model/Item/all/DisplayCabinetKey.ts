@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DisplayCabinetKeyData = {{
+const DisplayCabinetKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

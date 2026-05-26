@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const XericsTalismanchargedData = {{
+const XericsTalismanchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

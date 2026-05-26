@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BountyCrateDiscontinuedData = {{
+const BountyCrateDiscontinuedData = {
     examine: "",
     value: 0,
     highAlch: 0,

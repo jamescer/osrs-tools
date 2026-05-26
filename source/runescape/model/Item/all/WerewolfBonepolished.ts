@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WerewolfBonepolishedData = {{
+const WerewolfBonepolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

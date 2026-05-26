@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CamoTopUnobtainableItemData = {{
+const CamoTopUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

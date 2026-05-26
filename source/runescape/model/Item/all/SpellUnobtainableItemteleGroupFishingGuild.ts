@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemteleGroupFishingGuildData = {{
+const SpellUnobtainableItemteleGroupFishingGuildData = {
     examine: "",
     value: 0,
     highAlch: 0,

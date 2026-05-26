@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ancientCloakData = {{
+const ancientCloakData = {
     examine: "An Ancient cloak.",
     value: 2000,
     highAlch: 1200,

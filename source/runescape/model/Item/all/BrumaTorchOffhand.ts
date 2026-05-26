@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrumaTorchOffhandData = {{
+const BrumaTorchOffhandData = {
     examine: "",
     value: 0,
     highAlch: 0,

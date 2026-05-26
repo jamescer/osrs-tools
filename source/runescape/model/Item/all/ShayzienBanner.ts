@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const shayzienBannerData = {{
+const shayzienBannerData = {
     examine: "A war torn banner bearing the Shayzien sigil.",
     value: 70,
     highAlch: 42,

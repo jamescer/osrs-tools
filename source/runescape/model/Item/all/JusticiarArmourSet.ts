@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JusticiarArmourSetData = {{
+const JusticiarArmourSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

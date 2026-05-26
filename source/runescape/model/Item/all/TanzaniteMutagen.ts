@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TanzaniteMutagenData = {{
+const TanzaniteMutagenData = {
     examine: "",
     value: 0,
     highAlch: 0,

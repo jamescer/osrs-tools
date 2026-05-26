@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfBarrowsattunedData = {{
+const SigilOfBarrowsattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

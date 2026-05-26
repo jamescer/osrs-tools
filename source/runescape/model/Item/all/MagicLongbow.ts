@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const magicLongbowData = {{
+const magicLongbowData = {
     examine: "A nice sturdy magical bow.",
     value: 2560,
     highAlch: 1536,

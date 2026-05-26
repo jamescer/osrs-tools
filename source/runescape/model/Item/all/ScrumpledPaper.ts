@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrumpledPaperData = {{
+const ScrumpledPaperData = {
     examine: "",
     value: 0,
     highAlch: 0,

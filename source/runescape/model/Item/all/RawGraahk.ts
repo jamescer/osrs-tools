@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawGraahkData = {{
+const RawGraahkData = {
     examine: "",
     value: 0,
     highAlch: 0,

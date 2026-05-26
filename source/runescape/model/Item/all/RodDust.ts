@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RodDustData = {{
+const RodDustData = {
     examine: "",
     value: 0,
     highAlch: 0,

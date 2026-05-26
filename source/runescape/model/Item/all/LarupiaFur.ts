@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LarupiaFurData = {{
+const LarupiaFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

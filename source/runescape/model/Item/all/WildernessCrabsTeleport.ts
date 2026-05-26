@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WildernessCrabsTeleportData = {{
+const WildernessCrabsTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

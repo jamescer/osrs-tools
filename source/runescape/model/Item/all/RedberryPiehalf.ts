@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedberryPiehalfData = {{
+const RedberryPiehalfData = {
     examine: "",
     value: 0,
     highAlch: 0,

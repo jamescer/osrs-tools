@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FeverSpiderBodyData = {{
+const FeverSpiderBodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

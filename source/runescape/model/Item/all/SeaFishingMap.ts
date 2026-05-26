@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeaFishingMapData = {{
+const SeaFishingMapData = {
     examine: "",
     value: 0,
     highAlch: 0,

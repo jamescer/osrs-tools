@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RanisHeadData = {{
+const RanisHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

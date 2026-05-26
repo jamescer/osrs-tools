@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrewinGuideData = {{
+const BrewinGuideData = {
     examine: "",
     value: 0,
     highAlch: 0,

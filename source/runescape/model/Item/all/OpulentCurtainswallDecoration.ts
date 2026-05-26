@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OpulentCurtainswallDecorationData = {{
+const OpulentCurtainswallDecorationData = {
     examine: "",
     value: 0,
     highAlch: 0,

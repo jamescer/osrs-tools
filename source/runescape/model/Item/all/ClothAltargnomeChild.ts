@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClothAltargnomeChildData = {{
+const ClothAltargnomeChildData = {
     examine: "",
     value: 0,
     highAlch: 0,

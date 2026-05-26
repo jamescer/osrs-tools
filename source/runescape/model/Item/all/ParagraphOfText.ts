@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ParagraphOfTextData = {{
+const ParagraphOfTextData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenRainbowStrandData = {{
+const GreenRainbowStrandData = {
     examine: "",
     value: 0,
     highAlch: 0,

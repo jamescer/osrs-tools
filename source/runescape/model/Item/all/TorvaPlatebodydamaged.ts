@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TorvaPlatebodydamagedData = {{
+const TorvaPlatebodydamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

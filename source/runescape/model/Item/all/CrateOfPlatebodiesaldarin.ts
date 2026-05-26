@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfPlatebodiesaldarinData = {{
+const CrateOfPlatebodiesaldarinData = {
     examine: "",
     value: 0,
     highAlch: 0,

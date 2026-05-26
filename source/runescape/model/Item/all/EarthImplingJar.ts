@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EarthImplingJarData = {{
+const EarthImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

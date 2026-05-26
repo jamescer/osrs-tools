@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalPickaxeOrTrailblazerReloadedchargedData = {{
+const InfernalPickaxeOrTrailblazerReloadedchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

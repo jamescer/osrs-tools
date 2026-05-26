@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArclightinactiveData = {{
+const ArclightinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

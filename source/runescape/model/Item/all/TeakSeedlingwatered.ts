@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakSeedlingwateredData = {{
+const TeakSeedlingwateredData = {
     examine: "",
     value: 0,
     highAlch: 0,

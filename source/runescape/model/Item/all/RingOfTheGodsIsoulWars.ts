@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfTheGodsIsoulWarsData = {{
+const RingOfTheGodsIsoulWarsData = {
     examine: "",
     value: 0,
     highAlch: 0,

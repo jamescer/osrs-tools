@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SchematicsDwarfEngineerData = {{
+const SchematicsDwarfEngineerData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkAltarUnobtainableItemData = {{
+const DarkAltarUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

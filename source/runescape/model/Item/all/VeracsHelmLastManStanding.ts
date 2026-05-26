@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VeracsHelmLastManStandingData = {{
+const VeracsHelmLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

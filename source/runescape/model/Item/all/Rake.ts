@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RakeData = {{
+const RakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottleOfExilesWelcomeData = {{
+const BottleOfExilesWelcomeData = {
     examine: "",
     value: 0,
     highAlch: 0,

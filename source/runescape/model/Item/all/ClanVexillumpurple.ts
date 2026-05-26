@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClanVexillumpurpleData = {{
+const ClanVexillumpurpleData = {
     examine: "",
     value: 0,
     highAlch: 0,

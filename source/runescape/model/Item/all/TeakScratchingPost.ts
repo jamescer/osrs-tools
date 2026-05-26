@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakScratchingPostData = {{
+const TeakScratchingPostData = {
     examine: "",
     value: 0,
     highAlch: 0,

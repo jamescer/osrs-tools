@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CapeOfLegendsMountedData = {{
+const CapeOfLegendsMountedData = {
     examine: "",
     value: 0,
     highAlch: 0,

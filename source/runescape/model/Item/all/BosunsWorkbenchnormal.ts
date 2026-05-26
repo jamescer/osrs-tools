@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BosunsWorkbenchnormalData = {{
+const BosunsWorkbenchnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FoxPetData = {{
+const FoxPetData = {
     examine: "",
     value: 0,
     highAlch: 0,

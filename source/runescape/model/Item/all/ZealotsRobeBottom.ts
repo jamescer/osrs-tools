@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZealotsRobeBottomData = {{
+const ZealotsRobeBottomData = {
     examine: "",
     value: 0,
     highAlch: 0,

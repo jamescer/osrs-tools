@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfPreservationattunedData = {{
+const SigilOfPreservationattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

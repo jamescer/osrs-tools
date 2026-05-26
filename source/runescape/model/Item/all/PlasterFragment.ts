@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlasterFragmentData = {{
+const PlasterFragmentData = {
     examine: "",
     value: 0,
     highAlch: 0,

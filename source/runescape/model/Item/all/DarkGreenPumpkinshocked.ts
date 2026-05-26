@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkGreenPumpkinshockedData = {{
+const DarkGreenPumpkinshockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

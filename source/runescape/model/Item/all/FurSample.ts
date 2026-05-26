@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FurSampleData = {{
+const FurSampleData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteBowWithinTheTempleInCivitasIllaFortisData = {{
+const ClueScrollEliteBowWithinTheTempleInCivitasIllaFortisData = {
     examine: "",
     value: 0,
     highAlch: 0,

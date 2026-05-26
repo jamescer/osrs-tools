@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrbDeviousMindsData = {{
+const OrbDeviousMindsData = {
     examine: "",
     value: 0,
     highAlch: 0,

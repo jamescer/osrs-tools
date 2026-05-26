@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShamanMaskData = {{
+const ShamanMaskData = {
     examine: "",
     value: 0,
     highAlch: 0,

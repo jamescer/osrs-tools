@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackPrismData = {{
+const BlackPrismData = {
     examine: "",
     value: 0,
     highAlch: 0,

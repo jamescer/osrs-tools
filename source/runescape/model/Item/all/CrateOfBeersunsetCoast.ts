@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfBeersunsetCoastData = {{
+const CrateOfBeersunsetCoastData = {
     examine: "",
     value: 0,
     highAlch: 0,

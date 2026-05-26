@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AvasAssemblerlockedData = {{
+const AvasAssemblerlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

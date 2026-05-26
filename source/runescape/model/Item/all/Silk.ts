@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilkData = {{
+const SilkData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DefenderHornData = {{
+const DefenderHornData = {
     examine: "",
     value: 0,
     highAlch: 0,

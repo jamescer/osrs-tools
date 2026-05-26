@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnfiredBowlData = {{
+const UnfiredBowlData = {
     examine: "",
     value: 0,
     highAlch: 0,

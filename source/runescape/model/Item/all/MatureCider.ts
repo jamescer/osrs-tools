@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MatureCiderData = {{
+const MatureCiderData = {
     examine: "",
     value: 0,
     highAlch: 0,

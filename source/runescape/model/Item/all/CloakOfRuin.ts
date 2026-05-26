@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CloakOfRuinData = {{
+const CloakOfRuinData = {
     examine: "",
     value: 0,
     highAlch: 0,

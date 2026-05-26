@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EasterUnobtainableItemData = {{
+const EasterUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

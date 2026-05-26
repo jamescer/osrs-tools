@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackUnicornMaskData = {{
+const blackUnicornMaskData = {
     examine: "Pointy shadows.",
     value: 1000,
     highAlch: 600,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NiceTreeData = {{
+const NiceTreeData = {
     examine: "",
     value: 0,
     highAlch: 0,

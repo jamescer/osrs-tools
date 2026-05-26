@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ReagentPouchopenData = {{
+const ReagentPouchopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

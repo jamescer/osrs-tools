@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JadeBoltTipsData = {{
+const JadeBoltTipsData = {
     examine: "",
     value: 0,
     highAlch: 0,

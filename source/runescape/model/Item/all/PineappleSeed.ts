@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PineappleSeedData = {{
+const PineappleSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

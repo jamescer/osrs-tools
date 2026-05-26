@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GathererScrollData = {{
+const GathererScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

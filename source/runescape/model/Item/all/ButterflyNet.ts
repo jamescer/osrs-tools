@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ButterflyNetData = {{
+const ButterflyNetData = {
     examine: "",
     value: 0,
     highAlch: 0,

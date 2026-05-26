@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DeadmanStarterPackData = {{
+const DeadmanStarterPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

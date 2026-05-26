@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalfMadeBattaCheesetomData = {{
+const HalfMadeBattaCheesetomData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedIcongoateeData = {{
+const RedIcongoateeData = {
     examine: "",
     value: 0,
     highAlch: 0,

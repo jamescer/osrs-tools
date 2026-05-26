@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MyrequeQuestLampData = {{
+const MyrequeQuestLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

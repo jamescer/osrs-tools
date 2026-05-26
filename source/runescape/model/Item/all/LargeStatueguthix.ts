@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeStatueguthixData = {{
+const LargeStatueguthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

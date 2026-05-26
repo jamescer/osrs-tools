@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PeacefulHandeggData = {{
+const PeacefulHandeggData = {
     examine: "",
     value: 0,
     highAlch: 0,

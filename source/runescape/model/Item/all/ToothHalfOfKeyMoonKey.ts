@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ToothHalfOfKeyMoonKeyData = {{
+const ToothHalfOfKeyMoonKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantFellingAxeData = {{
+const AdamantFellingAxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

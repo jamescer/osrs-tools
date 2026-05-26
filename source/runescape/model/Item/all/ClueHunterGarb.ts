@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueHunterGarbData = {{
+const ClueHunterGarbData = {
     examine: "",
     value: 0,
     highAlch: 0,

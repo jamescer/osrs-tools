@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyDoAJigInVarrocksRuneStoreData = {{
+const ClueScrollEasyDoAJigInVarrocksRuneStoreData = {
     examine: "",
     value: 0,
     highAlch: 0,

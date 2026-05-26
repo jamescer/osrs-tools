@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyBelladonnaMyDearIfOnlyIHadGlovesData = {{
+const ClueScrollEasyBelladonnaMyDearIfOnlyIHadGlovesData = {
     examine: "",
     value: 0,
     highAlch: 0,

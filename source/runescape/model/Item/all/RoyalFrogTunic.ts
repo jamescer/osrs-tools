@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RoyalFrogTunicData = {{
+const RoyalFrogTunicData = {
     examine: "",
     value: 0,
     highAlch: 0,

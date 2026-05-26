@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarbleDoorData = {{
+const MarbleDoorData = {
     examine: "",
     value: 0,
     highAlch: 0,

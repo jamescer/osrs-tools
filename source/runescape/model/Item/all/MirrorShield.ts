@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MirrorShieldData = {{
+const MirrorShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

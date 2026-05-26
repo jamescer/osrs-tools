@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BluriteBoltsUnfData = {{
+const BluriteBoltsUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

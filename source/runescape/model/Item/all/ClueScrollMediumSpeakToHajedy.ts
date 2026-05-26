@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumSpeakToHajedyData = {{
+const ClueScrollMediumSpeakToHajedyData = {
     examine: "",
     value: 0,
     highAlch: 0,

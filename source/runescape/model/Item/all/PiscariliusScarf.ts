@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PiscariliusScarfData = {{
+const PiscariliusScarfData = {
     examine: "",
     value: 0,
     highAlch: 0,

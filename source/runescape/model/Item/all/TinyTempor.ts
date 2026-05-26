@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TinyTemporData = {{
+const TinyTemporData = {
     examine: "",
     value: 0,
     highAlch: 0,

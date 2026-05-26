@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BroodooShieldDiseaseunchargedData = {{
+const BroodooShieldDiseaseunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

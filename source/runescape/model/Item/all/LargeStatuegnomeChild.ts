@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeStatuegnomeChildData = {{
+const LargeStatuegnomeChildData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const armadylMitreData = {{
+const armadylMitreData = {
     examine: "An Armadyl mitre.",
     value: 5000,
     highAlch: 3000,

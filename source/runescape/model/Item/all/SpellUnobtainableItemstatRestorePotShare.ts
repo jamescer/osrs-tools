@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemstatRestorePotShareData = {{
+const SpellUnobtainableItemstatRestorePotShareData = {
     examine: "",
     value: 0,
     highAlch: 0,

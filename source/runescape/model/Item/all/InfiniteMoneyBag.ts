@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfiniteMoneyBagData = {{
+const InfiniteMoneyBagData = {
     examine: "",
     value: 0,
     highAlch: 0,

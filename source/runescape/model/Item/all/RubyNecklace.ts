@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RubyNecklaceData = {{
+const RubyNecklaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

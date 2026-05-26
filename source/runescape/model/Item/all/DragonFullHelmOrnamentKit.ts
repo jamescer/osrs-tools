@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const dragonFullHelmOrnamentKitData = {{
+const dragonFullHelmOrnamentKitData = {
     examine: "Use on a dragon full helm to make it look fancier!",
     value: 5000,
     highAlch: 3000,

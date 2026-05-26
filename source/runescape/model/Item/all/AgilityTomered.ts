@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AgilityTomeredData = {{
+const AgilityTomeredData = {
     examine: "",
     value: 0,
     highAlch: 0,

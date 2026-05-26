@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GroundToothData = {{
+const GroundToothData = {
     examine: "",
     value: 0,
     highAlch: 0,

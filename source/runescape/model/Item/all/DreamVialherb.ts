@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DreamVialherbData = {{
+const DreamVialherbData = {
     examine: "",
     value: 0,
     highAlch: 0,

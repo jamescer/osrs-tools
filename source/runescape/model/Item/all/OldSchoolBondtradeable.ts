@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OldSchoolBondtradeableData = {{
+const OldSchoolBondtradeableData = {
     examine: "",
     value: 0,
     highAlch: 0,

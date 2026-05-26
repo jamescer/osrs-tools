@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AvantoeData = {{
+const AvantoeData = {
     examine: "",
     value: 0,
     highAlch: 0,

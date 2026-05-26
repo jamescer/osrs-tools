@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyDanceAJigByTheEntranceToTheFishingGuildData = {{
+const ClueScrollEasyDanceAJigByTheEntranceToTheFishingGuildData = {
     examine: "",
     value: 0,
     highAlch: 0,

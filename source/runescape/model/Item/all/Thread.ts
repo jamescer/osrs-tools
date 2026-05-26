@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThreadData = {{
+const ThreadData = {
     examine: "",
     value: 0,
     highAlch: 0,

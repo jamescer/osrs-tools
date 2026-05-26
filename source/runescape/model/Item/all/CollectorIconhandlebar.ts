@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectorIconhandlebarData = {{
+const CollectorIconhandlebarData = {
     examine: "",
     value: 0,
     highAlch: 0,

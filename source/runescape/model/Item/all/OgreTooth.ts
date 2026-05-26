@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OgreToothData = {{
+const OgreToothData = {
     examine: "",
     value: 0,
     highAlch: 0,

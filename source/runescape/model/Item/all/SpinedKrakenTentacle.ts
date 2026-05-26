@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpinedKrakenTentacleData = {{
+const SpinedKrakenTentacleData = {
     examine: "",
     value: 0,
     highAlch: 0,

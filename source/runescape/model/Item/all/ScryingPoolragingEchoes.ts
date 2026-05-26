@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScryingPoolragingEchoesData = {{
+const ScryingPoolragingEchoesData = {
     examine: "",
     value: 0,
     highAlch: 0,

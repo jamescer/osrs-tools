@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BannerAsgarniaData = {{
+const BannerAsgarniaData = {
     examine: "",
     value: 0,
     highAlch: 0,

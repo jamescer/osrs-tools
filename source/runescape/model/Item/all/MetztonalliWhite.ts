@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MetztonalliWhiteData = {{
+const MetztonalliWhiteData = {
     examine: "",
     value: 0,
     highAlch: 0,

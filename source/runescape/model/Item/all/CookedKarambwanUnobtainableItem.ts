@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CookedKarambwanUnobtainableItemData = {{
+const CookedKarambwanUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

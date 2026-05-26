@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DirtyNoteruinsOfMorraData = {{
+const DirtyNoteruinsOfMorraData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WormHoleData = {{
+const WormHoleData = {
     examine: "",
     value: 0,
     highAlch: 0,

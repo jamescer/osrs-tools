@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SourhogFootData = {{
+const SourhogFootData = {
     examine: "",
     value: 0,
     highAlch: 0,

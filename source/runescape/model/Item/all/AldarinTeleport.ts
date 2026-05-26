@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AldarinTeleportData = {{
+const AldarinTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

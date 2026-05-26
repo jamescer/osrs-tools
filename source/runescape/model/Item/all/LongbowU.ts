@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LongbowUData = {{
+const LongbowUData = {
     examine: "",
     value: 0,
     highAlch: 0,

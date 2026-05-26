@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SwordsAndEmblemGData = {{
+const SwordsAndEmblemGData = {
     examine: "",
     value: 0,
     highAlch: 0,

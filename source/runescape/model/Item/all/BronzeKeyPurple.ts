@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeKeyPurpleData = {{
+const BronzeKeyPurpleData = {
     examine: "",
     value: 0,
     highAlch: 0,

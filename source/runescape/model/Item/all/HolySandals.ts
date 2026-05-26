@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const holySandalsData = {{
+const holySandalsData = {
     examine: "Holy footwear!",
     value: 2000,
     highAlch: 1200,

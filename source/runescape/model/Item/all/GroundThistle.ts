@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GroundThistleData = {{
+const GroundThistleData = {
     examine: "",
     value: 0,
     highAlch: 0,

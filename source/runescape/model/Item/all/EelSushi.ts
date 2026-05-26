@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EelSushiData = {{
+const EelSushiData = {
     examine: "",
     value: 0,
     highAlch: 0,

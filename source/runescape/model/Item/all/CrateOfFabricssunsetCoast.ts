@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfFabricssunsetCoastData = {{
+const CrateOfFabricssunsetCoastData = {
     examine: "",
     value: 0,
     highAlch: 0,

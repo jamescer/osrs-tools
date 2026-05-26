@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantiteBarData = {{
+const AdamantiteBarData = {
     examine: "",
     value: 0,
     highAlch: 0,

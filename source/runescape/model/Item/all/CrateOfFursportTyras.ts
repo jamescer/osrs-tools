@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfFursportTyrasData = {{
+const CrateOfFursportTyrasData = {
     examine: "",
     value: 0,
     highAlch: 0,

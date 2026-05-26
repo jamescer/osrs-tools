@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PartFishPieTroutData = {{
+const PartFishPieTroutData = {
     examine: "",
     value: 0,
     highAlch: 0,

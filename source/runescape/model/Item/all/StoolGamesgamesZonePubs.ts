@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoolGamesgamesZonePubsData = {{
+const StoolGamesgamesZonePubsData = {
     examine: "",
     value: 0,
     highAlch: 0,

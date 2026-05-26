@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoHomeTeleportScrollData = {{
+const EchoHomeTeleportScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

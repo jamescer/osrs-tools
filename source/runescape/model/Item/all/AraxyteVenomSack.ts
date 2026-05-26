@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AraxyteVenomSackData = {{
+const AraxyteVenomSackData = {
     examine: "",
     value: 0,
     highAlch: 0,

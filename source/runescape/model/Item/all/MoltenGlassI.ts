@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoltenGlassIData = {{
+const MoltenGlassIData = {
     examine: "",
     value: 0,
     highAlch: 0,

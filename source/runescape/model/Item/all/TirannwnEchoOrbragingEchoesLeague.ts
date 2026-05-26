@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TirannwnEchoOrbragingEchoesLeagueData = {{
+const TirannwnEchoOrbragingEchoesLeagueData = {
     examine: "",
     value: 0,
     highAlch: 0,

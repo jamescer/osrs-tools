@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HosidiusScarfData = {{
+const HosidiusScarfData = {
     examine: "",
     value: 0,
     highAlch: 0,

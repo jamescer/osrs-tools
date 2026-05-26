@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LogBasketclosedData = {{
+const LogBasketclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

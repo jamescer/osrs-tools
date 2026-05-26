@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RevenantCaveTeleportData = {{
+const RevenantCaveTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

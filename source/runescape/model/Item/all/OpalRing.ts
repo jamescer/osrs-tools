@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OpalRingData = {{
+const OpalRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

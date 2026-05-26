@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntlerGuardData = {{
+const AntlerGuardData = {
     examine: "",
     value: 0,
     highAlch: 0,

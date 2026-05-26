@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EcumenicalKeyShardData = {{
+const EcumenicalKeyShardData = {
     examine: "",
     value: 0,
     highAlch: 0,

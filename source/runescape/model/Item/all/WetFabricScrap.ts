@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WetFabricScrapData = {{
+const WetFabricScrapData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChromiumIngotData = {{
+const ChromiumIngotData = {
     examine: "",
     value: 0,
     highAlch: 0,

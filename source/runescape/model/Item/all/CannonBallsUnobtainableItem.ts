@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CannonBallsUnobtainableItemData = {{
+const CannonBallsUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

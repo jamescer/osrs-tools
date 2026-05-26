@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VolatileNightmareStaffDeadmanData = {{
+const VolatileNightmareStaffDeadmanData = {
     examine: "",
     value: 0,
     highAlch: 0,

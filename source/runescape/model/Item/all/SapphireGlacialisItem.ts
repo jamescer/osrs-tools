@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SapphireGlacialisItemData = {{
+const SapphireGlacialisItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

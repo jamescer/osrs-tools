@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpecialHotSauceData = {{
+const SpecialHotSauceData = {
     examine: "",
     value: 0,
     highAlch: 0,

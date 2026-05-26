@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawStuffedSnakeData = {{
+const RawStuffedSnakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

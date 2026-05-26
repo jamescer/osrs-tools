@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DawnScarabEggData = {{
+const DawnScarabEggData = {
     examine: "",
     value: 0,
     highAlch: 0,

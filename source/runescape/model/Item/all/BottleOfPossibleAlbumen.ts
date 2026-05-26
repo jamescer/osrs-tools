@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottleOfPossibleAlbumenData = {{
+const BottleOfPossibleAlbumenData = {
     examine: "",
     value: 0,
     highAlch: 0,

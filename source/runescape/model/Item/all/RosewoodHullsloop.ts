@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RosewoodHullsloopData = {{
+const RosewoodHullsloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

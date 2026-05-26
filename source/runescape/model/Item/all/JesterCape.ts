@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const jesterCapeData = {{
+const jesterCapeData = {
     examine: "A jester cape.",
     value: 1000,
     highAlch: 600,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IorwerthsMessageData = {{
+const IorwerthsMessageData = {
     examine: "",
     value: 0,
     highAlch: 0,

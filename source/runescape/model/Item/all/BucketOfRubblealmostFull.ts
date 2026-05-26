@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketOfRubblealmostFullData = {{
+const BucketOfRubblealmostFullData = {
     examine: "",
     value: 0,
     highAlch: 0,

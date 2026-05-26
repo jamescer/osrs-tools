@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CriminalsDaggernormalData = {{
+const CriminalsDaggernormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

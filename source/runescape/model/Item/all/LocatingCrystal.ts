@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LocatingCrystalData = {{
+const LocatingCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

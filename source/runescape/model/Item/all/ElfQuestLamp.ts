@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElfQuestLampData = {{
+const ElfQuestLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

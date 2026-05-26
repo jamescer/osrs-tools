@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OldChippedVaseData = {{
+const OldChippedVaseData = {
     examine: "",
     value: 0,
     highAlch: 0,

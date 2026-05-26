@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrownRugData = {{
+const BrownRugData = {
     examine: "",
     value: 0,
     highAlch: 0,

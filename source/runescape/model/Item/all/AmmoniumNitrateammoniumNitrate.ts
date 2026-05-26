@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmmoniumNitrateammoniumNitrateData = {{
+const AmmoniumNitrateammoniumNitrateData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BranchData = {{
+const BranchData = {
     examine: "",
     value: 0,
     highAlch: 0,

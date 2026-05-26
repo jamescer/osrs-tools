@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DoorTranscriptionData = {{
+const DoorTranscriptionData = {
     examine: "",
     value: 0,
     highAlch: 0,

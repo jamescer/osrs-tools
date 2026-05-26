@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CelestialSignetchargedData = {{
+const CelestialSignetchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

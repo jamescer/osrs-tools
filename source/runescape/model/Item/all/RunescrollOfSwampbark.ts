@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RunescrollOfSwampbarkData = {{
+const RunescrollOfSwampbarkData = {
     examine: "",
     value: 0,
     highAlch: 0,

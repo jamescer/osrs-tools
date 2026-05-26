@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UselessKeybankPlaceholderData = {{
+const UselessKeybankPlaceholderData = {
     examine: "",
     value: 0,
     highAlch: 0,

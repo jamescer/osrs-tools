@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeArmourMagicLegsnormalData = {{
+const DecorativeArmourMagicLegsnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

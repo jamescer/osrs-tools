@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const staffOfAirData = {{
+const staffOfAirData = {
     examine: "A magical staff of air.",
     value: 30,
     highAlch: 18,

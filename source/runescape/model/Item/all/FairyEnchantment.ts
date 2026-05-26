@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FairyEnchantmentData = {{
+const FairyEnchantmentData = {
     examine: "",
     value: 0,
     highAlch: 0,

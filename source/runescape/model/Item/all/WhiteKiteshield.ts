@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteKiteshieldData = {{
+const WhiteKiteshieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

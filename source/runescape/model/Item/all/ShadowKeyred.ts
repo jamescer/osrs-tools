@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShadowKeyredData = {{
+const ShadowKeyredData = {
     examine: "",
     value: 0,
     highAlch: 0,

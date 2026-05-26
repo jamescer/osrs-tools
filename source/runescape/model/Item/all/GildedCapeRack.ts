@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedCapeRackData = {{
+const GildedCapeRackData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GraniteMaulnormalData = {{
+const GraniteMaulnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

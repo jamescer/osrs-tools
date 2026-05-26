@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NidnidData = {{
+const NidnidData = {
     examine: "",
     value: 0,
     highAlch: 0,

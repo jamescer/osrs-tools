@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PortableWaystoneData = {{
+const PortableWaystoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InnoculationStationsloopData = {{
+const InnoculationStationsloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

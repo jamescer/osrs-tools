@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ContractOfOathplateAcquisitionData = {{
+const ContractOfOathplateAcquisitionData = {
     examine: "",
     value: 0,
     highAlch: 0,

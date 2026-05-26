@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenBarkSnelmData = {{
+const BrokenBarkSnelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

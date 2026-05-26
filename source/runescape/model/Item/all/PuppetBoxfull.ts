@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PuppetBoxfullData = {{
+const PuppetBoxfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

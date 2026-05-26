@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AqualuxAmalgamprocessedData = {{
+const AqualuxAmalgamprocessedData = {
     examine: "",
     value: 0,
     highAlch: 0,

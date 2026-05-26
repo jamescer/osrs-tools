@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntiqueLampRecipeForDisasterData = {{
+const AntiqueLampRecipeForDisasterData = {
     examine: "",
     value: 0,
     highAlch: 0,

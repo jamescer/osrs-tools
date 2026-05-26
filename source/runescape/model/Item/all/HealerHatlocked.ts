@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HealerHatlockedData = {{
+const HealerHatlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

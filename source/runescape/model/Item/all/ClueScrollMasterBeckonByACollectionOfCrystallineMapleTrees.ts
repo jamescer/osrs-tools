@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMasterBeckonByACollectionOfCrystallineMapleTreesData = {{
+const ClueScrollMasterBeckonByACollectionOfCrystallineMapleTreesData = {
     examine: "",
     value: 0,
     highAlch: 0,

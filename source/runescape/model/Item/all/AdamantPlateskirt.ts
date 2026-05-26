@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantPlateskirtData = {{
+const AdamantPlateskirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

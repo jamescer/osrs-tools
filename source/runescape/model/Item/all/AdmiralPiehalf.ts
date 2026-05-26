@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdmiralPiehalfData = {{
+const AdmiralPiehalfData = {
     examine: "",
     value: 0,
     highAlch: 0,

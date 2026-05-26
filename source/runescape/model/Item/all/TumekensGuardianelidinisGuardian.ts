@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TumekensGuardianelidinisGuardianData = {{
+const TumekensGuardianelidinisGuardianData = {
     examine: "",
     value: 0,
     highAlch: 0,

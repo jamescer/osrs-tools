@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumLeakeyData = {{
+const ClueScrollMediumLeakeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

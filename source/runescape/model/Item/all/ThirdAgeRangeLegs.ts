@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeRangeLegsData = {{
+const ThirdAgeRangeLegsData = {
     examine: "Fabulously ancient range protection crafted from white dragonhide.",
     value: 50600,
     highAlch: 30360,

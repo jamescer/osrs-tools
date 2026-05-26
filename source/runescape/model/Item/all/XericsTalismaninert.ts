@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const XericsTalismaninertData = {{
+const XericsTalismaninertData = {
     examine: "",
     value: 0,
     highAlch: 0,

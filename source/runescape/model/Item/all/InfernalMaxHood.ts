@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalMaxHoodData = {{
+const InfernalMaxHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

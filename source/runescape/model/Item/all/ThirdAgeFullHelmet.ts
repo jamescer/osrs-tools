@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeFullHelmetData = {{
+const ThirdAgeFullHelmetData = {
     examine: "Fabulously ancient armour beaten from magical silver.",
     value: 90000,
     highAlch: 54000,

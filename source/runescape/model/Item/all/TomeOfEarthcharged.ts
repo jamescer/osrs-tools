@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TomeOfEarthchargedData = {{
+const TomeOfEarthchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

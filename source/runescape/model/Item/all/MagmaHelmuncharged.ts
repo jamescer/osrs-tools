@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagmaHelmunchargedData = {{
+const MagmaHelmunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

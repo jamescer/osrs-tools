@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bucketHelmData = {{
+const bucketHelmData = {
     examine: "A helm made from a bucket.",
     value: 14000,
     highAlch: 8400,

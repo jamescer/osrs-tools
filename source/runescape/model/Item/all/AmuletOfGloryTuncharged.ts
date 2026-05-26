@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmuletOfGloryTunchargedData = {{
+const AmuletOfGloryTunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

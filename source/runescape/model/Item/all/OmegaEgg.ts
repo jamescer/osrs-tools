@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OmegaEggData = {{
+const OmegaEggData = {
     examine: "",
     value: 0,
     highAlch: 0,

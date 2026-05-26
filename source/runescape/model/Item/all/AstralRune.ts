@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AstralRuneData = {{
+const AstralRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VolcanicHabitatData = {{
+const VolcanicHabitatData = {
     examine: "",
     value: 0,
     highAlch: 0,

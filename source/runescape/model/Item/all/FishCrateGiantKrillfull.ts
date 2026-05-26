@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FishCrateGiantKrillfullData = {{
+const FishCrateGiantKrillfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

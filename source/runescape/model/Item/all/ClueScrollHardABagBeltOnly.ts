@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardABagBeltOnlyData = {{
+const ClueScrollHardABagBeltOnlyData = {
     examine: "",
     value: 0,
     highAlch: 0,

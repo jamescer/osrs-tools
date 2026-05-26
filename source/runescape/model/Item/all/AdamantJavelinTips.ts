@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantJavelinTipsData = {{
+const AdamantJavelinTipsData = {
     examine: "",
     value: 0,
     highAlch: 0,

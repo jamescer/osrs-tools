@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NimblenessCharmData = {{
+const NimblenessCharmData = {
     examine: "",
     value: 0,
     highAlch: 0,

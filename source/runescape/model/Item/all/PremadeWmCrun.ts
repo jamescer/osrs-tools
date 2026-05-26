@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeWmCrunData = {{
+const PremadeWmCrunData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeldagrimPortraitData = {{
+const KeldagrimPortraitData = {
     examine: "",
     value: 0,
     highAlch: 0,

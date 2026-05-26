@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EyeOfGnomeData = {{
+const EyeOfGnomeData = {
     examine: "",
     value: 0,
     highAlch: 0,

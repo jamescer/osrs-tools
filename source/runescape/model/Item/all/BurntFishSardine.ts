@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntFishSardineData = {{
+const BurntFishSardineData = {
     examine: "",
     value: 0,
     highAlch: 0,

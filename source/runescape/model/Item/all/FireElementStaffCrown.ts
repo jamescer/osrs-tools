@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireElementStaffCrownData = {{
+const FireElementStaffCrownData = {
     examine: "",
     value: 0,
     highAlch: 0,

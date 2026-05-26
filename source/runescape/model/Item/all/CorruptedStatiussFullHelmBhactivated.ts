@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedStatiussFullHelmBhactivatedData = {{
+const CorruptedStatiussFullHelmBhactivatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

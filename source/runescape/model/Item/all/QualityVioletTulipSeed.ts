@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const QualityVioletTulipSeedData = {{
+const QualityVioletTulipSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

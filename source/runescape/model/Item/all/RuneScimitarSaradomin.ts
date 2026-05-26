@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneScimitarSaradominData = {{
+const RuneScimitarSaradominData = {
     examine: "",
     value: 0,
     highAlch: 0,

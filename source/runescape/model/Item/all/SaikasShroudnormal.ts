@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaikasShroudnormalData = {{
+const SaikasShroudnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenCrystalUnobtainableData = {{
+const GreenCrystalUnobtainableData = {
     examine: "",
     value: 0,
     highAlch: 0,

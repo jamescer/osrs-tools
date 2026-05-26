@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IkkleHydraextinguishedData = {{
+const IkkleHydraextinguishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

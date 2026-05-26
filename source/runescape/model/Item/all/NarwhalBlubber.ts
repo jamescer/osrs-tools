@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NarwhalBlubberData = {{
+const NarwhalBlubberData = {
     examine: "",
     value: 0,
     highAlch: 0,

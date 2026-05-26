@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChichilihuiRosData = {{
+const ChichilihuiRosData = {
     examine: "",
     value: 0,
     highAlch: 0,

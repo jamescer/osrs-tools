@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InnoculationStationskiffData = {{
+const InnoculationStationskiffData = {
     examine: "",
     value: 0,
     highAlch: 0,

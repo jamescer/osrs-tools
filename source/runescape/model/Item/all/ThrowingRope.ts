@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThrowingRopeData = {{
+const ThrowingRopeData = {
     examine: "",
     value: 0,
     highAlch: 0,

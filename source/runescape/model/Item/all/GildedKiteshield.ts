@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedKiteshieldData = {{
+const gildedKiteshieldData = {
     examine: "Rune kiteshield with gold plate.",
     value: 54400,
     highAlch: 32640,

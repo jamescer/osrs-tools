@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NihilShardData = {{
+const NihilShardData = {
     examine: "",
     value: 0,
     highAlch: 0,

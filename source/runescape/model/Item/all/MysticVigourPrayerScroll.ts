@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysticVigourPrayerScrollData = {{
+const MysticVigourPrayerScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

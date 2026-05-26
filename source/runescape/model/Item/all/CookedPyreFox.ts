@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CookedPyreFoxData = {{
+const CookedPyreFoxData = {
     examine: "",
     value: 0,
     highAlch: 0,

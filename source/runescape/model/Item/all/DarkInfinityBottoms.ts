@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkInfinityBottomsData = {{
+const DarkInfinityBottomsData = {
     examine: "",
     value: 0,
     highAlch: 0,

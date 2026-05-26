@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DefensiveShieldData = {{
+const DefensiveShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

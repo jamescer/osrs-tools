@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalOfPowerFlatpackData = {{
+const CrystalOfPowerFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

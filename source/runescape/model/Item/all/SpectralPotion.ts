@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpectralPotionData = {{
+const SpectralPotionData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RockElementalData = {{
+const RockElementalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeOrnateKeyData = {{
+const LargeOrnateKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

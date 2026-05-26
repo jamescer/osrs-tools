@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DirtyNotelakeMolchIslandData = {{
+const DirtyNotelakeMolchIslandData = {
     examine: "",
     value: 0,
     highAlch: 0,

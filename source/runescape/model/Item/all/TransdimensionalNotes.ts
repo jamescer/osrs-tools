@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TransdimensionalNotesData = {{
+const TransdimensionalNotesData = {
     examine: "",
     value: 0,
     highAlch: 0,

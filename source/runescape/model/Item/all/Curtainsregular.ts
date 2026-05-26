@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CurtainsregularData = {{
+const CurtainsregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

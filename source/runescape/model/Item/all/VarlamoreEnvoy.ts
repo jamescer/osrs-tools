@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VarlamoreEnvoyData = {{
+const VarlamoreEnvoyData = {
     examine: "",
     value: 0,
     highAlch: 0,

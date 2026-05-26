@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BeavernormalData = {{
+const BeavernormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

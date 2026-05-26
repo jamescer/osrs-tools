@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RollingPinData = {{
+const RollingPinData = {
     examine: "",
     value: 0,
     highAlch: 0,

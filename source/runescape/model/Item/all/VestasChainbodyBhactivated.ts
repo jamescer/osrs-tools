@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VestasChainbodyBhactivatedData = {{
+const VestasChainbodyBhactivatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

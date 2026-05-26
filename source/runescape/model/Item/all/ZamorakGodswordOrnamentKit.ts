@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const zamorakGodswordOrnamentKitData = {{
+const zamorakGodswordOrnamentKitData = {
     examine: "Use on a Zamorak godsword to make it look fancier!",
     value: 5000,
     highAlch: 3000,

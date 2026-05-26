@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BryophytasStaffunchargedData = {{
+const BryophytasStaffunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

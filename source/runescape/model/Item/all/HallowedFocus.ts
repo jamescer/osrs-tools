@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HallowedFocusData = {{
+const HallowedFocusData = {
     examine: "",
     value: 0,
     highAlch: 0,

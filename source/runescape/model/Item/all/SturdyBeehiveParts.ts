@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SturdyBeehivePartsData = {{
+const SturdyBeehivePartsData = {
     examine: "",
     value: 0,
     highAlch: 0,

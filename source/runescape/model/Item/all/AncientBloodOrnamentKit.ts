@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AncientBloodOrnamentKitData = {{
+const AncientBloodOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

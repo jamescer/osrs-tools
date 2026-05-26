@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmithsTunicData = {{
+const SmithsTunicData = {
     examine: "",
     value: 0,
     highAlch: 0,

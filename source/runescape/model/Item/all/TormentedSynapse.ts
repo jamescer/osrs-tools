@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TormentedSynapseData = {{
+const TormentedSynapseData = {
     examine: "",
     value: 0,
     highAlch: 0,

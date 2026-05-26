@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireworkData = {{
+const FireworkData = {
     examine: "",
     value: 0,
     highAlch: 0,

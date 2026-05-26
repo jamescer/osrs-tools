@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LumberjackTopData = {{
+const LumberjackTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

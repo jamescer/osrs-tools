@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DamianaTeaMilkyData = {{
+const DamianaTeaMilkyData = {
     examine: "",
     value: 0,
     highAlch: 0,

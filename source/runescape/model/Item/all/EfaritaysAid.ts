@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EfaritaysAidData = {{
+const EfaritaysAidData = {
     examine: "",
     value: 0,
     highAlch: 0,

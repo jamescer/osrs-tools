@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CadavaberrySeedData = {{
+const CadavaberrySeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmoulderingPileOfFleshData = {{
+const SmoulderingPileOfFleshData = {
     examine: "",
     value: 0,
     highAlch: 0,

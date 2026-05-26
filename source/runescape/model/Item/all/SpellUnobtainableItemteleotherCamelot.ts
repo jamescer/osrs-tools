@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemteleotherCamelotData = {{
+const SpellUnobtainableItemteleotherCamelotData = {
     examine: "",
     value: 0,
     highAlch: 0,

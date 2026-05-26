@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GhostspeakAmuletenchantedData = {{
+const GhostspeakAmuletenchantedData = {
     examine: "",
     value: 0,
     highAlch: 0,

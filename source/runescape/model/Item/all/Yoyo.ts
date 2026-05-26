@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YoyoData = {{
+const YoyoData = {
     examine: "",
     value: 0,
     highAlch: 0,

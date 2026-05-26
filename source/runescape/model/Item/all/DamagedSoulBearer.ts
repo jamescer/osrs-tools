@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DamagedSoulBearerData = {{
+const DamagedSoulBearerData = {
     examine: "",
     value: 0,
     highAlch: 0,

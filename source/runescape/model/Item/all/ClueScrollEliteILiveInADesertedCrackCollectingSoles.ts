@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteILiveInADesertedCrackCollectingSolesData = {{
+const ClueScrollEliteILiveInADesertedCrackCollectingSolesData = {
     examine: "",
     value: 0,
     highAlch: 0,

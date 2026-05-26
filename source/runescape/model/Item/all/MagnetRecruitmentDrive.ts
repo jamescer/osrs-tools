@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagnetRecruitmentDriveData = {{
+const MagnetRecruitmentDriveData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CellKeyData = {{
+const CellKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

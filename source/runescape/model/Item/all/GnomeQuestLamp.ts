@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeQuestLampData = {{
+const GnomeQuestLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

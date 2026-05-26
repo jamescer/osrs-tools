@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedSaradominCapenormalData = {{
+const ImbuedSaradominCapenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

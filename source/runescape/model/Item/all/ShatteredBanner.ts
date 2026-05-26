@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShatteredBannerData = {{
+const ShatteredBannerData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnakeHideSwampData = {{
+const SnakeHideSwampData = {
     examine: "",
     value: 0,
     highAlch: 0,

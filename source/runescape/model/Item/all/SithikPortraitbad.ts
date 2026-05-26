@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SithikPortraitbadData = {{
+const SithikPortraitbadData = {
     examine: "",
     value: 0,
     highAlch: 0,

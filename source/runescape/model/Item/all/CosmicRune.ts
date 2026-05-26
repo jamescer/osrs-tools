@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CosmicRuneData = {{
+const CosmicRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

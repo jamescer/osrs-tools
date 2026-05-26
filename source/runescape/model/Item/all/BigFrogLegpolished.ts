@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BigFrogLegpolishedData = {{
+const BigFrogLegpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

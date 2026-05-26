@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedMarionetteTorsoData = {{
+const RedMarionetteTorsoData = {
     examine: "",
     value: 0,
     highAlch: 0,

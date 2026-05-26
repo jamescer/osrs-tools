@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarbleAltargnomeChildData = {{
+const MarbleAltargnomeChildData = {
     examine: "",
     value: 0,
     highAlch: 0,

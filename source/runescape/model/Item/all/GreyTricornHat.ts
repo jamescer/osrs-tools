@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreyTricornHatData = {{
+const GreyTricornHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

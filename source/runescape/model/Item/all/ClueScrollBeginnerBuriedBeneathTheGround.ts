@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollBeginnerBuriedBeneathTheGroundData = {{
+const ClueScrollBeginnerBuriedBeneathTheGroundData = {
     examine: "",
     value: 0,
     highAlch: 0,

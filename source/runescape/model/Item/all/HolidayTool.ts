@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HolidayToolData = {{
+const HolidayToolData = {
     examine: "",
     value: 0,
     highAlch: 0,

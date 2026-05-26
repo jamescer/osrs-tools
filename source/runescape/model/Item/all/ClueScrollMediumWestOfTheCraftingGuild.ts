@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumWestOfTheCraftingGuildData = {{
+const ClueScrollMediumWestOfTheCraftingGuildData = {
     examine: "",
     value: 0,
     highAlch: 0,

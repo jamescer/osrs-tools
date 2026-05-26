@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpinedArmourSetData = {{
+const SpinedArmourSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteDigWhereTheForcesOfZamorakAndSaradominCollideData = {{
+const ClueScrollEliteDigWhereTheForcesOfZamorakAndSaradominCollideData = {
     examine: "",
     value: 0,
     highAlch: 0,

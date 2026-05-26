@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WarmKeyData = {{
+const WarmKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

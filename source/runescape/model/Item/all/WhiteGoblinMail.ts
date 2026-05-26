@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteGoblinMailData = {{
+const WhiteGoblinMailData = {
     examine: "",
     value: 0,
     highAlch: 0,

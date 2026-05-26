@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedAltarguthixData = {{
+const GildedAltarguthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

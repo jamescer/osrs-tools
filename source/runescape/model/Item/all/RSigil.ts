@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RSigilData = {{
+const RSigilData = {
     examine: "",
     value: 0,
     highAlch: 0,

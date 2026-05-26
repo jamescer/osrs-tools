@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeverDorgeshkaanAgilityCoursebrokenData = {{
+const LeverDorgeshkaanAgilityCoursebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

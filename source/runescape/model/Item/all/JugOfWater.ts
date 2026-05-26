@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JugOfWaterData = {{
+const JugOfWaterData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AncestralRobeBottomLastManStandingData = {{
+const AncestralRobeBottomLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

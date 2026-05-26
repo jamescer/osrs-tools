@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TonalzticsOfRaloschargedData = {{
+const TonalzticsOfRaloschargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

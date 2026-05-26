@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BankFillerData = {{
+const BankFillerData = {
     examine: "",
     value: 0,
     highAlch: 0,

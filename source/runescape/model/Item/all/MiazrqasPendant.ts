@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MiazrqasPendantData = {{
+const MiazrqasPendantData = {
     examine: "",
     value: 0,
     highAlch: 0,

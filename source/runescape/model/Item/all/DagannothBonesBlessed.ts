@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DagannothBonesBlessedData = {{
+const DagannothBonesBlessedData = {
     examine: "",
     value: 0,
     highAlch: 0,

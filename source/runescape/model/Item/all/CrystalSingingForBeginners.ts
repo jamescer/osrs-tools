@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalSingingForBeginnersData = {{
+const CrystalSingingForBeginnersData = {
     examine: "",
     value: 0,
     highAlch: 0,

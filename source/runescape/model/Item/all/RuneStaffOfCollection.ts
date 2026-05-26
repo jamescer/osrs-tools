@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneStaffOfCollectionData = {{
+const RuneStaffOfCollectionData = {
     examine: "",
     value: 0,
     highAlch: 0,

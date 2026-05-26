@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalfMadeBowlWormHoleData = {{
+const HalfMadeBowlWormHoleData = {
     examine: "",
     value: 0,
     highAlch: 0,

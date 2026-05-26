@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BaggedNiceTreeData = {{
+const BaggedNiceTreeData = {
     examine: "",
     value: 0,
     highAlch: 0,

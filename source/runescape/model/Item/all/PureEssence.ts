@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PureEssenceData = {{
+const PureEssenceData = {
     examine: "",
     value: 0,
     highAlch: 0,

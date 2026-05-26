@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MissionReportLumbridgeData = {{
+const MissionReportLumbridgeData = {
     examine: "",
     value: 0,
     highAlch: 0,

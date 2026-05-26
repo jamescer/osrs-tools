@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AEyegloNullData = {{
+const AEyegloNullData = {
     examine: "",
     value: 0,
     highAlch: 0,

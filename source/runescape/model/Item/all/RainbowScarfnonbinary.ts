@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RainbowScarfnonbinaryData = {{
+const RainbowScarfnonbinaryData = {
     examine: "",
     value: 0,
     highAlch: 0,

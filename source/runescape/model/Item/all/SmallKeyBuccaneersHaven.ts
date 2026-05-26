@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallKeyBuccaneersHavenData = {{
+const SmallKeyBuccaneersHavenData = {
     examine: "",
     value: 0,
     highAlch: 0,

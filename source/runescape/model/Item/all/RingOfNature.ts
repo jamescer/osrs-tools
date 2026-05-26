@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ringOfNatureData = {{
+const ringOfNatureData = {
     examine: "A ring shaped like the nature rune symbol.",
     value: 8000,
     highAlch: 4800,

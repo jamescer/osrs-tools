@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TurquoiseRobeTopData = {{
+const TurquoiseRobeTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

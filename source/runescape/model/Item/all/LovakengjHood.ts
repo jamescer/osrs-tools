@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const lovakengjHoodData = {{
+const lovakengjHoodData = {
     examine: "A rare hood from Lovakengj.",
     value: 1,
     highAlch: 0,

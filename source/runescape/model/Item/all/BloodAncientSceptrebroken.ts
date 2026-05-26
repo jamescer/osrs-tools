@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BloodAncientSceptrebrokenData = {{
+const BloodAncientSceptrebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

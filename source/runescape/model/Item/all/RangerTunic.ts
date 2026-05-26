@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const rangerTunicData = {{
+const rangerTunicData = {
     examine: "A tunic suited for combat.",
     value: 41000,
     highAlch: 24600,

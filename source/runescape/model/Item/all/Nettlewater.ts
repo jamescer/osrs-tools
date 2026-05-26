@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NettlewaterData = {{
+const NettlewaterData = {
     examine: "",
     value: 0,
     highAlch: 0,

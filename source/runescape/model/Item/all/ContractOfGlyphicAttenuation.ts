@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ContractOfGlyphicAttenuationData = {{
+const ContractOfGlyphicAttenuationData = {
     examine: "",
     value: 0,
     highAlch: 0,

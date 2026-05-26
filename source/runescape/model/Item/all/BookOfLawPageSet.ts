@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BookOfLawPageSetData = {{
+const BookOfLawPageSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

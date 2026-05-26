@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const torstolData = {{
+const torstolData = {
     examine: "A powerful herb.",
     value: 75,
     highAlch: 45,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaledictionWardData = {{
+const MaledictionWardData = {
     examine: "",
     value: 0,
     highAlch: 0,

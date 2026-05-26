@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LanternLensData = {{
+const LanternLensData = {
     examine: "",
     value: 0,
     highAlch: 0,

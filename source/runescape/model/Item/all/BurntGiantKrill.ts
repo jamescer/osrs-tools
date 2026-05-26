@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntGiantKrillData = {{
+const BurntGiantKrillData = {
     examine: "",
     value: 0,
     highAlch: 0,

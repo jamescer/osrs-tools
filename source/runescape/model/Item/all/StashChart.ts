@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StashChartData = {{
+const StashChartData = {
     examine: "",
     value: 0,
     highAlch: 0,

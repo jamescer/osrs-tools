@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ManorKeyhalloweenData = {{
+const ManorKeyhalloweenData = {
     examine: "",
     value: 0,
     highAlch: 0,

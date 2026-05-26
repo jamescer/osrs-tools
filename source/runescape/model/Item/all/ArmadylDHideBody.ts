@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const armadylDHideBodyData = {{
+const armadylDHideBodyData = {
     examine: "Armadyl blessed dragonhide body armour.",
     value: 13000,
     highAlch: 7800,

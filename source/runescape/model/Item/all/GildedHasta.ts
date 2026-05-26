@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedHastaData = {{
+const gildedHastaData = {
     examine: "A rune-tipped, one-handed hasta, with gold plate.",
     value: 20800,
     highAlch: 12480,

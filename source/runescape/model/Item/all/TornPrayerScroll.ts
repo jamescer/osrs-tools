@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TornPrayerScrollData = {{
+const TornPrayerScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

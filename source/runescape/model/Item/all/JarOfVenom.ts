@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JarOfVenomData = {{
+const JarOfVenomData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasySearchTheBoxesNextToAChestThatNeedsACrystalKeyData = {{
+const ClueScrollEasySearchTheBoxesNextToAChestThatNeedsACrystalKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

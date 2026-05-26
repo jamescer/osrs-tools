@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JaguarEggData = {{
+const JaguarEggData = {
     examine: "",
     value: 0,
     highAlch: 0,

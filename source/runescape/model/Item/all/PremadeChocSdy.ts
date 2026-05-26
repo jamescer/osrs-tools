@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeChocSdyData = {{
+const PremadeChocSdyData = {
     examine: "",
     value: 0,
     highAlch: 0,

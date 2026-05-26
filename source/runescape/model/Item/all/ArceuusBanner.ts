@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const arceuusBannerData = {{
+const arceuusBannerData = {
     examine: "An ancient banner bearing the mark of the Arceuus Elders.",
     value: 70,
     highAlch: 42,

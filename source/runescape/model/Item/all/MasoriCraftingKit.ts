@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasoriCraftingKitData = {{
+const MasoriCraftingKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LithkrenVaultNotesData = {{
+const LithkrenVaultNotesData = {
     examine: "",
     value: 0,
     highAlch: 0,

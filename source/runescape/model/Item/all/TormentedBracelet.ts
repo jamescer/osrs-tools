@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TormentedBraceletData = {{
+const TormentedBraceletData = {
     examine: "",
     value: 0,
     highAlch: 0,

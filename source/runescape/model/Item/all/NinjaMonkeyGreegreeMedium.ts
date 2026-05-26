@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NinjaMonkeyGreegreeMediumData = {{
+const NinjaMonkeyGreegreeMediumData = {
     examine: "",
     value: 0,
     highAlch: 0,

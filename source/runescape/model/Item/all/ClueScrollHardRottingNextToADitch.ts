@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardRottingNextToADitchData = {{
+const ClueScrollHardRottingNextToADitchData = {
     examine: "",
     value: 0,
     highAlch: 0,

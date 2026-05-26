@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoulFragmentinmatchData = {{
+const SoulFragmentinmatchData = {
     examine: "",
     value: 0,
     highAlch: 0,

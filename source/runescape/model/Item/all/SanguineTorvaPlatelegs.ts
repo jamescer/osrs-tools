@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SanguineTorvaPlatelegsData = {{
+const SanguineTorvaPlatelegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlamishMyreShellPointedData = {{
+const BlamishMyreShellPointedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerMithrilTrophyData = {{
+const TrailblazerMithrilTrophyData = {
     examine: "",
     value: 0,
     highAlch: 0,

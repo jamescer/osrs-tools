@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosDragonhideSetData = {{
+const BandosDragonhideSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

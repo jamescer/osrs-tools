@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HazeelScrollData = {{
+const HazeelScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

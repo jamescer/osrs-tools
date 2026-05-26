@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const goldenApronData = {{
+const goldenApronData = {
     examine: "A golden-coloured apron.",
     value: 1560,
     highAlch: 936,

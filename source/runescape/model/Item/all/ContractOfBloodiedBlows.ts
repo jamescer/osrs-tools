@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ContractOfBloodiedBlowsData = {{
+const ContractOfBloodiedBlowsData = {
     examine: "",
     value: 0,
     highAlch: 0,

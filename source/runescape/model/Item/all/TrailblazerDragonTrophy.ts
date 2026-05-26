@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerDragonTrophyData = {{
+const TrailblazerDragonTrophyData = {
     examine: "",
     value: 0,
     highAlch: 0,

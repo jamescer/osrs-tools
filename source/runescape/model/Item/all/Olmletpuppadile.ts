@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OlmletpuppadileData = {{
+const OlmletpuppadileData = {
     examine: "",
     value: 0,
     highAlch: 0,

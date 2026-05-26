@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallKeyTheOnyxCrestData = {{
+const SmallKeyTheOnyxCrestData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedPlatelegsData = {{
+const CorruptedPlatelegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

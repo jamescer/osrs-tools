@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteBattleaxeData = {{
+const WhiteBattleaxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

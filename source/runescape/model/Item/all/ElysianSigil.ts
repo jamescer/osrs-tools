@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElysianSigilData = {{
+const ElysianSigilData = {
     examine: "",
     value: 0,
     highAlch: 0,

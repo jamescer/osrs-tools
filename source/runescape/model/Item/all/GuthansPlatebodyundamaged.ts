@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthansPlatebodyundamagedData = {{
+const GuthansPlatebodyundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

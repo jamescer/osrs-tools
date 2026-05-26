@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilverlightKeyWizardTraibornData = {{
+const SilverlightKeyWizardTraibornData = {
     examine: "",
     value: 0,
     highAlch: 0,

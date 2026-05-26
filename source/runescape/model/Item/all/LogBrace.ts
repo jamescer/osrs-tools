@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LogBraceData = {{
+const LogBraceData = {
     examine: "",
     value: 0,
     highAlch: 0,

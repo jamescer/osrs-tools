@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CalcifiedAcornData = {{
+const CalcifiedAcornData = {
     examine: "",
     value: 0,
     highAlch: 0,

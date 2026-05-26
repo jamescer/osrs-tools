@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteSqShieldData = {{
+const WhiteSqShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

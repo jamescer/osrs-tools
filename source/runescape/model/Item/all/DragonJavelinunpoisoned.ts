@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DragonJavelinunpoisonedData = {{
+const DragonJavelinunpoisonedData = {
     examine: "",
     value: 0,
     highAlch: 0,

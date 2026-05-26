@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarbleMagicWardrobeclosedData = {{
+const MarbleMagicWardrobeclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

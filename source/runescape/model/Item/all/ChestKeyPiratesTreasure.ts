@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChestKeyPiratesTreasureData = {{
+const ChestKeyPiratesTreasureData = {
     examine: "",
     value: 0,
     highAlch: 0,

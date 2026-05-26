@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HardHatData = {{
+const HardHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

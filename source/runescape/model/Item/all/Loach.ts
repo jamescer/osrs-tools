@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LoachData = {{
+const LoachData = {
     examine: "",
     value: 0,
     highAlch: 0,

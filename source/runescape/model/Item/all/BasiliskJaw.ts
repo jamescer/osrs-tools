@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BasiliskJawData = {{
+const BasiliskJawData = {
     examine: "",
     value: 0,
     highAlch: 0,

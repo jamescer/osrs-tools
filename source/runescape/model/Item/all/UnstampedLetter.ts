@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnstampedLetterData = {{
+const UnstampedLetterData = {
     examine: "",
     value: 0,
     highAlch: 0,

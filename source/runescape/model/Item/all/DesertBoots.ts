@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DesertBootsData = {{
+const DesertBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

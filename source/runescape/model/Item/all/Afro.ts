@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const afroData = {{
+const afroData = {
     examine: "Wild!",
     value: 684,
     highAlch: 410,

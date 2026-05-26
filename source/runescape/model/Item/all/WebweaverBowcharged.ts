@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WebweaverBowchargedData = {{
+const WebweaverBowchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

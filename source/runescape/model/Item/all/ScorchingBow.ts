@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScorchingBowData = {{
+const ScorchingBowData = {
     examine: "",
     value: 0,
     highAlch: 0,

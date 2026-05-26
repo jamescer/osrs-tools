@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AbyssalOrphanData = {{
+const AbyssalOrphanData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EarthRuneTheSlugMenaceData = {{
+const EarthRuneTheSlugMenaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

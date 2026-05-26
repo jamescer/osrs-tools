@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PointedBruiseBlueSnelmData = {{
+const PointedBruiseBlueSnelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

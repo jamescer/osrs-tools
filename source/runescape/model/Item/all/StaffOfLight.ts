@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StaffOfLightData = {{
+const StaffOfLightData = {
     examine: "",
     value: 0,
     highAlch: 0,

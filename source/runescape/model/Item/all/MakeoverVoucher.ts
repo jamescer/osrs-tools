@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MakeoverVoucherData = {{
+const MakeoverVoucherData = {
     examine: "",
     value: 0,
     highAlch: 0,

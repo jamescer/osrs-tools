@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrinketOfFortuityactiveData = {{
+const TrinketOfFortuityactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

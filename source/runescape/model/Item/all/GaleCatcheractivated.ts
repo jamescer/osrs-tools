@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GaleCatcheractivatedData = {{
+const GaleCatcheractivatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

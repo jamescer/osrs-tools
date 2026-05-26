@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VestasBlightedLongswordinactiveData = {{
+const VestasBlightedLongswordinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JogreChampionScrollData = {{
+const JogreChampionScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

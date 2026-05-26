@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VarlamoreCrestData = {{
+const VarlamoreCrestData = {
     examine: "",
     value: 0,
     highAlch: 0,

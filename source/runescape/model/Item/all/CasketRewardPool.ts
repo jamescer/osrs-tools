@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CasketRewardPoolData = {{
+const CasketRewardPoolData = {
     examine: "",
     value: 0,
     highAlch: 0,

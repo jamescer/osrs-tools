@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TinOrePowderData = {{
+const TinOrePowderData = {
     examine: "",
     value: 0,
     highAlch: 0,

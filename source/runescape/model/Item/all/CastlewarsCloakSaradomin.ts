@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CastlewarsCloakSaradominData = {{
+const CastlewarsCloakSaradominData = {
     examine: "",
     value: 0,
     highAlch: 0,

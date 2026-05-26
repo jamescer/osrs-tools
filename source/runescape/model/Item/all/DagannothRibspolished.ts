@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DagannothRibspolishedData = {{
+const DagannothRibspolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

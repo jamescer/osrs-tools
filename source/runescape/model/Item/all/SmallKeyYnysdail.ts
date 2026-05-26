@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallKeyYnysdailData = {{
+const SmallKeyYnysdailData = {
     examine: "",
     value: 0,
     highAlch: 0,

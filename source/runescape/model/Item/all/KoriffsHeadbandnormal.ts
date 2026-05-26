@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KoriffsHeadbandnormalData = {{
+const KoriffsHeadbandnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

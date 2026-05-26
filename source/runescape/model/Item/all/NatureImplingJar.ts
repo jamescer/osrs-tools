@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NatureImplingJarData = {{
+const NatureImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

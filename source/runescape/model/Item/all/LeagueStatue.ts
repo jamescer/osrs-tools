@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeagueStatueData = {{
+const LeagueStatueData = {
     examine: "",
     value: 0,
     highAlch: 0,

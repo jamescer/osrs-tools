@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedVolatileNightmareStaffData = {{
+const CorruptedVolatileNightmareStaffData = {
     examine: "",
     value: 0,
     highAlch: 0,

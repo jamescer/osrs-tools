@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TorvaPlatelegsUnobtainableItemData = {{
+const TorvaPlatelegsUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

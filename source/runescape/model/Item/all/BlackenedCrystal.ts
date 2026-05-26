@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackenedCrystalData = {{
+const BlackenedCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OnLeprechaunsData = {{
+const OnLeprechaunsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PotLidData = {{
+const PotLidData = {
     examine: "",
     value: 0,
     highAlch: 0,

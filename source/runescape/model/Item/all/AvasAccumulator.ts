@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AvasAccumulatorData = {{
+const AvasAccumulatorData = {
     examine: "",
     value: 0,
     highAlch: 0,

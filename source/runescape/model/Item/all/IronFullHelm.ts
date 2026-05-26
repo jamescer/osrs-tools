@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ironFullHelmData = {{
+const ironFullHelmData = {
     examine: "A full iron helmet, it fully covers the head.",
     value: 59,
     highAlch: 35,

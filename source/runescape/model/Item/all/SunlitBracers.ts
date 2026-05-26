@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SunlitBracersData = {{
+const SunlitBracersData = {
     examine: "",
     value: 0,
     highAlch: 0,

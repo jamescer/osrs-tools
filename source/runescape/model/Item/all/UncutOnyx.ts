@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UncutOnyxData = {{
+const UncutOnyxData = {
     examine: "",
     value: 0,
     highAlch: 0,

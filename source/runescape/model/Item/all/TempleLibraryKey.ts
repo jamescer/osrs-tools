@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TempleLibraryKeyData = {{
+const TempleLibraryKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

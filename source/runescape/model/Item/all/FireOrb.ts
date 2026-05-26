@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireOrbData = {{
+const FireOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

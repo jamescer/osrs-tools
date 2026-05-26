@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArdougneKnightPlatelegsData = {{
+const ArdougneKnightPlatelegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

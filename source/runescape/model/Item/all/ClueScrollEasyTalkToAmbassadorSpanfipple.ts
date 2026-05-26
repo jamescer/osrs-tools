@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyTalkToAmbassadorSpanfippleData = {{
+const ClueScrollEasyTalkToAmbassadorSpanfippleData = {
     examine: "",
     value: 0,
     highAlch: 0,

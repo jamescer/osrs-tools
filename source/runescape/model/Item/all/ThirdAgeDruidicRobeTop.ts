@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeDruidicRobeTopData = {{
+const ThirdAgeDruidicRobeTopData = {
     examine: "A fabulously ancient woven robe top as worn by the druids of old.",
     value: 200000,
     highAlch: 120000,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CadantinePotionUnfData = {{
+const CadantinePotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

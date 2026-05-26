@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LantadymePotionUnfData = {{
+const LantadymePotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

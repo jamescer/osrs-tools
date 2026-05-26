@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectorIconhelmetData = {{
+const CollectorIconhelmetData = {
     examine: "",
     value: 0,
     highAlch: 0,

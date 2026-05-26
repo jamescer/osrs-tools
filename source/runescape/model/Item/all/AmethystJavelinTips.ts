@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmethystJavelinTipsData = {{
+const AmethystJavelinTipsData = {
     examine: "",
     value: 0,
     highAlch: 0,

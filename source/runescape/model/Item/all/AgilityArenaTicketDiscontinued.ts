@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AgilityArenaTicketDiscontinuedData = {{
+const AgilityArenaTicketDiscontinuedData = {
     examine: "",
     value: 0,
     highAlch: 0,

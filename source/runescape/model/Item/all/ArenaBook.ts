@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArenaBookData = {{
+const ArenaBookData = {
     examine: "",
     value: 0,
     highAlch: 0,

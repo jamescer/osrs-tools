@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalShieldHistoricalfullData = {{
+const CrystalShieldHistoricalfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

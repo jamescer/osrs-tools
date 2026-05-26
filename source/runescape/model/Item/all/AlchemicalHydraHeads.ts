@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AlchemicalHydraHeadsData = {{
+const AlchemicalHydraHeadsData = {
     examine: "",
     value: 0,
     highAlch: 0,

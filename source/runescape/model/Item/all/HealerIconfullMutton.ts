@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HealerIconfullMuttonData = {{
+const HealerIconfullMuttonData = {
     examine: "",
     value: 0,
     highAlch: 0,

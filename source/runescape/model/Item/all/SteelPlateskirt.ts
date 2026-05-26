@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const steelPlateskirtData = {{
+const steelPlateskirtData = {
     examine: "Designer leg protection.",
     value: 1000,
     highAlch: 600,

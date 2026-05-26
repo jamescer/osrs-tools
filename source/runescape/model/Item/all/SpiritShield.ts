@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritShieldData = {{
+const SpiritShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

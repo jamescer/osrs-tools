@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VsShieldequipableData = {{
+const VsShieldequipableData = {
     examine: "",
     value: 0,
     highAlch: 0,

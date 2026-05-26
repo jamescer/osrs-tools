@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MindShieldData = {{
+const MindShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

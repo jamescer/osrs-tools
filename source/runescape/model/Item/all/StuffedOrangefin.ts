@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuffedOrangefinData = {{
+const StuffedOrangefinData = {
     examine: "",
     value: 0,
     highAlch: 0,

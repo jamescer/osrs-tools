@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueGeodeBeginnerData = {{
+const ClueGeodeBeginnerData = {
     examine: "",
     value: 0,
     highAlch: 0,

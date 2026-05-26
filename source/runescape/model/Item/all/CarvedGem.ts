@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CarvedGemData = {{
+const CarvedGemData = {
     examine: "",
     value: 0,
     highAlch: 0,

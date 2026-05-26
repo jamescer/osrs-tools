@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImpishRitualKitData = {{
+const ImpishRitualKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

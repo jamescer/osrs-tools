@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TilesRoguesDenflippedHorizontallyData = {{
+const TilesRoguesDenflippedHorizontallyData = {
     examine: "",
     value: 0,
     highAlch: 0,

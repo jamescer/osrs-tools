@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SraracharedData = {{
+const SraracharedData = {
     examine: "",
     value: 0,
     highAlch: 0,

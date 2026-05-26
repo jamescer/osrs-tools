@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagnetWitchsHouseData = {{
+const MagnetWitchsHouseData = {
     examine: "",
     value: 0,
     highAlch: 0,

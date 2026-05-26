@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JailKeyData = {{
+const JailKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

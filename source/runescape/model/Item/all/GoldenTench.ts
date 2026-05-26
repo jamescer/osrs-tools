@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoldenTenchData = {{
+const GoldenTenchData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AccordionholeData = {{
+const AccordionholeData = {
     examine: "",
     value: 0,
     highAlch: 0,

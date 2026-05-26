@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const beanieData = {{
+const beanieData = {
     examine: "Weeeeeee!",
     value: 600,
     highAlch: 360,

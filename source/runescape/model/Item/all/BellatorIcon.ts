@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BellatorIconData = {{
+const BellatorIconData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TempleCoinData = {{
+const TempleCoinData = {
     examine: "",
     value: 0,
     highAlch: 0,

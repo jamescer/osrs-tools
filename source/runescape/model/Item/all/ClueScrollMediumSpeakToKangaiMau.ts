@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumSpeakToKangaiMauData = {{
+const ClueScrollMediumSpeakToKangaiMauData = {
     examine: "",
     value: 0,
     highAlch: 0,

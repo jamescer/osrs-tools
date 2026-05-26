@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OldCupData = {{
+const OldCupData = {
     examine: "",
     value: 0,
     highAlch: 0,

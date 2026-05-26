@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FestiveCinnamonStickData = {{
+const FestiveCinnamonStickData = {
     examine: "",
     value: 0,
     highAlch: 0,

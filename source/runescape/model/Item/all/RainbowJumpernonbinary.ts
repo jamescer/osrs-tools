@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RainbowJumpernonbinaryData = {{
+const RainbowJumpernonbinaryData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZaryteCrossbowLastManStandingData = {{
+const ZaryteCrossbowLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenFishingRodData = {{
+const BrokenFishingRodData = {
     examine: "",
     value: 0,
     highAlch: 0,

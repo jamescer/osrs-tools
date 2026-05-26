@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RustySwordAnimationItemData = {{
+const RustySwordAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

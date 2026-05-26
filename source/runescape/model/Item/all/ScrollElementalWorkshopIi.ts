@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrollElementalWorkshopIiData = {{
+const ScrollElementalWorkshopIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

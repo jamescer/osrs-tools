@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CleanPlatebodyData = {{
+const CleanPlatebodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

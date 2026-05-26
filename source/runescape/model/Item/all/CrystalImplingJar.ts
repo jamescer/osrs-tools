@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalImplingJarData = {{
+const CrystalImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

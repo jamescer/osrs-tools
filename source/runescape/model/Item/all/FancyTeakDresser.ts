@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FancyTeakDresserData = {{
+const FancyTeakDresserData = {
     examine: "",
     value: 0,
     highAlch: 0,

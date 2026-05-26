@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const uncutRubyData = {{
+const uncutRubyData = {
     examine: "An uncut ruby.",
     value: 732,
     highAlch: 439,

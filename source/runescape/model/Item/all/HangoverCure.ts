@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HangoverCureData = {{
+const HangoverCureData = {
     examine: "",
     value: 0,
     highAlch: 0,

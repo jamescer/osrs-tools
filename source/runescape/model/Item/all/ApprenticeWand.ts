@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ApprenticeWandData = {{
+const ApprenticeWandData = {
     examine: "",
     value: 0,
     highAlch: 0,

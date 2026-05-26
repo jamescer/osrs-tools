@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalibutData = {{
+const HalibutData = {
     examine: "",
     value: 0,
     highAlch: 0,

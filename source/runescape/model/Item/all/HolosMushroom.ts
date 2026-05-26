@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HolosMushroomData = {{
+const HolosMushroomData = {
     examine: "",
     value: 0,
     highAlch: 0,

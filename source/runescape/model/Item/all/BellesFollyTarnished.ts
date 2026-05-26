@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BellesFollyTarnishedData = {{
+const BellesFollyTarnishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

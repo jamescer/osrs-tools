@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IbansDoveData = {{
+const IbansDoveData = {
     examine: "",
     value: 0,
     highAlch: 0,

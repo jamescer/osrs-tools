@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilklinedHerbSackopenData = {{
+const SilklinedHerbSackopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

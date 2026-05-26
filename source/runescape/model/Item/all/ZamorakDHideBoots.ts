@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const zamorakDHideBootsData = {{
+const zamorakDHideBootsData = {
     examine: "Zamorak blessed dragonhide boots.",
     value: 9300,
     highAlch: 5580,

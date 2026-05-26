@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ProgressHatfullData = {{
+const ProgressHatfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

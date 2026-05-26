@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExtraSupplyCrateData = {{
+const ExtraSupplyCrateData = {
     examine: "",
     value: 0,
     highAlch: 0,

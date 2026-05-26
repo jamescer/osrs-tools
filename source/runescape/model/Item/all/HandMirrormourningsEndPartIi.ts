@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HandMirrormourningsEndPartIiData = {{
+const HandMirrormourningsEndPartIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

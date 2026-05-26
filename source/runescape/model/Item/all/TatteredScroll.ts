@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TatteredScrollData = {{
+const TatteredScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

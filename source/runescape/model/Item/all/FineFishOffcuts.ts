@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FineFishOffcutsData = {{
+const FineFishOffcutsData = {
     examine: "",
     value: 0,
     highAlch: 0,

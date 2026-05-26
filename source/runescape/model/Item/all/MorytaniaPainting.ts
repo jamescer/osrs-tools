@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MorytaniaPaintingData = {{
+const MorytaniaPaintingData = {
     examine: "",
     value: 0,
     highAlch: 0,

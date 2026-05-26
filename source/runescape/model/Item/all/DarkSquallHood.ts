@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkSquallHoodData = {{
+const DarkSquallHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

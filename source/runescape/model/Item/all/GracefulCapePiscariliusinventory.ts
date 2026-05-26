@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GracefulCapePiscariliusinventoryData = {{
+const GracefulCapePiscariliusinventoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

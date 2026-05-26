@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CharredKeyData = {{
+const CharredKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

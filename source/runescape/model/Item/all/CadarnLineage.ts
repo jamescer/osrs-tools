@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CadarnLineageData = {{
+const CadarnLineageData = {
     examine: "",
     value: 0,
     highAlch: 0,

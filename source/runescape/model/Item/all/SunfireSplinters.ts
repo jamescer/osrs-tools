@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SunfireSplintersData = {{
+const SunfireSplintersData = {
     examine: "",
     value: 0,
     highAlch: 0,

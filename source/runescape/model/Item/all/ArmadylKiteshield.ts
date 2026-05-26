@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const armadylKiteshieldData = {{
+const armadylKiteshieldData = {
     examine: "Rune kiteshield in the colours of Armadyl.",
     value: 54400,
     highAlch: 32640,

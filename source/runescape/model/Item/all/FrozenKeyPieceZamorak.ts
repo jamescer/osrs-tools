@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrozenKeyPieceZamorakData = {{
+const FrozenKeyPieceZamorakData = {
     examine: "",
     value: 0,
     highAlch: 0,

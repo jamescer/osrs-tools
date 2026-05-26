@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DrygoreBlowpipechargedData = {{
+const DrygoreBlowpipechargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

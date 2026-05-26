@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SlayerTomeyellowData = {{
+const SlayerTomeyellowData = {
     examine: "",
     value: 0,
     highAlch: 0,

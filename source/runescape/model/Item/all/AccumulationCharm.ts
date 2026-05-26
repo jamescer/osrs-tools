@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AccumulationCharmData = {{
+const AccumulationCharmData = {
     examine: "",
     value: 0,
     highAlch: 0,

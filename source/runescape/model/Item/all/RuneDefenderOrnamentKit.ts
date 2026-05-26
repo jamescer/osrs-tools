@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneDefenderOrnamentKitData = {{
+const RuneDefenderOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

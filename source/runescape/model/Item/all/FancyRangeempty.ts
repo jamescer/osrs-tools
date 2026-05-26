@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FancyRangeemptyData = {{
+const FancyRangeemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

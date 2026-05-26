@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EclipseMoonTassetsnewData = {{
+const EclipseMoonTassetsnewData = {
     examine: "",
     value: 0,
     highAlch: 0,

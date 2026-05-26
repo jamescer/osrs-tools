@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BirdNestRingData = {{
+const BirdNestRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

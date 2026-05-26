@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WastepaperBasketData = {{
+const WastepaperBasketData = {
     examine: "",
     value: 0,
     highAlch: 0,

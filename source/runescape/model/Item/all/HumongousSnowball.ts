@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HumongousSnowballData = {{
+const HumongousSnowballData = {
     examine: "",
     value: 0,
     highAlch: 0,

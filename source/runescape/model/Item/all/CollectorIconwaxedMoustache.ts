@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectorIconwaxedMoustacheData = {{
+const CollectorIconwaxedMoustacheData = {
     examine: "",
     value: 0,
     highAlch: 0,

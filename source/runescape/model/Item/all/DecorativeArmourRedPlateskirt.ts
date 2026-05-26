@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeArmourRedPlateskirtData = {{
+const DecorativeArmourRedPlateskirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

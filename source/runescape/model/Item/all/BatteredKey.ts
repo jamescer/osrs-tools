@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BatteredKeyData = {{
+const BatteredKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

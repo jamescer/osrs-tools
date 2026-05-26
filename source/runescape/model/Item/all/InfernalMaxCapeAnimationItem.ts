@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalMaxCapeAnimationItemData = {{
+const InfernalMaxCapeAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasySpeakToEllisInAlKharidData = {{
+const ClueScrollEasySpeakToEllisInAlKharidData = {
     examine: "",
     value: 0,
     highAlch: 0,

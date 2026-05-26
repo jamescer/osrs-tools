@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkNullifierData = {{
+const DarkNullifierData = {
     examine: "",
     value: 0,
     highAlch: 0,

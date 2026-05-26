@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RiftGuardianlawData = {{
+const RiftGuardianlawData = {
     examine: "",
     value: 0,
     highAlch: 0,

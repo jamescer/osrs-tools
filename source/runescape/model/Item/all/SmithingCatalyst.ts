@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmithingCatalystData = {{
+const SmithingCatalystData = {
     examine: "",
     value: 0,
     highAlch: 0,

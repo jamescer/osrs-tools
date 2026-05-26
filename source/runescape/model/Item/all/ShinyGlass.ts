@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShinyGlassData = {{
+const ShinyGlassData = {
     examine: "",
     value: 0,
     highAlch: 0,

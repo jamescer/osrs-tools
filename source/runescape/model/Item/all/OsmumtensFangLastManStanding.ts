@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OsmumtensFangLastManStandingData = {{
+const OsmumtensFangLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

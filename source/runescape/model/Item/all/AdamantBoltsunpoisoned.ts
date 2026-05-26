@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantBoltsunpoisonedData = {{
+const AdamantBoltsunpoisonedData = {
     examine: "",
     value: 0,
     highAlch: 0,

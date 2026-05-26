@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NettlesData = {{
+const NettlesData = {
     examine: "",
     value: 0,
     highAlch: 0,

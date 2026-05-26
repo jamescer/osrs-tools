@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectionLogMithrilData = {{
+const CollectionLogMithrilData = {
     examine: "",
     value: 0,
     highAlch: 0,

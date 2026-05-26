@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SwampTarData = {{
+const SwampTarData = {
     examine: "",
     value: 0,
     highAlch: 0,

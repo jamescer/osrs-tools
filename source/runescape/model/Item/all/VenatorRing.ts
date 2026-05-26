@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VenatorRingData = {{
+const VenatorRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

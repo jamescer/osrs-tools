@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixedBlastData = {{
+const MixedBlastData = {
     examine: "",
     value: 0,
     highAlch: 0,

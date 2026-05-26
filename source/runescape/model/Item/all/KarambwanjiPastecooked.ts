@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KarambwanjiPastecookedData = {{
+const KarambwanjiPastecookedData = {
     examine: "",
     value: 0,
     highAlch: 0,

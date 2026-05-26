@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PolarKebbitFurData = {{
+const PolarKebbitFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KourendFavourCertificateData = {{
+const KourendFavourCertificateData = {
     examine: "",
     value: 0,
     highAlch: 0,

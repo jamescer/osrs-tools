@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrigamiBalloonpinkData = {{
+const OrigamiBalloonpinkData = {
     examine: "",
     value: 0,
     highAlch: 0,

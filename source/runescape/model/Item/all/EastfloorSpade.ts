@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EastfloorSpadeData = {{
+const EastfloorSpadeData = {
     examine: "",
     value: 0,
     highAlch: 0,

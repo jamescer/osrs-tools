@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemsaradominStrikeData = {{
+const SpellUnobtainableItemsaradominStrikeData = {
     examine: "",
     value: 0,
     highAlch: 0,

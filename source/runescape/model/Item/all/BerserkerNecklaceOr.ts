@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BerserkerNecklaceOrData = {{
+const BerserkerNecklaceOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

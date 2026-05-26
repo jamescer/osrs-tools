@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemclawsOfGuthixData = {{
+const SpellUnobtainableItemclawsOfGuthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

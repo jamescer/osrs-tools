@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteScatteredCoinsAndGemsFillTheFloorData = {{
+const ClueScrollEliteScatteredCoinsAndGemsFillTheFloorData = {
     examine: "",
     value: 0,
     highAlch: 0,

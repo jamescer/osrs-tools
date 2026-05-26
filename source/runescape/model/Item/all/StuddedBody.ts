@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const studdedBodyData = {{
+const studdedBodyData = {
     examine: "Those studs should provide a bit more protection.",
     value: 850,
     highAlch: 510,

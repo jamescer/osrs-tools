@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RoyalAccordOfTwillaKingdomDividedData = {{
+const RoyalAccordOfTwillaKingdomDividedData = {
     examine: "",
     value: 0,
     highAlch: 0,

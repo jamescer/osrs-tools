@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LilCreatorlilCreatorData = {{
+const LilCreatorlilCreatorData = {
     examine: "",
     value: 0,
     highAlch: 0,

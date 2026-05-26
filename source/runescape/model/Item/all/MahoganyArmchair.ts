@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyArmchairData = {{
+const MahoganyArmchairData = {
     examine: "",
     value: 0,
     highAlch: 0,

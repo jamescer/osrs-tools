@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritTreeConstructionchristmasData = {{
+const SpiritTreeConstructionchristmasData = {
     examine: "",
     value: 0,
     highAlch: 0,

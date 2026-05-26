@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LavaRuneData = {{
+const LavaRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

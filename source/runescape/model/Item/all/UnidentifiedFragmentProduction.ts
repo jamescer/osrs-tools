@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnidentifiedFragmentProductionData = {{
+const UnidentifiedFragmentProductionData = {
     examine: "",
     value: 0,
     highAlch: 0,

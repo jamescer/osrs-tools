@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CookedSunlightAntelopeData = {{
+const CookedSunlightAntelopeData = {
     examine: "",
     value: 0,
     highAlch: 0,

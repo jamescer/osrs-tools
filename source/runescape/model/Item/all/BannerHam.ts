@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BannerHamData = {{
+const BannerHamData = {
     examine: "",
     value: 0,
     highAlch: 0,

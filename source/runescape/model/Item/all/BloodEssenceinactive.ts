@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BloodEssenceinactiveData = {{
+const BloodEssenceinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

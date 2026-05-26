@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrimReaperTopData = {{
+const GrimReaperTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

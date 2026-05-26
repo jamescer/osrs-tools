@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfArrowtipsrellekkaData = {{
+const CrateOfArrowtipsrellekkaData = {
     examine: "",
     value: 0,
     highAlch: 0,

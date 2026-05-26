@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SacredEelData = {{
+const SacredEelData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SuperKebabData = {{
+const SuperKebabData = {
     examine: "",
     value: 0,
     highAlch: 0,

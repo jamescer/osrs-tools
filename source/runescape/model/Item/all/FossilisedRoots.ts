@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FossilisedRootsData = {{
+const FossilisedRootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteWithDrinksAndDwarvesIMakeMyWayData = {{
+const ClueScrollEliteWithDrinksAndDwarvesIMakeMyWayData = {
     examine: "",
     value: 0,
     highAlch: 0,

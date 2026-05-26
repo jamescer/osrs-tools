@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BannerVarrockData = {{
+const BannerVarrockData = {
     examine: "",
     value: 0,
     highAlch: 0,

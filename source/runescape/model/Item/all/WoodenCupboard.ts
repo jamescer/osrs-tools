@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WoodenCupboardData = {{
+const WoodenCupboardData = {
     examine: "",
     value: 0,
     highAlch: 0,

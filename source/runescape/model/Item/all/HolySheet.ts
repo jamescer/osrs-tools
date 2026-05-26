@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HolySheetData = {{
+const HolySheetData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItembakePieData = {{
+const SpellUnobtainableItembakePieData = {
     examine: "",
     value: 0,
     highAlch: 0,

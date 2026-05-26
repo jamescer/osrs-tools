@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneTrimmedSetLgData = {{
+const RuneTrimmedSetLgData = {
     examine: "",
     value: 0,
     highAlch: 0,

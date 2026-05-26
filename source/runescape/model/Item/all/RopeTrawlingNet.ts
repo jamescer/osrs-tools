@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RopeTrawlingNetData = {{
+const RopeTrawlingNetData = {
     examine: "",
     value: 0,
     highAlch: 0,

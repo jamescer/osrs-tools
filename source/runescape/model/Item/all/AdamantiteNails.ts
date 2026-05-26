@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantiteNailsData = {{
+const AdamantiteNailsData = {
     examine: "",
     value: 0,
     highAlch: 0,

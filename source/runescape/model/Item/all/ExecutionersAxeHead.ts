@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExecutionersAxeHeadData = {{
+const ExecutionersAxeHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

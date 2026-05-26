@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TargetTeleportData = {{
+const TargetTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

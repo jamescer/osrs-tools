@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InkyPaintData = {{
+const InkyPaintData = {
     examine: "",
     value: 0,
     highAlch: 0,

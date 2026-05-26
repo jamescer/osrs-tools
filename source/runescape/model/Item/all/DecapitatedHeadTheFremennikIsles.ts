@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecapitatedHeadTheFremennikIslesData = {{
+const DecapitatedHeadTheFremennikIslesData = {
     examine: "",
     value: 0,
     highAlch: 0,

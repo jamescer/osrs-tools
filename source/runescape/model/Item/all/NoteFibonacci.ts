@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NoteFibonacciData = {{
+const NoteFibonacciData = {
     examine: "",
     value: 0,
     highAlch: 0,

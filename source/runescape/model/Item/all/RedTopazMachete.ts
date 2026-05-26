@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedTopazMacheteData = {{
+const RedTopazMacheteData = {
     examine: "",
     value: 0,
     highAlch: 0,

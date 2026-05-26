@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NiffHarryData = {{
+const NiffHarryData = {
     examine: "",
     value: 0,
     highAlch: 0,

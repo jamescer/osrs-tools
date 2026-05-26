@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteCareerInMoonData = {{
+const ClueScrollEliteCareerInMoonData = {
     examine: "",
     value: 0,
     highAlch: 0,

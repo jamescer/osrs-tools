@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const leftEyePatchData = {{
+const leftEyePatchData = {
     examine: "A black piece of cloth on a string.",
     value: 2,
     highAlch: 1,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmageddonRugData = {{
+const ArmageddonRugData = {
     examine: "",
     value: 0,
     highAlch: 0,

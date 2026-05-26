@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JuniperCharcoalData = {{
+const JuniperCharcoalData = {
     examine: "",
     value: 0,
     highAlch: 0,

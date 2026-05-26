@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeWormHoleData = {{
+const PremadeWormHoleData = {
     examine: "",
     value: 0,
     highAlch: 0,

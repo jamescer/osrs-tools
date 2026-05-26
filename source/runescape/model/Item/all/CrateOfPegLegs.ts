@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfPegLegsData = {{
+const CrateOfPegLegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

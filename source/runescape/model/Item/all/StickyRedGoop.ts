@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StickyRedGoopData = {{
+const StickyRedGoopData = {
     examine: "",
     value: 0,
     highAlch: 0,

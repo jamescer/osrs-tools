@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GroundSulphurData = {{
+const GroundSulphurData = {
     examine: "",
     value: 0,
     highAlch: 0,

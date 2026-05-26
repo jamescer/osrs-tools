@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TokkulData = {{
+const TokkulData = {
     examine: "",
     value: 0,
     highAlch: 0,

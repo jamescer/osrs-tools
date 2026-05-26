@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const pestControlTeleportData = {{
+const pestControlTeleportData = {
     examine: "Teleports you to Pest control.",
     value: 10,
     highAlch: 6,

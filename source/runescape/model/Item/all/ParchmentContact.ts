@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ParchmentContactData = {{
+const ParchmentContactData = {
     examine: "",
     value: 0,
     highAlch: 0,

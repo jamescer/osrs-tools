@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardWhenNoWeaponsAreAtHandData = {{
+const ClueScrollHardWhenNoWeaponsAreAtHandData = {
     examine: "",
     value: 0,
     highAlch: 0,

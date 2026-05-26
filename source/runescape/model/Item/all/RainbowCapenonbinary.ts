@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RainbowCapenonbinaryData = {{
+const RainbowCapenonbinaryData = {
     examine: "",
     value: 0,
     highAlch: 0,

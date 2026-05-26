@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HeadlessHeadData = {{
+const HeadlessHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

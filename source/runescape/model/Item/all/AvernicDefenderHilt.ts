@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AvernicDefenderHiltData = {{
+const AvernicDefenderHiltData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DeedData = {{
+const DeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

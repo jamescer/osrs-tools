@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NewspaperData = {{
+const NewspaperData = {
     examine: "",
     value: 0,
     highAlch: 0,

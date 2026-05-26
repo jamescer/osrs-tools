@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrijesterHatData = {{
+const TrijesterHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

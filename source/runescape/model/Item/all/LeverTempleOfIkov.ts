@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeverTempleOfIkovData = {{
+const LeverTempleOfIkovData = {
     examine: "",
     value: 0,
     highAlch: 0,

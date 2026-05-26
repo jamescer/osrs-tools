@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantSalvagingHooksloopData = {{
+const AdamantSalvagingHooksloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImcandoriasFallData = {{
+const ImcandoriasFallData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrubbyKeyData = {{
+const GrubbyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

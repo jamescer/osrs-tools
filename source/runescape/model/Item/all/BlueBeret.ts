@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blueBeretData = {{
+const blueBeretData = {
     examine: "Parlez-vous francais?",
     value: 80,
     highAlch: 48,

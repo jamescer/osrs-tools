@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DwarvenRockCakehotData = {{
+const DwarvenRockCakehotData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RockshellSplinterData = {{
+const RockshellSplinterData = {
     examine: "",
     value: 0,
     highAlch: 0,

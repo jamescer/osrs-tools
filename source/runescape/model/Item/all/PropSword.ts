@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PropSwordData = {{
+const PropSwordData = {
     examine: "",
     value: 0,
     highAlch: 0,

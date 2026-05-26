@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FoxFluffData = {{
+const FoxFluffData = {
     examine: "",
     value: 0,
     highAlch: 0,

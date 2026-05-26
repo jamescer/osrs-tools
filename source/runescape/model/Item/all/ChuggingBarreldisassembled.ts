@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChuggingBarreldisassembledData = {{
+const ChuggingBarreldisassembledData = {
     examine: "",
     value: 0,
     highAlch: 0,

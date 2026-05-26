@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoneTabletTheFinalDawnmokhaiotlData = {{
+const StoneTabletTheFinalDawnmokhaiotlData = {
     examine: "",
     value: 0,
     highAlch: 0,

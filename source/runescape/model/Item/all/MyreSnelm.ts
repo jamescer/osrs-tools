@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MyreSnelmData = {{
+const MyreSnelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

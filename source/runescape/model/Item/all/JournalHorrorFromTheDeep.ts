@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JournalHorrorFromTheDeepData = {{
+const JournalHorrorFromTheDeepData = {
     examine: "",
     value: 0,
     highAlch: 0,

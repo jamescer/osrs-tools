@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RadimusNotesincompleteData = {{
+const RadimusNotesincompleteData = {
     examine: "",
     value: 0,
     highAlch: 0,

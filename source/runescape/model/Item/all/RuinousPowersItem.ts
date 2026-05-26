@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuinousPowersItemData = {{
+const RuinousPowersItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

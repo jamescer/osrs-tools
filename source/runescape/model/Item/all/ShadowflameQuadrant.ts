@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShadowflameQuadrantData = {{
+const ShadowflameQuadrantData = {
     examine: "",
     value: 0,
     highAlch: 0,

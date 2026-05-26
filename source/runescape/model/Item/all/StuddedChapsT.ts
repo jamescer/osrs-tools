@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuddedChapsTData = {{
+const StuddedChapsTData = {
     examine: "",
     value: 0,
     highAlch: 0,

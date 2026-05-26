@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IncompleteBlasterData = {{
+const IncompleteBlasterData = {
     examine: "",
     value: 0,
     highAlch: 0,

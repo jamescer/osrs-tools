@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OlmletvespinaData = {{
+const OlmletvespinaData = {
     examine: "",
     value: 0,
     highAlch: 0,

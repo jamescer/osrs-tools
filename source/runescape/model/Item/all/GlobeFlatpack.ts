@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlobeFlatpackData = {{
+const GlobeFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

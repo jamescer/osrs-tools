@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YamiData = {{
+const YamiData = {
     examine: "",
     value: 0,
     highAlch: 0,

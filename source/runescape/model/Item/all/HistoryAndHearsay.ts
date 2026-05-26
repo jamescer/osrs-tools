@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HistoryAndHearsayData = {{
+const HistoryAndHearsayData = {
     examine: "",
     value: 0,
     highAlch: 0,

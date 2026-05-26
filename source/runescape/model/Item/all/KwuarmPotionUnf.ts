@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KwuarmPotionUnfData = {{
+const KwuarmPotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

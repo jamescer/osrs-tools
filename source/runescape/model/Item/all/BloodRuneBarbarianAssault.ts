@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BloodRuneBarbarianAssaultData = {{
+const BloodRuneBarbarianAssaultData = {
     examine: "",
     value: 0,
     highAlch: 0,

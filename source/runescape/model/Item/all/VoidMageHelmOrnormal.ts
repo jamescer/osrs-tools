@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VoidMageHelmOrnormalData = {{
+const VoidMageHelmOrnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

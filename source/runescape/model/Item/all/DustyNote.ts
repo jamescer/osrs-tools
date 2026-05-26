@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DustyNoteData = {{
+const DustyNoteData = {
     examine: "",
     value: 0,
     highAlch: 0,

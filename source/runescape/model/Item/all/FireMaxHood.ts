@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireMaxHoodData = {{
+const FireMaxHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

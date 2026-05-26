@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RosewoodBlowpipeemptyData = {{
+const RosewoodBlowpipeemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

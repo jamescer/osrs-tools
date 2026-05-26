@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const tormentedOrnamentKitData = {{
+const tormentedOrnamentKitData = {
     examine: "Use on a tormented bracelet to make it look fancier!",
     value: 5000,
     highAlch: 3000,

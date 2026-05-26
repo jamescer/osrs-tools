@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeyForebearerJanusData = {{
+const KeyForebearerJanusData = {
     examine: "",
     value: 0,
     highAlch: 0,

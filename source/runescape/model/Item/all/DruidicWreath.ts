@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DruidicWreathData = {{
+const DruidicWreathData = {
     examine: "",
     value: 0,
     highAlch: 0,

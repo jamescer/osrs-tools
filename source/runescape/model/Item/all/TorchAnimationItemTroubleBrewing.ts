@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TorchAnimationItemTroubleBrewingData = {{
+const TorchAnimationItemTroubleBrewingData = {
     examine: "",
     value: 0,
     highAlch: 0,

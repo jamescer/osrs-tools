@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LitCandleUnobtainableItemData = {{
+const LitCandleUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

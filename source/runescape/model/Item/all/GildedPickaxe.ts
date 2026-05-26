@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedPickaxeData = {{
+const gildedPickaxeData = {
     examine: "Used for mining and very stylish.",
     value: 50000,
     highAlch: 30000,

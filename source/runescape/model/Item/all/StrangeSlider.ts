@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrangeSliderData = {{
+const StrangeSliderData = {
     examine: "",
     value: 0,
     highAlch: 0,

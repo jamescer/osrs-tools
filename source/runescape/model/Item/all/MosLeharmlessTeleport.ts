@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MosLeharmlessTeleportData = {{
+const MosLeharmlessTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

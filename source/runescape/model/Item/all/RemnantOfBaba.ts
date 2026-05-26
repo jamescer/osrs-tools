@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RemnantOfBabaData = {{
+const RemnantOfBabaData = {
     examine: "",
     value: 0,
     highAlch: 0,

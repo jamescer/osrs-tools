@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumInATownWhereEveryoneHasPerfectVisionData = {{
+const ClueScrollMediumInATownWhereEveryoneHasPerfectVisionData = {
     examine: "",
     value: 0,
     highAlch: 0,

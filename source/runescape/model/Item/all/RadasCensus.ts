@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RadasCensusData = {{
+const RadasCensusData = {
     examine: "",
     value: 0,
     highAlch: 0,

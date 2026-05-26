@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalPendantData = {{
+const CrystalPendantData = {
     examine: "",
     value: 0,
     highAlch: 0,

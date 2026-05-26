@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FishingExplosiveData = {{
+const FishingExplosiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

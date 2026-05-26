@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmoulderingGlandData = {{
+const SmoulderingGlandData = {
     examine: "",
     value: 0,
     highAlch: 0,

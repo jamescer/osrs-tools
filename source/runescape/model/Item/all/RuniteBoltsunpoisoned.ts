@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuniteBoltsunpoisonedData = {{
+const RuniteBoltsunpoisonedData = {
     examine: "",
     value: 0,
     highAlch: 0,

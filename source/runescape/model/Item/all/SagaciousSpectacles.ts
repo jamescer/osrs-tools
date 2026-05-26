@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sagaciousSpectaclesData = {{
+const sagaciousSpectaclesData = {
     examine: "Do they make me look... old?",
     value: 1400,
     highAlch: 840,

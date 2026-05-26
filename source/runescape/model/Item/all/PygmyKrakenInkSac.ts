@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PygmyKrakenInkSacData = {{
+const PygmyKrakenInkSacData = {
     examine: "",
     value: 0,
     highAlch: 0,

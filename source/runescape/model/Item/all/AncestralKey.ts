@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AncestralKeyData = {{
+const AncestralKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

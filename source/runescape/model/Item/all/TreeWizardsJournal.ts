@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TreeWizardsJournalData = {{
+const TreeWizardsJournalData = {
     examine: "",
     value: 0,
     highAlch: 0,

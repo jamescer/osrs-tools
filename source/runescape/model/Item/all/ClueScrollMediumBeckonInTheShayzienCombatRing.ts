@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumBeckonInTheShayzienCombatRingData = {{
+const ClueScrollMediumBeckonInTheShayzienCombatRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BluntAxeData = {{
+const BluntAxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

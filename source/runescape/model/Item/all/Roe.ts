@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RoeData = {{
+const RoeData = {
     examine: "",
     value: 0,
     highAlch: 0,

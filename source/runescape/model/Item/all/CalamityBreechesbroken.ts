@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CalamityBreechesbrokenData = {{
+const CalamityBreechesbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

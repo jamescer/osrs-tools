@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrinketOfVengeanceData = {{
+const TrinketOfVengeanceData = {
     examine: "",
     value: 0,
     highAlch: 0,

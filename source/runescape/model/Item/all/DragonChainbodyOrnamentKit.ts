@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const dragonChainbodyOrnamentKitData = {{
+const dragonChainbodyOrnamentKitData = {
     examine: "Use on a dragon chainbody to make it look fancier!",
     value: 5000,
     highAlch: 3000,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const QuetzalFeedTwilightsPromiseData = {{
+const QuetzalFeedTwilightsPromiseData = {
     examine: "",
     value: 0,
     highAlch: 0,

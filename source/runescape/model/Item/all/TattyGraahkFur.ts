@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TattyGraahkFurData = {{
+const TattyGraahkFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChronicleData = {{
+const ChronicleData = {
     examine: "",
     value: 0,
     highAlch: 0,

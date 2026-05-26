@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IncenseBurnerMahoganyunlitData = {{
+const IncenseBurnerMahoganyunlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

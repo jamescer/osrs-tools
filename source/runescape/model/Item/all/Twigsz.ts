@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwigszData = {{
+const TwigszData = {
     examine: "",
     value: 0,
     highAlch: 0,

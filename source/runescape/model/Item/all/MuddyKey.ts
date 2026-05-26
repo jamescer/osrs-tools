@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MuddyKeyData = {{
+const MuddyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MokhaiotlClothData = {{
+const MokhaiotlClothData = {
     examine: "",
     value: 0,
     highAlch: 0,

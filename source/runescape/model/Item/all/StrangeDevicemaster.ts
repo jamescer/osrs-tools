@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrangeDevicemasterData = {{
+const StrangeDevicemasterData = {
     examine: "",
     value: 0,
     highAlch: 0,

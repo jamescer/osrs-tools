@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CasketUnobtainableItemfaladorData = {{
+const CasketUnobtainableItemfaladorData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrubfootItemData = {{
+const GrubfootItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

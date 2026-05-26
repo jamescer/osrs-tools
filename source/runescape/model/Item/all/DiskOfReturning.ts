@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DiskOfReturningData = {{
+const DiskOfReturningData = {
     examine: "",
     value: 0,
     highAlch: 0,

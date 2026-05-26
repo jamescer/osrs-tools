@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoulJourneyData = {{
+const SoulJourneyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmissaryScrollData = {{
+const EmissaryScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

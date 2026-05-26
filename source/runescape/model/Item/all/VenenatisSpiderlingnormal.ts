@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VenenatisSpiderlingnormalData = {{
+const VenenatisSpiderlingnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

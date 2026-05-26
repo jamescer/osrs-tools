@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PresentBoxHatfestiveData = {{
+const PresentBoxHatfestiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

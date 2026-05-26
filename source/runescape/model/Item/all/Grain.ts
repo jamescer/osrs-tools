@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrainData = {{
+const GrainData = {
     examine: "",
     value: 0,
     highAlch: 0,

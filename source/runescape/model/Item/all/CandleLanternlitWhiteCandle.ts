@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CandleLanternlitWhiteCandleData = {{
+const CandleLanternlitWhiteCandleData = {
     examine: "",
     value: 0,
     highAlch: 0,

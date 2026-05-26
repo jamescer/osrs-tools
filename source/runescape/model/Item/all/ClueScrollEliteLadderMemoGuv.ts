@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteLadderMemoGuvData = {{
+const ClueScrollEliteLadderMemoGuvData = {
     examine: "",
     value: 0,
     highAlch: 0,

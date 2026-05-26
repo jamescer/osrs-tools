@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicLampThePathOfGlouphriemagicData = {{
+const MagicLampThePathOfGlouphriemagicData = {
     examine: "",
     value: 0,
     highAlch: 0,

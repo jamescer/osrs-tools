@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const climbingBootsGData = {{
+const climbingBootsGData = {
     examine: "Boots made for climbing. Nice trim!",
     value: 75000,
     highAlch: 45000,

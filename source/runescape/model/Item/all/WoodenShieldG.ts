@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const woodenShieldGData = {{
+const woodenShieldGData = {
     examine: "A basic wooden shield, decorated with gold.",
     value: 159,
     highAlch: 95,

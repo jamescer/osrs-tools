@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VyreNobleSkirtGreyData = {{
+const VyreNobleSkirtGreyData = {
     examine: "",
     value: 0,
     highAlch: 0,

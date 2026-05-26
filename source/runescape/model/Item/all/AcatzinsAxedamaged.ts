@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AcatzinsAxedamagedData = {{
+const AcatzinsAxedamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

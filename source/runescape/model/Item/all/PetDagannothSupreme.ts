@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PetDagannothSupremeData = {{
+const PetDagannothSupremeData = {
     examine: "",
     value: 0,
     highAlch: 0,

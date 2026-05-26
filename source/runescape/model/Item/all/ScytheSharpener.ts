@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScytheSharpenerData = {{
+const ScytheSharpenerData = {
     examine: "",
     value: 0,
     highAlch: 0,

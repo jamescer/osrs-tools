@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalExtractorinactiveData = {{
+const CrystalExtractorinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OilyPearlFishingRodData = {{
+const OilyPearlFishingRodData = {
     examine: "",
     value: 0,
     highAlch: 0,

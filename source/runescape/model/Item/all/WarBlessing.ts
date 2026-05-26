@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const warBlessingData = {{
+const warBlessingData = {
     examine: "The blood of the soldier makes the glory of the general.",
     value: 80,
     highAlch: 48,

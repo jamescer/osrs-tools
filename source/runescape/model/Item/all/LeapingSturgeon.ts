@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeapingSturgeonData = {{
+const LeapingSturgeonData = {
     examine: "",
     value: 0,
     highAlch: 0,

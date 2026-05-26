@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeJerboaTailData = {{
+const LargeJerboaTailData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RubyAmuletUData = {{
+const RubyAmuletUData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LongVineData = {{
+const LongVineData = {
     examine: "",
     value: 0,
     highAlch: 0,

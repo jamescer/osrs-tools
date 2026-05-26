@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SharkLastManStandingData = {{
+const SharkLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

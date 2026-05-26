@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BoardGamePiecebloodRedData = {{
+const BoardGamePiecebloodRedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantDaggerData = {{
+const adamantDaggerData = {
     examine: "Short and deadly.",
     value: 800,
     highAlch: 480,

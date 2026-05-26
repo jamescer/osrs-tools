@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrightPearlData = {{
+const BrightPearlData = {
     examine: "",
     value: 0,
     highAlch: 0,

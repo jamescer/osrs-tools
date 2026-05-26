@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedTumekensShadowchargedData = {{
+const CorruptedTumekensShadowchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

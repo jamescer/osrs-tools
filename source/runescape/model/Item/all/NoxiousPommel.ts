@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NoxiousPommelData = {{
+const NoxiousPommelData = {
     examine: "",
     value: 0,
     highAlch: 0,

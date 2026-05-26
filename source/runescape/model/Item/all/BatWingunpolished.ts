@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BatWingunpolishedData = {{
+const BatWingunpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SapphireKeyDesertTreasureIiData = {{
+const SapphireKeyDesertTreasureIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

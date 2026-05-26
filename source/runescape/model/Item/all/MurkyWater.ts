@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MurkyWaterData = {{
+const MurkyWaterData = {
     examine: "",
     value: 0,
     highAlch: 0,

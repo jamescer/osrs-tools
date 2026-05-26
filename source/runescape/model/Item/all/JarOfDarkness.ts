@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JarOfDarknessData = {{
+const JarOfDarknessData = {
     examine: "",
     value: 0,
     highAlch: 0,

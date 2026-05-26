@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketOfRubbletotallyFilledData = {{
+const BucketOfRubbletotallyFilledData = {
     examine: "",
     value: 0,
     highAlch: 0,

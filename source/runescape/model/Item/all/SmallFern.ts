@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallFernData = {{
+const SmallFernData = {
     examine: "",
     value: 0,
     highAlch: 0,

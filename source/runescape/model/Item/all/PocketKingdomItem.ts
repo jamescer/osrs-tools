@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PocketKingdomItemData = {{
+const PocketKingdomItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

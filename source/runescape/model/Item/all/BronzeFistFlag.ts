@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeFistFlagData = {{
+const BronzeFistFlagData = {
     examine: "",
     value: 0,
     highAlch: 0,

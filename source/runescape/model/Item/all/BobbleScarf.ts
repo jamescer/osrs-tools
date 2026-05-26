@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BobbleScarfData = {{
+const BobbleScarfData = {
     examine: "",
     value: 0,
     highAlch: 0,

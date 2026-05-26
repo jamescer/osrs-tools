@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardBeckonOnTheEastCoastOfTheKharaziJungleData = {{
+const ClueScrollHardBeckonOnTheEastCoastOfTheKharaziJungleData = {
     examine: "",
     value: 0,
     highAlch: 0,

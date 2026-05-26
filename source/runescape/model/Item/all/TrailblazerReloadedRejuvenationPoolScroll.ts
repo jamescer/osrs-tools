@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerReloadedRejuvenationPoolScrollData = {{
+const TrailblazerReloadedRejuvenationPoolScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

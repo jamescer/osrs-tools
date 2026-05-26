@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HeavyBoxData = {{
+const HeavyBoxData = {
     examine: "",
     value: 0,
     highAlch: 0,

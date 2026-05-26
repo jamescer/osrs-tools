@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AirBlockData = {{
+const AirBlockData = {
     examine: "",
     value: 0,
     highAlch: 0,

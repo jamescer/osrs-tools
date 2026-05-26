@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InitiateSalletData = {{
+const InitiateSalletData = {
     examine: "",
     value: 0,
     highAlch: 0,

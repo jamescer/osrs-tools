@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MogreBonepolishedData = {{
+const MogreBonepolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelTrimmedSetLgData = {{
+const SteelTrimmedSetLgData = {
     examine: "",
     value: 0,
     highAlch: 0,

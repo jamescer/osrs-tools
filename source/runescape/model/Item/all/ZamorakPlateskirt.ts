@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZamorakPlateskirtData = {{
+const ZamorakPlateskirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

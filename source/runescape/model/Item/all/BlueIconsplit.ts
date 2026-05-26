@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueIconsplitData = {{
+const BlueIconsplitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EctoplasmatorData = {{
+const EctoplasmatorData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalfBakedBattaData = {{
+const HalfBakedBattaData = {
     examine: "",
     value: 0,
     highAlch: 0,

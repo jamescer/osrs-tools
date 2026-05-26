@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueNestEliteData = {{
+const ClueNestEliteData = {
     examine: "",
     value: 0,
     highAlch: 0,

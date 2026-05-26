@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfArrowtipsardougneData = {{
+const CrateOfArrowtipsardougneData = {
     examine: "",
     value: 0,
     highAlch: 0,

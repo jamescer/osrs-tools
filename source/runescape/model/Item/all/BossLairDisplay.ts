@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BossLairDisplayData = {{
+const BossLairDisplayData = {
     examine: "",
     value: 0,
     highAlch: 0,

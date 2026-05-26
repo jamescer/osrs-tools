@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const jungleDemonMaskData = {{
+const jungleDemonMaskData = {
     examine: "A mask resembling a visage of a Greater Jungle demon.",
     value: 4000,
     highAlch: 2400,

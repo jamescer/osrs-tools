@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DwarfCannonSetData = {{
+const DwarfCannonSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

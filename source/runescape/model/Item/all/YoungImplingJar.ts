@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YoungImplingJarData = {{
+const YoungImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

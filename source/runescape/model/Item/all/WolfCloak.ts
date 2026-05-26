@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const wolfCloakData = {{
+const wolfCloakData = {
     examine: "A very warm wolf cloak.",
     value: 1000,
     highAlch: 600,

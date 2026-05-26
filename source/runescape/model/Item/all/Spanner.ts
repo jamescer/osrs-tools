@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpannerData = {{
+const SpannerData = {
     examine: "",
     value: 0,
     highAlch: 0,

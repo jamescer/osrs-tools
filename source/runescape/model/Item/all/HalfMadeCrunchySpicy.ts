@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalfMadeCrunchySpicyData = {{
+const HalfMadeCrunchySpicyData = {
     examine: "",
     value: 0,
     highAlch: 0,

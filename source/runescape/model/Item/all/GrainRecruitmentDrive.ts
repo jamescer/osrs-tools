@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrainRecruitmentDriveData = {{
+const GrainRecruitmentDriveData = {
     examine: "",
     value: 0,
     highAlch: 0,

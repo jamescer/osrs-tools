@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TheDesertPaintingData = {{
+const TheDesertPaintingData = {
     examine: "",
     value: 0,
     highAlch: 0,

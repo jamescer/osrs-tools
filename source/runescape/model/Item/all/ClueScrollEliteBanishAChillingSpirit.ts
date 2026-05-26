@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteBanishAChillingSpiritData = {{
+const ClueScrollEliteBanishAChillingSpiritData = {
     examine: "",
     value: 0,
     highAlch: 0,

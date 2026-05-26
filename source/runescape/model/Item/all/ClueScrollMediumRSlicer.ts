@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumRSlicerData = {{
+const ClueScrollMediumRSlicerData = {
     examine: "",
     value: 0,
     highAlch: 0,

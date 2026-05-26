@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ContractOfSensoryCloudingData = {{
+const ContractOfSensoryCloudingData = {
     examine: "",
     value: 0,
     highAlch: 0,

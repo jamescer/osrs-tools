@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueHatLegendsQuestData = {{
+const BlueHatLegendsQuestData = {
     examine: "",
     value: 0,
     highAlch: 0,

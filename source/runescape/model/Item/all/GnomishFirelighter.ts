@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gnomishFirelighterData = {{
+const gnomishFirelighterData = {
     examine: "Fill it with firelighters to make pretty fire.",
     value: 1000,
     highAlch: 600,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MournerBootsData = {{
+const MournerBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

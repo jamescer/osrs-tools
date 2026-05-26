@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RunePickaxeNzData = {{
+const RunePickaxeNzData = {
     examine: "",
     value: 0,
     highAlch: 0,

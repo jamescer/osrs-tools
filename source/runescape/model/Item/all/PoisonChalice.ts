@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PoisonChaliceData = {{
+const PoisonChaliceData = {
     examine: "",
     value: 0,
     highAlch: 0,

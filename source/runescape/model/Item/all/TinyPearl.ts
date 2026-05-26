@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TinyPearlData = {{
+const TinyPearlData = {
     examine: "",
     value: 0,
     highAlch: 0,

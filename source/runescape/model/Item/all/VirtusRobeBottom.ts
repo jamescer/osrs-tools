@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VirtusRobeBottomData = {{
+const VirtusRobeBottomData = {
     examine: "",
     value: 0,
     highAlch: 0,

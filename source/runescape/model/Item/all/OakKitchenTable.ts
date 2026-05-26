@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OakKitchenTableData = {{
+const OakKitchenTableData = {
     examine: "",
     value: 0,
     highAlch: 0,

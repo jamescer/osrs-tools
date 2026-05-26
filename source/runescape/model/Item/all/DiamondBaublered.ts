@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DiamondBaubleredData = {{
+const DiamondBaubleredData = {
     examine: "",
     value: 0,
     highAlch: 0,

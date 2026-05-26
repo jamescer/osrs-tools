@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StakeData = {{
+const StakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

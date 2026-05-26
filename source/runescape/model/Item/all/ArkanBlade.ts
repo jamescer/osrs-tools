@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArkanBladeData = {{
+const ArkanBladeData = {
     examine: "",
     value: 0,
     highAlch: 0,

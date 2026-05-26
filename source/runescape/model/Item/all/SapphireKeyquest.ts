@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SapphireKeyquestData = {{
+const SapphireKeyquestData = {
     examine: "",
     value: 0,
     highAlch: 0,

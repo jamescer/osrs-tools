@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixedPunchData = {{
+const MixedPunchData = {
     examine: "",
     value: 0,
     highAlch: 0,

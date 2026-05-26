@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TaintedEssenceChunkData = {{
+const TaintedEssenceChunkData = {
     examine: "",
     value: 0,
     highAlch: 0,

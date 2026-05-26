@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NaphthaMixquicklimeData = {{
+const NaphthaMixquicklimeData = {
     examine: "",
     value: 0,
     highAlch: 0,

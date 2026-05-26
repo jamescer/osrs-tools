@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyArmchairFlatpackData = {{
+const MahoganyArmchairFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

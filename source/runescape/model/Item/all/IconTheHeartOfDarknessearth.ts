@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IconTheHeartOfDarknessearthData = {{
+const IconTheHeartOfDarknessearthData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackFullHelmTData = {{
+const blackFullHelmTData = {
     examine: "A full black helmet, decorated with gold trim.",
     value: 6200,
     highAlch: 3720,

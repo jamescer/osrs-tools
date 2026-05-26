@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const goblinMaskData = {{
+const goblinMaskData = {
     examine: "Let's start a flash mob!",
     value: 2000,
     highAlch: 1200,

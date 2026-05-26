@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TumekensShadowunchargedData = {{
+const TumekensShadowunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

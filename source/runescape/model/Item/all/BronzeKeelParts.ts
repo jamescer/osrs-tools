@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeKeelPartsData = {{
+const BronzeKeelPartsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArceuusIconData = {{
+const ArceuusIconData = {
     examine: "",
     value: 0,
     highAlch: 0,

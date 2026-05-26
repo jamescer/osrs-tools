@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PasteData = {{
+const PasteData = {
     examine: "",
     value: 0,
     highAlch: 0,

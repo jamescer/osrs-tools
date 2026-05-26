@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PoleAnimationItemnormalData = {{
+const PoleAnimationItemnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

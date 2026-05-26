@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MushroomPiehalfData = {{
+const MushroomPiehalfData = {
     examine: "",
     value: 0,
     highAlch: 0,

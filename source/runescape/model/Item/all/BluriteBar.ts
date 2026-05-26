@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BluriteBarData = {{
+const BluriteBarData = {
     examine: "",
     value: 0,
     highAlch: 0,

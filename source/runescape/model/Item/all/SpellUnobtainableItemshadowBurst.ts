@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemshadowBurstData = {{
+const SpellUnobtainableItemshadowBurstData = {
     examine: "",
     value: 0,
     highAlch: 0,

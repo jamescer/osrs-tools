@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeSalvagingHookskiffData = {{
+const BronzeSalvagingHookskiffData = {
     examine: "",
     value: 0,
     highAlch: 0,

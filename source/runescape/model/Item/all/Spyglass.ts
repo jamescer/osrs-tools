@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpyglassData = {{
+const SpyglassData = {
     examine: "",
     value: 0,
     highAlch: 0,

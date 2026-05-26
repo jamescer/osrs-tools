@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BannerGuthixData = {{
+const BannerGuthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

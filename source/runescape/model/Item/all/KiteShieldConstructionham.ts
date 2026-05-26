@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KiteShieldConstructionhamData = {{
+const KiteShieldConstructionhamData = {
     examine: "",
     value: 0,
     highAlch: 0,

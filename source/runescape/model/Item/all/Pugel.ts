@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PugelData = {{
+const PugelData = {
     examine: "",
     value: 0,
     highAlch: 0,

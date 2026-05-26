@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoneTabletTheCurseOfArravData = {{
+const StoneTabletTheCurseOfArravData = {
     examine: "",
     value: 0,
     highAlch: 0,

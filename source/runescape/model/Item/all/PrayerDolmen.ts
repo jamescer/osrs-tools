@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrayerDolmenData = {{
+const PrayerDolmenData = {
     examine: "",
     value: 0,
     highAlch: 0,

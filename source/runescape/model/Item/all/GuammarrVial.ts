@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuammarrVialData = {{
+const GuammarrVialData = {
     examine: "",
     value: 0,
     highAlch: 0,

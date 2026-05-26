@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalPickaxeactiveData = {{
+const CrystalPickaxeactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

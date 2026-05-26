@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArderresperPoisonData = {{
+const ArderresperPoisonData = {
     examine: "",
     value: 0,
     highAlch: 0,

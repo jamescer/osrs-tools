@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectorHornData = {{
+const CollectorHornData = {
     examine: "",
     value: 0,
     highAlch: 0,

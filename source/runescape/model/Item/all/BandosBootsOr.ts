@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosBootsOrData = {{
+const BandosBootsOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoblinChampionScrollData = {{
+const GoblinChampionScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

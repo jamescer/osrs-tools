@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WandWhatLiesBelowData = {{
+const WandWhatLiesBelowData = {
     examine: "",
     value: 0,
     highAlch: 0,

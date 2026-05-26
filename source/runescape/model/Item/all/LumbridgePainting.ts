@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LumbridgePaintingData = {{
+const LumbridgePaintingData = {
     examine: "",
     value: 0,
     highAlch: 0,

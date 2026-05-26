@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StormyKeyData = {{
+const StormyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

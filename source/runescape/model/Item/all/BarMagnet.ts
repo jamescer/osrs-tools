@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarMagnetData = {{
+const BarMagnetData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MortMyreStemData = {{
+const MortMyreStemData = {
     examine: "",
     value: 0,
     highAlch: 0,

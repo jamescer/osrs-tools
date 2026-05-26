@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantKiteshieldVarrockData = {{
+const AdamantKiteshieldVarrockData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyScratchingPostData = {{
+const MahoganyScratchingPostData = {
     examine: "",
     value: 0,
     highAlch: 0,

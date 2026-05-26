@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TestKebableliaData = {{
+const TestKebableliaData = {
     examine: "",
     value: 0,
     highAlch: 0,

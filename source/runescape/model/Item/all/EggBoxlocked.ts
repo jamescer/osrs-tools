@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EggBoxlockedData = {{
+const EggBoxlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

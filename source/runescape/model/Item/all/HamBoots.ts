@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HamBootsData = {{
+const HamBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireMaxCapebrokenData = {{
+const FireMaxCapebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

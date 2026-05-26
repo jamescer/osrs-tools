@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketCookoutData = {{
+const BucketCookoutData = {
     examine: "",
     value: 0,
     highAlch: 0,

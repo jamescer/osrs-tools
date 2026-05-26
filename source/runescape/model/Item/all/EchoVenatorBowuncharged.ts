@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoVenatorBowunchargedData = {{
+const EchoVenatorBowunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

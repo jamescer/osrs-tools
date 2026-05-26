@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const halfMoonSpectaclesData = {{
+const halfMoonSpectaclesData = {
     examine: "The two halfs would surely make a full moon?",
     value: 19450,
     highAlch: 11670,

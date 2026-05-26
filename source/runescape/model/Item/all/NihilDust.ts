@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NihilDustData = {{
+const NihilDustData = {
     examine: "",
     value: 0,
     highAlch: 0,

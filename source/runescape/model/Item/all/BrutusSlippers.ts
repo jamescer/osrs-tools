@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrutusSlippersData = {{
+const BrutusSlippersData = {
     examine: "",
     value: 0,
     highAlch: 0,

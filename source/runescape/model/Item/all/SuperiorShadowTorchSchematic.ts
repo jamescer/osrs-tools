@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SuperiorShadowTorchSchematicData = {{
+const SuperiorShadowTorchSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

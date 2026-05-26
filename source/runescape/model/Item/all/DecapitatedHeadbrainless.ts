@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecapitatedHeadbrainlessData = {{
+const DecapitatedHeadbrainlessData = {
     examine: "",
     value: 0,
     highAlch: 0,

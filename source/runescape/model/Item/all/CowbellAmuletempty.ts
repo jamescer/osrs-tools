@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CowbellAmuletemptyData = {{
+const CowbellAmuletemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

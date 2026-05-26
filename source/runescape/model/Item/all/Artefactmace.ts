@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArtefactmaceData = {{
+const ArtefactmaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

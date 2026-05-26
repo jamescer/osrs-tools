@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScabarasCaptureData = {{
+const ScabarasCaptureData = {
     examine: "",
     value: 0,
     highAlch: 0,

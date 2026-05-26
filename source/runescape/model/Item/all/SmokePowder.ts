@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmokePowderData = {{
+const SmokePowderData = {
     examine: "",
     value: 0,
     highAlch: 0,

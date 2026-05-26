@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OpulentTableData = {{
+const OpulentTableData = {
     examine: "",
     value: 0,
     highAlch: 0,

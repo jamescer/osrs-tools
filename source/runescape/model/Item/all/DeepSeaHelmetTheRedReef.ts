@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DeepSeaHelmetTheRedReefData = {{
+const DeepSeaHelmetTheRedReefData = {
     examine: "",
     value: 0,
     highAlch: 0,

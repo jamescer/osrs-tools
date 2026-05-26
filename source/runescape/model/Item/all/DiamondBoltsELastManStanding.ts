@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DiamondBoltsELastManStandingData = {{
+const DiamondBoltsELastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

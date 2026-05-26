@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DemonLecternFlatpackData = {{
+const DemonLecternFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

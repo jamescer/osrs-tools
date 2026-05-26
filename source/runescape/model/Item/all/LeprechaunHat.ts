@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const leprechaunHatData = {{
+const leprechaunHatData = {
     examine: "Top o' the morning!",
     value: 1000,
     highAlch: 600,

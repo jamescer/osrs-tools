@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmellyJournalData = {{
+const SmellyJournalData = {
     examine: "",
     value: 0,
     highAlch: 0,

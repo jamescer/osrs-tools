@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HornOfPlentychargedData = {{
+const HornOfPlentychargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedTephraData = {{
+const ImbuedTephraData = {
     examine: "",
     value: 0,
     highAlch: 0,

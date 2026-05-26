@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectorIconsplitData = {{
+const CollectorIconsplitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SplitLogData = {{
+const SplitLogData = {
     examine: "",
     value: 0,
     highAlch: 0,

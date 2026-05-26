@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SkeletonLeggingsData = {{
+const SkeletonLeggingsData = {
     examine: "",
     value: 0,
     highAlch: 0,

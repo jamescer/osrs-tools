@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnowballAnimationItemData = {{
+const SnowballAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

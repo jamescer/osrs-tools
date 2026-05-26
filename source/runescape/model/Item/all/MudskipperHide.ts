@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MudskipperHideData = {{
+const MudskipperHideData = {
     examine: "",
     value: 0,
     highAlch: 0,

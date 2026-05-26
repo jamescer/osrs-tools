@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalCapenormalData = {{
+const InfernalCapenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

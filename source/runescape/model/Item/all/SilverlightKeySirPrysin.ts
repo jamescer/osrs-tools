@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilverlightKeySirPrysinData = {{
+const SilverlightKeySirPrysinData = {
     examine: "",
     value: 0,
     highAlch: 0,

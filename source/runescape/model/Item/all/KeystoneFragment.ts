@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeystoneFragmentData = {{
+const KeystoneFragmentData = {
     examine: "",
     value: 0,
     highAlch: 0,

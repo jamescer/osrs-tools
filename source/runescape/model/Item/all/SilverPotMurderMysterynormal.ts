@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilverPotMurderMysterynormalData = {{
+const SilverPotMurderMysterynormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

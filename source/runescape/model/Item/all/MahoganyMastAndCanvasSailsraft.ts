@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyMastAndCanvasSailsraftData = {{
+const MahoganyMastAndCanvasSailsraftData = {
     examine: "",
     value: 0,
     highAlch: 0,

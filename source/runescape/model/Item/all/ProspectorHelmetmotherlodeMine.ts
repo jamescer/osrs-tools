@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ProspectorHelmetmotherlodeMineData = {{
+const ProspectorHelmetmotherlodeMineData = {
     examine: "",
     value: 0,
     highAlch: 0,

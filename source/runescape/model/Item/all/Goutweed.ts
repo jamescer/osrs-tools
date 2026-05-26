@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoutweedData = {{
+const GoutweedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrangeOldLockpickusedData = {{
+const StrangeOldLockpickusedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OgreArtefactTheCorsairCurseData = {{
+const OgreArtefactTheCorsairCurseData = {
     examine: "",
     value: 0,
     highAlch: 0,

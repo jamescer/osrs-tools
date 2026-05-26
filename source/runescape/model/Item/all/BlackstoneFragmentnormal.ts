@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackstoneFragmentnormalData = {{
+const BlackstoneFragmentnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

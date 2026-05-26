@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlessedSuperiorDragonBonesData = {{
+const BlessedSuperiorDragonBonesData = {
     examine: "",
     value: 0,
     highAlch: 0,

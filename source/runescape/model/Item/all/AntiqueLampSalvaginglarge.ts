@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntiqueLampSalvaginglargeData = {{
+const AntiqueLampSalvaginglargeData = {
     examine: "",
     value: 0,
     highAlch: 0,

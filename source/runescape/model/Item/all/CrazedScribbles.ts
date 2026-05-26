@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrazedScribblesData = {{
+const CrazedScribblesData = {
     examine: "",
     value: 0,
     highAlch: 0,

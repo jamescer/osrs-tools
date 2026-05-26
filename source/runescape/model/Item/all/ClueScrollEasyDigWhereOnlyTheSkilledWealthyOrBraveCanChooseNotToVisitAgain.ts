@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyDigWhereOnlyTheSkilledWealthyOrBraveCanChooseNotToVisitAgainData = {{
+const ClueScrollEasyDigWhereOnlyTheSkilledWealthyOrBraveCanChooseNotToVisitAgainData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PerfectGoldOreData = {{
+const PerfectGoldOreData = {
     examine: "",
     value: 0,
     highAlch: 0,

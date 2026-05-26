@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StolenGarnetRingData = {{
+const StolenGarnetRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

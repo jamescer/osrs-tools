@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteHeadbangAtTheTopOfSlayerTowerData = {{
+const ClueScrollEliteHeadbangAtTheTopOfSlayerTowerData = {
     examine: "",
     value: 0,
     highAlch: 0,

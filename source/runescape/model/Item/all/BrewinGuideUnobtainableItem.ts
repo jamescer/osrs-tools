@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrewinGuideUnobtainableItemData = {{
+const BrewinGuideUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrayerCapeuntrimmedData = {{
+const PrayerCapeuntrimmedData = {
     examine: "",
     value: 0,
     highAlch: 0,

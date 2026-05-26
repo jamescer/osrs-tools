@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runePlatelegsGData = {{
+const runePlatelegsGData = {
     examine: "Rune platelegs with gold trim.",
     value: 64000,
     highAlch: 38400,

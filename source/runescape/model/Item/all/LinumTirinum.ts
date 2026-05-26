@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LinumTirinumData = {{
+const LinumTirinumData = {
     examine: "",
     value: 0,
     highAlch: 0,

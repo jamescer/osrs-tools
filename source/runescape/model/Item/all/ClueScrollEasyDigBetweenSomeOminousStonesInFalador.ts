@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyDigBetweenSomeOminousStonesInFaladorData = {{
+const ClueScrollEasyDigBetweenSomeOminousStonesInFaladorData = {
     examine: "",
     value: 0,
     highAlch: 0,

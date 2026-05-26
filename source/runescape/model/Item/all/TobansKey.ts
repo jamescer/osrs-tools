@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TobansKeyData = {{
+const TobansKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardComeHaveACipWithThisGreatSootCoveredDenizenData = {{
+const ClueScrollHardComeHaveACipWithThisGreatSootCoveredDenizenData = {
     examine: "",
     value: 0,
     highAlch: 0,

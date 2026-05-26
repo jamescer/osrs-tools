@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottleOfTheWayHomeData = {{
+const BottleOfTheWayHomeData = {
     examine: "",
     value: 0,
     highAlch: 0,

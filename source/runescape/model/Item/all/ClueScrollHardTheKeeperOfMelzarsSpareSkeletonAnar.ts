@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardTheKeeperOfMelzarsSpareSkeletonAnarData = {{
+const ClueScrollHardTheKeeperOfMelzarsSpareSkeletonAnarData = {
     examine: "",
     value: 0,
     highAlch: 0,

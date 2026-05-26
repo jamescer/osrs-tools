@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScarabDungData = {{
+const ScarabDungData = {
     examine: "",
     value: 0,
     highAlch: 0,

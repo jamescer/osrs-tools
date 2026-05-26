@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LarupiaEarData = {{
+const LarupiaEarData = {
     examine: "",
     value: 0,
     highAlch: 0,

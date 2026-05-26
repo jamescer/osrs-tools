@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VestasChainbodyBhinactiveData = {{
+const VestasChainbodyBhinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

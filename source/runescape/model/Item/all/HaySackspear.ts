@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HaySackspearData = {{
+const HaySackspearData = {
     examine: "",
     value: 0,
     highAlch: 0,

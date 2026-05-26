@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OnMigrationPatternsData = {{
+const OnMigrationPatternsData = {
     examine: "",
     value: 0,
     highAlch: 0,

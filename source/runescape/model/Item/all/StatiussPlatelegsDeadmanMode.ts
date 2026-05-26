@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StatiussPlatelegsDeadmanModeData = {{
+const StatiussPlatelegsDeadmanModeData = {
     examine: "",
     value: 0,
     highAlch: 0,

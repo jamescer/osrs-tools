@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrostDragonBonesData = {{
+const FrostDragonBonesData = {
     examine: "",
     value: 0,
     highAlch: 0,

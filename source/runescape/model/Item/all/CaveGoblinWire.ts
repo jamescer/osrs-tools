@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CaveGoblinWireData = {{
+const CaveGoblinWireData = {
     examine: "",
     value: 0,
     highAlch: 0,

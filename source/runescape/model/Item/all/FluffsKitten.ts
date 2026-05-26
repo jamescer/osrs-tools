@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FluffsKittenData = {{
+const FluffsKittenData = {
     examine: "",
     value: 0,
     highAlch: 0,

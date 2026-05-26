@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaikasVeilbrokenData = {{
+const SaikasVeilbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

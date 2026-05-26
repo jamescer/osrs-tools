@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExpeditiousBraceletData = {{
+const ExpeditiousBraceletData = {
     examine: "",
     value: 0,
     highAlch: 0,

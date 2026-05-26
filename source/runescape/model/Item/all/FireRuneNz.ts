@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireRuneNzData = {{
+const FireRuneNzData = {
     examine: "",
     value: 0,
     highAlch: 0,

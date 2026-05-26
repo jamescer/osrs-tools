@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoCrystalData = {{
+const EchoCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

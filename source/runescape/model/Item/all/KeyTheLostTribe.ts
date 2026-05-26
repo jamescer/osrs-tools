@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeyTheLostTribeData = {{
+const KeyTheLostTribeData = {
     examine: "",
     value: 0,
     highAlch: 0,

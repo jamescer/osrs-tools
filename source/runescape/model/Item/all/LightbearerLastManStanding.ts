@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LightbearerLastManStandingData = {{
+const LightbearerLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

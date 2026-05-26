@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZenyteData = {{
+const ZenyteData = {
     examine: "",
     value: 0,
     highAlch: 0,

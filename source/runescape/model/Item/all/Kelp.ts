@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KelpData = {{
+const KelpData = {
     examine: "",
     value: 0,
     highAlch: 0,

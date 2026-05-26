@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JadeMacheteData = {{
+const JadeMacheteData = {
     examine: "",
     value: 0,
     highAlch: 0,

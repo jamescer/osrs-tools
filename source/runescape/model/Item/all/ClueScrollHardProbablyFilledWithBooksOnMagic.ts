@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardProbablyFilledWithBooksOnMagicData = {{
+const ClueScrollHardProbablyFilledWithBooksOnMagicData = {
     examine: "",
     value: 0,
     highAlch: 0,

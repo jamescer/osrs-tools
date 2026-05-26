@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnfinishedCrunchyChocchipHistoricalData = {{
+const UnfinishedCrunchyChocchipHistoricalData = {
     examine: "",
     value: 0,
     highAlch: 0,

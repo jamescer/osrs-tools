@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JuicecoatedBrushData = {{
+const JuicecoatedBrushData = {
     examine: "",
     value: 0,
     highAlch: 0,

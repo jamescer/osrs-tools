@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZalcanoShardData = {{
+const ZalcanoShardData = {
     examine: "",
     value: 0,
     highAlch: 0,

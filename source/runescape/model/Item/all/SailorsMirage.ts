@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SailorsMirageData = {{
+const SailorsMirageData = {
     examine: "",
     value: 0,
     highAlch: 0,

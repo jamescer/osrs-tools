@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectionLogBlackData = {{
+const CollectionLogBlackData = {
     examine: "",
     value: 0,
     highAlch: 0,

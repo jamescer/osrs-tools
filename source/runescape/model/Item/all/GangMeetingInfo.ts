@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GangMeetingInfoData = {{
+const GangMeetingInfoData = {
     examine: "",
     value: 0,
     highAlch: 0,

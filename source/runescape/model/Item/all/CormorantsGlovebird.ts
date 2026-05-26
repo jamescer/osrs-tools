@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CormorantsGlovebirdData = {{
+const CormorantsGlovebirdData = {
     examine: "",
     value: 0,
     highAlch: 0,

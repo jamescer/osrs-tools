@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CombatPathVoucherData = {{
+const CombatPathVoucherData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BroochData = {{
+const BroochData = {
     examine: "",
     value: 0,
     highAlch: 0,

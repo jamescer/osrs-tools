@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const oldDemonMaskData = {{
+const oldDemonMaskData = {
     examine: "Lost in time.",
     value: 4000,
     highAlch: 2400,

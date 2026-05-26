@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BullseyeLanternUnfData = {{
+const BullseyeLanternUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

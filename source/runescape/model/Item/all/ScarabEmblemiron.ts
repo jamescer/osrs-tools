@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScarabEmblemironData = {{
+const ScarabEmblemironData = {
     examine: "",
     value: 0,
     highAlch: 0,

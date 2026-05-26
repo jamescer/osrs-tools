@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeverSchematicData = {{
+const LeverSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

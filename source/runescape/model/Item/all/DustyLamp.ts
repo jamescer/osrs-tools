@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DustyLampData = {{
+const DustyLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

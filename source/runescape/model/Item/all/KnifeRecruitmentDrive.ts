@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KnifeRecruitmentDriveData = {{
+const KnifeRecruitmentDriveData = {
     examine: "",
     value: 0,
     highAlch: 0,

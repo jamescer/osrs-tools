@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TreeConstructionData = {{
+const TreeConstructionData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpookyWallLampData = {{
+const SpookyWallLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

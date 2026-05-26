@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireGiantBoneunpolishedData = {{
+const FireGiantBoneunpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeTtlData = {{
+const PremadeTtlData = {
     examine: "",
     value: 0,
     highAlch: 0,

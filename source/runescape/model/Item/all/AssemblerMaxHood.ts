@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AssemblerMaxHoodData = {{
+const AssemblerMaxHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoneTabletBeneathCursedSandsData = {{
+const StoneTabletBeneathCursedSandsData = {
     examine: "",
     value: 0,
     highAlch: 0,

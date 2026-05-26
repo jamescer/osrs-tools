@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MimicData = {{
+const MimicData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GemSatchelopenData = {{
+const GemSatchelopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

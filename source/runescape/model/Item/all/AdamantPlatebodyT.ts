@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantPlatebodyTData = {{
+const adamantPlatebodyTData = {
     examine: "Adamant platebody with trim.",
     value: 16640,
     highAlch: 9984,

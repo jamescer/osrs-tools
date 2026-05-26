@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AccumulatorMaxCapeData = {{
+const AccumulatorMaxCapeData = {
     examine: "",
     value: 0,
     highAlch: 0,

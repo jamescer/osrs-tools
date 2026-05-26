@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollBeginnerBowToBrugsenBursenAtTheGrandExchangeData = {{
+const ClueScrollBeginnerBowToBrugsenBursenAtTheGrandExchangeData = {
     examine: "",
     value: 0,
     highAlch: 0,

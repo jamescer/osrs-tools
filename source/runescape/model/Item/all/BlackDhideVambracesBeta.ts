@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackDhideVambracesBetaData = {{
+const BlackDhideVambracesBetaData = {
     examine: "",
     value: 0,
     highAlch: 0,

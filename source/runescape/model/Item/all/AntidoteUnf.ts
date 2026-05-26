@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntidoteUnfData = {{
+const AntidoteUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

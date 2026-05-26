@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const penguinMaskData = {{
+const penguinMaskData = {
     examine: "Thankfully this doesn't reset every week.",
     value: 1200,
     highAlch: 720,

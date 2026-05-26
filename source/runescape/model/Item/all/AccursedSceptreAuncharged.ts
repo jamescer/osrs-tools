@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AccursedSceptreAunchargedData = {{
+const AccursedSceptreAunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

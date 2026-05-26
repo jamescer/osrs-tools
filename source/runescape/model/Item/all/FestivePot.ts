@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FestivePotData = {{
+const FestivePotData = {
     examine: "",
     value: 0,
     highAlch: 0,

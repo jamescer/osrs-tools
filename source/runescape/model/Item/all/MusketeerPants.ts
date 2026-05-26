@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const musketeerPantsData = {{
+const musketeerPantsData = {
     examine: "One for all!",
     value: 1870,
     highAlch: 1122,

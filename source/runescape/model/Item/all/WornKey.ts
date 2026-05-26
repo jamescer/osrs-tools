@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WornKeyData = {{
+const WornKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

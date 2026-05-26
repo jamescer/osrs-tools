@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesCurtainsConstructionregularData = {{
+const RagingEchoesCurtainsConstructionregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

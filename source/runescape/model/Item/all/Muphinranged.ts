@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MuphinrangedData = {{
+const MuphinrangedData = {
     examine: "",
     value: 0,
     highAlch: 0,

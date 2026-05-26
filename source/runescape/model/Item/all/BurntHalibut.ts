@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntHalibutData = {{
+const BurntHalibutData = {
     examine: "",
     value: 0,
     highAlch: 0,

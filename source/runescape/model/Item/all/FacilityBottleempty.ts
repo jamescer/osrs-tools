@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FacilityBottleemptyData = {{
+const FacilityBottleemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CertificateDeathPlateauData = {{
+const CertificateDeathPlateauData = {
     examine: "",
     value: 0,
     highAlch: 0,

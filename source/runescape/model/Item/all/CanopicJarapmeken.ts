@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CanopicJarapmekenData = {{
+const CanopicJarapmekenData = {
     examine: "",
     value: 0,
     highAlch: 0,

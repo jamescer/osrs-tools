@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneSalvagingHookskiffData = {{
+const RuneSalvagingHookskiffData = {
     examine: "",
     value: 0,
     highAlch: 0,

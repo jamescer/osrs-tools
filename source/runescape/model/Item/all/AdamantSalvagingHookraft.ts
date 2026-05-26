@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantSalvagingHookraftData = {{
+const AdamantSalvagingHookraftData = {
     examine: "",
     value: 0,
     highAlch: 0,

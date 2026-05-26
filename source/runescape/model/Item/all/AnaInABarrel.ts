@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnaInABarrelData = {{
+const AnaInABarrelData = {
     examine: "",
     value: 0,
     highAlch: 0,

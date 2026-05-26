@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UltorRingData = {{
+const UltorRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

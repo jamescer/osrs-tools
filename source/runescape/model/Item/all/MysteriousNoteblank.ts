@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysteriousNoteblankData = {{
+const MysteriousNoteblankData = {
     examine: "",
     value: 0,
     highAlch: 0,

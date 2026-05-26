@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrocodileEmblemData = {{
+const CrocodileEmblemData = {
     examine: "",
     value: 0,
     highAlch: 0,

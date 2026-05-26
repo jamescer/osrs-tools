@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeCakeData = {{
+const GnomeCakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AddressLabelData = {{
+const AddressLabelData = {
     examine: "",
     value: 0,
     highAlch: 0,

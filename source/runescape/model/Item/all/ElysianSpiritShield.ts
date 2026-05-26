@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElysianSpiritShieldData = {{
+const ElysianSpiritShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

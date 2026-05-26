@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BloodMoonTassetsLastManStandingData = {{
+const BloodMoonTassetsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

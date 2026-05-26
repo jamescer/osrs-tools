@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const mithrilKiteshieldGData = {{
+const mithrilKiteshieldGData = {
     examine: "Mithril kiteshield with gold trim.",
     value: 2210,
     highAlch: 1326,

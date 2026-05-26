@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blueDragonMaskData = {{
+const blueDragonMaskData = {
     examine: "Do I look scary?",
     value: 10000,
     highAlch: 6000,

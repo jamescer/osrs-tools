@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteYouWillHaveToFlyHighWhereASwordCannotHelpYouData = {{
+const ClueScrollEliteYouWillHaveToFlyHighWhereASwordCannotHelpYouData = {
     examine: "",
     value: 0,
     highAlch: 0,

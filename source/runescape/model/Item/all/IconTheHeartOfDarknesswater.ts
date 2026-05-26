@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IconTheHeartOfDarknesswaterData = {{
+const IconTheHeartOfDarknesswaterData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfTheGodsInightmareZoneData = {{
+const RingOfTheGodsInightmareZoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

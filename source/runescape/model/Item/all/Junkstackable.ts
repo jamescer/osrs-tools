@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JunkstackableData = {{
+const JunkstackableData = {
     examine: "",
     value: 0,
     highAlch: 0,

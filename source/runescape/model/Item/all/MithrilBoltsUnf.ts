@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MithrilBoltsUnfData = {{
+const MithrilBoltsUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeArmourRangedTopbrokenData = {{
+const DecorativeArmourRangedTopbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

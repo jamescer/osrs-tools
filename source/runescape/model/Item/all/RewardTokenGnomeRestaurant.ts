@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RewardTokenGnomeRestaurantData = {{
+const RewardTokenGnomeRestaurantData = {
     examine: "",
     value: 0,
     highAlch: 0,

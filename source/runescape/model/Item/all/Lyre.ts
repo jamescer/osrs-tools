@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LyreData = {{
+const LyreData = {
     examine: "",
     value: 0,
     highAlch: 0,

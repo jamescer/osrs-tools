@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const armadylCloakData = {{
+const armadylCloakData = {
     examine: "An Armadyl cloak.",
     value: 2000,
     highAlch: 1200,

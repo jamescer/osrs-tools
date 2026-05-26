@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteMacheteClamData = {{
+const ClueScrollEliteMacheteClamData = {
     examine: "",
     value: 0,
     highAlch: 0,

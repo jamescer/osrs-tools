@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OliveOilPackData = {{
+const OliveOilPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

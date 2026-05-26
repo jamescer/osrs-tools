@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElementalOreData = {{
+const ElementalOreData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SodiumChlorideData = {{
+const SodiumChlorideData = {
     examine: "",
     value: 0,
     highAlch: 0,

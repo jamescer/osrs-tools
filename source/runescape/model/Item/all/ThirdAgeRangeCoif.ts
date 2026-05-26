@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeRangeCoifData = {{
+const ThirdAgeRangeCoifData = {
     examine: "Fabulously ancient range protection crafted from white dragonhide.",
     value: 50400,
     highAlch: 30240,

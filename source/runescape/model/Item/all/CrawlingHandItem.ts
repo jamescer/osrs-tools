@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrawlingHandItemData = {{
+const CrawlingHandItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

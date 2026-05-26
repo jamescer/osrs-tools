@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedSpadeData = {{
+const gildedSpadeData = {
     examine: "Oh, I'm a gold digger?",
     value: 1000,
     highAlch: 600,

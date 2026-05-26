@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnchoviesData = {{
+const AnchoviesData = {
     examine: "",
     value: 0,
     highAlch: 0,

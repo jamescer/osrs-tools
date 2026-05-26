@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AncientLedgerData = {{
+const AncientLedgerData = {
     examine: "",
     value: 0,
     highAlch: 0,

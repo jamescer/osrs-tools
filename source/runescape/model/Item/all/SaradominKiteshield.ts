@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const saradominKiteshieldData = {{
+const saradominKiteshieldData = {
     examine: "Rune kiteshield in the colours of Saradomin.",
     value: 54400,
     highAlch: 32640,

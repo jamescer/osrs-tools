@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JatobaLogsData = {{
+const JatobaLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

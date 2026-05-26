@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakPyreLogsData = {{
+const TeakPyreLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

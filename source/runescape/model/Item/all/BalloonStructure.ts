@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BalloonStructureData = {{
+const BalloonStructureData = {
     examine: "",
     value: 0,
     highAlch: 0,

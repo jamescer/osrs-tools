@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ToyMousewoundData = {{
+const ToyMousewoundData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuinedBackpackData = {{
+const RuinedBackpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

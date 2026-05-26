@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FungicideData = {{
+const FungicideData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OldSymbolData = {{
+const OldSymbolData = {
     examine: "",
     value: 0,
     highAlch: 0,

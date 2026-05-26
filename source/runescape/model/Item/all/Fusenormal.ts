@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FusenormalData = {{
+const FusenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

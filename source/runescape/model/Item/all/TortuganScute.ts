@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TortuganScuteData = {{
+const TortuganScuteData = {
     examine: "",
     value: 0,
     highAlch: 0,

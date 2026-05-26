@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpikedBootsData = {{
+const SpikedBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

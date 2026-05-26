@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaplePyreLogsData = {{
+const MaplePyreLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

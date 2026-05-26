@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UndeadTwigsData = {{
+const UndeadTwigsData = {
     examine: "",
     value: 0,
     highAlch: 0,

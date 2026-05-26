@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShantayDisclaimerData = {{
+const ShantayDisclaimerData = {
     examine: "",
     value: 0,
     highAlch: 0,

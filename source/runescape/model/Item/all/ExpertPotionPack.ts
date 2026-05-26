@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExpertPotionPackData = {{
+const ExpertPotionPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

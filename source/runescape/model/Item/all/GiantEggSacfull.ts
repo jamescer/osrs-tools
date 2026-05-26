@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantEggSacfullData = {{
+const GiantEggSacfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

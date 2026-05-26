@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BroadArrowsData = {{
+const BroadArrowsData = {
     examine: "",
     value: 0,
     highAlch: 0,

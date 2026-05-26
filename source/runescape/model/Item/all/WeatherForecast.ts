@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WeatherForecastData = {{
+const WeatherForecastData = {
     examine: "",
     value: 0,
     highAlch: 0,

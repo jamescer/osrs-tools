@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CombatAchievementsUnobtainableItemData = {{
+const CombatAchievementsUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

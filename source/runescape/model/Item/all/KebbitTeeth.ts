@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KebbitTeethData = {{
+const KebbitTeethData = {
     examine: "",
     value: 0,
     highAlch: 0,

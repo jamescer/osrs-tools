@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TreasureMapData = {{
+const TreasureMapData = {
     examine: "",
     value: 0,
     highAlch: 0,

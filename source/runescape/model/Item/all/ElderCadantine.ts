@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElderCadantineData = {{
+const ElderCadantineData = {
     examine: "",
     value: 0,
     highAlch: 0,

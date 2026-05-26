@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RubyBraceletData = {{
+const RubyBraceletData = {
     examine: "",
     value: 0,
     highAlch: 0,

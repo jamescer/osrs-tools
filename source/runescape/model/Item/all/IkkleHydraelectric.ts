@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IkkleHydraelectricData = {{
+const IkkleHydraelectricData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RogueBootsData = {{
+const RogueBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

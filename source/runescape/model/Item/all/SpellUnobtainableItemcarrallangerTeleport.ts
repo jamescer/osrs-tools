@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemcarrallangerTeleportData = {{
+const SpellUnobtainableItemcarrallangerTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

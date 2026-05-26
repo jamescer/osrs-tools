@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PhasmatysFlagData = {{
+const PhasmatysFlagData = {
     examine: "",
     value: 0,
     highAlch: 0,

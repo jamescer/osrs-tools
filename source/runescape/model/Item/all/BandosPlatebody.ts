@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bandosPlatebodyData = {{
+const bandosPlatebodyData = {
     examine: "Rune platebody in the colours of Bandos.",
     value: 65000,
     highAlch: 39000,

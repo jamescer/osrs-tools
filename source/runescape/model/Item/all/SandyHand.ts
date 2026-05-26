@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SandyHandData = {{
+const SandyHandData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TorvaArmourSetData = {{
+const TorvaArmourSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

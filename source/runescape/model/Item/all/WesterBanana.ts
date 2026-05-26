@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WesterBananaData = {{
+const WesterBananaData = {
     examine: "",
     value: 0,
     highAlch: 0,

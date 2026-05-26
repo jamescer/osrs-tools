@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RadiantOathplateChestData = {{
+const RadiantOathplateChestData = {
     examine: "",
     value: 0,
     highAlch: 0,

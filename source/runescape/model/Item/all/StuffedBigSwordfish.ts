@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuffedBigSwordfishData = {{
+const StuffedBigSwordfishData = {
     examine: "",
     value: 0,
     highAlch: 0,

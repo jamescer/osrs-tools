@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WatchtowerTeleportTabletData = {{
+const WatchtowerTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

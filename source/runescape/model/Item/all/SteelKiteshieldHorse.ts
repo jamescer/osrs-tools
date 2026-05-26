@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelKiteshieldHorseData = {{
+const SteelKiteshieldHorseData = {
     examine: "",
     value: 0,
     highAlch: 0,

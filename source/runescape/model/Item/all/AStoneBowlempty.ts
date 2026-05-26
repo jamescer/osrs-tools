@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AStoneBowlemptyData = {{
+const AStoneBowlemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

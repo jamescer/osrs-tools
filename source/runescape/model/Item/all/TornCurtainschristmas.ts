@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TornCurtainschristmasData = {{
+const TornCurtainschristmasData = {
     examine: "",
     value: 0,
     highAlch: 0,

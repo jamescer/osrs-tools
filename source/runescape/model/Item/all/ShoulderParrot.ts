@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const shoulderParrotData = {{
+const shoulderParrotData = {
     examine: "Polly want a cracker?",
     value: 1000,
     highAlch: 600,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KebbitBoltsData = {{
+const KebbitBoltsData = {
     examine: "",
     value: 0,
     highAlch: 0,

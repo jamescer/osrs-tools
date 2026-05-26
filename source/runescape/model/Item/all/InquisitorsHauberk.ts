@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InquisitorsHauberkData = {{
+const InquisitorsHauberkData = {
     examine: "",
     value: 0,
     highAlch: 0,

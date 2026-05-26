@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TheTurncloakData = {{
+const TheTurncloakData = {
     examine: "",
     value: 0,
     highAlch: 0,

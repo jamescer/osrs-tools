@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CookedLarupiaData = {{
+const CookedLarupiaData = {
     examine: "",
     value: 0,
     highAlch: 0,

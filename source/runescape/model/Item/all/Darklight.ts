@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarklightData = {{
+const DarklightData = {
     examine: "",
     value: 0,
     highAlch: 0,

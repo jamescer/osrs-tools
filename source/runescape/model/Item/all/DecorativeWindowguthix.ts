@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeWindowguthixData = {{
+const DecorativeWindowguthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

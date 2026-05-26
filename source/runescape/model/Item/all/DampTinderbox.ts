@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DampTinderboxData = {{
+const DampTinderboxData = {
     examine: "",
     value: 0,
     highAlch: 0,

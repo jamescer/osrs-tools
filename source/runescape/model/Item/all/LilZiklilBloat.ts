@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LilZiklilBloatData = {{
+const LilZiklilBloatData = {
     examine: "",
     value: 0,
     highAlch: 0,

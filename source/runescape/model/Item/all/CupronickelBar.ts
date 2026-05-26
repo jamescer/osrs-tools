@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CupronickelBarData = {{
+const CupronickelBarData = {
     examine: "",
     value: 0,
     highAlch: 0,

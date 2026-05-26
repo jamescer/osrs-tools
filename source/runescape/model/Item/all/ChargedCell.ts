@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChargedCellData = {{
+const ChargedCellData = {
     examine: "",
     value: 0,
     highAlch: 0,

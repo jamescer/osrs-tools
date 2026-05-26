@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HealerIcondaliData = {{
+const HealerIcondaliData = {
     examine: "",
     value: 0,
     highAlch: 0,

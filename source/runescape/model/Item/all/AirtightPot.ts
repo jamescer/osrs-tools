@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AirtightPotData = {{
+const AirtightPotData = {
     examine: "",
     value: 0,
     highAlch: 0,

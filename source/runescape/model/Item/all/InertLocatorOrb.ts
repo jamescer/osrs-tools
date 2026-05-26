@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InertLocatorOrbData = {{
+const InertLocatorOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

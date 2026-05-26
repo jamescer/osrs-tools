@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoPearlData = {{
+const EchoPearlData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PipeSectionData = {{
+const PipeSectionData = {
     examine: "",
     value: 0,
     highAlch: 0,

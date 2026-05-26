@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MiningHelmetlitData = {{
+const MiningHelmetlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

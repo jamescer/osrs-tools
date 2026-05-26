@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmptyTaxBagData = {{
+const EmptyTaxBagData = {
     examine: "",
     value: 0,
     highAlch: 0,

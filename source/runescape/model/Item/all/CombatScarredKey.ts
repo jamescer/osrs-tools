@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CombatScarredKeyData = {{
+const CombatScarredKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

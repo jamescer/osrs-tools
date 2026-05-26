@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GhommalsLuckyPennyData = {{
+const GhommalsLuckyPennyData = {
     examine: "",
     value: 0,
     highAlch: 0,

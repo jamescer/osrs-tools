@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PolarHabitatData = {{
+const PolarHabitatData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysteryBoxData = {{
+const MysteryBoxData = {
     examine: "",
     value: 0,
     highAlch: 0,

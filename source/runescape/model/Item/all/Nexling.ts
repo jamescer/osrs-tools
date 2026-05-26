@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NexlingData = {{
+const NexlingData = {
     examine: "",
     value: 0,
     highAlch: 0,

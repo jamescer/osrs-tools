@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackCaneData = {{
+const blackCaneData = {
     examine: "A ruby topped cane.",
     value: 600,
     highAlch: 360,

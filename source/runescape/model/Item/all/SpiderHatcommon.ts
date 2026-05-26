@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiderHatcommonData = {{
+const SpiderHatcommonData = {
     examine: "",
     value: 0,
     highAlch: 0,

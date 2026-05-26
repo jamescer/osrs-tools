@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntPageData = {{
+const BurntPageData = {
     examine: "",
     value: 0,
     highAlch: 0,

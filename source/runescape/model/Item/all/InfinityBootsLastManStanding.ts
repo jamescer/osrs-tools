@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfinityBootsLastManStandingData = {{
+const InfinityBootsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BulletArrowData = {{
+const BulletArrowData = {
     examine: "",
     value: 0,
     highAlch: 0,

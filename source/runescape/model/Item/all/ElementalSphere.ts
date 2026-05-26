@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElementalSphereData = {{
+const ElementalSphereData = {
     examine: "",
     value: 0,
     highAlch: 0,

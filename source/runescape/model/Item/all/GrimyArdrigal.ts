@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrimyArdrigalData = {{
+const GrimyArdrigalData = {
     examine: "",
     value: 0,
     highAlch: 0,

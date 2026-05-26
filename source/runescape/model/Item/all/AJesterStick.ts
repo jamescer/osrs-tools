@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AJesterStickData = {{
+const AJesterStickData = {
     examine: "",
     value: 0,
     highAlch: 0,

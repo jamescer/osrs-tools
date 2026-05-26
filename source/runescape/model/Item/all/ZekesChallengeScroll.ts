@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZekesChallengeScrollData = {{
+const ZekesChallengeScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

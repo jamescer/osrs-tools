@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VoidKnightGlovesnormalData = {{
+const VoidKnightGlovesnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

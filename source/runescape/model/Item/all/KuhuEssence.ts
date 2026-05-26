@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KuhuEssenceData = {{
+const KuhuEssenceData = {
     examine: "",
     value: 0,
     highAlch: 0,

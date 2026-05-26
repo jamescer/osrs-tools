@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeKiteshieldData = {{
+const ThirdAgeKiteshieldData = {
     examine: "Fabulously ancient armour beaten from magical silver.",
     value: 180000,
     highAlch: 108000,

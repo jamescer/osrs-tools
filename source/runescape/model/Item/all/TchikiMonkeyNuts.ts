@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TchikiMonkeyNutsData = {{
+const TchikiMonkeyNutsData = {
     examine: "",
     value: 0,
     highAlch: 0,

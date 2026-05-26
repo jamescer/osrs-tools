@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElvargsHeadData = {{
+const ElvargsHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

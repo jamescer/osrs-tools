@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteBeretData = {{
+const WhiteBeretData = {
     examine: "",
     value: 0,
     highAlch: 0,

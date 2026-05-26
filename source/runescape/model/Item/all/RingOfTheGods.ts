@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfTheGodsData = {{
+const RingOfTheGodsData = {
     examine: "",
     value: 0,
     highAlch: 0,

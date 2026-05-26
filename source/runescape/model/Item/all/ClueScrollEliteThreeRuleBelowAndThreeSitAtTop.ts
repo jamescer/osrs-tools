@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteThreeRuleBelowAndThreeSitAtTopData = {{
+const ClueScrollEliteThreeRuleBelowAndThreeSitAtTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

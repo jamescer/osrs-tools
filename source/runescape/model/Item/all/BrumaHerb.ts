@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrumaHerbData = {{
+const BrumaHerbData = {
     examine: "",
     value: 0,
     highAlch: 0,

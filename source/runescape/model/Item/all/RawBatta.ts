@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawBattaData = {{
+const RawBattaData = {
     examine: "",
     value: 0,
     highAlch: 0,

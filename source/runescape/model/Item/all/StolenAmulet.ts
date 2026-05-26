@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StolenAmuletData = {{
+const StolenAmuletData = {
     examine: "",
     value: 0,
     highAlch: 0,

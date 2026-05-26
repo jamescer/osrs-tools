@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EclipseMoonChestplatenewData = {{
+const EclipseMoonChestplatenewData = {
     examine: "",
     value: 0,
     highAlch: 0,

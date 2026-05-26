@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YanillianSeedData = {{
+const YanillianSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

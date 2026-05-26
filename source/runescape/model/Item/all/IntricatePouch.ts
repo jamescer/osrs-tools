@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IntricatePouchData = {{
+const IntricatePouchData = {
     examine: "",
     value: 0,
     highAlch: 0,

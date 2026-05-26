@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpareControlsData = {{
+const SpareControlsData = {
     examine: "",
     value: 0,
     highAlch: 0,

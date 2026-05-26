@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MetamorphicDustData = {{
+const MetamorphicDustData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PotOfQuicklimeData = {{
+const PotOfQuicklimeData = {
     examine: "",
     value: 0,
     highAlch: 0,

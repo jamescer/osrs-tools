@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const onyxBoltsEData = {{
+const onyxBoltsEData = {
     examine: "Enchanted Onyx tipped Runite Crossbow Bolts.",
     value: 15000,
     highAlch: 9000,

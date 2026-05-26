@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BladeOfSaeldorCAmloddData = {{
+const BladeOfSaeldorCAmloddData = {
     examine: "",
     value: 0,
     highAlch: 0,

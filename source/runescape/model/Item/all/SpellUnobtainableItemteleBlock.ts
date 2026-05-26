@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemteleBlockData = {{
+const SpellUnobtainableItemteleBlockData = {
     examine: "",
     value: 0,
     highAlch: 0,

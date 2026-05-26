@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HoopAndStickData = {{
+const HoopAndStickData = {
     examine: "",
     value: 0,
     highAlch: 0,

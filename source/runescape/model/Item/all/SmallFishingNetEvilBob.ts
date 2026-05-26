@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallFishingNetEvilBobData = {{
+const SmallFishingNetEvilBobData = {
     examine: "",
     value: 0,
     highAlch: 0,

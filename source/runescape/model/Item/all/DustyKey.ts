@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DustyKeyData = {{
+const DustyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

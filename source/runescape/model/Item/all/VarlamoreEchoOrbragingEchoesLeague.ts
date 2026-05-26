@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VarlamoreEchoOrbragingEchoesLeagueData = {{
+const VarlamoreEchoOrbragingEchoesLeagueData = {
     examine: "",
     value: 0,
     highAlch: 0,

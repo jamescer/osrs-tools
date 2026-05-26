@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CookingPotUnobtainableItemData = {{
+const CookingPotUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

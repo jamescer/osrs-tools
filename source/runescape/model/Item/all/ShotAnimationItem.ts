@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShotAnimationItemData = {{
+const ShotAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

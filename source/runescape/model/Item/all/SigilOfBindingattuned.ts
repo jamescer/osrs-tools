@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfBindingattunedData = {{
+const SigilOfBindingattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemboostPotionShareData = {{
+const SpellUnobtainableItemboostPotionShareData = {
     examine: "",
     value: 0,
     highAlch: 0,

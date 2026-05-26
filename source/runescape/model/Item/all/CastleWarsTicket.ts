@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CastleWarsTicketData = {{
+const CastleWarsTicketData = {
     examine: "",
     value: 0,
     highAlch: 0,

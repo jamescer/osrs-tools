@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GollwynsFinalStatementData = {{
+const GollwynsFinalStatementData = {
     examine: "",
     value: 0,
     highAlch: 0,

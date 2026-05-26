@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MokhaiotlWaystoneData = {{
+const MokhaiotlWaystoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

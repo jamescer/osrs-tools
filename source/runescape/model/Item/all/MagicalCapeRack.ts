@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicalCapeRackData = {{
+const MagicalCapeRackData = {
     examine: "",
     value: 0,
     highAlch: 0,

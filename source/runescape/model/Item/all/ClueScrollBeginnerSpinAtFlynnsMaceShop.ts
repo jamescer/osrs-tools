@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollBeginnerSpinAtFlynnsMaceShopData = {{
+const ClueScrollBeginnerSpinAtFlynnsMaceShopData = {
     examine: "",
     value: 0,
     highAlch: 0,

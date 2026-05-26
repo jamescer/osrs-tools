@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpearLastManStandingData = {{
+const SpearLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

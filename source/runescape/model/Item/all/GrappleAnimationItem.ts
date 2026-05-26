@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrappleAnimationItemData = {{
+const GrappleAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

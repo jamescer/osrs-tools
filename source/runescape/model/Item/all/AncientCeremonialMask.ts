@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AncientCeremonialMaskData = {{
+const AncientCeremonialMaskData = {
     examine: "",
     value: 0,
     highAlch: 0,

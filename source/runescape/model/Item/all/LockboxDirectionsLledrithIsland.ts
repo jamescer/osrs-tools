@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LockboxDirectionsLledrithIslandData = {{
+const LockboxDirectionsLledrithIslandData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakFancyDressBoxopenData = {{
+const TeakFancyDressBoxopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

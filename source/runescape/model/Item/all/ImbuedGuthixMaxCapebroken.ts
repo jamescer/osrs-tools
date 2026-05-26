@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedGuthixMaxCapebrokenData = {{
+const ImbuedGuthixMaxCapebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

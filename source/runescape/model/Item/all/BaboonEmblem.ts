@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BaboonEmblemData = {{
+const BaboonEmblemData = {
     examine: "",
     value: 0,
     highAlch: 0,

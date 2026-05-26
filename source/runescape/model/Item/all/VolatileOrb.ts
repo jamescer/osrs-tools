@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VolatileOrbData = {{
+const VolatileOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

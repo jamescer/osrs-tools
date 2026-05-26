@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawCaveEelData = {{
+const RawCaveEelData = {
     examine: "",
     value: 0,
     highAlch: 0,

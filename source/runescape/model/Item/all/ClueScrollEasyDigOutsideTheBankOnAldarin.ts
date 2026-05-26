@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyDigOutsideTheBankOnAldarinData = {{
+const ClueScrollEasyDigOutsideTheBankOnAldarinData = {
     examine: "",
     value: 0,
     highAlch: 0,

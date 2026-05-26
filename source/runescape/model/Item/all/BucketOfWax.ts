@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketOfWaxData = {{
+const BucketOfWaxData = {
     examine: "",
     value: 0,
     highAlch: 0,

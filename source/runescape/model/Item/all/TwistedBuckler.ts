@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwistedBucklerData = {{
+const TwistedBucklerData = {
     examine: "",
     value: 0,
     highAlch: 0,

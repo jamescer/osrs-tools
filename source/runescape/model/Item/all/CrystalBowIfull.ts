@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalBowIfullData = {{
+const CrystalBowIfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

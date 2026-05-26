@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ForestryBasketclosedData = {{
+const ForestryBasketclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

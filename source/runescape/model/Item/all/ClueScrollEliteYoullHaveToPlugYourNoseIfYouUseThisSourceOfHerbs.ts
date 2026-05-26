@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteYoullHaveToPlugYourNoseIfYouUseThisSourceOfHerbsData = {{
+const ClueScrollEliteYoullHaveToPlugYourNoseIfYouUseThisSourceOfHerbsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantPlatebodyData = {{
+const adamantPlatebodyData = {
     examine: "A suit of adamant body armour.",
     value: 1835,
     highAlch: 1101,

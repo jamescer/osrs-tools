@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bandosGodswordOrnamentKitData = {{
+const bandosGodswordOrnamentKitData = {
     examine: "Use on a Bandos godsword to make it look fancier!",
     value: 5000,
     highAlch: 3000,

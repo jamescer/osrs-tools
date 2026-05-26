@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoiledPageData = {{
+const SoiledPageData = {
     examine: "",
     value: 0,
     highAlch: 0,

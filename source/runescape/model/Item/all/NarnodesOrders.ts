@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NarnodesOrdersData = {{
+const NarnodesOrdersData = {
     examine: "",
     value: 0,
     highAlch: 0,

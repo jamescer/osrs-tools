@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BasicQuetzalWhistleData = {{
+const BasicQuetzalWhistleData = {
     examine: "",
     value: 0,
     highAlch: 0,

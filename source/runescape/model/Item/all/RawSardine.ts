@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawSardineData = {{
+const RawSardineData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DockLeafData = {{
+const DockLeafData = {
     examine: "",
     value: 0,
     highAlch: 0,

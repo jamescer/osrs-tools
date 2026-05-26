@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoHarpoonData = {{
+const EchoHarpoonData = {
     examine: "",
     value: 0,
     highAlch: 0,

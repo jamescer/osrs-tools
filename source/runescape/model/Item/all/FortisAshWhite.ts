@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FortisAshWhiteData = {{
+const FortisAshWhiteData = {
     examine: "",
     value: 0,
     highAlch: 0,

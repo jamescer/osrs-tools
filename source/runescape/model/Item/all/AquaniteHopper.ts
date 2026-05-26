@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AquaniteHopperData = {{
+const AquaniteHopperData = {
     examine: "",
     value: 0,
     highAlch: 0,

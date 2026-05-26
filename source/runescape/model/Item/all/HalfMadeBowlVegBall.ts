@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalfMadeBowlVegBallData = {{
+const HalfMadeBowlVegBallData = {
     examine: "",
     value: 0,
     highAlch: 0,

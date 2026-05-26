@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueThreadData = {{
+const BlueThreadData = {
     examine: "",
     value: 0,
     highAlch: 0,

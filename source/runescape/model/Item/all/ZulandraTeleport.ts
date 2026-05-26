@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZulandraTeleportData = {{
+const ZulandraTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

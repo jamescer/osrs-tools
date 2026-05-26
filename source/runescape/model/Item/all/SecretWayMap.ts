@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SecretWayMapData = {{
+const SecretWayMapData = {
     examine: "",
     value: 0,
     highAlch: 0,

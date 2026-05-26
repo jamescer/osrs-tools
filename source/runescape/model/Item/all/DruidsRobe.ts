@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DruidsRobeData = {{
+const DruidsRobeData = {
     examine: "",
     value: 0,
     highAlch: 0,

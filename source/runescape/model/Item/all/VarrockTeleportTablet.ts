@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VarrockTeleportTabletData = {{
+const VarrockTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

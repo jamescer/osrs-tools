@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrollheimTeleportTabletData = {{
+const TrollheimTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

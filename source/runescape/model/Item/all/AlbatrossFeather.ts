@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AlbatrossFeatherData = {{
+const AlbatrossFeatherData = {
     examine: "",
     value: 0,
     highAlch: 0,

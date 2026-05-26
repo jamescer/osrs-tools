@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HammerheadSharkJawData = {{
+const HammerheadSharkJawData = {
     examine: "",
     value: 0,
     highAlch: 0,

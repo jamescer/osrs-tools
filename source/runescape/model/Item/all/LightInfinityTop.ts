@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LightInfinityTopData = {{
+const LightInfinityTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

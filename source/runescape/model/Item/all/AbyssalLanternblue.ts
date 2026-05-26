@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AbyssalLanternblueData = {{
+const AbyssalLanternblueData = {
     examine: "",
     value: 0,
     highAlch: 0,

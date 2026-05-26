@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrangeImplementData = {{
+const StrangeImplementData = {
     examine: "",
     value: 0,
     highAlch: 0,

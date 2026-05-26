@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedStatiussPlatebodyBhinactiveData = {{
+const CorruptedStatiussPlatebodyBhinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

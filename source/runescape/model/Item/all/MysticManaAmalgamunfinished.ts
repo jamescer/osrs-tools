@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysticManaAmalgamunfinishedData = {{
+const MysticManaAmalgamunfinishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

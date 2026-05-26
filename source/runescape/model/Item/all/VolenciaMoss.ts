@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VolenciaMossData = {{
+const VolenciaMossData = {
     examine: "",
     value: 0,
     highAlch: 0,

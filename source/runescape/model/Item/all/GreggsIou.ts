@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreggsIouData = {{
+const GreggsIouData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WoodenTableMediumMahoganyHomesData = {{
+const WoodenTableMediumMahoganyHomesData = {
     examine: "",
     value: 0,
     highAlch: 0,

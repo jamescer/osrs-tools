@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrozenKeyPieceBandosData = {{
+const FrozenKeyPieceBandosData = {
     examine: "",
     value: 0,
     highAlch: 0,

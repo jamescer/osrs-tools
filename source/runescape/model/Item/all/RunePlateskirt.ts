@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runePlateskirtData = {{
+const runePlateskirtData = {
     examine: "Designer leg protection.",
     value: 64000,
     highAlch: 38400,

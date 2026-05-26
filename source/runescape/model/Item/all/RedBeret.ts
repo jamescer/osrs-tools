@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedBeretData = {{
+const RedBeretData = {
     examine: "",
     value: 0,
     highAlch: 0,

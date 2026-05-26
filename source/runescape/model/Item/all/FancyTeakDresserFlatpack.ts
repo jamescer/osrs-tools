@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FancyTeakDresserFlatpackData = {{
+const FancyTeakDresserFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

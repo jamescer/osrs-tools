@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DemonicIncantationsData = {{
+const DemonicIncantationsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasoriArmourSetFData = {{
+const MasoriArmourSetFData = {
     examine: "",
     value: 0,
     highAlch: 0,

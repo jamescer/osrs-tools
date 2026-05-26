@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MilkSamplefirstSampleData = {{
+const MilkSamplefirstSampleData = {
     examine: "",
     value: 0,
     highAlch: 0,

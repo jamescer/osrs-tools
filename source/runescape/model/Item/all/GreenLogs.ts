@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenLogsData = {{
+const GreenLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

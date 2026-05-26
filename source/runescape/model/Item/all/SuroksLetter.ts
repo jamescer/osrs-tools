@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SuroksLetterData = {{
+const SuroksLetterData = {
     examine: "",
     value: 0,
     highAlch: 0,

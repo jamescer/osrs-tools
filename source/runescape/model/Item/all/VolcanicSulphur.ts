@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VolcanicSulphurData = {{
+const VolcanicSulphurData = {
     examine: "",
     value: 0,
     highAlch: 0,

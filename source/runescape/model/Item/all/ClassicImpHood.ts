@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClassicImpHoodData = {{
+const ClassicImpHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

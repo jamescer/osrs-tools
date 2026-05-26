@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoodAnthemData = {{
+const GoodAnthemData = {
     examine: "",
     value: 0,
     highAlch: 0,

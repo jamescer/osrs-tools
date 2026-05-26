@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CalcifiedMothData = {{
+const CalcifiedMothData = {
     examine: "",
     value: 0,
     highAlch: 0,

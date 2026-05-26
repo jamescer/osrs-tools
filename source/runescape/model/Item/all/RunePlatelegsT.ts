@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runePlatelegsTData = {{
+const runePlatelegsTData = {
     examine: "Rune platelegs with trim.",
     value: 64000,
     highAlch: 38400,

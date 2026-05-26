@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawSummerPieData = {{
+const RawSummerPieData = {
     examine: "",
     value: 0,
     highAlch: 0,

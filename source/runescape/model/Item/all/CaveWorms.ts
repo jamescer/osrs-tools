@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CaveWormsData = {{
+const CaveWormsData = {
     examine: "",
     value: 0,
     highAlch: 0,

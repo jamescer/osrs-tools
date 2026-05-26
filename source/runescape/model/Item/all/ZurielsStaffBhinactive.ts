@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZurielsStaffBhinactiveData = {{
+const ZurielsStaffBhinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

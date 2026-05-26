@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeercullData = {{
+const SeercullData = {
     examine: "",
     value: 0,
     highAlch: 0,

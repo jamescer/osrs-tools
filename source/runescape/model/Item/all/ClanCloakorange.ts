@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClanCloakorangeData = {{
+const ClanCloakorangeData = {
     examine: "",
     value: 0,
     highAlch: 0,

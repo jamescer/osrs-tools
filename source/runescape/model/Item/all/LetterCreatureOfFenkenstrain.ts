@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LetterCreatureOfFenkenstrainData = {{
+const LetterCreatureOfFenkenstrainData = {
     examine: "",
     value: 0,
     highAlch: 0,

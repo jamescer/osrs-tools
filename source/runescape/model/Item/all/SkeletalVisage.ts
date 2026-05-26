@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SkeletalVisageData = {{
+const SkeletalVisageData = {
     examine: "",
     value: 0,
     highAlch: 0,

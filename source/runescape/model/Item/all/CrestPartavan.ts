@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrestPartavanData = {{
+const CrestPartavanData = {
     examine: "",
     value: 0,
     highAlch: 0,

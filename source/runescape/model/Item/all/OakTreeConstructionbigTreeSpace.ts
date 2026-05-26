@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OakTreeConstructionbigTreeSpaceData = {{
+const OakTreeConstructionbigTreeSpaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

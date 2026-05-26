@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SenntistenTeleportTabletData = {{
+const SenntistenTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

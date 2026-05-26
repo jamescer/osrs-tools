@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesNexusScrollData = {{
+const RagingEchoesNexusScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnowImpCostumeTailduringEventData = {{
+const SnowImpCostumeTailduringEventData = {
     examine: "",
     value: 0,
     highAlch: 0,

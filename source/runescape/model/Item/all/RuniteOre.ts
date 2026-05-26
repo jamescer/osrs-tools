@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runiteOreData = {{
+const runiteOreData = {
     examine: "This needs refining.",
     value: 3200,
     highAlch: 1920,

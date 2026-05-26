@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StolenCircletData = {{
+const StolenCircletData = {
     examine: "",
     value: 0,
     highAlch: 0,

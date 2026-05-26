@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SuperiorCalamityChestnormalData = {{
+const SuperiorCalamityChestnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

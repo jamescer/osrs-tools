@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StarAmuletData = {{
+const StarAmuletData = {
     examine: "",
     value: 0,
     highAlch: 0,

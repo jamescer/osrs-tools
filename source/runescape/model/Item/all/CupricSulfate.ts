@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CupricSulfateData = {{
+const CupricSulfateData = {
     examine: "",
     value: 0,
     highAlch: 0,

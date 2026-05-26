@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EarthRunePackData = {{
+const EarthRunePackData = {
     examine: "",
     value: 0,
     highAlch: 0,

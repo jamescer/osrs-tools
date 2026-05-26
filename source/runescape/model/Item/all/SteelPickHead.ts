@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelPickHeadData = {{
+const SteelPickHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OccultNecklaceOrData = {{
+const OccultNecklaceOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

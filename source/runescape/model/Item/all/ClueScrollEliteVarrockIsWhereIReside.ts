@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteVarrockIsWhereIResideData = {{
+const ClueScrollEliteVarrockIsWhereIResideData = {
     examine: "",
     value: 0,
     highAlch: 0,

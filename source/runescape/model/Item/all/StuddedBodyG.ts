@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuddedBodyGData = {{
+const StuddedBodyGData = {
     examine: "",
     value: 0,
     highAlch: 0,

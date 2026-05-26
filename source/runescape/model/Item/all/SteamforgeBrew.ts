@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteamforgeBrewData = {{
+const SteamforgeBrewData = {
     examine: "",
     value: 0,
     highAlch: 0,

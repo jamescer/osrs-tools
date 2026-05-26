@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ProselyteSalletData = {{
+const ProselyteSalletData = {
     examine: "",
     value: 0,
     highAlch: 0,

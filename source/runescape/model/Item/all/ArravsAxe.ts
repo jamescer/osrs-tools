@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArravsAxeData = {{
+const ArravsAxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

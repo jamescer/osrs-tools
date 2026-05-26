@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImaforesBetrayalData = {{
+const ImaforesBetrayalData = {
     examine: "",
     value: 0,
     highAlch: 0,

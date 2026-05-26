@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackRingInterfaceItemData = {{
+const BlackRingInterfaceItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

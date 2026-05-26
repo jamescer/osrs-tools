@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CenturionCuirassbrokenData = {{
+const CenturionCuirassbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

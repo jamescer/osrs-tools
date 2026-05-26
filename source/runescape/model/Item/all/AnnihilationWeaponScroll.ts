@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnnihilationWeaponScrollData = {{
+const AnnihilationWeaponScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

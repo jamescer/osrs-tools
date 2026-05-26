@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CatspeakAmuleteData = {{
+const CatspeakAmuleteData = {
     examine: "",
     value: 0,
     highAlch: 0,

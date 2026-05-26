@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackAxeHeadData = {{
+const BlackAxeHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

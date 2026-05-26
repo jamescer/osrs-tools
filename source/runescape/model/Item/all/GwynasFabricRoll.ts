@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GwynasFabricRollData = {{
+const GwynasFabricRollData = {
     examine: "",
     value: 0,
     highAlch: 0,

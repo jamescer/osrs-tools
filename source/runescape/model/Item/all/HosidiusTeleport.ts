@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HosidiusTeleportData = {{
+const HosidiusTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

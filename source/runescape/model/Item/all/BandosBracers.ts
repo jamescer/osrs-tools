@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bandosBracersData = {{
+const bandosBracersData = {
     examine: "Bandos blessed dragonhide vambraces.",
     value: 4000,
     highAlch: 2400,

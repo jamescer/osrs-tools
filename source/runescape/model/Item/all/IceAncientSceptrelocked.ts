@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IceAncientSceptrelockedData = {{
+const IceAncientSceptrelockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

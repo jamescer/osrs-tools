@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItementangleData = {{
+const SpellUnobtainableItementangleData = {
     examine: "",
     value: 0,
     highAlch: 0,

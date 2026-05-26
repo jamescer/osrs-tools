@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HorogothgarKeyData = {{
+const HorogothgarKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

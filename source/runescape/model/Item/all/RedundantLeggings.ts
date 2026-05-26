@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedundantLeggingsData = {{
+const RedundantLeggingsData = {
     examine: "",
     value: 0,
     highAlch: 0,

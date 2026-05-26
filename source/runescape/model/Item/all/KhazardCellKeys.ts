@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KhazardCellKeysData = {{
+const KhazardCellKeysData = {
     examine: "",
     value: 0,
     highAlch: 0,

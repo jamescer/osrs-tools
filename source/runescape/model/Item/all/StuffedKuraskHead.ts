@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuffedKuraskHeadData = {{
+const StuffedKuraskHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

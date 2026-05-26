@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const guthixDHideBootsData = {{
+const guthixDHideBootsData = {
     examine: "Guthix blessed dragonhide boots.",
     value: 9300,
     highAlch: 5580,

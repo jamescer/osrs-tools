@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SawmillAgreementData = {{
+const SawmillAgreementData = {
     examine: "",
     value: 0,
     highAlch: 0,

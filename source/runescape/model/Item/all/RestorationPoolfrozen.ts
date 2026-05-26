@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RestorationPoolfrozenData = {{
+const RestorationPoolfrozenData = {
     examine: "",
     value: 0,
     highAlch: 0,

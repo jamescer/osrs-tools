@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MythicalMaxCapeData = {{
+const MythicalMaxCapeData = {
     examine: "",
     value: 0,
     highAlch: 0,

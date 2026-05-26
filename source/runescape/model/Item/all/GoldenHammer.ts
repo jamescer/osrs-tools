@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoldenHammerData = {{
+const GoldenHammerData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FarmersStrawhatbodyTypeAData = {{
+const FarmersStrawhatbodyTypeAData = {
     examine: "",
     value: 0,
     highAlch: 0,

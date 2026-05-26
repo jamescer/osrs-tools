@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeRoyalSealData = {{
+const GnomeRoyalSealData = {
     examine: "",
     value: 0,
     highAlch: 0,

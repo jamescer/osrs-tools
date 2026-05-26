@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmadylChestplateData = {{
+const ArmadylChestplateData = {
     examine: "",
     value: 0,
     highAlch: 0,

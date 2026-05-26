@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosGodswordMisthalinMysteryhalloweenData = {{
+const BandosGodswordMisthalinMysteryhalloweenData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EagleLecternFlatpackData = {{
+const EagleLecternFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

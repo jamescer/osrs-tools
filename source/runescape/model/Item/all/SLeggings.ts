@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sLeggingsData = {{
+const sLeggingsData = {
     examine: "These leggings will make your flesh transparent.",
     value: 1,
     highAlch: 0,

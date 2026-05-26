@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EclipseMoonHelmLastManStandingData = {{
+const EclipseMoonHelmLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

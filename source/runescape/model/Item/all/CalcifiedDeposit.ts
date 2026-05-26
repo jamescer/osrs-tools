@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CalcifiedDepositData = {{
+const CalcifiedDepositData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CushionedBasketData = {{
+const CushionedBasketData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoneTabletLizardmanTempleData = {{
+const StoneTabletLizardmanTempleData = {
     examine: "",
     value: 0,
     highAlch: 0,

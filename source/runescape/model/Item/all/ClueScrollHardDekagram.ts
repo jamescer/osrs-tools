@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardDekagramData = {{
+const ClueScrollHardDekagramData = {
     examine: "",
     value: 0,
     highAlch: 0,

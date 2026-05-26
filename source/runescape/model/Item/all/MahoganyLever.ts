@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyLeverData = {{
+const MahoganyLeverData = {
     examine: "",
     value: 0,
     highAlch: 0,

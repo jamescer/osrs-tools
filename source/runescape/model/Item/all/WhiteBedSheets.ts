@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteBedSheetsData = {{
+const WhiteBedSheetsData = {
     examine: "",
     value: 0,
     highAlch: 0,

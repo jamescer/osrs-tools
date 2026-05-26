@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FieldArrowData = {{
+const FieldArrowData = {
     examine: "",
     value: 0,
     highAlch: 0,

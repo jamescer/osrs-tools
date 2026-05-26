@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TornCurtainsregularData = {{
+const TornCurtainsregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

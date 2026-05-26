@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KoriffsCoifbrokenData = {{
+const KoriffsCoifbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

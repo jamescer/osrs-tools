@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BologasBlessingData = {{
+const BologasBlessingData = {
     examine: "",
     value: 0,
     highAlch: 0,

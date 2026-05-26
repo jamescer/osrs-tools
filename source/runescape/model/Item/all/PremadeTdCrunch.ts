@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeTdCrunchData = {{
+const PremadeTdCrunchData = {
     examine: "",
     value: 0,
     highAlch: 0,

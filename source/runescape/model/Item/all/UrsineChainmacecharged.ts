@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UrsineChainmacechargedData = {{
+const UrsineChainmacechargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosArmourOrnamentKitData = {{
+const BandosArmourOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

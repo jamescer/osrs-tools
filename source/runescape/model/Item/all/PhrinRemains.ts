@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PhrinRemainsData = {{
+const PhrinRemainsData = {
     examine: "",
     value: 0,
     highAlch: 0,

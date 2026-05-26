@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuardianBootsData = {{
+const GuardianBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

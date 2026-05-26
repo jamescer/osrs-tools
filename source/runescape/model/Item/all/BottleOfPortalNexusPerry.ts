@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottleOfPortalNexusPerryData = {{
+const BottleOfPortalNexusPerryData = {
     examine: "",
     value: 0,
     highAlch: 0,

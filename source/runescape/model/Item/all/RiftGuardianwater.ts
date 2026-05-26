@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RiftGuardianwaterData = {{
+const RiftGuardianwaterData = {
     examine: "",
     value: 0,
     highAlch: 0,

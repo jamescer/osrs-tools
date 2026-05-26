@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SunfireFanaticCuirassData = {{
+const SunfireFanaticCuirassData = {
     examine: "",
     value: 0,
     highAlch: 0,

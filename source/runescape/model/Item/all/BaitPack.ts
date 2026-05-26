@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BaitPackData = {{
+const BaitPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

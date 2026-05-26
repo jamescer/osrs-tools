@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ancientBlessingData = {{
+const ancientBlessingData = {
     examine: "The misery that is now upon us is but the passing of greed, the bitterness of those who fear the way of progress.",
     value: 80,
     highAlch: 48,

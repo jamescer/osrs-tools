@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DoubleAmmoMouldData = {{
+const DoubleAmmoMouldData = {
     examine: "",
     value: 0,
     highAlch: 0,

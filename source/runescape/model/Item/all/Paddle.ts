@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PaddleData = {{
+const PaddleData = {
     examine: "",
     value: 0,
     highAlch: 0,

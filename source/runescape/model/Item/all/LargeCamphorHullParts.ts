@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeCamphorHullPartsData = {{
+const LargeCamphorHullPartsData = {
     examine: "",
     value: 0,
     highAlch: 0,

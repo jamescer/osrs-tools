@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JournalMakingHistoryData = {{
+const JournalMakingHistoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

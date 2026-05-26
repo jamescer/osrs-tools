@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmadylCommuniquData = {{
+const ArmadylCommuniquData = {
     examine: "",
     value: 0,
     highAlch: 0,

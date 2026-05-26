@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwistedAncestralRobeTopData = {{
+const TwistedAncestralRobeTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

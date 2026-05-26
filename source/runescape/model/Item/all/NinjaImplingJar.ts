@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NinjaImplingJarData = {{
+const NinjaImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

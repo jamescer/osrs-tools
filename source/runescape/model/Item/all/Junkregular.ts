@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JunkregularData = {{
+const JunkregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

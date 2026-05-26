@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawAdmiralPieData = {{
+const RawAdmiralPieData = {
     examine: "",
     value: 0,
     highAlch: 0,

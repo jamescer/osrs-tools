@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeftSkullHalfData = {{
+const LeftSkullHalfData = {
     examine: "",
     value: 0,
     highAlch: 0,

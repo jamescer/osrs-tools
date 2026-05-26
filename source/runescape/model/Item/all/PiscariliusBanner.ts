@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const piscariliusBannerData = {{
+const piscariliusBannerData = {
     examine: "A stained glass banner displaying the Piscarilius sigil.",
     value: 70,
     highAlch: 42,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakEagleLecternFlatpackData = {{
+const TeakEagleLecternFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

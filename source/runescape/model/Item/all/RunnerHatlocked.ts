@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RunnerHatlockedData = {{
+const RunnerHatlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AbyssalLanternblisterwoodData = {{
+const AbyssalLanternblisterwoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChaoticHandeggData = {{
+const ChaoticHandeggData = {
     examine: "",
     value: 0,
     highAlch: 0,

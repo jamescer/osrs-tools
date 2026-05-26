@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VoidwakerLastManStandingData = {{
+const VoidwakerLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

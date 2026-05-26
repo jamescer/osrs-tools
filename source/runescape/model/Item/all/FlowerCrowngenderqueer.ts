@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlowerCrowngenderqueerData = {{
+const FlowerCrowngenderqueerData = {
     examine: "",
     value: 0,
     highAlch: 0,

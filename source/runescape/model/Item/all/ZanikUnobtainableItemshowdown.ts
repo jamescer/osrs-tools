@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZanikUnobtainableItemshowdownData = {{
+const ZanikUnobtainableItemshowdownData = {
     examine: "",
     value: 0,
     highAlch: 0,

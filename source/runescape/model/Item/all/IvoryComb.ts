@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IvoryCombData = {{
+const IvoryCombData = {
     examine: "",
     value: 0,
     highAlch: 0,

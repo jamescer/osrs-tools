@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakPortalData = {{
+const TeakPortalData = {
     examine: "",
     value: 0,
     highAlch: 0,

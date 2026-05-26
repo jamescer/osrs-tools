@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerBannerData = {{
+const TrailblazerBannerData = {
     examine: "",
     value: 0,
     highAlch: 0,

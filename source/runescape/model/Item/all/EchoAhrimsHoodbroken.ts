@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoAhrimsHoodbrokenData = {{
+const EchoAhrimsHoodbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NaphthaAppleMixData = {{
+const NaphthaAppleMixData = {
     examine: "",
     value: 0,
     highAlch: 0,

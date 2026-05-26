@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SerpentineVisageData = {{
+const SerpentineVisageData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GridMasterTorchScrollData = {{
+const GridMasterTorchScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

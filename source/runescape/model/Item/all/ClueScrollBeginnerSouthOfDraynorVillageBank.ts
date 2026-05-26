@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollBeginnerSouthOfDraynorVillageBankData = {{
+const ClueScrollBeginnerSouthOfDraynorVillageBankData = {
     examine: "",
     value: 0,
     highAlch: 0,

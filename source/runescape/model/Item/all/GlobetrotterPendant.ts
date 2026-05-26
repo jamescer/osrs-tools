@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlobetrotterPendantData = {{
+const GlobetrotterPendantData = {
     examine: "",
     value: 0,
     highAlch: 0,

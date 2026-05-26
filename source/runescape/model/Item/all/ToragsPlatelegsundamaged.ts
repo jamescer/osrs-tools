@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ToragsPlatelegsundamagedData = {{
+const ToragsPlatelegsundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

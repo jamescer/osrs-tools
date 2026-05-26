@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritRootsData = {{
+const SpiritRootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

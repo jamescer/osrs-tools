@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KyattTopData = {{
+const KyattTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ToktzxilakData = {{
+const ToktzxilakData = {
     examine: "",
     value: 0,
     highAlch: 0,

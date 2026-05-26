@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExplorerBackpackData = {{
+const ExplorerBackpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

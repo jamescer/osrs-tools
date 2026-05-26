@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DexterousPrayerScrollData = {{
+const DexterousPrayerScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

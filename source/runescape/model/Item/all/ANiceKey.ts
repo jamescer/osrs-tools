@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ANiceKeyData = {{
+const ANiceKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

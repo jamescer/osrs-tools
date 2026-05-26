@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FletchingCapetrimmedData = {{
+const FletchingCapetrimmedData = {
     examine: "",
     value: 0,
     highAlch: 0,

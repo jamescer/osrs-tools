@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ObsidianFenceData = {{
+const ObsidianFenceData = {
     examine: "",
     value: 0,
     highAlch: 0,

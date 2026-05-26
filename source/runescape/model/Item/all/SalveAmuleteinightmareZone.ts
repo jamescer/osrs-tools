@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SalveAmuleteinightmareZoneData = {{
+const SalveAmuleteinightmareZoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

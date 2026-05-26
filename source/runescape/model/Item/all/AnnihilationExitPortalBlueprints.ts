@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnnihilationExitPortalBlueprintsData = {{
+const AnnihilationExitPortalBlueprintsData = {
     examine: "",
     value: 0,
     highAlch: 0,

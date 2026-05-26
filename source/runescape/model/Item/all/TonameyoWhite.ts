@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TonameyoWhiteData = {{
+const TonameyoWhiteData = {
     examine: "",
     value: 0,
     highAlch: 0,

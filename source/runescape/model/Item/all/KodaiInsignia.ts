@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KodaiInsigniaData = {{
+const KodaiInsigniaData = {
     examine: "",
     value: 0,
     highAlch: 0,

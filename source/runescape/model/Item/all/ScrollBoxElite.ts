@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrollBoxEliteData = {{
+const ScrollBoxEliteData = {
     examine: "",
     value: 0,
     highAlch: 0,

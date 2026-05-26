@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ReefSnakeGlandData = {{
+const ReefSnakeGlandData = {
     examine: "",
     value: 0,
     highAlch: 0,

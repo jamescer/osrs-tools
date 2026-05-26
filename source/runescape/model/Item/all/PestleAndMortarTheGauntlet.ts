@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PestleAndMortarTheGauntletData = {{
+const PestleAndMortarTheGauntletData = {
     examine: "",
     value: 0,
     highAlch: 0,

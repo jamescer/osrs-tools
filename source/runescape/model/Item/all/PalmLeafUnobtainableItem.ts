@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PalmLeafUnobtainableItemData = {{
+const PalmLeafUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

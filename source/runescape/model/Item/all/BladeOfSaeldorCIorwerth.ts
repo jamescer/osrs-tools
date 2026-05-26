@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BladeOfSaeldorCIorwerthData = {{
+const BladeOfSaeldorCIorwerthData = {
     examine: "",
     value: 0,
     highAlch: 0,

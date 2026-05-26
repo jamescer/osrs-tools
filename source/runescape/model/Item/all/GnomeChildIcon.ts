@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeChildIconData = {{
+const GnomeChildIconData = {
     examine: "",
     value: 0,
     highAlch: 0,

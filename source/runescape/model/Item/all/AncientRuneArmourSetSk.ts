@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AncientRuneArmourSetSkData = {{
+const AncientRuneArmourSetSkData = {
     examine: "",
     value: 0,
     highAlch: 0,

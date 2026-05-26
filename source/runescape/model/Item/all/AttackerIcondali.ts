@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AttackerIcondaliData = {{
+const AttackerIcondaliData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumProbablyFilledWithWizardsSocksData = {{
+const ClueScrollMediumProbablyFilledWithWizardsSocksData = {
     examine: "",
     value: 0,
     highAlch: 0,

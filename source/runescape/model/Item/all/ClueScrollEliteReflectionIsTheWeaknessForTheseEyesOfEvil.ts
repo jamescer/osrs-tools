@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteReflectionIsTheWeaknessForTheseEyesOfEvilData = {{
+const ClueScrollEliteReflectionIsTheWeaknessForTheseEyesOfEvilData = {
     examine: "",
     value: 0,
     highAlch: 0,

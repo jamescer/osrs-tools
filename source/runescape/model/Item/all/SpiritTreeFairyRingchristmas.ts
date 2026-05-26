@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritTreeFairyRingchristmasData = {{
+const SpiritTreeFairyRingchristmasData = {
     examine: "",
     value: 0,
     highAlch: 0,

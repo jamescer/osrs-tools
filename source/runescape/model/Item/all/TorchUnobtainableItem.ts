@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TorchUnobtainableItemData = {{
+const TorchUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

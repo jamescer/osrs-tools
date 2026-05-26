@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GridMasterTabardBData = {{
+const GridMasterTabardBData = {
     examine: "",
     value: 0,
     highAlch: 0,

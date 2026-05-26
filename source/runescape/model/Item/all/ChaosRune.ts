@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const chaosRuneData = {{
+const chaosRuneData = {
     examine: "A chaos rune.",
     value: 96,
     highAlch: 57,

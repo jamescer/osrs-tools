@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YinYangAmuletData = {{
+const YinYangAmuletData = {
     examine: "",
     value: 0,
     highAlch: 0,

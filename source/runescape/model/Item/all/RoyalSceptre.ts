@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const royalSceptreData = {{
+const royalSceptreData = {
     examine: "I dub thee...",
     value: 5000,
     highAlch: 3000,

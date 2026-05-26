@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CoinPouchvyreData = {{
+const CoinPouchvyreData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixedHideArmourSetData = {{
+const MixedHideArmourSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

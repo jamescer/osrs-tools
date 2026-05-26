@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemhealGroupData = {{
+const SpellUnobtainableItemhealGroupData = {
     examine: "",
     value: 0,
     highAlch: 0,

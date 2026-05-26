@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeldaStoutData = {{
+const KeldaStoutData = {
     examine: "",
     value: 0,
     highAlch: 0,

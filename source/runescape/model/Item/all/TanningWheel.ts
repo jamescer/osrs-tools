@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TanningWheelData = {{
+const TanningWheelData = {
     examine: "",
     value: 0,
     highAlch: 0,

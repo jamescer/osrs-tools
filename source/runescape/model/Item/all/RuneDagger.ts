@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runeDaggerData = {{
+const runeDaggerData = {
     examine: "A powerful dagger.",
     value: 8000,
     highAlch: 4800,

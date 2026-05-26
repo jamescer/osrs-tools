@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrunchyTrayData = {{
+const CrunchyTrayData = {
     examine: "",
     value: 0,
     highAlch: 0,

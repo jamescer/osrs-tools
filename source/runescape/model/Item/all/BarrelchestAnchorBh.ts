@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarrelchestAnchorBhData = {{
+const BarrelchestAnchorBhData = {
     examine: "",
     value: 0,
     highAlch: 0,

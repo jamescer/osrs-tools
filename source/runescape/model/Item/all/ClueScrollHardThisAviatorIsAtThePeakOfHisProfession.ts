@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardThisAviatorIsAtThePeakOfHisProfessionData = {{
+const ClueScrollHardThisAviatorIsAtThePeakOfHisProfessionData = {
     examine: "",
     value: 0,
     highAlch: 0,

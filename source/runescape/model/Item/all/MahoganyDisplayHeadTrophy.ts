@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyDisplayHeadTrophyData = {{
+const MahoganyDisplayHeadTrophyData = {
     examine: "",
     value: 0,
     highAlch: 0,

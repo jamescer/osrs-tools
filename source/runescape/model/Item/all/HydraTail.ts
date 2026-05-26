@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HydraTailData = {{
+const HydraTailData = {
     examine: "",
     value: 0,
     highAlch: 0,

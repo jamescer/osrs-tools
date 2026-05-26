@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const palmTreeSeedData = {{
+const palmTreeSeedData = {
     examine: "Plant in a plantpot of soil to grow a sapling.",
     value: 254,
     highAlch: 152,

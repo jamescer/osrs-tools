@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FiyrRemainsData = {{
+const FiyrRemainsData = {
     examine: "",
     value: 0,
     highAlch: 0,

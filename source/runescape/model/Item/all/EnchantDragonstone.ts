@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnchantDragonstoneData = {{
+const EnchantDragonstoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

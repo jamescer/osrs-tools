@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HairData = {{
+const HairData = {
     examine: "",
     value: 0,
     highAlch: 0,

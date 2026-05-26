@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BoneKeyShiloVillageData = {{
+const BoneKeyShiloVillageData = {
     examine: "",
     value: 0,
     highAlch: 0,

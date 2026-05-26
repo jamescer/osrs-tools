@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoxPasteData = {{
+const MoxPasteData = {
     examine: "",
     value: 0,
     highAlch: 0,

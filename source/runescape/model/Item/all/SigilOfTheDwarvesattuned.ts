@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfTheDwarvesattunedData = {{
+const SigilOfTheDwarvesattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

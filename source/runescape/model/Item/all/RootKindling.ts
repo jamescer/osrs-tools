@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RootKindlingData = {{
+const RootKindlingData = {
     examine: "",
     value: 0,
     highAlch: 0,

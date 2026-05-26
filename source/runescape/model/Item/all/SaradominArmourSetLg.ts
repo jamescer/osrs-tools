@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaradominArmourSetLgData = {{
+const SaradominArmourSetLgData = {
     examine: "",
     value: 0,
     highAlch: 0,

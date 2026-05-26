@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfArcaneSwiftnessattunedData = {{
+const SigilOfArcaneSwiftnessattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

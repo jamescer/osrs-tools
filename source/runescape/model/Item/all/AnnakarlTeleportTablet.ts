@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnnakarlTeleportTabletData = {{
+const AnnakarlTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysteriousNoteheatedData = {{
+const MysteriousNoteheatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

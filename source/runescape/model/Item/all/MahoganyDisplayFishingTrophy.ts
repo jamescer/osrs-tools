@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyDisplayFishingTrophyData = {{
+const MahoganyDisplayFishingTrophyData = {
     examine: "",
     value: 0,
     highAlch: 0,

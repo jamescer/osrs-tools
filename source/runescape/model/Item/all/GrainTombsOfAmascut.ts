@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrainTombsOfAmascutData = {{
+const GrainTombsOfAmascutData = {
     examine: "",
     value: 0,
     highAlch: 0,

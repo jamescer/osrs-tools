@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HighwaymanMaskUnobtainableItemData = {{
+const HighwaymanMaskUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

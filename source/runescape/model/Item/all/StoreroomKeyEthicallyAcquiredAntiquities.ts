@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoreroomKeyEthicallyAcquiredAntiquitiesData = {{
+const StoreroomKeyEthicallyAcquiredAntiquitiesData = {
     examine: "",
     value: 0,
     highAlch: 0,

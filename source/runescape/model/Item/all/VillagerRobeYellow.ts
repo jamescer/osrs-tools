@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VillagerRobeYellowData = {{
+const VillagerRobeYellowData = {
     examine: "",
     value: 0,
     highAlch: 0,

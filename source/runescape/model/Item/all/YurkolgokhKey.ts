@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YurkolgokhKeyData = {{
+const YurkolgokhKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

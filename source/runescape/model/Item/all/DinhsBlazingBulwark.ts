@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DinhsBlazingBulwarkData = {{
+const DinhsBlazingBulwarkData = {
     examine: "",
     value: 0,
     highAlch: 0,

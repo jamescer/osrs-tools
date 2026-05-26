@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LockpickData = {{
+const LockpickData = {
     examine: "",
     value: 0,
     highAlch: 0,

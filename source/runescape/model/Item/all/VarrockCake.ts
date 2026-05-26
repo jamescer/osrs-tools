@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VarrockCakeData = {{
+const VarrockCakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GraahkHornSpurData = {{
+const GraahkHornSpurData = {
     examine: "",
     value: 0,
     highAlch: 0,

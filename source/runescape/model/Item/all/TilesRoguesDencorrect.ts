@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TilesRoguesDencorrectData = {{
+const TilesRoguesDencorrectData = {
     examine: "",
     value: 0,
     highAlch: 0,

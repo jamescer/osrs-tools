@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BoardGamePieceairRedData = {{
+const BoardGamePieceairRedData = {
     examine: "",
     value: 0,
     highAlch: 0,

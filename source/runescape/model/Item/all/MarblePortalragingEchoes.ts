@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarblePortalragingEchoesData = {{
+const MarblePortalragingEchoesData = {
     examine: "",
     value: 0,
     highAlch: 0,

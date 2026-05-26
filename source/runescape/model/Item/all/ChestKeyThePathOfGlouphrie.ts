@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChestKeyThePathOfGlouphrieData = {{
+const ChestKeyThePathOfGlouphrieData = {
     examine: "",
     value: 0,
     highAlch: 0,

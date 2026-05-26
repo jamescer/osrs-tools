@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DwarvenBattleaxeAnimationItemsharpenedData = {{
+const DwarvenBattleaxeAnimationItemsharpenedData = {
     examine: "",
     value: 0,
     highAlch: 0,

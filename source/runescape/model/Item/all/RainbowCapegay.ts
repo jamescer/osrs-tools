@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RainbowCapegayData = {{
+const RainbowCapegayData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateMaulHandleData = {{
+const OrnateMaulHandleData = {
     examine: "",
     value: 0,
     highAlch: 0,

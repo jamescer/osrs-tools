@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntOomlieWrapData = {{
+const BurntOomlieWrapData = {
     examine: "",
     value: 0,
     highAlch: 0,

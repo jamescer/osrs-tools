@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PollnivneachTeleportData = {{
+const PollnivneachTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

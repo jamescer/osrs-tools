@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfLootyData = {{
+const CrateOfLootyData = {
     examine: "",
     value: 0,
     highAlch: 0,

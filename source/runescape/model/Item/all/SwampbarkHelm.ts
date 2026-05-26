@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SwampbarkHelmData = {{
+const SwampbarkHelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

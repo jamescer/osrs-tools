@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HagsPoisonData = {{
+const HagsPoisonData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EagleRaySkinData = {{
+const EagleRaySkinData = {
     examine: "",
     value: 0,
     highAlch: 0,

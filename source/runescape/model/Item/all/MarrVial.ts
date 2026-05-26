@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarrVialData = {{
+const MarrVialData = {
     examine: "",
     value: 0,
     highAlch: 0,

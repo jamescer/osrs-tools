@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CamphorMastAndCanvasSailssloopData = {{
+const CamphorMastAndCanvasSailssloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

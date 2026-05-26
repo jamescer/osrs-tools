@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelRangekettleData = {{
+const SteelRangekettleData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasySearchTheWheelbarrowInRimmingtonMineData = {{
+const ClueScrollEasySearchTheWheelbarrowInRimmingtonMineData = {
     examine: "",
     value: 0,
     highAlch: 0,

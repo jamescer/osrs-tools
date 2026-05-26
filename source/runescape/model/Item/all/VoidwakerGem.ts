@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VoidwakerGemData = {{
+const VoidwakerGemData = {
     examine: "",
     value: 0,
     highAlch: 0,

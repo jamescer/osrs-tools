@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JusticiarChestguardData = {{
+const JusticiarChestguardData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumSpeakToRoavarData = {{
+const ClueScrollMediumSpeakToRoavarData = {
     examine: "",
     value: 0,
     highAlch: 0,

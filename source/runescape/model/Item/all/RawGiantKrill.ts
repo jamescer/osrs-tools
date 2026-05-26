@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawGiantKrillData = {{
+const RawGiantKrillData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumPeakReflexData = {{
+const ClueScrollMediumPeakReflexData = {
     examine: "",
     value: 0,
     highAlch: 0,

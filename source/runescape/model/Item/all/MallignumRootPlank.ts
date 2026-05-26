@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MallignumRootPlankData = {{
+const MallignumRootPlankData = {
     examine: "",
     value: 0,
     highAlch: 0,

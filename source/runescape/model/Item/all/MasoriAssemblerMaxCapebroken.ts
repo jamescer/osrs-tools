@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasoriAssemblerMaxCapebrokenData = {{
+const MasoriAssemblerMaxCapebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

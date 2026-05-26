@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RunUnobtainableItemData = {{
+const RunUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

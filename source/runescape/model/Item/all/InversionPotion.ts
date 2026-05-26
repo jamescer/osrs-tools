@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InversionPotionData = {{
+const InversionPotionData = {
     examine: "",
     value: 0,
     highAlch: 0,

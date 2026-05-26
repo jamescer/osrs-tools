@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SlimyKeyData = {{
+const SlimyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

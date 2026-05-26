@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenGlassUnobtainableItemData = {{
+const BrokenGlassUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

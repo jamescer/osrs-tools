@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NewCrystalShieldUnobtainableItemData = {{
+const NewCrystalShieldUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PropellerHatData = {{
+const PropellerHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

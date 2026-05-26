@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WeaponStoreKeyData = {{
+const WeaponStoreKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

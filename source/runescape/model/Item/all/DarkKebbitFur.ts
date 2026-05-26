@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkKebbitFurData = {{
+const DarkKebbitFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HarralanderTarData = {{
+const HarralanderTarData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoblinSymbolBookData = {{
+const GoblinSymbolBookData = {
     examine: "",
     value: 0,
     highAlch: 0,

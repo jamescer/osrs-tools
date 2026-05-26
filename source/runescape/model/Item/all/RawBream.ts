@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawBreamData = {{
+const RawBreamData = {
     examine: "",
     value: 0,
     highAlch: 0,

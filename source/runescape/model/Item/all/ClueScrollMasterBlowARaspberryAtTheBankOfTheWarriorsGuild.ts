@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMasterBlowARaspberryAtTheBankOfTheWarriorsGuildData = {{
+const ClueScrollMasterBlowARaspberryAtTheBankOfTheWarriorsGuildData = {
     examine: "",
     value: 0,
     highAlch: 0,

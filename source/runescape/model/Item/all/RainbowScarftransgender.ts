@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RainbowScarftransgenderData = {{
+const RainbowScarftransgenderData = {
     examine: "",
     value: 0,
     highAlch: 0,

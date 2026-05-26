@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoVirtusRobeTopData = {{
+const EchoVirtusRobeTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

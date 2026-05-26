@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const iorwerthCampTeleportData = {{
+const iorwerthCampTeleportData = {
     examine: "Teleports you to the Iorwerth Camp.",
     value: 10,
     highAlch: 6,

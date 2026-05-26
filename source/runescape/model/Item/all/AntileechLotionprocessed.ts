@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntileechLotionprocessedData = {{
+const AntileechLotionprocessedData = {
     examine: "",
     value: 0,
     highAlch: 0,

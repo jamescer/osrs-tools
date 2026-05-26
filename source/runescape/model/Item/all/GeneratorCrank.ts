@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GeneratorCrankData = {{
+const GeneratorCrankData = {
     examine: "",
     value: 0,
     highAlch: 0,

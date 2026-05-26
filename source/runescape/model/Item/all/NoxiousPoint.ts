@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NoxiousPointData = {{
+const NoxiousPointData = {
     examine: "",
     value: 0,
     highAlch: 0,

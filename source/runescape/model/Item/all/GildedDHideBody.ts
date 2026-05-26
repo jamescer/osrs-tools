@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedDHideBodyData = {{
+const gildedDHideBodyData = {
     examine: "Made with 100% golden dragonhide.",
     value: 50000,
     highAlch: 30000,

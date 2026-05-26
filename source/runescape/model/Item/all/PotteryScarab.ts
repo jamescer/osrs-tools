@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PotteryScarabData = {{
+const PotteryScarabData = {
     examine: "",
     value: 0,
     highAlch: 0,

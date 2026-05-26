@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlamishOchreShellPointedData = {{
+const BlamishOchreShellPointedData = {
     examine: "",
     value: 0,
     highAlch: 0,

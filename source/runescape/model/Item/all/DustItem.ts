@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DustItemData = {{
+const DustItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

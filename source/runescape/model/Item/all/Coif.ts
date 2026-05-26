@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const coifData = {{
+const coifData = {
     examine: "A protective headpiece made of leather.",
     value: 25,
     highAlch: 15,

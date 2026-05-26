@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkBowLastManStandingData = {{
+const DarkBowLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

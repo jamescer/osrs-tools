@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SkeletonGuardData = {{
+const SkeletonGuardData = {
     examine: "",
     value: 0,
     highAlch: 0,

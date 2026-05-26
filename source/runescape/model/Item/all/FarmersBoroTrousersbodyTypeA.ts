@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FarmersBoroTrousersbodyTypeAData = {{
+const FarmersBoroTrousersbodyTypeAData = {
     examine: "",
     value: 0,
     highAlch: 0,

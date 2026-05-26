@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemcureGroupData = {{
+const SpellUnobtainableItemcureGroupData = {
     examine: "",
     value: 0,
     highAlch: 0,

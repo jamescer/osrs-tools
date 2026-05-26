@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArdougneMaxHoodData = {{
+const ArdougneMaxHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

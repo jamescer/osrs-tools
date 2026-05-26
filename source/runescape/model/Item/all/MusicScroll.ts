@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MusicScrollData = {{
+const MusicScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

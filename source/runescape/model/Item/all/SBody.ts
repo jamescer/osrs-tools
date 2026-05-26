@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sBodyData = {{
+const sBodyData = {
     examine: "A morrigan's leather body (bh).",
     value: 0,
     highAlch: 0,

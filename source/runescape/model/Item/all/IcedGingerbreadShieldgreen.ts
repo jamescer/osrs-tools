@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IcedGingerbreadShieldgreenData = {{
+const IcedGingerbreadShieldgreenData = {
     examine: "",
     value: 0,
     highAlch: 0,

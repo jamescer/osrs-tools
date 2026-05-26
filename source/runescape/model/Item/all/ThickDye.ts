@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThickDyeData = {{
+const ThickDyeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BotanicalPiefullData = {{
+const BotanicalPiefullData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrisonUniformTrousersData = {{
+const PrisonUniformTrousersData = {
     examine: "",
     value: 0,
     highAlch: 0,

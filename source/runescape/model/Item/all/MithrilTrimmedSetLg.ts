@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MithrilTrimmedSetLgData = {{
+const MithrilTrimmedSetLgData = {
     examine: "",
     value: 0,
     highAlch: 0,

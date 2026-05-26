@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedSpearData = {{
+const gildedSpearData = {
     examine: "A rune tipped spear with gold plate.",
     value: 20800,
     highAlch: 12480,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VacuumPumpData = {{
+const VacuumPumpData = {
     examine: "",
     value: 0,
     highAlch: 0,

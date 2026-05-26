@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HuntersTalismannormalData = {{
+const HuntersTalismannormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HealerIconmediumData = {{
+const HealerIconmediumData = {
     examine: "",
     value: 0,
     highAlch: 0,

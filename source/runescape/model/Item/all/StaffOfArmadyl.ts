@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StaffOfArmadylData = {{
+const StaffOfArmadylData = {
     examine: "",
     value: 0,
     highAlch: 0,

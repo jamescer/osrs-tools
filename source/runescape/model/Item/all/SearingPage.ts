@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SearingPageData = {{
+const SearingPageData = {
     examine: "",
     value: 0,
     highAlch: 0,

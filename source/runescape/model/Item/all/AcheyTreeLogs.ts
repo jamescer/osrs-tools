@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AcheyTreeLogsData = {{
+const AcheyTreeLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

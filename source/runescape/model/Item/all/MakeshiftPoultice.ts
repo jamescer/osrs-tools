@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MakeshiftPoulticeData = {{
+const MakeshiftPoulticeData = {
     examine: "",
     value: 0,
     highAlch: 0,

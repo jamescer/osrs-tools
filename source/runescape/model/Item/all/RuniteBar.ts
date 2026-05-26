@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runiteBarData = {{
+const runiteBarData = {
     examine: "A bar of runite, ready to be smelted or forged.",
     value: 12500,
     highAlch: 7500,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const mahoganyPlankData = {{
+const mahoganyPlankData = {
     examine: "A plank of expensive mahogany.",
     value: 1500,
     highAlch: 900,

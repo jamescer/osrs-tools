@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicBeansData = {{
+const MagicBeansData = {
     examine: "",
     value: 0,
     highAlch: 0,

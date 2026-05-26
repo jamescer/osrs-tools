@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VileAshesData = {{
+const VileAshesData = {
     examine: "",
     value: 0,
     highAlch: 0,

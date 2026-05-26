@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EventLampData = {{
+const EventLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GridNoteData = {{
+const GridNoteData = {
     examine: "",
     value: 0,
     highAlch: 0,

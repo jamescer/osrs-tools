@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ContractOfFamiliarAcquisitionData = {{
+const ContractOfFamiliarAcquisitionData = {
     examine: "",
     value: 0,
     highAlch: 0,

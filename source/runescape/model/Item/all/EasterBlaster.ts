@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EasterBlasterData = {{
+const EasterBlasterData = {
     examine: "",
     value: 0,
     highAlch: 0,

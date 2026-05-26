@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PowerboxbrokenData = {{
+const PowerboxbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImpRepellentData = {{
+const ImpRepellentData = {
     examine: "",
     value: 0,
     highAlch: 0,

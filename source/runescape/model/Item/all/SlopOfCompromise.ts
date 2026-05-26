@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SlopOfCompromiseData = {{
+const SlopOfCompromiseData = {
     examine: "",
     value: 0,
     highAlch: 0,

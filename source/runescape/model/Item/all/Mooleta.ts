@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MooletaData = {{
+const MooletaData = {
     examine: "",
     value: 0,
     highAlch: 0,

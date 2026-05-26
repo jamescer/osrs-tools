@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnakeweedMixtureData = {{
+const SnakeweedMixtureData = {
     examine: "",
     value: 0,
     highAlch: 0,

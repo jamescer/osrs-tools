@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TzhaarEarthRunePackData = {{
+const TzhaarEarthRunePackData = {
     examine: "",
     value: 0,
     highAlch: 0,

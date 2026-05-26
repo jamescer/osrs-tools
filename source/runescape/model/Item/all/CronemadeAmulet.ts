@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CronemadeAmuletData = {{
+const CronemadeAmuletData = {
     examine: "",
     value: 0,
     highAlch: 0,

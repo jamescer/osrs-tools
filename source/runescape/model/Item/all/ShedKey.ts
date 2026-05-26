@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShedKeyData = {{
+const ShedKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

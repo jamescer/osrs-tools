@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PendantOfAtesinertData = {{
+const PendantOfAtesinertData = {
     examine: "",
     value: 0,
     highAlch: 0,

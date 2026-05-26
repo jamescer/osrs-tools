@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ConsecrationSeedenchantedData = {{
+const ConsecrationSeedenchantedData = {
     examine: "",
     value: 0,
     highAlch: 0,

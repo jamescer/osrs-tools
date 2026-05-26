@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemenergyTransferData = {{
+const SpellUnobtainableItemenergyTransferData = {
     examine: "",
     value: 0,
     highAlch: 0,

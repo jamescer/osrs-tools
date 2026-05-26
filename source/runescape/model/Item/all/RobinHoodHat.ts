@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const robinHoodHatData = {{
+const robinHoodHatData = {
     examine: "Endorsed by Robin Hood.",
     value: 450,
     highAlch: 270,

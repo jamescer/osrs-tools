@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RangingHoodData = {{
+const RangingHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

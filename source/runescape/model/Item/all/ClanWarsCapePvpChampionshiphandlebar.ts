@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClanWarsCapePvpChampionshiphandlebarData = {{
+const ClanWarsCapePvpChampionshiphandlebarData = {
     examine: "",
     value: 0,
     highAlch: 0,

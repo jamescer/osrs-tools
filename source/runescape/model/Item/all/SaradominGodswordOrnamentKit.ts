@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const saradominGodswordOrnamentKitData = {{
+const saradominGodswordOrnamentKitData = {
     examine: "Use on a Saradomin godsword to make it look fancier!",
     value: 5000,
     highAlch: 3000,

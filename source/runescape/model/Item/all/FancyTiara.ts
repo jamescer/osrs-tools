@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const fancyTiaraData = {{
+const fancyTiaraData = {
     examine: "Call me princess.",
     value: 8000,
     highAlch: 4800,

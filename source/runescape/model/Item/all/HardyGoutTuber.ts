@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HardyGoutTuberData = {{
+const HardyGoutTuberData = {
     examine: "",
     value: 0,
     highAlch: 0,

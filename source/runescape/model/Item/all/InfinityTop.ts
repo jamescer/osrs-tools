@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfinityTopData = {{
+const InfinityTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

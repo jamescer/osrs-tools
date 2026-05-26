@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AttackDolmenData = {{
+const AttackDolmenData = {
     examine: "",
     value: 0,
     highAlch: 0,

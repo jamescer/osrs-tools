@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrymLeafCorruptedData = {{
+const GrymLeafCorruptedData = {
     examine: "",
     value: 0,
     highAlch: 0,

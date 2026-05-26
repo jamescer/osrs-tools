@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueMoonTassetsnewData = {{
+const BlueMoonTassetsnewData = {
     examine: "",
     value: 0,
     highAlch: 0,

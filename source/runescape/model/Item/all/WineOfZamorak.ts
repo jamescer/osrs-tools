@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const wineOfZamorakData = {{
+const wineOfZamorakData = {
     examine: "An evil wine for an evil god.",
     value: 1,
     highAlch: 0,

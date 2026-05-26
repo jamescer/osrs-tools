@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CommunityPumpkinData = {{
+const CommunityPumpkinData = {
     examine: "",
     value: 0,
     highAlch: 0,

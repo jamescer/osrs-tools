@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PyrophosphiteData = {{
+const PyrophosphiteData = {
     examine: "",
     value: 0,
     highAlch: 0,

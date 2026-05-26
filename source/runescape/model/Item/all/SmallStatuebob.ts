@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallStatuebobData = {{
+const SmallStatuebobData = {
     examine: "",
     value: 0,
     highAlch: 0,

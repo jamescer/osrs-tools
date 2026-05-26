@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireUnobtainableItemData = {{
+const FireUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

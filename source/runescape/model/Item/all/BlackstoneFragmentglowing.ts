@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackstoneFragmentglowingData = {{
+const BlackstoneFragmentglowingData = {
     examine: "",
     value: 0,
     highAlch: 0,

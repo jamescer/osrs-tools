@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YoungllefyoungllefData = {{
+const YoungllefyoungllefData = {
     examine: "",
     value: 0,
     highAlch: 0,

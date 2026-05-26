@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardAGeneralWhoSetsAShiningExampleData = {{
+const ClueScrollHardAGeneralWhoSetsAShiningExampleData = {
     examine: "",
     value: 0,
     highAlch: 0,

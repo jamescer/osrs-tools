@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GhraziRapierLastManStandingData = {{
+const GhraziRapierLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

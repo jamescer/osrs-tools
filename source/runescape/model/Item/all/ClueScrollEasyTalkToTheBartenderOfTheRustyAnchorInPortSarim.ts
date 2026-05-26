@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyTalkToTheBartenderOfTheRustyAnchorInPortSarimData = {{
+const ClueScrollEasyTalkToTheBartenderOfTheRustyAnchorInPortSarimData = {
     examine: "",
     value: 0,
     highAlch: 0,

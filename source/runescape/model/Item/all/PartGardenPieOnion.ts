@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PartGardenPieOnionData = {{
+const PartGardenPieOnionData = {
     examine: "",
     value: 0,
     highAlch: 0,

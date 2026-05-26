@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JadPlushData = {{
+const JadPlushData = {
     examine: "",
     value: 0,
     highAlch: 0,

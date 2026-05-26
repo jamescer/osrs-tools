@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PristineSpiderSilkData = {{
+const PristineSpiderSilkData = {
     examine: "",
     value: 0,
     highAlch: 0,

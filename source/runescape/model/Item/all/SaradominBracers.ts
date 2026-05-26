@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const saradominBracersData = {{
+const saradominBracersData = {
     examine: "Saradomin blessed dragonhide vambraces.",
     value: 4000,
     highAlch: 2400,

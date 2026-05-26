@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteTheirBaneAwaitsData = {{
+const ClueScrollEliteTheirBaneAwaitsData = {
     examine: "",
     value: 0,
     highAlch: 0,

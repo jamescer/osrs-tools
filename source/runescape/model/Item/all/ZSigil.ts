@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZSigilData = {{
+const ZSigilData = {
     examine: "",
     value: 0,
     highAlch: 0,

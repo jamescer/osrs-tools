@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BuildersBootsData = {{
+const BuildersBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

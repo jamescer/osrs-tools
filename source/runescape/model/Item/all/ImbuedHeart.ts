@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedHeartData = {{
+const ImbuedHeartData = {
     examine: "",
     value: 0,
     highAlch: 0,

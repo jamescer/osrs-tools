@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const crierHatData = {{
+const crierHatData = {
     examine: "Hear ye! Hear ye!",
     value: 5000,
     highAlch: 3000,

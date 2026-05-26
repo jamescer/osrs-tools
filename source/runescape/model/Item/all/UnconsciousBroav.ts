@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnconsciousBroavData = {{
+const UnconsciousBroavData = {
     examine: "",
     value: 0,
     highAlch: 0,

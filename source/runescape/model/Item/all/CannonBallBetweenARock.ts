@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CannonBallBetweenARockData = {{
+const CannonBallBetweenARockData = {
     examine: "",
     value: 0,
     highAlch: 0,

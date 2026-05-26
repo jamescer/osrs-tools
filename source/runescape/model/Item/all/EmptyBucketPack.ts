@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmptyBucketPackData = {{
+const EmptyBucketPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

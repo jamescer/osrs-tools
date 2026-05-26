@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MorrigansThrowingAxeBhinactiveData = {{
+const MorrigansThrowingAxeBhinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

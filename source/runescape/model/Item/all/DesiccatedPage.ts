@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DesiccatedPageData = {{
+const DesiccatedPageData = {
     examine: "",
     value: 0,
     highAlch: 0,

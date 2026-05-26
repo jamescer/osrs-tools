@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IronwoodMastAndCottonSailssloopData = {{
+const IronwoodMastAndCottonSailssloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

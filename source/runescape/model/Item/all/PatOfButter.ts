@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PatOfButterData = {{
+const PatOfButterData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarleysMoonlightprocessedData = {{
+const MarleysMoonlightprocessedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BugLanternunlitData = {{
+const BugLanternunlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

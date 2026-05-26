@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystallinePortalNexusregularData = {{
+const CrystallinePortalNexusregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

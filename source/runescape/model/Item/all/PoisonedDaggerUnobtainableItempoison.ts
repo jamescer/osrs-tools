@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PoisonedDaggerUnobtainableItempoisonData = {{
+const PoisonedDaggerUnobtainableItempoisonData = {
     examine: "",
     value: 0,
     highAlch: 0,

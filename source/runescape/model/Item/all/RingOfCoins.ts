@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ringOfCoinsData = {{
+const ringOfCoinsData = {
     examine: "A valuable ring.",
     value: 8000,
     highAlch: 4800,

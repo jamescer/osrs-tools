@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackPlatelegsGData = {{
+const blackPlatelegsGData = {
     examine: "Black platelegs with gold trim.",
     value: 1920,
     highAlch: 1152,

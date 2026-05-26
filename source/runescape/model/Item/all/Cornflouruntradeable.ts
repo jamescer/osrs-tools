@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CornflouruntradeableData = {{
+const CornflouruntradeableData = {
     examine: "",
     value: 0,
     highAlch: 0,

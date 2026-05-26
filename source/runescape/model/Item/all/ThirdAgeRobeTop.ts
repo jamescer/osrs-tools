@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeRobeTopData = {{
+const ThirdAgeRobeTopData = {
     examine: "Fabulously ancient mage protection enchanted in the 3rd Age.",
     value: 50800,
     highAlch: 30480,

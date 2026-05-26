@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaradominBannerminigameData = {{
+const SaradominBannerminigameData = {
     examine: "",
     value: 0,
     highAlch: 0,

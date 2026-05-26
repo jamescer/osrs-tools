@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MournerTrousersData = {{
+const MournerTrousersData = {
     examine: "",
     value: 0,
     highAlch: 0,

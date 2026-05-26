@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HempYarnData = {{
+const HempYarnData = {
     examine: "",
     value: 0,
     highAlch: 0,

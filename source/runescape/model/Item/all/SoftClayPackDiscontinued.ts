@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoftClayPackDiscontinuedData = {{
+const SoftClayPackDiscontinuedData = {
     examine: "",
     value: 0,
     highAlch: 0,

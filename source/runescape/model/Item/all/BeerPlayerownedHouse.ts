@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BeerPlayerownedHouseData = {{
+const BeerPlayerownedHouseData = {
     examine: "",
     value: 0,
     highAlch: 0,

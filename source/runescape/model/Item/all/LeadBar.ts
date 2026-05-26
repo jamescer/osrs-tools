@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeadBarData = {{
+const LeadBarData = {
     examine: "",
     value: 0,
     highAlch: 0,

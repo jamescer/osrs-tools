@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantScimitarData = {{
+const AdamantScimitarData = {
     examine: "",
     value: 0,
     highAlch: 0,

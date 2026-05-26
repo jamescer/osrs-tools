@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantDefenderlockedData = {{
+const AdamantDefenderlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CreatureKeepersJournalData = {{
+const CreatureKeepersJournalData = {
     examine: "",
     value: 0,
     highAlch: 0,

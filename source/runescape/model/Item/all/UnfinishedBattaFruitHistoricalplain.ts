@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnfinishedBattaFruitHistoricalplainData = {{
+const UnfinishedBattaFruitHistoricalplainData = {
     examine: "",
     value: 0,
     highAlch: 0,

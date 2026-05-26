@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantKiteshieldKandarinData = {{
+const AdamantKiteshieldKandarinData = {
     examine: "",
     value: 0,
     highAlch: 0,

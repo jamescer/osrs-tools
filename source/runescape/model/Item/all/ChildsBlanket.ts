@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChildsBlanketData = {{
+const ChildsBlanketData = {
     examine: "",
     value: 0,
     highAlch: 0,

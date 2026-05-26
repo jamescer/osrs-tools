@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantStopwatchData = {{
+const GiantStopwatchData = {
     examine: "",
     value: 0,
     highAlch: 0,

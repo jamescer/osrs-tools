@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const rainBowData = {{
+const rainBowData = {
     examine: "A colourful bow.",
     value: 780,
     highAlch: 468,

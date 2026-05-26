@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrawledNoteMonkeyMadnessIiData = {{
+const ScrawledNoteMonkeyMadnessIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

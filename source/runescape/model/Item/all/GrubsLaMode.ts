@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrubsLaModeData = {{
+const GrubsLaModeData = {
     examine: "",
     value: 0,
     highAlch: 0,

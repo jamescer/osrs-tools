@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntiqueLampFossilDisplaymediumFossilData = {{
+const AntiqueLampFossilDisplaymediumFossilData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfSandardougneData = {{
+const CrateOfSandardougneData = {
     examine: "",
     value: 0,
     highAlch: 0,

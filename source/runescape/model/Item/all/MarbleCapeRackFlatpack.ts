@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarbleCapeRackFlatpackData = {{
+const MarbleCapeRackFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoggyBreadData = {{
+const SoggyBreadData = {
     examine: "",
     value: 0,
     highAlch: 0,

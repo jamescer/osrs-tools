@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WaterRunePackData = {{
+const WaterRunePackData = {
     examine: "",
     value: 0,
     highAlch: 0,

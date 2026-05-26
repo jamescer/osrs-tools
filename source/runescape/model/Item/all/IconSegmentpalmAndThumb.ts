@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IconSegmentpalmAndThumbData = {{
+const IconSegmentpalmAndThumbData = {
     examine: "",
     value: 0,
     highAlch: 0,

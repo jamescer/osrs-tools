@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntiqueLampOneSmallFavourData = {{
+const AntiqueLampOneSmallFavourData = {
     examine: "",
     value: 0,
     highAlch: 0,

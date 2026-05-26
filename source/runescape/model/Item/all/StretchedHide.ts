@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StretchedHideData = {{
+const StretchedHideData = {
     examine: "",
     value: 0,
     highAlch: 0,

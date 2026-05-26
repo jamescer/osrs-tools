@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumThisCrateIsMineAllMineEvenIfItIsInTheMiddleOfTheDesertData = {{
+const ClueScrollMediumThisCrateIsMineAllMineEvenIfItIsInTheMiddleOfTheDesertData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedClockFlatpackData = {{
+const GildedClockFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

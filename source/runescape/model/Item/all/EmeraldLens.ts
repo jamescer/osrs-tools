@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmeraldLensData = {{
+const EmeraldLensData = {
     examine: "",
     value: 0,
     highAlch: 0,

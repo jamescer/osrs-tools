@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JesterScarfData = {{
+const JesterScarfData = {
     examine: "",
     value: 0,
     highAlch: 0,

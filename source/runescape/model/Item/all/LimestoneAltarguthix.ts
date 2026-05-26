@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LimestoneAltarguthixData = {{
+const LimestoneAltarguthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElidinisWardFLastManStandingData = {{
+const ElidinisWardFLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

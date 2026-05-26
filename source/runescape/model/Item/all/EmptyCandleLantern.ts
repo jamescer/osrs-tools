@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmptyCandleLanternData = {{
+const EmptyCandleLanternData = {
     examine: "",
     value: 0,
     highAlch: 0,

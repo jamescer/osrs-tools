@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackCandlelitData = {{
+const BlackCandlelitData = {
     examine: "",
     value: 0,
     highAlch: 0,

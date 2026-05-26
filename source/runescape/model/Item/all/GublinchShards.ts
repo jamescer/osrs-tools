@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GublinchShardsData = {{
+const GublinchShardsData = {
     examine: "",
     value: 0,
     highAlch: 0,

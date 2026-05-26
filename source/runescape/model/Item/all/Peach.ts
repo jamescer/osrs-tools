@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PeachData = {{
+const PeachData = {
     examine: "",
     value: 0,
     highAlch: 0,

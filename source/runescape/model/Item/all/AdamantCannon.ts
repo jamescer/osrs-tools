@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantCannonData = {{
+const AdamantCannonData = {
     examine: "",
     value: 0,
     highAlch: 0,

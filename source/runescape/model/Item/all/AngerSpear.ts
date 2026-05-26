@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AngerSpearData = {{
+const AngerSpearData = {
     examine: "",
     value: 0,
     highAlch: 0,

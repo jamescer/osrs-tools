@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const tortureOrnamentKitData = {{
+const tortureOrnamentKitData = {
     examine: "Use on an amulet of torture to make it look fancier!",
     value: 5000,
     highAlch: 3000,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PerfectedQuetzalWhistleBlueprintData = {{
+const PerfectedQuetzalWhistleBlueprintData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DragonChainshotCannonballData = {{
+const DragonChainshotCannonballData = {
     examine: "",
     value: 0,
     highAlch: 0,

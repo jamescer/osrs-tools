@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PetDarkCorecorporealCritterData = {{
+const PetDarkCorecorporealCritterData = {
     examine: "",
     value: 0,
     highAlch: 0,

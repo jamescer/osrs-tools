@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlowingFungusData = {{
+const GlowingFungusData = {
     examine: "",
     value: 0,
     highAlch: 0,

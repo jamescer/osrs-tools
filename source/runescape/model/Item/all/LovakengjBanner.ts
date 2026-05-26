@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const lovakengjBannerData = {{
+const lovakengjBannerData = {
     examine: "A lovakite banner bearing the Lovakengj sigil.",
     value: 70,
     highAlch: 42,

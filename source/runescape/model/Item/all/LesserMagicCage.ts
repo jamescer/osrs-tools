@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LesserMagicCageData = {{
+const LesserMagicCageData = {
     examine: "",
     value: 0,
     highAlch: 0,

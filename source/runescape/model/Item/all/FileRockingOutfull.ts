@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FileRockingOutfullData = {{
+const FileRockingOutfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

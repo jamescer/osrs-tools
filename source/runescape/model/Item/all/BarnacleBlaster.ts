@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarnacleBlasterData = {{
+const BarnacleBlasterData = {
     examine: "",
     value: 0,
     highAlch: 0,

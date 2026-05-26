@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrangePotionDesertTreasureIiData = {{
+const StrangePotionDesertTreasureIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

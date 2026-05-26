@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TarrominSeedData = {{
+const TarrominSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SitoFoilData = {{
+const SitoFoilData = {
     examine: "",
     value: 0,
     highAlch: 0,

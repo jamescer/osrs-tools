@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ParchmentOlafsQuestData = {{
+const ParchmentOlafsQuestData = {
     examine: "",
     value: 0,
     highAlch: 0,

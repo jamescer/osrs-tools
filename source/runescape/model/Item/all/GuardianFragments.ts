@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuardianFragmentsData = {{
+const GuardianFragmentsData = {
     examine: "",
     value: 0,
     highAlch: 0,

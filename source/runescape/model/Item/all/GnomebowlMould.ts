@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomebowlMouldData = {{
+const GnomebowlMouldData = {
     examine: "",
     value: 0,
     highAlch: 0,

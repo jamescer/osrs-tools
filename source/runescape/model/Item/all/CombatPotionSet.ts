@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CombatPotionSetData = {{
+const CombatPotionSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

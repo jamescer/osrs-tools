@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WashingLineData = {{
+const WashingLineData = {
     examine: "",
     value: 0,
     highAlch: 0,

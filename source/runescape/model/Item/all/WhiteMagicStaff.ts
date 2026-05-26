@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteMagicStaffData = {{
+const WhiteMagicStaffData = {
     examine: "",
     value: 0,
     highAlch: 0,

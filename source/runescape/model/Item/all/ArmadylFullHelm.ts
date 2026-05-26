@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const armadylFullHelmData = {{
+const armadylFullHelmData = {
     examine: "Rune full helmet in the colours of Armadyl.",
     value: 35200,
     highAlch: 21120,

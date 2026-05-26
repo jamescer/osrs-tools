@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackKeyCrimsonData = {{
+const BlackKeyCrimsonData = {
     examine: "",
     value: 0,
     highAlch: 0,

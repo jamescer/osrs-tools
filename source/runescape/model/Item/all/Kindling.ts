@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KindlingData = {{
+const KindlingData = {
     examine: "",
     value: 0,
     highAlch: 0,

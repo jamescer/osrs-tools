@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrimstoneKeyData = {{
+const BrimstoneKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

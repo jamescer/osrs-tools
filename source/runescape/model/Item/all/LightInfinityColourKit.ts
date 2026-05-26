@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const lightInfinityColourKitData = {{
+const lightInfinityColourKitData = {
     examine: "Use on infinity pieces to recolour them!",
     value: 5000,
     highAlch: 3000,

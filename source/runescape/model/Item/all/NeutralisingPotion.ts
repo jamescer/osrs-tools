@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NeutralisingPotionData = {{
+const NeutralisingPotionData = {
     examine: "",
     value: 0,
     highAlch: 0,

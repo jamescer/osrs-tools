@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HellcatlazyData = {{
+const HellcatlazyData = {
     examine: "",
     value: 0,
     highAlch: 0,

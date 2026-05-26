@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntSwordtipSquidData = {{
+const BurntSwordtipSquidData = {
     examine: "",
     value: 0,
     highAlch: 0,

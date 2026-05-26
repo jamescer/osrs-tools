@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrenatureAmuletData = {{
+const PrenatureAmuletData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RockshellShardData = {{
+const RockshellShardData = {
     examine: "",
     value: 0,
     highAlch: 0,

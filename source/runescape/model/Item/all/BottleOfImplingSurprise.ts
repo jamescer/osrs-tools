@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottleOfImplingSurpriseData = {{
+const BottleOfImplingSurpriseData = {
     examine: "",
     value: 0,
     highAlch: 0,

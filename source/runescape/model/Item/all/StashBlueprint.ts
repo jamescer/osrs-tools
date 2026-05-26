@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StashBlueprintData = {{
+const StashBlueprintData = {
     examine: "",
     value: 0,
     highAlch: 0,

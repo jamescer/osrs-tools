@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlacialTemotliData = {{
+const GlacialTemotliData = {
     examine: "",
     value: 0,
     highAlch: 0,

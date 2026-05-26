@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BowOfFaerdhinenCCrwysData = {{
+const BowOfFaerdhinenCCrwysData = {
     examine: "",
     value: 0,
     highAlch: 0,

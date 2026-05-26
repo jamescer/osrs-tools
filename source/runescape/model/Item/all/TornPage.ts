@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TornPageData = {{
+const TornPageData = {
     examine: "",
     value: 0,
     highAlch: 0,

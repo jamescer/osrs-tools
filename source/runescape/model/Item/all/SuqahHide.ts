@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SuqahHideData = {{
+const SuqahHideData = {
     examine: "",
     value: 0,
     highAlch: 0,

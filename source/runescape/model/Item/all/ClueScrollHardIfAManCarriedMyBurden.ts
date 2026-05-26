@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardIfAManCarriedMyBurdenData = {{
+const ClueScrollHardIfAManCarriedMyBurdenData = {
     examine: "",
     value: 0,
     highAlch: 0,

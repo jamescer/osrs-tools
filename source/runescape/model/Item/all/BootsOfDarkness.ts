@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bootsOfDarknessData = {{
+const bootsOfDarknessData = {
     examine: "A dark power is woven into these boots.",
     value: 10000,
     highAlch: 6000,

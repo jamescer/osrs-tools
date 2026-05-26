@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeleportAnchoringScrollData = {{
+const TeleportAnchoringScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

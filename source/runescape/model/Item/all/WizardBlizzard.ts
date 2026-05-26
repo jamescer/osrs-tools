@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WizardBlizzardData = {{
+const WizardBlizzardData = {
     examine: "",
     value: 0,
     highAlch: 0,

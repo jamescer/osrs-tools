@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackSqShieldData = {{
+const blackSqShieldData = {
     examine: "A medium square shield.",
     value: 1152,
     highAlch: 691,

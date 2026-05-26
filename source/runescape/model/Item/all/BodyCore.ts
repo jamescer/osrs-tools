@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BodyCoreData = {{
+const BodyCoreData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemteleGroupMoonclanData = {{
+const SpellUnobtainableItemteleGroupMoonclanData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const whiteUnicornMaskData = {{
+const whiteUnicornMaskData = {
     examine: "Pointy rainbows.",
     value: 1000,
     highAlch: 600,

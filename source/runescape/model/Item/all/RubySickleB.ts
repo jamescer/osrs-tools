@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RubySickleBData = {{
+const RubySickleBData = {
     examine: "",
     value: 0,
     highAlch: 0,

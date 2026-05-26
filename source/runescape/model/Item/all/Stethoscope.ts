@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StethoscopeData = {{
+const StethoscopeData = {
     examine: "",
     value: 0,
     highAlch: 0,

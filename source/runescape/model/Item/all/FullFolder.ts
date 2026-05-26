@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FullFolderData = {{
+const FullFolderData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaikasShroudlockedData = {{
+const SaikasShroudlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

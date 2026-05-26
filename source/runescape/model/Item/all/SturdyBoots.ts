@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SturdyBootsData = {{
+const SturdyBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

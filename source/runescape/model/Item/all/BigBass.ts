@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BigBassData = {{
+const BigBassData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScorpionCagetaverleyMonasteryData = {{
+const ScorpionCagetaverleyMonasteryData = {
     examine: "",
     value: 0,
     highAlch: 0,

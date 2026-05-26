@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HaddockData = {{
+const HaddockData = {
     examine: "",
     value: 0,
     highAlch: 0,

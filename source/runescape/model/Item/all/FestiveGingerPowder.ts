@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FestiveGingerPowderData = {{
+const FestiveGingerPowderData = {
     examine: "",
     value: 0,
     highAlch: 0,

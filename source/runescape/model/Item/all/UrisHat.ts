@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const urisHatData = {{
+const urisHatData = {
     examine: "This is top secret comrade...",
     value: 1000,
     highAlch: 600,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueDestabiliserData = {{
+const BlueDestabiliserData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GraniteMaulLastManStandingData = {{
+const GraniteMaulLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

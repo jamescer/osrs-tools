@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChoresData = {{
+const ChoresData = {
     examine: "",
     value: 0,
     highAlch: 0,

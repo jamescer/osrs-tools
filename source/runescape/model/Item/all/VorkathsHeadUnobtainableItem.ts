@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VorkathsHeadUnobtainableItemData = {{
+const VorkathsHeadUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

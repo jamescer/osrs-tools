@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const holyWrapsData = {{
+const holyWrapsData = {
     examine: "Holy handwear!",
     value: 9600,
     highAlch: 5760,

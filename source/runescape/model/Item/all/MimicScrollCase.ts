@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MimicScrollCaseData = {{
+const MimicScrollCaseData = {
     examine: "",
     value: 0,
     highAlch: 0,

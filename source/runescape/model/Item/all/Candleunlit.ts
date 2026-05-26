@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CandleunlitData = {{
+const CandleunlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

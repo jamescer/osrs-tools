@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WindchimesData = {{
+const WindchimesData = {
     examine: "",
     value: 0,
     highAlch: 0,

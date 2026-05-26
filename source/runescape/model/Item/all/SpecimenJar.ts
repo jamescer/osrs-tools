@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpecimenJarData = {{
+const SpecimenJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

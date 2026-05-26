@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WigdyedData = {{
+const WigdyedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeDruidicStaffData = {{
+const ThirdAgeDruidicStaffData = {
     examine: "A fabulously ancient gnarled staff as used by the druids of old.",
     value: 200000,
     highAlch: 120000,

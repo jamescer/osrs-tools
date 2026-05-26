@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IndigoCircleData = {{
+const IndigoCircleData = {
     examine: "",
     value: 0,
     highAlch: 0,

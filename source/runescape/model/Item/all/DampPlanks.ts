@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DampPlanksData = {{
+const DampPlanksData = {
     examine: "",
     value: 0,
     highAlch: 0,

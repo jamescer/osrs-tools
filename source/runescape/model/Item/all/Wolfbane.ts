@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WolfbaneData = {{
+const WolfbaneData = {
     examine: "",
     value: 0,
     highAlch: 0,

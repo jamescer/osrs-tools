@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bowlWigData = {{
+const bowlWigData = {
     examine: "The bowl wig.",
     value: 1,
     highAlch: 0,

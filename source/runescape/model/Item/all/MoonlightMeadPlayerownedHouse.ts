@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoonlightMeadPlayerownedHouseData = {{
+const MoonlightMeadPlayerownedHouseData = {
     examine: "",
     value: 0,
     highAlch: 0,

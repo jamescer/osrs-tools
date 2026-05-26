@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeLeafBushData = {{
+const LargeLeafBushData = {
     examine: "",
     value: 0,
     highAlch: 0,

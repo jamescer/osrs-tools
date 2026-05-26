@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CompassTheGardenOfDeathData = {{
+const CompassTheGardenOfDeathData = {
     examine: "",
     value: 0,
     highAlch: 0,

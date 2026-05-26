@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaomasGreatHelmlockedData = {{
+const MaomasGreatHelmlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

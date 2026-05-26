@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ancientKiteshieldData = {{
+const ancientKiteshieldData = {
     examine: "Rune kiteshield in the colours of a long-forgotten god.",
     value: 54400,
     highAlch: 32640,

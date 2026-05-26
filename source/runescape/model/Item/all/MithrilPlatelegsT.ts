@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const mithrilPlatelegsTData = {{
+const mithrilPlatelegsTData = {
     examine: "Mithril platelegs with trim.",
     value: 2600,
     highAlch: 1560,

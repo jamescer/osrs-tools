@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasoriAssemblerMaxHoodData = {{
+const MasoriAssemblerMaxHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

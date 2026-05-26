@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HetsCaptureData = {{
+const HetsCaptureData = {
     examine: "",
     value: 0,
     highAlch: 0,

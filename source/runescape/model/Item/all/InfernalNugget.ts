@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalNuggetData = {{
+const InfernalNuggetData = {
     examine: "",
     value: 0,
     highAlch: 0,

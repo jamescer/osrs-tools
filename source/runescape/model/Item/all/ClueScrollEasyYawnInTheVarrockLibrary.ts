@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyYawnInTheVarrockLibraryData = {{
+const ClueScrollEasyYawnInTheVarrockLibraryData = {
     examine: "",
     value: 0,
     highAlch: 0,

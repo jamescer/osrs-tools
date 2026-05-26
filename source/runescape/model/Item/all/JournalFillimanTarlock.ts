@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JournalFillimanTarlockData = {{
+const JournalFillimanTarlockData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagpieImplingJarData = {{
+const MagpieImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

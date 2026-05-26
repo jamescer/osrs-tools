@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MapPartMelzarData = {{
+const MapPartMelzarData = {
     examine: "",
     value: 0,
     highAlch: 0,

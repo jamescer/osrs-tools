@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritTreeFairyRingragingEchoesData = {{
+const SpiritTreeFairyRingragingEchoesData = {
     examine: "",
     value: 0,
     highAlch: 0,

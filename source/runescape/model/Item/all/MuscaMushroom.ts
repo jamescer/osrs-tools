@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MuscaMushroomData = {{
+const MuscaMushroomData = {
     examine: "",
     value: 0,
     highAlch: 0,

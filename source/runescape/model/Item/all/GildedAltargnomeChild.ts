@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedAltargnomeChildData = {{
+const GildedAltargnomeChildData = {
     examine: "",
     value: 0,
     highAlch: 0,

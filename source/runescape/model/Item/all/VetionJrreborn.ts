@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VetionJrrebornData = {{
+const VetionJrrebornData = {
     examine: "",
     value: 0,
     highAlch: 0,

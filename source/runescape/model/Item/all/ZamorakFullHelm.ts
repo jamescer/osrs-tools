@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const zamorakFullHelmData = {{
+const zamorakFullHelmData = {
     examine: "Rune full helmet in the colours of Zamorak.",
     value: 35200,
     highAlch: 21120,

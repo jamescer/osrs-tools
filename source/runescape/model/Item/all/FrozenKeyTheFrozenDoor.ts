@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrozenKeyTheFrozenDoorData = {{
+const FrozenKeyTheFrozenDoorData = {
     examine: "",
     value: 0,
     highAlch: 0,

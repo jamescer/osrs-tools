@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedHerringData = {{
+const RedHerringData = {
     examine: "",
     value: 0,
     highAlch: 0,

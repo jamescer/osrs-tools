@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ReceiptAKingdomDividedData = {{
+const ReceiptAKingdomDividedData = {
     examine: "",
     value: 0,
     highAlch: 0,

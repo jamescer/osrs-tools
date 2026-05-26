@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedDustData = {{
+const CorruptedDustData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CaveEelData = {{
+const CaveEelData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SapphireLanternlitData = {{
+const SapphireLanternlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarbleAltarguthixData = {{
+const MarbleAltarguthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

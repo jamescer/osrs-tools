@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runeKiteshieldTData = {{
+const runeKiteshieldTData = {
     examine: "Rune kiteshield with trim.",
     value: 54400,
     highAlch: 32640,

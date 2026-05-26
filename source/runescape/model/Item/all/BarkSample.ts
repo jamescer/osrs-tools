@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarkSampleData = {{
+const BarkSampleData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmmoniumNitratechemicalPowderData = {{
+const AmmoniumNitratechemicalPowderData = {
     examine: "",
     value: 0,
     highAlch: 0,

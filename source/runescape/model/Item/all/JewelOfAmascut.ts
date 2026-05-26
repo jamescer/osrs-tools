@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JewelOfAmascutData = {{
+const JewelOfAmascutData = {
     examine: "",
     value: 0,
     highAlch: 0,

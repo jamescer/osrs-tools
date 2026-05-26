@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BluntScimitarsData = {{
+const BluntScimitarsData = {
     examine: "",
     value: 0,
     highAlch: 0,

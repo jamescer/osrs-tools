@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WizardBootsLastManStandingData = {{
+const WizardBootsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

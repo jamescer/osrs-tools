@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CottonTrawlingNetData = {{
+const CottonTrawlingNetData = {
     examine: "",
     value: 0,
     highAlch: 0,

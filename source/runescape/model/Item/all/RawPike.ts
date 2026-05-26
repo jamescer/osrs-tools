@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawPikeData = {{
+const RawPikeData = {
     examine: "",
     value: 0,
     highAlch: 0,

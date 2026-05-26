@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeveredLegTheGeneralsShadowData = {{
+const SeveredLegTheGeneralsShadowData = {
     examine: "",
     value: 0,
     highAlch: 0,

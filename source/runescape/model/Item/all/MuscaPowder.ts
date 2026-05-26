@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MuscaPowderData = {{
+const MuscaPowderData = {
     examine: "",
     value: 0,
     highAlch: 0,

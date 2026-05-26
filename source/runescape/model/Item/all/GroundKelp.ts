@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GroundKelpData = {{
+const GroundKelpData = {
     examine: "",
     value: 0,
     highAlch: 0,

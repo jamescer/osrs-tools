@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntiqueLampXMarksTheSpotData = {{
+const AntiqueLampXMarksTheSpotData = {
     examine: "",
     value: 0,
     highAlch: 0,

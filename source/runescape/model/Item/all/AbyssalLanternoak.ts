@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AbyssalLanternoakData = {{
+const AbyssalLanternoakData = {
     examine: "",
     value: 0,
     highAlch: 0,

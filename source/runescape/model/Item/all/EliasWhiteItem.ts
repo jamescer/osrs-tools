@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EliasWhiteItemData = {{
+const EliasWhiteItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

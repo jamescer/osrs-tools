@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImmaculateMoleSkinData = {{
+const ImmaculateMoleSkinData = {
     examine: "",
     value: 0,
     highAlch: 0,

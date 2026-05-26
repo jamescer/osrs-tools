@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CursedGoblinHammerData = {{
+const CursedGoblinHammerData = {
     examine: "",
     value: 0,
     highAlch: 0,

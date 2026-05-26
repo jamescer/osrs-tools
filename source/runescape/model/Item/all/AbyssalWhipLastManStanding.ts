@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AbyssalWhipLastManStandingData = {{
+const AbyssalWhipLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

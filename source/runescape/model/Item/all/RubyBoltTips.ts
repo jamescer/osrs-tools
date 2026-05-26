@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RubyBoltTipsData = {{
+const RubyBoltTipsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BaggedSunflowerData = {{
+const BaggedSunflowerData = {
     examine: "",
     value: 0,
     highAlch: 0,

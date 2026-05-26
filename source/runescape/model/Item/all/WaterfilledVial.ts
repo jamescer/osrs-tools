@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WaterfilledVialData = {{
+const WaterfilledVialData = {
     examine: "",
     value: 0,
     highAlch: 0,

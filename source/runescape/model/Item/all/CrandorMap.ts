@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrandorMapData = {{
+const CrandorMapData = {
     examine: "",
     value: 0,
     highAlch: 0,

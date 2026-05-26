@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const peacefulBlessingData = {{
+const peacefulBlessingData = {
     examine: "Life and death, old and new, day and night. Balance is the key to all.",
     value: 80,
     highAlch: 48,

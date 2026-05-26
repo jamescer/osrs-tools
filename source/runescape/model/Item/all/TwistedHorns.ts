@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwistedHornsData = {{
+const TwistedHornsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AlKharidFlyerData = {{
+const AlKharidFlyerData = {
     examine: "",
     value: 0,
     highAlch: 0,

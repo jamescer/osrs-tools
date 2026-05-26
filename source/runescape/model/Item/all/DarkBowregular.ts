@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkBowregularData = {{
+const DarkBowregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

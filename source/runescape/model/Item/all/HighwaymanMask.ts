@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const highwaymanMaskData = {{
+const highwaymanMaskData = {
     examine: "Your money or your life!",
     value: 40,
     highAlch: 24,

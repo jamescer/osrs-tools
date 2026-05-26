@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpookierHoodData = {{
+const SpookierHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

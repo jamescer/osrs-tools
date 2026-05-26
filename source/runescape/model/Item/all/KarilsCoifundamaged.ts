@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KarilsCoifundamagedData = {{
+const KarilsCoifundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

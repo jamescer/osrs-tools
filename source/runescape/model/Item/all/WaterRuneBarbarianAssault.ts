@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WaterRuneBarbarianAssaultData = {{
+const WaterRuneBarbarianAssaultData = {
     examine: "",
     value: 0,
     highAlch: 0,

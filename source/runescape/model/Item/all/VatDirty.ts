@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VatDirtyData = {{
+const VatDirtyData = {
     examine: "",
     value: 0,
     highAlch: 0,

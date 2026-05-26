@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasterWandData = {{
+const MasterWandData = {
     examine: "",
     value: 0,
     highAlch: 0,

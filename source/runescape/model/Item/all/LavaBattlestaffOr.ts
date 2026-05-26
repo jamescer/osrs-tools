@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LavaBattlestaffOrData = {{
+const LavaBattlestaffOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const zamorakRobeTopData = {{
+const zamorakRobeTopData = {
     examine: "Zamorak Vestments.",
     value: 7000,
     highAlch: 4200,

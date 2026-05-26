@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalLegsinactiveData = {{
+const CrystalLegsinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

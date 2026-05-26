@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HaemostaticPoulticeData = {{
+const HaemostaticPoulticeData = {
     examine: "",
     value: 0,
     highAlch: 0,

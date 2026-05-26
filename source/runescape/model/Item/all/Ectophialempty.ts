@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EctophialemptyData = {{
+const EctophialemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

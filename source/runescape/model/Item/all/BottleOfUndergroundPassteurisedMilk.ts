@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottleOfUndergroundPassteurisedMilkData = {{
+const BottleOfUndergroundPassteurisedMilkData = {
     examine: "",
     value: 0,
     highAlch: 0,

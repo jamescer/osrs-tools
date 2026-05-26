@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelCandlestickslitData = {{
+const SteelCandlestickslitData = {
     examine: "",
     value: 0,
     highAlch: 0,

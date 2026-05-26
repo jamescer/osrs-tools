@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpeedyTeleportScrollData = {{
+const SpeedyTeleportScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

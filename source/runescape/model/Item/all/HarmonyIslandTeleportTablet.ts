@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HarmonyIslandTeleportTabletData = {{
+const HarmonyIslandTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

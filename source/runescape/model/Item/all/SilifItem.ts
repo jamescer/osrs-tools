@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilifItemData = {{
+const SilifItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

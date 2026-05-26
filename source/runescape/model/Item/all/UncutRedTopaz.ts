@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UncutRedTopazData = {{
+const UncutRedTopazData = {
     examine: "",
     value: 0,
     highAlch: 0,

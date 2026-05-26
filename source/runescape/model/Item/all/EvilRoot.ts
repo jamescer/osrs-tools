@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EvilRootData = {{
+const EvilRootData = {
     examine: "",
     value: 0,
     highAlch: 0,

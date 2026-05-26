@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LithicSceptrechargedData = {{
+const LithicSceptrechargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

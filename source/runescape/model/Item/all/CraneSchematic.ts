@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CraneSchematicData = {{
+const CraneSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

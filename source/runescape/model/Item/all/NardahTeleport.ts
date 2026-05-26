@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const nardahTeleportData = {{
+const nardahTeleportData = {
     examine: "Teleports you to Nardah.",
     value: 10,
     highAlch: 6,

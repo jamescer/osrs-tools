@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RestoredShieldUnobtainableItemData = {{
+const RestoredShieldUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

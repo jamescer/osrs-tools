@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneKiteshieldDragonData = {{
+const RuneKiteshieldDragonData = {
     examine: "",
     value: 0,
     highAlch: 0,

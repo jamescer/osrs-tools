@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedZamorakMaxHoodData = {{
+const ImbuedZamorakMaxHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

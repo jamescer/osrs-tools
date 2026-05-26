@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiderOnStickRawData = {{
+const SpiderOnStickRawData = {
     examine: "",
     value: 0,
     highAlch: 0,

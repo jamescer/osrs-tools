@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AbyssalDaggerImbueScrollData = {{
+const AbyssalDaggerImbueScrollData = {
     examine: "A scroll that can imbue an abyssal dagger.",
     value: 0,
     highAlch: 0,

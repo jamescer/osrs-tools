@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicCapeRackFlatpackData = {{
+const MagicCapeRackFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

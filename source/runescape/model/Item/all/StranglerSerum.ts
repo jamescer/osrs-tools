@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StranglerSerumData = {{
+const StranglerSerumData = {
     examine: "",
     value: 0,
     highAlch: 0,

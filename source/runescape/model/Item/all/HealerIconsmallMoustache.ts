@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HealerIconsmallMoustacheData = {{
+const HealerIconsmallMoustacheData = {
     examine: "",
     value: 0,
     highAlch: 0,

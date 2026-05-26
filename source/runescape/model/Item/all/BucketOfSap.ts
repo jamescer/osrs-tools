@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketOfSapData = {{
+const BucketOfSapData = {
     examine: "",
     value: 0,
     highAlch: 0,

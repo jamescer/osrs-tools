@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DefenderIconcleanshavenData = {{
+const DefenderIconcleanshavenData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrollAnimationItemData = {{
+const ScrollAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

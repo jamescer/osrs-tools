@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ProselyteHauberkData = {{
+const ProselyteHauberkData = {
     examine: "",
     value: 0,
     highAlch: 0,

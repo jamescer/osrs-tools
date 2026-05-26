@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoakedKindlingData = {{
+const SoakedKindlingData = {
     examine: "",
     value: 0,
     highAlch: 0,

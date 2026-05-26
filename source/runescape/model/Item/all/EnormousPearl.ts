@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnormousPearlData = {{
+const EnormousPearlData = {
     examine: "",
     value: 0,
     highAlch: 0,

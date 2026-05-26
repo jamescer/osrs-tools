@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnowSpriteItemData = {{
+const SnowSpriteItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

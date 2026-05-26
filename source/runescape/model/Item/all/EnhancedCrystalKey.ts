@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnhancedCrystalKeyData = {{
+const EnhancedCrystalKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

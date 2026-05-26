@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StickItemData = {{
+const StickItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

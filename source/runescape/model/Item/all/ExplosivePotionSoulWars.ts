@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExplosivePotionSoulWarsData = {{
+const ExplosivePotionSoulWarsData = {
     examine: "",
     value: 0,
     highAlch: 0,

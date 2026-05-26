@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DartUnobtainableItemData = {{
+const DartUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

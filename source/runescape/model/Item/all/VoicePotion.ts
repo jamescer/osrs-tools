@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VoicePotionData = {{
+const VoicePotionData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BellBaublegreenData = {{
+const BellBaublegreenData = {
     examine: "",
     value: 0,
     highAlch: 0,

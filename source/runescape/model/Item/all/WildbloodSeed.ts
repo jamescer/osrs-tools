@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WildbloodSeedData = {{
+const WildbloodSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

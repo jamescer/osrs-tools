@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CitizenTopData = {{
+const CitizenTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

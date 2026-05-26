@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BertsRotaData = {{
+const BertsRotaData = {
     examine: "",
     value: 0,
     highAlch: 0,

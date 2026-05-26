@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteamRuneData = {{
+const SteamRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

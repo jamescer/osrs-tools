@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const purpleFirelighterData = {{
+const purpleFirelighterData = {
     examine: "Makes firelighting a lot easier.",
     value: 15,
     highAlch: 9,

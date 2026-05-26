@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiderHatsarachnisData = {{
+const SpiderHatsarachnisData = {
     examine: "",
     value: 0,
     highAlch: 0,

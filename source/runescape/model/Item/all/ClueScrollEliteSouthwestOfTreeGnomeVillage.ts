@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteSouthwestOfTreeGnomeVillageData = {{
+const ClueScrollEliteSouthwestOfTreeGnomeVillageData = {
     examine: "",
     value: 0,
     highAlch: 0,

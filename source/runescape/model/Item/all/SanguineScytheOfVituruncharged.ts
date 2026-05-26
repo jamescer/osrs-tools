@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SanguineScytheOfViturunchargedData = {{
+const SanguineScytheOfViturunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

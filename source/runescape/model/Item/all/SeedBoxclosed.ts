@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeedBoxclosedData = {{
+const SeedBoxclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

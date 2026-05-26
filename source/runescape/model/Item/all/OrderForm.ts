@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrderFormData = {{
+const OrderFormData = {
     examine: "",
     value: 0,
     highAlch: 0,

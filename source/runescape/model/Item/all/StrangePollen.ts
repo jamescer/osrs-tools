@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrangePollenData = {{
+const StrangePollenData = {
     examine: "",
     value: 0,
     highAlch: 0,

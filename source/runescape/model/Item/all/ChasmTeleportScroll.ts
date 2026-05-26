@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChasmTeleportScrollData = {{
+const ChasmTeleportScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

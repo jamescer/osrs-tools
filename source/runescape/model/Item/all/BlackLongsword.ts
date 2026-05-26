@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackLongswordData = {{
+const blackLongswordData = {
     examine: "A longsword made of black metal.",
     value: 392,
     highAlch: 235,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SinknotInUseData = {{
+const SinknotInUseData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeBowData = {{
+const ThirdAgeBowData = {
     examine: "A beautifully crafted bow carved by ancient archers.",
     value: 150000,
     highAlch: 90000,

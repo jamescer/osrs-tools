@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottleOfSpinningCompkvassData = {{
+const BottleOfSpinningCompkvassData = {
     examine: "",
     value: 0,
     highAlch: 0,

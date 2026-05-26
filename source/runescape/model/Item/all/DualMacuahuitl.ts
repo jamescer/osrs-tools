@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DualMacuahuitlData = {{
+const DualMacuahuitlData = {
     examine: "",
     value: 0,
     highAlch: 0,

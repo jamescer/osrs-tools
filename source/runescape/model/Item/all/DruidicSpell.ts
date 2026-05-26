@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DruidicSpellData = {{
+const DruidicSpellData = {
     examine: "",
     value: 0,
     highAlch: 0,

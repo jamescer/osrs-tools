@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuildHunterBootsData = {{
+const GuildHunterBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

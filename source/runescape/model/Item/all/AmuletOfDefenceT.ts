@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const amuletOfDefenceTData = {{
+const amuletOfDefenceTData = {
     examine: "An enchanted emerald amulet of protection that looks good.",
     value: 1275,
     highAlch: 765,

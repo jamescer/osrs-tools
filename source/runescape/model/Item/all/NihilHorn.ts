@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NihilHornData = {{
+const NihilHornData = {
     examine: "",
     value: 0,
     highAlch: 0,

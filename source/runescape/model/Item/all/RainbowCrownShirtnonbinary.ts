@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RainbowCrownShirtnonbinaryData = {{
+const RainbowCrownShirtnonbinaryData = {
     examine: "",
     value: 0,
     highAlch: 0,

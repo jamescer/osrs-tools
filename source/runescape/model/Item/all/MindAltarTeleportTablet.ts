@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MindAltarTeleportTabletData = {{
+const MindAltarTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

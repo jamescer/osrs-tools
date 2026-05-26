@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HexEditDetectedkiteshieldData = {{
+const HexEditDetectedkiteshieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HandMirrorsongOfTheElvesData = {{
+const HandMirrorsongOfTheElvesData = {
     examine: "",
     value: 0,
     highAlch: 0,

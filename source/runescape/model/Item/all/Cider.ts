@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CiderData = {{
+const CiderData = {
     examine: "",
     value: 0,
     highAlch: 0,

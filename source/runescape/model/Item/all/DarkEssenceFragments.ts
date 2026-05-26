@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkEssenceFragmentsData = {{
+const DarkEssenceFragmentsData = {
     examine: "",
     value: 0,
     highAlch: 0,

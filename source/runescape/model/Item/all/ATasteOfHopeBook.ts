@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ATasteOfHopeBookData = {{
+const ATasteOfHopeBookData = {
     examine: "",
     value: 0,
     highAlch: 0,

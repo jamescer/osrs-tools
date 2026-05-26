@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasySpeakToGaiusInTaverleyData = {{
+const ClueScrollEasySpeakToGaiusInTaverleyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IbansStaffUData = {{
+const IbansStaffUData = {
     examine: "",
     value: 0,
     highAlch: 0,

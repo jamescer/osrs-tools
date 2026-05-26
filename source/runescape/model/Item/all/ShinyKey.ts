@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShinyKeyData = {{
+const ShinyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

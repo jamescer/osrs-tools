@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WiggreyData = {{
+const WiggreyData = {
     examine: "",
     value: 0,
     highAlch: 0,

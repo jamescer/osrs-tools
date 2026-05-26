@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const salmonData = {{
+const salmonData = {
     examine: "I should cook this.",
     value: 30,
     highAlch: 18,

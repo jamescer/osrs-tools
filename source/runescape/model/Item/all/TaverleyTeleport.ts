@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TaverleyTeleportData = {{
+const TaverleyTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CodeConverterData = {{
+const CodeConverterData = {
     examine: "",
     value: 0,
     highAlch: 0,

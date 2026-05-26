@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IronPickaxeNzData = {{
+const IronPickaxeNzData = {
     examine: "",
     value: 0,
     highAlch: 0,

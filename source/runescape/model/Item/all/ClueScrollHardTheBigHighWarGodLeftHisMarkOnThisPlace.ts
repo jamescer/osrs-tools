@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardTheBigHighWarGodLeftHisMarkOnThisPlaceData = {{
+const ClueScrollHardTheBigHighWarGodLeftHisMarkOnThisPlaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

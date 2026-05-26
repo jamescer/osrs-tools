@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesDeathScrollData = {{
+const RagingEchoesDeathScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

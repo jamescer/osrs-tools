@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JavelinShaftData = {{
+const JavelinShaftData = {
     examine: "",
     value: 0,
     highAlch: 0,

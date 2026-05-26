@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StarjumpUnobtainableItemData = {{
+const StarjumpUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

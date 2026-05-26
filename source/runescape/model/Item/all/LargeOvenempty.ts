@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeOvenemptyData = {{
+const LargeOvenemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

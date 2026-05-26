@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfCamphorLogsdeepfinPointData = {{
+const CrateOfCamphorLogsdeepfinPointData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardMyNameIsLikeATreeYetItIsSpeltWithAGData = {{
+const ClueScrollHardMyNameIsLikeATreeYetItIsSpeltWithAGData = {
     examine: "",
     value: 0,
     highAlch: 0,

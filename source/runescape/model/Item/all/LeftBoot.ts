@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeftBootData = {{
+const LeftBootData = {
     examine: "",
     value: 0,
     highAlch: 0,

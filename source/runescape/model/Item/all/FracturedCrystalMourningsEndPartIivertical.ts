@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FracturedCrystalMourningsEndPartIiverticalData = {{
+const FracturedCrystalMourningsEndPartIiverticalData = {
     examine: "",
     value: 0,
     highAlch: 0,

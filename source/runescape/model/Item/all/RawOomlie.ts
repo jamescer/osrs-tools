@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawOomlieData = {{
+const RawOomlieData = {
     examine: "",
     value: 0,
     highAlch: 0,

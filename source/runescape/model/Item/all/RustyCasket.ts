@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RustyCasketData = {{
+const RustyCasketData = {
     examine: "",
     value: 0,
     highAlch: 0,

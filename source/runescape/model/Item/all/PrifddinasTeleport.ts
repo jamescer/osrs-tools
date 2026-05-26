@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrifddinasTeleportData = {{
+const PrifddinasTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

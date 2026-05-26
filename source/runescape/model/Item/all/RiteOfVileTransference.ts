@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RiteOfVileTransferenceData = {{
+const RiteOfVileTransferenceData = {
     examine: "",
     value: 0,
     highAlch: 0,

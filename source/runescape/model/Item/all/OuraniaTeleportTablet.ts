@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OuraniaTeleportTabletData = {{
+const OuraniaTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

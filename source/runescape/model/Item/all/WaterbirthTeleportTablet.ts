@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WaterbirthTeleportTabletData = {{
+const WaterbirthTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

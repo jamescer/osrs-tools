@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkBowImbueScrollData = {{
+const DarkBowImbueScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

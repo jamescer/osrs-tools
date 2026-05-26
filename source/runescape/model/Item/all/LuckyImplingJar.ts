@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LuckyImplingJarData = {{
+const LuckyImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

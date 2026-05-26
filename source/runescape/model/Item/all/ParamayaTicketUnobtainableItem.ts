@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ParamayaTicketUnobtainableItemData = {{
+const ParamayaTicketUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

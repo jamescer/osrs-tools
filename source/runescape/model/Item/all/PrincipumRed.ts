@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrincipumRedData = {{
+const PrincipumRedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PuzzleBoxtreeEliteData = {{
+const PuzzleBoxtreeEliteData = {
     examine: "",
     value: 0,
     highAlch: 0,

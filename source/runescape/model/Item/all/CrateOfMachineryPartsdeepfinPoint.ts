@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfMachineryPartsdeepfinPointData = {{
+const CrateOfMachineryPartsdeepfinPointData = {
     examine: "",
     value: 0,
     highAlch: 0,

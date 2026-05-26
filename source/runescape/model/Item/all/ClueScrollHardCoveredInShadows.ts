@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardCoveredInShadowsData = {{
+const ClueScrollHardCoveredInShadowsData = {
     examine: "",
     value: 0,
     highAlch: 0,

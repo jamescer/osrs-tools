@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WizardPathStarterKitData = {{
+const WizardPathStarterKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AvasAssemblernormalData = {{
+const AvasAssemblernormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

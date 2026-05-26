@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnowImpCostumeLegsrewardData = {{
+const SnowImpCostumeLegsrewardData = {
     examine: "",
     value: 0,
     highAlch: 0,

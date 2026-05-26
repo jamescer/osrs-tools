@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IconSegmentfingersData = {{
+const IconSegmentfingersData = {
     examine: "",
     value: 0,
     highAlch: 0,

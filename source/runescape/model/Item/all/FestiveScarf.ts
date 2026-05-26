@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FestiveScarfData = {{
+const FestiveScarfData = {
     examine: "",
     value: 0,
     highAlch: 0,

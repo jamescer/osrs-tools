@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantTrimmedSetSkData = {{
+const AdamantTrimmedSetSkData = {
     examine: "",
     value: 0,
     highAlch: 0,

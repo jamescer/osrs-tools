@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BagFullOfGemsstardustData = {{
+const BagFullOfGemsstardustData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnfinishedCrunchySpicyHistoricalData = {{
+const UnfinishedCrunchySpicyHistoricalData = {
     examine: "",
     value: 0,
     highAlch: 0,

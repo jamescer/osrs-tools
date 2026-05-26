@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PoleUnobtainableItemData = {{
+const PoleUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

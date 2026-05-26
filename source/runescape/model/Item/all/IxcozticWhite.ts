@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IxcozticWhiteData = {{
+const IxcozticWhiteData = {
     examine: "",
     value: 0,
     highAlch: 0,

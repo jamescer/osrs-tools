@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeKeelsloopData = {{
+const BronzeKeelsloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

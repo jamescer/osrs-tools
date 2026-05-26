@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShieldOfArravItemData = {{
+const ShieldOfArravItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

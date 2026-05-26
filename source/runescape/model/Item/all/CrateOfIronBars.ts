@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfIronBarsData = {{
+const CrateOfIronBarsData = {
     examine: "",
     value: 0,
     highAlch: 0,

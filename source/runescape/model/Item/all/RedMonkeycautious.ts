@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedMonkeycautiousData = {{
+const RedMonkeycautiousData = {
     examine: "",
     value: 0,
     highAlch: 0,

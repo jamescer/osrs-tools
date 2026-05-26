@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrototypeDartData = {{
+const PrototypeDartData = {
     examine: "",
     value: 0,
     highAlch: 0,

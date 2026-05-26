@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BallistaSpringData = {{
+const BallistaSpringData = {
     examine: "",
     value: 0,
     highAlch: 0,

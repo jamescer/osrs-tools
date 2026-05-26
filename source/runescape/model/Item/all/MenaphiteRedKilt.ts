@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MenaphiteRedKiltData = {{
+const MenaphiteRedKiltData = {
     examine: "",
     value: 0,
     highAlch: 0,

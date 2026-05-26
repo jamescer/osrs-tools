@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OakTrophyCaseclosedData = {{
+const OakTrophyCaseclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

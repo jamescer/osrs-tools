@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfusedEarthTalismanData = {{
+const InfusedEarthTalismanData = {
     examine: "",
     value: 0,
     highAlch: 0,

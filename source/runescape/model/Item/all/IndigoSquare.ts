@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IndigoSquareData = {{
+const IndigoSquareData = {
     examine: "",
     value: 0,
     highAlch: 0,

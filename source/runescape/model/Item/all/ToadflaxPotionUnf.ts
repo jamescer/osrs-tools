@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ToadflaxPotionUnfData = {{
+const ToadflaxPotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

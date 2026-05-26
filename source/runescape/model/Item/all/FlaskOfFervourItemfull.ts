@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlaskOfFervourItemfullData = {{
+const FlaskOfFervourItemfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

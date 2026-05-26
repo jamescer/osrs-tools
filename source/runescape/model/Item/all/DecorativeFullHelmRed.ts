@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeFullHelmRedData = {{
+const DecorativeFullHelmRedData = {
     examine: "",
     value: 0,
     highAlch: 0,

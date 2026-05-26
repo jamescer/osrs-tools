@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TomeOfFireemptyData = {{
+const TomeOfFireemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

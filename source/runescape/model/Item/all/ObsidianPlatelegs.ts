@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ObsidianPlatelegsData = {{
+const ObsidianPlatelegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

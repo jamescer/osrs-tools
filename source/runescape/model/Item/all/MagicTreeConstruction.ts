@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicTreeConstructionData = {{
+const MagicTreeConstructionData = {
     examine: "",
     value: 0,
     highAlch: 0,

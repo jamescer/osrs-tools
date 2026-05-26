@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChestMakingHistoryData = {{
+const ChestMakingHistoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

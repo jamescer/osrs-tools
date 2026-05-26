@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MithrilSalvagingHooksloopData = {{
+const MithrilSalvagingHooksloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

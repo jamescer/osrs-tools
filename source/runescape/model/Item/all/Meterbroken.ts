@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MeterbrokenData = {{
+const MeterbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

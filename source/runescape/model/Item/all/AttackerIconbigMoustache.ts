@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AttackerIconbigMoustacheData = {{
+const AttackerIconbigMoustacheData = {
     examine: "",
     value: 0,
     highAlch: 0,

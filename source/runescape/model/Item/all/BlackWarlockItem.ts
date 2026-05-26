@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackWarlockItemData = {{
+const BlackWarlockItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

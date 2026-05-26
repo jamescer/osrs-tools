@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HuascaPotionUnfData = {{
+const HuascaPotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

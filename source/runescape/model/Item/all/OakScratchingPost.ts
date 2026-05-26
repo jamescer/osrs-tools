@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OakScratchingPostData = {{
+const OakScratchingPostData = {
     examine: "",
     value: 0,
     highAlch: 0,

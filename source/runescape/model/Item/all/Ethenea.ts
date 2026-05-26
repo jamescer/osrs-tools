@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EtheneaData = {{
+const EtheneaData = {
     examine: "",
     value: 0,
     highAlch: 0,

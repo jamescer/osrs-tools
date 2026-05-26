@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaturatedHeartData = {{
+const SaturatedHeartData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PropSwordDeathOnTheIsleData = {{
+const PropSwordDeathOnTheIsleData = {
     examine: "",
     value: 0,
     highAlch: 0,

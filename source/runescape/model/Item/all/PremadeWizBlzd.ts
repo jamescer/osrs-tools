@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeWizBlzdData = {{
+const PremadeWizBlzdData = {
     examine: "",
     value: 0,
     highAlch: 0,

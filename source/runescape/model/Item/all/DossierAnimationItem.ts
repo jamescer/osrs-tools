@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DossierAnimationItemData = {{
+const DossierAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

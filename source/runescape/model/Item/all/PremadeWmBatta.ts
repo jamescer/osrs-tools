@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeWmBattaData = {{
+const PremadeWmBattaData = {
     examine: "",
     value: 0,
     highAlch: 0,

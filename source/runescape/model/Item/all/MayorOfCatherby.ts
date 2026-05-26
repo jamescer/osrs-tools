@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MayorOfCatherbyData = {{
+const MayorOfCatherbyData = {
     examine: "",
     value: 0,
     highAlch: 0,

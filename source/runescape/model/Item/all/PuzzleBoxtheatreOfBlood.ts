@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PuzzleBoxtheatreOfBloodData = {{
+const PuzzleBoxtheatreOfBloodData = {
     examine: "",
     value: 0,
     highAlch: 0,

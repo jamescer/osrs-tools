@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DampKeyData = {{
+const DampKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

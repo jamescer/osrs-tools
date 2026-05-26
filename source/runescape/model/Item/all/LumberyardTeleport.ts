@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const lumberyardTeleportData = {{
+const lumberyardTeleportData = {
     examine: "Teleports you to the Lumberyard.",
     value: 10,
     highAlch: 6,

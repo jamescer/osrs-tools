@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ankouTopData = {{
+const ankouTopData = {
     examine: "This top will make your flesh transparent.",
     value: 1,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IncenseBurnerMarblegridMasterUnlitData = {{
+const IncenseBurnerMarblegridMasterUnlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

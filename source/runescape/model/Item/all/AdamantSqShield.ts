@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantSqShieldData = {{
+const AdamantSqShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

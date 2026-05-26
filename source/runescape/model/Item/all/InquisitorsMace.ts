@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InquisitorsMaceData = {{
+const InquisitorsMaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

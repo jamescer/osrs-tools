@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrozenKeyPieceArmadylData = {{
+const FrozenKeyPieceArmadylData = {
     examine: "",
     value: 0,
     highAlch: 0,

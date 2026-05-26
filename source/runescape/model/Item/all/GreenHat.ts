@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenHatData = {{
+const GreenHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

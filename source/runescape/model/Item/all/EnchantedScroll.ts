@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnchantedScrollData = {{
+const EnchantedScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

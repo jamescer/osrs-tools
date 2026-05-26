@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmuletMouldData = {{
+const AmuletMouldData = {
     examine: "",
     value: 0,
     highAlch: 0,

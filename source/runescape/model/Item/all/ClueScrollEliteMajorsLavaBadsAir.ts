@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteMajorsLavaBadsAirData = {{
+const ClueScrollEliteMajorsLavaBadsAirData = {
     examine: "",
     value: 0,
     highAlch: 0,

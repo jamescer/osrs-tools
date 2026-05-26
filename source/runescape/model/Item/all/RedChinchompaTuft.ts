@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedChinchompaTuftData = {{
+const RedChinchompaTuftData = {
     examine: "",
     value: 0,
     highAlch: 0,

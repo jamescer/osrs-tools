@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HerbBowlAnimationItemData = {{
+const HerbBowlAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

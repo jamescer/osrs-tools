@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PetitionFormData = {{
+const PetitionFormData = {
     examine: "",
     value: 0,
     highAlch: 0,

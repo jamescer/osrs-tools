@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedDragonhideSetData = {{
+const GildedDragonhideSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

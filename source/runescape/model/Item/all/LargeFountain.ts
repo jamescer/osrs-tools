@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeFountainData = {{
+const LargeFountainData = {
     examine: "",
     value: 0,
     highAlch: 0,

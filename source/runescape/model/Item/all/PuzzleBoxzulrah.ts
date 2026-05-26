@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PuzzleBoxzulrahData = {{
+const PuzzleBoxzulrahData = {
     examine: "",
     value: 0,
     highAlch: 0,

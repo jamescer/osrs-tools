@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LimestoneAltargnomeChildData = {{
+const LimestoneAltargnomeChildData = {
     examine: "",
     value: 0,
     highAlch: 0,

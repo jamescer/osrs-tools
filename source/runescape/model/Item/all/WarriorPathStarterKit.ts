@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WarriorPathStarterKitData = {{
+const WarriorPathStarterKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

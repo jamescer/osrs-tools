@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuamInABoxData = {{
+const GuamInABoxData = {
     examine: "",
     value: 0,
     highAlch: 0,

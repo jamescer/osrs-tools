@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JumboSquidData = {{
+const JumboSquidData = {
     examine: "",
     value: 0,
     highAlch: 0,

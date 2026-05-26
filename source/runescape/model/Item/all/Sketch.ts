@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SketchData = {{
+const SketchData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlyFishingRodData = {{
+const FlyFishingRodData = {
     examine: "",
     value: 0,
     highAlch: 0,

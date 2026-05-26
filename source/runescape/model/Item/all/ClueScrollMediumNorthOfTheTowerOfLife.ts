@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumNorthOfTheTowerOfLifeData = {{
+const ClueScrollMediumNorthOfTheTowerOfLifeData = {
     examine: "",
     value: 0,
     highAlch: 0,

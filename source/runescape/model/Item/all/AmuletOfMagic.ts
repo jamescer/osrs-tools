@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const amuletOfMagicData = {{
+const amuletOfMagicData = {
     examine: "A mystical amulet.",
     value: 315,
     highAlch: 189,

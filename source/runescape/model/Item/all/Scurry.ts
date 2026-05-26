@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScurryData = {{
+const ScurryData = {
     examine: "",
     value: 0,
     highAlch: 0,

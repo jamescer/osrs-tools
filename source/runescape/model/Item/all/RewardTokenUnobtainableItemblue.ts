@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RewardTokenUnobtainableItemblueData = {{
+const RewardTokenUnobtainableItemblueData = {
     examine: "",
     value: 0,
     highAlch: 0,

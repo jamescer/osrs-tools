@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScryingOrbfullData = {{
+const ScryingOrbfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

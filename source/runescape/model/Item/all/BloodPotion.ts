@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BloodPotionData = {{
+const BloodPotionData = {
     examine: "",
     value: 0,
     highAlch: 0,

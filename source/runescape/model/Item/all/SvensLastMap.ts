@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SvensLastMapData = {{
+const SvensLastMapData = {
     examine: "",
     value: 0,
     highAlch: 0,

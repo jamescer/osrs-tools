@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoonriseWinesBookData = {{
+const MoonriseWinesBookData = {
     examine: "",
     value: 0,
     highAlch: 0,

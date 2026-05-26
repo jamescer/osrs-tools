@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LightOrbData = {{
+const LightOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

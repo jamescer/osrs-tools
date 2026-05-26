@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TallFancyHedgeBaggedData = {{
+const TallFancyHedgeBaggedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritShieldLastManStandingData = {{
+const SpiritShieldLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

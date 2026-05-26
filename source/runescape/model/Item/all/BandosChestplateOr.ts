@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosChestplateOrData = {{
+const BandosChestplateOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

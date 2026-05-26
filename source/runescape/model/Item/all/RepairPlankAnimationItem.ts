@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RepairPlankAnimationItemData = {{
+const RepairPlankAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

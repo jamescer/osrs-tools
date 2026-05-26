@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const dragonScimitarData = {{
+const dragonScimitarData = {
     examine: "A vicious, curved sword.",
     value: 100000,
     highAlch: 60000,

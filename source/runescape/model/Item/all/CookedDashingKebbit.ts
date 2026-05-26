@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CookedDashingKebbitData = {{
+const CookedDashingKebbitData = {
     examine: "",
     value: 0,
     highAlch: 0,

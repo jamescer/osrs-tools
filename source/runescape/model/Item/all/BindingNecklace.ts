@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BindingNecklaceData = {{
+const BindingNecklaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

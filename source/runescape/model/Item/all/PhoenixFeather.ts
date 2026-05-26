@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PhoenixFeatherData = {{
+const PhoenixFeatherData = {
     examine: "",
     value: 0,
     highAlch: 0,

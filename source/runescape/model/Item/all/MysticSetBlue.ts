@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysticSetBlueData = {{
+const MysticSetBlueData = {
     examine: "",
     value: 0,
     highAlch: 0,

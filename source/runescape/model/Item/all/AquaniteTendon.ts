@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AquaniteTendonData = {{
+const AquaniteTendonData = {
     examine: "",
     value: 0,
     highAlch: 0,

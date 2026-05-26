@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChartData = {{
+const ChartData = {
     examine: "",
     value: 0,
     highAlch: 0,

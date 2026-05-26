@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreaterMagicCageData = {{
+const GreaterMagicCageData = {
     examine: "",
     value: 0,
     highAlch: 0,

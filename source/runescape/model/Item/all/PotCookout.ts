@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PotCookoutData = {{
+const PotCookoutData = {
     examine: "",
     value: 0,
     highAlch: 0,

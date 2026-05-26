@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenmanCarvingData = {{
+const GreenmanCarvingData = {
     examine: "",
     value: 0,
     highAlch: 0,

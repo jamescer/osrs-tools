@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChainData = {{
+const ChainData = {
     examine: "",
     value: 0,
     highAlch: 0,

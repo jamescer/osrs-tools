@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SealOfPassageData = {{
+const SealOfPassageData = {
     examine: "",
     value: 0,
     highAlch: 0,

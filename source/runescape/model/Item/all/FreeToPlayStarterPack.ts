@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FreeToPlayStarterPackData = {{
+const FreeToPlayStarterPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

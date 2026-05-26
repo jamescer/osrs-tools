@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DemonicSkinContractData = {{
+const DemonicSkinContractData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SurvivalTokenData = {{
+const SurvivalTokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

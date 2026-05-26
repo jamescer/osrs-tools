@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateLockboxoutsideVaultData = {{
+const OrnateLockboxoutsideVaultData = {
     examine: "",
     value: 0,
     highAlch: 0,

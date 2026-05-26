@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LockboxDirectionsTheCrownJewelData = {{
+const LockboxDirectionsTheCrownJewelData = {
     examine: "",
     value: 0,
     highAlch: 0,

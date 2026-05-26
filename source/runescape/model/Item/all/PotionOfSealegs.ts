@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PotionOfSealegsData = {{
+const PotionOfSealegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

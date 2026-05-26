@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeScarfData = {{
+const GnomeScarfData = {
     examine: "",
     value: 0,
     highAlch: 0,

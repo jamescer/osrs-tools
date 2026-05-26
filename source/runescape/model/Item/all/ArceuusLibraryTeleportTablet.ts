@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArceuusLibraryTeleportTabletData = {{
+const ArceuusLibraryTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

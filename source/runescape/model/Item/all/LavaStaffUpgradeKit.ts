@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LavaStaffUpgradeKitData = {{
+const LavaStaffUpgradeKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoneTabletTheFinalDawnpuzzleData = {{
+const StoneTabletTheFinalDawnpuzzleData = {
     examine: "",
     value: 0,
     highAlch: 0,

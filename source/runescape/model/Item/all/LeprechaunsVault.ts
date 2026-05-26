@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeprechaunsVaultData = {{
+const LeprechaunsVaultData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysticEarthStaffData = {{
+const MysticEarthStaffData = {
     examine: "",
     value: 0,
     highAlch: 0,

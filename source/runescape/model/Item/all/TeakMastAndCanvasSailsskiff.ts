@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakMastAndCanvasSailsskiffData = {{
+const TeakMastAndCanvasSailsskiffData = {
     examine: "",
     value: 0,
     highAlch: 0,

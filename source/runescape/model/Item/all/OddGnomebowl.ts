@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OddGnomebowlData = {{
+const OddGnomebowlData = {
     examine: "",
     value: 0,
     highAlch: 0,

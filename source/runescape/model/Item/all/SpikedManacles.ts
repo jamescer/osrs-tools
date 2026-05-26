@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const spikedManaclesData = {{
+const spikedManaclesData = {
     examine: "Some very spikey metal bands, better make sure I don't cut myself while walking.",
     value: 2500,
     highAlch: 1500,

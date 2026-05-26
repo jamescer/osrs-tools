@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MimeTopData = {{
+const MimeTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

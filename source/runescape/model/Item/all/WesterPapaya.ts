@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WesterPapayaData = {{
+const WesterPapayaData = {
     examine: "",
     value: 0,
     highAlch: 0,

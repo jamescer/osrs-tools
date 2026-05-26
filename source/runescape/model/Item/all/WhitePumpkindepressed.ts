@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhitePumpkindepressedData = {{
+const WhitePumpkindepressedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaradominBannerrewardData = {{
+const SaradominBannerrewardData = {
     examine: "",
     value: 0,
     highAlch: 0,

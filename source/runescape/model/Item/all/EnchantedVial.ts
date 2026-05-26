@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnchantedVialData = {{
+const EnchantedVialData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesCaneData = {{
+const RagingEchoesCaneData = {
     examine: "",
     value: 0,
     highAlch: 0,

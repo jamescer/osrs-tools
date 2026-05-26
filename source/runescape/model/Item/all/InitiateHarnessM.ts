@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InitiateHarnessMData = {{
+const InitiateHarnessMData = {
     examine: "",
     value: 0,
     highAlch: 0,

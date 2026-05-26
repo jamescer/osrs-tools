@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KnapsackopenData = {{
+const KnapsackopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

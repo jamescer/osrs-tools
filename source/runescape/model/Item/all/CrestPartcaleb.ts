@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrestPartcalebData = {{
+const CrestPartcalebData = {
     examine: "",
     value: 0,
     highAlch: 0,

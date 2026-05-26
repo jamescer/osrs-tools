@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OverchargedCellData = {{
+const OverchargedCellData = {
     examine: "",
     value: 0,
     highAlch: 0,

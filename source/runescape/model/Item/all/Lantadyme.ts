@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LantadymeData = {{
+const LantadymeData = {
     examine: "",
     value: 0,
     highAlch: 0,

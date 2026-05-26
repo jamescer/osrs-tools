@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedGuthixCapeLastManStandingData = {{
+const ImbuedGuthixCapeLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

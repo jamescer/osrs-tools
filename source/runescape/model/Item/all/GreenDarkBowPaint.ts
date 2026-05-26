@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenDarkBowPaintData = {{
+const GreenDarkBowPaintData = {
     examine: "",
     value: 0,
     highAlch: 0,

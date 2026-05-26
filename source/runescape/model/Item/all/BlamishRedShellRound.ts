@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlamishRedShellRoundData = {{
+const BlamishRedShellRoundData = {
     examine: "",
     value: 0,
     highAlch: 0,

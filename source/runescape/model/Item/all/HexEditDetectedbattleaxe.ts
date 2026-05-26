@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HexEditDetectedbattleaxeData = {{
+const HexEditDetectedbattleaxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

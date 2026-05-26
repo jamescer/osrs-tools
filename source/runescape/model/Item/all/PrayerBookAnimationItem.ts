@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrayerBookAnimationItemData = {{
+const PrayerBookAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

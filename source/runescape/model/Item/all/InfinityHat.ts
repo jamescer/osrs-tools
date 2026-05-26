@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfinityHatData = {{
+const InfinityHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

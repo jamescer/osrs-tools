@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawMantaRayData = {{
+const RawMantaRayData = {
     examine: "",
     value: 0,
     highAlch: 0,

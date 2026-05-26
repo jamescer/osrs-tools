@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicEggData = {{
+const MagicEggData = {
     examine: "",
     value: 0,
     highAlch: 0,

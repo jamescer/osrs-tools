@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const QuestPointCapetrimmedData = {{
+const QuestPointCapetrimmedData = {
     examine: "",
     value: 0,
     highAlch: 0,

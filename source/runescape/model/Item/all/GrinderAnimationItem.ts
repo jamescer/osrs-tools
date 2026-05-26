@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrinderAnimationItemData = {{
+const GrinderAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

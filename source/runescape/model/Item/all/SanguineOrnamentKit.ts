@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SanguineOrnamentKitData = {{
+const SanguineOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

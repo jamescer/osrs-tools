@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VolatileMineralData = {{
+const VolatileMineralData = {
     examine: "",
     value: 0,
     highAlch: 0,

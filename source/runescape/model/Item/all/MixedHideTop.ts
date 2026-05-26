@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixedHideTopData = {{
+const MixedHideTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BulgingTaxbagData = {{
+const BulgingTaxbagData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MudPieData = {{
+const MudPieData = {
     examine: "",
     value: 0,
     highAlch: 0,

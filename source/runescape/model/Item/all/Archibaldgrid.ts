@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArchibaldgridData = {{
+const ArchibaldgridData = {
     examine: "",
     value: 0,
     highAlch: 0,

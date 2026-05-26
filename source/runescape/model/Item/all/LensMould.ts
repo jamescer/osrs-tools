@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LensMouldData = {{
+const LensMouldData = {
     examine: "",
     value: 0,
     highAlch: 0,

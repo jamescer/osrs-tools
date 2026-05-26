@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZaryteVambracesData = {{
+const ZaryteVambracesData = {
     examine: "",
     value: 0,
     highAlch: 0,

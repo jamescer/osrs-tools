@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicSecateursNzData = {{
+const MagicSecateursNzData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackPlatebodyGData = {{
+const blackPlatebodyGData = {
     examine: "Black platebody with gold trim.",
     value: 3840,
     highAlch: 2304,

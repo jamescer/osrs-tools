@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyIWouldMakeAChemistryJokeData = {{
+const ClueScrollEasyIWouldMakeAChemistryJokeData = {
     examine: "",
     value: 0,
     highAlch: 0,

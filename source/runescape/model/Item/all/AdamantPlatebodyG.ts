@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantPlatebodyGData = {{
+const adamantPlatebodyGData = {
     examine: "Adamant platebody with gold trim.",
     value: 16640,
     highAlch: 9984,

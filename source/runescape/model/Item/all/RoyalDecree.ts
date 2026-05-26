@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RoyalDecreeData = {{
+const RoyalDecreeData = {
     examine: "",
     value: 0,
     highAlch: 0,

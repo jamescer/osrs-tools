@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BallisticAttractorSchematicData = {{
+const BallisticAttractorSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

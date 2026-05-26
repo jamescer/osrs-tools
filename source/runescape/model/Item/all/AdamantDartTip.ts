@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantDartTipData = {{
+const AdamantDartTipData = {
     examine: "",
     value: 0,
     highAlch: 0,

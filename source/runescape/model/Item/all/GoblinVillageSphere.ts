@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoblinVillageSphereData = {{
+const GoblinVillageSphereData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrollConstructionData = {{
+const TrollConstructionData = {
     examine: "",
     value: 0,
     highAlch: 0,

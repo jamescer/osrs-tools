@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakTelescopeFlatpackData = {{
+const TeakTelescopeFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

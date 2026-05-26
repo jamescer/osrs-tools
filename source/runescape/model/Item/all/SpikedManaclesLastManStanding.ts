@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpikedManaclesLastManStandingData = {{
+const SpikedManaclesLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

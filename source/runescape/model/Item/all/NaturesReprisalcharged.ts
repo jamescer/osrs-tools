@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NaturesReprisalchargedData = {{
+const NaturesReprisalchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

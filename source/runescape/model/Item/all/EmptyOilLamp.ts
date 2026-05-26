@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmptyOilLampData = {{
+const EmptyOilLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

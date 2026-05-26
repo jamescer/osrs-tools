@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WarningLetterData = {{
+const WarningLetterData = {
     examine: "",
     value: 0,
     highAlch: 0,

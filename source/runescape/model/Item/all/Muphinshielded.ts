@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MuphinshieldedData = {{
+const MuphinshieldedData = {
     examine: "",
     value: 0,
     highAlch: 0,

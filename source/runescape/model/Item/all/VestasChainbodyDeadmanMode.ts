@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VestasChainbodyDeadmanModeData = {{
+const VestasChainbodyDeadmanModeData = {
     examine: "",
     value: 0,
     highAlch: 0,

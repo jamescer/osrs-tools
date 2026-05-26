@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThatchSparMedData = {{
+const ThatchSparMedData = {
     examine: "",
     value: 0,
     highAlch: 0,

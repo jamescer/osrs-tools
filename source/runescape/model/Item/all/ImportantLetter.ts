@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImportantLetterData = {{
+const ImportantLetterData = {
     examine: "",
     value: 0,
     highAlch: 0,

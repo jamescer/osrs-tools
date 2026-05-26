@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallOrreryFlatpackData = {{
+const SmallOrreryFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

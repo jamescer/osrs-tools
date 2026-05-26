@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WimpyFeatherData = {{
+const WimpyFeatherData = {
     examine: "",
     value: 0,
     highAlch: 0,

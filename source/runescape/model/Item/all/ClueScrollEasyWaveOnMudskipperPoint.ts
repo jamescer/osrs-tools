@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyWaveOnMudskipperPointData = {{
+const ClueScrollEasyWaveOnMudskipperPointData = {
     examine: "",
     value: 0,
     highAlch: 0,

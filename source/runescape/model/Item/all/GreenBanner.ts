@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenBannerData = {{
+const GreenBannerData = {
     examine: "",
     value: 0,
     highAlch: 0,

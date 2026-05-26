@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NecklaceOfAnguishData = {{
+const NecklaceOfAnguishData = {
     examine: "",
     value: 0,
     highAlch: 0,

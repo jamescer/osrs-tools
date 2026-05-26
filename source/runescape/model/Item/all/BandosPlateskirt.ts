@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosPlateskirtData = {{
+const BandosPlateskirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

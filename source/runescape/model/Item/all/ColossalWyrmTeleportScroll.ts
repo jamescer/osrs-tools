@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ColossalWyrmTeleportScrollData = {{
+const ColossalWyrmTeleportScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

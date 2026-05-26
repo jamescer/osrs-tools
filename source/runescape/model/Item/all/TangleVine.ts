@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TangleVineData = {{
+const TangleVineData = {
     examine: "",
     value: 0,
     highAlch: 0,

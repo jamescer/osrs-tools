@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RevenantEtherData = {{
+const RevenantEtherData = {
     examine: "",
     value: 0,
     highAlch: 0,

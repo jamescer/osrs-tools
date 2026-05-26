@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ManTrapData = {{
+const ManTrapData = {
     examine: "",
     value: 0,
     highAlch: 0,

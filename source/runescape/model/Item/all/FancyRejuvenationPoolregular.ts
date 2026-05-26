@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FancyRejuvenationPoolregularData = {{
+const FancyRejuvenationPoolregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

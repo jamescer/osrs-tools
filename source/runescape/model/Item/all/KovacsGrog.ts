@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KovacsGrogData = {{
+const KovacsGrogData = {
     examine: "",
     value: 0,
     highAlch: 0,

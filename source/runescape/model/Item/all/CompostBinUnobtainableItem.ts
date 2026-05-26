@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CompostBinUnobtainableItemData = {{
+const CompostBinUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

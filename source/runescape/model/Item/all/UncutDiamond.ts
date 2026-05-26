@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const uncutDiamondData = {{
+const uncutDiamondData = {
     examine: "An uncut diamond.",
     value: 2144,
     highAlch: 1286,

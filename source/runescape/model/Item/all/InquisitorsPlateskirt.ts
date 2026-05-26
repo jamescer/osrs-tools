@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InquisitorsPlateskirtData = {{
+const InquisitorsPlateskirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneArrowPackData = {{
+const RuneArrowPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DharoksArmourSetData = {{
+const DharoksArmourSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

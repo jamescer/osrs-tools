@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DenseEssenceBlockData = {{
+const DenseEssenceBlockData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AChairData = {{
+const AChairData = {
     examine: "",
     value: 0,
     highAlch: 0,

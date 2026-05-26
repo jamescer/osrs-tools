@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlatinumSpeedrunTrophyData = {{
+const PlatinumSpeedrunTrophyData = {
     examine: "",
     value: 0,
     highAlch: 0,

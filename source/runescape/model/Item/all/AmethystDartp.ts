@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmethystDartpData = {{
+const AmethystDartpData = {
     examine: "",
     value: 0,
     highAlch: 0,

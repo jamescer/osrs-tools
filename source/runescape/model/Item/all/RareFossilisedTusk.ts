@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RareFossilisedTuskData = {{
+const RareFossilisedTuskData = {
     examine: "",
     value: 0,
     highAlch: 0,

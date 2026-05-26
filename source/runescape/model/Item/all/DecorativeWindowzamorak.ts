@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeWindowzamorakData = {{
+const DecorativeWindowzamorakData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MajorHardScrollCaseData = {{
+const MajorHardScrollCaseData = {
     examine: "",
     value: 0,
     highAlch: 0,

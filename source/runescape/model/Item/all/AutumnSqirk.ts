@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AutumnSqirkData = {{
+const AutumnSqirkData = {
     examine: "",
     value: 0,
     highAlch: 0,

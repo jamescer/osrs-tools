@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FranksPrintData = {{
+const FranksPrintData = {
     examine: "",
     value: 0,
     highAlch: 0,

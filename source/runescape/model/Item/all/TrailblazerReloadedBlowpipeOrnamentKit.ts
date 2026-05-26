@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerReloadedBlowpipeOrnamentKitData = {{
+const TrailblazerReloadedBlowpipeOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

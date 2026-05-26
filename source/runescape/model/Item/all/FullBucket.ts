@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FullBucketData = {{
+const FullBucketData = {
     examine: "",
     value: 0,
     highAlch: 0,

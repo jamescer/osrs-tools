@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BugLanternlitData = {{
+const BugLanternlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

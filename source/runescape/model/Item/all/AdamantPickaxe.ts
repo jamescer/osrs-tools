@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantPickaxeData = {{
+const adamantPickaxeData = {
     examine: "Used for mining.",
     value: 3200,
     highAlch: 1920,

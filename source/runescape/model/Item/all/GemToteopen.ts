@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GemToteopenData = {{
+const GemToteopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

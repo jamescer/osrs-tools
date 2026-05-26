@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TzhaarketemData = {{
+const TzhaarketemData = {
     examine: "",
     value: 0,
     highAlch: 0,

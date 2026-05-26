@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RunePlatelegsLastManStandingData = {{
+const RunePlatelegsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

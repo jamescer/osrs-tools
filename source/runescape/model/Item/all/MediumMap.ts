@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MediumMapData = {{
+const MediumMapData = {
     examine: "",
     value: 0,
     highAlch: 0,

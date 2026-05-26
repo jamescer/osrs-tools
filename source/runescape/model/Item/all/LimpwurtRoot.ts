@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const limpwurtRootData = {{
+const limpwurtRootData = {
     examine: "The root of a limpwurt plant.",
     value: 7,
     highAlch: 4,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DreamLogData = {{
+const DreamLogData = {
     examine: "",
     value: 0,
     highAlch: 0,

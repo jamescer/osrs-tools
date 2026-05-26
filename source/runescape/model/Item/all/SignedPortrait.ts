@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SignedPortraitData = {{
+const SignedPortraitData = {
     examine: "",
     value: 0,
     highAlch: 0,

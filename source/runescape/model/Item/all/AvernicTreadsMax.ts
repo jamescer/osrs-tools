@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AvernicTreadsMaxData = {{
+const AvernicTreadsMaxData = {
     examine: "",
     value: 0,
     highAlch: 0,

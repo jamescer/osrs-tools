@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfRemoteStorageunattunedData = {{
+const SigilOfRemoteStorageunattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

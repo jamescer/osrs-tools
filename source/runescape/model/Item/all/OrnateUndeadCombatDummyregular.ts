@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateUndeadCombatDummyregularData = {{
+const OrnateUndeadCombatDummyregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

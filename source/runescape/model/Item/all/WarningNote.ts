@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WarningNoteData = {{
+const WarningNoteData = {
     examine: "",
     value: 0,
     highAlch: 0,

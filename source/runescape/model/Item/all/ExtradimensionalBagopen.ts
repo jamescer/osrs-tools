@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExtradimensionalBagopenData = {{
+const ExtradimensionalBagopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

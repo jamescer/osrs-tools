@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackPlatebodyData = {{
+const blackPlatebodyData = {
     examine: "A very strong piece of armour.",
     value: 480,
     highAlch: 288,

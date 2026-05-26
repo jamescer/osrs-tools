@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BpObjData = {{
+const BpObjData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StarBaubleunpaintedData = {{
+const StarBaubleunpaintedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlumingStandData = {{
+const PlumingStandData = {
     examine: "",
     value: 0,
     highAlch: 0,

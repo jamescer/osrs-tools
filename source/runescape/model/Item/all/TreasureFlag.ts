@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TreasureFlagData = {{
+const TreasureFlagData = {
     examine: "",
     value: 0,
     highAlch: 0,

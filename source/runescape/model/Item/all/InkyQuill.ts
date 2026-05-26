@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InkyQuillData = {{
+const InkyQuillData = {
     examine: "",
     value: 0,
     highAlch: 0,

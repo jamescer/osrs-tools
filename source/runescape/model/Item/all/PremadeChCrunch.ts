@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeChCrunchData = {{
+const PremadeChCrunchData = {
     examine: "",
     value: 0,
     highAlch: 0,

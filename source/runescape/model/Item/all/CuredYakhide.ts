@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CuredYakhideData = {{
+const CuredYakhideData = {
     examine: "",
     value: 0,
     highAlch: 0,

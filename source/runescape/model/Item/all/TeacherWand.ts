@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeacherWandData = {{
+const TeacherWandData = {
     examine: "",
     value: 0,
     highAlch: 0,

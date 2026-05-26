@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SawmillVoucherData = {{
+const SawmillVoucherData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlassblowingPipeData = {{
+const GlassblowingPipeData = {
     examine: "",
     value: 0,
     highAlch: 0,

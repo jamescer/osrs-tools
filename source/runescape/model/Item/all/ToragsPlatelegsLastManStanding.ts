@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ToragsPlatelegsLastManStandingData = {{
+const ToragsPlatelegsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

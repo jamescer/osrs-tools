@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PillarCoralData = {{
+const PillarCoralData = {
     examine: "",
     value: 0,
     highAlch: 0,

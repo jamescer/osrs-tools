@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CallistoCublegacyData = {{
+const CallistoCublegacyData = {
     examine: "",
     value: 0,
     highAlch: 0,

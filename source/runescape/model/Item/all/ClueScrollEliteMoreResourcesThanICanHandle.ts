@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteMoreResourcesThanICanHandleData = {{
+const ClueScrollEliteMoreResourcesThanICanHandleData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DaconiaRockData = {{
+const DaconiaRockData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const zamorakPlatebodyData = {{
+const zamorakPlatebodyData = {
     examine: "Rune platebody in the colours of Zamorak.",
     value: 65000,
     highAlch: 39000,

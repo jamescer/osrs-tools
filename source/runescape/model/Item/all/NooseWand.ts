@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NooseWandData = {{
+const NooseWandData = {
     examine: "",
     value: 0,
     highAlch: 0,

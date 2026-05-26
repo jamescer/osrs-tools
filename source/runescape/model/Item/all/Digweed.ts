@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DigweedData = {{
+const DigweedData = {
     examine: "",
     value: 0,
     highAlch: 0,

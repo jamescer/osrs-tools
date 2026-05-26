@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WeissFireNotesData = {{
+const WeissFireNotesData = {
     examine: "",
     value: 0,
     highAlch: 0,

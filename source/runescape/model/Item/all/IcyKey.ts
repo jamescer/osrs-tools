@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IcyKeyData = {{
+const IcyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

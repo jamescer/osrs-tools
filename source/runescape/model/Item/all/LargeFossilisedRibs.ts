@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeFossilisedRibsData = {{
+const LargeFossilisedRibsData = {
     examine: "",
     value: 0,
     highAlch: 0,

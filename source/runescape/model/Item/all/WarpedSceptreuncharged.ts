@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WarpedSceptreunchargedData = {{
+const WarpedSceptreunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

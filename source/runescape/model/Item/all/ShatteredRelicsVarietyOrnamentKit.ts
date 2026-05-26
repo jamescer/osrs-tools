@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShatteredRelicsVarietyOrnamentKitData = {{
+const ShatteredRelicsVarietyOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

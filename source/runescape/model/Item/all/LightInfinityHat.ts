@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LightInfinityHatData = {{
+const LightInfinityHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

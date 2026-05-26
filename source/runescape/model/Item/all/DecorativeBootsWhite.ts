@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeBootsWhiteData = {{
+const DecorativeBootsWhiteData = {
     examine: "",
     value: 0,
     highAlch: 0,

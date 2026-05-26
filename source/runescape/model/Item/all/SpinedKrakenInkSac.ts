@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpinedKrakenInkSacData = {{
+const SpinedKrakenInkSacData = {
     examine: "",
     value: 0,
     highAlch: 0,

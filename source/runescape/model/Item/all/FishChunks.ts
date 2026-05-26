@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FishChunksData = {{
+const FishChunksData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VialOfLiquidData = {{
+const VialOfLiquidData = {
     examine: "",
     value: 0,
     highAlch: 0,

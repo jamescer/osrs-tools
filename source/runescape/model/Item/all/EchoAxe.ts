@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoAxeData = {{
+const EchoAxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

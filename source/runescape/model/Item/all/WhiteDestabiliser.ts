@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteDestabiliserData = {{
+const WhiteDestabiliserData = {
     examine: "",
     value: 0,
     highAlch: 0,

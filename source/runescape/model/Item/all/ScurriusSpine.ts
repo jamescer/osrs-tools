@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScurriusSpineData = {{
+const ScurriusSpineData = {
     examine: "",
     value: 0,
     highAlch: 0,

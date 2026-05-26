@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MogreHeadData = {{
+const MogreHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

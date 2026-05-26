@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GravestoneUnobtainableItembasicData = {{
+const GravestoneUnobtainableItembasicData = {
     examine: "",
     value: 0,
     highAlch: 0,

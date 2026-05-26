@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PanningTrayUnobtainableItemData = {{
+const PanningTrayUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

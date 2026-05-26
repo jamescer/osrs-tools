@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollBeginnerAtTheStandingStonesNorthOfFaladorData = {{
+const ClueScrollBeginnerAtTheStandingStonesNorthOfFaladorData = {
     examine: "",
     value: 0,
     highAlch: 0,

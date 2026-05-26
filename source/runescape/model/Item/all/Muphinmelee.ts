@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MuphinmeleeData = {{
+const MuphinmeleeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedMagicWardrobeclosedData = {{
+const GildedMagicWardrobeclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

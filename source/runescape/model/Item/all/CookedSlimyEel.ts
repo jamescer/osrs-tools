@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CookedSlimyEelData = {{
+const CookedSlimyEelData = {
     examine: "",
     value: 0,
     highAlch: 0,

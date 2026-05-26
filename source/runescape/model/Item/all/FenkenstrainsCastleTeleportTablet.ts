@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FenkenstrainsCastleTeleportTabletData = {{
+const FenkenstrainsCastleTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

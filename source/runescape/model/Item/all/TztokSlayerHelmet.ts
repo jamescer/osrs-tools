@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TztokSlayerHelmetData = {{
+const TztokSlayerHelmetData = {
     examine: "",
     value: 0,
     highAlch: 0,

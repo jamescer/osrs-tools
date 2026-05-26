@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarbBolttipsData = {{
+const BarbBolttipsData = {
     examine: "",
     value: 0,
     highAlch: 0,

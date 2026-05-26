@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TegidsSoapData = {{
+const TegidsSoapData = {
     examine: "",
     value: 0,
     highAlch: 0,

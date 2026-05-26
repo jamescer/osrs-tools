@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScryingOrbemptyData = {{
+const ScryingOrbemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

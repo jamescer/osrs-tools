@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OpalNecklaceData = {{
+const OpalNecklaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

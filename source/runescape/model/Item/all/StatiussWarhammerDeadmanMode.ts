@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StatiussWarhammerDeadmanModeData = {{
+const StatiussWarhammerDeadmanModeData = {
     examine: "",
     value: 0,
     highAlch: 0,

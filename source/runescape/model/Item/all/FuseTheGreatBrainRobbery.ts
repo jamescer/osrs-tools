@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FuseTheGreatBrainRobberyData = {{
+const FuseTheGreatBrainRobberyData = {
     examine: "",
     value: 0,
     highAlch: 0,

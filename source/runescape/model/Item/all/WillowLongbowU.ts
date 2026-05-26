@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WillowLongbowUData = {{
+const WillowLongbowUData = {
     examine: "",
     value: 0,
     highAlch: 0,

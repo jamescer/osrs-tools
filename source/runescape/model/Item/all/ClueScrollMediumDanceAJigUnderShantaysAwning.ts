@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumDanceAJigUnderShantaysAwningData = {{
+const ClueScrollMediumDanceAJigUnderShantaysAwningData = {
     examine: "",
     value: 0,
     highAlch: 0,

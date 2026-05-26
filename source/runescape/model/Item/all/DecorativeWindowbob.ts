@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeWindowbobData = {{
+const DecorativeWindowbobData = {
     examine: "",
     value: 0,
     highAlch: 0,

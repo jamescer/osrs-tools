@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShatteredTeleportScrollData = {{
+const ShatteredTeleportScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

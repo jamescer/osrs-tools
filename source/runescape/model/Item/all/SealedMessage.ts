@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SealedMessageData = {{
+const SealedMessageData = {
     examine: "",
     value: 0,
     highAlch: 0,

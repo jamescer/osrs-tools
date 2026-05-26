@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosianComponentsData = {{
+const BandosianComponentsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TheJackalsTorchData = {{
+const TheJackalsTorchData = {
     examine: "",
     value: 0,
     highAlch: 0,

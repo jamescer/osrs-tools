@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MangledExtractData = {{
+const MangledExtractData = {
     examine: "",
     value: 0,
     highAlch: 0,

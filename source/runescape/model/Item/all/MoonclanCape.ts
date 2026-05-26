@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoonclanCapeData = {{
+const MoonclanCapeData = {
     examine: "",
     value: 0,
     highAlch: 0,

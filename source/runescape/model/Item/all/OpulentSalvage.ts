@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OpulentSalvageData = {{
+const OpulentSalvageData = {
     examine: "",
     value: 0,
     highAlch: 0,

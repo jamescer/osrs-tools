@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const honourableBlessingData = {{
+const honourableBlessingData = {
     examine: "Law is not law if it violates the principles of eternal justice.",
     value: 80,
     highAlch: 48,

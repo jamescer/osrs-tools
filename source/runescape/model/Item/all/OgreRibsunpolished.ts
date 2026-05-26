@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OgreRibsunpolishedData = {{
+const OgreRibsunpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

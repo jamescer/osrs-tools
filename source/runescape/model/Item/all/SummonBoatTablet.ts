@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SummonBoatTabletData = {{
+const SummonBoatTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

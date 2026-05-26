@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixedSaturdayShakerData = {{
+const MixedSaturdayShakerData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CombatLampData = {{
+const CombatLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

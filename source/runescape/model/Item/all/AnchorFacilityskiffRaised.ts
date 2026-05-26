@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnchorFacilityskiffRaisedData = {{
+const AnchorFacilityskiffRaisedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfEyePatchesData = {{
+const CrateOfEyePatchesData = {
     examine: "",
     value: 0,
     highAlch: 0,

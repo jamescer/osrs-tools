@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnakeCharmData = {{
+const SnakeCharmData = {
     examine: "",
     value: 0,
     highAlch: 0,

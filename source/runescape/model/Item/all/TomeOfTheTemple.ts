@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TomeOfTheTempleData = {{
+const TomeOfTheTempleData = {
     examine: "",
     value: 0,
     highAlch: 0,

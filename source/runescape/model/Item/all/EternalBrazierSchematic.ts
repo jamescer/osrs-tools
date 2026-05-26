@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EternalBrazierSchematicData = {{
+const EternalBrazierSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

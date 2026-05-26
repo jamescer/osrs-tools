@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrymPotionUnfData = {{
+const GrymPotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

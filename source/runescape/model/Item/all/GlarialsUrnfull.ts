@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlarialsUrnfullData = {{
+const GlarialsUrnfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

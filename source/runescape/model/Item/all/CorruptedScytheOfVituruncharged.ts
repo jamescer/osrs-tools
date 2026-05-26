@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedScytheOfViturunchargedData = {{
+const CorruptedScytheOfViturunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

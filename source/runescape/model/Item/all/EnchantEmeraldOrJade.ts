@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnchantEmeraldOrJadeData = {{
+const EnchantEmeraldOrJadeData = {
     examine: "",
     value: 0,
     highAlch: 0,

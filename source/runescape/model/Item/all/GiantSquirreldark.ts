@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantSquirreldarkData = {{
+const GiantSquirreldarkData = {
     examine: "",
     value: 0,
     highAlch: 0,

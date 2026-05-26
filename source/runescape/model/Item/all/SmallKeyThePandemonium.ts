@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallKeyThePandemoniumData = {{
+const SmallKeyThePandemoniumData = {
     examine: "",
     value: 0,
     highAlch: 0,

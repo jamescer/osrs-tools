@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OakClockFlatpackData = {{
+const OakClockFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

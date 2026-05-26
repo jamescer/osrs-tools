@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackKiteshieldTData = {{
+const BlackKiteshieldTData = {
     examine: "",
     value: 0,
     highAlch: 0,

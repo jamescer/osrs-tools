@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaxCapewornData = {{
+const MaxCapewornData = {
     examine: "",
     value: 0,
     highAlch: 0,

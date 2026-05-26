@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VarrockCensusRecordsData = {{
+const VarrockCensusRecordsData = {
     examine: "",
     value: 0,
     highAlch: 0,

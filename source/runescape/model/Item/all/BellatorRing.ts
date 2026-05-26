@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BellatorRingData = {{
+const BellatorRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

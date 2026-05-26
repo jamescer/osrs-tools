@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClassicImpTailData = {{
+const ClassicImpTailData = {
     examine: "",
     value: 0,
     highAlch: 0,

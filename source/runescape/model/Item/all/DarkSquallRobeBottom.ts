@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkSquallRobeBottomData = {{
+const DarkSquallRobeBottomData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RatPoleemptyData = {{
+const RatPoleemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

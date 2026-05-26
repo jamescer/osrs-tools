@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixalotprocessedData = {{
+const MixalotprocessedData = {
     examine: "",
     value: 0,
     highAlch: 0,

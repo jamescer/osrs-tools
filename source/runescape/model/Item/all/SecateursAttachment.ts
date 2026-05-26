@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SecateursAttachmentData = {{
+const SecateursAttachmentData = {
     examine: "",
     value: 0,
     highAlch: 0,

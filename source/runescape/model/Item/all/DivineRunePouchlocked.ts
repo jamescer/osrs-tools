@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DivineRunePouchlockedData = {{
+const DivineRunePouchlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

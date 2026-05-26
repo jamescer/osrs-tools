@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilverlightdyedData = {{
+const SilverlightdyedData = {
     examine: "",
     value: 0,
     highAlch: 0,

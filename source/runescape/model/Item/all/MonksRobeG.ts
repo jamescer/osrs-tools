@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const monksRobeGData = {{
+const monksRobeGData = {
     examine: "A religious robe, decorated with gold trim.",
     value: 1560,
     highAlch: 936,

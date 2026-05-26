@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrollBoxMasterData = {{
+const ScrollBoxMasterData = {
     examine: "",
     value: 0,
     highAlch: 0,

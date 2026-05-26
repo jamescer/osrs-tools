@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BasiliskBoneunpolishedData = {{
+const BasiliskBoneunpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

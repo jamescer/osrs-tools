@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalBallFlatpackData = {{
+const CrystalBallFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FedoraData = {{
+const FedoraData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OakHullskiffData = {{
+const OakHullskiffData = {
     examine: "",
     value: 0,
     highAlch: 0,

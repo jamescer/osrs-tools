@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const samuraiGreavesData = {{
+const samuraiGreavesData = {
     examine: "Armoured greaves of the Samurai.",
     value: 3200,
     highAlch: 1920,

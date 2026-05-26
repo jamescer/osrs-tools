@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PortalTalismanCosmicData = {{
+const PortalTalismanCosmicData = {
     examine: "",
     value: 0,
     highAlch: 0,

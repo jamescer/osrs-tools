@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GroundAstralRuneData = {{
+const GroundAstralRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

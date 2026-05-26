@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlyerData = {{
+const FlyerData = {
     examine: "",
     value: 0,
     highAlch: 0,

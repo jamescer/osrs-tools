@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ConstructCapetrimmedData = {{
+const ConstructCapetrimmedData = {
     examine: "",
     value: 0,
     highAlch: 0,

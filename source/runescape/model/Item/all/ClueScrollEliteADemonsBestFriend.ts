@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteADemonsBestFriendData = {{
+const ClueScrollEliteADemonsBestFriendData = {
     examine: "",
     value: 0,
     highAlch: 0,

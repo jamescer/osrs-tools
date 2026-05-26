@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneJavelinTipsData = {{
+const RuneJavelinTipsData = {
     examine: "",
     value: 0,
     highAlch: 0,

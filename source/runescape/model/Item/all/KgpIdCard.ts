@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KgpIdCardData = {{
+const KgpIdCardData = {
     examine: "",
     value: 0,
     highAlch: 0,

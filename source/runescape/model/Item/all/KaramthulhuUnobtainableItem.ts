@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KaramthulhuUnobtainableItemData = {{
+const KaramthulhuUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

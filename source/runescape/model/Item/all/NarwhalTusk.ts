@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NarwhalTuskData = {{
+const NarwhalTuskData = {
     examine: "",
     value: 0,
     highAlch: 0,

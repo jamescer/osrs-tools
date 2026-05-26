@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CasketData = {{
+const CasketData = {
     examine: "",
     value: 0,
     highAlch: 0,

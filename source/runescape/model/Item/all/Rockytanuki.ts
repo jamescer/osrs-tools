@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RockytanukiData = {{
+const RockytanukiData = {
     examine: "",
     value: 0,
     highAlch: 0,

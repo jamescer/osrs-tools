@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const fremennikKiltData = {{
+const fremennikKiltData = {
     examine: "A kilt worn by the mightiest of Fremennik warriors.",
     value: 60000,
     highAlch: 36000,

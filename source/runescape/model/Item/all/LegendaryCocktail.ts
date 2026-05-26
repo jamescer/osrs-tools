@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LegendaryCocktailData = {{
+const LegendaryCocktailData = {
     examine: "",
     value: 0,
     highAlch: 0,

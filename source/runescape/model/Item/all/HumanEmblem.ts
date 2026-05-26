@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HumanEmblemData = {{
+const HumanEmblemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthixSymbolData = {{
+const GuthixSymbolData = {
     examine: "",
     value: 0,
     highAlch: 0,

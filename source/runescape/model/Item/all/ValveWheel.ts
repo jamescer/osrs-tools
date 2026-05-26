@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ValveWheelData = {{
+const ValveWheelData = {
     examine: "",
     value: 0,
     highAlch: 0,

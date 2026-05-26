@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemlowLevelAlchemyData = {{
+const SpellUnobtainableItemlowLevelAlchemyData = {
     examine: "",
     value: 0,
     highAlch: 0,

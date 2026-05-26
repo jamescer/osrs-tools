@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ByrnesCoronationSpeechData = {{
+const ByrnesCoronationSpeechData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JungleCamoLegsinventoryData = {{
+const JungleCamoLegsinventoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

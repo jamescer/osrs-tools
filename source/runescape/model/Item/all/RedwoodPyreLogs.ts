@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedwoodPyreLogsData = {{
+const RedwoodPyreLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

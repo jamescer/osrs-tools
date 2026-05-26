@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OldNoteSecludedChapelData = {{
+const OldNoteSecludedChapelData = {
     examine: "",
     value: 0,
     highAlch: 0,

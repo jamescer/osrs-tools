@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardInTheWesternSectionOfWestArdougneData = {{
+const ClueScrollHardInTheWesternSectionOfWestArdougneData = {
     examine: "",
     value: 0,
     highAlch: 0,

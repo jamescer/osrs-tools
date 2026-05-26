@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardIwpplqtpData = {{
+const ClueScrollHardIwpplqtpData = {
     examine: "",
     value: 0,
     highAlch: 0,

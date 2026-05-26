@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DraconicVisageData = {{
+const DraconicVisageData = {
     examine: "",
     value: 0,
     highAlch: 0,

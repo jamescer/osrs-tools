@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardAGreatViewWatchTheRapidlyDryingHidesGetSplashedData = {{
+const ClueScrollHardAGreatViewWatchTheRapidlyDryingHidesGetSplashedData = {
     examine: "",
     value: 0,
     highAlch: 0,

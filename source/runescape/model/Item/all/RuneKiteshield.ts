@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runeKiteshieldData = {{
+const runeKiteshieldData = {
     examine: "A large metal shield.",
     value: 54400,
     highAlch: 32640,

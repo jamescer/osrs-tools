@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FarmersStrawhatAnimationItemmaleData = {{
+const FarmersStrawhatAnimationItemmaleData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChestKeyDigsiteData = {{
+const ChestKeyDigsiteData = {
     examine: "",
     value: 0,
     highAlch: 0,

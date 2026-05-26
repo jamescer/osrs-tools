@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GricollersCanData = {{
+const GricollersCanData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const lightBowTieData = {{
+const lightBowTieData = {
     examine: "Bow ties are cool.",
     value: 5000,
     highAlch: 3000,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WakingSleepVialData = {{
+const WakingSleepVialData = {
     examine: "",
     value: 0,
     highAlch: 0,

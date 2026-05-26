@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PufferfishData = {{
+const PufferfishData = {
     examine: "",
     value: 0,
     highAlch: 0,

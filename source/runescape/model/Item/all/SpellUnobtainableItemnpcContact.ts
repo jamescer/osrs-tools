@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemnpcContactData = {{
+const SpellUnobtainableItemnpcContactData = {
     examine: "",
     value: 0,
     highAlch: 0,

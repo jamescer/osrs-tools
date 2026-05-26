@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnfinishedCocktailShortGreenGuyHistoricalequaData = {{
+const UnfinishedCocktailShortGreenGuyHistoricalequaData = {
     examine: "",
     value: 0,
     highAlch: 0,

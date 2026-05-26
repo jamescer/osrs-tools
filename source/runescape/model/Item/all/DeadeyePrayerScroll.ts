@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DeadeyePrayerScrollData = {{
+const DeadeyePrayerScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

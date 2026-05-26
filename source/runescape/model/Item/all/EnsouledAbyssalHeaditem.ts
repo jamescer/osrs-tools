@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnsouledAbyssalHeaditemData = {{
+const EnsouledAbyssalHeaditemData = {
     examine: "",
     value: 0,
     highAlch: 0,

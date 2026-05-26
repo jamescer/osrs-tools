@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BaggedBluebellsData = {{
+const BaggedBluebellsData = {
     examine: "",
     value: 0,
     highAlch: 0,

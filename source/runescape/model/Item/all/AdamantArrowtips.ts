@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantArrowtipsData = {{
+const AdamantArrowtipsData = {
     examine: "",
     value: 0,
     highAlch: 0,

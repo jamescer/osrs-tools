@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateBannerStandtrailblazerData = {{
+const OrnateBannerStandtrailblazerData = {
     examine: "",
     value: 0,
     highAlch: 0,

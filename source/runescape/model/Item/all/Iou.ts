@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IouData = {{
+const IouData = {
     examine: "",
     value: 0,
     highAlch: 0,

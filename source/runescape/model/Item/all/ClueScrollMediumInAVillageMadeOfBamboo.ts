@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumInAVillageMadeOfBambooData = {{
+const ClueScrollMediumInAVillageMadeOfBambooData = {
     examine: "",
     value: 0,
     highAlch: 0,

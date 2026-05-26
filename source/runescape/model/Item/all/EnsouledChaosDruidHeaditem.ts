@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnsouledChaosDruidHeaditemData = {{
+const EnsouledChaosDruidHeaditemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalPaddlefishData = {{
+const CrystalPaddlefishData = {
     examine: "",
     value: 0,
     highAlch: 0,

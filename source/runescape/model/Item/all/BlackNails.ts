@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackNailsData = {{
+const BlackNailsData = {
     examine: "",
     value: 0,
     highAlch: 0,

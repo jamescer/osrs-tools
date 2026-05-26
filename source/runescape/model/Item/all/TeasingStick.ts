@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeasingStickData = {{
+const TeasingStickData = {
     examine: "",
     value: 0,
     highAlch: 0,

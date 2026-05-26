@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawSlimyEelData = {{
+const RawSlimyEelData = {
     examine: "",
     value: 0,
     highAlch: 0,

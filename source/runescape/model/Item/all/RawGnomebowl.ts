@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawGnomebowlData = {{
+const RawGnomebowlData = {
     examine: "",
     value: 0,
     highAlch: 0,

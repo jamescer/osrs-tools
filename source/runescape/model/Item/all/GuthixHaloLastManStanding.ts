@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthixHaloLastManStandingData = {{
+const GuthixHaloLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

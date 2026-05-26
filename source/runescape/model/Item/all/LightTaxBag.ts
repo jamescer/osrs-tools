@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LightTaxBagData = {{
+const LightTaxBagData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FluffyFeathersData = {{
+const FluffyFeathersData = {
     examine: "",
     value: 0,
     highAlch: 0,

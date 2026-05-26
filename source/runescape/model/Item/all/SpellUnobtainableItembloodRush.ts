@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItembloodRushData = {{
+const SpellUnobtainableItembloodRushData = {
     examine: "",
     value: 0,
     highAlch: 0,

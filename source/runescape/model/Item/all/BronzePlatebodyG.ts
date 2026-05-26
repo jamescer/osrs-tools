@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzePlatebodyGData = {{
+const BronzePlatebodyGData = {
     examine: "",
     value: 0,
     highAlch: 0,

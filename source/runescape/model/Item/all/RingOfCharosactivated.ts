@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfCharosactivatedData = {{
+const RingOfCharosactivatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RosesNoteforthosRuinData = {{
+const RosesNoteforthosRuinData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImcandoHammerOffhandData = {{
+const ImcandoHammerOffhandData = {
     examine: "",
     value: 0,
     highAlch: 0,

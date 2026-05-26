@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BedabinKeyData = {{
+const BedabinKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

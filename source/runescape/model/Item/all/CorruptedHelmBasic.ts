@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedHelmBasicData = {{
+const CorruptedHelmBasicData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PoleData = {{
+const PoleData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VSigilEData = {{
+const VSigilEData = {
     examine: "",
     value: 0,
     highAlch: 0,

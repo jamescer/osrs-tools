@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const chargeDragonstoneJewelleryScrollData = {{
+const chargeDragonstoneJewelleryScrollData = {
     examine: "A scroll for charging dragonstone jewellery.",
     value: 1,
     highAlch: 1,

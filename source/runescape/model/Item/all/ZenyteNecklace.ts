@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZenyteNecklaceData = {{
+const ZenyteNecklaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

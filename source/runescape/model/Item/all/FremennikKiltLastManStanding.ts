@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FremennikKiltLastManStandingData = {{
+const FremennikKiltLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

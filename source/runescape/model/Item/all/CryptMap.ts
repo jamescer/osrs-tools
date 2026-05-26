@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CryptMapData = {{
+const CryptMapData = {
     examine: "",
     value: 0,
     highAlch: 0,

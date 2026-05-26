@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmadyleanPaintData = {{
+const ArmadyleanPaintData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnsealedLettersandpitData = {{
+const UnsealedLettersandpitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const fireBattlestaffData = {{
+const fireBattlestaffData = {
     examine: "It's a slightly magical stick.",
     value: 15500,
     highAlch: 9300,

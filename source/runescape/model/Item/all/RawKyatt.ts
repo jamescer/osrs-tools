@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawKyattData = {{
+const RawKyattData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CharcoalData = {{
+const CharcoalData = {
     examine: "",
     value: 0,
     highAlch: 0,

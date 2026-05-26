@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HallowedTokenData = {{
+const HallowedTokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

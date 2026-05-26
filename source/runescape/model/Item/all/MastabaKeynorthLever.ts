@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MastabaKeynorthLeverData = {{
+const MastabaKeynorthLeverData = {
     examine: "",
     value: 0,
     highAlch: 0,

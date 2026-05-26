@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicalOrbinactiveData = {{
+const MagicalOrbinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

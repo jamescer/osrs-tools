@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalTecpatlData = {{
+const InfernalTecpatlData = {
     examine: "",
     value: 0,
     highAlch: 0,

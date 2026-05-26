@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenCrystalMourningsEndPartIiData = {{
+const GreenCrystalMourningsEndPartIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

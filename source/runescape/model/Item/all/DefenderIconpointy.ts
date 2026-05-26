@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DefenderIconpointyData = {{
+const DefenderIconpointyData = {
     examine: "",
     value: 0,
     highAlch: 0,

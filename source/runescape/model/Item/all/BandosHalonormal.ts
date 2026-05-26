@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosHalonormalData = {{
+const BandosHalonormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

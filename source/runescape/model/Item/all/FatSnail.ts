@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FatSnailData = {{
+const FatSnailData = {
     examine: "",
     value: 0,
     highAlch: 0,

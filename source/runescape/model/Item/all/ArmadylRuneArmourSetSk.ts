@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmadylRuneArmourSetSkData = {{
+const ArmadylRuneArmourSetSkData = {
     examine: "",
     value: 0,
     highAlch: 0,

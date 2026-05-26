@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RunePouchEmirsArenaData = {{
+const RunePouchEmirsArenaData = {
     examine: "",
     value: 0,
     highAlch: 0,

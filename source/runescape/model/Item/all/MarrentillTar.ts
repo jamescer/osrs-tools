@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarrentillTarData = {{
+const MarrentillTarData = {
     examine: "",
     value: 0,
     highAlch: 0,

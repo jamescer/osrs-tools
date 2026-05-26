@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnapdragonPotionUnfData = {{
+const SnapdragonPotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

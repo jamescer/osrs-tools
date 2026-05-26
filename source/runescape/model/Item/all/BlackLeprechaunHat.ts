@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackLeprechaunHatData = {{
+const blackLeprechaunHatData = {
     examine: "Try as they will, and try as they might, who steals me gold won't live through the night.",
     value: 5000,
     highAlch: 3000,

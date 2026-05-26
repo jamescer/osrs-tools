@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardWhenYouGetTiredOfFightingData = {{
+const ClueScrollHardWhenYouGetTiredOfFightingData = {
     examine: "",
     value: 0,
     highAlch: 0,

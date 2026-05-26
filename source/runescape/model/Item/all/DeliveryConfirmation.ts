@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DeliveryConfirmationData = {{
+const DeliveryConfirmationData = {
     examine: "",
     value: 0,
     highAlch: 0,

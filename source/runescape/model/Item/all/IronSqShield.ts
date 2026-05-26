@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IronSqShieldData = {{
+const IronSqShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

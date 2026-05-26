@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClanWarsCapePvpChampionshiphelmetData = {{
+const ClanWarsCapePvpChampionshiphelmetData = {
     examine: "",
     value: 0,
     highAlch: 0,

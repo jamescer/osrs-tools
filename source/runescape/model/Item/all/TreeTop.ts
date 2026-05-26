@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TreeTopData = {{
+const TreeTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

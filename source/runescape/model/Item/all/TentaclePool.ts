@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TentaclePoolData = {{
+const TentaclePoolData = {
     examine: "",
     value: 0,
     highAlch: 0,

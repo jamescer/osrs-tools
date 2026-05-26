@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnfinishedBowlWormHoleHistoricalData = {{
+const UnfinishedBowlWormHoleHistoricalData = {
     examine: "",
     value: 0,
     highAlch: 0,

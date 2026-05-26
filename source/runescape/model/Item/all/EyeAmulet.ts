@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EyeAmuletData = {{
+const EyeAmuletData = {
     examine: "",
     value: 0,
     highAlch: 0,

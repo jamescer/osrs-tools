@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PineapplePizzahalfData = {{
+const PineapplePizzahalfData = {
     examine: "",
     value: 0,
     highAlch: 0,

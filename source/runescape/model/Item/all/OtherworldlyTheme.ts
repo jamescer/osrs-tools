@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OtherworldlyThemeData = {{
+const OtherworldlyThemeData = {
     examine: "",
     value: 0,
     highAlch: 0,

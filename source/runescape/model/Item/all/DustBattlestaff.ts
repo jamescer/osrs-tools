@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DustBattlestaffData = {{
+const DustBattlestaffData = {
     examine: "",
     value: 0,
     highAlch: 0,

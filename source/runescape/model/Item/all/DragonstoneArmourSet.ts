@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DragonstoneArmourSetData = {{
+const DragonstoneArmourSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

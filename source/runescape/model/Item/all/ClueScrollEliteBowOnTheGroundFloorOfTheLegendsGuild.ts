@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteBowOnTheGroundFloorOfTheLegendsGuildData = {{
+const ClueScrollEliteBowOnTheGroundFloorOfTheLegendsGuildData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LunarLegsData = {{
+const LunarLegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

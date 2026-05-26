@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VsShieldtheFremennikExilesData = {{
+const VsShieldtheFremennikExilesData = {
     examine: "",
     value: 0,
     highAlch: 0,

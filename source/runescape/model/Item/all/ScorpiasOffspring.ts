@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScorpiasOffspringData = {{
+const ScorpiasOffspringData = {
     examine: "",
     value: 0,
     highAlch: 0,

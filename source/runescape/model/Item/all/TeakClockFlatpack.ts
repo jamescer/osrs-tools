@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakClockFlatpackData = {{
+const TeakClockFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

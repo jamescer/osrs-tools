@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmadylCrossbowLastManStandingData = {{
+const ArmadylCrossbowLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

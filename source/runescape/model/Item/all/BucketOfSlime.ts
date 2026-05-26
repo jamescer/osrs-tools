@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketOfSlimeData = {{
+const BucketOfSlimeData = {
     examine: "",
     value: 0,
     highAlch: 0,

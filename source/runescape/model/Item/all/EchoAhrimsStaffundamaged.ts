@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoAhrimsStaffundamagedData = {{
+const EchoAhrimsStaffundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

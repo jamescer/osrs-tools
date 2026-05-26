@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MegaliteLiquidunfinishedData = {{
+const MegaliteLiquidunfinishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

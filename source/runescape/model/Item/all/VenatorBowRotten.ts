@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VenatorBowRottenData = {{
+const VenatorBowRottenData = {
     examine: "",
     value: 0,
     highAlch: 0,

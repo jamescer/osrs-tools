@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PumpkinLanternData = {{
+const PumpkinLanternData = {
     examine: "",
     value: 0,
     highAlch: 0,

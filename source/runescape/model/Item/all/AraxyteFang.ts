@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AraxyteFangData = {{
+const AraxyteFangData = {
     examine: "",
     value: 0,
     highAlch: 0,

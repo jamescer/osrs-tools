@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BirthdayCakeMobileAnniversaryData = {{
+const BirthdayCakeMobileAnniversaryData = {
     examine: "",
     value: 0,
     highAlch: 0,

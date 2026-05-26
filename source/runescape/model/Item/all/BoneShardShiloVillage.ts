@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BoneShardShiloVillageData = {{
+const BoneShardShiloVillageData = {
     examine: "",
     value: 0,
     highAlch: 0,

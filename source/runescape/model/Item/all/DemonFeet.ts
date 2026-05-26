@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const demonFeetData = {{
+const demonFeetData = {
     examine: "Vicious demon slippers.",
     value: 1000,
     highAlch: 600,

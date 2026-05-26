@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfEnduranceunchargedData = {{
+const RingOfEnduranceunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

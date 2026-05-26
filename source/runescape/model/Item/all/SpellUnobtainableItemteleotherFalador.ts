@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemteleotherFaladorData = {{
+const SpellUnobtainableItemteleotherFaladorData = {
     examine: "",
     value: 0,
     highAlch: 0,

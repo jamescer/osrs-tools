@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnfinishedBattaWormData = {{
+const UnfinishedBattaWormData = {
     examine: "",
     value: 0,
     highAlch: 0,

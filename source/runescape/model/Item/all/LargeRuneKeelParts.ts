@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeRuneKeelPartsData = {{
+const LargeRuneKeelPartsData = {
     examine: "",
     value: 0,
     highAlch: 0,

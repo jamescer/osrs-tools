@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyAlKharidMineData = {{
+const ClueScrollEasyAlKharidMineData = {
     examine: "",
     value: 0,
     highAlch: 0,

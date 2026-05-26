@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasoriAssemblerlockedData = {{
+const MasoriAssemblerlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

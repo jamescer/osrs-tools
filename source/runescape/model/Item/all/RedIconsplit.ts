@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedIconsplitData = {{
+const RedIconsplitData = {
     examine: "",
     value: 0,
     highAlch: 0,

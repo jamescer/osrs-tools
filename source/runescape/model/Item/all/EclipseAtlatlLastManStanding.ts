@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EclipseAtlatlLastManStandingData = {{
+const EclipseAtlatlLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

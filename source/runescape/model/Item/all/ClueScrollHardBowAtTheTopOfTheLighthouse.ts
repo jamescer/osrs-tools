@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardBowAtTheTopOfTheLighthouseData = {{
+const ClueScrollHardBowAtTheTopOfTheLighthouseData = {
     examine: "",
     value: 0,
     highAlch: 0,

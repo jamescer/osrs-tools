@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakTrapdoorclosedData = {{
+const TeakTrapdoorclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

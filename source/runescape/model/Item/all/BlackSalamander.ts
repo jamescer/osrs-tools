@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackSalamanderData = {{
+const BlackSalamanderData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HollowReedData = {{
+const HollowReedData = {
     examine: "",
     value: 0,
     highAlch: 0,

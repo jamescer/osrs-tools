@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteTheBeastsRetreatForTheirQueenIsGoneData = {{
+const ClueScrollEliteTheBeastsRetreatForTheirQueenIsGoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

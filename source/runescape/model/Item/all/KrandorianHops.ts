@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KrandorianHopsData = {{
+const KrandorianHopsData = {
     examine: "",
     value: 0,
     highAlch: 0,

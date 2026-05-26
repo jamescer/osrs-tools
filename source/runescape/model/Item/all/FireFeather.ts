@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireFeatherData = {{
+const FireFeatherData = {
     examine: "",
     value: 0,
     highAlch: 0,

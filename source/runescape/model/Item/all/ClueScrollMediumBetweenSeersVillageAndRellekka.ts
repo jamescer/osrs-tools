@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumBetweenSeersVillageAndRellekkaData = {{
+const ClueScrollMediumBetweenSeersVillageAndRellekkaData = {
     examine: "",
     value: 0,
     highAlch: 0,

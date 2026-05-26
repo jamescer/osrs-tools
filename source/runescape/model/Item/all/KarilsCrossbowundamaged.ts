@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KarilsCrossbowundamagedData = {{
+const KarilsCrossbowundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

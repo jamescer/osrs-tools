@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedVoidwakerData = {{
+const CorruptedVoidwakerData = {
     examine: "",
     value: 0,
     highAlch: 0,

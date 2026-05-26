@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TanglerootnormalData = {{
+const TanglerootnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

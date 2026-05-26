@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CanvasPieceData = {{
+const CanvasPieceData = {
     examine: "",
     value: 0,
     highAlch: 0,

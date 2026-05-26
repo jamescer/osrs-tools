@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LesserMagicalBalanceData = {{
+const LesserMagicalBalanceData = {
     examine: "",
     value: 0,
     highAlch: 0,

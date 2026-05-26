@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpinachRollData = {{
+const SpinachRollData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CubePartyellowCrescentData = {{
+const CubePartyellowCrescentData = {
     examine: "",
     value: 0,
     highAlch: 0,

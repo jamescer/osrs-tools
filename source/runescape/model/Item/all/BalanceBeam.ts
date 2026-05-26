@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BalanceBeamData = {{
+const BalanceBeamData = {
     examine: "",
     value: 0,
     highAlch: 0,

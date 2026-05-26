@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArrowheadsVarrockMuseumData = {{
+const ArrowheadsVarrockMuseumData = {
     examine: "",
     value: 0,
     highAlch: 0,

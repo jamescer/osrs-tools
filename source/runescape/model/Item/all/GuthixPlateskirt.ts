@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthixPlateskirtData = {{
+const GuthixPlateskirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

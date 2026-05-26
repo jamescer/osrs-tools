@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PaladinsBadgeSirHarryData = {{
+const PaladinsBadgeSirHarryData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DagannothConstructionData = {{
+const DagannothConstructionData = {
     examine: "",
     value: 0,
     highAlch: 0,

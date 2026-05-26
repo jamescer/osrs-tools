@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MithrilPickHeadData = {{
+const MithrilPickHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

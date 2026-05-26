@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawSeaTurtleData = {{
+const RawSeaTurtleData = {
     examine: "",
     value: 0,
     highAlch: 0,

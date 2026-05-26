@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WrappedOomlieData = {{
+const WrappedOomlieData = {
     examine: "",
     value: 0,
     highAlch: 0,

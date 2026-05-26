@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TridentOfTheSeasOpartiallyChargedData = {{
+const TridentOfTheSeasOpartiallyChargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AlchemistPantsapronOnData = {{
+const AlchemistPantsapronOnData = {
     examine: "",
     value: 0,
     highAlch: 0,

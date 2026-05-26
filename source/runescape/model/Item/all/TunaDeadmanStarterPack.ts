@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TunaDeadmanStarterPackData = {{
+const TunaDeadmanStarterPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

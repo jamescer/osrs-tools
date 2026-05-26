@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArcaneGrimoireData = {{
+const ArcaneGrimoireData = {
     examine: "",
     value: 0,
     highAlch: 0,

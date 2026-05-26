@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteInAWhileData = {{
+const ClueScrollEliteInAWhileData = {
     examine: "",
     value: 0,
     highAlch: 0,

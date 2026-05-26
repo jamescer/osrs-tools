@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RewardTokentempleTrekkingYellowData = {{
+const RewardTokentempleTrekkingYellowData = {
     examine: "",
     value: 0,
     highAlch: 0,

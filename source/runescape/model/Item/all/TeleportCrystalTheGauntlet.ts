@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeleportCrystalTheGauntletData = {{
+const TeleportCrystalTheGauntletData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MediumFossilisedPelvisData = {{
+const MediumFossilisedPelvisData = {
     examine: "",
     value: 0,
     highAlch: 0,

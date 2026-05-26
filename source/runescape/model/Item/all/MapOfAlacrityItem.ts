@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MapOfAlacrityItemData = {{
+const MapOfAlacrityItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

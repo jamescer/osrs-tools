@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CommonTenchData = {{
+const CommonTenchData = {
     examine: "",
     value: 0,
     highAlch: 0,

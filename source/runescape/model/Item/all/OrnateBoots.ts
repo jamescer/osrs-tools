@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateBootsData = {{
+const OrnateBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

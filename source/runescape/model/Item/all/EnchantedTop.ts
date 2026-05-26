@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const enchantedTopData = {{
+const enchantedTopData = {
     examine: "Enchanted Wizards robes.",
     value: 120000,
     highAlch: 72000,

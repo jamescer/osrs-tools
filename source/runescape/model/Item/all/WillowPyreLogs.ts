@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WillowPyreLogsData = {{
+const WillowPyreLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

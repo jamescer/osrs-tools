@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeyOlafsQuesthexagonData = {{
+const KeyOlafsQuesthexagonData = {
     examine: "",
     value: 0,
     highAlch: 0,

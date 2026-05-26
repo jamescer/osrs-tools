@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenAntlerData = {{
+const BrokenAntlerData = {
     examine: "",
     value: 0,
     highAlch: 0,

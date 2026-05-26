@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ForestryBasketopenData = {{
+const ForestryBasketopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

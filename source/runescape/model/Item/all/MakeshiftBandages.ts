@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MakeshiftBandagesData = {{
+const MakeshiftBandagesData = {
     examine: "",
     value: 0,
     highAlch: 0,

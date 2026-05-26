@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ancientDHideShieldData = {{
+const ancientDHideShieldData = {
     examine: "Ancient blessed wooden shield covered in dragon leather.",
     value: 28334,
     highAlch: 17000,

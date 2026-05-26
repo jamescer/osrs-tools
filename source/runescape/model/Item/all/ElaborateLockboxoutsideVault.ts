@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElaborateLockboxoutsideVaultData = {{
+const ElaborateLockboxoutsideVaultData = {
     examine: "",
     value: 0,
     highAlch: 0,

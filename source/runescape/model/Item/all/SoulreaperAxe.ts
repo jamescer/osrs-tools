@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoulreaperAxeData = {{
+const SoulreaperAxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IncompleteStewmeatData = {{
+const IncompleteStewmeatData = {
     examine: "",
     value: 0,
     highAlch: 0,

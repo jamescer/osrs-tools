@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EliteBlackPlatebodyData = {{
+const EliteBlackPlatebodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

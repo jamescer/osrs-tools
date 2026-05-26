@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FremennikRedCloakData = {{
+const FremennikRedCloakData = {
     examine: "",
     value: 0,
     highAlch: 0,

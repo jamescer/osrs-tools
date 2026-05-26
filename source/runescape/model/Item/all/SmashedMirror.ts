@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmashedMirrorData = {{
+const SmashedMirrorData = {
     examine: "",
     value: 0,
     highAlch: 0,

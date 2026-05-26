@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const redDHideBodyData = {{
+const redDHideBodyData = {
     examine: "Body armour made from red dragon hide.",
     value: 7500,
     highAlch: 4500,

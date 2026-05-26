@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ColossalBladeData = {{
+const ColossalBladeData = {
     examine: "",
     value: 0,
     highAlch: 0,

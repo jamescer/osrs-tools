@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MolchPearlData = {{
+const MolchPearlData = {
     examine: "",
     value: 0,
     highAlch: 0,

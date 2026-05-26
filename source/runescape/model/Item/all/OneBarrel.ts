@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OneBarrelData = {{
+const OneBarrelData = {
     examine: "",
     value: 0,
     highAlch: 0,

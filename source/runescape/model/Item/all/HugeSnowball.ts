@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HugeSnowballData = {{
+const HugeSnowballData = {
     examine: "",
     value: 0,
     highAlch: 0,

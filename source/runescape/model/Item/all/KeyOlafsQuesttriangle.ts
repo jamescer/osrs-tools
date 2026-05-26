@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeyOlafsQuesttriangleData = {{
+const KeyOlafsQuesttriangleData = {
     examine: "",
     value: 0,
     highAlch: 0,

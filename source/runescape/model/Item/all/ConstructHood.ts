@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ConstructHoodData = {{
+const ConstructHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

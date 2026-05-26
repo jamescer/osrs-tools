@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FloorDecorationfremennikstyleWoodData = {{
+const FloorDecorationfremennikstyleWoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

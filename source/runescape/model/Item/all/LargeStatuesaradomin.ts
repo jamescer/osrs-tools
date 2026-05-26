@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeStatuesaradominData = {{
+const LargeStatuesaradominData = {
     examine: "",
     value: 0,
     highAlch: 0,

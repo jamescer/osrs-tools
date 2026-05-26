@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantPouchnewData = {{
+const GiantPouchnewData = {
     examine: "",
     value: 0,
     highAlch: 0,

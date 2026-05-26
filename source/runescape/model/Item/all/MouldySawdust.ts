@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MouldySawdustData = {{
+const MouldySawdustData = {
     examine: "",
     value: 0,
     highAlch: 0,

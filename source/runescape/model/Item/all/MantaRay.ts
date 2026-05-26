@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const mantaRayData = {{
+const mantaRayData = {
     examine: "A rare catch.",
     value: 200,
     highAlch: 120,

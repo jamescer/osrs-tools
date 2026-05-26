@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DareeyakTeleportTabletData = {{
+const DareeyakTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

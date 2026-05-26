@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemmagicDartData = {{
+const SpellUnobtainableItemmagicDartData = {
     examine: "",
     value: 0,
     highAlch: 0,

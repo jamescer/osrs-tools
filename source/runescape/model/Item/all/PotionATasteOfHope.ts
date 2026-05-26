@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PotionATasteOfHopeData = {{
+const PotionATasteOfHopeData = {
     examine: "",
     value: 0,
     highAlch: 0,

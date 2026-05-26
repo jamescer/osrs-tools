@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawJubblyData = {{
+const RawJubblyData = {
     examine: "",
     value: 0,
     highAlch: 0,

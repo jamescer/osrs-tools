@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SunfireFanaticHelmData = {{
+const SunfireFanaticHelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

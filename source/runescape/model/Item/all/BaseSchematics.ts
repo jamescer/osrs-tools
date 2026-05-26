@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BaseSchematicsData = {{
+const BaseSchematicsData = {
     examine: "",
     value: 0,
     highAlch: 0,

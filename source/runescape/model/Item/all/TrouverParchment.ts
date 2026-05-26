@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrouverParchmentData = {{
+const TrouverParchmentData = {
     examine: "",
     value: 0,
     highAlch: 0,

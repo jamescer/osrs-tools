@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EternalTeleportCrystalData = {{
+const EternalTeleportCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

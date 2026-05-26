@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DampTabletrejoiceData = {{
+const DampTabletrejoiceData = {
     examine: "",
     value: 0,
     highAlch: 0,

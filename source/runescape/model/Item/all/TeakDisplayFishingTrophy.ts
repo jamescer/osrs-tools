@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakDisplayFishingTrophyData = {{
+const TeakDisplayFishingTrophyData = {
     examine: "",
     value: 0,
     highAlch: 0,

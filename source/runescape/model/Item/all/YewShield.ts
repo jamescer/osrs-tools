@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YewShieldData = {{
+const YewShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

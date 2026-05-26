@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilverBooknormalData = {{
+const SilverBooknormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const yewSeedData = {{
+const yewSeedData = {
     examine: "Plant this in a plantpot of soil to grow a sapling.",
     value: 143,
     highAlch: 85,

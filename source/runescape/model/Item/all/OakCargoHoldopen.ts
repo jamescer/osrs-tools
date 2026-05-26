@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OakCargoHoldopenData = {{
+const OakCargoHoldopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

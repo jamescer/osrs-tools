@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfSufferingrecoilData = {{
+const RingOfSufferingrecoilData = {
     examine: "",
     value: 0,
     highAlch: 0,

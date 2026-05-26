@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EngineData = {{
+const EngineData = {
     examine: "",
     value: 0,
     highAlch: 0,

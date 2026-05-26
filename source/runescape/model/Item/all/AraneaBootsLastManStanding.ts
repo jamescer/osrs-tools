@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AraneaBootsLastManStandingData = {{
+const AraneaBootsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

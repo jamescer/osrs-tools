@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZamorakCloakCastleWarsData = {{
+const ZamorakCloakCastleWarsData = {
     examine: "",
     value: 0,
     highAlch: 0,

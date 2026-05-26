@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AScruffyNoteData = {{
+const AScruffyNoteData = {
     examine: "",
     value: 0,
     highAlch: 0,

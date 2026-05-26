@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantBattleaxeData = {{
+const adamantBattleaxeData = {
     examine: "A vicious looking axe.",
     value: 4160,
     highAlch: 2496,

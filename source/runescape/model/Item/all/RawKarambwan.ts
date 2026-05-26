@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawKarambwanData = {{
+const RawKarambwanData = {
     examine: "",
     value: 0,
     highAlch: 0,

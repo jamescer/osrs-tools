@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NatureRuneBarbarianAssaultData = {{
+const NatureRuneBarbarianAssaultData = {
     examine: "",
     value: 0,
     highAlch: 0,

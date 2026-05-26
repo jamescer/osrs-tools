@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenPartyhatData = {{
+const GreenPartyhatData = {
     examine: "",
     value: 0,
     highAlch: 0,

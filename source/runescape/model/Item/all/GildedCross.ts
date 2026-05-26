@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedCrossData = {{
+const GildedCrossData = {
     examine: "",
     value: 0,
     highAlch: 0,

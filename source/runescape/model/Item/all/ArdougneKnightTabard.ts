@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArdougneKnightTabardData = {{
+const ArdougneKnightTabardData = {
     examine: "",
     value: 0,
     highAlch: 0,

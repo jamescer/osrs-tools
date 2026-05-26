@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SawmillCouponWoodPlankData = {{
+const SawmillCouponWoodPlankData = {
     examine: "",
     value: 0,
     highAlch: 0,

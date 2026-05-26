@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TruthSerumWhileGuthixSleepsData = {{
+const TruthSerumWhileGuthixSleepsData = {
     examine: "",
     value: 0,
     highAlch: 0,

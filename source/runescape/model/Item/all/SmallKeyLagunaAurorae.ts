@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallKeyLagunaAuroraeData = {{
+const SmallKeyLagunaAuroraeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RegenBraceletData = {{
+const RegenBraceletData = {
     examine: "",
     value: 0,
     highAlch: 0,

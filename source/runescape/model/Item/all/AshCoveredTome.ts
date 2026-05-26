@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AshCoveredTomeData = {{
+const AshCoveredTomeData = {
     examine: "",
     value: 0,
     highAlch: 0,

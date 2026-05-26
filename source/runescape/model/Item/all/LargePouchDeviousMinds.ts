@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargePouchDeviousMindsData = {{
+const LargePouchDeviousMindsData = {
     examine: "",
     value: 0,
     highAlch: 0,

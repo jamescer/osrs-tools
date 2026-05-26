@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KronosSeedData = {{
+const KronosSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

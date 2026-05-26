@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ForestryBootsData = {{
+const ForestryBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnstrungEmblemData = {{
+const UnstrungEmblemData = {
     examine: "",
     value: 0,
     highAlch: 0,

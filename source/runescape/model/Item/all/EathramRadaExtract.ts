@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EathramRadaExtractData = {{
+const EathramRadaExtractData = {
     examine: "",
     value: 0,
     highAlch: 0,

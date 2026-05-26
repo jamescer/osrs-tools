@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WispData = {{
+const WispData = {
     examine: "",
     value: 0,
     highAlch: 0,

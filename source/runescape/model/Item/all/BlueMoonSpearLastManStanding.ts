@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueMoonSpearLastManStandingData = {{
+const BlueMoonSpearLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZurielsRobeBottomDeadmanModeData = {{
+const ZurielsRobeBottomDeadmanModeData = {
     examine: "",
     value: 0,
     highAlch: 0,

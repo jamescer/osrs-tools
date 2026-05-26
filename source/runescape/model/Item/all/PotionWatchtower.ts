@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PotionWatchtowerData = {{
+const PotionWatchtowerData = {
     examine: "",
     value: 0,
     highAlch: 0,

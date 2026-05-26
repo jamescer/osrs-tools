@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrisonKeyTrollStrongholdData = {{
+const PrisonKeyTrollStrongholdData = {
     examine: "",
     value: 0,
     highAlch: 0,

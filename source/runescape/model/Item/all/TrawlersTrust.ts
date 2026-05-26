@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrawlersTrustData = {{
+const TrawlersTrustData = {
     examine: "",
     value: 0,
     highAlch: 0,

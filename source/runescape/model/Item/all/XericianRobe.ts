@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const XericianRobeData = {{
+const XericianRobeData = {
     examine: "",
     value: 0,
     highAlch: 0,

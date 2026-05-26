@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosRuneArmourSetLgData = {{
+const BandosRuneArmourSetLgData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeyWaterfallDungeonData = {{
+const KeyWaterfallDungeonData = {
     examine: "",
     value: 0,
     highAlch: 0,

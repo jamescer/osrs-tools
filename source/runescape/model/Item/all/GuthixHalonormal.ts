@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthixHalonormalData = {{
+const GuthixHalonormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

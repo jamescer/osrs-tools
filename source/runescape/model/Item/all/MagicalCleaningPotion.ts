@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicalCleaningPotionData = {{
+const MagicalCleaningPotionData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StaleBaguetteData = {{
+const StaleBaguetteData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeleportFocusFacilityData = {{
+const TeleportFocusFacilityData = {
     examine: "",
     value: 0,
     highAlch: 0,

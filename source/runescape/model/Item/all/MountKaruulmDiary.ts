@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MountKaruulmDiaryData = {{
+const MountKaruulmDiaryData = {
     examine: "",
     value: 0,
     highAlch: 0,

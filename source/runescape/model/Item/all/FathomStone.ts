@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FathomStoneData = {{
+const FathomStoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

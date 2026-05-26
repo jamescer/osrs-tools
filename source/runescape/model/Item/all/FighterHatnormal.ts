@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FighterHatnormalData = {{
+const FighterHatnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PirateHatPatchData = {{
+const PirateHatPatchData = {
     examine: "",
     value: 0,
     highAlch: 0,

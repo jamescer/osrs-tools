@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoonlightAntlerBoltsData = {{
+const MoonlightAntlerBoltsData = {
     examine: "",
     value: 0,
     highAlch: 0,

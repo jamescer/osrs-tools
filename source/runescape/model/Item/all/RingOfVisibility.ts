@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfVisibilityData = {{
+const RingOfVisibilityData = {
     examine: "",
     value: 0,
     highAlch: 0,

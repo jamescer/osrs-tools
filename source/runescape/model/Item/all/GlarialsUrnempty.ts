@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlarialsUrnemptyData = {{
+const GlarialsUrnemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

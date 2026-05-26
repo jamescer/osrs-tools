@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiceRackData = {{
+const SpiceRackData = {
     examine: "",
     value: 0,
     highAlch: 0,

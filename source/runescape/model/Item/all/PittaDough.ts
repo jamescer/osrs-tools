@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PittaDoughData = {{
+const PittaDoughData = {
     examine: "",
     value: 0,
     highAlch: 0,

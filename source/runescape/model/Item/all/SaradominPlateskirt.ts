@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaradominPlateskirtData = {{
+const SaradominPlateskirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntGnomebowlData = {{
+const BurntGnomebowlData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteChainbodyData = {{
+const WhiteChainbodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

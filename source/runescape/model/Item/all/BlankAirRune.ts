@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlankAirRuneData = {{
+const BlankAirRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

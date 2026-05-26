@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AttasSeedData = {{
+const AttasSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

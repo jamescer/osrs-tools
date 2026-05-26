@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LogsAndKindlingData = {{
+const LogsAndKindlingData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarklightMountedData = {{
+const DarklightMountedData = {
     examine: "",
     value: 0,
     highAlch: 0,

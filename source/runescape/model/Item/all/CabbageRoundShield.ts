@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const cabbageRoundShieldData = {{
+const cabbageRoundShieldData = {
     examine: "An adamant shield shaped like a cabbage.",
     value: 3000,
     highAlch: 1800,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoakedPageData = {{
+const SoakedPageData = {
     examine: "",
     value: 0,
     highAlch: 0,

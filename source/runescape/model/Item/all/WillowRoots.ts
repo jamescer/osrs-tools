@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WillowRootsData = {{
+const WillowRootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

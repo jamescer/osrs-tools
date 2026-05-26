@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HerbyTuftData = {{
+const HerbyTuftData = {
     examine: "",
     value: 0,
     highAlch: 0,

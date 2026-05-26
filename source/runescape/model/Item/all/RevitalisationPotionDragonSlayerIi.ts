@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RevitalisationPotionDragonSlayerIiData = {{
+const RevitalisationPotionDragonSlayerIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

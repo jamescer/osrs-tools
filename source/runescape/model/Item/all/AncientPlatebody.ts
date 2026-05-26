@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ancientPlatebodyData = {{
+const ancientPlatebodyData = {
     examine: "Rune platebody in the colours of a long-forgotten god.",
     value: 65000,
     highAlch: 39000,

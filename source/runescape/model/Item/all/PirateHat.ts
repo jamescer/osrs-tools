@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PirateHatData = {{
+const PirateHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnnasPrintData = {{
+const AnnasPrintData = {
     examine: "",
     value: 0,
     highAlch: 0,

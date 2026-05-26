@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CobwebCapeData = {{
+const CobwebCapeData = {
     examine: "",
     value: 0,
     highAlch: 0,

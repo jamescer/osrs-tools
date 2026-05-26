@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LockboxDirectionsShimmeringAtollData = {{
+const LockboxDirectionsShimmeringAtollData = {
     examine: "",
     value: 0,
     highAlch: 0,

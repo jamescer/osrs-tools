@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OvergrownCatblackData = {{
+const OvergrownCatblackData = {
     examine: "",
     value: 0,
     highAlch: 0,

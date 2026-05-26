@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawSunlightAntelopeData = {{
+const RawSunlightAntelopeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnakeskinBootsData = {{
+const SnakeskinBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

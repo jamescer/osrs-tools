@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BeachBoxingGlovespinkData = {{
+const BeachBoxingGlovespinkData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CaveNightshadeData = {{
+const CaveNightshadeData = {
     examine: "",
     value: 0,
     highAlch: 0,

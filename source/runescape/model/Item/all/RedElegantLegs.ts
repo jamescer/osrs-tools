@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedElegantLegsData = {{
+const RedElegantLegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClearLiquidData = {{
+const ClearLiquidData = {
     examine: "",
     value: 0,
     highAlch: 0,

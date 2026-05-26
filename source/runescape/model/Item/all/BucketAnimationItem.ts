@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketAnimationItemData = {{
+const BucketAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

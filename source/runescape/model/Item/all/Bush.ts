@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BushData = {{
+const BushData = {
     examine: "",
     value: 0,
     highAlch: 0,

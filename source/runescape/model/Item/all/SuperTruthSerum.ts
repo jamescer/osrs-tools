@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SuperTruthSerumData = {{
+const SuperTruthSerumData = {
     examine: "",
     value: 0,
     highAlch: 0,

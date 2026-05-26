@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CurrySaplingData = {{
+const CurrySaplingData = {
     examine: "",
     value: 0,
     highAlch: 0,

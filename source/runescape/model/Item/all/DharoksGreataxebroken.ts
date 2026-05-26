@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DharoksGreataxebrokenData = {{
+const DharoksGreataxebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

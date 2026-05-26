@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SharkPaintData = {{
+const SharkPaintData = {
     examine: "",
     value: 0,
     highAlch: 0,

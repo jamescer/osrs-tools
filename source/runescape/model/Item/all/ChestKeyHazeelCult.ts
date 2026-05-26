@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChestKeyHazeelCultData = {{
+const ChestKeyHazeelCultData = {
     examine: "",
     value: 0,
     highAlch: 0,

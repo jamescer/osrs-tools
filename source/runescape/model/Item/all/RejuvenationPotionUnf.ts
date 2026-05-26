@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RejuvenationPotionUnfData = {{
+const RejuvenationPotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

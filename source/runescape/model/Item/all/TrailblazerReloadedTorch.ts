@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerReloadedTorchData = {{
+const TrailblazerReloadedTorchData = {
     examine: "",
     value: 0,
     highAlch: 0,

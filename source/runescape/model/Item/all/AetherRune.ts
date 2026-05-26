@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AetherRuneData = {{
+const AetherRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

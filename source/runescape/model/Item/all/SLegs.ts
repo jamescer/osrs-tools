@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sLegsData = {{
+const sLegsData = {
     examine: "Just landed 22lb shot.",
     value: 1,
     highAlch: 0,

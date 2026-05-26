@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PortalTalismanChaosData = {{
+const PortalTalismanChaosData = {
     examine: "",
     value: 0,
     highAlch: 0,

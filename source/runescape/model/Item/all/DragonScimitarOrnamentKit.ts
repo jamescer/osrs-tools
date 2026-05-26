@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const dragonScimitarOrnamentKitData = {{
+const dragonScimitarOrnamentKitData = {
     examine: "Use on the dragon scimitar to trim it with gold.",
     value: 5000,
     highAlch: 3000,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteAReckYouSayData = {{
+const ClueScrollEliteAReckYouSayData = {
     examine: "",
     value: 0,
     highAlch: 0,

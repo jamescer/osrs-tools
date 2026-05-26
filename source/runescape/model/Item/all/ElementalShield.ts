@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElementalShieldData = {{
+const ElementalShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

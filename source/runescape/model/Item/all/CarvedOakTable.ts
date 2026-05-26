@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CarvedOakTableData = {{
+const CarvedOakTableData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateBannerStandshatteredRelicsData = {{
+const OrnateBannerStandshatteredRelicsData = {
     examine: "",
     value: 0,
     highAlch: 0,

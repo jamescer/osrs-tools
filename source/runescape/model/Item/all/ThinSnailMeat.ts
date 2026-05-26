@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThinSnailMeatData = {{
+const ThinSnailMeatData = {
     examine: "",
     value: 0,
     highAlch: 0,

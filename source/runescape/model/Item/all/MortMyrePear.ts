@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MortMyrePearData = {{
+const MortMyrePearData = {
     examine: "",
     value: 0,
     highAlch: 0,

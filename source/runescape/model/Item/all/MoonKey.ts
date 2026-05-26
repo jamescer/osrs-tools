@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoonKeyData = {{
+const MoonKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

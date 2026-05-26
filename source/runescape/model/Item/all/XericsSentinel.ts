@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const XericsSentinelData = {{
+const XericsSentinelData = {
     examine: "",
     value: 0,
     highAlch: 0,

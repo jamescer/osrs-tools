@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HunkOfCrystalData = {{
+const HunkOfCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

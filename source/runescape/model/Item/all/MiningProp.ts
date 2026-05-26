@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MiningPropData = {{
+const MiningPropData = {
     examine: "",
     value: 0,
     highAlch: 0,

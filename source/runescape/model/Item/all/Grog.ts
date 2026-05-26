@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrogData = {{
+const GrogData = {
     examine: "",
     value: 0,
     highAlch: 0,

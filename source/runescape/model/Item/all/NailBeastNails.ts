@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NailBeastNailsData = {{
+const NailBeastNailsData = {
     examine: "",
     value: 0,
     highAlch: 0,

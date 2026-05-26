@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemhealOtherData = {{
+const SpellUnobtainableItemhealOtherData = {
     examine: "",
     value: 0,
     highAlch: 0,

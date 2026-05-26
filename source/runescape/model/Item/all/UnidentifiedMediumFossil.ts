@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnidentifiedMediumFossilData = {{
+const UnidentifiedMediumFossilData = {
     examine: "",
     value: 0,
     highAlch: 0,

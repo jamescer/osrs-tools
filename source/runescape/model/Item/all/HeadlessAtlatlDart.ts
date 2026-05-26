@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HeadlessAtlatlDartData = {{
+const HeadlessAtlatlDartData = {
     examine: "",
     value: 0,
     highAlch: 0,

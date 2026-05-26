@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const staffOfBobTheCatData = {{
+const staffOfBobTheCatData = {
     examine: "A staff in the shape of a cat.",
     value: 1560,
     highAlch: 936,

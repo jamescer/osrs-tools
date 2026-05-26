@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RustyKeyData = {{
+const RustyKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

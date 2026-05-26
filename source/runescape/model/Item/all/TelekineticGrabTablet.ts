@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TelekineticGrabTabletData = {{
+const TelekineticGrabTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BannerStanddemonicPactsData = {{
+const BannerStanddemonicPactsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NistiriosManifestoData = {{
+const NistiriosManifestoData = {
     examine: "",
     value: 0,
     highAlch: 0,

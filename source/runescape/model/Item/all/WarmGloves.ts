@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WarmGlovesData = {{
+const WarmGlovesData = {
     examine: "",
     value: 0,
     highAlch: 0,

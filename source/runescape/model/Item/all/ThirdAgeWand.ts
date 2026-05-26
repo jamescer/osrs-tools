@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ThirdAgeWandData = {{
+const ThirdAgeWandData = {
     examine: "A beautifully crafted wand infused by ancient wizards.",
     value: 150000,
     highAlch: 90000,

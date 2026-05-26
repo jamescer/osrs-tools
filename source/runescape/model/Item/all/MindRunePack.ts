@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MindRunePackData = {{
+const MindRunePackData = {
     examine: "",
     value: 0,
     highAlch: 0,

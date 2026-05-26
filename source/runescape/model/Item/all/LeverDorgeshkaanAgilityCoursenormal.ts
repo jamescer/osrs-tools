@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeverDorgeshkaanAgilityCoursenormalData = {{
+const LeverDorgeshkaanAgilityCoursenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AivasBustData = {{
+const AivasBustData = {
     examine: "",
     value: 0,
     highAlch: 0,

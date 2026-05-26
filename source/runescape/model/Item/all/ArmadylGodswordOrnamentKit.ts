@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const armadylGodswordOrnamentKitData = {{
+const armadylGodswordOrnamentKitData = {
     examine: "Use on an Armadyl godsword to make it look fancier!",
     value: 5000,
     highAlch: 3000,

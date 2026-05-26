@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BaggedWillowTreeData = {{
+const BaggedWillowTreeData = {
     examine: "",
     value: 0,
     highAlch: 0,

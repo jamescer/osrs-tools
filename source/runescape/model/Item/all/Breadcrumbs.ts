@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BreadcrumbsData = {{
+const BreadcrumbsData = {
     examine: "",
     value: 0,
     highAlch: 0,

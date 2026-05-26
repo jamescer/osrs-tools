@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectorIconfullMuttonData = {{
+const CollectorIconfullMuttonData = {
     examine: "",
     value: 0,
     highAlch: 0,

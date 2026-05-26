@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const APatternData = {{
+const APatternData = {
     examine: "",
     value: 0,
     highAlch: 0,

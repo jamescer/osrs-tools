@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CarvedOakMagicWardrobeopenData = {{
+const CarvedOakMagicWardrobeopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

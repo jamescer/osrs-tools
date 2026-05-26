@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StodgyMattressData = {{
+const StodgyMattressData = {
     examine: "",
     value: 0,
     highAlch: 0,

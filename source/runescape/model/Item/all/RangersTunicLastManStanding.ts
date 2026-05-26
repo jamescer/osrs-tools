@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RangersTunicLastManStandingData = {{
+const RangersTunicLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

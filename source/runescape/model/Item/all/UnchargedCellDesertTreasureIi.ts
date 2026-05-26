@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnchargedCellDesertTreasureIiData = {{
+const UnchargedCellDesertTreasureIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

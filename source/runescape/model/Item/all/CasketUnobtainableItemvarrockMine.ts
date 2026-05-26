@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CasketUnobtainableItemvarrockMineData = {{
+const CasketUnobtainableItemvarrockMineData = {
     examine: "",
     value: 0,
     highAlch: 0,

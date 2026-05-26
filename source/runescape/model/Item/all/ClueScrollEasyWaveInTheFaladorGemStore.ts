@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyWaveInTheFaladorGemStoreData = {{
+const ClueScrollEasyWaveInTheFaladorGemStoreData = {
     examine: "",
     value: 0,
     highAlch: 0,

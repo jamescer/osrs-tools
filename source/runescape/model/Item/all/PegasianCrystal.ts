@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PegasianCrystalData = {{
+const PegasianCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TreasonousRingIsoulWarsData = {{
+const TreasonousRingIsoulWarsData = {
     examine: "",
     value: 0,
     highAlch: 0,

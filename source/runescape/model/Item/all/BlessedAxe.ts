@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlessedAxeData = {{
+const BlessedAxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

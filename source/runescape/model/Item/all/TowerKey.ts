@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TowerKeyData = {{
+const TowerKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

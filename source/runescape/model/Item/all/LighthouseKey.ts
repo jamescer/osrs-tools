@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LighthouseKeyData = {{
+const LighthouseKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

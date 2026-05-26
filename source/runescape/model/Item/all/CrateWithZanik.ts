@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateWithZanikData = {{
+const CrateWithZanikData = {
     examine: "",
     value: 0,
     highAlch: 0,

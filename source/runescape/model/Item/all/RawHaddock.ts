@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawHaddockData = {{
+const RawHaddockData = {
     examine: "",
     value: 0,
     highAlch: 0,

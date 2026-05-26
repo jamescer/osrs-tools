@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantBoltsunfData = {{
+const AdamantBoltsunfData = {
     examine: "",
     value: 0,
     highAlch: 0,

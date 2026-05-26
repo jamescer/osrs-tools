@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BaubleBoxfullData = {{
+const BaubleBoxfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

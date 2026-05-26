@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PastyJogreBonesburntBonesRawPasteData = {{
+const PastyJogreBonesburntBonesRawPasteData = {
     examine: "",
     value: 0,
     highAlch: 0,

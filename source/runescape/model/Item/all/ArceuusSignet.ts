@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArceuusSignetData = {{
+const ArceuusSignetData = {
     examine: "",
     value: 0,
     highAlch: 0,

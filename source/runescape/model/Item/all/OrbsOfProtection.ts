@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrbsOfProtectionData = {{
+const OrbsOfProtectionData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const unholyBlessingData = {{
+const unholyBlessingData = {
     examine: "The Dark Lord will rise again with his servant's aid, greater and more terrible than ever he was.",
     value: 80,
     highAlch: 48,

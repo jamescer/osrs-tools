@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const onyxBoltTipsData = {{
+const onyxBoltTipsData = {
     examine: "Onyx bolt tips.",
     value: 1000,
     highAlch: 600,

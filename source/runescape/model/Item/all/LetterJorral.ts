@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LetterJorralData = {{
+const LetterJorralData = {
     examine: "",
     value: 0,
     highAlch: 0,

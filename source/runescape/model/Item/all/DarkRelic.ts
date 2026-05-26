@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkRelicData = {{
+const DarkRelicData = {
     examine: "",
     value: 0,
     highAlch: 0,

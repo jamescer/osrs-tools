@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardZhlugRogPdqData = {{
+const ClueScrollHardZhlugRogPdqData = {
     examine: "",
     value: 0,
     highAlch: 0,

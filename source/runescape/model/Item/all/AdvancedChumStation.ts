@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdvancedChumStationData = {{
+const AdvancedChumStationData = {
     examine: "",
     value: 0,
     highAlch: 0,

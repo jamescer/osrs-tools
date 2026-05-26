@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LuckyShotFlagData = {{
+const LuckyShotFlagData = {
     examine: "",
     value: 0,
     highAlch: 0,

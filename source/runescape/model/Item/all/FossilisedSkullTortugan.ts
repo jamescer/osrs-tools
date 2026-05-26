@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FossilisedSkullTortuganData = {{
+const FossilisedSkullTortuganData = {
     examine: "",
     value: 0,
     highAlch: 0,

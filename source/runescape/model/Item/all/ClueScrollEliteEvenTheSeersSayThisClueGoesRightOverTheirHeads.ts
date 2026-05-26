@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteEvenTheSeersSayThisClueGoesRightOverTheirHeadsData = {{
+const ClueScrollEliteEvenTheSeersSayThisClueGoesRightOverTheirHeadsData = {
     examine: "",
     value: 0,
     highAlch: 0,

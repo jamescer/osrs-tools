@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IncenseBurnerOakunlitData = {{
+const IncenseBurnerOakunlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BullseyeLanternunlitData = {{
+const BullseyeLanternunlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

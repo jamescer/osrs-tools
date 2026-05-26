@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UltorIconData = {{
+const UltorIconData = {
     examine: "",
     value: 0,
     highAlch: 0,

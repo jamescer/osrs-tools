@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfBearMeatlandsEndData = {{
+const CrateOfBearMeatlandsEndData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sharkData = {{
+const sharkData = {
     examine: "I'd better be careful eating this.",
     value: 170,
     highAlch: 102,

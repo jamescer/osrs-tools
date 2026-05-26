@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LiplackLiquorunfinishedData = {{
+const LiplackLiquorunfinishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

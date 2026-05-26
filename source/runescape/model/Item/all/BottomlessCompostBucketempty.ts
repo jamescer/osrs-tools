@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottomlessCompostBucketemptyData = {{
+const BottomlessCompostBucketemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantPenData = {{
+const GiantPenData = {
     examine: "",
     value: 0,
     highAlch: 0,

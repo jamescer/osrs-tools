@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyRepairKitData = {{
+const MahoganyRepairKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

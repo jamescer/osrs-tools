@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalHalberdAttunedData = {{
+const CrystalHalberdAttunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

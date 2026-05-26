@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelDaggerunpData = {{
+const SteelDaggerunpData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MazeKeyData = {{
+const MazeKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

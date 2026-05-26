@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantSeaweedData = {{
+const GiantSeaweedData = {
     examine: "",
     value: 0,
     highAlch: 0,

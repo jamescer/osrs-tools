@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RoyalFrogLeggingsData = {{
+const RoyalFrogLeggingsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShrinkmequickData = {{
+const ShrinkmequickData = {
     examine: "",
     value: 0,
     highAlch: 0,

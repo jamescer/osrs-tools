@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CatalyticRunePackData = {{
+const CatalyticRunePackData = {
     examine: "",
     value: 0,
     highAlch: 0,

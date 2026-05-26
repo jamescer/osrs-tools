@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blueWizardHatGData = {{
+const blueWizardHatGData = {
     examine: "A silly pointed hat, with colourful trim.",
     value: 2,
     highAlch: 1,

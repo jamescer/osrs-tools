@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarbtailHarpoonData = {{
+const BarbtailHarpoonData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ObeliskConstructionData = {{
+const ObeliskConstructionData = {
     examine: "",
     value: 0,
     highAlch: 0,

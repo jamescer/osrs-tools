@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BirdNestWysonData = {{
+const BirdNestWysonData = {
     examine: "",
     value: 0,
     highAlch: 0,

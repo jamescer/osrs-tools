@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SecretPageData = {{
+const SecretPageData = {
     examine: "",
     value: 0,
     highAlch: 0,

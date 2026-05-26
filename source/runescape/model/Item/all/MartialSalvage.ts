@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MartialSalvageData = {{
+const MartialSalvageData = {
     examine: "",
     value: 0,
     highAlch: 0,

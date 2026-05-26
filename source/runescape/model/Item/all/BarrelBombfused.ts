@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarrelBombfusedData = {{
+const BarrelBombfusedData = {
     examine: "",
     value: 0,
     highAlch: 0,

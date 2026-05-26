@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrollPotionData = {{
+const TrollPotionData = {
     examine: "",
     value: 0,
     highAlch: 0,

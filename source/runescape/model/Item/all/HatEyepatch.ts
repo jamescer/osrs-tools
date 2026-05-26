@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HatEyepatchData = {{
+const HatEyepatchData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyAltargnomeChildData = {{
+const MahoganyAltargnomeChildData = {
     examine: "",
     value: 0,
     highAlch: 0,

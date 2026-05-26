@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedBarroniteData = {{
+const ImbuedBarroniteData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardWooAnEggKiwiData = {{
+const ClueScrollHardWooAnEggKiwiData = {
     examine: "",
     value: 0,
     highAlch: 0,

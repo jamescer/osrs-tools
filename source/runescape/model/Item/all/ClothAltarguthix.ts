@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClothAltarguthixData = {{
+const ClothAltarguthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

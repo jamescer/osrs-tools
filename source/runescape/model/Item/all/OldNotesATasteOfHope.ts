@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OldNotesATasteOfHopeData = {{
+const OldNotesATasteOfHopeData = {
     examine: "",
     value: 0,
     highAlch: 0,

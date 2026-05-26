@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadeBlurbSpData = {{
+const PremadeBlurbSpData = {
     examine: "",
     value: 0,
     highAlch: 0,

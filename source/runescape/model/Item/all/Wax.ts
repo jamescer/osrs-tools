@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WaxData = {{
+const WaxData = {
     examine: "",
     value: 0,
     highAlch: 0,

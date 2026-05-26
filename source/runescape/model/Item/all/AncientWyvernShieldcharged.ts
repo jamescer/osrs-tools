@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AncientWyvernShieldchargedData = {{
+const AncientWyvernShieldchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

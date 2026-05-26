@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfPestRemainsaldarinData = {{
+const CrateOfPestRemainsaldarinData = {
     examine: "",
     value: 0,
     highAlch: 0,

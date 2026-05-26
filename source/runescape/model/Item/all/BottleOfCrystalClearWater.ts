@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottleOfCrystalClearWaterData = {{
+const BottleOfCrystalClearWaterData = {
     examine: "",
     value: 0,
     highAlch: 0,

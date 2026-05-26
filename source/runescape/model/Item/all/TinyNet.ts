@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TinyNetData = {{
+const TinyNetData = {
     examine: "",
     value: 0,
     highAlch: 0,

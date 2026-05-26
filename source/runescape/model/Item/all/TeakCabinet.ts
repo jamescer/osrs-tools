@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakCabinetData = {{
+const TeakCabinetData = {
     examine: "",
     value: 0,
     highAlch: 0,

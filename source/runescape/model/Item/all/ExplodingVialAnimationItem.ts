@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExplodingVialAnimationItemData = {{
+const ExplodingVialAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

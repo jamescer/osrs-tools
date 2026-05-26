@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MammothmightMixunfinishedData = {{
+const MammothmightMixunfinishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DetonatorData = {{
+const DetonatorData = {
     examine: "",
     value: 0,
     highAlch: 0,

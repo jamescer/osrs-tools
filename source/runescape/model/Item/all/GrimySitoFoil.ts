@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrimySitoFoilData = {{
+const GrimySitoFoilData = {
     examine: "",
     value: 0,
     highAlch: 0,

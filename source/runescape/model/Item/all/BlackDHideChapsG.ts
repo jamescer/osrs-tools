@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackDHideChapsGData = {{
+const blackDHideChapsGData = {
     examine: "Made from 100% real dragonhide. With colourful trim!",
     value: 6220,
     highAlch: 3732,

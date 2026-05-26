@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MerfolkTridentData = {{
+const MerfolkTridentData = {
     examine: "",
     value: 0,
     highAlch: 0,

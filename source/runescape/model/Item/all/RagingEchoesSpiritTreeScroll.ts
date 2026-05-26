@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesSpiritTreeScrollData = {{
+const RagingEchoesSpiritTreeScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

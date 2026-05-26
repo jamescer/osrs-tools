@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilverKeyCrimsonData = {{
+const SilverKeyCrimsonData = {
     examine: "",
     value: 0,
     highAlch: 0,

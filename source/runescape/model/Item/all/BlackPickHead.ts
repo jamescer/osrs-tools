@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackPickHeadData = {{
+const BlackPickHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

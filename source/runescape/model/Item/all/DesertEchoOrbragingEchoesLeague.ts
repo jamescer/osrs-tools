@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DesertEchoOrbragingEchoesLeagueData = {{
+const DesertEchoOrbragingEchoesLeagueData = {
     examine: "",
     value: 0,
     highAlch: 0,

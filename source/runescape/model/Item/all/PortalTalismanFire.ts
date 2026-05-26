@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PortalTalismanFireData = {{
+const PortalTalismanFireData = {
     examine: "",
     value: 0,
     highAlch: 0,

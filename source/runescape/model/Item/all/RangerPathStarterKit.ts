@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RangerPathStarterKitData = {{
+const RangerPathStarterKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

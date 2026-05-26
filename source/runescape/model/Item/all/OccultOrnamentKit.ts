@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const occultOrnamentKitData = {{
+const occultOrnamentKitData = {
     examine: "Use on an occult necklace to make it look fancier!",
     value: 5000,
     highAlch: 3000,

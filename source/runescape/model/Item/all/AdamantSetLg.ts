@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantSetLgData = {{
+const AdamantSetLgData = {
     examine: "",
     value: 0,
     highAlch: 0,

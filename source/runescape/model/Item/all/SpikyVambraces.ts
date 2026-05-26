@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpikyVambracesData = {{
+const SpikyVambracesData = {
     examine: "",
     value: 0,
     highAlch: 0,

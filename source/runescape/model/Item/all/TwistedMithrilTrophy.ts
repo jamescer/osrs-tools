@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwistedMithrilTrophyData = {{
+const TwistedMithrilTrophyData = {
     examine: "",
     value: 0,
     highAlch: 0,

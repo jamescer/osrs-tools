@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImpishWhistleData = {{
+const ImpishWhistleData = {
     examine: "",
     value: 0,
     highAlch: 0,

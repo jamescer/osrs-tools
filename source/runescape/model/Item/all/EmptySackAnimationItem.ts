@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmptySackAnimationItemData = {{
+const EmptySackAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalloweenMaskSetData = {{
+const HalloweenMaskSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const royalCrownData = {{
+const royalCrownData = {
     examine: "Who said I'd never be royal?",
     value: 6000,
     highAlch: 3600,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrykewyrmBonemealData = {{
+const StrykewyrmBonemealData = {
     examine: "",
     value: 0,
     highAlch: 0,

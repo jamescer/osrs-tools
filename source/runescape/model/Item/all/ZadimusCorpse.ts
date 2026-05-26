@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZadimusCorpseData = {{
+const ZadimusCorpseData = {
     examine: "",
     value: 0,
     highAlch: 0,

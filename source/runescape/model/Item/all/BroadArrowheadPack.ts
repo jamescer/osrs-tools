@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BroadArrowheadPackData = {{
+const BroadArrowheadPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

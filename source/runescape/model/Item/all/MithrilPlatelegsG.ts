@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const mithrilPlatelegsGData = {{
+const mithrilPlatelegsGData = {
     examine: "Mithril platelegs with gold trim.",
     value: 2600,
     highAlch: 1560,

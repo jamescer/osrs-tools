@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackTrimmedSetSkData = {{
+const BlackTrimmedSetSkData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalMaxCapenormalData = {{
+const InfernalMaxCapenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoblinKitchenKeyData = {{
+const GoblinKitchenKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

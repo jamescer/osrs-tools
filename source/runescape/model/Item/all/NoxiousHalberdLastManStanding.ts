@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NoxiousHalberdLastManStandingData = {{
+const NoxiousHalberdLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

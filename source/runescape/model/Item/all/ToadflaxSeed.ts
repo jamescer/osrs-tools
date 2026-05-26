@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ToadflaxSeedData = {{
+const ToadflaxSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

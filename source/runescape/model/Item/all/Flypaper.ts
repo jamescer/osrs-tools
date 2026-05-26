@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlypaperData = {{
+const FlypaperData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrifddinasHistoryData = {{
+const PrifddinasHistoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

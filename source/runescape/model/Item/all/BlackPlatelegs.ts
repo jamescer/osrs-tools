@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackPlateLegsData = {{
+const blackPlateLegsData = {
     examine: "A pair of very strong trousers.",
     value: 320,
     highAlch: 192,

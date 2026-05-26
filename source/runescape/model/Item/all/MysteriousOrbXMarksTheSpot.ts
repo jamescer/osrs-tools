@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysteriousOrbXMarksTheSpotData = {{
+const MysteriousOrbXMarksTheSpotData = {
     examine: "",
     value: 0,
     highAlch: 0,

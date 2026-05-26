@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DwarvenBattleaxesharpenedData = {{
+const DwarvenBattleaxesharpenedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MithrilBattleaxeData = {{
+const MithrilBattleaxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

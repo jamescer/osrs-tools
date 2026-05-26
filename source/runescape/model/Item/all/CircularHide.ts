@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CircularHideData = {{
+const CircularHideData = {
     examine: "",
     value: 0,
     highAlch: 0,

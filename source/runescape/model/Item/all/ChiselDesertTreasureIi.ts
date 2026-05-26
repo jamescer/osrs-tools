@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChiselDesertTreasureIiData = {{
+const ChiselDesertTreasureIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

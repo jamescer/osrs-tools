@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SandyPaintData = {{
+const SandyPaintData = {
     examine: "",
     value: 0,
     highAlch: 0,

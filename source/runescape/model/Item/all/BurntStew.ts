@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntStewData = {{
+const BurntStewData = {
     examine: "",
     value: 0,
     highAlch: 0,

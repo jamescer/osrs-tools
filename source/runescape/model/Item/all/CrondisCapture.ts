@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrondisCaptureData = {{
+const CrondisCaptureData = {
     examine: "",
     value: 0,
     highAlch: 0,

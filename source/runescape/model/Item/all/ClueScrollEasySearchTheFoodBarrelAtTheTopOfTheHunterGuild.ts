@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasySearchTheFoodBarrelAtTheTopOfTheHunterGuildData = {{
+const ClueScrollEasySearchTheFoodBarrelAtTheTopOfTheHunterGuildData = {
     examine: "",
     value: 0,
     highAlch: 0,

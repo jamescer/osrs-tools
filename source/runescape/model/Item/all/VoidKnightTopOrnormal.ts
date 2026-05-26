@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VoidKnightTopOrnormalData = {{
+const VoidKnightTopOrnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

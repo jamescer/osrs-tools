@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfSuqahHidesData = {{
+const CrateOfSuqahHidesData = {
     examine: "",
     value: 0,
     highAlch: 0,

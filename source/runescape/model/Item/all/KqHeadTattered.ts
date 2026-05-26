@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KqHeadTatteredData = {{
+const KqHeadTatteredData = {
     examine: "",
     value: 0,
     highAlch: 0,

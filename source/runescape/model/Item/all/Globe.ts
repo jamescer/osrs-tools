@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlobeData = {{
+const GlobeData = {
     examine: "",
     value: 0,
     highAlch: 0,

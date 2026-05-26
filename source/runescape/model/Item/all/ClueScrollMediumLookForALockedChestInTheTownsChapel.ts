@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumLookForALockedChestInTheTownsChapelData = {{
+const ClueScrollMediumLookForALockedChestInTheTownsChapelData = {
     examine: "",
     value: 0,
     highAlch: 0,

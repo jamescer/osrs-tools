@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackPickaxeData = {{
+const blackPickaxeData = {
     examine: "A black pickaxe is a tool for mining.",
     value: 682,
     highAlch: 409,

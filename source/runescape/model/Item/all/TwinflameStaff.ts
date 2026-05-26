@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwinflameStaffData = {{
+const TwinflameStaffData = {
     examine: "",
     value: 0,
     highAlch: 0,

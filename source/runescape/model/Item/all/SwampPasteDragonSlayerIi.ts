@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SwampPasteDragonSlayerIiData = {{
+const SwampPasteDragonSlayerIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

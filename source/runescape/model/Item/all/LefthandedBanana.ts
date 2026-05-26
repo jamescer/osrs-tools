@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LefthandedBananaData = {{
+const LefthandedBananaData = {
     examine: "",
     value: 0,
     highAlch: 0,

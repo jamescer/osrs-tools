@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TopazDragonBoltsData = {{
+const TopazDragonBoltsData = {
     examine: "",
     value: 0,
     highAlch: 0,

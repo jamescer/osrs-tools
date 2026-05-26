@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollBeginnerDirectlyBehindTheWizardsTowerData = {{
+const ClueScrollBeginnerDirectlyBehindTheWizardsTowerData = {
     examine: "",
     value: 0,
     highAlch: 0,

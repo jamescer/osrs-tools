@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FighterTorsoOrnormalData = {{
+const FighterTorsoOrnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

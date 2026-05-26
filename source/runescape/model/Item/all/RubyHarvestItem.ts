@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RubyHarvestItemData = {{
+const RubyHarvestItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

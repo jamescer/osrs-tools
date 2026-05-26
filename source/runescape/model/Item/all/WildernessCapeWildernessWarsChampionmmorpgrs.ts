@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WildernessCapeWildernessWarsChampionmmorpgrsData = {{
+const WildernessCapeWildernessWarsChampionmmorpgrsData = {
     examine: "",
     value: 0,
     highAlch: 0,

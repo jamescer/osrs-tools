@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WarpedExtractData = {{
+const WarpedExtractData = {
     examine: "",
     value: 0,
     highAlch: 0,

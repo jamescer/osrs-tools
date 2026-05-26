@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlushyData = {{
+const PlushyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DodgyNecklaceData = {{
+const DodgyNecklaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

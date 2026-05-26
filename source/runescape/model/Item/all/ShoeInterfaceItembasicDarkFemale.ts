@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShoeInterfaceItembasicDarkFemaleData = {{
+const ShoeInterfaceItembasicDarkFemaleData = {
     examine: "",
     value: 0,
     highAlch: 0,

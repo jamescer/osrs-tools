@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VioletPentagonData = {{
+const VioletPentagonData = {
     examine: "",
     value: 0,
     highAlch: 0,

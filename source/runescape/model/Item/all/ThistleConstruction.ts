@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThistleConstructionData = {{
+const ThistleConstructionData = {
     examine: "",
     value: 0,
     highAlch: 0,

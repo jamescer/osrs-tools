@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DoorKeyWitchsHouseData = {{
+const DoorKeyWitchsHouseData = {
     examine: "",
     value: 0,
     highAlch: 0,

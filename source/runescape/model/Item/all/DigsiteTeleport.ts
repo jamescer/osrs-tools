@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const digsiteTeleportData = {{
+const digsiteTeleportData = {
     examine: "Teleports you to the Digsite.",
     value: 10,
     highAlch: 6,

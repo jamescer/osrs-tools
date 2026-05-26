@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DashingKebbitFurData = {{
+const DashingKebbitFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

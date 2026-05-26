@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BasiliskHeadData = {{
+const BasiliskHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

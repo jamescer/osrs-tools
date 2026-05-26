@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumYawnInTheCentreOfTheArceuusLibraryData = {{
+const ClueScrollMediumYawnInTheCentreOfTheArceuusLibraryData = {
     examine: "",
     value: 0,
     highAlch: 0,

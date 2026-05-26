@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrittleKeyData = {{
+const BrittleKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

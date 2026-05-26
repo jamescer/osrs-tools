@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeKeyRecruitmentDriveData = {{
+const BronzeKeyRecruitmentDriveData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LazyCatgreyAndBlueData = {{
+const LazyCatgreyAndBlueData = {
     examine: "",
     value: 0,
     highAlch: 0,

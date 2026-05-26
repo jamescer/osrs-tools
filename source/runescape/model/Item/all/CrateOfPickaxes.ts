@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfPickaxesData = {{
+const CrateOfPickaxesData = {
     examine: "",
     value: 0,
     highAlch: 0,

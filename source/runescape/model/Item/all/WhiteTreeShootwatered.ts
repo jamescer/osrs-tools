@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteTreeShootwateredData = {{
+const WhiteTreeShootwateredData = {
     examine: "",
     value: 0,
     highAlch: 0,

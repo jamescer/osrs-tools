@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WizardsMindBombData = {{
+const WizardsMindBombData = {
     examine: "",
     value: 0,
     highAlch: 0,

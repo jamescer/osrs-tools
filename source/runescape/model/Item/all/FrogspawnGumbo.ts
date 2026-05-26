@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrogspawnGumboData = {{
+const FrogspawnGumboData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HelmOfNeitiznotData = {{
+const HelmOfNeitiznotData = {
     examine: "",
     value: 0,
     highAlch: 0,

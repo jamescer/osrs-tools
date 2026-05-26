@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShortbowUData = {{
+const ShortbowUData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DirtyArrowtipsData = {{
+const DirtyArrowtipsData = {
     examine: "",
     value: 0,
     highAlch: 0,

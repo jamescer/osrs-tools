@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ModernDayMorytaniaData = {{
+const ModernDayMorytaniaData = {
     examine: "",
     value: 0,
     highAlch: 0,

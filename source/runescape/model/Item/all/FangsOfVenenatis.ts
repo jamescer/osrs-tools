@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FangsOfVenenatisData = {{
+const FangsOfVenenatisData = {
     examine: "",
     value: 0,
     highAlch: 0,

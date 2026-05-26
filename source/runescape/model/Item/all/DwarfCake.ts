@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DwarfCakeData = {{
+const DwarfCakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

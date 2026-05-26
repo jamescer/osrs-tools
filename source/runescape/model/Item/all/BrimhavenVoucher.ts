@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrimhavenVoucherData = {{
+const BrimhavenVoucherData = {
     examine: "",
     value: 0,
     highAlch: 0,

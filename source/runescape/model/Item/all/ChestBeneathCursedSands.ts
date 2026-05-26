@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChestBeneathCursedSandsData = {{
+const ChestBeneathCursedSandsData = {
     examine: "",
     value: 0,
     highAlch: 0,

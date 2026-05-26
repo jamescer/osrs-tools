@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagmaMutagenData = {{
+const MagmaMutagenData = {
     examine: "",
     value: 0,
     highAlch: 0,

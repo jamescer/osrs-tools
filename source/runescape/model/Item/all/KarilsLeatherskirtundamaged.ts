@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KarilsLeatherskirtundamagedData = {{
+const KarilsLeatherskirtundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

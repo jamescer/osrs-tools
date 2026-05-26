@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawWildKebbitData = {{
+const RawWildKebbitData = {
     examine: "",
     value: 0,
     highAlch: 0,

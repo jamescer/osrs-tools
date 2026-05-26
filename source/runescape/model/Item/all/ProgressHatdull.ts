@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ProgressHatdullData = {{
+const ProgressHatdullData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnapdragonSeedData = {{
+const SnapdragonSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

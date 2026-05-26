@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicCarpetAnimationItemData = {{
+const MagicCarpetAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

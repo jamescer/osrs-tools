@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueEggSacData = {{
+const BlueEggSacData = {
     examine: "",
     value: 0,
     highAlch: 0,

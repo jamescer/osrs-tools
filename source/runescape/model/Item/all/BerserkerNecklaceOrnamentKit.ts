@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BerserkerNecklaceOrnamentKitData = {{
+const BerserkerNecklaceOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

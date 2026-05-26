@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PoleAnimationItemunobtainableData = {{
+const PoleAnimationItemunobtainableData = {
     examine: "",
     value: 0,
     highAlch: 0,

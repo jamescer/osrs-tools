@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CapacitornormalData = {{
+const CapacitornormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

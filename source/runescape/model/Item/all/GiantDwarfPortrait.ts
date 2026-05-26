@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantDwarfPortraitData = {{
+const GiantDwarfPortraitData = {
     examine: "",
     value: 0,
     highAlch: 0,

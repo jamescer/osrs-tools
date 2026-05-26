@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeveredLegData = {{
+const SeveredLegData = {
     examine: "",
     value: 0,
     highAlch: 0,

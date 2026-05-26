@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlantPotUnobtainableItemData = {{
+const PlantPotUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

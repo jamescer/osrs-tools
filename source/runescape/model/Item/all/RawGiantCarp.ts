@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawGiantCarpData = {{
+const RawGiantCarpData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RottenCabbageData = {{
+const RottenCabbageData = {
     examine: "",
     value: 0,
     highAlch: 0,

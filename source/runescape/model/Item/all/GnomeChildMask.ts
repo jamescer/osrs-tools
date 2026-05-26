@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeChildMaskData = {{
+const GnomeChildMaskData = {
     examine: "",
     value: 0,
     highAlch: 0,

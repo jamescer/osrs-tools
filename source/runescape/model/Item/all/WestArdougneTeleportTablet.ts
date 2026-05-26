@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WestArdougneTeleportTabletData = {{
+const WestArdougneTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

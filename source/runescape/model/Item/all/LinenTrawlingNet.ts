@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LinenTrawlingNetData = {{
+const LinenTrawlingNetData = {
     examine: "",
     value: 0,
     highAlch: 0,

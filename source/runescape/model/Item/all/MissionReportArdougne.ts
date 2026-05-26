@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MissionReportArdougneData = {{
+const MissionReportArdougneData = {
     examine: "",
     value: 0,
     highAlch: 0,

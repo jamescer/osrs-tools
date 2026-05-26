@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StinkBombData = {{
+const StinkBombData = {
     examine: "",
     value: 0,
     highAlch: 0,

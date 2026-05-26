@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemmagicImbueData = {{
+const SpellUnobtainableItemmagicImbueData = {
     examine: "",
     value: 0,
     highAlch: 0,

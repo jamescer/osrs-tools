@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntMantaRayData = {{
+const BurntMantaRayData = {
     examine: "",
     value: 0,
     highAlch: 0,

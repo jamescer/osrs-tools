@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TopazRingData = {{
+const TopazRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TattyLarupiaFurData = {{
+const TattyLarupiaFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

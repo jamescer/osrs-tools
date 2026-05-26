@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeaweedSporeData = {{
+const SeaweedSporeData = {
     examine: "",
     value: 0,
     highAlch: 0,

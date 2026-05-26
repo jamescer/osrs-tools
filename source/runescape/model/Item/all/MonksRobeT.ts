@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const monksRobeTData = {{
+const monksRobeTData = {
     examine: "I feel the gods don't enjoy my materialistic obsessions.",
     value: 500,
     highAlch: 300,

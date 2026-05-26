@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VanillaPodData = {{
+const VanillaPodData = {
     examine: "",
     value: 0,
     highAlch: 0,

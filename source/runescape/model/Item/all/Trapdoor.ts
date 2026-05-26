@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrapdoorData = {{
+const TrapdoorData = {
     examine: "",
     value: 0,
     highAlch: 0,

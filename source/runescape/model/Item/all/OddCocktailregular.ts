@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OddCocktailregularData = {{
+const OddCocktailregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

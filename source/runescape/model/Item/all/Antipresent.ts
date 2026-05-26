@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntipresentData = {{
+const AntipresentData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VestasLongswordDeadmanModeData = {{
+const VestasLongswordDeadmanModeData = {
     examine: "",
     value: 0,
     highAlch: 0,

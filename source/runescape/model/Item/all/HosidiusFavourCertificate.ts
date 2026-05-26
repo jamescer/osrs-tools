@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HosidiusFavourCertificateData = {{
+const HosidiusFavourCertificateData = {
     examine: "",
     value: 0,
     highAlch: 0,

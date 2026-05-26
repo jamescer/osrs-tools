@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DirtyNotemountQuidamortemData = {{
+const DirtyNotemountQuidamortemData = {
     examine: "",
     value: 0,
     highAlch: 0,

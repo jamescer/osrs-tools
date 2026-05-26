@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WindCatcherdeactivatedData = {{
+const WindCatcherdeactivatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

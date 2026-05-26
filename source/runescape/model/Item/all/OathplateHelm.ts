@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OathplateHelmData = {{
+const OathplateHelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

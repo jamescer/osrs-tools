@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LampSpiritsOfTheElidData = {{
+const LampSpiritsOfTheElidData = {
     examine: "",
     value: 0,
     highAlch: 0,

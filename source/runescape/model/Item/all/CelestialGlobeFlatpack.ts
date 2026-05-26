@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CelestialGlobeFlatpackData = {{
+const CelestialGlobeFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

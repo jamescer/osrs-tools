@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SilverLocksData = {{
+const SilverLocksData = {
     examine: "",
     value: 0,
     highAlch: 0,

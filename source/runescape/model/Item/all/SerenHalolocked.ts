@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SerenHalolockedData = {{
+const SerenHalolockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

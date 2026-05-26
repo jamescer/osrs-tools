@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GridMasterIconData = {{
+const GridMasterIconData = {
     examine: "",
     value: 0,
     highAlch: 0,

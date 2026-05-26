@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarrentillSeedData = {{
+const MarrentillSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

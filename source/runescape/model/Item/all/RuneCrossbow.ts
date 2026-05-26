@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runeCrossbowData = {{
+const runeCrossbowData = {
     examine: "A runite crossbow.",
     value: 16200,
     highAlch: 9720,

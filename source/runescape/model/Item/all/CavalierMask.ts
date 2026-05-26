@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CavalierMaskData = {{
+const CavalierMaskData = {
     examine: "",
     value: 0,
     highAlch: 0,

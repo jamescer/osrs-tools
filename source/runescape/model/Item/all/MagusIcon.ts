@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagusIconData = {{
+const MagusIconData = {
     examine: "",
     value: 0,
     highAlch: 0,

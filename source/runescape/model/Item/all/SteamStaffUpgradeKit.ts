@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteamStaffUpgradeKitData = {{
+const SteamStaffUpgradeKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

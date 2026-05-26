@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfTheAdroitattunedData = {{
+const SigilOfTheAdroitattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

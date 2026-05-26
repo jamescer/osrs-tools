@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SuperPotionSetData = {{
+const SuperPotionSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

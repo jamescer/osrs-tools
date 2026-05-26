@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CamphorPyreLogsData = {{
+const CamphorPyreLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

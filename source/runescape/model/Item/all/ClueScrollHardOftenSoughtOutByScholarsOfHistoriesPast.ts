@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardOftenSoughtOutByScholarsOfHistoriesPastData = {{
+const ClueScrollHardOftenSoughtOutByScholarsOfHistoriesPastData = {
     examine: "",
     value: 0,
     highAlch: 0,

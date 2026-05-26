@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FullKettleData = {{
+const FullKettleData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GourmetImplingJarData = {{
+const GourmetImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

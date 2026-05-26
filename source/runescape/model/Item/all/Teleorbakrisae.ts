@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeleorbakrisaeData = {{
+const TeleorbakrisaeData = {
     examine: "",
     value: 0,
     highAlch: 0,

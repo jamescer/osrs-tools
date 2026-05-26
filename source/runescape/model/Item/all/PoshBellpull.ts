@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PoshBellpullData = {{
+const PoshBellpullData = {
     examine: "",
     value: 0,
     highAlch: 0,

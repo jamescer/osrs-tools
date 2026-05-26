@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DragonMaceImbueScrollData = {{
+const DragonMaceImbueScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

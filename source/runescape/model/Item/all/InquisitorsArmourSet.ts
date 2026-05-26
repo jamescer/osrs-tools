@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InquisitorsArmourSetData = {{
+const InquisitorsArmourSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SturdyHarnessData = {{
+const SturdyHarnessData = {
     examine: "",
     value: 0,
     highAlch: 0,

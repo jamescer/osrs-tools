@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PurgingStaffLastManStandingData = {{
+const PurgingStaffLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

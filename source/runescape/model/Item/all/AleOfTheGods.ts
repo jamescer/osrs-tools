@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const aleOfTheGodsData = {{
+const aleOfTheGodsData = {
     examine: "Ale of the gods.",
     value: 850,
     highAlch: 510,

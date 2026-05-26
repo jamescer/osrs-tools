@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TopiaryBushalchemicalData = {{
+const TopiaryBushalchemicalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagesBookData = {{
+const MagesBookData = {
     examine: "",
     value: 0,
     highAlch: 0,

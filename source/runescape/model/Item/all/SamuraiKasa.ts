@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const samuraiKasaData = {{
+const samuraiKasaData = {
     examine: "A conical hat.",
     value: 4000,
     highAlch: 2400,

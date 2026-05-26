@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ViggorasChainmaceunchargedData = {{
+const ViggorasChainmaceunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SecretSantaPresentblackData = {{
+const SecretSantaPresentblackData = {
     examine: "",
     value: 0,
     highAlch: 0,

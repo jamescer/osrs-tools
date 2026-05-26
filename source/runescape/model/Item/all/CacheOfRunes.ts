@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CacheOfRunesData = {{
+const CacheOfRunesData = {
     examine: "",
     value: 0,
     highAlch: 0,

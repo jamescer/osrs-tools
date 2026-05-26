@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HitpointsHoodData = {{
+const HitpointsHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

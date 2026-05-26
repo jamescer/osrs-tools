@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteBlowAKissInTheHeartOfTheLavaMazeData = {{
+const ClueScrollEliteBlowAKissInTheHeartOfTheLavaMazeData = {
     examine: "",
     value: 0,
     highAlch: 0,

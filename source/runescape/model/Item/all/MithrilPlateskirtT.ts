@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const mithrilPlateskirtTData = {{
+const mithrilPlateskirtTData = {
     examine: "Mithril plateskirt with trim.",
     value: 2600,
     highAlch: 1560,

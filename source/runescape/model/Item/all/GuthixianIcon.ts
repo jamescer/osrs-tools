@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthixianIconData = {{
+const GuthixianIconData = {
     examine: "",
     value: 0,
     highAlch: 0,

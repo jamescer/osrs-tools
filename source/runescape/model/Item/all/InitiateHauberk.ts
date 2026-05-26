@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InitiateHauberkData = {{
+const InitiateHauberkData = {
     examine: "",
     value: 0,
     highAlch: 0,

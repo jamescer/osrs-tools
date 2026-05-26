@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemtelekineticGrabData = {{
+const SpellUnobtainableItemtelekineticGrabData = {
     examine: "",
     value: 0,
     highAlch: 0,

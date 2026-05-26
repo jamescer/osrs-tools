@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LongKebbitSpikeData = {{
+const LongKebbitSpikeData = {
     examine: "",
     value: 0,
     highAlch: 0,

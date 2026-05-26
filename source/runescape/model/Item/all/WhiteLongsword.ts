@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteLongswordData = {{
+const WhiteLongswordData = {
     examine: "",
     value: 0,
     highAlch: 0,

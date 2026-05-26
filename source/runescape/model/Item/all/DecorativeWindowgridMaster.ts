@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeWindowgridMasterData = {{
+const DecorativeWindowgridMasterData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedKiteshieldData = {{
+const CorruptedKiteshieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

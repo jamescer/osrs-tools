@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfusedWaterTalismanData = {{
+const InfusedWaterTalismanData = {
     examine: "",
     value: 0,
     highAlch: 0,

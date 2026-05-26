@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RubyKeyWhileGuthixSleepsData = {{
+const RubyKeyWhileGuthixSleepsData = {
     examine: "",
     value: 0,
     highAlch: 0,

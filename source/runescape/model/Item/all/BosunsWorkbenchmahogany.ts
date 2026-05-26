@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BosunsWorkbenchmahoganyData = {{
+const BosunsWorkbenchmahoganyData = {
     examine: "",
     value: 0,
     highAlch: 0,

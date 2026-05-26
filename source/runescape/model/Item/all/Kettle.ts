@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KettleData = {{
+const KettleData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const dragonstoneBraceletData = {{
+const dragonstoneBraceletData = {
     examine: "I wonder if this is valuable.",
     value: 19125,
     highAlch: 11475,

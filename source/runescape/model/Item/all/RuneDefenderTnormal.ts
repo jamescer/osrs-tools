@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneDefenderTnormalData = {{
+const RuneDefenderTnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

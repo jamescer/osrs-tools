@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImplingScrollData = {{
+const ImplingScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

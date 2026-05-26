@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HeavyBallistaLastManStandingData = {{
+const HeavyBallistaLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

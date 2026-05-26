@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnsouledKalphiteHeaddropData = {{
+const EnsouledKalphiteHeaddropData = {
     examine: "",
     value: 0,
     highAlch: 0,

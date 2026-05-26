@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RosemaryConstructionbigData = {{
+const RosemaryConstructionbigData = {
     examine: "",
     value: 0,
     highAlch: 0,

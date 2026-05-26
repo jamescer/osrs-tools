@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RevitalisingIdolSchematicData = {{
+const RevitalisingIdolSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

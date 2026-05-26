@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TattyNoteSinsOfTheFatherData = {{
+const TattyNoteSinsOfTheFatherData = {
     examine: "",
     value: 0,
     highAlch: 0,

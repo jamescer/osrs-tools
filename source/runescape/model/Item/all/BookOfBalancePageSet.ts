@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BookOfBalancePageSetData = {{
+const BookOfBalancePageSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

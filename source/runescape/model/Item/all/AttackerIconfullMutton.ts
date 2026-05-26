@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AttackerIconfullMuttonData = {{
+const AttackerIconfullMuttonData = {
     examine: "",
     value: 0,
     highAlch: 0,

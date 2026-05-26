@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HolyTableNapkinData = {{
+const HolyTableNapkinData = {
     examine: "",
     value: 0,
     highAlch: 0,

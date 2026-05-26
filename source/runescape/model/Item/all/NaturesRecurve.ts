@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NaturesRecurveData = {{
+const NaturesRecurveData = {
     examine: "",
     value: 0,
     highAlch: 0,

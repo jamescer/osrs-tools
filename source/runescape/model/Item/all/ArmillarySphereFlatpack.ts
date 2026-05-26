@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmillarySphereFlatpackData = {{
+const ArmillarySphereFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

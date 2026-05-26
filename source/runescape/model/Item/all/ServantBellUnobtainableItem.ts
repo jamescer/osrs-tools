@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ServantBellUnobtainableItemData = {{
+const ServantBellUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

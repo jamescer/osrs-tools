@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HangingSkeletonData = {{
+const HangingSkeletonData = {
     examine: "",
     value: 0,
     highAlch: 0,

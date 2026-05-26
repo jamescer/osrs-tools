@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeatherShieldsFlyerData = {{
+const LeatherShieldsFlyerData = {
     examine: "",
     value: 0,
     highAlch: 0,

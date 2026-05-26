@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakCapeRackData = {{
+const TeakCapeRackData = {
     examine: "",
     value: 0,
     highAlch: 0,

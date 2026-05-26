@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateRingData = {{
+const CrateRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

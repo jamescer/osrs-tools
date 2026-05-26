@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImmatureTecuSalamanderData = {{
+const ImmatureTecuSalamanderData = {
     examine: "",
     value: 0,
     highAlch: 0,

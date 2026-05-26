@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuffedHugeHalibutData = {{
+const StuffedHugeHalibutData = {
     examine: "",
     value: 0,
     highAlch: 0,

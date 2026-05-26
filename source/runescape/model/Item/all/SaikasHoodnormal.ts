@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaikasHoodnormalData = {{
+const SaikasHoodnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

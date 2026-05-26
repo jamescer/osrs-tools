@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AetherCatalystData = {{
+const AetherCatalystData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlankMindRuneData = {{
+const BlankMindRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

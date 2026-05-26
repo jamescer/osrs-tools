@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IsafdarPaintingData = {{
+const IsafdarPaintingData = {
     examine: "",
     value: 0,
     highAlch: 0,

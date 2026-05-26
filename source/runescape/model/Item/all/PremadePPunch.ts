@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PremadePPunchData = {{
+const PremadePPunchData = {
     examine: "",
     value: 0,
     highAlch: 0,

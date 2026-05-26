@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteZulandraData = {{
+const ClueScrollEliteZulandraData = {
     examine: "",
     value: 0,
     highAlch: 0,

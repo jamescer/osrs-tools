@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LadderTopData = {{
+const LadderTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

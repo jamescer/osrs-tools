@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlightedKarambwanData = {{
+const BlightedKarambwanData = {
     examine: "",
     value: 0,
     highAlch: 0,

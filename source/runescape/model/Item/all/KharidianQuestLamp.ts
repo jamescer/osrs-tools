@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KharidianQuestLampData = {{
+const KharidianQuestLampData = {
     examine: "",
     value: 0,
     highAlch: 0,

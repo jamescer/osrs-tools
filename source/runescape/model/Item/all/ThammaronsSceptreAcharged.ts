@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThammaronsSceptreAchargedData = {{
+const ThammaronsSceptreAchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const anguishOrnamentKitData = {{
+const anguishOrnamentKitData = {
     examine: "Use on a necklace of anguish to make it look fancier!",
     value: 5000,
     highAlch: 3000,

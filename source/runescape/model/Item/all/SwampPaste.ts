@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SwampPasteData = {{
+const SwampPasteData = {
     examine: "",
     value: 0,
     highAlch: 0,

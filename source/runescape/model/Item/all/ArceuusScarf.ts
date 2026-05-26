@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArceuusScarfData = {{
+const ArceuusScarfData = {
     examine: "",
     value: 0,
     highAlch: 0,

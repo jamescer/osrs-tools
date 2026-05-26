@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LogsTutorialIslandnormalData = {{
+const LogsTutorialIslandnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

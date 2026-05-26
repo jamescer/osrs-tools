@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnchantedCurtainsData = {{
+const EnchantedCurtainsData = {
     examine: "",
     value: 0,
     highAlch: 0,

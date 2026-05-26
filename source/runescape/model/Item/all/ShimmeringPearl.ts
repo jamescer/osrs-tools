@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShimmeringPearlData = {{
+const ShimmeringPearlData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const QuetzalFeedData = {{
+const QuetzalFeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bandosKiteshieldData = {{
+const bandosKiteshieldData = {
     examine: "Rune kiteshield in the colours of Bandos.",
     value: 54400,
     highAlch: 32640,

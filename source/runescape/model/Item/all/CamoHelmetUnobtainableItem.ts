@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CamoHelmetUnobtainableItemData = {{
+const CamoHelmetUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

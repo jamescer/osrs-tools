@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuardianEssenceData = {{
+const GuardianEssenceData = {
     examine: "",
     value: 0,
     highAlch: 0,

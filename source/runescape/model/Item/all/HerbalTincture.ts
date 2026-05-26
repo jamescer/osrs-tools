@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HerbalTinctureData = {{
+const HerbalTinctureData = {
     examine: "",
     value: 0,
     highAlch: 0,

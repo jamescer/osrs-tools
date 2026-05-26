@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnailShellData = {{
+const SnailShellData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChurningMachineData = {{
+const ChurningMachineData = {
     examine: "",
     value: 0,
     highAlch: 0,

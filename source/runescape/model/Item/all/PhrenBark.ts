@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PhrenBarkData = {{
+const PhrenBarkData = {
     examine: "",
     value: 0,
     highAlch: 0,

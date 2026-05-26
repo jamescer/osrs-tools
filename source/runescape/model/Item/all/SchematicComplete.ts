@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SchematicCompleteData = {{
+const SchematicCompleteData = {
     examine: "",
     value: 0,
     highAlch: 0,

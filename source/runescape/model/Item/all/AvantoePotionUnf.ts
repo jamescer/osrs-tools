@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AvantoePotionUnfData = {{
+const AvantoePotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZenThemeData = {{
+const ZenThemeData = {
     examine: "",
     value: 0,
     highAlch: 0,

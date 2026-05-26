@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TorvaPlatelegsLastManStandingData = {{
+const TorvaPlatelegsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

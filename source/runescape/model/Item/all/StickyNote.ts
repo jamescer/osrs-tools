@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StickyNoteData = {{
+const StickyNoteData = {
     examine: "",
     value: 0,
     highAlch: 0,

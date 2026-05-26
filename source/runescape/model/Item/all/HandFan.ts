@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HandFanData = {{
+const HandFanData = {
     examine: "",
     value: 0,
     highAlch: 0,

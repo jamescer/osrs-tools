@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantShieldGData = {{
+const adamantShieldGData = {
     examine: "An adamant shield, decorated with gold.",
     value: 2200,
     highAlch: 1320,

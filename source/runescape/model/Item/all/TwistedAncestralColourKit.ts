@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwistedAncestralColourKitData = {{
+const TwistedAncestralColourKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

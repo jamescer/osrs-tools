@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueMoonChestplatebrokenData = {{
+const BlueMoonChestplatebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

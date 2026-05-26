@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DwarfWeedPotionUnfData = {{
+const DwarfWeedPotionUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

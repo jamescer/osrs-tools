@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RoyalAccordOfTwilltheDepthsOfDespairData = {{
+const RoyalAccordOfTwilltheDepthsOfDespairData = {
     examine: "",
     value: 0,
     highAlch: 0,

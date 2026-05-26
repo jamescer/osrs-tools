@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantHeraldicHelmVarrockData = {{
+const AdamantHeraldicHelmVarrockData = {
     examine: "",
     value: 0,
     highAlch: 0,

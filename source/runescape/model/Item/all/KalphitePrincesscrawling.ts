@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KalphitePrincesscrawlingData = {{
+const KalphitePrincesscrawlingData = {
     examine: "",
     value: 0,
     highAlch: 0,

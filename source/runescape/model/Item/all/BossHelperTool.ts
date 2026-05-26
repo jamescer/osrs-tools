@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BossHelperToolData = {{
+const BossHelperToolData = {
     examine: "",
     value: 0,
     highAlch: 0,

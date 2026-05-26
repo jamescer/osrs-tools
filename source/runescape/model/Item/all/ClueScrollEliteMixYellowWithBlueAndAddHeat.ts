@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteMixYellowWithBlueAndAddHeatData = {{
+const ClueScrollEliteMixYellowWithBlueAndAddHeatData = {
     examine: "",
     value: 0,
     highAlch: 0,

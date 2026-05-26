@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmethystFireArrowlitData = {{
+const AmethystFireArrowlitData = {
     examine: "",
     value: 0,
     highAlch: 0,

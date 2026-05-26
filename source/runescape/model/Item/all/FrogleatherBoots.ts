@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrogleatherBootsData = {{
+const FrogleatherBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

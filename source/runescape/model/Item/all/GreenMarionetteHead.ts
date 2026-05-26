@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenMarionetteHeadData = {{
+const GreenMarionetteHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

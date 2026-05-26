@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RiftGuardiancosmicData = {{
+const RiftGuardiancosmicData = {
     examine: "",
     value: 0,
     highAlch: 0,

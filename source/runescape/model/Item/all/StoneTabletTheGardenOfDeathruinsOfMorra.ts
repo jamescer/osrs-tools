@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoneTabletTheGardenOfDeathruinsOfMorraData = {{
+const StoneTabletTheGardenOfDeathruinsOfMorraData = {
     examine: "",
     value: 0,
     highAlch: 0,

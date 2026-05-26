@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DemonicTridentOrnamentKitData = {{
+const DemonicTridentOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

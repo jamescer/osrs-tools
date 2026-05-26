@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumPacinngATaieData = {{
+const ClueScrollMediumPacinngATaieData = {
     examine: "",
     value: 0,
     highAlch: 0,

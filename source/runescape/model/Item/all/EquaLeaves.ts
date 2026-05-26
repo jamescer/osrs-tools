@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EquaLeavesData = {{
+const EquaLeavesData = {
     examine: "",
     value: 0,
     highAlch: 0,

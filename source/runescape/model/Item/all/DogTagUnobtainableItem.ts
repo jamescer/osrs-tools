@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DogTagUnobtainableItemData = {{
+const DogTagUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

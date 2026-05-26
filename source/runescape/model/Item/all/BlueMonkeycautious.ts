@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlueMonkeycautiousData = {{
+const BlueMonkeycautiousData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const armadylDHideShieldData = {{
+const armadylDHideShieldData = {
     examine: "Armadyl blessed wooden shield covered in dragon leather.",
     value: 28334,
     highAlch: 17000,

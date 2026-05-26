@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmokeAncientSceptrebrokenData = {{
+const SmokeAncientSceptrebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

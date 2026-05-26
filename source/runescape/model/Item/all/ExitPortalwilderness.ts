@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExitPortalwildernessData = {{
+const ExitPortalwildernessData = {
     examine: "",
     value: 0,
     highAlch: 0,

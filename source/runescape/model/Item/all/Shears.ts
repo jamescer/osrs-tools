@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShearsData = {{
+const ShearsData = {
     examine: "",
     value: 0,
     highAlch: 0,

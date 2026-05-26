@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntCaveEelData = {{
+const BurntCaveEelData = {
     examine: "",
     value: 0,
     highAlch: 0,

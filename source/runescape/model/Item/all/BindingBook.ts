@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BindingBookData = {{
+const BindingBookData = {
     examine: "",
     value: 0,
     highAlch: 0,

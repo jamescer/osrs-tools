@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AncientKeyDragonSlayerIiData = {{
+const AncientKeyDragonSlayerIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

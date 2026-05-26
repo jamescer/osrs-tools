@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DrySticksData = {{
+const DrySticksData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlastedOreData = {{
+const BlastedOreData = {
     examine: "",
     value: 0,
     highAlch: 0,

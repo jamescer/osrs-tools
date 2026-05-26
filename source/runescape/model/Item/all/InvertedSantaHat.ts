@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InvertedSantaHatData = {{
+const InvertedSantaHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

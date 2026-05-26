@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SinisterKeyData = {{
+const SinisterKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

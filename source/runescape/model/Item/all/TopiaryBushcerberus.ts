@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TopiaryBushcerberusData = {{
+const TopiaryBushcerberusData = {
     examine: "",
     value: 0,
     highAlch: 0,

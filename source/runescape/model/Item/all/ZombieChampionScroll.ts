@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZombieChampionScrollData = {{
+const ZombieChampionScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

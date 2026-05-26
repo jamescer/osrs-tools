@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreatWhiteSharkJawData = {{
+const GreatWhiteSharkJawData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneDefenderLastManStandingData = {{
+const RuneDefenderLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

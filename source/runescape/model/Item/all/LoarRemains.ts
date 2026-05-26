@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LoarRemainsData = {{
+const LoarRemainsData = {
     examine: "",
     value: 0,
     highAlch: 0,

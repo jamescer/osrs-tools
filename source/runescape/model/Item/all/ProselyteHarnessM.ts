@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ProselyteHarnessMData = {{
+const ProselyteHarnessMData = {
     examine: "",
     value: 0,
     highAlch: 0,

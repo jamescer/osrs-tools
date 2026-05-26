@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenCompassData = {{
+const BrokenCompassData = {
     examine: "",
     value: 0,
     highAlch: 0,

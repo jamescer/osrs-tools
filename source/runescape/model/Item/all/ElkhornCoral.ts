@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElkhornCoralData = {{
+const ElkhornCoralData = {
     examine: "",
     value: 0,
     highAlch: 0,

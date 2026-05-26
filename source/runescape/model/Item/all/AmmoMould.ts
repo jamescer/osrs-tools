@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmmoMouldData = {{
+const AmmoMouldData = {
     examine: "",
     value: 0,
     highAlch: 0,

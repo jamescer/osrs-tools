@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantKeelskiffData = {{
+const AdamantKeelskiffData = {
     examine: "",
     value: 0,
     highAlch: 0,

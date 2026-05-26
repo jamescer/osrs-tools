@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfMahoganyLogsneitiznotData = {{
+const CrateOfMahoganyLogsneitiznotData = {
     examine: "",
     value: 0,
     highAlch: 0,

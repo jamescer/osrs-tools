@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenmanMaskdefaultData = {{
+const GreenmanMaskdefaultData = {
     examine: "",
     value: 0,
     highAlch: 0,

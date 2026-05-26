@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenZombieAxeData = {{
+const BrokenZombieAxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CleanFullHelmData = {{
+const CleanFullHelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

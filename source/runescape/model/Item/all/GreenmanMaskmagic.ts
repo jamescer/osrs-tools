@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenmanMaskmagicData = {{
+const GreenmanMaskmagicData = {
     examine: "",
     value: 0,
     highAlch: 0,

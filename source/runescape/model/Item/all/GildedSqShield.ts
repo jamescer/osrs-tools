@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedSqShieldData = {{
+const gildedSqShieldData = {
     examine: "A medium square shield in gold plate.",
     value: 38400,
     highAlch: 23040,

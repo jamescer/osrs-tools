@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TilesRoguesDenrotatedData = {{
+const TilesRoguesDenrotatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

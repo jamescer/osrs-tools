@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnimaPortalData = {{
+const AnimaPortalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpectralSigilData = {{
+const SpectralSigilData = {
     examine: "",
     value: 0,
     highAlch: 0,

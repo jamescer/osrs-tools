@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NormalSnowballData = {{
+const NormalSnowballData = {
     examine: "",
     value: 0,
     highAlch: 0,

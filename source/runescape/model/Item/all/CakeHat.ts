@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CakeHatData = {{
+const CakeHatData = {
     examine: "",
     value: 0,
     highAlch: 0,

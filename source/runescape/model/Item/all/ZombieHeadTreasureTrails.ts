@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZombieHeadTreasureTrailsData = {{
+const ZombieHeadTreasureTrailsData = {
     examine: "",
     value: 0,
     highAlch: 0,

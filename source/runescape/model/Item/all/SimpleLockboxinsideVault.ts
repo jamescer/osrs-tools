@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SimpleLockboxinsideVaultData = {{
+const SimpleLockboxinsideVaultData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EekrewardData = {{
+const EekrewardData = {
     examine: "",
     value: 0,
     highAlch: 0,

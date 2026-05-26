@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WoodCamoLegsinventoryData = {{
+const WoodCamoLegsinventoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

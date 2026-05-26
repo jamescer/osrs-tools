@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EtchingsData = {{
+const EtchingsData = {
     examine: "",
     value: 0,
     highAlch: 0,

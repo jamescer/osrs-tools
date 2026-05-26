@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpikedpoisEggData = {{
+const SpikedpoisEggData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedZamorakCapelockedData = {{
+const ImbuedZamorakCapelockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

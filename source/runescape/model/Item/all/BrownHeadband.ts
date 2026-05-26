@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const brownHeadbandData = {{
+const brownHeadbandData = {
     examine: "A minimalist's hat.",
     value: 40,
     highAlch: 24,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TorvaFullHelmdamagedData = {{
+const TorvaFullHelmdamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

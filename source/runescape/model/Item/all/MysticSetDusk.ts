@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysticSetDuskData = {{
+const MysticSetDuskData = {
     examine: "",
     value: 0,
     highAlch: 0,

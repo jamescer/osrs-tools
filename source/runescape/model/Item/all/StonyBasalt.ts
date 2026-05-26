@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StonyBasaltData = {{
+const StonyBasaltData = {
     examine: "",
     value: 0,
     highAlch: 0,

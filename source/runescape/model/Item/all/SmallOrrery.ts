@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallOrreryData = {{
+const SmallOrreryData = {
     examine: "",
     value: 0,
     highAlch: 0,

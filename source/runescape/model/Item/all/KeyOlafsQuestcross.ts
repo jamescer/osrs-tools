@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeyOlafsQuestcrossData = {{
+const KeyOlafsQuestcrossData = {
     examine: "",
     value: 0,
     highAlch: 0,

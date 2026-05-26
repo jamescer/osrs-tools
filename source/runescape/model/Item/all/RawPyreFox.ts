@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawPyreFoxData = {{
+const RawPyreFoxData = {
     examine: "",
     value: 0,
     highAlch: 0,

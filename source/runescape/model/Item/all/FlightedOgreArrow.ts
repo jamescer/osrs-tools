@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlightedOgreArrowData = {{
+const FlightedOgreArrowData = {
     examine: "",
     value: 0,
     highAlch: 0,

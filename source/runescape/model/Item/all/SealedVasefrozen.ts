@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SealedVasefrozenData = {{
+const SealedVasefrozenData = {
     examine: "",
     value: 0,
     highAlch: 0,

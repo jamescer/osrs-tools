@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfCoalneitiznotData = {{
+const CrateOfCoalneitiznotData = {
     examine: "",
     value: 0,
     highAlch: 0,

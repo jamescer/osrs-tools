@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AwakenersOrbData = {{
+const AwakenersOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

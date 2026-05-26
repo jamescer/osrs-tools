@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HugeSpiderData = {{
+const HugeSpiderData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RoundShieldConstructionhamData = {{
+const RoundShieldConstructionhamData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HallowedMarkData = {{
+const HallowedMarkData = {
     examine: "",
     value: 0,
     highAlch: 0,

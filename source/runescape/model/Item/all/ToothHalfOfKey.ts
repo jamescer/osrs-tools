@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const toothHalfOfKeyData = {{
+const toothHalfOfKeyData = {
     examine: "The tooth end of the mysterious Crystal Key. Can you find the other half?",
     value: 100,
     highAlch: 60,

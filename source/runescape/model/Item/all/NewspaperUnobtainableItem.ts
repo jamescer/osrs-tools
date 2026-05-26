@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NewspaperUnobtainableItemData = {{
+const NewspaperUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

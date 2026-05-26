@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlankData = {{
+const PlankData = {
     examine: "",
     value: 0,
     highAlch: 0,

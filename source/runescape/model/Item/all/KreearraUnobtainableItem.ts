@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KreearraUnobtainableItemData = {{
+const KreearraUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

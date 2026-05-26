@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SapphireLanternemptyData = {{
+const SapphireLanternemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

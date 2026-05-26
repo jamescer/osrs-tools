@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NulodionsNotesData = {{
+const NulodionsNotesData = {
     examine: "",
     value: 0,
     highAlch: 0,

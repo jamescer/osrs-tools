@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerGlobeData = {{
+const TrailblazerGlobeData = {
     examine: "",
     value: 0,
     highAlch: 0,

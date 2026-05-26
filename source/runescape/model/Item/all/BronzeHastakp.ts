@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeHastakpData = {{
+const BronzeHastakpData = {
     examine: "",
     value: 0,
     highAlch: 0,

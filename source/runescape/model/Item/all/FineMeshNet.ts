@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FineMeshNetData = {{
+const FineMeshNetData = {
     examine: "",
     value: 0,
     highAlch: 0,

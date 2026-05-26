@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PerfectShellData = {{
+const PerfectShellData = {
     examine: "",
     value: 0,
     highAlch: 0,

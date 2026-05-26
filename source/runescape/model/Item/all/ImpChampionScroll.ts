@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImpChampionScrollData = {{
+const ImpChampionScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

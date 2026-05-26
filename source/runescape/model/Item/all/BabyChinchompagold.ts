@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BabyChinchompagoldData = {{
+const BabyChinchompagoldData = {
     examine: "",
     value: 0,
     highAlch: 0,

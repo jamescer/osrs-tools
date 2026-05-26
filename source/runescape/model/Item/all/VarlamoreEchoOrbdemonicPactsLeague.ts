@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VarlamoreEchoOrbdemonicPactsLeagueData = {{
+const VarlamoreEchoOrbdemonicPactsLeagueData = {
     examine: "",
     value: 0,
     highAlch: 0,

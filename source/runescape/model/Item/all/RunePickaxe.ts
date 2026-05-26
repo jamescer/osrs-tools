@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runePickaxeData = {{
+const runePickaxeData = {
     examine: "Used for mining.",
     value: 32000,
     highAlch: 19200,

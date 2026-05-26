@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NarogoshuunKeyData = {{
+const NarogoshuunKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GasMaskData = {{
+const GasMaskData = {
     examine: "",
     value: 0,
     highAlch: 0,

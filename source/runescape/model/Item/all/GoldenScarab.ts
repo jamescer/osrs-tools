@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoldenScarabData = {{
+const GoldenScarabData = {
     examine: "",
     value: 0,
     highAlch: 0,

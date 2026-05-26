@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LinenYarnData = {{
+const LinenYarnData = {
     examine: "",
     value: 0,
     highAlch: 0,

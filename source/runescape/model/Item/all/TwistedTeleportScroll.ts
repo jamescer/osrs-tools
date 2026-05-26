@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwistedTeleportScrollData = {{
+const TwistedTeleportScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

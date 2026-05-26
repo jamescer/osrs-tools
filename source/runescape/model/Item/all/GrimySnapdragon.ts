@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const grimySnapdragonData = {{
+const grimySnapdragonData = {
     examine: "It needs cleaning.",
     value: 21,
     highAlch: 12,

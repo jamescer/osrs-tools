@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntiqueLampMasterCombatAchievementsData = {{
+const AntiqueLampMasterCombatAchievementsData = {
     examine: "",
     value: 0,
     highAlch: 0,

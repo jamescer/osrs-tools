@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RosewoodHullSchematicData = {{
+const RosewoodHullSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

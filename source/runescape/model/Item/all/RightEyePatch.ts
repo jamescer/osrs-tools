@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RightEyePatchData = {{
+const RightEyePatchData = {
     examine: "",
     value: 0,
     highAlch: 0,

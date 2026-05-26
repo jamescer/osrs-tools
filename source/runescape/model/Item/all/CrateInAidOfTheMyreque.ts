@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateInAidOfTheMyrequeData = {{
+const CrateInAidOfTheMyrequeData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntiodourSaltData = {{
+const AntiodourSaltData = {
     examine: "",
     value: 0,
     highAlch: 0,

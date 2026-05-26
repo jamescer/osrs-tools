@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChompyBirdHatBowmanData = {{
+const ChompyBirdHatBowmanData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateTrophyPedestalData = {{
+const OrnateTrophyPedestalData = {
     examine: "",
     value: 0,
     highAlch: 0,

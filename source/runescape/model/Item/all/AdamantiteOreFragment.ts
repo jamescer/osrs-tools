@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantiteOreFragmentData = {{
+const AdamantiteOreFragmentData = {
     examine: "",
     value: 0,
     highAlch: 0,

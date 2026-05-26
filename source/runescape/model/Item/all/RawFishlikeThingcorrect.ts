@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawFishlikeThingcorrectData = {{
+const RawFishlikeThingcorrectData = {
     examine: "",
     value: 0,
     highAlch: 0,

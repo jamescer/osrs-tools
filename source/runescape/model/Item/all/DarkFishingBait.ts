@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DarkFishingBaitData = {{
+const DarkFishingBaitData = {
     examine: "",
     value: 0,
     highAlch: 0,

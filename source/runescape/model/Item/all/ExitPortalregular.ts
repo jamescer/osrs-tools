@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExitPortalregularData = {{
+const ExitPortalregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

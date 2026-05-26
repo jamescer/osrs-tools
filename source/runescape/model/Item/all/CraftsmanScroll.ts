@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CraftsmanScrollData = {{
+const CraftsmanScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

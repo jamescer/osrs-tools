@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MenaphiteOrnamentKitData = {{
+const MenaphiteOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

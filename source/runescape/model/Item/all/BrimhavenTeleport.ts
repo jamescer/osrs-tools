@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrimhavenTeleportData = {{
+const BrimhavenTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

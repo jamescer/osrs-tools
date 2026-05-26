@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LovakiteBarData = {{
+const LovakiteBarData = {
     examine: "",
     value: 0,
     highAlch: 0,

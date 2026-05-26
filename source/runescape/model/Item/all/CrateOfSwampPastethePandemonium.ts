@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfSwampPastethePandemoniumData = {{
+const CrateOfSwampPastethePandemoniumData = {
     examine: "",
     value: 0,
     highAlch: 0,

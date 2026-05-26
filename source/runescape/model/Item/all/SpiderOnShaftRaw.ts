@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiderOnShaftRawData = {{
+const SpiderOnShaftRawData = {
     examine: "",
     value: 0,
     highAlch: 0,

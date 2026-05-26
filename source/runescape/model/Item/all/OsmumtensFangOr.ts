@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OsmumtensFangOrData = {{
+const OsmumtensFangOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

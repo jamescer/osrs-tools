@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteYawnAtTheTopOfTrollheimData = {{
+const ClueScrollEliteYawnAtTheTopOfTrollheimData = {
     examine: "",
     value: 0,
     highAlch: 0,

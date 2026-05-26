@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfTheFeralFighterattunedData = {{
+const SigilOfTheFeralFighterattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

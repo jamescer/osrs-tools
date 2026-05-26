@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DragonBitterFlatpackData = {{
+const DragonBitterFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

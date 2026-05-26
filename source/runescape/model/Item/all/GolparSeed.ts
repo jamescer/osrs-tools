@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GolparSeedData = {{
+const GolparSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

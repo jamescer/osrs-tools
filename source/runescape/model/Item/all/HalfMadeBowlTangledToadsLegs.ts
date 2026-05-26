@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalfMadeBowlTangledToadsLegsData = {{
+const HalfMadeBowlTangledToadsLegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

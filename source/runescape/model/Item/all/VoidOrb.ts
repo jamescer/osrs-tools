@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VoidOrbData = {{
+const VoidOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedElegantSkirtData = {{
+const RedElegantSkirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

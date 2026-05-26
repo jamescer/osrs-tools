@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FootprintUnobtainableItemData = {{
+const FootprintUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

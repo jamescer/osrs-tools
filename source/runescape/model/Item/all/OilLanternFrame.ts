@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OilLanternFrameData = {{
+const OilLanternFrameData = {
     examine: "",
     value: 0,
     highAlch: 0,

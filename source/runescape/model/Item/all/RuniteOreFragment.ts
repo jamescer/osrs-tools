@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuniteOreFragmentData = {{
+const RuniteOreFragmentData = {
     examine: "",
     value: 0,
     highAlch: 0,

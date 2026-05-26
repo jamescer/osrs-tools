@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KarambwanVesselemptyData = {{
+const KarambwanVesselemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

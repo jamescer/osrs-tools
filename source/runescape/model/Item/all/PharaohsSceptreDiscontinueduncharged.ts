@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PharaohsSceptreDiscontinuedunchargedData = {{
+const PharaohsSceptreDiscontinuedunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

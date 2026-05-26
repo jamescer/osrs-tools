@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClanWarsCapePvpChampionshipsmallMoustacheData = {{
+const ClanWarsCapePvpChampionshipsmallMoustacheData = {
     examine: "",
     value: 0,
     highAlch: 0,

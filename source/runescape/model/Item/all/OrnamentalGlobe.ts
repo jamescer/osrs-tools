@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnamentalGlobeData = {{
+const OrnamentalGlobeData = {
     examine: "",
     value: 0,
     highAlch: 0,

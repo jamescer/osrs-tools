@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpottedKebbitFurData = {{
+const SpottedKebbitFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

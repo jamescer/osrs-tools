@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhetstoneData = {{
+const WhetstoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

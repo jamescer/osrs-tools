@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SulphurousFertiliserData = {{
+const SulphurousFertiliserData = {
     examine: "",
     value: 0,
     highAlch: 0,

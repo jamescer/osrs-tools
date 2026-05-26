@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EasternSettlementData = {{
+const EasternSettlementData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChaosCoreData = {{
+const ChaosCoreData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeWindowsaradominData = {{
+const DecorativeWindowsaradominData = {
     examine: "",
     value: 0,
     highAlch: 0,

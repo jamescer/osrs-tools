@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KarambwanVesselbaitedData = {{
+const KarambwanVesselbaitedData = {
     examine: "",
     value: 0,
     highAlch: 0,

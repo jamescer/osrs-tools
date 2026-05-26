@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TodoListData = {{
+const TodoListData = {
     examine: "",
     value: 0,
     highAlch: 0,

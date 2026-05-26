@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GripsKeyringData = {{
+const GripsKeyringData = {
     examine: "",
     value: 0,
     highAlch: 0,

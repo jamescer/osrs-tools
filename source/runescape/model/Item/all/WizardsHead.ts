@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WizardsHeadData = {{
+const WizardsHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoxiitemData = {{
+const MoxiitemData = {
     examine: "",
     value: 0,
     highAlch: 0,

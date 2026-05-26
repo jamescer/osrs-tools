@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FireCapenormalData = {{
+const FireCapenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

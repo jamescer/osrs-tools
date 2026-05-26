@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YanillianHopsData = {{
+const YanillianHopsData = {
     examine: "",
     value: 0,
     highAlch: 0,

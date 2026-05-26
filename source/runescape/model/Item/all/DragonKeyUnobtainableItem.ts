@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DragonKeyUnobtainableItemData = {{
+const DragonKeyUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PolishedButtonsData = {{
+const PolishedButtonsData = {
     examine: "",
     value: 0,
     highAlch: 0,

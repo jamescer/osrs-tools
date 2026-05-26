@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YellowTriangleData = {{
+const YellowTriangleData = {
     examine: "",
     value: 0,
     highAlch: 0,

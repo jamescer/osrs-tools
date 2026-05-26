@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardDigInTheLairOfRedWingsData = {{
+const ClueScrollHardDigInTheLairOfRedWingsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KodaiWandData = {{
+const KodaiWandData = {
     examine: "",
     value: 0,
     highAlch: 0,

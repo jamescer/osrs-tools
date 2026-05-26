@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedDhideShieldData = {{
+const RedDhideShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

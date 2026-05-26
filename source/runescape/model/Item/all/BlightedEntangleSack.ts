@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlightedEntangleSackData = {{
+const BlightedEntangleSackData = {
     examine: "",
     value: 0,
     highAlch: 0,

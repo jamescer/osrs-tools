@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JarOfDirtData = {{
+const JarOfDirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

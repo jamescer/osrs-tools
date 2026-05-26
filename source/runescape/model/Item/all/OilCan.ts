@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OilCanData = {{
+const OilCanData = {
     examine: "",
     value: 0,
     highAlch: 0,

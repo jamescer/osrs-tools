@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const guthixPlatelegsData = {{
+const guthixPlatelegsData = {
     examine: "Rune plate legs in the colours of Guthix.",
     value: 64000,
     highAlch: 38400,

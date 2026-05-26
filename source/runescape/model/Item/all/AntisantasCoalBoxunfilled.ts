@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntisantasCoalBoxunfilledData = {{
+const AntisantasCoalBoxunfilledData = {
     examine: "",
     value: 0,
     highAlch: 0,

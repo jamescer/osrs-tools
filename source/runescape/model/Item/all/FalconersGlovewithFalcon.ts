@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FalconersGlovewithFalconData = {{
+const FalconersGlovewithFalconData = {
     examine: "",
     value: 0,
     highAlch: 0,

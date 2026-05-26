@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawTroutData = {{
+const RawTroutData = {
     examine: "",
     value: 0,
     highAlch: 0,

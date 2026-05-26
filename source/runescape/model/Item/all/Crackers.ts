@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrackersData = {{
+const CrackersData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SkewerStickData = {{
+const SkewerStickData = {
     examine: "",
     value: 0,
     highAlch: 0,

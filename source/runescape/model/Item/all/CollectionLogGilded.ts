@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CollectionLogGildedData = {{
+const CollectionLogGildedData = {
     examine: "",
     value: 0,
     highAlch: 0,

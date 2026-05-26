@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ForlornBootData = {{
+const ForlornBootData = {
     examine: "",
     value: 0,
     highAlch: 0,

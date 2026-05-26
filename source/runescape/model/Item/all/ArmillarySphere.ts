@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmillarySphereData = {{
+const ArmillarySphereData = {
     examine: "",
     value: 0,
     highAlch: 0,

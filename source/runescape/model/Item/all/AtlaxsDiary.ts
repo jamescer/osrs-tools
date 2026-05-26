@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AtlaxsDiaryData = {{
+const AtlaxsDiaryData = {
     examine: "",
     value: 0,
     highAlch: 0,

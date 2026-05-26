@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BluriteCrossbowData = {{
+const BluriteCrossbowData = {
     examine: "",
     value: 0,
     highAlch: 0,

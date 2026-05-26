@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TanglerootcrystalData = {{
+const TanglerootcrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

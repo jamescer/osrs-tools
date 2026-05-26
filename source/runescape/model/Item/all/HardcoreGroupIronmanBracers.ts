@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HardcoreGroupIronmanBracersData = {{
+const HardcoreGroupIronmanBracersData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SirenicTabletData = {{
+const SirenicTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

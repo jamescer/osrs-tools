@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardVeilVedaData = {{
+const ClueScrollHardVeilVedaData = {
     examine: "",
     value: 0,
     highAlch: 0,

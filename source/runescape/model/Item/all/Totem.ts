@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TotemData = {{
+const TotemData = {
     examine: "",
     value: 0,
     highAlch: 0,

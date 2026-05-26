@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SandbagData = {{
+const SandbagData = {
     examine: "",
     value: 0,
     highAlch: 0,

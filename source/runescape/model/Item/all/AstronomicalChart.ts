@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AstronomicalChartData = {{
+const AstronomicalChartData = {
     examine: "",
     value: 0,
     highAlch: 0,

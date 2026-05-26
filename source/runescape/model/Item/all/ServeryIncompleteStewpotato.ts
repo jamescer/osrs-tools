@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ServeryIncompleteStewpotatoData = {{
+const ServeryIncompleteStewpotatoData = {
     examine: "",
     value: 0,
     highAlch: 0,

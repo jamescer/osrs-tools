@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteDigUnderRazorlorsToadBattaData = {{
+const ClueScrollEliteDigUnderRazorlorsToadBattaData = {
     examine: "",
     value: 0,
     highAlch: 0,

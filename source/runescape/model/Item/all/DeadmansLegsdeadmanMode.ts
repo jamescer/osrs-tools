@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DeadmansLegsdeadmanModeData = {{
+const DeadmansLegsdeadmanModeData = {
     examine: "",
     value: 0,
     highAlch: 0,

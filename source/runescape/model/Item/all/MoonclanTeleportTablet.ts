@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoonclanTeleportTabletData = {{
+const MoonclanTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

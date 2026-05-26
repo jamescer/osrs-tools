@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PentamidData = {{
+const PentamidData = {
     examine: "",
     value: 0,
     highAlch: 0,

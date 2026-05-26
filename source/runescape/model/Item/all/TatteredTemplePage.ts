@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TatteredTemplePageData = {{
+const TatteredTemplePageData = {
     examine: "",
     value: 0,
     highAlch: 0,

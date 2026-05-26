@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CiderBarrelFlatpackData = {{
+const CiderBarrelFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

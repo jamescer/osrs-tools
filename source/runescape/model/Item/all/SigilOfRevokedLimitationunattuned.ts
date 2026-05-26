@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfRevokedLimitationunattunedData = {{
+const SigilOfRevokedLimitationunattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

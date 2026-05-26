@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfPursuitData = {{
+const RingOfPursuitData = {
     examine: "",
     value: 0,
     highAlch: 0,

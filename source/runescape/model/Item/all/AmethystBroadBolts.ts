@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmethystBroadBoltsData = {{
+const AmethystBroadBoltsData = {
     examine: "",
     value: 0,
     highAlch: 0,

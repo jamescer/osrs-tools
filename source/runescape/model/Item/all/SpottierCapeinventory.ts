@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpottierCapeinventoryData = {{
+const SpottierCapeinventoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

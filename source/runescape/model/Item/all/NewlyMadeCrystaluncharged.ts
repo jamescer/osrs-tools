@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NewlyMadeCrystalunchargedData = {{
+const NewlyMadeCrystalunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

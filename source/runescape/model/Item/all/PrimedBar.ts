@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrimedBarData = {{
+const PrimedBarData = {
     examine: "",
     value: 0,
     highAlch: 0,

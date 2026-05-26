@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarlinScalesData = {{
+const MarlinScalesData = {
     examine: "",
     value: 0,
     highAlch: 0,

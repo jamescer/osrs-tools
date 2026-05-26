@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChefsDelightFlatpackData = {{
+const ChefsDelightFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

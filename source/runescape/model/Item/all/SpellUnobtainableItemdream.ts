@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemdreamData = {{
+const SpellUnobtainableItemdreamData = {
     examine: "",
     value: 0,
     highAlch: 0,

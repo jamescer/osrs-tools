@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardTheKingsMagicShouldntBeWastedByMeData = {{
+const ClueScrollHardTheKingsMagicShouldntBeWastedByMeData = {
     examine: "",
     value: 0,
     highAlch: 0,

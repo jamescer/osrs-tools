@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AxeHandleHistoricalstandardData = {{
+const AxeHandleHistoricalstandardData = {
     examine: "",
     value: 0,
     highAlch: 0,

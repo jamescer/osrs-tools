@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EntsRootsData = {{
+const EntsRootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

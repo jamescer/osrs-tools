@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MediumStatuezamorakData = {{
+const MediumStatuezamorakData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrowelData = {{
+const TrowelData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyTalkToAliTheLeafletDropperData = {{
+const ClueScrollEasyTalkToAliTheLeafletDropperData = {
     examine: "",
     value: 0,
     highAlch: 0,

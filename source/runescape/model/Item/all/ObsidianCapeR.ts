@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const obsidianCapeRData = {{
+const obsidianCapeRData = {
     examine: "A cape of woven obsidian plates.",
     value: 60000,
     highAlch: 36000,

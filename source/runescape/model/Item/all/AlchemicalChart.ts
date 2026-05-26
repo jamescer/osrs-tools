@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AlchemicalChartData = {{
+const AlchemicalChartData = {
     examine: "",
     value: 0,
     highAlch: 0,

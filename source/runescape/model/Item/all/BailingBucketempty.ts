@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BailingBucketemptyData = {{
+const BailingBucketemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

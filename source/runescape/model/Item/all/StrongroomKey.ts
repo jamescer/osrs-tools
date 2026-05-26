@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrongroomKeyData = {{
+const StrongroomKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

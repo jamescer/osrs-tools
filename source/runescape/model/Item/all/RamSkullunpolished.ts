@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RamSkullunpolishedData = {{
+const RamSkullunpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShrunkOglerootData = {{
+const ShrunkOglerootData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnsouledBloodveldHeaditemData = {{
+const EnsouledBloodveldHeaditemData = {
     examine: "",
     value: 0,
     highAlch: 0,

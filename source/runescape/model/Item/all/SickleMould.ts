@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SickleMouldData = {{
+const SickleMouldData = {
     examine: "",
     value: 0,
     highAlch: 0,

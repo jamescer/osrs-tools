@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedLegsPerfectedData = {{
+const CorruptedLegsPerfectedData = {
     examine: "",
     value: 0,
     highAlch: 0,

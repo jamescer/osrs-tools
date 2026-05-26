@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrescriptionGogglesunfocusedData = {{
+const PrescriptionGogglesunfocusedData = {
     examine: "",
     value: 0,
     highAlch: 0,

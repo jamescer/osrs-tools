@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LocatorOrbData = {{
+const LocatorOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlisteningPearlData = {{
+const GlisteningPearlData = {
     examine: "",
     value: 0,
     highAlch: 0,

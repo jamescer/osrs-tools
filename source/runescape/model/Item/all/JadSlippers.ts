@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JadSlippersData = {{
+const JadSlippersData = {
     examine: "",
     value: 0,
     highAlch: 0,

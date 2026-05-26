@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EggPriestMitreData = {{
+const EggPriestMitreData = {
     examine: "",
     value: 0,
     highAlch: 0,

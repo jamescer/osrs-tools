@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JungleCamoLegswornData = {{
+const JungleCamoLegswornData = {
     examine: "",
     value: 0,
     highAlch: 0,

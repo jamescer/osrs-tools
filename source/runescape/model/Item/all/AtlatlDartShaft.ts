@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AtlatlDartShaftData = {{
+const AtlatlDartShaftData = {
     examine: "",
     value: 0,
     highAlch: 0,

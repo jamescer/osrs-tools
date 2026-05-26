@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AlcoaugmentatorprocessedData = {{
+const AlcoaugmentatorprocessedData = {
     examine: "",
     value: 0,
     highAlch: 0,

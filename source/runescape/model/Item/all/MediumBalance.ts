@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MediumBalanceData = {{
+const MediumBalanceData = {
     examine: "",
     value: 0,
     highAlch: 0,

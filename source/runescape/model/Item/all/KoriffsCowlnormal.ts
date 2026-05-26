@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KoriffsCowlnormalData = {{
+const KoriffsCowlnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FusebrokenData = {{
+const FusebrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

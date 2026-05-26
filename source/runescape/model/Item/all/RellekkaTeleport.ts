@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RellekkaTeleportData = {{
+const RellekkaTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawCavefishData = {{
+const RawCavefishData = {
     examine: "",
     value: 0,
     highAlch: 0,

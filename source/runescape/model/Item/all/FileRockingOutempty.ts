@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FileRockingOutemptyData = {{
+const FileRockingOutemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

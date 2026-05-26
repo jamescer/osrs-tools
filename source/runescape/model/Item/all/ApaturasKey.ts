@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ApaturasKeyData = {{
+const ApaturasKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

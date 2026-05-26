@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnstrungCompBowData = {{
+const UnstrungCompBowData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NoonmidnightData = {{
+const NoonmidnightData = {
     examine: "",
     value: 0,
     highAlch: 0,

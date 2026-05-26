@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TetraData = {{
+const TetraData = {
     examine: "",
     value: 0,
     highAlch: 0,

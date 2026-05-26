@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AvernicTreadsData = {{
+const AvernicTreadsData = {
     examine: "",
     value: 0,
     highAlch: 0,

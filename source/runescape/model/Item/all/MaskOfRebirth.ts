@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaskOfRebirthData = {{
+const MaskOfRebirthData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WardUpgradeKitData = {{
+const WardUpgradeKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

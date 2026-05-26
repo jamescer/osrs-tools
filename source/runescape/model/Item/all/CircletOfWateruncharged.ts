@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CircletOfWaterunchargedData = {{
+const CircletOfWaterunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

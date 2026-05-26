@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DruidPouchemptyData = {{
+const DruidPouchemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

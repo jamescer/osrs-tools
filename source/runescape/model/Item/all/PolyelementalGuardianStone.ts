@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PolyelementalGuardianStoneData = {{
+const PolyelementalGuardianStoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

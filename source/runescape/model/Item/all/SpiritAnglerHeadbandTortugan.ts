@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritAnglerHeadbandTortuganData = {{
+const SpiritAnglerHeadbandTortuganData = {
     examine: "",
     value: 0,
     highAlch: 0,

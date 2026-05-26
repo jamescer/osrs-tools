@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandagesTheHeartOfDarknessData = {{
+const BandagesTheHeartOfDarknessData = {
     examine: "",
     value: 0,
     highAlch: 0,

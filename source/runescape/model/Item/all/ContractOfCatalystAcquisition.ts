@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ContractOfCatalystAcquisitionData = {{
+const ContractOfCatalystAcquisitionData = {
     examine: "",
     value: 0,
     highAlch: 0,

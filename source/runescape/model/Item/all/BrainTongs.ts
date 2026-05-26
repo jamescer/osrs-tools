@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrainTongsData = {{
+const BrainTongsData = {
     examine: "",
     value: 0,
     highAlch: 0,

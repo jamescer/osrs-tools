@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfWarhammersetceteriaData = {{
+const CrateOfWarhammersetceteriaData = {
     examine: "",
     value: 0,
     highAlch: 0,

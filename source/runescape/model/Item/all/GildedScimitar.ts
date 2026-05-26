@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedScimitarData = {{
+const gildedScimitarData = {
     examine: "Rune scimitar with gold plate.",
     value: 25600,
     highAlch: 15360,

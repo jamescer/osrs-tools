@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasoriBodyData = {{
+const MasoriBodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

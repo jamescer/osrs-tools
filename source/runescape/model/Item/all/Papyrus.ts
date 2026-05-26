@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PapyrusData = {{
+const PapyrusData = {
     examine: "",
     value: 0,
     highAlch: 0,

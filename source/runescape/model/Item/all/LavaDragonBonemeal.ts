@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LavaDragonBonemealData = {{
+const LavaDragonBonemealData = {
     examine: "",
     value: 0,
     highAlch: 0,

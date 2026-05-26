@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SarachnisCudgelData = {{
+const SarachnisCudgelData = {
     examine: "",
     value: 0,
     highAlch: 0,

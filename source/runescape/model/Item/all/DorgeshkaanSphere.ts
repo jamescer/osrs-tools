@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DorgeshkaanSphereData = {{
+const DorgeshkaanSphereData = {
     examine: "",
     value: 0,
     highAlch: 0,

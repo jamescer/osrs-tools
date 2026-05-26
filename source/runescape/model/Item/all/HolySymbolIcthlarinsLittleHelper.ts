@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HolySymbolIcthlarinsLittleHelperData = {{
+const HolySymbolIcthlarinsLittleHelperData = {
     examine: "",
     value: 0,
     highAlch: 0,

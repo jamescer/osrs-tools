@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IceElementStaffCrownData = {{
+const IceElementStaffCrownData = {
     examine: "",
     value: 0,
     highAlch: 0,

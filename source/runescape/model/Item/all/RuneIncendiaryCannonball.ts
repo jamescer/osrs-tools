@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneIncendiaryCannonballData = {{
+const RuneIncendiaryCannonballData = {
     examine: "",
     value: 0,
     highAlch: 0,

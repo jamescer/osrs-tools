@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MindRuneTheSlugMenaceData = {{
+const MindRuneTheSlugMenaceData = {
     examine: "",
     value: 0,
     highAlch: 0,

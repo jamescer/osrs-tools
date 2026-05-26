@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaisasMessageData = {{
+const MaisasMessageData = {
     examine: "",
     value: 0,
     highAlch: 0,

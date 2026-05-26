@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeballData = {{
+const GnomeballData = {
     examine: "",
     value: 0,
     highAlch: 0,

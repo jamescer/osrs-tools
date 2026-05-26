@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IritSeedData = {{
+const IritSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const musketeerTabardData = {{
+const musketeerTabardData = {
     examine: "All for one!",
     value: 1880,
     highAlch: 1128,

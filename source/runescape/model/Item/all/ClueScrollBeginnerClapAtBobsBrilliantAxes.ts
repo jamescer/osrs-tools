@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollBeginnerClapAtBobsBrilliantAxesData = {{
+const ClueScrollBeginnerClapAtBobsBrilliantAxesData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritSeedlingunwateredData = {{
+const SpiritSeedlingunwateredData = {
     examine: "",
     value: 0,
     highAlch: 0,

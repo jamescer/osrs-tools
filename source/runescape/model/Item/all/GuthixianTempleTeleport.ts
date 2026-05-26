@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthixianTempleTeleportData = {{
+const GuthixianTempleTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

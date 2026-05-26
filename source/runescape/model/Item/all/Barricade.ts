@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarricadeData = {{
+const BarricadeData = {
     examine: "",
     value: 0,
     highAlch: 0,

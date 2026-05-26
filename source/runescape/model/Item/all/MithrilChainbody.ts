@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MithrilChainbodyData = {{
+const MithrilChainbodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

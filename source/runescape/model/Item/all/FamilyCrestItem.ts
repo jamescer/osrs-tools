@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FamilyCrestItemData = {{
+const FamilyCrestItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

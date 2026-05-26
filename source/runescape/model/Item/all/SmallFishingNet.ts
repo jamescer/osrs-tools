@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallFishingNetData = {{
+const SmallFishingNetData = {
     examine: "",
     value: 0,
     highAlch: 0,

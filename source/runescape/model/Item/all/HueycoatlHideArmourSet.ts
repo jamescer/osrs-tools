@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HueycoatlHideArmourSetData = {{
+const HueycoatlHideArmourSetData = {
     examine: "",
     value: 0,
     highAlch: 0,

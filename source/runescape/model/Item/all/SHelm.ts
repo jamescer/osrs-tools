@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sHelmData = {{
+const sHelmData = {
     examine: "You don't want to wear it inside-out.",
     value: 40000,
     highAlch: 24000,

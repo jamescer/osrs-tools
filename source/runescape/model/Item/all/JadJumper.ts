@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JadJumperData = {{
+const JadJumperData = {
     examine: "",
     value: 0,
     highAlch: 0,

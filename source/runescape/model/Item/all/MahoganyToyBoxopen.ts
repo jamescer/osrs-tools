@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyToyBoxopenData = {{
+const MahoganyToyBoxopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

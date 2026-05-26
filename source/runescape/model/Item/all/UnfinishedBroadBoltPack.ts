@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnfinishedBroadBoltPackData = {{
+const UnfinishedBroadBoltPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

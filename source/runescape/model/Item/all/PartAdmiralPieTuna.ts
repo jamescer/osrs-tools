@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PartAdmiralPieTunaData = {{
+const PartAdmiralPieTunaData = {
     examine: "",
     value: 0,
     highAlch: 0,

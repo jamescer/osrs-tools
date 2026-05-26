@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AtlatlDartLastManStandingData = {{
+const AtlatlDartLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

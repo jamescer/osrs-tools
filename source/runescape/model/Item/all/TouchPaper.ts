@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TouchPaperData = {{
+const TouchPaperData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WovenTopBlueData = {{
+const WovenTopBlueData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const YakhideArmourLegsData = {{
+const YakhideArmourLegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

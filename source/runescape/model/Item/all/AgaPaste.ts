@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AgaPasteData = {{
+const AgaPasteData = {
     examine: "",
     value: 0,
     highAlch: 0,

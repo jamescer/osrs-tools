@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MimeLegsData = {{
+const MimeLegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

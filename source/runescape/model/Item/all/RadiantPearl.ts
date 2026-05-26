@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RadiantPearlData = {{
+const RadiantPearlData = {
     examine: "",
     value: 0,
     highAlch: 0,

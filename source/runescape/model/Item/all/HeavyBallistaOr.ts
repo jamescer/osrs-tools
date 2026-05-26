@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HeavyBallistaOrData = {{
+const HeavyBallistaOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

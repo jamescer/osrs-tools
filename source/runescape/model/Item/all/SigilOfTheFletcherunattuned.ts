@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfTheFletcherunattunedData = {{
+const SigilOfTheFletcherunattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

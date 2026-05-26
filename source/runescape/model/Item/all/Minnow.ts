@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MinnowData = {{
+const MinnowData = {
     examine: "",
     value: 0,
     highAlch: 0,

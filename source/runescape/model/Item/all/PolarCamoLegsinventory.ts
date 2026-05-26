@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PolarCamoLegsinventoryData = {{
+const PolarCamoLegsinventoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LightBoxData = {{
+const LightBoxData = {
     examine: "",
     value: 0,
     highAlch: 0,

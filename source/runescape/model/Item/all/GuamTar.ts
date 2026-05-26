@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuamTarData = {{
+const GuamTarData = {
     examine: "",
     value: 0,
     highAlch: 0,

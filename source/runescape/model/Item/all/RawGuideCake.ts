@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawGuideCakeData = {{
+const RawGuideCakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

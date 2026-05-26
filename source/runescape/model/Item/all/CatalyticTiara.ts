@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CatalyticTiaraData = {{
+const CatalyticTiaraData = {
     examine: "",
     value: 0,
     highAlch: 0,

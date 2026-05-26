@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MossGiantBoneunpolishedData = {{
+const MossGiantBoneunpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GryphonFeatherData = {{
+const GryphonFeatherData = {
     examine: "",
     value: 0,
     highAlch: 0,

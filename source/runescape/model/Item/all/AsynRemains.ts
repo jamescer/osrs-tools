@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AsynRemainsData = {{
+const AsynRemainsData = {
     examine: "",
     value: 0,
     highAlch: 0,

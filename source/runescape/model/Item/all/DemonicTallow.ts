@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DemonicTallowData = {{
+const DemonicTallowData = {
     examine: "",
     value: 0,
     highAlch: 0,

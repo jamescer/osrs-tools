@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MessageBeneathCursedSandsData = {{
+const MessageBeneathCursedSandsData = {
     examine: "",
     value: 0,
     highAlch: 0,

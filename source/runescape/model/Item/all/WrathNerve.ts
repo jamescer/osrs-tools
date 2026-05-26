@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WrathNerveData = {{
+const WrathNerveData = {
     examine: "",
     value: 0,
     highAlch: 0,

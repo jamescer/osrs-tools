@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WristbandsOfTheArenaIchargedAndLockedData = {{
+const WristbandsOfTheArenaIchargedAndLockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

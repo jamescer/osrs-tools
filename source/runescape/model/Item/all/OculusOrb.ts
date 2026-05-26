@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OculusOrbData = {{
+const OculusOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

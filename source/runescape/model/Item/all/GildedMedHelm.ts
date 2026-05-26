@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedMedHelmData = {{
+const gildedMedHelmData = {
     examine: "A medium sized helmet with gold plate.",
     value: 19200,
     highAlch: 11520,

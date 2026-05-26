@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarroniteGuardData = {{
+const BarroniteGuardData = {
     examine: "",
     value: 0,
     highAlch: 0,

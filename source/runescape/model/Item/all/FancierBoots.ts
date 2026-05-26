@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FancierBootsData = {{
+const FancierBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

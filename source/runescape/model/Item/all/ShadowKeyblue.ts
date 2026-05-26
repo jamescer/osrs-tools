@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShadowKeyblueData = {{
+const ShadowKeyblueData = {
     examine: "",
     value: 0,
     highAlch: 0,

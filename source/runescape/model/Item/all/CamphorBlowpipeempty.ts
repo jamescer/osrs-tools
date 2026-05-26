@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CamphorBlowpipeemptyData = {{
+const CamphorBlowpipeemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

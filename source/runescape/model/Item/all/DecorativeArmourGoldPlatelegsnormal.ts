@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeArmourGoldPlatelegsnormalData = {{
+const DecorativeArmourGoldPlatelegsnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

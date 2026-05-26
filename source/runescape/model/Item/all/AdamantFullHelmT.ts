@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantFullHelmTData = {{
+const adamantFullHelmTData = {
     examine: "Adamant full helmet with trim.",
     value: 3520,
     highAlch: 2112,

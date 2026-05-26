@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const hideVambracesData = {{
+const hideVambracesData = {
     examine: "Made from real Huey hide!",
     value: 4320,
     highAlch: 2592,

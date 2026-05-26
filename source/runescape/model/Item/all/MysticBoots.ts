@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysticBootsData = {{
+const MysticBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

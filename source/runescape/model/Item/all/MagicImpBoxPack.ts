@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicImpBoxPackData = {{
+const MagicImpBoxPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

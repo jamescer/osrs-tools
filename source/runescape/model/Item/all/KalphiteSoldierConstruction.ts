@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KalphiteSoldierConstructionData = {{
+const KalphiteSoldierConstructionData = {
     examine: "",
     value: 0,
     highAlch: 0,

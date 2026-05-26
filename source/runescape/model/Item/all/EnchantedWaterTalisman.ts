@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnchantedWaterTalismanData = {{
+const EnchantedWaterTalismanData = {
     examine: "",
     value: 0,
     highAlch: 0,

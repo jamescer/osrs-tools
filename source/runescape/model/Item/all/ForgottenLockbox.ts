@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ForgottenLockboxData = {{
+const ForgottenLockboxData = {
     examine: "",
     value: 0,
     highAlch: 0,

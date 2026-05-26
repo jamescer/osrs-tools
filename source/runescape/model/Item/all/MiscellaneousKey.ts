@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MiscellaneousKeyData = {{
+const MiscellaneousKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalfCertificaterightData = {{
+const HalfCertificaterightData = {
     examine: "",
     value: 0,
     highAlch: 0,

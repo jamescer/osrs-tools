@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PieDishData = {{
+const PieDishData = {
     examine: "",
     value: 0,
     highAlch: 0,

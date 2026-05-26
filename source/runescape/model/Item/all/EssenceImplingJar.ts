@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EssenceImplingJarData = {{
+const EssenceImplingJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

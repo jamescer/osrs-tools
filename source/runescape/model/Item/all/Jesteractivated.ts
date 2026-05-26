@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JesteractivatedData = {{
+const JesteractivatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

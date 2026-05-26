@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CustomBowStringData = {{
+const CustomBowStringData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CryptKeyData = {{
+const CryptKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

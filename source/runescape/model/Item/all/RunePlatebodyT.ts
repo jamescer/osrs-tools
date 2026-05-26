@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runePlatebodyTData = {{
+const runePlatebodyTData = {
     examine: "A suit of rune body armour, decorated with gold trim.",
     value: 88200,
     highAlch: 52920,

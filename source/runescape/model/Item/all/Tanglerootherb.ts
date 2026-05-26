@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TanglerootherbData = {{
+const TanglerootherbData = {
     examine: "",
     value: 0,
     highAlch: 0,

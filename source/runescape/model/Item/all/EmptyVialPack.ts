@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EmptyVialPackData = {{
+const EmptyVialPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MusicCapetrimmedData = {{
+const MusicCapetrimmedData = {
     examine: "",
     value: 0,
     highAlch: 0,

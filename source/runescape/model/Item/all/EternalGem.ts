@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EternalGemData = {{
+const EternalGemData = {
     examine: "",
     value: 0,
     highAlch: 0,

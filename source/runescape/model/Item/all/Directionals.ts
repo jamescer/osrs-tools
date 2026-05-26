@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DirectionalsData = {{
+const DirectionalsData = {
     examine: "",
     value: 0,
     highAlch: 0,

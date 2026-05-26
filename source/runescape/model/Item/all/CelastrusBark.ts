@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CelastrusBarkData = {{
+const CelastrusBarkData = {
     examine: "",
     value: 0,
     highAlch: 0,

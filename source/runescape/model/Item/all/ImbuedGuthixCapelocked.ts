@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedGuthixCapelockedData = {{
+const ImbuedGuthixCapelockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

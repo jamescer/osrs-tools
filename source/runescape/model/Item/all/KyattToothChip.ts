@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KyattToothChipData = {{
+const KyattToothChipData = {
     examine: "",
     value: 0,
     highAlch: 0,

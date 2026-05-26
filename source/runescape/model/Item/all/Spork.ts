@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SporkData = {{
+const SporkData = {
     examine: "",
     value: 0,
     highAlch: 0,

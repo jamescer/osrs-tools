@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenShieldleftData = {{
+const BrokenShieldleftData = {
     examine: "",
     value: 0,
     highAlch: 0,

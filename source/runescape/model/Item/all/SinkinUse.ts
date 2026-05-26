@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SinkinUseData = {{
+const SinkinUseData = {
     examine: "",
     value: 0,
     highAlch: 0,

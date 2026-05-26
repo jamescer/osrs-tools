@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackDhideChapsData = {{
+const BlackDhideChapsData = {
     examine: "",
     value: 0,
     highAlch: 0,

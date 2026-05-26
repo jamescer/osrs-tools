@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LoopHalfOfKeyMoonKeyData = {{
+const LoopHalfOfKeyMoonKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

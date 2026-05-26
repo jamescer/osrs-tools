@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteSurroundMyBonesInFireOntopTheWoodenPyreData = {{
+const ClueScrollEliteSurroundMyBonesInFireOntopTheWoodenPyreData = {
     examine: "",
     value: 0,
     highAlch: 0,

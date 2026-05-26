@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalChartData = {{
+const InfernalChartData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SledwaxedData = {{
+const SledwaxedData = {
     examine: "",
     value: 0,
     highAlch: 0,

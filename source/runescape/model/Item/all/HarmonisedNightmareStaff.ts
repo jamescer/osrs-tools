@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HarmonisedNightmareStaffData = {{
+const HarmonisedNightmareStaffData = {
     examine: "",
     value: 0,
     highAlch: 0,

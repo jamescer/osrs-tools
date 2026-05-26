@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VialTheGauntletData = {{
+const VialTheGauntletData = {
     examine: "",
     value: 0,
     highAlch: 0,

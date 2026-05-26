@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ResearchNotesAnimalMagnetismData = {{
+const ResearchNotesAnimalMagnetismData = {
     examine: "",
     value: 0,
     highAlch: 0,

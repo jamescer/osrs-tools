@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnicornHornData = {{
+const UnicornHornData = {
     examine: "",
     value: 0,
     highAlch: 0,

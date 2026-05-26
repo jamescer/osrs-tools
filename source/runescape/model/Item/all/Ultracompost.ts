@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UltracompostData = {{
+const UltracompostData = {
     examine: "",
     value: 0,
     highAlch: 0,

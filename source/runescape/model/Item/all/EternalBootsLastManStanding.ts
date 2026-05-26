@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EternalBootsLastManStandingData = {{
+const EternalBootsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

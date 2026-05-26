@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FlashPowderData = {{
+const FlashPowderData = {
     examine: "",
     value: 0,
     highAlch: 0,

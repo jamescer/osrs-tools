@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BandosTassetsLastManStandingData = {{
+const BandosTassetsLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

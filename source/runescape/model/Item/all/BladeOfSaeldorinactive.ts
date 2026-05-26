@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BladeOfSaeldorinactiveData = {{
+const BladeOfSaeldorinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

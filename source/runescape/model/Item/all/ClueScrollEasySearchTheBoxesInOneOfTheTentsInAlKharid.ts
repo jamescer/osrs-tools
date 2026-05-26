@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasySearchTheBoxesInOneOfTheTentsInAlKharidData = {{
+const ClueScrollEasySearchTheBoxesInOneOfTheTentsInAlKharidData = {
     examine: "",
     value: 0,
     highAlch: 0,

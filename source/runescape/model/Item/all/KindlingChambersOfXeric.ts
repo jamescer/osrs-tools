@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KindlingChambersOfXericData = {{
+const KindlingChambersOfXericData = {
     examine: "",
     value: 0,
     highAlch: 0,

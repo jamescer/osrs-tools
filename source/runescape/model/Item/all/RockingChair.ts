@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RockingChairData = {{
+const RockingChairData = {
     examine: "",
     value: 0,
     highAlch: 0,

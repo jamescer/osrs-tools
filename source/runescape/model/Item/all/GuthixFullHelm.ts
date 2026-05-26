@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const guthixFullHelmData = {{
+const guthixFullHelmData = {
     examine: "A rune full face helmet in the colours of Guthix.",
     value: 35200,
     highAlch: 21120,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GraahkHeaddressData = {{
+const GraahkHeaddressData = {
     examine: "",
     value: 0,
     highAlch: 0,

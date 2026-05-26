@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfFreedomunattunedData = {{
+const SigilOfFreedomunattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

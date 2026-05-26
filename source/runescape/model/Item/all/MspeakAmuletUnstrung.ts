@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MspeakAmuletUnstrungData = {{
+const MspeakAmuletUnstrungData = {
     examine: "",
     value: 0,
     highAlch: 0,

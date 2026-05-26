@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BloodierKeyData = {{
+const BloodierKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

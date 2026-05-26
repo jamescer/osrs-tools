@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicChestopenData = {{
+const MagicChestopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

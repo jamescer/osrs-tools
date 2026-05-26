@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DragonstonePlatelegsData = {{
+const DragonstonePlatelegsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HuntersLootSackSuppliesData = {{
+const HuntersLootSackSuppliesData = {
     examine: "",
     value: 0,
     highAlch: 0,

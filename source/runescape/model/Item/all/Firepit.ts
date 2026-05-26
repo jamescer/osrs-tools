@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FirepitData = {{
+const FirepitData = {
     examine: "",
     value: 0,
     highAlch: 0,

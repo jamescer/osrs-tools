@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EggshellPlatebodyData = {{
+const EggshellPlatebodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteTreeShootshootData = {{
+const WhiteTreeShootshootData = {
     examine: "",
     value: 0,
     highAlch: 0,

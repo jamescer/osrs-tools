@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnchantedLyreunchargedData = {{
+const EnchantedLyreunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

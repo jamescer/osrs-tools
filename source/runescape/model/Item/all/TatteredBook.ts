@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TatteredBookData = {{
+const TatteredBookData = {
     examine: "",
     value: 0,
     highAlch: 0,

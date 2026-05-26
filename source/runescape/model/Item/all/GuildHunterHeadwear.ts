@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuildHunterHeadwearData = {{
+const GuildHunterHeadwearData = {
     examine: "",
     value: 0,
     highAlch: 0,

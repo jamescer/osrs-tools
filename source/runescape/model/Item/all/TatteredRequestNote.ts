@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TatteredRequestNoteData = {{
+const TatteredRequestNoteData = {
     examine: "",
     value: 0,
     highAlch: 0,

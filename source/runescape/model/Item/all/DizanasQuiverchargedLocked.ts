@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DizanasQuiverchargedLockedData = {{
+const DizanasQuiverchargedLockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

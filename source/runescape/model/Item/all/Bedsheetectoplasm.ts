@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BedsheetectoplasmData = {{
+const BedsheetectoplasmData = {
     examine: "",
     value: 0,
     highAlch: 0,

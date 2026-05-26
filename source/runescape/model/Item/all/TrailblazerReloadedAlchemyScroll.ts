@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrailblazerReloadedAlchemyScrollData = {{
+const TrailblazerReloadedAlchemyScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

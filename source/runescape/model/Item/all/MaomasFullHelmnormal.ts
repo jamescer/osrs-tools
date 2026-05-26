@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaomasFullHelmnormalData = {{
+const MaomasFullHelmnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

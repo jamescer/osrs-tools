@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystalPickaxeTheGauntletData = {{
+const CrystalPickaxeTheGauntletData = {
     examine: "",
     value: 0,
     highAlch: 0,

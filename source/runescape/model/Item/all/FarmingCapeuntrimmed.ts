@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FarmingCapeuntrimmedData = {{
+const FarmingCapeuntrimmedData = {
     examine: "",
     value: 0,
     highAlch: 0,

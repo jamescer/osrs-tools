@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const katanaData = {{
+const katanaData = {
     examine: "Created by Hattori Hanzo in the Eastern Lands.",
     value: 24000,
     highAlch: 14400,

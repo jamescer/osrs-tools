@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PyramidTopData = {{
+const PyramidTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

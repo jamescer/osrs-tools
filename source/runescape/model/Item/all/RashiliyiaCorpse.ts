@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RashiliyiaCorpseData = {{
+const RashiliyiaCorpseData = {
     examine: "",
     value: 0,
     highAlch: 0,

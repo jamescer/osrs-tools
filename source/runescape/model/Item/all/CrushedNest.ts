@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrushedNestData = {{
+const CrushedNestData = {
     examine: "",
     value: 0,
     highAlch: 0,

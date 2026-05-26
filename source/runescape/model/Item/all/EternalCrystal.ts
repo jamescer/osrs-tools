@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EternalCrystalData = {{
+const EternalCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

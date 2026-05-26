@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesNpcContactScrollData = {{
+const RagingEchoesNpcContactScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

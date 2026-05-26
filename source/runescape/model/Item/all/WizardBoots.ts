@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const wizardBootsData = {{
+const wizardBootsData = {
     examine: "Slightly magical boots.",
     value: 200,
     highAlch: 120,

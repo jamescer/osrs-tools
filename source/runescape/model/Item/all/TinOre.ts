@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TinOreData = {{
+const TinOreData = {
     examine: "",
     value: 0,
     highAlch: 0,

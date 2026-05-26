@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LockboxDirectionsDeepfinPointData = {{
+const LockboxDirectionsDeepfinPointData = {
     examine: "",
     value: 0,
     highAlch: 0,

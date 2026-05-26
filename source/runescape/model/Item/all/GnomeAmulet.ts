@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeAmuletData = {{
+const GnomeAmuletData = {
     examine: "",
     value: 0,
     highAlch: 0,

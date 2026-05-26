@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixedSggData = {{
+const MixedSggData = {
     examine: "",
     value: 0,
     highAlch: 0,

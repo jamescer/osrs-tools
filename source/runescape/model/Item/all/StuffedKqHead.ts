@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuffedKqHeadData = {{
+const StuffedKqHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

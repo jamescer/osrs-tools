@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwistedBlueprintsData = {{
+const TwistedBlueprintsData = {
     examine: "",
     value: 0,
     highAlch: 0,

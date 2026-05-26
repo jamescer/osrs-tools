@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysteriousOrbClientOfKourendData = {{
+const MysteriousOrbClientOfKourendData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const adamantPlatelegsTData = {{
+const adamantPlatelegsTData = {
     examine: "Adamant platelegs with trim.",
     value: 6400,
     highAlch: 3840,

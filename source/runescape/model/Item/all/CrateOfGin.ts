@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfGinData = {{
+const CrateOfGinData = {
     examine: "",
     value: 0,
     highAlch: 0,

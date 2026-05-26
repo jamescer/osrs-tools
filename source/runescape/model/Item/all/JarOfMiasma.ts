@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JarOfMiasmaData = {{
+const JarOfMiasmaData = {
     examine: "",
     value: 0,
     highAlch: 0,

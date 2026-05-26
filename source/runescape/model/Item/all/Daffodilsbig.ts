@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DaffodilsbigData = {{
+const DaffodilsbigData = {
     examine: "",
     value: 0,
     highAlch: 0,

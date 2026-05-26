@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GroundSeaweedData = {{
+const GroundSeaweedData = {
     examine: "",
     value: 0,
     highAlch: 0,

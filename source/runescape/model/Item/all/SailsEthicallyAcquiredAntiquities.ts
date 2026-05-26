@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SailsEthicallyAcquiredAntiquitiesData = {{
+const SailsEthicallyAcquiredAntiquitiesData = {
     examine: "",
     value: 0,
     highAlch: 0,

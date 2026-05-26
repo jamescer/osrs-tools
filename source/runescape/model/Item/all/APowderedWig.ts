@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const aPowderedWigData = {{
+const aPowderedWigData = {
     examine: "A big do about nothing.",
     value: 2000,
     highAlch: 1200,

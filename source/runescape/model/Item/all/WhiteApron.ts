@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteApronData = {{
+const WhiteApronData = {
     examine: "",
     value: 0,
     highAlch: 0,

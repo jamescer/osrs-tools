@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalCapeAnimationItemData = {{
+const InfernalCapeAnimationItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

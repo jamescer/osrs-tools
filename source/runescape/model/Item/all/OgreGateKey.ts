@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OgreGateKeyData = {{
+const OgreGateKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

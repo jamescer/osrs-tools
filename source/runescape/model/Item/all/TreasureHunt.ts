@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TreasureHuntData = {{
+const TreasureHuntData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LuckyCutlassData = {{
+const LuckyCutlassData = {
     examine: "",
     value: 0,
     highAlch: 0,

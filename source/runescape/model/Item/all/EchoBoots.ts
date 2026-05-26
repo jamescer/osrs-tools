@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoBootsData = {{
+const EchoBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

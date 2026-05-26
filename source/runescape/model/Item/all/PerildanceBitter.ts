@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PerildanceBitterData = {{
+const PerildanceBitterData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ancientPlatelegsData = {{
+const ancientPlatelegsData = {
     examine: "Rune platelegs in the colours of a long-forgotten god.",
     value: 64000,
     highAlch: 38400,

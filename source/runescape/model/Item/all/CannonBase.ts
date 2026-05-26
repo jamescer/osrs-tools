@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CannonBaseData = {{
+const CannonBaseData = {
     examine: "",
     value: 0,
     highAlch: 0,

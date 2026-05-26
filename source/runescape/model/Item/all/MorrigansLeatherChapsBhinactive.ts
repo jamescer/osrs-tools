@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MorrigansLeatherChapsBhinactiveData = {{
+const MorrigansLeatherChapsBhinactiveData = {
     examine: "",
     value: 0,
     highAlch: 0,

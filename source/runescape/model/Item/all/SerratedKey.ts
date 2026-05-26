@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SerratedKeyData = {{
+const SerratedKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

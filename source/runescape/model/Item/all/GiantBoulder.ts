@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GiantBoulderData = {{
+const GiantBoulderData = {
     examine: "",
     value: 0,
     highAlch: 0,

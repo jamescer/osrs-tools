@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CyanCrystalMourningsEndPartIiData = {{
+const CyanCrystalMourningsEndPartIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

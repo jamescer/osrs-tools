@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ServeryPieShellData = {{
+const ServeryPieShellData = {
     examine: "",
     value: 0,
     highAlch: 0,

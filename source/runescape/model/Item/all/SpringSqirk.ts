@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpringSqirkData = {{
+const SpringSqirkData = {
     examine: "",
     value: 0,
     highAlch: 0,

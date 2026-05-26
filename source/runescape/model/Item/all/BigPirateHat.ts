@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bigPirateHatData = {{
+const bigPirateHatData = {
     examine: "Yarrr!",
     value: 1500,
     highAlch: 900,

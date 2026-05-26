@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MournerTopData = {{
+const MournerTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

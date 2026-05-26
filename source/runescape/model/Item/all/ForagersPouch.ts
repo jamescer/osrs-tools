@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ForagersPouchData = {{
+const ForagersPouchData = {
     examine: "",
     value: 0,
     highAlch: 0,

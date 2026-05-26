@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnakeskinBandanaData = {{
+const SnakeskinBandanaData = {
     examine: "",
     value: 0,
     highAlch: 0,

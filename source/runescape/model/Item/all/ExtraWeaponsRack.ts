@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ExtraWeaponsRackData = {{
+const ExtraWeaponsRackData = {
     examine: "",
     value: 0,
     highAlch: 0,

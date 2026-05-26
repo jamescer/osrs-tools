@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteShowThisToSherlockData = {{
+const ClueScrollEliteShowThisToSherlockData = {
     examine: "",
     value: 0,
     highAlch: 0,

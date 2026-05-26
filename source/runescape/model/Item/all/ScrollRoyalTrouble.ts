@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrollRoyalTroubleData = {{
+const ScrollRoyalTroubleData = {
     examine: "",
     value: 0,
     highAlch: 0,

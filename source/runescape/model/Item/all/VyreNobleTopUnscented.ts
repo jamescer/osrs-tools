@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VyreNobleTopUnscentedData = {{
+const VyreNobleTopUnscentedData = {
     examine: "",
     value: 0,
     highAlch: 0,

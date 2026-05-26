@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WordTranslationsData = {{
+const WordTranslationsData = {
     examine: "",
     value: 0,
     highAlch: 0,

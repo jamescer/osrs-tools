@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MinecartTicketwhiteWolfMountainToKeldagrimData = {{
+const MinecartTicketwhiteWolfMountainToKeldagrimData = {
     examine: "",
     value: 0,
     highAlch: 0,

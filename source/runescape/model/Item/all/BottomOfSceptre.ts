@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottomOfSceptreData = {{
+const BottomOfSceptreData = {
     examine: "",
     value: 0,
     highAlch: 0,

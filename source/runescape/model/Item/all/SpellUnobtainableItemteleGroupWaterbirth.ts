@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpellUnobtainableItemteleGroupWaterbirthData = {{
+const SpellUnobtainableItemteleGroupWaterbirthData = {
     examine: "",
     value: 0,
     highAlch: 0,

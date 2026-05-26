@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PreformData = {{
+const PreformData = {
     examine: "",
     value: 0,
     highAlch: 0,

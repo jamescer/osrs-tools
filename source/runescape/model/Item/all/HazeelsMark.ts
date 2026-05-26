@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HazeelsMarkData = {{
+const HazeelsMarkData = {
     examine: "",
     value: 0,
     highAlch: 0,

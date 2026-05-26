@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VestasPlateskirtDeadmanModeData = {{
+const VestasPlateskirtDeadmanModeData = {
     examine: "",
     value: 0,
     highAlch: 0,

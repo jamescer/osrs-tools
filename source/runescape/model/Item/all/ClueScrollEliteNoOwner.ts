@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteNoOwnerData = {{
+const ClueScrollEliteNoOwnerData = {
     examine: "",
     value: 0,
     highAlch: 0,

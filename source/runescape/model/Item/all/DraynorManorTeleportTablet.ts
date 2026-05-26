@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DraynorManorTeleportTabletData = {{
+const DraynorManorTeleportTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

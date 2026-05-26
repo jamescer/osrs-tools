@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumTryNotToStepOnAnyAquaticNastiesWhileSearchingThisCrateData = {{
+const ClueScrollMediumTryNotToStepOnAnyAquaticNastiesWhileSearchingThisCrateData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GoldLeafUnobtainableItemData = {{
+const GoldLeafUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

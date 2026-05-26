@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GlarialsPebbleData = {{
+const GlarialsPebbleData = {
     examine: "",
     value: 0,
     highAlch: 0,

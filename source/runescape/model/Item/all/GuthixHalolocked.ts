@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthixHalolockedData = {{
+const GuthixHalolockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

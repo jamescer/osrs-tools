@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MinionWhistleData = {{
+const MinionWhistleData = {
     examine: "",
     value: 0,
     highAlch: 0,

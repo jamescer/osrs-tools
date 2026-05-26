@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const blackDragonhideData = {{
+const blackDragonhideData = {
     examine: "The scaly rough hide from a Black Dragon.",
     value: 150,
     highAlch: 90,

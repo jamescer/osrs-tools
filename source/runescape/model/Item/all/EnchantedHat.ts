@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const enchantedHatData = {{
+const enchantedHatData = {
     examine: "A three pointed hat of magic.",
     value: 15000,
     highAlch: 9000,

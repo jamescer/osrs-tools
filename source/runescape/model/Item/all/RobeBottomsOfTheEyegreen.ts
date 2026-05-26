@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RobeBottomsOfTheEyegreenData = {{
+const RobeBottomsOfTheEyegreenData = {
     examine: "",
     value: 0,
     highAlch: 0,

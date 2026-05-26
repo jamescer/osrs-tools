@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AsgarnianAleData = {{
+const AsgarnianAleData = {
     examine: "",
     value: 0,
     highAlch: 0,

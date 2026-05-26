@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LinenIcthlarinsLittleHelperData = {{
+const LinenIcthlarinsLittleHelperData = {
     examine: "",
     value: 0,
     highAlch: 0,

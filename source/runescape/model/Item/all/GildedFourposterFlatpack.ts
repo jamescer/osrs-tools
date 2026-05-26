@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedFourposterFlatpackData = {{
+const GildedFourposterFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

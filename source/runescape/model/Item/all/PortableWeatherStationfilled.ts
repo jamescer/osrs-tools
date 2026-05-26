@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PortableWeatherStationfilledData = {{
+const PortableWeatherStationfilledData = {
     examine: "",
     value: 0,
     highAlch: 0,

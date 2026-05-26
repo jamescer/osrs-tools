@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AccordionpipeData = {{
+const AccordionpipeData = {
     examine: "",
     value: 0,
     highAlch: 0,

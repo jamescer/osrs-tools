@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NitroglycerinnitroglycerinData = {{
+const NitroglycerinnitroglycerinData = {
     examine: "",
     value: 0,
     highAlch: 0,

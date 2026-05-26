@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ASmallKeyData = {{
+const ASmallKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

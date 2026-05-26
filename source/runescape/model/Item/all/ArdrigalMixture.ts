@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArdrigalMixtureData = {{
+const ArdrigalMixtureData = {
     examine: "",
     value: 0,
     highAlch: 0,

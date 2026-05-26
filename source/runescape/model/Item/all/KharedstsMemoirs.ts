@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KharedstsMemoirsData = {{
+const KharedstsMemoirsData = {
     examine: "",
     value: 0,
     highAlch: 0,

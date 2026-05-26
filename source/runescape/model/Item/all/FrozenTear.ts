@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FrozenTearData = {{
+const FrozenTearData = {
     examine: "",
     value: 0,
     highAlch: 0,

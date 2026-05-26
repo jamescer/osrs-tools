@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GurtobsFabricRollData = {{
+const GurtobsFabricRollData = {
     examine: "",
     value: 0,
     highAlch: 0,

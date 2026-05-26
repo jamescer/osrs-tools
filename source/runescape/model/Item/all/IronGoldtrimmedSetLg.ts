@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IronGoldtrimmedSetLgData = {{
+const IronGoldtrimmedSetLgData = {
     examine: "",
     value: 0,
     highAlch: 0,

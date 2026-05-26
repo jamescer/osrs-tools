@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BankersBriefcaseData = {{
+const BankersBriefcaseData = {
     examine: "",
     value: 0,
     highAlch: 0,

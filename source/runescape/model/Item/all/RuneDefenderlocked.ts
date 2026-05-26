@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RuneDefenderlockedData = {{
+const RuneDefenderlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

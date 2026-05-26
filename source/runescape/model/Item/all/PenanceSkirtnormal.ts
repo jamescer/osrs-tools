@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PenanceSkirtnormalData = {{
+const PenanceSkirtnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

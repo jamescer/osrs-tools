@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElementalTiaraData = {{
+const ElementalTiaraData = {
     examine: "",
     value: 0,
     highAlch: 0,

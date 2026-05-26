@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TribalTopBlueData = {{
+const TribalTopBlueData = {
     examine: "",
     value: 0,
     highAlch: 0,

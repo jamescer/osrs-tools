@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmageddonCapeFabricData = {{
+const ArmageddonCapeFabricData = {
     examine: "",
     value: 0,
     highAlch: 0,

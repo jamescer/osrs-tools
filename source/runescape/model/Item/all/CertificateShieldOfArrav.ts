@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CertificateShieldOfArravData = {{
+const CertificateShieldOfArravData = {
     examine: "",
     value: 0,
     highAlch: 0,

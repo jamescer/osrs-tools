@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SlepeyTabletData = {{
+const SlepeyTabletData = {
     examine: "",
     value: 0,
     highAlch: 0,

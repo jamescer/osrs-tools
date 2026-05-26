@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThatchSparLightData = {{
+const ThatchSparLightData = {
     examine: "",
     value: 0,
     highAlch: 0,

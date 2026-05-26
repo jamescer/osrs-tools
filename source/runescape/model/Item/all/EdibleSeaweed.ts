@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EdibleSeaweedData = {{
+const EdibleSeaweedData = {
     examine: "",
     value: 0,
     highAlch: 0,

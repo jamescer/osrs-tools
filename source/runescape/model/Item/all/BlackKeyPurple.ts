@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackKeyPurpleData = {{
+const BlackKeyPurpleData = {
     examine: "",
     value: 0,
     highAlch: 0,

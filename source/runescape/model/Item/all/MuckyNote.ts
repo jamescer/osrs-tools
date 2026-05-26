@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MuckyNoteData = {{
+const MuckyNoteData = {
     examine: "",
     value: 0,
     highAlch: 0,

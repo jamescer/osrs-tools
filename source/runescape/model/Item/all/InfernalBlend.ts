@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalBlendData = {{
+const InfernalBlendData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HammerheadSharkLiverData = {{
+const HammerheadSharkLiverData = {
     examine: "",
     value: 0,
     highAlch: 0,

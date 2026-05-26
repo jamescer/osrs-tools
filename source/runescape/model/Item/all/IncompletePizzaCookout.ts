@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IncompletePizzaCookoutData = {{
+const IncompletePizzaCookoutData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ObservatoryLensData = {{
+const ObservatoryLensData = {
     examine: "",
     value: 0,
     highAlch: 0,

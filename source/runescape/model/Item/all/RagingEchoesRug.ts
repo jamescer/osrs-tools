@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesRugData = {{
+const RagingEchoesRugData = {
     examine: "",
     value: 0,
     highAlch: 0,

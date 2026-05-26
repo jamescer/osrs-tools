@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantKiteshieldGuthixData = {{
+const AdamantKiteshieldGuthixData = {
     examine: "",
     value: 0,
     highAlch: 0,

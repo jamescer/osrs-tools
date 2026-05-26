@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeKeyMonkeyMadnessIiData = {{
+const BronzeKeyMonkeyMadnessIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

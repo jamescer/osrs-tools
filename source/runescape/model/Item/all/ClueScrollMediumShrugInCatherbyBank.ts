@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumShrugInCatherbyBankData = {{
+const ClueScrollMediumShrugInCatherbyBankData = {
     examine: "",
     value: 0,
     highAlch: 0,

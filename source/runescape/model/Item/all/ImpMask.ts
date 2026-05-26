@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const impMaskData = {{
+const impMaskData = {
     examine: "What mischief can I get up to with this?",
     value: 2000,
     highAlch: 1200,

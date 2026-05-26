@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfernalChunkData = {{
+const InfernalChunkData = {
     examine: "",
     value: 0,
     highAlch: 0,

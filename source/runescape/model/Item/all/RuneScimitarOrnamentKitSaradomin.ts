@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const runeScimitarOrnamentKitSaradominData = {{
+const runeScimitarOrnamentKitSaradominData = {
     examine: "Use on a rune scimitar to make it look fancier!",
     value: 5000,
     highAlch: 3000,

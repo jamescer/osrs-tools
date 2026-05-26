@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GraniteMaulOrnateHandlenormalData = {{
+const GraniteMaulOrnateHandlenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

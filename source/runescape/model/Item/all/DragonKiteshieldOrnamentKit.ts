@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const dragonKiteshieldOrnamentKitData = {{
+const dragonKiteshieldOrnamentKitData = {
     examine: "Use on a dragon kiteshield to make it look fancier!",
     value: 5000,
     highAlch: 3000,

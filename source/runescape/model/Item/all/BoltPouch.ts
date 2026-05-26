@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BoltPouchData = {{
+const BoltPouchData = {
     examine: "",
     value: 0,
     highAlch: 0,

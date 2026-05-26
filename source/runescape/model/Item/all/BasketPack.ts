@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BasketPackData = {{
+const BasketPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

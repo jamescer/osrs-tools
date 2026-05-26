@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RustyLocketData = {{
+const RustyLocketData = {
     examine: "",
     value: 0,
     highAlch: 0,

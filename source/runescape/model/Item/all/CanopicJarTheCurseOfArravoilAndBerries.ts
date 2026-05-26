@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CanopicJarTheCurseOfArravoilAndBerriesData = {{
+const CanopicJarTheCurseOfArravoilAndBerriesData = {
     examine: "",
     value: 0,
     highAlch: 0,

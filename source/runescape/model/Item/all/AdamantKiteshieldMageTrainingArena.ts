@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantKiteshieldMageTrainingArenaData = {{
+const AdamantKiteshieldMageTrainingArenaData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ParamayaTicketData = {{
+const ParamayaTicketData = {
     examine: "",
     value: 0,
     highAlch: 0,

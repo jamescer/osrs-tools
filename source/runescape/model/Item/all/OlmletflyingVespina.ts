@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OlmletflyingVespinaData = {{
+const OlmletflyingVespinaData = {
     examine: "",
     value: 0,
     highAlch: 0,

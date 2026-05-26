@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TornRobeTopData = {{
+const TornRobeTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

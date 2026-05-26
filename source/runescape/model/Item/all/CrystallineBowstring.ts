@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrystallineBowstringData = {{
+const CrystallineBowstringData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JuteFibreData = {{
+const JuteFibreData = {
     examine: "",
     value: 0,
     highAlch: 0,

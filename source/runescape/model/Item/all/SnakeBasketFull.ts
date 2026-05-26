@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SnakeBasketFullData = {{
+const SnakeBasketFullData = {
     examine: "",
     value: 0,
     highAlch: 0,

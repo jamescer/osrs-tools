@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FishBarrelclosedData = {{
+const FishBarrelclosedData = {
     examine: "",
     value: 0,
     highAlch: 0,

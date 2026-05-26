@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InfinityGlovesData = {{
+const InfinityGlovesData = {
     examine: "",
     value: 0,
     highAlch: 0,

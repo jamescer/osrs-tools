@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntJumboSquidData = {{
+const BurntJumboSquidData = {
     examine: "",
     value: 0,
     highAlch: 0,

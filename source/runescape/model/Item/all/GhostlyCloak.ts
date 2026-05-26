@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GhostlyCloakData = {{
+const GhostlyCloakData = {
     examine: "",
     value: 0,
     highAlch: 0,

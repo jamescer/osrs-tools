@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PumpAndTubinUseData = {{
+const PumpAndTubinUseData = {
     examine: "",
     value: 0,
     highAlch: 0,

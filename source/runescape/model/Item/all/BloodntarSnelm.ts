@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BloodntarSnelmData = {{
+const BloodntarSnelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JugOfVinegarData = {{
+const JugOfVinegarData = {
     examine: "",
     value: 0,
     highAlch: 0,

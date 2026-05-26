@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MakeshiftBlackjackData = {{
+const MakeshiftBlackjackData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MulledPineData = {{
+const MulledPineData = {
     examine: "",
     value: 0,
     highAlch: 0,

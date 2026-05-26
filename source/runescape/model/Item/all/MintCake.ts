@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MintCakeData = {{
+const MintCakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

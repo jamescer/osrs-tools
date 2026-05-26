@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArdougneTeleportScrollData = {{
+const ArdougneTeleportScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

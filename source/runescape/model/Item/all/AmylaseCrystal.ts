@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AmylaseCrystalData = {{
+const AmylaseCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

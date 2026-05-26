@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RottenTurnipData = {{
+const RottenTurnipData = {
     examine: "",
     value: 0,
     highAlch: 0,

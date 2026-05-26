@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DampEggData = {{
+const DampEggData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpikedCageData = {{
+const SpikedCageData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FiremakingTomeyellowData = {{
+const FiremakingTomeyellowData = {
     examine: "",
     value: 0,
     highAlch: 0,

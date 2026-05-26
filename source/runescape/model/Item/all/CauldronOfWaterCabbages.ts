@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CauldronOfWaterCabbagesData = {{
+const CauldronOfWaterCabbagesData = {
     examine: "",
     value: 0,
     highAlch: 0,

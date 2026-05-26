@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrokenPoleData = {{
+const BrokenPoleData = {
     examine: "",
     value: 0,
     highAlch: 0,

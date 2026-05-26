@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PiscariliusFavourCertificateData = {{
+const PiscariliusFavourCertificateData = {
     examine: "",
     value: 0,
     highAlch: 0,

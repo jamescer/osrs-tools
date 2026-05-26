@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const hosidiusBannerData = {{
+const hosidiusBannerData = {
     examine: "A banner made of redwood bearing the Hosidius sigil.",
     value: 70,
     highAlch: 42,

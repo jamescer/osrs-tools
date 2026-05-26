@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ParasiticEggData = {{
+const ParasiticEggData = {
     examine: "",
     value: 0,
     highAlch: 0,

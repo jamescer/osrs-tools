@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JonasMaskduringEventData = {{
+const JonasMaskduringEventData = {
     examine: "",
     value: 0,
     highAlch: 0,

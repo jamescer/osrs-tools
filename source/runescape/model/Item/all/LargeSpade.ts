@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeSpadeData = {{
+const LargeSpadeData = {
     examine: "",
     value: 0,
     highAlch: 0,

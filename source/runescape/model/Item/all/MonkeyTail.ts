@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MonkeyTailData = {{
+const MonkeyTailData = {
     examine: "",
     value: 0,
     highAlch: 0,

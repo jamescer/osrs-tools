@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MetalSpadespadeData = {{
+const MetalSpadespadeData = {
     examine: "",
     value: 0,
     highAlch: 0,

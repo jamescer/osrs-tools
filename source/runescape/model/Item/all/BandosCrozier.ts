@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const bandosCrozierData = {{
+const bandosCrozierData = {
     examine: "A Bandos crozier.",
     value: 5000,
     highAlch: 3000,

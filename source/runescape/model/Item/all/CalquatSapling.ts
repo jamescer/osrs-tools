@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CalquatSaplingData = {{
+const CalquatSaplingData = {
     examine: "",
     value: 0,
     highAlch: 0,

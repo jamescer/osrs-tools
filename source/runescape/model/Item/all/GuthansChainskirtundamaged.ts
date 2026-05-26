@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthansChainskirtundamagedData = {{
+const GuthansChainskirtundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

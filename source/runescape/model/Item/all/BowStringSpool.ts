@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BowStringSpoolData = {{
+const BowStringSpoolData = {
     examine: "",
     value: 0,
     highAlch: 0,

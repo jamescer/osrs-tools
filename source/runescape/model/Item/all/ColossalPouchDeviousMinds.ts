@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ColossalPouchDeviousMindsData = {{
+const ColossalPouchDeviousMindsData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeFurPouchopenData = {{
+const LargeFurPouchopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

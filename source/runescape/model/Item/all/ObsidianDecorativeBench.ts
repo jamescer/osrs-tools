@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ObsidianDecorativeBenchData = {{
+const ObsidianDecorativeBenchData = {
     examine: "",
     value: 0,
     highAlch: 0,

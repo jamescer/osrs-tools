@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const greenBoaterData = {{
+const greenBoaterData = {
     examine: "Stylish!",
     value: 225,
     highAlch: 135,

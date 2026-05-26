@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BotanicalPiehalfData = {{
+const BotanicalPiehalfData = {
     examine: "",
     value: 0,
     highAlch: 0,

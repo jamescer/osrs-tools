@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixturewarmData = {{
+const MixturewarmData = {
     examine: "",
     value: 0,
     highAlch: 0,

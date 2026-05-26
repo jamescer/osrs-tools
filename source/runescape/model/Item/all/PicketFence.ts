@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PicketFenceData = {{
+const PicketFenceData = {
     examine: "",
     value: 0,
     highAlch: 0,

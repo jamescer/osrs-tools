@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PrimordialCrystalData = {{
+const PrimordialCrystalData = {
     examine: "",
     value: 0,
     highAlch: 0,

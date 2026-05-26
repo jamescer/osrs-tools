@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ApaturasNoteData = {{
+const ApaturasNoteData = {
     examine: "",
     value: 0,
     highAlch: 0,

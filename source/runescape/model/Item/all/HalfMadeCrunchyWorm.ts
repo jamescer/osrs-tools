@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HalfMadeCrunchyWormData = {{
+const HalfMadeCrunchyWormData = {
     examine: "",
     value: 0,
     highAlch: 0,

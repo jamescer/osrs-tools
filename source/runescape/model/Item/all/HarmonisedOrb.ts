@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HarmonisedOrbData = {{
+const HarmonisedOrbData = {
     examine: "",
     value: 0,
     highAlch: 0,

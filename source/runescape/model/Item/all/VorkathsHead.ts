@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VorkathsHeadData = {{
+const VorkathsHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

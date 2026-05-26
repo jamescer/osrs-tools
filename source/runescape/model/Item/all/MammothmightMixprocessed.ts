@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MammothmightMixprocessedData = {{
+const MammothmightMixprocessedData = {
     examine: "",
     value: 0,
     highAlch: 0,

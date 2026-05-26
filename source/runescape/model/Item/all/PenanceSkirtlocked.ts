@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PenanceSkirtlockedData = {{
+const PenanceSkirtlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

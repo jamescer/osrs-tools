@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const fireRuneData = {{
+const fireRuneData = {
     examine: "A fire rune.",
     value: 5,
     highAlch: 3,

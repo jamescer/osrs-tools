@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UmbralCoralData = {{
+const UmbralCoralData = {
     examine: "",
     value: 0,
     highAlch: 0,

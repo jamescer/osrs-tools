@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DaeyaltOreData = {{
+const DaeyaltOreData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZombieShirtData = {{
+const ZombieShirtData = {
     examine: "",
     value: 0,
     highAlch: 0,

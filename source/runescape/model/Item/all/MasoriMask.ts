@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MasoriMaskData = {{
+const MasoriMaskData = {
     examine: "",
     value: 0,
     highAlch: 0,

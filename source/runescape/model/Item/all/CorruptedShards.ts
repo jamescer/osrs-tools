@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedShardsData = {{
+const CorruptedShardsData = {
     examine: "",
     value: 0,
     highAlch: 0,

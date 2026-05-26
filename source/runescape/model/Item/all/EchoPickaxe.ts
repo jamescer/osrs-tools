@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoPickaxeData = {{
+const EchoPickaxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

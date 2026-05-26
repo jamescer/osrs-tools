@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LargeCogData = {{
+const LargeCogData = {
     examine: "",
     value: 0,
     highAlch: 0,

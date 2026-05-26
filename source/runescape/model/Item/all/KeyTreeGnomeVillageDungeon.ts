@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeyTreeGnomeVillageDungeonData = {{
+const KeyTreeGnomeVillageDungeonData = {
     examine: "",
     value: 0,
     highAlch: 0,

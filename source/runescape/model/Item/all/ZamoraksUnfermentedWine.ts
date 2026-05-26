@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZamoraksUnfermentedWineData = {{
+const ZamoraksUnfermentedWineData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedWardrobeFlatpackData = {{
+const GildedWardrobeFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

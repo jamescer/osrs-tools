@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CalquatKegData = {{
+const CalquatKegData = {
     examine: "",
     value: 0,
     highAlch: 0,

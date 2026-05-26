@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SucellusMedallionData = {{
+const SucellusMedallionData = {
     examine: "",
     value: 0,
     highAlch: 0,

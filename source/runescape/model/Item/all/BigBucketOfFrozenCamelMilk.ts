@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BigBucketOfFrozenCamelMilkData = {{
+const BigBucketOfFrozenCamelMilkData = {
     examine: "",
     value: 0,
     highAlch: 0,

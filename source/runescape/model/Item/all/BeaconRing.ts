@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BeaconRingData = {{
+const BeaconRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

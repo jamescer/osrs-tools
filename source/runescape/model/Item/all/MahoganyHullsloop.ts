@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyHullsloopData = {{
+const MahoganyHullsloopData = {
     examine: "",
     value: 0,
     highAlch: 0,

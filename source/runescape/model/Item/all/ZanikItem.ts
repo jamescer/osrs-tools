@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZanikItemData = {{
+const ZanikItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

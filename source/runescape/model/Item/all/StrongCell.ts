@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrongCellData = {{
+const StrongCellData = {
     examine: "",
     value: 0,
     highAlch: 0,

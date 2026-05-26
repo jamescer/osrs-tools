@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RunePlateskirtTData = {{
+const RunePlateskirtTData = {
     examine: "",
     value: 0,
     highAlch: 0,

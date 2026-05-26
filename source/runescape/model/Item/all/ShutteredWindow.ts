@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShutteredWindowData = {{
+const ShutteredWindowData = {
     examine: "",
     value: 0,
     highAlch: 0,

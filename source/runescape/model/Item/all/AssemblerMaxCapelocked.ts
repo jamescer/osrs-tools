@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AssemblerMaxCapelockedData = {{
+const AssemblerMaxCapelockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

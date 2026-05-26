@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SaradominMaxHoodData = {{
+const SaradominMaxHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

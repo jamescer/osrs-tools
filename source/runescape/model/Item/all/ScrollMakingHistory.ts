@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrollMakingHistoryData = {{
+const ScrollMakingHistoryData = {
     examine: "",
     value: 0,
     highAlch: 0,

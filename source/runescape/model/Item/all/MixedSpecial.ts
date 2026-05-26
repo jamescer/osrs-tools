@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MixedSpecialData = {{
+const MixedSpecialData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumSpeakToUglugNarData = {{
+const ClueScrollMediumSpeakToUglugNarData = {
     examine: "",
     value: 0,
     highAlch: 0,

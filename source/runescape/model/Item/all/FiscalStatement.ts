@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FiscalStatementData = {{
+const FiscalStatementData = {
     examine: "",
     value: 0,
     highAlch: 0,

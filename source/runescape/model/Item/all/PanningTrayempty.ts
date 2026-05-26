@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PanningTrayemptyData = {{
+const PanningTrayemptyData = {
     examine: "",
     value: 0,
     highAlch: 0,

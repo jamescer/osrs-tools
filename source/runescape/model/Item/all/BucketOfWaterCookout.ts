@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketOfWaterCookoutData = {{
+const BucketOfWaterCookoutData = {
     examine: "",
     value: 0,
     highAlch: 0,

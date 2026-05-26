@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GuthixArmourSetLgData = {{
+const GuthixArmourSetLgData = {
     examine: "",
     value: 0,
     highAlch: 0,

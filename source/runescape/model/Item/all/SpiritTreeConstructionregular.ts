@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SpiritTreeConstructionregularData = {{
+const SpiritTreeConstructionregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

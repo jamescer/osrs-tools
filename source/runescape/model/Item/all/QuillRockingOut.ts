@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const QuillRockingOutData = {{
+const QuillRockingOutData = {
     examine: "",
     value: 0,
     highAlch: 0,

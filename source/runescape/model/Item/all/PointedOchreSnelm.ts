@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PointedOchreSnelmData = {{
+const PointedOchreSnelmData = {
     examine: "",
     value: 0,
     highAlch: 0,

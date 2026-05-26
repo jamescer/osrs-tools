@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const loopHalfOfKeyData = {{
+const loopHalfOfKeyData = {
     examine: "The loop end of the mysterious Crystal Key. Can you find the other half?",
     value: 100,
     highAlch: 60,

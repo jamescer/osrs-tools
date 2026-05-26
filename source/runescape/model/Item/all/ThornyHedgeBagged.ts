@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThornyHedgeBaggedData = {{
+const ThornyHedgeBaggedData = {
     examine: "",
     value: 0,
     highAlch: 0,

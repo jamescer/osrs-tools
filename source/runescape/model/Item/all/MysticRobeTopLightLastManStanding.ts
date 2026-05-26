@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MysticRobeTopLightLastManStandingData = {{
+const MysticRobeTopLightLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

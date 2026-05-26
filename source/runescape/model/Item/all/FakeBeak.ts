@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FakeBeakData = {{
+const FakeBeakData = {
     examine: "",
     value: 0,
     highAlch: 0,

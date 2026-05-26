@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FishCrateHalibutfullData = {{
+const FishCrateHalibutfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScarredScrapsData = {{
+const ScarredScrapsData = {
     examine: "",
     value: 0,
     highAlch: 0,

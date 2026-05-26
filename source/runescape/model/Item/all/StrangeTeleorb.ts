@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StrangeTeleorbData = {{
+const StrangeTeleorbData = {
     examine: "",
     value: 0,
     highAlch: 0,

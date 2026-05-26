@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarrowsGlovesLastManStandingData = {{
+const BarrowsGlovesLastManStandingData = {
     examine: "",
     value: 0,
     highAlch: 0,

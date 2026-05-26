@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenmanMaskyewData = {{
+const GreenmanMaskyewData = {
     examine: "",
     value: 0,
     highAlch: 0,

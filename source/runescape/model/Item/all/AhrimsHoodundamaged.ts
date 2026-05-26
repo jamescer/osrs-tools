@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AhrimsHoodundamagedData = {{
+const AhrimsHoodundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PyromancerBootsData = {{
+const PyromancerBootsData = {
     examine: "",
     value: 0,
     highAlch: 0,

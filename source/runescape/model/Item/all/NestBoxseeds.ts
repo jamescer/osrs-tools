@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NestBoxseedsData = {{
+const NestBoxseedsData = {
     examine: "",
     value: 0,
     highAlch: 0,

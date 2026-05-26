@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AsgarnianAleFlatpackData = {{
+const AsgarnianAleFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

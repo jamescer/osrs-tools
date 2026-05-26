@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClimbingRopeData = {{
+const ClimbingRopeData = {
     examine: "",
     value: 0,
     highAlch: 0,

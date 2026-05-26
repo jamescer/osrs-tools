@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteHisBarkIsWorseThanHisBiteData = {{
+const ClueScrollEliteHisBarkIsWorseThanHisBiteData = {
     examine: "",
     value: 0,
     highAlch: 0,

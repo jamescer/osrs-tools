@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShieldingPotionData = {{
+const ShieldingPotionData = {
     examine: "",
     value: 0,
     highAlch: 0,

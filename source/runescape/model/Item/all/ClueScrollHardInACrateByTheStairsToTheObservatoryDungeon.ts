@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardInACrateByTheStairsToTheObservatoryDungeonData = {{
+const ClueScrollHardInACrateByTheStairsToTheObservatoryDungeonData = {
     examine: "",
     value: 0,
     highAlch: 0,

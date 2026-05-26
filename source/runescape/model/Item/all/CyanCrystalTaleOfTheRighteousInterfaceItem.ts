@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CyanCrystalTaleOfTheRighteousInterfaceItemData = {{
+const CyanCrystalTaleOfTheRighteousInterfaceItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CranialClampData = {{
+const CranialClampData = {
     examine: "",
     value: 0,
     highAlch: 0,

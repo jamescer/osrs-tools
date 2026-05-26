@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RawLavaEelData = {{
+const RawLavaEelData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MapleShieldData = {{
+const MapleShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

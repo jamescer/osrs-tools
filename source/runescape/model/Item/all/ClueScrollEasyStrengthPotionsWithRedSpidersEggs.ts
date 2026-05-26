@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEasyStrengthPotionsWithRedSpidersEggsData = {{
+const ClueScrollEasyStrengthPotionsWithRedSpidersEggsData = {
     examine: "",
     value: 0,
     highAlch: 0,

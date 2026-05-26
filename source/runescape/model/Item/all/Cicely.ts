@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CicelyData = {{
+const CicelyData = {
     examine: "",
     value: 0,
     highAlch: 0,

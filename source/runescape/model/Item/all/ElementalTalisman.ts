@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElementalTalismanData = {{
+const ElementalTalismanData = {
     examine: "",
     value: 0,
     highAlch: 0,

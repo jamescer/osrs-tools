@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BirdSnarePackData = {{
+const BirdSnarePackData = {
     examine: "",
     value: 0,
     highAlch: 0,

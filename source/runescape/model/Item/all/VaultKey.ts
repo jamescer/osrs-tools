@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VaultKeyData = {{
+const VaultKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PyromancerGarbData = {{
+const PyromancerGarbData = {
     examine: "",
     value: 0,
     highAlch: 0,

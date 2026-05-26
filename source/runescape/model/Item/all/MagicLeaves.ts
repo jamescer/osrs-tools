@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicLeavesData = {{
+const MagicLeavesData = {
     examine: "",
     value: 0,
     highAlch: 0,

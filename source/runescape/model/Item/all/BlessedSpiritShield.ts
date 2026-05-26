@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlessedSpiritShieldData = {{
+const BlessedSpiritShieldData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KebbityTuftData = {{
+const KebbityTuftData = {
     examine: "",
     value: 0,
     highAlch: 0,

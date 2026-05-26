@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KuraskHeadData = {{
+const KuraskHeadData = {
     examine: "",
     value: 0,
     highAlch: 0,

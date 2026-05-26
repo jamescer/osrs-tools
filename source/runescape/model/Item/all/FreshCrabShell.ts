@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FreshCrabShellData = {{
+const FreshCrabShellData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShayzienMedpackData = {{
+const ShayzienMedpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

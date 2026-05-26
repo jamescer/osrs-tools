@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueHunterCloakData = {{
+const ClueHunterCloakData = {
     examine: "",
     value: 0,
     highAlch: 0,

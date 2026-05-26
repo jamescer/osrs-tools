@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const XochipalticRosData = {{
+const XochipalticRosData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardRatMatWithinData = {{
+const ClueScrollHardRatMatWithinData = {
     examine: "",
     value: 0,
     highAlch: 0,

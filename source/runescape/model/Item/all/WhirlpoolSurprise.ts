@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhirlpoolSurpriseData = {{
+const WhirlpoolSurpriseData = {
     examine: "",
     value: 0,
     highAlch: 0,

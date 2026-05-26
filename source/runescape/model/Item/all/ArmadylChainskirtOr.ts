@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArmadylChainskirtOrData = {{
+const ArmadylChainskirtOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

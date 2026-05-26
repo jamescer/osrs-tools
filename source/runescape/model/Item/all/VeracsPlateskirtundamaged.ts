@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VeracsPlateskirtundamagedData = {{
+const VeracsPlateskirtundamagedData = {
     examine: "",
     value: 0,
     highAlch: 0,

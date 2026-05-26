@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ElementalSphereFlatpackData = {{
+const ElementalSphereFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

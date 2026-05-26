@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteHeadbangInTheFightArenaPubData = {{
+const ClueScrollEliteHeadbangInTheFightArenaPubData = {
     examine: "",
     value: 0,
     highAlch: 0,

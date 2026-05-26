@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LetterSunsetCoastData = {{
+const LetterSunsetCoastData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmolHereditData = {{
+const SmolHereditData = {
     examine: "",
     value: 0,
     highAlch: 0,

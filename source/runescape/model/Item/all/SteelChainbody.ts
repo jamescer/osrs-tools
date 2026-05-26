@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SteelChainbodyData = {{
+const SteelChainbodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

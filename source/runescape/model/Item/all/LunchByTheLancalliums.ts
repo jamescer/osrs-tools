@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LunchByTheLancalliumsData = {{
+const LunchByTheLancalliumsData = {
     examine: "",
     value: 0,
     highAlch: 0,

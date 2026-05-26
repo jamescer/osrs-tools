@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateJewelleryBoxData = {{
+const OrnateJewelleryBoxData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuffedCrawlingHandData = {{
+const StuffedCrawlingHandData = {
     examine: "",
     value: 0,
     highAlch: 0,

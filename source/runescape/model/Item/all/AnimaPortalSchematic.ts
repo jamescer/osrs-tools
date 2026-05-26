@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnimaPortalSchematicData = {{
+const AnimaPortalSchematicData = {
     examine: "",
     value: 0,
     highAlch: 0,

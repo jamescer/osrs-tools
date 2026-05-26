@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const willowShortbowData = {{
+const willowShortbowData = {
     examine: "A bow made of willow wood.",
     value: 35,
     highAlch: 21,

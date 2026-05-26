@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FishyPrisonUniformTopData = {{
+const FishyPrisonUniformTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

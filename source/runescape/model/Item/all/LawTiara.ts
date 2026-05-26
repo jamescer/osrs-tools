@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LawTiaraData = {{
+const LawTiaraData = {
     examine: "",
     value: 0,
     highAlch: 0,

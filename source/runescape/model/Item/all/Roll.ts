@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RollData = {{
+const RollData = {
     examine: "",
     value: 0,
     highAlch: 0,

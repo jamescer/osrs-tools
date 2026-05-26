@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RapierData = {{
+const RapierData = {
     examine: "",
     value: 0,
     highAlch: 0,

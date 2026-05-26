@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SunfireRuneData = {{
+const SunfireRuneData = {
     examine: "",
     value: 0,
     highAlch: 0,

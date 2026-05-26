@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShavingStandFlatpackData = {{
+const ShavingStandFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

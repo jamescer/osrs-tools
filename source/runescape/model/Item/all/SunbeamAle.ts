@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SunbeamAleData = {{
+const SunbeamAleData = {
     examine: "",
     value: 0,
     highAlch: 0,

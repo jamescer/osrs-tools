@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThreadOfElidinisData = {{
+const ThreadOfElidinisData = {
     examine: "",
     value: 0,
     highAlch: 0,

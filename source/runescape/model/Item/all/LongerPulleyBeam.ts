@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LongerPulleyBeamData = {{
+const LongerPulleyBeamData = {
     examine: "",
     value: 0,
     highAlch: 0,

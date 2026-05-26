@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BoxTrapData = {{
+const BoxTrapData = {
     examine: "",
     value: 0,
     highAlch: 0,

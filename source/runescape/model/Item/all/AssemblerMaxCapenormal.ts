@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AssemblerMaxCapenormalData = {{
+const AssemblerMaxCapenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

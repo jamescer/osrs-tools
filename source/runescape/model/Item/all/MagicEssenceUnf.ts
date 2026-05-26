@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicEssenceUnfData = {{
+const MagicEssenceUnfData = {
     examine: "",
     value: 0,
     highAlch: 0,

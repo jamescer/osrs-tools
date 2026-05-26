@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KillersPrintData = {{
+const KillersPrintData = {
     examine: "",
     value: 0,
     highAlch: 0,

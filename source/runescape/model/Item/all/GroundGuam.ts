@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GroundGuamData = {{
+const GroundGuamData = {
     examine: "",
     value: 0,
     highAlch: 0,

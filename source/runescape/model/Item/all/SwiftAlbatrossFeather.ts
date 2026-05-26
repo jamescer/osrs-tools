@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SwiftAlbatrossFeatherData = {{
+const SwiftAlbatrossFeatherData = {
     examine: "",
     value: 0,
     highAlch: 0,

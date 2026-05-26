@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MorrigansCoifBhactivatedData = {{
+const MorrigansCoifBhactivatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

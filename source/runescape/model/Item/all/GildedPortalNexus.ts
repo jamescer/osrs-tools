@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GildedPortalNexusData = {{
+const GildedPortalNexusData = {
     examine: "",
     value: 0,
     highAlch: 0,

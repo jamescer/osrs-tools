@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScrapeyTreeLogsData = {{
+const ScrapeyTreeLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

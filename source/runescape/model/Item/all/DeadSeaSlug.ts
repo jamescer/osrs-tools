@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DeadSeaSlugData = {{
+const DeadSeaSlugData = {
     examine: "",
     value: 0,
     highAlch: 0,

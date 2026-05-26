@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnchovyPasteData = {{
+const AnchovyPasteData = {
     examine: "",
     value: 0,
     highAlch: 0,

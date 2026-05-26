@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ObsidianPlatebodyData = {{
+const ObsidianPlatebodyData = {
     examine: "",
     value: 0,
     highAlch: 0,

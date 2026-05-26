@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BerserkerRingInightmareZoneData = {{
+const BerserkerRingInightmareZoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TallBoxHedgeBaggedData = {{
+const TallBoxHedgeBaggedData = {
     examine: "",
     value: 0,
     highAlch: 0,

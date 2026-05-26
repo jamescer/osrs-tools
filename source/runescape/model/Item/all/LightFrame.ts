@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LightFrameData = {{
+const LightFrameData = {
     examine: "",
     value: 0,
     highAlch: 0,

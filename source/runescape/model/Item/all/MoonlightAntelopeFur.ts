@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoonlightAntelopeFurData = {{
+const MoonlightAntelopeFurData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArcticPyreLogsData = {{
+const ArcticPyreLogsData = {
     examine: "",
     value: 0,
     highAlch: 0,

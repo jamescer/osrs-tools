@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TridentOfTheSwampOchargedData = {{
+const TridentOfTheSwampOchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

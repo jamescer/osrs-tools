@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RingOfWealthScrollData = {{
+const RingOfWealthScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

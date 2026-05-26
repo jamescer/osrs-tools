@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BoxTrapPackData = {{
+const BoxTrapPackData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmokeAncientSceptrenormalData = {{
+const SmokeAncientSceptrenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

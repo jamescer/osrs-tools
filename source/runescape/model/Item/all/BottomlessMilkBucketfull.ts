@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BottomlessMilkBucketfullData = {{
+const BottomlessMilkBucketfullData = {
     examine: "",
     value: 0,
     highAlch: 0,

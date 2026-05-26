@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrabclawHookData = {{
+const CrabclawHookData = {
     examine: "",
     value: 0,
     highAlch: 0,

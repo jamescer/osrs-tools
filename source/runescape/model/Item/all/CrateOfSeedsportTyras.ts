@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfSeedsportTyrasData = {{
+const CrateOfSeedsportTyrasData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const strengthAmuletTData = {{
+const strengthAmuletTData = {
     examine: "An enchanted ruby amulet.",
     value: 2025,
     highAlch: 1215,

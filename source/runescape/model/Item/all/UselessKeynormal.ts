@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UselessKeynormalData = {{
+const UselessKeynormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

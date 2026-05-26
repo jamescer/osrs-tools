@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomishFirelighterchargedData = {{
+const GnomishFirelighterchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

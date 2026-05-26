@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SwampCruisersFlagData = {{
+const SwampCruisersFlagData = {
     examine: "",
     value: 0,
     highAlch: 0,

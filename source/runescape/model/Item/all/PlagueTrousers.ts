@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlagueTrousersData = {{
+const PlagueTrousersData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrollThistleData = {{
+const TrollThistleData = {
     examine: "",
     value: 0,
     highAlch: 0,

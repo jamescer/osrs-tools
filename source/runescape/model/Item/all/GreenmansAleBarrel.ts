@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GreenmansAleBarrelData = {{
+const GreenmansAleBarrelData = {
     examine: "",
     value: 0,
     highAlch: 0,

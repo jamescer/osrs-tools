@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ZurielsHoodBhactivatedData = {{
+const ZurielsHoodBhactivatedData = {
     examine: "",
     value: 0,
     highAlch: 0,

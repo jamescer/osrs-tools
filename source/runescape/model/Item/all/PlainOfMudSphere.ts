@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlainOfMudSphereData = {{
+const PlainOfMudSphereData = {
     examine: "",
     value: 0,
     highAlch: 0,

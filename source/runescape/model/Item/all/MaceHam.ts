@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MaceHamData = {{
+const MaceHamData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CatalyticGuardianStoneData = {{
+const CatalyticGuardianStoneData = {
     examine: "",
     value: 0,
     highAlch: 0,

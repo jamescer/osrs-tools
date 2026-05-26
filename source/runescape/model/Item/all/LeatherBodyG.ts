@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const leatherBodyGData = {{
+const leatherBodyGData = {
     examine: "Better than no armour! Nice trim too!",
     value: 850,
     highAlch: 510,

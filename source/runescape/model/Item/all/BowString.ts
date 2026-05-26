@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BowStringData = {{
+const BowStringData = {
     examine: "",
     value: 0,
     highAlch: 0,

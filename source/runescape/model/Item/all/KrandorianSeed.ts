@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KrandorianSeedData = {{
+const KrandorianSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GnomeSpiceData = {{
+const GnomeSpiceData = {
     examine: "",
     value: 0,
     highAlch: 0,

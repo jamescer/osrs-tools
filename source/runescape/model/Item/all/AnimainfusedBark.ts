@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AnimainfusedBarkData = {{
+const AnimainfusedBarkData = {
     examine: "",
     value: 0,
     highAlch: 0,

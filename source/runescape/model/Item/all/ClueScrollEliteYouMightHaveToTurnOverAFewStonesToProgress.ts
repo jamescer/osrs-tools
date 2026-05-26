@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollEliteYouMightHaveToTurnOverAFewStonesToProgressData = {{
+const ClueScrollEliteYouMightHaveToTurnOverAFewStonesToProgressData = {
     examine: "",
     value: 0,
     highAlch: 0,

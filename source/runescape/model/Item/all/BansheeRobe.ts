@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BansheeRobeData = {{
+const BansheeRobeData = {
     examine: "",
     value: 0,
     highAlch: 0,

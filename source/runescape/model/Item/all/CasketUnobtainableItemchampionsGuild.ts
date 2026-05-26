@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CasketUnobtainableItemchampionsGuildData = {{
+const CasketUnobtainableItemchampionsGuildData = {
     examine: "",
     value: 0,
     highAlch: 0,

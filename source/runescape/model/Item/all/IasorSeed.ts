@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IasorSeedData = {{
+const IasorSeedData = {
     examine: "",
     value: 0,
     highAlch: 0,

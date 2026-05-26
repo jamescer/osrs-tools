@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const samuraiBootsData = {{
+const samuraiBootsData = {
     examine: "Armoured socks of the Samurai.",
     value: 4500,
     highAlch: 2700,

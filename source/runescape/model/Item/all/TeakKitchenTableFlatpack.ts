@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakKitchenTableFlatpackData = {{
+const TeakKitchenTableFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

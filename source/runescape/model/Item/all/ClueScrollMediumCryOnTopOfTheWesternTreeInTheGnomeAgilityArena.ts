@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollMediumCryOnTopOfTheWesternTreeInTheGnomeAgilityArenaData = {{
+const ClueScrollMediumCryOnTopOfTheWesternTreeInTheGnomeAgilityArenaData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SwiftBladeData = {{
+const SwiftBladeData = {
     examine: "",
     value: 0,
     highAlch: 0,

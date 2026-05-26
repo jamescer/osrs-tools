@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PressureGaugeData = {{
+const PressureGaugeData = {
     examine: "",
     value: 0,
     highAlch: 0,

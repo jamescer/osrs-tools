@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MithrilFellingAxeData = {{
+const MithrilFellingAxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

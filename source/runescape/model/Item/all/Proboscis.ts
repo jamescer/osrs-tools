@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ProboscisData = {{
+const ProboscisData = {
     examine: "",
     value: 0,
     highAlch: 0,

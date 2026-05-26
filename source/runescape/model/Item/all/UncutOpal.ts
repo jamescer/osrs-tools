@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UncutOpalData = {{
+const UncutOpalData = {
     examine: "",
     value: 0,
     highAlch: 0,

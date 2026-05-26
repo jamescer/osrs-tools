@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CamoTopData = {{
+const CamoTopData = {
     examine: "",
     value: 0,
     highAlch: 0,

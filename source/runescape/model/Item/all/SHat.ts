@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sHatData = {{
+const sHatData = {
     examine: "What a silly hat.",
     value: 2,
     highAlch: 1,

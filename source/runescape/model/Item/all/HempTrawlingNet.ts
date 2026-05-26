@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HempTrawlingNetData = {{
+const HempTrawlingNetData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KaridianDisguiseData = {{
+const KaridianDisguiseData = {
     examine: "",
     value: 0,
     highAlch: 0,

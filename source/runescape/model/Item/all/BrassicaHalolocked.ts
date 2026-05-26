@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BrassicaHalolockedData = {{
+const BrassicaHalolockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

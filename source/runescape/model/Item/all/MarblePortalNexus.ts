@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MarblePortalNexusData = {{
+const MarblePortalNexusData = {
     examine: "",
     value: 0,
     highAlch: 0,

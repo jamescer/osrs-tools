@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DizanasMaxHoodData = {{
+const DizanasMaxHoodData = {
     examine: "",
     value: 0,
     highAlch: 0,

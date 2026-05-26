@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DustyScrollInAidOfTheMyrequeData = {{
+const DustyScrollInAidOfTheMyrequeData = {
     examine: "",
     value: 0,
     highAlch: 0,

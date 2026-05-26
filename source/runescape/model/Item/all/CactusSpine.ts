@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CactusSpineData = {{
+const CactusSpineData = {
     examine: "",
     value: 0,
     highAlch: 0,

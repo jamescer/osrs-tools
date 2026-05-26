@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const IncriminatingLetterData = {{
+const IncriminatingLetterData = {
     examine: "",
     value: 0,
     highAlch: 0,

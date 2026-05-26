@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AirRunePackData = {{
+const AirRunePackData = {
     examine: "",
     value: 0,
     highAlch: 0,

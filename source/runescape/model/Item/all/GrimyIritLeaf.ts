@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrimyIritLeafData = {{
+const GrimyIritLeafData = {
     examine: "",
     value: 0,
     highAlch: 0,

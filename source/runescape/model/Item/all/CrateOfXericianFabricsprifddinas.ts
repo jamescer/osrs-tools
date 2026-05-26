@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfXericianFabricsprifddinasData = {{
+const CrateOfXericianFabricsprifddinasData = {
     examine: "",
     value: 0,
     highAlch: 0,

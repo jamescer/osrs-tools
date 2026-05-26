@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KingsBarrageData = {{
+const KingsBarrageData = {
     examine: "",
     value: 0,
     highAlch: 0,

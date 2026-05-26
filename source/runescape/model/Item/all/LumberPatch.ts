@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LumberPatchData = {{
+const LumberPatchData = {
     examine: "",
     value: 0,
     highAlch: 0,

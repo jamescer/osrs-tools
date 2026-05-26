@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MissionReportFakeData = {{
+const MissionReportFakeData = {
     examine: "",
     value: 0,
     highAlch: 0,

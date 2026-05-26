@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sandwichLadyBottomData = {{
+const sandwichLadyBottomData = {
     examine: "Bottoms worn by a sandwich lady.",
     value: 300,
     highAlch: 180,

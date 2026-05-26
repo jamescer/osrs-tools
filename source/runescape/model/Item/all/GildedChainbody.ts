@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const gildedChainbodyData = {{
+const gildedChainbodyData = {
     examine: "A series of connected metal rings plated in gold.",
     value: 50000,
     highAlch: 30000,

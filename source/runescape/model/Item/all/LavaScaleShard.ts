@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LavaScaleShardData = {{
+const LavaScaleShardData = {
     examine: "",
     value: 0,
     highAlch: 0,

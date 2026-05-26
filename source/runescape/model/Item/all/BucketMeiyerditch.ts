@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BucketMeiyerditchData = {{
+const BucketMeiyerditchData = {
     examine: "",
     value: 0,
     highAlch: 0,

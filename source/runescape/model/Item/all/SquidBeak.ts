@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SquidBeakData = {{
+const SquidBeakData = {
     examine: "",
     value: 0,
     highAlch: 0,

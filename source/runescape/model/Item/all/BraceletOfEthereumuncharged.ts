@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BraceletOfEthereumunchargedData = {{
+const BraceletOfEthereumunchargedData = {
     examine: "",
     value: 0,
     highAlch: 0,

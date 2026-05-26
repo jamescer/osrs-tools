@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VoidMeleeHelmOrnormalData = {{
+const VoidMeleeHelmOrnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

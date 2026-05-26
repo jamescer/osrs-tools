@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ancientFullHelmData = {{
+const ancientFullHelmData = {
     examine: "Rune full helmet in the colours of a long-forgotten god.",
     value: 35200,
     highAlch: 21120,

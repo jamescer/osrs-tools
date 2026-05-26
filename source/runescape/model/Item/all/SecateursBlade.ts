@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SecateursBladeData = {{
+const SecateursBladeData = {
     examine: "",
     value: 0,
     highAlch: 0,

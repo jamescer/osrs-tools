@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DagonhaiRobeTopOrData = {{
+const DagonhaiRobeTopOrData = {
     examine: "",
     value: 0,
     highAlch: 0,

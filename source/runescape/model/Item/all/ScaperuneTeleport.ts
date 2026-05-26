@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ScaperuneTeleportData = {{
+const ScaperuneTeleportData = {
     examine: "",
     value: 0,
     highAlch: 0,

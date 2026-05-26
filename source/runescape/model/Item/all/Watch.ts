@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WatchData = {{
+const WatchData = {
     examine: "",
     value: 0,
     highAlch: 0,

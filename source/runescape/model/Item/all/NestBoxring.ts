@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NestBoxringData = {{
+const NestBoxringData = {
     examine: "",
     value: 0,
     highAlch: 0,

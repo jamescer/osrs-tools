@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicShortbowScrollData = {{
+const MagicShortbowScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

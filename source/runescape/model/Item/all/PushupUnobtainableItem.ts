@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PushupUnobtainableItemData = {{
+const PushupUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

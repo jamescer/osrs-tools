@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WeakCellData = {{
+const WeakCellData = {
     examine: "",
     value: 0,
     highAlch: 0,

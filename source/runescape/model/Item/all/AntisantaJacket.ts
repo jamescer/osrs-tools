@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AntisantaJacketData = {{
+const AntisantaJacketData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const UnsanitarySwillData = {{
+const UnsanitarySwillData = {
     examine: "",
     value: 0,
     highAlch: 0,

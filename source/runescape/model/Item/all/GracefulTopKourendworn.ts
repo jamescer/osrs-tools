@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GracefulTopKourendwornData = {{
+const GracefulTopKourendwornData = {
     examine: "",
     value: 0,
     highAlch: 0,

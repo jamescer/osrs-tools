@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SunlightSpearData = {{
+const SunlightSpearData = {
     examine: "",
     value: 0,
     highAlch: 0,

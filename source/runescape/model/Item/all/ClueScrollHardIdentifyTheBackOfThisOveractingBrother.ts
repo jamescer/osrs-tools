@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardIdentifyTheBackOfThisOveractingBrotherData = {{
+const ClueScrollHardIdentifyTheBackOfThisOveractingBrotherData = {
     examine: "",
     value: 0,
     highAlch: 0,

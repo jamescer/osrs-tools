@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AbyssalLanternnormalData = {{
+const AbyssalLanternnormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

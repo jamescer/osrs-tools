@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ArderMushroomData = {{
+const ArderMushroomData = {
     examine: "",
     value: 0,
     highAlch: 0,

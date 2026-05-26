@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ImbuedGuthixCapenormalData = {{
+const ImbuedGuthixCapenormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

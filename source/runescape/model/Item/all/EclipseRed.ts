@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EclipseRedData = {{
+const EclipseRedData = {
     examine: "",
     value: 0,
     highAlch: 0,

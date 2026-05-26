@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfKyattTeethData = {{
+const CrateOfKyattTeethData = {
     examine: "",
     value: 0,
     highAlch: 0,

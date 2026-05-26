@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ThunderKhopeshData = {{
+const ThunderKhopeshData = {
     examine: "",
     value: 0,
     highAlch: 0,

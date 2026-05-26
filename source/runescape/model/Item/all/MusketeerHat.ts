@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const musketeerHatData = {{
+const musketeerHatData = {
     examine: "Engarde!",
     value: 3500,
     highAlch: 2100,

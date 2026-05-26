@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfGrogData = {{
+const CrateOfGrogData = {
     examine: "",
     value: 0,
     highAlch: 0,

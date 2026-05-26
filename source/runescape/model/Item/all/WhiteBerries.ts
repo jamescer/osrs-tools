@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WhiteBerriesData = {{
+const WhiteBerriesData = {
     examine: "",
     value: 0,
     highAlch: 0,

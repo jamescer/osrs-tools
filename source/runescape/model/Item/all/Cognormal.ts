@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CognormalData = {{
+const CognormalData = {
     examine: "",
     value: 0,
     highAlch: 0,

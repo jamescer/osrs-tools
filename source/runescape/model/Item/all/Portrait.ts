@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PortraitData = {{
+const PortraitData = {
     examine: "",
     value: 0,
     highAlch: 0,

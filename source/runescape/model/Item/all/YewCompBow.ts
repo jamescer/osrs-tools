@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const yewCompBowData = {{
+const yewCompBowData = {
     examine: "A powerful bow made from yew wood.",
     value: 1800,
     highAlch: 1080,

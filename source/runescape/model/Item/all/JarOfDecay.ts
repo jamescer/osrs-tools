@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JarOfDecayData = {{
+const JarOfDecayData = {
     examine: "",
     value: 0,
     highAlch: 0,

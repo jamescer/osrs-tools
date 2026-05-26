@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const VolcanicAbyssalWhipData = {{
+const VolcanicAbyssalWhipData = {
     examine: "",
     value: 0,
     highAlch: 0,

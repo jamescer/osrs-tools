@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PetesCandlestickData = {{
+const PetesCandlestickData = {
     examine: "",
     value: 0,
     highAlch: 0,

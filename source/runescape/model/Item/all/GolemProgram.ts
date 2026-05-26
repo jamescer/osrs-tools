@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GolemProgramData = {{
+const GolemProgramData = {
     examine: "",
     value: 0,
     highAlch: 0,

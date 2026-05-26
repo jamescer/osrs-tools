@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SymbolBigBookOfBangsnaphthaData = {{
+const SymbolBigBookOfBangsnaphthaData = {
     examine: "",
     value: 0,
     highAlch: 0,

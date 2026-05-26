@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BuildersTrousersData = {{
+const BuildersTrousersData = {
     examine: "",
     value: 0,
     highAlch: 0,

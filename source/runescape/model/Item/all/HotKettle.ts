@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HotKettleData = {{
+const HotKettleData = {
     examine: "",
     value: 0,
     highAlch: 0,

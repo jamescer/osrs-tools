@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateBannerStandragingEchoesData = {{
+const OrnateBannerStandragingEchoesData = {
     examine: "",
     value: 0,
     highAlch: 0,

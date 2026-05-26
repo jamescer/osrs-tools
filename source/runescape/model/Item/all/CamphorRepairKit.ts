@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CamphorRepairKitData = {{
+const CamphorRepairKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

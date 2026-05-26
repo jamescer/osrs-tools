@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HeavyFrameData = {{
+const HeavyFrameData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ShadowBlockerData = {{
+const ShadowBlockerData = {
     examine: "",
     value: 0,
     highAlch: 0,

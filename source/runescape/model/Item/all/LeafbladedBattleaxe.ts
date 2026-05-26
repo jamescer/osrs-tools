@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LeafbladedBattleaxeData = {{
+const LeafbladedBattleaxeData = {
     examine: "",
     value: 0,
     highAlch: 0,

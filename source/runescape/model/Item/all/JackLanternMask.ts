@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const JackLanternMaskData = {{
+const JackLanternMaskData = {
     examine: "",
     value: 0,
     highAlch: 0,

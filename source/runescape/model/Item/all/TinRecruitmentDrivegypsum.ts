@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TinRecruitmentDrivegypsumData = {{
+const TinRecruitmentDrivegypsumData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RedDiskData = {{
+const RedDiskData = {
     examine: "",
     value: 0,
     highAlch: 0,

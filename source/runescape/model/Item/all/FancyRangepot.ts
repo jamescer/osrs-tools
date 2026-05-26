@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FancyRangepotData = {{
+const FancyRangepotData = {
     examine: "",
     value: 0,
     highAlch: 0,

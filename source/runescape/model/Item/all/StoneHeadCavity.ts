@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoneHeadCavityData = {{
+const StoneHeadCavityData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TelescopeDummyData = {{
+const TelescopeDummyData = {
     examine: "",
     value: 0,
     highAlch: 0,

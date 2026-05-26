@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MediumFurPouchopenData = {{
+const MediumFurPouchopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

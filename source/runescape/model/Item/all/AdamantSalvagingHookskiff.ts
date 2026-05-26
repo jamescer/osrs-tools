@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const AdamantSalvagingHookskiffData = {{
+const AdamantSalvagingHookskiffData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlackBraceletInterfaceItemData = {{
+const BlackBraceletInterfaceItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

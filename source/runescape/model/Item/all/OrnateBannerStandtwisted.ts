@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const OrnateBannerStandtwistedData = {{
+const OrnateBannerStandtwistedData = {
     examine: "",
     value: 0,
     highAlch: 0,

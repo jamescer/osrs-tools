@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BannerEaselData = {{
+const BannerEaselData = {
     examine: "",
     value: 0,
     highAlch: 0,

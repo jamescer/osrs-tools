@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClawsOfCallistoData = {{
+const ClawsOfCallistoData = {
     examine: "",
     value: 0,
     highAlch: 0,

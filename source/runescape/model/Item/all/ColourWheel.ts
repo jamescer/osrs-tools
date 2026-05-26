@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ColourWheelData = {{
+const ColourWheelData = {
     examine: "",
     value: 0,
     highAlch: 0,

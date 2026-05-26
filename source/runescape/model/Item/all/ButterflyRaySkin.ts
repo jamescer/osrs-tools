@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ButterflyRaySkinData = {{
+const ButterflyRaySkinData = {
     examine: "",
     value: 0,
     highAlch: 0,

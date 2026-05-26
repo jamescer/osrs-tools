@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InoculationBraceletData = {{
+const InoculationBraceletData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GracefulCraftingKitData = {{
+const GracefulCraftingKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DesertLizardBoneunpolishedData = {{
+const DesertLizardBoneunpolishedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GrandSeedPodData = {{
+const GrandSeedPodData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LostBagregularData = {{
+const LostBagregularData = {
     examine: "",
     value: 0,
     highAlch: 0,

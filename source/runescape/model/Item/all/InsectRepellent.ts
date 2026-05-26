@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const InsectRepellentData = {{
+const InsectRepellentData = {
     examine: "",
     value: 0,
     highAlch: 0,

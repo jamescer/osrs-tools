@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const monocleData = {{
+const monocleData = {
     examine: "Hmm, shallow and pedantic.",
     value: 1200,
     highAlch: 720,

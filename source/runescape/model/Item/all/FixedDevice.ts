@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FixedDeviceData = {{
+const FixedDeviceData = {
     examine: "",
     value: 0,
     highAlch: 0,

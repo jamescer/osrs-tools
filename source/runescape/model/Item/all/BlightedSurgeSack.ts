@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BlightedSurgeSackData = {{
+const BlightedSurgeSackData = {
     examine: "",
     value: 0,
     highAlch: 0,

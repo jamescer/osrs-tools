@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StoneTabletTheGardenOfDeathkebosSwampData = {{
+const StoneTabletTheGardenOfDeathkebosSwampData = {
     examine: "",
     value: 0,
     highAlch: 0,

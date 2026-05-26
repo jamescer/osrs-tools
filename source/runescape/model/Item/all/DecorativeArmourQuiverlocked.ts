@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeArmourQuiverlockedData = {{
+const DecorativeArmourQuiverlockedData = {
     examine: "",
     value: 0,
     highAlch: 0,

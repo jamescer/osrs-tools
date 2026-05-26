@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KeyElementalWorkshopIiData = {{
+const KeyElementalWorkshopIiData = {
     examine: "",
     value: 0,
     highAlch: 0,

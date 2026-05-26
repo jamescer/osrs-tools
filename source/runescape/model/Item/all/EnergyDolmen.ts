@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EnergyDolmenData = {{
+const EnergyDolmenData = {
     examine: "",
     value: 0,
     highAlch: 0,

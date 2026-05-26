@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfTheGnomesunattunedData = {{
+const SigilOfTheGnomesunattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ClueScrollHardItSeemsToHaveReachedTheEndOfTheLineData = {{
+const ClueScrollHardItSeemsToHaveReachedTheEndOfTheLineData = {
     examine: "",
     value: 0,
     highAlch: 0,

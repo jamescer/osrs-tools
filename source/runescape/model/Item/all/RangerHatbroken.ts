@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RangerHatbrokenData = {{
+const RangerHatbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

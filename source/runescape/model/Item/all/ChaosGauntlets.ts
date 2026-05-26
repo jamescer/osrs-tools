@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChaosGauntletsData = {{
+const ChaosGauntletsData = {
     examine: "",
     value: 0,
     highAlch: 0,

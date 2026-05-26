@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ChumStationData = {{
+const ChumStationData = {
     examine: "",
     value: 0,
     highAlch: 0,

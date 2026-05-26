@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const RagingEchoesAdamantTrophyData = {{
+const RagingEchoesAdamantTrophyData = {
     examine: "",
     value: 0,
     highAlch: 0,

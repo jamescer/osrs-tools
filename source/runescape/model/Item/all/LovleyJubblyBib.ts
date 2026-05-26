@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const LovleyJubblyBibData = {{
+const LovleyJubblyBibData = {
     examine: "",
     value: 0,
     highAlch: 0,

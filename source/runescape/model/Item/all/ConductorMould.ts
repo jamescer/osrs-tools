@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const ConductorMouldData = {{
+const ConductorMouldData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BarrelchestAnchorImbueScrollData = {{
+const BarrelchestAnchorImbueScrollData = {
     examine: "",
     value: 0,
     highAlch: 0,

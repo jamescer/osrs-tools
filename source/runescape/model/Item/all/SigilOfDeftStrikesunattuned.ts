@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfDeftStrikesunattunedData = {{
+const SigilOfDeftStrikesunattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

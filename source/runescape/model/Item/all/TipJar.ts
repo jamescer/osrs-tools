@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TipJarData = {{
+const TipJarData = {
     examine: "",
     value: 0,
     highAlch: 0,

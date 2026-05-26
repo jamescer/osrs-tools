@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SmallStatuezamorakData = {{
+const SmallStatuezamorakData = {
     examine: "",
     value: 0,
     highAlch: 0,

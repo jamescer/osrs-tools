@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DruidPouchfilledData = {{
+const DruidPouchfilledData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TwillAccordData = {{
+const TwillAccordData = {
     examine: "",
     value: 0,
     highAlch: 0,

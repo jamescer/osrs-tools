@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CamphorPlankData = {{
+const CamphorPlankData = {
     examine: "",
     value: 0,
     highAlch: 0,

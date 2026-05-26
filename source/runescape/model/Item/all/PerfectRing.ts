@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PerfectRingData = {{
+const PerfectRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

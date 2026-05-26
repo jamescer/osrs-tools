@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CorruptedTwistedBowData = {{
+const CorruptedTwistedBowData = {
     examine: "",
     value: 0,
     highAlch: 0,

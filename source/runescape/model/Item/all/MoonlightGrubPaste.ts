@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MoonlightGrubPasteData = {{
+const MoonlightGrubPasteData = {
     examine: "",
     value: 0,
     highAlch: 0,

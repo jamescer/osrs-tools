@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const taiBwoWannaiTeleportData = {{
+const taiBwoWannaiTeleportData = {
     examine: "Teleports you to Tai bwo wannai.",
     value: 10,
     highAlch: 6,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DragonfruitPiehalfData = {{
+const DragonfruitPiehalfData = {
     examine: "",
     value: 0,
     highAlch: 0,

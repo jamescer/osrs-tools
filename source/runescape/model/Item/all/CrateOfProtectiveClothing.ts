@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const CrateOfProtectiveClothingData = {{
+const CrateOfProtectiveClothingData = {
     examine: "",
     value: 0,
     highAlch: 0,

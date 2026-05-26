@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakHullskiffData = {{
+const TeakHullskiffData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FestiveElfSlippersData = {{
+const FestiveElfSlippersData = {
     examine: "",
     value: 0,
     highAlch: 0,

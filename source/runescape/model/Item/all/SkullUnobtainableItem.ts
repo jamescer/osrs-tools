@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SkullUnobtainableItemData = {{
+const SkullUnobtainableItemData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TrinketOfAvariceData = {{
+const TrinketOfAvariceData = {
     examine: "",
     value: 0,
     highAlch: 0,

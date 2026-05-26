@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BurntJubblyData = {{
+const BurntJubblyData = {
     examine: "",
     value: 0,
     highAlch: 0,

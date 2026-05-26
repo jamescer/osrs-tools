@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const GypsumData = {{
+const GypsumData = {
     examine: "",
     value: 0,
     highAlch: 0,

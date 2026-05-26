@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SoftClayPackgoldenNuggetsData = {{
+const SoftClayPackgoldenNuggetsData = {
     examine: "",
     value: 0,
     highAlch: 0,

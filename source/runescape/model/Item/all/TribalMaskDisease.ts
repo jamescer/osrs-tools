@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TribalMaskDiseaseData = {{
+const TribalMaskDiseaseData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const sHeadData = {{
+const sHeadData = {
     examine: "I could mount this on my wall!",
     value: 50000,
     highAlch: 30000,

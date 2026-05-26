@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakWardrobeFlatpackData = {{
+const TeakWardrobeFlatpackData = {
     examine: "",
     value: 0,
     highAlch: 0,

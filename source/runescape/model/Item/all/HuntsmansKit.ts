@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const HuntsmansKitData = {{
+const HuntsmansKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

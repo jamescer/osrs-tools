@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const NumuliteData = {{
+const NumuliteData = {
     examine: "",
     value: 0,
     highAlch: 0,

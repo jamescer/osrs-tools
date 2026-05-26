@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const FishSackBarrelopenData = {{
+const FishSackBarrelopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

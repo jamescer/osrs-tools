@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BeginnerWandData = {{
+const BeginnerWandData = {
     examine: "",
     value: 0,
     highAlch: 0,

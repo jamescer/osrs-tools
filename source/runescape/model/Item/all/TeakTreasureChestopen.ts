@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TeakTreasureChestopenData = {{
+const TeakTreasureChestopenData = {
     examine: "",
     value: 0,
     highAlch: 0,

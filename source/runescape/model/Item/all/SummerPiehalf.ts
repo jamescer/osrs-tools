@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SummerPiehalfData = {{
+const SummerPiehalfData = {
     examine: "",
     value: 0,
     highAlch: 0,

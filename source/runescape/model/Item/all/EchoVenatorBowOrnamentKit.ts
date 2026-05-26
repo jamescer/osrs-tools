@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const EchoVenatorBowOrnamentKitData = {{
+const EchoVenatorBowOrnamentKitData = {
     examine: "",
     value: 0,
     highAlch: 0,

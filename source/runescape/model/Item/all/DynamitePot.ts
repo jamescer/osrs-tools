@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DynamitePotData = {{
+const DynamitePotData = {
     examine: "",
     value: 0,
     highAlch: 0,

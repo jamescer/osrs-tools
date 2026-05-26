@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const BronzeWireRecruitmentDriveData = {{
+const BronzeWireRecruitmentDriveData = {
     examine: "",
     value: 0,
     highAlch: 0,

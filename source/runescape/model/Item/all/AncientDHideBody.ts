@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const ancientDHideBodyData = {{
+const ancientDHideBodyData = {
     examine: "Ancient blessed dragonhide body armour.",
     value: 13000,
     highAlch: 7800,

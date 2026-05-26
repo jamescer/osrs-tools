@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DeadmansLegscosmeticData = {{
+const DeadmansLegscosmeticData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MagicLampTheIdesOfMilkData = {{
+const MagicLampTheIdesOfMilkData = {
     examine: "",
     value: 0,
     highAlch: 0,

@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecoderStripsData = {{
+const DecoderStripsData = {
     examine: "",
     value: 0,
     highAlch: 0,

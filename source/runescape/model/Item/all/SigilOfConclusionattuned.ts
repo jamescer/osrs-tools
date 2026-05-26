@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SigilOfConclusionattunedData = {{
+const SigilOfConclusionattunedData = {
     examine: "",
     value: 0,
     highAlch: 0,

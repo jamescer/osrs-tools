@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PlantCureGardenOfTranquillityData = {{
+const PlantCureGardenOfTranquillityData = {
     examine: "",
     value: 0,
     highAlch: 0,

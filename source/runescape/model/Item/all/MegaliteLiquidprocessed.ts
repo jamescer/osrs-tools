@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MegaliteLiquidprocessedData = {{
+const MegaliteLiquidprocessedData = {
     examine: "",
     value: 0,
     highAlch: 0,

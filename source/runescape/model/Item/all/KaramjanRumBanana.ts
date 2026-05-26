@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const KaramjanRumBananaData = {{
+const KaramjanRumBananaData = {
     examine: "",
     value: 0,
     highAlch: 0,

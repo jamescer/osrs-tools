@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WilyCatgreyAndBlackData = {{
+const WilyCatgreyAndBlackData = {
     examine: "",
     value: 0,
     highAlch: 0,

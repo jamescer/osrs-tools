@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const WaxwoodLogData = {{
+const WaxwoodLogData = {
     examine: "",
     value: 0,
     highAlch: 0,

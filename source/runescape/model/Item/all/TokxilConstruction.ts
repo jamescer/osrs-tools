@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TokxilConstructionData = {{
+const TokxilConstructionData = {
     examine: "",
     value: 0,
     highAlch: 0,

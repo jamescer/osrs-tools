@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const StuddedBodyTData = {{
+const StuddedBodyTData = {
     examine: "",
     value: 0,
     highAlch: 0,

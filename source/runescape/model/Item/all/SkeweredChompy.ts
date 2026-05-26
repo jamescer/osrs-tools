@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SkeweredChompyData = {{
+const SkeweredChompyData = {
     examine: "",
     value: 0,
     highAlch: 0,

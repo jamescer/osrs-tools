@@ -1,6 +1,6 @@
 import { Item } from '../Item';
 
-const royalGownTopData = {{
+const royalGownTopData = {
     examine: "Feeling distinctly ornate.",
     value: 5000,
     highAlch: 3000,

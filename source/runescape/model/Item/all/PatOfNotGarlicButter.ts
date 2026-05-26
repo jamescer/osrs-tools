@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const PatOfNotGarlicButterData = {{
+const PatOfNotGarlicButterData = {
     examine: "",
     value: 0,
     highAlch: 0,

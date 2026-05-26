@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const DecorativeArmourMagicTopbrokenData = {{
+const DecorativeArmourMagicTopbrokenData = {
     examine: "",
     value: 0,
     highAlch: 0,

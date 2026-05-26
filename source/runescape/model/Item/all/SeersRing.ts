@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeersRingData = {{
+const SeersRingData = {
     examine: "",
     value: 0,
     highAlch: 0,

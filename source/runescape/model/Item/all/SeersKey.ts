@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const SeersKeyData = {{
+const SeersKeyData = {
     examine: "",
     value: 0,
     highAlch: 0,

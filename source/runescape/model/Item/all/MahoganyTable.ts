@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const MahoganyTableData = {{
+const MahoganyTableData = {
     examine: "",
     value: 0,
     highAlch: 0,

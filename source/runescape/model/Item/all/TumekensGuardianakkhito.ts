@@ -1,6 +1,6 @@
 import { Item } from "../Item";
 
-const TumekensGuardianakkhitoData = {{
+const TumekensGuardianakkhitoData = {
     examine: "",
     value: 0,
     highAlch: 0,

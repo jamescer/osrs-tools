@@ -1,4 +1,4 @@
-# OSRS Tools
+﻿# OSRS Tools
 
 [![NPM Version](https://img.shields.io/npm/v/osrs-tools.svg?style=for-the-badge)](https://www.npmjs.com/package/osrs-tools)
 [![Downloads](https://img.shields.io/npm/dm/osrs-tools.svg?style=for-the-badge)](https://www.npmjs.com/package/osrs-tools)
@@ -7,26 +7,37 @@
 [![Node Version](https://img.shields.io/node/v/osrs-tools.svg?style=for-the-badge)](https://nodejs.org)
 [![Test Coverage](https://img.shields.io/codecov/c/github/jamescer/osrs-tools.svg?style=for-the-badge)](https://codecov.io/gh/jamescer/osrs-tools)
 
-> A modern TypeScript library for Old School RuneScape (OSRS) data and utilities. Built for developers creating tools, bots, web applications, and analytics around OSRS content.
+> A comprehensive TypeScript library for Old School RuneScape (OSRS) data, tools, and game modeling.
 
-📦 **Type-safe** &nbsp; 🚀 **Well-tested** &nbsp; 📚 **Documented** &nbsp; 🔄 **Actively maintained**
-
-## Live Demo
-
-Explore the project interactively on CodeSandbox:
-
-[![Edit on CodeSandbox](https://img.shields.io/badge/CodeSandbox-View-blue?logo=codesandbox&style=for-the-badge)](https://codesandbox.io/p/sandbox/xtgp9k)
-
----
+📦 **Type-safe** &nbsp; 🚀 **Well-tested** &nbsp; 📚 **Game-aware** &nbsp; 🔄 **Actively maintained**
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Installation](#installation)
-- [Examples](#examples)
+- [Features](#features)
+- [Usage](#usage)
+- [API Highlights](#api-highlights)
 - [Development](#development)
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
+
+## Overview
+
+`osrs-tools` provides OSRS developers with:
+
+- a full quest and requirement system
+- account data modeling for skills, bosses, clues, and progression
+- achievement diary lookups
+- clue scroll reward simulation
+- item model asset references
+- slayer master, task, and reward utilities
+- guild and league support
+- skill metadata helpers and validation utilities
+- custom validation error handling
+
+This library is built for bots, analytics, web apps, and toolchains that need OSRS game logic and data.
 
 ## Installation
 
@@ -35,91 +46,45 @@ Explore the project interactively on CodeSandbox:
 - Node.js 16.x or higher
 - TypeScript 4.9+
 
-### Package Installation
+### Install
 
 ```bash
 npm install osrs-tools
 ```
 
-For account-related features (hiscores, stats):
+For account-related features using external hiscore JSON:
 
 ```bash
 npm install osrs-json-hiscores
 ```
 
-## Examples
+## Features
 
-### Core Imports (Recommended)
+- Quest system with all OSRS quests and recursive requirement checking
+- `OsrsAccount` parsing from JSON and skill / score lookups
+- Achievement diaries and diary requirement inspection
+- Clue Scroll reward table simulation with mimic and master clue handling
+- Item modeling and 3D asset path exports
+- Slayer masters, tasks, unlocks, extends, buys, and reward calculators
+- Guild/hunter utilities for hunter progression
+- League modules such as `DemonicPactsLeague` and `RagingEchoesLeague`
+- Skill metadata utilities, combat-level helpers, and validation functions
+- Custom `ValidationError` for consistent error handling
 
-The main `osrs-tools` export provides the most frequently used classes:
+## Usage
 
-```typescript
-import { QuestTool, OsrsAccount, ClueScrollHelper, Item } from "osrs-tools";
-
-// Use core API directly
-const questTool = new QuestTool();
-const account = OsrsAccount.fromJson({ name: "Player123" });
-```
-
-### Subpackage Imports (Tree-Shakeable)
-
-Import from subpackages for more granular control and better tree-shaking:
-
-```typescript
-// Quest module - access all quests and quest utilities
-import { QuestTool, DragonSlayerI } from "osrs-tools/quest";
-
-// Slayer module - slayer masters and utilities
-import { Duradel, SlayerMaster } from "osrs-tools/slayer";
-
-// Account & skills
-import { OsrsAccount, Skill } from "osrs-tools/account";
-
-// Achievement diaries
-import { Ardougne, DiaryName } from "osrs-tools/diary";
-
-// Tools & utilities
-import { ClueScrollHelper, experience } from "osrs-tools/tools";
-import { cache, validation } from "osrs-tools/utils";
-```
-
-### Quest System
+### Core Import Example
 
 ```typescript
-// Access a specific quest
-import { DragonSlayerI } from "osrs-tools/quest";
+import {
+  QuestTool,
+  OsrsAccount,
+  ClueScrollHelper,
+  Item,
+  yellowPartyhatModelPath,
+  ValidationError,
+} from "osrs-tools";
 
-// Or get by name from QuestTool
-import { QuestTool } from "osrs-tools";
-const dragonSlayer = QuestTool.getQuestByName("Dragon Slayer");
-console.log(dragonSlayer.requirements);
-
-// Check quest completion requirements
-const questTool = new QuestTool();
-questTool.setOsrsAccount(playerAccount);
-const canComplete = questTool.canCompleteQuest(dragonSlayer);
-```
-
-### Slayer System
-
-```typescript
-import { Duradel } from "osrs-tools/slayer";
-
-// Get master's task list
-const tasks = Duradel.tasks;
-
-// Get random assignment
-const task = Duradel.getRandomTask();
-console.log(task.name); // e.g., "Abyssal demons"
-console.log(task.requirements); // Shows requirements
-```
-
-### Account Management
-
-```typescript
-import { OsrsAccount } from "osrs-tools/account";
-
-// Create/load account
 const account = OsrsAccount.fromJson({
   name: "Player123",
   skills: {
@@ -129,39 +94,93 @@ const account = OsrsAccount.fromJson({
   },
 });
 
-// Get skill levels
-const attackLevel = account.getSkill("attack")?.level;
+const questTool = new QuestTool(account);
+const dragonSlayer = QuestTool.getQuestByName("Dragon Slayer");
+const canComplete = questTool.canCompleteQuest(dragonSlayer);
+
+console.log("Dragon Slayer requirements", dragonSlayer?.requirements);
+console.log("Can complete?", canComplete);
+console.log("Model path:", yellowPartyhatModelPath);
 ```
 
-### 3D Item Models
+### Subpackage Imports
 
 ```typescript
-import { yellowPartyhatModelPath } from "osrs-tools";
-
-console.log(yellowPartyhatModelPath);
-// "osrs-tools/models/YellowPartyhat.obj"
+import { QuestTool, DragonSlayerI } from "osrs-tools/quest";
+import { Duradel, getMasterByName } from "osrs-tools/slayer";
+import { OsrsAccount } from "osrs-tools/account";
+import diaries, { getDiaryByName, getAllDiaries } from "osrs-tools/diary";
+import { ClueScrollHelper } from "osrs-tools/tools";
+import { validateSkillLevel, getSkillMetadata } from "osrs-tools/utils";
+import { yellowPartyhatModelPath } from "osrs-tools/models/yellowPartyhat";
 ```
 
-- **Node.js**: resolve the shipped asset with `require.resolve(yellowPartyhatModelPath)` and read it with `fs.readFileSync(...)`.
-- **Bundlers**: import the raw asset directly from `osrs-tools/models/YellowPartyhat.obj` or use a `?url` suffix if your bundler supports it.
+## API Highlights
 
-### Documentation Links
+### Quest System
 
-- [Full API Documentation](https://github.com/jamescer/osrs-tools/wiki)
-- [Type Definitions](https://github.com/jamescer/osrs-tools/blob/master/src/model/quest/types.ts)
-- [Code Examples](https://github.com/jamescer/osrs-tools//examples)
+- `QuestTool` for account-based quest completion checks
+- `getQuestByName(name)` to look up quest data
+- `QuestList`, `MiniQuestList`, and full quest registry
+- requirement types including level and quest dependencies
+
+### Account Modeling
+
+- `OsrsAccount.fromJson(json)` loads account and hiscores-style data
+- access skills, skill details, combat level, and quest points
+- boss score, clue score, bounty hunter, league points, and deadman points lookup
+
+### Achievement Diaries
+
+- `diaries` default export for all diaries
+- `getDiaryByName(name)` to locate a diary
+- `getAllDiaries()` for listing all diaries
+
+### Clue Scroll Simulation
+
+- `ClueScrollHelper.openCasket(tier)` simulates casket rewards
+- tier-specific reward tables for beginner through master clues
+- mimic roll and master clue handling
+- item canonicalization and quantity resolution
+
+### Item Models
+
+- `Item` data model and item asset helpers
+- `yellowPartyhatModelPath` and `getItemModelPath("yellowPartyhat")`
+- `osrs-tools/models/*` export path for shipped assets
+
+### Slayer System
+
+- core classes: `SlayerMaster`, `Task`, `Assignment`
+- named masters such as `Turael`, `Spria`, `Mazchna`, `Vannaka`, `Chaeldar`, `KonarQuoMaten`, `Nieve`, `Duradel`, `Krystilia`
+- utility helpers: `getMasterByName`, `getAllMasters`, `getMastersByMinimumLevel`, `getMastersByProgression`, `getRandomMasterForLevel`
+- reward utilities: `SlayerUnlock`, `SlayerExtend`, `SlayerBuy`, and cost calculators
+- task weights, experience tables, and quantity presets
+
+### Guilds
+
+- hunter guild exports and guild-specific helpers
+- hunter progression modeling and requirement support
+
+### Leagues
+
+- league-specific exports for OSRS limited-time modes
+- `DemonicPactsLeagueAreas`, `RagingEchoesLeague`, and league model data
+
+### Skills & Validation
+
+- skill metadata helpers: `getSkillMetadata`, `getAllSkills`, `getCombatSkills`
+- validation helpers: `validateSkillLevel`, `validateQuestPoints`, `validateCombatLevel`, `validateAccountName`
+- `ValidationError` thrown for invalid data
 
 ## Development
 
 ### Local Setup
 
 ```bash
-# Clone and setup
 git clone https://github.com/jamescer/osrs-tools.git
 cd osrs-tools
 npm install
-
-# Build and test
 npm run build
 npm test
 ```
@@ -194,7 +213,7 @@ source/                          # TypeScript source code
 │   │   ├── Item/                # Item models
 │   │   └── npc/                 # NPC data
 │   ├── tools/                   # Utility tools (ClueScrollHelper, experience calc, etc.)
-│   ├── utils/                   # Helper utilities (cache, validation, etc.)
+│   ├── utils/                   # Helper utilities (validation, skill helpers)
 │   └── errors.ts                # Custom error types
 └── examples/                    # Usage examples
 

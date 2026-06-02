@@ -25,19 +25,46 @@ const projectRoot = scriptDir.endsWith('scripts')
   ? path.dirname(scriptDir)
   : scriptDir;
 const allItemsFile = path.join(projectRoot, 'allitems.txt');
-const itemsDir = path.join(projectRoot, 'public', 'assets', 'items');
+const itemsDir = path.join(projectRoot, 'public', 'assets', 'items', 'icons');
+const logFilePath = path.join(scriptDir, 'download-item-icons.log');
+
+function appendLog(message) {
+  const line = `[${new Date().toISOString()}] ${message}`;
+  fs.appendFileSync(logFilePath, `${line}\n`, 'utf8');
+}
+
+function logInfo(message) {
+  console.log(message);
+  appendLog(message);
+}
+
+function logWarn(message) {
+  console.warn(message);
+  appendLog(`WARN: ${message}`);
+}
+
+function logError(message) {
+  console.error(message);
+  appendLog(`ERROR: ${message}`);
+}
+
+// Clear or create the log file at startup
+fs.writeFileSync(logFilePath, '', 'utf8');
 
 // Parse arguments
 const args = process.argv.slice(2);
 let specificIds = null;
 let forceOverwrite = false;
 let maxRetries = 3;
+let batchSize = 5;
 
 args.forEach((arg, i) => {
   if (arg === '--ids' && args[i + 1]) {
     specificIds = args[i + 1].split(',').map(id => parseInt(id.trim(), 10));
   } else if (arg === '--force') {
     forceOverwrite = true;
+    } else if (arg === '--batch-size' && args[i + 1]) {
+      batchSize = parseInt(args[i + 1], 10) || batchSize;
   } else if (arg === '--retries' && args[i + 1]) {
     maxRetries = parseInt(args[i + 1], 10);
   }
@@ -55,8 +82,42 @@ const PLACEHOLDER_PNG = Buffer.from([
   0x42, 0x60, 0x82
 ]);
 
-// Icon sources (in order of preference)
+// Load item names so we can build wiki image URLs by name
+function loadNames() {
+  if (!fs.existsSync(allItemsFile)) return {};
+  const lines = fs.readFileSync(allItemsFile, 'utf8').split('\n');
+  const map = {};
+  for (const line of lines) {
+    const t = line.trim();
+    if (!t) continue;
+    const parts = t.split(/\s+/);
+    const last = parts[parts.length - 1];
+    if (/^\d+$/.test(last)) {
+      const id = parseInt(last, 10);
+      const name = parts.slice(0, -1).join(' ');
+      map[id] = name || '';
+    }
+  }
+  return map;
+}
+
+const itemNames = loadNames();
+
+// Default headers for requests (helps with some CDN/wiki protections)
+const DEFAULT_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (compatible; OSRS-Icon-Downloader/1.0)',
+  'Referer': 'https://oldschool.runescape.wiki/'
+};
+
+// Icon sources (in order of preference). First try wiki by item name, then numeric sources
 const ICON_SOURCES = [
+  {
+    name: 'OSRS Wiki (images by name)',
+    urlTemplate: (id) => {
+      const name = (itemNames[id] || String(id)).replace(/\s+/g, '_');
+      return `https://oldschool.runescape.wiki/images/${encodeURIComponent(name)}.png`;
+    }
+  },
   {
     name: 'Lootscape CDN',
     urlTemplate: (id) => `https://lootscape-cdn.b-cdn.net/item-icons/${id}.png`
@@ -67,10 +128,10 @@ const ICON_SOURCES = [
   }
 ];
 
-console.log('\x1b[36m%s\x1b[0m', 'OSRS Item Icons Downloader');
-console.log('\x1b[36m%s\x1b[0m', '==========================');
-console.log(`Project Root: ${projectRoot}`);
-console.log(`Items Directory: ${itemsDir}\n`);
+logInfo('\x1b[36mOSRS Item Icons Downloader\x1b[0m');
+logInfo('\x1b[36m==========================\x1b[0m');
+logInfo(`Project Root: ${projectRoot}`);
+logInfo(`Items Directory: ${itemsDir}\n`);
 
 /**
  * Parse allitems.txt with correct format handling
@@ -123,11 +184,15 @@ function downloadFile(url, filePath, retries = 3) {
       attempt++;
       const protocol = url.startsWith('https') ? https : http;
 
-      protocol.get(url, { timeout: 10000 }, (res) => {
-        // Handle redirects
+      const opts = { timeout: 10000, headers: DEFAULT_HEADERS };
+      protocol.get(url, opts, (res) => {
+        // Handle redirects (resolve relative locations)
         if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-          downloadFile(res.headers.location, filePath, retries - attempt)
-            .then(resolve);
+          let next = res.headers.location;
+          try {
+            next = new URL(next, url).toString();
+          } catch (e) {}
+          downloadFile(next, filePath, retries - attempt).then(resolve);
           return;
         }
 
@@ -139,13 +204,16 @@ function downloadFile(url, filePath, retries = 3) {
               fs.writeFileSync(filePath, Buffer.concat(chunks));
               resolve(true);
             } catch (e) {
+              logWarn(`Failed to write ${filePath}: ${e.message}`);
               resolve(false);
             }
           });
         } else {
+          logWarn(`Request for ${url} returned status ${res.statusCode}`);
           resolve(false);
         }
-      }).on('error', () => {
+      }).on('error', (err) => {
+        logWarn(`Request error for ${url}: ${err.message}`);
         if (attempt < retries) {
           setTimeout(tryDownload, 500);
         } else {
@@ -175,23 +243,23 @@ async function main() {
 
     if (specificIds) {
       itemIds = specificIds;
-      console.log(`Downloading ${itemIds.length} specified items\n`);
+      logInfo(`Downloading ${itemIds.length} specified items\n`);
     } else {
-      console.log('\x1b[33mDetermining missing items...\x1b[0m');
+      logInfo('\x1b[33mDetermining missing items...\x1b[0m');
       const allIds = parseAllItems();
       const existingFiles = getExistingFiles();
       const existingSet = new Set(existingFiles);
       itemIds = allIds.filter(id => !existingSet.has(id));
 
-      console.log(`Found ${itemIds.length} items to download\n`);
+      logInfo(`Found ${itemIds.length} items to download\n`);
 
       if (itemIds.length === 0) {
-        console.log('\x1b[32mAll items already have icons!\x1b[0m');
+        logInfo('\x1b[32mAll items already have icons!\x1b[0m');
         return;
       }
     }
 
-    console.log(`\x1b[33mAttempting to download ${itemIds.length} item icons...\x1b[0m\n`);
+    logInfo(`\x1b[33mAttempting to download ${itemIds.length} item icons (batch size: ${batchSize})...\x1b[0m\n`);
 
     let successCount = 0;
     let failureCount = 0;
@@ -202,51 +270,55 @@ async function main() {
       fs.mkdirSync(itemsDir, { recursive: true });
     }
 
-    // Download each item
-    for (let i = 0; i < itemIds.length; i++) {
-      const itemId = itemIds[i];
+    // Download items in concurrent batches
+    for (let start = 0; start < itemIds.length; start += batchSize) {
+      const batch = itemIds.slice(start, start + batchSize);
+      logInfo(`Processing batch ${Math.floor(start / batchSize) + 1} (${batch.length} items)`);
 
-      if ((i + 1) % 100 === 0) {
-        console.log(`Progress: ${i + 1} / ${itemIds.length}`);
-      }
-
-      const outFile = path.join(itemsDir, `${itemId}.png`);
-
-      // Skip if exists and not forcing overwrite
-      if (fs.existsSync(outFile) && !forceOverwrite) {
-        skipped++;
-        continue;
-      }
-
-      // Try each source
-      let downloaded = false;
-
-      for (const source of ICON_SOURCES) {
-        const url = source.urlTemplate(itemId);
-
-        if (await downloadFile(url, outFile, maxRetries)) {
-          successCount++;
-          downloaded = true;
-          break;
+      // Create promises for the batch
+      const promises = batch.map(async (itemId, idx) => {
+        const globalIndex = start + idx + 1;
+        if (globalIndex % 100 === 0) {
+          logInfo(`Progress: ${globalIndex} / ${itemIds.length}`);
         }
-      }
 
-      // If download failed, create placeholder
-      if (!downloaded) {
+        const outFile = path.join(itemsDir, `${itemId}.png`);
+
+        // Skip if exists and not forcing overwrite
+        if (fs.existsSync(outFile) && !forceOverwrite) {
+          skipped++;
+          return;
+        }
+
+        // Try each source sequentially for this item
+        for (const source of ICON_SOURCES) {
+          const url = source.urlTemplate(itemId);
+          const ok = await downloadFile(url, outFile, maxRetries);
+          if (ok) {
+            successCount++;
+            return;
+          }
+          logWarn(`Item ${itemId}: failed to download from ${source.name} (${url})`);
+        }
+
+        // If download failed, create placeholder
         createPlaceholder(outFile);
         failureCount++;
-      }
+      });
+
+      // Wait for this batch to complete
+      await Promise.all(promises);
     }
 
-    console.log('\n\x1b[36mDownload Summary:\x1b[0m');
-    console.log(`  Successfully downloaded: ${successCount}`);
-    console.log(`  Failed (created placeholders): ${failureCount}`);
-    console.log(`  Skipped (already exist): ${skipped}\n`);
-    console.log(`All files created in: ${itemsDir}`);
-    console.log('\x1b[32mDone!\x1b[0m');
+    logInfo('\n\x1b[36mDownload Summary:\x1b[0m');
+    logInfo(`  Successfully downloaded: ${successCount}`);
+    logInfo(`  Failed (created placeholders): ${failureCount}`);
+    logInfo(`  Skipped (already exist): ${skipped}\n`);
+    logInfo(`All files created in: ${itemsDir}`);
+    logInfo('\x1b[32mDone!\x1b[0m');
 
   } catch (error) {
-    console.error(`\x1b[31mError: ${error.message}\x1b[0m`);
+    logError(`\x1b[31mError: ${error.message}\x1b[0m`);
     process.exit(1);
   }
 }

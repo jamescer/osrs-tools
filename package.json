@@ -19,7 +19,12 @@
     "test:ci": "jest --ci --coverage",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "version": "npm run build && git add dist"
+    "version": "npm run build && git add dist",
+    "icons:check": "node scripts/maintain-item-icons.js check",
+    "icons:placeholders": "node scripts/maintain-item-icons.js create-placeholders",
+    "icons:report": "node scripts/maintain-item-icons.js report",
+    "icons:download": "node scripts/download-item-icons.js",
+    "icons:download:force": "node scripts/download-item-icons.js --force"
   },
   "dependencies": {
     "tslib": "^2.8.1"

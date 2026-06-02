@@ -28,11 +28,7 @@
     "icons:test": "node scripts/icon-test.js",
     "icons:test-diagnose":"node scripts/icon-test-diagnose.js",
     "icons:test-diagnose-known":"node scripts/icon-test-diagnose-known.js",
-    "icons:batch-test":"node scripts/download-item-icons.js --ids 1,2,3,4,5,6,7,8,9,10",
-
-
-
-
+    "icons:batch-test":"node scripts/download-item-icons.js --ids 1,2,3,4,5,6,7,8,9,10"
   },
   "dependencies": {
     "tslib": "^2.8.1"

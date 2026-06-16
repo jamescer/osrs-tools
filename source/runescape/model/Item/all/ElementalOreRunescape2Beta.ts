@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ElementalOreRunescape2BetaData = {
-  id: ,
+  id:  32486,
   name: "Elemental ore (RuneScape 2 Beta)",
   examine: "",
   value: 0,

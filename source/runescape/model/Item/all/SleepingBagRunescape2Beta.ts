@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SleepingBagRunescape2BetaData = {
-  id: ,
+  id:  32489,
   name: "Sleeping bag (RuneScape 2 Beta)",
   examine: "",
   value: 0,

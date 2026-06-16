@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ResetcrystalRunescape2BetaData = {
-  id: ,
+  id:   32490,
   name: "Resetcrystal (RuneScape 2 Beta)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PuzzleBoxtreeData = {
-  id: 3565
+  id: 3565,
   name: "Puzzle box#Tree",
   examine: "",
   value: 0,

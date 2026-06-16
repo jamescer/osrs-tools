@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PotRunescape2BetaredData = {
-  id: ,
+  id:  32488,
   name: "Pot (RuneScape 2 Beta)#Red",
   examine: "",
   value: 0,

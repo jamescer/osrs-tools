@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CombinationScrollRunescape2BetaData = {
-  id: ,
+  id:  32484,
   name: "Combination scroll (RuneScape 2 Beta)",
   examine: "",
   value: 0,

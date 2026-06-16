@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FancyRejuvenationPoolInterfaceItemData = {
-  id: interface20642,
+  id: 20642,
   name: "Fancy rejuvenation pool (interface item)",
   examine: "",
   value: 0,

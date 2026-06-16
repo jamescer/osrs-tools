@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RockslugInterfaceItemData = {
-  id: interface4136,
+  id: 4136,
   name: "Rockslug (interface item)",
   examine: "",
   value: 0,

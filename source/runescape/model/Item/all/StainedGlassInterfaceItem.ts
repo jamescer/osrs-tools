@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const StainedGlassInterfaceItemData = {
-  id: interface8078,
+  id: 8078,
   name: "Stained glass (interface item)",
   examine: "",
   value: 0,

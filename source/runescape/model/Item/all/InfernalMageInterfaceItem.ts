@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const InfernalMageInterfaceItemData = {
-  id: interface4140,
+  id: 4140,
   name: "Infernal mage (interface item)",
   examine: "",
   value: 0,

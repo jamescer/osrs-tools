@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MahoganyFishDisplayInterfaceItemData = {
-  id: interface11601,
+  id: 11601,
   name: "Mahogany fish display (interface item)",
   examine: "",
   value: 0,

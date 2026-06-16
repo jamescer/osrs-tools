@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FineSilkData = {
-  id: hist23454,
+  id: 23454,
   name: "Fine silk",
   examine: "",
   value: 0,

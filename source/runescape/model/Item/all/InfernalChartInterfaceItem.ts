@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const InfernalChartInterfaceItemData = {
-  id: interface8356,
+  id: 8356,
   name: "Infernal chart (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GildedAltarInterfaceItemData = {
-  id: interface8068,
+  id: 8068,
   name: "Gilded altar (interface item)",
   examine: "",
   value: 0,

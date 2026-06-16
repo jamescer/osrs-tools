@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CoconutBunchData = {
-  id: hist4180,
+  id: 4180,
   name: "Coconut bunch",
   examine: "",
   value: 0,

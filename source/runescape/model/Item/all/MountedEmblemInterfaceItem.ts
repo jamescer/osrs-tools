@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MountedEmblemInterfaceItemData = {
-  id: interface20630,
+  id: 20630,
   name: "Mounted emblem (interface item)",
   examine: "",
   value: 0,

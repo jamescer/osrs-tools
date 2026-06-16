@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FancyRangeInterfaceItemData = {
-  id: interface8222,
+  id: 8222,
   name: "Fancy range (interface item)",
   examine: "",
   value: 0,

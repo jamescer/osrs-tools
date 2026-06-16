@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const VolcanicThemeInterfaceItemData = {
-  id: interface20646,
+  id: 20646,
   name: "Volcanic theme (interface item)",
   examine: "",
   value: 0,

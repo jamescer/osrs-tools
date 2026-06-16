@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LumbridgeTaskListData = {
-  id: hist22721,
+  id: 22721,
   name: "Lumbridge task list",
   examine: "",
   value: 0,

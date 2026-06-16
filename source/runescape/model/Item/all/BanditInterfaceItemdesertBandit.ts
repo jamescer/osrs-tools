@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BanditInterfaceItemdesertBanditData = {
-  id: interface4625,
+  id: 4625,
   name: "Bandit (interface item)#Desert Bandit",
   examine: "",
   value: 0,

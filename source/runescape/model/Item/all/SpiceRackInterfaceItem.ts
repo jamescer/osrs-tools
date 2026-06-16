@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SpiceRackInterfaceItemData = {
-  id: interface24479,
+  id: 24479,
   name: "Spice rack (interface item)",
   examine: "",
   value: 0,

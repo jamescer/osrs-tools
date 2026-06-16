@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KebbitInterfaceItemdesertDevilData = {
-  id: interface9956,
+  id: 9956,
   name: "Kebbit (interface item)#Desert devil",
   examine: "",
   value: 0,

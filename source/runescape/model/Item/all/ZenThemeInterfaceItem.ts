@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ZenThemeInterfaceItemData = {
-  id: interface20644,
+  id: 20644,
   name: "Zen theme (interface item)",
   examine: "",
   value: 0,

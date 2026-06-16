@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GravediggerBootsduringEventData = {
-  id: hist13292,
+  id: 13292,
   name: "Gravedigger boots#During event",
   examine: "",
   value: 0,

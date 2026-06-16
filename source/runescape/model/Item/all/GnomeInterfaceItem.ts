@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GnomeInterfaceItemData = {
-  id: interface3257,
+  id: 3257,
   name: "Gnome (interface item)",
   examine: "",
   value: 0,

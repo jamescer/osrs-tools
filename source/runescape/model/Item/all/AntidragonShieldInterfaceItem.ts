@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AntidragonShieldInterfaceItemData = {
-  id: interface8282,
+  id: 8282,
   name: "Anti-dragon shield (interface item)",
   examine: "",
   value: 0,

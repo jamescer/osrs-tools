@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ManTrapInterfaceItemData = {
-  id: interface8144,
+  id: 8144,
   name: "Man trap (interface item)",
   examine: "",
   value: 0,

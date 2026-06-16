@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TurothInterfaceItemData = {
-  id: interface4143,
+  id: 4143,
   name: "Turoth (interface item)",
   examine: "",
   value: 0,

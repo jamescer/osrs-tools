@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GiantsFoundryTesterData = {
-  id: hist27033,
+  id: 27033,
   name: "Giants foundry tester",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WindchimesInterfaceItemData = {
-  id: interface8079,
+  id: 8079,
   name: "Windchimes (interface item)",
   examine: "",
   value: 0,

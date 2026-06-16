@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PumpAndDrainInterfaceItemData = {
-  id: interface8230,
+  id: 8230,
   name: "Pump and drain (interface item)",
   examine: "",
   value: 0,

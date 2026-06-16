@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LooseCatHairData = {
-  id: hist24524,
+  id: 24524,
   name: "Loose cat hair",
   examine: "",
   value: 0,

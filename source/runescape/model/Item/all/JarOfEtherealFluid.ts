@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const JarOfEtherealFluidData = {
-  id: hist13300,
+  id: 13300,
   name: "Jar of ethereal fluid",
   examine: "",
   value: 0,

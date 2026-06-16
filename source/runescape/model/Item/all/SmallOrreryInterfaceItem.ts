@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SmallOrreryInterfaceItemData = {
-  id: interface8346,
+  id: 8346,
   name: "Small orrery (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SapphireGlacialisInterfaceItemData = {
-  id: interface9971,
+  id: 9971,
   name: "Sapphire glacialis (interface item)",
   examine: "",
   value: 0,

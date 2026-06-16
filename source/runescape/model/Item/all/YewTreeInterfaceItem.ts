@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const YewTreeInterfaceItemData = {
-  id: interface8178,
+  id: 8178,
   name: "Yew tree (interface item)",
   examine: "",
   value: 0,

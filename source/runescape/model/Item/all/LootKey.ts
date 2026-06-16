@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LootKeyData = {
-  id: [26651, 26652, 26653, 26654, 26655],
+  id: 26651,
   name: "Loot key",
   examine: "",
   value: 0,

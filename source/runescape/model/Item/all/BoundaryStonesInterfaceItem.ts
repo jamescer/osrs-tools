@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BoundaryStonesInterfaceItemData = {
-  id: interface8196,
+  id: 8196,
   name: "Boundary stones (interface item)",
   examine: "",
   value: 0,

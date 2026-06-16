@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SwarmInterfaceItemData = {
-  id: interface7050,
+  id: 7050,
   name: "Swarm (interface item)",
   examine: "",
   value: 0,

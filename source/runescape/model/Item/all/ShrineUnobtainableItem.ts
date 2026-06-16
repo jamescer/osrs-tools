@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ShrineUnobtainableItemData = {
-  id: hist4001,
+  id: 4001,
   name: "Shrine (unobtainable item)",
   examine: "",
   value: 0,

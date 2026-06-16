@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TrapdoorInterfaceItemData = {
-  id: interface8372,
+  id: 8372,
   name: "Trapdoor (interface item)",
   examine: "",
   value: 0,

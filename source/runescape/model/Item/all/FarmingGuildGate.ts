@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FarmingGuildGateData = {
-  id: interface23005,
+  id: 23005,
   name: "Farming Guild Gate",
   examine: "",
   value: 0,

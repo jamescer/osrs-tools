@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CelestialGlobeInterfaceItemData = {
-  id: interface8344,
+  id: 8344,
   name: "Celestial globe (interface item)",
   examine: "",
   value: 0,

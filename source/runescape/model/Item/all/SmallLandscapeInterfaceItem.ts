@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SmallLandscapeInterfaceItemData = {
-  id: interface8091,
+  id: 8091,
   name: "Small landscape (interface item)",
   examine: "",
   value: 0,

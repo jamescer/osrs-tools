@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LeafbladedSpearUnobtainableItemData = {
-  id: hist4159,
+  id: 4159,
   name: "Leaf-bladed spear (unobtainable item)",
   examine: "",
   value: 0,

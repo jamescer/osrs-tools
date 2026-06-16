@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MahoganyEagleLecternInterfaceItemData = {
-  id: interface8339,
+  id: 8339,
   name: "Mahogany eagle lectern (interface item)",
   examine: "",
   value: 0,

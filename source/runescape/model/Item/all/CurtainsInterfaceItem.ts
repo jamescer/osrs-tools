@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CurtainsInterfaceItemData = {
-  id: interface8323,
+  id: 8323,
   name: "Curtains (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PuzzleBoxtrollData = {
-  id: [3569, 3571, 3576, 12585, 19895, 19897, 19903],
+  id: 3569,
   name: "Puzzle box#Troll",
   examine: "",
   value: 0,

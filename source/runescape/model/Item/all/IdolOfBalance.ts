@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const IdolOfBalanceData = {
-  id: hist22344,
+  id: 22344,
   name: "Idol of balance",
   examine: "",
   value: 0,

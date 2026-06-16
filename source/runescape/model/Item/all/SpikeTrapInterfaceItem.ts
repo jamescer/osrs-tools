@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SpikeTrapInterfaceItemData = {
-  id: interface8143,
+  id: 8143,
   name: "Spike trap (interface item)",
   examine: "",
   value: 0,

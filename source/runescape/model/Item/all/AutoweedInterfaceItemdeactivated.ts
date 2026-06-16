@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AutoweedInterfaceItemdeactivatedData = {
-  id: interface5546,
+  id: 5546,
   name: "Auto-weed (interface item)#Deactivated",
   examine: "",
   value: 0,

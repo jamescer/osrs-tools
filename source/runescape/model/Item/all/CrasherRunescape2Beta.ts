@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrasherRunescape2BetaData = {
-  id: hist,
+  id: ,
   name: "Crasher (RuneScape 2 Beta)",
   examine: "",
   value: 0,

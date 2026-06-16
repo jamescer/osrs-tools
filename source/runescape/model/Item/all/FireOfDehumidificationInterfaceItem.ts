@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FireOfDehumidificationInterfaceItemData = {
-  id: interface22607,
+  id: 22607,
   name: "Fire of Dehumidification (interface item)",
   examine: "",
   value: 0,

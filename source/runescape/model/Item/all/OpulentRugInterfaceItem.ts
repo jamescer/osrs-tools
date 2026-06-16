@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OpulentRugInterfaceItemData = {
-  id: interface25363,
+  id: 25363,
   name: "Opulent rug (interface item)",
   examine: "",
   value: 0,

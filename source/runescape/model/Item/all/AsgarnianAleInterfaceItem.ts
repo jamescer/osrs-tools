@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AsgarnianAleInterfaceItemData = {
-  id: interface8241,
+  id: 8241,
   name: "Asgarnian ale (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HelixFossilData = {
-  id: hist11996,
+  id: 11996,
   name: "Helix fossil",
   examine: "",
   value: 0,

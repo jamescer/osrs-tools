@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OakScratchingPostInterfaceItemData = {
-  id: interface12715,
+  id: 12715,
   name: "Oak scratching post (interface item)",
   examine: "",
   value: 0,

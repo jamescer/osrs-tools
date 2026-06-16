@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PotionStorageInterfaceItemData = {
-  id: interface29999,
+  id: 29999,
   name: "Potion storage (interface item)",
   examine: "",
   value: 0,

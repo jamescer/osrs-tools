@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CiderBarrelInterfaceItemData = {
-  id: interface8240,
+  id: 8240,
   name: "Cider barrel (interface item)",
   examine: "",
   value: 0,

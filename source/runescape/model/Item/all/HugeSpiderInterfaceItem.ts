@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HugeSpiderInterfaceItemData = {
-  id: interface8135,
+  id: 8135,
   name: "Huge spider (interface item)",
   examine: "",
   value: 0,

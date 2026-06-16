@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MysteriousEmblemHistoricaltier8Data = {
-  id: hist12754,
+  id: 12754,
   name: "Mysterious emblem (historical)#Tier 8",
   examine: "",
   value: 0,

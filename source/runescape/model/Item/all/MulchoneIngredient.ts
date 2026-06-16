@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MulchoneIngredientData = {
-  id: [28183, 28648],
+  id: 28183,
   name: "Mulch#One ingredient",
   examine: "",
   value: 0,

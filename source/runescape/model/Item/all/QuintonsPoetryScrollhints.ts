@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const QuintonsPoetryScrollhintsData = {
-  id: hist28107,
+  id: 28107,
   name: "Quinton's poetry scroll#Hints",
   examine: "",
   value: 0,

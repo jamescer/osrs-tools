@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KillerwattInterfaceItemData = {
-  id: interface7160,
+  id: 7160,
   name: "Killerwatt (interface item)",
   examine: "",
   value: 0,

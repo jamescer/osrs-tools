@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const YolkloreOfAyasterData = {
-  id: hist29431,
+  id: 29431,
   name: "Yolklore of ayaster",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FirepitInterfaceItemData = {
-  id: interface8216,
+  id: 8216,
   name: "Firepit (interface item)",
   examine: "",
   value: 0,

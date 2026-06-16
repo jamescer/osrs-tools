@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RugInterfaceItemData = {
-  id: interface25362,
+  id: 25362,
   name: "Rug (interface item)",
   examine: "",
   value: 0,

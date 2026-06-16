@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AgilityJump2Data = {
-  id: interface6518,
+  id: 6518,
   name: "Agility jump 2",
   examine: "",
   value: 0,

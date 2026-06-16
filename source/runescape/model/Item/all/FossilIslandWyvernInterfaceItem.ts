@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FossilIslandWyvernInterfaceItemData = {
-  id: interface21508,
+  id: 21508,
   name: "Fossil island wyvern (interface item)",
   examine: "",
   value: 0,

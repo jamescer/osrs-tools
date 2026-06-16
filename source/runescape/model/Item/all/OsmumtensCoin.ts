@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OsmumtensCoinData = {
-  id: hist10649,
+  id: 10649,
   name: "Osmumten's coin",
   examine: "",
   value: 0,

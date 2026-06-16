@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ChocolateEgg2005EasterEventwhiteData = {
-  id: hist4560,
+  id: 4560,
   name: "Chocolate egg (2005 Easter event)#White",
   examine: "",
   value: 0,

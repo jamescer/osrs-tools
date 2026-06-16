@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SmallPortraitInterfaceItemData = {
-  id: interface8086,
+  id: 8086,
   name: "Small portrait (interface item)",
   examine: "",
   value: 0,

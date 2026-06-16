@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FireOfNourishmentInterfaceItemData = {
-  id: interface22608,
+  id: 22608,
   name: "Fire of Nourishment (interface item)",
   examine: "",
   value: 0,

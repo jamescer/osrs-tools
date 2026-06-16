@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RubyHarvestInterfaceItemData = {
-  id: interface9970,
+  id: 9970,
   name: "Ruby harvest (interface item)",
   examine: "",
   value: 0,

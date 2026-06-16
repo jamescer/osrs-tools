@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ArcheryTargetInterfaceItemData = {
-  id: interface8164,
+  id: 8164,
   name: "Archery target (interface item)",
   examine: "",
   value: 0,

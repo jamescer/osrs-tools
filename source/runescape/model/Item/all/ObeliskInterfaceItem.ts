@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ObeliskInterfaceItemData = {
-  id: interface21788,
+  id: 21788,
   name: "Obelisk (interface item)",
   examine: "",
   value: 0,

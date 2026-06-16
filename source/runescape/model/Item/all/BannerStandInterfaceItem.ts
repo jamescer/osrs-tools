@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BannerStandInterfaceItemData = {
-  id: interface25355,
+  id: 25355,
   name: "Banner stand (interface item)",
   examine: "",
   value: 0,

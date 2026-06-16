@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const EekduringEventData = {
-  id: hist22683,
+  id: 22683,
   name: "Eek#During event",
   examine: "",
   value: 0,

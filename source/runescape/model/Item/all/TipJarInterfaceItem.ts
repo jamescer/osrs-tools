@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TipJarInterfaceItemData = {
-  id: interface20634,
+  id: 20634,
   name: "Tip jar (interface item)",
   examine: "",
   value: 0,

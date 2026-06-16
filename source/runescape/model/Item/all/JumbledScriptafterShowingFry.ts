@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const JumbledScriptafterShowingFryData = {
-  id: hist30719,
+  id: 30719,
   name: "Jumbled script#After showing Fry",
   examine: "",
   value: 0,

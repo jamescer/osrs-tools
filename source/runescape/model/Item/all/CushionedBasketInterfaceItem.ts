@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CushionedBasketInterfaceItemData = {
-  id: interface8238,
+  id: 8238,
   name: "Cushioned basket (interface item)",
   examine: "",
   value: 0,

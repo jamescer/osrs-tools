@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KeyTreasureTrailsmediumData = {
-  id: [2832, 2834, 2836, 2838, 2840, 3606, 3608, 7297, 7299, 7302, 19761],
+  id: 2832,
   name: "Key (Treasure Trails)#Medium",
   examine: "",
   value: 0,

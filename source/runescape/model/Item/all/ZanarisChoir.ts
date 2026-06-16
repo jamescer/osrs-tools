@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ZanarisChoirData = {
-  id: hist10511,
+  id: 10511,
   name: "Zanaris choir",
   examine: "",
   value: 0,

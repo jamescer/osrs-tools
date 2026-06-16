@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrudeWoodenChairInterfaceItemData = {
-  id: interface8309,
+  id: 8309,
   name: "Crude wooden chair (interface item)",
   examine: "",
   value: 0,

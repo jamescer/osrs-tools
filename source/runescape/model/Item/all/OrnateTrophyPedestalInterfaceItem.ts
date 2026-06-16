@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OrnateTrophyPedestalInterfaceItemData = {
-  id: interface25352,
+  id: 25352,
   name: "Ornate trophy pedestal (interface item)",
   examine: "",
   value: 0,

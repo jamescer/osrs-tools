@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BalanceBeamInterfaceItemData = {
-  id: interface8027,
+  id: 8027,
   name: "Balance beam (interface item)",
   examine: "",
   value: 0,

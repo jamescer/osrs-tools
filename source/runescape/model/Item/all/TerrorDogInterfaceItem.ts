@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TerrorDogInterfaceItemData = {
-  id: interface10591,
+  id: 10591,
   name: "Terror dog (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GuardDogInterfaceItemData = {
-  id: interface8132,
+  id: 8132,
   name: "Guard dog (interface item)",
   examine: "",
   value: 0,

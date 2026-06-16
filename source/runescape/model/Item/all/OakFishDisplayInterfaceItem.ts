@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OakFishDisplayInterfaceItemData = {
-  id: interface11599,
+  id: 11599,
   name: "Oak fish display (interface item)",
   examine: "",
   value: 0,

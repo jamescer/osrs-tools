@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RedwoodFenceInterfaceItemData = {
-  id: interface20647,
+  id: 20647,
   name: "Redwood fence (interface item)",
   examine: "",
   value: 0,

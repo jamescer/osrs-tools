@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ZarosianEmblemData = {
-  id: hist10647,
+  id: 10647,
   name: "Zarosian emblem",
   examine: "",
   value: 0,

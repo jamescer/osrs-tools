@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TrailblazerAxeData = {
-  id: hist25110,
+  id: 25110,
   name: "Trailblazer axe",
   examine: "",
   value: 0,

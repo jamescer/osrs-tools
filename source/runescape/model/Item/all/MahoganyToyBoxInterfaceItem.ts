@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MahoganyToyBoxInterfaceItemData = {
-  id: interface9838,
+  id: 9838,
   name: "Mahogany toy box (interface item)",
   examine: "",
   value: 0,

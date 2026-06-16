@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TeleportTrapInterfaceItemData = {
-  id: interface8147,
+  id: 8147,
   name: "Teleport trap (interface item)",
   examine: "",
   value: 0,

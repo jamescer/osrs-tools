@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OrnateUndeadCombatDummyInterfaceItemData = {
-  id: interface25154,
+  id: 25154,
   name: "Ornate undead combat dummy (interface item)",
   examine: "",
   value: 0,

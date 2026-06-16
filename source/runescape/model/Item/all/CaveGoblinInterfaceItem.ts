@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CaveGoblinInterfaceItemData = {
-  id: interface10998,
+  id: 10998,
   name: "Cave goblin (interface item)",
   examine: "",
   value: 0,

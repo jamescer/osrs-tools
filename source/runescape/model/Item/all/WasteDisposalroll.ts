@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WasteDisposalrollData = {
-  id: hist6964,
+  id: 6964,
   name: "Waste disposal#Roll",
   examine: "",
   value: 0,

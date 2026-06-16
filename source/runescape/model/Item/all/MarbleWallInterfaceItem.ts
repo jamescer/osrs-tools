@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MarbleWallInterfaceItemData = {
-  id: interface8202,
+  id: 8202,
   name: "Marble wall (interface item)",
   examine: "",
   value: 0,

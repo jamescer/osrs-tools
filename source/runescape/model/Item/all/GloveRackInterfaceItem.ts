@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GloveRackInterfaceItemData = {
-  id: interface8028,
+  id: 8028,
   name: "Glove rack (interface item)",
   examine: "",
   value: 0,

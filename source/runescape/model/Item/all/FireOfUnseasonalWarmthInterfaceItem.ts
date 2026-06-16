@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FireOfUnseasonalWarmthInterfaceItemData = {
-  id: interface22609,
+  id: 22609,
   name: "Fire of Unseasonal Warmth (interface item)",
   examine: "",
   value: 0,

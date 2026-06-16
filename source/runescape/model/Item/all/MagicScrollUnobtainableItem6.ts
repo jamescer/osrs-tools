@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MagicScrollUnobtainableItem6Data = {
-  id: hist4699,
+  id: 4699,
   name: "Magic scroll (unobtainable item)#6",
   examine: "",
   value: 0,

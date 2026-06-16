@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PondInterfaceItemData = {
-  id: interface8170,
+  id: 8170,
   name: "Pond (interface item)",
   examine: "",
   value: 0,

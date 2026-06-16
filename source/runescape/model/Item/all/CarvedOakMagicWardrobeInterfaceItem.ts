@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CarvedOakMagicWardrobeInterfaceItemData = {
-  id: interface9830,
+  id: 9830,
   name: "Carved oak magic wardrobe (interface item)",
   examine: "",
   value: 0,

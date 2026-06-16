@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LargeOvenInterfaceItemData = {
-  id: interface8220,
+  id: 8220,
   name: "Large oven (interface item)",
   examine: "",
   value: 0,

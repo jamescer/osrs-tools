@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CapeOfLegendsMountedInterfaceItemData = {
-  id: interface8284,
+  id: 8284,
   name: "Cape of legends (mounted) (interface item)",
   examine: "",
   value: 0,

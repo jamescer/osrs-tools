@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DragonBitterBarrelInterfaceItemData = {
-  id: interface8243,
+  id: 8243,
   name: "Dragon bitter (barrel) (interface item)",
   examine: "",
   value: 0,

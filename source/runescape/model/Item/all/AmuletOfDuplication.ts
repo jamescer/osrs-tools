@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AmuletOfDuplicationData = {
-  id: hist22727,
+  id: 22727,
   name: "Amulet of duplication",
   examine: "",
   value: 0,

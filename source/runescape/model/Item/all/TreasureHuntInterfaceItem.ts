@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TreasureHuntInterfaceItemData = {
-  id: interface8160,
+  id: 8160,
   name: "Treasure hunt (interface item)",
   examine: "",
   value: 0,

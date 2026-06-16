@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GnomeChildItembluePartyhatData = {
-  id: hist25321,
+  id: 25321,
   name: "Gnome child (item)#Blue partyhat",
   examine: "",
   value: 0,

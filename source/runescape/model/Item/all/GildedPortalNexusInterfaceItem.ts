@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GildedPortalNexusInterfaceItemData = {
-  id: interface22706,
+  id: 22706,
   name: "Gilded portal nexus (interface item)",
   examine: "",
   value: 0,

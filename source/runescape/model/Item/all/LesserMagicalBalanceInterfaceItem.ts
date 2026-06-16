@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LesserMagicalBalanceInterfaceItemData = {
-  id: interface8156,
+  id: 8156,
   name: "Lesser magical balance (interface item)",
   examine: "",
   value: 0,

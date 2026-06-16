@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MoonlightAntelopeAntlerInterfaceItemData = {
-  id: interface28868,
+  id: 28868,
   name: "Moonlight antelope antler (interface item)",
   examine: "",
   value: 0,

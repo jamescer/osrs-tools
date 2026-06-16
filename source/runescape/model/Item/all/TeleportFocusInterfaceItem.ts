@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TeleportFocusInterfaceItemData = {
-  id: interface8331,
+  id: 8331,
   name: "Teleport focus (interface item)",
   examine: "",
   value: 0,

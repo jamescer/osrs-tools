@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BellpullInterfaceItemData = {
-  id: interface8100,
+  id: 8100,
   name: "Bell-pull (interface item)",
   examine: "",
   value: 0,

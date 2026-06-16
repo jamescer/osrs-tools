@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LargeLandscapeInterfaceItemData = {
-  id: interface8094,
+  id: 8094,
   name: "Large landscape (interface item)",
   examine: "",
   value: 0,

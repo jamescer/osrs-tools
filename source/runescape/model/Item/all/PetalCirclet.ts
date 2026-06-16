@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PetalCircletData = {
-  id: hist28653,
+  id: 28653,
   name: "Petal circlet",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ElemLongswordRunescape2BetaData = {
-  id: hist,
+  id: ,
   name: "Elem longsword (RuneScape 2 Beta)",
   examine: "",
   value: 0,

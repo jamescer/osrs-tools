@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WhetstoneInterfaceItemData = {
-  id: interface8390,
+  id: 8390,
   name: "Whetstone (interface item)",
   examine: "",
   value: 0,

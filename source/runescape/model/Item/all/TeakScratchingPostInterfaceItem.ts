@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TeakScratchingPostInterfaceItemData = {
-  id: interface12716,
+  id: 12716,
   name: "Teak scratching post (interface item)",
   examine: "",
   value: 0,

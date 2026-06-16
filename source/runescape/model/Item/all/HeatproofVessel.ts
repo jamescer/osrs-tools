@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HeatproofVesselData = {
-  id: [21539, 25615],
+  id: 21539,
   name: "Heat-proof vessel",
   examine: "",
   value: 0,

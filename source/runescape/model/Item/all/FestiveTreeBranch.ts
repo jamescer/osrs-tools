@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FestiveTreeBranchData = {
-  id: hist22723,
+  id: 22723,
   name: "Festive tree branch",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CatBlanketInterfaceItemData = {
-  id: interface8236,
+  id: 8236,
   name: "Cat blanket (interface item)",
   examine: "",
   value: 0,

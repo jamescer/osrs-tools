@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SinkInterfaceItemData = {
-  id: interface8232,
+  id: 8232,
   name: "Sink (interface item)",
   examine: "",
   value: 0,

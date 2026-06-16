@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TopiaryBushInterfaceItemData = {
-  id: interface20638,
+  id: 20638,
   name: "Topiary bush (interface item)",
   examine: "",
   value: 0,

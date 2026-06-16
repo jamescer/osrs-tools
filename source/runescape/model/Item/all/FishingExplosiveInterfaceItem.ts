@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FishingExplosiveInterfaceItemData = {
-  id: interface6660,
+  id: 6660,
   name: "Fishing explosive (interface item)",
   examine: "",
   value: 0,

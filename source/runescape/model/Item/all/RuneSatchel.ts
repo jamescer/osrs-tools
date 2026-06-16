@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RuneSatchelData = {
-  id: [10882, 25623],
+  id: 10882,
   name: "Rune satchel",
   examine: "",
   value: 0,

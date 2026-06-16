@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SpikedCageInterfaceItemData = {
-  id: interface8300,
+  id: 8300,
   name: "Spiked cage (interface item)",
   examine: "",
   value: 0,

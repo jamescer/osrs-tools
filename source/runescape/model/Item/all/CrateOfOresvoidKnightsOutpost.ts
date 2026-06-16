@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfOresvoidKnightsOutpostData = {
-  id: [32800, 33000],
+  id: 32800,
   name: "Crate of ores#Void Knights' Outpost",
   examine: "",
   value: 0,

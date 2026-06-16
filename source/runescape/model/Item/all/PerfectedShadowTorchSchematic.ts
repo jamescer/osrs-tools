@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PerfectedShadowTorchSchematicData = {
-  id: [28380, 28381],
+  id: 28380,
   name: "Perfected shadow torch schematic",
   examine: "",
   value: 0,

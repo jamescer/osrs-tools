@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SwampWallbeastInterfaceItemData = {
-  id: interface4519,
+  id: 4519,
   name: "Swamp wallbeast (interface item)",
   examine: "",
   value: 0,

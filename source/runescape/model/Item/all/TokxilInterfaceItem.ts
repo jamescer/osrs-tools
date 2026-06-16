@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TokxilInterfaceItemData = {
-  id: interface8140,
+  id: 8140,
   name: "Tok-Xil (interface item)",
   examine: "",
   value: 0,

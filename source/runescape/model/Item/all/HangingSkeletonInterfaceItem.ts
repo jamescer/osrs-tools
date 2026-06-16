@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HangingSkeletonInterfaceItemData = {
-  id: interface8127,
+  id: 8127,
   name: "Hanging skeleton (interface item)",
   examine: "",
   value: 0,

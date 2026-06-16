@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MarbleAttackStoneInterfaceItemData = {
-  id: interface8155,
+  id: 8155,
   name: "Marble attack stone (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SpringGardenInterfaceItemData = {
-  id: interface10853,
+  id: 10853,
   name: "Spring garden (interface item)",
   examine: "",
   value: 0,

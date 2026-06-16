@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SmithingInterfaceItemData = {
-  id: interface5086,
+  id: 5086,
   name: "Smithing (interface item)",
   examine: "",
   value: 0,

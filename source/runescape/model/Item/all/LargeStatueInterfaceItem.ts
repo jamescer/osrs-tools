@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LargeStatueInterfaceItemData = {
-  id: interface8084,
+  id: 8084,
   name: "Large statue (interface item)",
   examine: "",
   value: 0,

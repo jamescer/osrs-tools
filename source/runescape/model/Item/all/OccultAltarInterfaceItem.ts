@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OccultAltarInterfaceItemData = {
-  id: interface20620,
+  id: 20620,
   name: "Occult altar (interface item)",
   examine: "",
   value: 0,

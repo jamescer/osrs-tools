@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SkeletonGuardInterfaceItemData = {
-  id: interface8131,
+  id: 8131,
   name: "Skeleton guard (interface item)",
   examine: "",
   value: 0,

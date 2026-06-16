@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ExitPortalInterfaceItemData = {
-  id: interface8168,
+  id: 8168,
   name: "Exit portal (interface item)",
   examine: "",
   value: 0,

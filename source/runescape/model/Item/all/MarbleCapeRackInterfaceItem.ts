@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MarbleCapeRackInterfaceItemData = {
-  id: interface9821,
+  id: 9821,
   name: "Marble cape rack (interface item)",
   examine: "",
   value: 0,

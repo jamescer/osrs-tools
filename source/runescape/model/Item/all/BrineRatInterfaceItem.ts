@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BrineRatInterfaceItemData = {
-  id: interface11047,
+  id: 11047,
   name: "Brine Rat (interface item)",
   examine: "",
   value: 0,

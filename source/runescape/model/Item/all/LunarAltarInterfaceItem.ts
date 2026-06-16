@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LunarAltarInterfaceItemData = {
-  id: interface20618,
+  id: 20618,
   name: "Lunar altar (interface item)",
   examine: "",
   value: 0,

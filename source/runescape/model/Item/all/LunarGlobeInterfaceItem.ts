@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LunarGlobeInterfaceItemData = {
-  id: interface8343,
+  id: 8343,
   name: "Lunar globe (interface item)",
   examine: "",
   value: 0,

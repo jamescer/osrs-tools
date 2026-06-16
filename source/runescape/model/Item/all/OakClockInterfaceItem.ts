@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OakClockInterfaceItemData = {
-  id: interface8052,
+  id: 8052,
   name: "Oak clock (interface item)",
   examine: "",
   value: 0,

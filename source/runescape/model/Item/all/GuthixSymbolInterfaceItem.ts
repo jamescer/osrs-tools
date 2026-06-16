@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GuthixSymbolInterfaceItemData = {
-  id: interface8057,
+  id: 8057,
   name: "Guthix symbol (interface item)",
   examine: "",
   value: 0,

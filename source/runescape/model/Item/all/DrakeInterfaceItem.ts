@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DrakeInterfaceItemData = {
-  id: interface23041,
+  id: 23041,
   name: "Drake (interface item)",
   examine: "",
   value: 0,

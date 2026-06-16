@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DeflatedBlueBouncyBallData = {
-  id: hist20812,
+  id: 20812,
   name: "Deflated blue bouncy ball",
   examine: "",
   value: 0,

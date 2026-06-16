@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RosemaryInterfaceItemData = {
-  id: interface8210,
+  id: 8210,
   name: "Rosemary (interface item)",
   examine: "",
   value: 0,

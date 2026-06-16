@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KiteShieldInterfaceItemData = {
-  id: interface8107,
+  id: 8107,
   name: "Kite shield (interface item)",
   examine: "",
   value: 0,

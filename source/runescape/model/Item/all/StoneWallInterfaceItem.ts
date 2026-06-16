@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const StoneWallInterfaceItemData = {
-  id: interface8198,
+  id: 8198,
   name: "Stone wall (interface item)",
   examine: "",
   value: 0,

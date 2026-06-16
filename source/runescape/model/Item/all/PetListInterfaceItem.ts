@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PetListInterfaceItemData = {
-  id: interface12721,
+  id: 12721,
   name: "Pet list (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ServantsMoneyBagInterfaceItemData = {
-  id: interface21213,
+  id: 21213,
   name: "Servant's money bag (interface item)",
   examine: "",
   value: 0,

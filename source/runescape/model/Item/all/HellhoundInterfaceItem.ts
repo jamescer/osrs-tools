@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HellhoundInterfaceItemData = {
-  id: interface8137,
+  id: 8137,
   name: "Hellhound (interface item)",
   examine: "",
   value: 0,

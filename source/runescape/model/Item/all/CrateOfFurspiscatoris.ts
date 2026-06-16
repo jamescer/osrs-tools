@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfFurspiscatorisData = {
-  id: [32609, 32964],
+  id: 32609,
   name: "Crate of furs#Piscatoris",
   examine: "",
   value: 0,

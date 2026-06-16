@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LumbridgeGraveyardTeleportTabletData = {
-  id: hist19613,
+  id: 19613,
   name: "Lumbridge graveyard teleport (tablet)",
   examine: "",
   value: 0,

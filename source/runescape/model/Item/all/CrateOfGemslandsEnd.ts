@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfGemslandsEndData = {
-  id: [32570, 32960],
+  id: 32570,
   name: "Crate of gems#Land's End",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TreacleItemData = {
-  id: hist22338,
+  id: 22338,
   name: "Treacle (item)",
   examine: "",
   value: 0,

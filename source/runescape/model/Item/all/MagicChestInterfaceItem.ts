@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MagicChestInterfaceItemData = {
-  id: interface8152,
+  id: 8152,
   name: "Magic chest (interface item)",
   examine: "",
   value: 0,

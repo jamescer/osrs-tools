@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfSeedsportSarimData = {
-  id: [32689, 32981],
+  id: 32689,
   name: "Crate of seeds#Port Sarim",
   examine: "",
   value: 0,

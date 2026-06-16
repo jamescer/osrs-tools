@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SineWaveData = {
-  id: hist6203,
+  id: 6203,
   name: "Sine wave",
   examine: "",
   value: 0,

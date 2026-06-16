@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GemBagopenData = {
-  id: [24481, 25628],
+  id: 24481,
   name: "Gem bag#Open",
   examine: "",
   value: 0,

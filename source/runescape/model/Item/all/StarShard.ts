@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const StarShardData = {
-  id: hist10659,
+  id: 10659,
   name: "Star shard",
   examine: "",
   value: 0,

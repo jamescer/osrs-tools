@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ClueScrollMediumSpeakToHazelmereData = {
-  id: hist2841,
+  id: 2841,
   name: "Clue scroll (medium) - Speak to Hazelmere",
   examine: "",
   value: 0,

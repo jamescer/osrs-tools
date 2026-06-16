@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CraftingTable4InterfaceItemData = {
-  id: interface8383,
+  id: 8383,
   name: "Crafting table 4 (interface item)",
   examine: "",
   value: 0,

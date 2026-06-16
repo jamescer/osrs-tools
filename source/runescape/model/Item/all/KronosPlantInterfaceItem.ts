@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KronosPlantInterfaceItemData = {
-  id: interface22938,
+  id: 22938,
   name: "Kronos plant (interface item)",
   examine: "",
   value: 0,

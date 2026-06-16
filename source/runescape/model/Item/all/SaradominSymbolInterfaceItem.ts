@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SaradominSymbolInterfaceItemData = {
-  id: interface8055,
+  id: 8055,
   name: "Saradomin symbol (interface item)",
   examine: "",
   value: 0,

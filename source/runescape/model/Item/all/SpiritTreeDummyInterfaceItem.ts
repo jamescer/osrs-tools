@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SpiritTreeDummyInterfaceItemData = {
-  id: interface6063,
+  id: 6063,
   name: "Spirit tree dummy (interface item)",
   examine: "",
   value: 0,

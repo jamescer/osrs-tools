@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BellsInterfaceItemData = {
-  id: interface8080,
+  id: 8080,
   name: "Bells (interface item)",
   examine: "",
   value: 0,

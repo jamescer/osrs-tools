@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RockSample2Data = {
-  id: hist672,
+  id: 672,
   name: "Rock sample#2",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const Snow2021ChristmasEventData = {
-  id: hist26296,
+  id: 26296,
   name: "Snow (2021 Christmas event)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SunflowerInterfaceItemData = {
-  id: interface8213,
+  id: 8213,
   name: "Sunflower (interface item)",
   examine: "",
   value: 0,

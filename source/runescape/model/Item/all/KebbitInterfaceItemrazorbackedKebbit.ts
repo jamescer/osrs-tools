@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KebbitInterfaceItemrazorbackedKebbitData = {
-  id: interface9961,
+  id: 9961,
   name: "Kebbit (interface item)#Razor-backed kebbit",
   examine: "",
   value: 0,

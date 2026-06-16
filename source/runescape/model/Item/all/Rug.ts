@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RugData = {
-  id: [8317, 25362],
+  id: 8317,
   name: "Rug",
   examine: "",
   value: 0,

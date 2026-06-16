@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FairyRingInterfaceItemData = {
-  id: interface20636,
+  id: 20636,
   name: "Fairy ring (interface item)",
   examine: "",
   value: 0,

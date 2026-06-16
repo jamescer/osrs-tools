@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TrollInterfaceItemData = {
-  id: interface8136,
+  id: 8136,
   name: "Troll (interface item)",
   examine: "",
   value: 0,

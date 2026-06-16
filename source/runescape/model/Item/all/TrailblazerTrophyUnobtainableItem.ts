@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TrailblazerTrophyUnobtainableItemData = {
-  id: hist25040,
+  id: 25040,
   name: "Trailblazer trophy (unobtainable item)",
   examine: "",
   value: 0,

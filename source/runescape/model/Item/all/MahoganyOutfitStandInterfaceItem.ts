@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MahoganyOutfitStandInterfaceItemData = {
-  id: interface25358,
+  id: 25358,
   name: "Mahogany outfit stand (interface item)",
   examine: "",
   value: 0,

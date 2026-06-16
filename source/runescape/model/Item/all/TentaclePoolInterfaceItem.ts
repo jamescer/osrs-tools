@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TentaclePoolInterfaceItemData = {
-  id: interface8303,
+  id: 8303,
   name: "Tentacle pool (interface item)",
   examine: "",
   value: 0,

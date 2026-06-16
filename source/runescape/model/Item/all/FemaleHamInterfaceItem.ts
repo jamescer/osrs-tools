@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FemaleHamInterfaceItemData = {
-  id: interface4295,
+  id: 4295,
   name: "Female H.A.M. (interface item)",
   examine: "",
   value: 0,

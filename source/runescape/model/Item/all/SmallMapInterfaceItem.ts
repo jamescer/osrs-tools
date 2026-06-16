@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SmallMapInterfaceItemData = {
-  id: interface8294,
+  id: 8294,
   name: "Small map (interface item)",
   examine: "",
   value: 0,

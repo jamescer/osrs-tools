@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const IasorPlantInterfaceItemData = {
-  id: interface22939,
+  id: 22939,
   name: "Iasor plant (interface item)",
   examine: "",
   value: 0,

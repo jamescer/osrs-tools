@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ClayFireplaceInterfaceItemData = {
-  id: interface8325,
+  id: 8325,
   name: "Clay fireplace (interface item)",
   examine: "",
   value: 0,

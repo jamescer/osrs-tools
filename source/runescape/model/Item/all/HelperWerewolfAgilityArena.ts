@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HelperWerewolfAgilityArenaData = {
-  id: hist4177,
+  id: 4177,
   name: "Helper (Werewolf Agility Arena)",
   examine: "",
   value: 0,

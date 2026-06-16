@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TrailblazerGlobeInterfaceItemData = {
-  id: interface25361,
+  id: 25361,
   name: "Trailblazer globe (interface item)",
   examine: "",
   value: 0,

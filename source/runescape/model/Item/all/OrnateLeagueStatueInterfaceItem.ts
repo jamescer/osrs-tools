@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OrnateLeagueStatueInterfaceItemData = {
-  id: interface25360,
+  id: 25360,
   name: "Ornate league statue (interface item)",
   examine: "",
   value: 0,

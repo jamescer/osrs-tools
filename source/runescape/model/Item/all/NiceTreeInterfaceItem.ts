@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const NiceTreeInterfaceItemData = {
-  id: interface8174,
+  id: 8174,
   name: "Nice tree (interface item)",
   examine: "",
   value: 0,

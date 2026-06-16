@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KarambwanjiHistoricalData = {
-  id: hist3151,
+  id: 3151,
   name: "Karambwanji (historical)",
   examine: "",
   value: 0,

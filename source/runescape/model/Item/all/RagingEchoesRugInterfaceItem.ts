@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RagingEchoesRugInterfaceItemData = {
-  id: interface30501,
+  id: 30501,
   name: "Raging echoes rug (interface item)",
   examine: "",
   value: 0,

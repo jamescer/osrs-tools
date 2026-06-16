@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AraxyteInterfaceItemData = {
-  id: interface29780,
+  id: 29780,
   name: "Araxyte (interface item)",
   examine: "",
   value: 0,

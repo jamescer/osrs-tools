@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FarmingHelperDoNotAddData = {
-  id: hist13220,
+  id: 13220,
   name: "Farming helper - do not add!",
   examine: "",
   value: 0,

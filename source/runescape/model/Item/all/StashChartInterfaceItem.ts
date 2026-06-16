@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const StashChartInterfaceItemData = {
-  id: interface25611,
+  id: 25611,
   name: "S.t.a.s.h chart (interface item)",
   examine: "",
   value: 0,

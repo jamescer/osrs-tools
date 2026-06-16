@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DoubleHelixbronzeFireArrowsData = {
-  id: hist599,
+  id: 599,
   name: "Double helix#Bronze fire arrows",
   examine: "",
   value: 0,

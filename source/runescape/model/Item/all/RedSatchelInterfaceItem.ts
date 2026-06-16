@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RedSatchelInterfaceItemData = {
-  id: interface25620,
+  id: 25620,
   name: "Red satchel (interface item)",
   examine: "",
   value: 0,

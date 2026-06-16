@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RamMaskData = {
-  id: [29929, 29934],
+  id: 29929,
   name: "Ram mask",
   examine: "",
   value: 0,

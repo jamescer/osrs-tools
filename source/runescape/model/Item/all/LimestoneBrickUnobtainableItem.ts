@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LimestoneBrickUnobtainableItemData = {
-  id: hist8796,
+  id: 8796,
   name: "Limestone brick (unobtainable item)",
   examine: "",
   value: 0,

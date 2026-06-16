@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TangleVineInterfaceItemData = {
-  id: interface8145,
+  id: 8145,
   name: "Tangle vine (interface item)",
   examine: "",
   value: 0,

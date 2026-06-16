@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BirdMaskData = {
-  id: [29931, 29938],
+  id: 29931,
   name: "Bird mask",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BasicJewelleryBoxInterfaceItemData = {
-  id: interface20626,
+  id: 20626,
   name: "Basic jewellery box (interface item)",
   examine: "",
   value: 0,

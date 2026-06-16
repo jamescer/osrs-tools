@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BeginnerHideyHoleInterfaceItemData = {
-  id: interface23416,
+  id: 23416,
   name: "Beginner hidey hole (interface item)",
   examine: "",
   value: 0,

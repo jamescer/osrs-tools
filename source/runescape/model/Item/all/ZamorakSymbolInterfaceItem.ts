@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ZamorakSymbolInterfaceItemData = {
-  id: interface8056,
+  id: 8056,
   name: "Zamorak symbol (interface item)",
   examine: "",
   value: 0,

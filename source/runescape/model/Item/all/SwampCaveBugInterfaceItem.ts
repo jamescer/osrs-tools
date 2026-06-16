@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SwampCaveBugInterfaceItemData = {
-  id: interface4521,
+  id: 4521,
   name: "Swamp cave bug (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BrutalBlackDragonInterfaceItemData = {
-  id: interface21391,
+  id: 21391,
   name: "Brutal Black Dragon (interface item)",
   examine: "",
   value: 0,

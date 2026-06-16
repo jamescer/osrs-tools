@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WasteDisposaltriangleSandwichData = {
-  id: hist6968,
+  id: 6968,
   name: "Waste disposal#Triangle sandwich",
   examine: "",
   value: 0,

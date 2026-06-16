@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SquareShieldInterfaceItemData = {
-  id: interface8106,
+  id: 8106,
   name: "Square shield (interface item)",
   examine: "",
   value: 0,

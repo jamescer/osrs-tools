@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KuraskInterfaceItemData = {
-  id: interface4146,
+  id: 4146,
   name: "Kurask (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WolfMaskDeathOnTheIsleData = {
-  id: [29930, 29936],
+  id: 29930,
   name: "Wolf mask (Death on the Isle)",
   examine: "",
   value: 0,

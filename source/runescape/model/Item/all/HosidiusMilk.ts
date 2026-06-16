@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HosidiusMilkData = {
-  id: hist23451,
+  id: 23451,
   name: "Hosidius milk",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MediumStorageUnitInterfaceItemData = {
-  id: interface21038,
+  id: 21038,
   name: "Medium storage unit (interface item)",
   examine: "",
   value: 0,

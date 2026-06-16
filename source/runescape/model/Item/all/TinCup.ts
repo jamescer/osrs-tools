@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TinCupData = {
-  id: [31359, 31361],
+  id: 31359,
   name: "Tin cup",
   examine: "",
   value: 0,

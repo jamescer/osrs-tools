@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MapleTreeInterfaceItemData = {
-  id: interface8177,
+  id: 8177,
   name: "Maple tree (interface item)",
   examine: "",
   value: 0,

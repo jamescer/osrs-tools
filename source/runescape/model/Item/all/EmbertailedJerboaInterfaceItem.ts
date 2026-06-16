@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const EmbertailedJerboaInterfaceItemData = {
-  id: interface28866,
+  id: 28866,
   name: "Embertailed jerboa (interface item)",
   examine: "",
   value: 0,

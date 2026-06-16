@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DesertHabitatInterfaceItemData = {
-  id: interface12712,
+  id: 12712,
   name: "Desert habitat (interface item)",
   examine: "",
   value: 0,

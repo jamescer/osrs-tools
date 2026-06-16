@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LargeFountainInterfaceItemData = {
-  id: interface8194,
+  id: 8194,
   name: "Large fountain (interface item)",
   examine: "",
   value: 0,

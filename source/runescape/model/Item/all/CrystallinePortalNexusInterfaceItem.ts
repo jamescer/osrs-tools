@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrystallinePortalNexusInterfaceItemData = {
-  id: interface22707,
+  id: 22707,
   name: "Crystalline portal nexus (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ToolStore2InterfaceItemData = {
-  id: interface8385,
+  id: 8385,
   name: "Tool store 2 (interface item)",
   examine: "",
   value: 0,

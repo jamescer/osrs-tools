@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PaladinInterfaceItemData = {
-  id: interface3255,
+  id: 3255,
   name: "Paladin (interface item)",
   examine: "",
   value: 0,

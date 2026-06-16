@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LimestoneAttackStoneInterfaceItemData = {
-  id: interface8154,
+  id: 8154,
   name: "Limestone attack stone (interface item)",
   examine: "",
   value: 0,

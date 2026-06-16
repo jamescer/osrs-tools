@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GnomeChildItemgnomeChildHatData = {
-  id: hist25320,
+  id: 25320,
   name: "Gnome child (item)#Gnome child hat",
   examine: "",
   value: 0,

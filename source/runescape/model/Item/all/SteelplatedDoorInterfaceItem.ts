@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SteelplatedDoorInterfaceItemData = {
-  id: interface8123,
+  id: 8123,
   name: "Steel-plated door (interface item)",
   examine: "",
   value: 0,

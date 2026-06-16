@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KebbitInterfaceItemfeldipWeaselData = {
-  id: interface9955,
+  id: 9955,
   name: "Kebbit (interface item)#Feldip weasel",
   examine: "",
   value: 0,

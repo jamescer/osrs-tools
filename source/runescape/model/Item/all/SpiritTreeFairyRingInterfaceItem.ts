@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SpiritTreeFairyRingInterfaceItemData = {
-  id: interface20637,
+  id: 20637,
   name: "Spirit tree & fairy ring (interface item)",
   examine: "",
   value: 0,

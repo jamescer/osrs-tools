@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GoldPaintData = {
-  id: hist22311,
+  id: 22311,
   name: "Gold paint",
   examine: "",
   value: 0,

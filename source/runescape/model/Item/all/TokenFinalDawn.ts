@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TokenFinalDawnData = {
-  id: [31123, 31124, 31125, 31126, 31127],
+  id: 31123,
   name: "Token (Final Dawn)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MythicalCapeMountedInterfaceItemData = {
-  id: interface21913,
+  id: 21913,
   name: "Mythical cape (mounted) (interface item)",
   examine: "",
   value: 0,

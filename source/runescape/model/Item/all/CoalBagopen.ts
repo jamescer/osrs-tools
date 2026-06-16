@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CoalBagopenData = {
-  id: [24480, 25627],
+  id: 24480,
   name: "Coal bag#Open",
   examine: "",
   value: 0,

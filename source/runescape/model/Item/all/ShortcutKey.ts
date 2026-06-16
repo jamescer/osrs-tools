@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ShortcutKeyData = {
-  id: hist9662,
+  id: 9662,
   name: "Shortcut key",
   examine: "",
   value: 0,

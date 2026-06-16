@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RocnarInterfaceItemData = {
-  id: interface8305,
+  id: 8305,
   name: "Rocnar (interface item)",
   examine: "",
   value: 0,

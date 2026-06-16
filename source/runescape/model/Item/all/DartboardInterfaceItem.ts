@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DartboardInterfaceItemData = {
-  id: interface8163,
+  id: 8163,
   name: "Dartboard (interface item)",
   examine: "",
   value: 0,

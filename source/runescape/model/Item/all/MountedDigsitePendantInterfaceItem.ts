@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MountedDigsitePendantInterfaceItemData = {
-  id: interface22709,
+  id: 22709,
   name: "Mounted digsite pendant (interface item)",
   examine: "",
   value: 0,

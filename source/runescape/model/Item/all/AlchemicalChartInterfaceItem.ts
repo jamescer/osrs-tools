@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AlchemicalChartInterfaceItemData = {
-  id: interface8354,
+  id: 8354,
   name: "Alchemical chart (interface item)",
   examine: "",
   value: 0,

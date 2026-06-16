@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MediumBalanceInterfaceItemData = {
-  id: interface8157,
+  id: 8157,
   name: "Medium balance (interface item)",
   examine: "",
   value: 0,

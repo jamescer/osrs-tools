@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GricollersCanRefillData = {
-  id: interface5551,
+  id: 5551,
   name: "Gricoller's can (refill)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfLogsprifddinasData = {
-  id: [32715, 32986],
+  id: 32715,
   name: "Crate of logs#Prifddinas",
   examine: "",
   value: 0,

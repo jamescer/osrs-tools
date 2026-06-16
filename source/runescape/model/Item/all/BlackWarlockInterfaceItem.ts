@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BlackWarlockInterfaceItemData = {
-  id: interface9973,
+  id: 9973,
   name: "Black warlock (interface item)",
   examine: "",
   value: 0,

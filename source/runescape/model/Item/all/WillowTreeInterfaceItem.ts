@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WillowTreeInterfaceItemData = {
-  id: interface8176,
+  id: 8176,
   name: "Willow tree (interface item)",
   examine: "",
   value: 0,

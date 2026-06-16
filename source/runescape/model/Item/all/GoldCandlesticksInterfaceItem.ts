@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GoldCandlesticksInterfaceItemData = {
-  id: interface8072,
+  id: 8072,
   name: "Gold candlesticks (interface item)",
   examine: "",
   value: 0,

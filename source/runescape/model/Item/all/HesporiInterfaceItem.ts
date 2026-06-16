@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HesporiInterfaceItemData = {
-  id: interface23044,
+  id: 23044,
   name: "Hespori (interface item)",
   examine: "",
   value: 0,

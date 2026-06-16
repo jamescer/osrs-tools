@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LesserMagicCageInterfaceItemData = {
-  id: interface8373,
+  id: 8373,
   name: "Lesser magic cage (interface item)",
   examine: "",
   value: 0,

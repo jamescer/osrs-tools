@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PolishedBlueGemData = {
-  id: hist22313,
+  id: 22313,
   name: "Polished blue gem",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfPlanksdeepfinPointData = {
-  id: [32544, 32950, 32953, 32955, 32957],
+  id: 32544,
   name: "Crate of planks#Deepfin Point",
   examine: "",
   value: 0,

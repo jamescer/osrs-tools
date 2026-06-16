@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KalphiteSoldierInterfaceItemData = {
-  id: interface8139,
+  id: 8139,
   name: "Kalphite soldier (interface item)",
   examine: "",
   value: 0,

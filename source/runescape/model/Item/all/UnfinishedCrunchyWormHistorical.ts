@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const UnfinishedCrunchyWormHistoricalData = {
-  id: hist2203,
+  id: 2203,
   name: "Unfinished crunchy (worm, historical)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfPotionsvoidKnightsOutpostData = {
-  id: [32802, 32999, 33001],
+  id: 32802,
   name: "Crate of potions#Void Knights' Outpost",
   examine: "",
   value: 0,

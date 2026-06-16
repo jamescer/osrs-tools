@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfAlpacaWoolData = {
-  id: [32532, 32952],
+  id: 32532,
   name: "Crate of alpaca wool",
   examine: "",
   value: 0,

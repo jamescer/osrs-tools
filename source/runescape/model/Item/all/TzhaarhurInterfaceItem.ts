@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TzhaarhurInterfaceItemData = {
-  id: interface21278,
+  id: 21278,
   name: "Tzhaar-hur (interface item)",
   examine: "",
   value: 0,

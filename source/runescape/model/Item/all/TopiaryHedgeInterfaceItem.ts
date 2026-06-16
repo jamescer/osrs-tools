@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TopiaryHedgeInterfaceItemData = {
-  id: interface8206,
+  id: 8206,
   name: "Topiary hedge (interface item)",
   examine: "",
   value: 0,

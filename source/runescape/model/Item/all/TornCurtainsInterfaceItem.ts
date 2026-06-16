@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TornCurtainsInterfaceItemData = {
-  id: interface8322,
+  id: 8322,
   name: "Torn curtains (interface item)",
   examine: "",
   value: 0,

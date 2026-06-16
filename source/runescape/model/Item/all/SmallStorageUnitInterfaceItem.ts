@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SmallStorageUnitInterfaceItemData = {
-  id: interface21037,
+  id: 21037,
   name: "Small storage unit (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GazeboInterfaceItemData = {
-  id: interface8192,
+  id: 8192,
   name: "Gazebo (interface item)",
   examine: "",
   value: 0,

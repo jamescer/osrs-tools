@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CeruleanTwitchInterfaceItemData = {
-  id: interface9967,
+  id: 9967,
   name: "Cerulean twitch (interface item)",
   examine: "",
   value: 0,

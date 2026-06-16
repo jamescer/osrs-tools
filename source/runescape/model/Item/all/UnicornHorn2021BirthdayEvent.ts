@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const UnicornHorn2021BirthdayEventData = {
-  id: hist25514,
+  id: 25514,
   name: "Unicorn horn (2021 Birthday event)",
   examine: "",
   value: 0,

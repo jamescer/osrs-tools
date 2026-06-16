@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FloorDecorationInterfaceItemData = {
-  id: interface8370,
+  id: 8370,
   name: "Floor decoration (interface item)",
   examine: "",
   value: 0,

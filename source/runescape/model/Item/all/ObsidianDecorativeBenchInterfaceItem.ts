@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ObsidianDecorativeBenchInterfaceItemData = {
-  id: interface20652,
+  id: 20652,
   name: "Obsidian decorative bench (interface item)",
   examine: "",
   value: 0,

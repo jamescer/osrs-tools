@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SwampCaveSlimeInterfaceItemData = {
-  id: interface4520,
+  id: 4520,
   name: "Swamp cave slime (interface item)",
   examine: "",
   value: 0,

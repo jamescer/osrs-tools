@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AgilityBalance2Data = {
-  id: interface6519,
+  id: 6519,
   name: "Agility balance 2",
   examine: "",
   value: 0,

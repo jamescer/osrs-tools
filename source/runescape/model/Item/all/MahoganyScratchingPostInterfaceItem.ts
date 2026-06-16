@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MahoganyScratchingPostInterfaceItemData = {
-  id: interface12717,
+  id: 12717,
   name: "Mahogany scratching post (interface item)",
   examine: "",
   value: 0,

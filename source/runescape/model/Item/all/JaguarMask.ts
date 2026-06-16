@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const JaguarMaskData = {
-  id: [29932, 29940],
+  id: 29932,
   name: "Jaguar mask",
   examine: "",
   value: 0,

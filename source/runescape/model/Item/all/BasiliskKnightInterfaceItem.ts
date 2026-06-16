@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BasiliskKnightInterfaceItemData = {
-  id: interface24276,
+  id: 24276,
   name: "Basilisk knight (interface item)",
   examine: "",
   value: 0,

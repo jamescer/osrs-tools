@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SecretWayMapRunescape2BetaData = {
-  id: hist,
+  id: ,
   name: "Secret way map (RuneScape 2 Beta)",
   examine: "",
   value: 0,

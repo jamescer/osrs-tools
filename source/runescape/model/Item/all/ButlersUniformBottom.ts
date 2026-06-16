@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ButlersUniformBottomData = {
-  id: [29915, 29918],
+  id: 29915,
   name: "Butler's uniform (bottom)",
   examine: "",
   value: 0,

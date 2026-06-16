@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfSwampPasteportKhazardData = {
-  id: [32630, 32965],
+  id: 32630,
   name: "Crate of swamp paste#Port Khazard",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KebbitInterfaceItemdarkKebbitData = {
-  id: interface9963,
+  id: 9963,
   name: "Kebbit (interface item)#Dark kebbit",
   examine: "",
   value: 0,

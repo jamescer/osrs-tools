@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FeverSpiderInterfaceItemData = {
-  id: interface6709,
+  id: 6709,
   name: "Fever spider (interface item)",
   examine: "",
   value: 0,

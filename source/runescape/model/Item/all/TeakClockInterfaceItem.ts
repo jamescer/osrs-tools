@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TeakClockInterfaceItemData = {
-  id: interface8053,
+  id: 8053,
   name: "Teak clock (interface item)",
   examine: "",
   value: 0,

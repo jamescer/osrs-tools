@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GloriousArenaInterfaceItemData = {
-  id: interface12720,
+  id: 12720,
   name: "Glorious arena (interface item)",
   examine: "",
   value: 0,

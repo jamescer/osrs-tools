@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RodWithNetData = {
-  id: hist22315,
+  id: 22315,
   name: "Rod with net",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AdvancedArenaInterfaceItemData = {
-  id: interface12719,
+  id: 12719,
   name: "Advanced arena (interface item)",
   examine: "",
   value: 0,

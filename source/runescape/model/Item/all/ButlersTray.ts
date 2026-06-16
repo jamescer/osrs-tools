@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ButlersTrayData = {
-  id: [29912, 29913, 30156, 30157],
+  id: 29912,
   name: "Butler's tray",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ThornyHedgeInterfaceItemData = {
-  id: interface8203,
+  id: 8203,
   name: "Thorny hedge (interface item)",
   examine: "",
   value: 0,

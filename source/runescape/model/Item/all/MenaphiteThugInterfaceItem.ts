@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MenaphiteThugInterfaceItemData = {
-  id: interface6780,
+  id: 6780,
   name: "Menaphite thug (interface item)",
   examine: "",
   value: 0,

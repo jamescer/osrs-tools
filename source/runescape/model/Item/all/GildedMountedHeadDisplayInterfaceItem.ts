@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GildedMountedHeadDisplayInterfaceItemData = {
-  id: interface8089,
+  id: 8089,
   name: "Gilded mounted head display (interface item)",
   examine: "",
   value: 0,

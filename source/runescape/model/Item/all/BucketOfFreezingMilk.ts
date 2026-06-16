@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BucketOfFreezingMilkData = {
-  id: hist27890,
+  id: 27890,
   name: "Bucket of freezing milk",
   examine: "",
   value: 0,

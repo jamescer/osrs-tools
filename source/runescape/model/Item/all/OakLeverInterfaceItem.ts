@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OakLeverInterfaceItemData = {
-  id: interface8364,
+  id: 8364,
   name: "Oak lever (interface item)",
   examine: "",
   value: 0,

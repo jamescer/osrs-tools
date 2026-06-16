@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SunlightMothInterfaceItemData = {
-  id: interface28863,
+  id: 28863,
   name: "Sunlight Moth (interface item)",
   examine: "",
   value: 0,

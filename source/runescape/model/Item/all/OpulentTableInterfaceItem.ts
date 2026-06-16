@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OpulentTableInterfaceItemData = {
-  id: interface8121,
+  id: 8121,
   name: "Opulent table (interface item)",
   examine: "",
   value: 0,

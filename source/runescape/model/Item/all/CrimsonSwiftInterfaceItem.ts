@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrimsonSwiftInterfaceItemData = {
-  id: interface9965,
+  id: 9965,
   name: "Crimson swift (interface item)",
   examine: "",
   value: 0,

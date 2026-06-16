@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OtherworldlyThemeInterfaceItemData = {
-  id: interface20645,
+  id: 20645,
   name: "Otherworldly theme (interface item)",
   examine: "",
   value: 0,

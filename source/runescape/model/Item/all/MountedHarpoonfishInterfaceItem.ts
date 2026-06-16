@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MountedHarpoonfishInterfaceItemData = {
-  id: interface11578,
+  id: 11578,
   name: "Mounted harpoonfish (interface item)",
   examine: "",
   value: 0,

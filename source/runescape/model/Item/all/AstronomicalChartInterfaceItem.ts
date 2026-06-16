@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AstronomicalChartInterfaceItemData = {
-  id: interface8355,
+  id: 8355,
   name: "Astronomical chart (interface item)",
   examine: "",
   value: 0,

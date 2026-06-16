@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DemonsHeartDarknessData = {
-  id: hist21799,
+  id: 21799,
   name: "Demon's heart (darkness)",
   examine: "",
   value: 0,

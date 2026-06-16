@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MogreInterfaceItemData = {
-  id: interface6661,
+  id: 6661,
   name: "Mogre (interface item)",
   examine: "",
   value: 0,

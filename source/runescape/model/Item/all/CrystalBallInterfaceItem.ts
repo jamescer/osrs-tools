@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrystalBallInterfaceItemData = {
-  id: interface8351,
+  id: 8351,
   name: "Crystal ball (interface item)",
   examine: "",
   value: 0,

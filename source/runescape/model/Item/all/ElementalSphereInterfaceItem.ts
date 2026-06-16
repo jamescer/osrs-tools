@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ElementalSphereInterfaceItemData = {
-  id: interface8352,
+  id: 8352,
   name: "Elemental sphere (interface item)",
   examine: "",
   value: 0,

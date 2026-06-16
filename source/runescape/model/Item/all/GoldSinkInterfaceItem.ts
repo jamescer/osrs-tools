@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GoldSinkInterfaceItemData = {
-  id: interface26269,
+  id: 26269,
   name: "Gold sink (interface item)",
   examine: "",
   value: 0,

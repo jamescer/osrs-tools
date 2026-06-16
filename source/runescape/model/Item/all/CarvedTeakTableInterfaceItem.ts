@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CarvedTeakTableInterfaceItemData = {
-  id: interface8119,
+  id: 8119,
   name: "Carved teak table (interface item)",
   examine: "",
   value: 0,

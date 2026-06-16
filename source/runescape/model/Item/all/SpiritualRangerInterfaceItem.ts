@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SpiritualRangerInterfaceItemData = {
-  id: interface11845,
+  id: 11845,
   name: "Spiritual Ranger (interface item)",
   examine: "",
   value: 0,

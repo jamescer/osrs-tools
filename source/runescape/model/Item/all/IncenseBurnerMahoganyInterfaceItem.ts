@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const IncenseBurnerMahoganyInterfaceItemData = {
-  id: interface8074,
+  id: 8074,
   name: "Incense burner (Mahogany) (interface item)",
   examine: "",
   value: 0,

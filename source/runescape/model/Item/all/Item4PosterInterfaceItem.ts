@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const Item4PosterInterfaceItemData = {
-  id: interface8036,
+  id: 8036,
   name: "4-poster (interface item)",
   examine: "",
   value: 0,

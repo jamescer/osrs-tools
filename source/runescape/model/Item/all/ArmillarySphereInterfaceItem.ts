@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ArmillarySphereInterfaceItemData = {
-  id: interface8345,
+  id: 8345,
   name: "Armillary sphere (interface item)",
   examine: "",
   value: 0,

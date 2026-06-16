@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BenchWithLatheInterfaceItemData = {
-  id: interface8379,
+  id: 8379,
   name: "Bench with lathe (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FirestarterData = {
-  id: hist2480,
+  id: 2480,
   name: "Firestarter",
   examine: "",
   value: 0,

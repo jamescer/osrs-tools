@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MuspahSpikeData = {
-  id: hist10646,
+  id: 10646,
   name: "Muspah spike",
   examine: "",
   value: 0,

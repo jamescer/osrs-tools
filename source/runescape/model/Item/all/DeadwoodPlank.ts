@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DeadwoodPlankData = {
-  id: hist13297,
+  id: 13297,
   name: "Deadwood plank",
   examine: "",
   value: 0,

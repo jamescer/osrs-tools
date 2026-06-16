@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AbyssaltaintedEssenceData = {
-  id: hist10652,
+  id: 10652,
   name: "Abyssal-tainted essence",
   examine: "",
   value: 0,

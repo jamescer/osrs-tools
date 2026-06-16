@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PlankSackData = {
-  id: [24882, 25629],
+  id: 24882,
   name: "Plank sack",
   examine: "",
   value: 0,

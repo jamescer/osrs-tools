@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PyreFoxInterfaceItemData = {
-  id: interface28865,
+  id: 28865,
   name: "Pyre fox (interface item)",
   examine: "",
   value: 0,

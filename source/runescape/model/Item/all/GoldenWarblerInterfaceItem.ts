@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GoldenWarblerInterfaceItemData = {
-  id: interface9968,
+  id: 9968,
   name: "Golden warbler (interface item)",
   examine: "",
   value: 0,

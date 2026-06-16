@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ChallengeScrolleliteData = {
-  id: [12128, 12139],
+  id: 12128,
   name: "Challenge scroll#Elite",
   examine: "",
   value: 0,

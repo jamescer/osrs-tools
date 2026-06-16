@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MobilePhoneData = {
-  id: hist6207,
+  id: 6207,
   name: "Mobile phone",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MarbleTrapInterfaceItemData = {
-  id: interface8146,
+  id: 8146,
   name: "Marble trap (interface item)",
   examine: "",
   value: 0,

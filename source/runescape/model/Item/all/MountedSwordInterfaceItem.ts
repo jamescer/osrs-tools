@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MountedSwordInterfaceItemData = {
-  id: interface8090,
+  id: 8090,
   name: "Mounted sword (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DeathsFabricData = {
-  id: hist10658,
+  id: 10658,
   name: "Death's fabric",
   examine: "",
   value: 0,

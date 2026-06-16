@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OliveStufferData = {
-  id: hist4178,
+  id: 4178,
   name: "Olive stuffer",
   examine: "",
   value: 0,

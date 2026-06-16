@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OrnamentalGlobeInterfaceItemData = {
-  id: interface8342,
+  id: 8342,
   name: "Ornamental globe (interface item)",
   examine: "",
   value: 0,

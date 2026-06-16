@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const StoneBigCatsWwfData = {
-  id: hist13219,
+  id: 13219,
   name: "Stone (Big Cats & WWF)",
   examine: "",
   value: 0,

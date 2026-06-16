@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const QuestListInterfaceItemData = {
-  id: interface20633,
+  id: 20633,
   name: "Quest list (interface item)",
   examine: "",
   value: 0,

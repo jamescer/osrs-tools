@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PropSwordIncompleteData = {
-  id: hist22314,
+  id: 22314,
   name: "Prop sword (incomplete)",
   examine: "",
   value: 0,

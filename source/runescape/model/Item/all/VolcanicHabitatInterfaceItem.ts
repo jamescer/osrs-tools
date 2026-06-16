@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const VolcanicHabitatInterfaceItemData = {
-  id: interface12714,
+  id: 12714,
   name: "Volcanic habitat (interface item)",
   examine: "",
   value: 0,

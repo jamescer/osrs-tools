@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ElfInterfaceItemData = {
-  id: interface6105,
+  id: 6105,
   name: "Elf (interface item)",
   examine: "",
   value: 0,

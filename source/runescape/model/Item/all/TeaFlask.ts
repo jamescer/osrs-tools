@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TeaFlaskData = {
-  id: [10859, 25617],
+  id: 10859,
   name: "Tea flask",
   examine: "",
   value: 0,

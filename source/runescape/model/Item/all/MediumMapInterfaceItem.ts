@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MediumMapInterfaceItemData = {
-  id: interface8295,
+  id: 8295,
   name: "Medium map (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BenchWithViceInterfaceItemData = {
-  id: interface8378,
+  id: 8378,
   name: "Bench with vice (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ForinthrySigilData = {
-  id: hist10644,
+  id: 10644,
   name: "Forinthry sigil",
   examine: "",
   value: 0,

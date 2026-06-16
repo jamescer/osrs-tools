@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GiantEagleInterfaceItemData = {
-  id: interface9974,
+  id: 9974,
   name: "Giant eagle (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RoundShieldInterfaceItemData = {
-  id: interface8105,
+  id: 8105,
   name: "Round shield (interface item)",
   examine: "",
   value: 0,

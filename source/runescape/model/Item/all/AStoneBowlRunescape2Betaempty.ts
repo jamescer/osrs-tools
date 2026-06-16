@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AStoneBowlRunescape2BetaemptyData = {
-  id: hist,
+  id: ,
   name: "A stone bowl (RuneScape 2 Beta)#Empty",
   examine: "",
   value: 0,

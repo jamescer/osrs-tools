@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const IodineData = {
-  id: hist4000,
+  id: 4000,
   name: "Iodine",
   examine: "",
   value: 0,

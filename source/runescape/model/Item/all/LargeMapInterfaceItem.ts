@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LargeMapInterfaceItemData = {
-  id: interface8296,
+  id: 8296,
   name: "Large map (interface item)",
   examine: "",
   value: 0,

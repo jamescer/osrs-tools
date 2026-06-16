@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LeagueAccomplishmentsScrollInterfaceItemData = {
-  id: interface25365,
+  id: 25365,
   name: "League accomplishments scroll (interface item)",
   examine: "",
   value: 0,

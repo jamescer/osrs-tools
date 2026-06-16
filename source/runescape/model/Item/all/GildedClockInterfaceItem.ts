@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GildedClockInterfaceItemData = {
-  id: interface8054,
+  id: 8054,
   name: "Gilded clock (interface item)",
   examine: "",
   value: 0,

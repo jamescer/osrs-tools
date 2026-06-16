@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BossLairDisplayInterfaceItemData = {
-  id: interface20629,
+  id: 20629,
   name: "Boss lair display (interface item)",
   examine: "",
   value: 0,

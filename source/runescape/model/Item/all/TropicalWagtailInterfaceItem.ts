@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TropicalWagtailInterfaceItemData = {
-  id: interface9969,
+  id: 9969,
   name: "Tropical wagtail (interface item)",
   examine: "",
   value: 0,

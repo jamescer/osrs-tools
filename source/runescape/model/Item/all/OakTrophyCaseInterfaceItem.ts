@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OakTrophyCaseInterfaceItemData = {
-  id: interface25353,
+  id: 25353,
   name: "Oak trophy case (interface item)",
   examine: "",
   value: 0,

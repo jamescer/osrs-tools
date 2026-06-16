@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const JesterInterfaceItemData = {
-  id: interface8159,
+  id: 8159,
   name: "Jester (interface item)",
   examine: "",
   value: 0,

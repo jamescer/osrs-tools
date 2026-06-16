@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CombatRingInterfaceItemData = {
-  id: interface8025,
+  id: 8025,
   name: "Combat ring (interface item)",
   examine: "",
   value: 0,

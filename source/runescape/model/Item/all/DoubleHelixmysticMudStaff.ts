@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DoubleHelixmysticMudStaffData = {
-  id: hist6563,
+  id: 6563,
   name: "Double helix#Mystic mud staff",
   examine: "",
   value: 0,

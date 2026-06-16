@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CatBasketInterfaceItemData = {
-  id: interface8237,
+  id: 8237,
   name: "Cat basket (interface item)",
   examine: "",
   value: 0,

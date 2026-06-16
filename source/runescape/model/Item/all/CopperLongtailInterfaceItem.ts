@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CopperLongtailInterfaceItemData = {
-  id: interface9966,
+  id: 9966,
   name: "Copper longtail (interface item)",
   examine: "",
   value: 0,

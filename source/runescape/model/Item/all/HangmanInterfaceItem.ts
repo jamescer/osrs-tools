@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HangmanInterfaceItemData = {
-  id: interface8161,
+  id: 8161,
   name: "Hangman (interface item)",
   examine: "",
   value: 0,

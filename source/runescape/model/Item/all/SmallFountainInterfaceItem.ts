@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SmallFountainInterfaceItemData = {
-  id: interface8193,
+  id: 8193,
   name: "Small fountain (interface item)",
   examine: "",
   value: 0,

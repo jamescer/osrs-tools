@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const UnsiredData = {
-  id: [13273, 25624],
+  id: 13273,
   name: "Unsired",
   examine: "",
   value: 0,

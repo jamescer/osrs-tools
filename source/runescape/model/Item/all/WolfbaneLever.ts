@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WolfbaneLeverData = {
-  id: hist4177,
+  id: 4177,
   name: "Wolfbane lever",
   examine: "",
   value: 0,

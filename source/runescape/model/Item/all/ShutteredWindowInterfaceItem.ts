@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ShutteredWindowInterfaceItemData = {
-  id: interface8076,
+  id: 8076,
   name: "Shuttered window (interface item)",
   examine: "",
   value: 0,

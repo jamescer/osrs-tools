@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PotatoSeedInterfaceItemData = {
-  id: interface5166,
+  id: 5166,
   name: "Potato seed (interface item)",
   examine: "",
   value: 0,

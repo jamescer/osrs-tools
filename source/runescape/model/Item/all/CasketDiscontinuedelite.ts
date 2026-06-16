@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CasketDiscontinuedeliteData = {
-  id: [12084, 12112, 12129, 12131, 12160],
+  id: 12084,
   name: "Casket (discontinued)#Elite",
   examine: "",
   value: 0,

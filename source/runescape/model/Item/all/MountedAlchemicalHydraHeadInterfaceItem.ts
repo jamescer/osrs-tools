@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MountedAlchemicalHydraHeadInterfaceItemData = {
-  id: interface23081,
+  id: 23081,
   name: "Mounted Alchemical Hydra head (interface item)",
   examine: "",
   value: 0,

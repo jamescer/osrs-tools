@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PuzzleBoxcastleData = {
-  id: [2795, 2798, 2800, 12579, 12588, 19891, 19911, 23171],
+  id: 2795,
   name: "Puzzle box#Castle",
   examine: "",
   value: 0,

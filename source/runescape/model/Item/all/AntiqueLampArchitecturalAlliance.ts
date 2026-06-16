@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AntiqueLampArchitecturalAllianceData = {
-  id: hist23082,
+  id: 23082,
   name: "Antique lamp (Architectural Alliance)",
   examine: "",
   value: 0,

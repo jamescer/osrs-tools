@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PharaohsSceptrechargedData = {
-  id: [26948, 26950],
+  id: 26948,
   name: "Pharaoh's sceptre#Charged",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MonkeyMadnessHelperData = {
-  id: hist4000,
+  id: 4000,
   name: "Monkey Madness helper",
   examine: "",
   value: 0,

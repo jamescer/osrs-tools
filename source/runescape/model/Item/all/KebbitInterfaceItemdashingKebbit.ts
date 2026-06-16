@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KebbitInterfaceItemdashingKebbitData = {
-  id: interface9964,
+  id: 9964,
   name: "Kebbit (interface item)#Dashing kebbit",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WasteGemsData = {
-  id: hist22724,
+  id: 22724,
   name: "Waste gems",
   examine: "",
   value: 0,

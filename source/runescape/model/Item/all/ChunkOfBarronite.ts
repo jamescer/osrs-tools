@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ChunkOfBarroniteData = {
-  id: hist10657,
+  id: 10657,
   name: "Chunk of barronite",
   examine: "",
   value: 0,

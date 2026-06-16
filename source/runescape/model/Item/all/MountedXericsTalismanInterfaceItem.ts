@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MountedXericsTalismanInterfaceItemData = {
-  id: interface22708,
+  id: 22708,
   name: "Mounted xeric's talisman (interface item)",
   examine: "",
   value: 0,

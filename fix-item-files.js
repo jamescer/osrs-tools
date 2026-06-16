@@ -2,27 +2,25 @@
 /**
  * Fixes Item data .ts files in source/runescape/model/Item/all/:
  *
- * 1. Converts malformed `id: 1, 2, 3,` lines into `id: [1, 2, 3],`
- *    (TS doesn't allow multiple comma-separated values for one key).
+ * 1. Normalizes the `id` field down to a single number, no matter
+ *    which malformed shape it's currently in:
+ *      id: 27822, 27823, 27824,      ->  id: 27822,
+ *      id: [27822, 27823, 27824],    ->  id: 27822,
+ *    (always keeps the first value, drops the rest)
  * 2. Backfills any missing fields with the defaults listed in
  *    Item.fromJson's doc comment, so every file matches the
  *    minimum shape fromJson expects.
  *
  * Usage:
- *   node fix-item-files.js [directory] [--first-id-only]
+ *   node fix-item-files.js [directory]
  *
- *   directory          defaults to "source/runescape/model/Item/all"
- *   --first-id-only    instead of building an array, keep ONLY the
- *                       first id and drop the rest (use this if your
- *                       Item/ItemJson type only supports a single
- *                       numeric id and you don't want to change it)
+ *   directory   defaults to "source/runescape/model/Item/all"
  */
 
 const fs = require("fs");
 const path = require("path");
 
 const args = process.argv.slice(2);
-const firstIdOnly = args.includes("--first-id-only");
 const DIR = args.find((a) => !a.startsWith("--")) || "source/runescape/model/Item/all";
 
 // Defaults pulled from the fromJson doc comment
@@ -58,22 +56,13 @@ const DEFAULTS = {
   prayer: "0",
 };
 
-// Matches `id:` followed by 2+ comma-separated numbers, e.g.
-//   id: 27822, 27823, 27824,
-const MALFORMED_ID_RE = /id:\s*((?:\d+\s*,\s*)+\d+)\s*,/;
+// Matches either malformed shape and captures the first number:
+//   id: 27822, 27823, 27824,    (bare comma list)
+//   id: [27822, 27823, 27824],  (array)
+const MULTI_ID_RE = /id:\s*\[?\s*(\d+)\s*(?:,\s*\d+\s*)+\]?\s*,/;
 
-function fixIdField(src) {
-  return src.replace(MALFORMED_ID_RE, (_match, nums) => {
-    const values = nums
-      .split(",")
-      .map((n) => n.trim())
-      .filter(Boolean);
-
-    if (firstIdOnly) {
-      return `id: ${values[0]},`;
-    }
-    return `id: [${values.join(", ")}],`;
-  });
+function normalizeId(src) {
+  return src.replace(MULTI_ID_RE, (_match, firstValue) => `id: ${firstValue},`);
 }
 
 function backfillDefaults(src, filePath) {
@@ -107,7 +96,7 @@ function backfillDefaults(src, filePath) {
 function fixFile(filePath) {
   const original = fs.readFileSync(filePath, "utf8");
 
-  let fixed = fixIdField(original);
+  let fixed = normalizeId(original);
   fixed = backfillDefaults(fixed, filePath);
 
   if (fixed !== original) {

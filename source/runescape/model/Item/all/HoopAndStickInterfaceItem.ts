@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HoopAndStickInterfaceItemData = {
-  id: interface8162,
+  id: 8162,
   name: "Hoop and stick (interface item)",
   examine: "",
   value: 0,

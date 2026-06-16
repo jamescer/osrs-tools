@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const FishmongerUnobtainableItemData = {
-  id: hist6201,
+  id: 6201,
   name: "Fishmonger (unobtainable item)",
   examine: "",
   value: 0,

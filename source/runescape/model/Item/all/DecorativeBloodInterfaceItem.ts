@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DecorativeBloodInterfaceItemData = {
-  id: interface8125,
+  id: 8125,
   name: "Decorative blood (interface item)",
   examine: "",
   value: 0,

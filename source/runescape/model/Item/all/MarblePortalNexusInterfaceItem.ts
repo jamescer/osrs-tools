@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MarblePortalNexusInterfaceItemData = {
-  id: interface22705,
+  id: 22705,
   name: "Marble portal nexus (interface item)",
   examine: "",
   value: 0,

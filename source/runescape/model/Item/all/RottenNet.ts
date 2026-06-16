@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RottenNetData = {
-  id: hist1459,
+  id: 1459,
   name: "Rotten net",
   examine: "",
   value: 0,

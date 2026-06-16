@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LowlevelPlantInterfaceItemData = {
-  id: interface8096,
+  id: 8096,
   name: "Low-level plant (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CrateOfSwordsportTyrasData = {
-  id: [32707, 32982, 32984],
+  id: 32707,
   name: "Crate of swords#Port Tyras",
   examine: "",
   value: 0,

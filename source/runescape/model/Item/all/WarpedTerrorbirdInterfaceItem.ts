@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WarpedTerrorbirdInterfaceItemData = {
-  id: interface28582,
+  id: 28582,
   name: "Warped Terrorbird (interface item)",
   examine: "",
   value: 0,

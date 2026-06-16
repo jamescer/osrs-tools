@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CombatDummyInterfaceItemData = {
-  id: interface20745,
+  id: 20745,
   name: "Combat dummy (interface item)",
   examine: "",
   value: 0,

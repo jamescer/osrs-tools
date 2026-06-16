@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ManSpeakAmuletData = {
-  id: hist6208,
+  id: 6208,
   name: "Man speak amulet",
   examine: "",
   value: 0,

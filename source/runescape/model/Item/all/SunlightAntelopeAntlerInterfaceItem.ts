@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SunlightAntelopeAntlerInterfaceItemData = {
-  id: interface28867,
+  id: 28867,
   name: "Sunlight antelope antler (interface item)",
   examine: "",
   value: 0,

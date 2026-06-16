@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DecorativePipeInterfaceItemData = {
-  id: interface8126,
+  id: 8126,
   name: "Decorative pipe (interface item)",
   examine: "",
   value: 0,

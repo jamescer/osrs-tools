@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AmuletOfGloryInterfaceItemData = {
-  id: interface8283,
+  id: 8283,
   name: "Amulet of Glory (interface item)",
   examine: "",
   value: 0,

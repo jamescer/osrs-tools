@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KebbitInterfaceItempricklyKebbitData = {
-  id: interface9957,
+  id: 9957,
   name: "Kebbit (interface item)#Prickly kebbit",
   examine: "",
   value: 0,

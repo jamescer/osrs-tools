@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ScryingPoolInterfaceItemData = {
-  id: interface8333,
+  id: 8333,
   name: "Scrying pool (interface item)",
   examine: "",
   value: 0,

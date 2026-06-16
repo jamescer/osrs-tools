@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PowderedPollenData = {
-  id: hist28190,
+  id: 28190,
   name: "Powdered pollen",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TeakMountedHeadDisplayInterfaceItemData = {
-  id: interface8087,
+  id: 8087,
   name: "Teak mounted head display (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AlchemistsAmuletchargedData = {
-  id: [29990, 29992],
+  id: 29990,
   name: "Alchemist's amulet#Charged",
   examine: "",
   value: 0,

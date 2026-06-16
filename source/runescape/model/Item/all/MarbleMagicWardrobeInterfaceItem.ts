@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MarbleMagicWardrobeInterfaceItemData = {
-  id: interface9835,
+  id: 9835,
   name: "Marble magic wardrobe (interface item)",
   examine: "",
   value: 0,

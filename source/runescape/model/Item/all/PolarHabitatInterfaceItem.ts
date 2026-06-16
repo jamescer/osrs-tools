@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PolarHabitatInterfaceItemData = {
-  id: interface12713,
+  id: 12713,
   name: "Polar habitat (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DecorativeWindowInterfaceItemData = {
-  id: interface8077,
+  id: 8077,
   name: "Decorative window (interface item)",
   examine: "",
   value: 0,

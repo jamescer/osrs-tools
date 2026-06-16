@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TreeInterfaceItemData = {
-  id: interface8173,
+  id: 8173,
   name: "Tree (interface item)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HobgoblinGuardInterfaceItemData = {
-  id: interface8133,
+  id: 8133,
   name: "Hobgoblin guard (interface item)",
   examine: "",
   value: 0,

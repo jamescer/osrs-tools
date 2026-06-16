@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TeakTreasureChestInterfaceItemData = {
-  id: interface9840,
+  id: 9840,
   name: "Teak treasure chest (interface item)",
   examine: "",
   value: 0,

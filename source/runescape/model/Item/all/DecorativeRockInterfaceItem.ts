@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DecorativeRockInterfaceItemData = {
-  id: interface8169,
+  id: 8169,
   name: "Decorative rock (interface item)",
   examine: "",
   value: 0,

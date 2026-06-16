@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TallBoxHedgeInterfaceItemData = {
-  id: interface8209,
+  id: 8209,
   name: "Tall box hedge (interface item)",
   examine: "",
   value: 0,

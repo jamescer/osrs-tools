@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RangingPedestalsInterfaceItemData = {
-  id: interface8026,
+  id: 8026,
   name: "Ranging pedestals (interface item)",
   examine: "",
   value: 0,

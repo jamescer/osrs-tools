@@ -11,6 +11,7 @@
     "dev": "tsc --watch -p tsconfig.build.json",
     "format": "prettier --write \"source/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{source,test}/**/*.ts\" --fix",
+    "publish-test":" npm publish --dry-run",
     "postpublish": "git push && git push --tags",
     "prebuild-backup": "npm run clean",
     "prepublishOnly": "npm run build && npm test",

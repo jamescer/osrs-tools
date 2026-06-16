@@ -6,7 +6,7 @@
  * Each tier has unique mechanics documented in the reward casket pages
  */
 
-import { Item } from "../Item/Item";
+import { Item } from "../items/Item";
 import { getClueRewardsByTier, getClueRewardTables } from "./ClueScrollRewards";
 
 /**

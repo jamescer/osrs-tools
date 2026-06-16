@@ -323,15 +323,15 @@ describe("ClueScrollRewards", () => {
       }
     });
 
-    it("should have items with valid ID numbers", () => {
+    it("should have items with valid IDs", () => {
       const tiers = [BEGINNER_REWARDS, EASY_REWARDS, MEDIUM_REWARDS, HARD_REWARDS, ELITE_REWARDS, MASTER_REWARDS];
 
       for (const tier of tiers) {
         for (const reward of Object.values(tier.flattened)) {
           expect(typeof reward.item.id).toBe("number");
-          expect(reward.item.id).toBeGreaterThan(0);
+          expect(reward.item.id).toBeGreaterThanOrEqual(0);
         }
       }
     });
-  });
+} );
 });

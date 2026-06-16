@@ -1,7 +1,7 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 import { ItemRequirement } from '../../Requirement';
-import { Coins, Bones, BucketOfWater } from '../../Item/Items';
+import { Coins, Bones, BucketOfWater } from '../../items/QuestItems';
 const DemonSlayer: Quest = {
   age: 'Fifth Age',
   description:

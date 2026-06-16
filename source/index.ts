@@ -29,6 +29,9 @@ export * from "./runescape/model/clue/ClueScrollHelper";
 export * from "./runescape/model/Item/Item";
 export * from "./runescape/model/Item/models";
 
+// Leagues
+export * from "./runescape/model/leagues";
+
 // Slayer system (refactored exports)
 export {
   SlayerMaster,

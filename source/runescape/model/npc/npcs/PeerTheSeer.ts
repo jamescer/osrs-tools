@@ -1,4 +1,4 @@
-import { Coins } from '../../Item/Items';
+import { Coins } from '../../items/QuestItems';
 import { Npc } from '../Npc';
 import { NpcDrop } from '../NpcDrop';
 

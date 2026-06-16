@@ -1,4 +1,4 @@
-import { Item } from "../Item/Item";
+import { Item } from "../items/Item";
 
 // NpcProduct.ts
 export interface NpcProductMaterial {

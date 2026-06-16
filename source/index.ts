@@ -26,8 +26,8 @@ export * from "./runescape/model/diaries";
 export * from "./runescape/model/clue/ClueScrollHelper";
 
 // Item system
-export * from "./runescape/model/Item/Item";
-export * from "./runescape/model/Item/models";
+export * from "./runescape/model/items";
+
 
 // Leagues
 export * from "./runescape/model/leagues";

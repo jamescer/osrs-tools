@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const QuestLampData = {
-  id: old28551, old28552, old28553, old28554,
+  id: 28551,
   name: "Quest lamp",
   examine: "",
   value: 0,

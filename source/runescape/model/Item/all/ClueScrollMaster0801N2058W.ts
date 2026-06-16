@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ClueScrollMaster0801N2058WData = {
-  id: undefined,
+  id: 32490,
   name: "Clue scroll (master) - 08.01N 20.58W",
   examine: "",
   value: 0,

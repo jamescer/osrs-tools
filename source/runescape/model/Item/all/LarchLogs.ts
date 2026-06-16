@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LarchLogsData = {
-  id: beta30749,
+  id: 30749,
   name: "Larch logs",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BlightedSurgeSackBetaData = {
-  id: beta26705,
+  id: 26705,
   name: "Blighted surge sack (beta)",
   examine: "",
   value: 0,

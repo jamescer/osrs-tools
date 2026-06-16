@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SaikasShroudBetalockedData = {
-  id: beta26736,
+  id: 26736,
   name: "Saika's shroud (beta)#Locked",
   examine: "",
   value: 0,

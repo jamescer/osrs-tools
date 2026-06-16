@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const InquisitorsGreatHelmBetaData = {
-  id: beta24419,
+  id: 24419,
   name: "Inquisitor's great helm (beta)",
   examine: "",
   value: 0,

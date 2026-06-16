@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ReefSharkToothData = {
-  id: beta31177,
+  id: 31177,
   name: "Reef shark tooth",
   examine: "",
   value: 0,

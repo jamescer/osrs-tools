@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const VestasPlateskirtBetaData = {
-  id: beta27832,
+  id: 27832,
   name: "Vesta's plateskirt (beta)",
   examine: "",
   value: 0,

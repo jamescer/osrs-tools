@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MasoriChestplateBetaData = {
-  id: beta25969,
+  id: 25969,
   name: "Masori chestplate (beta)",
   examine: "",
   value: 0,

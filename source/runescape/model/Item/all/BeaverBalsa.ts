@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BeaverBalsaData = {
-  id: beta31200,
+  id: 31200,
   name: "Beaver (balsa)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const VoidwakerBetaData = {
-  id: beta25490,
+  id: 25490,
   name: "Voidwaker (beta)",
   examine: "",
   value: 0,

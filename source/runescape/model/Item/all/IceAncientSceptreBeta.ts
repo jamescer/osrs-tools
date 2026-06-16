@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const IceAncientSceptreBetaData = {
-  id: beta25490,
+  id: 25490,
   name: "Ice ancient sceptre (beta)",
   examine: "",
   value: 0,

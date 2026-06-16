@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BurntGracefishData = {
-  id: beta31039,
+  id: 31039,
   name: "Burnt gracefish",
   examine: "",
   value: 0,

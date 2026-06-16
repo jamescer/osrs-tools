@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ArmadylHelmetOrBetaData = {
-  id: beta26714,
+  id: 26714,
   name: "Armadyl helmet (or) (beta)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BabyPillarCoralData = {
-  id: beta30765,
+  id: 30765,
   name: "Baby pillar coral",
   examine: "",
   value: 0,

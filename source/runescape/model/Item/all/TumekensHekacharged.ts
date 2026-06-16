@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TumekensHekachargedData = {
-  id: beta25987,
+  id: 25987,
   name: "Tumeken's heka#Charged",
   examine: "",
   value: 0,

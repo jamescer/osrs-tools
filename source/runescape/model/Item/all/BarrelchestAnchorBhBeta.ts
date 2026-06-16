@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BarrelchestAnchorBhBetaData = {
-  id: beta27855,
+  id: 27855,
   name: "Barrelchest anchor (bh) (beta)",
   examine: "",
   value: 0,

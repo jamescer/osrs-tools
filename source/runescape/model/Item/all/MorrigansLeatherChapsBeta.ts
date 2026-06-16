@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MorrigansLeatherChapsBetaData = {
-  id: beta27838,
+  id: 27838,
   name: "Morrigan's leather chaps (beta)",
   examine: "",
   value: 0,

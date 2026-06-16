@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DragonMaceBhBetaData = {
-  id: beta27857,
+  id: 27857,
   name: "Dragon mace (bh) (beta)",
   examine: "",
   value: 0,

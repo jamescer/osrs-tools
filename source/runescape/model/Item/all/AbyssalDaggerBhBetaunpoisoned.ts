@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AbyssalDaggerBhBetaunpoisonedData = {
-  id: beta27861,
+  id: 27861,
   name: "Abyssal dagger (bh) (beta)#Unpoisoned",
   examine: "",
   value: 0,

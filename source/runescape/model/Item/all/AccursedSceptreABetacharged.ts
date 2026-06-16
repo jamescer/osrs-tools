@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AccursedSceptreABetachargedData = {
-  id: beta27679,
+  id: 27679,
   name: "Accursed sceptre (a) (beta)#Charged",
   examine: "",
   value: 0,

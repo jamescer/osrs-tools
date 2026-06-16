@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ArmadylChestplateOrBetaData = {
-  id: beta26715,
+  id: 26715,
   name: "Armadyl chestplate (or) (beta)",
   examine: "",
   value: 0,

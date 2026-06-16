@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MasoriChainskirtBetaData = {
-  id: beta25971,
+  id: 25971,
   name: "Masori chainskirt (beta)",
   examine: "",
   value: 0,

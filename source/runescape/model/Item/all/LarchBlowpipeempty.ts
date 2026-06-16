@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LarchBlowpipeemptyData = {
-  id: beta30739,
+  id: 30739,
   name: "Larch blowpipe#Empty",
   examine: "",
   value: 0,

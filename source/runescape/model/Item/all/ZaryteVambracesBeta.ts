@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ZaryteVambracesBetaData = {
-  id: beta26235,
+  id: 26235,
   name: "Zaryte vambraces (beta)",
   examine: "",
   value: 0,

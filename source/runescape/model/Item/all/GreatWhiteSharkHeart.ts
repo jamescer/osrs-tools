@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const GreatWhiteSharkHeartData = {
-  id: beta31191,
+  id: 31191,
   name: "Great white shark heart",
   examine: "",
   value: 0,

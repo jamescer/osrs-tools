@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ZurielsRobeTopBetaData = {
-  id: beta27840,
+  id: 27840,
   name: "Zuriel's robe top (beta)",
   examine: "",
   value: 0,

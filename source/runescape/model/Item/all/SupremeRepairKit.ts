@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SupremeRepairKitData = {
-  id: beta30946,
+  id: 30946,
   name: "Supreme repair kit",
   examine: "",
   value: 0,

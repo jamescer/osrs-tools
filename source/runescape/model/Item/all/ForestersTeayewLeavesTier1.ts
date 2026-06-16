@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ForestersTeayewLeavesTier1Data = {
-  id: beta28142,
+  id: 28142,
   name: "Forester's tea#Yew leaves (tier 1)",
   examine: "",
   value: 0,

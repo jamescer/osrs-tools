@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HalibutTailData = {
-  id: beta31058,
+  id: 31058,
   name: "Halibut tail",
   examine: "",
   value: 0,

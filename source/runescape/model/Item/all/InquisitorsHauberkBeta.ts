@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const InquisitorsHauberkBetaData = {
-  id: beta24420,
+  id: 24420,
   name: "Inquisitor's hauberk (beta)",
   examine: "",
   value: 0,

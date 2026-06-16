@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RedwoodNeedlesData = {
-  id: beta28088,
+  id: 28088,
   name: "Redwood needles",
   examine: "",
   value: 0,

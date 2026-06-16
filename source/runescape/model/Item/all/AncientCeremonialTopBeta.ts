@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AncientCeremonialTopBetaData = {
-  id: beta26221,
+  id: 26221,
   name: "Ancient ceremonial top (beta)",
   examine: "",
   value: 0,

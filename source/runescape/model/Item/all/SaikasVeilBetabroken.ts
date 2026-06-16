@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SaikasVeilBetabrokenData = {
-  id: beta26702,
+  id: 26702,
   name: "Saika's veil (beta)#Broken",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KerisPartisanBetaData = {
-  id: beta25979,
+  id: 25979,
   name: "Keris partisan (beta)",
   examine: "",
   value: 0,

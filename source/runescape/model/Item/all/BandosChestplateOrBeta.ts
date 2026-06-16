@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BandosChestplateOrBetaData = {
-  id: beta26718,
+  id: 26718,
   name: "Bandos chestplate (or) (beta)",
   examine: "",
   value: 0,

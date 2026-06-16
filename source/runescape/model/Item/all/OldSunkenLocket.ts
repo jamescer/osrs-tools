@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OldSunkenLocketData = {
-  id: beta31870,
+  id: 31870,
   name: "Old sunken locket",
   examine: "",
   value: 0,

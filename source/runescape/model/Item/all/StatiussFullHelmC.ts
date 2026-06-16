@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const StatiussFullHelmCData = {
-  id: beta27844,
+  id: 27844,
   name: "Statius's full helm (c)",
   examine: "",
   value: 0,

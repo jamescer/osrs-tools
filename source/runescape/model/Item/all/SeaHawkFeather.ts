@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SeaHawkFeatherData = {
-  id: beta31193,
+  id: 31193,
   name: "Sea hawk feather",
   examine: "",
   value: 0,

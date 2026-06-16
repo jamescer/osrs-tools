@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DynamitepBetaData = {
-  id: beta27426,
+  id: 27426,
   name: "Dynamite(p) (beta)",
   examine: "",
   value: 0,

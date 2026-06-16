@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const LightbearerBetaData = {
-  id: beta25975,
+  id: 25975,
   name: "Lightbearer (beta)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CenturionCuirassBetanormalData = {
-  id: beta26721,
+  id: 26721,
   name: "Centurion cuirass (beta)#Normal",
   examine: "",
   value: 0,

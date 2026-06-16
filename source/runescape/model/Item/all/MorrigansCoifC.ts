@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MorrigansCoifCData = {
-  id: beta27847,
+  id: 27847,
   name: "Morrigan's coif (c)",
   examine: "",
   value: 0,

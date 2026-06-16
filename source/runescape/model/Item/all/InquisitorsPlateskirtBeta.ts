@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const InquisitorsPlateskirtBetaData = {
-  id: beta24421,
+  id: 24421,
   name: "Inquisitor's plateskirt (beta)",
   examine: "",
   value: 0,

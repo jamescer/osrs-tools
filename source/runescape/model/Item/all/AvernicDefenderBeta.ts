@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AvernicDefenderBetaData = {
-  id: beta22322,
+  id: 22322,
   name: "Avernic defender (beta)",
   examine: "",
   value: 0,

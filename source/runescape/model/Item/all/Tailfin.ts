@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TailfinData = {
-  id: beta30711,
+  id: 30711,
   name: "Tailfin",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const StatiussFullHelmBetaData = {
-  id: beta27833,
+  id: 27833,
   name: "Statius's full helm (beta)",
   examine: "",
   value: 0,

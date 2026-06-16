@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AntirustTonicData = {
-  id: beta30983,
+  id: 30983,
   name: "Anti-rust tonic",
   examine: "",
   value: 0,

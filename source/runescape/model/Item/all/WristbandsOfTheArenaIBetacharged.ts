@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WristbandsOfTheArenaIBetachargedData = {
-  id: beta26729,
+  id: 26729,
   name: "Wristbands of the arena (i) (beta)#Charged",
   examine: "",
   value: 0,

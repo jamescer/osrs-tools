@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ElidinisWardBetaData = {
-  id: beta25985,
+  id: 25985,
   name: "Elidinis' ward (beta)",
   examine: "",
   value: 0,

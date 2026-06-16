@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const WebweaverBowBetaunchargedData = {
-  id: beta25484,
+  id: 25484,
   name: "Webweaver bow (beta)#Uncharged",
   examine: "",
   value: 0,

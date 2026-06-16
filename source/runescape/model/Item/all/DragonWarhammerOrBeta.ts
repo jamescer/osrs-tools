@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DragonWarhammerOrBetaData = {
-  id: beta26710,
+  id: 26710,
   name: "Dragon warhammer (or) (beta)",
   examine: "",
   value: 0,

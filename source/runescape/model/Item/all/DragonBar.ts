@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DragonBarData = {
-  id: beta30839,
+  id: 30839,
   name: "Dragon bar",
   examine: "",
   value: 0,

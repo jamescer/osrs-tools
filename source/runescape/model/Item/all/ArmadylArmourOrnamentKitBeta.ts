@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ArmadylArmourOrnamentKitBetaData = {
-  id: beta26713,
+  id: 26713,
   name: "Armadyl armour ornament kit (beta)",
   examine: "",
   value: 0,

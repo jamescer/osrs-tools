@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BeaverCedarData = {
-  id: beta31199,
+  id: 31199,
   name: "Beaver (cedar)",
   examine: "",
   value: 0,

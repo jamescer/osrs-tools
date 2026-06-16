@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ArmadylChainskirtOrBetaData = {
-  id: beta26716,
+  id: 26716,
   name: "Armadyl chainskirt (or) (beta)",
   examine: "",
   value: 0,

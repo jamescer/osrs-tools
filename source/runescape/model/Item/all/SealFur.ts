@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SealFurData = {
-  id: beta30913,
+  id: 30913,
   name: "Seal fur",
   examine: "",
   value: 0,

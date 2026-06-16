@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MagusRingBetaData = {
-  id: beta25486,
+  id: 25486,
   name: "Magus ring (beta)",
   examine: "",
   value: 0,

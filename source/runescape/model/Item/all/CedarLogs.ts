@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CedarLogsData = {
-  id: beta30752,
+  id: 30752,
   name: "Cedar logs",
   examine: "",
   value: 0,

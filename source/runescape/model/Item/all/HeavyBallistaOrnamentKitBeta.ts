@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const HeavyBallistaOrnamentKitBetaData = {
-  id: beta26711,
+  id: 26711,
   name: "Heavy ballista ornament kit (beta)",
   examine: "",
   value: 0,

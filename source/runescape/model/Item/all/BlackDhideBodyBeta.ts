@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BlackDhideBodyBetaData = {
-  id: beta25492,
+  id: 25492,
   name: "Black d'hide body (beta)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const StatiussPlatelegsCData = {
-  id: beta27846,
+  id: 27846,
   name: "Statius's platelegs (c)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const VirtusMaskBetaData = {
-  id: beta26241,
+  id: 26241,
   name: "Virtus mask (beta)",
   examine: "",
   value: 0,

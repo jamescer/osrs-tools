@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MasoriHeaddressBetaData = {
-  id: beta26217,
+  id: 26217,
   name: "Masori headdress (beta)",
   examine: "",
   value: 0,

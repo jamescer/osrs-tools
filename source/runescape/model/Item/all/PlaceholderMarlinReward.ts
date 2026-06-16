@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PlaceholderMarlinRewardData = {
-  id: beta30969,
+  id: 30969,
   name: "Placeholder marlin reward",
   examine: "",
   value: 0,

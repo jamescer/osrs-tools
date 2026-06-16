@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const JusticiarLegGuardsBetaData = {
-  id: beta22328,
+  id: 22328,
   name: "Justiciar leg guards (beta)",
   examine: "",
   value: 0,

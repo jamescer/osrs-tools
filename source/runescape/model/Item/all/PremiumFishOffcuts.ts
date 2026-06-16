@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PremiumFishOffcutsData = {
-  id: beta30999,
+  id: 30999,
   name: "Premium fish offcuts",
   examine: "",
   value: 0,

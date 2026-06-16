@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OgreMonodonHornData = {
-  id: beta31182,
+  id: 31182,
   name: "Ogre monodon horn",
   examine: "",
   value: 0,

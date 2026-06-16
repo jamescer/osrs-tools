@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SaikasHoodBetanormalData = {
-  id: beta26731,
+  id: 26731,
   name: "Saika's hood (beta)#Normal",
   examine: "",
   value: 0,

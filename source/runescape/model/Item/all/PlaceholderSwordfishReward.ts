@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PlaceholderSwordfishRewardData = {
-  id: beta30965,
+  id: 30965,
   name: "Placeholder swordfish reward",
   examine: "",
   value: 0,

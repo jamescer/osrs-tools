@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const DarkBowBhBetaData = {
-  id: beta27853,
+  id: 27853,
   name: "Dark bow (bh) (beta)",
   examine: "",
   value: 0,

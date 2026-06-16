@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ToxicBlowpipeBetablackData = {
-  id: beta25487,
+  id: 25487,
   name: "Toxic blowpipe (beta)#Black",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const EliteCalamityChestBetanormalData = {
-  id: beta26753,
+  id: 26753,
   name: "Elite calamity chest (beta)#Normal",
   examine: "",
   value: 0,

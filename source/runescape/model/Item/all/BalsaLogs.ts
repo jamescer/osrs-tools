@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BalsaLogsData = {
-  id: beta30761,
+  id: 30761,
   name: "Balsa logs",
   examine: "",
   value: 0,

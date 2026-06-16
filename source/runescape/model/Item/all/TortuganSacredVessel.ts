@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const TortuganSacredVesselData = {
-  id: beta30844,
+  id: 30844,
   name: "Tortugan sacred vessel",
   examine: "",
   value: 0,

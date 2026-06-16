@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BurntTalboraData = {
-  id: beta30722,
+  id: 30722,
   name: "Burnt talbora",
   examine: "",
   value: 0,

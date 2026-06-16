@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CursedGoldKeelPartsData = {
-  id: beta30861,
+  id: 30861,
   name: "Cursed gold keel parts",
   examine: "",
   value: 0,

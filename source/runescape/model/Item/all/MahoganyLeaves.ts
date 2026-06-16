@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MahoganyLeavesData = {
-  id: beta28085,
+  id: 28085,
   name: "Mahogany leaves",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const KoriffsCowlBetabrokenData = {
-  id: beta26699,
+  id: 26699,
   name: "Koriff's cowl (beta)#Broken",
   examine: "",
   value: 0,

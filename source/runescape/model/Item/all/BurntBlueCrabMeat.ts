@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BurntBlueCrabMeatData = {
-  id: beta30733,
+  id: 30733,
   name: "Burnt blue crab meat",
   examine: "",
   value: 0,

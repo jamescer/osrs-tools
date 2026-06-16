@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SuperiorCalamityBreechesBetanormalData = {
-  id: beta26757,
+  id: 26757,
   name: "Superior calamity breeches (beta)#Normal",
   examine: "",
   value: 0,

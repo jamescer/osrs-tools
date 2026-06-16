@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ElderWandData = {
-  id: beta20604,
+  id: 20604,
   name: "Elder wand",
   examine: "",
   value: 0,

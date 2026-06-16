@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BandosArmourOrnamentKitBetaData = {
-  id: beta26717,
+  id: 26717,
   name: "Bandos armour ornament kit (beta)",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PortableWeatherStationRustyData = {
-  id: beta30986,
+  id: 30986,
   name: "Portable weather station (rusty)",
   examine: "",
   value: 0,

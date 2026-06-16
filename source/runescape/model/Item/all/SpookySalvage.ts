@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SpookySalvageData = {
-  id: beta31657,
+  id: 31657,
   name: "Spooky salvage",
   examine: "",
   value: 0,

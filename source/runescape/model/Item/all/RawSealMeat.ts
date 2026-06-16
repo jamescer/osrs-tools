@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const RawSealMeatData = {
-  id: beta31443,
+  id: 31443,
   name: "Raw seal meat",
   examine: "",
   value: 0,

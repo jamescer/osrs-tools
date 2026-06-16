@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BabySeaKrakenTentacleData = {
-  id: beta31187,
+  id: 31187,
   name: "Baby sea kraken tentacle",
   examine: "",
   value: 0,

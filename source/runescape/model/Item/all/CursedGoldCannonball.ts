@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CursedGoldCannonballData = {
-  id: beta30957,
+  id: 30957,
   name: "Cursed gold cannonball",
   examine: "",
   value: 0,

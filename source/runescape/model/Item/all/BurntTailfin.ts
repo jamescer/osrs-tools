@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BurntTailfinData = {
-  id: beta30714,
+  id: 30714,
   name: "Burnt tailfin",
   examine: "",
   value: 0,

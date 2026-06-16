@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BabyUmbralCoralData = {
-  id: beta30767,
+  id: 30767,
   name: "Baby umbral coral",
   examine: "",
   value: 0,

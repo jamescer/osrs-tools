@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const UrsineChainmaceBetaunchargedData = {
-  id: beta25486,
+  id: 25486,
   name: "Ursine chainmace (beta)#Uncharged",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const PortmastersWatchData = {
-  id: beta31077,
+  id: 31077,
   name: "Portmaster's watch",
   examine: "",
   value: 0,

@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const ScrollOfImbuingBetaData = {
-  id: beta26706,
+  id: 26706,
   name: "Scroll of imbuing (beta)",
   examine: "",
   value: 0,

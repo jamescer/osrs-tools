@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const OldColossalSalvageData = {
-  id: beta31864,
+  id: 31864,
   name: "Old colossal salvage",
   examine: "",
   value: 0,

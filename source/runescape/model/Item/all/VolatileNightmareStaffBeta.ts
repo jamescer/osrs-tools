@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const VolatileNightmareStaffBetaData = {
-  id: beta24424,
+  id: 24424,
   name: "Volatile nightmare staff (beta)",
   examine: "",
   value: 0,

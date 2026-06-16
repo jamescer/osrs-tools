@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const BandosTassetsOrBetaData = {
-  id: beta26719,
+  id: 26719,
   name: "Bandos tassets (or) (beta)",
   examine: "",
   value: 0,

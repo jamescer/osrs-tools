@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const SoulreaperAxeBetaData = {
-  id: beta25484,
+  id: 25484,
   name: "Soulreaper axe (beta)",
   examine: "",
   value: 0,

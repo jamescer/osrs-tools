@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const CoralKeyData = {
-  id: beta30735,
+  id: 30735,
   name: "Coral key",
   examine: "",
   value: 0,

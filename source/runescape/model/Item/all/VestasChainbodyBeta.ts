@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const VestasChainbodyBetaData = {
-  id: beta27831,
+  id: 27831,
   name: "Vesta's chainbody (beta)",
   examine: "",
   value: 0,

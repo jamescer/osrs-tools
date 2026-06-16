@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const MaomasGreatHelmBetalockedData = {
-  id: beta26748,
+  id: 26748,
   name: "Maoma's great helm (beta)#Locked",
   examine: "",
   value: 0,

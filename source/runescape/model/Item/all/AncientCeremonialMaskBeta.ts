@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const AncientCeremonialMaskBetaData = {
-  id: beta26225,
+  id: 26225,
   name: "Ancient ceremonial mask (beta)",
   examine: "",
   value: 0,

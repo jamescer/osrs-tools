@@ -1,7 +1,7 @@
 import { Item } from "../Item";
 
 const VentorRingBetaData = {
-  id: beta25487,
+  id: 25487,
   name: "Ventor ring (beta)",
   examine: "",
   value: 0,

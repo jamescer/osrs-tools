@@ -20,6 +20,18 @@ const dagannothHideData: ItemJson = {
   tradeable: true,
   value: 60,
   weight: 3.175,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const DagannothHide = Item.fromJson(dagannothHideData);

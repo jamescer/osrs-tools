@@ -24,6 +24,14 @@ const rangerGlovesData: ItemJson = {
   defenceSlash: 2,
   defenceCrush: 1,
   defenceMagic: 2,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 
 export const RangerGloves = Item.fromJson(rangerGlovesData);

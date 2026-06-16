@@ -32,6 +32,7 @@ const studdedChapsMetadata = {
   rangedStrength: 0,
   magicDamage: 0,
   prayer: 0,
+  meleeStrength: 0
 };
 
 export const StuddedChaps = Item.fromJson(studdedChapsMetadata);

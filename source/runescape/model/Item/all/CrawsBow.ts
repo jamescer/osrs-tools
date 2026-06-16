@@ -21,6 +21,17 @@ const crawsBowtData: ItemJson = {
   attackRanged: 110,
   rangedStrength: 10,
   defenceRanged: 5,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  meleeStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 
 export const CrawsBow = Item.fromJson(crawsBowtData);

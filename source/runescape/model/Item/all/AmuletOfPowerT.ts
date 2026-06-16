@@ -30,6 +30,9 @@ const amuletOfPowerTData: ItemJson = {
   defenceRanged: 3,
   strengthBonus: 3,
   rangedStrength: 3,
+  meleeStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 
 export const AmuletOfPowerT = Item.fromJson(amuletOfPowerTData);

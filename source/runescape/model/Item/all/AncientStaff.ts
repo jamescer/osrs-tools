@@ -31,6 +31,7 @@ const ancientStaffData: ItemJson = {
   tradeable: true,
   value: 80000,
   weight: 2.267,
+  rangedStrength: 0
 };
 
 export const AncientStaff = Item.fromJson(ancientStaffData);

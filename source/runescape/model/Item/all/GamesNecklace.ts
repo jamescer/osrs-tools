@@ -30,6 +30,8 @@ const gamesNecklaceData: ItemJson = {
   tradeable: true,
   value: 900,
   weight: 0.006,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const GamesNecklace = Item.fromJson(gamesNecklaceData);

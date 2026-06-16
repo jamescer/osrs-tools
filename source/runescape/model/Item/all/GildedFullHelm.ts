@@ -25,6 +25,13 @@ const gildedFullHelmData: ItemJson = {
   defenceCrush: 18,
   defenceMagic: -1,
   defenceRanged: 20,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 
 export const GildedFullHelm = Item.fromJson(gildedFullHelmData);

@@ -19,6 +19,19 @@ const willowCompBowData: ItemJson = {
   noted: true,
   officialWikiUrl: 'https://oldschool.runescape.wiki/w/Willow_comp_bow',
   attackRanged: 22,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 
 export const WillowCompBow = Item.fromJson(willowCompBowData);

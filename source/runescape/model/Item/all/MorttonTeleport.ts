@@ -20,6 +20,18 @@ const morttonTeleportData: ItemJson = {
   tradeable: true,
   value: 3405,
   weight: 0.006,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const MorttonTeleport = Item.fromJson(morttonTeleportData);

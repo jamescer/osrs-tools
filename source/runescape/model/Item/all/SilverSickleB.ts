@@ -30,6 +30,8 @@ const silverSickleData: ItemJson = {
   tradeable: false,
   value: 400,
   weight: 0.453,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const SilverSickleB = Item.fromJson(silverSickleData);

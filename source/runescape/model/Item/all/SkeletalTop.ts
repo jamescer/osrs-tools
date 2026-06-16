@@ -30,6 +30,8 @@ const skeletalTopData: ItemJson = {
   tradeable: true,
   value: 5000,
   weight: 6.803,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const SkeletalTop = Item.fromJson(skeletalTopData);

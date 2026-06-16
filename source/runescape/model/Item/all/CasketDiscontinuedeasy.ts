@@ -1,7 +1,36 @@
 import { Item } from "../Item";
 
 const CasketDiscontinuedeasyData = {
-  id: 2714, 2717, 2720, 3511, 3517, 3519, 7237, 10181, 10183, 10185, 10187, 10189, 10191, 10193, 10195, 10197, 10199, 10201, 10203, 10205, 10207, 10209, 10211, 10213, 10215, 10217, 10219, 10221, 10223, 10225, 10227, 10229, 10231, 10233, 12163, 12165, 12171, 12180, 19815, 19827, 19832, 19834,
-  name: "Casket (discontinued)#Easy"
+  id: [2714, 2717, 2720, 3511, 3517, 3519, 7237, 10181, 10183, 10185, 10187, 10189, 10191, 10193, 10195, 10197, 10199, 10201, 10203, 10205, 10207, 10209, 10211, 10213, 10215, 10217, 10219, 10221, 10223, 10225, 10227, 10229, 10231, 10233, 12163, 12165, 12171, 12180, 19815, 19827, 19832, 19834],
+  name: "Casket (discontinued)#Easy",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const CasketDiscontinuedeasy = Item.fromJson(CasketDiscontinuedeasyData);

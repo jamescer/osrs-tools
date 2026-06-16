@@ -20,6 +20,18 @@ const mithrilSeedsData: ItemJson = {
   tradeable: true,
   value: 392,
   weight: 0.002,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const MithrilSeeds = Item.fromJson(mithrilSeedsData);

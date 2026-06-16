@@ -31,6 +31,7 @@ const culinaromancerGlovesData: ItemJson = {
   tradeable: false,
   value: 100000,
   weight: 0.34,
+  iconUrl: ""
 };
 
 export const CulinaromancerGloves = Item.fromJson(culinaromancerGlovesData);

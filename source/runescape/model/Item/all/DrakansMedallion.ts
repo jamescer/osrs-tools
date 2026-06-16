@@ -29,6 +29,9 @@ const drakansMedallionData: ItemJson = {
   tradeable: false,
   value: 0,
   weight: 0.006,
+  iconUrl: "",
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const DrakansMedallion = Item.fromJson(drakansMedallionData);

@@ -30,6 +30,8 @@ const salveAmuletData: ItemJson = {
   tradeable: false,
   value: 1,
   weight: 0.01,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const SalveAmulet = Item.fromJson(salveAmuletData);

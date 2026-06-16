@@ -25,6 +25,13 @@ const gildedLegsData: ItemJson = {
   defenceCrush: 43,
   defenceMagic: -4,
   defenceRanged: 50,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 
 export const GildedLegs = Item.fromJson(gildedLegsData);

@@ -1,7 +1,36 @@
 import { Item } from "../Item";
 
 const OldschoolJumperData = {
-  id: 27822, 27823, 27824, 27825, 27826, 27827,
-  name: "Oldschool jumper"
+  id: [27822, 27823, 27824, 27825, 27826, 27827],
+  name: "Oldschool jumper",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const OldschoolJumper = Item.fromJson(OldschoolJumperData);

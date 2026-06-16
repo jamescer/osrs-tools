@@ -30,6 +30,8 @@ const amuletOfGloryData: ItemJson = {
   tradeable: true,
   value: 12000,
   weight: 0.01,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const AmuletOfGlory = Item.fromJson(amuletOfGloryData);

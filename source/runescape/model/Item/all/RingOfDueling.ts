@@ -30,6 +30,8 @@ const ringOfDuelingData: ItemJson = {
   tradeable: true,
   value: 875,
   weight: 0.006,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const RingOfDueling = Item.fromJson(ringOfDuelingData);

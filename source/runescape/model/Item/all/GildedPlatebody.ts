@@ -25,6 +25,13 @@ const gildedPlatebodyData: ItemJson = {
   defenceCrush: 72,
   defenceMagic: -6,
   defenceRanged: 80,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 
 export const GildedPlatebody = Item.fromJson(gildedPlatebodyData);

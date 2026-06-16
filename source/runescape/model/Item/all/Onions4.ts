@@ -2,6 +2,35 @@ import { Item } from "../Item";
 
 const Onions4Data = {
   id: 5446,
-  name: "Onions#4"
+  name: "Onions#4",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const Onions4 = Item.fromJson(Onions4Data);

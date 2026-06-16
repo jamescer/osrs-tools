@@ -30,6 +30,8 @@ const blisterWoodFlailData: ItemJson = {
   tradeable: false,
   value: 70000,
   weight: 2.721,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const BlisterwoodFlail = Item.fromJson(blisterWoodFlailData);

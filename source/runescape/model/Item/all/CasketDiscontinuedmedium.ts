@@ -1,7 +1,36 @@
 import { Item } from "../Item";
 
 const CasketDiscontinuedmediumData = {
-  id: 2802, 2804, 2806, 2808, 2810, 2812, 2814, 2816, 2818, 2820, 2822, 2824, 2826, 2828, 2830, 3583, 3585, 3587, 3589, 3591, 3593, 3595, 3597, 3600, 3603, 7287, 7289, 7291, 7293, 7295, 7306, 7308, 7310, 7312, 7314, 7316, 7318, 10255, 10257, 10259, 10261, 10263, 10265, 10267, 10269, 10271, 10273, 10275, 10277, 10279, 12022, 12024, 12026, 12028, 12030, 12032, 12034, 12036, 12038, 12040, 12042, 12044, 12046, 12048, 12050, 12052, 12054, 19775, 19777, 19779, 19781,
-  name: "Casket (discontinued)#Medium"
+  id: [2802, 2804, 2806, 2808, 2810, 2812, 2814, 2816, 2818, 2820, 2822, 2824, 2826, 2828, 2830, 3583, 3585, 3587, 3589, 3591, 3593, 3595, 3597, 3600, 3603, 7287, 7289, 7291, 7293, 7295, 7306, 7308, 7310, 7312, 7314, 7316, 7318, 10255, 10257, 10259, 10261, 10263, 10265, 10267, 10269, 10271, 10273, 10275, 10277, 10279, 12022, 12024, 12026, 12028, 12030, 12032, 12034, 12036, 12038, 12040, 12042, 12044, 12046, 12048, 12050, 12052, 12054, 19775, 19777, 19779, 19781],
+  name: "Casket (discontinued)#Medium",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const CasketDiscontinuedmedium = Item.fromJson(CasketDiscontinuedmediumData);

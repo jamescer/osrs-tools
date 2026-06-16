@@ -30,6 +30,8 @@ const dramenStaffData: ItemJson = {
   tradeable: false,
   value: 120,
   weight: 1.36,
+  rangedStrength: 0,
+  prayer: 0
 };
 
 export const DramenStaff = Item.fromJson(dramenStaffData);

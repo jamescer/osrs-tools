@@ -30,6 +30,8 @@ const blackAxeData: ItemJson = {
   tradeable: true,
   value: 180,
   weight: 1.814,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const BlackAxe = Item.fromJson(blackAxeData);

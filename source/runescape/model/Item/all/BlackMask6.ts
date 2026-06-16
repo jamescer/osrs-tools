@@ -2,6 +2,35 @@ import { Item } from "../Item";
 
 const BlackMask6Data = {
   id: 8909,
-  name: "Black mask#(6)"
+  name: "Black mask#(6)",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const BlackMask6 = Item.fromJson(BlackMask6Data);

@@ -30,6 +30,8 @@ const fremKestrelEyeHelmData: ItemJson = {
   tradeable: false,
   value: 2000,
   weight: 2.267,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const FremennikKestrelEyeHelm = Item.fromJson(fremKestrelEyeHelmData);

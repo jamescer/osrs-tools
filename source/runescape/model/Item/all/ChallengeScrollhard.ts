@@ -1,7 +1,36 @@
 import { Item } from "../Item";
 
 const ChallengeScrollhardData = {
-  id: 7269, 7271, 7273, 12567, 12569, 12571, 12573, 12575, 12577, 19847, 19855, 19859, 19885, 19893, 19899, 19907,
-  name: "Challenge scroll#Hard"
+  id: [7269, 7271, 7273, 12567, 12569, 12571, 12573, 12575, 12577, 19847, 19855, 19859, 19885, 19893, 19899, 19907],
+  name: "Challenge scroll#Hard",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const ChallengeScrollhard = Item.fromJson(ChallengeScrollhardData);

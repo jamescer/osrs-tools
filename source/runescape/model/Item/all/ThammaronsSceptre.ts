@@ -21,6 +21,17 @@ const thammaronsSceptreData: ItemJson = {
   attackMagic: 25,
   magicDamage: 15,
   defenceMagic: 10,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  prayer: 0
 };
 
 export const ThammaronsSceptre = Item.fromJson(thammaronsSceptreData);

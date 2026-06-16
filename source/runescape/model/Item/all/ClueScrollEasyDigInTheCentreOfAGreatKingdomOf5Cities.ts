@@ -2,6 +2,35 @@ import { Item } from "../Item";
 
 const ClueScrollEasyDigInTheCentreOfAGreatKingdomOf5CitiesData = {
   id: 19826,
-  name: "Clue scroll (easy) - Dig in the centre of a great kingdom of 5 cities"
+  name: "Clue scroll (easy) - Dig in the centre of a great kingdom of 5 cities",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const ClueScrollEasyDigInTheCentreOfAGreatKingdomOf5Cities = Item.fromJson(ClueScrollEasyDigInTheCentreOfAGreatKingdomOf5CitiesData);

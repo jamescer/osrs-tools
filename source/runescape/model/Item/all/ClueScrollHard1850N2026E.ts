@@ -2,6 +2,35 @@ import { Item } from "../Item";
 
 const ClueScrollHard1850N2026EData = {
   id: 3556,
-  name: "Clue scroll (hard) - 18.50N 20.26E"
+  name: "Clue scroll (hard) - 18.50N 20.26E",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const ClueScrollHard1850N2026E = Item.fromJson(ClueScrollHard1850N2026EData);

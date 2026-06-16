@@ -1,7 +1,36 @@
 import { Item } from "../Item";
 
 const CasketDiscontinuedeliteData = {
-  id: 12084, 12112, 12129, 12131, 12160,
-  name: "Casket (discontinued)#Elite"
+  id: [12084, 12112, 12129, 12131, 12160],
+  name: "Casket (discontinued)#Elite",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const CasketDiscontinuedelite = Item.fromJson(CasketDiscontinuedeliteData);

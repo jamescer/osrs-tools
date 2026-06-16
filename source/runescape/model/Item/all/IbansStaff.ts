@@ -29,6 +29,9 @@ const ibansStaffData: ItemJson = {
   tradeable: false,
   value: 15000,
   weight: 2.267,
+  iconUrl: "",
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const IbansStaff = Item.fromJson(ibansStaffData);

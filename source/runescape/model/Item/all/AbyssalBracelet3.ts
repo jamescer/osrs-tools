@@ -15,6 +15,21 @@ const AbyssalBracelet3Data = {
     stackable: false,
     noted: false,
     officialWikiUrl: "", id: 11099,
-  name: "Abyssal bracelet#(3)"
+  name: "Abyssal bracelet#(3)",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const AbyssalBracelet3 = Item.fromJson(AbyssalBracelet3Data);

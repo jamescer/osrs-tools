@@ -30,6 +30,8 @@ const moonclanHelmetData: ItemJson = {
   tradeable: true,
   value: 9000,
   weight: 2.267,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const MoonclanHelmet = Item.fromJson(moonclanHelmetData);

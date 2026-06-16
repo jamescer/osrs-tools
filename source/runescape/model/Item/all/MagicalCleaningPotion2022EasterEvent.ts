@@ -2,6 +2,35 @@ import { Item } from "../Item";
 
 const MagicalCleaningPotion2022EasterEventData = {
   id: 26924,
-  name: "Magical cleaning potion (2022 Easter event)"
+  name: "Magical cleaning potion (2022 Easter event)",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const MagicalCleaningPotion2022EasterEvent = Item.fromJson(MagicalCleaningPotion2022EasterEventData);

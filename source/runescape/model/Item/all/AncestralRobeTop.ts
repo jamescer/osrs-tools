@@ -25,6 +25,13 @@ const ancestralRobeTopData: ItemJson = {
   defenceCrush: 51,
   defenceMagic: 28,
   magicDamage: 3,
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  prayer: 0
 };
 
 export const AncestralRobeTop = Item.fromJson(ancestralRobeTopData);

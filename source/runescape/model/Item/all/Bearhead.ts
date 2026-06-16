@@ -30,6 +30,8 @@ const bearheadData: ItemJson = {
   tradeable: false,
   value: 1,
   weight: 0.907,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const Bearhead = Item.fromJson(bearheadData);

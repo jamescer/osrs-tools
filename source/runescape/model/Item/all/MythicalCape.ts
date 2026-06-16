@@ -30,6 +30,8 @@ const mythicalCapeData: ItemJson = {
   tradeable: false,
   value: 50000,
   weight: 0.453,
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const MythicalCape = Item.fromJson(mythicalCapeData);

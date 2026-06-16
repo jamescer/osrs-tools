@@ -29,6 +29,9 @@ const klanksGauntletsData: ItemJson = {
   tradeable: false,
   value: 190,
   weight: 0.34,
+  iconUrl: "",
+  rangedStrength: 0,
+  magicDamage: 0
 };
 
 export const KlanksGauntlets = Item.fromJson(klanksGauntletsData);

@@ -2,6 +2,35 @@ import { Item } from "../Item";
 
 const TeakBedSmallMahoganyHomes3Data = {
   id: 24920,
-  name: "Teak bed (small, Mahogany Homes)#3"
+  name: "Teak bed (small, Mahogany Homes)#3",
+  examine: "",
+  value: 0,
+  highAlch: 0,
+  lowAlch: 0,
+  weight: 0,
+  members: false,
+  tradeable: false,
+  equipable: false,
+  releaseDate: "",
+  destroy: "Drop",
+  questItem: false,
+  stackable: false,
+  noted: false,
+  officialWikiUrl: "",
+  iconUrl: "",
+  attackStab: 0,
+  attackSlash: 0,
+  attackCrush: 0,
+  attackMagic: 0,
+  attackRanged: 0,
+  defenceStab: 0,
+  defenceSlash: 0,
+  defenceCrush: 0,
+  defenceMagic: 0,
+  defenceRanged: 0,
+  meleeStrength: 0,
+  rangedStrength: 0,
+  magicDamage: 0,
+  prayer: 0
 };
 export const TeakBedSmallMahoganyHomes3 = Item.fromJson(TeakBedSmallMahoganyHomes3Data);

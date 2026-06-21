@@ -37,8 +37,7 @@
 - skill metadata helpers and validation utilities
 - custom validation error handling
 
-This library is built for bots, analytics, web apps, and toolchains that need OSRS game logic and data.
-
+This library is built for analytics, web apps, and toolchains that need OSRS game logic and data. 
 ## Installation
 
 ### Prerequisites

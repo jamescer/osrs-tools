@@ -1,4 +1,4 @@
-import { OsrsAccount } from "../../../source/runescape/model/account/OsrsAccount";
+import { OsrsAccount } from "src/runescape/model/account/OsrsAccount";
 import { account as accountData } from "../../resources/A_Squeezer_Main_Data";
 import { describe, it, expect, beforeEach } from "@jest/globals";
 

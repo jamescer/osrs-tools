@@ -1,5 +1,5 @@
 // Test for the Spria data from the JSON file
-import { Spria } from '../../../../source/runescape/model/slayer/Masters';
+import { Spria } from 'src/runescape/model/slayer/Masters';
 import { expect, describe, it } from "@jest/globals";
 describe('Spria', () => {
     it('should be defined', () => {

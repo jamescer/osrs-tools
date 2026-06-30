@@ -1,4 +1,4 @@
-import { NpcDrop } from "../../../source/runescape/model/npc/NpcDrop";
+import { NpcDrop } from "src/runescape/model/npc/NpcDrop";
 
 /**
  * Comprehensive test suite for NpcDrop

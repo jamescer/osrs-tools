@@ -1,7 +1,7 @@
-import { HunterRumour } from '../../../../source/runescape/model/guilds/hunter/HunterRumour';
-import { HunterGuildMasterName } from '../../../../source/runescape/model/guilds/hunter/HunterGuildMaster';
-import { FELDIP_HUNTER_AREA } from '../../../../source/runescape/model/guilds/hunter/RumourLocation';
-import type { HunterRumourDefinition } from '../../../../source/runescape/model/guilds/hunter/types';
+import { HunterRumour } from 'src/runescape/model/guilds/hunter/HunterRumour';
+import { HunterGuildMasterName } from 'src/runescape/model/guilds/hunter/HunterGuildMaster';
+import { FELDIP_HUNTER_AREA } from 'src/runescape/model/guilds/hunter/RumourLocation';
+import type { HunterRumourDefinition } from 'src/runescape/model/guilds/hunter/types';
 
 describe('HunterRumour', () => {
   it('constructs correctly and clones arrays', () => {

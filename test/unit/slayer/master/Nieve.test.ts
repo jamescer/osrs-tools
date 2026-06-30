@@ -1,4 +1,4 @@
-import { Nieve } from '../../../../source/runescape/model/slayer/Masters';
+import { Nieve } from 'src/runescape/model/slayer/Masters';
 import { expect, describe, it } from "@jest/globals";
 describe('Nieve', () => {
     it('should be defined', () => {

@@ -1,6 +1,6 @@
-import { QuestRequirement } from "../../../source/runescape/model/Requirement";
-import { getDiaryByName } from "../../../source/runescape/model/diaries/Diary";
-import ArdougneDiary from "../../../source/runescape/model/diaries/ardougne/Ardougne";
+import { QuestRequirement } from "src/runescape/model/Requirement";
+import { getDiaryByName } from "src/runescape/model/diaries/Diary";
+import ArdougneDiary from "src/runescape/model/diaries/ardougne/Ardougne";
 import { expect, describe, it } from "@jest/globals";
 
 describe("ArdougneDiary", () => {

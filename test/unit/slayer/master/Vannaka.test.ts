@@ -1,4 +1,4 @@
-import { Vannaka } from '../../../../source/runescape/model/slayer/Masters';
+import { Vannaka } from 'src/runescape/model/slayer/Masters';
 import { expect, describe, it } from "@jest/globals";
 describe('Vannaka', () => {
     it('should be defined', () => {

@@ -1,4 +1,4 @@
-import { Chaeldar } from '../../../../source/runescape/model/slayer/Masters';
+import { Chaeldar } from 'src/runescape/model/slayer/Masters';
 import { expect, describe, it } from "@jest/globals";
 describe('Chaeldar', () => {
     it('should be defined', () => {

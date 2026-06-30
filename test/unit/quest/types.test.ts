@@ -1,6 +1,6 @@
-import { QuestDifficulty, QuestLength } from "../../../source/runescape/model/quest/enums";
-import { createItemRequirement, createLevelRequirement, createQuestPointRequirement, createQuestRequirement, RequirementType } from "../../../source/runescape/model/quest/Requirements";
-import { QuestStatus } from "../../../source/runescape/model/quest/Quest";
+import { QuestDifficulty, QuestLength } from "src/runescape/model/quest/enums";
+import { createItemRequirement, createLevelRequirement, createQuestPointRequirement, createQuestRequirement, RequirementType } from "src/runescape/model/quest/Requirements";
+import { QuestStatus } from "src/runescape/model/quest/Quest";
 describe("Quest Types and Requirements", () => {
     describe("Requirements", () => {
         it("should create level requirements correctly", () => {

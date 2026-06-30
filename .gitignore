@@ -1,41 +1,23 @@
-# Dependency directories
+# Dependencies
 node_modules/
-*/node_modules/
-**/node_modules/
-npm-debug.log
+
+# Build output
+dist/
+out-tsc/
+
+# Test coverage
+coverage/
+
+# Logs
+npm-debug.log*
 yarn-error.log
-.npmrc
 
-.github/
-
-# Optional: Editor-specific files
+# Editor
 .idea/
 .vscode/
 *.sublime-project
 *.sublime-workspace
 
-# Optional: Environment-specific files
+# Environment
 .env
-
-# Optional: Build artifacts
-dist/
-
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-coverage/
-coverage/*
-/coverage/*
-./coverage/*
-coverage
-/coverage
-/coverage/*
+.npmrc

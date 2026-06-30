@@ -1,5 +1,5 @@
 // Test for the Tureal data from the JSON file
-import { Turael } from '../../../../source/runescape/model/slayer/Masters';
+import { Turael } from 'src/runescape/model/slayer/Masters';
 import { expect, describe, it } from "@jest/globals";
 describe('Turael', () => {
     it('should be defined', () => {

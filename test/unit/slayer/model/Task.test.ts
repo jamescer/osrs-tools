@@ -1,5 +1,5 @@
-import { SlayerLevelRequirement, CombatLevelRequirement, ItemRequirement } from '../../../../source/runescape/model/Requirement';
-import { Task } from '../../../../source/runescape/model/slayer/Task';
+import { SlayerLevelRequirement, CombatLevelRequirement, ItemRequirement } from 'src/runescape/model/Requirement';
+import { Task } from 'src/runescape/model/slayer/Task';
 import { expect, describe, it, beforeEach } from "@jest/globals";
 
 /**

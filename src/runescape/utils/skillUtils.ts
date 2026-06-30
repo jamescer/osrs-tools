@@ -28,12 +28,10 @@ export function isValidSkill(skillName: string): boolean {
  * @param category - The category to filter by
  * @returns Array of skills in that category
  */
-export function getSkillsByCategory(
-  category: "combat" | "gathering" | "production" | "support"
-): Skill[] {
+export function getSkillsByCategory(category: 'combat' | 'gathering' | 'production' | 'support'): Skill[] {
   return Object.entries(SKILL_METADATA)
-    .filter(([_, meta]) => meta.category === category)
-    .map(([skill, _]) => skill as Skill);
+    .filter(([, meta]) => meta.category === category)
+    .map(([skill]) => skill as Skill);
 }
 
 /**
@@ -71,9 +69,7 @@ export function getMaxLevel(skill: Skill | string): number {
  * @param skill - The skill to check
  * @returns The category of the skill or undefined if not found
  */
-export function getSkillCategory(
-  skill: Skill | string
-): "combat" | "gathering" | "production" | "support" | undefined {
+export function getSkillCategory(skill: Skill | string): 'combat' | 'gathering' | 'production' | 'support' | undefined {
   return getSkillMetadata(skill)?.category;
 }
 
@@ -90,25 +86,15 @@ export function getAllSkills(): Skill[] {
  * @returns Array of combat category skills
  */
 export function getCombatSkills(): Skill[] {
-  return getSkillsByCategory("combat");
+  return getSkillsByCategory('combat');
 }
 
-/**
- * Get the total combat level from individual combat skills.
- * Combat level formula: (Attack + Defence + 2*Strength + 2*Magic + 2*Ranged + Prayer) / 4 + 1
- * This is a helper; actual calculation depends on account implementation.
- * @param skillLevels - Object mapping skill names to levels
- * @returns Calculated combat level
- */
+// https://oldschool.runescape.wiki/w/Combat_level
 export function calculateCombatLevel(skillLevels: Record<string, number>): number {
-  const get = (skill: Skill): number => skillLevels[skill] ?? 0;
-  const base =
-    (get(Skill.Attack) +
-      get(Skill.Defence) +
-      2 * get(Skill.Strength) +
-      2 * get(Skill.Magic) +
-      2 * get(Skill.Ranged) +
-      get(Skill.Prayer)) /
-    4;
-  return Math.floor(base) + 1;
+  const get = (skill: Skill): number => skillLevels[skill] ?? 1;
+  const base = (get(Skill.Defence) + get(Skill.Hitpoints) + Math.floor(get(Skill.Prayer) / 2)) / 4;
+  const melee = (13 / 40) * (get(Skill.Attack) + get(Skill.Strength));
+  const ranged = (13 / 40) * Math.floor(get(Skill.Ranged) * 1.5);
+  const magic = (13 / 40) * Math.floor(get(Skill.Magic) * 1.5);
+  return Math.floor(base + Math.max(melee, ranged, magic));
 }

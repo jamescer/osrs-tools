@@ -7,7 +7,7 @@ import {
   MASTER_REWARDS,
   getClueRewardsByTier,
   getClueRewardTables,
-} from "../../../source/runescape/model/clue/ClueScrollRewards";
+} from "src/runescape/model/clue/ClueScrollRewards";
 import { expect, describe, it } from "@jest/globals";
 
 describe("ClueScrollRewards", () => {

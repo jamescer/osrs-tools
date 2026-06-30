@@ -1,6 +1,6 @@
-import { OsrsAccount } from "../../../source/runescape/model/account/OsrsAccount";
-import { QuestTool } from "../../../source/runescape/model/quest/QuestTool";
-import { CombatLevelRequirement, ItemRequirement, QuestRequirement, SlayerLevelRequirement } from "../../../source/runescape/model/Requirement";
+import { OsrsAccount } from "src/runescape/model/account/OsrsAccount";
+import { QuestTool } from "src/runescape/model/quest/QuestTool";
+import { CombatLevelRequirement, ItemRequirement, QuestRequirement, SlayerLevelRequirement } from "src/runescape/model/Requirement";
 import { account } from "../../resources/A_Squeezer_Main_Data";
 import { simpleQuest, skillQuest, boostableSkillQuest, questReqQuest, multiRequirementQuest } from "./mockQuests";
 import { expect, describe, it, beforeEach } from "@jest/globals";

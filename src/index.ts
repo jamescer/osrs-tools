@@ -28,11 +28,10 @@ export * from "./runescape/model/clue/ClueScrollHelper";
 // Item system
 export * from "./runescape/model/items";
 
-
 // Leagues
 export * from "./runescape/model/leagues";
 
-// Slayer system (refactored exports)
+// Slayer system
 export {
   SlayerMaster,
   Task,
@@ -63,9 +62,6 @@ export {
 
 // Guilds system
 export * from "./runescape/model/guilds";
-
-// Leagues system
-export * from "./runescape/model/leagues";
 
 // Skills system
 export * from "./runescape/model/skills";

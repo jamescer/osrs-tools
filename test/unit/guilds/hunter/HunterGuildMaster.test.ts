@@ -1,5 +1,5 @@
-import { HunterGuildMaster } from '../../../../source/runescape/model/guilds/hunter/HunterGuildMaster';
-import { HunterRumour } from '../../../../source/runescape/model/guilds/hunter/HunterRumour';
+import { HunterGuildMaster } from 'src/runescape/model/guilds/hunter/HunterGuildMaster';
+import { HunterRumour } from 'src/runescape/model/guilds/hunter/HunterRumour';
 
 describe('HunterGuildMaster', () => {
   it('validates hunter level and quest requirements', () => {

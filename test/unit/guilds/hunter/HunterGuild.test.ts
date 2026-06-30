@@ -1,5 +1,5 @@
-import { HunterGuild } from '../../../../source/runescape/model/guilds/hunter/HunterGuild';
-import { HunterGuildMasterName } from '../../../../source/runescape/model/guilds/hunter/HunterGuildMaster';
+import { HunterGuild } from 'src/runescape/model/guilds/hunter/HunterGuild';
+import { HunterGuildMasterName } from 'src/runescape/model/guilds/hunter/HunterGuildMaster';
 
 describe('HunterGuild', () => {
   const guild = new HunterGuild();

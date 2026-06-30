@@ -1,13 +1,13 @@
 import { expect, describe, it } from "@jest/globals";
 import * as fs from "fs";
 import * as path from "path";
-import { QuestTool } from "../../../source/runescape/model/quest/QuestTool";
+import { QuestTool } from "src/runescape/model/quest/QuestTool";
 
 /**
  * Test suite for validating all quest files have correct structure and exports
  */
 describe("Quest Files Structure and Export Validation", () => {
-  const questDir = path.join(__dirname, "../../../source/runescape/model/quest/all");
+  const questDir = path.join(__dirname, "../../../src/runescape/model/quest/all");
 
   describe("Quest File Structure", () => {
     it("should have all 188 quest files in the all/ directory", () => {

@@ -1,4 +1,4 @@
-import { KonarQuoMaten } from '../../../../source/runescape/model/slayer/Masters';
+import { KonarQuoMaten } from 'src/runescape/model/slayer/Masters';
 import { expect, describe, it } from "@jest/globals";
 describe('Konar Quo Maten', () => {
     it('should be defined', () => {

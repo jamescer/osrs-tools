@@ -1,4 +1,4 @@
-import { Mazchna } from '../../../../source/runescape/model/slayer/Masters';
+import { Mazchna } from 'src/runescape/model/slayer/Masters';
 import { expect, describe, it } from "@jest/globals";
 describe('Mazchna', () => {
     it('should be defined', () => {

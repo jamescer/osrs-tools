@@ -1,4 +1,4 @@
-import { SlayerUnlock, SlayerUnlocks } from '../../../../source/runescape/model/slayer/SlayerUnlock';
+import { SlayerUnlock, SlayerUnlocks } from 'src/runescape/model/slayer/SlayerUnlock';
 import { expect, describe, it } from "@jest/globals";
 describe('SlayerUnlock', () => {
     it('should create a SlayerUnlock instance with correct properties', () => {

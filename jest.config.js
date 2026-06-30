@@ -4,6 +4,7 @@ module.exports = {
   rootDir: '.',
   testMatch: ['<rootDir>/test/**/*.test.ts'],
   moduleFileExtensions: ['ts', 'js'],
+  modulePaths: ['<rootDir>'],
   collectCoverage: true,
   coverageDirectory: 'coverage',
   coverageReporters: ['lcov', 'text'],

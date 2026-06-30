@@ -1,4 +1,4 @@
-import { getExperienceForLevel, getLevelForExperience, LEVEL_TO_EXPERIENCE } from "../../../source/runescape/tools/experience";
+import { getExperienceForLevel, getLevelForExperience, LEVEL_TO_EXPERIENCE } from "src/runescape/tools/experience";
 import { expect, describe, it, beforeEach } from "@jest/globals";
 
 /**

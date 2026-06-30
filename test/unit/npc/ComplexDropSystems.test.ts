@@ -8,8 +8,8 @@ import {
   createZulrahDropTable,
   createSharedGWDRareTable,
   createGeneralGraardorDropTable,
-} from "../../../source/runescape/model/npc/ComplexDropSystems";
-import { NpcDrop } from "../../../source/runescape/model/npc/NpcDrop";
+} from "src/runescape/model/npc/ComplexDropSystems";
+import { NpcDrop } from "src/runescape/model/npc/NpcDrop";
 
 /**
  * Comprehensive test suite for complex drop systems

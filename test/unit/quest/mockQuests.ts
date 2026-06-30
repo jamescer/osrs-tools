@@ -1,6 +1,6 @@
-import { Quest, QuestStatus } from '../../../source/runescape/model/quest/Quest';
-import { QuestDifficulty, QuestLength } from '../../../source/runescape/model/quest/enums';
-import { LevelRequirement, QuestRequirement } from '../../../source/runescape/model/Requirement';
+import { Quest, QuestStatus } from 'src/runescape/model/quest/Quest';
+import { QuestDifficulty, QuestLength } from 'src/runescape/model/quest/enums';
+import { LevelRequirement, QuestRequirement } from 'src/runescape/model/Requirement';
 
 export const simpleQuest: Quest = {
   age: 'Fifth',

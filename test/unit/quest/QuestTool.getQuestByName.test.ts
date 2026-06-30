@@ -1,6 +1,6 @@
 import { expect, describe, it, beforeEach } from "@jest/globals";
-import { QuestTool } from "../../../source/runescape/model/quest/QuestTool";
-import { QuestList } from "../../../source/runescape/model/quest/QuestList";
+import { QuestTool } from "src/runescape/model/quest/QuestTool";
+import { QuestList } from "src/runescape/model/quest/QuestList";
 
 /**
  * Comprehensive test suite for Quest name resolution and lookup

@@ -1,4 +1,4 @@
-import {   HunterGuild  } from '../../../source/runescape/model/guilds';
+import {   HunterGuild  } from 'src/runescape/model/guilds';
 
 describe('HunterGuild', () => {
   it('returns the correct masters', () => {

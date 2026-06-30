@@ -1,7 +1,7 @@
 // Comprehensive tests for all requirement types
-import { CombatLevelRequirement, ItemRequirement, LocationRequirement, QuestPointRequirement, QuestRequirement, RequirementType, SlayerLevelRequirement, SlayerUnlockRequirement, } from '../../../source/runescape/model/Requirement';
-import { LevelRequirement } from '../../../source/runescape/model/Requirement';
-import { Skill } from '../../../source/runescape/model/account/Skill';
+import { CombatLevelRequirement, ItemRequirement, LocationRequirement, QuestPointRequirement, QuestRequirement, RequirementType, SlayerLevelRequirement, SlayerUnlockRequirement, } from 'src/runescape/model/Requirement';
+import { LevelRequirement } from 'src/runescape/model/Requirement';
+import { Skill } from 'src/runescape/model/account/Skill';
 
 /**
  * Comprehensive test suite for Requirement classes

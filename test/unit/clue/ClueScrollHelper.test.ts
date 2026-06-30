@@ -1,5 +1,5 @@
-import { ClueScrollHelper, CasketReward } from "../../../source/runescape/model/clue/ClueScrollHelper";
-import { BEGINNER_REWARDS, EASY_REWARDS, MEDIUM_REWARDS, HARD_REWARDS, ELITE_REWARDS, MASTER_REWARDS } from "../../../source/runescape/model/clue/ClueScrollRewards";
+import { ClueScrollHelper, CasketReward } from "src/runescape/model/clue/ClueScrollHelper";
+import { BEGINNER_REWARDS, EASY_REWARDS, MEDIUM_REWARDS, HARD_REWARDS, ELITE_REWARDS, MASTER_REWARDS } from "src/runescape/model/clue/ClueScrollRewards";
 import { expect, describe, it } from "@jest/globals";
 
 describe("ClueScrollHelper", () => {

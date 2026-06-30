@@ -1,29 +1,28 @@
+import { Skill } from './Skill';
+
 interface SkillDetail {
-  rank?: number;
   level: number;
+  rank?: number;
   xp?: number;
 }
 
-interface Skill {
-  level: number;
-}
+type SkillMap = Partial<Record<Skill, SkillDetail>>;
 
-interface SkillJsonDetail {
-  rank?: number;
-  level: number;
-  xp?: number;
-}
-
+/**
+ * This is the Json representation of an OSRS account.
+ * It is used for serialization and deserialization of account data.
+ * It should be compatible with osrs-json-hiscores @ https://www.npmjs.com/package/osrs-json-hiscores
+ */
 interface OsrsAccountJson {
   name?: string;
   main?: {
     combatLevel?: number;
     questPoints?: number;
-    skills?: Record<string, SkillJsonDetail>;
+    skills?: Record<string, SkillDetail>;
   };
   combatLevel?: number;
   questPoints?: number;
-  skills: Record<string, SkillJsonDetail>;
+  skills: Record<string, SkillDetail>;
   lastManStanding?: BossScore;
   pvpArena?: BossScore;
   soulWarsZeal?: BossScore;
@@ -35,14 +34,6 @@ interface OsrsAccountJson {
   bosses?: Bosses;
   clues?: Clues;
   bountyHunter?: BountyHunter;
-}
-
-interface Skills {
-  [skillName: string]: Skill;
-}
-
-interface SkillsDetail {
-  [skillName: string]: SkillDetail;
 }
 
 interface BossScore {
@@ -72,10 +63,8 @@ interface BountyHunter {
 
 interface OsrsAccountData {
   name: string;
-  combatLevel: number;
   questPoints: number;
-  skills: Skills;
-  skillsDetail?: SkillsDetail;
+  skills: SkillMap;
   bosses?: Bosses;
   clues?: Clues;
   bountyHunter?: BountyHunter;
@@ -89,17 +78,10 @@ interface OsrsAccountData {
   deadmanPoints?: BossScore;
 }
 
-/**
- * Represents an Old School RuneScape account with various properties and methods to access skills, bosses, clues, and other relevant data.
- * The class is designed to be initialized from a JSON object that may come from an API response or other data source, and provides methods to retrieve specific information about the account.
- * It also includes a method to convert the account data back into a JSON format, which can be useful for saving or transmitting the account information.
- */
 class OsrsAccount {
   #name: string;
-  #combatLevel: number;
   #questPoints: number;
-  #skills: Skills;
-  #skillsDetail?: SkillsDetail;
+  #skills: SkillMap;
   #bosses?: Bosses;
   #clues?: Clues;
   #bountyHunter?: BountyHunter;
@@ -114,10 +96,8 @@ class OsrsAccount {
 
   constructor(data: OsrsAccountData) {
     this.#name = data.name;
-    this.#combatLevel = data.combatLevel;
     this.#questPoints = data.questPoints;
     this.#skills = data.skills;
-    this.#skillsDetail = data.skillsDetail;
     this.#bosses = data.bosses;
     this.#clues = data.clues;
     this.#bountyHunter = data.bountyHunter;
@@ -132,122 +112,106 @@ class OsrsAccount {
   }
 
   static fromJson(json: OsrsAccountJson): OsrsAccount {
-    const name = json.name || "";
-    const combatLevel = json.main?.combatLevel ?? json.combatLevel ?? 3;
+    const name = json.name ?? '';
     const questPoints = json.main?.questPoints ?? json.questPoints ?? 0;
-    // Accept both lower and upper case skill keys
-    const skills: Skills = {};
-    const skillsDetail: SkillsDetail = {};
-    const srcSkills = json.main?.skills || json.skills || {};
+    const srcSkills = json.main?.skills ?? json.skills ?? {};
+    const skills: SkillMap = {};
     for (const key of Object.keys(srcSkills)) {
-      skills[key.toLowerCase()] = { level: srcSkills[key].level };
-      skillsDetail[key.toLowerCase()] = {
-        level: srcSkills[key].level,
-        rank: srcSkills[key].rank,
-        xp: srcSkills[key].xp,
-      };
+      const skillKey = Object.values(Skill).find(s => s.toLowerCase() === key.toLowerCase()) as Skill | undefined;
+      if (skillKey) {
+        skills[skillKey] = {
+          level: srcSkills[key].level,
+          rank: srcSkills[key].rank,
+          xp: srcSkills[key].xp,
+        };
+      }
     }
-    const bosses: Bosses | undefined = json.bosses ? { ...json.bosses } : undefined;
-    const clues: Clues | undefined = json.clues ? { ...json.clues } : undefined;
-    const bountyHunter: BountyHunter | undefined = json.bountyHunter ? { ...json.bountyHunter } : undefined;
-    const lastManStanding: BossScore | undefined = json.lastManStanding;
-    const pvpArena: BossScore | undefined = json.pvpArena;
-    const soulWarsZeal: BossScore | undefined = json.soulWarsZeal;
-    const riftsClosed: BossScore | undefined = json.riftsClosed;
-    const colosseumGlory: BossScore | undefined = json.colosseumGlory;
-    const collectionsLogged: BossScore | undefined = json.collectionsLogged;
-    const leaguePoints: BossScore | undefined = json.leaguePoints;
-    const deadmanPoints: BossScore | undefined = json.deadmanPoints;
     return new OsrsAccount({
-      bosses,
-      bountyHunter,
-      clues,
-      collectionsLogged,
-      colosseumGlory,
-      combatLevel,
-      deadmanPoints,
-      lastManStanding,
-      leaguePoints,
+      bosses: json.bosses ? { ...json.bosses } : undefined,
+      bountyHunter: json.bountyHunter ? { ...json.bountyHunter } : undefined,
+      clues: json.clues ? { ...json.clues } : undefined,
+      collectionsLogged: json.collectionsLogged,
+      colosseumGlory: json.colosseumGlory,
+      deadmanPoints: json.deadmanPoints,
+      lastManStanding: json.lastManStanding,
+      leaguePoints: json.leaguePoints,
       name,
-      pvpArena,
+      pvpArena: json.pvpArena,
       questPoints,
-      riftsClosed,
+      riftsClosed: json.riftsClosed,
       skills,
-      skillsDetail,
-      soulWarsZeal,
+      soulWarsZeal: json.soulWarsZeal,
     });
   }
 
   get name(): string {
     return this.#name;
   }
-
-  get combatLevel(): number {
-    return this.#combatLevel;
-  }
-
   get questPoints(): number {
     return this.#questPoints;
   }
-
-  get skills(): Skills {
+  get skills(): SkillMap {
     return this.#skills;
   }
-
-  get skillsDetail(): SkillsDetail | undefined {
-    return this.#skillsDetail;
-  }
-
   get bosses(): Bosses | undefined {
     return this.#bosses;
   }
-
   get clues(): Clues | undefined {
     return this.#clues;
   }
-
   get bountyHunter(): BountyHunter | undefined {
     return this.#bountyHunter;
   }
-
   get lastManStanding(): BossScore | undefined {
     return this.#lastManStanding;
   }
-
   get pvpArena(): BossScore | undefined {
     return this.#pvpArena;
   }
-
   get soulWarsZeal(): BossScore | undefined {
     return this.#soulWarsZeal;
   }
-
   get riftsClosed(): BossScore | undefined {
     return this.#riftsClosed;
   }
-
   get colosseumGlory(): BossScore | undefined {
     return this.#colosseumGlory;
   }
-
   get collectionsLogged(): BossScore | undefined {
     return this.#collectionsLogged;
   }
-
   get leaguePoints(): BossScore | undefined {
     return this.#leaguePoints;
   }
-
   get deadmanPoints(): BossScore | undefined {
     return this.#deadmanPoints;
   }
 
-  getSkill(skillName: string): Skill | undefined {
-    return this.#skills[skillName.toLowerCase()];
+  // https://oldschool.runescape.wiki/w/Combat_level
+  get combatLevel(): number {
+    const lvl = (s: Skill): number => this.#skills[s]?.level ?? 1;
+    const base = (lvl(Skill.Defence) + lvl(Skill.Hitpoints) + Math.floor(lvl(Skill.Prayer) / 2)) / 4;
+    const melee = (13 / 40) * (lvl(Skill.Attack) + lvl(Skill.Strength));
+    const ranged = (13 / 40) * Math.floor(lvl(Skill.Ranged) * 1.5);
+    const magic = (13 / 40) * Math.floor(lvl(Skill.Magic) * 1.5);
+    return Math.floor(base + Math.max(melee, ranged, magic));
   }
 
-  getSkillDetail(skillName: string): SkillDetail | undefined {
-    return this.#skillsDetail?.[skillName.toLowerCase()];
+  /** Sum of all tracked skill levels. Max 2,376 with all 24 skills at 99. */
+  get totalLevel(): number {
+    return Object.values(this.#skills).reduce((sum, s) => sum + (s?.level ?? 0), 0);
+  }
+
+  /** Total XP across all skills. Undefined if any skill is missing XP data. */
+  get totalXp(): number | undefined {
+    const vals = Object.values(this.#skills);
+    if (!vals.length || vals.some(s => s?.xp === undefined)) return undefined;
+    return vals.reduce((sum, s) => sum + (s?.xp ?? 0), 0);
+  }
+
+  getSkill(skill: Skill | string): SkillDetail | undefined {
+    const key = Object.values(Skill).find(s => s.toLowerCase() === String(skill).toLowerCase()) as Skill | undefined;
+    return key ? this.#skills[key] : undefined;
   }
 
   getBossScore(bossName: string): BossScore | undefined {
@@ -259,7 +223,7 @@ class OsrsAccount {
   }
 
   toString(): string {
-    return `${this.#name}:\nCombat Level: ${this.#combatLevel}\nQuestPoints: ${this.#questPoints}`;
+    return `${this.#name}:\nCombat Level: ${this.combatLevel}\nQuestPoints: ${this.#questPoints}`;
   }
 
   toJson(): OsrsAccountData {
@@ -269,7 +233,6 @@ class OsrsAccount {
       clues: this.#clues,
       collectionsLogged: this.#collectionsLogged,
       colosseumGlory: this.#colosseumGlory,
-      combatLevel: this.#combatLevel,
       deadmanPoints: this.#deadmanPoints,
       lastManStanding: this.#lastManStanding,
       leaguePoints: this.#leaguePoints,
@@ -278,12 +241,10 @@ class OsrsAccount {
       questPoints: this.#questPoints,
       riftsClosed: this.#riftsClosed,
       skills: this.#skills,
-      skillsDetail: this.#skillsDetail,
       soulWarsZeal: this.#soulWarsZeal,
     };
   }
 }
 
-export type { Bosses, BossScore, BountyHunter, Clues, ClueScore, OsrsAccountData, Skill, Skills, SkillsDetail };
-
+export type { Bosses, BossScore, BountyHunter, Clues, ClueScore, OsrsAccountData, SkillDetail, SkillMap };
 export { OsrsAccount };

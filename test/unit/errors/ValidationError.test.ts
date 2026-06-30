@@ -1,5 +1,5 @@
 import { describe, expect, it } from '@jest/globals';
-import { ValidationError } from '../../../source/runescape/errors';
+import { ValidationError } from 'src/runescape/errors';
 
 describe('ValidationError', () => {
   it('sets core Error and custom fields', () => {

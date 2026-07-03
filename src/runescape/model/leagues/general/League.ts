@@ -1,4 +1,4 @@
-import { PactTree } from "./Pact";
+import { PactTree } from './Pact';
 
 /**
  * A single relic option within a tier. Exactly one relic per tier
@@ -59,5 +59,3 @@ export interface League extends BaseLeague {
   number: number;
   theme: string;
 }
-
-export interface CustomLeague extends BaseLeague {}

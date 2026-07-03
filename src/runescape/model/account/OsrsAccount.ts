@@ -61,6 +61,38 @@ interface BountyHunter {
   rogue?: BossScore;
 }
 
+/**
+ * Json blob of an OSRS account, including skills, bosses, clues, and other tracked scores. This structure is used for serialization and deserialization of account data, and is compatible with osrs-json-hiscores.
+ * Example usage:
+ * const accountJson: OsrsAccountJson = {
+ *   name: "A Squeezer",
+ *   questPoints: 200,
+ *   skills: {
+ *     Attack: { level: 99, rank: 1, xp: 13034431 },
+ *     Defence: { level: 99, rank: 2, xp: 13034431 },
+ *     // ... other skills
+ *   },
+ *   bosses: {
+ *     "Zulrah": { rank: 1000, score: 500 },
+ *     // ... other bosses
+ *   },
+ *   clues: {
+ *     "Easy": { rank: 5000, score: 100 },
+ *     // ... other clue types
+ *   },
+ *   bountyHunter: {
+ *     hunterV2: { rank: 2000, score: 300 },
+ *     rogueV2: { rank: 2500, score: 400 },
+ *   },
+ *   // ... other tracked scores
+ * };
+ * const account = OsrsAccount.fromJson(accountJson);
+ * console.log(account.name); // "A Squeezer"
+ * console.log(account.getSkill("Attack")?.level); // 99
+ * console.log(account.getBossScore("Zulrah")?.score); // 500
+ * console.log(account.getClueScore("Easy")?.rank); // 5000
+ * console.log(account.bountyHunter?.hunterV2?.score); // 300
+ */
 interface OsrsAccountData {
   name: string;
   questPoints: number;
@@ -76,6 +108,9 @@ interface OsrsAccountData {
   collectionsLogged?: BossScore;
   leaguePoints?: BossScore;
   deadmanPoints?: BossScore;
+  combatLevel?: number;
+  totalLevel?: number;
+  totalXp?: number;
 }
 
 class OsrsAccount {
@@ -242,6 +277,9 @@ class OsrsAccount {
       riftsClosed: this.#riftsClosed,
       skills: this.#skills,
       soulWarsZeal: this.#soulWarsZeal,
+      combatLevel: this.combatLevel,
+      totalLevel: this.totalLevel,
+      totalXp: this.totalXp,
     };
   }
 }

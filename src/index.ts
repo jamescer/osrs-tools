@@ -6,6 +6,7 @@
  * - QuestTool: Quest system and utilities
  * - OsrsAccount: Player account management
  * - Diaries: Achievement diary system
+ * - CombatAchievementTool: Combat Achievements system
  * - ClueScrollHelper: Clue scroll utilities
  * - Item system and models
  * - Slayer system and masters
@@ -15,57 +16,59 @@
  * - import { ... } from 'osrs-tools/account' - Account and skill management
  * - import { ... } from 'osrs-tools/slayer' - Slayer system
  * - import { ... } from 'osrs-tools/diary' - Achievement diaries
+ * - import { ... } from 'osrs-tools/combat-achievements' - Combat Achievements
  * - import { ... } from 'osrs-tools/tools' - Utility tools
  * - import { ... } from 'osrs-tools/utils' - Helper utilities
  */
 
 // Core API exports - Most frequently used
-export * from "./runescape/model/quest/QuestTool";
-export * from "./runescape/model/account/OsrsAccount";
-export * from "./runescape/model/diaries";
-export * from "./runescape/model/clue/ClueScrollHelper";
+export * from './runescape/model/account/OsrsAccount';
+export * from './runescape/model/clue/ClueScrollHelper';
+export * from './runescape/model/combat-achievements';
+export * from './runescape/model/diaries';
+export * from './runescape/model/quest/QuestTool';
 
 // Item system
-export * from "./runescape/model/items";
+export * from './runescape/model/items';
 
 // Leagues
-export * from "./runescape/model/leagues";
+export * from './runescape/model/leagues';
 
 // Slayer system
 export {
-  SlayerMaster,
-  Task,
   Assignment,
-  Turael,
-  Spria,
-  Mazchna,
-  Vannaka,
   Chaeldar,
-  KonarQuoMaten,
-  Nieve,
   Duradel,
-  Krystilia,
-  SlayerUnlock,
-  SlayerExtend,
-  SlayerBuy,
-  SLAYER_UNLOCKS,
-  SLAYER_EXTENDS,
-  SLAYER_BUYS,
-  SlayerLocation,
-  SlayerBoss,
-  POINTS_TABLE,
-  getMasterByName,
   getAllMasters,
+  getMasterByName,
   getMastersByMinimumLevel,
   getMastersByProgression,
-} from "./runescape/model/slayer";
+  KonarQuoMaten,
+  Krystilia,
+  Mazchna,
+  Nieve,
+  POINTS_TABLE,
+  SLAYER_BUYS,
+  SLAYER_EXTENDS,
+  SLAYER_UNLOCKS,
+  SlayerBoss,
+  SlayerBuy,
+  SlayerExtend,
+  SlayerLocation,
+  SlayerMaster,
+  SlayerUnlock,
+  Spria,
+  Task,
+  Turael,
+  Vannaka,
+} from './runescape/model/slayer';
 
 // Guilds system
-export * from "./runescape/model/guilds";
+export * from './runescape/model/guilds';
 
 // Skills system
-export * from "./runescape/model/skills";
+export * from './runescape/model/skills';
 
 // Core requirement types
-export * from "./runescape/model/Requirement";
-export * from "./runescape/errors";
+export * from './runescape/errors';
+export * from './runescape/model/Requirement';

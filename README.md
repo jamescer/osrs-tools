@@ -38,8 +38,7 @@
 - league support (Demonic Pacts, Raging Echoes)
 - custom `ValidationError` for consistent error handling
 
-Built for bots, analytics, web apps, and toolchains that need OSRS game logic and data.
-
+This library is built for analytics, web apps, and toolchains that need OSRS game logic and data. 
 ## Installation
 
 ### Prerequisites

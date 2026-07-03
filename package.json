@@ -1,7 +1,7 @@
 {
   "name": "osrs-tools",
-  "version": "2.9.2",
-  "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and game item information",
+  "version": "2.9.3",
+  "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and general game information",
   "license": "MIT",
   "sideEffects": false,
   "scripts": {
@@ -85,6 +85,11 @@
       "types": "./dist/runescape/model/diaries/index.d.ts",
       "import": "./dist/runescape/model/diaries/index.js",
       "require": "./dist/runescape/model/diaries/index.js"
+    },
+    "./combat-achievements": {
+      "types": "./dist/runescape/model/combat-achievements/index.d.ts",
+      "import": "./dist/runescape/model/combat-achievements/index.js",
+      "require": "./dist/runescape/model/combat-achievements/index.js"
     },
     "./quest": {
       "types": "./dist/runescape/model/quest/index.d.ts",

@@ -2,6 +2,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/osrs-tools.svg?style=for-the-badge)](https://www.npmjs.com/package/osrs-tools)
 [![Downloads](https://img.shields.io/npm/dm/osrs-tools.svg?style=for-the-badge)](https://www.npmjs.com/package/osrs-tools)
+[![CI](https://img.shields.io/github/actions/workflow/status/jamescer/osrs-tools/ci.yml?branch=master&style=for-the-badge&label=CI)](https://github.com/jamescer/osrs-tools/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg?style=for-the-badge)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Node Version](https://img.shields.io/node/v/osrs-tools.svg?style=for-the-badge)](https://nodejs.org)
@@ -9,7 +10,7 @@
 
 > A comprehensive TypeScript library for Old School RuneScape (OSRS) data, tools, and game modeling.
 
-**Type-safe** &nbsp; **Well-tested** &nbsp; **Game-aware** &nbsp; **Actively maintained**
+**Type-safe** &nbsp; **Zero runtime dependencies** &nbsp; **CJS + ESM** &nbsp; **Tree-shakeable** &nbsp; **Well-tested**
 
 ## Table of Contents
 
@@ -29,7 +30,8 @@
 
 - full quest and requirement system with 189+ quests and miniquests
 - account data modeling for skills, bosses, clues, and progression
-- achievement diary lookups for all 10 regions
+- achievement diary lookups for all 10 regions, with a `DiaryTool` for account-based progress checks
+- Combat Achievements: all 637 tasks across six tiers, with a `CombatAchievementTool` for points and reward-tier progress
 - clue scroll reward simulation with wiki-accurate odds
 - item data model with combat stats and clue/quest item registries
 - slayer masters, tasks, reward unlocks/extends/buys, and point tables
@@ -38,13 +40,15 @@
 - league support (Demonic Pacts, Raging Echoes)
 - custom `ValidationError` for consistent error handling
 
-This library is built for analytics, web apps, and toolchains that need OSRS game logic and data. 
+This library is built for analytics, web apps, and toolchains that need OSRS game logic and data. It ships as dual CommonJS/ESM with bundled type definitions, has a single runtime dependency (`tslib`), and is marked side-effect free for tree-shaking.
+
 ## Installation
 
 ### Prerequisites
 
 - Node.js 18.x or higher
-- TypeScript 5.x
+
+TypeScript is not required to consume this package — it ships compiled JavaScript with bundled `.d.ts` type definitions — but is recommended to get full type-checking in your own project.
 
 ### Install
 
@@ -56,7 +60,8 @@ npm install osrs-tools
 
 - Quest system with all OSRS quests and recursive requirement checking
 - `OsrsAccount` skill, score, and combat level lookups
-- Achievement diaries with full task and requirement breakdowns
+- Achievement diaries with full task and requirement breakdowns via `DiaryTool`
+- Combat Achievements: all 637 tasks, reward-tier unlocks, and points calculation via `CombatAchievementTool`
 - Clue scroll casket simulation with tier-specific tables and mimic handling
 - Item model with combat stats, alch values, and quest/clue item flags
 - Slayer masters (Turael through Krystilia), task weights, point tables, reward utilities
@@ -102,7 +107,8 @@ console.log("Can complete?", canComplete);
 import { QuestTool, DragonSlayerI } from "osrs-tools/quest";
 import { Duradel, getMasterByName } from "osrs-tools/slayer";
 import { OsrsAccount, Skill } from "osrs-tools/account";
-import diaries, { getDiaryByName, getAllDiaries } from "osrs-tools/diary";
+import diaries, { getDiaryByName, getAllDiaries, DiaryTool } from "osrs-tools/diary";
+import { CombatAchievementTool, ALL_COMBAT_ACHIEVEMENT_TASKS } from "osrs-tools/combat-achievements";
 import { getExperienceForLevel, getLevelForExperience } from "osrs-tools/tools";
 import { validateSkillLevel, getSkillsByCategory } from "osrs-tools/utils";
 ```
@@ -139,6 +145,31 @@ import { validateSkillLevel, getSkillsByCategory } from "osrs-tools/utils";
 - `getAllDiaries()` — array of all 10 regional diaries
 - Regions: Ardougne, Desert, Fremennik, Kandarin, Karamja, Kourend & Kebos, Lumbridge & Draynor, Morytania, Varrock, Wilderness
 - Each diary includes Easy/Medium/Hard/Elite tasks with full requirement breakdowns
+- `DiaryTool` — account-bound task checks:
+  - `canCompleteTask(task)` / `canCompleteLevel(level)` — checks Level/Quest/CombatLevel/QuestPoint requirements
+  - `getCompletableTasks(source)` / `getRemainingTasks(source)` — accepts a full `Diary` or a single `DiaryLevel`
+  - `getDiaryProgress(diary)` — completable/remaining/total breakdown per tier
+
+### Combat Achievements (`osrs-tools/combat-achievements`)
+
+- All 637 tasks across six tiers (Easy 41 / Medium 60 / Hard 85 / Elite 162 / Master 168 / Grandmaster 121), sourced from the OSRS Wiki
+- `ALL_COMBAT_ACHIEVEMENT_TASKS`, `EASY_COMBAT_ACHIEVEMENTS` ... `GRANDMASTER_COMBAT_ACHIEVEMENTS` — task lists per tier
+- `getCombatAchievementByName(name)`, `getCombatAchievementsByTier(tier)`, `getCombatAchievementsByMonster(monster)`
+- `COMBAT_ACHIEVEMENT_REWARD_TIERS` — the 6 cumulative point thresholds (41/161/416/1064/1904/2630) and their reward text
+- `CombatAchievementTool`:
+  - `hasEngagedMonster(task)` — best-effort accessibility signal from the account's boss kill count; task completion itself isn't exposed via hiscores and can't be verified
+  - `getAccessibleTasks(tasks)` / `getInaccessibleTasks(tasks)`
+  - `calculatePoints(completedTaskNames)` — points for a caller-supplied list of completed task names
+  - `getUnlockedRewardTiers(points)` / `getNextRewardTier(points)`
+  - `getProgress(completedTaskNames)` — full per-tier breakdown plus unlocked/next reward tiers
+
+```typescript
+import { CombatAchievementTool } from "osrs-tools/combat-achievements";
+
+const caTool = new CombatAchievementTool(account);
+const progress = caTool.getProgress(["Barrows Novice", "Noxious Foe"]);
+console.log(progress.totalPoints, progress.nextRewardTier?.tier);
+```
 
 ### Clue Scroll Simulation
 
@@ -285,7 +316,8 @@ src/
     │   ├── account/                  # OsrsAccount, Skill enum, SKILL_METADATA
     │   │   └── skills/unlocks/       # AttackUnlocks, SkillUnlock
     │   ├── clue/                     # ClueScrollHelper, ClueScrollRewards
-    │   ├── diaries/                  # 10 regional diary modules
+    │   ├── diaries/                  # 10 regional diary modules + DiaryTool
+    │   ├── combat-achievements/      # 637 tasks (6 tiers), reward tiers, CombatAchievementTool
     │   ├── guilds/
     │   │   └── hunter/               # HunterGuild, HunterGuildMaster, Rumours, RumourLocation
     │   ├── items/                    # Item, ClueRewards, QuestItems
@@ -311,6 +343,7 @@ test/
 └── unit/
     ├── account/
     ├── diaries/
+    ├── combat-achievements/
     ├── quest/
     ├── slayer/
     ├── model/

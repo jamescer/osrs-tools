@@ -1,6 +1,6 @@
 {
   "name": "osrs-tools",
-  "version": "2.9.5",
+  "version": "2.10.0",
   "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and general game information",
   "license": "MIT",
   "sideEffects": false,

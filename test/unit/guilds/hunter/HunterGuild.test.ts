@@ -13,7 +13,7 @@ describe('HunterGuild', () => {
   ];
 
   beforeEach(() => {
-    masters.forEach((name) => guild.setMasterCurrentRumour(name, ''));
+    masters.forEach(name => guild.setMasterCurrentRumour(name, ''));
   });
 
   it('finds masters and returns all masters without mutating the internal array', () => {
@@ -50,7 +50,7 @@ describe('HunterGuild', () => {
 
     const eligible = guild.getEligibleRumours('Cervus', 57, []);
 
-    expect(eligible.every((rumour) => rumour.id !== 'tropical-wagtail')).toBe(true);
+    expect(eligible.every(rumour => rumour.id !== 'tropical-wagtail')).toBe(true);
   });
 
   it('assigns a rumour when eligible and returns a valid assignment', () => {

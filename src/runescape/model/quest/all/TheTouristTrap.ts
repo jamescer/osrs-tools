@@ -15,10 +15,7 @@ const TheTouristTrap: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [
-    new LevelRequirement('Smithing', 10, false),
-    new LevelRequirement('Thieving', 20, false),
-  ],
+  requirements: [new LevelRequirement('Smithing', 10, false), new LevelRequirement('Thieving', 20, false)],
   rewards: {
     areas: [],
     experience: [],

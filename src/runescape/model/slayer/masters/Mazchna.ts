@@ -15,20 +15,20 @@ import { registerMaster } from './registry';
  * Accessible at combat level 20 in Canifis
  */
 export const Mazchna = new SlayerMaster({
-  name: 'Mazchna',
-  location: 'Canifis',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Mazchna',
-  minimumCombatLevel: 20,
-  tasks: mazchnaTasks,
-  pointsTable: POINTS_TABLE.STANDARD,
   eliteDiaryTaskPoints: {
     1: 2,
     10: 5,
-    50: 15,
     100: 50,
-    250: 70,
     1000: 100,
+    250: 70,
+    50: 15,
   },
+  location: 'Canifis',
+  minimumCombatLevel: 20,
+  name: 'Mazchna',
+  pointsTable: POINTS_TABLE.STANDARD,
+  tasks: mazchnaTasks,
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Mazchna',
 });
 
 // Register in the masters registry

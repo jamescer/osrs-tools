@@ -14,10 +14,7 @@ const Ratcatchers: Quest = {
   questPoints: 2,
   recommendations: [
     {
-      alternatives: [
-        'Any type of raw or cooked fish (except leaping trout/leaping salmon)',
-        'Raw karambwanji',
-      ],
+      alternatives: ['Any type of raw or cooked fish (except leaping trout/leaping salmon)', 'Raw karambwanji'],
       name: 'Fish to heal your cat',
       note: '8-10 recommended',
       quantity: 8,

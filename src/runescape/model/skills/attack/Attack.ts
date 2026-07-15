@@ -1,4 +1,3 @@
-
 import { Skill } from '../Skill';
 import { AttackUnlocks } from './AttackLevelUnlocks';
 
@@ -20,5 +19,4 @@ export class Attack implements Skill {
     this.name = 'Attack';
     this.unlocks = [...AttackUnlocks];
   }
-
 }

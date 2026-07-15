@@ -113,9 +113,7 @@ export class DropRoll {
 
   getDrop(itemId: string): NpcDrop | undefined {
     if (this.isWeighted) {
-      return (this.drops as WeightedDropTable)
-        .getDrops()
-        .find(w => w.drop.item === itemId)?.drop;
+      return (this.drops as WeightedDropTable).getDrops().find(w => w.drop.item === itemId)?.drop;
     } else {
       return (this.drops as NpcDrop[]).find(d => d.item === itemId);
     }
@@ -167,11 +165,7 @@ export class CompleteDropTable {
   /**
    * Add a weighted roll (e.g., rare drop table)
    */
-  addWeightedRoll(
-    name: string,
-    table: WeightedDropTable,
-    chance: string | number = 'Always',
-  ): void {
+  addWeightedRoll(name: string, table: WeightedDropTable, chance: string | number = 'Always'): void {
     const chanceStr = typeof chance === 'string' ? chance : `1/${chance}`;
     this.addRoll(new DropRoll(name, table, chanceStr));
   }
@@ -191,13 +185,11 @@ export class CompleteDropTable {
 
     for (const roll of this.rolls) {
       if (roll.isWeighted) {
-        (roll.drops as WeightedDropTable)
-          .getDrops()
-          .forEach((w: WeightedDrop) => {
-            if (!allDrops.find(d => d.item === w.drop.item)) {
-              allDrops.push(w.drop);
-            }
-          });
+        (roll.drops as WeightedDropTable).getDrops().forEach((w: WeightedDrop) => {
+          if (!allDrops.find(d => d.item === w.drop.item)) {
+            allDrops.push(w.drop);
+          }
+        });
       } else {
         (roll.drops as NpcDrop[]).forEach(drop => {
           if (!allDrops.find(d => d.item === drop.item)) {
@@ -258,7 +250,7 @@ export class CompleteDropTable {
       } else {
         // Average flat drops
         const flat = roll.drops as NpcDrop[];
-        let rollAverage = flat.reduce((sum, drop) => {
+        const rollAverage = flat.reduce((sum, drop) => {
           const qty = drop.quantity;
           const min = Array.isArray(qty) ? qty[0] : qty;
           return sum + min;
@@ -336,16 +328,13 @@ export function createZulrahDropTable(): CompleteDropTable {
 
   // Primary roll - always happens, multiple drops
   const primaryDrops = [
-    new NpcDrop('Zulrah\'s Scales', [20, 40], 'Always'),
+    new NpcDrop("Zulrah's Scales", [20, 40], 'Always'),
     new NpcDrop('Snake Hides', [10, 20], 'Always'),
   ];
   table.addSimpleRoll('Primary', primaryDrops);
 
   // Secondary roll - always happens, single drop
-  const secondaryDrops = [
-    new NpcDrop('Torstol', [2, 4], 'Always'),
-    new NpcDrop('Snapdragon', [3, 5], 'Always'),
-  ];
+  const secondaryDrops = [new NpcDrop('Torstol', [2, 4], 'Always'), new NpcDrop('Snapdragon', [3, 5], 'Always')];
   table.addSimpleRoll('Secondary', secondaryDrops);
 
   // Rare roll - 4/128 chance, weighted drops
@@ -383,16 +372,11 @@ export function createSharedGWDRareTable(): SharedRareDropTable {
 /**
  * Example 4: Using shared rare table in an NPC
  */
-export function createGeneralGraardorDropTable(
-  sharedRareTable: SharedRareDropTable,
-): CompleteDropTable {
+export function createGeneralGraardorDropTable(sharedRareTable: SharedRareDropTable): CompleteDropTable {
   const table = new CompleteDropTable('General Graardor');
 
   // Standard drops
-  const standardDrops = [
-    new NpcDrop('Coins', [1000, 5000], 'Always'),
-    new NpcDrop('Bandos Boots', 1, '1/50'),
-  ];
+  const standardDrops = [new NpcDrop('Coins', [1000, 5000], 'Always'), new NpcDrop('Bandos Boots', 1, '1/50')];
   table.addSimpleRoll('Standard', standardDrops);
 
   // Share rare table (1/512 for unique)
@@ -412,7 +396,10 @@ export function demonstrateComplexDropSystems(): void {
   console.log('\n=== WOMAN (Simple) ===');
   const woman = createWomanDropTable();
   console.log(woman.toString());
-  console.log('Possible drops:', woman.getAllPossibleDrops().map(d => d.item));
+  console.log(
+    'Possible drops:',
+    woman.getAllPossibleDrops().map(d => d.item),
+  );
 
   console.log('\n=== ZULRAH (Complex Multi-Roll) ===');
   const zulrah = createZulrahDropTable();
@@ -427,7 +414,10 @@ export function demonstrateComplexDropSystems(): void {
   console.log('\n=== GENERAL GRAARDOR (Uses Shared Rare) ===');
   const graardor = createGeneralGraardorDropTable(sharedRare);
   console.log(graardor.toString());
-  console.log('Possible drops:', graardor.getAllPossibleDrops().map(d => d.item));
+  console.log(
+    'Possible drops:',
+    graardor.getAllPossibleDrops().map(d => d.item),
+  );
 
   // Find a specific drop
   const bandosHilt = graardor.findDrop('Bandos Hilt');

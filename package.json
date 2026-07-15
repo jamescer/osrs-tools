@@ -1,6 +1,6 @@
 {
   "name": "osrs-tools",
-  "version": "2.9.3",
+  "version": "2.9.4",
   "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and general game information",
   "license": "MIT",
   "sideEffects": false,
@@ -13,6 +13,9 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
     "publish-test": "npm publish --dry-run",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish",
     "postpublish": "git push && git push --tags",
     "prepublishOnly": "npm run build:npm && npm test",
     "preversion": "npm test",
@@ -35,6 +38,7 @@
     "tslib": "^2.8.1"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.31.0",
     "@eslint/eslintrc": "^3.0.0",
     "@eslint/js": "^9.0.0",
     "@types/node": "^20.0.0",

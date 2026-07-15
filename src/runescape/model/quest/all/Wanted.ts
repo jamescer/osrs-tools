@@ -1,7 +1,7 @@
 import { Skill } from '../../account/Skill';
-import { LevelRequirement, QuestRequirement } from "../../Requirement";
-import { QuestDifficulty, QuestLength } from "../enums";
-import { Quest, QuestStatus, QuestRecommendation } from "../Quest";
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestRecommendation, QuestStatus } from '../Quest';
 
 /**
  * https://oldschool.runescape.wiki/w/Wanted!
@@ -70,31 +70,31 @@ Access to the armoury of the White Knights (White equipment)
 Required for completing
  */
 const Wanted: Quest = {
-  age: "",
-  description: "A wanted man is on the loose. Can you track him down?",
+  age: '',
+  description: 'A wanted man is on the loose. Can you track him down?',
   difficulty: QuestDifficulty.Intermediate,
   id: 132,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,
-  name: "Wanted!",
+  name: 'Wanted!',
   questPoints: 1,
   recommendations: [
-    { name: "Combat", quantity: 15, type: "level" },
-    { name: "Armour and some food", type: "item" },
-    { name: "Stamina or energy potions", type: "item" },
+    { name: 'Combat', quantity: 15, type: 'level' },
+    { name: 'Armour and some food', type: 'item' },
+    { name: 'Stamina or energy potions', type: 'item' },
   ],
   recommendedPrayers: [],
   recommendedSkills: { Combat: 15 },
   requirements: [
-    new QuestRequirement("Recruitment Drive"),
-    new QuestRequirement("Black Knights Fortress"),
-    new QuestRequirement("Druidic Ritual"),
-    new QuestRequirement("The Lost Tribe"),
-    new QuestRequirement("Rune Mysteries"),
-    new QuestRequirement("Goblin Diplomacy"),
-    new QuestRequirement("Priest in Peril"),
-    new QuestRequirement("Enter the Abyss"),
+    new QuestRequirement('Recruitment Drive'),
+    new QuestRequirement('Black Knights Fortress'),
+    new QuestRequirement('Druidic Ritual'),
+    new QuestRequirement('The Lost Tribe'),
+    new QuestRequirement('Rune Mysteries'),
+    new QuestRequirement('Goblin Diplomacy'),
+    new QuestRequirement('Priest in Peril'),
+    new QuestRequirement('Enter the Abyss'),
   ],
   rewards: {
     areas: [],
@@ -105,14 +105,14 @@ const Wanted: Quest = {
     pets: [],
     points: [],
     questPoints: 1,
-    unlocks: [{ description: "Access to the armoury of the White Knights (White equipment)" }],
+    unlocks: [{ description: 'Access to the armoury of the White Knights (White equipment)' }],
   },
-  series: "Temple Knight, #2",
-  shortName: "wanted",
-  startLocation: "Falador Park",
+  series: 'Temple Knight, #2',
+  shortName: 'wanted',
+  startLocation: 'Falador Park',
   status: QuestStatus.NotStarted,
   steps: [],
-  url: "https://oldschool.runescape.wiki/w/Wanted!",
+  url: 'https://oldschool.runescape.wiki/w/Wanted!',
 };
 
 export default Wanted;

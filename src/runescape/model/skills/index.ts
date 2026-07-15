@@ -1,2 +1,2 @@
-export * from './hunter';
 export * from './attack';
+export * from './hunter';

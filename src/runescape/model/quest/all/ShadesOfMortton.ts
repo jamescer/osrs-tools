@@ -15,10 +15,7 @@ const ShadesOfMortton: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [
-    new LevelRequirement('Crafting', 20, false),
-    new LevelRequirement('Herblore', 15, false),
-  ],
+  requirements: [new LevelRequirement('Crafting', 20, false), new LevelRequirement('Herblore', 15, false)],
   rewards: {
     areas: [],
     experience: [],

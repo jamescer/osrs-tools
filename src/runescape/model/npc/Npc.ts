@@ -1,5 +1,5 @@
-import { NpcDrop } from "./NpcDrop";
-import { NpcProduct } from "./NpcProduct";
+import { NpcDrop } from './NpcDrop';
+import { NpcProduct } from './NpcProduct';
 
 // Wiki reference: https://oldschool.runescape.wiki/w/Non-player_character
 // Character stats reference: https://oldschool.runescape.wiki/w/Abyssal_demon
@@ -210,21 +210,23 @@ export class Npc {
    * Wiki reference: https://oldschool.runescape.wiki/w/Abyssal_demon (Defence sections)
    * @param attackType - Type of attack ("stab", "slash", "crush", "magic", "ranged-light", "ranged-standard", "ranged-heavy")
    */
-  getDefenseAgainst(attackType: "stab" | "slash" | "crush" | "magic" | "ranged-light" | "ranged-standard" | "ranged-heavy"): number {
+  getDefenseAgainst(
+    attackType: 'stab' | 'slash' | 'crush' | 'magic' | 'ranged-light' | 'ranged-standard' | 'ranged-heavy',
+  ): number {
     switch (attackType) {
-      case "stab":
+      case 'stab':
         return this.defences.melee.stab;
-      case "slash":
+      case 'slash':
         return this.defences.melee.slash;
-      case "crush":
+      case 'crush':
         return this.defences.melee.crush;
-      case "magic":
+      case 'magic':
         return this.defences.magic.bonus;
-      case "ranged-light":
+      case 'ranged-light':
         return this.defences.ranged.light;
-      case "ranged-standard":
+      case 'ranged-standard':
         return this.defences.ranged.standard;
-      case "ranged-heavy":
+      case 'ranged-heavy':
         return this.defences.ranged.heavy;
       default:
         return 0;
@@ -235,15 +237,15 @@ export class Npc {
    * Check if this NPC can be harmed by a specific type of damage or effect.
    * @param damageType - Type of damage/effect to check
    */
-  canBeDamagedBy(damageType: "poison" | "venom" | "cannon" | "thrall"): boolean {
+  canBeDamagedBy(damageType: 'poison' | 'venom' | 'cannon' | 'thrall'): boolean {
     switch (damageType) {
-      case "poison":
+      case 'poison':
         return this.immunities.canBePoison;
-      case "venom":
+      case 'venom':
         return this.immunities.canBeVenom;
-      case "cannon":
+      case 'cannon':
         return this.immunities.canBeCannoned;
-      case "thrall":
+      case 'thrall':
         return this.immunities.canBeThralled;
       default:
         return false;
@@ -256,66 +258,66 @@ export class Npc {
    */
   static createBasicNpc(id: number, name: string): Npc {
     return new Npc({
-      id,
-      name,
-      examine: "",
-      members: false,
-      officialWikiUrl: "",
-      combatLevel: 1,
-      locations: [],
-      drops: [],
-
-      stats: {
-        hitpoints: 10,
-        attack: 1,
-        strength: 1,
-        defence: 1,
-        magic: 1,
-        ranged: 1,
-      },
-
       aggressiveStats: {
         attackBonus: 0,
-        strengthBonus: 0,
         magicStrengthBonus: 0,
         rangedStrengthBonus: 0,
+        strengthBonus: 0,
       },
-
+      combat: {
+        attackSpeed: 4,
+        attackStyles: [],
+        hasWeaponVenom: false,
+        isAggressive: false,
+        isAttackable: true,
+        isPoisonous: false,
+        maxHit: 0,
+        respawnTime: 60,
+        weaknesses: [],
+      },
+      combatLevel: 1,
       defences: {
-        melee: {
-          stab: 0,
-          slash: 0,
-          crush: 0,
-        },
         magic: {
           bonus: 0,
           elementalWeakness: undefined,
         },
+        melee: {
+          crush: 0,
+          slash: 0,
+          stab: 0,
+        },
         ranged: {
+          heavy: 0,
           light: 0,
           standard: 0,
-          heavy: 0,
         },
       },
-
-      combat: {
-        maxHit: 0,
-        attackSpeed: 4,
-        respawnTime: 60,
-        isAggressive: false,
-        isAttackable: true,
-        attackStyles: [],
+      drops: [],
+      examine: '',
+      id,
+      immunities: {
+        canBeCannoned: true,
+        canBePoison: true,
+        canBeThralled: true,
+        canBeVenom: true,
         isPoisonous: false,
-        hasWeaponVenom: false,
-        weaknesses: [],
       },
 
-      immunities: {
-        canBePoison: true,
-        isPoisonous: false,
-        canBeVenom: true,
-        canBeCannoned: true,
-        canBeThralled: true,
+      locations: [],
+
+      members: false,
+
+      name,
+
+      officialWikiUrl: '',
+
+      stats: {
+        attack: 1,
+        defence: 1,
+        hitpoints: 10,
+        magic: 1,
+        ranged: 1,
+        strength: 1,
       },
     });
   }

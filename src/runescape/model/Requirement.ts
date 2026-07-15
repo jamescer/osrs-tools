@@ -101,7 +101,7 @@ class CombatLevelRequirement implements Requirement {
 // Quest requirement
 class QuestRequirement implements Requirement {
   static fromQuestName(arg0: string): Requirement {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
   type: RequirementType = RequirementType.Quest;
   questName: string;

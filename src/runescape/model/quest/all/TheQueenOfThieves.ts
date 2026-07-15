@@ -15,10 +15,7 @@ const TheQueenOfThieves: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [
-    new QuestRequirement('Client of Kourend'),
-    new LevelRequirement('Thieving', 20, false),
-  ],
+  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement('Thieving', 20, false)],
   rewards: {
     areas: [],
     experience: [],

@@ -17,7 +17,10 @@ const WaterfallQuest: Quest = {
   requirements: [],
   rewards: {
     areas: ['Waterfall dungeon access'],
-    experience: [{ amount: 1000, skill: 'Attack' }, { amount: 1000, skill: 'Strength' }],
+    experience: [
+      { amount: 1000, skill: 'Attack' },
+      { amount: 1000, skill: 'Strength' },
+    ],
     items: [],
     lamps: [],
     pets: [],

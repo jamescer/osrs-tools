@@ -23,10 +23,7 @@ const RecruitmentDrive: Quest = {
   ],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [
-    new QuestRequirement("Black Knights' Fortress"),
-    new QuestRequirement('Druidic Ritual'),
-  ],
+  requirements: [new QuestRequirement("Black Knights' Fortress"), new QuestRequirement('Druidic Ritual')],
   rewards: {
     experience: [
       { amount: 1000, skill: Skill.Prayer },
@@ -54,8 +51,7 @@ const RecruitmentDrive: Quest = {
   },
   series: 'Temple Knight',
   shortName: 'recruitmentDrive',
-  startLocation:
-    "Speak to Sir Amik Varze on the 3rd floor[US] of the White Knights' Castle's western tower in Falador",
+  startLocation: "Speak to Sir Amik Varze on the 3rd floor[US] of the White Knights' Castle's western tower in Falador",
   status: QuestStatus.NotStarted,
   steps: [
     "Start the quest by speaking to Sir Amik Varze in the White Knights' Castle.",

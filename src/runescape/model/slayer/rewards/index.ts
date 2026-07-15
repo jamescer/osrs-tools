@@ -3,10 +3,9 @@
  * Exports all slayer reward classes and data
  */
 
-export { SlayerUnlock } from './SlayerUnlock';
-export { SlayerExtend } from './SlayerExtend';
+export { calculateBuysCost, getBuyByItem, getBuysByCostRange, getBuysByRequirement, SLAYER_BUYS } from './buys.data';
+export { getExtendByName, getExtendsForTask, SLAYER_EXTENDS } from './extends.data';
 export { SlayerBuy } from './SlayerBuy';
-
-export { SLAYER_UNLOCKS, getUnlockByName, getUnlocksByCostRange, calculateUnlocksCost } from './unlocks.data';
-export { SLAYER_EXTENDS, getExtendByName, getExtendsForTask } from './extends.data';
-export { SLAYER_BUYS, getBuyByItem, getBuysByCostRange, getBuysByRequirement, calculateBuysCost } from './buys.data';
+export { SlayerExtend } from './SlayerExtend';
+export { SlayerUnlock } from './SlayerUnlock';
+export { calculateUnlocksCost, getUnlockByName, getUnlocksByCostRange, SLAYER_UNLOCKS } from './unlocks.data';

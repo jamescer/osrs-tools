@@ -1,11 +1,12 @@
-import { LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TowerOfLife: Quest = {
   age: 'Fifth Age',
-  description: 'Investigate a mysterious tower in Taverley where a mad alchemist is performing strange experiments on human bodies. Help put an end to the dark rituals.',
+  description:
+    'Investigate a mysterious tower in Taverley where a mad alchemist is performing strange experiments on human bodies. Help put an end to the dark rituals.',
   difficulty: QuestDifficulty.Novice,
   id: 124,
   length: QuestLength.Medium,

@@ -1,15 +1,15 @@
-import { QuestDifficulty, QuestLength } from "../enums";
-import { Quest, QuestStatus } from "../Quest";
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const TheCurseOfArrav: Quest = {
-  age: "Fifth Age",
-  description: "Battle the curse that has affected Arrav through the ages.",
+  age: 'Fifth Age',
+  description: 'Battle the curse that has affected Arrav through the ages.',
   difficulty: QuestDifficulty.Master,
   id: 170,
   length: QuestLength.Medium,
   members: true,
   miniquest: false,
-  name: "The Curse of Arrav",
+  name: 'The Curse of Arrav',
   questPoints: 2,
   recommendations: [],
   recommendedPrayers: [],
@@ -25,12 +25,12 @@ const TheCurseOfArrav: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  series: "Mahjarrat #10",
-  shortName: "The Curse of Arrav",
-  startLocation: "Varrock Palace",
+  series: 'Mahjarrat #10',
+  shortName: 'The Curse of Arrav',
+  startLocation: 'Varrock Palace',
   status: QuestStatus.NotStarted,
-  steps: ["Battle the curse of Arrav"],
-  url: "https://oldschool.runescape.wiki/w/The_Curse_of_Arrav",
+  steps: ['Battle the curse of Arrav'],
+  url: 'https://oldschool.runescape.wiki/w/The_Curse_of_Arrav',
 };
 
 export default TheCurseOfArrav;

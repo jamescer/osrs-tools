@@ -1,5 +1,5 @@
-import { Npc } from "../Npc";
-import { NpcDrop } from "../NpcDrop";
+import { Npc } from '../Npc';
+import { NpcDrop } from '../NpcDrop';
 
 /**
  * TzHaar-Xil
@@ -8,66 +8,59 @@ import { NpcDrop } from "../NpcDrop";
  * A ranged-focused TzHaar creature. Uses projectile attacks.
  */
 export const tzHaarXil = new Npc({
-  id: 1629,
-  name: "TzHaar-Xil",
-  examine: "A TzHaar creature.",
-  members: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/TzHaar-Xil",
-  combatLevel: 145,
-
-  stats: {
-    hitpoints: 125,
-    attack: 90,
-    strength: 80,
-    defence: 90,
-    magic: 65,
-    ranged: 110,
-  },
-
   aggressiveStats: {
     attackBonus: 0,
-    strengthBonus: 0,
     magicStrengthBonus: 0,
     rangedStrengthBonus: 10,
+    strengthBonus: 0,
   },
-
-  defences: {
-    melee: { stab: 45, slash: 45, crush: 45 },
-    magic: { bonus: 25, elementalWeakness: undefined },
-    ranged: { light: 35, standard: 35, heavy: 35 },
-  },
-
   combat: {
-    maxHit: 30,
     attackSpeed: 5,
-    respawnTime: 30,
+    attackStyles: ['Ranged'],
+    hasWeaponVenom: false,
     isAggressive: true,
     isAttackable: true,
-    attackStyles: ["Ranged"],
     isPoisonous: false,
-    hasWeaponVenom: false,
-    weaknesses: ["Fire spells"],
+    maxHit: 30,
+    respawnTime: 30,
+    weaknesses: ['Fire spells'],
   },
+  combatLevel: 145,
+  defences: {
+    magic: { bonus: 25, elementalWeakness: undefined },
+    melee: { crush: 45, slash: 45, stab: 45 },
+    ranged: { heavy: 35, light: 35, standard: 35 },
+  },
+  drops: [new NpcDrop('Bones', 1, 'Always'), new NpcDrop('TzHaar-Xil Hide', 1, 'Rare')],
+  examine: 'A TzHaar creature.',
+
+  id: 1629,
 
   immunities: {
-    canBePoison: true,
-    isPoisonous: false,
-    canBeVenom: true,
     canBeCannoned: true,
+    canBePoison: true,
     canBeThralled: true,
+    canBeVenom: true,
+    isPoisonous: false,
   },
 
-  locations: ["TzHaar City"],
-  drops: [
-    new NpcDrop("Bones", 1, "Always"),
-    new NpcDrop("TzHaar-Xil Hide", 1, "Rare"),
-  ],
+  locations: ['TzHaar City'],
 
-  trivia: [
-    "A ranged-focused TzHaar creature",
-    "Uses projectile attacks",
-    "Found in TzHaar City",
-  ],
+  members: true,
+
+  name: 'TzHaar-Xil',
+
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/TzHaar-Xil',
+  stats: {
+    attack: 90,
+    defence: 90,
+    hitpoints: 125,
+    magic: 65,
+    ranged: 110,
+    strength: 80,
+  },
+
+  trivia: ['A ranged-focused TzHaar creature', 'Uses projectile attacks', 'Found in TzHaar City'],
 });
 
 export default tzHaarXil;

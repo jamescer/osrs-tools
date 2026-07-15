@@ -23,7 +23,7 @@ export class Assignment {
     this.extendedAmountMin = extendedAmountMin ?? null;
     this.extendedAmountMax = extendedAmountMax ?? null;
   }
-  
+
   /**
    * Get the task name
    */

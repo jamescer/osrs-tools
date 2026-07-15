@@ -55,8 +55,7 @@ const FireAndDarkness = new SlayerExtend({
 const PedalToTheMetals = new SlayerExtend({
   cost: 100,
   name: 'Pedal to the metals',
-  notes:
-    'Number of bronze, iron and steel dragons assigned is increased to 30-50, 60-100 and 40-60, respectively.',
+  notes: 'Number of bronze, iron and steel dragons assigned is increased to 30-50, 60-100 and 40-60, respectively.',
 });
 
 const IReallyMithYou = new SlayerExtend({

@@ -1,19 +1,19 @@
-import { HunterRumour } from 'src/runescape/model/guilds/hunter/HunterRumour';
 import { HunterGuildMasterName } from 'src/runescape/model/guilds/hunter/HunterGuildMaster';
+import { HunterRumour } from 'src/runescape/model/guilds/hunter/HunterRumour';
 import { FELDIP_HUNTER_AREA } from 'src/runescape/model/guilds/hunter/RumourLocation';
 import type { HunterRumourDefinition } from 'src/runescape/model/guilds/hunter/types';
 
 describe('HunterRumour', () => {
   it('constructs correctly and clones arrays', () => {
     const definition: HunterRumourDefinition = {
-      id: 'test-rumour',
       creature: 'Test Creature',
-      method: 'Bird snare',
+      id: 'test-rumour',
       locations: [FELDIP_HUNTER_AREA],
+      masterNames: [HunterGuildMasterName.GILMAN],
+      method: 'Bird snare',
+      questRequirements: ['Bone Voyage'],
       requiredHunterLevel: 10,
       tier: 'Novice',
-      masterNames: [HunterGuildMasterName.GILMAN],
-      questRequirements: ['Bone Voyage'],
     };
 
     const rumour = new HunterRumour(definition);
@@ -32,14 +32,14 @@ describe('HunterRumour', () => {
 
   it('can determine valid masters and eligibility requirements', () => {
     const rumour = new HunterRumour({
-      id: 'test-rumour-2',
       creature: 'Another Creature',
-      method: 'Net trap',
+      id: 'test-rumour-2',
       locations: [FELDIP_HUNTER_AREA],
+      masterNames: ['Cervus'],
+      method: 'Net trap',
+      questRequirements: ['Bone Voyage'],
       requiredHunterLevel: 20,
       tier: 'Adept',
-      masterNames: ['Cervus'],
-      questRequirements: ['Bone Voyage'],
     });
 
     expect(rumour.canBeAssignedByMaster('Cervus')).toBe(true);

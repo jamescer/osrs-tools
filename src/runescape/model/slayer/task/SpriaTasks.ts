@@ -1,8 +1,4 @@
-import {
-  CombatLevelRequirement,
-  QuestRequirement,
-  SlayerLevelRequirement,
-} from '../../Requirement';
+import { CombatLevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
 import { Task } from '../Task';
 
 const spriaTasks: Task[] = [
@@ -10,11 +6,7 @@ const spriaTasks: Task[] = [
     'Banshees',
     15,
     30,
-    [
-      new SlayerLevelRequirement(15),
-      new CombatLevelRequirement(20),
-      new QuestRequirement('Priest in Peril'),
-    ],
+    [new SlayerLevelRequirement(15), new CombatLevelRequirement(20), new QuestRequirement('Priest in Peril')],
     null,
     null,
     ['Twisted Banshee'],
@@ -56,17 +48,7 @@ const spriaTasks: Task[] = [
     [],
     null,
     null,
-    [
-      'Chicken',
-      'Mounted terrorbird',
-      'Terrorbird',
-      'Rooster',
-      'Chompy bird',
-      'Seagull',
-      'Penguin',
-      'Duck',
-      'Duckling',
-    ],
+    ['Chicken', 'Mounted terrorbird', 'Terrorbird', 'Rooster', 'Chompy bird', 'Seagull', 'Penguin', 'Duck', 'Duckling'],
     6,
     [],
     0,
@@ -179,9 +161,7 @@ const spriaTasks: Task[] = [
     0,
     ['East of Lumbridge'],
   ),
-  new Task('Icefiends', 15, 20, [new CombatLevelRequirement(20)], null, null, [], 8, [], 0, [
-    'Ice Mountain',
-  ]),
+  new Task('Icefiends', 15, 20, [new CombatLevelRequirement(20)], null, null, [], 8, [], 0, ['Ice Mountain']),
   new Task(
     'Kalphite',
     15,
@@ -208,9 +188,7 @@ const spriaTasks: Task[] = [
     0,
     ['North of Nardah Fairy Ring (DLQ)', 'Karuulm Slayer Dungeon'],
   ),
-  new Task('Minotaurs', 10, 20, [new CombatLevelRequirement(7)], null, null, [], 7, [], 0, [
-    'Stronghold of Security',
-  ]),
+  new Task('Minotaurs', 10, 20, [new CombatLevelRequirement(7)], null, null, [], 7, [], 0, ['Stronghold of Security']),
   new Task(
     'Monkeys',
     15,
@@ -239,15 +217,7 @@ const spriaTasks: Task[] = [
     [],
     null,
     null,
-    [
-      'Giant rat',
-      'Dungeon rat',
-      'Crypt rat',
-      'Brine rat',
-      'Hell-Rat Behemoth',
-      'Giant crypt rat',
-      'Scurrius',
-    ],
+    ['Giant rat', 'Dungeon rat', 'Crypt rat', 'Brine rat', 'Hell-Rat Behemoth', 'Giant crypt rat', 'Scurrius'],
     7,
     [],
     0,

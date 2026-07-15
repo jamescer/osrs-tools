@@ -1,5 +1,5 @@
-import { Npc } from "../Npc";
-import { NpcDrop } from "../NpcDrop";
+import { Npc } from '../Npc';
+import { NpcDrop } from '../NpcDrop';
 
 /**
  * TzHaar-Mej
@@ -8,66 +8,59 @@ import { NpcDrop } from "../NpcDrop";
  * A magic-focused TzHaar mage. Uses fire spells.
  */
 export const tzHaarMej = new Npc({
-  id: 1630,
-  name: "TzHaar-Mej",
-  examine: "A TzHaar creature.",
-  members: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/TzHaar-Mej",
-  combatLevel: 159,
-
-  stats: {
-    hitpoints: 130,
-    attack: 80,
-    strength: 70,
-    defence: 90,
-    magic: 120,
-    ranged: 60,
-  },
-
   aggressiveStats: {
     attackBonus: 0,
-    strengthBonus: 0,
     magicStrengthBonus: 15,
     rangedStrengthBonus: 0,
+    strengthBonus: 0,
   },
-
-  defences: {
-    melee: { stab: 45, slash: 45, crush: 45 },
-    magic: { bonus: 40, elementalWeakness: undefined },
-    ranged: { light: 25, standard: 25, heavy: 25 },
-  },
-
   combat: {
-    maxHit: 33,
     attackSpeed: 5,
-    respawnTime: 30,
+    attackStyles: ['Magic'],
+    hasWeaponVenom: false,
     isAggressive: true,
     isAttackable: true,
-    attackStyles: ["Magic"],
     isPoisonous: false,
-    hasWeaponVenom: false,
-    weaknesses: ["Fire spells"],
+    maxHit: 33,
+    respawnTime: 30,
+    weaknesses: ['Fire spells'],
   },
+  combatLevel: 159,
+  defences: {
+    magic: { bonus: 40, elementalWeakness: undefined },
+    melee: { crush: 45, slash: 45, stab: 45 },
+    ranged: { heavy: 25, light: 25, standard: 25 },
+  },
+  drops: [new NpcDrop('Bones', 1, 'Always'), new NpcDrop('TzHaar-Mej Hide', 1, 'Rare')],
+  examine: 'A TzHaar creature.',
+
+  id: 1630,
 
   immunities: {
-    canBePoison: true,
-    isPoisonous: false,
-    canBeVenom: true,
     canBeCannoned: true,
+    canBePoison: true,
     canBeThralled: true,
+    canBeVenom: true,
+    isPoisonous: false,
   },
 
-  locations: ["TzHaar City"],
-  drops: [
-    new NpcDrop("Bones", 1, "Always"),
-    new NpcDrop("TzHaar-Mej Hide", 1, "Rare"),
-  ],
+  locations: ['TzHaar City'],
 
-  trivia: [
-    "A magic-focused TzHaar mage",
-    "Uses fire spells in combat",
-    "Strongest TzHaar variant",
-  ],
+  members: true,
+
+  name: 'TzHaar-Mej',
+
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/TzHaar-Mej',
+  stats: {
+    attack: 80,
+    defence: 90,
+    hitpoints: 130,
+    magic: 120,
+    ranged: 60,
+    strength: 70,
+  },
+
+  trivia: ['A magic-focused TzHaar mage', 'Uses fire spells in combat', 'Strongest TzHaar variant'],
 });
 
 export default tzHaarMej;

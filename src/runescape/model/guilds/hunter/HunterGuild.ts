@@ -1,7 +1,7 @@
-import { HunterRumourTier, HunterRumourAssignment } from './types';
-import { HunterRumour } from './HunterRumour';
 import { HunterGuildMaster, HunterGuildMasterName } from './HunterGuildMaster';
+import { HunterRumour } from './HunterRumour';
 import { HUNTER_RUMOUR_REGISTRY } from './Rumours';
+import { HunterRumourAssignment, HunterRumourTier } from './types';
 
 /**
  * Defines the Hunter Guild Masters and their properties, including the minimum Hunter level required to receive rumours from them, whether they require the completion of "At First Light" to assign rumours, and the tier of rumours they provide. The HunterGuild class provides methods to retrieve masters by name, get all masters, retrieve rumours by ID, determine eligible rumours for a player based on their level and completed quests, and assign a rumour to a player while ensuring all eligibility criteria are met. The Hunter Guild module serves as the central hub for all logic related to the Hunter Guild, its masters, and the assignment of rumours to players.
@@ -34,12 +34,12 @@ export class HunterGuild {
 
   constructor(completedQuests: string[] = []) {
     this.completedQuests = completedQuests ?? [];
-    this.gilman = HUNTER_GUILD_MASTERS.find((master) => master.name === 'Gilman')!;
-    this.cervus = HUNTER_GUILD_MASTERS.find((master) => master.name === 'Cervus')!;
-    this.ornus = HUNTER_GUILD_MASTERS.find((master) => master.name === 'Ornus')!;
-    this.aco = HUNTER_GUILD_MASTERS.find((master) => master.name === 'Aco')!;
-    this.teco = HUNTER_GUILD_MASTERS.find((master) => master.name === 'Teco')!;
-    this.wolf = HUNTER_GUILD_MASTERS.find((master) => master.name === 'Wolf')!;
+    this.gilman = HUNTER_GUILD_MASTERS.find(master => master.name === 'Gilman')!;
+    this.cervus = HUNTER_GUILD_MASTERS.find(master => master.name === 'Cervus')!;
+    this.ornus = HUNTER_GUILD_MASTERS.find(master => master.name === 'Ornus')!;
+    this.aco = HUNTER_GUILD_MASTERS.find(master => master.name === 'Aco')!;
+    this.teco = HUNTER_GUILD_MASTERS.find(master => master.name === 'Teco')!;
+    this.wolf = HUNTER_GUILD_MASTERS.find(master => master.name === 'Wolf')!;
   }
 
   /* Getters Start */
@@ -68,12 +68,10 @@ export class HunterGuild {
     return this.wolf;
   }
 
-
-
   /* Getters end */
 
   getMasterByName(masterName: string): HunterGuildMaster | undefined {
-    return HUNTER_GUILD_MASTERS.find((master) => master.name === masterName);
+    return HUNTER_GUILD_MASTERS.find(master => master.name === masterName);
   }
 
   getAllMasters(): HunterGuildMaster[] {
@@ -81,12 +79,11 @@ export class HunterGuild {
   }
 
   getRumourById(rumourId: string): HunterRumour | undefined {
-    return HUNTER_RUMOUR_REGISTRY.find((rumour) => rumour.id === rumourId);
+    return HUNTER_RUMOUR_REGISTRY.find(rumour => rumour.id === rumourId);
   }
 
-
   doesAnyMasterHaveRumour(rumourId: string): boolean {
-    return HUNTER_GUILD_MASTERS.some((master) => master.currentRumourId === rumourId);
+    return HUNTER_GUILD_MASTERS.some(master => master.currentRumourId === rumourId);
   }
 
   setMasterCurrentRumour(masterName: string, rumourId: string) {
@@ -96,7 +93,6 @@ export class HunterGuild {
     }
   }
 
-
   assignRumourToMaster(masterName: string, rumourId: string): void {
     const master = this.getMasterByName(masterName);
     if (master) {
@@ -104,24 +100,19 @@ export class HunterGuild {
     }
   }
 
-  getEligibleRumours(
-    masterName: string,
-    hunterLevel: number,
-    completedQuests: string[] = [],
-  ): HunterRumour[] {
+  getEligibleRumours(masterName: string, hunterLevel: number, completedQuests: string[] = []): HunterRumour[] {
     const master = this.getMasterByName(masterName);
     if (!master || !master.canAssignRumour(hunterLevel, completedQuests)) {
       return [];
     }
 
     return HUNTER_RUMOUR_REGISTRY.filter(
-      (rumour) =>
+      rumour =>
         rumour.canBeAssignedByMaster(masterName) &&
         rumour.isEligible(hunterLevel, completedQuests) &&
-        !this.doesAnyMasterHaveRumour(rumour.id)
+        !this.doesAnyMasterHaveRumour(rumour.id),
     );
   }
-
 
   assignRumour(
     masterName: string,
@@ -140,13 +131,12 @@ export class HunterGuild {
     const selectedRumour = eligibleRumours[index];
 
     const assignment: HunterRumourAssignment = {
+      assignedAt: new Date(),
       id: `${masterName}-${selectedRumour.id}-${Date.now()}`,
       masterName,
       rumourId: selectedRumour.id,
-      assignedAt: new Date(),
     };
 
     return assignment;
   }
-
-};
+}

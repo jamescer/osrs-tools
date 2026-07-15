@@ -2,7 +2,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const BlackKnightsFortress: Quest = {
   age: 'First Age',
-  description: 'Infiltrate the Black Knights\' Fortress and discover their secrets.',
+  description: "Infiltrate the Black Knights' Fortress and discover their secrets.",
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -46,7 +46,7 @@ const BlackKnightsFortress: Quest = {
   startLocation: 'Just north of Falador, outside the fortress',
   status: QuestStatus.NotStarted,
   steps: [
-    'Travel north of Falador to the Black Knights\' Fortress.',
+    "Travel north of Falador to the Black Knights' Fortress.",
     'Put on disguise (bronze med helm, iron chainbody, and carry a cabbage).',
     'Enter the fortress to investigate.',
     'Gather information about the knights.',

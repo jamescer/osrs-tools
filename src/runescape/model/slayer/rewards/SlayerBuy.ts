@@ -10,13 +10,7 @@ export class SlayerBuy {
   readonly requirements?: string[];
   readonly wikiUrl?: string;
 
-  constructor(data: {
-    item: string;
-    cost: number;
-    notes: string;
-    requirements?: string[];
-    wikiUrl?: string;
-  }) {
+  constructor(data: { item: string; cost: number; notes: string; requirements?: string[]; wikiUrl?: string }) {
     this.item = data.item;
     this.cost = data.cost;
     this.notes = data.notes;

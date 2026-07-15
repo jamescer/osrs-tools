@@ -14,7 +14,7 @@ const EadgarsRuse: Quest = {
   questPoints: 3,
   recommendations: [],
   recommendedPrayers: [],
-  recommendedSkills: { Herblore: 31, Agility: 44 },
+  recommendedSkills: { Agility: 44, Herblore: 31 },
   requirements: [
     new QuestRequirement('Druidic Ritual'),
     new QuestRequirement('Troll Stronghold'),

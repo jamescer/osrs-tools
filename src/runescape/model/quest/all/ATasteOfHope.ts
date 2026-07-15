@@ -55,10 +55,7 @@ const ATasteOfHope: Quest = {
     pets: [],
     points: [],
     questPoints: 2,
-    unlocks: [
-      { description: 'Access to Darkmeyer' },
-      { description: 'Ability to use Drakan’s medallion teleport' },
-    ],
+    unlocks: [{ description: 'Access to Darkmeyer' }, { description: 'Ability to use Drakan’s medallion teleport' }],
   },
   series: 'Myreque',
   shortName: 'aTasteOfHope',

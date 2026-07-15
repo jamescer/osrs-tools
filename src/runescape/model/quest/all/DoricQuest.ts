@@ -3,8 +3,7 @@ import { QuestStatus } from '../Quest';
 
 const DoricQuest = {
   age: 'Fifth Age',
-  description:
-    'Help Doric the dwarf by gathering materials so he can make pickaxes, and earn access to his anvils.',
+  description: 'Help Doric the dwarf by gathering materials so he can make pickaxes, and earn access to his anvils.',
 
   difficulty: QuestDifficulty.Novice,
 
@@ -57,11 +56,11 @@ const DoricQuest = {
   status: QuestStatus.NotStarted,
 
   steps: [
-    "Talk to Doric in his hut north of Falador.",
+    'Talk to Doric in his hut north of Falador.',
     'Collect 6 clay and bring it back to Doric.',
     'Collect 4 copper ore and bring it back to Doric.',
     'Collect 2 iron ore and bring it back to Doric.',
-    "Collect one more ore and bring it to Doric (or obtain one from him).",
+    'Collect one more ore and bring it to Doric (or obtain one from him).',
     'Talk to Doric to complete the quest.',
   ],
 

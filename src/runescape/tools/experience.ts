@@ -7,7 +7,7 @@
  */
 export function getExperienceForLevel(level: number): number {
   if (level < 1 || level > 99) {
-    throw new Error("Level must be between 1 and 99");
+    throw new Error('Level must be between 1 and 99');
   }
 
   return LEVEL_TO_EXPERIENCE[level];
@@ -32,14 +32,6 @@ export function getLevelForExperience(exp: number): number {
  */
 export const LEVEL_TO_EXPERIENCE: Record<number, number> = {
   1: 0,
-  2: 83,
-  3: 174,
-  4: 276,
-  5: 388,
-  6: 512,
-  7: 650,
-  8: 801,
-  9: 969,
   10: 1154,
   11: 1358,
   12: 1584,
@@ -50,16 +42,24 @@ export const LEVEL_TO_EXPERIENCE: Record<number, number> = {
   17: 3115,
   18: 3523,
   19: 3973,
+  2: 83,
   20: 4470,
   21: 5018,
   22: 5624,
   23: 6291,
+  3: 174,
   24: 7028,
+  4: 276,
   25: 32578,
+  5: 388,
   26: 35339,
+  6: 512,
   27: 38186,
+  7: 650,
   28: 41171,
+  8: 801,
   29: 44361,
+  9: 969,
   30: 47622,
   31: 50908,
   32: 54949,

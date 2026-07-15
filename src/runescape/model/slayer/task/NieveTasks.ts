@@ -1,8 +1,4 @@
-import {
-  CombatLevelRequirement,
-  QuestRequirement,
-  SlayerLevelRequirement,
-} from '../../Requirement';
+import { CombatLevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
 import { Task } from '../Task';
 
 const nieveTasks: Task[] = [
@@ -10,11 +6,7 @@ const nieveTasks: Task[] = [
     'Aberrant spectres',
     40,
     90,
-    [
-      new SlayerLevelRequirement(60),
-      new CombatLevelRequirement(65),
-      new QuestRequirement('Priest in Peril'),
-    ],
+    [new SlayerLevelRequirement(60), new CombatLevelRequirement(65), new QuestRequirement('Priest in Peril')],
     null,
     null,
     ['Deviant spectres'],
@@ -58,19 +50,10 @@ const nieveTasks: Task[] = [
     0,
     ['God Wars Dungeon'],
   ),
-  new Task(
-    'Black demons',
-    40,
-    90,
-    [new CombatLevelRequirement(80)],
-    null,
-    null,
-    ['Demonic gorilla'],
-    8,
-    [],
-    0,
-    ['Taverley Dungeon', 'Catacombs of Kourend'],
-  ),
+  new Task('Black demons', 40, 90, [new CombatLevelRequirement(80)], null, null, ['Demonic gorilla'], 8, [], 0, [
+    'Taverley Dungeon',
+    'Catacombs of Kourend',
+  ]),
   new Task(
     'Black dragons',
     40,
@@ -110,28 +93,12 @@ const nieveTasks: Task[] = [
     0,
     ['Taverley Dungeon', "Myth's Guild"],
   ),
-  new Task(
-    'Cave kraken',
-    87,
-    120,
-    [new SlayerLevelRequirement(87)],
-    null,
-    null,
-    ['Kraken'],
-    8,
-    [],
-    0,
-    ['Kraken Cove'],
-  ),
+  new Task('Cave kraken', 87, 120, [new SlayerLevelRequirement(87)], null, null, ['Kraken'], 8, [], 0, ['Kraken Cove']),
   new Task(
     'Cave horrors',
     58,
     90,
-    [
-      new SlayerLevelRequirement(58),
-      new CombatLevelRequirement(40),
-      new QuestRequirement('Cabin Fever'),
-    ],
+    [new SlayerLevelRequirement(58), new CombatLevelRequirement(40), new QuestRequirement('Cabin Fever')],
     null,
     null,
     [],
@@ -209,19 +176,10 @@ const nieveTasks: Task[] = [
     0,
     ['Brimhaven Dungeon', 'Catacombs of Kourend'],
   ),
-  new Task(
-    'Hellhounds',
-    40,
-    90,
-    [new CombatLevelRequirement(75)],
-    null,
-    null,
-    ['Cerberus'],
-    8,
-    [],
-    0,
-    ['Taverley Dungeon', 'Wilderness'],
-  ),
+  new Task('Hellhounds', 40, 90, [new CombatLevelRequirement(75)], null, null, ['Cerberus'], 8, [], 0, [
+    'Taverley Dungeon',
+    'Wilderness',
+  ]),
   new Task('Iron dragons', 60, 120, [new CombatLevelRequirement(80)], null, null, [], 8, [], 0, [
     'Brimhaven Dungeon',
     'Catacombs of Kourend',
@@ -295,9 +253,7 @@ const nieveTasks: Task[] = [
     'Brimhaven Dungeon',
     'Catacombs of Kourend',
   ]),
-  new Task('Suqah', 40, 90, [new QuestRequirement('Lunar Diplomacy')], null, null, [], 8, [], 0, [
-    'Lunar Isle',
-  ]),
+  new Task('Suqah', 40, 90, [new QuestRequirement('Lunar Diplomacy')], null, null, [], 8, [], 0, ['Lunar Isle']),
   new Task(
     'Trolls',
     40,

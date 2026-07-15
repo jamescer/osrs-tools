@@ -1,5 +1,5 @@
-import { Npc } from "../Npc";
-import { NpcDrop } from "../NpcDrop";
+import { Npc } from '../Npc';
+import { NpcDrop } from '../NpcDrop';
 
 /**
  * Hans
@@ -8,59 +8,59 @@ import { NpcDrop } from "../NpcDrop";
  * The loyal servant of Duke Horacio. Hans is a non-attackable NPC.
  */
 export const hans = new Npc({
-  id: 2,
-  name: "Hans",
-  examine: "The loyal servant of Duke Horacio, found walking around Lumbridge Castle.",
-  members: false,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Hans",
-  combatLevel: 1,
-
-  stats: {
-    hitpoints: 1,
-    attack: 1,
-    strength: 1,
-    defence: 1,
-    magic: 1,
-    ranged: 1,
-  },
-
   aggressiveStats: {
     attackBonus: 0,
-    strengthBonus: 0,
     magicStrengthBonus: 0,
     rangedStrengthBonus: 0,
+    strengthBonus: 0,
   },
-
-  defences: {
-    melee: { stab: 0, slash: 0, crush: 0 },
-    magic: { bonus: 0, elementalWeakness: undefined },
-    ranged: { light: 0, standard: 0, heavy: 0 },
-  },
-
   combat: {
-    maxHit: 0,
     attackSpeed: 0,
-    respawnTime: 0,
+    attackStyles: [],
+    hasWeaponVenom: false,
     isAggressive: false,
     isAttackable: false,
-    attackStyles: [],
     isPoisonous: false,
-    hasWeaponVenom: false,
+    maxHit: 0,
+    respawnTime: 0,
     weaknesses: [],
   },
+  combatLevel: 1,
+  defences: {
+    magic: { bonus: 0, elementalWeakness: undefined },
+    melee: { crush: 0, slash: 0, stab: 0 },
+    ranged: { heavy: 0, light: 0, standard: 0 },
+  },
+  drops: [],
+  examine: 'The loyal servant of Duke Horacio, found walking around Lumbridge Castle.',
+
+  id: 2,
 
   immunities: {
-    canBePoison: false,
-    isPoisonous: false,
-    canBeVenom: false,
     canBeCannoned: false,
+    canBePoison: false,
     canBeThralled: false,
+    canBeVenom: false,
+    isPoisonous: false,
   },
 
-  locations: ["Lumbridge Castle"],
-  drops: [],
+  locations: ['Lumbridge Castle'],
 
-  trivia: ["The loyal servant of Duke Horacio", "Non-attackable NPC", "Found walking around Lumbridge Castle"],
+  members: false,
+
+  name: 'Hans',
+
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Hans',
+  stats: {
+    attack: 1,
+    defence: 1,
+    hitpoints: 1,
+    magic: 1,
+    ranged: 1,
+    strength: 1,
+  },
+
+  trivia: ['The loyal servant of Duke Horacio', 'Non-attackable NPC', 'Found walking around Lumbridge Castle'],
 });
 
 export default hans;

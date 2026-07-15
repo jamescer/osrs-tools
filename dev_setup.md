@@ -37,3 +37,13 @@ To build the npm module and generate distribution files, run the following comma
 ```bash
 npm run build
 ```
+
+## Releasing
+
+This project uses [changesets](https://github.com/changesets/changesets) to track changes and generate `CHANGELOG.md`. When you make a user-facing change:
+
+```bash
+npm run changeset
+```
+
+This prompts for the affected bump type (patch/minor/major) and a summary, and writes a changeset file to `.changeset/` — commit it alongside your change. When it's time to cut a release, `npm run changeset:version` consumes the pending changesets, bumps the version in `package.json`, and updates `CHANGELOG.md`.

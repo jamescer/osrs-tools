@@ -29,11 +29,7 @@ const ErnestTheChicken: Quest = {
   shortName: 'Ernest the Chicken',
   startLocation: 'Poultry Farm',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Talk to Farmer Fred',
-    'Find Ernest the chicken',
-    'Return Ernest to Farmer Fred',
-  ],
+  steps: ['Talk to Farmer Fred', 'Find Ernest the chicken', 'Return Ernest to Farmer Fred'],
   url: 'https://oldschool.runescape.wiki/w/Ernest_the_Chicken',
 };
 

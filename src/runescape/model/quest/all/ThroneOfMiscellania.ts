@@ -1,11 +1,12 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ThroneOfMiscellania: Quest = {
   age: 'Fifth Age',
-  description: 'A king has gone missing on the island of Miscellania. Investigate the disappearance, challenge for leadership, and restore order to the troubled kingdom.',
+  description:
+    'A king has gone missing on the island of Miscellania. Investigate the disappearance, challenge for leadership, and restore order to the troubled kingdom.',
   difficulty: QuestDifficulty.Novice,
   id: 123,
   length: QuestLength.Medium,
@@ -20,9 +21,9 @@ const ThroneOfMiscellania: Quest = {
   ],
   recommendedPrayers: [],
   recommendedSkills: {
-    Woodcutting: 45,
-    Mining: 30,
     Fishing: 30,
+    Mining: 30,
+    Woodcutting: 45,
   },
   requirements: [
     new QuestRequirement("Heroes' Quest"),

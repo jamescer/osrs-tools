@@ -1,8 +1,8 @@
 // URL: https://oldschool.runescape.wiki/w/Scrambled!
 
 import { Skill } from '../../account/Skill';
-import { Quest, QuestStatus } from '../Quest';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const Scrambled: Quest = {
   age: '',

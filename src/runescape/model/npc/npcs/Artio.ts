@@ -1,5 +1,5 @@
-import { Npc } from "../Npc";
-import { NpcDrop } from "../NpcDrop";
+import { Npc } from '../Npc';
+import { NpcDrop } from '../NpcDrop';
 
 /**
  * Artio
@@ -7,52 +7,56 @@ import { NpcDrop } from "../NpcDrop";
  * Wiki: https://oldschool.runescape.wiki/w/Artio
  */
 export const artio = new Npc({
-  id: 23185,
-  name: "Artio",
-  examine: "A rare boss bear.",
-  members: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Artio",
-  combatLevel: 225,
-  stats: {
-    hitpoints: 350,
-    attack: 160,
-    strength: 170,
-    defence: 150,
-    magic: 60,
-    ranged: 70,
-  },
   aggressiveStats: {
     attackBonus: 110,
-    strengthBonus: 120,
     magicStrengthBonus: 0,
     rangedStrengthBonus: 0,
-  },
-  defences: {
-    melee: { stab: 35, slash: 45, crush: 30 },
-    magic: { bonus: 15, elementalWeakness: "None" },
-    ranged: { light: 40, standard: 40, heavy: 40 },
+    strengthBonus: 120,
   },
   combat: {
-    maxHit: 40,
     attackSpeed: 5,
-    respawnTime: 30,
+    attackStyles: ['Crush'],
+    hasWeaponVenom: false,
     isAggressive: true,
     isAttackable: true,
-    attackStyles: ["Crush"],
     isPoisonous: false,
-    hasWeaponVenom: false,
+    maxHit: 40,
+    respawnTime: 30,
     weaknesses: [],
   },
-  immunities: {
-    canBePoison: true,
-    isPoisonous: false,
-    canBeVenom: true,
-    canBeCannoned: true,
-    canBeThralled: true,
+  combatLevel: 225,
+  defences: {
+    magic: { bonus: 15, elementalWeakness: 'None' },
+    melee: { crush: 30, slash: 45, stab: 35 },
+    ranged: { heavy: 40, light: 40, standard: 40 },
   },
-  locations: ["Wilderness"],
-  drops: [new NpcDrop("Bones", 1, "Always")],
-  trivia: ["Artio is one of the rarest creatures in the entire world.", "This bear is a powerful wilderness encounter.", "It is found hunting in the deepest parts of the Wilderness."],
+  drops: [new NpcDrop('Bones', 1, 'Always')],
+  examine: 'A rare boss bear.',
+  id: 23185,
+  immunities: {
+    canBeCannoned: true,
+    canBePoison: true,
+    canBeThralled: true,
+    canBeVenom: true,
+    isPoisonous: false,
+  },
+  locations: ['Wilderness'],
+  members: true,
+  name: 'Artio',
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Artio',
+  stats: {
+    attack: 160,
+    defence: 150,
+    hitpoints: 350,
+    magic: 60,
+    ranged: 70,
+    strength: 170,
+  },
+  trivia: [
+    'Artio is one of the rarest creatures in the entire world.',
+    'This bear is a powerful wilderness encounter.',
+    'It is found hunting in the deepest parts of the Wilderness.',
+  ],
 });
 
 export default artio;

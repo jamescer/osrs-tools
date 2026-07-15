@@ -1,16 +1,14 @@
-
 import type { HunterRumour } from './HunterRumour';
-import { HunterRumourTier } from './types';
 import { HUNTER_RUMOUR_REGISTRY } from './Rumours';
+import { HunterRumourTier } from './types';
 
 export const HunterGuildMasterName = {
-  GILMAN : { name: 'Gilman' },
-  CERVUS : { name: 'Cervus' },
-  ORNUS : { name: 'Ornus' },
-  ACO : { name: 'Aco' },
-  TECO : { name: 'Teco' }
-}
-
+  ACO: { name: 'Aco' },
+  CERVUS: { name: 'Cervus' },
+  GILMAN: { name: 'Gilman' },
+  ORNUS: { name: 'Ornus' },
+  TECO: { name: 'Teco' },
+};
 
 /**
  * Represents a Hunter Guild Master, who can assign rumours to players based on their
@@ -29,19 +27,13 @@ export class HunterGuildMaster {
   readonly requiresAtFirstLight: boolean; // whether the master requires completion of "At First Light" to assign their rumours
   currentRumourId: string; // the ID of the currently assigned rumour, if any
 
-  constructor(
-    name: string,
-    tier: HunterRumourTier,
-    minimumLevel: number,
-    requiresAtFirstLight = false,
-  ) {
+  constructor(name: string, tier: HunterRumourTier, minimumLevel: number, requiresAtFirstLight = false) {
     this.name = name;
     this.tier = tier;
     this.minimumLevel = minimumLevel;
     this.requiresAtFirstLight = requiresAtFirstLight;
     this.currentRumourId = '';
   }
-
 
   public canAssignRumour(hunterLevel: number, completedQuests: string[] = []): boolean {
     if (hunterLevel < this.minimumLevel) {
@@ -67,9 +59,8 @@ export class HunterGuildMaster {
   }
 
   get rumoursThatCanBeAssigned(): HunterRumour[] {
-    return HUNTER_RUMOUR_REGISTRY.filter((rumour) => rumour.canBeAssignedByMaster(this.name));
+    return HUNTER_RUMOUR_REGISTRY.filter(rumour => rumour.canBeAssignedByMaster(this.name));
   }
-
 
   /**
    * When having a master assign a Hunter Rumour, it needs to check all the current assigned rumours from the other masters;
@@ -80,10 +71,9 @@ export class HunterGuildMaster {
    * @param otherMasterRumours
    */
   public getRandomRumour(eligibleRumours: HunterRumour[], otherMasterRumours: HunterRumour[]): HunterRumour {
+    const otherAssignedRumourIds = new Set(otherMasterRumours.map(rumour => rumour.id));
 
-    const otherAssignedRumourIds = new Set(otherMasterRumours.map((rumour) => rumour.id));
-
-    const assignableRumours = eligibleRumours.filter((rumour) => !otherAssignedRumourIds.has(rumour.id));
+    const assignableRumours = eligibleRumours.filter(rumour => !otherAssignedRumourIds.has(rumour.id));
 
     if (assignableRumours.length === 0) {
       throw new Error(`No assignable rumours available for master ${this.name}`);
@@ -92,6 +82,4 @@ export class HunterGuildMaster {
     const randomIndex = Math.floor(Math.random() * assignableRumours.length);
     return assignableRumours[randomIndex];
   }
-
-
 }

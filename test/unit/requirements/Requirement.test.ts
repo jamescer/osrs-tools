@@ -1,7 +1,16 @@
 // Comprehensive tests for all requirement types
-import { CombatLevelRequirement, ItemRequirement, LocationRequirement, QuestPointRequirement, QuestRequirement, RequirementType, SlayerLevelRequirement, SlayerUnlockRequirement, } from 'src/runescape/model/Requirement';
-import { LevelRequirement } from 'src/runescape/model/Requirement';
 import { Skill } from 'src/runescape/model/account/Skill';
+import {
+  CombatLevelRequirement,
+  ItemRequirement,
+  LocationRequirement,
+  QuestPointRequirement,
+  QuestRequirement,
+  RequirementType,
+  SlayerLevelRequirement,
+  SlayerUnlockRequirement,
+} from 'src/runescape/model/Requirement';
+import { LevelRequirement } from 'src/runescape/model/Requirement';
 
 /**
  * Comprehensive test suite for Requirement classes
@@ -107,8 +116,8 @@ describe('Requirement - Quest, item, and level requirements', () => {
 
     it('should include optional description suffixes', () => {
       const req = new ItemRequirement('Stamina potion', 2, {
-        consumed: false,
         alternatives: ['Energy potion', 'Super energy'],
+        consumed: false,
         noted: true,
         notes: 'for agility shortcut',
       });

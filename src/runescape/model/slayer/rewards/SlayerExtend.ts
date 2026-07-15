@@ -9,12 +9,7 @@ export class SlayerExtend {
   readonly notes: string;
   readonly appliesTo?: string[];
 
-  constructor(data: {
-    name: string;
-    cost: number;
-    notes: string;
-    appliesTo?: string[];
-  }) {
+  constructor(data: { name: string; cost: number; notes: string; appliesTo?: string[] }) {
     this.name = data.name;
     this.cost = data.cost;
     this.notes = data.notes;

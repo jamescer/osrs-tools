@@ -268,6 +268,7 @@ class OsrsAccount {
       clues: this.#clues,
       collectionsLogged: this.#collectionsLogged,
       colosseumGlory: this.#colosseumGlory,
+      combatLevel: this.combatLevel,
       deadmanPoints: this.#deadmanPoints,
       lastManStanding: this.#lastManStanding,
       leaguePoints: this.#leaguePoints,
@@ -277,7 +278,6 @@ class OsrsAccount {
       riftsClosed: this.#riftsClosed,
       skills: this.#skills,
       soulWarsZeal: this.#soulWarsZeal,
-      combatLevel: this.combatLevel,
       totalLevel: this.totalLevel,
       totalXp: this.totalXp,
     };

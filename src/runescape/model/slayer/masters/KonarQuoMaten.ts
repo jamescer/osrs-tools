@@ -15,20 +15,20 @@ import { registerMaster } from './registry';
  * Requires combat level 75 and access to Mount Karuulm
  */
 export const KonarQuoMaten = new SlayerMaster({
-  name: 'Konar Quo Maten',
-  location: 'Mount Karuulm',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Konar_Quo_Maten',
-  minimumCombatLevel: 75,
-  tasks: konarTasks,
-  pointsTable: POINTS_TABLE.STANDARD,
   eliteDiaryTaskPoints: {
     1: 2,
     10: 5,
-    50: 15,
     100: 50,
-    250: 70,
     1000: 100,
+    250: 70,
+    50: 15,
   },
+  location: 'Mount Karuulm',
+  minimumCombatLevel: 75,
+  name: 'Konar Quo Maten',
+  pointsTable: POINTS_TABLE.STANDARD,
+  tasks: konarTasks,
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Konar_Quo_Maten',
 });
 
 // Register in the masters registry

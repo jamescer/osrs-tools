@@ -1,16 +1,16 @@
-import { Skill } from "../../account/Skill";
-import { LevelRequirement } from "../../Requirement";
-import { QuestDifficulty, QuestLength } from "../enums";
-import { Quest, QuestStatus } from "../Quest";
+import { Skill } from '../../account/Skill';
+import { LevelRequirement } from '../../Requirement';
+import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 const Watchtower: Quest = {
-  age: "",
-  description: "",
+  age: '',
+  description: '',
   difficulty: QuestDifficulty.Experienced,
   id: 133,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  name: "Watchtower",
+  name: 'Watchtower',
   questPoints: 3,
   recommendations: [],
   recommendedPrayers: [],
@@ -36,12 +36,12 @@ const Watchtower: Quest = {
     unlocks: [],
   },
   series: null,
-  shortName: "watchtower",
+  shortName: 'watchtower',
 
-  startLocation: "",
+  startLocation: '',
   status: QuestStatus.NotStarted,
   steps: [],
-  url: "https://oldschool.runescape.wiki/w/Watchtower",
+  url: 'https://oldschool.runescape.wiki/w/Watchtower',
 };
 
 export default Watchtower;

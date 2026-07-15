@@ -6,8 +6,15 @@
  * Each tier has unique mechanics documented in the reward casket pages
  */
 
-import { Item } from "../items/Item";
-import { getClueRewardsByTier, getClueRewardTables } from "./ClueScrollRewards";
+import { Item } from '../items/Item';
+import { getClueRewardsByTier, getClueRewardTables, RewardEntry } from './ClueScrollRewards';
+
+export type ClueTier = 'beginner' | 'easy' | 'medium' | 'hard' | 'elite' | 'master';
+
+/** A source of randomness in [0, 1), same shape as Math.random. */
+export type Rng = () => number;
+
+type RewardTable = ReturnType<typeof getClueRewardsByTier>;
 
 /**
  * Result of opening a casket - contains all rewards obtained
@@ -28,6 +35,51 @@ export interface CasketReward {
 const ELITE_MIMIC_BASE_CHANCE = 1 / 35;
 
 //======================================================================================
+// RANDOMNESS - single object carrying the RNG, instead of a bare function
+// threaded through every roll helper
+//======================================================================================
+
+/**
+ * Wraps a source of randomness (defaulting to Math.random) with the specific
+ * kinds of rolls a casket needs. Callers pass one Roller around instead of a
+ * raw `() => number` plus the arithmetic for each kind of roll.
+ */
+class Roller {
+  constructor(private readonly rng: Rng = Math.random) {}
+
+  /** True with the given probability, e.g. roller.chance(1 / 50). */
+  chance(probability: number): boolean {
+    return this.rng() < probability;
+  }
+
+  /** Uniform random integer in [min, max], inclusive. */
+  intRange(min: number, max: number): number {
+    return Math.floor(this.rng() * (max - min + 1)) + min;
+  }
+
+  /** Picks one item from a list, weighted by weightOf(item). */
+  pickWeighted<T>(items: readonly T[], weightOf: (item: T) => number): T {
+    const totalWeight = items.reduce((sum, item) => sum + weightOf(item), 0);
+    const roll = this.rng() * totalWeight;
+    let cumulative = 0;
+
+    for (const item of items) {
+      cumulative += weightOf(item);
+      if (roll < cumulative) {
+        return item;
+      }
+    }
+
+    return items[items.length - 1];
+  }
+
+  /** Picks one of several fixed outcomes, e.g. [[1, 0.25], [2, 0.5], [3, 0.25]]. */
+  weightedValue<T>(outcomes: ReadonlyArray<readonly [T, number]>): T {
+    return this.pickWeighted(outcomes, ([, weight]) => weight)[0];
+  }
+}
+
+//======================================================================================
 // CORE UTILITY METHODS - Wiki Rarity Driven Selection
 //======================================================================================
 
@@ -40,101 +92,80 @@ function cloneItemWithQuantity(item: Item, quantity: number): Item {
 function toCanonicalRewardName(rewardKey: string): string {
   // Keep canonical suffixes that are real item names, but strip quantity-range descriptors.
   if (/\((?:\d|\d+k|\d+-\d+|\d+k-\d+k)/i.test(rewardKey)) {
-    return rewardKey.replace(/\s*\((?:\d|\d+k|\d+-\d+|\d+k-\d+k)[^)]*\)$/i, "").trim();
+    return rewardKey.replace(/\s*\((?:\d|\d+k|\d+-\d+|\d+k-\d+k)[^)]*\)$/i, '').trim();
   }
 
   return rewardKey;
 }
 
-function canonicalizeRewardItem(rewardKey: string, reward: { item: Item; quantity?: number; quantityMin?: number; quantityMax?: number }): Item {
-  const canonicalName = toCanonicalRewardName(rewardKey);
-  const canonicalized = cloneItemWithQuantity(reward.item, resolveRewardQuantity(reward));
-  canonicalized.name = canonicalName;
-  canonicalized.officialWikiUrl = `https://oldschool.runescape.wiki/w/${canonicalName.replace(/ /g, "_")}`;
-  return canonicalized;
-}
-
-function resolveRewardQuantity(reward: { quantity?: number; quantityMin?: number; quantityMax?: number }): number {
-  if (typeof reward.quantity === "number") {
+function resolveRewardQuantity(reward: RewardEntry, roller: Roller): number {
+  if (typeof reward.quantity === 'number') {
     return reward.quantity;
   }
 
-  if (typeof reward.quantityMin === "number" && typeof reward.quantityMax === "number") {
-    const min = Math.ceil(reward.quantityMin);
-    const max = Math.floor(reward.quantityMax);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+  if (typeof reward.quantityMin === 'number' && typeof reward.quantityMax === 'number') {
+    return roller.intRange(Math.ceil(reward.quantityMin), Math.floor(reward.quantityMax));
   }
 
   return 1;
 }
 
-function rollTierReward(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master", excludeMasterClue = true): Item {
+function canonicalizeRewardItem(rewardKey: string, reward: RewardEntry, roller: Roller): Item {
+  const canonicalName = toCanonicalRewardName(rewardKey);
+  const canonicalized = cloneItemWithQuantity(reward.item, resolveRewardQuantity(reward, roller));
+  canonicalized.name = canonicalName;
+  canonicalized.officialWikiUrl = `https://oldschool.runescape.wiki/w/${canonicalName.replace(/ /g, '_')}`;
+  return canonicalized;
+}
+
+/** Rolls one reward from a tier's flattened table, weighted by 1/rarity. */
+function rollTierReward(tier: ClueTier, roller: Roller, excludeMasterClue = true): Item {
   const rewards = getClueRewardsByTier(tier);
-  const entries = Object.entries(rewards).filter(([name]) => !(excludeMasterClue && name === "Clue scroll (master)"));
+  const entries = Object.entries(rewards).filter(([name]) => !(excludeMasterClue && name === 'Clue scroll (master)'));
 
   if (entries.length === 0) {
     throw new Error(`No rewards configured for tier: ${tier}`);
   }
 
-  const totalWeight = entries.reduce((sum, [, reward]) => sum + 1 / reward.rarity, 0);
-  const roll = Math.random() * totalWeight;
-  let cumulative = 0;
-
-  for (const [rewardKey, reward] of entries) {
-    cumulative += 1 / reward.rarity;
-    if (roll < cumulative) {
-      return canonicalizeRewardItem(rewardKey, reward);
-    }
-  }
-
-  const [fallbackKey, fallbackReward] = entries[entries.length - 1];
-  return canonicalizeRewardItem(fallbackKey, fallbackReward);
+  const [rewardKey, reward] = roller.pickWeighted(entries, ([, entry]) => 1 / entry.rarity);
+  return canonicalizeRewardItem(rewardKey, reward, roller);
 }
 
 /**
  * Rolls the primary reward for a tier, which may involve weighted table selection if multiple tables exist.
  * This handles the multi-table mechanics for beginner clues and any future tiers that may have them.
  * @param tier  The clue tier to roll a reward for
+ * @param roller The roller to draw randomness from
  *
  * @returns An Item representing the rolled reward, with canonicalized name and resolved quantity
  */
-function rollTierPrimaryReward(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master"): Item {
+function rollTierPrimaryReward(tier: ClueTier, roller: Roller): Item {
   const tierTables = getClueRewardTables(tier);
+  const primaryTables = tierTables?.filter(table => table.weight > 0) ?? [];
 
-  if (!tierTables) {
-    return rollTierReward(tier, true);
-  }
-
-  const primaryTables = tierTables.filter((table) => table.weight > 0);
   if (primaryTables.length === 0) {
-    return rollTierReward(tier, true);
+    return rollTierReward(tier, roller);
   }
 
-  const totalWeight = primaryTables.reduce((sum, table) => sum + table.weight, 0);
-  const tableRoll = Math.random() * totalWeight;
-  let cumulativeWeight = 0;
+  const table = roller.pickWeighted(primaryTables, t => t.weight);
+  const itemEntries = Object.entries(table.items);
+  const [rewardKey, reward] = roller.pickWeighted(itemEntries, ([, entry]) => 1 / entry.rarity);
+  return canonicalizeRewardItem(rewardKey, reward, roller);
+}
 
-  for (const table of primaryTables) {
-    cumulativeWeight += table.weight;
-    if (tableRoll < cumulativeWeight) {
-      const itemEntries = Object.entries(table.items);
-      const itemWeightTotal = itemEntries.reduce((sum, [, reward]) => sum + 1 / reward.rarity, 0);
-      const itemRoll = Math.random() * itemWeightTotal;
-      let cumulativeItemWeight = 0;
+/** Rolls `count` primary rewards for a tier. */
+function rollRewards(count: number, tier: ClueTier, roller: Roller): Item[] {
+  return Array.from({ length: count }, () => rollTierPrimaryReward(tier, roller));
+}
 
-      for (const [rewardKey, reward] of itemEntries) {
-        cumulativeItemWeight += 1 / reward.rarity;
-        if (itemRoll < cumulativeItemWeight) {
-          return canonicalizeRewardItem(rewardKey, reward);
-        }
-      }
-
-      const [fallbackKey, fallbackReward] = itemEntries[itemEntries.length - 1];
-      return canonicalizeRewardItem(fallbackKey, fallbackReward);
-    }
+/** Rolls a tier's separate bonus master clue chance, if that tier offers one. */
+function rollBonusMasterClue(tierRewards: RewardTable, chance: number, roller: Roller): Item | undefined {
+  const masterClueReward = tierRewards['Clue scroll (master)'];
+  if (!masterClueReward || !roller.chance(chance)) {
+    return undefined;
   }
 
-  return rollTierReward(tier, true);
+  return cloneItemWithQuantity(masterClueReward.item, resolveRewardQuantity(masterClueReward, roller));
 }
 
 //======================================================================================
@@ -143,75 +174,75 @@ function rollTierPrimaryReward(tier: "beginner" | "easy" | "medium" | "hard" | "
 
 /**
  * Beginner: 1-3 items, weighting towards 2
- * Distribution: 25% = 1, 50% = 2, 25% = 3 (average = 2)
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(beginner)
  */
-function getBeginnerRewardCount(): number {
-  const r = Math.random();
-  if (r < 0.25) return 1;
-  if (r < 0.75) return 2;
-  return 3;
+function getBeginnerRewardCount(roller: Roller): number {
+  return roller.weightedValue([
+    [1, 0.25],
+    [2, 0.5],
+    [3, 0.25],
+  ]);
 }
 
 /**
  * Easy: 2-4 items, weighting towards 3
- * Distribution: 25% = 2, 50% = 3, 25% = 4 (average = 3)
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(easy)
  */
-function getEasyRewardCount(): number {
-  const r = Math.random();
-  if (r < 0.25) return 2;
-  if (r < 0.75) return 3;
-  return 4;
+function getEasyRewardCount(roller: Roller): number {
+  return roller.weightedValue([
+    [2, 0.25],
+    [3, 0.5],
+    [4, 0.25],
+  ]);
 }
 
 /**
  * Medium: 3-5 items, uniform distribution
- * Distribution: 33.3% each (average = 4)
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(medium)
  */
-function getMediumRewardCount(): number {
-  const r = Math.random();
-  if (r < 0.333333) return 3;
-  if (r < 0.666666) return 4;
-  return 5;
+function getMediumRewardCount(roller: Roller): number {
+  return roller.weightedValue([
+    [3, 1],
+    [4, 1],
+    [5, 1],
+  ]);
 }
 
 /**
  * Hard: 4-6 items, weighting towards 5
- * Distribution: 25% = 4, 50% = 5, 25% = 6 (average = 5)
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(hard)
  */
-function getHardRewardCount(): number {
-  const r = Math.random();
-  if (r < 0.25) return 4;
-  if (r < 0.75) return 5;
-  return 6;
+function getHardRewardCount(roller: Roller): number {
+  return roller.weightedValue([
+    [4, 0.25],
+    [5, 0.5],
+    [6, 0.25],
+  ]);
 }
 
 /**
  * Elite: 4-6 items, weighting towards 5
- * Distribution: 25% = 4, 50% = 5, 25% = 6 (average = 5)
  * NOTE: Master clue is separate (1/5 chance, doesn't consume a slot)
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(elite)
  */
-function getEliteRewardCount(): number {
-  const r = Math.random();
-  if (r < 0.25) return 4;
-  if (r < 0.75) return 5;
-  return 6;
+function getEliteRewardCount(roller: Roller): number {
+  return roller.weightedValue([
+    [4, 0.25],
+    [5, 0.5],
+    [6, 0.25],
+  ]);
 }
 
 /**
  * Master: 5-7 items, weighting towards 6
- * Distribution: 20% = 5, 60% = 6, 20% = 7 (average = 6)
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(master)
  */
-function getMasterRewardCount(): number {
-  const r = Math.random();
-  if (r < 0.2) return 5;
-  if (r < 0.8) return 6;
-  return 7;
+function getMasterRewardCount(roller: Roller): number {
+  return roller.weightedValue([
+    [5, 0.2],
+    [6, 0.6],
+    [7, 0.2],
+  ]);
 }
 
 //======================================================================================
@@ -233,15 +264,11 @@ function getMasterRewardCount(): number {
  *
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(beginner)
  */
-function openBeginnerCasket(): CasketReward {
-  const rewardCount = getBeginnerRewardCount();
-  const rewards: Item[] = [];
+function openBeginnerCasket(roller: Roller): CasketReward {
+  const rewardCount = getBeginnerRewardCount(roller);
+  const items = rollRewards(rewardCount, 'beginner', roller);
 
-  for (let i = 0; i < rewardCount; i++) {
-    rewards.push(rollTierPrimaryReward("beginner"));
-  }
-
-  return { items: rewards, count: rewardCount };
+  return { count: rewardCount, items };
 }
 
 /**
@@ -252,26 +279,15 @@ function openBeginnerCasket(): CasketReward {
  * - Master clue scroll: SEPARATE 1/50 chance per casket opening
  *   - Not part of the main reward slots
  *   - Is an additional reward if rolled successfully
- * - Unique items: High probability tier (~22.9%)
- * - Standard items: Common weapons, armor, runes, food
  *
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(easy)
  */
-function openEasyCasket(): CasketReward {
-  const rewardCount = getEasyRewardCount();
-  const rewards: Item[] = [];
+function openEasyCasket(roller: Roller): CasketReward {
+  const rewardCount = getEasyRewardCount(roller);
+  const items = rollRewards(rewardCount, 'easy', roller);
+  const masterClue = rollBonusMasterClue(getClueRewardsByTier('easy'), 1 / 50, roller);
 
-  for (let i = 0; i < rewardCount; i++) {
-    rewards.push(rollTierPrimaryReward("easy"));
-  }
-
-  const easyRewards = getClueRewardsByTier("easy");
-  let masterClue: Item | undefined;
-  if (Math.random() < 1 / 50 && easyRewards["Clue scroll (master)"]) {
-    masterClue = cloneItemWithQuantity(easyRewards["Clue scroll (master)"].item, resolveRewardQuantity(easyRewards["Clue scroll (master)"]));
-  }
-
-  const result: CasketReward = { items: rewards, count: rewardCount };
+  const result: CasketReward = { count: rewardCount, items };
   if (masterClue) {
     result.masterClue = masterClue;
   }
@@ -280,25 +296,16 @@ function openEasyCasket(): CasketReward {
 
 /**
  * Medium casket opening
- * Standard weighted table selection with no special mechanics
+ * Standard weighted table selection, plus a 1/30 separate master clue chance.
  *
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(medium)
  */
-function openMediumCasket(): CasketReward {
-  const rewardCount = getMediumRewardCount();
-  const rewards: Item[] = [];
+function openMediumCasket(roller: Roller): CasketReward {
+  const rewardCount = getMediumRewardCount(roller);
+  const items = rollRewards(rewardCount, 'medium', roller);
+  const masterClue = rollBonusMasterClue(getClueRewardsByTier('medium'), 1 / 30, roller);
 
-  for (let i = 0; i < rewardCount; i++) {
-    rewards.push(rollTierPrimaryReward("medium"));
-  }
-
-  const mediumRewards = getClueRewardsByTier("medium");
-  let masterClue: Item | undefined;
-  if (Math.random() < 1 / 30 && mediumRewards["Clue scroll (master)"]) {
-    masterClue = cloneItemWithQuantity(mediumRewards["Clue scroll (master)"].item, resolveRewardQuantity(mediumRewards["Clue scroll (master)"]));
-  }
-
-  const result: CasketReward = { items: rewards, count: rewardCount };
+  const result: CasketReward = { count: rewardCount, items };
   if (masterClue) {
     result.masterClue = masterClue;
   }
@@ -307,25 +314,16 @@ function openMediumCasket(): CasketReward {
 
 /**
  * Hard casket opening
- * Standard weighted table selection with no special mechanics
+ * Standard weighted table selection, plus a 1/15 separate master clue chance.
  *
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(hard)
  */
-function openHardCasket(): CasketReward {
-  const rewardCount = getHardRewardCount();
-  const rewards: Item[] = [];
+function openHardCasket(roller: Roller): CasketReward {
+  const rewardCount = getHardRewardCount(roller);
+  const items = rollRewards(rewardCount, 'hard', roller);
+  const masterClue = rollBonusMasterClue(getClueRewardsByTier('hard'), 1 / 15, roller);
 
-  for (let i = 0; i < rewardCount; i++) {
-    rewards.push(rollTierPrimaryReward("hard"));
-  }
-
-  const hardRewards = getClueRewardsByTier("hard");
-  let masterClue: Item | undefined;
-  if (Math.random() < 1 / 15 && hardRewards["Clue scroll (master)"]) {
-    masterClue = cloneItemWithQuantity(hardRewards["Clue scroll (master)"].item, resolveRewardQuantity(hardRewards["Clue scroll (master)"]));
-  }
-
-  const result: CasketReward = { items: rewards, count: rewardCount };
+  const result: CasketReward = { count: rewardCount, items };
   if (masterClue) {
     result.masterClue = masterClue;
   }
@@ -343,58 +341,48 @@ function openHardCasket(): CasketReward {
  *
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(elite)
  */
-function openEliteCasket(): CasketReward {
-  const rewardCount = getEliteRewardCount();
-  const rewards: Item[] = [];
-  for (let i = 0; i < rewardCount; i++) {
-    rewards.push(rollTierPrimaryReward("elite"));
+function openEliteCasket(roller: Roller): CasketReward {
+  const rewardCount = getEliteRewardCount(roller);
+  const items = rollRewards(rewardCount, 'elite', roller);
+  const mimicTriggered = roller.chance(ELITE_MIMIC_BASE_CHANCE);
+
+  const bonusMasterClue = rollBonusMasterClue(getClueRewardsByTier('elite'), 1 / 5, roller);
+  if (bonusMasterClue) {
+    items.push(bonusMasterClue);
   }
 
-  const mimicTriggered = Math.random() < ELITE_MIMIC_BASE_CHANCE;
-
-  const eliteRewards = getClueRewardsByTier("elite");
-  if (Math.random() < 1 / 5 && eliteRewards["Clue scroll (master)"]) {
-    rewards.push(cloneItemWithQuantity(eliteRewards["Clue scroll (master)"].item, resolveRewardQuantity(eliteRewards["Clue scroll (master)"])));
-  }
-
-  const result: CasketReward = {
-    items: rewards,
-    count: rewardCount,
-    mimicTriggered,
-  };
-
-  return result;
+  return { count: rewardCount, items, mimicTriggered };
 }
 
 /**
  * Master casket opening
- * Standard weighted table selection with no special mechanics
+ * Standard weighted table selection with a 1/15 mimic chance that adds a bonus reward.
  *
  * Wiki: https://oldschool.runescape.wiki/w/Reward_casket_(master)
  */
-function openMasterCasket(): CasketReward {
-  const rewardCount = getMasterRewardCount();
-  const rewards: Item[] = [];
+function openMasterCasket(roller: Roller): CasketReward {
+  const rewardCount = getMasterRewardCount(roller);
+  const items = rollRewards(rewardCount, 'master', roller);
 
-  for (let i = 0; i < rewardCount; i++) {
-    rewards.push(rollTierPrimaryReward("master"));
-  }
-
-  const mimicTriggered = Math.random() < 1 / 15;
+  const mimicTriggered = roller.chance(1 / 15);
   if (!mimicTriggered) {
-    return { items: rewards, count: rewardCount };
+    return { count: rewardCount, items };
   }
 
-  const mimicBonusItem = rollTierPrimaryReward("master");
-  rewards.push(mimicBonusItem);
+  const mimicBonusItem = rollTierPrimaryReward('master', roller);
+  items.push(mimicBonusItem);
 
-  return {
-    items: rewards,
-    count: rewardCount,
-    mimicTriggered: true,
-    mimicBonusItem,
-  };
+  return { count: rewardCount, items, mimicBonusItem, mimicTriggered: true };
 }
+
+const CASKET_OPENERS: Record<ClueTier, (roller: Roller) => CasketReward> = {
+  beginner: openBeginnerCasket,
+  easy: openEasyCasket,
+  elite: openEliteCasket,
+  hard: openHardCasket,
+  master: openMasterCasket,
+  medium: openMediumCasket,
+};
 
 //======================================================================================
 // PUBLIC API
@@ -423,25 +411,15 @@ export class ClueScrollHelper {
    * - Master: 5-7 rewards (standard)
    *
    * @param tier The difficulty tier of the clue scroll
+   * @param rng Optional seeded RNG returning a float in [0, 1); defaults to Math.random
    * @returns CasketReward containing all items, count, and optional master clue
    */
-  static openCasket(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master"): CasketReward {
-    switch (tier.toLowerCase()) {
-      case "beginner":
-        return openBeginnerCasket();
-      case "easy":
-        return openEasyCasket();
-      case "medium":
-        return openMediumCasket();
-      case "hard":
-        return openHardCasket();
-      case "elite":
-        return openEliteCasket();
-      case "master":
-        return openMasterCasket();
-      default:
-        throw new Error(`Unknown clue tier: ${tier}`);
+  static openCasket(tier: ClueTier, rng: Rng = Math.random): CasketReward {
+    const opener = CASKET_OPENERS[tier.toLowerCase() as ClueTier];
+    if (!opener) {
+      throw new Error(`Unknown clue tier: ${tier}`);
     }
+    return opener(new Roller(rng));
   }
 
   /**
@@ -450,7 +428,7 @@ export class ClueScrollHelper {
    * @param itemName The item name to check probability for
    * @returns The probability as a fraction (e.g., 0.0278 for 1/36)
    */
-  static getItemProbability(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master", itemName: string): number {
+  static getItemProbability(tier: ClueTier, itemName: string): number {
     const rewards = getClueRewardsByTier(tier);
     const reward = rewards[itemName];
     return reward ? 1 / reward.rarity : 0;
@@ -459,7 +437,7 @@ export class ClueScrollHelper {
   /**
    * Get the rarity denominator (X in "1 in X") for an item
    */
-  static getItemRarity(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master", itemName: string): number {
+  static getItemRarity(tier: ClueTier, itemName: string): number {
     const rewards = getClueRewardsByTier(tier);
     const reward = rewards[itemName];
     return reward ? reward.rarity : 0;
@@ -468,15 +446,15 @@ export class ClueScrollHelper {
   /**
    * Get all possible rewards for a tier as Item objects
    */
-  static getPossibleRewards(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master"): Item[] {
+  static getPossibleRewards(tier: ClueTier): Item[] {
     const rewards = getClueRewardsByTier(tier);
-    return Object.values(rewards).map((r) => r.item);
+    return Object.values(rewards).map(r => r.item);
   }
 
   /**
    * Get all possible reward items names for a tier
    */
-  static getPossibleRewardNames(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master"): string[] {
+  static getPossibleRewardNames(tier: ClueTier): string[] {
     const rewards = getClueRewardsByTier(tier);
     return Object.keys(rewards);
   }
@@ -487,7 +465,7 @@ export class ClueScrollHelper {
    * @param count Number of caskets to open
    * @returns Array of all reward items
    */
-  static simulateMultiple(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master", count: number): Item[] {
+  static simulateMultiple(tier: ClueTier, count: number): Item[] {
     const rewards: Item[] = [];
     for (let i = 0; i < count; i++) {
       const casketReward = this.openCasket(tier);
@@ -499,7 +477,7 @@ export class ClueScrollHelper {
   /**
    * Get reward statistics for a tier
    */
-  static getRewardStats(tier: "beginner" | "easy" | "medium" | "hard" | "elite" | "master"): {
+  static getRewardStats(tier: ClueTier): {
     tier: string;
     totalUnique: number;
     rareItems: number;
@@ -509,10 +487,10 @@ export class ClueScrollHelper {
     const items = Object.values(rewards);
 
     return {
+      commonItems: items.filter(r => r.rarity <= 50).length,
+      rareItems: items.filter(r => r.rarity > 100).length,
       tier,
       totalUnique: items.length,
-      rareItems: items.filter((r) => r.rarity > 100).length,
-      commonItems: items.filter((r) => r.rarity <= 50).length,
     };
   }
 }

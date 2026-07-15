@@ -15,20 +15,20 @@ import { registerMaster } from './registry';
  * Beginner-level slayer master in Draynor
  */
 export const Spria = new SlayerMaster({
-  name: 'Spria',
-  location: 'Draynor Village',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Spria',
-  minimumCombatLevel: 1,
-  tasks: spriaTasks,
-  pointsTable: POINTS_TABLE.STANDARD,
   eliteDiaryTaskPoints: {
     1: 2,
     10: 5,
-    50: 15,
     100: 50,
-    250: 70,
     1000: 100,
+    250: 70,
+    50: 15,
   },
+  location: 'Draynor Village',
+  minimumCombatLevel: 1,
+  name: 'Spria',
+  pointsTable: POINTS_TABLE.STANDARD,
+  tasks: spriaTasks,
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Spria',
 });
 
 // Register in the masters registry

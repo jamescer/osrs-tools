@@ -15,10 +15,7 @@ const TheDepthsOfDespair: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [
-    new QuestRequirement('Client of Kourend'),
-    new LevelRequirement('Agility', 18, false),
-  ],
+  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement('Agility', 18, false)],
   rewards: {
     areas: [],
     experience: [],

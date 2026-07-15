@@ -1,4 +1,3 @@
-
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
@@ -36,7 +35,6 @@ A spyglass
 
  */
 
-
 const Pandemonium: Quest = {
   age: '',
   description: '',
@@ -48,18 +46,18 @@ const Pandemonium: Quest = {
   name: 'Pandemonium',
   questPoints: 1,
   recommendations: [
-    { type: 'tip', name: 'Fast travel to Port Sarim to start the quest; Teleport to House (Rimmington)' },
-    { type: 'tip', name: 'skills necklace to Crafting Guild' },
-    { type: 'tip', name: 'Rat Pits grouping teleport' },
-    { type: 'tip', name: 'amulet of glory to Draynor Village' },
-    { type: 'tip', name: 'or explorer\'s ring 2-4' },
+    { name: 'Fast travel to Port Sarim to start the quest; Teleport to House (Rimmington)', type: 'tip' },
+    { name: 'skills necklace to Crafting Guild', type: 'tip' },
+    { name: 'Rat Pits grouping teleport', type: 'tip' },
+    { name: 'amulet of glory to Draynor Village', type: 'tip' },
+    { name: "or explorer's ring 2-4", type: 'tip' },
   ],
   recommendedPrayers: [],
   recommendedSkills: {},
   requirements: [],
   rewards: {
     areas: ['The Pandemonium'],
-    experience: [{ skill: Skill.Sailing, amount: 400 }],
+    experience: [{ amount: 400, skill: Skill.Sailing }],
     items: [
       // 'A raft',
       // '25 sawmill coupon (wood plank)',
@@ -70,7 +68,7 @@ const Pandemonium: Quest = {
     pets: [],
     points: [],
     questPoints: 1,
-    unlocks: [{description: 'Access to the Sailing skill'}],
+    unlocks: [{ description: 'Access to the Sailing skill' }],
   },
   series: '',
   shortName: 'pandemonium',
@@ -78,8 +76,6 @@ const Pandemonium: Quest = {
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Pandemonium',
-
-
 };
 
 export default Pandemonium;

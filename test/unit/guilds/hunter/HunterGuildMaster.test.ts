@@ -25,22 +25,22 @@ describe('HunterGuildMaster', () => {
     const master = new HunterGuildMaster('Test Master', 'Novice', 1);
     const eligibleRumours = [
       new HunterRumour({
-        id: 'a',
         creature: 'A',
-        method: 'Bird snare',
+        id: 'a',
         locations: [{ name: 'Test', wikiUrl: 'https://example.com' }],
+        masterNames: ['Test Master'],
+        method: 'Bird snare',
         requiredHunterLevel: 1,
         tier: 'Novice',
-        masterNames: ['Test Master'],
       }),
       new HunterRumour({
-        id: 'b',
         creature: 'B',
-        method: 'Deadfall',
+        id: 'b',
         locations: [{ name: 'Test', wikiUrl: 'https://example.com' }],
+        masterNames: ['Test Master'],
+        method: 'Deadfall',
         requiredHunterLevel: 1,
         tier: 'Novice',
-        masterNames: ['Test Master'],
       }),
     ];
 
@@ -56,13 +56,13 @@ describe('HunterGuildMaster', () => {
     const master = new HunterGuildMaster('Test Master', 'Novice', 1);
     const eligibleRumours = [
       new HunterRumour({
-        id: 'a',
         creature: 'A',
-        method: 'Bird snare',
+        id: 'a',
         locations: [{ name: 'Test', wikiUrl: 'https://example.com' }],
+        masterNames: ['Test Master'],
+        method: 'Bird snare',
         requiredHunterLevel: 1,
         tier: 'Novice',
-        masterNames: ['Test Master'],
       }),
     ];
     const otherAssigned = [eligibleRumours[0]];

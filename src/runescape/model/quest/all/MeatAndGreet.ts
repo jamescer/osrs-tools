@@ -1,13 +1,12 @@
 // URL: https://oldschool.runescape.wiki/w/Meat_and_Greet
 
 import { Skill } from '../../account/Skill';
-import { Quest, QuestStatus } from '../Quest';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const MeatAndGreet: Quest = {
   age: '',
-  description:
-    'Help the Varrock Cook prepare a feast by gathering special meats from around Gielinor.',
+  description: 'Help the Varrock Cook prepare a feast by gathering special meats from around Gielinor.',
   difficulty: QuestDifficulty.Novice,
   id: 68,
   length: QuestLength.Short,

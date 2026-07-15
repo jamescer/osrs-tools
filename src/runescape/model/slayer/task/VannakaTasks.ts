@@ -1,8 +1,4 @@
-import {
-  CombatLevelRequirement,
-  QuestRequirement,
-  SlayerLevelRequirement,
-} from '../../Requirement';
+import { CombatLevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
 import { Task } from '../Task';
 
 const vannakaTasks: Task[] = [
@@ -10,11 +6,7 @@ const vannakaTasks: Task[] = [
     'Aberrant spectres',
     40,
     90,
-    [
-      new SlayerLevelRequirement(60),
-      new CombatLevelRequirement(65),
-      new QuestRequirement('Priest in Peril'),
-    ],
+    [new SlayerLevelRequirement(60), new CombatLevelRequirement(65), new QuestRequirement('Priest in Peril')],
     null,
     null,
     ['Deviant spectres'],
@@ -27,11 +19,7 @@ const vannakaTasks: Task[] = [
     'Banshees',
     15,
     50,
-    [
-      new SlayerLevelRequirement(15),
-      new CombatLevelRequirement(20),
-      new QuestRequirement('Priest in Peril'),
-    ],
+    [new SlayerLevelRequirement(15), new CombatLevelRequirement(20), new QuestRequirement('Priest in Peril')],
     null,
     null,
     ['Twisted Banshee'],
@@ -79,9 +67,7 @@ const vannakaTasks: Task[] = [
     0,
     ['Taverley Dungeon', "Myth's Guild"],
   ),
-  new Task('Brine rats', 40, 70, [new SlayerLevelRequirement(47)], null, null, [], 8, [], 0, [
-    'Brine Rat Cavern',
-  ]),
+  new Task('Brine rats', 40, 70, [new SlayerLevelRequirement(47)], null, null, [], 8, [], 0, ['Brine Rat Cavern']),
   new Task(
     'Cave crawlers',
     10,
@@ -99,11 +85,7 @@ const vannakaTasks: Task[] = [
     'Cave horrors',
     40,
     90,
-    [
-      new SlayerLevelRequirement(58),
-      new CombatLevelRequirement(40),
-      new QuestRequirement('Cabin Fever'),
-    ],
+    [new SlayerLevelRequirement(58), new CombatLevelRequirement(40), new QuestRequirement('Cabin Fever')],
     null,
     null,
     [],
@@ -157,9 +139,7 @@ const vannakaTasks: Task[] = [
   ]),
   new Task('Flesh crawlers', 40, 70, [], null, null, [], 8, [], 0, ['Stronghold of Security']),
   new Task('Ghouls', 40, 70, [], null, null, [], 8, [], 0, ['West of Canifis']),
-  new Task('Green dragons', 40, 90, [], null, null, ['Baby green dragon'], 8, [], 0, [
-    'Wilderness',
-  ]),
+  new Task('Green dragons', 40, 90, [], null, null, ['Baby green dragon'], 8, [], 0, ['Wilderness']),
   new Task(
     'Greater demons',
     40,
@@ -173,19 +153,13 @@ const vannakaTasks: Task[] = [
     0,
     ['Brimhaven Dungeon', 'Catacombs of Kourend'],
   ),
-  new Task('Harpy bug swarms', 40, 70, [new SlayerLevelRequirement(33)], null, null, [], 8, [], 0, [
-    'Karamja',
-  ]),
+  new Task('Harpy bug swarms', 40, 70, [new SlayerLevelRequirement(33)], null, null, [], 8, [], 0, ['Karamja']),
   new Task('Hill giants', 40, 70, [], null, null, [], 8, [], 0, ['Edgeville Dungeon']),
   new Task(
     'Infernal mages',
     45,
     90,
-    [
-      new SlayerLevelRequirement(45),
-      new CombatLevelRequirement(45),
-      new QuestRequirement('Priest in Peril'),
-    ],
+    [new SlayerLevelRequirement(45), new CombatLevelRequirement(45), new QuestRequirement('Priest in Peril')],
     null,
     null,
     [],
@@ -210,23 +184,10 @@ const vannakaTasks: Task[] = [
     0,
     ['Kalphite Cave'],
   ),
-  new Task('Lesser demons', 40, 90, [], null, null, [], 8, [], 0, [
-    'Karamja Volcano',
-    'Wilderness',
+  new Task('Lesser demons', 40, 90, [], null, null, [], 8, [], 0, ['Karamja Volcano', 'Wilderness']),
+  new Task('Mogres', 40, 70, [new QuestRequirement('Skippy and the Mogres')], null, null, [], 8, [], 0, [
+    'Mudskipper Point',
   ]),
-  new Task(
-    'Mogres',
-    40,
-    70,
-    [new QuestRequirement('Skippy and the Mogres')],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Mudskipper Point'],
-  ),
   new Task('Moss giants', 40, 90, [], null, null, [], 8, [], 0, ['Varrock Sewers', 'Crandor']),
   new Task('Ogres', 40, 90, [], null, null, ['Ogress Warrior', 'Ogress Shaman'], 8, [], 0, [
     'Corsair Cove Dungeon',
@@ -242,19 +203,7 @@ const vannakaTasks: Task[] = [
   ]),
   new Task('Shades', 40, 70, [], null, null, [], 8, [], 0, ["Mort'ton"]),
   new Task('Shadow warriors', 40, 70, [], null, null, [], 8, [], 0, ["Legend's Guild Basement"]),
-  new Task(
-    'Terror dogs',
-    40,
-    70,
-    [new QuestRequirement('Haunted Mine')],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Haunted Mine'],
-  ),
+  new Task('Terror dogs', 40, 70, [new QuestRequirement('Haunted Mine')], null, null, [], 8, [], 0, ['Haunted Mine']),
   new Task(
     'Trolls',
     40,

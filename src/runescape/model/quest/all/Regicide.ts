@@ -5,7 +5,8 @@ import { Quest, QuestStatus } from '../Quest';
 
 const Regicide: Quest = {
   age: 'Fifth Age',
-  description: 'Assassinate a tyrant king threatening the elf kingdom. A dangerous mission requiring cunning and combat prowess.',
+  description:
+    'Assassinate a tyrant king threatening the elf kingdom. A dangerous mission requiring cunning and combat prowess.',
   difficulty: QuestDifficulty.Master,
   id: 87,
   length: QuestLength.Long,
@@ -19,11 +20,8 @@ const Regicide: Quest = {
     { name: 'Anti-poison', note: 'Required for segments', type: 'item' },
   ],
   recommendedPrayers: [],
-  recommendedSkills: { Combat: 60, Agility: 56 },
-  requirements: [
-    new QuestRequirement('Underground Pass'),
-    new LevelRequirement('Agility', 56, false),
-  ],
+  recommendedSkills: { Agility: 56, Combat: 60 },
+  requirements: [new QuestRequirement('Underground Pass'), new LevelRequirement('Agility', 56, false)],
   rewards: {
     areas: ['Zanaris crown room access'],
     experience: [{ amount: 10000, skill: Skill.Strength }],

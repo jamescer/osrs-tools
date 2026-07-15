@@ -1,13 +1,12 @@
 // URL: https://oldschool.runescape.wiki/w/Shadows_of_Custodia
 
 import { Skill } from '../../account/Skill';
-import { Quest, QuestStatus } from '../Quest';
 import { QuestDifficulty, QuestLength } from '../enums';
+import { Quest, QuestStatus } from '../Quest';
 
 const ShadowsOfCustodia: Quest = {
   age: '',
-  description:
-    'Investigate the mysterious shadows appearing in Custodia and help restore peace to the region.',
+  description: 'Investigate the mysterious shadows appearing in Custodia and help restore peace to the region.',
   difficulty: QuestDifficulty.Novice,
   id: 96,
   length: QuestLength.Short,

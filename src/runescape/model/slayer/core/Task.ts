@@ -1,5 +1,5 @@
 import { Requirement } from '../../Requirement';
-import { SlayerLocation, SlayerBoss } from './types';
+import { SlayerBoss, SlayerLocation } from './types';
 
 export interface TaskJson {
   name: string;

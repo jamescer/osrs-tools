@@ -11,6 +11,7 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "moduleResolution": "bundler",
+    "resolveJsonModule": true,
     "importHelpers": true,
     "declaration": true,
     "declarationMap": true,

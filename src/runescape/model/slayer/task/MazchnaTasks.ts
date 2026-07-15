@@ -135,9 +135,7 @@ const mazchnaTasks: Task[] = [
     0,
     ['East of Lumbridge'],
   ),
-  new Task('Icefiends', 15, 20, [new CombatLevelRequirement(20)], null, null, [], 8, [], 0, [
-    'Ice Mountain',
-  ]),
+  new Task('Icefiends', 15, 20, [new CombatLevelRequirement(20)], null, null, [], 8, [], 0, ['Ice Mountain']),
   new Task(
     'Kalphite',
     15,
@@ -151,9 +149,7 @@ const mazchnaTasks: Task[] = [
     0,
     ['Kalphite Cave'],
   ),
-  new Task('Minotaurs', 10, 20, [new CombatLevelRequirement(7)], null, null, [], 7, [], 0, [
-    'Stronghold of Security',
-  ]),
+  new Task('Minotaurs', 10, 20, [new CombatLevelRequirement(7)], null, null, [], 7, [], 0, ['Stronghold of Security']),
   new Task(
     'Monkeys',
     15,

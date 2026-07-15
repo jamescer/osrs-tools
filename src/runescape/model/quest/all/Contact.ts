@@ -1,5 +1,5 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
@@ -60,10 +60,7 @@ const Contact: Quest = {
     pets: [],
     points: [],
     questPoints: 1,
-    unlocks: [
-      { description: 'Access to Sophanem shops' },
-      { description: 'Unlocks Giant scarab in Nightmare Zone' },
-    ],
+    unlocks: [{ description: 'Access to Sophanem shops' }, { description: 'Unlocks Giant scarab in Nightmare Zone' }],
   },
   series: 'Desert',
   shortName: 'contact',

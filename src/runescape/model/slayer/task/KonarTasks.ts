@@ -1,8 +1,4 @@
-import {
-  CombatLevelRequirement,
-  QuestRequirement,
-  SlayerLevelRequirement,
-} from '../../Requirement';
+import { CombatLevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
 import { Task } from '../Task';
 
 const konarTasks: Task[] = [
@@ -54,19 +50,10 @@ const konarTasks: Task[] = [
     0,
     ['God Wars Dungeon'],
   ),
-  new Task(
-    'Black demons',
-    1,
-    60,
-    [new CombatLevelRequirement(80)],
-    null,
-    null,
-    ['Demonic gorilla'],
-    8,
-    [],
-    0,
-    ['Taverley Dungeon', 'Catacombs of Kourend'],
-  ),
+  new Task('Black demons', 1, 60, [new CombatLevelRequirement(80)], null, null, ['Demonic gorilla'], 8, [], 0, [
+    'Taverley Dungeon',
+    'Catacombs of Kourend',
+  ]),
   new Task(
     'Black dragons',
     1,
@@ -106,28 +93,12 @@ const konarTasks: Task[] = [
     0,
     ['Taverley Dungeon', "Myth's Guild"],
   ),
-  new Task(
-    'Cave kraken',
-    87,
-    200,
-    [new SlayerLevelRequirement(87)],
-    null,
-    null,
-    ['Kraken'],
-    8,
-    [],
-    0,
-    ['Kraken Cove'],
-  ),
+  new Task('Cave kraken', 87, 200, [new SlayerLevelRequirement(87)], null, null, ['Kraken'], 8, [], 0, ['Kraken Cove']),
   new Task(
     'Cave horrors',
     58,
     200,
-    [
-      new SlayerLevelRequirement(58),
-      new CombatLevelRequirement(40),
-      new QuestRequirement('Cabin Fever'),
-    ],
+    [new SlayerLevelRequirement(58), new CombatLevelRequirement(40), new QuestRequirement('Cabin Fever')],
     null,
     null,
     [],
@@ -205,19 +176,10 @@ const konarTasks: Task[] = [
     0,
     ['Brimhaven Dungeon', 'Catacombs of Kourend'],
   ),
-  new Task(
-    'Hellhounds',
-    1,
-    60,
-    [new CombatLevelRequirement(75)],
-    null,
-    null,
-    ['Cerberus'],
-    8,
-    [],
-    0,
-    ['Taverley Dungeon', 'Wilderness'],
-  ),
+  new Task('Hellhounds', 1, 60, [new CombatLevelRequirement(75)], null, null, ['Cerberus'], 8, [], 0, [
+    'Taverley Dungeon',
+    'Wilderness',
+  ]),
   new Task('Iron dragons', 1, 60, [new CombatLevelRequirement(80)], null, null, [], 8, [], 0, [
     'Brimhaven Dungeon',
     'Catacombs of Kourend',
@@ -291,9 +253,7 @@ const konarTasks: Task[] = [
     'Brimhaven Dungeon',
     'Catacombs of Kourend',
   ]),
-  new Task('Suqah', 1, 60, [new QuestRequirement('Lunar Diplomacy')], null, null, [], 8, [], 0, [
-    'Lunar Isle',
-  ]),
+  new Task('Suqah', 1, 60, [new QuestRequirement('Lunar Diplomacy')], null, null, [], 8, [], 0, ['Lunar Isle']),
   new Task(
     'Trolls',
     1,

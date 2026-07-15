@@ -8,50 +8,50 @@ import { SlayerUnlock } from './SlayerUnlock';
 
 export const SLAYER_UNLOCKS = [
   new SlayerUnlock({
-    name: 'Abyssal Sire',
     cost: 3_000_000,
     description: 'Unlocks the Abyssal Sire as a slayer task.',
+    name: 'Abyssal Sire',
     wikiUrl: 'https://oldschool.runescape.wiki/w/Abyssal_Sire',
   }),
   new SlayerUnlock({
-    name: 'Bigger and Badder',
     cost: 150,
     description: 'Allows NPCs to be fought again should you die to them.',
+    name: 'Bigger and Badder',
   }),
   new SlayerUnlock({
-    name: 'Perp Pop',
     cost: 50,
     description: 'Grants the ability to permanently pop your boils if you have a Perp Pop boil incurable.',
+    name: 'Perp Pop',
   }),
   new SlayerUnlock({
-    name: 'Reaper',
     cost: 50,
     description: 'Allows you to hunt creatures in the Catacombs of Kourend.',
+    name: 'Reaper',
   }),
   new SlayerUnlock({
-    name: 'Ring of Slaying',
     cost: 50,
     description: 'Allows you to create a Ring of Slaying with a Slayer ring.',
+    name: 'Ring of Slaying',
   }),
   new SlayerUnlock({
-    name: 'Unlock Konar',
     cost: 50,
     description: 'Unlocks Konar quo Maten as a Slayer master.',
+    name: 'Unlock Konar',
   }),
   new SlayerUnlock({
-    name: 'Spello Explore',
     cost: 50,
     description: 'Unlocks the ability to locate creatures.',
+    name: 'Spello Explore',
   }),
   new SlayerUnlock({
-    name: 'Unlock Krystilia',
     cost: 50,
     description: 'Unlocks Krystilia as a Slayer master.',
+    name: 'Unlock Krystilia',
   }),
   new SlayerUnlock({
-    name: 'Revenant Unlock',
     cost: 50,
     description: 'Allows Revenants to be hunted as a slayer task.',
+    name: 'Revenant Unlock',
   }),
 ];
 

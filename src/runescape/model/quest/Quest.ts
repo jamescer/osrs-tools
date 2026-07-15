@@ -1,5 +1,5 @@
-import { QuestDifficulty, QuestLength, QuestStatus } from "./enums";
-import { Requirement } from "./Requirements";
+import { QuestDifficulty, QuestLength, QuestStatus } from './enums';
+import { Requirement } from './Requirements';
 
 /**
  * Types and interfaces for the OSRS Quests system
@@ -76,10 +76,10 @@ export interface QuestRewardPet {
  * Types of recommendations for quests
  */
 export const RecommendationType = {
-  Item: "item",
-  Travel: "travel",
-  Tip: "tip",
-  Level: "level",
+  Item: 'item',
+  Level: 'level',
+  Tip: 'tip',
+  Travel: 'travel',
 };
 
 /**

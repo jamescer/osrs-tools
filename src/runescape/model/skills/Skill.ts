@@ -1,14 +1,12 @@
-
 /**
  * OSRS Skill
  */
 export interface Skill {
-    level: number;
-    experience: number;
-    name: string;
-    unlocks: LevelUnlock[];
+  level: number;
+  experience: number;
+  name: string;
+  unlocks: LevelUnlock[];
 }
-
 
 /**
  * When you level up in a skill, you may unlock new content such as quests, areas, or abilities

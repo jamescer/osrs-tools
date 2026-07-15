@@ -7,7 +7,8 @@ const agilityRequirement = new LevelRequirement('agility', 35, true);
 
 const HorrorFromTheDeep: Quest = {
   age: 'Fifth Age',
-  description: 'A horrifying creature has emerged from the deep. Help defeat it to protect the shores and unlock ancient barrow dungeons.',
+  description:
+    'A horrifying creature has emerged from the deep. Help defeat it to protect the shores and unlock ancient barrow dungeons.',
   difficulty: QuestDifficulty.Intermediate,
   id: 57,
   length: QuestLength.Short,
@@ -21,7 +22,7 @@ const HorrorFromTheDeep: Quest = {
     { name: 'Prayer potions', note: 'Optional but strongly recommended', type: 'item' },
   ],
   recommendedPrayers: ['Protect from Magic'],
-  recommendedSkills: { Magic: 40, Ranged: 40, Melee: 40 },
+  recommendedSkills: { Magic: 40, Melee: 40, Ranged: 40 },
   requirements: [agilityRequirement],
   rewards: {
     areas: ['Barrows access'],

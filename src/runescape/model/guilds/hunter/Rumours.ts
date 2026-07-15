@@ -1,320 +1,376 @@
-import { HunterRumour } from "./HunterRumour";
-import * as RumourLocation from "./RumourLocation";
-import { HunterGuildMasterName } from "./HunterGuildMasterName";
-import { GenericLeagueRegion } from "../../leagues";
-import { HunterRumourDefinition } from "./types";
+import { GenericLeagueRegion } from '../../leagues';
+import { HunterGuildMasterName } from './HunterGuildMasterName';
+import { HunterRumour } from './HunterRumour';
+import * as RumourLocation from './RumourLocation';
+import { HunterRumourDefinition } from './types';
 
 const TropicalWagtail: HunterRumourDefinition = {
-  id: 'tropical-wagtail',
   creature: 'Tropical wagtail',
-  method: 'Bird snare',
+  id: 'tropical-wagtail',
+  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.FELDIP_HUNTER_AREA, RumourLocation.THE_GREAT_CONCH, RumourLocation.TLATI_RAINFOREST],
+  masterNames: [HunterGuildMasterName.GILMAN.name],
+  method: 'Bird snare',
   requiredHunterLevel: 19,
   tier: 'Novice',
-  masterNames: [HunterGuildMasterName.GILMAN.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.VARLAMORE],
 };
 
 const WildKebbit: HunterRumourDefinition = {
-  id: 'wild-kebbit',
   creature: 'Wild kebbit',
-  method: 'Deadfall',
+  id: 'wild-kebbit',
+  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.PISCATORIS_HUNTER_AREA, RumourLocation.AUBURNVALE],
+  masterNames: [HunterGuildMasterName.GILMAN.name],
+  method: 'Deadfall',
   requiredHunterLevel: 23,
   tier: 'Novice',
-  masterNames: [HunterGuildMasterName.GILMAN.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.VARLAMORE],
 };
 
 const SapphireGlacialis: HunterRumourDefinition = {
-  id: 'sapphire-glacialis',
   creature: 'Sapphire glacialis',
-  method: 'Butterfly net',
+  id: 'sapphire-glacialis',
+  leagueRegions: [GenericLeagueRegion.FREMENNIK, GenericLeagueRegion.KOUREND, GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.RELLEKKA_HUNTER_AREA, RumourLocation.FARMING_GUILD, RumourLocation.MONS_GRATIA],
+  masterNames: [HunterGuildMasterName.GILMAN.name],
+  method: 'Butterfly net',
   requiredHunterLevel: 25,
   tier: 'Novice',
-  masterNames: [HunterGuildMasterName.GILMAN.name],
-  leagueRegions: [GenericLeagueRegion.FREMENNIK, GenericLeagueRegion.KOUREND, GenericLeagueRegion.VARLAMORE],
 };
 
 const SwampLizard: HunterRumourDefinition = {
-  id: 'swamp-lizard',
   creature: 'Swamp lizard',
-  method: 'Net trap',
+  id: 'swamp-lizard',
+  leagueRegions: [GenericLeagueRegion.MORYTANIA],
   locations: [RumourLocation.CANIFIS_HUNTER_AREA, RumourLocation.NORTH_WEST_OF_SLEPE],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name],
+  method: 'Net trap',
   requiredHunterLevel: 29,
   tier: 'Adept',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name],
-  leagueRegions: [GenericLeagueRegion.MORYTANIA],
 };
 
 const SpinedLarupia: HunterRumourDefinition = {
-  id: 'spined-larupia',
   creature: 'Spined larupia',
+  id: 'spined-larupia',
+  leagueRegions: [GenericLeagueRegion.KANDARIN],
+  locations: [RumourLocation.FELDIP_HUNTER_AREA],
+  masterNames: [HunterGuildMasterName.GILMAN.name, 'Aco'],
   method: 'Spiked pit',
-  locations: [RumourLocation.FELDIP_HUNTER_AREA,],
   requiredHunterLevel: 31,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, 'Aco'],
-  leagueRegions: [GenericLeagueRegion.KANDARIN],
 };
 
 const BarbTailedKebbit: HunterRumourDefinition = {
-  id: 'barb-tailed-kebbit',
   creature: 'Barb-tailed kebbit',
-  method: 'Deadfall',
+  id: 'barb-tailed-kebbit',
+  leagueRegions: [GenericLeagueRegion.KANDARIN],
   locations: [RumourLocation.FELDIP_HUNTER_AREA],
+  masterNames: [HunterGuildMasterName.GILMAN.name],
+  method: 'Deadfall',
   requiredHunterLevel: 33,
   tier: 'Novice',
-  masterNames: [HunterGuildMasterName.GILMAN.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN],
 };
 
 const SnowyKnight: HunterRumourDefinition = {
-  id: 'snowy-knight',
   creature: 'Snowy knight',
+  id: 'snowy-knight',
+  leagueRegions: [
+    GenericLeagueRegion.FREMENNIK,
+    GenericLeagueRegion.KANDARIN,
+    GenericLeagueRegion.KOUREND,
+    GenericLeagueRegion.VARLAMORE,
+  ],
+  locations: [
+    RumourLocation.FELDIP_HUNTER_AREA,
+    RumourLocation.WEISS,
+    RumourLocation.FARMING_GUILD,
+    RumourLocation.MONS_GRATIA,
+  ],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.ACO.name],
   method: 'Butterfly net',
-  locations: [RumourLocation.FELDIP_HUNTER_AREA, RumourLocation.WEISS, RumourLocation.FARMING_GUILD, RumourLocation.MONS_GRATIA],
   requiredHunterLevel: 35,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.ACO.name],
-  leagueRegions: [GenericLeagueRegion.FREMENNIK, GenericLeagueRegion.KANDARIN, GenericLeagueRegion.KOUREND, GenericLeagueRegion.VARLAMORE],
 };
 
 const PricklyKebbit: HunterRumourDefinition = {
-  id: 'prickly-kebbit',
   creature: 'Prickly kebbit',
-  method: 'Deadfall',
+  id: 'prickly-kebbit',
+  leagueRegions: [GenericLeagueRegion.KANDARIN],
   locations: [RumourLocation.PISCATORIS_HUNTER_AREA],
+  masterNames: [HunterGuildMasterName.GILMAN.name],
+  method: 'Deadfall',
   requiredHunterLevel: 37,
   tier: 'Novice',
-  masterNames: [HunterGuildMasterName.GILMAN.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN],
 };
 
 const RazorBackedKebbit: HunterRumourDefinition = {
-  id: 'razor-backed-kebbit',
   creature: 'Razor-backed kebbit',
-  method: 'Tracking',
+  id: 'razor-backed-kebbit',
+  leagueRegions: [GenericLeagueRegion.KANDARIN],
   locations: [RumourLocation.PISCATORIS_HUNTER_AREA],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name],
+  method: 'Tracking',
   requiredHunterLevel: 49,
   tier: 'Adept',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN],
 };
 
 const SabreToothedKebbit: HunterRumourDefinition = {
-  id: 'sabre-toothed-kebbit',
   creature: 'Sabre-toothed kebbit',
-  method: 'Deadfall',
+  id: 'sabre-toothed-kebbit',
+  leagueRegions: [GenericLeagueRegion.FREMENNIK],
   locations: [RumourLocation.RELLEKKA_HUNTER_AREA],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name],
+  method: 'Deadfall',
   requiredHunterLevel: 51,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name],
-  leagueRegions: [GenericLeagueRegion.FREMENNIK],
 };
 
 const GreyChinchompa: HunterRumourDefinition = {
-  id: 'grey-chinchompa',
   creature: 'Grey chinchompa',
-  method: 'Box trap',
+  id: 'grey-chinchompa',
+  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.KOUREND, GenericLeagueRegion.MISTHALIN],
   locations: [RumourLocation.PISCATORIS_HUNTER_AREA, RumourLocation.KOUREND_WOODLAND, RumourLocation.ISLE_OF_SOULS],
+  masterNames: [
+    HunterGuildMasterName.GILMAN.name,
+    HunterGuildMasterName.CERVUS.name,
+    HunterGuildMasterName.ACO.name,
+    HunterGuildMasterName.TECO.name,
+  ],
+  method: 'Box trap',
   requiredHunterLevel: 53,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ACO.name, HunterGuildMasterName.TECO.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.KOUREND, GenericLeagueRegion.MISTHALIN],
 };
 
 const SabreToothedKyatt: HunterRumourDefinition = {
-  id: 'sabre-toothed-kyatt',
   creature: 'Sabre-toothed kyatt',
-  method: 'Spiked pit',
+  id: 'sabre-toothed-kyatt',
+  leagueRegions: [GenericLeagueRegion.FREMENNIK],
   locations: [RumourLocation.RELLEKKA_HUNTER_AREA],
+  masterNames: [
+    HunterGuildMasterName.GILMAN.name,
+    HunterGuildMasterName.ORNUS.name,
+    HunterGuildMasterName.ACO.name,
+    HunterGuildMasterName.TECO.name,
+  ],
+  method: 'Spiked pit',
   requiredHunterLevel: 55,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.ORNUS.name, HunterGuildMasterName.ACO.name, HunterGuildMasterName.TECO.name],
-  leagueRegions: [GenericLeagueRegion.FREMENNIK],
 };
 
 const DarkKebbit: HunterRumourDefinition = {
-  id: 'dark-kebbit',
   creature: 'Dark kebbit',
-  method: 'Falconry',
+  id: 'dark-kebbit',
+  leagueRegions: [GenericLeagueRegion.KANDARIN],
   locations: [RumourLocation.PISCATORIS_FALCONRY_AREA],
+  masterNames: [
+    HunterGuildMasterName.GILMAN.name,
+    HunterGuildMasterName.CERVUS.name,
+    HunterGuildMasterName.ACO.name,
+    HunterGuildMasterName.TECO.name,
+  ],
+  method: 'Falconry',
   requiredHunterLevel: 57,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ACO.name, HunterGuildMasterName.TECO.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN],
 };
 
 const PyreFox: HunterRumourDefinition = {
-  id: 'pyre-fox',
   creature: 'Pyre fox',
-  method: 'Deadfall',
+  id: 'pyre-fox',
+  leagueRegions: [GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.AVIUM_SAVANNAH],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name],
+  method: 'Deadfall',
   requiredHunterLevel: 57,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name],
-  leagueRegions: [GenericLeagueRegion.VARLAMORE],
 };
 
 const RedSalamander: HunterRumourDefinition = {
-  id: 'red-salamander',
   creature: 'Red salamander',
-  method: 'Net trap',
+  id: 'red-salamander',
+  leagueRegions: [GenericLeagueRegion.KANDARIN],
   locations: [RumourLocation.OURANIA_HUNTER_AREA, RumourLocation.CHARRED_ISLAND],
+  masterNames: [
+    HunterGuildMasterName.GILMAN.name,
+    HunterGuildMasterName.ACO.name,
+    HunterGuildMasterName.TECO.name,
+    HunterGuildMasterName.WOLF.name,
+  ],
+  method: 'Net trap',
   requiredHunterLevel: 59,
   tier: 'Master',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.ACO.name, HunterGuildMasterName.TECO.name, HunterGuildMasterName.WOLF.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN],
 };
 
 const RedChinchompa: HunterRumourDefinition = {
-  id: 'red-chinchompa',
   creature: 'Red chinchompa',
+  id: 'red-chinchompa',
+  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.TIRANNWN, GenericLeagueRegion.VARLAMORE],
+  locations: [
+    RumourLocation.CHINCHOMPA_ISLAND,
+    RumourLocation.FELDIP_HUNTER_AREA,
+    RumourLocation.THE_GREAT_CONCH,
+    RumourLocation.GWENITH_HUNTER_AREA,
+    RumourLocation.RED_CHINCHOMPA_HUNTING_GROUND,
+    RumourLocation.TLATI_RAINFOREST,
+  ],
+  masterNames: [
+    HunterGuildMasterName.GILMAN.name,
+    HunterGuildMasterName.CERVUS.name,
+    HunterGuildMasterName.ORNUS.name,
+    HunterGuildMasterName.ACO.name,
+    HunterGuildMasterName.TECO.name,
+    HunterGuildMasterName.WOLF.name,
+  ],
   method: 'Box trap',
-  locations: [RumourLocation.CHINCHOMPA_ISLAND, RumourLocation.FELDIP_HUNTER_AREA, RumourLocation.THE_GREAT_CONCH, RumourLocation.GWENITH_HUNTER_AREA, RumourLocation.RED_CHINCHOMPA_HUNTING_GROUND, RumourLocation.TLATI_RAINFOREST],
   requiredHunterLevel: 63,
   tier: 'Master',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name, HunterGuildMasterName.ACO.name, HunterGuildMasterName.TECO.name, HunterGuildMasterName.WOLF.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.TIRANNWN, GenericLeagueRegion.VARLAMORE],
 };
 
 const DashingKebbit: HunterRumourDefinition = {
-  id: 'dashing-kebbit',
   creature: 'Dashing kebbit',
-  method: 'Falconry',
+  id: 'dashing-kebbit',
+  leagueRegions: [GenericLeagueRegion.KANDARIN],
   locations: [RumourLocation.PISCATORIS_FALCONRY_AREA],
+  masterNames: [
+    HunterGuildMasterName.GILMAN.name,
+    HunterGuildMasterName.ACO.name,
+    HunterGuildMasterName.TECO.name,
+    HunterGuildMasterName.WOLF.name,
+  ],
+  method: 'Falconry',
   requiredHunterLevel: 69,
   tier: 'Master',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.ACO.name, HunterGuildMasterName.TECO.name, HunterGuildMasterName.WOLF.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN],
 };
 
 const SunlightAntelope: HunterRumourDefinition = {
-  id: 'sunlight-antelope',
   creature: 'Sunlight antelope',
-  method: 'Spiked pit',
+  id: 'sunlight-antelope',
+  leagueRegions: [GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.AVIUM_SAVANNAH],
+  masterNames: ['Aco', 'Teco', 'Wolf'],
+  method: 'Spiked pit',
   requiredHunterLevel: 72,
   tier: 'Master',
-  masterNames: ['Aco', 'Teco', 'Wolf'],
-  leagueRegions: [GenericLeagueRegion.VARLAMORE],
 };
 
 const SunlightMoth: HunterRumourDefinition = {
-  id: 'sunlight-moth',
   creature: 'Sunlight moth',
-  method: 'Butterfly net',
+  id: 'sunlight-moth',
+  leagueRegions: [GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.AVIUM_SAVANNAH, RumourLocation.NEYPOTZLI],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.TECO.name],
+  method: 'Butterfly net',
   requiredHunterLevel: 75,
   tier: 'Master',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.TECO.name],
-  leagueRegions: [GenericLeagueRegion.VARLAMORE],
 };
 
 const TecuSalamander: HunterRumourDefinition = {
-  id: 'tecu-salamander',
   creature: 'Tecu salamander',
-  method: 'Net trap',
+  id: 'tecu-salamander',
+  leagueRegions: [GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.RALOS_RISE],
+  masterNames: ['Aco', 'Wolf'],
+  method: 'Net trap',
   requiredHunterLevel: 79,
   tier: 'Master',
-  masterNames: ['Aco', 'Wolf'],
-  leagueRegions: [GenericLeagueRegion.VARLAMORE],
 };
 
 const Herbiboar: HunterRumourDefinition = {
-  id: 'herbiboar',
   creature: 'Herbiboar',
-  method: 'Tracking',
+  id: 'herbiboar',
+  leagueRegions: [GenericLeagueRegion.MISTHALIN],
   locations: [RumourLocation.MUSHROOM_FOREST_ON_FOSSIL_ISLAND],
+  masterNames: ['Teco', 'Wolf'],
+  method: 'Tracking',
+  notes: 'Also requires Herblore 31',
+  questRequirements: ['Bone Voyage'],
   requiredHunterLevel: 80,
   tier: 'Master',
-  masterNames: ['Teco', 'Wolf'],
-  questRequirements: ['Bone Voyage'],
-  notes: 'Also requires Herblore 31',
-  leagueRegions: [GenericLeagueRegion.MISTHALIN],
 };
 
 const EmbertailedJerboa: HunterRumourDefinition = {
-  id: 'embertailed-jerboa',
   creature: 'Embertailed jerboa',
-  method: 'Box trap',
+  id: 'embertailed-jerboa',
+  leagueRegions: [GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.WEST_OF_HUNTER_GUILD, RumourLocation.NORTH_WEST_OF_THE_LOCUS_OASIS],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.ACO.name],
+  method: 'Box trap',
   requiredHunterLevel: 39,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.ACO.name],
-  leagueRegions: [GenericLeagueRegion.VARLAMORE],
 };
 
 const HornedGraahk: HunterRumourDefinition = {
-  id: 'horned-graahk',
   creature: 'Horned graahk',
-  method: 'Spiked pit',
+  id: 'horned-graahk',
+  leagueRegions: [GenericLeagueRegion.KARAMJA],
   locations: [RumourLocation.KARAMJA_HUNTER_AREA],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name],
+  method: 'Spiked pit',
   requiredHunterLevel: 41,
   tier: 'Adept',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name],
-  leagueRegions: [GenericLeagueRegion.KARAMJA],
 };
 
 const SpottedKebbit: HunterRumourDefinition = {
-  id: 'spotted-kebbit',
   creature: 'Spotted kebbit',
-  method: 'Falconry',
+  id: 'spotted-kebbit',
+  leagueRegions: [GenericLeagueRegion.KANDARIN],
   locations: [RumourLocation.PISCATORIS_FALCONRY_AREA],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name],
+  method: 'Falconry',
   requiredHunterLevel: 43,
   tier: 'Adept',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN],
 };
 
 const BlackWarlock: HunterRumourDefinition = {
-  id: 'black-warlock',
   creature: 'Black warlock',
+  id: 'black-warlock',
+  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.KOUREND, GenericLeagueRegion.VARLAMORE],
+  locations: [
+    RumourLocation.FELDIP_HUNTER_AREA,
+    RumourLocation.FARMING_GUILD,
+    RumourLocation.TLATI_RAINFOREST,
+    RumourLocation.SHIMMERING_ATOLL,
+    RumourLocation.CRYPT_OF_TONALI_HUNTER_AREA,
+    RumourLocation.UZER_HUNTER_AREA,
+    RumourLocation.NECROPOLIS_HUNTER_AREA,
+  ],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name],
   method: 'Butterfly net',
-  locations: [RumourLocation.FELDIP_HUNTER_AREA, RumourLocation.FARMING_GUILD, RumourLocation.TLATI_RAINFOREST, RumourLocation.SHIMMERING_ATOLL, RumourLocation.CRYPT_OF_TONALI_HUNTER_AREA, RumourLocation.UZER_HUNTER_AREA, RumourLocation.NECROPOLIS_HUNTER_AREA],
   requiredHunterLevel: 45,
   tier: 'Adept',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name],
-  leagueRegions: [GenericLeagueRegion.KANDARIN, GenericLeagueRegion.KOUREND, GenericLeagueRegion.VARLAMORE],
 };
 
 const OrangeSalamander: HunterRumourDefinition = {
-  id: 'orange-salamander',
   creature: 'Orange salamander',
-  method: 'Net trap',
+  id: 'orange-salamander',
+  leagueRegions: [GenericLeagueRegion.DESERT],
   locations: [RumourLocation.THE_GREAT_CONCH, RumourLocation.UZER_HUNTER_AREA, RumourLocation.NECROPOLIS_HUNTER_AREA],
+  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name],
+  method: 'Net trap',
   requiredHunterLevel: 47,
   tier: 'Expert',
-  masterNames: [HunterGuildMasterName.GILMAN.name, HunterGuildMasterName.CERVUS.name, HunterGuildMasterName.ORNUS.name],
-  leagueRegions: [GenericLeagueRegion.DESERT],
 };
 
 const MoonlightMoth: HunterRumourDefinition = {
-  id: 'moonlight-moth',
   creature: 'Moonlight moth',
-  method: 'Butterfly net',
+  id: 'moonlight-moth',
+  leagueRegions: [GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.THE_BURROW, RumourLocation.NEYPOTZLI, RumourLocation.TONALI_CAVERN],
+  masterNames: ['Aco', 'Wolf'],
+  method: 'Butterfly net',
   requiredHunterLevel: 85,
   tier: 'Master',
-  masterNames: ['Aco', 'Wolf'],
-  leagueRegions: [GenericLeagueRegion.VARLAMORE],
 };
 
 const MoonlightAntelope: HunterRumourDefinition = {
-  id: 'moonlight-antelope',
   creature: 'Moonlight antelope',
-  method: 'Spiked pit',
+  id: 'moonlight-antelope',
+  leagueRegions: [GenericLeagueRegion.VARLAMORE],
   locations: [RumourLocation.THE_BURROW],
+  masterNames: ['Wolf'],
+  method: 'Spiked pit',
+  questRequirements: ['At First Light'],
   requiredHunterLevel: 91,
   tier: 'Master',
-  masterNames: ['Wolf'],
-  questRequirements: ['At First Light'],
-  leagueRegions: [GenericLeagueRegion.VARLAMORE],
 };
-
 
 /**
  * Registry of all the Rumours in the Hunter Guild, along with their properties such as the creature they pertain to,

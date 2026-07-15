@@ -81,8 +81,7 @@ const DreamMentor = {
       },
       { description: "Access to Cyrisus' bank without a seal of passage" },
       {
-        description:
-          'The Untouchable, The Everlasting, The Inadequacy accessible in the Nightmare Zone',
+        description: 'The Untouchable, The Everlasting, The Inadequacy accessible in the Nightmare Zone',
         url: 'https://oldschool.runescape.wiki/w/Nightmare_Zone',
       },
     ],

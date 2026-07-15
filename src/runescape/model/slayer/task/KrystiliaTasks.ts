@@ -1,8 +1,4 @@
-import {
-  CombatLevelRequirement,
-  QuestRequirement,
-  SlayerLevelRequirement,
-} from '../../Requirement';
+import { CombatLevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
 import { Task } from '../Task';
 
 const krystiliaTasks: Task[] = [
@@ -24,22 +20,10 @@ const krystiliaTasks: Task[] = [
     0,
     ['Wilderness Slayer Cave'],
   ),
-  new Task('Ankou', 1, 120, [new CombatLevelRequirement(40)], null, null, [], 8, [], 0, [
+  new Task('Ankou', 1, 120, [new CombatLevelRequirement(40)], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
+  new Task('Black demons', 1, 120, [new CombatLevelRequirement(80)], null, null, ['Demonic gorilla'], 8, [], 0, [
     'Wilderness Slayer Cave',
   ]),
-  new Task(
-    'Black demons',
-    1,
-    120,
-    [new CombatLevelRequirement(80)],
-    null,
-    null,
-    ['Demonic gorilla'],
-    8,
-    [],
-    0,
-    ['Wilderness Slayer Cave'],
-  ),
   new Task(
     'Black dragons',
     1,
@@ -98,22 +82,10 @@ const krystiliaTasks: Task[] = [
     0,
     ['Wilderness Slayer Cave'],
   ),
-  new Task('Green dragons', 1, 120, [], null, null, ['Baby green dragon'], 8, [], 0, [
+  new Task('Green dragons', 1, 120, [], null, null, ['Baby green dragon'], 8, [], 0, ['Wilderness Slayer Cave']),
+  new Task('Hellhounds', 1, 120, [new CombatLevelRequirement(75)], null, null, ['Cerberus'], 8, [], 0, [
     'Wilderness Slayer Cave',
   ]),
-  new Task(
-    'Hellhounds',
-    1,
-    120,
-    [new CombatLevelRequirement(75)],
-    null,
-    null,
-    ['Cerberus'],
-    8,
-    [],
-    0,
-    ['Wilderness Slayer Cave'],
-  ),
   new Task('Hill giants', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
   new Task('Ice giants', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
   new Task('Ice warriors', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),

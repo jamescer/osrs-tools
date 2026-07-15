@@ -75,9 +75,9 @@ Completion of While Guthix Sleeps.
 82		Osmumten's fang	None.
  */
 
-import { QuestRequirement, Requirement } from "../../../Requirement";
-import { Skill } from "../../Skill";
-import { SkillUnlock } from "./SkillUnlock";
+import { QuestRequirement, Requirement } from '../../../Requirement';
+import { Skill } from '../../Skill';
+import { SkillUnlock } from './SkillUnlock';
 
 /** Attack skill unlock interface */
 export interface AttackUnlock extends SkillUnlock {
@@ -91,94 +91,94 @@ export interface AttackUnlock extends SkillUnlock {
 /** Attack skill unlocks */
 export const AttackUnlocks: AttackUnlock[] = [
   {
+    description: 'None.',
     level: 1,
-    name: "Bronze",
-    description: "None.",
+    name: 'Bronze',
     skill: Skill.Attack,
   },
   {
+    description: 'None.',
     level: 1,
-    name: "Iron",
-    description: "None.",
+    name: 'Iron',
     skill: Skill.Attack,
   },
   {
+    description: 'None.',
     level: 1,
-    name: "Machetes",
-    description: "None.",
+    name: 'Machetes',
     skill: Skill.Attack,
   },
   {
+    description: 'None.[1]',
     level: 5,
-    name: "Steel",
-    description: "None.[1]",
+    name: 'Steel',
     skill: Skill.Attack,
   },
   {
+    description: 'None.[1]',
     level: 10,
-    name: "Black",
-    description: "None.[1]",
+    name: 'Black',
     skill: Skill.Attack,
   },
   {
+    description: 'Completion of the Wanted! quest.',
     level: 10,
-    name: "White",
-    description: "Completion of the Wanted! quest.",
-    requirements: [QuestRequirement.fromQuestName("Wanted!")],
+    name: 'White',
+    requirements: [QuestRequirement.fromQuestName('Wanted!')],
     skill: Skill.Attack,
   },
   {
+    description: 'Prayer 25 and partial completion of Another Slice of H.A.M.',
     level: 15,
-    name: "Ancient mace",
-    description: "Prayer 25 and partial completion of Another Slice of H.A.M.",
+    name: 'Ancient mace',
     skill: Skill.Attack,
   },
   {
+    description: 'None.[1]',
     level: 20,
-    name: "Mithril",
-    description: "None.[1]",
+    name: 'Mithril',
     skill: Skill.Attack,
   },
   {
+    description: 'None.[1]',
     level: 30,
-    name: "Adamant",
-    description: "None.[1]",
+    name: 'Adamant',
     skill: Skill.Attack,
   },
   {
+    description: 'Magic 30',
     level: 30,
-    name: "Battlestaves",
-    description: "Magic 30",
+    name: 'Battlestaves',
     skill: Skill.Attack,
   },
   {
+    description: 'Ranged 30 Magic 30',
     level: 30,
-    name: "Swamp lizard",
-    description: "Ranged 30 Magic 30",
+    name: 'Swamp lizard',
     skill: Skill.Attack,
   },
   {
+    description: 'None.',
     level: 40,
-    name: "Brine sabre",
-    description: "None.",
+    name: 'Brine sabre',
     skill: Skill.Attack,
   },
   {
+    description: 'Magic 40',
     level: 40,
-    name: "Mystic staves",
-    description: "Magic 40",
+    name: 'Mystic staves',
     skill: Skill.Attack,
   },
   {
+    description: 'None.[1]',
     level: 40,
-    name: "Rune",
-    description: "None.[1]",
+    name: 'Rune',
     skill: Skill.Attack,
   },
   {
+    description: 'Attack 42,Strength,Defence,Hitpoints,Ranged,Magic, and Prayer 22',
     level: 42,
-    name: "Void knight mace",
-    description: "Attack 42,Strength,Defence,Hitpoints,Ranged,Magic, and Prayer 22",
+    name: 'Void knight mace',
     skill: Skill.Attack,
   },
 ];

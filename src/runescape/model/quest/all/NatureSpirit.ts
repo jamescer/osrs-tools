@@ -15,10 +15,7 @@ const NatureSpirit: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [
-    new QuestRequirement('The Restless Ghost'),
-    new QuestRequirement('Priest in Peril'),
-  ],
+  requirements: [new QuestRequirement('The Restless Ghost'), new QuestRequirement('Priest in Peril')],
   rewards: {
     areas: [],
     experience: [],

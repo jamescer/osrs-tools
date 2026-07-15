@@ -17,10 +17,7 @@ const LostCity: Quest = {
   recommendedSkills: { Woodcutting: 36 },
   requirements: [new LevelRequirement('Woodcutting', 36, false)],
   rewards: {
-    areas: [
-      'Lost City (access to Zanaris for members)',
-      'Zanaris',
-    ],
+    areas: ['Lost City (access to Zanaris for members)', 'Zanaris'],
     experience: [{ amount: 3000, skill: 'Woodcutting' }],
     items: [],
     lamps: [],

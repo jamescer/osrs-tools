@@ -15,20 +15,22 @@ import { registerMaster } from './registry';
  * One of the top-tier masters offering the highest rewards and most difficult tasks
  */
 export const Duradel = new SlayerMaster({
-  name: 'Duradel',
-  location: 'Shilo Village',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Duradel',
-  minimumCombatLevel: 50,
-  tasks: duradelTasks,
-  pointsTable: POINTS_TABLE.STANDARD,
   eliteDiaryTaskPoints: {
     1: 2,
     10: 5,
-    50: 15,
     100: 50,
-    250: 75, // +5 bonus
-    1000: 125, // +25 bonus
+    // +5 bonus
+    1000: 125,
+
+    250: 75,
+    50: 15, // +25 bonus
   },
+  location: 'Shilo Village',
+  minimumCombatLevel: 50,
+  name: 'Duradel',
+  pointsTable: POINTS_TABLE.STANDARD,
+  tasks: duradelTasks,
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Duradel',
 });
 
 // Register in the masters registry

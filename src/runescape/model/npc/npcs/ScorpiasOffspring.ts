@@ -1,5 +1,5 @@
-import { Npc } from "../Npc";
-import { NpcDrop } from "../NpcDrop";
+import { Npc } from '../Npc';
+import { NpcDrop } from '../NpcDrop';
 
 /**
  * Scorpia's Offspring
@@ -7,52 +7,56 @@ import { NpcDrop } from "../NpcDrop";
  * Wiki: https://oldschool.runescape.wiki/w/Scorpia's_offspring
  */
 export const scorpiasOffspring = new Npc({
-  id: 6619,
-  name: "Scorpia's offspring",
-  examine: "A young scorpion.",
-  members: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Scorpia's_offspring",
-  combatLevel: 40,
-  stats: {
-    hitpoints: 50,
-    attack: 38,
-    strength: 40,
-    defence: 35,
-    magic: 15,
-    ranged: 15,
-  },
   aggressiveStats: {
     attackBonus: 25,
-    strengthBonus: 30,
     magicStrengthBonus: 0,
     rangedStrengthBonus: 0,
-  },
-  defences: {
-    melee: { stab: 5, slash: 8, crush: 3 },
-    magic: { bonus: -5, elementalWeakness: "None" },
-    ranged: { light: 3, standard: 3, heavy: 3 },
+    strengthBonus: 30,
   },
   combat: {
-    maxHit: 8,
     attackSpeed: 5,
-    respawnTime: 30,
+    attackStyles: ['Melee'],
+    hasWeaponVenom: false,
     isAggressive: false,
     isAttackable: true,
-    attackStyles: ["Melee"],
     isPoisonous: true,
-    hasWeaponVenom: false,
+    maxHit: 8,
+    respawnTime: 30,
     weaknesses: [],
   },
-  immunities: {
-    canBePoison: true,
-    isPoisonous: true,
-    canBeVenom: true,
-    canBeCannoned: true,
-    canBeThralled: true,
+  combatLevel: 40,
+  defences: {
+    magic: { bonus: -5, elementalWeakness: 'None' },
+    melee: { crush: 3, slash: 8, stab: 5 },
+    ranged: { heavy: 3, light: 3, standard: 3 },
   },
-  locations: ["Wilderness"],
-  drops: [new NpcDrop("Bones", 1, "Always")],
-  trivia: ["Scorpia's Offspring are young scorpions.", "They inherit poison from their mother.", "These creatures are weaker than adult scorpions."],
+  drops: [new NpcDrop('Bones', 1, 'Always')],
+  examine: 'A young scorpion.',
+  id: 6619,
+  immunities: {
+    canBeCannoned: true,
+    canBePoison: true,
+    canBeThralled: true,
+    canBeVenom: true,
+    isPoisonous: true,
+  },
+  locations: ['Wilderness'],
+  members: true,
+  name: "Scorpia's offspring",
+  officialWikiUrl: "https://oldschool.runescape.wiki/w/Scorpia's_offspring",
+  stats: {
+    attack: 38,
+    defence: 35,
+    hitpoints: 50,
+    magic: 15,
+    ranged: 15,
+    strength: 40,
+  },
+  trivia: [
+    "Scorpia's Offspring are young scorpions.",
+    'They inherit poison from their mother.',
+    'These creatures are weaker than adult scorpions.',
+  ],
 });
 
 export default scorpiasOffspring;

@@ -3,9 +3,9 @@
  * Exports the fundamental classes and types for the Slayer system
  */
 
-export { SlayerMaster } from './SlayerMaster';
-export { Task } from './Task';
 export { Assignment } from './Assignment';
-export type { TaskDefinition, TaskQuantity, SlayerMasterConfig, TaskOptions } from './types';
-export { SlayerLocation, SlayerBoss, POINTS_TABLE, TASK_DEFAULTS } from './types';
+export { SlayerMaster } from './SlayerMaster';
 export type { TaskJson } from './Task';
+export { Task } from './Task';
+export type { SlayerMasterConfig, TaskDefinition, TaskOptions, TaskQuantity } from './types';
+export { POINTS_TABLE, SlayerBoss, SlayerLocation, TASK_DEFAULTS } from './types';

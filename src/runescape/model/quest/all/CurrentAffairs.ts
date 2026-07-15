@@ -37,8 +37,7 @@ The mayor of Catherby
 
 const CurrentAffairs: Quest = {
   age: '',
-  description:
-    'Help Arhein get past some political red tape and unlock the current duck, a useful Sailing tool.',
+  description: 'Help Arhein get past some political red tape and unlock the current duck, a useful Sailing tool.',
   difficulty: QuestDifficulty.Novice,
   id: 21,
   length: QuestLength.Short,
@@ -48,8 +47,8 @@ const CurrentAffairs: Quest = {
   questPoints: 1,
   recommendations: [
     {
-      type: 'tip',
       name: 'Highly recommended: A boat docked at the Catherby docks - you will be required to sail nearby at the end of the quest',
+      type: 'tip',
     },
   ],
   recommendedPrayers: [],
@@ -59,14 +58,10 @@ const CurrentAffairs: Quest = {
     new LevelRequirement(Skill.Sailing, 22, false),
     new LevelRequirement(Skill.Fishing, 10, false),
   ],
-  status: QuestStatus.NotStarted,
-  steps: [],
-  startLocation: 'Catherby docks - speak to Arhein',
-  shortName: 'currentaffairs',
   rewards: {
     experience: [
-      { skill: Skill.Sailing, amount: 1400 },
-      { skill: Skill.Fishing, amount: 1000 },
+      { amount: 1400, skill: Skill.Sailing },
+      { amount: 1000, skill: Skill.Fishing },
     ],
     items: [
       // 'The current duck',
@@ -79,6 +74,10 @@ const CurrentAffairs: Quest = {
     questPoints: 1,
     unlocks: [{ description: 'Access to Sea charting/Current' }],
   },
+  shortName: 'currentaffairs',
+  startLocation: 'Catherby docks - speak to Arhein',
+  status: QuestStatus.NotStarted,
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Current_Affairs',
 };
 

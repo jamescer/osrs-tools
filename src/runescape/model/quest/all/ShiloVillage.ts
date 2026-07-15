@@ -1,11 +1,12 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ShiloVillage: Quest = {
   age: 'Fifth Age',
-  description: 'A village hidden in the jungles of Karamja has been plagued by a terrible disease. Travel deep into the jungle to find a cure and restore peace to the settlement.',
+  description:
+    'A village hidden in the jungles of Karamja has been plagued by a terrible disease. Travel deep into the jungle to find a cure and restore peace to the settlement.',
   difficulty: QuestDifficulty.Experienced,
   id: 98,
   length: QuestLength.Long,

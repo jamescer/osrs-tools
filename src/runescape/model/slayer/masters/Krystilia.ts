@@ -16,20 +16,20 @@ import { registerMaster } from './registry';
  * Offers wilderness-themed tasks and elite point bonuses
  */
 export const Krystilia = new SlayerMaster({
-  name: 'Krystilia',
-  location: 'Edgeville',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Krystilia',
-  minimumCombatLevel: 1,
-  tasks: krystiliaTasks,
-  pointsTable: POINTS_TABLE.STANDARD,
   eliteDiaryTaskPoints: {
     1: 15,
     10: 75,
-    50: 225,
     100: 375,
-    250: 525,
     1000: 750,
+    250: 525,
+    50: 225,
   },
+  location: 'Edgeville',
+  minimumCombatLevel: 1,
+  name: 'Krystilia',
+  pointsTable: POINTS_TABLE.STANDARD,
+  tasks: krystiliaTasks,
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Krystilia',
 });
 
 // Register in the masters registry

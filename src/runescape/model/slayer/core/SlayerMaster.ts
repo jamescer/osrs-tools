@@ -18,6 +18,7 @@ class SlayerMaster {
   wikiUrl: string = ''; // URL for the Slayer Master (optional, can be set later if needed)
   taskPoints: Record<number, number>; // Mapping of task intervals to points
   eliteDiaryTaskPoints?: Record<number, number>; // Mapping of task intervals to points
+  blockedTasks: Set<string> = new Set(); // Names (lowercased) of tasks this master will not assign
 
   // Overloaded constructor signatures
   constructor(options: SlayerMasterConfig);
@@ -117,12 +118,16 @@ class SlayerMaster {
    * @returns {Task | null} A randomly selected task or null if no tasks are available.
    */
   getRandomTask(): Task | null {
-    if (this.tasks.length === 0) return null; // Return null if there are no tasks
+    const availableTasks = this.getAvailableTasks();
+    if (availableTasks.length === 0) return null; // Return null if there are no unblocked tasks
 
-    const randomWeight = Math.random() * this.totalWeight; // Generate a random number between 0 and totalWeight
+    const availableWeight = availableTasks.reduce((total, task) => total + (task.weight || 0), 0);
+    if (availableWeight <= 0) return null;
+
+    const randomWeight = Math.random() * availableWeight; // Generate a random number between 0 and availableWeight
     let cumulativeWeight = 0;
 
-    for (const task of this.tasks) {
+    for (const task of availableTasks) {
       cumulativeWeight += task.weight || 0; // Add the task's weight to the cumulative weight
       if (randomWeight <= cumulativeWeight) {
         return task; // Return the task if the random weight falls within its range
@@ -130,6 +135,51 @@ class SlayerMaster {
     }
 
     return null; // Fallback in case no task is selected (shouldn't happen if weights are correct)
+  }
+
+  /**
+   * Block a task so it will no longer be returned by getRandomTask().
+   * Mirrors the in-game block list: only tasks this master actually assigns can be blocked.
+   * @param {string} taskName - Name of the task to block (case insensitive).
+   * @returns {boolean} True if the task was found and blocked, false if this master doesn't assign it.
+   */
+  blockTask(taskName: string): boolean {
+    const normalized = taskName.toLowerCase();
+    const exists = this.tasks.some(task => task.getName().toLowerCase() === normalized);
+    if (!exists) return false;
+
+    this.blockedTasks.add(normalized);
+    return true;
+  }
+
+  /**
+   * Unblock a previously blocked task, allowing it to be assigned again.
+   * @param {string} taskName - Name of the task to unblock (case insensitive).
+   */
+  unblockTask(taskName: string): void {
+    this.blockedTasks.delete(taskName.toLowerCase());
+  }
+
+  /**
+   * Check whether a task is currently blocked for this master.
+   * @param {string} taskName - Name of the task to check (case insensitive).
+   */
+  isTaskBlocked(taskName: string): boolean {
+    return this.blockedTasks.has(taskName.toLowerCase());
+  }
+
+  /**
+   * Get the names of all currently blocked tasks.
+   */
+  getBlockedTasks(): string[] {
+    return Array.from(this.blockedTasks);
+  }
+
+  /**
+   * Get the tasks this master can currently assign, excluding blocked ones.
+   */
+  getAvailableTasks(): Task[] {
+    return this.tasks.filter(task => !this.isTaskBlocked(task.getName()));
   }
 
   /**

@@ -15,20 +15,20 @@ import { registerMaster } from './registry';
  * Accessible at combat level 40 in Edgeville Dungeon
  */
 export const Vannaka = new SlayerMaster({
-  name: 'Vannaka',
-  location: 'Edgeville Dungeon',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Vannaka',
-  minimumCombatLevel: 40,
-  tasks: vannakaTasks,
-  pointsTable: POINTS_TABLE.STANDARD,
   eliteDiaryTaskPoints: {
     1: 2,
     10: 5,
-    50: 15,
     100: 50,
-    250: 70,
     1000: 100,
+    250: 70,
+    50: 15,
   },
+  location: 'Edgeville Dungeon',
+  minimumCombatLevel: 40,
+  name: 'Vannaka',
+  pointsTable: POINTS_TABLE.STANDARD,
+  tasks: vannakaTasks,
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Vannaka',
 });
 
 // Register in the masters registry

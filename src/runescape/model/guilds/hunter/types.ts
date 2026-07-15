@@ -2,19 +2,18 @@ export type HunterRumourTier = 'Novice' | 'Adept' | 'Expert' | 'Master';
 
 export const HunterRumourMethods = {
   BIRD_SNARE: 'Bird snare',
-  DEADFALL: 'Deadfall',
+  BOX_TRAP: 'Box trap',
   BUTTERFLY_NET: 'Butterfly net',
+  DEADFALL: 'Deadfall',
+  FALCONRY: 'Falconry',
   NET_TRAP: 'Net trap',
   SPIKED_PIT: 'Spiked pit',
-  BOX_TRAP: 'Box trap',
-  FALCONRY: 'Falconry',
   TRACKING: 'Tracking',
 } as const;
 
-export type HunterRumourMethod = typeof HunterRumourMethods[keyof typeof HunterRumourMethods];
+export type HunterRumourMethod = (typeof HunterRumourMethods)[keyof typeof HunterRumourMethods];
 
 import type { RumourLocation } from './RumourLocation';
-
 
 export interface HunterRumourDefinition {
   id: string;

@@ -34,7 +34,7 @@ const TheGolem: Quest = {
     'Travel to the desert town.',
     'Speak to the locals.',
     'Discover the legend of the golem.',
-    'Find clues about the golem\'s location.',
+    "Find clues about the golem's location.",
     'Face the golem in the desert.',
     'Resolve the conflict and return.',
   ],

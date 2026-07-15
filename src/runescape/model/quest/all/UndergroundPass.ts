@@ -5,7 +5,8 @@ import { Quest, QuestStatus } from '../Quest';
 
 const UndergroundPass: Quest = {
   age: 'Fifth Age',
-  description: 'Travel through a dangerous underground passage to reach the land of the elves, avoiding traps and dark magic.',
+  description:
+    'Travel through a dangerous underground passage to reach the land of the elves, avoiding traps and dark magic.',
   difficulty: QuestDifficulty.Experienced,
   id: 130,
   length: QuestLength.Long,
@@ -19,7 +20,7 @@ const UndergroundPass: Quest = {
     { name: 'Damage gear', note: 'Multiple combat sections', type: 'item' },
   ],
   recommendedPrayers: [],
-  recommendedSkills: { Ranged: 25, Agility: 25 },
+  recommendedSkills: { Agility: 25, Ranged: 25 },
   requirements: [new QuestRequirement('Biohazard'), new LevelRequirement('Ranged', 25, false)],
   rewards: {
     areas: ['Elf lands access'],

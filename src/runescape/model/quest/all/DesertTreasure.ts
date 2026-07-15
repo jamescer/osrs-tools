@@ -4,8 +4,7 @@ import { QuestStatus } from '../Quest';
 
 const DesertTreasure = {
   age: 'Fifth Age',
-  description:
-    'Help the archaeologist uncover the secrets of the Ancient Pyramid and unlock Ancient Magicks.',
+  description: 'Help the archaeologist uncover the secrets of the Ancient Pyramid and unlock Ancient Magicks.',
   difficulty: QuestDifficulty.Master,
   id: 26,
   length: QuestLength.Long,
@@ -63,10 +62,7 @@ const DesertTreasure = {
   rewards: {
     areas: ['Ancient Pyramid', 'Smoke Dungeon'],
     experience: [{ amount: 20006.9, skill: 'Magic' }],
-    items: [
-      { name: 'Ring of visibility' },
-      { name: 'Ancient staff', note: 'Buyable from Eblis after quest.' },
-    ],
+    items: [{ name: 'Ring of visibility' }, { name: 'Ancient staff', note: 'Buyable from Eblis after quest.' }],
     misc: [
       'Switch between standard and Ancient Magicks spellbooks at the altar',
       'Required for Recipe for Disaster (Defeating the Culinaromancer), Curse of the Empty Lord, Hopespear’s Will, The Frozen Door',

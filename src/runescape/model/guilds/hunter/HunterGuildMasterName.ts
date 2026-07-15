@@ -1,8 +1,8 @@
 export const HunterGuildMasterName = {
-  GILMAN : { name: 'Gilman' },
-  CERVUS : { name: 'Cervus' },
-  ORNUS : { name: 'Ornus' },
-  ACO : { name: 'Aco' },
-  TECO : { name: 'Teco' },
-  WOLF : { name: 'Wolf' },
+  ACO: { name: 'Aco' },
+  CERVUS: { name: 'Cervus' },
+  GILMAN: { name: 'Gilman' },
+  ORNUS: { name: 'Ornus' },
+  TECO: { name: 'Teco' },
+  WOLF: { name: 'Wolf' },
 };

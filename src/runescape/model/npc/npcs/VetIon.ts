@@ -1,5 +1,5 @@
-import { Npc } from "../Npc";
-import { NpcDrop } from "../NpcDrop";
+import { Npc } from '../Npc';
+import { NpcDrop } from '../NpcDrop';
 
 /**
  * Vet'ion
@@ -7,52 +7,56 @@ import { NpcDrop } from "../NpcDrop";
  * Wiki: https://oldschool.runescape.wiki/w/Vet'ion
  */
 export const vetIon = new Npc({
-  id: 6612,
-  name: "Vet'ion",
-  examine: "A demonic skeleton.",
-  members: true,
-  officialWikiUrl: "https://oldschool.runescape.wiki/w/Vet'ion",
-  combatLevel: 454,
-  stats: {
-    hitpoints: 300,
-    attack: 200,
-    strength: 220,
-    defence: 180,
-    magic: 120,
-    ranged: 100,
-  },
   aggressiveStats: {
     attackBonus: 160,
-    strengthBonus: 180,
     magicStrengthBonus: 80,
     rangedStrengthBonus: 0,
-  },
-  defences: {
-    melee: { stab: 50, slash: 60, crush: 55 },
-    magic: { bonus: 30, elementalWeakness: "None" },
-    ranged: { light: 60, standard: 60, heavy: 60 },
+    strengthBonus: 180,
   },
   combat: {
-    maxHit: 50,
     attackSpeed: 5,
-    respawnTime: 0,
+    attackStyles: ['Magic', 'Melee'],
+    hasWeaponVenom: false,
     isAggressive: true,
     isAttackable: true,
-    attackStyles: ["Magic", "Melee"],
     isPoisonous: false,
-    hasWeaponVenom: false,
-    weaknesses: ["Crush"],
+    maxHit: 50,
+    respawnTime: 0,
+    weaknesses: ['Crush'],
   },
+  combatLevel: 454,
+  defences: {
+    magic: { bonus: 30, elementalWeakness: 'None' },
+    melee: { crush: 55, slash: 60, stab: 50 },
+    ranged: { heavy: 60, light: 60, standard: 60 },
+  },
+  drops: [new NpcDrop('Bones', 1, 'Always')],
+  examine: 'A demonic skeleton.',
+  id: 6612,
   immunities: {
-    canBePoison: false,
-    isPoisonous: false,
-    canBeVenom: false,
     canBeCannoned: true,
+    canBePoison: false,
     canBeThralled: true,
+    canBeVenom: false,
+    isPoisonous: false,
   },
-  locations: ["Wilderness"],
-  drops: [new NpcDrop("Bones", 1, "Always")],
-  trivia: ["Vet'ion is one of the most powerful bosses in the Wilderness.", "This demonic skeleton does not respawn once defeated.", "Fighting Vet'ion is an extreme test of combat skills."],
+  locations: ['Wilderness'],
+  members: true,
+  name: "Vet'ion",
+  officialWikiUrl: "https://oldschool.runescape.wiki/w/Vet'ion",
+  stats: {
+    attack: 200,
+    defence: 180,
+    hitpoints: 300,
+    magic: 120,
+    ranged: 100,
+    strength: 220,
+  },
+  trivia: [
+    "Vet'ion is one of the most powerful bosses in the Wilderness.",
+    'This demonic skeleton does not respawn once defeated.',
+    "Fighting Vet'ion is an extreme test of combat skills.",
+  ],
 });
 
 export default vetIon;

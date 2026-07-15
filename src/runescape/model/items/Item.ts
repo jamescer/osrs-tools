@@ -368,7 +368,6 @@ export class Item {
   }
 
   static fromJson(json: ItemJson): Item {
-
     /**
      *     examine: "",
     value: 0,
@@ -385,8 +384,6 @@ export class Item {
     noted: false,
     officialWikiUrl: "",
      */
-
-
 
     return new Item(
       json.id,

@@ -1,15 +1,11 @@
-import { HunterRumourDefinition, HunterRumourTier } from './types';
-import { RumourLocation } from './RumourLocation';
 import { LeagueRegion } from '../../leagues';
-
-
-
+import { RumourLocation } from './RumourLocation';
+import { HunterRumourDefinition, HunterRumourTier } from './types';
 
 /**
  * Represents a Hunter Rumour that can be assigned by a Hunter Guild Master. Contains all the necessary information about the rumour, including the creature, method, locations, required hunter level, tier, and any quest requirements. Provides methods to check if the rumour can be assigned to a specific master and if a player is eligible for the rumour based on their hunter level and completed quests.
  */
 export class HunterRumour {
-
   /// Unique identifier for the rumour, typically derived from the creature name and method.
   readonly id: string;
 
@@ -33,7 +29,6 @@ export class HunterRumour {
 
   readonly leagueRegions: string[];
 
-
   constructor(definition: HunterRumourDefinition) {
     this.id = definition.id;
     this.creature = definition.creature;
@@ -48,9 +43,8 @@ export class HunterRumour {
   }
 
   get wikiUrls(): string[] {
-    return this.locations.map((location) => location.wikiUrl);
+    return this.locations.map(location => location.wikiUrl);
   }
-
 
   /**
    * Checks if this rumour can be assigned by the specified master based on the masterNames property, which lists the names of masters that can assign this rumour. This method is used to determine if a particular rumour is eligible to be assigned by a given Hunter Guild Master when players are looking for available rumours.
@@ -69,7 +63,7 @@ export class HunterRumour {
    */
   isEligible(hunterLevel: number, completedQuests: string[] = []): boolean {
     const meetsLevel = hunterLevel >= this.requiredHunterLevel;
-    const meetsQuests = this.questRequirements.every((quest) => completedQuests.includes(quest));
+    const meetsQuests = this.questRequirements.every(quest => completedQuests.includes(quest));
     return meetsLevel && meetsQuests;
   }
 }

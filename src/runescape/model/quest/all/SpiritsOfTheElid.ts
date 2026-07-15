@@ -15,10 +15,7 @@ const SpiritsOfTheElid: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [
-    new LevelRequirement('Magic', 33, false),
-    new LevelRequirement('Thieving', 37, false),
-  ],
+  requirements: [new LevelRequirement('Magic', 33, false), new LevelRequirement('Thieving', 37, false)],
   rewards: {
     areas: [],
     experience: [],

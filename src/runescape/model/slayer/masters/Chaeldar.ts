@@ -15,20 +15,20 @@ import { registerMaster } from './registry';
  * Requires combat level 70 and access to Zanaris
  */
 export const Chaeldar = new SlayerMaster({
-  name: 'Chaeldar',
-  location: 'Zanaris',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Chaeldar',
-  minimumCombatLevel: 70,
-  tasks: chaeldarTasks,
-  pointsTable: POINTS_TABLE.STANDARD,
   eliteDiaryTaskPoints: {
     1: 2,
     10: 5,
-    50: 15,
     100: 50,
-    250: 70,
     1000: 100,
+    250: 70,
+    50: 15,
   },
+  location: 'Zanaris',
+  minimumCombatLevel: 70,
+  name: 'Chaeldar',
+  pointsTable: POINTS_TABLE.STANDARD,
+  tasks: chaeldarTasks,
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Chaeldar',
 });
 
 // Register in the masters registry

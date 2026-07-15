@@ -19,7 +19,9 @@ console.log(`10 beginner clue caskets produced ${allRewards.length} total items:
 
 // Example 4: Get probability of a specific item
 const flaredTrousersOdds = ClueScrollHelper.getItemProbability('easy', 'Flared trousers');
-console.log(`Probability of Flared trousers per roll: ${flaredTrousersOdds.toFixed(4)} (1/${(1/flaredTrousersOdds).toFixed(0)})`);
+console.log(
+  `Probability of Flared trousers per roll: ${flaredTrousersOdds.toFixed(4)} (1/${(1 / flaredTrousersOdds).toFixed(0)})`,
+);
 
 // Example 5: Get rarity as 1/X
 const rarity = ClueScrollHelper.getItemRarity('easy', 'Willow comp bow');

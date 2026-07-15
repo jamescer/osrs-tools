@@ -16,20 +16,20 @@ import { registerMaster } from './registry';
  * Offers greater rewards through both standard and elite diary point tables
  */
 export const Nieve = new SlayerMaster({
-  name: 'Nieve',
-  location: "Nieve's Cave",
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Nieve',
-  minimumCombatLevel: 85,
-  tasks: nieveTasks,
-  pointsTable: POINTS_TABLE.STANDARD,
   eliteDiaryTaskPoints: {
     1: 15,
     10: 75,
-    50: 225,
     100: 375,
-    250: 525,
     1000: 750,
+    250: 525,
+    50: 225,
   },
+  location: "Nieve's Cave",
+  minimumCombatLevel: 85,
+  name: 'Nieve',
+  pointsTable: POINTS_TABLE.STANDARD,
+  tasks: nieveTasks,
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Nieve',
 });
 
 // Register in the masters registry

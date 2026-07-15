@@ -3,7 +3,7 @@ import { ValidationError } from 'src/runescape/errors';
 
 describe('ValidationError', () => {
   it('sets core Error and custom fields', () => {
-    const context = { source: 'quest-parser', retryable: false };
+    const context = { retryable: false, source: 'quest-parser' };
     const err = new ValidationError('questName', 'Dragon Slayer II', 'Invalid quest name', context);
 
     expect(err).toBeInstanceOf(Error);

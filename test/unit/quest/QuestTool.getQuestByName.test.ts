@@ -1,13 +1,13 @@
-import { expect, describe, it, beforeEach } from "@jest/globals";
-import { QuestTool } from "src/runescape/model/quest/QuestTool";
-import { QuestList } from "src/runescape/model/quest/QuestList";
+import { beforeEach, describe, expect, it } from '@jest/globals';
+import { QuestList } from 'src/runescape/model/quest/QuestList';
+import { QuestTool } from 'src/runescape/model/quest/QuestTool';
 
 /**
  * Comprehensive test suite for Quest name resolution and lookup
  */
-describe("QuestTool - Quest Name Resolution", () => {
-  describe("getQuestByName - Exact Matches", () => {
-    it("should find quests by exact canonical names from QuestList", () => {
+describe('QuestTool - Quest Name Resolution', () => {
+  describe('getQuestByName - Exact Matches', () => {
+    it('should find quests by exact canonical names from QuestList', () => {
       const sampleQuests = QuestList.slice(0, 10);
       expect(sampleQuests.length).toBeGreaterThan(0);
 
@@ -19,7 +19,7 @@ describe("QuestTool - Quest Name Resolution", () => {
     });
 
     it("should find 'Dragon Slayer' by exact name", () => {
-      const quest = QuestTool.getQuestByName("Dragon Slayer");
+      const quest = QuestTool.getQuestByName('Dragon Slayer');
       expect(quest).toBeDefined();
       expect(quest?.name).toMatch(/Dragon Slayer/);
     });
@@ -31,13 +31,13 @@ describe("QuestTool - Quest Name Resolution", () => {
     });
 
     it("should find 'The Curse of Arrav' by exact name", () => {
-      const quest = QuestTool.getQuestByName("The Curse of Arrav");
+      const quest = QuestTool.getQuestByName('The Curse of Arrav');
       expect(quest).toBeDefined();
-      expect(quest?.name).toBe("The Curse of Arrav");
+      expect(quest?.name).toBe('The Curse of Arrav');
     });
 
     it("should find 'A Kingdom Divided' by exact name", () => {
-      const quest = QuestTool.getQuestByName("A Kingdom Divided");
+      const quest = QuestTool.getQuestByName('A Kingdom Divided');
       expect(quest).toBeDefined();
       expect(quest?.name).toMatch(/Kingdom Divided/);
     });
@@ -49,29 +49,29 @@ describe("QuestTool - Quest Name Resolution", () => {
     });
   });
 
-  describe("getQuestByName - Case Insensitivity", () => {
-    it("should find quests with lowercase names", () => {
-      const quest = QuestTool.getQuestByName("dragon slayer");
+  describe('getQuestByName - Case Insensitivity', () => {
+    it('should find quests with lowercase names', () => {
+      const quest = QuestTool.getQuestByName('dragon slayer');
       expect(quest).toBeDefined();
       expect(quest?.name).toBeDefined();
     });
 
-    it("should find quests with uppercase names", () => {
+    it('should find quests with uppercase names', () => {
       const quest = QuestTool.getQuestByName("WITCH'S POTION");
       expect(quest).toBeDefined();
       expect(quest?.name).toBeDefined();
     });
 
-    it("should find quests with mixed case", () => {
-      const quest = QuestTool.getQuestByName("ThE CuRsE oF aRrAv");
+    it('should find quests with mixed case', () => {
+      const quest = QuestTool.getQuestByName('ThE CuRsE oF aRrAv');
       expect(quest).toBeDefined();
       expect(quest?.name).toBeDefined();
     });
 
-    it("should be case-insensitive for all quest lookups", () => {
-      const exact = QuestTool.getQuestByName("Dragon Slayer");
-      const lower = QuestTool.getQuestByName("dragon slayer");
-      const upper = QuestTool.getQuestByName("DRAGON SLAYER");
+    it('should be case-insensitive for all quest lookups', () => {
+      const exact = QuestTool.getQuestByName('Dragon Slayer');
+      const lower = QuestTool.getQuestByName('dragon slayer');
+      const upper = QuestTool.getQuestByName('DRAGON SLAYER');
 
       expect(exact).toBeDefined();
       expect(lower).toBeDefined();
@@ -79,10 +79,10 @@ describe("QuestTool - Quest Name Resolution", () => {
     });
   });
 
-  describe("getQuestByName - Punctuation Normalization", () => {
-    it("should find quests ignoring apostrophes", () => {
+  describe('getQuestByName - Punctuation Normalization', () => {
+    it('should find quests ignoring apostrophes', () => {
       const withApostrophe = QuestTool.getQuestByName("Witch's Potion");
-      const withoutApostrophe = QuestTool.getQuestByName("Witchs Potion");
+      const withoutApostrophe = QuestTool.getQuestByName('Witchs Potion');
 
       expect(withApostrophe).toBeDefined();
       if (withoutApostrophe) {
@@ -90,21 +90,21 @@ describe("QuestTool - Quest Name Resolution", () => {
       }
     });
 
-    it("should handle quests with various punctuation", () => {
-      const variations = ["Dragon Slayer I", "Dragon Slayer I.", "Dragon-Slayer-I", "Dragon  Slayer  I"];
+    it('should handle quests with various punctuation', () => {
+      const variations = ['Dragon Slayer I', 'Dragon Slayer I.', 'Dragon-Slayer-I', 'Dragon  Slayer  I'];
 
       for (const name of variations) {
         const quest = QuestTool.getQuestByName(name);
         // At least exact match should work
-        if (name === "Dragon Slayer I") {
+        if (name === 'Dragon Slayer I') {
           expect(quest).toBeDefined();
         }
       }
     });
 
-    it("should normalize multiple spaces", () => {
-      const normalSpaces = QuestTool.getQuestByName("Dragon Slayer");
-      const multipleSpaces = QuestTool.getQuestByName("Dragon    Slayer");
+    it('should normalize multiple spaces', () => {
+      const normalSpaces = QuestTool.getQuestByName('Dragon Slayer');
+      const multipleSpaces = QuestTool.getQuestByName('Dragon    Slayer');
 
       expect(normalSpaces).toBeDefined();
       if (multipleSpaces) {
@@ -113,21 +113,21 @@ describe("QuestTool - Quest Name Resolution", () => {
     });
   });
 
-  describe("getQuestByName - Fuzzy Matching", () => {
-    it("should find quests with minor typos", () => {
+  describe('getQuestByName - Fuzzy Matching', () => {
+    it('should find quests with minor typos', () => {
       // Exact match first
-      const exact = QuestTool.getQuestByName("Dragon Slayer");
+      const exact = QuestTool.getQuestByName('Dragon Slayer');
       expect(exact).toBeDefined();
     });
 
-    it("should find quests with missing letters", () => {
-      const partial = QuestTool.getQuestByName("Dragon Slayer");
+    it('should find quests with missing letters', () => {
+      const partial = QuestTool.getQuestByName('Dragon Slayer');
       expect(partial).toBeDefined();
       expect(partial?.name).toMatch(/Dragon Slayer/);
     });
 
-    it("should find quests when name is very similar", () => {
-      const common = ["Dragon Slayer", "Cook's Assistant", "Witch's Potion"];
+    it('should find quests when name is very similar', () => {
+      const common = ['Dragon Slayer', "Cook's Assistant", "Witch's Potion"];
 
       for (const name of common) {
         const quest = QuestTool.getQuestByName(name);
@@ -136,18 +136,18 @@ describe("QuestTool - Quest Name Resolution", () => {
     });
   });
 
-  describe("getQuestByName - Edge Cases", () => {
-    it("should return undefined for empty string", () => {
-      const quest = QuestTool.getQuestByName("");
+  describe('getQuestByName - Edge Cases', () => {
+    it('should return undefined for empty string', () => {
+      const quest = QuestTool.getQuestByName('');
       expect(quest).toBeFalsy();
     });
 
-    it("should return undefined for whitespace only", () => {
-      const quest = QuestTool.getQuestByName("   ");
+    it('should return undefined for whitespace only', () => {
+      const quest = QuestTool.getQuestByName('   ');
       expect(quest).toBeFalsy();
     });
 
-    it("should handle null/undefined gracefully", () => {
+    it('should handle null/undefined gracefully', () => {
       // @ts-ignore - testing invalid input
       const quest1 = QuestTool.getQuestByName(null);
       expect(quest1).toBeFalsy();
@@ -156,53 +156,57 @@ describe("QuestTool - Quest Name Resolution", () => {
       expect(quest2).toBeFalsy();
     });
 
-    it("should return undefined for completely unrelated strings", () => {
-      const quest = QuestTool.getQuestByName("xyzabc123notaquest");
+    it('should return undefined for completely unrelated strings', () => {
+      const quest = QuestTool.getQuestByName('xyzabc123notaquest');
       expect(quest).toBeFalsy();
     });
 
-    it("should handle very long strings", () => {
-      const longString = "A".repeat(1000);
+    it('should handle very long strings', () => {
+      const longString = 'A'.repeat(1000);
       const quest = QuestTool.getQuestByName(longString);
       expect(quest).toBeFalsy();
     });
 
-    it("should handle special characters", () => {
-      const special = "@#$%^&*()";
+    it('should handle special characters', () => {
+      const special = '@#$%^&*()';
       const quest = QuestTool.getQuestByName(special);
       expect(quest).toBeFalsy();
     });
   });
 
-  describe("getQuestByName - Cache Behavior", () => {
-    it("should return same quest object on repeated calls (caching)", () => {
-      const quest1 = QuestTool.getQuestByName("Dragon Slayer");
-      const quest2 = QuestTool.getQuestByName("Dragon Slayer");
+  describe('getQuestByName - Cache Behavior', () => {
+    it('should return same quest object on repeated calls (caching)', () => {
+      const quest1 = QuestTool.getQuestByName('Dragon Slayer');
+      const quest2 = QuestTool.getQuestByName('Dragon Slayer');
 
       if (quest1 && quest2) {
         expect(quest1).toBe(quest2); // Same reference due to caching
       }
     });
 
-    it("should cache first query and reuse for second variant", () => {
-      const exact = QuestTool.getQuestByName("Dragon Slayer");
-      const variant = QuestTool.getQuestByName("dragon slayer");
+    it('should cache first query and reuse for second variant', () => {
+      const exact = QuestTool.getQuestByName('Dragon Slayer');
+      const variant = QuestTool.getQuestByName('dragon slayer');
 
       if (exact && variant) {
         expect(exact).toBe(variant);
       }
     });
 
-    it("should handle cache for multiple different quests", () => {
-      const quests = [QuestTool.getQuestByName("Cook's Assistant"), QuestTool.getQuestByName("Witch's Potion"), QuestTool.getQuestByName("Dragon Slayer")];
+    it('should handle cache for multiple different quests', () => {
+      const quests = [
+        QuestTool.getQuestByName("Cook's Assistant"),
+        QuestTool.getQuestByName("Witch's Potion"),
+        QuestTool.getQuestByName('Dragon Slayer'),
+      ];
 
-      const uniqueQuests = new Set(quests.filter((q) => q));
+      const uniqueQuests = new Set(quests.filter(q => q));
       expect(uniqueQuests.size).toBeGreaterThanOrEqual(1);
     });
   });
 
-  describe("getQuestByName - Common Quest Names", () => {
-    const commonQuests = ["Cook's Assistant", "Witch's Potion", "Dragon Slayer", "Rune Mysteries", "Client of Kourend"];
+  describe('getQuestByName - Common Quest Names', () => {
+    const commonQuests = ["Cook's Assistant", "Witch's Potion", 'Dragon Slayer', 'Rune Mysteries', 'Client of Kourend'];
 
     for (const questName of commonQuests) {
       it(`should find "${questName}"`, () => {
@@ -213,28 +217,28 @@ describe("QuestTool - Quest Name Resolution", () => {
     }
   });
 
-  describe("getAllQuests", () => {
-    it("should return list of all available quests", () => {
+  describe('getAllQuests', () => {
+    it('should return list of all available quests', () => {
       const allQuests = QuestTool.getAllQuests();
       expect(allQuests).toBeDefined();
       expect(Array.isArray(allQuests)).toBe(true);
       expect(allQuests.length).toBeGreaterThan(0);
     });
 
-    it("should have consistent quest count across calls", () => {
+    it('should have consistent quest count across calls', () => {
       const first = QuestTool.getAllQuests();
       const second = QuestTool.getAllQuests();
       expect(first.length).toBe(second.length);
     });
 
-    it("should contain at least 200 quests", () => {
+    it('should contain at least 200 quests', () => {
       const allQuests = QuestTool.getAllQuests();
       expect(allQuests.length).toBeGreaterThanOrEqual(1); // At least some quests
     });
   });
 
-  describe("Quest properties validation", () => {
-    it("should have IDs that are positive integers", () => {
+  describe('Quest properties validation', () => {
+    it('should have IDs that are positive integers', () => {
       const allQuests = QuestTool.getAllQuests();
       for (const quest of allQuests) {
         expect(quest.id).toBeGreaterThan(-1);
@@ -242,7 +246,7 @@ describe("QuestTool - Quest Name Resolution", () => {
       }
     });
 
-    it("should have all quests with non-empty names", () => {
+    it('should have all quests with non-empty names', () => {
       const allQuests = QuestTool.getAllQuests();
       for (const quest of allQuests) {
         expect(quest.name).toBeDefined();
@@ -250,7 +254,7 @@ describe("QuestTool - Quest Name Resolution", () => {
       }
     });
 
-    it("should have specific quest by getQuestByName matching getAllQuests", () => {
+    it('should have specific quest by getQuestByName matching getAllQuests', () => {
       const allQuests = QuestTool.getAllQuests();
       const firstQuestName = allQuests[0].name;
       const foundQuest = QuestTool.getQuestByName(firstQuestName);
@@ -260,9 +264,9 @@ describe("QuestTool - Quest Name Resolution", () => {
     });
   });
 
-  describe("Performance - Quest lookup efficiency", () => {
-    it("should find common quests quickly", () => {
-      const names = ["Dragon Slayer", "Cook's Assistant", "Witch's Potion"];
+  describe('Performance - Quest lookup efficiency', () => {
+    it('should find common quests quickly', () => {
+      const names = ['Dragon Slayer', "Cook's Assistant", "Witch's Potion"];
 
       for (const name of names) {
         const start = performance.now();

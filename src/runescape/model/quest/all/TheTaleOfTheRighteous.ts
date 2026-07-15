@@ -1,11 +1,12 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheTaleOfTheRighteous: Quest = {
   age: 'Fifth Age',
-  description: 'Learn the tale of a righteous knight from ancient Kourend and help settle unfinished business. A spiritual story of honor and redemption in the mystical lands.',
+  description:
+    'Learn the tale of a righteous knight from ancient Kourend and help settle unfinished business. A spiritual story of honor and redemption in the mystical lands.',
   difficulty: QuestDifficulty.Novice,
   id: 120,
   length: QuestLength.Short,
@@ -13,17 +14,12 @@ const TheTaleOfTheRighteous: Quest = {
   miniquest: false,
   name: 'The Tale of the Righteous',
   questPoints: 1,
-  recommendations: [
-    { name: 'Graceful outfit', note: 'Helpful for Agility sections', type: 'item' },
-  ],
+  recommendations: [{ name: 'Graceful outfit', note: 'Helpful for Agility sections', type: 'item' }],
   recommendedPrayers: [],
   recommendedSkills: {
     Agility: 16,
   },
-  requirements: [
-    new QuestRequirement('Client of Kourend'),
-    new LevelRequirement('Agility', 16, false),
-  ],
+  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement('Agility', 16, false)],
   rewards: {
     areas: ['Kourend'],
     experience: [

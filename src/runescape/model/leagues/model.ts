@@ -1,4 +1,3 @@
-
 /**
  * Represents a League Region in Old School RuneScape, which is a specific area or continent that is relevant to certain leagues and their associated content. Each League Region has a name and a wiki URL that provides more information about the region, its geography, lore, and any league-specific mechanics or content that may be associated with it. This type is used to categorize and reference different regions in the context of leagues, particularly for the Hunter Guild rumours that are only available in certain regions during specific leagues.
  */
@@ -19,7 +18,6 @@ export interface NotableDrop {
   category?: string;
 }
 
-
 export enum GenericLeagueRegion {
   KANDARIN = 'Kandarin',
   VARLAMORE = 'Varlamore',
@@ -33,11 +31,9 @@ export enum GenericLeagueRegion {
   WILDERNESS = 'Wilderness',
 }
 
-
 export const Leagues: Record<string, string> = {
   DEMONIC_PACTS: 'Demonic Pacts League',
   RAGING_ECHOES: 'Raging Echoes League',
-  TWISTED_LEAGUE: 'Twisted League',
   SHATTERED_RELICS: 'Shattered Relics League',
-
-}
+  TWISTED_LEAGUE: 'Twisted League',
+};

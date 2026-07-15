@@ -122,10 +122,10 @@ export const POINTS_TABLE = {
   STANDARD: {
     1: 2,
     10: 5,
-    50: 15,
     100: 50,
-    250: 70,
     1000: 100,
+    250: 70,
+    50: 15,
   } as Record<number, number>,
 };
 
@@ -152,8 +152,8 @@ export const SLAYER_UNLOCK_COSTS = {
   ABYSSAL_SIRE: 3_000_000,
   BIGGER_AND_BADDER: 150,
   DESERT_TREASURE_REQUIRED: 'Desert Treasure',
-  SPELLCASTER_KILL_75PER: 300,
   HARD_FILTERS: 100,
+  SPELLCASTER_KILL_75PER: 300,
   // Add more unlock costs
 } as Record<string, number | string>;
 
@@ -162,7 +162,7 @@ export const SLAYER_UNLOCK_COSTS = {
  * Reference: https://oldschool.runescape.wiki/w/Slayer#Rewards
  */
 export const SLAYER_EXTEND_COSTS = {
-  NEED_MORE_DARKNESS: { cost: 100, description: 'Dark beasts: 100-149' },
   ANKOU_VERY_MUCH: { cost: 100, description: 'Ankous: 91-149' },
   FIRE_AND_DARKNESS: { cost: 50, description: 'Black dragons: 40-60' },
+  NEED_MORE_DARKNESS: { cost: 100, description: 'Dark beasts: 100-149' },
 } as Record<string, { cost: number; description: string }>;

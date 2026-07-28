@@ -6,7 +6,6 @@
  */
 
 import { SlayerMaster } from '../core/SlayerMaster';
-import { POINTS_TABLE } from '../core/types';
 import { nieveTasks } from '../task/NieveTasks';
 import { registerMaster } from './registry';
 
@@ -28,7 +27,14 @@ export const Nieve = new SlayerMaster({
   location: "Nieve's Cave",
   minimumCombatLevel: 85,
   name: 'Nieve',
-  pointsTable: POINTS_TABLE.STANDARD,
+  pointsTable: {
+    1: 12,
+    10: 60,
+    100: 300,
+    1000: 600,
+    250: 420,
+    50: 180,
+  },
   tasks: nieveTasks,
   wikiUrl: 'https://oldschool.runescape.wiki/w/Nieve',
 });

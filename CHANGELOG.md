@@ -1,5 +1,11 @@
 # osrs-tools
 
+## 2.12.0
+
+### Minor Changes
+
+- Refactor Nieve and Vannaka task lists: Update task requirements, locations, and add new tasks for improved gameplay experience
+
 ## 2.11.1
 
 ### Patch Changes

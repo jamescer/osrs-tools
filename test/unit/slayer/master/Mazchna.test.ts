@@ -18,4 +18,7 @@ describe('Mazchna', () => {
   it('should have the correct wiki URL', () => {
     expect(Mazchna.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Mazchna');
   });
+  it('should have the correct image URL', () => {
+    expect(Mazchna.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Mazchna.png');
+  });
 });

@@ -23,6 +23,7 @@ export const Chaeldar = new SlayerMaster({
     250: 70,
     50: 15,
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Chaeldar.png',
   location: 'Zanaris',
   minimumCombatLevel: 70,
   name: 'Chaeldar',

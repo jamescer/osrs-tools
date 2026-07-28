@@ -23,6 +23,7 @@ export const KonarQuoMaten = new SlayerMaster({
     250: 70,
     50: 15,
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Konar_quo_Maten.png',
   location: 'Mount Karuulm',
   minimumCombatLevel: 75,
   name: 'Konar Quo Maten',

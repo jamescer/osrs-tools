@@ -1,5 +1,11 @@
 # osrs-tools
 
+## 2.11.1
+
+### Patch Changes
+
+- feat: add imageUrl property for Slayer Masters and update instances with portrait URLs
+
 ## 2.11.0
 
 ### Minor Changes

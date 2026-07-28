@@ -16,6 +16,7 @@ class SlayerMaster {
   minimumCombatLevel: number = 0; // Level requirement to access this Slayer Master (optional, can be set later if needed)
   tasks: Task[]; // Array of tasks assigned to this Slayer Master. This holds the actual tasks that players can be assigned to kill.
   wikiUrl: string = ''; // URL for the Slayer Master (optional, can be set later if needed)
+  imageUrl: string = ''; // URL of the Slayer Master's portrait image, sourced from the OSRS Wiki (optional, can be set later if needed)
   taskPoints: Record<number, number>; // Mapping of task intervals to points
   eliteDiaryTaskPoints?: Record<number, number>; // Mapping of task intervals to points
   blockedTasks: Set<string> = new Set(); // Names (lowercased) of tasks this master will not assign
@@ -30,6 +31,7 @@ class SlayerMaster {
     url: string,
     taskPoints: Record<number, number>,
     eliteDiaryTaskPoints?: Record<number, number>,
+    imageUrl?: string,
   );
 
   // Constructor implementation
@@ -41,6 +43,7 @@ class SlayerMaster {
     url?: string,
     taskPoints?: Record<number, number>,
     eliteDiaryTaskPoints?: Record<number, number>,
+    imageUrl?: string,
   ) {
     // Handle options object pattern (modern API)
     if (typeof nameOrOptions === 'object' && !Array.isArray(nameOrOptions)) {
@@ -50,6 +53,7 @@ class SlayerMaster {
       this.location = options.location || '';
       this.minimumCombatLevel = options.minimumCombatLevel || 0;
       this.wikiUrl = options.wikiUrl || '';
+      this.imageUrl = options.imageUrl || '';
       this.taskPoints = options.pointsTable || {};
       this.eliteDiaryTaskPoints = options.eliteDiaryTaskPoints;
     } else {
@@ -59,6 +63,7 @@ class SlayerMaster {
       this.location = location || '';
       this.minimumCombatLevel = levelRequirement || 0;
       this.wikiUrl = url || '';
+      this.imageUrl = imageUrl || '';
       this.taskPoints = taskPoints || {};
       this.eliteDiaryTaskPoints = eliteDiaryTaskPoints;
     }
@@ -110,6 +115,13 @@ class SlayerMaster {
    */
   getWikiUrl(): string {
     return this.wikiUrl;
+  }
+
+  /**
+   * Get the URL of the Slayer Master's portrait image
+   */
+  getImageUrl(): string {
+    return this.imageUrl;
   }
 
   /**

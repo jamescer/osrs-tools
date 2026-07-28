@@ -18,4 +18,7 @@ describe('Vannaka', () => {
   it('should have the correct wiki URL', () => {
     expect(Vannaka.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Vannaka');
   });
+  it('should have the correct image URL', () => {
+    expect(Vannaka.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Vannaka.png');
+  });
 });

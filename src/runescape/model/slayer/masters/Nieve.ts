@@ -24,6 +24,7 @@ export const Nieve = new SlayerMaster({
     250: 525,
     50: 225,
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Nieve.png',
   location: "Nieve's Cave",
   minimumCombatLevel: 85,
   name: 'Nieve',

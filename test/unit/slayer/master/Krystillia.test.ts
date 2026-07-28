@@ -18,4 +18,7 @@ describe('Krystilia', () => {
   it('should have the correct wiki URL', () => {
     expect(Krystilia.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Krystilia');
   });
+  it('should have the correct image URL', () => {
+    expect(Krystilia.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Krystilia.png');
+  });
 });

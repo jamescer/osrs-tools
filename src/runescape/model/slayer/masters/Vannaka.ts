@@ -23,6 +23,7 @@ export const Vannaka = new SlayerMaster({
     250: 70,
     50: 15,
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Vannaka.png',
   location: 'Edgeville Dungeon',
   minimumCombatLevel: 40,
   name: 'Vannaka',

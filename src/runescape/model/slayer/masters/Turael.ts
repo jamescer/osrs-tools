@@ -23,6 +23,7 @@ export const Turael = new SlayerMaster({
     250: 70,
     50: 15,
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Turael.png',
   location: 'Burthope',
   minimumCombatLevel: 1,
   name: 'Turael',

@@ -18,4 +18,7 @@ describe('Chaeldar', () => {
   it('should have the correct wiki URL', () => {
     expect(Chaeldar.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Chaeldar');
   });
+  it('should have the correct image URL', () => {
+    expect(Chaeldar.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Chaeldar.png');
+  });
 });

@@ -23,6 +23,7 @@ export const Mazchna = new SlayerMaster({
     250: 70,
     50: 15,
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Mazchna.png',
   location: 'Canifis',
   minimumCombatLevel: 20,
   name: 'Mazchna',

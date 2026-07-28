@@ -24,6 +24,9 @@ import { registerMaster } from './registry';
 export const Mortimer = new MortimerSlayerMaster({
   blockSlotCost: 120,
   blockSlots: 2,
+  // Mortimer had not been released at time of writing; this is concept art (by Mod Jerv), not an in-game portrait.
+  imageUrl:
+    'https://oldschool.runescape.wiki/w/Special:FilePath/Wyrmscraig%20-%20Activities%20%26%20Lock%20In%20Poll%20(5).png',
   location: 'Wyrmscraig',
   minimumCombatLevel: 0,
   name: 'Mortimer',

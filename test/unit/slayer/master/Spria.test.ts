@@ -19,4 +19,7 @@ describe('Spria', () => {
   it('should have the correct wiki URL', () => {
     expect(Spria.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Spria');
   });
+  it('should have the correct image URL', () => {
+    expect(Spria.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Spria.png');
+  });
 });

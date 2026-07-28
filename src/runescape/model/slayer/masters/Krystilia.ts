@@ -24,6 +24,7 @@ export const Krystilia = new SlayerMaster({
     250: 525,
     50: 225,
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Krystilia.png',
   location: 'Edgeville',
   minimumCombatLevel: 1,
   name: 'Krystilia',

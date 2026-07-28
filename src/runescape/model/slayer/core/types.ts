@@ -108,6 +108,8 @@ export interface SlayerMasterConfig {
   name: string;
   location: string;
   wikiUrl: string;
+  /** URL of the master's portrait image, sourced from the OSRS Wiki. */
+  imageUrl?: string;
   minimumCombatLevel: number;
   tasks: any[]; // Task[]
   pointsTable: Record<number, number>;

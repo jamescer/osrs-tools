@@ -18,4 +18,7 @@ describe('Konar Quo Maten', () => {
   it('should have the correct wiki URL', () => {
     expect(KonarQuoMaten.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Konar_Quo_Maten');
   });
+  it('should have the correct image URL', () => {
+    expect(KonarQuoMaten.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Konar_quo_Maten.png');
+  });
 });

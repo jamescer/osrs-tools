@@ -25,6 +25,7 @@ export const Duradel = new SlayerMaster({
     250: 75,
     50: 15, // +25 bonus
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Duradel.png',
   location: 'Shilo Village',
   minimumCombatLevel: 50,
   name: 'Duradel',

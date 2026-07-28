@@ -18,4 +18,7 @@ describe('Nieve', () => {
   it('should have the correct wiki URL', () => {
     expect(Nieve.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Nieve');
   });
+  it('should have the correct image URL', () => {
+    expect(Nieve.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Nieve.png');
+  });
 });

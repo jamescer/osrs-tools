@@ -19,6 +19,11 @@ describe('Mortimer', () => {
   it('should have the correct wiki URL', () => {
     expect(Mortimer.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Mortimer');
   });
+  it('should have the correct image URL', () => {
+    expect(Mortimer.imageUrl).toBe(
+      'https://oldschool.runescape.wiki/w/Special:FilePath/Wyrmscraig%20-%20Activities%20%26%20Lock%20In%20Poll%20(5).png',
+    );
+  });
   it('should get tasks the same way other Slayer Masters do', () => {
     expect(Mortimer.getTasks()).toBe(Mortimer.tasks);
     expect(Mortimer.getRandomTask()).not.toBeNull();

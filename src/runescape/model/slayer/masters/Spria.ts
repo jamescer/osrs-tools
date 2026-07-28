@@ -23,6 +23,7 @@ export const Spria = new SlayerMaster({
     250: 70,
     50: 15,
   },
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Spria.png',
   location: 'Draynor Village',
   minimumCombatLevel: 1,
   name: 'Spria',

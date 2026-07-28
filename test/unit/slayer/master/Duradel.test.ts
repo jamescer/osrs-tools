@@ -19,5 +19,8 @@ describe('Duradel', () => {
   it('should have the correct wiki URL', () => {
     expect(Duradel.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Duradel');
   });
+  it('should have the correct image URL', () => {
+    expect(Duradel.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Duradel.png');
+  });
 });
 // We recommend installing an extension to run jest tests.

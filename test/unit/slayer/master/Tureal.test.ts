@@ -19,4 +19,7 @@ describe('Turael', () => {
   it('should have the correct wiki URL', () => {
     expect(Turael.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Turael');
   });
+  it('should have the correct image URL', () => {
+    expect(Turael.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Turael.png');
+  });
 });

@@ -5,8 +5,24 @@
  */
 
 // ===== Core Classes (Refactored) =====
-export type { SlayerMasterConfig, TaskDefinition, TaskOptions, TaskQuantity } from './core';
-export { Assignment, SlayerMaster, Task } from './core';
+export type {
+  MortifierConfig,
+  MortimerSlayerMasterConfig,
+  SlayerMasterConfig,
+  TaskDefinition,
+  TaskOptions,
+  TaskQuantity,
+} from './core';
+export {
+  Assignment,
+  getAvailableMortifiers,
+  getMortifierByName,
+  Mortifier,
+  MORTIFIERS,
+  MortimerSlayerMaster,
+  SlayerMaster,
+  Task,
+} from './core';
 export { POINTS_TABLE, SlayerBoss, SlayerLocation, TASK_DEFAULTS } from './core';
 
 // ===== Slayer Masters =====
@@ -22,6 +38,7 @@ export {
   KonarQuoMaten,
   Krystilia,
   Mazchna,
+  Mortimer,
   Nieve,
   Spria,
   Turael,

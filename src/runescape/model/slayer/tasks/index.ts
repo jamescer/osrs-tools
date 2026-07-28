@@ -9,6 +9,7 @@ export * from '../task/DuradelTasks';
 export * from '../task/KonarTasks';
 export * from '../task/KrystiliaTasks';
 export * from '../task/MazchnaTasks';
+export * from '../task/MortimerTasks';
 export * from '../task/NieveTasks';
 export * from '../task/SpriaTasks';
 export * from '../task/TurealTasks';

@@ -3,7 +3,18 @@
  * Re-exports all masters and utilities from the masters directory
  */
 
-export { Chaeldar, Duradel, KonarQuoMaten, Krystilia, Mazchna, Nieve, Spria, Turael, Vannaka } from './masters/index';
+export {
+  Chaeldar,
+  Duradel,
+  KonarQuoMaten,
+  Krystilia,
+  Mazchna,
+  Mortimer,
+  Nieve,
+  Spria,
+  Turael,
+  Vannaka,
+} from './masters/index';
 export type { SlayerMasterProgression as SlayerMasterProgressionType } from './masters/registry';
 export {
   getAllMasters,

@@ -1,5 +1,11 @@
 # osrs-tools
 
+## 2.11.0
+
+### Minor Changes
+
+- feat: add Mortimer Slayer Master and Mortifier system with associated tasks and tests
+
 ## 2.10.0
 
 ### Minor Changes

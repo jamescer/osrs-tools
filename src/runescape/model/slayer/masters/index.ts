@@ -14,6 +14,7 @@ import './KonarQuoMaten'; // Combat 75
 import './Nieve'; // Combat 85
 import './Duradel'; // Combat 50 (but elite rewards)
 import './Krystilia'; // Combat 1 (Wilderness)
+import './Mortimer'; // Wyrmscraig (planned/unreleased)
 
 import {
   getAllMasters,
@@ -32,6 +33,7 @@ export { Duradel } from './Duradel';
 export { KonarQuoMaten } from './KonarQuoMaten';
 export { Krystilia } from './Krystilia';
 export { Mazchna } from './Mazchna';
+export { Mortimer } from './Mortimer';
 export { Nieve } from './Nieve';
 export { Spria } from './Spria';
 export { Turael } from './Turael';

@@ -1,5 +1,11 @@
 # osrs-tools
 
+## 2.13.0
+
+### Minor Changes
+
+- feat(slayer): enhance task assignment with player context and eligibility checks
+
 ## 2.12.0
 
 ### Minor Changes

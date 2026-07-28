@@ -1,7 +1,7 @@
 import { getAvailableMortifiers, Mortifier } from './Mortifier';
 import { SlayerMaster } from './SlayerMaster';
 import { Task } from './Task';
-import { SlayerMasterConfig } from './types';
+import { SlayerAssignmentContext, SlayerMasterConfig } from './types';
 
 /**
  * Configuration for Mortimer, extending the standard SlayerMaster config with the
@@ -99,11 +99,15 @@ class MortimerSlayerMaster extends SlayerMaster {
    * Get a set of distinct, weighted-random task choices for a Mortimer visit.
    * The number of choices scales with completedTasks (see getTaskChoiceCount()).
    * Mortimer never offers the same task twice in a single set of choices.
-   * @returns {Task[]} The offered tasks. May be shorter than requested if there aren't enough distinct unblocked tasks.
+   * @param {number} [completedTasks] - Number of tasks completed with Mortimer so far.
+   * @param {SlayerAssignmentContext} [context] - The requesting player's Slayer level, completed
+   *  quests, and unlocked rewards; tasks the player doesn't qualify for are excluded (see
+   *  {@link SlayerMaster.getAvailableTasks}).
+   * @returns {Task[]} The offered tasks. May be shorter than requested if there aren't enough distinct eligible tasks.
    */
-  getTaskChoices(completedTasks: number = 0): Task[] {
+  getTaskChoices(completedTasks: number = 0, context?: SlayerAssignmentContext): Task[] {
     const choiceCount = this.getTaskChoiceCount(completedTasks);
-    const remainingTasks = this.getAvailableTasks().slice();
+    const remainingTasks = this.getAvailableTasks(context).slice();
     const choices: Task[] = [];
 
     while (choices.length < choiceCount && remainingTasks.length > 0) {

@@ -102,6 +102,25 @@ export interface TaskDefinition {
 export type TaskOptions = TaskDefinition;
 
 /**
+ * Describes what a specific player currently has access to, for the purposes of
+ * filtering which Slayer tasks a master is allowed to assign them.
+ * All fields are optional; an omitted field is treated as "player has none of these"
+ * (e.g. no completed quests), which is the conservative/safe default for eligibility checks.
+ */
+export interface SlayerAssignmentContext {
+  /** The player's base (unboosted) Slayer level. Boosts never unlock higher-tier tasks. */
+  slayerLevel?: number;
+  /** The player's combat level. */
+  combatLevel?: number;
+  /** Names of quests the player has completed (case-insensitive). */
+  completedQuests?: Iterable<string>;
+  /** Names of Slayer unlocks the player has purchased with reward points (case-insensitive). */
+  unlockedRewards?: Iterable<string>;
+  /** Base skill levels keyed by skill name, for tasks with non-Slayer skill requirements. */
+  skillLevels?: Partial<Record<string, number>>;
+}
+
+/**
  * Slayer Master configuration interface
  */
 export interface SlayerMasterConfig {

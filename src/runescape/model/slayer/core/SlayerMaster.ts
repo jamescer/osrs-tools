@@ -1,5 +1,6 @@
+import { meetsRequirements } from './eligibility';
 import { Task } from './Task';
-import { SlayerMasterConfig } from './types';
+import { SlayerAssignmentContext, SlayerMasterConfig } from './types';
 
 /**
  * SlayerMaster class represents a Slayer Master in the game.
@@ -127,11 +128,16 @@ class SlayerMaster {
   /**
    * Get a random task based on the weighting system of the tasks.
    * Tasks with higher weights have a higher chance of being selected.
+   * @param {SlayerAssignmentContext} [context] - The requesting player's Slayer level, completed
+   *  quests, and unlocked rewards. When provided, tasks the player doesn't qualify for are
+   *  excluded from both the candidate pool and the weight sum, per the task weighting formula
+   *  (see https://oldschool.runescape.wiki/w/Slayer#Task_weighting). When omitted, only blocked
+   *  tasks are excluded.
    * @returns {Task | null} A randomly selected task or null if no tasks are available.
    */
-  getRandomTask(): Task | null {
-    const availableTasks = this.getAvailableTasks();
-    if (availableTasks.length === 0) return null; // Return null if there are no unblocked tasks
+  getRandomTask(context?: SlayerAssignmentContext): Task | null {
+    const availableTasks = this.getAvailableTasks(context);
+    if (availableTasks.length === 0) return null; // Return null if there are no eligible tasks
 
     const availableWeight = availableTasks.reduce((total, task) => total + (task.weight || 0), 0);
     if (availableWeight <= 0) return null;
@@ -147,6 +153,43 @@ class SlayerMaster {
     }
 
     return null; // Fallback in case no task is selected (shouldn't happen if weights are correct)
+  }
+
+  /**
+   * Get the percentage chance of being assigned each currently available task:
+   * (w / S) * 100, where w is a task's weight and S is the sum of weights of every task
+   * the player currently qualifies for (blocked, toggled-off, and requirement-locked tasks
+   * excluded from S). Reference: https://oldschool.runescape.wiki/w/Slayer#Task_weighting
+   * @param {SlayerAssignmentContext} [context] - The requesting player's Slayer level, completed
+   *  quests, and unlocked rewards. When omitted, only blocked tasks are excluded from S.
+   * @returns {Map<string, number>} Task name to percentage chance (0-100), for eligible tasks only.
+   */
+  getTaskChances(context?: SlayerAssignmentContext): Map<string, number> {
+    const availableTasks = this.getAvailableTasks(context);
+    const availableWeight = availableTasks.reduce((total, task) => total + (task.weight || 0), 0);
+
+    const chances = new Map<string, number>();
+    if (availableWeight <= 0) return chances;
+
+    for (const task of availableTasks) {
+      chances.set(task.getName(), ((task.weight || 0) / availableWeight) * 100);
+    }
+    return chances;
+  }
+
+  /**
+   * Get the percentage chance of being assigned a specific task, by name (case insensitive).
+   * @param {string} taskName - Name of the task to check.
+   * @param {SlayerAssignmentContext} [context] - See {@link getTaskChances}.
+   * @returns {number} The percentage chance (0-100) of being assigned this task, or 0 if the
+   *  task doesn't exist or isn't currently available to the player.
+   */
+  getTaskChance(taskName: string, context?: SlayerAssignmentContext): number {
+    const normalized = taskName.toLowerCase();
+    for (const [name, chance] of this.getTaskChances(context)) {
+      if (name.toLowerCase() === normalized) return chance;
+    }
+    return 0;
   }
 
   /**
@@ -188,10 +231,19 @@ class SlayerMaster {
   }
 
   /**
-   * Get the tasks this master can currently assign, excluding blocked ones.
+   * Get the tasks this master can currently assign: excludes blocked tasks, and - when a
+   * player context is given - also excludes tasks whose Slayer level, combat level, skill,
+   * quest, or unlock requirements the player doesn't yet meet. A boosted Slayer level never
+   * unlocks a task; pass the player's base level.
+   * @param {SlayerAssignmentContext} [context] - The requesting player's stats/unlocks. When
+   *  omitted, requirement eligibility isn't checked (only the block list is applied).
    */
-  getAvailableTasks(): Task[] {
-    return this.tasks.filter(task => !this.isTaskBlocked(task.getName()));
+  getAvailableTasks(context?: SlayerAssignmentContext): Task[] {
+    return this.tasks.filter(task => {
+      if (this.isTaskBlocked(task.getName())) return false;
+      if (!context) return true;
+      return meetsRequirements(task.getRequirements(), context);
+    });
   }
 
   /**

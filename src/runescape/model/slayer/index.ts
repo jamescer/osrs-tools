@@ -8,6 +8,7 @@
 export type {
   MortifierConfig,
   MortimerSlayerMasterConfig,
+  SlayerAssignmentContext,
   SlayerMasterConfig,
   TaskDefinition,
   TaskOptions,

@@ -233,9 +233,7 @@ that used to live separately in `QuestTool` and `SlayerMaster`.
 
 ### NPC drops (`src/runescape/model/npc/`)
 - `Npc`, `NpcDrop`, `NpcProduct` — base models for monster drop tables
-- `ComplexDropSystems.ts` — multi-table / conditional drop logic (e.g. tiered or weighted drop systems that a flat
-  drop table can't express)
-- `npcs/` — individual NPC data files
+
 
 ### Guilds (`src/runescape/model/guilds/hunter/`)
 - `HunterGuild`, `HunterGuildMaster`, `HunterGuildMasterName` — Hunter Guild structure and staff

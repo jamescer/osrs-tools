@@ -1,5 +1,5 @@
 import { CombatLevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
-import { Task } from '../Task';
+import { Task } from '../core/Task';
 
 const chaeldarTasks: Task[] = [
   new Task(
@@ -11,8 +11,7 @@ const chaeldarTasks: Task[] = [
     null,
     ['Deviant spectres'],
     8,
-    [],
-    0,
+    [], 90,
     ['Slayer Tower (CKS)'],
   ),
   new Task(
@@ -24,8 +23,7 @@ const chaeldarTasks: Task[] = [
     null,
     ['Twisted Banshee'],
     8,
-    [],
-    0,
+    [], 32.5,
     ['Slayer Tower (CKS)'],
   ),
   new Task(
@@ -37,8 +35,7 @@ const chaeldarTasks: Task[] = [
     null,
     ['Basilisk Knight'],
     8,
-    [],
-    0,
+    [], 40,
     ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
@@ -50,8 +47,7 @@ const chaeldarTasks: Task[] = [
     null,
     ['Mutated Bloodveld'],
     8,
-    [],
-    0,
+    [], 120,
     ['Meiyerditch Laboratories', 'Catacombs of Kourend'],
   ),
   new Task(
@@ -63,11 +59,10 @@ const chaeldarTasks: Task[] = [
     null,
     ['Baby blue dragon', 'Vorkath'],
     8,
-    [],
-    0,
+    [], 111.5,
     ['Taverley Dungeon', "Myth's Guild"],
   ),
-  new Task('Brine rats', 40, 70, [new SlayerLevelRequirement(47)], null, null, [], 8, [], 0, ['Brine Rat Cavern']),
+  new Task('Brine rats', 40, 70, [new SlayerLevelRequirement(47)], null, null, [], 8, [], 18, ['Brine Rat Cavern']),
   new Task(
     'Cave crawlers',
     10,
@@ -77,8 +72,7 @@ const chaeldarTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 22.5,
     ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
@@ -90,8 +84,7 @@ const chaeldarTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 130,
     ["Mos Le'Harmless Caves"],
   ),
   new Task(
@@ -103,8 +96,7 @@ const chaeldarTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 12,
     ['Dorgesh-Kaan South Dungeon (AJQ)'],
   ),
   new Task(
@@ -116,8 +108,7 @@ const chaeldarTasks: Task[] = [
     null,
     ['Dagannoth Prime', 'Dagannoth Rex', 'Dagannoth Supreme'],
     8,
-    [],
-    0,
+    [], 90,
     ['Lighthouse', 'Catacombs of Kourend'],
   ),
   new Task(
@@ -129,17 +120,17 @@ const chaeldarTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 50,
     ['Braindeath Island'],
   ),
-  new Task('Fire giants', 40, 90, [new CombatLevelRequirement(65)], null, null, [], 8, [], 0, [
+  new Task('Fire giants', 40, 90, [new CombatLevelRequirement(65)], null, null, [], 8, [], 111, [
     'Waterfall Dungeon',
     'Brimhaven Dungeon',
   ]),
-  new Task('Flesh crawlers', 40, 70, [], null, null, [], 8, [], 0, ['Stronghold of Security']),
-  new Task('Ghouls', 40, 70, [], null, null, [], 8, [], 0, ['West of Canifis']),
-  new Task('Green dragons', 40, 90, [], null, null, ['Baby green dragon'], 8, [], 0, ['Wilderness']),
+  new Task(
+    'Flesh Crawlers', 40, 70, [], null, null, [], 8, [], 18.5, ['Stronghold of Security']),
+  new Task('Ghouls', 40, 70, [], null, null, [], 8, [], 30, ['West of Canifis']),
+  new Task('Green dragons', 40, 90, [], null, null, ['Baby green dragon'], 8, [], 150, ['Wilderness']),
   new Task(
     'Greater demons',
     40,
@@ -149,14 +140,15 @@ const chaeldarTasks: Task[] = [
     null,
     ['Skotizo', 'Demonic gorilla'],
     8,
-    [],
-    0,
+    [], 100,
     ['Brimhaven Dungeon', 'Catacombs of Kourend'],
   ),
-  new Task('Harpy bug swarms', 40, 70, [new SlayerLevelRequirement(33)], null, null, [], 8, [], 0, ['Karamja']),
-  new Task('Hill giants', 40, 70, [], null, null, [], 8, [], 0, ['Edgeville Dungeon']),
   new Task(
-    'Infernal mages',
+    'Harpie Bug Swarms', 40, 70, [new SlayerLevelRequirement(33)], null, null, [], 8, [], 36, ['Karamja']),
+  new Task(
+    'Hill Giants', 40, 70, [], null, null, [], 8, [], 28, ['Edgeville Dungeon']),
+  new Task(
+    'Infernal Mages',
     45,
     90,
     [new SlayerLevelRequirement(45), new CombatLevelRequirement(45), new QuestRequirement('Priest in Peril')],
@@ -164,11 +156,10 @@ const chaeldarTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 55,
     ['Slayer Tower (CKS)'],
   ),
-  new Task('Jellies', 52, 90, [new SlayerLevelRequirement(52)], null, null, [], 8, [], 0, [
+  new Task('Jellies', 52, 90, [new SlayerLevelRequirement(52)], null, null, [], 8, [], 75, [
     'Fremennik Slayer Dungeon (AJR)',
   ]),
   new Task(
@@ -180,30 +171,29 @@ const chaeldarTasks: Task[] = [
     null,
     ['Kalphite worker', 'Kalphite soldier', 'Kalphite guardian', 'Kalphite Queen'],
     8,
-    [],
-    0,
+    [], 40,
     ['Kalphite Cave'],
   ),
-  new Task('Lesser demons', 40, 90, [], null, null, [], 8, [], 0, ['Karamja Volcano', 'Wilderness']),
-  new Task('Mogres', 40, 70, [new QuestRequirement('Skippy and the Mogres')], null, null, [], 8, [], 0, [
+  new Task('Lesser demons', 40, 90, [], null, null, [], 8, [], 75, ['Karamja Volcano', 'Wilderness']),
+  new Task('Mogres', 40, 70, [new QuestRequirement('Skippy and the Mogres')], null, null, [], 8, [], 40, [
     'Mudskipper Point',
   ]),
-  new Task('Moss giants', 40, 90, [], null, null, [], 8, [], 0, ['Varrock Sewers', 'Crandor']),
-  new Task('Ogres', 40, 90, [], null, null, ['Ogress Warrior', 'Ogress Shaman'], 8, [], 0, [
+  new Task('Moss giants', 40, 90, [], null, null, [], 8, [], 60, ['Varrock Sewers', 'Crandor']),
+  new Task('Ogres', 40, 90, [], null, null, ['Ogress Warrior', 'Ogress Shaman'], 8, [], 40, [
     'Corsair Cove Dungeon',
     'Feldip Hills',
   ]),
-  new Task('Otherworldly beings', 40, 70, [], null, null, [], 8, [], 0, ['Zanaris']),
-  new Task('Poison spiders', 40, 70, [], null, null, [], 8, [], 0, ['Wilderness']),
-  new Task('Pyrefiends', 30, 70, [new SlayerLevelRequirement(30)], null, null, [], 8, [], 0, [
+  new Task('Otherworldly beings', 40, 70, [], null, null, [], 8, [], 40, ['Zanaris']),
+  new Task('Poison spiders', 40, 70, [], null, null, [], 8, [], 45, ['Wilderness']),
+  new Task('Pyrefiends', 30, 70, [new SlayerLevelRequirement(30)], null, null, [], 8, [], 50, [
     'Fremennik Slayer Dungeon (AJR)',
   ]),
-  new Task('Rockslugs', 20, 50, [new SlayerLevelRequirement(20)], null, null, [], 8, [], 0, [
+  new Task('Rockslugs', 20, 50, [new SlayerLevelRequirement(20)], null, null, [], 8, [], 26, [
     'Fremennik Slayer Dungeon (AJR)',
   ]),
-  new Task('Shades', 40, 70, [], null, null, [], 8, [], 0, ["Mort'ton"]),
-  new Task('Shadow warriors', 40, 70, [], null, null, [], 8, [], 0, ["Legend's Guild Basement"]),
-  new Task('Terror dogs', 40, 70, [new QuestRequirement('Haunted Mine')], null, null, [], 8, [], 0, ['Haunted Mine']),
+  new Task('Shades', 40, 70, [], null, null, [], 8, [], 40, ["Mort'ton"]),
+  new Task('Shadow warriors', 40, 70, [], null, null, [], 8, [], 35, ["Legend's Guild Basement"]),
+  new Task('Terror dogs', 40, 70, [new QuestRequirement('Haunted Mine')], null, null, [], 8, [], 80, ['Haunted Mine']),
   new Task(
     'Trolls',
     40,
@@ -213,11 +203,10 @@ const chaeldarTasks: Task[] = [
     null,
     ['Mountain Troll', 'Ice Troll', 'Thrower Troll', 'Troll General'],
     8,
-    [],
-    0,
+    [], 52.5,
     ['Death Plateau', 'Fremennik Isles'],
   ),
-  new Task('Wall beasts', 40, 70, [new SlayerLevelRequirement(35)], null, null, [], 8, [], 0, [
+  new Task('Wall beasts', 40, 70, [new SlayerLevelRequirement(35)], null, null, [], 8, [], 35, [
     'Lumbridge Swamp Caves',
   ]),
 ];

@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheGiantDwarf: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Represent the Consortium as an ambassador to the giant dwarves and influence the political climate of Keldagrim.',
   difficulty: QuestDifficulty.Intermediate,
   id: 111,
   length: QuestLength.Medium,
@@ -16,9 +17,9 @@ const TheGiantDwarf: Quest = {
   recommendedPrayers: [],
   recommendedSkills: {},
   requirements: [
-    new LevelRequirement('Firemaking', 16, false),
-    new LevelRequirement('Thieving', 14, false),
-    new LevelRequirement('Crafting', 14, false),
+    new LevelRequirement(Skill.Firemaking, 16, false),
+    new LevelRequirement(Skill.Thieving, 14, false),
+    new LevelRequirement(Skill.Crafting, 14, false),
   ],
   rewards: {
     areas: [],
@@ -33,7 +34,7 @@ const TheGiantDwarf: Quest = {
   series: 'Rise of the Red Axe',
   shortName: 'theGiantDwarf',
 
-  startLocation: '',
+  startLocation: 'Keldagrim',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Giant_Dwarf',

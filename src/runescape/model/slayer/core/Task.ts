@@ -136,7 +136,7 @@ class Task {
    */
   static create(options: TaskOptions): Task {
     // Use default weight and slayer exp if not provided
-    const defaultWeight = 8;
+    const defaultWeight = 1;
     const defaultSlayerExp = 0;
 
     return new Task(

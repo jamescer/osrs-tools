@@ -1,8 +1,10 @@
+import { LevelRequirement , QuestPointRequirement, QuestRequirement} from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const WhileGuthixSleeps: Quest = {
   age: 'Fifth Age',
-  description: 'Act while Guthix sleeps.',
+  description: 'Investigate the resurgent Mahjarrat threat while Guthix slumbers, culminating in a confrontation at the Stone of Jas.',
   difficulty: QuestDifficulty.Grandmaster,
   id: 1033,
   length: QuestLength.VeryLong,
@@ -13,13 +15,31 @@ const WhileGuthixSleeps: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestPointRequirement(140),
+    new QuestRequirement("Dream Mentor"),
+    new QuestRequirement("Defender of Varrock"),
+    new QuestRequirement("Legends' Quest"),
+    new QuestRequirement("Swan Song"),
+    new QuestRequirement("One Small Favour"),
+    new QuestRequirement("Death to the Dorgeshuun"),
+    new QuestRequirement("The Slug Menace"),
+    new LevelRequirement(Skill.Agility, 23, false),
+    new LevelRequirement(Skill.Crafting, 61, false),
+    new LevelRequirement(Skill.Farming, 68, false),
+    new LevelRequirement(Skill.Herblore, 65, false),
+    new LevelRequirement(Skill.Mining, 72, false),
+    new LevelRequirement(Skill.Smithing, 68, false),
+    new LevelRequirement(Skill.Strength, 70, false),
+    new LevelRequirement(Skill.Slayer, 55, false),
+    new LevelRequirement(Skill.Thieving, 72, false),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 5, unlocks: [] },
-  series: 'Mahjarrat, #15',
-  shortName: 'While Guthix Sleeps',
-  startLocation: 'Location',
+  series: 'Mahjarrat',
+  shortName: 'whileGuthixSleeps',
+  startLocation: 'Draynor Village',
   status: QuestStatus.NotStarted,
-  steps: ['Act while sleeping'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/While_Guthix_Sleeps',
 };
 export default WhileGuthixSleeps;

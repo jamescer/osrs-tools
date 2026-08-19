@@ -1,8 +1,6 @@
-import { beforeEach, describe, expect, it } from '@jest/globals';
-import { OsrsAccount } from 'src/runescape/model/account/OsrsAccount';
+import { describe, expect, it } from '@jest/globals';
 import { QuestList } from 'src/runescape/model/quest/QuestList';
 import { QuestTool } from 'src/runescape/model/quest/QuestTool';
-import { QuestRequirement } from 'src/runescape/model/Requirement';
 
 /**
  * Integration tests for QuestTool with realistic scenarios

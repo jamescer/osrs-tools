@@ -1,6 +1,6 @@
 {
   "name": "osrs-tools",
-  "version": "2.13.0",
+  "version": "2.14.0",
   "description": "A comprehensive TypeScript library for Old School RuneScape (OSRS) data and utilities, including quest data, skill requirements, and general game information",
   "license": "MIT",
   "sideEffects": false,
@@ -104,6 +104,26 @@
       "types": "./dist/runescape/model/slayer/index.d.ts",
       "import": "./dist/runescape/model/slayer/index.js",
       "require": "./dist/runescape/model/slayer/index.js"
+    },
+    "./eligibility": {
+      "types": "./dist/runescape/model/eligibility/index.d.ts",
+      "import": "./dist/runescape/model/eligibility/index.js",
+      "require": "./dist/runescape/model/eligibility/index.js"
+    },
+    "./guilds": {
+      "types": "./dist/runescape/model/guilds/index.d.ts",
+      "import": "./dist/runescape/model/guilds/index.js",
+      "require": "./dist/runescape/model/guilds/index.js"
+    },
+    "./items": {
+      "types": "./dist/runescape/model/items/index.d.ts",
+      "import": "./dist/runescape/model/items/index.js",
+      "require": "./dist/runescape/model/items/index.js"
+    },
+    "./leagues": {
+      "types": "./dist/runescape/model/leagues/index.d.ts",
+      "import": "./dist/runescape/model/leagues/index.js",
+      "require": "./dist/runescape/model/leagues/index.js"
     },
     "./tools": {
       "types": "./dist/runescape/tools/index.d.ts",

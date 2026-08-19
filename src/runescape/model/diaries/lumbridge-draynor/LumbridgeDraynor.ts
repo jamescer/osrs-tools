@@ -1,8 +1,9 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { CombatLevelRequirement, LevelRequirement, QuestRequirement } from '../../Requirement';
 import type { Diary } from '../Diary';
 
 const quest = (name: string) => new QuestRequirement(name);
 const skill = (skillName: string, level: number, boostable = true) => new LevelRequirement(skillName, level, boostable);
+const combat = (level: number) => new CombatLevelRequirement(level);
 
 /**
  * Lumbridge & Draynor Achievement Diary data, authored directly in TypeScript.
@@ -11,255 +12,292 @@ const skill = (skillName: string, level: number, boostable = true) => new LevelR
  */
 export const LumbridgeDraynorDiary: Diary = {
   easy: {
-    itemReward: 'Lumbridge & Draynor headgear 1',
-    itemsRequired: ['Axe', 'Fishing rod', 'Copper ore', 'Arrows'],
-    questsRequired: [],
+    itemReward: "Explorer's ring 1",
     rewards: {
       description: [
         {
-          main: 'Lumbridge & Draynor headgear 1',
-          other: ['Grants passage to the Lumbridge area without previous quests'],
+          main: "Explorer's ring 1",
+          other: [
+            'Can restore 50% of run energy twice a day',
+            "Allows 30 casts of Low Level Alchemy without runes each day (no XP unless at Alchemist's Playground)",
+          ],
         },
         {
-          main: '1 Antique lamp worth 2,500 experience in any skill of at least level 30',
-          other: [],
-        },
-        {
-          main: 'Increased XP from local area training',
+          main: 'Antique lamp worth 2,500 experience in any skill of at least level 30',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 2500, levelToUse: 30 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 1, skill: 'woodcutting' },
-      { boostable: true, level: 1, skill: 'fishing' },
-      { boostable: true, level: 1, skill: 'cooking' },
-      { boostable: true, level: 1, skill: 'smithing' },
-      { boostable: true, level: 1, skill: 'mining' },
-      { boostable: true, level: 31, skill: 'magic' },
-      { boostable: true, level: 1, skill: 'fletching' },
-    ],
     tasks: [
       {
-        description: 'Chop some wood with an axe.',
-        requirements: [skill('woodcutting', 1)],
-      },
-      {
-        description: 'Fish some shrimp.',
-        requirements: [skill('fishing', 1)],
-      },
-      {
-        description: 'Cook a piece of meat.',
-        requirements: [skill('cooking', 1)],
-      },
-      {
-        description: 'Smelt some copper ore into a copper bar.',
-        requirements: [skill('smithing', 1)],
-      },
-      {
-        description: 'Mine some copper ore.',
-        requirements: [skill('mining', 1)],
-      },
-      {
-        description: 'Damage some targets in the Lumbridge area.',
-        requirements: [skill('attack', 1)],
-      },
-      {
-        description: 'Fletch some arrows.',
-        requirements: [skill('fletching', 1)],
-      },
-      {
-        description: 'Travel to Port Sarim via boat.',
+        description: 'Complete a lap of the Draynor Village rooftop agility course.',
         requirements: [],
       },
       {
-        description: 'Use the Lumbridge Teleport spell.',
-        requirements: [skill('magic', 31)],
+        description: 'Slay a Cave bug beneath Lumbridge Swamp.',
+        notes: "Requires a light source and rope if the caves haven't been entered yet.",
+        requirements: [skill('Slayer', 7, false)],
       },
       {
-        description: 'Complete a beginner task from a NPC.',
+        description: 'Have Sedridor teleport you to the Rune essence mine.',
+        requirements: [quest('Rune Mysteries')],
+      },
+      {
+        description: 'Craft some water runes from Essence.',
+        requirements: [skill('Runecraft', 5)],
+      },
+      {
+        description: 'Learn your age from Hans in Lumbridge.',
+        requirements: [],
+      },
+      {
+        description: 'Pickpocket a man or woman in Lumbridge.',
+        requirements: [],
+      },
+      {
+        description: 'Chop and burn some oak logs in Lumbridge.',
+        requirements: [skill('Woodcutting', 15), skill('Firemaking', 15)],
+      },
+      {
+        description: 'Kill a Zombie in Draynor Sewers.',
+        requirements: [],
+      },
+      {
+        description: 'Catch some Anchovies in Al Kharid.',
+        requirements: [skill('Fishing', 15)],
+      },
+      {
+        description: 'Bake some Bread on the Lumbridge kitchen range.',
+        requirements: [quest("Cook's Assistant")],
+      },
+      {
+        description: 'Mine some Iron ore at the Al Kharid mine.',
+        requirements: [skill('Mining', 15)],
+      },
+      {
+        description: 'Enter the H.A.M. Hideout.',
+        notes: 'A lockpick is recommended.',
         requirements: [],
       },
     ],
   },
   elite: {
-    itemReward: 'Lumbridge & Draynor headgear 4',
-    itemsRequired: ['Endgame supplies', 'Master level materials'],
-    questsRequired: ['Ernest the Chicken', 'Tree Gnome Village', 'Rune Memories'],
+    itemReward: "Explorer's ring 4",
     rewards: {
       description: [
         {
-          main: 'Lumbridge & Draynor headgear 4',
-          other: ['Unlimited teleports and all perks from lower tiers'],
+          main: "Explorer's ring 4",
+          other: [
+            'Can restore full run energy three times a day',
+            "Allows 30 casts of High Level Alchemy without runes each day (no XP unless at Alchemist's Playground)",
+            "20% discount on items in the Culinaromancer's Chest",
+            'Steal twice as many cave goblin wires in Dorgesh-Kaan',
+            'Ability to use fairy rings without the need of a dramen or lunar staff',
+            'Unlocks the seventh slot for blocking Slayer tasks',
+          ],
         },
         {
-          main: '1 Antique lamp worth 50,000 experience in any skill of at least level 70',
-          other: [],
-        },
-        {
-          main: 'Free access to all elite areas and doubled boss loot',
+          main: 'Antique lamp worth 50,000 experience in any skill of at least level 70',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 95, skill: 'slayer' },
-      { boostable: false, level: 100, skill: 'combat' },
-      { boostable: false, level: 99, skill: 'agility' },
-      { boostable: false, level: 99, skill: 'cooking' },
-      { boostable: false, level: 99, skill: 'smithing' },
-      { boostable: false, level: 99, skill: 'crafting' },
-      { boostable: true, level: 97, skill: 'magic' },
-    ],
     tasks: [
       {
-        description: 'Defeat the ultimate Lumbridge boss.',
-        requirements: [skill('slayer', 95), skill('combat', 100)],
+        description: 'Steal from a Dorgesh-Kaan rich chest.',
+        notes: 'Requires a lockpick.',
+        requirements: [quest('Death to the Dorgeshuun'), skill('Thieving', 78)],
       },
       {
-        description: 'Complete elite obstacle course perfectly.',
-        requirements: [skill('agility', 99)],
+        description: 'Grapple across a pylon on the Dorgesh-Kaan Agility Course.',
+        notes: 'Requires a mith grapple, any crossbow, and a light source.',
+        requirements: [
+          quest('Death to the Dorgeshuun'),
+          skill('Agility', 70),
+          skill('Ranged', 70, false),
+          skill('Strength', 70, false),
+        ],
       },
       {
-        description: 'Master all Lumbridge skills at 99.',
-        requirements: [skill('cooking', 99), skill('smithing', 99), skill('crafting', 99)],
+        description: 'Chop some magic logs at the Mage Training Arena.',
+        requirements: [skill('Woodcutting', 75)],
       },
       {
-        description: 'Claim the Crown of Lumbridge.',
-        requirements: [quest('Rune Memories'), skill('combat', 100)],
+        description: 'Smith an Adamant platebody in Draynor sewer.',
+        notes: 'Requires 5 adamantite bars and a hammer.',
+        requirements: [skill('Smithing', 88, false)],
       },
       {
-        description: 'Craft a legendary Lumbridge artifact.',
-        requirements: [skill('crafting', 99), skill('magic', 97)],
+        description: '140 or more Water runes simultaneously from Essence without the use of Extracts.',
+        notes: 'Minimum Runecraft 57 with 3 Raiments of the Eye pieces, or 38 with the full set.',
+        requirements: [skill('Runecraft', 76)],
+      },
+      {
+        description: "Perform the Quest cape emote in the Wise Old Man's house.",
+        notes: 'Requires completion of all quests and the Quest point cape.',
+        requirements: [],
       },
     ],
   },
+
   hard: {
-    itemReward: 'Lumbridge & Draynor headgear 3',
-    itemsRequired: ['High-level combat gear', 'Crafting and smithing materials'],
-    questsRequired: ['Ernest the Chicken', 'Tree Gnome Village', 'Rune Memories'],
+    itemReward: "Explorer's ring 3",
     rewards: {
       description: [
         {
-          main: 'Lumbridge & Draynor headgear 3',
-          other: ['10 free teleports daily and reduced shop prices'],
+          main: "Explorer's ring 3",
+          other: [
+            'Can restore 50% of run energy four times a day',
+            'Unlimited teleports to the cabbage patch of South Falador Farm',
+          ],
         },
         {
-          main: '1 Antique lamp worth 15,000 experience in any skill of at least level 50',
+          main: 'Antique lamp worth 15,000 experience in any skill of at least level 50',
           other: [],
         },
         {
-          main: 'Access to exclusive boss arena',
+          main: '10% increased experience from Tears of Guthix',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 50, skill: 'slayer' },
-      { boostable: true, level: 60, skill: 'combat' },
-      { boostable: true, level: 65, skill: 'agility' },
-      { boostable: true, level: 80, skill: 'crafting' },
-      { boostable: true, level: 90, skill: 'smithing' },
-    ],
     tasks: [
       {
-        description: 'Defeat a boss in the Lumbridge Dungeon.',
-        requirements: [skill('slayer', 50), skill('combat', 60)],
+        description: 'Cast Bones to Peaches in Al Kharid palace.',
+        notes:
+          'Using the Bones to Peaches tablet does not count. Requires Bones to Peaches unlock from the Mage Training Arena.',
+        requirements: [skill('Magic', 60)],
       },
       {
-        description: 'Complete the hard Lumbridge obstacle course.',
-        requirements: [skill('agility', 65)],
+        description: 'Squeeze past the jutting wall on your way to the cosmic altar.',
+        notes: 'Requires access to Zanaris (dramen or lunar staff).',
+        requirements: [quest('Lost City'), skill('Agility', 46)],
       },
       {
-        description: 'Craft an adamant item.',
-        requirements: [skill('crafting', 80)],
+        description: 'Craft 56 Cosmic runes simultaneously from Essence without the use of Extracts.',
+        requirements: [quest('Lost City'), skill('Runecraft', 59)],
       },
       {
-        description: 'Smith a runite platebody.',
-        requirements: [skill('smithing', 90)],
+        description: 'Travel from Lumbridge to Edgeville on a Waka Canoe.',
+        requirements: [skill('Woodcutting', 57)],
       },
       {
-        description: 'Achieve 99 in a Lumbridge-related skill.',
-        requirements: [skill('fishing', 99)],
+        description: 'Collect at least 100 Tears of Guthix in one visit.',
+        notes:
+          'This minigame can only be attempted once a week. Recommended to have at least 150 quest points before trying.',
+        requirements: [quest('Tears of Guthix')],
+      },
+      {
+        description: 'Take the train from Dorgesh-Kaan to Keldagrim.',
+        requirements: [quest('Another Slice of H.A.M.')],
+      },
+      {
+        description: "Purchase some Barrows gloves from the Culinaromancer's Chest.",
+        notes: 'Costs 130,000 coins.',
+        requirements: [quest('Recipe for Disaster')],
+      },
+      {
+        description: 'Pick some Belladonna from the farming patch at Draynor Manor.',
+        requirements: [skill('Farming', 63)],
+      },
+      {
+        description: 'Light your mining helmet in the Lumbridge castle basement.',
+        requirements: [skill('Firemaking', 65)],
+      },
+      {
+        description: "Recharge your prayer at Emir's Arena with Smite activated.",
+        requirements: [skill('Prayer', 52)],
+      },
+      {
+        description: 'Craft, string and enchant an Amulet of Power in Lumbridge.',
+        notes: 'Doing this upstairs in Lumbridge Castle does not count.',
+        requirements: [skill('Crafting', 70), skill('Magic', 57)],
       },
     ],
   },
-  itemReward: 'Lumbridge/Draynor headgear',
+
+  itemReward: "Explorer's ring",
+
   medium: {
-    itemReward: 'Lumbridge & Draynor headgear 2',
-    itemsRequired: ['Combat gear', 'Crafting supplies', 'Smithing bars', 'Fishing supplies'],
-    questsRequired: ['Ernest the Chicken', 'Tree Gnome Village'],
+    itemReward: "Explorer's ring 2",
     rewards: {
       description: [
         {
-          main: 'Lumbridge & Draynor headgear 2',
-          other: ['5 free teleports daily to Lumbridge'],
+          main: "Explorer's ring 2",
+          other: [
+            'Can restore 50% of run energy three times a day',
+            'Three daily teleports to the cabbage patch of South Falador Farm',
+          ],
         },
         {
-          main: '1 Antique lamp worth 7,500 experience in any skill of at least level 40',
-          other: [],
-        },
-        {
-          main: 'Faster travel to Draynor area',
+          main: 'Antique lamp worth 7,500 experience in any skill of at least level 40',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 7500, levelToUse: 40 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 20, skill: 'combat' },
-      { boostable: true, level: 15, skill: 'agility' },
-      { boostable: true, level: 14, skill: 'farming' },
-      { boostable: true, level: 20, skill: 'smithing' },
-      { boostable: true, level: 20, skill: 'fishing' },
-      { boostable: true, level: 37, skill: 'magic' },
-    ],
     tasks: [
       {
-        description: 'Defeat a demon in the Draynor Manor.',
-        requirements: [quest('Ernest the Chicken'), skill('combat', 1)],
+        description: 'Complete a lap of the Al Kharid rooftop agility course.',
+        requirements: [skill('Agility', 20)],
       },
       {
-        description: 'Complete the Lumbridge Swamp shortcut.',
-        requirements: [skill('agility', 15)],
+        description: 'Grapple across the River Lum.',
+        notes: 'Requires a mith grapple and any crossbow.',
+        requirements: [skill('Agility', 8), skill('Strength', 19, false), skill('Ranged', 37, false)],
       },
       {
-        description: 'Grow an herb in the local herb patch.',
-        requirements: [skill('farming', 14)],
+        description: "Purchase an upgraded device (Ava's accumulator) from Ava.",
+        notes: "Requires 75 steel arrows with Ava's attractor.",
+        requirements: [quest('Animal Magnetism'), skill('Ranged', 50, false)],
       },
       {
-        description: 'Craft an item at the Lumbridge forge.',
-        requirements: [skill('crafting', 1)],
+        description: "Travel to the Wizards' Tower by Fairy ring.",
+        notes: 'Use fairy ring code DIS. Requires a dramen or lunar staff.',
+        requirements: [quest('Fairytale II - Cure a Queen')],
       },
       {
-        description: 'Smith a bronze platebody.',
-        requirements: [skill('smithing', 20)],
+        description: 'Cast the Teleport to Lumbridge spell.',
+        requirements: [skill('Magic', 31)],
       },
       {
-        description: 'Fish some better fish than shrimp.',
-        requirements: [skill('fishing', 20)],
+        description: 'Catch some Salmon in Lumbridge.',
+        requirements: [skill('Fishing', 30)],
       },
       {
-        description: 'Defeat a monster in Draynor Dungeon.',
-        requirements: [skill('combat', 20)],
+        description: 'Craft a coif in the Lumbridge cow pen.',
+        notes: 'Not to be confused with a cowl.',
+        requirements: [skill('Crafting', 38)],
       },
       {
-        description: 'Use a spirit tree to travel.',
-        requirements: [quest('Tree Gnome Village')],
+        description: 'Chop some willow logs in Draynor Village.',
+        requirements: [skill('Woodcutting', 30)],
       },
       {
-        description: 'Cast a useful spell in the area.',
-        requirements: [skill('magic', 37)],
+        description: 'Pickpocket Martin the Master Gardener.',
+        requirements: [skill('Thieving', 38)],
       },
       {
-        description: 'Complete a medium task from an NPC.',
-        requirements: [],
+        description: 'Get a slayer task from Chaeldar.',
+        notes: 'Requires a dramen or lunar staff to enter Zanaris.',
+        requirements: [quest('Lost City'), combat(70)],
+      },
+      {
+        description: 'Catch an Essence or Eclectic impling in Puro-Puro.',
+        notes: 'Requires a butterfly net and impling jar. Requires access to Zanaris.',
+        requirements: [quest('Lost City'), skill('Hunter', 42)],
+      },
+      {
+        description: 'Craft some Lava runes at the fire altar in Al Kharid.',
+        notes: 'Use the earth runes you brought on the altar, not the essence.',
+        requirements: [skill('Runecraft', 23)],
       },
     ],
   },
+
   name: 'Lumbridge & Draynor Diary',
 };
 

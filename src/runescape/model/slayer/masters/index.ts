@@ -16,16 +16,7 @@ import './Duradel'; // Combat 50 (but elite rewards)
 import './Krystilia'; // Combat 1 (Wilderness)
 import './Mortimer'; // Wyrmscraig (planned/unreleased)
 
-import {
-  getAllMasters,
-  getMasterByName,
-  getMastersByMinimumLevel,
-  getMastersByProgression,
-  getRandomMasterForLevel,
-  initializeMastersRegistry,
-  registerMaster,
-  SlayerMasterProgression,
-} from './registry';
+import { initializeMastersRegistry } from './registry';
 
 // Export individual masters
 export { Chaeldar } from './Chaeldar';

@@ -1,8 +1,11 @@
+import { LevelRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const SleepingGiants: Quest = {
   age: 'Fifth Age',
-  description: 'Deal with sleeping giants.',
+  description: 'Investigate a strange disturbance at the Giants Foundry and help awaken ancient sleeping giants from their slumber.',
+  
   difficulty: QuestDifficulty.Intermediate,
   id: 1045,
   length: QuestLength.VeryShort,
@@ -13,13 +16,16 @@ const SleepingGiants: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new LevelRequirement(Skill.Smithing, 60, false),
+    new LevelRequirement(Skill.Mining, 40, false),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'None',
-  shortName: 'Sleeping Giants',
-  startLocation: 'Location',
+  series: null,
+  shortName: 'sleepingGiants',
+  startLocation: "Giants' Foundry",
   status: QuestStatus.NotStarted,
-  steps: ['Deal with giants'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Sleeping_Giants',
 };
 export default SleepingGiants;

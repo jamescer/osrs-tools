@@ -23,31 +23,27 @@ const TowerOfLife: Quest = {
   recommendedSkills: {
     Combat: 40,
   },
-  requirements: [new LevelRequirement('Construction', 10, false)],
+  requirements: [new LevelRequirement(Skill.Construction, 10, false)],
   rewards: {
-    areas: ['Taverley'],
-    experience: [{ amount: 4000, skill: Skill.Construction }],
-    items: [{ name: 'Golem outfit' }],
+    areas: [],
+    experience: [
+      { amount: 1000, skill: Skill.Construction },
+      { amount: 500, skill: Skill.Crafting },
+      { amount: 500, skill: Skill.Thieving },
+    ],
+    items: [{ name: "Builder's costume" }],
     lamps: [],
     pets: [],
     points: [],
     questPoints: 2,
-    unlocks: [{ description: 'Access to Colossal Dungeon' }],
+    unlocks: [{ description: 'Access to Creature Creation' }],
   },
   series: null,
   shortName: 'towerOfLife',
 
-  startLocation: 'Tower of Life in Taverley, north of Falador Park',
+  startLocation: 'Effigy, Tower of Life, east of Ardougne Monastery',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Enter the Tower of Life and speak to the creatures inside',
-    'Navigate through laboratory chambers filled with experimental creatures',
-    'Discover the nature of the alchemist experiments by collecting clues',
-    'Complete a ritual task using supplies found in the tower',
-    'Solve the mystery of the tower construction and purpose',
-    'Defeat the embodied creatures guarding the tower secrets',
-    'Confront the tower creator and complete the final sequence',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Tower_of_Life',
 };
 

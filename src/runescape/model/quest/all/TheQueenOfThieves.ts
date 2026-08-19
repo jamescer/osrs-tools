@@ -1,10 +1,12 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheQueenOfThieves: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Infiltrate the criminal underworld of Great Kourend\'s port to uncover the true identity of the notorious Queen of Thieves.',
+  
   difficulty: QuestDifficulty.Novice,
   id: 118,
   length: QuestLength.Short,
@@ -15,7 +17,7 @@ const TheQueenOfThieves: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement('Thieving', 20, false)],
+  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement(Skill.Thieving, 20, false)],
   rewards: {
     areas: [],
     experience: [],
@@ -29,7 +31,7 @@ const TheQueenOfThieves: Quest = {
   series: 'Great Kourend',
   shortName: 'theQueenOfThieves',
 
-  startLocation: '',
+  startLocation: 'Tomas Lawry, Port Piscarilius, Great Kourend',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Queen_of_Thieves',

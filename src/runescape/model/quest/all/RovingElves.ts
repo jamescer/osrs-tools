@@ -1,9 +1,10 @@
-import { QuestRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
+import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const RovingElves: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help Islwyn and Eluned complete a task for the Elven Crystal and gain passage into the Elven Lands.',
   difficulty: QuestDifficulty.Intermediate,
   id: 88,
   length: QuestLength.Medium,
@@ -14,7 +15,11 @@ const RovingElves: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [new QuestRequirement('Regicide'), new QuestRequirement('Waterfall Quest')],
+  requirements: [
+    new QuestRequirement('Regicide'),
+    new QuestRequirement('Waterfall Quest'),
+    new LevelRequirement(Skill.Agility, 56, false),
+  ],
   rewards: {
     areas: [],
     experience: [],
@@ -28,7 +33,7 @@ const RovingElves: Quest = {
   series: 'Elf',
   shortName: 'rovingElves',
 
-  startLocation: '',
+  startLocation: 'Islwyn, Isafdar',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Roving_Elves',

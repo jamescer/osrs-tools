@@ -2,7 +2,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const RuneMysteries: Quest = {
   age: 'Fifth Age',
-  description: 'Learn about the mysteries of runes.',
+  description: 'Discover the secrets of the rune essence mine and unlock the ability to craft your own runes at the altars.',
   difficulty: QuestDifficulty.Novice,
   id: 1007,
   length: QuestLength.Short,
@@ -15,11 +15,11 @@ const RuneMysteries: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'Order of Wizards, #1',
-  shortName: 'Rune Mysteries',
+  series: 'Order of Wizards',
+  shortName: 'runeMysteries',
   startLocation: 'Lumbridge',
   status: QuestStatus.NotStarted,
-  steps: ['Learn about runes'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Rune_Mysteries',
 };
 export default RuneMysteries;

@@ -49,10 +49,17 @@ export function registerMaster(master: SlayerMaster): void {
 }
 
 /**
- * Get all masters by minimum combat level
+ * Get all masters accessible to a player with the given combat level (and optionally Slayer level).
+ * Masters whose combat OR Slayer level requirement exceeds the player's levels are excluded.
+ * @param combatLevel The player's combat level.
+ * @param slayerLevel The player's base Slayer level (default 1). Boosts never unlock a master.
  */
-export function getMastersByMinimumLevel(level: number): SlayerMaster[] {
-  return getAllMasters().filter(master => master.getMinimumCombatLevel() <= level);
+export function getMastersByMinimumLevel(combatLevel: number, slayerLevel: number = 1): SlayerMaster[] {
+  return getAllMasters().filter(
+    master =>
+      master.getMinimumCombatLevel() <= combatLevel &&
+      master.getMinimumSlayerLevel() <= slayerLevel,
+  );
 }
 
 /**
@@ -63,10 +70,12 @@ export function getMastersByProgression(): SlayerMaster[] {
 }
 
 /**
- * Get a random master available for a given combat level
+ * Get a random master available for the given combat and Slayer levels.
+ * @param combatLevel The player's combat level.
+ * @param slayerLevel The player's base Slayer level (default 1).
  */
-export function getRandomMasterForLevel(combatLevel: number): SlayerMaster | null {
-  const available = getMastersByMinimumLevel(combatLevel);
+export function getRandomMasterForLevel(combatLevel: number, slayerLevel: number = 1): SlayerMaster | null {
+  const available = getMastersByMinimumLevel(combatLevel, slayerLevel);
   if (available.length === 0) return null;
   return available[Math.floor(Math.random() * available.length)];
 }
@@ -82,7 +91,7 @@ export enum SlayerMasterProgression {
   CHAELDAR = 'Chaeldar', // Combat 70
   KONAR = 'Konar quo Maten', // Combat 75
   NIEVE = 'Nieve', // Combat 85
-  DURADEL = 'Duradel', // Combat 50
+  DURADEL = 'Duradel', // Combat 100, Slayer 50
   KRYSTILIA = 'Krystilia', // Combat 1 (Wilderness)
   MORTIMER = 'Mortimer', // Wyrmscraig (planned/unreleased)
 }

@@ -1,8 +1,10 @@
+import { LevelRequirement , QuestRequirement} from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const MourningsEndPartI: Quest = {
   age: 'Fifth Age',
-  description: "Begin the Mourning's End quest.",
+  description: 'Infiltrate the Mourners headquarters in West Ardougne to uncover the sinister secret behind their mysterious activities.',
   difficulty: QuestDifficulty.Master,
   id: 1020,
   length: QuestLength.Medium,
@@ -13,13 +15,18 @@ const MourningsEndPartI: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Regicide"),
+    new QuestRequirement("Roving Elves"),
+    new LevelRequirement(Skill.Agility, 60, false),
+    new LevelRequirement(Skill.Thieving, 50, false),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] },
-  series: 'Elf, #6',
-  shortName: "Mourning's End Part I",
+  series: 'Elf',
+  shortName: 'mourningsEndPartI',
   startLocation: 'Elf Land',
   status: QuestStatus.NotStarted,
-  steps: ['Begin quest'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_I',
 };
 export default MourningsEndPartI;

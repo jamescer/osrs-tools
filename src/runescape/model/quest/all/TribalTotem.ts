@@ -1,43 +1,40 @@
+import { LevelRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength, QuestStatus } from '../enums';
-import { Quest } from '../types';
+import { Quest } from '../Quest';
 
 const TribalTotem: Quest = {
-  age: 'Third Age',
-  description: 'Help a tribe recover their sacred totem that has been stolen.',
-  difficulty: QuestDifficulty.Novice,
+  age: 'Fifth Age',
+  description: "Lord Handelmort of Ardougne has acquired a sacred totem belonging to Karamja's Rantuki tribe. Help Kangai Mau reclaim it.",
+  difficulty: QuestDifficulty.Intermediate,
   id: 126,
-  length: QuestLength.Short,
+  length: QuestLength.VeryShort,
   members: true,
   miniquest: false,
   name: 'Tribal Totem',
-  questPoints: 2,
+  questPoints: 1,
   recommendations: [],
   recommendedPrayers: [],
-  recommendedSkills: { Crafting: 5 },
-  requirements: [],
+  recommendedSkills: {},
+  requirements: [
+    new LevelRequirement(Skill.Thieving, 21, true),
+  ],
   rewards: {
     areas: [],
-    experience: [{ amount: 500, skill: 'Crafting' }],
+    experience: [{ amount: 1775, skill: Skill.Thieving }],
     items: [],
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 2,
+    questPoints: 1,
     unlocks: [],
   },
   series: null,
   shortName: 'tribalTotem',
 
-  startLocation: 'Ape Atoll',
+  startLocation: 'Kangai Mau, The Shrimp and Parrot restaurant, Brimhaven',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to Ape Atoll.',
-    'Speak to the tribal leader.',
-    'Learn about the missing totem.',
-    'Search the island for clues.',
-    'Craft or retrieve the totem components.',
-    'Reassemble the totem and return it.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Tribal_Totem',
 };
 

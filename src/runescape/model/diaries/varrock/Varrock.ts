@@ -1,8 +1,10 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { CombatLevelRequirement, LevelRequirement, QuestPointRequirement, QuestRequirement } from '../../Requirement';
 import type { Diary } from '../Diary';
 
 const quest = (name: string) => new QuestRequirement(name);
 const skill = (skillName: string, level: number, boostable = true) => new LevelRequirement(skillName, level, boostable);
+const combat = (level: number) => new CombatLevelRequirement(level);
+const qp = (points: number) => new QuestPointRequirement(points);
 
 /**
  * Varrock Achievement Diary data, authored directly in TypeScript.
@@ -11,268 +13,322 @@ const skill = (skillName: string, level: number, boostable = true) => new LevelR
  */
 export const VarrockDiary: Diary = {
   easy: {
-    itemReward: 'Varrock Armour 1',
-    itemsRequired: ['5 items to sell', 'Copper ore', 'Logs'],
-    questsRequired: ['The Grand Tree', 'Rune Memories'],
+    itemReward: 'Varrock armour 1',
     rewards: {
       description: [
         {
-          main: 'Varrock Armour 1',
-          other: ['10% chance to save a bar when smelting ore in the Varrock smithy'],
+          main: 'Varrock armour 1',
+          other: [
+            'While worn, 10% chance of mining double clay, limestone, and ores up to and including gold (XP granted for both)',
+            'While worn, 10% chance of smelting 2 bars at once (up to steel) at the Edgeville furnace',
+          ],
         },
         {
-          main: '1 Antique lamp worth 2,500 experience in any skill of at least level 30',
+          main: 'Antique lamp worth 2,500 experience in any skill of at least level 30',
           other: [],
         },
         {
-          main: 'Unlimited free teleports to the Grand Exchange through the diary interface',
+          main: 'Zaff sells 15 noted battlestaves per day for 105,000 coins',
+          other: [],
+        },
+        {
+          main: 'Skull sceptre holds up to 14 charges (up from 10)',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 2500, levelToUse: 30 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 1, skill: 'woodcutting' },
-      { boostable: true, level: 1, skill: 'mining' },
-      { boostable: true, level: 1, skill: 'smithing' },
-      { boostable: true, level: 1, skill: 'magic' },
-    ],
     tasks: [
       {
-        description: 'Have Thessalia change your appearance for free.',
+        description: "Browse Thessalia's store.",
         requirements: [],
       },
       {
-        description: 'Pray at the altar in Varrock Castle.',
+        description: 'Have Aubury teleport you to the Essence mine.',
+        notes: 'You can right-click Aubury to teleport.',
+        requirements: [quest('Rune Mysteries')],
+      },
+      {
+        description: 'Mine some Iron ore in the south-east mining patch near Varrock.',
+        requirements: [skill('Mining', 15)],
+      },
+      {
+        description: 'Make a normal plank at the Sawmill.',
+        notes: 'Requires 100 coins and logs.',
         requirements: [],
       },
       {
-        description: 'Chop wood in the Varrock Palace garden.',
-        requirements: [skill('woodcutting', 1)],
-      },
-      {
-        description: 'Travel to Varrock via the spirit tree in Gnome Stronghold.',
-        requirements: [quest('The Grand Tree')],
-      },
-      {
-        description: 'Enter the Slums.',
-        requirements: [quest('Rune Memories')],
-      },
-      {
-        description: 'Buy a newspaper from the newspaper stand in Varrock.',
+        description: 'Enter the second level of the Stronghold of Security.',
+        notes: 'Food is recommended at low combat levels.',
         requirements: [],
       },
       {
-        description: 'Mine copper ore in the Varrock Mining Camp, south of the city.',
-        requirements: [skill('mining', 1)],
+        description: 'Jump over the fence south of Varrock.',
+        requirements: [skill('Agility', 13)],
       },
       {
-        description: 'Sell 5 items to the Armor shop in Varrock.',
+        description: 'Chop down a dying tree in the Lumber Yard.',
         requirements: [],
       },
       {
-        description: 'Use the furnace to smelt bars.',
-        requirements: [skill('smithing', 1)],
+        description: 'Buy a newspaper.',
+        notes: 'Can be bought from Benny in Varrock Square for 50 coins.',
+        requirements: [],
       },
       {
-        description: 'Cast a combat spell on a dummy in the training arena.',
-        requirements: [skill('magic', 1)],
+        description: 'Give a dog a bone!',
+        notes: 'Does not count when done during the investigation segment of Children of the Sun.',
+        requirements: [],
+      },
+      {
+        description: 'Spin a bowl on the pottery wheel and fire it in the oven in Barbarian Village.',
+        requirements: [skill('Crafting', 8)],
+      },
+      {
+        description: 'Speak to Haig Halen after obtaining at least 50 Kudos.',
+        requirements: [],
+      },
+      {
+        description: 'Craft some Earth runes from Essence.',
+        requirements: [skill('Runecraft', 9)],
+      },
+      {
+        description: 'Catch some Trout in the River Lum at Barbarian Village.',
+        requirements: [skill('Fishing', 20)],
+      },
+      {
+        description: 'Steal from the Tea stall in Varrock.',
+        requirements: [skill('Thieving', 5)],
       },
     ],
   },
   elite: {
-    itemReward: 'Varrock Armour 4',
-    itemsRequired: ['High-level smithing supplies', 'Magic runes', 'Agility gear'],
-    questsRequired: [],
+    itemReward: 'Varrock armour 4',
     rewards: {
       description: [
         {
-          main: 'Varrock Armour 4',
-          other: ['10% chance to save bars for all smithing, and chance to preserve gems'],
+          main: 'Varrock armour 4',
+          other: [
+            'Can be worn in place of a prospector jacket for clue steps and the experience bonus',
+            'While worn, 10% chance of mining double of any ore',
+            'While worn, 10% chance of smelting 2 bars at once (any kind) at the Edgeville furnace',
+          ],
         },
         {
-          main: '1 Antique lamp worth 50,000 experience in any skill of at least level 70',
+          main: 'Antique lamp worth 50,000 experience in any skill of at least level 70',
           other: [],
         },
         {
-          main: 'Unlimited teleports to the Varrock anvil',
+          main: 'Zaff sells 120 noted battlestaves per day for 840,000 coins',
+          other: [],
+        },
+        {
+          main: 'Skull sceptre holds up to 26 charges (up from 22)',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 85, skill: 'magic' },
-      { boostable: false, level: 99, skill: 'smithing' },
-      { boostable: true, level: 90, skill: 'agility' },
-      { boostable: true, level: 85, skill: 'crafting' },
-      { boostable: true, level: 85, skill: 'runecraft' },
-    ],
     tasks: [
       {
-        description: 'Teleport directly to the Grand Exchange.',
-        requirements: [skill('magic', 85)],
+        description: 'Create a super combat potion in Varrock west bank.',
+        notes: 'Requires Super attack (4), super strength (4), super defence (4), and a torstol.',
+        requirements: [quest('Druidic Ritual'), skill('Herblore', 90)],
       },
       {
-        description: 'Smith a rune full helm.',
-        requirements: [skill('smithing', 99)],
+        description: 'Use Lunar magic to make 20 mahogany planks at the Lumberyard.',
+        notes: 'Must stand within the Lumber Yard, past the fence. Requires Lunar spellbook selected.',
+        requirements: [quest('Dream Mentor'), skill('Magic', 86)],
       },
       {
-        description: 'Complete the elite Varrock Obstacle Course.',
-        requirements: [skill('agility', 90)],
+        description: 'Bake a summer pie in the Cooking Guild.',
+        notes: "Requires a chef's hat, golden chef's hat, Varrock armour 3, or Cooking cape to enter the guild.",
+        requirements: [skill('Cooking', 95)],
       },
       {
-        description: 'Kill the Varrock boss.',
-        requirements: [skill('combat', 100)],
+        description: 'Smith and fletch ten rune darts within Varrock.',
+        requirements: [quest('The Tourist Trap'), skill('Smithing', 89), skill('Fletching', 81)],
       },
       {
-        description: 'Craft 500 experience worth of rune items.',
-        requirements: [skill('crafting', 85), skill('runecraft', 85)],
+        description: 'Craft 100 or more Earth runes simultaneously from Essence without the use of Extracts.',
+        requirements: [skill('Runecraft', 78)],
       },
     ],
   },
+
   hard: {
-    itemReward: 'Varrock Armour 3',
-    itemsRequired: ['Smithing supplies', 'Adamant and Runite bars', 'Climbing gear'],
-    questsRequired: ['Dragon Slayer I'],
+    itemReward: 'Varrock armour 3',
     rewards: {
       description: [
         {
-          main: 'Varrock Armour 3',
-          other: ['10% chance to save bars when smelting and smithing mithril items, and chance for adamant items'],
+          main: 'Varrock armour 3',
+          other: [
+            "Can be worn in place of a chef's hat to access the Cooks' Guild",
+            'While worn, 10% chance of mining double ores up to and including adamantite',
+            'While worn, 10% chance of smelting 2 bars at once (up to adamantite) at the Edgeville furnace',
+            "Access to the bank in the Cooks' Guild",
+          ],
         },
         {
-          main: '1 Antique lamp worth 15,000 experience in any skill of at least level 50',
+          main: 'Antique lamp worth 15,000 experience in any skill of at least level 50',
           other: [],
         },
         {
-          main: '10 daily teleports to the Varrock anvil',
+          main: 'Zaff sells 60 noted battlestaves per day for 420,000 coins',
+          other: [],
+        },
+        {
+          main: 'Skull sceptre holds up to 22 charges (up from 18)',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 92, skill: 'smithing' },
-      { boostable: true, level: 54, skill: 'thieving' },
-      { boostable: true, level: 70, skill: 'agility' },
-      { boostable: true, level: 50, skill: 'combat' },
-    ],
     tasks: [
       {
-        description: 'Complete the Medium Varrock Diary.',
+        description: 'Trade furs with the Fancy Dress Seller for a spottier cape and equip it.',
+        notes: 'Requires 2 dashing kebbit fur and 800 coins. Hunter 69 required by ironmen to catch the kebbit.',
+        requirements: [skill('Hunter', 66, false)],
+      },
+      {
+        description: 'Speak to Orlando Smith when you have achieved 153 Kudos.',
         requirements: [],
       },
       {
-        description: 'Defeat Elvarg.',
-        requirements: [quest('Dragon Slayer I')],
+        description: 'Make a Waka canoe near Edgeville.',
+        requirements: [skill('Woodcutting', 57)],
       },
       {
-        description: 'Smith an adamant plate body.',
-        requirements: [skill('smithing', 92)],
+        description: 'Teleport to Paddewwa.',
+        notes: 'Requires Ancient Magicks selected.',
+        requirements: [quest('Desert Treasure I'), skill('Magic', 54)],
       },
       {
-        description: 'Complete a collection log for the Varrock Museum.',
-        requirements: [skill('thieving', 54)],
-      },
-      {
-        description: 'Perform all emotes in the Varrock library.',
+        description: 'Teleport to Barbarian Village with a skull sceptre.',
         requirements: [],
       },
       {
-        description: 'Unlock the Western Bank shortcut.',
-        requirements: [skill('agility', 61)],
+        description: 'Chop some yew logs in Varrock and burn them at the top of the Varrock church.',
+        notes: 'Steps must be done consecutively without completing other tasks in-between.',
+        requirements: [skill('Woodcutting', 60), skill('Firemaking', 60)],
       },
       {
-        description: 'Smith a runite platebody.',
-        requirements: [skill('smithing', 99)],
+        description: 'Have the Varrock estate agent decorate your house with Fancy Stone.',
+        notes: 'Costs 25,000 coins. Must finish the dialogue for the task to count.',
+        requirements: [skill('Construction', 50, false)],
       },
       {
-        description: 'Reach the end of the Varrock Obstacle Course.',
-        requirements: [skill('agility', 70)],
+        description: 'Collect at least 2 yew roots from the Tree patch in Varrock Palace.',
+        notes: 'Farming 68 needed to dig up more than a single root. Requires Woodcutting 60 to cut down the tree.',
+        requirements: [skill('Farming', 68), skill('Woodcutting', 60)],
       },
       {
-        description: 'Complete a hard clue scroll in Varrock.',
-        requirements: [],
+        description: 'Pray at the altar in Varrock palace with Smite active.',
+        notes: 'The altar is found on the 1st floor (UK) / 2nd floor (US) of the palace.',
+        requirements: [skill('Prayer', 52, false)],
       },
       {
-        description: 'Kill 50 players in the Wilderness within one week.',
-        requirements: [skill('combat', 50)],
+        description: 'Squeeze through the obstacle pipe in Edgeville dungeon.',
+        requirements: [skill('Agility', 51)],
       },
     ],
   },
-  itemReward: 'Varrock Armour',
+
+  itemReward: 'Varrock armour',
+
   medium: {
-    itemReward: 'Varrock Armour 2',
-    itemsRequired: ['Rune essences', 'Mithril bars', 'Crafting supplies'],
-    questsRequired: ['Dragon Slayer I', 'Rune Memories'],
+    itemReward: 'Varrock armour 2',
     rewards: {
       description: [
         {
-          main: 'Varrock Armour 2',
-          other: ['10% chance to save a bar when smelting, and 10% chance when smithing mithril items'],
+          main: 'Varrock armour 2',
+          other: [
+            'While worn, 10% chance of mining double ores up to and including mithril',
+            'While worn, 10% chance of smelting 2 bars at once (up to mithril) at the Edgeville furnace',
+          ],
         },
         {
-          main: '1 Antique lamp worth 7,500 experience in any skill of at least level 40',
+          main: 'Antique lamp worth 7,500 experience in any skill of at least level 40',
           other: [],
         },
         {
-          main: '5 daily teleports to the Varrock anvil',
+          main: 'Zaff sells 30 noted battlestaves per day for 210,000 coins',
+          other: [],
+        },
+        {
+          main: 'Ability to toggle Varrock Teleport destination between Varrock Square and the Grand Exchange',
+          other: [],
+        },
+        {
+          main: 'Skull sceptre holds up to 18 charges (up from 14)',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 7500, levelToUse: 40 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 25, skill: 'magic' },
-      { boostable: true, level: 60, skill: 'smithing' },
-      { boostable: true, level: 9, skill: 'runecraft' },
-      { boostable: true, level: 9, skill: 'crafting' },
-      { boostable: true, level: 50, skill: 'agility' },
-    ],
     tasks: [
       {
-        description: 'Defeat a dragon in Crandor.',
-        requirements: [quest('Dragon Slayer I')],
-      },
-      {
-        description: 'Teleport to Varrock using a varrock teleport.',
-        requirements: [skill('magic', 25), quest('Rune Memories')],
-      },
-      {
-        description: 'Claim a treasure trail reward from the Treasure Trail chest.',
+        description: 'Have the Apothecary in Varrock make you a Strength potion.',
+        notes: "Requires limpwurt root, red spiders' eggs, and 5 coins.",
         requirements: [],
       },
       {
-        description: 'Enter the Grand Exchange.',
+        description: "Enter the Champions' Guild.",
+        requirements: [qp(32)],
+      },
+      {
+        description: 'Select a colour for your kitten.',
+        notes:
+          'Requires partial completion of Garden of Tranquillity. Costs 100 coins and requires an activated ring of charos (a).',
+        requirements: [quest("Gertrude's Cat"), quest('Garden of Tranquillity')],
+      },
+      {
+        description: 'Use the spirit tree north of Varrock.',
+        notes: 'The spirit tree is located in the north-eastern corner of the Grand Exchange.',
+        requirements: [quest('Tree Gnome Village')],
+      },
+      {
+        description: 'Perform the 4 emotes from the Stronghold of Security.',
+        notes: 'Requires a Jagex Account or RuneScape Authenticator.',
         requirements: [],
       },
       {
-        description: 'Use the anvil in eastern Varrock.',
-        requirements: [skill('smithing', 1)],
+        description: "Enter the Tolna dungeon after completing A Soul's Bane.",
+        requirements: [quest("A Soul's Bane")],
       },
       {
-        description: 'Defeat a monster for the Varrock Museum.',
+        description: 'Teleport to the digsite using a Digsite pendant.',
+        requirements: [quest('The Dig Site')],
+      },
+      {
+        description: 'Cast the Teleport to Varrock spell.',
+        requirements: [skill('Magic', 25)],
+      },
+      {
+        description: 'Get a Slayer task from Vannaka.',
+        requirements: [combat(40)],
+      },
+      {
+        description: 'Make 20 Mahogany planks in one go.',
+        notes: 'Right-click the Sawmill operator. Requires 20 mahogany logs and 30,000 coins.',
         requirements: [],
       },
       {
-        description: 'Craft a fire staff.',
-        requirements: [skill('runecraft', 9), skill('crafting', 9)],
+        description: 'Pick a White tree fruit.',
+        requirements: [quest('Garden of Tranquillity'), skill('Farming', 25)],
       },
       {
-        description: 'Reach the base of the Varrock Obstacle Course.',
-        requirements: [skill('agility', 40)],
+        description: 'Use the balloon to travel from Varrock.',
+        notes: 'The destination does not matter for this task.',
+        requirements: [quest('Enlightened Journey'), skill('Farming', 30), skill('Firemaking', 40)],
       },
       {
-        description: 'Smith mithril plate bodies in Varrock.',
-        requirements: [skill('smithing', 60)],
-      },
-      {
-        description: 'Complete a lap of the Varrock Obstacle Course.',
-        requirements: [skill('agility', 50)],
+        description: 'Complete a lap of the Varrock Agility course.',
+        requirements: [skill('Agility', 30)],
       },
     ],
   },
+
   name: 'Varrock Diary',
 };
 

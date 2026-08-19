@@ -1,5 +1,4 @@
-import { Skill } from '../../account/Skill';
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
@@ -7,7 +6,7 @@ const ThroneOfMiscellania: Quest = {
   age: 'Fifth Age',
   description:
     'A king has gone missing on the island of Miscellania. Investigate the disappearance, challenge for leadership, and restore order to the troubled kingdom.',
-  difficulty: QuestDifficulty.Novice,
+  difficulty: QuestDifficulty.Experienced,
   id: 123,
   length: QuestLength.Medium,
   members: true,
@@ -28,38 +27,26 @@ const ThroneOfMiscellania: Quest = {
   requirements: [
     new QuestRequirement("Heroes' Quest"),
     new QuestRequirement('The Fremennik Trials'),
-    new LevelRequirement('Woodcutting', 45, false),
-    new LevelRequirement('Mining', 30, false),
-    new LevelRequirement('Fishing', 30, false),
   ],
   rewards: {
     areas: ['Miscellania', 'Etceteria'],
-    experience: [{ amount: 4000, skill: Skill.Woodcutting }],
-    items: [{ name: 'Crown' }],
+    experience: [],
+    items: [],
     lamps: [],
     pets: [],
     points: [],
     questPoints: 1,
     unlocks: [
-      { description: 'Access to royal privileges and kingdom management' },
-      { description: 'Ability to manage island resources' },
-      { description: 'Unlock Miscellania Palace management' },
+      { description: 'Access to Managing Miscellania' },
+      { description: 'Ability to teleport to Miscellania using a ring of wealth' },
     ],
   },
-  series: null,
+  series: 'Miscellania',
   shortName: 'throneOfMiscellania',
 
-  startLocation: 'Miscellania palace, northwestern island, reached by ship from Rellekka',
+  startLocation: 'King Vargas, Miscellania Castle',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to Miscellania and speak with the island inhabitants about the missing king',
-    'Investigate the throne room and surrounding areas for clues',
-    'Collect evidence about the king disappearance (documents, testimonies)',
-    'Challenge a rival claimant or complete trials to prove your worthiness for leadership',
-    'Travel through island locations gathering resources and alliances',
-    'Complete a final confrontation or challenge to claim the throne or restore the king',
-    'Secure your position on the throne and establish new policies for the kingdom',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Throne_of_Miscellania',
 };
 

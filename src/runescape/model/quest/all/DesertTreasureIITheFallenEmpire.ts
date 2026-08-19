@@ -1,3 +1,5 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement, LevelRequirement, QuestPointRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const DesertTreasureIITheFallenEmpire: Quest = {
@@ -13,13 +15,25 @@ const DesertTreasureIITheFallenEmpire: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Desert Treasure I'),
+    new QuestRequirement('Secrets of the North'),
+    new QuestRequirement("Enakhra's Lament"),
+    new QuestRequirement('Beneath Cursed Sands'),
+    new QuestRequirement('Temple of the Eye'),
+    new QuestRequirement('Into the Tombs'),
+    new QuestPointRequirement(150),
+    new LevelRequirement(Skill.Firemaking, 75, false),
+    new LevelRequirement(Skill.Magic, 75, false),
+    new LevelRequirement(Skill.Prayer, 70, false),
+    new LevelRequirement(Skill.Thieving, 70, false),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 5, unlocks: [] },
-  series: 'Mahjarrat, #14',
-  shortName: 'Desert Treasure II',
+  series: 'Mahjarrat',
+  shortName: 'desertTreasureII',
   startLocation: 'Desert',
   status: QuestStatus.NotStarted,
-  steps: ['Find treasure'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Desert_Treasure_II',
 };
 export default DesertTreasureIITheFallenEmpire;

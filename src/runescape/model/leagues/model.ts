@@ -19,21 +19,28 @@ export interface NotableDrop {
 }
 
 export enum GenericLeagueRegion {
+  ASGARNIA = 'Asgarnia',
+  DESERT = 'Desert',
+  FREMENNIK = 'Fremennik',
   KANDARIN = 'Kandarin',
-  VARLAMORE = 'Varlamore',
-  MORYTANIA = 'Morytania',
   KARAMJA = 'Karamja',
   KOUREND = 'Kourend',
-  TIRANNWN = 'Tirannwn',
   MISTHALIN = 'Misthalin',
-  FREMENNIK = 'Fremennik',
-  DESERT = 'Desert',
+  MORYTANIA = 'Morytania',
+  TIRANNWN = 'Tirannwn',
+  VARLAMORE = 'Varlamore',
   WILDERNESS = 'Wilderness',
 }
 
+/**
+ * All six Old School RuneScape leagues, in chronological order.
+ * Source: https://oldschool.runescape.wiki/w/Leagues
+ */
 export const Leagues: Record<string, string> = {
-  DEMONIC_PACTS: 'Demonic Pacts League',
-  RAGING_ECHOES: 'Raging Echoes League',
-  SHATTERED_RELICS: 'Shattered Relics League',
   TWISTED_LEAGUE: 'Twisted League',
+  TRAILBLAZER: 'Trailblazer League',
+  SHATTERED_RELICS: 'Shattered Relics League',
+  TRAILBLAZER_RELOADED: 'Trailblazer Reloaded League',
+  RAGING_ECHOES: 'Raging Echoes League',
+  DEMONIC_PACTS: 'Demonic Pacts League',
 };

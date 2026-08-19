@@ -1,9 +1,10 @@
+import { Skill } from '../../account/Skill';
 import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const PriestInPeril: Quest = {
-  age: 'First Age',
+  age: 'Fifth Age',
   description: 'Rescue a priest who has been trapped in a cursed temple by dark forces.',
   difficulty: QuestDifficulty.Novice,
   id: 81,
@@ -18,7 +19,7 @@ const PriestInPeril: Quest = {
   requirements: [new QuestRequirement('Rune Mysteries')],
   rewards: {
     areas: [],
-    experience: [{ amount: 1125, skill: 'Prayer' }],
+    experience: [{ amount: 1125, skill: Skill.Prayer }],
     items: [],
     lamps: [],
     pets: [],
@@ -36,14 +37,7 @@ const PriestInPeril: Quest = {
 
   startLocation: 'Morytania, near the entrance to the temple',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to the temple in Morytania.',
-    'Speak to the priest and learn about his predicament.',
-    'Use prayers to break the curse affecting him.',
-    'Navigate through the cursed temple.',
-    'Defeat the curse and rescue the priest.',
-    'Return to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Priest_in_Peril',
 };
 

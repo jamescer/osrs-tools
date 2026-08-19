@@ -21,7 +21,6 @@ export {
   MonsterType,
   SLAYER_EXP_RATES,
   STANDARD_TASK_WEIGHTS,
-  TASK_LOCATIONS,
   TASK_QUANTITY_PRESETS,
 } from './constants';
 

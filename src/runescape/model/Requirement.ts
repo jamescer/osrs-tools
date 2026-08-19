@@ -32,7 +32,7 @@ class LevelRequirement implements Requirement {
   }
 
   get description(): string {
-    return `Level ${this.level}`;
+    return `${this.skillName} level ${this.level}${this.boostable ? ' (boostable)' : ''}`;
   }
 
   /**
@@ -100,8 +100,8 @@ class CombatLevelRequirement implements Requirement {
 
 // Quest requirement
 class QuestRequirement implements Requirement {
-  static fromQuestName(arg0: string): Requirement {
-    throw new Error('Method not implemented.');
+  static fromQuestName(questName: string): QuestRequirement {
+    return new QuestRequirement(questName);
   }
   type: RequirementType = RequirementType.Quest;
   questName: string;
@@ -126,7 +126,7 @@ class QuestPointRequirement implements Requirement {
     this.amount = amount;
   }
   get description(): string {
-    return `Quest Points Needed: ${this.amount}`;
+    return `${this.amount} Quest Points`;
   }
 }
 

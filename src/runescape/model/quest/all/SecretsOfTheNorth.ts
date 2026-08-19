@@ -1,8 +1,10 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const SecretsOfTheNorth: Quest = {
   age: 'Fifth Age',
-  description: 'Uncover secrets of the north.',
+  description: 'Investigate a brutal murder in the frozen north and uncover a conspiracy that could shake the foundations of Gielinor.',
   difficulty: QuestDifficulty.Master,
   id: 1043,
   length: QuestLength.Medium,
@@ -13,13 +15,21 @@ const SecretsOfTheNorth: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Desert Treasure I'),
+    new QuestRequirement('A Kingdom Divided'),
+    new LevelRequirement(Skill.Agility, 56, false),
+    new LevelRequirement(Skill.Magic, 62, false),
+    new LevelRequirement(Skill.Mining, 52, false),
+    new LevelRequirement(Skill.Runecraft, 49, false),
+    new LevelRequirement(Skill.Thieving, 56, false),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] },
-  series: 'Mahjarrat, #13',
-  shortName: 'Secrets of the North',
+  series: 'Mahjarrat',
+  shortName: 'secretsOfTheNorth',
   startLocation: 'North',
   status: QuestStatus.NotStarted,
-  steps: ['Uncover secrets'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Secrets_of_the_North',
 };
 export default SecretsOfTheNorth;

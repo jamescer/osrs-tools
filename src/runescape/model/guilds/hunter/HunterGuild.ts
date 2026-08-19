@@ -1,7 +1,7 @@
-import { HunterGuildMaster, HunterGuildMasterName } from './HunterGuildMaster';
+import { HunterGuildMaster } from './HunterGuildMaster';
 import { HunterRumour } from './HunterRumour';
 import { HUNTER_RUMOUR_REGISTRY } from './Rumours';
-import { HunterRumourAssignment, HunterRumourTier } from './types';
+import { HunterRumourAssignment } from './types';
 
 /**
  * Defines the Hunter Guild Masters and their properties, including the minimum Hunter level required to receive rumours from them, whether they require the completion of "At First Light" to assign rumours, and the tier of rumours they provide. The HunterGuild class provides methods to retrieve masters by name, get all masters, retrieve rumours by ID, determine eligible rumours for a player based on their level and completed quests, and assign a rumour to a player while ensuring all eligibility criteria are met. The Hunter Guild module serves as the central hub for all logic related to the Hunter Guild, its masters, and the assignment of rumours to players.
@@ -21,7 +21,7 @@ const HUNTER_GUILD_MASTERS: HunterGuildMaster[] = [
  * Note: The rumours are defined in a separate module to avoid circular dependencies, as HunterRumour references HunterGuildMaster and vice versa.
  */
 export class HunterGuild {
-  public wikiUrl = 'https://runescape.wiki/w/Hunter_Guild';
+  public wikiUrl = 'https://oldschool.runescape.wiki/w/Hunter_Guild';
 
   private gilman: HunterGuildMaster;
   private cervus: HunterGuildMaster;
@@ -30,10 +30,7 @@ export class HunterGuild {
   private teco: HunterGuildMaster;
   private wolf: HunterGuildMaster;
 
-  private completedQuests: string[] = [];
-
-  constructor(completedQuests: string[] = []) {
-    this.completedQuests = completedQuests ?? [];
+  constructor() {
     this.gilman = HUNTER_GUILD_MASTERS.find(master => master.name === 'Gilman')!;
     this.cervus = HUNTER_GUILD_MASTERS.find(master => master.name === 'Cervus')!;
     this.ornus = HUNTER_GUILD_MASTERS.find(master => master.name === 'Ornus')!;

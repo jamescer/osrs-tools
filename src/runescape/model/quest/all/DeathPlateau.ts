@@ -1,8 +1,9 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const DeathPlateau: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help a Burthorpe guard investigate treasonous activity in the Imperial Guard — and find a safe passage through Death Plateau.',
 
   difficulty: QuestDifficulty.Novice,
 
@@ -22,7 +23,7 @@ const DeathPlateau: Quest = {
   requirements: [],
   rewards: {
     areas: [],
-    experience: [{ amount: 3000, skill: 'Attack' }],
+    experience: [{ amount: 3000, skill: Skill.Attack }],
     items: [],
     lamps: [],
     pets: [],
@@ -33,7 +34,7 @@ const DeathPlateau: Quest = {
   series: 'Troll',
   shortName: 'deathPlateau',
 
-  startLocation: '',
+  startLocation: 'Denulth, Burthorpe',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Death_Plateau',

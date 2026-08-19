@@ -1,8 +1,9 @@
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const MourningsEndPartII: Quest = {
   age: 'Fifth Age',
-  description: "Continue the Mourning's End quest.",
+  description: 'Descend into the Temple of Light and navigate a series of deadly mirror puzzles to reach the Death Altar hidden within.',
   difficulty: QuestDifficulty.Master,
   id: 1021,
   length: QuestLength.Long,
@@ -13,13 +14,15 @@ const MourningsEndPartII: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Mourning's End Part I"),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] },
-  series: 'Elf, #7',
-  shortName: "Mourning's End Part II",
+  series: 'Elf',
+  shortName: 'mourningsEndPartII',
   startLocation: 'Elf Land',
   status: QuestStatus.NotStarted,
-  steps: ['Continue quest'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_II',
 };
 export default MourningsEndPartII;

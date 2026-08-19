@@ -1,4 +1,4 @@
-import { CombatAchievementTask, CombatAchievementTier } from '../CombatAchievement';
+import { CombatAchievementTask, CombatAchievementTaskType, CombatAchievementTier } from '../CombatAchievement';
 
 /**
  * Elite-tier Combat Achievement tasks, authored directly in TypeScript.
@@ -13,7 +13,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Abyssal Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Abyssal Sire after only stunning him once.',
@@ -22,7 +22,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Respiratory Runner',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Use the Vengeance spell to reflect the damage from the Abyssal Sire's explosion back to him.",
@@ -31,7 +31,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Demonic Rebound',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -41,7 +41,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Sire',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Kill Kree'arra 100 times.",
@@ -50,7 +50,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Kree'arra Veteran",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill General Graardor 100 times.',
@@ -59,7 +59,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'General Graardor Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill General Graardor without him attacking any players.',
@@ -68,7 +68,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Ourg Freezer II',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill a Basilisk Knight.',
@@ -77,7 +77,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Reflecting on This Encounter',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Callisto 20 times.',
@@ -86,7 +86,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Callisto Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Skotizo without taking any damage.',
@@ -95,7 +95,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Demon Evasion',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Skotizo without equipping a demonbane weapon.',
@@ -104,7 +104,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Up for the Challenge',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Cerberus 75 times.',
@@ -113,7 +113,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Cerberus Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Cerberus after successfully negating 6 or more attacks from Summoned Souls.',
@@ -122,7 +122,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Ghost Buster',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Cerberus without taking damage from any lava pools.',
@@ -131,7 +131,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Unrequired Antifire',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Cerberus without taking any melee damage.',
@@ -140,7 +140,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Anti-Bite Mechanics',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Chaos Elemental 25 times.',
@@ -149,7 +149,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chaos Elemental Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Corporeal Beast 25 times.',
@@ -158,7 +158,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Corporeal Beast Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Corporeal Beast without anyone killing the dark core or taking damage from the dark core.',
@@ -167,7 +167,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hot on Your Feet',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Finish off the Corporeal Beast with a Halberd special attack.',
@@ -176,7 +176,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Finding the Weak Spot',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Corporeal Beast solo.',
@@ -185,7 +185,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chicken Killer',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill a Demonic Gorilla.',
@@ -194,7 +194,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'If Gorillas Could Fly',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Finish off a Demonic Gorilla with a demonbane weapon.',
@@ -203,7 +203,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hitting Them Where It Hurts',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Galvek in less than 3 minutes.',
@@ -212,7 +212,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Galvek Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Grotesque Guardians 50 times.',
@@ -221,7 +221,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Grotesque Guardians Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Grotesque Guardians before Dusk uses his prison attack for a second time.',
@@ -230,7 +230,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Done before Dusk',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -240,7 +240,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Grotesque Guardians',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Grotesque Guardians in less than 2 minutes.',
@@ -249,7 +249,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Grotesque Guardians Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Grotesque Guardians 10 times without leaving the instance.',
@@ -258,7 +258,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'From Dusk...',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Complete the Corrupted Gauntlet 5 times.',
@@ -267,7 +267,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Corrupted Gauntlet Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Corrupted Hunllef without taking damage off prayer.',
@@ -276,7 +276,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: '3, 2, 1 - Mage',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete the Gauntlet 5 times.',
@@ -285,7 +285,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Gauntlet Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Crystalline Hunllef without taking damage off prayer.',
@@ -294,7 +294,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: '3, 2, 1 - Range',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Crystalline Hunllef without making an egniol potion within the Gauntlet.',
@@ -303,7 +303,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Egniol Diet',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Crystalline Hunllef with a full set of perfected armour equipped.',
@@ -312,7 +312,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Crystalline Warrior',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Crystalline Hunllef without making more than one attuned weapon.',
@@ -321,7 +321,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Wolf Puncher',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Glough in less than 2 minutes and 30 seconds.',
@@ -330,7 +330,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Glough Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Hespori without losing any prayer points.',
@@ -339,7 +339,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Plant-Based Diet',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Hespori in less than 48 seconds.',
@@ -348,7 +348,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hespori Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Alchemical Hydra 75 times.',
@@ -357,7 +357,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Alchemical Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Fight Caves once.',
@@ -366,7 +366,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fight Caves Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Fight Caves after surviving a hit from TzTok-Jad without praying.',
@@ -375,7 +375,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A Near Miss!',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Fight Caves with only melee.',
@@ -384,7 +384,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Facing Jad Head-on',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Kalphite Queen 50 times.',
@@ -393,7 +393,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Kalphite Queen Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Kalphite Queen by using the Vengeance spell as the finishing blow.',
@@ -402,7 +402,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Insect Deflection',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Kill the Kalphite Queen using only the Verac's Flail as a weapon.",
@@ -411,7 +411,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Prayer Smasher',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Kraken 50 times in a private instance without leaving the room.',
@@ -420,7 +420,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Ten-tacles',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill the Mimic once.',
@@ -429,7 +429,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mimic Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Giant Mole with 4 or fewer instances of damage.',
@@ -438,7 +438,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hard Hitter',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill The Nightmare 25 times.',
@@ -447,7 +447,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill two Husks at the same time.',
@@ -456,7 +456,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Explosion!',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Nightmare solo.',
@@ -465,7 +465,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Sleep Tight',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat the Nightmare (Solo) in less than 23 minutes.',
@@ -474,7 +474,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare (Solo) Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Defeat the Nightmare (5-scale) in less than 5 minutes.',
@@ -483,7 +483,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare (5-Scale) Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Dagannoth Prime whilst under attack by Dagannoth Supreme and Dagannoth Rex.',
@@ -492,7 +492,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Death to the Seer King',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Prime using a Rune Thrownaxe special attack, bounced off Dagannoth Rex.',
@@ -501,7 +501,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'From One King to Another',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Dagannoth Rex whilst under attack by Dagannoth Supreme and Dagannoth Prime.',
@@ -510,7 +510,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Death to the Warrior King',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Dagannoth Rex and one other Dagannoth king at the exact same time.',
@@ -519,7 +519,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Toppling the Diarchy',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Commander Zilyana 100 times.',
@@ -528,7 +528,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Commander Zilyana Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Commander Zilyana in a private instance with melee only.',
@@ -537,7 +537,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Reminisce',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Scorpia 25 times.',
@@ -546,7 +546,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Scorpia Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill The Fragment of Seren in less than 4 minutes.',
@@ -555,7 +555,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fragment of Seren Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Zulrah 75 times.',
@@ -564,7 +564,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Zulrah Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Zulrah by using the Vengeance spell as the finishing blow.',
@@ -573,7 +573,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Snake Rebound',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill 3 Snakelings simultaneously.',
@@ -582,7 +582,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Snake. Snake!? Snaaaaaake!',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Zulrah in less than 1 minute 20 seconds, without a slayer task.',
@@ -591,7 +591,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Zulrah Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Dagannoth Supreme whilst under attack by Dagannoth Prime and Dagannoth Rex.',
@@ -600,7 +600,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Death to the Archer King',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill all three Dagannoth Kings within 9 seconds of the first one.',
@@ -609,7 +609,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Rapid Succession',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Theatre of Blood 25 times.',
@@ -618,7 +618,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre of Blood Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Thermonuclear Smoke Devil 20 times.',
@@ -627,7 +627,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Thermonuclear Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Thermonuclear Smoke Devil without it hitting anyone.',
@@ -636,7 +636,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hazard Prevention',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Thermonuclear Smoke Devil using only special attacks.',
@@ -645,7 +645,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Spec'd Out",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Venenatis 20 times.',
@@ -654,7 +654,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Venenatis Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Kill Vet'ion 20 times.",
@@ -663,7 +663,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Vet'eran",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Vorkath 50 times.',
@@ -672,7 +672,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vorkath Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Kill Vorkath's zombified spawn without using crumble undead.",
@@ -681,7 +681,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Zombie Destroyer',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Vorkath using melee weapons only.',
@@ -690,7 +690,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Stick 'em With the Pointy End",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete a Chambers of Xeric Challenge mode raid in the target time.',
@@ -699,7 +699,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dust Seeker',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Chambers of Xeric 25 times.',
@@ -708,7 +708,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Vanguards without them resetting their health.',
@@ -717,7 +717,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfectly Balanced',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Vanguards within 10 seconds of the first one dying.',
@@ -726,7 +726,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Together We'll Fall",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Muttadile without letting her or her baby recover hitpoints from the meat tree.',
@@ -735,7 +735,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mutta-diet',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Abyssal Portal without forcing Vespula to land.',
@@ -744,7 +744,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Redemption Enthusiast',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Receive kill-credit for a Stone Guardian without taking damage from falling rocks.',
@@ -753,7 +753,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dancing with Statues',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete a Chambers of Xeric raid without anyone dying.',
@@ -762,7 +762,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Undying Raid Team',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Receive kill-credit for a Lizardman Shaman without taking damage from any shamans in the room.',
@@ -771,7 +771,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Shayzien Specialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Receive kill-credit for the Ice Demon without taking any damage.',
@@ -780,7 +780,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Cryo No More',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Receive kill-credit for the Ice Demon without activating the Protect from Range prayer.',
@@ -789,7 +789,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Blizzard Dodger',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Finish off the Ice Demon with a fire spell.',
@@ -798,7 +798,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Kill It with Fire',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Zalcano 25 times.',
@@ -807,7 +807,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Zalcano Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -817,7 +817,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Zalcano',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Receive imbued tephra from a golem.',
@@ -826,7 +826,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Team Player',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Zalcano as the player who has dealt the most damage to her.',
@@ -835,7 +835,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Spurned Hero',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Kill K'ril Tsutsaroth 100 times.",
@@ -844,7 +844,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "K'ril Tsutsaroth Veteran",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Defeat K'ril Tsutsaroth in a private instance using only demonbane spells.",
@@ -853,7 +853,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Bane of Demons',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Kill K'ril Tsutsaroth in a private instance without taking any of his melee hits.",
@@ -862,7 +862,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Demonic Defence',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill a Jal-Zek within the Inferno.',
@@ -871,7 +871,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Half-Way There',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Complete TzHaar-Ket-Rak's second challenge.",
@@ -880,7 +880,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The II Jad Challenge',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Complete TzHaar-Ket-Rak's first challenge in less than 45 seconds.",
@@ -889,7 +889,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "TzHaar-Ket-Rak's Speed-Trialist",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Complete TzHaar-Ket-Rak's second challenge with only melee.",
@@ -898,7 +898,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Facing Jad Head-on III',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -908,7 +908,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Anticoagulants',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -918,7 +918,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Appropriate Tools',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'In the Theatre of Blood: Entry Mode, enter the Pestilent Bloat room from the opposite side.',
@@ -927,7 +927,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "They Won't Expect This",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -937,7 +937,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chally Time',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'In the Theatre of Blood: Entry Mode, freeze any 4 Nylocas with a single Ice Barrage spell.',
@@ -946,7 +946,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nylocas, On the Rocks',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -956,7 +956,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Just To Be Safe',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Xarpus in the Theatre of Blood: Entry Mode without him reflecting any damage to anyone.',
@@ -965,7 +965,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Don't Look at Me!",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -975,7 +975,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'No-Pillar',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -985,7 +985,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Attack, Step, Wait',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'In the Theatre of Blood: Entry Mode, successfully pass on the green ball to a team mate.',
@@ -994,7 +994,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Pass It On',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Kill Phosani's Nightmare once.",
@@ -1003,7 +1003,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Phosani's Veteran",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Nex once.',
@@ -1012,7 +1012,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nex Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Nex without anyone dying.',
@@ -1021,7 +1021,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nex Survivors',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -1031,7 +1031,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Helpful spirit who?',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete the Tombs of Amascut in a group of two or more without anyone dying.',
@@ -1040,7 +1040,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hardcore Raiders',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete the Tombs of Amascut solo without dying.',
@@ -1049,7 +1049,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hardcore Tombs',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -1059,7 +1059,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Het',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -1069,7 +1069,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Apmeken',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -1079,7 +1079,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Crondis',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Defeat Akkha without dropping any materialising orbs and without dying yourself.',
@@ -1088,7 +1088,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dropped the ball',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -1098,7 +1098,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'No skipping allowed',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Defeat Ba-Ba after destroying four or fewer rolling boulders in total without dying yourself.',
@@ -1107,7 +1107,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "I'm in a rush",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -1117,7 +1117,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Down Do Specs',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Tombs of Amascut in Entry mode (or above) 50 times.',
@@ -1126,7 +1126,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Novice Tomb Raider',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Tombs of Amascut once.',
@@ -1135,7 +1135,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Tomb Explorer',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Tombs of Amascut (Expert mode) once.',
@@ -1144,7 +1144,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Expert Tomb Explorer',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Phantom Muspah without running.',
@@ -1153,7 +1153,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Can't Escape",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Phantom Muspah in less than 3 minutes without a slayer task.',
@@ -1162,7 +1162,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Phantom Muspah Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Phantom Muspah 25 times.',
@@ -1171,7 +1171,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Phantom Muspah Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Drain the Phantom Muspah's Prayer with three different sources in one kill.",
@@ -1180,7 +1180,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Versatile Drainer',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Vardorvis in less than 1:15 minutes without a slayer task.',
@@ -1189,7 +1189,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vardorvis Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Vardorvis once.',
@@ -1198,7 +1198,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vardorvis Adept',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Whisperer in less than 3:00 without a slayer task.',
@@ -1207,7 +1207,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Whisperer Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Whisperer once.',
@@ -1216,7 +1216,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Whisperer Adept',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Whisperer whilst only being on the Arceuus spellbook.',
@@ -1225,7 +1225,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Tentacular',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Leviathan in less than 1:50 without a slayer task.',
@@ -1234,7 +1234,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Leviathan Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Leviathan once.',
@@ -1243,7 +1243,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Leviathan Adept',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Duke Sucellus in less than 1:00 minutes without a slayer task.',
@@ -1252,7 +1252,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Duke Sucellus Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Duke Sucellus once.',
@@ -1261,7 +1261,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Duke Sucellus Adept',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat a Moon before they start their second special attack.',
@@ -1270,7 +1270,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'High Hitter',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete Wave 4 without taking avoidable damage from a Manticore.',
@@ -1279,7 +1279,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Furball',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete Wave 7 without the Minotaur ever healing other enemies.',
@@ -1288,7 +1288,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Denied',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill a Jaguar Warrior using a Claw-type weapon special attack.',
@@ -1297,7 +1297,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'I was here first!',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill a Tormented Demon.',
@@ -1306,7 +1306,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Unending Torment',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill a Tormented Demon whilst their shield is inactive.',
@@ -1315,7 +1315,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Through Fire and Flames',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill two Tormented Demons within 2 seconds.',
@@ -1324,7 +1324,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Two Times the Torment',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Hit three Tormented Demons within 3 seconds using a ballista or a crossbow.',
@@ -1333,7 +1333,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Rapid Reload',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Araxxor 25 times.',
@@ -1342,7 +1342,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Araxxor Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Araxxor 4 times in 10:00.',
@@ -1351,7 +1351,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Araxxor Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Araxxor after destroying six eggs.',
@@ -1360,7 +1360,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Relaxxor',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Hueycoatl 25 times.',
@@ -1369,7 +1369,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hueycoatl Veteran',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -1379,7 +1379,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Hueycoatl',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Hueycoatl in 2:30',
@@ -1388,7 +1388,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hueycoatl Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Amoxliatl in less than 30 seconds.',
@@ -1397,7 +1397,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Amoxliatl Speed-Chaser',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Amoxliatl without losing any prayer points.',
@@ -1406,7 +1406,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Without Ralos' Light",
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Royal Titans without losing any prayer points.',
@@ -1415,7 +1415,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'No time to pray',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat Yama once.',
@@ -1424,7 +1424,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Yama Adept',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat Yama in an average time of under 3:38 over your last four kills.',
@@ -1433,7 +1433,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Yama Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description:
@@ -1443,7 +1443,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Back so soon?',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl at delve level 3.',
@@ -1452,7 +1452,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Doom Adept',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl during its Melee charge phase.',
@@ -1461,7 +1461,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Exposed Doom',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl level 1 in less than 30 seconds.',
@@ -1470,7 +1470,7 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Doom Crawler',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Brutus in less than 2 seconds.',
@@ -1479,6 +1479,6 @@ export const ELITE_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Brutus Speed-Trialist',
     points: 4,
     tier: CombatAchievementTier.Elite,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
 ];

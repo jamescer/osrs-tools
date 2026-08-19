@@ -1,8 +1,10 @@
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const TempleOfTheEye: Quest = {
   age: 'Fifth Age',
-  description: 'Explore the Temple of the Eye.',
+  description: 'Help the Wizards Tower investigate a mysterious eye-shaped ruin and establish a link to a powerful new runecrafting altar.',
+  
   difficulty: QuestDifficulty.Intermediate,
   id: 1047,
   length: QuestLength.Short,
@@ -13,13 +15,16 @@ const TempleOfTheEye: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Rune Mysteries"),
+    new QuestRequirement("Enter the Abyss"),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'Order of Wizards, #3',
-  shortName: 'Temple of the Eye',
+  series: 'Order of Wizards',
+  shortName: 'templeOfTheEye',
   startLocation: 'Temple',
   status: QuestStatus.NotStarted,
-  steps: ['Explore'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Temple_of_the_Eye',
 };
 export default TempleOfTheEye;

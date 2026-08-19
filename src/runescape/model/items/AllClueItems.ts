@@ -2860,6 +2860,26 @@ export const AdamantPlatelegs = Item.fromJson({
   weight: 9.072,
 });
 
+export const AdamantFullHelm = Item.fromJson({
+  destroy: 'Drop',
+  equipable: true,
+  examine: 'An adamant full face helmet.',
+  highAlch: 1728,
+  iconUrl: 'https://oldschool.runescape.wiki/images/Adamant_full_helm_detail.png',
+  id: 1161,
+  lowAlch: 1152,
+  members: true,
+  name: 'Adamant full helm',
+  noted: false,
+  officialWikiUrl: 'https://oldschool.runescape.wiki/w/Adamant_full_helm',
+  questItem: false,
+  releaseDate: '2001-01-04',
+  stackable: false,
+  tradeable: true,
+  value: 2880,
+  weight: 2.267,
+});
+
 export const AdamantShieldG = Item.fromJson({
   destroy: 'Drop',
   equipable: true,

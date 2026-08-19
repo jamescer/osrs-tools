@@ -1,8 +1,9 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
+
 const ChildrenOfTheSun: Quest = {
   age: 'Fifth Age',
-  description: 'Meet the children of the sun.',
+  description: 'Sail to a new land and encounter a mysterious civilisation that worships the sun, uncovering their ancient secrets.',
   difficulty: QuestDifficulty.Novice,
   id: 1037,
   length: QuestLength.VeryShort,
@@ -15,11 +16,12 @@ const ChildrenOfTheSun: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'Twilight Emissaries, #1',
-  shortName: 'Children of the Sun',
-  startLocation: 'Location',
+  series: 'Twilight Emissaries',
+  shortName: 'childrenOfTheSun',
+  startLocation: 'Port Aldarin, Varlamore',
   status: QuestStatus.NotStarted,
-  steps: ['Meet children'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Children_of_the_Sun',
 };
+
 export default ChildrenOfTheSun;

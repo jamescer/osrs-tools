@@ -1,8 +1,8 @@
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ClientOfKourend: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Become a client of the Kourend Council by completing favours for each of the five Great Kourend houses.',
 
   difficulty: QuestDifficulty.Novice,
 
@@ -48,7 +48,7 @@ const ClientOfKourend: Quest = {
   },
   series: 'Great Kourend',
   shortName: 'clientOfKourend',
-  startLocation: '',
+  startLocation: 'Veos, Piscarilius docks, Great Kourend',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Client_of_Kourend',

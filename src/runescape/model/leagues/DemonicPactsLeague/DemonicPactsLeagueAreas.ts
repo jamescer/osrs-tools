@@ -1100,15 +1100,15 @@ export const DEMONIC_PACTS_LEAGUE_AREAS: Record<string, DemonicPactsLeagueArea> 
 export const DemonicPactsLeagueRegions: Record<string, LeagueRegion> = {
   asgarnia: {
     name: 'Asgarnia',
-    wikiUrl: 'https://runescape.wiki/w/Asgarnia',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Asgarnia',
   },
   desert: {
     name: 'Kharidian Desert',
-    wikiUrl: 'https://runescape.wiki/w/Kharidian_Desert',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Kharidian_Desert',
   },
   fremennik: {
     name: 'Fremennik Province',
-    wikiUrl: 'https://runescape.wiki/w/Fremennik_Province',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Fremennik_Province',
   },
   general: {
     name: 'General',
@@ -1116,34 +1116,34 @@ export const DemonicPactsLeagueRegions: Record<string, LeagueRegion> = {
   },
   kandarin: {
     name: 'Kandarin',
-    wikiUrl: 'https://runescape.wiki/w/Kandarin',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Kandarin',
   },
   karamja: {
     name: 'Karamja',
-    wikiUrl: 'https://runescape.wiki/w/Karamja',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Karamja',
   },
   kourend: {
     name: 'Kebos and Kourend',
-    wikiUrl: 'https://runescape.wiki/w/Kebos_and_Kourend',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Kebos_and_Kourend',
   },
   misthalin: {
     name: 'Misthalin',
-    wikiUrl: 'https://runescape.wiki/w/Misthalin',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Misthalin',
   },
   morytania: {
     name: 'Morytania',
-    wikiUrl: 'https://runescape.wiki/w/Morytania',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Morytania',
   },
   tirannwn: {
     name: 'Tirannwn',
-    wikiUrl: 'https://runescape.wiki/w/Tirannwn',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Tirannwn',
   },
   varlamore: {
     name: 'Varlamore',
-    wikiUrl: 'https://runescape.wiki/w/Varlamore',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Varlamore',
   },
   wilderness: {
     name: 'Wilderness',
-    wikiUrl: 'https://runescape.wiki/w/Wilderness',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Wilderness',
   },
 };

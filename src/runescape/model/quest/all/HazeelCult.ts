@@ -3,8 +3,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const HazeelCult: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Choose sides in a conflict between the Hazeel cult and the Carnillean family — either help revive the demon Hazeel or stop the cultists.',
   difficulty: QuestDifficulty.Novice,
   id: 54,
   length: QuestLength.Short,
@@ -29,7 +29,7 @@ const HazeelCult: Quest = {
   series: null,
   shortName: 'hazeelCult',
 
-  startLocation: '',
+  startLocation: 'Ceril Carnillean, Ardougne',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Hazeel_Cult',

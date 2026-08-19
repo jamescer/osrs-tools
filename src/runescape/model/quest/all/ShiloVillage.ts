@@ -6,14 +6,14 @@ import { Quest, QuestStatus } from '../Quest';
 const ShiloVillage: Quest = {
   age: 'Fifth Age',
   description:
-    'A village hidden in the jungles of Karamja has been plagued by a terrible disease. Travel deep into the jungle to find a cure and restore peace to the settlement.',
+    'A foul mist and a plague of undead have overtaken Shilo Village. Delve into ancient Karamjan history to stop the queen of the dead and open the village to travellers.',
   difficulty: QuestDifficulty.Experienced,
   id: 98,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
   name: 'Shilo Village',
-  questPoints: 3,
+  questPoints: 2,
   recommendations: [
     { name: 'Machete', type: 'item' },
     { name: 'Combat equipment', type: 'item' },
@@ -27,37 +27,26 @@ const ShiloVillage: Quest = {
   },
   requirements: [
     new QuestRequirement('Jungle Potion'),
-    new LevelRequirement('Agility', 32, false),
-    new LevelRequirement('Crafting', 20, false),
-    new LevelRequirement('Smithing', 4, false),
+    new LevelRequirement(Skill.Agility, 32, false),
+    new LevelRequirement(Skill.Crafting, 20, false),
+    new LevelRequirement(Skill.Smithing, 4, false),
   ],
   rewards: {
     areas: ['Shilo Village'],
-    experience: [
-      { amount: 2000, skill: Skill.Crafting },
-      { amount: 2000, skill: Skill.Agility },
-    ],
-    items: [{ name: 'Brimstone key' }],
+    experience: [{ amount: 3875, skill: Skill.Crafting }],
+    items: [],
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 3,
+    questPoints: 2,
     unlocks: [{ description: 'Access to Shilo Village and shops' }],
   },
-  series: 'Karamja',
+  series: null,
   shortName: 'shiloVillage',
 
-  startLocation: 'Tai Bwo Wannai settlement in Karamja, southeastern jungle',
+  startLocation: 'Mosol Rei, outside Shilo Village (south Karamja)',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Investigate the quarantined village and speak to the inhabitant Chief Handrod',
-    'Collect 10 Dueling rings to cross the river or find alternative routes',
-    'Navigate through jungle obstacles using supplies and items',
-    'Find the required materials: Cure for plague sample collected from village',
-    'Locate ancient logs and construct items needed for the cure',
-    'Complete a potion-crafting sequence to create the disease cure',
-    'Return to cure the infected and complete the restoration of Shilo Village',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Shilo_Village',
 };
 

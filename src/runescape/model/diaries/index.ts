@@ -3,6 +3,7 @@ export { default as diaries, getAllDiaries, getDiaryByName } from './Diary';
 export {
   ArdougneDiary,
   DesertDiary,
+  FaladorDiary,
   FremennikDiary,
   KandarinDiary,
   KaramjaDiary,
@@ -10,6 +11,7 @@ export {
   LumbridgeDraynorDiary,
   MorytaniaDiary,
   VarrockDiary,
+  WesternProvincesDiary,
   WildernessDiary,
 } from './Diary';
 export type { DiaryProgress, DiaryTier, DiaryTierProgress } from './DiaryTool';

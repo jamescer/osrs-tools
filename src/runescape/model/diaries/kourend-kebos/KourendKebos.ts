@@ -11,253 +11,389 @@ const skill = (skillName: string, level: number, boostable = true) => new LevelR
  */
 export const KourendKebosDiary: Diary = {
   easy: {
-    itemReward: 'Kourend headgear 1',
-    itemsRequired: ['Fishing supplies', 'Mining pickaxe', 'Woodcutting axe', 'Crafting supplies'],
-    questsRequired: ['Vileblood'],
+    itemReward: "Rada's blessing 1",
     rewards: {
       description: [
         {
-          main: 'Kourend headgear 1',
-          other: ['Grants access to the Kourend area without needing completion of below-mentioned quests'],
+          main: "Rada's blessing 1",
+          other: [
+            'Three daily teleports to the Kourend Woodland',
+            '2% chance to catch two fish at once anywhere when equipped (no extra XP)',
+          ],
         },
         {
-          main: '1 Antique lamp worth 2,500 experience in any skill of at least level 30',
+          main: 'Antique lamp worth 2,500 experience in any skill of at least level 30',
           other: [],
         },
         {
-          main: 'Increased rewards from Kourend-based activities',
+          main: 'Entrance fee for Crabclaw Isle lowered to 5,000 coins',
+          other: [],
+        },
+        {
+          main: "Doubled chance at receiving a Xeric's talisman from lizardmen",
+          other: [],
+        },
+        {
+          main: "20% discount on Eodan's tanning services",
+          other: [],
+        },
+        {
+          main: 'Access to the cooking ranges in the Hosidius Kitchen (5% increased success rate)',
+          other: [],
+        },
+        {
+          main: 'Farming patches in Hosidius, south of the church, will never get diseased',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 2500, levelToUse: 30 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 5, skill: 'fishing' },
-      { boostable: true, level: 10, skill: 'mining' },
-      { boostable: true, level: 5, skill: 'woodcutting' },
-      { boostable: true, level: 14, skill: 'farming' },
-      { boostable: true, level: 15, skill: 'smithing' },
-      { boostable: true, level: 10, skill: 'agility' },
-    ],
     tasks: [
       {
-        description: 'Gain 10% favour with any Kourend house.',
-        requirements: [quest('Vileblood')],
+        description: 'Mine some Iron ore at the Mount Karuulm mine.',
+        requirements: [skill('Mining', 15)],
       },
       {
-        description: 'Catch a fish in the Arceuus area.',
-        requirements: [skill('fishing', 5)],
-      },
-      {
-        description: 'Mine ore in the Piscarilius area.',
-        requirements: [skill('mining', 10)],
-      },
-      {
-        description: 'Chop wood in the Lovakengj area.',
-        requirements: [skill('woodcutting', 5)],
-      },
-      {
-        description: 'Craft a leather item in the Shayzien area.',
-        requirements: [skill('crafting', 1)],
-      },
-      {
-        description: 'Smith an item in the Hosidius area.',
-        requirements: [skill('smithing', 15)],
-      },
-      {
-        description: 'Grow a herb in the Arceuus house pot.',
-        requirements: [skill('farming', 14)],
-      },
-      {
-        description: 'Visit all five Kourend houses.',
+        description: 'Kill a Sand crab.',
         requirements: [],
       },
       {
-        description: 'Complete a task from a house favour master.',
+        description: 'Hand in a book at the Arceuus Library.',
         requirements: [],
       },
       {
-        description: 'Use a shortcut in Kourend.',
-        requirements: [skill('agility', 10)],
+        description: 'Steal from a Hosidius food stall.',
+        requirements: [skill('Thieving', 25)],
+      },
+      {
+        description: 'Browse the Warrens General Store.',
+        requirements: [],
+      },
+      {
+        description: "Take a boat to Land's End.",
+        notes: 'Travel with Veos or Cabin Boy Herbert from Port Sarim or Port Piscarilius.',
+        requirements: [],
+      },
+      {
+        description: 'Pray at the Altar in Kourend Castle.',
+        notes: 'The altar is found on the top floor of the castle.',
+        requirements: [],
+      },
+      {
+        description: 'Dig up some Saltpetre.',
+        requirements: [],
+      },
+      {
+        description: 'Enter your Player Owned House from Hosidius.',
+        notes: 'Costs 8,750 coins to move your house to Hosidius (can only be done after visiting Great Kourend).',
+        requirements: [skill('Construction', 25, false)],
+      },
+      {
+        description: 'Do a lap of either tier of the Shayzien Agility Course.',
+        requirements: [],
+      },
+      {
+        description: 'Create a Strength potion in the Lovakengj pub.',
+        notes: 'Requires a tarromin potion (unf) and limpwurt root.',
+        requirements: [quest('Druidic Ritual'), skill('Herblore', 12)],
+      },
+      {
+        description: 'Fish a Trout from the River Molch.',
+        notes: 'The fishing spot is found south-east of the Farming Guild.',
+        requirements: [skill('Fishing', 20)],
       },
     ],
   },
   elite: {
-    itemReward: 'Kourend headgear 4',
-    itemsRequired: ['Endgame combat and crafting supplies'],
-    questsRequired: ['Vileblood', 'X Marks the Spot', 'A taste of Hope'],
+    itemReward: "Rada's blessing 4",
     rewards: {
       description: [
         {
-          main: 'Kourend headgear 4',
-          other: ['Unlimited access to all Kourend areas and doubled boss loot'],
+          main: "Rada's blessing 4",
+          other: [
+            'Unlimited teleports to the top of Mount Karuulm',
+            '8% chance to catch two fish at once anywhere when equipped (no extra XP)',
+            'Has a Prayer bonus of +2 when equipped',
+          ],
         },
         {
-          main: '1 Antique lamp worth 50,000 experience in any skill of at least level 70',
+          main: 'Antique lamp worth 50,000 experience in any skill of at least level 70',
           other: [],
         },
         {
-          main: 'Daily bonus favour and exclusive items',
+          main: "Roughly 11% more Slayer reward points from Konar quo Maten's tasks",
+          other: [],
+        },
+        {
+          main: '10% additive success rate in the Hosidius Kitchen cooking ranges',
+          other: [],
+        },
+        {
+          main: 'Permanent protection from the burning effect in the Karuulm Slayer Dungeon',
+          other: [],
+        },
+        {
+          main: 'Ashes scattered via the Ash sanctifier now grant full Prayer XP',
+          other: [],
+        },
+        {
+          main: "80% discount on Eodan's tanning service",
+          other: [],
+        },
+        {
+          main: '10% additional blood runes from the false blood altar',
+          other: [],
+        },
+        {
+          main: '10% increased chance of obtaining higher-tier ores in the Blast mine',
+          other: [],
+        },
+        {
+          main: 'Thirus offers 80 dynamite for free every day',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 95, skill: 'slayer' },
-      { boostable: false, level: 100, skill: 'combat' },
-      { boostable: true, level: 90, skill: 'agility' },
-      { boostable: false, level: 99, skill: 'crafting' },
-      { boostable: false, level: 99, skill: 'smithing' },
-      { boostable: false, level: 99, skill: 'runecraft' },
-    ],
     tasks: [
       {
-        description: 'Defeat the Kourend final boss.',
-        requirements: [quest('A taste of Hope'), skill('slayer', 95), skill('combat', 100)],
+        description: 'Craft one or more Blood runes from Dark essence.',
+        notes: 'Mine a dark essence block, break it into fragments, then use fragments on the Kourend Blood Altar.',
+        requirements: [skill('Runecraft', 77), skill('Mining', 38), skill('Crafting', 38)],
       },
       {
-        description: 'Complete elite obstacle course without errors.',
-        requirements: [skill('agility', 90)],
+        description: 'Chop some Redwood logs.',
+        requirements: [skill('Woodcutting', 90)],
       },
       {
-        description: 'Master all five houses at the highest tier.',
-        requirements: [skill('smithing', 99), skill('crafting', 99), skill('runecraft', 99)],
+        description: 'Defeat Skotizo in the Catacombs of Kourend.',
+        notes: 'Requires a dark totem.',
+        requirements: [],
       },
       {
-        description: 'Craft the ultimate Kourend artifact.',
-        requirements: [skill('crafting', 99), skill('magic', 99)],
+        description: 'Catch an Anglerfish and cook it whilst in Great Kourend.',
+        notes: 'Requires a fishing rod and sandworms.',
+        requirements: [skill('Fishing', 82), skill('Cooking', 84)],
       },
       {
-        description: 'Claim the Kourend throne of ultimate power.',
-        requirements: [quest('A taste of Hope'), skill('combat', 100)],
+        description: 'Kill a Hydra in the Karuulm Slayer Dungeon.',
+        notes: 'Either variant may be killed. Only the Alchemical Hydra requires a slayer task.',
+        requirements: [skill('Slayer', 95)],
+      },
+      {
+        description: 'Create an Ape Atoll teleport tablet.',
+        notes: 'Requires Arceuus spellbook selected. Requires a dark essence block and runes.',
+        requirements: [skill('Magic', 90)],
+      },
+      {
+        description: 'Complete a raid in the Chambers of Xeric.',
+        requirements: [],
+      },
+      {
+        description: 'Create your own Battlestaff from scratch within the Farming Guild.',
+        notes: 'Grow a celastrus tree and craft the staff from the bark. Requires celastrus sapling, knife, and axe.',
+        requirements: [skill('Farming', 85), skill('Fletching', 40)],
       },
     ],
   },
+
   hard: {
-    itemReward: 'Kourend headgear 3',
-    itemsRequired: ['High-level combat gear', 'Master crafting materials'],
-    questsRequired: ['Vileblood', 'X Marks the Spot', 'A taste of Hope'],
+    itemReward: "Rada's blessing 3",
     rewards: {
       description: [
         {
-          main: 'Kourend headgear 3',
-          other: ['Maximum favour gain rate and exclusive boss access'],
+          main: "Rada's blessing 3",
+          other: [
+            'Unlimited teleports to the Kourend Woodland',
+            'Three daily teleports to the top of Mount Karuulm',
+            '6% chance to catch two fish at once anywhere when equipped (no extra XP)',
+            'Has a Prayer bonus of +1 when equipped',
+          ],
         },
         {
-          main: '1 Antique lamp worth 15,000 experience in any skill of at least level 50',
+          main: 'Ash sanctifier (claimable from Tyss)',
+          other: ['Automatically scatters demonic ashes, granting half the Prayer XP'],
+        },
+        {
+          main: 'Antique lamp worth 15,000 experience in any skill of at least level 50',
           other: [],
         },
         {
-          main: 'Free entry to houses without favour requirements',
+          main: 'Any slayer helmet usable in place of Shayzien helm (5) against lizardman shamans',
+          other: [],
+        },
+        {
+          main: "60% discount on Eodan's tanning services",
+          other: [],
+        },
+        {
+          main: '5% increased chance to save a harvest life at the Hosidius and Farming Guild herb patches',
+          other: [],
+        },
+        {
+          main: 'Thirus offers 40 dynamite for free every day',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 80, skill: 'slayer' },
-      { boostable: true, level: 70, skill: 'agility' },
-      { boostable: true, level: 85, skill: 'runecraft' },
-      { boostable: true, level: 85, skill: 'crafting' },
-    ],
     tasks: [
       {
-        description: 'Reach 100% favour with all five houses.',
-        requirements: [quest('Vileblood'), quest('A taste of Hope')],
+        description: 'Enter the Woodcutting Guild.',
+        requirements: [skill('Woodcutting', 60)],
       },
       {
-        description: 'Defeat a Hydra boss.',
-        requirements: [skill('slayer', 80)],
+        description: 'Smelt an Adamantite bar in The Forsaken Tower.',
+        notes: 'Using the Superheat Item spell does not count.',
+        requirements: [quest('The Forsaken Tower'), skill('Smithing', 70)],
       },
       {
-        description: 'Complete the hard Kourend obstacle course.',
-        requirements: [skill('agility', 70)],
+        description: 'Kill a Lizardman Shaman in the Lizardman Temple.',
+        requirements: [],
       },
       {
-        description: 'Craft a master rune spell.',
-        requirements: [skill('runecraft', 85), skill('crafting', 85)],
+        description: 'Mine some Lovakite.',
+        requirements: [skill('Mining', 65)],
       },
       {
-        description: 'Achieve 99 in a Kourend-related skill.',
-        requirements: [skill('smithing', 99)],
+        description: 'Plant some Logavano seeds at the Tithe Farm.',
+        requirements: [skill('Farming', 74)],
+      },
+      {
+        description: 'Kill a Zombie in the Shayzien Crypts.',
+        notes: 'Requires a light source.',
+        requirements: [],
+      },
+      {
+        description: "Teleport to Xeric's Heart using Xeric's Talisman.",
+        notes: "Requires a Xeric's talisman charged with a lizardman fang.",
+        requirements: [],
+      },
+      {
+        description: 'Deliver an artefact to Captain Khaled.',
+        notes: 'Requires a lockpick.',
+        requirements: [skill('Thieving', 49)],
+      },
+      {
+        description: 'Kill a Wyrm in the Karuulm Slayer Dungeon.',
+        notes: 'Requires boots of stone, brimstone, or granite.',
+        requirements: [skill('Slayer', 62)],
+      },
+      {
+        description: 'Cast Monster Examine on a Troll south of Mount Quidamortem.',
+        notes: 'Requires Lunar spellbook selected.',
+        requirements: [quest('Dream Mentor'), skill('Magic', 66)],
       },
     ],
   },
-  itemReward: 'Kourend headgear',
+
+  itemReward: "Rada's blessing",
+
   medium: {
-    itemReward: 'Kourend headgear 2',
-    itemsRequired: ['Combat gear', 'Crafting supplies', 'Smithing bars', 'Farming supplies'],
-    questsRequired: ['Vileblood', 'X Marks the Spot'],
+    itemReward: "Rada's blessing 2",
     rewards: {
       description: [
         {
-          main: 'Kourend headgear 2',
-          other: ['Improved favour gain and access to restricted activities'],
+          main: "Rada's blessing 2",
+          other: [
+            'Five daily teleports to the Kourend Woodland',
+            '4% chance to catch two fish at once anywhere when equipped (no extra XP)',
+            'Has a Prayer bonus of +1 when equipped',
+          ],
         },
         {
-          main: '1 Antique lamp worth 7,500 experience in any skill of at least level 40',
+          main: 'Antique lamp worth 7,500 experience in any skill of at least level 40',
           other: [],
         },
         {
-          main: 'Teleport to Kourend from any house',
+          main: 'Free access to Crabclaw Isle',
+          other: [],
+        },
+        {
+          main: "40% discount on Eodan's tanning services",
+          other: [],
+        },
+        {
+          main: '5% chance to mine two dense essence blocks at once',
+          other: [],
+        },
+        {
+          main: 'Thirus offers 20 dynamite for free every day',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 7500, levelToUse: 40 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 35, skill: 'slayer' },
-      { boostable: true, level: 52, skill: 'agility' },
-      { boostable: true, level: 45, skill: 'runecraft' },
-      { boostable: true, level: 45, skill: 'crafting' },
-      { boostable: true, level: 40, skill: 'smithing' },
-      { boostable: true, level: 27, skill: 'farming' },
-      { boostable: true, level: 58, skill: 'fishing' },
-    ],
     tasks: [
       {
-        description: 'Reach 50% favour with all five houses.',
-        requirements: [quest('Vileblood')],
+        description: 'Travel to the Fairy Ring south of Mount Karuulm.',
+        notes: 'Use fairy ring code CIR. Requires a dramen or lunar staff.',
+        requirements: [quest('Fairytale II - Cure a Queen')],
       },
       {
-        description: 'Defeat a monster in the Kourend slayer dungeon.',
-        requirements: [skill('slayer', 35)],
-      },
-      {
-        description: 'Complete the medium Kourend obstacle course.',
-        requirements: [skill('agility', 40)],
-      },
-      {
-        description: 'Craft a teleport spell.',
-        requirements: [skill('runecraft', 45), skill('crafting', 45)],
-      },
-      {
-        description: 'Use the Kourend market.',
+        description: 'Kill a Lizardman.',
+        notes: 'Antipoison is recommended.',
         requirements: [],
       },
       {
-        description: 'Defeat a demon in the Arceuus area.',
-        requirements: [skill('combat', 40)],
+        description: "Use Kharedst's memoirs to teleport to all five cities in Great Kourend.",
+        notes: 'Requires completion of all five Kourend questline quests. Use the book or the Book of the Dead.',
+        requirements: [
+          quest('The Depths of Despair'),
+          quest('The Queen of Thieves'),
+          quest('Tale of the Righteous'),
+          quest('The Forsaken Tower'),
+          quest('The Ascent of Arceuus'),
+        ],
       },
       {
-        description: 'Smith adamant equipment.',
-        requirements: [skill('smithing', 40)],
+        description: 'Mine some Volcanic Sulphur.',
+        notes: 'Requires a face mask, gas mask, or slayer helmet.',
+        requirements: [skill('Mining', 42)],
       },
       {
-        description: 'Grow a fruit tree.',
-        requirements: [skill('farming', 27)],
+        description: 'Enter the Farming Guild.',
+        notes: "Must walk through the guild's main entrance.",
+        requirements: [skill('Farming', 45)],
       },
       {
-        description: 'Catch a molly fish.',
-        requirements: [skill('fishing', 58)],
+        description: 'Switch to the Necromancy Spellbook at Tyss.',
+        requirements: [],
       },
       {
-        description: 'Use the deep wilderness shortcut.',
-        requirements: [skill('agility', 52)],
+        description: 'Repair a Piscarilius crane.',
+        notes: 'Requires a hammer, 3 regular planks, and about 50 nails.',
+        requirements: [skill('Crafting', 30), skill('Construction', 30)],
+      },
+      {
+        description: 'Deliver some intelligence to Captain Ginea.',
+        requirements: [],
+      },
+      {
+        description: 'Catch a Bluegill on Molch Island.',
+        notes: 'Requires king worms (found on the island) or fish offcuts.',
+        requirements: [skill('Fishing', 43), skill('Hunter', 35)],
+      },
+      {
+        description: 'Use the boulder leap shortcut in the Arceuus essence mine.',
+        requirements: [skill('Agility', 49)],
+      },
+      {
+        description: 'Subdue the Wintertodt.',
+        notes: 'Must earn at least 500 points. Requires an axe, tinderbox, and warm clothing.',
+        requirements: [skill('Firemaking', 50)],
+      },
+      {
+        description: 'Catch a Chinchompa in the Kourend Woodland.',
+        requirements: [quest("Eagles' Peak"), skill('Hunter', 53)],
+      },
+      {
+        description: 'Chop some Mahogany logs north of the Farming Guild.',
+        requirements: [skill('Woodcutting', 50)],
       },
     ],
   },
+
   name: 'Kourend & Kebos Diary',
 };
 

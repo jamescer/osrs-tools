@@ -3,8 +3,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const NatureSpirit: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Follow up on Priest in Peril by entering Mort Myre and helping the nature spirit Filliman Tarlock achieve peace.',
   difficulty: QuestDifficulty.Intermediate,
   id: 75,
   length: QuestLength.Medium,
@@ -29,7 +29,7 @@ const NatureSpirit: Quest = {
   series: null,
   shortName: 'natureSpirit',
 
-  startLocation: '',
+  startLocation: 'Drezel, Mort Myre',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Nature_Spirit',

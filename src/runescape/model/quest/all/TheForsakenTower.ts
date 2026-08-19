@@ -4,8 +4,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheForsakenTower: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Restore power to the Forsaken Tower in the Lovakengj house by solving its internal puzzles.',
   difficulty: QuestDifficulty.Novice,
   id: 107,
   length: QuestLength.Short,
@@ -39,7 +39,7 @@ const TheForsakenTower: Quest = {
   },
   series: 'Great Kourend',
   shortName: 'theForsakenTower',
-  startLocation: '',
+  startLocation: 'Ish, Lovakengj',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Forsaken_Tower',

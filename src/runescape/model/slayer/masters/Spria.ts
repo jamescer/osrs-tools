@@ -6,28 +6,21 @@
  */
 
 import { SlayerMaster } from '../core/SlayerMaster';
-import { POINTS_TABLE } from '../core/types';
 import { spriaTasks } from '../task/SpriaTasks';
 import { registerMaster } from './registry';
 
 /**
  * Spria - Beginner Slayer Master
- * Beginner-level slayer master in Draynor
+ * Beginner-level slayer master in Draynor Village.
+ * Like Turael, Spria is a "reset master" — completing her tasks resets the
+ * player's streak to 0 and awards 0 Slayer points.
  */
 export const Spria = new SlayerMaster({
-  eliteDiaryTaskPoints: {
-    1: 2,
-    10: 5,
-    100: 50,
-    1000: 100,
-    250: 70,
-    50: 15,
-  },
   imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Spria.png',
   location: 'Draynor Village',
   minimumCombatLevel: 1,
   name: 'Spria',
-  pointsTable: POINTS_TABLE.STANDARD,
+  pointsTable: {}, // 0 points per task — Spria is a streak-reset master
   tasks: spriaTasks,
   wikiUrl: 'https://oldschool.runescape.wiki/w/Spria',
 });

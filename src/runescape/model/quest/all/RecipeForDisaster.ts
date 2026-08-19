@@ -2,8 +2,8 @@ import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const RecipeForDisaster: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Break the magical freeze on the Lumbridge Cook and his banquet guests by gathering a series of exotic ingredients.',
   difficulty: QuestDifficulty.Master,
   id: 85,
   length: QuestLength.VeryLong,
@@ -28,11 +28,11 @@ const RecipeForDisaster: Quest = {
     new QuestRequirement('Temple of Ikov'),
     new QuestRequirement('The Tourist Trap'),
     new QuestRequirement('Troll Romance'),
-    new QuestRequirement('Desert Treasure'),
+    new QuestRequirement('Desert Treasure I'),
     new QuestRequirement('Horror from the Deep'),
     new QuestRequirement("Witch's House"),
     new QuestRequirement('Lost City'),
-    new QuestRequirement('Monkey Madness'),
+    new QuestRequirement('Monkey Madness I'),
     new QuestRequirement('Shilo Village'),
     new QuestRequirement('Underground Pass'),
     new QuestRequirement('Waterfall Quest'),
@@ -49,7 +49,7 @@ const RecipeForDisaster: Quest = {
   },
   series: null,
   shortName: 'recipeForDisaster',
-  startLocation: '',
+  startLocation: "Lumbridge Castle, cook's kitchen",
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Recipe_for_Disaster',

@@ -2,7 +2,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const DeathOnTheIsle: Quest = {
   age: 'Fifth Age',
-  description: 'Face death on an isle.',
+  description: 'Investigate a mysterious string of deaths occurring on a remote island and uncover the killer\'s identity.',
+  
   difficulty: QuestDifficulty.Intermediate,
   id: 1038,
   length: QuestLength.Medium,
@@ -15,11 +16,11 @@ const DeathOnTheIsle: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] },
-  series: 'None',
-  shortName: 'Death on the Isle',
+  series: null,
+  shortName: 'deathOnTheIsle',
   startLocation: 'Isle',
   status: QuestStatus.NotStarted,
-  steps: ['Face death'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Death_on_the_Isle',
 };
 export default DeathOnTheIsle;

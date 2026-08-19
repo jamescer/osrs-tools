@@ -4,6 +4,7 @@
  */
 
 import { Requirement } from '../../Requirement';
+import type { Task } from './Task';
 
 /**
  * Slayer task locations (from OSRS Wiki)
@@ -130,7 +131,9 @@ export interface SlayerMasterConfig {
   /** URL of the master's portrait image, sourced from the OSRS Wiki. */
   imageUrl?: string;
   minimumCombatLevel: number;
-  tasks: any[]; // Task[]
+  /** Minimum base Slayer level required to use this master (e.g. Duradel requires 50). */
+  minimumSlayerLevel?: number;
+  tasks: Task[];
   pointsTable: Record<number, number>;
   eliteDiaryTaskPoints?: Record<number, number>;
 }
@@ -138,15 +141,23 @@ export interface SlayerMasterConfig {
 /**
  * Slayer points table (standard progression)
  * Reference: https://oldschool.runescape.wiki/w/Slayer_point
+ *
+ * @deprecated POINTS_TABLE.STANDARD is no longer used internally. Each master now carries its
+ * own per-master pointsTable following the universal 5×/15×/25×/35×/50× milestone pattern.
+ * This export is kept for backwards compatibility only; do not rely on it for new code.
+ *
+ * The values below reflect Mazchna's base-2 table (the lowest non-zero point master):
+ *   every task: 2, every 10th: 10, every 50th: 30, every 100th: 50,
+ *   every 250th: 70, every 1000th: 100.
  */
 export const POINTS_TABLE = {
   STANDARD: {
     1: 2,
-    10: 5,
+    10: 10,
+    50: 30,
     100: 50,
-    1000: 100,
     250: 70,
-    50: 15,
+    1000: 100,
   } as Record<number, number>,
 };
 
@@ -164,26 +175,3 @@ export const TASK_DEFAULTS = {
   CAVE_BUGS: { slayerExp: 0, weight: 8 },
   // Add more as needed - these are extracted from existing task data
 } as Record<string, { slayerExp: number; weight: number }>;
-
-/**
- * Slayer unlock costs (in points)
- * Reference: https://oldschool.runescape.wiki/w/Slayer#Rewards
- */
-export const SLAYER_UNLOCK_COSTS = {
-  ABYSSAL_SIRE: 3_000_000,
-  BIGGER_AND_BADDER: 150,
-  DESERT_TREASURE_REQUIRED: 'Desert Treasure',
-  HARD_FILTERS: 100,
-  SPELLCASTER_KILL_75PER: 300,
-  // Add more unlock costs
-} as Record<string, number | string>;
-
-/**
- * Slayer extend costs and descriptions
- * Reference: https://oldschool.runescape.wiki/w/Slayer#Rewards
- */
-export const SLAYER_EXTEND_COSTS = {
-  ANKOU_VERY_MUCH: { cost: 100, description: 'Ankous: 91-149' },
-  FIRE_AND_DARKNESS: { cost: 50, description: 'Black dragons: 40-60' },
-  NEED_MORE_DARKNESS: { cost: 100, description: 'Dark beasts: 100-149' },
-} as Record<string, { cost: number; description: string }>;

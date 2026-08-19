@@ -7,13 +7,13 @@ const Regicide: Quest = {
   age: 'Fifth Age',
   description:
     'Assassinate a tyrant king threatening the elf kingdom. A dangerous mission requiring cunning and combat prowess.',
-  difficulty: QuestDifficulty.Master,
+  difficulty: QuestDifficulty.Experienced,
   id: 87,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
   name: 'Regicide',
-  questPoints: 1,
+  questPoints: 3,
   recommendations: [
     { name: 'Combat equipment', note: 'Melee focused', type: 'item' },
     { name: 'Food', note: 'High healing for boss fight', type: 'item' },
@@ -21,15 +21,19 @@ const Regicide: Quest = {
   ],
   recommendedPrayers: [],
   recommendedSkills: { Agility: 56, Combat: 60 },
-  requirements: [new QuestRequirement('Underground Pass'), new LevelRequirement('Agility', 56, false)],
+  requirements: [
+    new QuestRequirement('Underground Pass'),
+    new LevelRequirement(Skill.Crafting, 10, false),
+    new LevelRequirement(Skill.Agility, 56, true),
+  ],
   rewards: {
     areas: ['Zanaris crown room access'],
-    experience: [{ amount: 10000, skill: Skill.Strength }],
+    experience: [{ amount: 13750, skill: Skill.Agility }],
     items: [],
     lamps: [],
     pets: [],
     points: [],
-    questPoints: 1,
+    questPoints: 3,
     unlocks: [
       {
         description: 'Access to the Throne Room',
@@ -44,15 +48,7 @@ const Regicide: Quest = {
 
   startLocation: 'Zanaris palace, elf kingdom',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to Zanaris.',
-    'Meet with elf conspirators planning to overthrow the king.',
-    'Gather intelligence about the king defenses.',
-    'Collect items needed for the assassination plan.',
-    'Navigate through palace guards and traps.',
-    'Confront the king.',
-    'Complete the mission and return.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Regicide',
 };
 

@@ -2,7 +2,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const TheHeartOfDarkness: Quest = {
   age: 'Fifth Age',
-  description: 'Face the heart of darkness.',
+  description: 'Venture into the corrupted heart of a dark power at sea and confront the evil lurking within its depths.',
   difficulty: QuestDifficulty.Experienced,
   id: 1030,
   length: QuestLength.Medium,
@@ -15,11 +15,11 @@ const TheHeartOfDarkness: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] },
-  series: 'Twilight Emissaries, #3',
-  shortName: 'The Heart of Darkness',
+  series: 'Twilight Emissaries',
+  shortName: 'theHeartOfDarkness',
   startLocation: 'Darkness',
   status: QuestStatus.NotStarted,
-  steps: ['Face darkness'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Heart_of_Darkness',
 };
 export default TheHeartOfDarkness;

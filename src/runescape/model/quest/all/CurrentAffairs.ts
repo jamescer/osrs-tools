@@ -5,38 +5,10 @@ import { Quest, QuestStatus } from '../Quest';
 
 /**
  * Reference: https://oldschool.runescape.wiki/w/Current_Affairs
- *
-Start point	Map icon Start the Quest by speaking to Arhein on the Catherby docks. Show on map
-Official difficulty	Novice
-Official length	Short
-Description	Help Arhein get past some political red tape and unlock the current duck, a useful Sailing tool.
-Requirements
-a_squeezer
-
-Sailing 22 Sailing  [not boostable] [required to start]
-Fishing 10 Fishing  [unknown] [required to start]
-Completion of Pandemonium
-Items required
-Charcoal (obtainable during quest)
-50 Coins
-[uncheck all]
-Recommended
-Highly recommended: A boat docked at the Catherby docks - you will be required to sail nearby at the end of the quest
-[uncheck all]
-Enemies to defeat	None
-Rewards
-1 Quest points Quest point
-Sailing 1,400 Sailing experience
-Fishing 1,000 Fishing experience
-Access to Sea charting/Current
-The current duck
-The mayor of Catherby
-25 sawmill coupon (oak plank)
-
  */
 
 const CurrentAffairs: Quest = {
-  age: '',
+  age: 'Fifth Age',
   description: 'Help Arhein get past some political red tape and unlock the current duck, a useful Sailing tool.',
   difficulty: QuestDifficulty.Novice,
   id: 21,

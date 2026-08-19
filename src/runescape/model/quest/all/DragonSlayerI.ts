@@ -1,9 +1,10 @@
+import { Skill } from '../../account/Skill';
 import { CombatLevelRequirement, LevelRequirement, QuestPointRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const DragonSlayer: Quest = {
-  age: '',
+  age: 'Fifth Age',
   description:
     'Prove yourself a true champion. Kill the mighty dragon Elvarg of Crandor and earn the right to buy and wear the Rune platebody.',
   difficulty: QuestDifficulty.Experienced,
@@ -100,21 +101,21 @@ const DragonSlayer: Quest = {
   requirements: [
     new QuestPointRequirement(32),
     new CombatLevelRequirement(45),
-    new LevelRequirement('Magic', 33, true),
-    new LevelRequirement('Crafting', 8, false),
-    new LevelRequirement('Prayer', 37, false),
-    new LevelRequirement('Smithing', 34, false),
+    new LevelRequirement(Skill.Magic, 33, true),
+    new LevelRequirement(Skill.Crafting, 8, false),
+    new LevelRequirement(Skill.Prayer, 37, false),
+    new LevelRequirement(Skill.Smithing, 34, false),
   ],
   rewards: {
     areas: ['Crandor', 'Corsair Cove Resource Area'],
     experience: [
       {
         amount: 18650,
-        skill: 'Strength',
+        skill: Skill.Strength,
       },
       {
         amount: 18650,
-        skill: 'Defence',
+        skill: Skill.Defence,
       },
     ],
     items: [],
@@ -143,25 +144,12 @@ const DragonSlayer: Quest = {
       },
     ],
   },
-  series: 'Guild',
+  series: 'Dragonkin',
   shortName: 'dragonSlayer',
 
   startLocation: "Champions' Guild, south of Varrock",
   status: QuestStatus.NotStarted,
-  steps: [
-    "Speak to the Guildmaster in the Champions' Guild.",
-    'Talk to Oziach in Edgeville.',
-    'Return to the Guildmaster and ask about all map pieces, shield, and boat.',
-    'Get an anti-dragon shield from Duke Horacio in Lumbridge Castle.',
-    "Get Melzar's map piece from Melzar's Maze.",
-    "Get Thalzar's map piece by visiting the Oracle and using items on the magic door.",
-    "Get Lozar's map piece from Wormbrain in Port Sarim jail.",
-    'Buy the Lady Lumbridge ship from Klarense for 2,000 coins.',
-    'Repair the ship using planks, nails, and a hammer.',
-    'Get Ned from Draynor Village to captain the ship.',
-    'Navigate to Crandor and fight Elvarg.',
-    'Return to Oziach to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer_I',
 };
 

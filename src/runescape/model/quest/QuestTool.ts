@@ -1,7 +1,18 @@
 import { OsrsAccount } from '../account/OsrsAccount';
-import { LevelRequirement, QuestRequirement, RequirementType } from '../Requirement';
+import { type EligibilityResult, evaluateRequirements } from '../eligibility/RequirementEvaluator';
+import {
+  CombatLevelRequirement,
+  LevelRequirement,
+  QuestPointRequirement,
+  QuestRequirement,
+  Requirement,
+  RequirementType,
+  SlayerLevelRequirement,
+} from '../Requirement';
+import { getMaxSkillBoost } from '../skills/SkillBoosts';
 // Import all quests for registry
 import AKingdomDivided from './all/AKingdomDivided';
+import AlfredGrimhandsBarcrawl from './all/AlfredGrimhandsBarcrawl';
 import ANightAtTheTheatre from './all/ANightAtTheTheatre';
 import AnimalMagnetism from './all/AnimalMagnetism';
 import AnotherSliceOfHAM from './all/AnotherSliceOfHAM';
@@ -11,6 +22,8 @@ import ATailOfTwoCats from './all/ATailOfTwoCats';
 import ATasteOfHope from './all/ATasteOfHope';
 import AtFirstLight from './all/AtFirstLight';
 import ATheatreOfBlood from './all/ATheatreOfBlood';
+import BarbarianTraining from './all/BarbarianTraining';
+import BearYourSoul from './all/BearYourSoul';
 import BelowIceMountain from './all/BelowIceMountain';
 import BeneathCursedSands from './all/BeneathCursedSands';
 import BetweenARock from './all/BetweenARock';
@@ -27,6 +40,8 @@ import Contact from './all/Contact';
 import CooksAssistant from './all/CooksAssistant';
 import CreatureOfFenkenstrain from './all/CreatureOfFenkenstrain';
 import CurrentAffairs from './all/CurrentAffairs';
+import CurseOfTheEmptyLord from './all/CurseOfTheEmptyLord';
+import DaddysHome from './all/DaddysHome';
 import DarknessOfHallowvale from './all/DarknessOfHallowvale';
 import DeathOnTheIsle from './all/DeathOnTheIsle';
 import DeathPlateau from './all/DeathPlateau';
@@ -34,11 +49,9 @@ import DeathToTheDorgeshuun from './all/DeathToTheDorgeshuun';
 import DefenderOfVarrock from './all/DefenderOfVarrock';
 import DemonSlayer from './all/DemonSlayer';
 import DesertTreasure from './all/DesertTreasure';
-import DesertTreasureI from './all/DesertTreasureI';
 import DesertTreasureIITheFallenEmpire from './all/DesertTreasureIITheFallenEmpire';
 import DeviousMinds from './all/DeviousMinds';
 import DoricQuest from './all/DoricQuest';
-import DoricsQuest from './all/DoricsQuest';
 import DragonSlayerI from './all/DragonSlayerI';
 import DragonSlayerII from './all/DragonSlayerII';
 import DreamMentor from './all/DreamMentor';
@@ -50,11 +63,13 @@ import ElementalWorkshopI from './all/ElementalWorkshopI';
 import ElementalWorkshopII from './all/ElementalWorkshopII';
 import EnakhrasLament from './all/EnakhrasLament';
 import EnlightenedJourney from './all/EnlightenedJourney';
+import EnterTheAbyss from './all/EnterTheAbyss';
 import ErnestTheChicken from './all/ErnestTheChicken';
 import EthicallyAcquiredAntiquities from './all/EthicallyAcquiredAntiquities';
 import FairytaleIGrowingPains from './all/FairytaleIGrowingPains';
 import FairytaleIICureAQueen from './all/FairytaleIICureAQueen';
 import FamilyCrest from './all/FamilyCrest';
+import FamilyPest from './all/FamilyPest';
 import FightArena from './all/FightArena';
 import FishingContest from './all/FishingContest';
 import ForgettableTale from './all/ForgettableTale';
@@ -67,26 +82,32 @@ import GrimTales from './all/GrimTales';
 import HauntedMine from './all/HauntedMine';
 import HazeelCult from './all/HazeelCult';
 import HeroesQuest from './all/HeroesQuest';
+import HisFaithfulServants from './all/HisFaithfulServants';
 import HolyGrail from './all/HolyGrail';
+import HopespearsWill from './all/HopespearsWill';
 import HorrorFromTheDeep from './all/HorrorFromTheDeep';
 import IcthlarinsLittleHelper from './all/IcthlarinsLittleHelper';
 import ImpCatcher from './all/ImpCatcher';
 import InAidOfTheMyreque from './all/InAidOfTheMyreque';
+import InSearchOfKnowledge from './all/InSearchOfKnowledge';
 import InSearchOfTheMyreque from './all/InSearchOfTheMyreque';
+import IntoTheTombs from './all/IntoTheTombs';
 import JunglePotion from './all/JunglePotion';
 import KingsRansom from './all/KingsRansom';
+import LairOfTarnRazorlor from './all/LairOfTarnRazorlor';
 import LandOfTheGoblins from './all/LandOfTheGoblins';
 import LearningTheRopes from './all/LearningTheRopes';
 import LegendsQuest from './all/LegendsQuest';
 import LostCity from './all/LostCity';
 import LunarDiplomacy from './all/LunarDiplomacy';
+import MageArenaI from './all/MageArenaI';
+import MageArenaII from './all/MageArenaII';
 import MakingFriendsWithMyArm from './all/MakingFriendsWithMyArm';
 import MakingHistory from './all/MakingHistory';
 import MeatAndGreet from './all/MeatAndGreet';
 import MerlinsCrystal from './all/MerlinsCrystal';
 import MisthalinMystery from './all/MisthalinMystery';
 import MonkeyMadness from './all/MonkeyMadness';
-import MonkeyMadnessI from './all/MonkeyMadnessI';
 import MonkeyMadnessII from './all/MonkeyMadnessII';
 import MonksFriend from './all/MonksFriend';
 import MountainDaughter from './all/MountainDaughter';
@@ -106,7 +127,6 @@ import PriestInPeril from './all/PriestInPeril';
 import PrinceAliRescue from './all/PrinceAliRescue';
 import PryingTimes from './all/PryingTimes';
 import RagAndBoneMan from './all/RagAndBoneMan';
-import RagAndBoneManI from './all/RagAndBoneManI';
 import RagAndBoneManII from './all/RagAndBoneManII';
 import Ratcatchers from './all/Ratcatchers';
 import RecipeForDisaster from './all/RecipeForDisaster';
@@ -129,21 +149,20 @@ import SheepShearer from './all/SheepShearer';
 import ShieldOfArrav from './all/ShieldOfArrav';
 import ShiloVillage from './all/ShiloVillage';
 import SinsOfTheFather from './all/SinsOfTheFather';
+import SkippyAndTheMogres from './all/SkippyAndTheMogres';
 import SleepingGiants from './all/SleepingGiants';
-import SlugMenace from './all/SlugMenace';
 import SongOfTheElves from './all/SongOfTheElves';
 import SpiritsOfTheElid from './all/SpiritsOfTheElid';
 import SwanSong from './all/SwanSong';
 import TaiBwoWannaiTrio from './all/TaiBwoWannaiTrio';
-import TaleOfTheRighteous from './all/TaleOfTheRighteous';
 import TearsOfGuthix from './all/TearsOfGuthix';
-import TempleOfIkov from './all/TempleOfIkov';
 import TempleOfTheEye from './all/TempleOfTheEye';
 import TheAscentOfArceuus from './all/TheAscentOfArceuus';
 import TheCorsairCurse from './all/TheCorsairCurse';
 import TheCurseOfArrav from './all/TheCurseOfArrav';
 import TheDepthsOfDespair from './all/TheDepthsOfDespair';
 import TheDigSite from './all/TheDigSite';
+import TheEnchantedKey from './all/TheEnchantedKey';
 import TheEyesOfGlouphrie from './all/TheEyesOfGlouphrie';
 import TheFeud from './all/TheFeud';
 import TheFinalDawn from './all/TheFinalDawn';
@@ -151,7 +170,9 @@ import TheForsakenTower from './all/TheForsakenTower';
 import TheFremennikExiles from './all/TheFremennikExiles';
 import TheFremennikIsles from './all/TheFremennikIsles';
 import TheFremennikTrials from './all/TheFremennikTrials';
+import TheFrozenDoor from './all/TheFrozenDoor';
 import TheGardenOfDeath from './all/TheGardenOfDeath';
+import TheGeneralsShadow from './all/TheGeneralsShadow';
 import TheGiantDwarf from './all/TheGiantDwarf';
 import TheGolem from './all/TheGolem';
 import TheGrandTree from './all/TheGrandTree';
@@ -163,6 +184,7 @@ import TheKnightsSword from './all/TheKnightsSword';
 import TheLostTribe from './all/TheLostTribe';
 import ThePathOfGlouphrie from './all/ThePathOfGlouphrie';
 import TheQueenOfThieves from './all/TheQueenOfThieves';
+import TheRedReef from './all/TheRedReef';
 import TheRestlessGhost from './all/TheRestlessGhost';
 import TheRibbitingTaleOfALilyPadLabourDispute from './all/TheRibbitingTaleOfALilyPadLabourDispute';
 import TheSlugMenace from './all/TheSlugMenace';
@@ -178,6 +200,7 @@ import TrollStronghold from './all/TrollStronghold';
 import TroubledTortugans from './all/TroubledTortugans';
 import TwilightsPromise from './all/TwilightsPromise';
 import UndergroundPass from './all/UndergroundPass';
+import ValeTotems from './all/ValeTotems';
 import VampyreSlayer from './all/VampyreSlayer';
 import Wanted from './all/Wanted';
 import Watchtower from './all/Watchtower';
@@ -186,9 +209,9 @@ import WhatLiesBelow from './all/WhatLiesBelow';
 import WhileGuthixSleeps from './all/WhileGuthixSleeps';
 import WitchesPotion from './all/WitchesPotion';
 import WitchsHouse from './all/WitchsHouse';
-import WitchsPotion from './all/WitchsPotion';
 import XMarksTheSpot from './all/XMarksTheSpot';
 import ZogreFleshEaters from './all/ZogreFleshEaters';
+import { MiniQuestList } from './MiniQuestList';
 import { Quest } from './Quest';
 import { QuestList } from './QuestList';
 /**
@@ -259,250 +282,262 @@ class QuestTool {
         } else if (skill.level < levelReq.level) {
           return false;
         }
+      } else if (req.type === RequirementType.CombatLevel) {
+        // Check combat level requirement (never boostable for quest access)
+        const combatReq = req as CombatLevelRequirement;
+        if (this.osrsAccount.combatLevel < combatReq.level) {
+          return false;
+        }
+      } else if (req.type === RequirementType.QuestPoint) {
+        // Check quest point total requirement
+        const qpReq = req as QuestPointRequirement;
+        if (this.osrsAccount.questPoints < qpReq.amount) {
+          return false;
+        }
+      } else if (req.type === RequirementType.SlayerLevel) {
+        // Check Slayer level requirement
+        const slayerReq = req as SlayerLevelRequirement;
+        const slayerSkill = this.osrsAccount.getSkill('Slayer');
+        if (!slayerSkill || slayerSkill.level < slayerReq.level) {
+          return false;
+        }
       }
+      // Item, Location, and SlayerUnlock requirements cannot be verified from
+      // hiscores data alone; we conservatively skip them (assume met).
     }
     return true;
   }
 
   public static getAllQuests(): Quest[] {
-    return QuestList.map(name => QuestTool.getQuestByName(name)).filter(q => q !== undefined) as Quest[];
+    return QuestList.map(name => QuestTool.getQuestByName(name)).filter((q): q is Quest => q !== undefined);
   }
 
   public static getAllMiniQuests(): Quest[] {
-    return QuestList.map(name => QuestTool.getQuestByName(name)).filter(q => q !== undefined && q.miniquest) as Quest[];
+    return MiniQuestList.map(name => QuestTool.getQuestByName(name)).filter((q): q is Quest => q !== undefined);
   }
 
   /**
-   * Build the quest registry mapping canonical names to quest objects.
-   * Uses QuestList as the source of truth for quest names.
+   * All quest objects available in this library.
+   * Adding a new quest file only requires: importing it above and appending it here.
+   */
+  private static readonly QUEST_OBJECTS: Quest[] = [
+    AKingdomDivided,
+    ANightAtTheTheatre,
+    APorcineOfInterest,
+    ASoulsBane,
+    ATailOfTwoCats,
+    ATasteOfHope,
+    ATheatreOfBlood,
+    AnimalMagnetism,
+    AnotherSliceOfHAM,
+    AtFirstLight,
+    BelowIceMountain,
+    BeneathCursedSands,
+    BetweenARock,
+    BigChompyBirdHunting,
+    Biohazard,
+    BlackKnightsFortress,
+    BoneVoyage,
+    CabinFever,
+    ChildrenOfTheSun,
+    ClientOfKourend,
+    ClockTower,
+    ColdWar,
+    Contact,
+    CooksAssistant,
+    CreatureOfFenkenstrain,
+    CurrentAffairs,
+    DarknessOfHallowvale,
+    DeathOnTheIsle,
+    DeathPlateau,
+    DeathToTheDorgeshuun,
+    DefenderOfVarrock,
+    DemonSlayer,
+    DesertTreasure,
+    DesertTreasureIITheFallenEmpire,
+    DeviousMinds,
+    DoricQuest,
+    DragonSlayerI,
+    DragonSlayerII,
+    DreamMentor,
+    DruidicRitual,
+    DwarfCannon,
+    EadgarsRuse,
+    EaglesPeak,
+    ElementalWorkshopI,
+    ElementalWorkshopII,
+    EnakhrasLament,
+    EnlightenedJourney,
+    ErnestTheChicken,
+    EthicallyAcquiredAntiquities,
+    FairytaleIGrowingPains,
+    FairytaleIICureAQueen,
+    FamilyCrest,
+    FightArena,
+    FishingContest,
+    ForgettableTale,
+    GardenOfTranquillity,
+    GertrudesCat,
+    GettingAhead,
+    GhostsAhoy,
+    GoblinDiplomacy,
+    GrimTales,
+    HauntedMine,
+    HazeelCult,
+    HeroesQuest,
+    HolyGrail,
+    HorrorFromTheDeep,
+    IcthlarinsLittleHelper,
+    ImpCatcher,
+    InAidOfTheMyreque,
+    InSearchOfTheMyreque,
+    JunglePotion,
+    KingsRansom,
+    LandOfTheGoblins,
+    LearningTheRopes,
+    LegendsQuest,
+    LostCity,
+    LunarDiplomacy,
+    MakingFriendsWithMyArm,
+    MakingHistory,
+    MeatAndGreet,
+    MerlinsCrystal,
+    MisthalinMystery,
+    MonkeyMadness,
+    MonkeyMadnessII,
+    MonksFriend,
+    MountainDaughter,
+    MourningsEndPartI,
+    MourningsEndPartII,
+    MurderMystery,
+    MyArmsBigAdventure,
+    NatureSpirit,
+    ObservatoryQuest,
+    OlafsQuest,
+    OneSmallFavour,
+    Pandemonium,
+    PerilousMoons,
+    PiratesTreasure,
+    PlagueCity,
+    PriestInPeril,
+    PrinceAliRescue,
+    PryingTimes,
+    RagAndBoneMan,
+    RagAndBoneManII,
+    Ratcatchers,
+    RecipeForDisaster,
+    RecruitmentDrive,
+    Regicide,
+    RomeoAndJuliet,
+    RovingElves,
+    RoyalTrouble,
+    RumDeal,
+    RuneMysteries,
+    ScorpionCatcher,
+    Scrambled,
+    SeaSlug,
+    SecretsOfTheNorth,
+    ShadesOfMortton,
+    ShadowOfTheStorm,
+    ShadowsOfCustodia,
+    SheepHerder,
+    SheepShearer,
+    ShieldOfArrav,
+    ShiloVillage,
+    SinsOfTheFather,
+    SleepingGiants,
+    SongOfTheElves,
+    SpiritsOfTheElid,
+    SwanSong,
+    TaiBwoWannaiTrio,
+    TearsOfGuthix,
+    TempleOfTheEye,
+    TheAscentOfArceuus,
+    TheCorsairCurse,
+    TheCurseOfArrav,
+    TheDepthsOfDespair,
+    TheDigSite,
+    TheEyesOfGlouphrie,
+    TheFeud,
+    TheFinalDawn,
+    TheForsakenTower,
+    TheFremennikExiles,
+    TheFremennikIsles,
+    TheFremennikTrials,
+    TheGardenOfDeath,
+    TheGiantDwarf,
+    TheGolem,
+    TheGrandTree,
+    TheGreatBrainRobbery,
+    TheHandInTheSand,
+    TheHeartOfDarkness,
+    TheIdesOfMilk,
+    TheKnightsSword,
+    TheLostTribe,
+    ThePathOfGlouphrie,
+    TheQueenOfThieves,
+    TheRedReef,
+    TheRestlessGhost,
+    TheRibbitingTaleOfALilyPadLabourDispute,
+    TheSlugMenace,
+    TheTaleOfTheRighteous,
+    TheTempleOfIkov,
+    TheTouristTrap,
+    ThroneOfMiscellania,
+    TowerOfLife,
+    TreeGnomeVillage,
+    TribalTotem,
+    TrollRomance,
+    TrollStronghold,
+    TroubledTortugans,
+    TwilightsPromise,
+    UndergroundPass,
+    VampyreSlayer,
+    Wanted,
+    Watchtower,
+    WaterfallQuest,
+    WhatLiesBelow,
+    WhileGuthixSleeps,
+    WitchesPotion,
+    WitchsHouse,
+    XMarksTheSpot,
+    ZogreFleshEaters,
+    // Miniquests
+    AlfredGrimhandsBarcrawl,
+    BarbarianTraining,
+    BearYourSoul,
+    CurseOfTheEmptyLord,
+    DaddysHome,
+    EnterTheAbyss,
+    FamilyPest,
+    HisFaithfulServants,
+    HopespearsWill,
+    InSearchOfKnowledge,
+    IntoTheTombs,
+    LairOfTarnRazorlor,
+    MageArenaI,
+    MageArenaII,
+    SkippyAndTheMogres,
+    TheEnchantedKey,
+    TheFrozenDoor,
+    TheGeneralsShadow,
+    ValeTotems,
+  ] as Quest[];
+
+  /**
+   * Build the quest registry mapping normalized names to quest objects.
+   * Each quest is registered by its own `name` property, so it is findable
+   * both by exact name and fuzzy match via getQuestByName.
    * @returns Map of normalized quest names to Quest objects
    */
   private static buildQuestRegistry(): Map<string, Quest> {
     const registry = new Map<string, Quest>();
-
-    // All available quests imported above
-    const allQuests: Record<string, unknown> = {
-      AKingdomDivided,
-      ANightAtTheTheatre,
-      APorcineOfInterest,
-      ASoulsBane,
-      ATailOfTwoCats,
-      ATasteOfHope,
-      ATheatreOfBlood,
-      AnimalMagnetism,
-      AnotherSliceOfHAM,
-      AtFirstLight,
-      BelowIceMountain,
-      BeneathCursedSands,
-      BetweenARock,
-      BigChompyBirdHunting,
-      Biohazard,
-      BlackKnightsFortress,
-      BoneVoyage,
-      CabinFever,
-      ChildrenOfTheSun,
-      ClientOfKourend,
-      ClockTower,
-      ColdWar,
-      Contact,
-      CooksAssistant,
-      CreatureOfFenkenstrain,
-      CurrentAffairs,
-      DarknessOfHallowvale,
-      DeathOnTheIsle,
-      DeathPlateau,
-      DeathToTheDorgeshuun,
-      DefenderOfVarrock,
-      DemonSlayer,
-      DesertTreasure,
-      DesertTreasureI,
-      DesertTreasureIITheFallenEmpire,
-      DeviousMinds,
-      DoricQuest,
-      DoricsQuest,
-      DragonSlayerI,
-      DragonSlayerII,
-      DreamMentor,
-      DruidicRitual,
-      DwarfCannon,
-      EadgarsRuse,
-      EaglesPeak,
-      ElementalWorkshopI,
-      ElementalWorkshopII,
-      EnakhrasLament,
-      EnlightenedJourney,
-      ErnestTheChicken,
-      EthicallyAcquiredAntiquities,
-      FairytaleIGrowingPains,
-      FairytaleIICureAQueen,
-      FamilyCrest,
-      FightArena,
-      FishingContest,
-      ForgettableTale,
-      GardenOfTranquillity,
-      GertrudesCat,
-      GettingAhead,
-      GhostsAhoy,
-      GoblinDiplomacy,
-      GrimTales,
-      HauntedMine,
-      HazeelCult,
-      HeroesQuest,
-      HolyGrail,
-      HorrorFromTheDeep,
-      IcthlarinsLittleHelper,
-      ImpCatcher,
-      InAidOfTheMyreque,
-      InSearchOfTheMyreque,
-      JunglePotion,
-      KingsRansom,
-      LandOfTheGoblins,
-      LearningTheRopes,
-      LegendsQuest,
-      LostCity,
-      LunarDiplomacy,
-      MakingFriendsWithMyArm,
-      MakingHistory,
-      MeatAndGreet,
-      MerlinsCrystal,
-      MisthalinMystery,
-      MonkeyMadness,
-      MonkeyMadnessI,
-      MonkeyMadnessII,
-      MonksFriend,
-      MountainDaughter,
-      MourningsEndPartI,
-      MourningsEndPartII,
-      MurderMystery,
-      MyArmsBigAdventure,
-      NatureSpirit,
-      ObservatoryQuest,
-      OlafsQuest,
-      OneSmallFavour,
-      Pandemonium,
-      PerilousMoons,
-      PiratesTreasure,
-      PlagueCity,
-      PriestInPeril,
-      PrinceAliRescue,
-      PryingTimes,
-      RagAndBoneMan,
-      RagAndBoneManI,
-      RagAndBoneManII,
-      Ratcatchers,
-      RecipeForDisaster,
-      RecruitmentDrive,
-      Regicide,
-      RomeoAndJuliet,
-      RovingElves,
-      RoyalTrouble,
-      RumDeal,
-      RuneMysteries,
-      ScorpionCatcher,
-      Scrambled,
-      SeaSlug,
-      SecretsOfTheNorth,
-      ShadesOfMortton,
-      ShadowOfTheStorm,
-      ShadowsOfCustodia,
-      SheepHerder,
-      SheepShearer,
-      ShieldOfArrav,
-      ShiloVillage,
-      SinsOfTheFather,
-      SleepingGiants,
-      SlugMenace,
-      SongOfTheElves,
-      SpiritsOfTheElid,
-      SwanSong,
-      TaiBwoWannaiTrio,
-      TaleOfTheRighteous,
-      TearsOfGuthix,
-      TempleOfIkov,
-      TempleOfTheEye,
-      TheAscentOfArceuus,
-      TheCorsairCurse,
-      TheCurseOfArrav,
-      TheDepthsOfDespair,
-      TheDigSite,
-      TheEyesOfGlouphrie,
-      TheFeud,
-      TheFinalDawn,
-      TheForsakenTower,
-      TheFremennikExiles,
-      TheFremennikIsles,
-      TheFremennikTrials,
-      TheGardenOfDeath,
-      TheGiantDwarf,
-      TheGolem,
-      TheGrandTree,
-      TheGreatBrainRobbery,
-      TheHandInTheSand,
-      TheHeartOfDarkness,
-      TheIdesOfMilk,
-      TheKnightsSword,
-      TheLostTribe,
-      ThePathOfGlouphrie,
-      TheQueenOfThieves,
-      TheRestlessGhost,
-      TheRibbitingTaleOfALilyPadLabourDispute,
-      TheSlugMenace,
-      TheTaleOfTheRighteous,
-      TheTempleOfIkov,
-      TheTouristTrap,
-      ThroneOfMiscellania,
-      TowerOfLife,
-      TreeGnomeVillage,
-      TribalTotem,
-      TrollRomance,
-      TrollStronghold,
-      TroubledTortugans,
-      TwilightsPromise,
-      UndergroundPass,
-      VampyreSlayer,
-      Wanted,
-      Watchtower,
-      WaterfallQuest,
-      WhatLiesBelow,
-      WhileGuthixSleeps,
-      WitchesPotion,
-      WitchsHouse,
-      WitchsPotion,
-      XMarksTheSpot,
-      ZogreFleshEaters,
-    };
-
-    // Map canonical quest names from QuestList to quest objects
-    for (const questName of QuestList) {
-      const quest = QuestTool.findQuestByCanonicalName(questName, allQuests);
-      if (quest) {
-        registry.set(QuestTool.normalizeQuestName(questName), quest);
+    for (const quest of QuestTool.QUEST_OBJECTS) {
+      if (quest?.name) {
+        registry.set(QuestTool.normalizeQuestName(quest.name), quest);
       }
     }
-
     return registry;
-  }
-
-  /**
-   * Find the quest object matching a canonical quest name from QuestList.
-   * Uses the quest's name property to match against the canonical name.
-   * @param canonicalName The canonical name from QuestList
-   * @param questMap Map of available quest objects
-   * @returns The matching Quest object or undefined
-   */
-  private static findQuestByCanonicalName(canonicalName: string, questMap: Record<string, unknown>): Quest | undefined {
-    // Direct match by quest.name property
-    for (const quest of Object.values(questMap)) {
-      if (
-        quest &&
-        typeof quest === 'object' &&
-        'name' in quest &&
-        (quest as Record<string, unknown>)['name'] === canonicalName
-      ) {
-        return quest as Quest;
-      }
-    }
-    return undefined;
   }
 
   /**
@@ -600,79 +635,48 @@ class QuestTool {
    * @returns The maximum boost amount for the skill (positive integer, or 0 if unboostable)
    */
   static getMaxSkillBoost(skillName: string): number {
-    // Data from https://oldschool.runescape.wiki/w/Temporary_skill_boost
-    const boosts: { [key: string]: number } = {
-      // No boost
-      Agility: 5,
+    return getMaxSkillBoost(skillName);
+  }
 
-      Attack: 5,
+  /**
+   * Evaluate whether an account meets a quest's requirements, including *why* it doesn't -
+   * per-requirement detail, plus which checks hiscores can't actually verify (item/location/
+   * Slayer-unlock/quest-point requirements). Recursively evaluates quest-prerequisite
+   * requirements the same way.
+   * @param quest The quest to evaluate
+   * @param account The account to evaluate it against
+   * @param visited (internal) Set of quest names already visited, to prevent infinite recursion
+   */
+  static evaluateEligibility(quest: Quest, account: OsrsAccount, visited: Set<string> = new Set()): EligibilityResult {
+    if (visited.has(quest.name)) {
+      return { advisories: [], checks: [], eligible: true, unmet: [] };
+    }
+    visited.add(quest.name);
 
-      // Spicy stew (orange)
-      Construction: 5,
+    const result = evaluateRequirements((quest.requirements ?? []) as Requirement[], account);
 
-      // Admiral pie
-      Cooking: 5,
+    for (const check of result.checks) {
+      if (check.requirement.type !== RequirementType.Quest) continue;
+      const prereqName = (check.requirement as QuestRequirement).questName;
+      const prereq = QuestTool.getQuestByName(prereqName);
+      check.verifiable = true;
 
-      // Volcanic ash, Summer pie
-      Crafting: 3,
+      if (!prereq) {
+        check.met = false;
+        check.detail = `Could not find quest data for "${prereqName}"`;
+        continue;
+      }
 
-      // Super combat potion, Overload(+)
-      Defence: 5,
+      const nested = QuestTool.evaluateEligibility(prereq, account, visited);
+      check.met = nested.eligible;
+      check.detail = nested.eligible
+        ? `${prereqName}'s requirements are currently met`
+        : `${prereqName}'s requirements aren't met yet (${nested.unmet.length} unmet)`;
+    }
 
-      // Spicy stew (yellow)
-      Farming: 5,
-
-      // Chef's delight(m)
-      Firemaking: 4,
-
-      // Spicy stew (orange)
-      Fishing: 5,
-
-      // Mushroom pie
-      Fletching: 3,
-
-      // Summer pie
-      Herblore: 5,
-
-      // Preserve, Prayer-boosting items
-      Hitpoints: 0,
-
-      // Wild pie
-      Hunter: 5,
-
-      // Super combat potion, Overload(+)
-      Magic: 4,
-
-      // Hunter potion
-      Mining: 3,
-
-      // Ranging potion, Overload(+)
-      Prayer: 2,
-
-      // Overload(+), Imbued heart
-      Ranged: 4,
-
-      // Garden pie
-      Runecraft: 5,
-
-      // Fletching potion
-      Slayer: 2,
-
-      // Dwarven stout(m)
-      Smithing: 4,
-
-      // Super combat potion, Overload(+)
-      Strength: 5,
-
-      // Botanical pie
-      Thieving: 5,
-
-      // Spicy stew (red)
-      Woodcutting: 3, // Spicy stew (orange)
-      // Add more as needed
-    };
-    const normalized = skillName.charAt(0).toUpperCase() + skillName.slice(1).toLowerCase();
-    return boosts[normalized] ?? 0;
+    const unmet = result.checks.filter(c => c.verifiable && !c.met);
+    const advisories = result.checks.filter(c => !c.verifiable);
+    return { advisories, checks: result.checks, eligible: unmet.length === 0, unmet };
   }
 }
 

@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
-const attackRequirement = new LevelRequirement('attack', 20, false);
+const attackRequirement = new LevelRequirement(Skill.Attack, 20, false);
 const HolyGrail: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Aid King Arthur and his knights in the sacred quest for the Holy Grail, guided by visions of Merlin.',
   difficulty: QuestDifficulty.Intermediate,
   id: 56,
   length: QuestLength.Medium,
@@ -19,8 +20,8 @@ const HolyGrail: Quest = {
   rewards: {
     areas: [],
     experience: [
-      { amount: 15300, skill: 'Defence' },
-      { amount: 11000, skill: 'Prayer' },
+      { amount: 15300, skill: Skill.Defence },
+      { amount: 11000, skill: Skill.Prayer },
     ],
     items: [],
     lamps: [],
@@ -29,10 +30,10 @@ const HolyGrail: Quest = {
     questPoints: 3,
     unlocks: [],
   },
-  series: 'Camelot (#2)',
+  series: 'Camelot',
   shortName: 'holyGrail',
 
-  startLocation: '',
+  startLocation: 'King Arthur, Camelot',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Holy_Grail',

@@ -42,8 +42,9 @@ export function validateQuestPoints(points: number): void {
     });
   }
 
-  // Current max quest points in OSRS (as of 2025)
-  const MAX_QUEST_POINTS = 300;
+  // Generous upper bound — update when new quests push the total above this.
+  // Quest catalog totals ~333 QP as of 2026; using 500 to avoid breaking on new releases.
+  const MAX_QUEST_POINTS = 500;
   if (points > MAX_QUEST_POINTS) {
     throw new ValidationError('questPoints', points, `Quest points cannot exceed ${MAX_QUEST_POINTS}`, {
       max: MAX_QUEST_POINTS,
@@ -168,7 +169,7 @@ export function validateAccountName(name: string): void {
     });
   }
 
-  const validNameRegex = /^[a-zA-Z0-9 -_]+$/;
+  const validNameRegex = /^[a-zA-Z0-9 _-]+$/;
   if (!validNameRegex.test(name)) {
     throw new ValidationError('name', name, 'Account name contains invalid characters', {
       pattern: validNameRegex.toString(),

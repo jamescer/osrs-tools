@@ -25,18 +25,12 @@ const CooksAssistant: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: 'None',
-  shortName: "Cook's Assistant",
+  series: null,
+  shortName: 'cooksAssistant',
 
   startLocation: 'Lumbridge Castle kitchen',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Speak to the Cook in Lumbridge Castle kitchen.',
-    'Collect a bucket of milk from a dairy cow north of Lumbridge.',
-    'Collect a pot of flour from the mill north of Lumbridge.',
-    'Collect an egg from the chicken pen at Lumbridge Farms.',
-    'Return all three ingredients to the Cook in Lumbridge Castle kitchen.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Cook%27s_Assistant',
 };
 

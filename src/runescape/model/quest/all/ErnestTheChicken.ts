@@ -25,11 +25,11 @@ const ErnestTheChicken: Quest = {
     questPoints: 4,
     unlocks: [],
   },
-  series: 'None',
-  shortName: 'Ernest the Chicken',
+  series: null,
+  shortName: 'ernestTheChicken',
   startLocation: 'Poultry Farm',
   status: QuestStatus.NotStarted,
-  steps: ['Talk to Farmer Fred', 'Find Ernest the chicken', 'Return Ernest to Farmer Fred'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Ernest_the_Chicken',
 };
 

@@ -19,6 +19,8 @@ export interface MortimerSlayerMasterConfig extends SlayerMasterConfig {
   baseTaskChoiceCount?: number;
   /** Number of task choices offered once the "Third Task Choice" Mortifier is unlocked. */
   extendedTaskChoiceCount?: number;
+  /** Number of Slayer tasks already completed with Mortimer (default 0). Drives which Mortifiers are unlocked. */
+  completedTasks?: number;
 }
 
 /**
@@ -41,6 +43,8 @@ class MortimerSlayerMaster extends SlayerMaster {
   blockSlotCost: number;
   baseTaskChoiceCount: number;
   extendedTaskChoiceCount: number;
+  /** Number of Slayer tasks completed with Mortimer so far. Mutable - drives which Mortifiers are unlocked. */
+  completedTasks: number;
 
   constructor(config: MortimerSlayerMasterConfig) {
     super(config);
@@ -49,6 +53,33 @@ class MortimerSlayerMaster extends SlayerMaster {
     this.blockSlotCost = config.blockSlotCost ?? 120;
     this.baseTaskChoiceCount = config.baseTaskChoiceCount ?? 2;
     this.extendedTaskChoiceCount = config.extendedTaskChoiceCount ?? 3;
+    this.completedTasks = Math.max(0, config.completedTasks ?? 0);
+  }
+
+  /**
+   * Get the number of tasks completed with Mortimer so far.
+   */
+  getCompletedTasks(): number {
+    return this.completedTasks;
+  }
+
+  /**
+   * Set the number of tasks completed with Mortimer, e.g. to simulate a player at a given
+   * point in their Mortimer progression. Clamped to a minimum of 0.
+   * @param {number} count - The new completed task count.
+   */
+  setCompletedTasks(count: number): void {
+    this.completedTasks = Math.max(0, count);
+  }
+
+  /**
+   * Increment the number of tasks completed with Mortimer, e.g. after simulating a completed task.
+   * @param {number} [amount] - Amount to increment by (default 1).
+   * @returns {number} The new completed task count.
+   */
+  incrementCompletedTasks(amount: number = 1): number {
+    this.completedTasks = Math.max(0, this.completedTasks + amount);
+    return this.completedTasks;
   }
 
   /**
@@ -78,20 +109,19 @@ class MortimerSlayerMaster extends SlayerMaster {
   }
 
   /**
-   * Get the Mortifiers currently unlocked for a player, based on tasks completed with Mortimer.
+   * Get the Mortifiers currently unlocked, based on the number of tasks completed with
+   * Mortimer so far (see {@link completedTasks}, {@link setCompletedTasks}).
    */
-  getAvailableMortifiers(completedTasks: number): Mortifier[] {
-    return getAvailableMortifiers(completedTasks);
+  getAvailableMortifiers(): Mortifier[] {
+    return getAvailableMortifiers(this.completedTasks);
   }
 
   /**
    * Number of task choices offered on a given visit: 2 by default, 3 once the
    * "Third Task Choice" Mortifier is unlocked at 50 completed tasks.
    */
-  getTaskChoiceCount(completedTasks: number): number {
-    const thirdChoiceUnlocked = this.getAvailableMortifiers(completedTasks).some(
-      mortifier => mortifier.name === 'Third Task Choice',
-    );
+  getTaskChoiceCount(): number {
+    const thirdChoiceUnlocked = this.getAvailableMortifiers().some(mortifier => mortifier.name === 'Third Task Choice');
     return thirdChoiceUnlocked ? this.extendedTaskChoiceCount : this.baseTaskChoiceCount;
   }
 
@@ -99,14 +129,13 @@ class MortimerSlayerMaster extends SlayerMaster {
    * Get a set of distinct, weighted-random task choices for a Mortimer visit.
    * The number of choices scales with completedTasks (see getTaskChoiceCount()).
    * Mortimer never offers the same task twice in a single set of choices.
-   * @param {number} [completedTasks] - Number of tasks completed with Mortimer so far.
    * @param {SlayerAssignmentContext} [context] - The requesting player's Slayer level, completed
    *  quests, and unlocked rewards; tasks the player doesn't qualify for are excluded (see
    *  {@link SlayerMaster.getAvailableTasks}).
    * @returns {Task[]} The offered tasks. May be shorter than requested if there aren't enough distinct eligible tasks.
    */
-  getTaskChoices(completedTasks: number = 0, context?: SlayerAssignmentContext): Task[] {
-    const choiceCount = this.getTaskChoiceCount(completedTasks);
+  getTaskChoices(context?: SlayerAssignmentContext): Task[] {
+    const choiceCount = this.getTaskChoiceCount();
     const remainingTasks = this.getAvailableTasks(context).slice();
     const choices: Task[] = [];
 

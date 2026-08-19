@@ -1,9 +1,5 @@
 import { describe, expect, it } from '@jest/globals';
-import {
-  QuestRequirement,
-  SlayerLevelRequirement,
-  SlayerUnlockRequirement,
-} from 'src/runescape/model/Requirement';
+import { QuestRequirement, SlayerLevelRequirement, SlayerUnlockRequirement } from 'src/runescape/model/Requirement';
 import { SlayerMaster } from 'src/runescape/model/slayer/core/SlayerMaster';
 import { Task } from 'src/runescape/model/slayer/core/Task';
 
@@ -85,7 +81,7 @@ describe('SlayerMaster - task weighting eligibility', () => {
     expect(master.getAvailableTasks({ slayerLevel: 1 }).map(t => t.getName())).toEqual(['Zombies']);
     expect(
       master
-        .getAvailableTasks({ slayerLevel: 1, completedQuests: ['Haunted Mine'] })
+        .getAvailableTasks({ completedQuests: ['Haunted Mine'], slayerLevel: 1 })
         .map(t => t.getName())
         .sort(),
     ).toEqual(['Terror dogs', 'Zombies']);

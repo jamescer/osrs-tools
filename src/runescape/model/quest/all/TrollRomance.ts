@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TrollRomance: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help Ug the troll find a mate by completing a dangerous task to win the heart of Aga.',
   difficulty: QuestDifficulty.Intermediate,
   id: 127,
   length: QuestLength.Medium,
@@ -15,7 +16,7 @@ const TrollRomance: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [new QuestRequirement('Death Plateau'), new LevelRequirement('Agility', 28, false)],
+  requirements: [new QuestRequirement('Death Plateau'), new LevelRequirement(Skill.Agility, 28, false)],
   rewards: {
     areas: [],
     experience: [],
@@ -29,7 +30,7 @@ const TrollRomance: Quest = {
   series: 'Troll',
   shortName: 'trollRomance',
 
-  startLocation: '',
+  startLocation: 'Ug, Trollheim',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Troll_Romance',

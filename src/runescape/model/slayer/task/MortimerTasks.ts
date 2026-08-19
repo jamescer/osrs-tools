@@ -14,7 +14,7 @@ import { Task } from '../core/Task';
  */
 const mortimerTasks: Task[] = [
   Task.create({
-    name: 'Crawling hands',
+    name: 'Crawling Hands',
     quantity: { max: 50, min: 35 },
     requirements: [new SlayerLevelRequirement(5), new CombatLevelRequirement(20)],
     weight: 10,
@@ -54,7 +54,7 @@ const mortimerTasks: Task[] = [
     weight: 10,
   }),
   Task.create({
-    name: 'Infernal mages',
+    name: 'Infernal Mages',
     quantity: { max: 50, min: 35 },
     requirements: [
       new SlayerLevelRequirement(45),
@@ -65,7 +65,7 @@ const mortimerTasks: Task[] = [
   }),
   Task.create({
     extended: { max: 250, min: 200 },
-    name: 'Bloodvelds',
+    name: 'Bloodveld',
     quantity: { max: 180, min: 120 },
     requirements: [new SlayerLevelRequirement(50), new CombatLevelRequirement(50)],
     weight: 8,
@@ -140,7 +140,7 @@ const mortimerTasks: Task[] = [
     extended: { max: 250, min: 200 },
     name: 'Dust devils',
     quantity: { max: 180, min: 120 },
-    requirements: [new SlayerLevelRequirement(65), new QuestRequirement('Desert Treasure')],
+    requirements: [new SlayerLevelRequirement(65), new QuestRequirement('Desert Treasure I')],
     weight: 8,
   }),
   Task.create({

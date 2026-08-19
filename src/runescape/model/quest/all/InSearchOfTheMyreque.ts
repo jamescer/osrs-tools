@@ -4,8 +4,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const InSearchOfTheMyreque: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Track down the secretive Myreque resistance group hidden in the swamps of Morytania.',
   difficulty: QuestDifficulty.Novice,
   id: 61,
   length: QuestLength.Short,
@@ -16,7 +16,7 @@ const InSearchOfTheMyreque: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [new QuestRequirement('Nature Spirit'), new LevelRequirement('Agility', 25, false)],
+  requirements: [new QuestRequirement('Nature Spirit'), new LevelRequirement(Skill.Agility, 25, false)],
   rewards: {
     areas: [],
     experience: [
@@ -36,7 +36,7 @@ const InSearchOfTheMyreque: Quest = {
   series: 'Myreque',
   shortName: 'inSearchOfTheMyreque',
 
-  startLocation: '',
+  startLocation: 'Stranger, Canifis',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque',

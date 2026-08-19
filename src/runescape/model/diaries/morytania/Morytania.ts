@@ -1,263 +1,354 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { CombatLevelRequirement, LevelRequirement, QuestRequirement } from '../../Requirement';
 import type { Diary } from '../Diary';
 
 const quest = (name: string) => new QuestRequirement(name);
 const skill = (skillName: string, level: number, boostable = true) => new LevelRequirement(skillName, level, boostable);
+const combat = (level: number) => new CombatLevelRequirement(level);
 
 /**
  * Morytania Achievement Diary data, authored directly in TypeScript.
  *
  * Source: https://oldschool.runescape.wiki/w/Morytania_Diary
+ *
+ * Note: Completion of Priest in Peril is required for all tasks (needed to enter Morytania).
  */
 export const MorytaniaDiary: Diary = {
   easy: {
     itemReward: 'Morytania legs 1',
-    itemsRequired: ['Bones', 'Fishing supplies', 'Combat gear'],
-    questsRequired: ['Ghosts Ahoy', 'Cabin Fever'],
     rewards: {
       description: [
         {
           main: 'Morytania legs 1',
-          other: ['10% increased XP from slaying creatures in Morytania'],
+          other: ['Two daily teleports to the Pool of Slime beneath the Ectofuntus'],
         },
         {
-          main: '1 Antique lamp worth 2,500 experience in any skill of at least level 30',
+          main: 'Antique lamp worth 2,500 experience in any skill of at least level 30',
           other: [],
         },
         {
-          main: 'Ability to enter Morytania freely',
+          main: 'Ghasts in Mort Myre Swamp ignore you half of the time',
+          other: [],
+        },
+        {
+          main: '2.5% more Slayer experience in the Slayer Tower while on a Slayer task',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 2500, levelToUse: 30 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 30, skill: 'crafting' },
-      { boostable: true, level: 32, skill: 'fishing' },
-      { boostable: true, level: 1, skill: 'combat' },
-      { boostable: true, level: 45, skill: 'agility' },
-      { boostable: true, level: 1, skill: 'mining' },
-    ],
     tasks: [
       {
-        description: 'Recharge prayer points at the Ectofuntus.',
-        requirements: [quest('Ghosts Ahoy')],
+        description: 'Craft any Snelm from scratch in Morytania.',
+        notes: 'Must be done outside of Mort Myre Swamp. Requires a chisel and any blamish shell.',
+        requirements: [skill('Crafting', 15)],
       },
       {
-        description: 'Travel to Morytania via the boat.',
+        description: 'Cook a thin snail on the Port Phasmatys range.',
+        notes: 'Requires 2 Ecto-tokens to enter Port Phasmatys, or completion of Ghosts Ahoy.',
+        requirements: [skill('Cooking', 12)],
+      },
+      {
+        description: 'Get a Slayer task from the Slayer Master in Canifis.',
+        requirements: [combat(20)],
+      },
+      {
+        description: 'Kill a Banshee in the Slayer Tower.',
+        notes: 'Earmuffs or a Slayer helmet are recommended.',
+        requirements: [skill('Slayer', 15)],
+      },
+      {
+        description: 'Have Sbott in Canifis tan something for you.',
         requirements: [],
       },
       {
-        description: 'Craft bones into bonemeal at the Ectofuntus.',
-        requirements: [skill('crafting', 30)],
+        description: 'Enter Mort Myre Swamp.',
+        requirements: [],
       },
       {
-        description: 'Catch a ghast in Morytania.',
-        requirements: [skill('fishing', 1)],
+        description: 'Kill a Ghoul.',
+        requirements: [],
       },
       {
-        description: "Enter the Slums of Mos Le'Harmless.",
-        requirements: [quest('Cabin Fever'), skill('agility', 40)],
+        description: 'Place a Scarecrow in the Morytania flower patch.',
+        notes: 'Requires a bronze spear, watermelon, and a hay sack.',
+        requirements: [skill('Farming', 23)],
       },
       {
-        description: 'Use a shortcut in Morytania.',
-        requirements: [skill('agility', 15)],
+        description: 'Offer some bonemeal at the Ectofuntus.',
+        requirements: [],
       },
       {
-        description: 'Mine objects in Morytania.',
-        requirements: [skill('mining', 1)],
+        description: 'Kill a Werewolf in its human form using the Wolfbane Dagger.',
+        requirements: [],
       },
       {
-        description: 'Kill a ghoul.',
-        requirements: [skill('combat', 1)],
-      },
-      {
-        description: 'Fish at the Ectofuntus for bones.',
-        requirements: [skill('fishing', 32)],
-      },
-      {
-        description: 'Travel via the Morytania swamp shortcut.',
-        requirements: [skill('agility', 45)],
+        description: 'Restore your prayer points at the Nature Altar.',
+        notes: 'Requires you to have less than full Prayer points. Use fairy ring code BIP.',
+        requirements: [quest('Nature Spirit')],
       },
     ],
   },
   elite: {
     itemReward: 'Morytania legs 4',
-    itemsRequired: ['Endgame supplies', 'Master level crafting materials'],
-    questsRequired: ['Ghosts Ahoy', 'Cabin Fever', "Shades of Mort'ton", 'A Taste of Hope'],
     rewards: {
       description: [
         {
           main: 'Morytania legs 4',
-          other: ['25% increased XP in Morytania and doubled Barrows loot'],
+          other: [
+            'Prevents ghasts from turning your food into rotten food when worn',
+            'Unlimited teleports to the Pool of Slime beneath the Ectofuntus',
+            'Unlimited teleports to Burgh de Rott',
+            'Acts as a ghostspeak amulet when worn',
+          ],
         },
         {
-          main: '1 Antique lamp worth 50,000 experience in any skill of at least level 70',
+          main: 'Antique lamp worth 50,000 experience in any skill of at least level 70',
           other: [],
         },
         {
-          main: 'Unlimited teleports to Morytania',
+          main: 'Robin exchanges 39 bones daily for slime and bonemeal (up from 26)',
+          other: [],
+        },
+        {
+          main: '50% more Firemaking XP when burning shade remains',
+          other: [],
+        },
+        {
+          main: 'Bones buried via the Bonecrusher now grant full Prayer XP',
+          other: [],
+        },
+        {
+          main: 'Access to the disease-free herb patch on Harmony Island',
+          other: [],
+        },
+        {
+          main: '10% more Slayer XP in the Slayer Tower while on a Slayer task',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 95, skill: 'slayer' },
-      { boostable: false, level: 100, skill: 'combat' },
-      { boostable: true, level: 90, skill: 'agility' },
-      { boostable: false, level: 99, skill: 'prayer' },
-      { boostable: false, level: 99, skill: 'farming' },
-      { boostable: false, level: 99, skill: 'crafting' },
-      { boostable: true, level: 95, skill: 'runecraft' },
-    ],
     tasks: [
       {
-        description: 'Defeat the ultimate Morytania boss.',
-        requirements: [skill('slayer', 95), skill('combat', 95)],
+        description: 'Catch a shark in Burgh de Rott with your bare hands.',
+        notes:
+          'Requires Barbarian Fishing access. If boosting with Dragon harpoon special, bank the harpoon before catching the shark.',
+        requirements: [quest('In Aid of the Myreque'), skill('Fishing', 96), skill('Strength', 76)],
       },
       {
-        description: 'Complete elite obstacle course without error.',
-        requirements: [skill('agility', 90)],
+        description: 'Cremate any Shade remains on a Magic or Redwood pyre.',
+        notes: 'Requires magic or redwood pyre logs, any shade remains, and a tinderbox.',
+        requirements: [quest("Shades of Mort'ton"), skill('Firemaking', 80)],
       },
       {
-        description: 'Master all Morytania skills to 99.',
-        requirements: [skill('slayer', 99), skill('prayer', 99), skill('farming', 99)],
+        description: 'Fertilize the Morytania herb patch using Lunar Magic.',
+        notes: 'The herb patch is west of Port Phasmatys. Requires Lunar spellbook selected.',
+        requirements: [quest('Lunar Diplomacy'), skill('Magic', 83)],
       },
       {
-        description: 'Craft a legendary Morytania artifact.',
-        requirements: [skill('crafting', 99), skill('runecraft', 95)],
+        description: 'Craft a Black dragonhide body in Canifis bank.',
+        notes: 'Requires 3 black dragon leather, and a needle and thread.',
+        requirements: [skill('Crafting', 84)],
       },
       {
-        description: 'Claim the Crown of Morytania.',
-        requirements: [quest('A Taste of Hope'), skill('combat', 100)],
+        description: 'Kill an Abyssal demon in the Slayer Tower.',
+        notes: 'Abyssal demons on the top floor do not require a Slayer task to kill.',
+        requirements: [skill('Slayer', 85)],
+      },
+      {
+        description: 'Loot the Barrows chest while wearing any complete Barrows set.',
+        notes:
+          'Includes the weapon that is part of the equipped set. All combat stats required are not boostable (Defence 70, and Attack 70/Strength 70/Ranged 70 depending on set).',
+        requirements: [skill('Defence', 70, false)],
       },
     ],
   },
+
   hard: {
     itemReward: 'Morytania legs 3',
-    itemsRequired: ['High-level slayer supplies', 'Barrows gear'],
-    questsRequired: ['Ghosts Ahoy', 'Cabin Fever', "Shades of Mort'ton", 'A Taste of Hope'],
     rewards: {
       description: [
         {
           main: 'Morytania legs 3',
-          other: ['20% increased XP in Morytania and reduced potion prices'],
+          other: [
+            'Unlimited teleports to Burgh de Rott',
+            'Five daily teleports to the Pool of Slime',
+            'Acts as a ghostspeak amulet when worn',
+          ],
         },
         {
-          main: '1 Antique lamp worth 15,000 experience in any skill of at least level 50',
+          main: 'Bonecrusher (claimable from a ghost disciple wearing a ghostspeak amulet or legs 3+)',
+          other: ['Automatically buries dropped bones, granting half the usual Prayer XP'],
+        },
+        {
+          main: 'Antique lamp worth 15,000 experience in any skill of at least level 50',
           other: [],
         },
         {
-          main: '10 daily teleports to Morytania',
+          main: 'Robin exchanges 26 bones daily for slime and bonemeal (up from 13)',
+          other: [],
+        },
+        {
+          main: 'Double Mort myre fungi when casting Bloom',
+          other: [],
+        },
+        {
+          main: '50% more Prayer XP from burning shade remains',
+          other: [],
+        },
+        {
+          main: '50% more runes from the Barrows chest',
+          other: [],
+        },
+        {
+          main: '7.5% more Slayer XP in the Slayer Tower while on a Slayer task',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 72, skill: 'slayer' },
-      { boostable: true, level: 70, skill: 'agility' },
-      { boostable: true, level: 70, skill: 'combat' },
-      { boostable: true, level: 60, skill: 'smithing' },
-    ],
     tasks: [
       {
-        description: 'Defeat a task-master in the Slayer Tower.',
-        requirements: [skill('slayer', 72)],
+        description: 'Enter the Kharyrll Portal in your POH.',
+        notes:
+          'Costs 100,000 coins. Requires 2 limestone bricks, 3 teak planks, hammer, and saw. Needs 200 law runes and 100 blood runes to charge the portal.',
+        requirements: [quest('Desert Treasure I'), skill('Magic', 66), skill('Construction', 50)],
       },
       {
-        description: 'Complete the hard Morytania obstacle course.',
-        requirements: [skill('agility', 70)],
+        description: 'Climb up the advanced spike chain within the Slayer Tower.',
+        notes: 'Located on the 1st floor near the Infernal Mages. Only a successful climb (no damage) counts.',
+        requirements: [skill('Agility', 71)],
       },
       {
-        description: 'Complete Morytania Barrows.',
-        requirements: [skill('combat', 70)],
+        description: 'Harvest some Watermelon from the Allotment patch on Harmony Island.',
+        requirements: [quest('The Great Brain Robbery'), skill('Farming', 47)],
       },
       {
-        description: "Smith an item at Morytania's forge.",
-        requirements: [skill('smithing', 60)],
+        description: "Chop and burn some Mahogany logs on Mos Le'Harmless.",
+        notes: 'A witchwood icon and light source are recommended.',
+        requirements: [quest('Cabin Fever'), skill('Woodcutting', 50), skill('Firemaking', 50)],
       },
       {
-        description: 'Achieve 99 in a Morytania-related skill.',
-        requirements: [skill('slayer', 99)],
+        description: 'Complete a Temple Trek with a hard companion.',
+        notes: "It's not necessary to complete any events during the trek.",
+        requirements: [quest('In Aid of the Myreque')],
+      },
+      {
+        description: 'Kill a Cave Horror.',
+        notes: 'Requires a witchwood icon and a light source.',
+        requirements: [quest('Cabin Fever'), skill('Slayer', 58)],
+      },
+      {
+        description: 'Harvest some Bittercap mushrooms from the patch in Canifis.',
+        requirements: [skill('Farming', 53)],
+      },
+      {
+        description: 'Pray at the Altar of Nature with Piety activated.',
+        notes: 'Requires completion of the Knight Waves Training Grounds. Use fairy ring code BIP.',
+        requirements: [
+          quest('Nature Spirit'),
+          quest("King's Ransom"),
+          skill('Prayer', 70, false),
+          skill('Defence', 70, false),
+        ],
+      },
+      {
+        description: 'Use the shortcut to get to the bridge over the Salve.',
+        notes: 'Must use the shortcut to go downwards.',
+        requirements: [skill('Agility', 65)],
+      },
+      {
+        description: 'Mine some Mithril ore in the Abandoned Mine.',
+        notes: 'A crystal-mine key is recommended for access to the veins on Level 2.',
+        requirements: [quest('Haunted Mine'), skill('Mining', 55)],
       },
     ],
   },
+
   itemReward: 'Morytania legs',
+
   medium: {
     itemReward: 'Morytania legs 2',
-    itemsRequired: ['Slayer supplies', 'Hunter gear', 'Combat equipment'],
-    questsRequired: ['Ghosts Ahoy', 'Cabin Fever', "Shades of Mort'ton"],
     rewards: {
       description: [
         {
           main: 'Morytania legs 2',
-          other: ['15% increased XP in Morytania and access to prayer restoration altar'],
+          other: [
+            'Five daily teleports to the Pool of Slime beneath the Ectofuntus',
+            'Acts as a ghostspeak amulet when worn',
+          ],
         },
         {
-          main: '1 Antique lamp worth 7,500 experience in any skill of at least level 40',
+          main: 'Antique lamp worth 7,500 experience in any skill of at least level 40',
           other: [],
         },
         {
-          main: 'Teleport to Morytania via legs',
+          main: 'Robin exchanges 13 bones daily for a bucket of slime and a pot of bonemeal each',
+          other: [],
+        },
+        {
+          main: '5% more Slayer experience in the Slayer Tower while on a Slayer task',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 7500, levelToUse: 40 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 35, skill: 'slayer' },
-      { boostable: true, level: 39, skill: 'hunter' },
-      { boostable: true, level: 52, skill: 'agility' },
-      { boostable: true, level: 40, skill: 'combat' },
-      { boostable: true, level: 40, skill: 'prayer' },
-      { boostable: true, level: 14, skill: 'farming' },
-      { boostable: true, level: 50, skill: 'thieving' },
-    ],
     tasks: [
       {
-        description: 'Defeat a banshee in the Slayer Tower.',
-        requirements: [skill('slayer', 15)],
+        description: 'Catch a swamp lizard.',
+        requirements: [skill('Hunter', 29)],
       },
       {
-        description: 'Use the minecart system to travel.',
-        requirements: [quest("Shades of Mort'ton")],
+        description: 'Complete a lap of the Canifis agility course.',
+        requirements: [skill('Agility', 40)],
       },
       {
-        description: 'Catch a pheasant in Morytania.',
-        requirements: [skill('hunter', 5)],
+        description: 'Obtain some Bark from a Hollow tree.',
+        requirements: [skill('Woodcutting', 45)],
       },
       {
-        description: 'Track and hunt something.',
-        requirements: [skill('hunter', 39)],
+        description: 'Travel to Dragontooth Isle.',
+        notes:
+          'Requires a ghostspeak amulet and 25 ecto-tokens. This task is automatically completed during Ghosts Ahoy.',
+        requirements: [quest('Ghosts Ahoy')],
       },
       {
-        description: 'Complete the Morytania obstacle course.',
-        requirements: [skill('agility', 50)],
+        description: 'Kill a Terror Dog.',
+        notes: "Found in Tarn's Lair.",
+        requirements: [quest('Lair of Tarn Razorlor'), skill('Slayer', 40)],
       },
       {
-        description: 'Defeat a powerful monster in Morytania.',
-        requirements: [skill('slayer', 35), skill('combat', 40)],
+        description: 'Complete a game of Trouble Brewing.',
+        notes:
+          'You only have to complete the minigame once; winning is optional. Requires at least one opposing player to start.',
+        requirements: [quest('Cabin Fever'), skill('Cooking', 40)],
       },
       {
-        description: 'Use a passage within Morytania.',
-        requirements: [skill('agility', 52)],
+        description: 'Board the Swamp boat at the Hollows.',
+        requirements: [quest('Nature Spirit')],
       },
       {
-        description: 'Pray at the Ectofuntus for prayer restoration.',
-        requirements: [skill('prayer', 40)],
+        description: 'Make a batch of cannonballs at the Port Phasmatys furnace.',
+        notes: 'Requires a steel bar and ammo mould.',
+        requirements: [quest('Dwarf Cannon'), skill('Smithing', 35)],
       },
       {
-        description: 'Grow a herb in Morytania.',
-        requirements: [skill('farming', 14)],
+        description: 'Kill a Fever Spider on Braindeath Island.',
+        notes: 'This task is automatically completed during Rum Deal.',
+        requirements: [quest('Rum Deal'), skill('Slayer', 42)],
       },
       {
-        description: 'Access a hidden location.',
-        requirements: [skill('thieving', 50)],
+        description: 'Use an Ectophial to return to Port Phasmatys.',
+        requirements: [quest('Ghosts Ahoy')],
+      },
+      {
+        description: 'Mix a Guthix Balance potion while in Morytania.',
+        notes: 'Requires a restore potion, garlic, and silver dust (made by grinding a silver bar at the Ectofuntus).',
+        requirements: [quest('In Aid of the Myreque'), skill('Herblore', 22)],
       },
     ],
   },
+
   name: 'Morytania Diary',
 };
 

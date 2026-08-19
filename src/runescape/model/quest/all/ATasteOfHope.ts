@@ -1,15 +1,17 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ATasteOfHope: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Infiltrate the Theatre of Blood to rescue captured vampyre slaves and undermine the power of Lord Lowerniel Drakan.',
 
-  difficulty: QuestDifficulty.Intermediate,
+  difficulty: QuestDifficulty.Experienced,
 
   id: 6,
 
-  length: QuestLength.Long,
+  length: QuestLength.Medium,
 
   members: true,
 
@@ -17,8 +19,7 @@ const ATasteOfHope: Quest = {
 
   // Assign a unique ID if available
   name: 'A Taste of Hope',
-  // Quests: Darkness of Hallowvale, Skills: Crafting 48, Agility 45, Attack 40, Herblore 40, Slayer 38
-  questPoints: 2,
+  questPoints: 1,
   recommendations: [
     {
       name: 'High combat stats (80+ recommended)',
@@ -40,26 +41,31 @@ const ATasteOfHope: Quest = {
     Ranged: 80,
     Strength: 80,
   },
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Darkness of Hallowvale'),
+    new QuestRequirement('In Aid of the Myreque'),
+    new LevelRequirement(Skill.Slayer, 38, false),
+    new LevelRequirement(Skill.Attack, 40, false),
+    new LevelRequirement(Skill.Herblore, 40, false),
+    new LevelRequirement(Skill.Agility, 45, false),
+    new LevelRequirement(Skill.Crafting, 48, false),
+  ],
   rewards: {
-    areas: ['Darkmeyer'],
-    experience: [
-      { amount: 4000, skill: 'Herblore' },
-      { amount: 2000, skill: 'Attack' },
-      { amount: 2000, skill: 'Strength' },
-      { amount: 2000, skill: 'Defence' },
-      { amount: 2000, skill: 'Hitpoints' },
-    ],
-    items: [{ name: 'Drakan’s medallion' }],
-    lamps: [],
+    areas: [],
+    experience: [],
+    items: [{ name: 'Ivandis flail' }, { name: "Drakan's medallion" }],
+    lamps: [{ amount: 2500, note: 'Tome of experience - grants 2,500 XP in each of any 3 skills (level 35+)', skillRestriction: 'Any skill level 35+' }],
     pets: [],
     points: [],
-    questPoints: 2,
-    unlocks: [{ description: 'Access to Darkmeyer' }, { description: 'Ability to use Drakan’s medallion teleport' }],
+    questPoints: 1,
+    unlocks: [
+      { description: 'Access to Ver Sinhaza (Theatre of Blood area)' },
+      { description: "Drakan's medallion - unlimited teleports to Theatre of Blood, Meiyerditch Laboratories, and Darkmeyer" },
+    ],
   },
   series: 'Myreque',
   shortName: 'aTasteOfHope',
-  startLocation: '',
+  startLocation: 'Garth, Ver Sinhaza, outside the Theatre of Blood',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/A_Taste_of_Hope',

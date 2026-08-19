@@ -29,7 +29,6 @@ export interface ItemJson {
   defenceCrush?: number;
   defenceMagic?: number;
   defenceRanged?: number;
-  strengthBonus?: number;
   rangedStrength?: number;
   magicDamage?: number;
   meleeStrength?: number;
@@ -368,23 +367,6 @@ export class Item {
   }
 
   static fromJson(json: ItemJson): Item {
-    /**
-     *     examine: "",
-    value: 0,
-    highAlch: 0,
-    lowAlch: 0,
-    weight: 0,
-    members: false,
-    tradeable: false,
-    equipable: false,
-    releaseDate: "",
-    destroy: "Drop",
-    questItem: false,
-    stackable: false,
-    noted: false,
-    officialWikiUrl: "",
-     */
-
     return new Item(
       json.id,
       json.name,
@@ -421,7 +403,3 @@ export class Item {
   }
 }
 
-// Item instance with quantity
-export interface ItemInstance extends Item {
-  quantity: number;
-}

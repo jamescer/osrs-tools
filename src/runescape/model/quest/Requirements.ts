@@ -2,34 +2,9 @@
  * Types and interfaces for quest and skill requirements
  */
 
-/**
- * Base type for all requirements in OSRS
- */
-export enum RequirementType {
-  /** Level requirement for a specific skill */
-  Level = 'Level',
-
-  /** Required combat level */
-  CombatLevel = 'CombatLevel',
-
-  /** Required Slayer level */
-  SlayerLevel = 'SlayerLevel',
-
-  /** Quest that must be completed */
-  Quest = 'Quest',
-
-  /** Number of quest points needed */
-  QuestPoint = 'QuestPoint',
-
-  /** Item that must be possessed */
-  Item = 'Item',
-
-  /** Location that must be accessible */
-  Location = 'Location',
-
-  /** Slayer reward that must be unlocked */
-  SlayerUnlock = 'SlayerUnlock',
-}
+// Single source of truth — the class-based module owns the enum.
+import { RequirementType } from '../Requirement';
+export { RequirementType };
 
 /**
  * Base interface for all requirement types

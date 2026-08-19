@@ -1,8 +1,9 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
-import { QuestStatus } from '../Quest';
+import { Quest, QuestStatus } from '../Quest';
 
-const DesertTreasure = {
+const DesertTreasure: Quest = {
   age: 'Fifth Age',
   description: 'Help the archaeologist uncover the secrets of the Ancient Pyramid and unlock Ancient Magicks.',
   difficulty: QuestDifficulty.Master,
@@ -54,14 +55,14 @@ const DesertTreasure = {
   recommendedPrayers: ['Protect from Melee', 'Protect from Missiles'],
   recommendedSkills: { Firemaking: 50, Magic: 50, Slayer: 10, Thieving: 53 },
   requirements: [
-    new LevelRequirement('Magic', 50, false),
-    new LevelRequirement('Thieving', 53, false),
-    new LevelRequirement('Firemaking', 50, false),
-    new LevelRequirement('Slayer', 10, false),
+    new LevelRequirement(Skill.Magic, 50, false),
+    new LevelRequirement(Skill.Thieving, 53, false),
+    new LevelRequirement(Skill.Firemaking, 50, false),
+    new LevelRequirement(Skill.Slayer, 10, false),
   ],
   rewards: {
     areas: ['Ancient Pyramid', 'Smoke Dungeon'],
-    experience: [{ amount: 20006.9, skill: 'Magic' }],
+    experience: [{ amount: 20006.9, skill: Skill.Magic }],
     items: [{ name: 'Ring of visibility' }, { name: 'Ancient staff', note: 'Buyable from Eblis after quest.' }],
     misc: [
       'Switch between standard and Ancient Magicks spellbooks at the altar',
@@ -91,24 +92,13 @@ const DesertTreasure = {
 
   series: 'Mahjarrat',
 
-  shortName: 'DesertTreasure',
+  shortName: 'desertTreasure',
 
   startLocation: 'Bedabin Camp',
 
   status: QuestStatus.NotStarted,
 
-  steps: [
-    'Talk to the archaeologist in the Bedabin Camp.',
-    'Collect the Diamond from the volcano dungeon in the south.',
-    'Collect the Ruby from the Scorpion Pit west of Al Kharid.',
-    'Collect the Sapphire from the Emir at Al Kharid.',
-    'Collect the Emerald from the underground tomb west of Desert Treasure.',
-    'Return to the archaeologist and defeat Dessous.',
-    'Defeat Damis in the dungeon.',
-    'Defeat Fareed in the dungeon.',
-    'Defeat Kamil in the dungeon.',
-    'Return to the archaeologist to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Desert_Treasure_I',
 };
 

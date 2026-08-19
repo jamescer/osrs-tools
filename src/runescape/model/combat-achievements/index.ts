@@ -1,9 +1,5 @@
-export type {
-  CombatAchievementRewardTier,
-  CombatAchievementTask,
-  CombatAchievementTaskType,
-} from './CombatAchievement';
-export { COMBAT_ACHIEVEMENT_TIER_POINTS, CombatAchievementTier } from './CombatAchievement';
+export type { CombatAchievementRewardTier, CombatAchievementTask } from './CombatAchievement';
+export { COMBAT_ACHIEVEMENT_TIER_POINTS, CombatAchievementTaskType, CombatAchievementTier } from './CombatAchievement';
 export type { CombatAchievementProgress, CombatAchievementTierProgress } from './CombatAchievementTool';
 export { CombatAchievementTool } from './CombatAchievementTool';
 export { COMBAT_ACHIEVEMENT_REWARD_TIERS, getRewardTier } from './RewardTiers';

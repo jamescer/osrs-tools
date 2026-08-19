@@ -1,8 +1,10 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const Biohazard: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Follow up on the events of Plague City by smuggling plague samples out of West Ardougne for Elena.',
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -30,10 +32,12 @@ const Biohazard: Quest = {
   ],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Plague City"),
+  ],
   rewards: {
     areas: ['East Ardougne'],
-    experience: [{ amount: 1250, skill: 'Thieving' }],
+    experience: [{ amount: 1250, skill: Skill.Thieving }],
     items: [{ name: 'Access to East Ardougne' }],
     lamps: [],
     pets: [],
@@ -43,7 +47,7 @@ const Biohazard: Quest = {
   },
   series: 'Elf',
   shortName: 'biohazard',
-  startLocation: '',
+  startLocation: "Elena's house, East Ardougne",
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Biohazard',

@@ -4,8 +4,9 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const HeroesQuest: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Prove your worth to join the Heroes Guild by completing dangerous challenges that test your skills and courage.',
+  
   difficulty: QuestDifficulty.Intermediate,
   id: 55,
   length: QuestLength.MediumLong,
@@ -20,7 +21,7 @@ const HeroesQuest: Quest = {
     new QuestRequirement('Shield of Arrav'),
     new QuestRequirement('Lost City'),
     new QuestRequirement("Merlin's Crystal"),
-    new QuestRequirement('Dragon Slayer'),
+    new QuestRequirement('Dragon Slayer I'),
     new QuestRequirement('Druidic Ritual'),
     new QuestPointRequirement(55),
   ],
@@ -47,10 +48,10 @@ const HeroesQuest: Quest = {
     questPoints: 3,
     unlocks: [],
   },
-  series: 'Guild',
+  series: null,
   shortName: 'heroesQuest',
 
-  startLocation: '',
+  startLocation: "Achietties, Heroes' Guild entrance",
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Heroes%27_Quest',

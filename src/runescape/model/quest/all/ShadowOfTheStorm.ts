@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ShadowOfTheStorm: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Confront the demonic Agrith-Naar summoned by the Dark Mage and prevent chaos from consuming the Kharid desert.',
   difficulty: QuestDifficulty.Novice,
   id: 95,
   length: QuestLength.Medium,
@@ -18,7 +19,7 @@ const ShadowOfTheStorm: Quest = {
   requirements: [
     new QuestRequirement('The Golem'),
     new QuestRequirement('Demon Slayer'),
-    new LevelRequirement('Crafting', 30, false),
+    new LevelRequirement(Skill.Crafting, 30, false),
   ],
   rewards: {
     areas: [],
@@ -33,7 +34,7 @@ const ShadowOfTheStorm: Quest = {
   series: null,
   shortName: 'shadowOfTheStorm',
 
-  startLocation: '',
+  startLocation: 'Father Reen, south of Al Kharid',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Shadow_of_the_Storm',

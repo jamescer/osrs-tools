@@ -1,4 +1,3 @@
-import { LeagueRegion } from '../../leagues';
 import { RumourLocation } from './RumourLocation';
 import { HunterRumourDefinition, HunterRumourTier } from './types';
 

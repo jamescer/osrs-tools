@@ -1,7 +1,8 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
-import { QuestStatus } from '../Quest';
+import { Quest, QuestStatus } from '../Quest';
 
-const DoricQuest = {
+const DoricQuest: Quest = {
   age: 'Fifth Age',
   description: 'Help Doric the dwarf by gathering materials so he can make pickaxes, and earn access to his anvils.',
 
@@ -35,7 +36,7 @@ const DoricQuest = {
 
   rewards: {
     areas: [],
-    experience: [{ amount: 1300, skill: 'Mining' }],
+    experience: [{ amount: 1300, skill: Skill.Mining }],
     items: [{ name: 'Bronze pickaxe' }, { name: '180 coins' }],
     misc: ['Required for Devious Minds, Falador Diary (Easy)'],
     questPoints: 1,
@@ -49,20 +50,13 @@ const DoricQuest = {
 
   series: null,
 
-  shortName: 'DoricQuest',
+  shortName: 'doricQuest',
 
   startLocation: "Doric's hut north of Falador",
 
   status: QuestStatus.NotStarted,
 
-  steps: [
-    'Talk to Doric in his hut north of Falador.',
-    'Collect 6 clay and bring it back to Doric.',
-    'Collect 4 copper ore and bring it back to Doric.',
-    'Collect 2 iron ore and bring it back to Doric.',
-    'Collect one more ore and bring it to Doric (or obtain one from him).',
-    'Talk to Doric to complete the quest.',
-  ],
+  steps: [],
 
   url: 'https://oldschool.runescape.wiki/w/Doric%27s_Quest',
 };

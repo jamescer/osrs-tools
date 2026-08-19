@@ -6,8 +6,9 @@ import { Quest, QuestStatus } from '../Quest';
  * @see https://oldschool.runescape.wiki/w/Witch%27s_House for quest details and requirements
  */
 const WitchsHouse: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Recover a boy\'s ball from a dangerous witch\'s house by navigating her deadly garden of magically transformed creatures.',
+  
   difficulty: QuestDifficulty.Intermediate,
   id: 137,
   length: QuestLength.Medium,
@@ -31,7 +32,7 @@ const WitchsHouse: Quest = {
   },
   series: null,
   shortName: 'witchsHouse',
-  startLocation: '',
+  startLocation: 'Boy, Taverley',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Witch%27s_House',

@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TaiBwoWannaiTrio: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Reunite three brothers in the Tai Bwo Wannai jungle by completing a series of tasks for each of them.',
   difficulty: QuestDifficulty.Novice,
   id: 103,
   length: QuestLength.Long,
@@ -17,9 +18,9 @@ const TaiBwoWannaiTrio: Quest = {
   recommendedSkills: {},
   requirements: [
     new QuestRequirement('Jungle Potion'),
-    new LevelRequirement('Cooking', 30, false),
-    new LevelRequirement('Fishing', 15, false),
-    new LevelRequirement('Agility', 15, false),
+    new LevelRequirement(Skill.Cooking, 30, false),
+    new LevelRequirement(Skill.Fishing, 15, false),
+    new LevelRequirement(Skill.Agility, 15, false),
   ],
   rewards: {
     areas: [],
@@ -31,10 +32,10 @@ const TaiBwoWannaiTrio: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: 'Karamja',
+  series: null,
   shortName: 'taiBwoWannaiTrio',
 
-  startLocation: '',
+  startLocation: 'Timfraku, Tai Bwo Wannai',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio',

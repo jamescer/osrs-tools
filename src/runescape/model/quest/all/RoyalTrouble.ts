@@ -1,9 +1,10 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const RoyalTrouble: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Investigate a threat to the kingdoms of Miscellania and Etceteria, and reunite the two squabbling rulers.',
   difficulty: QuestDifficulty.Intermediate,
   id: 89,
   length: QuestLength.Medium,
@@ -16,8 +17,8 @@ const RoyalTrouble: Quest = {
   recommendedSkills: {},
   requirements: [
     new QuestRequirement('Throne of Miscellania'),
-    new LevelRequirement('Agility', 40, false),
-    new LevelRequirement('Slayer', 40, true),
+    new LevelRequirement(Skill.Agility, 40, false),
+    new LevelRequirement(Skill.Slayer, 40, true),
   ],
   rewards: {
     areas: [],
@@ -29,10 +30,10 @@ const RoyalTrouble: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: null,
+  series: 'Miscellania',
   shortName: 'royalTrouble',
 
-  startLocation: '',
+  startLocation: 'King Vargas, Miscellania',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Royal_Trouble',

@@ -1,8 +1,9 @@
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const BoneVoyage: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the Varrock Museum archaeologists set up a dig site on Fossil Island by chartering a boat and arranging supplies.',
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -27,7 +28,9 @@ const BoneVoyage: Quest = {
   ],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('The Dig Site'),
+  ],
   rewards: {
     areas: ['Fossil Island'],
     experience: [],
@@ -40,7 +43,7 @@ const BoneVoyage: Quest = {
   },
   series: null,
   shortName: 'boneVoyage',
-  startLocation: '',
+  startLocation: 'Curator Haig Halen, Varrock Museum',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Bone_Voyage',

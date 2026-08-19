@@ -12,7 +12,7 @@ const TheGreatBrainRobbery: Quest = {
   age: 'Fifth Age',
   description:
     "Travel to the island of Mos Le'Harmless and uncover a mad scientist plot involving mind control and theft of consciousness. Stop the nefarious experiments.",
-  difficulty: QuestDifficulty.Intermediate,
+  difficulty: QuestDifficulty.Experienced,
   id: 114,
   length: QuestLength.Medium,
   members: true,
@@ -29,18 +29,18 @@ const TheGreatBrainRobbery: Quest = {
     Combat: 50,
   },
   requirements: [
+    new QuestRequirement('Creature of Fenkenstrain'),
     new QuestRequirement('Cabin Fever'),
-    new LevelRequirement('Crafting', 16, false),
-    new LevelRequirement('Construction', 30, false),
-    new LevelRequirement('Prayer', 50, false),
-    new LevelRequirement('Slayer', 30, false),
+    new LevelRequirement(Skill.Crafting, 16, false),
+    new LevelRequirement(Skill.Construction, 30, false),
+    new LevelRequirement(Skill.Prayer, 50, false),
   ],
   rewards: {
     areas: ["Mos Le'Harmless"],
     experience: [
-      { amount: 2000, skill: Skill.Prayer },
-      { amount: 1000, skill: Skill.Crafting },
-      { amount: 1000, skill: Skill.Construction },
+      { amount: 6000, skill: Skill.Prayer },
+      { amount: 3000, skill: Skill.Crafting },
+      { amount: 2000, skill: Skill.Construction },
     ],
     items: [],
     lamps: [],
@@ -57,17 +57,9 @@ const TheGreatBrainRobbery: Quest = {
   series: 'Pirate',
   shortName: 'theGreatBrainRobbery',
 
-  startLocation: "Mos Le'Harmless pirate settlement, accessible via boat from Port Sarim",
+  startLocation: "Brother Tranquility, Mos Le'Harmless",
   status: QuestStatus.NotStarted,
-  steps: [
-    "Travel to Mos Le'Harmless island by boat and speak to the quest giver",
-    'Investigate the mysterious laboratory and speak to enslaved workers',
-    'Discover the mad scientist plan involving brain extraction and control',
-    'Collect or craft items necessary to infiltrate the experiment chambers',
-    'Navigate through the laboratory avoiding or defeating hostile creatures',
-    'Disrupt the mind-control apparatus and free the affected victims',
-    'Confront the scientist and complete the destruction of their operation',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery',
 };
 

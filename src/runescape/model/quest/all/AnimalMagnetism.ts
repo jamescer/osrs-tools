@@ -37,11 +37,11 @@ const AnimalMagnetism: Quest = {
     new QuestRequirement('The Restless Ghost'),
     new QuestRequirement('Ernest the Chicken'),
     new QuestRequirement('Priest in Peril'),
-    new LevelRequirement('Slayer', 18, false),
-    new LevelRequirement('Crafting', 19, false),
-    new LevelRequirement('Ranged', 30, false),
-    new LevelRequirement('Woodcutting', 35, false),
-    new LevelRequirement('Prayer', 31, false),
+    new LevelRequirement(Skill.Slayer, 18, false),
+    new LevelRequirement(Skill.Crafting, 19, false),
+    new LevelRequirement(Skill.Ranged, 30, false),
+    new LevelRequirement(Skill.Woodcutting, 35, false),
+    new LevelRequirement(Skill.Prayer, 31, false),
   ],
   rewards: {
     areas: [],
@@ -63,15 +63,7 @@ const AnimalMagnetism: Quest = {
 
   startLocation: "Port Phasmatys, Barrows area, Ava's workshop",
   status: QuestStatus.NotStarted,
-  steps: [
-    'Talk to Ava in her workshop near Port Phasmatys, who is experimenting with magnetism',
-    'Collect various bones and skulls from undead creatures across Gielinor (Ghosts, Skeletons, Zombies)',
-    'Return collected bones to Ava to enchant them with magical magnetism',
-    'Travel to multiple locations to retrieve specific bones and skulls Ava specifies',
-    'Investigate a portal or magical force controlling the undead',
-    'Complete a ritual to release the undead from the sinister magnetism',
-    'Return to Ava to complete the quest and receive your reward',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Animal_Magnetism',
 };
 

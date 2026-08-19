@@ -23,6 +23,8 @@
 
 // Core API exports - Most frequently used
 export * from './runescape/model/account/OsrsAccount';
+export { Skill, SKILL_METADATA } from './runescape/model/account/Skill';
+export type { SkillMetadata } from './runescape/model/account/Skill';
 export * from './runescape/model/clue/ClueScrollHelper';
 export * from './runescape/model/combat-achievements';
 export * from './runescape/model/diaries';
@@ -35,6 +37,7 @@ export * from './runescape/model/items';
 export * from './runescape/model/leagues';
 
 // Slayer system
+export type { SlayerAssignmentContext } from './runescape/model/slayer';
 export {
   Assignment,
   Chaeldar,
@@ -72,6 +75,9 @@ export * from './runescape/model/guilds';
 
 // Skills system
 export * from './runescape/model/skills';
+
+// Requirement eligibility evaluation
+export * from './runescape/model/eligibility';
 
 // Core requirement types
 export * from './runescape/errors';

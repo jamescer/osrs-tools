@@ -1,8 +1,10 @@
+import { LevelRequirement , QuestPointRequirement} from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const EnlightenedJourney: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Learn the art of balloon travel from Auguste in Entrana and set up balloon routes across Gielinor.',
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -21,7 +23,12 @@ const EnlightenedJourney: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestPointRequirement(20),
+    new LevelRequirement(Skill.Farming, 30, false),
+    new LevelRequirement(Skill.Firemaking, 20, false),
+    new LevelRequirement(Skill.Crafting, 36, false),
+  ],
   rewards: {
     areas: [],
     experience: [],
@@ -35,7 +42,7 @@ const EnlightenedJourney: Quest = {
   series: null,
   shortName: 'enlightenedJourney',
 
-  startLocation: '',
+  startLocation: 'Auguste, Entrana',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Enlightened_Journey',

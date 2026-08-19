@@ -2,7 +2,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const TheRestlessGhost: Quest = {
   age: 'Fifth Age',
-  description: 'Help a restless ghost find peace.',
+  description: 'Help a restless ghost in Lumbridge\'s graveyard find peace by recovering its skull from a dark sorcerer\'s altar.',
+  
   difficulty: QuestDifficulty.Novice,
   id: 1017,
   length: QuestLength.Short,
@@ -15,11 +16,11 @@ const TheRestlessGhost: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'None',
-  shortName: 'The Restless Ghost',
+  series: null,
+  shortName: 'theRestlessGhost',
   startLocation: 'Lumbridge Church',
   status: QuestStatus.NotStarted,
-  steps: ['Help ghost'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Restless_Ghost',
 };
 export default TheRestlessGhost;

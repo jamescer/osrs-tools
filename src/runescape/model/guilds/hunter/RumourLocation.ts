@@ -46,7 +46,10 @@ export const WATERBIRTH_ISLAND: RumourLocation = {
   name: 'Waterbirth Island',
   wikiUrl: 'https://oldschool.runescape.wiki/w/Waterbirth_Island',
 };
-export const CATHERBY: RumourLocation = { name: 'Catherby', wikiUrl: 'https://oldschool.runescape.w/wiki/Catherby' };
+export const CATHERBY: RumourLocation = {
+  name: 'Catherby',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Catherby',
+};
 export const MISCELLANIA: RumourLocation = {
   name: 'Miscellania',
   wikiUrl: 'https://oldschool.runescape.wiki/w/Miscellania',
@@ -71,7 +74,10 @@ export const MONS_GRATIA: RumourLocation = {
   name: 'Mons Gratia',
   wikiUrl: 'https://oldschool.runescape.wiki/w/Mons_Gratia',
 };
-export const NEYPOTZLI: RumourLocation = { name: 'Neypotzli', wikiUrl: 'https://oldschool.runescape.wiki/w/Neypotzli' };
+export const NEYPOTZLI: RumourLocation = {
+  name: 'Neypotzli',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Neypotzli',
+};
 export const THE_BURROW: RumourLocation = {
   name: 'The Burrow',
   wikiUrl: 'https://oldschool.runescape.wiki/w/The_Burrow',
@@ -82,79 +88,82 @@ export const CANIFIS_HUNTER_AREA: RumourLocation = {
 };
 export const NORTH_WEST_OF_SLEPE: RumourLocation = {
   name: 'North-west of Slepe',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Swamp_lizard',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Slepe',
 };
-export const WEISS: RumourLocation = { name: 'Weiss', wikiUrl: 'https://oldschool.runescape.wiki/w/Snowy_knight' };
+export const WEISS: RumourLocation = {
+  name: 'Weiss',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Weiss',
+};
 export const WEST_OF_HUNTER_GUILD: RumourLocation = {
   name: 'West of Hunter Guild',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Embertailed_jerboa',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Hunter_Guild',
 };
 export const NORTH_WEST_OF_THE_LOCUS_OASIS: RumourLocation = {
   name: 'North-west of the Locus Oasis',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Embertailed_jerboa',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Locus_Oasis',
 };
 export const CRYPT_OF_TONALI_HUNTER_AREA: RumourLocation = {
   name: 'Crypt of Tonali hunter area',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Black_warlock',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Crypt_of_Tonali',
 };
 export const SHIMMERING_ATOLL: RumourLocation = {
   name: 'Shimmering Atoll',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Black_warlock',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Shimmering_Atoll',
 };
 export const UZER_HUNTER_AREA: RumourLocation = {
   name: 'Uzer Hunter area',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Orange_salamander',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Uzer',
 };
 export const NECROPOLIS_HUNTER_AREA: RumourLocation = {
   name: 'Necropolis Hunter area',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Orange_salamander',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Necropolis',
 };
 export const KARAMJA_HUNTER_AREA: RumourLocation = {
   name: 'Karamja Hunter area',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Horned_graahk',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Karamja_Hunter_Area',
 };
 export const OURANIA_HUNTER_AREA: RumourLocation = {
   name: 'Ourania Hunter area',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Red_salamander',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Ourania_Hunter_Area',
 };
 export const CHARRED_ISLAND: RumourLocation = {
   name: 'Charred Island',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Red_salamander',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Charred_Island',
 };
 export const CHINCHOMPA_ISLAND: RumourLocation = {
   name: 'Chinchompa Island',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Red_chinchompa',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Chinchompa_Island',
 };
 export const GWENITH_HUNTER_AREA: RumourLocation = {
   name: 'Gwenith Hunter area',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Red_chinchompa',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Gwenith',
 };
 export const RED_CHINCHOMPA_HUNTING_GROUND: RumourLocation = {
   name: 'Red chinchompa hunting ground',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Red_chinchompa',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Red_chinchompa_hunting_ground',
 };
 export const KOUREND_WOODLAND: RumourLocation = {
   name: 'Kourend Woodland',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Grey_chinchompa',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Kourend_Woodland',
 };
 export const ISLE_OF_SOULS: RumourLocation = {
   name: 'Isle of Souls',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Grey_chinchompa',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Isle_of_Souls',
 };
 export const RALOS_RISE: RumourLocation = {
   name: "Ralos' Rise",
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Tecu_salamander',
+  wikiUrl: "https://oldschool.runescape.wiki/w/Ralos%27_Rise",
 };
 export const MUSHROOM_FOREST_ON_FOSSIL_ISLAND: RumourLocation = {
   name: 'Mushroom Forest on Fossil Island',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Herbiboar',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Fossil_Island',
 };
-export const RUINS_OF_TAPOYAUIP: RumourLocation = {
+export const RUINS_OF_TAPOYAUIK: RumourLocation = {
   name: 'Ruins of Tapoyauik',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Moonlight_moth',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Ruins_of_Tapoyauik',
 };
 export const TONALI_CAVERN: RumourLocation = {
   name: 'Tonali Cavern',
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Moonlight_moth',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Tonali_Cavern',
 };
 // Additional locations can be added here as needed, following the same structure.

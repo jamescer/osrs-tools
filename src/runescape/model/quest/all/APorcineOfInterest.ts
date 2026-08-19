@@ -1,8 +1,9 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const APorcineOfInterest: Quest = {
-  age: '',
+  age: 'Fifth Age',
   description:
     "Ah, the Falador Farm - filled with cabbages, cows, and even a sleepy sheepdog. A peaceful place, where you can learn to churn butter, give a dog a bone, or purchase various Farming supplies. What was once a place of happiness, joy and wholesome dairy goods has of late become dominated by a vile presence. Each morning Sarah wakes to find her crops destroyed, her cows cowering, and her loyal sheepdog looking... sheepish. She's had enough, but she thinks she's got the culprit on the trot. Can you help her track down... A Porcine of Interest?",
 
@@ -30,7 +31,7 @@ const APorcineOfInterest: Quest = {
   requirements: [],
   rewards: {
     areas: [],
-    experience: [{ amount: 1000, skill: 'Slayer' }],
+    experience: [{ amount: 1000, skill: Skill.Slayer }],
     items: [],
     lamps: [],
     pets: [],

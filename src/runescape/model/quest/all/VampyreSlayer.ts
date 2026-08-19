@@ -1,8 +1,9 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const VampyreSlayer: Quest = {
-  age: 'First Age',
+  age: 'Fifth Age',
   description: 'Help a citizen by slaying a vampire that has been terrorizing the area.',
   difficulty: QuestDifficulty.Novice,
   id: 131,
@@ -17,7 +18,7 @@ const VampyreSlayer: Quest = {
   requirements: [],
   rewards: {
     areas: [],
-    experience: [{ amount: 4825, skill: 'Attack' }],
+    experience: [{ amount: 4825, skill: Skill.Attack }],
     items: [{ name: 'Stake' }, { name: 'Garlic' }],
     lamps: [],
     pets: [],
@@ -30,14 +31,7 @@ const VampyreSlayer: Quest = {
 
   startLocation: 'St. Bride temple, south of Morytania',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Talk to the temple custodian in the St. Bride temple.',
-    'Accept the task to slay the vampire.',
-    'Venture to the Crypt and locate the vampire.',
-    'Equip a wooden stake.',
-    'Defeat the vampire using the stake and hammer.',
-    'Return to the custodian to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Vampyre_Slayer',
 };
 

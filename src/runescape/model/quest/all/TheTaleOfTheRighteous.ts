@@ -12,14 +12,14 @@ const TheTaleOfTheRighteous: Quest = {
   length: QuestLength.Short,
   members: true,
   miniquest: false,
-  name: 'The Tale of the Righteous',
+  name: 'Tale of the Righteous',
   questPoints: 1,
   recommendations: [{ name: 'Graceful outfit', note: 'Helpful for Agility sections', type: 'item' }],
   recommendedPrayers: [],
   recommendedSkills: {
     Agility: 16,
   },
-  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement('Agility', 16, false)],
+  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement(Skill.Agility, 16, false)],
   rewards: {
     areas: ['Kourend'],
     experience: [
@@ -34,19 +34,11 @@ const TheTaleOfTheRighteous: Quest = {
     unlocks: [{ description: 'Access to restricted area in Kourend' }],
   },
   series: 'Great Kourend',
-  shortName: 'theTaleOfTheRighteous',
+  shortName: 'taleOfTheRighteous',
   startLocation: 'Kourend Castle grounds',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Locate and speak with the storyteller or apparition in Kourend Castle',
-    'Listen to tales of an ancient righteous knight and his companions',
-    'Investigate locations in Kourend connected to the knight story',
-    'Complete virtuous tasks to honor the knight memory (helping NPCs, delivering items)',
-    'Navigate through Kourend districts gathering evidence and items',
-    'Return artifacts or complete pilgrimages to specific holy sites',
-    'Provide final tribute and complete the spiritual narrative',
-  ],
-  url: 'https://oldschool.runescape.wiki/w/The_Tale_of_the_Righteous',
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Tale_of_the_Righteous',
 };
 
 export default TheTaleOfTheRighteous;

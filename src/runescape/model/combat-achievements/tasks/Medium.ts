@@ -1,4 +1,4 @@
-import { CombatAchievementTask, CombatAchievementTier } from '../CombatAchievement';
+import { CombatAchievementTask, CombatAchievementTaskType, CombatAchievementTier } from '../CombatAchievement';
 
 /**
  * Medium-tier Combat Achievement tasks, authored directly in TypeScript.
@@ -13,7 +13,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Barrows Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Dharok, Verac, Torag and Guthan without letting them attack you with melee.',
@@ -22,7 +22,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Can't Touch Me",
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -32,7 +32,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Pray for Success',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill a Brutal Black Dragon.',
@@ -41,7 +41,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Brutal, Big, Black and Firey',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Open Bryophyta's chest 5 times.",
@@ -50,7 +50,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Bryophyta Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Kill all 3 of Bryophyta's growthlings within 3 seconds of the first one dying.",
@@ -59,7 +59,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Quick Cutter',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Skotizo once.',
@@ -68,7 +68,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Skotizo Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Skotizo with no altars active.',
@@ -77,7 +77,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Demonic Weakening',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Skotizo with a demonbane weapon equipped.',
@@ -86,7 +86,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Demonbane Weaponry',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Chaos Fanatic 10 times.',
@@ -95,7 +95,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chaos Fanatic Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Chaos Fanatic without anyone being hit by his explosion attack.',
@@ -104,7 +104,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Sorry, What Was That?',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Crazy Archaeologist 10 times.',
@@ -113,7 +113,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Crazy Archaeologist Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Crazy Archaeologist with only magical attacks.',
@@ -122,7 +122,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mage of the Ruins',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Crazy Archaeologist without anyone being hit by his "Rain of Knowledge" attack.',
@@ -131,7 +131,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "I'd Rather Not Learn",
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Deranged Archaeologist 25 times.',
@@ -140,7 +140,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Deranged Archaeologist Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Deranged Archaeologist with only magical attacks.',
@@ -149,7 +149,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mage of the Swamp',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Deranged Archaeologist without anyone being hit by his "Learn to Read" attack.',
@@ -158,7 +158,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "I'd Rather Be Illiterate",
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill a Gargoyle.',
@@ -167,7 +167,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A Smashing Time',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Open Obor's chest 5 times.",
@@ -176,7 +176,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Obor Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Obor without being pushed back more than one square by his knockback attack.',
@@ -185,7 +185,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Back to the Wall',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Obor without taking any damage off prayer.',
@@ -194,7 +194,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Squashing the Giant',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the King Black Dragon 25 times.',
@@ -203,7 +203,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'King Black Dragon Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the King Black Dragon with the Protect from Melee prayer activated.',
@@ -212,7 +212,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Claw Clipper',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the King Black Dragon with a stab weapon.',
@@ -221,7 +221,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hide Penetration',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the King Black Dragon with an antifire potion active and an antidragon shield equipped.',
@@ -230,7 +230,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Antifire Protection',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill a Kurask.',
@@ -239,7 +239,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Master of Broad Weaponry',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Giant mole 25 times.',
@@ -248,7 +248,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Giant Mole Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Giant Mole without her damaging anyone.',
@@ -257,7 +257,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Avoiding Those Little Arms',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Dagannoth Prime 10 times.',
@@ -266,7 +266,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dagannoth Prime Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Dagannoth Rex 10 times.',
@@ -275,7 +275,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dagannoth Rex Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Dagannoth Rex whilst he is immobilized.',
@@ -284,7 +284,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A Frozen King',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Sarachnis 25 times.',
@@ -293,7 +293,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Sarachnis Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Sarachnis with a crush weapon.',
@@ -302,7 +302,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Newspaper Enthusiast',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill a Skeletal Wyvern',
@@ -311,7 +311,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A Frozen Foe from the Past',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Dagannoth Supreme 10 times.',
@@ -320,7 +320,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dagannoth Supreme Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Subdue the Wintertodt 10 times.',
@@ -329,7 +329,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Wintertodt Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Subdue the Wintertodt without allowing all 4 braziers to be broken at the same time.',
@@ -338,7 +338,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Can We Fix It?',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Subdue the Wintertodt without any of the Pyromancers falling.',
@@ -347,7 +347,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Leaving No One Behind',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Subdue Tempoross 10 times.',
@@ -356,7 +356,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Tempoross Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Subdue Tempoross alone without getting hit by any fires, torrents or waves.',
@@ -365,7 +365,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Lone Angler',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Deal 100 damage to creatures using undead thralls.',
@@ -374,7 +374,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Sit Back and Relax',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Scurrius 10 times.',
@@ -383,7 +383,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Scurrius Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -393,7 +393,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Scurrius',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Kill 6 Giant Rats within Scurrius' lair in 3 seconds.",
@@ -402,7 +402,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Efficient Pest Control',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Open the Reward Chest after defeating all three Moons.',
@@ -411,7 +411,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Lunar Triplet',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Open the Reward Chest 5 times.',
@@ -420,7 +420,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perilous Novice',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat all three Moons in one run by only attacking with a Dragon Scimitar.',
@@ -429,7 +429,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Back to Our Roots',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat all three Moons in one run in under 8 minutes.',
@@ -438,7 +438,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Moons of Peril Speed-Trialist',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Hueycoatl once.',
@@ -447,7 +447,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hueycoatl Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Hueycoatl using only earth spells.',
@@ -456,7 +456,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "You're a wizard",
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Amoxliatl once.',
@@ -465,7 +465,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Amoxliatl Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Amoxliatl using only glacial temotli as a weapon.',
@@ -474,7 +474,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Temotli Triumph',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Royal Titans 10 times.',
@@ -483,7 +483,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Royal Titan Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Royal Titans 25 times.',
@@ -492,7 +492,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Royal Titan Adept',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -502,7 +502,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'It takes too long',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Shellbane Gryphon 50 times.',
@@ -511,7 +511,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Shellbane Veteran',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Shellbane Gryphon without taking damage.',
@@ -520,7 +520,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Shellbane',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Shellbane Gryphon 10 times within 12:30 minutes of entering the cave.',
@@ -529,7 +529,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Shellbane Speedrunner',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Brutus 10 times.',
@@ -538,7 +538,7 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Brutus Champion',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Brutus whilst neither equipping nor consuming anything.',
@@ -547,6 +547,6 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Beef vs Beef',
     points: 2,
     tier: CombatAchievementTier.Medium,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
 ];

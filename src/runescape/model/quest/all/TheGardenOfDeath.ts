@@ -1,8 +1,10 @@
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
+
 const TheGardenOfDeath: Quest = {
   age: 'Fifth Age',
-  description: 'Explore the Garden of Death.',
+  description: 'Help restore a peculiar garden in Lovakengj by tending to its unusual and dangerous magical flora.',
   difficulty: QuestDifficulty.Intermediate,
   id: 1029,
   length: QuestLength.Short,
@@ -13,13 +15,16 @@ const TheGardenOfDeath: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Client of Kourend'),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
   series: 'Twisted Tales',
-  shortName: 'The Garden of Death',
-  startLocation: 'Location',
+  shortName: 'theGardenOfDeath',
+  startLocation: 'Maledict, Lovakengj',
   status: QuestStatus.NotStarted,
-  steps: ['Explore garden'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Garden_of_Death',
 };
+
 export default TheGardenOfDeath;

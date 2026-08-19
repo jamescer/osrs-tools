@@ -1,8 +1,10 @@
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
+
 const AtFirstLight: Quest = {
   age: 'Fifth Age',
-  description: 'Face challenges at first light.',
+  description: 'Venture to the Mountains of Fire and help the Phoenix Guard investigate a mysterious threat rising in the volcanic peaks of Varlamore.',
   difficulty: QuestDifficulty.Intermediate,
   id: 1035,
   length: QuestLength.Short,
@@ -13,13 +15,16 @@ const AtFirstLight: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Sleeping Giants'),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'None',
-  shortName: 'At First Light',
-  startLocation: 'Location',
+  series: null,
+  shortName: 'atFirstLight',
+  startLocation: 'Aldarin, Varlamore',
   status: QuestStatus.NotStarted,
-  steps: ['Face challenges'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/At_First_Light',
 };
+
 export default AtFirstLight;

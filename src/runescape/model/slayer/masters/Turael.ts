@@ -1,33 +1,26 @@
 /**
  * Turael - Slayer Master
- * Location: Burthope
+ * Location: Burthorpe
  * Combat requirement: 1
  * Wiki: https://oldschool.runescape.wiki/w/Turael
  */
 
 import { SlayerMaster } from '../core/SlayerMaster';
-import { POINTS_TABLE } from '../core/types';
 import { turealTasks } from '../task/TurealTasks';
 import { registerMaster } from './registry';
 
 /**
  * Turael - Beginner Slayer Master
- * The lowest-level slayer master, accessible to any combat level
+ * The lowest-level slayer master, accessible to any combat level.
+ * Turael is a "reset master" — completing a task from him resets the player's
+ * streak to 0 and awards 0 Slayer points, regardless of any diary completion.
  */
 export const Turael = new SlayerMaster({
-  eliteDiaryTaskPoints: {
-    1: 2,
-    10: 5,
-    100: 50,
-    1000: 100,
-    250: 70,
-    50: 15,
-  },
   imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Turael.png',
-  location: 'Burthope',
+  location: 'Burthorpe',
   minimumCombatLevel: 1,
   name: 'Turael',
-  pointsTable: POINTS_TABLE.STANDARD,
+  pointsTable: {}, // 0 points per task — Turael is a streak-reset master
   tasks: turealTasks,
   wikiUrl: 'https://oldschool.runescape.wiki/w/Turael',
 });

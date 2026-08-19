@@ -1,16 +1,17 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const MonkeyMadness: Quest = {
   age: 'Fifth Age',
-  description: 'Escape a quest-time problem on Ape Atoll and find a way home while dealing with mysterious forces.',
+  description: "Help King Narnode Shareen investigate what happened to his 10th Squad, sent to guard the gnomes' shipyard on Ape Atoll.",
   difficulty: QuestDifficulty.Intermediate,
   id: 70,
   length: QuestLength.Long,
   members: true,
   miniquest: false,
-  name: 'Monkey Madness',
+  name: 'Monkey Madness I',
   questPoints: 3,
   recommendations: [],
   recommendedPrayers: [],
@@ -18,42 +19,32 @@ const MonkeyMadness: Quest = {
   requirements: [
     new QuestRequirement('The Grand Tree'),
     new QuestRequirement('Tree Gnome Village'),
-    new LevelRequirement('Attack', 40, false),
-    new LevelRequirement('Defence', 40, false),
-    new LevelRequirement('Strength', 40, false),
   ],
   rewards: {
     areas: [],
-    experience: [{ amount: 10000, skill: 'Strength' }],
+    experience: [
+      { amount: 35000, skill: Skill.Attack },
+      { amount: 35000, skill: Skill.Defence },
+      { amount: 20000, skill: Skill.Strength },
+      { amount: 20000, skill: Skill.Hitpoints },
+    ],
     items: [],
     lamps: [],
     pets: [],
     points: [],
     questPoints: 3,
     unlocks: [
-      {
-        description: 'Access to Ape Atoll',
-        url: 'https://oldschool.runescape.wiki/w/Ape_Atoll',
-      },
-      {
-        description: 'Ability to equip the Monkey Madness staff',
-      },
+      { description: 'Ability to wield the Dragon scimitar (60 Attack required)' },
+      { description: 'Full access to Ape Atoll' },
     ],
   },
   series: 'Gnome',
-  shortName: 'monkeyMadness',
+  shortName: 'monkeyMadnessI',
 
-  startLocation: 'Gnome Stronghold, northeast of Ardougne',
+  startLocation: 'King Narnode Shareen, Grand Tree',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to the Gnome Stronghold and speak to the glider master.',
-    'Board the glider to Ape Atoll.',
-    'Discover that the jungle is inhabited by monkey people.',
-    'Gather items and navigate through the island.',
-    'Find a way to escape the curse affecting the monkeys.',
-    'Return to the glider and complete the journey home.',
-  ],
-  url: 'https://oldschool.runescape.wiki/w/Monkey_Madness',
+  steps: [],
+  url: 'https://oldschool.runescape.wiki/w/Monkey_Madness_I',
 };
 
 export default MonkeyMadness;

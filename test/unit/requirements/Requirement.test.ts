@@ -48,8 +48,11 @@ describe('Requirement - Quest, item, and level requirements', () => {
       expect(req.questName).toBe("Cook's Assistant");
     });
 
-    it('should throw for fromQuestName placeholder implementation', () => {
-      expect(() => QuestRequirement.fromQuestName('Dragon Slayer')).toThrow('Method not implemented.');
+    it('should construct a QuestRequirement from a quest name', () => {
+      const req = QuestRequirement.fromQuestName('Dragon Slayer');
+      expect(req).toBeInstanceOf(QuestRequirement);
+      expect(req.questName).toBe('Dragon Slayer');
+      expect(req.type).toBe(RequirementType.Quest);
     });
   });
 
@@ -58,7 +61,7 @@ describe('Requirement - Quest, item, and level requirements', () => {
       const req = new LevelRequirement(Skill.Attack, 70);
       expect(req.type).toBe(RequirementType.Level);
       expect(req.boostable).toBe(true);
-      expect(req.description).toBe('Level 70');
+      expect(req.description).toBe('Attack level 70 (boostable)');
     });
 
     it('should honor explicit boostable override', () => {

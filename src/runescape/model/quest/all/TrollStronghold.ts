@@ -3,8 +3,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TrollStronghold: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Rescue two captured soldiers held within the Troll Stronghold on Death Plateau.',
   difficulty: QuestDifficulty.Intermediate,
   id: 128,
   length: QuestLength.Medium,
@@ -29,7 +29,7 @@ const TrollStronghold: Quest = {
   series: 'Troll',
   shortName: 'trollStronghold',
 
-  startLocation: '',
+  startLocation: 'Dunstan, Burthorpe',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Troll_Stronghold',

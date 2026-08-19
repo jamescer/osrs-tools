@@ -1,8 +1,9 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TreeGnomeVillage: Quest = {
-  age: 'Third Age',
+  age: 'Fifth Age',
   description: 'Protect the Tree Gnome village by defeating invaders and helping the gnomes prepare their defenses.',
   difficulty: QuestDifficulty.Novice,
   id: 125,
@@ -17,7 +18,7 @@ const TreeGnomeVillage: Quest = {
   requirements: [],
   rewards: {
     areas: [],
-    experience: [{ amount: 2500, skill: 'Attack' }],
+    experience: [{ amount: 11450, skill: Skill.Attack }],
     items: [{ name: 'Gnome scimitar' }],
     lamps: [],
     pets: [],
@@ -35,14 +36,7 @@ const TreeGnomeVillage: Quest = {
 
   startLocation: 'Tree Gnome Village, northwest of Ardougne',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to the Tree Gnome Village.',
-    'Speak to the village commander.',
-    'Help defend the village from an invading force.',
-    'Create traps and assist in combat.',
-    'Defeat the invaders.',
-    'Return to the commander to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Tree_Gnome_Village',
 };
 

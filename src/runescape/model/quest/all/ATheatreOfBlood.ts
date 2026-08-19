@@ -1,8 +1,9 @@
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ATheatreOfBlood: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Assist the vampyres of Darkmeyer in preparing an entertainment venue — the Theatre of Blood — for their elite.',
   difficulty: QuestDifficulty.Master,
   id: 7,
   length: QuestLength.Long,
@@ -38,7 +39,10 @@ const ATheatreOfBlood: Quest = {
     Ranged: 90,
     Strength: 90,
   },
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Priest in Peril'),
+    new QuestRequirement('Sins of the Father'),
+  ],
   rewards: {
     experience: [],
     items: [
@@ -58,7 +62,7 @@ const ATheatreOfBlood: Quest = {
   },
   series: null,
   shortName: 'aTheatreOfBlood',
-  startLocation: '',
+  startLocation: 'Ver Sinhaza',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Theatre_of_Blood',

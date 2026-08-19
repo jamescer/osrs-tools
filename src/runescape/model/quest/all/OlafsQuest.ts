@@ -4,11 +4,11 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const OlafsQuest: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help an old viking named Olaf Hradson complete his father\'s final adventure aboard a beached longship.',
   difficulty: QuestDifficulty.Intermediate,
   id: 77,
-  length: QuestLength.Medium,
+  length: QuestLength.Short,
   members: true,
   miniquest: false,
   name: "Olaf's Quest",
@@ -18,23 +18,23 @@ const OlafsQuest: Quest = {
   recommendedSkills: {},
   requirements: [
     new QuestRequirement('The Fremennik Trials'),
-    new LevelRequirement('Firemaking', 40, false),
-    new LevelRequirement('Woodcutting', 50, false),
+    new LevelRequirement(Skill.Firemaking, 40, true),
+    new LevelRequirement(Skill.Woodcutting, 50, true),
   ],
   rewards: {
     areas: [],
-    experience: [{ amount: 12000, skill: Skill.Woodcutting }],
+    experience: [{ amount: 12000, skill: Skill.Defence }],
     items: [],
     lamps: [],
     pets: [],
     points: [],
     questPoints: 1,
-    unlocks: [],
+    unlocks: [{ description: 'Access to the Brine Rat Cavern' }],
   },
   series: 'Fremennik',
   shortName: 'olafsQuest',
 
-  startLocation: '',
+  startLocation: 'Olaf Hradson, east of Rellekka',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Olaf%27s_Quest',

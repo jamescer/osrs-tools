@@ -1,8 +1,10 @@
+import { LevelRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ColdWar: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the penguins of the Penguin Intelligence Agency foil a secret penguin operation threatening Gielinor.',
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -47,13 +49,20 @@ const ColdWar: Quest = {
     Hunter: 10,
     Thieving: 15,
   },
-  requirements: [],
+  requirements: [
+    new LevelRequirement(Skill.Hunter, 10, false),
+    new LevelRequirement(Skill.Agility, 30, false),
+    new LevelRequirement(Skill.Crafting, 30, false),
+    new LevelRequirement(Skill.Construction, 34, false),
+    new LevelRequirement(Skill.Thieving, 15, false),
+  ],
   rewards: {
     areas: ['Iceberg', 'Penguin agility course'],
     experience: [
-      { amount: 5000, skill: 'Agility' },
-      { amount: 1500, skill: 'Construction' },
-      { amount: 2000, skill: 'Crafting' },
+      { amount: 1000, skill: Skill.Agility },
+      { amount: 5000, skill: Skill.Construction },
+      { amount: 5000, skill: Skill.Crafting },
+      { amount: 5000, skill: Skill.Farming },
     ],
     items: [],
     lamps: [],
@@ -67,7 +76,7 @@ const ColdWar: Quest = {
   },
   series: 'Penguin',
   shortName: 'coldWar',
-  startLocation: '',
+  startLocation: 'Larry, Ardougne Zoo',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Cold_War',

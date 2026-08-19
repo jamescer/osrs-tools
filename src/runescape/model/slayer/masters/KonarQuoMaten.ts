@@ -2,7 +2,7 @@
  * Konar Quo Maten - Slayer Master
  * Location: Mount Karuulm
  * Combat requirement: 75
- * Wiki: https://oldschool.runescape.wiki/w/Konar_Quo_Maten
+ * Wiki: https://oldschool.runescape.wiki/w/Konar_quo_Maten
  */
 
 import { SlayerMaster } from '../core/SlayerMaster';
@@ -18,13 +18,18 @@ import { registerMaster } from './registry';
  * Reference: https://oldschool.runescape.wiki/w/Konar_quo_Maten#Slayer_points
  */
 export const KonarQuoMaten = new SlayerMaster({
+  /**
+   * Completing the Kourend & Kebos Elite Achievement Diary doubles all of Konar's task point
+   * awards. Values here are exactly 2× the regular pointsTable.
+   * Reference: https://oldschool.runescape.wiki/w/Konar_quo_Maten#Slayer_points
+   */
   eliteDiaryTaskPoints: {
-    1: 20,
-    10: 100,
-    100: 500,
-    1000: 1000,
-    250: 700,
-    50: 300,
+    1: 36,
+    10: 180,
+    50: 540,
+    100: 900,
+    250: 1260,
+    1000: 1800,
   },
   imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Konar_quo_Maten.png',
   location: 'Mount Karuulm',
@@ -33,13 +38,13 @@ export const KonarQuoMaten = new SlayerMaster({
   pointsTable: {
     1: 18,
     10: 90,
-    100: 450,
-    1000: 900,
-    250: 630,
     50: 270,
+    100: 450,
+    250: 630,
+    1000: 900,
   },
   tasks: konarTasks,
-  wikiUrl: 'https://oldschool.runescape.wiki/w/Konar_Quo_Maten',
+  wikiUrl: 'https://oldschool.runescape.wiki/w/Konar_quo_Maten',
 });
 
 // Register in the masters registry

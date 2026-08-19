@@ -1,12 +1,7 @@
-import { beforeEach, describe, expect, it } from '@jest/globals';
+import { describe, expect, it } from '@jest/globals';
 import { QuestDifficulty, QuestLength } from 'src/runescape/model/quest/enums';
 import { QuestStatus } from 'src/runescape/model/quest/Quest';
-import {
-  CombatLevelRequirement,
-  ItemRequirement,
-  QuestRequirement,
-  SlayerLevelRequirement,
-} from 'src/runescape/model/Requirement';
+import { CombatLevelRequirement, ItemRequirement, QuestRequirement } from 'src/runescape/model/Requirement';
 
 /**
  * Comprehensive test suite for Quest data structures and properties

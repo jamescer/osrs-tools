@@ -1,4 +1,4 @@
-import { CombatAchievementTask, CombatAchievementTier } from '../CombatAchievement';
+import { CombatAchievementTask, CombatAchievementTaskType, CombatAchievementTier } from '../CombatAchievement';
 
 /**
  * Grandmaster-tier Combat Achievement tasks, authored directly in TypeScript.
@@ -13,7 +13,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Worst Ranged Weapon',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: "Kill Kree'arra 30 times in a private instance without leaving the room.",
@@ -22,7 +22,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Feather Hunter',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description:
@@ -32,7 +32,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Defence Matters',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill General Graardor in a private instance without taking any damage from the boss or bodyguards.',
@@ -41,7 +41,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Keep Away',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill General Graardor 15 times in a private instance without leaving the room.',
@@ -50,7 +50,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Ourg Killer',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill the Grotesque Guardians in less than 1:20 minutes.',
@@ -59,7 +59,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Grotesque Guardians Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Corrupted Gauntlet 50 times.',
@@ -68,7 +68,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Corrupted Gauntlet Grandmaster',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Corrupted Hunllef without making an egniol potion within the Corrupted Gauntlet.',
@@ -77,7 +77,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Egniol Diet II',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Corrupted Hunllef without making more than one attuned weapon.',
@@ -86,7 +86,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Wolf Puncher II',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete a Corrupted Gauntlet in less than 6 minutes and 30 seconds.',
@@ -95,7 +95,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Corrupted Gauntlet Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Gauntlet in less than 4 minutes.',
@@ -104,7 +104,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Gauntlet Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description:
@@ -114,7 +114,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'No Pressure',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Alchemical Hydra in less than 1 minute 20 seconds.',
@@ -123,7 +123,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Alchemical Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Fight Caves without TzTok-Jad being healed by a Yt-HurKot.',
@@ -132,7 +132,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Denying the Healers II',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Fight Caves without losing any prayer points.',
@@ -141,7 +141,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'No Time for a Drink',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete the Fight Caves in less than 26 minutes and 30 seconds.',
@@ -150,7 +150,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fight Caves Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Nightmare solo without the Parasites healing the boss for more than 100 health.',
@@ -159,7 +159,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Terrible Parent',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Nightmare without any player losing any prayer points.',
@@ -168,7 +168,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A Long Trip',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat the Nightmare (Solo) in less than 16 minutes.',
@@ -177,7 +177,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare (Solo) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Defeat the Nightmare (5-scale) in less than 3:30 minutes.',
@@ -186,7 +186,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare (5-Scale) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Commander Zilyana in a private instance without taking any damage from the boss or bodyguards.',
@@ -195,7 +195,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Animal Whisperer',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Commander Zilyana 50 times in a privately rented instance without leaving the room.',
@@ -204,7 +204,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Peach Conjurer',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill Zulrah in less than 54 seconds, without a slayer task.',
@@ -213,7 +213,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Zulrah Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood 150 times.',
@@ -222,7 +222,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre of Blood Grandmaster',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -232,7 +232,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Theatre',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -242,7 +242,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Morytania Only',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete the Theatre of Blood (Duo) in less than 26 minutes.',
@@ -251,7 +251,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre (Duo) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood (Trio) in less than 17 minutes and 30 seconds.',
@@ -260,7 +260,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre (Trio) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood (4-scale) in less than 15 minutes.',
@@ -269,7 +269,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre (4-Scale) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood (5-scale) in less than 14 minutes and 15 seconds.',
@@ -278,7 +278,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre (5-Scale) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Vorkath without losing any prayer points.',
@@ -287,7 +287,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Faithless Encounter',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Vorkath with only your fists.',
@@ -296,7 +296,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Fremennik Way',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Vorkath in less than 54 seconds.',
@@ -305,7 +305,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vorkath Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Chambers of Xeric: Challenge Mode 25 times.',
@@ -314,7 +314,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric: CM Grandmaster',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete a Chambers of Xeric: Challenge Mode (Solo) in less than 38 minutes and 30 seconds.',
@@ -323,7 +323,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric: CM (Solo) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete a Chambers of Xeric: Challenge Mode (5-scale) in less than 25 minutes.',
@@ -332,7 +332,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric: CM (5-Scale) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete a Chambers of Xeric: Challenge Mode (Trio) in less than 27 minutes.',
@@ -341,7 +341,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric: CM (Trio) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Chambers of Xeric 150 times.',
@@ -350,7 +350,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric Grandmaster',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete a Chambers of Xeric (Solo) in less than 17 minutes.',
@@ -359,7 +359,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric (Solo) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete a Chambers of Xeric (5-scale) in less than 12 minutes and 30 seconds.',
@@ -368,7 +368,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric (5-Scale) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete a Chambers of Xeric (Trio) in less than 14 minutes and 30 seconds.',
@@ -377,7 +377,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric (Trio) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Kill K'ril Tsutsaroth in a private instance without ever being hit by his bodyguards.",
@@ -386,7 +386,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Demon Whisperer',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Kill K'ril Tsutsaroth 20 times in a private instance without leaving the room.",
@@ -395,7 +395,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Ash Collector',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Complete the Inferno 5 times.',
@@ -404,7 +404,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Inferno Grandmaster',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Tzkal-Zuk without letting Jal-ImKot dig during any wave in the Inferno.',
@@ -413,7 +413,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Floor Is Lava',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete wave 68 of the Inferno within 30 seconds of the first JalTok-Jad dying.',
@@ -422,7 +422,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Playing with Jads',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Tzkal-Zuk without being attacked by TzKal-Zuk and without taking damage from a JalTok-Jad.',
@@ -431,7 +431,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'No Luck Required',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Tzkal-Zuk without letting your hitpoints fall below 50 during any wave in the Inferno.',
@@ -440,7 +440,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Wasn't Even Close",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Tzkal-Zuk without equipping a Twisted Bow within the Inferno.',
@@ -449,7 +449,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Budget Setup',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Tzkal-Zuk without using any magic spells during any wave in the Inferno.',
@@ -458,7 +458,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nibbler Chaser',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Tzkal-Zuk without equipping any range or mage weapons before wave 69.',
@@ -467,7 +467,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Facing Jad Head-on II',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Tzkal-Zuk without killing the JalTok-Jad which spawns during wave 69.',
@@ -476,7 +476,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Jad? What Are You Doing Here?',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete the Inferno in less than 65 minutes.',
@@ -485,7 +485,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Inferno Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Complete TzHaar-Ket-Rak's sixth challenge.",
@@ -494,7 +494,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The VI Jad Challenge',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Complete TzHaar-Ket-Rak's fifth challenge in less than 5 minutes.",
@@ -503,7 +503,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "TzHaar-Ket-Rak's Speed-Runner",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Complete TzHaar-Ket-Rak's fifth and sixth challenges back to back without failing.",
@@ -512,7 +512,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "It Wasn't a Fluke",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -522,7 +522,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Stop Right There!',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -532,7 +532,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Personal Space',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -542,7 +542,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Royal Affairs',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -552,7 +552,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Harder Mode I',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -562,7 +562,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Harder Mode II',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -572,7 +572,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nylo Sniper',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -582,7 +582,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Team Work Makes the Dream Work',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -592,7 +592,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Harder Mode III',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -602,7 +602,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Pack Like a Yak',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete the Theatre of Blood: Hard Mode (Trio) with an overall time of less than 23 minutes.',
@@ -611,7 +611,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre: HM (Trio) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood: Hard Mode (4-scale) with an overall time of less than 21 minutes.',
@@ -620,7 +620,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre: HM (4-Scale) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood: Hard Mode (5-scale) with an overall time of less than 19 minutes.',
@@ -629,7 +629,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre: HM (5-Scale) Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood: Hard Mode 50 times.',
@@ -638,7 +638,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre of Blood: HM Grandmaster',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Kill Phosani's Nightmare 25 times.",
@@ -647,7 +647,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Phosani's Grandmaster",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -657,7 +657,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Perfect Phosani's Nightmare",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Kill Phosani's Nightmare within 6 minutes.",
@@ -666,7 +666,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Phosani's Speedrunner",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Kill Phosani's Nightmare 5 times in a row without leaving Phosani's Dream.",
@@ -675,7 +675,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Can't Wake Up",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill Nex with two or less players at the start of the fight.',
@@ -684,7 +684,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nex Duo',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Nex whilst a player is coughing.',
@@ -693,7 +693,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'I should see a doctor',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -703,7 +703,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Nex',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete the Tombs of Amascut (expert) within 20 mins at any group size.',
@@ -712,7 +712,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Tombs Speed Runner II',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Tombs of Amascut (expert) within 18 mins in a group of 8.',
@@ -721,7 +721,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Tombs Speed Runner III',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Complete 'Perfect Het' and 'Perfect Akkha' in a single run of the Tombs of Amascut.",
@@ -730,7 +730,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfection of Het',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Complete 'Perfect Apmeken' and 'Perfect Ba-Ba' in a single run of the Tombs of Amascut.",
@@ -739,7 +739,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfection of Apmeken',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Complete 'Perfect Crondis' and 'Perfect Zebak' in a single run of the Tombs of Amascut.",
@@ -748,7 +748,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfection of Crondis',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Complete 'Perfect Scabaras' and 'Perfect Kephri' in a single run of Tombs of Amascut.",
@@ -757,7 +757,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfection of Scabaras',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Complete 'Perfect Wardens' at expert or above.",
@@ -766,7 +766,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Insanity',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete the Tombs of Amascut at raid level 500 or above without anyone dying.',
@@ -775,7 +775,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Amascut's Remnant",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -785,7 +785,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Maybe I'm the boss.",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -795,7 +795,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Akkhan't Do it",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -805,7 +805,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'All Praise Zebak',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Tombs of Amascut (Expert mode) 50 times.',
@@ -814,7 +814,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Expert Tomb Raider',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Phantom Muspah in less than 1 minute and 30 seconds without a slayer task.',
@@ -823,7 +823,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Phantom Muspah Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Kill the Phantom Muspah whilst completing Walk Straight Pray True, Space is Tight & Can't Escape.",
@@ -832,7 +832,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Phantom Muspah Manipulator',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Vardorvis in less than 0:55 without a slayer task.',
@@ -841,7 +841,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vardorvis Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Awakened Vardorvis.',
@@ -850,7 +850,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vardorvis Sleeper',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -860,7 +860,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Axe Enthusiast',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Whisperer in less than 2:05 without a slayer task.',
@@ -869,7 +869,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Whisperer Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Awakened Whisperer.',
@@ -878,7 +878,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Whispered',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Whisperer whilst spending less than 6 seconds in the pre-enrage shadow realm.',
@@ -887,7 +887,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dark Memories',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Leviathan in less than 1:10 without a slayer task.',
@@ -896,7 +896,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Leviathan Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Awakened Leviathan.',
@@ -905,7 +905,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Leviathan Sleeper',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -915,7 +915,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Unconventional',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Duke Sucellus in less than 40 seconds without a slayer task.',
@@ -924,7 +924,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Duke Sucellus Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Awakened Duke Sucellus.',
@@ -933,7 +933,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Duke Sucellus Sleeper',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Duke Sucellus whilst only attacking the boss on the same tick Duke attacks you.',
@@ -942,7 +942,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mirror Image',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat Sol Heredit 10 times.',
@@ -951,7 +951,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Colosseum Grand Champion',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat Sol Heredit without running during the fight with him.',
@@ -960,7 +960,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Slow Dancing in the Sand',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat Sol Heredit without taking any damage from his Spear, Shield, Grapple or Triple Attack.',
@@ -969,7 +969,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Footwork',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Defeat Sol Heredit with "Bees II", "Quartet" and "Solarflare II" modifiers active.',
@@ -978,7 +978,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Reinforcements',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Colosseum with a total time of 24:00 or less.',
@@ -987,7 +987,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Colosseum Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Araxxor 6 times in 10:00.',
@@ -996,7 +996,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Araxxor Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Araxxor perfectly, without hitting it during the enrage phase.',
@@ -1005,7 +1005,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Araxxor 2',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Araxxor without the boss ever moving.',
@@ -1014,7 +1014,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Swimming in Venom',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Hueycoatl in 2:30 with three or fewer players.',
@@ -1023,7 +1023,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hueycoatl Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Defeat Yama in an average time of under 2:34 over your last four kills.',
@@ -1032,7 +1032,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Yama Speed-Runner',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description:
@@ -1042,7 +1042,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Contract Choreographer',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Defeat Yama under the elevated conditions of one of his non-standard contracts.',
@@ -1051,7 +1051,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Contractually Unbound',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl at delve level 16.',
@@ -1060,7 +1060,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "It's Dark Down Here",
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description:
@@ -1070,7 +1070,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Doom',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl levels 1-8 without restoring your prayer points through any method.',
@@ -1079,7 +1079,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Praying Mantis',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl levels 1-8 whilst only damaging the boss with one-handed melee attacks.',
@@ -1088,7 +1088,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Duel of Mokhaiotl',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl levels 1-8 without equipping a demonbane weapon.',
@@ -1097,7 +1097,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Darkness Is Your Ally?',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl levels 1-8 in less than 7:15.',
@@ -1106,7 +1106,7 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Doom Racer',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Clear at least 8 acid splats in a single Volatile Earth special attack.',
@@ -1115,6 +1115,6 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mopping up',
     points: 6,
     tier: CombatAchievementTier.Grandmaster,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
 ];

@@ -3,7 +3,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ImpCatcher: Quest = {
-  age: 'First Age',
+  age: 'Fifth Age',
   description: 'Help a wizard catch imps for an experiment and learn to summon allies.',
   difficulty: QuestDifficulty.Novice,
   id: 59,
@@ -36,16 +36,7 @@ const ImpCatcher: Quest = {
 
   startLocation: 'Wizard tower, south of Yanille',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to the Wizard Tower south of Yanille.',
-    'Talk to the wizard on the top floor.',
-    'The wizard asks you to catch 4 imps of different colors.',
-    'Collect a white imp from the Wizard Tower.',
-    'Collect a black imp from the Wilds south of Varrock.',
-    'Collect a yellow imp from the Wizard Tower.',
-    'Collect a red imp from the ruins east of Varrock.',
-    'Return all imps to the wizard to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Imp_Catcher',
 };
 

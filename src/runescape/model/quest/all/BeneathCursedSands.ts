@@ -1,8 +1,9 @@
+import { QuestRequirement, QuestPointRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const BeneathCursedSands: Quest = {
   age: 'Fifth Age',
-  description: 'Go beneath cursed sands.',
+  description: 'Journey to the buried tombs beneath the Kharidian Desert and uncover an ancient secret buried for centuries.',
   difficulty: QuestDifficulty.Master,
   id: 1036,
   length: QuestLength.Medium,
@@ -13,13 +14,17 @@ const BeneathCursedSands: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Dream Mentor'),
+    new QuestRequirement('Client of Kourend'),
+    new QuestPointRequirement(35),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] },
-  series: 'Kharidian, #4',
-  shortName: 'Beneath Cursed Sands',
+  series: 'Kharidian',
+  shortName: 'beneathCursedSands',
   startLocation: 'Desert',
   status: QuestStatus.NotStarted,
-  steps: ['Go beneath'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Beneath_Cursed_Sands',
 };
 export default BeneathCursedSands;

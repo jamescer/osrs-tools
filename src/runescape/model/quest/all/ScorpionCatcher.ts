@@ -1,8 +1,10 @@
+import { LevelRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ScorpionCatcher: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the wizard Thormac recover his three scorpions, escaped from his tower and scattered across Gielinor.',
   difficulty: QuestDifficulty.Intermediate,
   id: 91,
   length: QuestLength.Medium,
@@ -13,7 +15,9 @@ const ScorpionCatcher: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new LevelRequirement(Skill.Prayer, 31, false),
+  ],
   rewards: {
     areas: [],
     experience: [],
@@ -27,7 +31,7 @@ const ScorpionCatcher: Quest = {
   series: null,
   shortName: 'scorpionCatcher',
 
-  startLocation: '',
+  startLocation: "Thormac, Sorcerer's Tower",
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Scorpion_Catcher',

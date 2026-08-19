@@ -23,11 +23,11 @@ export enum QuestLength {
 }
 
 /**
- * Current status of a quest for a player
+ * Current status of a quest for a player.
+ * OSRS quests have exactly three states — there is no "failed" state in-game.
  */
 export enum QuestStatus {
   NotStarted = 'NotStarted',
   InProgress = 'InProgress',
   Completed = 'Completed',
-  Failed = 'Failed',
 }

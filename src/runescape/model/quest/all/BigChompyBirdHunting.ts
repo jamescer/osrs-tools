@@ -1,8 +1,10 @@
+import { LevelRequirement , QuestRequirement} from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const BigChompyBirdHunting: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Learn to hunt the mighty chompy bird for Rantz the ogre, and earn the right to wear a chompy bird hat.',
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -34,13 +36,18 @@ const BigChompyBirdHunting: Quest = {
     Fletching: 5,
     Ranged: 30,
   },
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Zogre Flesh Eaters"),
+    new LevelRequirement(Skill.Ranged, 30, false),
+    new LevelRequirement(Skill.Fletching, 5, false),
+    new LevelRequirement(Skill.Cooking, 30, false),
+  ],
   rewards: {
     areas: [],
     experience: [
-      { amount: 1470, skill: 'Cooking' },
-      { amount: 262, skill: 'Fletching' },
-      { amount: 735, skill: 'Ranged' },
+      { amount: 1470, skill: Skill.Cooking },
+      { amount: 262, skill: Skill.Fletching },
+      { amount: 735, skill: Skill.Ranged },
     ],
     items: [{ name: 'Ogre bow' }, { name: 'Ogre arrows', quantity: 30 }],
     lamps: [],
@@ -49,9 +56,9 @@ const BigChompyBirdHunting: Quest = {
     questPoints: 2,
     unlocks: [{ description: 'Ability to hunt chompy birds' }],
   },
-  series: 'Ogre',
+  series: null,
   shortName: 'bigChompyBirdHunting',
-  startLocation: '',
+  startLocation: 'Rantz, east of Feldip Hills',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting',

@@ -1,9 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const RumDeal: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the monks of Braindeath Island deal with a zombie plague threatening their famous rum operation.',
+  
   difficulty: QuestDifficulty.Intermediate,
   id: 90,
   length: QuestLength.Medium,
@@ -16,11 +18,11 @@ const RumDeal: Quest = {
   recommendedSkills: {},
   requirements: [
     new QuestRequirement('Zogre Flesh Eaters'),
-    new LevelRequirement('Crafting', 42, false),
-    new LevelRequirement('Fishing', 50, false),
-    new LevelRequirement('Farming', 40, false),
-    new LevelRequirement('Prayer', 47, false),
-    new LevelRequirement('Slayer', 42, false),
+    new LevelRequirement(Skill.Crafting, 42, false),
+    new LevelRequirement(Skill.Fishing, 50, false),
+    new LevelRequirement(Skill.Farming, 40, false),
+    new LevelRequirement(Skill.Prayer, 47, false),
+    new LevelRequirement(Skill.Slayer, 42, false),
   ],
   rewards: {
     areas: [],
@@ -35,7 +37,7 @@ const RumDeal: Quest = {
   series: 'Pirate',
   shortName: 'rumDeal',
 
-  startLocation: '',
+  startLocation: 'Captain Braindeath, Braindeath Island',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Rum_Deal',

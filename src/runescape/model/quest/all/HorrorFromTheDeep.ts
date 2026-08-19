@@ -3,7 +3,7 @@ import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
-const agilityRequirement = new LevelRequirement('agility', 35, true);
+const agilityRequirement = new LevelRequirement(Skill.Agility, 35, true);
 
 const HorrorFromTheDeep: Quest = {
   age: 'Fifth Age',
@@ -48,15 +48,7 @@ const HorrorFromTheDeep: Quest = {
 
   startLocation: 'Lighthouse, northeast of Morytania',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to the Lighthouse northeast of Morytania.',
-    'Speak to a lighthouse keeper.',
-    'Learn of a creature threatening the coast.',
-    'Venture to the cavern beneath the lighthouse.',
-    'Encounter the deep sea creature.',
-    'Defeat the creature using combat.',
-    'Return to collect your reward.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Horror_from_the_Deep',
 };
 

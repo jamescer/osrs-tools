@@ -1,27 +1,18 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ASoulsBane: Quest = {
-  age: '',
-
-  // Not specified in JSON
-  description: '',
-
+  age: 'Fifth Age',
+  description:
+    "Help a father rescue his son Tolna from a rift in the ground near Tolna's farm, fighting the monsters manifested from Tolna's tormented mind.",
   difficulty: QuestDifficulty.Novice,
-
   id: 4,
-
   length: QuestLength.Medium,
-
   members: true,
-
   miniquest: false,
-
-  // Assign a unique ID if available
   name: "A Soul's Bane",
-  // No skill or quest requirements
   questPoints: 1,
-
   recommendations: [
     {
       name: 'Food',
@@ -36,16 +27,13 @@ const ASoulsBane: Quest = {
   ],
 
   recommendedPrayers: [],
-
   recommendedSkills: {},
-
   requirements: [],
-
   rewards: {
     areas: ['The Rift'],
     experience: [
-      { amount: 500, skill: 'Defence' },
-      { amount: 500, skill: 'Hitpoints' },
+      { amount: 500, skill: Skill.Defence },
+      { amount: 500, skill: Skill.Hitpoints },
     ],
     items: [{ name: 'Ability to enter the Rift' }],
     lamps: [],
@@ -59,7 +47,7 @@ const ASoulsBane: Quest = {
 
   shortName: 'aSoulsBane',
 
-  startLocation: '',
+  startLocation: "Tolna's rift, south of Varrock",
 
   // Not specified in JSON
   status: QuestStatus.NotStarted,

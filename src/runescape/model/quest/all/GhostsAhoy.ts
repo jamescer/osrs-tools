@@ -1,9 +1,11 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement , LevelRequirement} from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const GhostsAhoy: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Lay to rest the tormented ghosts of Ecto Island, still bound to the ruins of Port Phasmatys.',
   difficulty: QuestDifficulty.Intermediate,
   id: 50,
   length: QuestLength.MediumLong,
@@ -14,7 +16,11 @@ const GhostsAhoy: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Priest in Peril"),
+    new LevelRequirement(Skill.Agility, 25, false),
+    new LevelRequirement(Skill.Cooking, 20, false),
+  ],
   rewards: {
     areas: [],
     experience: [],
@@ -28,7 +34,7 @@ const GhostsAhoy: Quest = {
   series: null,
   shortName: 'ghostsAhoy',
 
-  startLocation: '',
+  startLocation: 'Velorina, Port Phasmatys',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Ghosts_Ahoy',

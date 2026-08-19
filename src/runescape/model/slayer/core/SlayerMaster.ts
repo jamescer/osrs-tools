@@ -14,7 +14,8 @@ class SlayerMaster {
   name: string; // Name of the Slayer Master
   totalWeight: number; // Total weight of the tasks assigned to this Slayer Master. This is used to determine the likelihood of each task being assigned.
   location: string = ''; // Location of the Slayer Master (optional, can be set later if needed)
-  minimumCombatLevel: number = 0; // Level requirement to access this Slayer Master (optional, can be set later if needed)
+  minimumCombatLevel: number = 0; // Minimum combat level required to use this Slayer Master
+  minimumSlayerLevel: number = 0; // Minimum Slayer level required to use this Slayer Master (0 = no requirement)
   tasks: Task[]; // Array of tasks assigned to this Slayer Master. This holds the actual tasks that players can be assigned to kill.
   wikiUrl: string = ''; // URL for the Slayer Master (optional, can be set later if needed)
   imageUrl: string = ''; // URL of the Slayer Master's portrait image, sourced from the OSRS Wiki (optional, can be set later if needed)
@@ -53,6 +54,7 @@ class SlayerMaster {
       this.tasks = options.tasks;
       this.location = options.location || '';
       this.minimumCombatLevel = options.minimumCombatLevel || 0;
+      this.minimumSlayerLevel = options.minimumSlayerLevel || 0;
       this.wikiUrl = options.wikiUrl || '';
       this.imageUrl = options.imageUrl || '';
       this.taskPoints = options.pointsTable || {};
@@ -69,10 +71,6 @@ class SlayerMaster {
       this.eliteDiaryTaskPoints = eliteDiaryTaskPoints;
     }
 
-    // Initialize tasks
-    this.tasks.forEach(task => {
-      task.weight = task.weight || 0; // Default weight to 0 if not provided
-    });
     this.totalWeight = this.calculateTotalWeight();
   }
 
@@ -85,7 +83,6 @@ class SlayerMaster {
     return this.tasks.reduce((total, task) => {
       return total + (task.weight || 0); // Sum up the weights of all tasks
     }, 0);
-    throw new Error('Method not implemented.');
   }
 
   /**
@@ -109,6 +106,13 @@ class SlayerMaster {
    */
   getMinimumCombatLevel(): number {
     return this.minimumCombatLevel;
+  }
+
+  /**
+   * Get the minimum Slayer level required to use this Slayer Master (0 = no requirement).
+   */
+  getMinimumSlayerLevel(): number {
+    return this.minimumSlayerLevel;
   }
 
   /**
@@ -267,11 +271,8 @@ class SlayerMaster {
     return this.tasks;
   }
 
-  /**
-   * toString function
-   */
   toString(): string {
-    return `SlayerMaster :) WIP SlayerMaster:{\nname: ${this.name}\n}`;
+    return `SlayerMaster { name: ${this.name}, location: ${this.location}, tasks: ${this.tasks.length}, totalWeight: ${this.totalWeight} }`;
   }
 }
 

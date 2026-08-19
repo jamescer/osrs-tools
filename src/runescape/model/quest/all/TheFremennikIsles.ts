@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheFremennikIsles: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Broker peace between the Fremennik and the Icefiends of Neitiznot and Jatizso.',
   difficulty: QuestDifficulty.Intermediate,
   id: 109,
   length: QuestLength.Medium,
@@ -16,9 +17,9 @@ const TheFremennikIsles: Quest = {
   recommendedPrayers: [],
   recommendedSkills: {},
   requirements: [
-    new LevelRequirement('Construction', 20, false),
-    new LevelRequirement('Agility', 40, false),
-    new LevelRequirement('Woodcutting', 56, false),
+    new LevelRequirement(Skill.Construction, 20, false),
+    new LevelRequirement(Skill.Agility, 40, false),
+    new LevelRequirement(Skill.Woodcutting, 56, false),
   ],
   rewards: {
     areas: [],
@@ -33,7 +34,7 @@ const TheFremennikIsles: Quest = {
   series: 'Fremennik',
   shortName: 'theFremennikIsles',
 
-  startLocation: '',
+  startLocation: 'Mord Gunnars, Rellekka',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Fremennik_Isles',

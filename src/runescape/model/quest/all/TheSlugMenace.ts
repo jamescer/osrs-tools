@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheSlugMenace: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Investigate the sea slug infestation spreading from Witchaven and stop it from reaching Kandarin\'s nobility.',
   difficulty: QuestDifficulty.Intermediate,
   id: 119,
   length: QuestLength.MediumLong,
@@ -19,10 +20,10 @@ const TheSlugMenace: Quest = {
     new QuestRequirement('Sea Slug'),
     new QuestRequirement('Wanted!'),
     new QuestRequirement('The Lost Tribe'),
-    new LevelRequirement('Crafting', 30, false),
-    new LevelRequirement('Runecraft', 30, false),
-    new LevelRequirement('Slayer', 30, false),
-    new LevelRequirement('Thieving', 30, false),
+    new LevelRequirement(Skill.Crafting, 30, false),
+    new LevelRequirement(Skill.Runecraft, 30, false),
+    new LevelRequirement(Skill.Slayer, 30, false),
+    new LevelRequirement(Skill.Thieving, 30, false),
   ],
   rewards: {
     areas: [],
@@ -34,10 +35,10 @@ const TheSlugMenace: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  series: 'Sea Slug',
+  series: 'Temple Knight',
   shortName: 'theSlugMenace',
 
-  startLocation: '',
+  startLocation: 'Maledict, Witchaven',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Slug_Menace',

@@ -1,5 +1,5 @@
 import { describe, expect, it } from '@jest/globals';
-import { CasketReward, ClueScrollHelper } from 'src/runescape/model/clue/ClueScrollHelper';
+import { ClueScrollHelper } from 'src/runescape/model/clue/ClueScrollHelper';
 import {
   BEGINNER_REWARDS,
   EASY_REWARDS,
@@ -160,9 +160,8 @@ describe('ClueScrollHelper', () => {
         const possibleRewardNames = ClueScrollHelper.getPossibleRewardNames(tier);
 
         for (const item of reward.items) {
-          const foundInRewards = possibleRewardNames.some(name =>
-            ClueScrollHelper.getPossibleRewards(tier).some(r => r.id === item.id),
-          );
+          const foundInRewards =
+            possibleRewardNames.length > 0 && ClueScrollHelper.getPossibleRewards(tier).some(r => r.id === item.id);
           expect(foundInRewards).toBe(true);
         }
       }
@@ -256,14 +255,10 @@ describe('ClueScrollHelper', () => {
         return;
       }
 
-      const uniqueTargetItemId = uniqueTarget.item.id;
       const standardTargetItemId = standardTarget.item.id;
 
-      const uniqueTotalItemWeight = Object.values(uniqueItems).reduce((sum, reward) => sum + 1 / reward.rarity, 0);
       const standardTotalItemWeight = Object.values(standardItems).reduce((sum, reward) => sum + 1 / reward.rarity, 0);
 
-      const pUniquePerPrimaryRoll =
-        (uniqueTableWeight / primaryTableTotalWeight) * (1 / uniqueTarget.rarity / uniqueTotalItemWeight);
       const pStandardPerPrimaryRoll =
         (standardTableWeight / primaryTableTotalWeight) * (1 / standardTarget.rarity / standardTotalItemWeight);
 
@@ -273,7 +268,6 @@ describe('ClueScrollHelper', () => {
       const totalExpectedPrimaryRolls = simulatedCaskets * expectedPrimaryRollsPerCasket;
       const totalVariancePrimaryRolls = simulatedCaskets * variancePrimaryRollsPerCasket;
 
-      let observedUniqueCount = 0;
       let observedStandardCount = 0;
 
       ClueScrollHelper.resetSimulationState();
@@ -281,26 +275,19 @@ describe('ClueScrollHelper', () => {
       for (let i = 0; i < simulatedCaskets; i++) {
         const reward = ClueScrollHelper.openCasket('master');
         for (const item of reward.items) {
-          if (item.id === uniqueTargetItemId) observedUniqueCount++;
           if (item.id === standardTargetItemId) observedStandardCount++;
         }
       }
 
-      const expectedUniqueCount = totalExpectedPrimaryRolls * pUniquePerPrimaryRoll;
       const expectedStandardCount = totalExpectedPrimaryRolls * pStandardPerPrimaryRoll;
 
-      const uniqueVariance =
-        totalExpectedPrimaryRolls * pUniquePerPrimaryRoll * (1 - pUniquePerPrimaryRoll) +
-        totalVariancePrimaryRolls * pUniquePerPrimaryRoll * pUniquePerPrimaryRoll;
       const standardVariance =
         totalExpectedPrimaryRolls * pStandardPerPrimaryRoll * (1 - pStandardPerPrimaryRoll) +
         totalVariancePrimaryRolls * pStandardPerPrimaryRoll * pStandardPerPrimaryRoll;
 
-      const uniqueStdDev = Math.sqrt(uniqueVariance);
       const standardStdDev = Math.sqrt(standardVariance);
 
       const zBand = 5;
-      // expect(Math.abs(observedUniqueCount - expectedUniqueCount)).toBeLessThanOrEqual(zBand * uniqueStdDev);
       expect(Math.abs(observedStandardCount - expectedStandardCount)).toBeLessThanOrEqual(zBand * standardStdDev);
     });
   });

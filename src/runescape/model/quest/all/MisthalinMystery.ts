@@ -2,7 +2,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const MisthalinMystery: Quest = {
   age: 'Fifth Age',
-  description: 'Solve a mystery in Misthalin.',
+  description: 'Investigate a series of murders occurring in an eerie mansion on the outskirts of Varrock.',
   difficulty: QuestDifficulty.Novice,
   id: 1012,
   length: QuestLength.Short,
@@ -15,11 +15,11 @@ const MisthalinMystery: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'None',
-  shortName: 'Misthalin Mystery',
+  series: null,
+  shortName: 'misthalinMystery',
   startLocation: 'Misthalin',
   status: QuestStatus.NotStarted,
-  steps: ['Solve mystery'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Misthalin_Mystery',
 };
 export default MisthalinMystery;

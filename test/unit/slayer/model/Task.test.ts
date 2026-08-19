@@ -1,17 +1,15 @@
 import { beforeEach, describe, expect, it } from '@jest/globals';
 import { CombatLevelRequirement, ItemRequirement, SlayerLevelRequirement } from 'src/runescape/model/Requirement';
-import { Task } from 'src/runescape/model/slayer/Task';
+import { Task } from 'src/runescape/model/slayer';
 
 /**
  * Comprehensive test suite for Slayer Task
  */
 describe('Task - Slayer task configuration', () => {
   let mockRequirements: SlayerLevelRequirement[];
-  let mockCombatRequirements: CombatLevelRequirement[];
 
   beforeEach(() => {
     mockRequirements = [new SlayerLevelRequirement(75)];
-    mockCombatRequirements = [new CombatLevelRequirement(80)];
   });
 
   describe('constructor', () => {

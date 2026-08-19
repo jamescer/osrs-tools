@@ -1,12 +1,14 @@
+import { LevelRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheGolem: Quest = {
-  age: 'Third Age',
-  description: 'Investigate a mysterious golem in the desert and help the surrounding community.',
-  difficulty: QuestDifficulty.Novice,
+  age: 'Fifth Age',
+  description: 'Deep in the desert, an ancient clay golem forever paces the ruins of Uzer. Uncover the secret of the lost city and put the golem to rest.',
+  difficulty: QuestDifficulty.Intermediate,
   id: 112,
-  length: QuestLength.Medium,
+  length: QuestLength.Short,
   members: true,
   miniquest: false,
   name: 'The Golem',
@@ -14,10 +16,16 @@ const TheGolem: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new LevelRequirement(Skill.Crafting, 20, true),
+    new LevelRequirement(Skill.Thieving, 25, true),
+  ],
   rewards: {
     areas: [],
-    experience: [{ amount: 1000, skill: 'Magic' }],
+    experience: [
+      { amount: 1000, skill: Skill.Thieving },
+      { amount: 1000, skill: Skill.Crafting },
+    ],
     items: [],
     lamps: [],
     pets: [],
@@ -28,16 +36,9 @@ const TheGolem: Quest = {
   series: null,
   shortName: 'theGolem',
 
-  startLocation: 'Desert town',
+  startLocation: 'Clay golem, Ruins of Uzer (east of Shantay Pass)',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to the desert town.',
-    'Speak to the locals.',
-    'Discover the legend of the golem.',
-    "Find clues about the golem's location.",
-    'Face the golem in the desert.',
-    'Resolve the conflict and return.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Golem',
 };
 

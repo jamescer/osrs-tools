@@ -3,8 +3,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const MonksFriend: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the monks of Ardougne monastery find their missing child oblate, who has gone to hide in the woods.',
   difficulty: QuestDifficulty.Novice,
   id: 72,
   length: QuestLength.Short,
@@ -29,7 +29,7 @@ const MonksFriend: Quest = {
   series: null,
   shortName: 'monksFriend',
 
-  startLocation: '',
+  startLocation: 'Brother Omad, Monastery south of Ardougne',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Monk%27s_Friend',

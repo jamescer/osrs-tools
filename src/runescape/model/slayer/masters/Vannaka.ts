@@ -6,28 +6,29 @@
  */
 
 import { SlayerMaster } from '../core/SlayerMaster';
-import { POINTS_TABLE } from '../core/types';
 import { vannakaTasks } from '../task/VannakaTasks';
 import { registerMaster } from './registry';
 
 /**
  * Vannaka - Intermediate Slayer Master
- * Accessible at combat level 40 in Edgeville Dungeon
+ * Accessible at combat level 40 in Edgeville Dungeon.
+ * Awards 4 points per task; milestone multipliers follow the universal
+ * 5×/15×/25×/35×/50× pattern.
+ * Reference: https://oldschool.runescape.wiki/w/Vannaka#Slayer_points
  */
 export const Vannaka = new SlayerMaster({
-  eliteDiaryTaskPoints: {
-    1: 2,
-    10: 5,
-    100: 50,
-    1000: 100,
-    250: 70,
-    50: 15,
-  },
   imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Vannaka.png',
   location: 'Edgeville Dungeon',
   minimumCombatLevel: 40,
   name: 'Vannaka',
-  pointsTable: POINTS_TABLE.STANDARD,
+  pointsTable: {
+    1: 4,
+    10: 20,
+    50: 60,
+    100: 100,
+    250: 140,
+    1000: 200,
+  },
   tasks: vannakaTasks,
   wikiUrl: 'https://oldschool.runescape.wiki/w/Vannaka',
 });

@@ -1,3 +1,4 @@
+import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
@@ -8,11 +9,11 @@ import { Quest, QuestStatus } from '../Quest';
  * @see https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale for quest details and requirements
  */
 const DarknessOfHallowvale: Quest = {
-  age: '',
-  description: '',
-  difficulty: QuestDifficulty.Intermediate,
+  age: 'Fifth Age',
+  description: 'Infiltrate Meiyerditch and work with the myreque to gather intelligence about Darkmeyer from within the vampyre city.',
+  difficulty: QuestDifficulty.Experienced,
   id: 22,
-  length: QuestLength.VeryLong,
+  length: QuestLength.Long,
   members: true,
   miniquest: false,
   // Assign a unique ID if available
@@ -22,7 +23,16 @@ const DarknessOfHallowvale: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('In Aid of the Myreque'),
+    new LevelRequirement(Skill.Construction, 5, true),
+    new LevelRequirement(Skill.Mining, 20, false),
+    new LevelRequirement(Skill.Thieving, 22, false),
+    new LevelRequirement(Skill.Agility, 26, true),
+    new LevelRequirement(Skill.Crafting, 32, false),
+    new LevelRequirement(Skill.Magic, 33, true),
+    new LevelRequirement(Skill.Strength, 40, false),
+  ],
   rewards: {
     areas: [],
     experience: [
@@ -40,7 +50,7 @@ const DarknessOfHallowvale: Quest = {
   series: 'Myreque',
   shortName: 'darknessOfHallowvale',
 
-  startLocation: '',
+  startLocation: 'Veliaf Hurtz, basement of Burgh de Rott inn',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale',

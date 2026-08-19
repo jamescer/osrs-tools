@@ -3,8 +3,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheLostTribe: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Investigate a hole that has opened in the Lumbridge Castle cellar and make peace with the tribe living below.',
   difficulty: QuestDifficulty.Novice,
   id: 117,
   length: QuestLength.Short,
@@ -29,7 +29,7 @@ const TheLostTribe: Quest = {
   series: null,
   shortName: 'theLostTribe',
 
-  startLocation: '',
+  startLocation: 'Duke Horacio, Lumbridge Castle',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Lost_Tribe',

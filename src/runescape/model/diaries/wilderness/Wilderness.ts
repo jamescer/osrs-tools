@@ -11,249 +11,300 @@ const skill = (skillName: string, level: number, boostable = true) => new LevelR
  */
 export const WildernessDiary: Diary = {
   easy: {
-    itemReward: 'Wilderness badge 1',
-    itemsRequired: ['Combat gear', 'Survival supplies'],
-    questsRequired: [],
+    itemReward: 'Wilderness sword 1',
     rewards: {
       description: [
         {
-          main: 'Wilderness badge 1',
-          other: ['10% increased loot from low-level Wilderness monsters'],
+          main: 'Wilderness sword 1',
+          other: [
+            'Always slashes webs successfully',
+            'You can now use the Wilderness lever to teleport to Edgeville',
+            'Lundail offers 40 random runes for free every day',
+          ],
         },
         {
-          main: '1 Antique lamp worth 2,500 experience in any skill of at least level 30',
-          other: [],
-        },
-        {
-          main: 'Ability to survive longer in the Wilderness',
+          main: 'Antique lamp worth 2,500 experience in any skill of at least level 30',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 2500, levelToUse: 30 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 49, skill: 'thieving' },
-      { boostable: true, level: 45, skill: 'agility' },
-      { boostable: true, level: 15, skill: 'mining' },
-      { boostable: true, level: 1, skill: 'combat' },
-      { boostable: true, level: 1, skill: 'fishing' },
-      { boostable: true, level: 1, skill: 'woodcutting' },
-    ],
     tasks: [
       {
-        description: 'Collect some spider eggs in the Wilderness.',
-        requirements: [skill('thieving', 49)],
+        description: 'Cast Low Alchemy at the Fountain of Rune.',
+        requirements: [skill('Magic', 21)],
       },
       {
-        description: 'Cross the Wilderness via a shortcut.',
-        requirements: [skill('agility', 45)],
-      },
-      {
-        description: 'Mine something in the Wilderness.',
-        requirements: [skill('mining', 15)],
-      },
-      {
-        description: 'Kill a monster in the Wilderness.',
-        requirements: [skill('combat', 1)],
-      },
-      {
-        description: 'Fish in the Wilderness.',
-        requirements: [skill('fishing', 1)],
-      },
-      {
-        description: 'Chop down a tree in the Wilderness.',
-        requirements: [skill('woodcutting', 1)],
-      },
-      {
-        description: 'Use a Wilderness shortcut.',
-        requirements: [skill('agility', 1)],
-      },
-      {
-        description: 'Survive in the Wilderness for 5 minutes.',
+        description: 'Enter the Wilderness from the Ardougne or Edgeville lever.',
         requirements: [],
       },
       {
-        description: 'Participate in a PvP activity.',
+        description: 'Pray at the Chaos Altar in the Western Wilderness.',
         requirements: [],
       },
       {
-        description: 'Complete an easy Wilderness task.',
+        description: 'Enter the Chaos Runecrafting temple.',
+        notes: 'Entering through the Tunnel of Chaos or Guardians of the Rift does not count.',
+        requirements: [],
+      },
+      {
+        description: 'Kill a Mammoth in the Wilderness.',
+        notes: 'Mammoths are found south-east of Ferox Enclave.',
+        requirements: [],
+      },
+      {
+        description: 'Kill an Earth Warrior in the Wilderness beneath Edgeville.',
+        requirements: [skill('Agility', 15)],
+      },
+      {
+        description: 'Restore some prayer points at the demonic ruins.',
+        requirements: [],
+      },
+      {
+        description: "Enter the King Black Dragon's lair.",
+        notes: 'This lair is located beneath the Lava Maze.',
+        requirements: [],
+      },
+      {
+        description: "Collect 5 Red spiders' eggs from the Wilderness.",
+        notes: 'Found in the northern part of Edgeville Dungeon.',
+        requirements: [],
+      },
+      {
+        description: 'Mine some Iron ore in the Wilderness.',
+        requirements: [skill('Mining', 15)],
+      },
+      {
+        description: 'Have the Mage of Zamorak teleport you to the Abyss.',
+        notes: 'The one-time teleport during Temple of the Eye does not count.',
+        requirements: [quest('Enter the Abyss')],
+      },
+      {
+        description: 'Equip any team cape in the Wilderness.',
+        notes: 'Entering the Wilderness with one already equipped does not count.',
         requirements: [],
       },
     ],
   },
   elite: {
-    itemReward: 'Wilderness badge 4',
-    itemsRequired: ['Endgame combat supplies'],
-    questsRequired: [],
+    itemReward: 'Wilderness sword 4',
     rewards: {
       description: [
         {
-          main: 'Wilderness badge 4',
-          other: ['25% increased loot and doubled drops from Wilderness bosses'],
+          main: 'Wilderness sword 4',
+          other: [
+            'Unlimited teleports to the Fountain of Rune',
+            'Free access to the Resource Area',
+            'Lundail offers 200 random runes for free every day',
+            'Dragon bones from dragons killed in the Wilderness are now noted (excluding KBD)',
+            'Catch rate of dark crabs increased by 112.5%',
+          ],
         },
         {
-          main: '1 Antique lamp worth 50,000 experience in any skill of at least level 70',
-          other: [],
-        },
-        {
-          main: 'Permanent immunity to Wilderness hazards and auto-teleport when needed',
+          main: 'Antique lamp worth 50,000 experience in any skill of at least level 70',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 95, skill: 'slayer' },
-      { boostable: false, level: 100, skill: 'combat' },
-      { boostable: true, level: 90, skill: 'agility' },
-    ],
     tasks: [
       {
-        description: 'Defeat the ultimate Wilderness boss.',
-        requirements: [skill('slayer', 95), skill('combat', 100)],
+        description: "Kill Callisto, Venenatis & Vet'ion.",
+        notes:
+          "The lesser versions (Artio, Spindel, and Calvar'ion) also count. Bosses must be killed consecutively without completing other tasks in-between.",
+        requirements: [],
       },
       {
-        description: 'Complete elite obstacle course without errors.',
-        requirements: [skill('agility', 90)],
+        description: 'Teleport to Ghorrock.',
+        requirements: [quest('Desert Treasure I'), skill('Magic', 96, false)],
       },
       {
-        description: 'Master Wilderness combat.',
-        requirements: [skill('combat', 100), skill('slayer', 99)],
+        description: 'Fish and cook a Dark Crab in the Resource Area.',
+        requirements: [skill('Fishing', 85), skill('Cooking', 90)],
       },
       {
-        description: 'Claim the Crown of the Wilderness.',
-        requirements: [skill('combat', 100)],
+        description: 'Smith a rune scimitar from scratch in the Resource Area.',
+        notes:
+          'Mine two runite ores, smelt two runite bars, then smith the scimitar. Steps must be done consecutively without completing other tasks.',
+        requirements: [skill('Mining', 85), skill('Smithing', 90, false)],
       },
       {
-        description: 'Achieve legendary status.',
-        requirements: [skill('combat', 100), skill('slayer', 99), skill('agility', 90)],
+        description: "Steal from the Rogues' chest.",
+        notes: 'Must right-click the chest to search for traps.',
+        requirements: [skill('Thieving', 84)],
+      },
+      {
+        description: 'Slay a spiritual mage inside the Wilderness Godwars Dungeon.',
+        notes: 'Requires Agility 60 OR Strength 60 to enter the dungeon.',
+        requirements: [skill('Slayer', 83)],
+      },
+      {
+        description: 'Cut and burn some magic logs in the Resource Area.',
+        notes:
+          'Logs burnt by an infernal axe do not count. Steps must be done consecutively without completing other tasks.',
+        requirements: [skill('Woodcutting', 75), skill('Firemaking', 75)],
       },
     ],
   },
+
   hard: {
-    itemReward: 'Wilderness badge 3',
-    itemsRequired: ['High-level combat gear', 'Boss supplies'],
-    questsRequired: [],
+    itemReward: 'Wilderness sword 3',
     rewards: {
       description: [
         {
-          main: 'Wilderness badge 3',
-          other: ['20% increased loot from all Wilderness monsters'],
+          main: 'Wilderness sword 3',
+          other: [
+            'One daily teleport to the Fountain of Rune',
+            'Entrance fee for the Resource Area lowered to 3,750 coins',
+            'Possess up to 5 ecumenical keys at a time',
+            'Ecumenical keys can now be sold to the Lesser Fanatic in Edgeville for 61,500 coins each',
+            'Lundail offers 120 random runes for free every day',
+            '50% more lava shards from grinding lava scales',
+            'Ability to select your destination when using Wilderness obelisks',
+            'No teleport delay in Revenant Caves or Wilderness boss caves',
+            'Wine of Zamorak taken from Chaos Temple and Deep Wilderness Dungeon will be noted',
+            "Access to Spindel, Artio, and Calvar'ion",
+          ],
         },
         {
-          main: '1 Antique lamp worth 15,000 experience in any skill of at least level 50',
-          other: [],
-        },
-        {
-          main: 'Triple escape chance from dangerous situations',
+          main: 'Antique lamp worth 15,000 experience in any skill of at least level 50',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 80, skill: 'slayer' },
-      { boostable: true, level: 90, skill: 'combat' },
-      { boostable: true, level: 70, skill: 'agility' },
-    ],
     tasks: [
       {
-        description: 'Kill the Wilderness boss.',
-        requirements: [skill('slayer', 80), skill('combat', 80)],
+        description: 'Cast any of the 3 God spells against another player in the Wilderness.',
+        notes:
+          'God spells must first be cast 100 times inside the Mage Arena. The task is also completable inside the arena.',
+        requirements: [quest('Mage Arena I'), skill('Magic', 60)],
       },
       {
-        description: 'Complete the hard Wilderness obstacle course.',
-        requirements: [skill('agility', 70)],
+        description: 'Charge an Air Orb.',
+        requirements: [skill('Magic', 66)],
       },
       {
-        description: 'Survive in the Wilderness for 30 minutes.',
-        requirements: [skill('combat', 70)],
+        description: 'Catch a Black Salamander in the Wilderness.',
+        requirements: [skill('Hunter', 67)],
       },
       {
-        description: 'Achieve 99 in a Wilderness-related skill.',
-        requirements: [skill('slayer', 99)],
+        description: 'Smith an Adamant scimitar in the Resource Area.',
+        requirements: [skill('Smithing', 75, false)],
       },
       {
-        description: 'Loot from 10 high-level bosses.',
-        requirements: [skill('combat', 90)],
+        description: 'Kill a Lava Dragon.',
+        notes: 'Lava dragons are found on Lava Dragon Isle.',
+        requirements: [],
+      },
+      {
+        description: 'Kill the Chaos Elemental.',
+        requirements: [],
+      },
+      {
+        description: 'Kill the Crazy Archaeologist, Chaos Fanatic & Scorpia.',
+        notes:
+          'While these bosses can be killed in any order, completing or updating any other task in-between will reset progress.',
+        requirements: [],
+      },
+      {
+        description: 'Take the agility shortcut from Trollheim into the Wilderness.',
+        notes: 'Not to be confused with the rocky shortcut further north. The shortcut goes in one direction only.',
+        requirements: [quest('Troll Stronghold'), skill('Agility', 64)],
+      },
+      {
+        description: 'Kill a Spiritual warrior in the Wilderness Godwars Dungeon.',
+        notes: 'Requires Agility 60 OR Strength 60 to enter the dungeon.',
+        requirements: [skill('Slayer', 68)],
+      },
+      {
+        description: 'Fish some Raw Lava Eel in the Wilderness.',
+        notes: 'Requires an oily fishing rod and fishing bait, and a slashing weapon.',
+        requirements: [skill('Fishing', 53), skill('Herblore', 25, false)],
       },
     ],
   },
-  itemReward: 'Wilderness badge',
+
+  itemReward: 'Wilderness sword',
+
   medium: {
-    itemReward: 'Wilderness badge 2',
-    itemsRequired: ['Combat equipment', 'Slayer supplies', 'Escape supplies'],
-    questsRequired: [],
+    itemReward: 'Wilderness sword 2',
     rewards: {
       description: [
         {
-          main: 'Wilderness badge 2',
-          other: ['15% increased loot from mid-level Wilderness monsters'],
+          main: 'Wilderness sword 2',
+          other: [
+            'Entrance fee for the Resource Area lowered to 6,000 coins',
+            'Possess up to 4 ecumenical keys at a time',
+            'Lundail offers 80 random runes for free every day',
+            'Access to the crevice shortcut in the Deep Wilderness Dungeon (with 46 Agility)',
+            "Access to Callisto, Venenatis, and Vet'ion",
+            '15% more chance to receive drops from cutting fallen ents',
+            "Ability to obtain loot from chests in the Rogues' Castle",
+          ],
         },
         {
-          main: '1 Antique lamp worth 7,500 experience in any skill of at least level 40',
-          other: [],
-        },
-        {
-          main: 'Enhanced dodging abilities in dangerous areas',
+          main: 'Antique lamp worth 7,500 experience in any skill of at least level 40',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 7500, levelToUse: 40 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 50, skill: 'slayer' },
-      { boostable: true, level: 60, skill: 'agility' },
-      { boostable: true, level: 50, skill: 'combat' },
-      { boostable: true, level: 65, skill: 'thieving' },
-      { boostable: true, level: 40, skill: 'magic' },
-      { boostable: true, level: 60, skill: 'fishing' },
-      { boostable: true, level: 60, skill: 'mining' },
-    ],
     tasks: [
       {
-        description: 'Defeat a Wilderness slayer task.',
-        requirements: [skill('slayer', 50)],
+        description: 'Mine some Mithril ore in the Wilderness.',
+        requirements: [skill('Mining', 55)],
       },
       {
-        description: 'Enter the Wilderness castle.',
-        requirements: [skill('agility', 60)],
+        description: 'Chop some yew logs from a fallen Ent.',
+        notes:
+          'Must be done within the Wilderness. Ents are found north and east of the chaos temple with the elder chaos druids.',
+        requirements: [skill('Woodcutting', 61, false)],
       },
       {
-        description: 'Slay a dangerous creature.',
-        requirements: [skill('combat', 40)],
+        description: 'Enter the Wilderness Godwars Dungeon.',
+        notes: 'Requires Agility 60 OR Strength 60.',
+        requirements: [skill('Agility', 60)],
       },
       {
-        description: 'Complete the Wilderness obstacle course.',
-        requirements: [skill('agility', 50)],
+        description: 'Complete a lap of the Wilderness Agility course.',
+        requirements: [skill('Agility', 52)],
       },
       {
-        description: 'Loot from a rare Wilderness drop.',
-        requirements: [skill('thieving', 65)],
+        description: 'Kill a Green Dragon in the Wilderness.',
+        requirements: [],
       },
       {
-        description: 'Use a portal to escape danger.',
-        requirements: [skill('magic', 40)],
+        description: 'Kill an Ankou in the Wilderness.',
+        requirements: [],
       },
       {
-        description: 'Survive an encounter with a boss.',
-        requirements: [skill('combat', 50)],
+        description: 'Charge an Earth Orb.',
+        requirements: [skill('Magic', 60)],
       },
       {
-        description: 'Fish for rare Wilderness fish.',
-        requirements: [skill('fishing', 60)],
+        description: 'Kill a Bloodveld in the Wilderness Godwars Dungeon.',
+        notes: 'Requires Agility 60 OR Strength 60 to enter the dungeon.',
+        requirements: [skill('Slayer', 50)],
       },
       {
-        description: 'Mine a rare ore in the Wilderness.',
-        requirements: [skill('mining', 60)],
+        description: 'Talk to the Emblem Trader in Edgeville about emblems.',
+        notes: "He's just north of the bank.",
+        requirements: [],
       },
       {
-        description: 'Complete a medium Wilderness task.',
+        description: 'Smith a Golden helmet in the Resource Area.',
+        notes: 'Cannot do this while already having a gold helmet in your inventory or bank.',
+        requirements: [quest('Between a Rock...'), skill('Smithing', 50, false)],
+      },
+      {
+        description: 'Open the Muddy Chest in the lava maze.',
+        notes: 'Requires a muddy key and a slashing weapon.',
         requirements: [],
       },
     ],
   },
+
   name: 'Wilderness Diary',
 };
 

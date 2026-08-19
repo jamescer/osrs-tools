@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { ItemRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const Ratcatchers: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Follow a trail of mischief as your cat helps track down rats — from a Varrock mansion to the sewers of Pollnivneach.',
   difficulty: QuestDifficulty.Intermediate,
   id: 84,
   length: QuestLength.Long,
@@ -63,7 +64,7 @@ const Ratcatchers: Quest = {
   ],
   rewards: {
     areas: ['Access to the Rat Pits.'],
-    experience: [{ amount: 4500, skill: 'Thieving' }],
+    experience: [{ amount: 4500, skill: Skill.Thieving }],
     items: [{ name: 'Rat Pole', quantity: 1 }],
     lamps: [],
     pets: [],
@@ -73,7 +74,7 @@ const Ratcatchers: Quest = {
   },
   series: null,
   shortName: 'ratcatchers',
-  startLocation: '',
+  startLocation: 'Jimmy Dazzler, Varrock',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Ratcatchers',

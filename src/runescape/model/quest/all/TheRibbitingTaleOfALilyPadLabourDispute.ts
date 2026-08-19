@@ -2,7 +2,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const TheRibbitingTaleOfALilyPadLabourDispute: Quest = {
   age: 'Fifth Age',
-  description: 'Solve a lily pad labour dispute.',
+  description: 'Help the frogs of the Kourend Woodland negotiate an end to their heated lily pad labour dispute.',
   difficulty: QuestDifficulty.Novice,
   id: 1032,
   length: QuestLength.VeryShort,
@@ -15,11 +15,11 @@ const TheRibbitingTaleOfALilyPadLabourDispute: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'None',
-  shortName: 'The Ribbiting Tale',
+  series: null,
+  shortName: 'theRibbitingTaleOfALilyPadLabourDispute',
   startLocation: 'Swamp',
   status: QuestStatus.NotStarted,
-  steps: ['Solve dispute'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Ribbiting_Tale_of_a_Lily_Pad_Labour_Dispute',
 };
 export default TheRibbitingTaleOfALilyPadLabourDispute;

@@ -1,3 +1,4 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
@@ -8,8 +9,8 @@ import { Quest, QuestStatus } from '../Quest';
  * @see https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters for quest details and requirements
  */
 const ZogreFleshEaters: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Investigate an outbreak of zombified ogres (Zogres) on Gu\'Tanoth that threatens the surrounding region.',
   difficulty: QuestDifficulty.Intermediate,
   id: 138,
   length: QuestLength.Medium,
@@ -21,9 +22,9 @@ const ZogreFleshEaters: Quest = {
   recommendedPrayers: [],
   recommendedSkills: {},
   requirements: [
-    new LevelRequirement('Herblore', 8, false),
-    new LevelRequirement('Smithing', 4, false),
-    new LevelRequirement('Ranged', 30, false),
+    new LevelRequirement(Skill.Herblore, 8, false),
+    new LevelRequirement(Skill.Smithing, 4, false),
+    new LevelRequirement(Skill.Ranged, 30, false),
   ],
   rewards: {
     areas: [],
@@ -35,10 +36,10 @@ const ZogreFleshEaters: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: 'Ogre',
+  series: null,
   shortName: 'zogreFleshEaters',
 
-  startLocation: '',
+  startLocation: 'Grish, south of Castle Wars',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters',

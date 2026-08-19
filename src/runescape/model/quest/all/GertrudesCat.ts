@@ -2,8 +2,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const GertrudesCat: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help Gertrude find her lost cat Fluffs, who has gone missing somewhere near the Lumber Yard.',
   difficulty: QuestDifficulty.Novice,
   id: 48,
   length: QuestLength.Short,
@@ -28,7 +28,7 @@ const GertrudesCat: Quest = {
   series: null,
   shortName: 'gertrudesCat',
 
-  startLocation: '',
+  startLocation: 'Gertrude, west of Varrock',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Gertrude%27s_Cat',

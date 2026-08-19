@@ -5,7 +5,7 @@ import { Quest, QuestStatus } from '../Quest';
 
 // wiki url https://oldschool.runescape.wiki/w/Family_Crest
 const FamilyCrest: Quest = {
-  age: '2002',
+  age: 'Fifth Age',
   description:
     'The Armours family has fallen on hard times. Gilandor Armours, the patriarch of this noble family, has grown old and is dying. His three sons have not inherited his competence. You must help the youngest son of the Armours family create the family crest so that it can be passed on with pride.',
 
@@ -38,10 +38,10 @@ const FamilyCrest: Quest = {
   rewards: {
     areas: [],
     experience: [
-      { amount: 2000, skill: Skill.Crafting },
-      { amount: 2000, skill: Skill.Smithing },
-      { amount: 1000, skill: Skill.Magic },
-      { amount: 1000, skill: Skill.Mining },
+      { amount: 7500, skill: Skill.Crafting },
+      { amount: 7500, skill: Skill.Smithing },
+      { amount: 7500, skill: Skill.Magic },
+      { amount: 7500, skill: Skill.Mining },
     ],
     items: [
       { id: 2417, name: 'Gilded Coif', quantity: 1 },
@@ -59,14 +59,7 @@ const FamilyCrest: Quest = {
 
   startLocation: 'East Ardougne, Armours house',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Talk to Gilandor Armours in his house (east of the fountain in East Ardougne)',
-    'Deliver the unfinished shield to the three sons and collect materials',
-    'Mine copper and tin ore to create bronze',
-    'Use the bronze and leather to smith items at three different forges',
-    'Craft items using the materials obtained',
-    'Bring the completed family crest items back to Gilandor',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Family_Crest',
 };
 

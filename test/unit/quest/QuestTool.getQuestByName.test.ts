@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it } from '@jest/globals';
+import { describe, expect, it } from '@jest/globals';
 import { QuestList } from 'src/runescape/model/quest/QuestList';
 import { QuestTool } from 'src/runescape/model/quest/QuestTool';
 
@@ -148,7 +148,7 @@ describe('QuestTool - Quest Name Resolution', () => {
     });
 
     it('should handle null/undefined gracefully', () => {
-      // @ts-ignore - testing invalid input
+      // @ts-expect-error - testing invalid input
       const quest1 = QuestTool.getQuestByName(null);
       expect(quest1).toBeFalsy();
 

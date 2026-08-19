@@ -1,3 +1,5 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
@@ -14,7 +16,18 @@ const TheCurseOfArrav: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('While Guthix Sleeps'),
+    new QuestRequirement('Defender of Varrock'),
+    new LevelRequirement(Skill.Agility, 61, false),
+    new LevelRequirement(Skill.Crafting, 63, false),
+    new LevelRequirement(Skill.Magic, 64, false),
+    new LevelRequirement(Skill.Mining, 64, false),
+    new LevelRequirement(Skill.Smithing, 63, false),
+    new LevelRequirement(Skill.Strength, 67, false),
+    new LevelRequirement(Skill.Thieving, 64, false),
+    new LevelRequirement(Skill.Woodcutting, 63, false),
+  ],
   rewards: {
     areas: [],
     experience: [],
@@ -25,11 +38,11 @@ const TheCurseOfArrav: Quest = {
     questPoints: 2,
     unlocks: [],
   },
-  series: 'Mahjarrat #10',
-  shortName: 'The Curse of Arrav',
+  series: 'Mahjarrat',
+  shortName: 'theCurseOfArrav',
   startLocation: 'Varrock Palace',
   status: QuestStatus.NotStarted,
-  steps: ['Battle the curse of Arrav'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Curse_of_Arrav',
 };
 

@@ -1,8 +1,10 @@
+import { LevelRequirement , QuestRequirement} from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ForgettableTale: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the dwarves of Keldagrim recover a key ingredient for their special ale, navigating their bureaucracy along the way.',
   difficulty: QuestDifficulty.Novice,
   id: 46,
   length: QuestLength.Long,
@@ -13,7 +15,12 @@ const ForgettableTale: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("The Giant Dwarf"),
+    new LevelRequirement(Skill.Agility, 22, false),
+    new LevelRequirement(Skill.Cooking, 22, false),
+    new LevelRequirement(Skill.Farming, 17, false),
+  ],
   rewards: {
     areas: [],
     experience: [],
@@ -27,7 +34,7 @@ const ForgettableTale: Quest = {
   series: 'Rise of the Red Axe',
   shortName: 'forgettableTale',
 
-  startLocation: '',
+  startLocation: 'Banter, Keldagrim',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Forgettable_Tale...',

@@ -1,5 +1,5 @@
 import { CombatLevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
-import { Task } from '../Task';
+import { Task } from '../core/Task';
 
 const krystiliaTasks: Task[] = [
   new Task(
@@ -16,12 +16,11 @@ const krystiliaTasks: Task[] = [
     null,
     ['Abyssal Sire'],
     5,
-    [],
-    0,
+    [], 150,
     ['Wilderness Slayer Cave'],
   ),
-  new Task('Ankou', 1, 120, [new CombatLevelRequirement(40)], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Black demons', 1, 120, [new CombatLevelRequirement(80)], null, null, ['Demonic gorilla'], 8, [], 0, [
+  new Task('Ankou', 1, 120, [new CombatLevelRequirement(40)], null, null, [], 8, [], 60, ['Wilderness Slayer Cave']),
+  new Task('Black demons', 1, 120, [new CombatLevelRequirement(80)], null, null, ['Demonic gorilla'], 8, [], 157, [
     'Wilderness Slayer Cave',
   ]),
   new Task(
@@ -33,8 +32,7 @@ const krystiliaTasks: Task[] = [
     null,
     ['King Black Dragon', 'Baby black dragon'],
     8,
-    [],
-    0,
+    [], 225,
     ['Wilderness Slayer Cave'],
   ),
   new Task(
@@ -46,27 +44,25 @@ const krystiliaTasks: Task[] = [
     null,
     ['Mutated Bloodveld'],
     8,
-    [],
-    0,
+    [], 120,
     ['Wilderness Slayer Cave'],
   ),
-  new Task('Chaos druids', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Dark warriors', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
+  new Task('Chaos druids', 1, 120, [], null, null, [], 8, [], 13.5, ['Wilderness Slayer Cave']),
+  new Task('Dark warriors', 1, 120, [], null, null, [], 8, [], 22, ['Wilderness Slayer Cave']),
   new Task(
     'Dust devils',
     65,
     120,
-    [new SlayerLevelRequirement(65), new QuestRequirement('Desert Treasure')],
+    [new SlayerLevelRequirement(65), new QuestRequirement('Desert Treasure I')],
     null,
     null,
     [],
     8,
-    [],
-    0,
+    [], 130,
     ['Wilderness Slayer Cave'],
   ),
-  new Task('Earth warriors', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Fire giants', 1, 120, [new CombatLevelRequirement(65)], null, null, [], 8, [], 0, [
+  new Task('Earth warriors', 1, 120, [], null, null, [], 8, [], 35, ['Wilderness Slayer Cave']),
+  new Task('Fire giants', 1, 120, [new CombatLevelRequirement(65)], null, null, [], 8, [], 111, [
     'Wilderness Slayer Cave',
   ]),
   new Task(
@@ -78,26 +74,26 @@ const krystiliaTasks: Task[] = [
     null,
     ['Skotizo', 'Demonic gorilla'],
     8,
-    [],
-    0,
+    [], 100,
     ['Wilderness Slayer Cave'],
   ),
-  new Task('Green dragons', 1, 120, [], null, null, ['Baby green dragon'], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Hellhounds', 1, 120, [new CombatLevelRequirement(75)], null, null, ['Cerberus'], 8, [], 0, [
+  new Task('Green dragons', 1, 120, [], null, null, ['Baby green dragon'], 8, [], 150, ['Wilderness Slayer Cave']),
+  new Task('Hellhounds', 1, 120, [new CombatLevelRequirement(75)], null, null, ['Cerberus'], 8, [], 116, [
     'Wilderness Slayer Cave',
   ]),
-  new Task('Hill giants', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Ice giants', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Ice warriors', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Lesser demons', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Magic axes', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Mammoths', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Moss giants', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Revenants', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Rogues', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Scorpions', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Skeletons', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
-  new Task('Spiders', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
+  new Task(
+    'Hill Giants', 1, 120, [], null, null, [], 8, [], 28, ['Wilderness Slayer Cave']),
+  new Task('Ice giants', 1, 120, [], null, null, [], 8, [], 42, ['Wilderness Slayer Cave']),
+  new Task('Ice warriors', 1, 120, [], null, null, [], 8, [], 40, ['Wilderness Slayer Cave']),
+  new Task('Lesser demons', 1, 120, [], null, null, [], 8, [], 75, ['Wilderness Slayer Cave']),
+  new Task('Magic axes', 1, 120, [], null, null, [], 8, [], 58.5, ['Wilderness Slayer Cave']),
+  new Task('Mammoths', 1, 120, [], null, null, [], 8, [], 80, ['Wilderness Slayer Cave']),
+  new Task('Moss giants', 1, 120, [], null, null, [], 8, [], 60, ['Wilderness Slayer Cave']),
+  new Task('Revenants', 1, 120, [], null, null, [], 8, [], 50, ['Wilderness Slayer Cave']),
+  new Task('Rogues', 1, 120, [], null, null, [], 8, [], 32, ['Wilderness Slayer Cave']),
+  new Task('Scorpions', 1, 120, [], null, null, [], 8, [], 12, ['Wilderness Slayer Cave']),
+  new Task('Skeletons', 1, 120, [], null, null, [], 8, [], 18, ['Wilderness Slayer Cave']),
+  new Task('Spiders', 1, 120, [], null, null, [], 8, [], 2, ['Wilderness Slayer Cave']),
   new Task(
     'Spiritual creatures',
     63,
@@ -107,14 +103,13 @@ const krystiliaTasks: Task[] = [
     null,
     ['Spiritual ranger', 'Spiritual warrior', 'Spiritual mage'],
     8,
-    [],
-    0,
+    [], 105,
     ['Wilderness God Wars Dungeon'],
   ),
-  new Task('Steel dragons', 1, 120, [new CombatLevelRequirement(90)], null, null, [], 8, [], 0, [
+  new Task('Steel dragons', 1, 120, [new CombatLevelRequirement(90)], null, null, [], 8, [], 246, [
     'Wilderness Slayer Cave',
   ]),
-  new Task('Werewolves', 1, 120, [], null, null, [], 8, [], 0, ['Wilderness Slayer Cave']),
+  new Task('Werewolves', 1, 120, [], null, null, [], 8, [], 100, ['Wilderness Slayer Cave']),
 ];
 
 export { krystiliaTasks };

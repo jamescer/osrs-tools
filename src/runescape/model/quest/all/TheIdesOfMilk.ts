@@ -2,7 +2,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const TheIdesOfMilk: Quest = {
   age: 'Fifth Age',
-  description: 'Complete a quest involving milk.',
+  description: 'Embark on a peculiar Sailing voyage to resolve a strange dispute involving a missing cargo of milk.',
   difficulty: QuestDifficulty.Novice,
   id: 1011,
   length: QuestLength.Short,
@@ -15,11 +15,11 @@ const TheIdesOfMilk: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'None',
-  shortName: 'The Ides of Milk',
-  startLocation: 'Location',
+  series: null,
+  shortName: 'theIdesOfMilk',
+  startLocation: 'Port Aldarin, Varlamore',
   status: QuestStatus.NotStarted,
-  steps: ['Complete quest'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Ides_of_Milk',
 };
 export default TheIdesOfMilk;

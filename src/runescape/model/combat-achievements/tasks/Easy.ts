@@ -1,11 +1,4 @@
-import { CombatAchievementTask, CombatAchievementTier } from '../CombatAchievement';
-
-export enum CombatAchievementTaskType {
-  KillCount = 'Kill Count',
-  Restriction = 'Restriction',
-  Mechanical = 'Mechanical',
-  Perfection = 'Perfection',
-}
+import { CombatAchievementTask, CombatAchievementTaskType, CombatAchievementTier } from '../CombatAchievement';
 
 /**
  * Easy-tier Combat Achievement tasks, authored directly in TypeScript.
@@ -74,7 +67,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Protection from Moss',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Bryophyta without suffering any poison damage.',
@@ -92,7 +85,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A Slow Death',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Bryophyta on a free to play world.',
@@ -101,7 +94,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fighting as Intended II',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Deranged Archaeologist 10 times.',
@@ -137,7 +130,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Not So Great After All',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill a Hellhound.',
@@ -164,7 +157,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Sleeping Giant',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Obor on a free to play world.',
@@ -173,7 +166,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fighting as Intended',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the King Black Dragon 10 times.',
@@ -236,7 +229,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mummy!',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Repair a brazier which has been destroyed by the Wintertodt.',
@@ -245,7 +238,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Handyman',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Subdue the Wintertodt with four pieces of warm equipment equipped.',
@@ -254,7 +247,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Cosy',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill a Wyrm.',
@@ -281,7 +274,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Master of Buckets',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Repair either a mast or a totem pole.',
@@ -290,7 +283,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Calm Before the Storm',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Attack Tempoross from both sides by loading both cannons on both ships.',
@@ -299,7 +292,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fire in the Hole!',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill a Hill Giant, Moss Giant and Fire Giant in the Giant Cave within the Shayzien region.',
@@ -326,7 +319,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Sit Rat',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill one Titan at a time, without attacking the other.',
@@ -335,7 +328,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'One by one',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Royal Titans without attacking any elementals.',
@@ -344,7 +337,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Elemental Company',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Royal Titans while having the Royal Titans kill a total of 10 elementals.',
@@ -353,7 +346,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Let them fight',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Shellbane Gryphon 25 times.',
@@ -371,7 +364,7 @@ export const EASY_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dry Cleaning',
     points: 1,
     tier: CombatAchievementTier.Easy,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Brutus.',

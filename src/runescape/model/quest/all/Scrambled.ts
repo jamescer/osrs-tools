@@ -5,7 +5,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const Scrambled: Quest = {
-  age: '',
+  age: 'Fifth Age',
   description: 'Help the Egg Shrine priest recover the lost eggs and restore the shrine.',
   difficulty: QuestDifficulty.Novice,
   id: 92,
@@ -32,12 +32,7 @@ const Scrambled: Quest = {
   shortName: 'scrambled',
   startLocation: 'Egg Shrine, south of Falador',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Speak to the Egg Shrine priest south of Falador.',
-    'Collect the lost eggs scattered around the area.',
-    'Return the eggs to the priest.',
-    'Restore the Egg Shrine.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Scrambled!',
 };
 

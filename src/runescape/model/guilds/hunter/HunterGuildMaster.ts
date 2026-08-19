@@ -8,6 +8,7 @@ export const HunterGuildMasterName = {
   GILMAN: { name: 'Gilman' },
   ORNUS: { name: 'Ornus' },
   TECO: { name: 'Teco' },
+  WOLF: { name: 'Wolf' },
 };
 
 /**
@@ -46,7 +47,7 @@ export class HunterGuildMaster {
   }
 
   get wikiUrl(): string {
-    return `https://runescape.wiki/w/${this.name}`;
+    return `https://oldschool.runescape.wiki/w/${this.name}`;
   }
 
   get isAssigned(): boolean {

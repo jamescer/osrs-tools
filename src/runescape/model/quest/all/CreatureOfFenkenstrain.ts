@@ -1,8 +1,10 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const CreatureOfFenkenstrain: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Assist Dr Fenkenstrain in his monstrous experiments by gathering body parts to construct a creature.',
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -56,10 +58,15 @@ const CreatureOfFenkenstrain: Quest = {
     Smithing: 4,
     Thieving: 25,
   },
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Priest in Peril'),
+    new QuestRequirement('The Restless Ghost'),
+    new LevelRequirement(Skill.Crafting, 20, true),
+    new LevelRequirement(Skill.Thieving, 25, true),
+  ],
   rewards: {
     areas: ["Fenkenstrain's Castle"],
-    experience: [{ amount: 1000, skill: 'Thieving' }],
+    experience: [{ amount: 1000, skill: Skill.Thieving }],
     items: [
       {
         name: 'Ring of charos',
@@ -74,7 +81,7 @@ const CreatureOfFenkenstrain: Quest = {
   },
   series: null,
   shortName: 'creatureOfFenkenstrain',
-  startLocation: '',
+  startLocation: "Dr Fenkenstrain's Castle, north of Canifis",
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain',

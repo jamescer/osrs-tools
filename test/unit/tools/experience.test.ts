@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it } from '@jest/globals';
+import { describe, expect, it } from '@jest/globals';
 import { getExperienceForLevel, getLevelForExperience, LEVEL_TO_EXPERIENCE } from 'src/runescape/tools/experience';
 
 /**
@@ -36,9 +36,9 @@ describe('Experience - Level and XP calculations', () => {
     it('should match expected milestone levels', () => {
       // Common OSRS experience checkpoints
       expect(LEVEL_TO_EXPERIENCE[10]).toBe(1154);
-      expect(LEVEL_TO_EXPERIENCE[25]).toBe(32578);
-      expect(LEVEL_TO_EXPERIENCE[50]).toBe(273742);
-      expect(LEVEL_TO_EXPERIENCE[75]).toBe(2895493);
+      expect(LEVEL_TO_EXPERIENCE[25]).toBe(7842);
+      expect(LEVEL_TO_EXPERIENCE[50]).toBe(101333);
+      expect(LEVEL_TO_EXPERIENCE[75]).toBe(1210421);
       expect(LEVEL_TO_EXPERIENCE[99]).toBe(13034431);
     });
   });
@@ -244,7 +244,7 @@ describe('Experience - Level and XP calculations', () => {
         strength: 50,
       };
 
-      for (const [skill, level] of Object.entries(skills)) {
+      for (const level of Object.values(skills)) {
         const exp = getExperienceForLevel(level);
         const recoveredLevel = getLevelForExperience(exp);
         expect(recoveredLevel).toBe(level);
@@ -307,7 +307,7 @@ describe('Experience - Level and XP calculations', () => {
         'Slayer bosses': 85,
       };
 
-      for (const [boss, level] of Object.entries(bossLevels)) {
+      for (const level of Object.values(bossLevels)) {
         const exp = getExperienceForLevel(level);
         expect(getLevelForExperience(exp)).toBe(level);
       }

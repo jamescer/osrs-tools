@@ -2,8 +2,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ObservatoryQuest: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the Professor at the Observatory repair the telescope so he can resume his astronomical research.',
   difficulty: QuestDifficulty.Novice,
   id: 76,
   length: QuestLength.ShortMedium,
@@ -28,7 +28,7 @@ const ObservatoryQuest: Quest = {
   series: null,
   shortName: 'observatoryQuest',
 
-  startLocation: '',
+  startLocation: 'Observatory Professor, Observatory',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Observatory_Quest',

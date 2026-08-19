@@ -1,4 +1,5 @@
 import { Skill } from '../../account/Skill';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
@@ -6,8 +7,8 @@ import { Quest, QuestStatus } from '../Quest';
  * Icthlarin's Little Helper is a quest in Old School RuneScape that involves assisting the god Icthlarin with various tasks. The quest is set in the desert and requires players to complete a series of challenges to earn rewards and progress through the storyline.
  */
 const IcthlarinsLittleHelper: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the god Icthlarin retrieve his escaped soul for the Sophanem temple by journeying through the Kharidian Desert.',
   difficulty: QuestDifficulty.Novice,
   id: 58,
   length: QuestLength.Medium,
@@ -18,7 +19,11 @@ const IcthlarinsLittleHelper: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Gertrude's Cat"),
+    new QuestRequirement('Priest in Peril'),
+    new QuestRequirement("Shades of Mort'ton"),
+  ],
   rewards: {
     areas: [],
     experience: [
@@ -33,10 +38,10 @@ const IcthlarinsLittleHelper: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: 'Desert',
+  series: 'Kharidian',
   shortName: 'icthlarinsLittleHelper',
 
-  startLocation: '',
+  startLocation: 'Wanderer, south of Shantay Pass',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper',

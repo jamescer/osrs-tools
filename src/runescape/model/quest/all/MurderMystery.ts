@@ -3,8 +3,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const MurderMystery: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Solve the murder of Lord Sinclair in his mansion by gathering clues and identifying the culprit.',
   difficulty: QuestDifficulty.Intermediate,
   id: 73,
   length: QuestLength.Medium,
@@ -29,7 +29,7 @@ const MurderMystery: Quest = {
   series: null,
   shortName: 'murderMystery',
 
-  startLocation: '',
+  startLocation: 'Sinclair Mansion, north of Camelot',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Murder_Mystery',

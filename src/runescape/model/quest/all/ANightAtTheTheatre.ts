@@ -1,8 +1,10 @@
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ANightAtTheTheatre: Quest = {
   age: 'Fifth Age',
-  description: 'Spend a night at the theatre.',
+  description:
+    'Survive a second run through the Theatre of Blood for unique rewards, fighting all six bosses in sequence.',
   difficulty: QuestDifficulty.Master,
   id: 1034,
   length: QuestLength.Medium,
@@ -13,13 +15,13 @@ const ANightAtTheTheatre: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [new QuestRequirement('A Theatre of Blood')],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] },
-  series: 'None',
-  shortName: 'A Night at the Theatre',
+  series: null,
+  shortName: 'aNightAtTheTheatre',
   startLocation: 'Theatre',
   status: QuestStatus.NotStarted,
-  steps: ['Spend night'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/A_Night_at_the_Theatre',
 };
 export default ANightAtTheTheatre;

@@ -1,4 +1,4 @@
-import { CombatAchievementTask, CombatAchievementTier } from '../CombatAchievement';
+import { CombatAchievementTask, CombatAchievementTaskType, CombatAchievementTier } from '../CombatAchievement';
 
 /**
  * Master-tier Combat Achievement tasks, authored directly in TypeScript.
@@ -13,7 +13,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Collateral Damage',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -23,7 +23,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Swoop No More',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Skotizo with the final source of damage being a Chinchompa explosion.',
@@ -32,7 +32,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Precise Positioning',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Cerberus 150 times.',
@@ -41,7 +41,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Cerberus Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Cerberus without any of the Summoned Souls being spawned.',
@@ -50,7 +50,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Arooo No More',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Corporeal Beast 50 times.',
@@ -59,7 +59,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Corporeal Beast Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -69,7 +69,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Grotesque Guardians II',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Grotesque Guardians in less than 1:40 minutes.',
@@ -78,7 +78,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Grotesque Guardians Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Grotesque Guardians 20 times without leaving the instance.',
@@ -87,7 +87,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "... 'til Dawn",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Complete the Corrupted Gauntlet 10 times.',
@@ -96,7 +96,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Corrupted Gauntlet Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -106,7 +106,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Corrupted Hunllef',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Corrupted Hunllef without making any armour within the Corrupted Gauntlet.',
@@ -115,7 +115,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Defence Doesn't Matter II",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Corrupted Hunllef with a full set of perfected corrupted armour equipped.',
@@ -124,7 +124,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Corrupted Warrior',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete a Corrupted Gauntlet in less than 7 minutes and 30 seconds.',
@@ -133,7 +133,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Corrupted Gauntlet Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Gauntlet 20 times.',
@@ -142,7 +142,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Gauntlet Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -152,7 +152,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Crystalline Hunllef',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Crystalline Hunllef without making any armour within the Gauntlet.',
@@ -161,7 +161,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Defence Doesn't Matter",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete the Gauntlet in less than 5 minutes.',
@@ -170,7 +170,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Gauntlet Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Hespori in less than 36 seconds.',
@@ -179,7 +179,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hespori Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Alchemical Hydra 150 times.',
@@ -188,7 +188,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Alchemical Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Alchemical Hydra without being hit by the acid pool attack.',
@@ -197,7 +197,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Unrequired Antipoisons',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Alchemical Hydra without being hit by the lightning attack.',
@@ -206,7 +206,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Lightning Lure',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Alchemical Hydra without being hit by the flame wall attack.',
@@ -215,7 +215,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Don't Flame Me",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Alchemical Hydra without empowering it.',
@@ -224,7 +224,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mixing Correctly',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Alchemical Hydra without letting it spawn a flame wall attack.',
@@ -233,7 +233,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Flame Skipper',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Alchemical Hydra without taking any damage.',
@@ -242,7 +242,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Alcleanical Hydra',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Alchemical Hydra in less than 1 minute 45 seconds.',
@@ -251,7 +251,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Alchemical Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Alchemical Hydra 15 times without leaving the room.',
@@ -260,7 +260,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Working Overtime',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Complete the Fight Caves 5 times.',
@@ -269,7 +269,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fight Caves Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Fight caves without letting any of the Yt-MejKot heal.',
@@ -278,7 +278,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Denying the Healers',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Fight Caves without being attacked by a Tz-Kih.',
@@ -287,7 +287,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "You Didn't Say Anything About a Bat",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Fight Caves in less than 30 minutes.',
@@ -296,7 +296,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fight Caves Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Kraken 100 times in a private instance without leaving the room.',
@@ -305,7 +305,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'One Hundred Tentacles',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill The Nightmare 50 times.',
@@ -314,7 +314,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -324,7 +324,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Nightmare',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Defeat the Nightmare (Solo) in less than 19 minutes.',
@@ -333,7 +333,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare (Solo) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Defeat the Nightmare (5-scale) in less than 4 minutes.',
@@ -342,7 +342,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare (5-Scale) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Commander Zilyana in a private instance without attacking her directly.',
@@ -351,7 +351,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Moving Collateral',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Zulrah 150 times.',
@@ -360,7 +360,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Zulrah Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -370,7 +370,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Zulrah',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Zulrah in less than 1 minute, without a slayer task.',
@@ -379,7 +379,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Zulrah Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood 75 times.',
@@ -388,7 +388,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre of Blood Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Pestilent Bloat before he shuts down for the third time.',
@@ -397,7 +397,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Two-Down',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Verzik without any Nylocas being frozen and without anyone taking damage from the Nylocas.',
@@ -406,7 +406,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Pop It',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -416,7 +416,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A Timely Snack',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -426,7 +426,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Maiden',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -436,7 +436,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Bloat',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -446,7 +446,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Nylocas',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -456,7 +456,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Sotetseg',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -466,7 +466,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Xarpus',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -476,7 +476,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Verzik',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill The Maiden of Sugadinti without anyone in the team losing any prayer points.',
@@ -485,7 +485,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Can't Drain This",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Xarpus without anyone in the team using a ranged or magic weapon.',
@@ -494,7 +494,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Can You Dance?',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete the Theatre of Blood without any member of the team equipping a Scythe of Vitur.',
@@ -503,7 +503,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Back in My Day...',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete the Theatre of Blood (Trio) in less than 20 minutes.',
@@ -512,7 +512,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre (Trio) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood (4-scale) in less than 17 minutes.',
@@ -521,7 +521,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre (4-Scale) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood (5-scale) in less than 16 minutes.',
@@ -530,7 +530,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre (5-Scale) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Vorkath 100 times.',
@@ -539,7 +539,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vorkath Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -549,7 +549,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Walk',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -559,7 +559,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dodging the Dragon',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Vorkath in less than 1 minute and 15 seconds.',
@@ -568,7 +568,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vorkath Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Vorkath 10 times without leaving his area.',
@@ -577,7 +577,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Extended Encounter',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Complete the Chambers of Xeric: Challenge Mode 10 times.',
@@ -586,7 +586,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric: CM Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete a Chambers of Xeric: Challenge mode raid without anyone dying.',
@@ -595,7 +595,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Immortal Raid Team',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete a Chambers of Xeric Challenge mode (Solo) raid without dying.',
@@ -604,7 +604,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Immortal Raider',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete a Chambers of Xeric: Challenge Mode (Solo) in less than 45 minutes.',
@@ -613,7 +613,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric: CM (Solo) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete a Chambers of Xeric: Challenge Mode (5-scale) in less than 30 minutes.',
@@ -622,7 +622,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric: CM (5-Scale) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete a Chambers of Xeric: Challenge Mode (Trio) in less than 35 minutes.',
@@ -631,7 +631,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric: CM (Trio) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Chambers of Xeric 75 times.',
@@ -640,7 +640,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Clear the Tightrope room without Killing any Deathly Mages or Deathly Rangers.',
@@ -649,7 +649,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'No Time for Death',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete a Chambers of Xeric solo raid with more than 40,000 points.',
@@ -658,7 +658,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Putting It Olm on the Line',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -668,7 +668,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A Not So Special Lizard',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Vasa Nistirio before he performs his teleport attack for the second time.',
@@ -677,7 +677,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Stop Drop and Roll',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Tekton before he returns to his anvil for a second time after the fight begins.',
@@ -686,7 +686,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Anvil No More',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete a Chambers of Xeric solo raid without dying.',
@@ -695,7 +695,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Undying Raider',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Clear the Crystal Crabs room without wasting an orb after the first crystal has been activated.',
@@ -704,7 +704,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Playing with Lasers',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -714,7 +714,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Olm (Solo)',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -724,7 +724,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Olm (Trio)',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Tekton without taking any damage.',
@@ -733,7 +733,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Blind Spot',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete a Chambers of Xeric (Solo) in less than 21 minutes.',
@@ -742,7 +742,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric (Solo) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete a Chambers of Xeric (5-scale) in less than 15 minutes.',
@@ -751,7 +751,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric (5-Scale) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete a Chambers of Xeric (Trio) in less than 16 minutes and 30 seconds.',
@@ -760,7 +760,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chambers of Xeric (Trio) Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Tzkal-Zuk without letting a pillar fall before wave 67.',
@@ -769,7 +769,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nibblers, Begone!',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Complete TzHaar-Ket-Rak's fourth challenge.",
@@ -778,7 +778,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The IV Jad Challenge',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Complete TzHaar-Ket-Rak's third challenge in less than 3 minutes.",
@@ -787,7 +787,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "TzHaar-Ket-Rak's Speed-Chaser",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Complete TzHaar-Ket-Rak's fourth challenge with only melee.",
@@ -796,7 +796,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Facing Jad Head-on IV',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: "Complete TzHaar-Ket-Rak's third challenge without having anything in your inventory.",
@@ -805,7 +805,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Supplies? Who Needs 'em?",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Complete TzHaar-Ket-Rak's third challenge while using a different attack style for each JalTok-Jad.",
@@ -814,7 +814,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Multi-Style Specialist',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Theatre of Blood: Hard Mode within the challenge time.',
@@ -823,7 +823,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hard Mode? Completed It',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Complete the Theatre of Blood: Entry Mode in less than 17 minutes.',
@@ -832,7 +832,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre of Blood: SM Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Kill Phosani's Nightmare 5 times.",
@@ -841,7 +841,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Phosani's Master",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Kill Phosani's Nightmare within 7 minutes and 30 seconds.",
@@ -850,7 +850,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Phosani's Speedchaser",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: "Kill Phosani's Nightmare while killing every parasite and husk in one hit.",
@@ -859,7 +859,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Crush Hour',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Kill Phosani's Nightmare without allowing your prayer to be disabled.",
@@ -868,7 +868,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'I Would Simply React',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Kill Phosani's Nightmare without a sleepwalker reaching her during her desperation phase.",
@@ -877,7 +877,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dreamland Express',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Nex 25 times.',
@@ -886,7 +886,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nex Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Nex without letting her heal from her Blood Siphon special attack.',
@@ -895,7 +895,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'A siphon will solve this',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Nex without anyone taking damage from any Ice special attack.',
@@ -904,7 +904,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Contain this!',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Nex without anyone being hit by the Smoke Dash special attack.',
@@ -913,7 +913,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'There is no escape!',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Nex with three or less players at the start of the fight.',
@@ -922,7 +922,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nex Trio',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Nex without anyone being hit by the Shadow Smash attack.',
@@ -931,7 +931,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Shadows Move...',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Tombs of Amascut (normal) within 18 mins at any group size.',
@@ -940,7 +940,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Tombs Speed Runner',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description:
@@ -950,7 +950,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'You are not prepared',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -960,7 +960,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Resourceful Raider',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -970,7 +970,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'But... Damage',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat Zebak using only melee attacks and without dying yourself.',
@@ -979,7 +979,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chompington',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -989,7 +989,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fancy feet',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -999,7 +999,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Akkha',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -1009,7 +1009,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Ba-Ba',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -1019,7 +1019,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Zebak',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete the Scabaras room in less than a minute without anyone taking any damage from puzzles.',
@@ -1028,7 +1028,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Scabaras',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -1038,7 +1038,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Kephri',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description:
@@ -1048,7 +1048,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Wardens',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Complete the Tombs of Amascut raid at level 350 or above without anyone dying.',
@@ -1057,7 +1057,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Something of an expert myself',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -1067,7 +1067,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Ba-Bananza',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -1077,7 +1077,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Rockin' around the croc",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -1087,7 +1087,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Doesn't bug me",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -1097,7 +1097,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'All out of medics',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -1107,7 +1107,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Better get movin'",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -1117,7 +1117,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Warden't you believe it",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Tombs of Amascut 25 times.',
@@ -1126,7 +1126,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Tomb Looter',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Tombs of Amascut 50 times.',
@@ -1135,7 +1135,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Tomb Raider',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Tombs of Amascut (Expert mode) 25 times.',
@@ -1144,7 +1144,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Expert Tomb Looter',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Phantom Muspah by only dealing damage to it with a salamander.',
@@ -1153,7 +1153,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'More than just a ranged weapon',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Phantom Muspah 10 times in one trip.',
@@ -1162,7 +1162,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Essence Farmer',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill the Phantom Muspah in less than 2 minutes without a slayer task.',
@@ -1171,7 +1171,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Phantom Muspah Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Phantom Muspah 50 times.',
@@ -1180,7 +1180,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Phantom Muspah Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Phantom Muspah whilst it is surrounded by spikes.',
@@ -1189,7 +1189,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Space is Tight',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Phantom Muspah without taking any avoidable damage.',
@@ -1198,7 +1198,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Walk Straight Pray True',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Vardorvis in less than 1:05 without a slayer task.',
@@ -1207,7 +1207,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vardorvis Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Vardorvis 50 times.',
@@ -1216,7 +1216,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Vardorvis Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Vardorvis perfectly 5 times without leaving.',
@@ -1225,7 +1225,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Vardorvis',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Vardorvis with gear worth 2m or less in total.',
@@ -1234,7 +1234,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Budget Cutter',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Whisperer in less than 2:25 without a slayer task.',
@@ -1243,7 +1243,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Whisperer Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Whisperer 50 times.',
@@ -1252,7 +1252,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Whisperer Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Whisperer without taking avoidable damage 5 times without leaving.',
@@ -1261,7 +1261,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Whisperer',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Leviathan in less than 1:25 without a slayer task.',
@@ -1270,7 +1270,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Leviathan Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill the Leviathan 50 times.',
@@ -1279,7 +1279,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Leviathan Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Leviathan perfectly 5 times without leaving.',
@@ -1288,7 +1288,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Leviathan',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Leviathan without stunning the boss more than once.',
@@ -1297,7 +1297,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Serpentine Solo',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Duke Sucellus in less than 50 seconds without a slayer task.',
@@ -1306,7 +1306,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Duke Sucellus Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Duke Sucellus 50 times.',
@@ -1315,7 +1315,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Duke Sucellus Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Duke Sucellus without taking any avoidable damage 5 times without leaving.',
@@ -1324,7 +1324,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Duke Sucellus',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Duke Sucellus without taking any avoidable damage, whilst also never running.',
@@ -1333,7 +1333,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Cold Feet',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat Sol Heredit once.',
@@ -1342,7 +1342,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Sportsmanship',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat Sol Heredit using only a Spear, Hasta or Halberd.',
@@ -1351,7 +1351,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'I Brought Mine Too',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -1361,7 +1361,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Showboating',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Complete Wave 11 with either 'Red Flag', 'Dynamic Duo', or 'Doom II' active.",
@@ -1370,7 +1370,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'One-off',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Colosseum with a total time of 28:00 or less.',
@@ -1379,7 +1379,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Colosseum Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill three Tormented Demons within 3 seconds.',
@@ -1388,7 +1388,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Three Times the Thrashing',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Araxxor 75 times.',
@@ -1397,7 +1397,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Araxxor Master',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Araxxor 5 times in 10:00.',
@@ -1406,7 +1406,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Araxxor Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description:
@@ -1416,7 +1416,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Araxxor',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Araxxor without ever having venom or poison immunity.',
@@ -1425,7 +1425,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Let it seep in',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Have an Araxyte kill three other Araxytes.',
@@ -1434,7 +1434,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Araxyte Betrayal',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Araxxor 10 times without leaving.',
@@ -1443,7 +1443,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Arachnid Lover',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill the Hueycoatl using only dragonbane weaponry.',
@@ -1452,7 +1452,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Is it a bird?',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Hueycoatl in 2:30 with five or fewer players.',
@@ -1461,7 +1461,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hueycoatl Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Defeat Yama 50 times.',
@@ -1470,7 +1470,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Yama Veteran',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat Yama in an average time of under 3:00 over your last four kills.',
@@ -1479,7 +1479,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Yama Speed-Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description:
@@ -1489,7 +1489,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'No toppings, no drinks, thanks',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -1499,7 +1499,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Shadow dancer',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Defeat Yama without getting hit by fire and having only killed void flares with special attacks.',
@@ -1508,7 +1508,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fire fighter',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl at delve level 8.',
@@ -1517,7 +1517,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Doom Veteran',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl at level 8 or above before he finishes the first burrow phase.',
@@ -1526,7 +1526,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Mokhaiotl Drift',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl levels 1-8 without ever letting a grub be absorbed.',
@@ -1535,7 +1535,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Grub Patrol',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl levels 1-8 whilst always wearing a shield.',
@@ -1544,7 +1544,7 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Mine's Better",
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat the Doom of Mokhaiotl levels 1-8 in less than 10:00.',
@@ -1553,6 +1553,6 @@ export const MASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Doom Chaser',
     points: 5,
     tier: CombatAchievementTier.Master,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
 ];

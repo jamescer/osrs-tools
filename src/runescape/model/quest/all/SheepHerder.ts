@@ -1,9 +1,10 @@
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const SheepHerder: Quest = {
-  age: 'First Age',
-  description: 'Help a farmer herd sheep and manage a farm in the countryside.',
+  age: 'Fifth Age',
+  description: 'Doctor Orbon in East Ardougne needs your help — plague-infected sheep have wandered into the city and must be rounded up and incinerated before they spread disease.',
   difficulty: QuestDifficulty.Novice,
   id: 97,
   length: QuestLength.Short,
@@ -14,10 +15,10 @@ const SheepHerder: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [new QuestRequirement('Biohazard')],
   rewards: {
     areas: [],
-    experience: [{ amount: 1200, skill: 'Herding' }],
+    experience: [],
     items: [{ name: 'Experience lamp' }],
     lamps: [],
     pets: [],
@@ -28,16 +29,9 @@ const SheepHerder: Quest = {
   series: null,
   shortName: 'sheepHerder',
 
-  startLocation: 'Catherby farm',
+  startLocation: 'Dr Orbon, East Ardougne church courtyard',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to Catherby farm.',
-    'Speak to the farmer.',
-    'Learn about the sheep escaping.',
-    'Gather and herd the sheep.',
-    'Return them to the farm.',
-    'Complete the herding task.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Sheep_Herder',
 };
 

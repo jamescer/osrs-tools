@@ -1,6 +1,7 @@
-import { ItemRequirement, LevelRequirement, QuestRequirement, Requirement } from '../Requirement';
+import { ItemRequirement, Requirement } from '../Requirement';
 import { ArdougneDiary as typedArdougneDiary } from './ardougne/Ardougne';
 import { DesertDiary as typedDesertDiary } from './desert/Desert';
+import { FaladorDiary as typedFaladorDiary } from './falador/Falador';
 import { FremennikDiary as typedFremennikDiary } from './fremennik/Fremennik';
 import { KandarinDiary as typedKandarinDiary } from './kandarin/Kandarin';
 import { KaramjaDiary as typedKaramjaDiary } from './karamja/Karamja';
@@ -8,6 +9,7 @@ import { KourendKebosDiary as typedKourendKebosDiary } from './kourend-kebos/Kou
 import { LumbridgeDraynorDiary as typedLumbridgeDraynorDiary } from './lumbridge-draynor/LumbridgeDraynor';
 import { MorytaniaDiary as typedMorytaniaDiary } from './morytania/Morytania';
 import { VarrockDiary as typedVarrockDiary } from './varrock/Varrock';
+import { WesternProvincesDiary as typedWesternProvincesDiary } from './western-provinces/WesternProvinces';
 import { WildernessDiary as typedWildernessDiary } from './wilderness/Wilderness';
 
 export interface DiaryTask {
@@ -16,14 +18,36 @@ export interface DiaryTask {
   notes?: string;
 }
 
+export interface DiaryRewardDescription {
+  main: string;
+  other: string[];
+}
+
+export interface DiaryRewardLamp {
+  amount: number;
+  experience: number;
+  levelToUse: number;
+}
+
+export interface DiaryRewards {
+  description: DiaryRewardDescription[];
+  lamps?: DiaryRewardLamp[];
+}
+
+export interface DiarySkillRequirement {
+  skill: string;
+  level: number;
+  boostable: boolean;
+}
+
 export interface DiaryLevel {
   itemReward?: string;
-  rewards?: any;
+  rewards?: DiaryRewards;
   tasks: DiaryTask[];
   itemsRequired?: string[];
   itemRequirements?: ItemRequirement[];
   questsRequired?: string[];
-  skillsRequired?: any[];
+  skillsRequired?: DiarySkillRequirement[];
 }
 
 /**
@@ -40,7 +64,7 @@ export interface DiaryLevel {
 export interface Diary {
   name: string;
   itemReward?: string;
-  rewards?: any;
+  rewards?: DiaryRewards;
   easy: DiaryLevel;
   medium: DiaryLevel;
   hard: DiaryLevel;
@@ -63,6 +87,7 @@ export function getAllDiaries(): Diary[] {
 const diaries: Record<string, Diary> = {
   'Ardougne Diary': typedArdougneDiary,
   'Desert Diary': typedDesertDiary,
+  'Falador Diary': typedFaladorDiary,
   'Fremennik Diary': typedFremennikDiary,
   'Kandarin Diary': typedKandarinDiary,
   'Karamja Diary': typedKaramjaDiary,
@@ -70,6 +95,7 @@ const diaries: Record<string, Diary> = {
   'Lumbridge & Draynor Diary': typedLumbridgeDraynorDiary,
   'Morytania Diary': typedMorytaniaDiary,
   'Varrock Diary': typedVarrockDiary,
+  'Western Provinces Diary': typedWesternProvincesDiary,
   'Wilderness Diary': typedWildernessDiary,
 };
 
@@ -77,6 +103,7 @@ export default diaries;
 
 export const ArdougneDiary = diaries['Ardougne Diary'];
 export const DesertDiary = diaries['Desert Diary'];
+export const FaladorDiary = diaries['Falador Diary'];
 export const FremennikDiary = diaries['Fremennik Diary'];
 export const KandarinDiary = diaries['Kandarin Diary'];
 export const KaramjaDiary = diaries['Karamja Diary'];
@@ -84,4 +111,5 @@ export const KourendKebosDiary = diaries['Kourend & Kebos Diary'];
 export const LumbridgeDraynorDiary = diaries['Lumbridge & Draynor Diary'];
 export const MorytaniaDiary = diaries['Morytania Diary'];
 export const VarrockDiary = diaries['Varrock Diary'];
+export const WesternProvincesDiary = diaries['Western Provinces Diary'];
 export const WildernessDiary = diaries['Wilderness Diary'];

@@ -13,7 +13,7 @@ describe('HunterGuildMaster', () => {
   it('reports wiki url and assignment state', () => {
     const master = new HunterGuildMaster('Test Master', 'Novice', 1);
 
-    expect(master.wikiUrl).toBe('https://runescape.wiki/w/Test Master');
+    expect(master.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Test Master');
     expect(master.isAssigned).toBe(false);
 
     master.assignRumour('test-rumour');

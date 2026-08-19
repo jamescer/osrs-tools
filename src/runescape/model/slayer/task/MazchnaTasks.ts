@@ -1,6 +1,6 @@
 import { Skill } from '../../account/Skill';
 import { CombatLevelRequirement, LevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
-import { Task } from '../Task';
+import { Task } from '../core/Task';
 
 const mazchnaTasks: Task[] = [
   new Task(
@@ -12,8 +12,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Twisted Banshee'],
     8,
-    [],
-    0,
+    [], 32.5,
     ['Slayer Tower (CKS)'],
   ),
   new Task(
@@ -25,8 +24,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Giant bat', 'Albino bat', 'Death wing'],
     7,
-    [],
-    0,
+    [], 8,
     ['Silvarea, North of Digsite'],
   ),
   new Task(
@@ -38,24 +36,11 @@ const mazchnaTasks: Task[] = [
     null,
     ['Grizzly bear cub', 'Bear cub', 'Grizzly bear', 'Callisto'],
     6,
-    [],
-    0,
+    [], 20,
     ["South-west of Legends' Guild (cannon)"],
   ),
-  new Task(
-    'Catablepon',
-    20,
-    30,
-    [new CombatLevelRequirement(35)],
-    null,
-    null,
-    [],
-    8,
-    [],
-    0,
-    ['Catacombs of Kourend'],
-  ),
-  new Task('Cave bugs', 10, 20, [new SlayerLevelRequirement(7)], null, null, [], 8, [], 0, [
+  new Task('Catablepon', 20, 30, [new CombatLevelRequirement(35)], null, null, [], 8, [], 25, ['Catacombs of Kourend']),
+  new Task('Cave bugs', 10, 20, [new SlayerLevelRequirement(7)], null, null, [], 8, [], 8, [
     'Dorgesh-Kaan South Dungeon (AJQ)',
   ]),
   new Task(
@@ -67,8 +52,7 @@ const mazchnaTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 22.5,
     ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
@@ -80,8 +64,7 @@ const mazchnaTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 12,
     ['Dorgesh-Kaan South Dungeon (AJQ)'],
   ),
   new Task(
@@ -93,8 +76,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Moonlight Cockatrice'],
     8,
-    [],
-    0,
+    [], 37.5,
     ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
@@ -106,8 +88,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Ammonite crabs', 'Frost crabs', 'Rock crabs', 'Sand crabs', 'Swamp crabs'],
     8,
-    [],
-    0,
+    [], 12,
     ['Rellekka'],
   ),
   new Task(
@@ -119,8 +100,7 @@ const mazchnaTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 14.5,
     ['Slayer Tower (CKS)'],
   ),
   new Task(
@@ -132,11 +112,10 @@ const mazchnaTasks: Task[] = [
     null,
     ['Jackal', 'Guard dog', 'Wild dog'],
     7,
-    [],
-    0,
+    [], 5,
     ["East of Sophanem (Pharaoh's sceptre - Jaleustrophos)"],
   ),
-  new Task('Flesh Crawlers', 15, 25, [new CombatLevelRequirement(15)], null, null, [], 7, [], 0, [
+  new Task('Flesh Crawlers', 15, 25, [new CombatLevelRequirement(15)], null, null, [], 7, [], 18.5, [
     'Stronghold of Security',
   ]),
   new Task(
@@ -148,8 +127,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Tortured soul', 'Forgotten Soul', 'Revenants', 'Death wing'],
     7,
-    [],
-    0,
+    [], 13.5,
     ['Catacombs of Kourend'],
   ),
   new Task(
@@ -161,18 +139,17 @@ const mazchnaTasks: Task[] = [
     null,
     [],
     7,
-    [],
-    0,
+    [], 30,
     ['West of Canifis'],
   ),
-  new Task('Hill Giants', 30, 50, [new CombatLevelRequirement(25)], null, null, ['Obor', 'Cyclops'], 7, [], 0, [
+  new Task('Hill Giants', 30, 50, [new CombatLevelRequirement(25)], null, null, ['Obor', 'Cyclops'], 7, [], 28, [
     'Edgeville Dungeon',
   ]),
-  new Task('Hobgoblins', 30, 50, [new CombatLevelRequirement(20)], null, null, [], 7, [], 0, [
+  new Task('Hobgoblins', 30, 50, [new CombatLevelRequirement(20)], null, null, [], 7, [], 23, [
     "South of Champions' Guild",
     'Corsair Cove Dungeon',
   ]),
-  new Task('Ice warriors', 40, 50, [new CombatLevelRequirement(45)], null, null, ['Icelords'], 7, [], 0, [
+  new Task('Ice warriors', 40, 50, [new CombatLevelRequirement(45)], null, null, ['Icelords'], 7, [], 40, [
     'Asgarnian Ice Dungeon',
   ]),
   new Task(
@@ -184,8 +161,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Kalphite worker', 'Kalphite soldier', 'Kalphite guardian', 'Kalphite Queen'],
     6,
-    [],
-    0,
+    [], 40,
     ['Kalphite Cave'],
   ),
   new Task(
@@ -197,8 +173,7 @@ const mazchnaTasks: Task[] = [
     null,
     [],
     6,
-    [],
-    0,
+    [], 50,
     ['Abandoned Mine (west of Yanille)'],
   ),
   new Task(
@@ -210,25 +185,19 @@ const mazchnaTasks: Task[] = [
     null,
     ['Small Lizard', 'Desert Lizard', 'Sulphur Lizard', 'Grimy Lizard'],
     8,
-    [],
-    0,
+    [], 15,
     ['North of Nardah Fairy Ring (DLQ)', 'Karuulm Slayer Dungeon'],
   ),
   new Task(
     'Mogres',
     30,
     50,
-    [
-      new SlayerLevelRequirement(32),
-      new CombatLevelRequirement(30),
-      new QuestRequirement('Skippy and the Mogres'),
-    ],
+    [new SlayerLevelRequirement(32), new CombatLevelRequirement(30), new QuestRequirement('Skippy and the Mogres')],
     null,
     null,
     [],
     8,
-    [],
-    0,
+    [], 40,
     ['Mudskipper Point'],
   ),
   new Task(
@@ -240,8 +209,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Pyrelords'],
     8,
-    [],
-    0,
+    [], 50,
     ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
@@ -253,8 +221,7 @@ const mazchnaTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 26,
     ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
@@ -266,8 +233,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['King Scorpion', 'Poison Scorpion', 'Pit Scorpion', 'Scorpia', "Scorpia's offspring", "Scorpia's guardian"],
     7,
-    [],
-    0,
+    [], 12,
     ['Al Kharid Mine', 'Dwarven Mine'],
   ),
   new Task(
@@ -279,8 +245,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Loar Shades', 'Phrin Shades', 'Riyl Shades', 'Asyn Shades', 'Fiyr Shades', 'Urium Shades'],
     8,
-    [],
-    0,
+    [], 40,
     ["Mort'ton"],
   ),
   new Task(
@@ -292,8 +257,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Skeleton mage', 'Skeletons in the Stronghold of Security and Ancient Cavern', "Vet'ion"],
     7,
-    [],
-    0,
+    [], 18,
     ['Digsite Dungeon', 'Catacombs of Kourend', 'Edgeville Dungeon'],
   ),
   new Task(
@@ -305,8 +269,7 @@ const mazchnaTasks: Task[] = [
     250,
     ['Feral Vampyre', 'Vampyre Juvinate', 'Vyrewatch', 'Vyrewatch Sentinel', 'Venator'],
     6,
-    [],
-    0,
+    [], 87,
     ['Meiyerditch'],
   ),
   new Task(
@@ -318,8 +281,7 @@ const mazchnaTasks: Task[] = [
     null,
     [],
     7,
-    [],
-    0,
+    [], 35,
     ['Lumbridge Swamp Caves'],
   ),
   new Task(
@@ -331,8 +293,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Big Wolf', 'Desert Wolf', 'Ice wolf', 'Jungle wolf', 'White wolf'],
     7,
-    [],
-    0,
+    [], 8,
     ['White Wolf Mountain', 'Stronghold of Security'],
   ),
   new Task(
@@ -344,8 +305,7 @@ const mazchnaTasks: Task[] = [
     null,
     ['Monkey Zombie', 'Undead chicken', 'Undead cow', 'Undead one', 'Vorkath', 'Undead Druid'],
     7,
-    [],
-    0,
+    [], 13.5,
     ["Alice's Farm West of Ectofuntus"],
   ),
 ];

@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheDepthsOfDespair: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Investigate the source of a disease afflicting the Port Piscarilius fishing industry.',
   difficulty: QuestDifficulty.Intermediate,
   id: 105,
   length: QuestLength.Short,
@@ -15,7 +16,7 @@ const TheDepthsOfDespair: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement('Agility', 18, false)],
+  requirements: [new QuestRequirement('Client of Kourend'), new LevelRequirement(Skill.Agility, 18, false)],
   rewards: {
     areas: [],
     experience: [],
@@ -29,7 +30,7 @@ const TheDepthsOfDespair: Quest = {
   series: 'Great Kourend',
   shortName: 'theDepthsOfDespair',
 
-  startLocation: '',
+  startLocation: 'Lord Kandur Hosidius, Hosidius',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Depths_of_Despair',

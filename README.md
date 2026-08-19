@@ -57,7 +57,7 @@ import { CombatAchievementTool } from "osrs-tools/combat-achievements";
 | Validation | `osrs-tools/utils` | Skill/level validation, `ValidationError` |
 | Clues, items, guilds, leagues | root `osrs-tools` import | `ClueScrollHelper`, `Item`, `HunterGuild`, league data |
 
-For the full API surface and source layout, see [summary.md](./summary.md).
+For the full API surface and source layout, see [docs/PROJECT_OVERVIEW.md](./docs/PROJECT_OVERVIEW.md).
 
 ## Development
 
@@ -77,7 +77,7 @@ npm test
 | `npm run format` | Format with Prettier |
 | `npm run changeset` | Record a change for the next release |
 
-See [dev_setup.md](./dev_setup.md) for the full setup and release workflow.
+See [docs/DEVELOPMENT.md](./docs/DEVELOPMENT.md) for the full setup and release workflow.
 
 ## Contributing
 
@@ -89,7 +89,7 @@ Contributions are welcome. We use [Conventional Commits](https://www.conventiona
 4. `npm run changeset` to record a changelog entry
 5. Open a pull request
 
-Please also review our [Code of Conduct](./code-of-conduct.md) and [Security Policy](./SECURITY.md).
+Please also review our [Code of Conduct](./docs/CODE_OF_CONDUCT.md) and [Security Policy](./docs/SECURITY.md).
 
 ## License
 

@@ -3,8 +3,8 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const MakingHistory: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Investigate the history of Outpost and Ardougne by speaking to ghosts and finding lost records across Gielinor.',
   difficulty: QuestDifficulty.Intermediate,
   id: 67,
   length: QuestLength.Medium,
@@ -29,7 +29,7 @@ const MakingHistory: Quest = {
   series: null,
   shortName: 'makingHistory',
 
-  startLocation: '',
+  startLocation: 'Jorral, outpost west of Ardougne',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Making_History',

@@ -16,11 +16,11 @@ const RomeoAndJuliet: Quest = {
   recommendedSkills: {},
   requirements: [],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 5, unlocks: [] },
-  series: 'None',
-  shortName: 'Romeo & Juliet',
+  series: null,
+  shortName: 'romeoAndJuliet',
   startLocation: 'Varrock',
   status: QuestStatus.NotStarted,
-  steps: ['Help Romeo win over Juliet'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Romeo_%26_Juliet',
 };
 export default RomeoAndJuliet;

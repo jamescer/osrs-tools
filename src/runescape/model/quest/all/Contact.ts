@@ -1,14 +1,14 @@
 import { Skill } from '../../account/Skill';
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const Contact: Quest = {
   age: 'Fifth Age',
   description: 'Make contact with a high priest in the desert and complete a sacred mission.',
-  difficulty: QuestDifficulty.Master,
+  difficulty: QuestDifficulty.Experienced,
   id: 18,
-  length: QuestLength.Medium,
+  length: QuestLength.Short,
   members: true,
   miniquest: false,
   name: 'Contact!',
@@ -40,8 +40,6 @@ const Contact: Quest = {
   requirements: [
     new QuestRequirement('Prince Ali Rescue'),
     new QuestRequirement("Icthlarin's Little Helper"),
-    new LevelRequirement('Agility', 50, false),
-    new LevelRequirement('Thieving', 50, false),
   ],
   rewards: {
     areas: ['Sophanem'],
@@ -62,18 +60,11 @@ const Contact: Quest = {
     questPoints: 1,
     unlocks: [{ description: 'Access to Sophanem shops' }, { description: 'Unlocks Giant scarab in Nightmare Zone' }],
   },
-  series: 'Desert',
+  series: 'Kharidian',
   shortName: 'contact',
-  startLocation: 'Sophanem, in a chamber beneath the temple',
+  startLocation: 'High Priest of Icthlarin, Sophanem',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to Sophanem temple.',
-    'Navigate through the temple dungeons.',
-    'Meet with the high priest.',
-    'Receive the sacred mission.',
-    'Gather artifacts and complete rituals.',
-    'Return to the priest and complete the contact.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Contact!',
 };
 

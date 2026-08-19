@@ -3,7 +3,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const GoblinDiplomacy: Quest = {
-  age: 'First Age',
+  age: 'Fifth Age',
   description: 'Help negotiate peace between feuding goblin generals.',
   difficulty: QuestDifficulty.Novice,
   id: 51,
@@ -31,14 +31,7 @@ const GoblinDiplomacy: Quest = {
 
   startLocation: 'Goblin village, north of Falador',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to the goblin village north of Falador.',
-    'Talk to the goblin generals and learn about their conflict.',
-    'Gather materials to craft peace items.',
-    'Create the diplomatic gifts using your Crafting skills.',
-    'Present the gifts to both generals.',
-    'Help resolve the conflict between the goblins.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Goblin_Diplomacy',
 };
 

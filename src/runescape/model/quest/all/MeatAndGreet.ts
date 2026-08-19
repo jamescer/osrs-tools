@@ -5,7 +5,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const MeatAndGreet: Quest = {
-  age: '',
+  age: 'Fifth Age',
   description: 'Help the Varrock Cook prepare a feast by gathering special meats from around Gielinor.',
   difficulty: QuestDifficulty.Novice,
   id: 68,
@@ -33,12 +33,7 @@ const MeatAndGreet: Quest = {
 
   startLocation: 'Varrock Square, speak to the Cook',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Speak to the Cook in Varrock Square.',
-    'Collect special meats from various locations.',
-    'Return the meats to the Cook.',
-    'Assist in preparing the feast.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Meat_and_Greet',
 };
 

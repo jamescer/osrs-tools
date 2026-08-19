@@ -3,22 +3,21 @@
  * Central location for task-related constants and helper functions
  */
 
-import { SlayerBoss, SlayerLocation } from '../core/types';
-
 /**
  * Common slayer experience rewards per monster kill
  * These are standard values used across most tasks
  */
 export const SLAYER_EXP_RATES = {
+  // Demons (greater demons, black demons, etc.)
   DEMON: 15,
-  // Demons (demons, greater demons, black demons, etc.)
+  // Dragons (metal dragons, black dragons, etc.)
   DRAGON: 20,
-  // Wyverns
+  // Wyverns (skeletal wyverns, fossil island wyverns)
+  WYVERN: 25,
+  // Kraken
   KRAKEN: 30,
-
+  // Placeholder — per-monster exp varies and has not been populated
   STANDARD: 0,
-  // Dragons
-  WYVERN: 25, // Kraken
 } as const;
 
 /**
@@ -48,27 +47,6 @@ export enum MonsterType {
   CREATURE = 'Creature',
   SPEC = 'Boss/Spec',
 }
-
-/**
- * Get all monsters for a specific task location
- */
-export const TASK_LOCATIONS = {
-  [SlayerLocation.SLAYER_TOWER_CKS]: {
-    climate: 'Temperate',
-    dangerLevel: 'Medium',
-    teleport: 'Ring of Slaying',
-  },
-  [SlayerLocation.CATACOMBS]: {
-    climate: 'Underground',
-    dangerLevel: 'Medium-High',
-    teleport: 'None',
-  },
-  [SlayerLocation.GOD_WARS_DUNGEON]: {
-    climate: 'Underground',
-    dangerLevel: 'High',
-    teleport: 'Teleport to God Wars',
-  },
-} as Record<SlayerLocation | string, { climate: string; dangerLevel: string; teleport: string }>;
 
 /**
  * Monster count presets

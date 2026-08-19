@@ -158,7 +158,7 @@ describe('ClueScrollRewards', () => {
 
     it('should throw error for invalid tier', () => {
       expect(() => {
-        getClueRewardsByTier('invalid' as any);
+        getClueRewardsByTier('invalid' as unknown as Parameters<typeof getClueRewardsByTier>[0]);
       }).toThrow();
     });
   });
@@ -204,7 +204,7 @@ describe('ClueScrollRewards', () => {
     });
 
     it('should return null for invalid tier', () => {
-      const result = getClueRewardTables('invalid' as any);
+      const result = getClueRewardTables('invalid' as unknown as Parameters<typeof getClueRewardTables>[0]);
       expect(result).toBeNull();
     });
   });

@@ -14,7 +14,7 @@ describe('Turael', () => {
     expect(Turael.name).toBe('Turael');
   });
   it('should have the correct location', () => {
-    expect(Turael.location).toBe('Burthope');
+    expect(Turael.location).toBe('Burthorpe');
   });
   it('should have the correct wiki URL', () => {
     expect(Turael.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Turael');

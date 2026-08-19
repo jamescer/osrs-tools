@@ -29,29 +29,29 @@ export const SLAYER_BUYS = [
   new SlayerBuy({
     cost: 750,
     item: 'Herb sack',
-    notes: 'Stores up to 30 of each type of grimy herb (for a total of 420 herbs). Requires 58 Herblore to use.',
+    notes: 'Stores up to 30 of each type of grimy herb (for a total of 450 herbs). Requires 58 Herblore to use.',
     requirements: ['58 Herblore'],
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Herb_sack',
   }),
   new SlayerBuy({
     cost: 750,
     item: 'Rune pouch',
     notes:
       'Stores up to 16,000 of three types of runes. Only one can be owned. Can also be obtained by exchanging a rune pouch note at a bank.',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Rune_pouch',
   }),
   new SlayerBuy({
-    cost: 300,
-    item: 'Combat brace',
-    notes: 'Provides +1 to all combat stats when equipped during slayer tasks.',
+    cost: 10,
+    item: 'Looting bag',
+    notes: 'Within the Wilderness and certain other PvP areas, tradeable items can be stored in the looting bag, enabling you to carry more loot.',
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Looting_bag',
   }),
   new SlayerBuy({
-    cost: 30,
-    item: 'Assignment reset',
-    notes: 'Allows you to reset your current slayer task.',
-  }),
-  new SlayerBuy({
-    cost: 80,
-    item: 'Amulet of Avarice',
-    notes: 'Increases currency drops from slayer monsters by 5%.',
+    cost: 100,
+    item: 'Gem bag',
+    notes: 'Stores up to 60 uncut gems (sapphires through diamonds). Requires 25 Crafting to use.',
+    requirements: ['25 Crafting'],
+    wikiUrl: 'https://oldschool.runescape.wiki/w/Gem_bag',
   }),
 ];
 

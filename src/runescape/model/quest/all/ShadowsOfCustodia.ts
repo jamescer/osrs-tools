@@ -5,7 +5,7 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ShadowsOfCustodia: Quest = {
-  age: '',
+  age: 'Fifth Age',
   description: 'Investigate the mysterious shadows appearing in Custodia and help restore peace to the region.',
   difficulty: QuestDifficulty.Novice,
   id: 96,
@@ -36,13 +36,7 @@ const ShadowsOfCustodia: Quest = {
 
   startLocation: 'Speak to the Custodian in Lumbridge',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Speak to the Custodian in Lumbridge.',
-    'Investigate shadowy disturbances around Custodia.',
-    'Uncover the source of the shadows.',
-    'Defeat the shadow creature.',
-    'Report back to the Custodian.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Shadows_of_Custodia',
 };
 

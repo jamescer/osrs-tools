@@ -4,41 +4,11 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 /**
- * Details
-Start point	Map icon Talk to Floopa, an Injured Tortugan, on a Remote Island in the Unquiet Ocean. Show on map
-Official difficulty	Experienced
-Official length	Medium
-Description	Help a stranded tortugan and gain access to the Great Conch.
-Requirements
-a_squeezer
-
-Slayer 51 Slayer [not boostable][required to start]
-Construction 48 Construction [not boostable][required to start]
-Sailing 45 Sailing [not boostable][required to start]
-Hunter 45 Hunter [not boostable][required to start]
-Woodcutting 40 Woodcutting [required to start]
-Crafting 34 Crafting [required to start]
-Completion of Pandemonium
-Items required
-Any axe (a bronze axe can be found during the quest, but bringing a better one is recommended for cutting 10 logs)
-Hammer (can be found during the quest)
-Saw (can be found during the quest)
-[uncheck all]
-Recommended
-At least 4 free inventory spaces (or up to 22 for all the construction materials at once)
-Combat level 60 Combat level
-Food and combat gear
-Stamina Potion
-[uncheck all]
-Enemies to defeat
-Gryphon (level 95)
-Shellbane gryphon (level 235)
+ * Reference: https://oldschool.runescape.wiki/w/Troubled_Tortugans
  */
-
-// Reference see: https://oldschool.runescape.wiki/w/Troubled_Tortugans
-const TroubledTortugans = {
-  age: '',
-  description: '',
+const TroubledTortugans: Quest = {
+  age: 'Fifth Age',
+  description: 'Help the tortugan pirates of The Pandemonium recover their buried plunder.',
   difficulty: QuestDifficulty.Experienced,
   id: 129,
   length: QuestLength.Medium,
@@ -47,10 +17,13 @@ const TroubledTortugans = {
   name: 'Troubled Tortugans',
   questPoints: 2,
   recommendations: [
-    'At least 4 free inventory spaces (or up to 22 for all the construction materials at once)',
-    'Combat level 60 Combat level',
-    'Food and combat gear',
-    'Stamina Potion',
+    {
+      name: 'At least 4 free inventory spaces (or up to 22 for all the construction materials at once)',
+      type: 'item',
+    },
+    { name: 'Combat', quantity: 60, type: 'level' },
+    { name: 'Food and combat gear', type: 'item' },
+    { name: 'Stamina Potion', type: 'item' },
   ],
   recommendedPrayers: [],
   recommendedSkills: {},
@@ -71,9 +44,9 @@ const TroubledTortugans = {
     pets: [],
     points: [],
     questPoints: 2,
-    unlocks: ['Great Conch'],
+    unlocks: [{ description: 'Great Conch' }],
   },
-  series: 'Tortuga',
+  series: 'Tortugan',
   shortName: 'troubledTortugans',
   startLocation: 'Talk to Floopa, an Injured Tortugan, on a Remote Island in the Unquiet Ocean.',
   status: QuestStatus.NotStarted,

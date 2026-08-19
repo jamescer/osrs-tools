@@ -11,7 +11,7 @@ export class Attack implements Skill {
   level: number;
   experience: number;
   name: string;
-  unlocks: any[];
+  unlocks: typeof AttackUnlocks;
 
   constructor() {
     this.level = 1;

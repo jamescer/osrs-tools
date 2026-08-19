@@ -1,9 +1,10 @@
+import { LevelRequirement , QuestRequirement} from '../../Requirement';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ElementalWorkshopII: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Return to the elemental workshop and unlock the secrets of the mind element to craft an elemental mind helmet.',
 
   difficulty: QuestDifficulty.Novice,
 
@@ -22,7 +23,12 @@ const ElementalWorkshopII: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Elemental Workshop I"),
+    new LevelRequirement(Skill.Magic, 20, false),
+    new LevelRequirement(Skill.Mining, 20, false),
+    new LevelRequirement(Skill.Smithing, 30, false),
+  ],
   rewards: {
     areas: [],
     experience: [
@@ -36,10 +42,10 @@ const ElementalWorkshopII: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: 'Elemental Workshop (#2)',
+  series: 'Elemental Workshop',
   shortName: 'elementalWorkshopII',
 
-  startLocation: '',
+  startLocation: "Elemental Workshop, Seers' Village",
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Elemental_Workshop_II',

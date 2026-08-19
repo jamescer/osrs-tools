@@ -10,279 +10,321 @@ const skill = (skillName: string, level: number, boostable = true) => new LevelR
  * Source: https://oldschool.runescape.wiki/w/Desert_Diary
  */
 export const DesertDiary: Diary = {
+  name: 'Desert Diary',
+  itemReward: 'Desert amulet',
+
   easy: {
     itemReward: 'Desert amulet 1',
-    itemsRequired: ['Pickaxe', 'Hatchet', 'Hunter supplies'],
-    questsRequired: [],
     rewards: {
       description: [
         {
           main: 'Desert amulet 1',
-          other: ['Provides unlimited teleports to the Nardah area'],
-        },
-        {
-          main: '1 Antique lamp worth 2,500 experience in any skill of at least level 30',
           other: [],
         },
         {
-          main: '10% more Agility experience in the Shantay Pass Dungeon',
+          main: 'Antique lamp worth 2,500 experience in any skill of at least level 30',
+          other: [],
+        },
+        {
+          main: 'Pharaoh\'s sceptre holds up to 10 charges (up from 3)',
+          other: [],
+        },
+        {
+          main: 'Goat horns from goats are now noted',
+          other: [],
+        },
+        {
+          main: 'Simon Templeton also buys artefacts in noted form',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 2500, levelToUse: 30 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 20, skill: 'agility' },
-      { boostable: true, level: 4, skill: 'hunter' },
-      { boostable: true, level: 21, skill: 'thieving' },
-    ],
     tasks: [
       {
-        description: 'Complete a lap of the Shantay Pass course.',
-        requirements: [skill('agility', 20)],
+        description: 'Catch a Golden Warbler.',
+        notes: 'Found in the Uzer Hunter area. Necklace of passage recommended for quick access.',
+        requirements: [skill('Hunter', 5)],
       },
       {
-        description: 'Mine copper ore south of Pollnivneach using a copper pickaxe.',
-        requirements: [skill('mining', 1)],
-      },
-      {
-        description: 'Enter the Smoke Dungeon.',
-        requirements: [skill('slayer', 1)],
-      },
-      {
-        description: 'Chop a log in the desert with a hatchet.',
-        requirements: [skill('woodcutting', 1)],
-      },
-      {
-        description: 'Catch a scorpion in the Pollnivneach oasis.',
-        requirements: [skill('hunter', 4)],
-      },
-      {
-        description: 'Travel to the Kharidian Desert using a carpet or traverse the desert.',
+        description: 'Mine 5 clay in the north-eastern desert (Uzer mine).',
         requirements: [],
       },
       {
-        description: 'Craft an Amulet of Glory.',
-        notes: 'Must have obtained the unfinished amulet from a dungeon.',
-        requirements: [skill('crafting', 80)],
+        description: 'Enter the Kalphite Hive.',
+        notes: 'Requires a rope for first entry.',
+        requirements: [],
       },
       {
-        description: 'Have a barbarian give you tools at the Uncivilized Area.',
-        requirements: [skill('barbarian', 30, false)],
+        description: 'Enter the Desert with a set of Desert robes equipped.',
+        notes: 'Wear a desert shirt, desert robe, and desert boots. The desert outfit does not count.',
+        requirements: [],
       },
       {
-        description: 'Uncover the pyramid in the Pyramid Plunder minigame.',
-        requirements: [skill('thieving', 21)],
+        description: 'Kill a Vulture.',
+        notes: 'Found north of Menaphos or Sophanem. Ranged or Magic recommended.',
+        requirements: [],
       },
       {
-        description: 'Defeat a dust devil in the Smoke Dungeon.',
-        requirements: [skill('slayer', 65)],
+        description: 'Have the Nardah Herbalist (Zahur) clean a herb for you.',
+        notes: 'Talk to Zahur — do not use the herb on her directly.',
+        requirements: [],
+      },
+      {
+        description: 'Collect 5 Potato Cactus from the Kalphite Hive.',
+        notes: 'You can bring a single potato cactus and drop and pick it up five times.',
+        requirements: [],
+      },
+      {
+        description: 'Sell some artefacts to Simon Templeton.',
+        notes: 'Requires any artefact from Pyramid Plunder. The pyramid top from the Agility Pyramid does not count.',
+        requirements: [quest("Icthlarin's Little Helper")],
+      },
+      {
+        description: 'Open the Sarcophagus in the first room of Pyramid Plunder.',
+        requirements: [quest("Icthlarin's Little Helper"), skill('Thieving', 21)],
+      },
+      {
+        description: 'Cut a desert cactus open to fill a waterskin.',
+        notes: 'Requires a knife or slash weapon, and an empty waterskin.',
+        requirements: [],
+      },
+      {
+        description: 'Travel from the Shantay Pass to Pollnivneach by Magic Carpet.',
+        notes: 'Costs 200 coins and a Shantay Pass (or 205 coins total).',
+        requirements: [],
       },
     ],
   },
-  elite: {
-    itemReward: 'Desert amulet 4',
-    itemsRequired: ['Crafting supplies', 'Combat gear', 'High-level runes and spells'],
-    questsRequired: ['Desert Treasure I', 'Desert Treasure II - The Fallen Empire'],
-    rewards: {
-      description: [
-        {
-          main: 'Desert amulet 4',
-          other: ['Provides unlimited daily teleports to the desert'],
-        },
-        {
-          main: '1 Antique lamp worth 50,000 experience in any skill of at least level 70',
-          other: [],
-        },
-        {
-          main: 'Permanently doubled Desert Treasure drops',
-          other: [],
-        },
-        {
-          main: 'Access to the Vault of Shadows',
-          other: [],
-        },
-      ],
-      lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
-    },
-    skillsRequired: [
-      { boostable: true, level: 91, skill: 'thieving' },
-      { boostable: true, level: 90, skill: 'crafting' },
-      { boostable: true, level: 92, skill: 'magic' },
-      { boostable: false, level: 99, skill: 'mining' },
-      { boostable: false, level: 99, skill: 'smithing' },
-    ],
-    tasks: [
-      {
-        description: 'Complete the entire Pyramid Plunder at elite level.',
-        requirements: [skill('thieving', 91)],
-      },
-      {
-        description: 'Craft 100 onyx jewelry.',
-        requirements: [skill('crafting', 90)],
-      },
-      {
-        description: 'Defeat Kelibimor.',
-        requirements: [quest('Desert Treasure II - The Fallen Empire'), skill('combat', 95)],
-      },
-      {
-        description: 'Achieve 99 Experience in three desert-related skills.',
-        requirements: [skill('mining', 99), skill('smithing', 99), skill('crafting', 99)],
-      },
-      {
-        description: 'Complete the Ancient Challenges.',
-        requirements: [quest('Desert Treasure II - The Fallen Empire'), skill('magic', 92)],
-      },
-    ],
-  },
-  hard: {
-    itemReward: 'Desert amulet 3',
-    itemsRequired: ['Mining supplies', 'Crafting supplies', 'Cooking supplies', 'Combat gear'],
-    questsRequired: ['Desert Treasure I', 'Desert Treasure II - The Fallen Empire', 'The Feud'],
-    rewards: {
-      description: [
-        {
-          main: 'Desert amulet 3',
-          other: ['Provides ten daily teleports to the desert'],
-        },
-        {
-          main: '1 Antique lamp worth 15,000 experience in any skill of at least level 50',
-          other: [],
-        },
-        {
-          main: '10% increased XP in the Pyramid Plunder minigame',
-          other: [],
-        },
-      ],
-      lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
-    },
-    skillsRequired: [
-      { boostable: true, level: 67, skill: 'crafting' },
-      { boostable: false, level: 60, skill: 'construction' },
-      { boostable: true, level: 67, skill: 'mining' },
-      { boostable: true, level: 85, skill: 'slayer' },
-      { boostable: true, level: 71, skill: 'thieving' },
-      { boostable: true, level: 80, skill: 'cooking' },
-      { boostable: true, level: 70, skill: 'smithing' },
-      { boostable: true, level: 66, skill: 'magic' },
-    ],
-    tasks: [
-      {
-        description: 'Craft an onyx.',
-        requirements: [skill('crafting', 67)],
-      },
-      {
-        description: 'Complete the Fortress of Security.',
-        requirements: [skill('construction', 60, false)],
-      },
-      {
-        description: 'Kill a blue dragon in the Lair.',
-        requirements: [skill('combat', 50)],
-      },
-      {
-        description: 'Mine diamonds in the diamond quarry.',
-        requirements: [skill('mining', 67)],
-      },
-      {
-        description: 'Kill a kalphite guardian or kalphite dungeon monster.',
-        requirements: [skill('slayer', 85)],
-      },
-      {
-        description: 'Defeat all bosses in the Ancient Dungeon.',
-        requirements: [quest('Desert Treasure II - The Fallen Empire')],
-      },
-      {
-        description: 'Complete high-level Pyramid Plunder.',
-        requirements: [skill('thieving', 71)],
-      },
-      {
-        description: 'Cook a shark in the desert.',
-        requirements: [skill('cooking', 80)],
-      },
-      {
-        description: 'Smith an adamant or better item in the desert.',
-        requirements: [skill('smithing', 70)],
-      },
-      {
-        description: 'Teleport to Pollnivneach with Magic.',
-        requirements: [skill('magic', 66)],
-      },
-    ],
-  },
-  itemReward: 'Desert amulet',
+
   medium: {
     itemReward: 'Desert amulet 2',
-    itemsRequired: ['Slayer supplies', 'Firemaking supplies', 'Fletching supplies'],
-    questsRequired: ['Desert Treasure I', 'The Feud'],
     rewards: {
       description: [
         {
           main: 'Desert amulet 2',
-          other: ['Provides five daily teleports to the desert'],
+          other: [
+            'One daily teleport to Nardah',
+          ],
         },
         {
-          main: '1 Antique lamp worth 7,500 experience in any skill of at least level 40',
+          main: 'Antique lamp worth 7,500 experience in any skill of at least level 40',
           other: [],
         },
         {
-          main: '10% more Agility experience in the Agility Pyramid',
+          main: 'Pharaoh\'s sceptre holds up to 25 charges (up from 10)',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 7500, levelToUse: 40 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 50, skill: 'slayer' },
-      { boostable: true, level: 52, skill: 'agility' },
-      { boostable: true, level: 21, skill: 'thieving' },
-      { boostable: true, level: 50, skill: 'firemaking' },
-      { boostable: true, level: 5, skill: 'fletching' },
-      { boostable: true, level: 20, skill: 'fishing' },
-    ],
     tasks: [
       {
-        description: 'Assign a Slayer task from Sumona.',
-        requirements: [quest('Desert Treasure I'), skill('slayer', 50)],
+        description: 'Climb to the summit of the Agility Pyramid.',
+        notes: 'Protection against desert heat recommended.',
+        requirements: [skill('Agility', 30)],
       },
       {
-        description: 'Complete the Agility Pyramid course.',
-        requirements: [skill('agility', 52)],
+        description: 'Slay a desert lizard.',
+        notes: 'Requires an ice cooler to finish off the lizard.',
+        requirements: [skill('Slayer', 22)],
       },
       {
-        description: 'Complete the Pyramid Plunder minigame.',
-        requirements: [skill('thieving', 21)],
+        description: 'Catch an Orange Salamander.',
+        notes: 'Requires a rope and a small fishing net.',
+        requirements: [skill('Hunter', 47)],
       },
       {
-        description: 'Make a fire in the desert.',
-        requirements: [skill('firemaking', 50)],
+        description: 'Steal a feather from the Desert Phoenix.',
+        requirements: [skill('Thieving', 25)],
       },
       {
-        description: 'Kill a blue dragon in the Lair.',
-        requirements: [skill('combat', 34)],
+        description: 'Travel to Uzer via Magic Carpet.',
+        requirements: [quest('The Golem')],
       },
       {
-        description: 'Travel to the Desert using the Carpet Ride.',
-        requirements: [quest('The Feud')],
+        description: 'Travel to the Desert via Eagle.',
+        notes: 'Unlocks travel from the Eagles\' Peak Dungeon after the quest.',
+        requirements: [quest("Eagles' Peak")],
       },
       {
-        description: 'Fletch a shortbow in the desert.',
-        requirements: [skill('fletching', 5)],
+        description: 'Pray at the Elidinis statuette in Nardah.',
+        notes: 'Requires you to have less than full Prayer points.',
+        requirements: [quest('Spirits of the Elid')],
       },
       {
-        description: 'Fish in the river north of Al Kharid.',
-        requirements: [skill('fishing', 20)],
+        description: 'Create a combat potion in the desert.',
+        notes: 'Requires a harralander potion (unf) and goat horn dust.',
+        requirements: [skill('Herblore', 36)],
       },
       {
-        description: 'Visit the Dye Shop in Pollnivneach.',
-        requirements: [],
+        description: 'Teleport to Enakhra\'s Temple with the Camulet.',
+        requirements: [quest("Enakhra's Lament")],
       },
       {
-        description: 'Harvest cactus spines.',
-        requirements: [skill('woodcutting', 1)],
+        description: 'Visit the Genie.',
+        notes: 'This task is automatically completed during Spirits of the Elid. Requires a rope and light source.',
+        requirements: [quest('Spirits of the Elid')],
+      },
+      {
+        description: 'Teleport to Pollnivneach with a redirected Teleport to House tablet.',
+        notes: 'Requires a scroll of redirection and a house tablet. Ironmen must instead enter their house via the Pollnivneach house portal.',
+        requirements: [skill('Construction', 20)],
+      },
+      {
+        description: 'Chop some Teak logs near Uzer.',
+        notes: 'Teak trees are found north-east of the oasis.',
+        requirements: [skill('Woodcutting', 35)],
       },
     ],
   },
-  name: 'Desert Diary',
+
+  hard: {
+    itemReward: 'Desert amulet 3',
+    rewards: {
+      description: [
+        {
+          main: 'Desert amulet 3',
+          other: [],
+        },
+        {
+          main: 'Antique lamp worth 15,000 experience in any skill of at least level 50',
+          other: [],
+        },
+        {
+          main: 'Pharaoh\'s sceptre holds up to 50 charges (up from 25)',
+          other: [],
+        },
+        {
+          main: 'Free carpet rides throughout the Kharidian Desert',
+          other: [],
+        },
+        {
+          main: 'Ropes permanently secured at the Kalphite Lair entrance and Queen\'s Lair',
+          other: [],
+        },
+        {
+          main: 'Roughly 14% increased XP and 25% more marks of grace from the Pollnivneach Rooftop Course',
+          other: [],
+        },
+        {
+          main: 'Zahur now cleans grimy herbs in noted form and offers potion-making services',
+          other: [],
+        },
+      ],
+      lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
+    },
+    tasks: [
+      {
+        description: 'Knock out and pickpocket a Menaphite Thug.',
+        notes: 'Requires any blackjack.',
+        requirements: [quest('The Feud'), skill('Thieving', 65)],
+      },
+      {
+        description: 'Mine some Granite.',
+        requirements: [skill('Mining', 45)],
+      },
+      {
+        description: 'Refill your waterskins in the Desert using Lunar magic.',
+        notes: 'Must cast Humidify outside of a desert settlement. Requires Lunar spellbook selected.',
+        requirements: [quest('Dream Mentor'), skill('Magic', 68)],
+      },
+      {
+        description: 'Kill the Kalphite Queen.',
+        requirements: [],
+      },
+      {
+        description: 'Complete a lap of the Pollnivneach agility course.',
+        requirements: [skill('Agility', 70)],
+      },
+      {
+        description: 'Slay a Dust Devil in the Smoke Dungeon with a Slayer helmet equipped.',
+        notes: 'Requires a Slayer helmet (Crafting 55 to make).',
+        requirements: [quest('Desert Treasure I'), skill('Slayer', 65), skill('Defence', 10)],
+      },
+      {
+        description: 'Activate Ancient Magicks at the altar in the Jaldraocht Pyramid.',
+        requirements: [quest('Desert Treasure I')],
+      },
+      {
+        description: 'Defeat a Locust Rider with Keris.',
+        notes: 'Keris only has to be equipped as the locust rider dies. Keris partisan also works.',
+        requirements: [quest('Contact!'), skill('Attack', 50)],
+      },
+      {
+        description: 'Burn some yew logs on the Nardah Mayor\'s balcony.',
+        notes: 'The mayor\'s house is directly east of the central fountain.',
+        requirements: [skill('Firemaking', 60)],
+      },
+      {
+        description: 'Create a Mithril platebody in Nardah.',
+        notes: 'The anvil is found in the westernmost building.',
+        requirements: [skill('Smithing', 68)],
+      },
+    ],
+  },
+
+  elite: {
+    itemReward: 'Desert amulet 4',
+    rewards: {
+      description: [
+        {
+          main: 'Desert amulet 4',
+          other: [
+            'Unlimited teleports to Nardah (closer to the Elidinis Statuette)',
+            'Unlimited teleports to the entrance of the Kalphite Cave',
+            'Fully protects against desert heat while worn',
+          ],
+        },
+        {
+          main: 'Antique lamp worth 50,000 experience in any skill of at least level 70',
+          other: [],
+        },
+        {
+          main: 'Pharaoh\'s sceptre holds up to 100 charges (up from 50)',
+          other: [],
+        },
+        {
+          main: 'Free passage through Shantay Pass and Ruins of Unkah',
+          other: [],
+        },
+        {
+          main: 'Access to the crevice shortcut in the Kalphite Lair (with Agility 86)',
+          other: [],
+        },
+      ],
+      lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
+    },
+    tasks: [
+      {
+        description: 'Bake a wild pie at the Nardah Clay Oven.',
+        requirements: [skill('Cooking', 85)],
+      },
+      {
+        description: 'Cast Ice Barrage against a foe in the Desert.',
+        notes: 'Must be cast outside of a desert settlement and must successfully hit.',
+        requirements: [quest('Desert Treasure I'), skill('Magic', 94)],
+      },
+      {
+        description: 'Fletch some Dragon darts at the Bedabin Camp.',
+        notes: 'Requires dragon dart tips and feathers.',
+        requirements: [skill('Fletching', 95)],
+      },
+      {
+        description: 'Speak to the KQ head in your POH.',
+        notes: 'Requires 2 mahogany planks, 2 gold leaves, saw, and hammer to mount. The Kalphite Queen drops her head at 1/128, or guaranteed (tattered) at 256th kill.',
+        requirements: [quest('Priest in Peril'), skill('Construction', 78)],
+      },
+      {
+        description: 'Steal from the Grand Gold Chest in the final room of Pyramid Plunder.',
+        requirements: [quest("Icthlarin's Little Helper"), skill('Thieving', 91, false)],
+      },
+      {
+        description: 'Restore at least 85 Prayer points when praying at the Altar in Sophanem.',
+        requirements: [quest("Icthlarin's Little Helper"), skill('Prayer', 85, false)],
+      },
+    ],
+  },
 };
 
 export default DesertDiary;

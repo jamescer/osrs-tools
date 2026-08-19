@@ -1,8 +1,10 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const RagAndBoneManII: Quest = {
   age: 'Fifth Age',
-  description: 'Collect more bones for a collector.',
+  description: 'Collect a second set of unusual bones from more exotic creatures across Gielinor for the strange collector near the Wilderness.',
   difficulty: QuestDifficulty.Experienced,
   id: 1024,
   length: QuestLength.Medium,
@@ -13,13 +15,16 @@ const RagAndBoneManII: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Rag and Bone Man I'),
+    new LevelRequirement(Skill.Slayer, 40, false),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 1, unlocks: [] },
-  series: 'Rag and Bone Man, #2',
-  shortName: 'Rag and Bone Man II',
-  startLocation: 'Location',
+  series: 'Rag and Bone Man',
+  shortName: 'ragAndBoneManII',
+  startLocation: 'Odd Old Man, north of Varrock',
   status: QuestStatus.NotStarted,
-  steps: ['Collect bones'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II',
 };
 export default RagAndBoneManII;

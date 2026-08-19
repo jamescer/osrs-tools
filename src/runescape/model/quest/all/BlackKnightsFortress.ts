@@ -1,7 +1,9 @@
+import { Skill } from '../../account/Skill';
+import { QuestPointRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const BlackKnightsFortress: Quest = {
-  age: 'First Age',
+  age: 'Fifth Age',
   description: "Infiltrate the Black Knights' Fortress and discover their secrets.",
 
   difficulty: QuestDifficulty.Intermediate,
@@ -30,10 +32,12 @@ const BlackKnightsFortress: Quest = {
   ],
   recommendedPrayers: [],
   recommendedSkills: { Combat: 15 },
-  requirements: [],
+  requirements: [
+    new QuestPointRequirement(12),
+  ],
   rewards: {
     areas: [],
-    experience: [{ amount: 5000, skill: 'Attack' }],
+    experience: [{ amount: 5000, skill: Skill.Attack }],
     items: [{ name: '3000 coins' }],
     lamps: [],
     pets: [],
@@ -45,14 +49,7 @@ const BlackKnightsFortress: Quest = {
   shortName: 'blackKnightsFortress',
   startLocation: 'Just north of Falador, outside the fortress',
   status: QuestStatus.NotStarted,
-  steps: [
-    "Travel north of Falador to the Black Knights' Fortress.",
-    'Put on disguise (bronze med helm, iron chainbody, and carry a cabbage).',
-    'Enter the fortress to investigate.',
-    'Gather information about the knights.',
-    'Retrieve the captured rune essence.',
-    'Exit the fortress and return to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress',
 };
 

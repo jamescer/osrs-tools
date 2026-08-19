@@ -1,8 +1,10 @@
+import { LevelRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const EnakhrasLament: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Enakhra, a Mahjarrat follower of Zamorak, seeks to release her trapped companion Akthanakos from an ancient pyramid.',
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -21,7 +23,12 @@ const EnakhrasLament: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new LevelRequirement(Skill.Crafting, 50, false),
+    new LevelRequirement(Skill.Firemaking, 45, false),
+    new LevelRequirement(Skill.Magic, 39, false),
+    new LevelRequirement(Skill.Prayer, 43, false),
+  ],
   rewards: {
     areas: [],
     experience: [],
@@ -35,7 +42,7 @@ const EnakhrasLament: Quest = {
   series: 'Mahjarrat',
   shortName: 'enakhrasLament',
 
-  startLocation: '',
+  startLocation: 'Lazim, south-west of Nardah',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Enakhra%27s_Lament',

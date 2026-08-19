@@ -1,8 +1,9 @@
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const WaterfallQuest: Quest = {
-  age: 'Third Age',
+  age: 'Fifth Age',
   description: 'Help a tribesperson recover a sacred totem from a mysterious waterfall.',
   difficulty: QuestDifficulty.Novice,
   id: 134,
@@ -18,8 +19,8 @@ const WaterfallQuest: Quest = {
   rewards: {
     areas: ['Waterfall dungeon access'],
     experience: [
-      { amount: 1000, skill: 'Attack' },
-      { amount: 1000, skill: 'Strength' },
+      { amount: 13750, skill: Skill.Attack },
+      { amount: 13750, skill: Skill.Strength },
     ],
     items: [],
     lamps: [],
@@ -38,14 +39,7 @@ const WaterfallQuest: Quest = {
 
   startLocation: 'Arandar, east of Ardougne',
   status: QuestStatus.NotStarted,
-  steps: [
-    'Travel to the waterfall east of Arandar.',
-    'Speak to the guardian of the water.',
-    'Navigate through the water cave.',
-    'Complete the waterfall gauntlet.',
-    'Retrieve the sacred totem.',
-    'Return to receive your reward.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Waterfall_Quest',
 };
 

@@ -25,11 +25,11 @@ const LearningTheRopes: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: 'None',
-  shortName: 'Learning the Ropes',
+  series: null,
+  shortName: 'learningTheRopes',
   startLocation: 'Tutorial Island',
   status: QuestStatus.NotStarted,
-  steps: ['Complete the tutorial on Tutorial Island.', 'Learn the basics of combat, skills, and RuneScape.'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Learning_the_Ropes',
 };
 

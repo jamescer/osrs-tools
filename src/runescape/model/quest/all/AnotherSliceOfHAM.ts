@@ -1,15 +1,16 @@
+import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const AnotherSliceOfHAM: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Investigate HAM activity in the Dorgeshuun tunnels and prevent a plot to reignite the human-goblin conflict.',
 
-  difficulty: QuestDifficulty.Novice,
+  difficulty: QuestDifficulty.Intermediate,
 
   id: 2,
 
-  length: QuestLength.Medium,
+  length: QuestLength.Short,
 
   members: true,
 
@@ -22,12 +23,18 @@ const AnotherSliceOfHAM: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement('Death to the Dorgeshuun'),
+    new QuestRequirement('The Giant Dwarf'),
+    new QuestRequirement('The Dig Site'),
+    new LevelRequirement(Skill.Attack, 15, false),
+    new LevelRequirement(Skill.Prayer, 25, false),
+  ],
   rewards: {
     areas: [],
     experience: [
       { amount: 3000, skill: Skill.Mining },
-      { amount: 3000, skill: 'Prayer' },
+      { amount: 3000, skill: Skill.Prayer },
     ],
     items: [],
     lamps: [],
@@ -36,10 +43,10 @@ const AnotherSliceOfHAM: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: 'Dorgeshuun (#4)',
+  series: 'Dorgeshuun',
   shortName: 'anotherSliceOfHAM',
 
-  startLocation: '',
+  startLocation: 'Ur-tag, Dorgesh-Kaan',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.',

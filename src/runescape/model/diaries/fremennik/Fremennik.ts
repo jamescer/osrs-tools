@@ -12,247 +12,271 @@ const skill = (skillName: string, level: number, boostable = true) => new LevelR
 export const FremennikDiary: Diary = {
   easy: {
     itemReward: 'Fremennik sea boots 1',
-    itemsRequired: ['Fishing equipment', 'Mining supplies', 'Cooking supplies', 'Arrows for fletching'],
-    questsRequired: ['The Fremennik Trials'],
     rewards: {
       description: [
         {
           main: 'Fremennik sea boots 1',
-          other: ['Gives a 10% increase to Fishing experience when fishing in Fremennik Province'],
+          other: [
+            'One daily teleport to the Rellekka marketplace',
+            'Peer the Seer acts as a bank deposit box',
+            'Fossegrimen gives enchanted lyre an extra charge per offering',
+          ],
         },
         {
-          main: '1 Antique lamp worth 2,500 experience in any skill of at least level 30',
-          other: [],
-        },
-        {
-          main: 'Ability to use Fremennik Fish Spots for faster fish gathering',
+          main: 'Antique lamp worth 2,500 experience in any skill of at least level 30',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 2500, levelToUse: 30 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 50, skill: 'fishing' },
-      { boostable: true, level: 15, skill: 'mining' },
-      { boostable: true, level: 52, skill: 'cooking' },
-      { boostable: true, level: 1, skill: 'fletching' },
-    ],
     tasks: [
       {
-        description: 'Catch a swordfish from the Rellekka Fishing Spot.',
-        requirements: [skill('fishing', 50)],
+        description: 'Catch a Cerulean twitch.',
+        notes: 'Found in the Rellekka Hunter area.',
+        requirements: [skill('Hunter', 11)],
       },
       {
-        description: 'Use a bed in the Fremennik camp.',
+        description: "Change your boots at Yrsa's Shoe Store.",
+        notes: 'Talk to Yrsa for a makeover (500 coins), or freely browse her clothing store.',
         requirements: [quest('The Fremennik Trials')],
       },
       {
-        description: 'Mine iron ore from the Rellekka mining spot.',
-        requirements: [skill('mining', 15)],
-      },
-      {
-        description: 'Cook a swordfish in Rellekka.',
-        requirements: [skill('cooking', 52)],
-      },
-      {
-        description: 'Use the sundial to check the time.',
+        description: 'Kill 5 Rock crabs.',
+        notes: 'Giant rock crabs and rock lobsters on Waterbirth Island do not count.',
         requirements: [],
       },
       {
-        description: 'Fletch some arrows in the Rellekka area.',
-        requirements: [skill('fletching', 1)],
+        description: 'Craft a tiara from scratch in Rellekka.',
+        notes: 'Mine silver ore from the Rellekka mine, then smelt it into a tiara. Steps must be done consecutively.',
+        requirements: [
+          quest('The Fremennik Trials'),
+          skill('Mining', 20),
+          skill('Smithing', 20),
+          skill('Crafting', 23),
+        ],
       },
       {
-        description: 'Light a torch in the Rellekka area.',
+        description: 'Browse the Stonemasons shop.',
+        notes: 'He is in western Keldagrim. Right-click to trade.',
+        requirements: [quest('The Giant Dwarf')],
+      },
+      {
+        description: 'Collect 5 Snape grass on Waterbirth Island.',
+        notes: 'You can drop and pick up the same snape grass five times.',
         requirements: [],
       },
       {
-        description: 'Hit the shield on the target dummy.',
+        description: "Steal from the Keldagrim crafting or baker's stall.",
+        notes: 'Located on the eastern side of the Keldagrim Palace.',
+        requirements: [quest('The Giant Dwarf'), skill('Thieving', 5)],
+      },
+      {
+        description: 'Fill a bucket with water at the Rellekka well.',
         requirements: [],
       },
       {
-        description: 'Drink from a waterskin in Rellekka.',
-        requirements: [],
+        description: 'Enter the Troll Stronghold.',
+        requirements: [quest('Troll Stronghold')],
       },
       {
-        description: 'Complete a task from the Adviser.',
-        requirements: [quest('The Fremennik Trials')],
+        description: 'Chop and burn some oak logs in the Fremennik Province.',
+        notes: 'Oak trees can be found near the Rellekka house portal.',
+        requirements: [skill('Woodcutting', 15), skill('Firemaking', 15)],
       },
     ],
   },
   elite: {
     itemReward: 'Fremennik sea boots 4',
-    itemsRequired: ['Endgame combat gear', 'High-level supplies'],
-    questsRequired: ['Dragon Slayer II', 'The Fremennik Trials'],
     rewards: {
       description: [
         {
           main: 'Fremennik sea boots 4',
-          other: ['Protected from all cold-based attacks and unlimited fishing bonuses'],
+          other: [
+            'Unlimited teleports to the Rellekka marketplace',
+            'Dagannoth bones from the Dagannoth Kings are now noted (unless disabled)',
+            '15% increased chance of gaining approval in Managing Miscellania when fishing or woodcutting',
+            'Enchanted lyre can now teleport to Waterbirth Island, Jatizso, and Neitiznot',
+            'Seal of passage no longer needed to interact with anyone on Lunar Isle',
+          ],
         },
         {
-          main: '1 Antique lamp worth 50,000 experience in any skill of at least level 70',
-          other: [],
-        },
-        {
-          main: 'Automatically teleport between Fremennik settlements',
+          main: 'Antique lamp worth 50,000 experience in any skill of at least level 70',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
     },
-    skillsRequired: [
-      { boostable: false, level: 100, skill: 'combat' },
-      { boostable: false, level: 99, skill: 'fishing' },
-      { boostable: false, level: 99, skill: 'smithing' },
-      { boostable: false, level: 99, skill: 'slayer' },
-    ],
     tasks: [
       {
-        description: 'Defeat the Ice King and all of its minions.',
-        requirements: [quest('Dragon Slayer II'), skill('combat', 100)],
+        description: 'Kill each of the Dagannoth Kings.',
+        notes:
+          'All three (Rex, Supreme, Prime) must be killed consecutively without completing other tasks in-between.',
+        requirements: [],
       },
       {
-        description: 'Complete 5 elite fishing challenges.',
-        requirements: [skill('fishing', 99)],
+        description: 'Craft 56 astral runes simultaneously from Essence without the use of Extracts.',
+        requirements: [quest('Lunar Diplomacy'), skill('Runecraft', 82)],
       },
       {
-        description: 'Smith a legendary Fremennik weapon.',
-        requirements: [skill('smithing', 99)],
+        description: 'Create a dragonstone amulet in the Neitiznot furnace.',
+        notes: 'Crafting the unstrung version is sufficient; a ball of wool is not needed.',
+        requirements: [quest('The Fremennik Isles'), skill('Crafting', 80)],
       },
       {
-        description: 'Master all Fremennik skills to level 99.',
-        requirements: [skill('fisher', 99), skill('smithing', 99), skill('slayer', 99)],
+        description: 'Complete a lap of the Rellekka agility course.',
+        requirements: [skill('Agility', 80)],
       },
       {
-        description: 'Claim the Crown of the Fremennik King.',
-        requirements: [quest('Dragon Slayer II'), skill('combat', 100)],
+        description: 'Kill the generals of Armadyl, Bandos, Saradomin and Zamorak in the God Wars Dungeon.',
+        notes:
+          'Requires Agility 70, Strength 70, and Ranged 70 (all not boostable for GWD entry). You do not need to kill their bodyguards. Progress does not reset when doing other tasks.',
+        requirements: [
+          quest('Troll Stronghold'),
+          skill('Agility', 70, false),
+          skill('Strength', 70, false),
+          skill('Ranged', 70, false),
+        ],
+      },
+      {
+        description: 'Slay a Spiritual mage within the Godwars Dungeon.',
+        requirements: [quest('Troll Stronghold'), skill('Slayer', 83)],
       },
     ],
   },
+
   hard: {
     itemReward: 'Fremennik sea boots 3',
-    itemsRequired: ['High-level combat gear', 'Fishing supplies', 'Smithing bars'],
-    questsRequired: ['Dragon Slayer II', 'The Fremennik Trials', 'Thawed'],
     rewards: {
       description: [
         {
           main: 'Fremennik sea boots 3',
-          other: ['20% increase to Fishing and ability to catch rare Fremennik fish'],
+          other: [
+            'Five daily teleports to the Rellekka marketplace',
+            'Roughly 18% increased XP and 25% more marks of grace from the Rellekka Rooftop Course',
+            'Adamantite bars from aviansies killed in the God Wars Dungeon are now noted',
+            'Enchanted lyre can now teleport to Waterbirth Island in addition to Rellekka',
+            'Access to Tan Leather and Recharge Dragonstone from the Lunar spellbook',
+          ],
         },
         {
-          main: '1 Antique lamp worth 15,000 experience in any skill of at least level 50',
-          other: [],
-        },
-        {
-          main: 'Free passage through Fremennik settlements',
+          main: 'Antique lamp worth 15,000 experience in any skill of at least level 50',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 85, skill: 'combat' },
-      { boostable: true, level: 88, skill: 'fishing' },
-      { boostable: true, level: 78, skill: 'agility' },
-      { boostable: true, level: 90, skill: 'slayer' },
-      { boostable: true, level: 70, skill: 'smithing' },
-    ],
     tasks: [
       {
-        description: "Defeat a King's Thaw monster.",
-        requirements: [quest('Dragon Slayer II'), skill('combat', 85)],
+        description: 'Teleport to Trollheim.',
+        requirements: [quest("Eadgar's Ruse"), skill('Magic', 61)],
       },
       {
-        description: 'Catch 100 molly fish in one session.',
-        requirements: [skill('fishing', 88)],
+        description: 'Catch a Sabre-toothed Kyatt.',
+        notes: 'Requires a teasing stick, logs, and a knife.',
+        requirements: [skill('Hunter', 55)],
       },
       {
-        description: 'Complete the hard Ice Dungeon without taking damage.',
-        requirements: [skill('agility', 78), skill('combat', 80)],
+        description: 'Mix a super defence potion in the Fremennik Province.',
+        notes: 'Must be mixed in or near Rellekka. Requires cadantine potion (unf) and white berries.',
+        requirements: [skill('Herblore', 66)],
       },
       {
-        description: 'Reach the boss chamber in the Fremennik Slayer Dungeon.',
-        requirements: [skill('slayer', 90)],
+        description: 'Steal from the Keldagrim Gem stall.',
+        requirements: [quest('The Giant Dwarf'), skill('Thieving', 75)],
       },
       {
-        description: 'Smith all Fremennik weapons.',
-        requirements: [skill('smithing', 70)],
+        description: 'Craft a Neitiznot shield on Neitiznot.',
+        notes: 'Requires hammer, rope, bronze nails, and 2 arctic pine logs.',
+        requirements: [quest('The Fremennik Isles'), skill('Woodcutting', 56)],
+      },
+      {
+        description: 'Mine 5 Adamantite ores on Jatizso.',
+        requirements: [quest('The Fremennik Isles'), skill('Mining', 70)],
+      },
+      {
+        description: 'Obtain 100% support from your kingdom subjects.',
+        requirements: [quest('Throne of Miscellania')],
+      },
+      {
+        description: 'Teleport to Waterbirth Island.',
+        notes: 'Requires Lunar spellbook selected.',
+        requirements: [quest('Lunar Diplomacy'), skill('Magic', 72)],
+      },
+      {
+        description: "Obtain the Blast Furnace Foreman's permission to use the Blast Furnace for free.",
+        notes: 'Talk to the foreman using the correct dialogue options (1 > 3 > 1).',
+        requirements: [quest('The Giant Dwarf'), skill('Smithing', 60, false)],
       },
     ],
   },
+
   itemReward: 'Fremennik sea boots',
+
   medium: {
     itemReward: 'Fremennik sea boots 2',
-    itemsRequired: ['Combat equipment', 'Slayer supplies', 'Fishing rods', 'Smithing supplies'],
-    questsRequired: ['The Fremennik Trials', 'Thawed'],
     rewards: {
       description: [
         {
           main: 'Fremennik sea boots 2',
-          other: ['15% increase to Fishing experience and additional catch rate in Fremennik waters'],
+          other: [
+            'Three daily teleports to the Rellekka marketplace',
+            '10% increased chance of gaining approval in Managing Miscellania when fishing or woodcutting',
+          ],
         },
         {
-          main: '1 Antique lamp worth 7,500 experience in any skill of at least level 40',
-          other: [],
-        },
-        {
-          main: 'Reduced damage taken from Fremennik enemies',
+          main: 'Antique lamp worth 7,500 experience in any skill of at least level 40',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 7500, levelToUse: 40 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 72, skill: 'slayer' },
-      { boostable: true, level: 70, skill: 'fishing' },
-      { boostable: true, level: 40, skill: 'agility' },
-      { boostable: true, level: 20, skill: 'smithing' },
-      { boostable: true, level: 50, skill: 'thieving' },
-    ],
     tasks: [
       {
-        description: 'Defeat a sea troll in the Fremennik slayer dungeon.',
-        requirements: [skill('slayer', 72)],
+        description: 'Slay a Brine rat.',
+        notes: 'Requires a spade to enter the Brine Rat Cavern.',
+        requirements: [quest("Olaf's Quest"), skill('Slayer', 47)],
       },
       {
-        description: 'Unfreeze a monument in the Ice Dungeon.',
-        requirements: [quest('Thawed'), skill('thawing', 5, false)],
+        description: 'Travel to the Snowy Hunter Area via Eagle.',
+        notes: "Unlocks travel from the Eagles' Peak Dungeon after the required quest.",
+        requirements: [quest("Eagles' Peak")],
       },
       {
-        description: 'Catch a flying fish in the Fremennik waters.',
-        requirements: [skill('fishing', 70)],
+        description: 'Mine some coal in Rellekka.',
+        requirements: [quest('The Fremennik Trials'), skill('Mining', 30)],
       },
       {
-        description: 'Complete the Fremennik Slayer Dungeon.',
-        requirements: [skill('slayer', 1)],
+        description: 'Steal from the Rellekka Fish stalls.',
+        requirements: [quest('The Fremennik Trials'), skill('Thieving', 42)],
       },
       {
-        description: 'Serve a customer at the Fremennik market.',
-        requirements: [],
+        description: 'Travel to Miscellania by Fairy ring.',
+        notes: 'Use fairy ring code CIP. Requires a dramen or lunar staff.',
+        requirements: [quest('The Fremennik Trials'), quest('Fairytale II - Cure a Queen')],
       },
       {
-        description: 'Use a shortcut in the Ice Dungeon.',
-        requirements: [skill('agility', 40)],
+        description: 'Catch a Snowy knight.',
+        requirements: [skill('Hunter', 35)],
       },
       {
-        description: 'Obtain a Fremennik warrior drop.',
-        requirements: [skill('combat', 40)],
+        description: 'Pick up your Pet Rock from your POH Menagerie.',
+        notes: 'Use your pet rock on a pet house, then retrieve it. Cannot be in building mode.',
+        requirements: [quest('The Fremennik Trials'), skill('Construction', 37)],
       },
       {
-        description: 'Smith a Fremennik sword at the anvil.',
-        requirements: [skill('smithing', 20)],
+        description: 'Visit the Lighthouse from Waterbirth Island.',
+        notes: 'Must exit the Waterbirth Island Dungeon on the 5th sublevel.',
+        requirements: [quest('Horror from the Deep')],
       },
       {
-        description: 'Use a prayer altar in a Fremennik temple.',
-        requirements: [skill('prayer', 30)],
-      },
-      {
-        description: 'Discover the secret door in the Fremennik dungeon.',
-        requirements: [skill('thieving', 50)],
+        description: 'Mine some gold at the Arzinian mine.',
+        notes:
+          'Requires the gold helmet from Between a Rock... This task is automatically completed during that quest.',
+        requirements: [quest('Between a Rock...'), skill('Mining', 40), skill('Defence', 30)],
       },
     ],
   },
+
   name: 'Fremennik Diary',
 };
 

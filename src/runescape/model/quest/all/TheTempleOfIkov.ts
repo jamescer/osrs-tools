@@ -1,10 +1,11 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const TheTempleOfIkov: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Retrieve the Staff of Armadyl from the Temple of Ikov for Lucien — or betray him and destroy it instead.',
   difficulty: QuestDifficulty.Novice,
   id: 121,
   length: QuestLength.Medium,
@@ -15,7 +16,7 @@ const TheTempleOfIkov: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [new LevelRequirement('Thieving', 42, false)],
+  requirements: [new LevelRequirement(Skill.Thieving, 42, false)],
   rewards: {
     areas: [],
     experience: [],
@@ -29,7 +30,7 @@ const TheTempleOfIkov: Quest = {
   series: null,
   shortName: 'theTempleOfIkov',
 
-  startLocation: '',
+  startLocation: 'Lucien, Flying Horse Inn, Ardougne',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Temple_of_Ikov',

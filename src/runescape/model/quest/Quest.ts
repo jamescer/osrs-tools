@@ -1,3 +1,4 @@
+import { Skill } from '../account/Skill';
 import { QuestDifficulty, QuestLength, QuestStatus } from './enums';
 import { Requirement } from './Requirements';
 
@@ -11,7 +12,7 @@ import { Requirement } from './Requirements';
  */
 export interface QuestRewardExperience {
   /** The skill that receives the experience */
-  skill: string;
+  skill: Skill;
   /** The amount of experience gained */
   amount: number;
 }

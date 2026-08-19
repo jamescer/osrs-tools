@@ -1,4 +1,4 @@
-import { CombatAchievementTask, CombatAchievementTier } from '../CombatAchievement';
+import { CombatAchievementTask, CombatAchievementTaskType, CombatAchievementTier } from '../CombatAchievement';
 
 /**
  * Hard-tier Combat Achievement tasks, authored directly in TypeScript.
@@ -13,7 +13,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Abyssal Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Abyssal Sire without letting any Scion mature.',
@@ -22,7 +22,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'They Grow Up Too Fast',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Abyssal Sire without being hit by any external tentacles.',
@@ -31,7 +31,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Don't Whip Me",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Abyssal Sire without taking damage from any miasma pools.',
@@ -40,7 +40,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Don't Stop Moving",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: "Kill Kree'arra 50 times.",
@@ -49,7 +49,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Kree'arra Adept",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Finish off Kree'arra whilst all of his bodyguards are dead.",
@@ -58,7 +58,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Airborne Showdown',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill General Graardor 50 times.',
@@ -67,7 +67,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'General Graardor Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill General Graardor whilst he is immobilized&#91;sic&#93;.',
@@ -76,7 +76,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Ourg Freezer',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Finish off General Graardor whilst all of his bodyguards are dead.',
@@ -85,7 +85,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'General Showdown',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Karil using only damage dealt by special attacks.',
@@ -94,7 +94,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Just Like That',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description:
@@ -104,7 +104,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Faithless Crypt Run',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Callisto 10 times.',
@@ -113,7 +113,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Callisto Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Skotizo 5 times.',
@@ -122,7 +122,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Skotizo Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Chaos Elemental 10 times.',
@@ -131,7 +131,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chaos Elemental Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Chaos Elemental without it unequipping any of your items.',
@@ -140,7 +140,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hoarder',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Chaos Elemental without taking any damage from its attacks.',
@@ -149,7 +149,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Flincher',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Chaos Fanatic 25 times.',
@@ -158,7 +158,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chaos Fanatic Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description:
@@ -168,7 +168,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Praying to the Gods',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Crazy Archaeologist 25 times.',
@@ -177,7 +177,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Crazy Archaeologist Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Grotesque Guardians 25 times.',
@@ -186,7 +186,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Grotesque Guardians Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Kill the Grotesque Guardians without taking damage from Dusk's blinding attack.",
@@ -195,7 +195,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Don't Look at the Eclipse",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Kill the Grotesque Guardians without taking damage from Dusk's prison attack.",
@@ -204,7 +204,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Prison Break',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Kill the Grotesque Guardians without taking damage from Dawn's rockfall attack.",
@@ -213,7 +213,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Granite Footwork',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Grotesque Guardians without letting Dawn receive any healing from her orbs.',
@@ -222,7 +222,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Heal No More',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Grotesque Guardians without being hit by any lightning attacks.',
@@ -231,7 +231,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Static Awareness',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Hespori 5 times.',
@@ -240,7 +240,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hespori Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Finish off Hespori with a special attack.',
@@ -249,7 +249,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Hesporisn't",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill all of Hesporis flowers within 5 seconds.',
@@ -258,7 +258,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Weed Whacker',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Kalphite Queen 25 times.',
@@ -267,7 +267,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Kalphite Queen Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Kalphite Queen while her defence was last lowered by you.',
@@ -276,7 +276,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Chitin Penetrator',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill The King Black Dragon 10 times in a private instance without leaving the instance.',
@@ -285,7 +285,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Who Is the King Now?',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill the Kraken 20 times.',
@@ -294,7 +294,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Kraken Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Kraken after killing all four tentacles.',
@@ -303,7 +303,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Unnecessary Optimisation',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Kraken 25 times in a private instance without leaving the room.',
@@ -312,7 +312,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Krakan't Hurt Me",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill the Giant Mole without her burrowing more than 2 times.',
@@ -321,7 +321,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Why Are You Running?',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Giant Mole within 10 seconds of her resurfacing.',
@@ -330,7 +330,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Whack-a-Mole',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill The Nightmare once.',
@@ -339,7 +339,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nightmare Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Dagannoth Prime 25 times.',
@@ -348,7 +348,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dagannoth Prime Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Dagannoth Rex 25 times.',
@@ -357,7 +357,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dagannoth Rex Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Sarachnis without her using her range attack twice in a row.',
@@ -366,7 +366,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Ready to Pounce',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Sarachnis without her dealing damage to anyone.',
@@ -375,7 +375,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Inspect Repellent',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Commander Zilyana 50 times.',
@@ -384,7 +384,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Commander Zilyana Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Finish off Commander Zilyana while all of her bodyguards are dead.',
@@ -393,7 +393,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Commander Showdown',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill Scorpia 10 times.',
@@ -402,7 +402,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Scorpia Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Scorpia without taking any damage from her.',
@@ -411,7 +411,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "I Can't Reach That",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Scorpia without killing her guardians.',
@@ -420,7 +420,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Guardians No More',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Zulrah 25 times.',
@@ -429,7 +429,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Zulrah Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Dagannoth Supreme 25 times.',
@@ -438,7 +438,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dagannoth Supreme Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Venenatis 10 times.',
@@ -447,7 +447,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Venenatis Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Kill Vet'ion 10 times.",
@@ -456,7 +456,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Vet'ion Adept",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Subdue the Wintertodt after earning 3000 or more points.',
@@ -465,7 +465,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Why Fletch?',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: "Kill K'ril Tsutsaroth 50 times.",
@@ -474,7 +474,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "K'ril Tsutsaroth Adept",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: "Receive kill-credit for K'ril Tsutsaroth without him using his special attack.",
@@ -483,7 +483,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Yarr No More',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Finish off K'ril Tsutsaroth whilst all of his bodyguards are dead.",
@@ -492,7 +492,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Demonic Showdown',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: "Finish off K'ril Tsutsaroth with a demonbane weapon.",
@@ -501,7 +501,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Demonbane Weaponry II',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Subdue Tempoross while wearing any variation of the angler outfit.',
@@ -510,7 +510,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Dress Like You Mean It',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Subdue Tempoross, getting rewarded with 10 reward permits from a single Tempoross fight.',
@@ -519,7 +519,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Why Cook?',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Complete the Theatre of Blood: Entry Mode 1 time.',
@@ -528,7 +528,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Theatre of Blood: SM Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Tombs of Amascut in Entry mode (or above) once.',
@@ -537,7 +537,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Novice Tomb Explorer',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete the Tombs of Amascut in Entry mode (or above) 25 times.',
@@ -546,7 +546,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Novice Tomb Looter',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Complete a Tombs of Amascut raid at level 50 or above.',
@@ -555,7 +555,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "Movin' on up",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Complete a Tombs of Amascut raid at level 100 or above.',
@@ -564,7 +564,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Confident Raider',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Phantom Muspah.',
@@ -573,7 +573,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Phantom Muspah Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat the Eclipse moon by only attacking its clones.',
@@ -582,7 +582,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'The Clone Zone',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Open the Reward Chest 25 times.',
@@ -591,7 +591,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perilous Champion',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Defeat all the Moons in one run while only taking damage from regular attacks.',
@@ -600,7 +600,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perilous Dancer',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Defeat a Moon without consuming any supplies.',
@@ -609,7 +609,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fortified',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat a Moon using its associated weapon drop.',
@@ -618,7 +618,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Betrayal',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Defeat all three Moons in one run in under 6 minutes.',
@@ -627,7 +627,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Moons of Peril Speed-Chaser',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Defeat 30 Moons of Peril bosses without leaving the dungeon.',
@@ -636,7 +636,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Fat of the Land',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill the Hueycoatl 10 times.',
@@ -645,7 +645,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Hueycoatl Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill the Hueycoatl whilst it is vulnerable.',
@@ -654,7 +654,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Pillar Lover',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description: 'Kill the Hueycoatl whilst wearing two pieces of Hueycoatl armour.',
@@ -663,7 +663,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: "I'm your son",
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Amoxliatl 20 times.',
@@ -672,7 +672,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Amoxliatl Adept',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Kill Count',
+    type: CombatAchievementTaskType.KillCount,
   },
   {
     description: 'Kill Amoxliatl in less than 1 minute.',
@@ -681,7 +681,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Amoxliatl Speed-Trialist',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description: 'Kill Amoxliatl without taking any damage.',
@@ -690,7 +690,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Nagua Negation',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill Amoxliatl 10 times without leaving her chamber.',
@@ -699,7 +699,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Kemo Makti',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description: 'Kill Amoxliatl without any of her unstable ice shattering.',
@@ -708,7 +708,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Totally Shattered',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
   {
     description:
@@ -718,7 +718,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Perfect Royal Titans',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Perfection',
+    type: CombatAchievementTaskType.Perfection,
   },
   {
     description: 'Kill the Royal Titans in less than 1:30 minutes.',
@@ -727,7 +727,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Royal Titan Speed-Runner',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Speed',
+    type: CombatAchievementTaskType.Speed,
   },
   {
     description:
@@ -737,7 +737,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Titan Killer',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description:
@@ -747,7 +747,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'I need room',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill the Shellbane Gryphon 25 times without leaving the cave.',
@@ -756,7 +756,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Shellbane Survivor',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Stamina',
+    type: CombatAchievementTaskType.Stamina,
   },
   {
     description:
@@ -766,7 +766,7 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Featherweight Fighter',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Restriction',
+    type: CombatAchievementTaskType.Restriction,
   },
   {
     description: 'Kill Brutus without being attacked.',
@@ -775,6 +775,6 @@ export const HARD_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     name: 'Smarter than a Cow',
     points: 3,
     tier: CombatAchievementTier.Hard,
-    type: 'Mechanical',
+    type: CombatAchievementTaskType.Mechanical,
   },
 ];

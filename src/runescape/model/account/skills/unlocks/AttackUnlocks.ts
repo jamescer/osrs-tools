@@ -1,81 +1,9 @@
 /**
- * 1		Bronze	None.[1]
-1		Iron	None.[1]
-1		Machetes	None.
-5		Steel	None.[1]
-10		Black	None.[1]
-10		White	Completion of the Wanted! quest.
-15		Ancient mace	Prayer 25 and partial completion of Another Slice of H.A.M.
-20		Mithril	None.[1]
-30		Adamant	None.[1]
-30		Battlestaves	Magic 30
-30		Swamp lizard	Ranged 30 Magic 30
-40		Brine sabre	None.
-40		Mystic staves	Magic 40
-40		Rune	None.[1]
-42		Void knight mace	Attack 42,Strength,Defence,Hitpoints,Ranged,Magic, and Prayer 22
-50		Ancient staff	Magic 50 and completion of Desert Treasure I.
-50		Granite maul	Strength 50
-50		Granite hammer	Strength 50
-50		Granite longsword	Strength 50
-50		Iban's staff	Magic 50 and completion of Underground Pass.
-50		Purging staff	Magic 77
-50		Leaf-bladed spear	Slayer 55
-50		Leaf-bladed sword	Slayer 55
-50		Orange salamander	Ranged 50 Magic 50
-55		Sulphur blades	None.
-60		Arkan blade	Completion of The Final Dawn.
-60		Barrelchest anchor	Strength 40 and completion of Great Brain Robbery.
-60		Burning claws	None.
-60		Colossal blade	Completion of Sleeping Giants.
-60		Dragon	The dragon longsword and dragon dagger require completion of the Lost City quest.
-The dragon mace and dragon battleaxe require completion of the Heroes' Quest.
-The dragon halberd requires completion of Regicide.[1]
-The dragon scimitar requires completion of Monkey Madness I.
-60		Obsidian	The Obsidian maul (Tzhaar-ket-om) instead requires Strength 60, with no attack requirement.
-The Obsidian staff also requires Magic 60
-60		Red salamander	Ranged 60 Magic 60
-60		Viggora's chainmace	None.
-65		3rd age longsword	None.
-65		Keris partisan	Completion of Beneath Cursed Sands.
-65		Leaf-bladed battleaxe	Slayer 55
-65		Sarachnis cudgel	None.
-65		Zombie axe	None.
-70		Abyssal bludgeon	Strength 70
-70		Abyssal dagger	None.
-70		Abyssal whip	None.
-70		Avernic defender	Defence 70
-70		Barrows	Strength 70 for Dharok's greataxe and Torag's hammers.
-Magic 70 for Ahrim's staff.
-70		Black salamander	Ranged 70 Magic 70
-70		Blue moon spear	Magic 75
-70		Crystal halberd	Strength 35 Agility 50 and completion of the Hard Western Provinces Diary.
-70		Dual macuahuitl	Strength 75
-70		Saradomin sword	None.
-70		Ursine chainmace	None.
-70		Zamorakian spear (Hasta)	None.
-75		Abyssal tentacle	None.
-75		Arclight	Completion of Shadow of the Storm.
-75		Elder maul	Strength 75
-75		Godswords	None.
-75		Saradomin's blessed sword	None.
-75		Staff of the dead	Magic 75
-75		Voidwaker	None.
-77		Emberlight	Smithing 74 (boostable).
-Completion of While Guthix Sleeps.
-78		Dragon hunter lance	Barbarian firemaking (excl. pyre step), fishing, and smithing training.
-80		Blade of Saeldor	None.
-80		Ghrazi rapier	None.
-80		Inquisitor's mace	None.
-80		Keris partisan of breaching (corruption) (the sun)	Completion of Tombs of Amascut.
-80		Noxious halberd	None.
-80		Scythe of vitur	Strength 90
-80		Soulreaper axe	Strength 80
-80		Tecu salamander	Ranged 80 Magic 80
-82		Osmumten's fang	None.
+ * Attack skill weapon unlocks, by required Attack level.
+ * Source: https://oldschool.runescape.wiki/w/Attack#Weapons
  */
 
-import { QuestRequirement, Requirement } from '../../../Requirement';
+import { LevelRequirement, QuestRequirement, Requirement } from '../../../Requirement';
 import { Skill } from '../../Skill';
 import { SkillUnlock } from './SkillUnlock';
 
@@ -88,97 +16,316 @@ export interface AttackUnlock extends SkillUnlock {
   requirements?: Requirement[];
 }
 
+const quest = (name: string) => new QuestRequirement(name);
+const req = (skill: string, level: number) => new LevelRequirement(skill, level);
+
 /** Attack skill unlocks */
 export const AttackUnlocks: AttackUnlock[] = [
+  { description: 'None.', level: 1, name: 'Bronze', skill: Skill.Attack },
+  { description: 'None.', level: 1, name: 'Iron', skill: Skill.Attack },
+  { description: 'None.', level: 1, name: 'Machetes', skill: Skill.Attack },
+  { description: 'None.', level: 5, name: 'Steel', skill: Skill.Attack },
+  { description: 'None.', level: 10, name: 'Black', skill: Skill.Attack },
   {
-    description: 'None.',
-    level: 1,
-    name: 'Bronze',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'None.',
-    level: 1,
-    name: 'Iron',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'None.',
-    level: 1,
-    name: 'Machetes',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'None.[1]',
-    level: 5,
-    name: 'Steel',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'None.[1]',
-    level: 10,
-    name: 'Black',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'Completion of the Wanted! quest.',
+    description: 'Requires completion of Wanted!',
     level: 10,
     name: 'White',
-    requirements: [QuestRequirement.fromQuestName('Wanted!')],
+    requirements: [quest('Wanted!')],
     skill: Skill.Attack,
   },
   {
     description: 'Prayer 25 and partial completion of Another Slice of H.A.M.',
     level: 15,
     name: 'Ancient mace',
+    requirements: [req('Prayer', 25)],
     skill: Skill.Attack,
   },
+  { description: 'None.', level: 20, name: 'Mithril', skill: Skill.Attack },
+  { description: 'None.', level: 30, name: 'Adamant', skill: Skill.Attack },
   {
-    description: 'None.[1]',
-    level: 20,
-    name: 'Mithril',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'None.[1]',
-    level: 30,
-    name: 'Adamant',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'Magic 30',
+    description: 'Requires Magic 30.',
     level: 30,
     name: 'Battlestaves',
+    requirements: [req(Skill.Magic, 30)],
     skill: Skill.Attack,
   },
   {
-    description: 'Ranged 30 Magic 30',
+    description: 'Requires Ranged 30 and Magic 30.',
     level: 30,
     name: 'Swamp lizard',
+    requirements: [req('Ranged', 30), req(Skill.Magic, 30)],
     skill: Skill.Attack,
   },
+  { description: 'None.', level: 40, name: 'Brine sabre', skill: Skill.Attack },
   {
-    description: 'None.',
-    level: 40,
-    name: 'Brine sabre',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'Magic 40',
+    description: 'Requires Magic 40.',
     level: 40,
     name: 'Mystic staves',
+    requirements: [req(Skill.Magic, 40)],
     skill: Skill.Attack,
   },
+  { description: 'None.', level: 40, name: 'Rune', skill: Skill.Attack },
   {
-    description: 'None.[1]',
-    level: 40,
-    name: 'Rune',
-    skill: Skill.Attack,
-  },
-  {
-    description: 'Attack 42,Strength,Defence,Hitpoints,Ranged,Magic, and Prayer 22',
+    description: 'Requires Attack 42, Strength, Defence, Hitpoints, Ranged, Magic, and Prayer 22.',
     level: 42,
     name: 'Void knight mace',
+    requirements: [
+      req('Strength', 22),
+      req('Defence', 22),
+      req('Hitpoints', 22),
+      req('Ranged', 22),
+      req(Skill.Magic, 22),
+      req('Prayer', 22),
+    ],
     skill: Skill.Attack,
   },
+  {
+    description: 'Requires Magic 50 and completion of Desert Treasure I.',
+    level: 50,
+    name: 'Ancient staff',
+    requirements: [req(Skill.Magic, 50), quest('Desert Treasure I')],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Strength 50.',
+    level: 50,
+    name: 'Granite maul',
+    requirements: [req('Strength', 50)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Strength 50.',
+    level: 50,
+    name: 'Granite hammer',
+    requirements: [req('Strength', 50)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Strength 50.',
+    level: 50,
+    name: 'Granite longsword',
+    requirements: [req('Strength', 50)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Magic 50 and completion of Underground Pass.',
+    level: 50,
+    name: "Iban's staff",
+    requirements: [req(Skill.Magic, 50), quest('Underground Pass')],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Magic 77.',
+    level: 50,
+    name: 'Purging staff',
+    requirements: [req(Skill.Magic, 77)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Slayer 55.',
+    level: 50,
+    name: 'Leaf-bladed spear',
+    requirements: [req('Slayer', 55)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Slayer 55.',
+    level: 50,
+    name: 'Leaf-bladed sword',
+    requirements: [req('Slayer', 55)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Ranged 50 and Magic 50.',
+    level: 50,
+    name: 'Orange salamander',
+    requirements: [req('Ranged', 50), req(Skill.Magic, 50)],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 55, name: 'Sulphur blades', skill: Skill.Attack },
+  {
+    description: 'Requires completion of The Final Dawn.',
+    level: 60,
+    name: 'Arkan blade',
+    requirements: [quest('The Final Dawn')],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Strength 40 and completion of The Great Brain Robbery.',
+    level: 60,
+    name: 'Barrelchest anchor',
+    requirements: [req('Strength', 40), quest('The Great Brain Robbery')],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 60, name: 'Burning claws', skill: Skill.Attack },
+  {
+    description: 'Requires completion of Sleeping Giants.',
+    level: 60,
+    name: 'Colossal blade',
+    requirements: [quest('Sleeping Giants')],
+    skill: Skill.Attack,
+  },
+  {
+    description:
+      "Longsword and dagger require Lost City. Mace and battleaxe require Heroes' Quest. Halberd requires Regicide. Scimitar requires Monkey Madness I.",
+    level: 60,
+    name: 'Dragon',
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Obsidian maul requires Strength 60 instead of Attack 60. Obsidian staff also requires Magic 60.',
+    level: 60,
+    name: 'Obsidian',
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Ranged 60 and Magic 60.',
+    level: 60,
+    name: 'Red salamander',
+    requirements: [req('Ranged', 60), req(Skill.Magic, 60)],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 60, name: "Viggora's chainmace", skill: Skill.Attack },
+  { description: 'None.', level: 65, name: '3rd age longsword', skill: Skill.Attack },
+  {
+    description: 'Requires completion of Beneath Cursed Sands.',
+    level: 65,
+    name: 'Keris partisan',
+    requirements: [quest('Beneath Cursed Sands')],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Slayer 55.',
+    level: 65,
+    name: 'Leaf-bladed battleaxe',
+    requirements: [req('Slayer', 55)],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 65, name: 'Sarachnis cudgel', skill: Skill.Attack },
+  { description: 'None.', level: 65, name: 'Zombie axe', skill: Skill.Attack },
+  {
+    description: 'Requires Strength 70.',
+    level: 70,
+    name: 'Abyssal bludgeon',
+    requirements: [req('Strength', 70)],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 70, name: 'Abyssal dagger', skill: Skill.Attack },
+  { description: 'None.', level: 70, name: 'Abyssal whip', skill: Skill.Attack },
+  {
+    description: 'Requires Defence 70.',
+    level: 70,
+    name: 'Avernic defender',
+    requirements: [req('Defence', 70)],
+    skill: Skill.Attack,
+  },
+  {
+    description: "Dharok's greataxe and Torag's hammers require Strength 70. Ahrim's staff requires Magic 70.",
+    level: 70,
+    name: 'Barrows',
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Ranged 70 and Magic 70.',
+    level: 70,
+    name: 'Black salamander',
+    requirements: [req('Ranged', 70), req(Skill.Magic, 70)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Magic 75.',
+    level: 70,
+    name: 'Blue moon spear',
+    requirements: [req(Skill.Magic, 75)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Strength 35, Agility 50, and completion of the Hard Western Provinces Diary.',
+    level: 70,
+    name: 'Crystal halberd',
+    requirements: [req('Strength', 35), req('Agility', 50)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Strength 75.',
+    level: 70,
+    name: 'Dual macuahuitl',
+    requirements: [req('Strength', 75)],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 70, name: 'Saradomin sword', skill: Skill.Attack },
+  { description: 'None.', level: 70, name: 'Ursine chainmace', skill: Skill.Attack },
+  { description: 'None.', level: 70, name: 'Zamorakian spear (Hasta)', skill: Skill.Attack },
+  { description: 'None.', level: 75, name: 'Abyssal tentacle', skill: Skill.Attack },
+  {
+    description: 'Requires completion of Shadow of the Storm.',
+    level: 75,
+    name: 'Arclight',
+    requirements: [quest('Shadow of the Storm')],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Strength 75.',
+    level: 75,
+    name: 'Elder maul',
+    requirements: [req('Strength', 75)],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 75, name: 'Godswords', skill: Skill.Attack },
+  { description: 'None.', level: 75, name: "Saradomin's blessed sword", skill: Skill.Attack },
+  {
+    description: 'Requires Magic 75.',
+    level: 75,
+    name: 'Staff of the dead',
+    requirements: [req(Skill.Magic, 75)],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 75, name: 'Voidwaker', skill: Skill.Attack },
+  {
+    description: 'Requires Smithing 74 (boostable) and completion of While Guthix Sleeps.',
+    level: 77,
+    name: 'Emberlight',
+    requirements: [req('Smithing', 74), quest('While Guthix Sleeps')],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Barbarian Training (firemaking, fishing, and smithing).',
+    level: 78,
+    name: 'Dragon hunter lance',
+    requirements: [quest('Barbarian Training')],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 80, name: 'Blade of Saeldor', skill: Skill.Attack },
+  { description: 'None.', level: 80, name: 'Ghrazi rapier', skill: Skill.Attack },
+  { description: 'None.', level: 80, name: "Inquisitor's mace", skill: Skill.Attack },
+  {
+    description: 'Requires completion of Into the Tombs (miniquest).',
+    level: 80,
+    name: 'Keris partisan of breaching',
+    requirements: [quest('Into the Tombs')],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 80, name: 'Noxious halberd', skill: Skill.Attack },
+  {
+    description: 'Requires Strength 90.',
+    level: 80,
+    name: 'Scythe of vitur',
+    requirements: [req('Strength', 90)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Strength 80.',
+    level: 80,
+    name: 'Soulreaper axe',
+    requirements: [req('Strength', 80)],
+    skill: Skill.Attack,
+  },
+  {
+    description: 'Requires Ranged 80 and Magic 80.',
+    level: 80,
+    name: 'Tecu salamander',
+    requirements: [req('Ranged', 80), req(Skill.Magic, 80)],
+    skill: Skill.Attack,
+  },
+  { description: 'None.', level: 82, name: "Osmumten's fang", skill: Skill.Attack },
 ];

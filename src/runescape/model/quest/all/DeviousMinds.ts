@@ -1,8 +1,10 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement, LevelRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const DeviousMinds: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help a suspicious monk near the Paterdomus temple craft a special item — only to discover a sinister ulterior motive.',
 
   difficulty: QuestDifficulty.Novice,
 
@@ -21,13 +23,19 @@ const DeviousMinds: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Monk's Friend"),
+    new QuestRequirement('Wanted!'),
+    new LevelRequirement(Skill.Fletching, 50, false),
+    new LevelRequirement(Skill.Runecraft, 65, false),
+    new LevelRequirement(Skill.Smithing, 50, false),
+  ],
   rewards: {
     areas: [],
     experience: [
-      { amount: 5000, skill: 'Fletching' },
-      { amount: 5000, skill: 'Runecraft' },
-      { amount: 6500, skill: 'Smithing' },
+      { amount: 5000, skill: Skill.Fletching },
+      { amount: 5000, skill: Skill.Runecraft },
+      { amount: 6500, skill: Skill.Smithing },
     ],
     items: [],
     lamps: [],
@@ -36,10 +44,10 @@ const DeviousMinds: Quest = {
     questPoints: 1,
     unlocks: [],
   },
-  series: 'The Return of Zaros',
+  series: 'Mahjarrat',
   shortName: 'deviousMinds',
 
-  startLocation: '',
+  startLocation: 'Monk of Entrana, Port Sarim',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Devious_Minds',

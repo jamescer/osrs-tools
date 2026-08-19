@@ -12,14 +12,23 @@ export enum CombatAchievementTier {
   Grandmaster = 'Grandmaster',
 }
 
-export type CombatAchievementTaskType =
-  | 'Kill Count'
-  | 'Mechanical'
-  | 'Perfection'
-  | 'Restriction'
-  | 'Speed'
-  | 'Stamina';
+/**
+ * The six Combat Achievement task types, in ascending order of difficulty.
+ *
+ * Source: https://oldschool.runescape.wiki/w/Combat_Achievements
+ */
+export enum CombatAchievementTaskType {
+  KillCount = 'Kill Count',
+  Mechanical = 'Mechanical',
+  Perfection = 'Perfection',
+  Restriction = 'Restriction',
+  Speed = 'Speed',
+  Stamina = 'Stamina',
+}
 
+/**
+ * Represents a single Combat Achievement task.
+ */
 export interface CombatAchievementTask {
   /** Stable task id, matching the wiki's internal Combat Achievements task id. */
   id: number;
@@ -33,6 +42,9 @@ export interface CombatAchievementTask {
   description: string;
 }
 
+/**
+ * Represents a single Combat Achievement reward tier.
+ */
 export interface CombatAchievementRewardTier {
   tier: CombatAchievementTier;
   /** Total Combat Achievement points required to claim this tier's rewards. */
@@ -41,7 +53,9 @@ export interface CombatAchievementRewardTier {
   rewards: string[];
 }
 
-/** Points awarded per task, by tier. */
+/**
+ * Points awarded per task, by tier.
+ */
 export const COMBAT_ACHIEVEMENT_TIER_POINTS: Record<CombatAchievementTier, number> = {
   [CombatAchievementTier.Easy]: 1,
   [CombatAchievementTier.Medium]: 2,

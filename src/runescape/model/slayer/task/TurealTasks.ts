@@ -1,5 +1,5 @@
 import { CombatLevelRequirement, SlayerLevelRequirement } from '../../Requirement';
-import { Task } from '../Task';
+import { Task } from '../core/Task';
 
 const turealTasks: Task[] = [
   new Task(
@@ -11,8 +11,7 @@ const turealTasks: Task[] = [
     null,
     ['Twisted Banshee'],
     8,
-    [],
-    0,
+    [], 32.5,
     ['Slayer Tower (CKS)'],
   ),
   new Task(
@@ -24,8 +23,7 @@ const turealTasks: Task[] = [
     null,
     ['Giant bat', 'Albino bat', 'Death wing'],
     7,
-    [],
-    0,
+    [], 8,
     ['Silvarea, North of Digsite'],
   ),
   new Task(
@@ -37,8 +35,7 @@ const turealTasks: Task[] = [
     null,
     ['Grizzly bear cub', 'Bear cub', 'Grizzly bear', 'Reanimated bear', 'Callisto', 'Artio'],
     7,
-    [],
-    0,
+    [], 20,
     ["South-west of Legends' Guild (cannon)"],
   ),
   new Task(
@@ -50,11 +47,10 @@ const turealTasks: Task[] = [
     null,
     ['Chicken', 'Mounted terrorbird', 'Terrorbird', 'Rooster', 'Chompy bird', 'Seagull', 'Penguin', 'Duck', 'Duckling'],
     6,
-    [],
-    0,
+    [], 2,
     ["West of the Champions' Guild (cannon ducks)"],
   ),
-  new Task('Cave bugs', 10, 30, [new SlayerLevelRequirement(7)], null, null, [], 8, [], 0, [
+  new Task('Cave bugs', 10, 30, [new SlayerLevelRequirement(7)], null, null, [], 8, [], 8, [
     'Dorgesh-Kaan South Dungeon (AJQ)',
   ]),
   new Task(
@@ -66,8 +62,7 @@ const turealTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 22.5,
     ['Fremennik Slayer Dungeon (AJR)'],
   ),
   new Task(
@@ -79,8 +74,7 @@ const turealTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 12,
     ['Dorgesh-Kaan South Dungeon (AJQ)'],
   ),
   new Task(
@@ -92,8 +86,7 @@ const turealTasks: Task[] = [
     null,
     ['Buffalo', 'Cow calf', 'Undead cow'],
     8,
-    [],
-    0,
+    [], 8,
     ['East of Lumbridge'],
   ),
   new Task(
@@ -105,8 +98,7 @@ const turealTasks: Task[] = [
     null,
     [],
     8,
-    [],
-    0,
+    [], 14.5,
     ['Slayer Tower (CKS)'],
   ),
   new Task(
@@ -118,8 +110,7 @@ const turealTasks: Task[] = [
     null,
     ['Jackal', 'Guard dog', 'Wild dog', 'Reanimated dog'],
     7,
-    [],
-    0,
+    [], 5,
     ["East of Sophanem (Pharaoh's sceptre - Jaleustrophos)"],
   ),
   new Task(
@@ -131,8 +122,7 @@ const turealTasks: Task[] = [
     null,
     ['Black Guard', 'Chaos Dwarf', 'Dwarf gang member'],
     7,
-    [],
-    0,
+    [], 10,
     ['White Wolf Tunnel pub'],
   ),
   new Task(
@@ -144,8 +134,7 @@ const turealTasks: Task[] = [
     null,
     ['Tortured soul', 'Forgotten Soul', 'Revenants', 'Death wing'],
     7,
-    [],
-    0,
+    [], 13.5,
     ['Catacombs of Kourend'],
   ),
   new Task(
@@ -157,11 +146,10 @@ const turealTasks: Task[] = [
     null,
     ['Cave goblin guards', 'Sergeant Strongstack', 'Sergeant Steelwill', 'Sergeant Grimspike'],
     7,
-    [],
-    0,
+    [], 5,
     ['East of Lumbridge'],
   ),
-  new Task('Icefiends', 15, 20, [new CombatLevelRequirement(20)], null, null, [], 8, [], 0, ['Ice Mountain']),
+  new Task('Icefiends', 15, 20, [new CombatLevelRequirement(20)], null, null, [], 8, [], 32, ['Ice Mountain']),
   new Task(
     'Kalphite',
     15,
@@ -171,8 +159,7 @@ const turealTasks: Task[] = [
     null,
     ['Kalphite worker', 'Kalphite soldier', 'Kalphite guardian', 'Kalphite Queen'],
     6,
-    [],
-    0,
+    [], 40,
     ['Kalphite Cave'],
   ),
   new Task(
@@ -184,11 +171,10 @@ const turealTasks: Task[] = [
     null,
     ['Small Lizard', 'Desert Lizard', 'Sulphur Lizard', 'Grimy Lizard'],
     8,
-    [],
-    0,
+    [], 15,
     ['North of Nardah Fairy Ring (DLQ)', 'Karuulm Slayer Dungeon'],
   ),
-  new Task('Minotaurs', 10, 20, [new CombatLevelRequirement(7)], null, null, [], 7, [], 0, ['Stronghold of Security']),
+  new Task('Minotaurs', 10, 20, [new CombatLevelRequirement(7)], null, null, [], 7, [], 12, ['Stronghold of Security']),
   new Task(
     'Monkeys',
     15,
@@ -206,8 +192,7 @@ const turealTasks: Task[] = [
       'Maniacal Monkey',
     ],
     6,
-    [],
-    0,
+    [], 3,
     ['Ardougne Zoo', 'Karamja north-west of glider', "Kruk's Dungeon", 'North of Cairn Isle'],
   ),
   new Task(
@@ -219,8 +204,7 @@ const turealTasks: Task[] = [
     null,
     ['Giant rat', 'Dungeon rat', 'Crypt rat', 'Brine rat', 'Hell-Rat Behemoth', 'Giant crypt rat', 'Scurrius'],
     7,
-    [],
-    0,
+    [], 2.5,
     ['Ferox Enclave'],
   ),
   new Task(
@@ -241,8 +225,7 @@ const turealTasks: Task[] = [
       "Scorpia's guardian",
     ],
     7,
-    [],
-    0,
+    [], 12,
     ['Al Kharid Mine', 'Dwarven Mine'],
   ),
   new Task(
@@ -262,8 +245,7 @@ const turealTasks: Task[] = [
       "Calvar'ion",
     ],
     7,
-    [],
-    0,
+    [], 18,
     ['Digsite Dungeon', 'Catacombs of Kourend', 'Edgeville Dungeon'],
   ),
   new Task(
@@ -285,8 +267,7 @@ const turealTasks: Task[] = [
       'Spindel',
     ],
     6,
-    [],
-    0,
+    [], 2,
     ['Outside H.A.M. Hideout', 'Clock Tower dungeon'],
   ),
   new Task(
@@ -298,8 +279,7 @@ const turealTasks: Task[] = [
     null,
     ['Big Wolf', 'Desert Wolf', 'Dire Wolf', 'Ice wolf', 'Jungle wolf', 'White wolf'],
     7,
-    [],
-    0,
+    [], 8,
     ['White Wolf Mountain', 'Stronghold of Security'],
   ),
   new Task(
@@ -322,8 +302,7 @@ const turealTasks: Task[] = [
       'Vorkath',
     ],
     7,
-    [],
-    0,
+    [], 13.5,
     ["Alice's Farm West of Ectofuntus"],
   ),
 ];

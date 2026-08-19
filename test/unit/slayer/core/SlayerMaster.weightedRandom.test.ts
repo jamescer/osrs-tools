@@ -23,15 +23,15 @@ describe('SlayerMaster - weighted random task selection', () => {
       );
 
     it.each([
-      { roll: 0, expected: 'Banshee' },
-      { roll: 0.49999, expected: 'Banshee' },
-      { roll: 0.5, expected: 'Banshee' }, // randomWeight === 5, falls on the first task's inclusive upper bound
-      { roll: 0.50001, expected: 'Cave Crawler' },
-      { roll: 0.79999, expected: 'Cave Crawler' },
-      { roll: 0.8, expected: 'Cave Crawler' }, // randomWeight === 8, second task's inclusive upper bound
-      { roll: 0.80001, expected: 'Crawling Hand' },
-      { roll: 0.99999, expected: 'Crawling Hand' },
-    ])('Math.random() = $roll -> $expected', ({ roll, expected }) => {
+      { expected: 'Banshee', roll: 0 },
+      { expected: 'Banshee', roll: 0.49999 },
+      { expected: 'Banshee', roll: 0.5 }, // randomWeight === 5, falls on the first task's inclusive upper bound
+      { expected: 'Cave Crawler', roll: 0.50001 },
+      { expected: 'Cave Crawler', roll: 0.79999 },
+      { expected: 'Cave Crawler', roll: 0.8 }, // randomWeight === 8, second task's inclusive upper bound
+      { expected: 'Crawling Hand', roll: 0.80001 },
+      { expected: 'Crawling Hand', roll: 0.99999 },
+    ])('Math.random() = $roll -> $expected', ({ expected, roll }) => {
       jest.spyOn(Math, 'random').mockReturnValue(roll);
       const master = buildMaster();
       expect(master.getRandomTask()?.getName()).toBe(expected);
@@ -94,9 +94,9 @@ describe('SlayerMaster - weighted random task selection', () => {
 
       const trials = 40_000;
       const counts: Record<string, number> = {
-        'Spiritual creatures': 0,
         'Abyssal demon': 0,
         'Metal dragons': 0,
+        'Spiritual creatures': 0,
       };
       for (let i = 0; i < trials; i++) {
         const name = master.getRandomTask()?.getName();
@@ -114,10 +114,7 @@ describe('SlayerMaster - weighted random task selection', () => {
     it('never selects a zero-weight task', () => {
       const master = new SlayerMaster(
         'Test Master',
-        [
-          new Task('Banshee', 10, 15, [], null, null, [], 0),
-          new Task('Cave Crawler', 8, 12, [], null, null, [], 5),
-        ],
+        [new Task('Banshee', 10, 15, [], null, null, [], 0), new Task('Cave Crawler', 8, 12, [], null, null, [], 5)],
         'Testville',
         0,
         '',

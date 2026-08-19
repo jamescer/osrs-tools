@@ -95,8 +95,8 @@ cls
 echo.
 echo Opening full documentation...
 echo.
-if exist ITEM_ICONS_README.md (
-    start notepad ITEM_ICONS_README.md
+if exist ..\docs\scripts\ITEM_ICONS_README.md (
+    start notepad ..\docs\scripts\ITEM_ICONS_README.md
 ) else (
     echo Documentation file not found!
     pause
@@ -108,8 +108,8 @@ cls
 echo.
 echo Opening quick reference guide...
 echo.
-if exist QUICK_REFERENCE.md (
-    start notepad QUICK_REFERENCE.md
+if exist ..\docs\scripts\QUICK_REFERENCE.md (
+    start notepad ..\docs\scripts\QUICK_REFERENCE.md
 ) else (
     echo Quick reference file not found!
     pause

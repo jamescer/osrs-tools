@@ -5,8 +5,7 @@ import { Quest, QuestStatus } from '../Quest';
 
 const RecruitmentDrive: Quest = {
   age: 'Fifth Age',
-  description:
-    "The Temple Knights of Saradomin, a secret organisation founded many centuries ago by Saradomin himself, are currently looking to expand their ranks with some new blood. After the successful thwarting of the Black Knights' plans to take over Asgarnia, and with the personal recommendation of Sir Amik, you have now been offered the chance to apply for membership in this organisation... but are you up to the challenge?",
+  description: 'Prove your worth to Sir Tiffy Cashien of the Temple Knights by passing a series of puzzling tests at their recruitment facility.',
   difficulty: QuestDifficulty.Novice,
   id: 86,
   length: QuestLength.Short,
@@ -44,21 +43,16 @@ const RecruitmentDrive: Quest = {
     ],
     questPoints: 1,
     unlocks: [
-      { description: 'Access to Initiate armour' },
-      { description: 'The Gaze of Saradomin - Option to change spawn point to Falador' },
-      { description: 'Title of Initiate in the Order of Temple Knights' },
+      { description: 'Prove your worth to Sir Tiffy Cashien of the Temple Knights by passing a series of puzzling tests at their recruitment facility.' },
+      { description: 'Prove your worth to Sir Tiffy Cashien of the Temple Knights by passing a series of puzzling tests at their recruitment facility.' },
+      { description: 'Prove your worth to Sir Tiffy Cashien of the Temple Knights by passing a series of puzzling tests at their recruitment facility.' },
     ],
   },
   series: 'Temple Knight',
   shortName: 'recruitmentDrive',
   startLocation: "Speak to Sir Amik Varze on the 3rd floor[US] of the White Knights' Castle's western tower in Falador",
   status: QuestStatus.NotStarted,
-  steps: [
-    "Start the quest by speaking to Sir Amik Varze in the White Knights' Castle.",
-    'Talk to Sir Tiffy Cashien in Falador Park.',
-    'Complete a series of puzzle rooms, facing 5 out of 7 possible challenges.',
-    'Return to Sir Tiffy Cashien to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Recruitment_Drive',
 };
 

@@ -1,9 +1,11 @@
+import { Skill } from '../../account/Skill';
+import { QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const ATailOfTwoCats: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help Bob the cat rediscover his past life as a legendary hero while assisting Unferth with his missing cat.',
 
   difficulty: QuestDifficulty.Intermediate,
 
@@ -33,11 +35,13 @@ const ATailOfTwoCats: Quest = {
   ],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Icthlarin's Little Helper"),
+  ],
   rewards: {
     experience: [
-      { amount: 2000, skill: 'Agility' },
-      { amount: 2500, skill: 'Thieving' },
+      { amount: 2000, skill: Skill.Agility },
+      { amount: 2500, skill: Skill.Thieving },
     ],
     lamps: [],
     pets: [],
@@ -50,7 +54,7 @@ const ATailOfTwoCats: Quest = {
   },
   series: 'Dragonkin',
   shortName: 'aTailOfTwoCats',
-  startLocation: '',
+  startLocation: "Bob the Cat (random location, found via Bob's Brilliant Axes, Burthorpe)",
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats',

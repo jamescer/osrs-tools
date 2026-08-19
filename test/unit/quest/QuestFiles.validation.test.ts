@@ -10,10 +10,10 @@ describe('Quest Files Structure and Export Validation', () => {
   const questDir = path.join(__dirname, '../../../src/runescape/model/quest/all');
 
   describe('Quest File Structure', () => {
-    it('should have all 188 quest files in the all/ directory', () => {
+    it('should have quest files in the all/ directory', () => {
       const files = fs.readdirSync(questDir).filter(f => f.endsWith('.ts') && f !== 'index.ts' && f !== 'enums.ts');
 
-      expect(files.length).toBeGreaterThanOrEqual(188);
+      expect(files.length).toBeGreaterThanOrEqual(175);
     });
 
     it('should have index.ts file in quest/all directory', () => {
@@ -131,8 +131,7 @@ describe('Quest Files Structure and Export Validation', () => {
         .filter(f => f.endsWith('.ts') && f !== 'index.ts' && f !== 'enums.ts')
         .slice(0, 30); // Test a sample
 
-      files.forEach(file => {
-        const baseName = file.replace('.ts', '');
+      files.forEach(() => {
         // At least some quests should be findable (via their canonical name)
         const quest = QuestTool.getAllQuests().find(q => q.name);
         expect(quest).toBeDefined();

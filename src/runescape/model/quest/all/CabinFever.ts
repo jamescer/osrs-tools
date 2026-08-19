@@ -1,14 +1,17 @@
+import { LevelRequirement , QuestRequirement} from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const CabinFever: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Join the pirate Bill Teach on his vessel and help repel an attack from the Customs and Excise Office using seafaring skills.',
+  
 
-  difficulty: QuestDifficulty.Intermediate,
+  difficulty: QuestDifficulty.Experienced,
 
   id: 14,
 
-  length: QuestLength.Medium,
+  length: QuestLength.Short,
 
   members: true,
 
@@ -37,24 +40,37 @@ const CabinFever: Quest = {
     Ranged: 40,
     Smithing: 50,
   },
-  requirements: [],
+  requirements: [
+    new QuestRequirement("Pirate's Treasure"),
+    new QuestRequirement("Rum Deal"),
+    new QuestRequirement("Priest in Peril"),
+    new LevelRequirement(Skill.Agility, 42, false),
+    new LevelRequirement(Skill.Crafting, 45, false),
+    new LevelRequirement(Skill.Smithing, 50, false),
+    new LevelRequirement(Skill.Ranged, 40, false),
+  ],
   rewards: {
     areas: ['Mos Le’Harmless'],
     experience: [
-      { amount: 7000, skill: 'Agility' },
-      { amount: 7000, skill: 'Crafting' },
-      { amount: 7000, skill: 'Smithing' },
+      { amount: 7000, skill: Skill.Agility },
+      { amount: 7000, skill: Skill.Crafting },
+      { amount: 7000, skill: Skill.Smithing },
     ],
-    items: [{ name: 'Access to Mos Le’Harmless' }],
+    items: [],
     lamps: [],
     pets: [],
     points: [],
     questPoints: 2,
-    unlocks: [{ description: 'Ability to travel to Mos Le’Harmless' }],
+    unlocks: [
+      { description: 'Access to Mos Le\'Harmless' },
+      { description: 'Access to cave horrors (Slayer level required)' },
+      { description: 'Ability to play Trouble Brewing minigame' },
+      { description: 'Charter ship prices halved' },
+    ],
   },
   series: 'Pirate',
   shortName: 'cabinFever',
-  startLocation: '',
+  startLocation: 'Bill Teach, The Green Ghost inn, Port Phasmatys',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Cabin_Fever',

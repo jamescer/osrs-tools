@@ -1,8 +1,9 @@
-import { LevelRequirement, QuestRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
+import { CombatLevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength } from '../enums';
-import { QuestStatus } from '../Quest';
+import { Quest, QuestStatus } from '../Quest';
 
-const DreamMentor = {
+const DreamMentor: Quest = {
   age: 'Fifth Age',
   description: 'Help Cyrisus overcome his fears in the dream world and unlock new Lunar spells.',
 
@@ -18,7 +19,7 @@ const DreamMentor = {
 
   name: 'Dream Mentor',
 
-  questPoints: 1,
+  questPoints: 2,
 
   recommendations: [
     { name: 'Seal of passage', note: 'Required to access Lunar Isle.', type: 'item' },
@@ -50,16 +51,14 @@ const DreamMentor = {
 
   requirements: [
     new QuestRequirement('Lunar Diplomacy'),
-    new LevelRequirement('Magic', 65, false),
-    new LevelRequirement('Defence', 40, false),
-    new LevelRequirement('Hitpoints', 40, false),
+    new CombatLevelRequirement(85),
   ],
 
   rewards: {
     areas: ['Lunar Isle', 'Dream World'],
     experience: [
-      { amount: 15000, skill: 'Hitpoints' },
-      { amount: 10000, skill: 'Magic' },
+      { amount: 15000, skill: Skill.Hitpoints },
+      { amount: 10000, skill: Skill.Magic },
     ],
     items: [{ name: 'Dreamy lamp' }],
     lamps: [
@@ -69,10 +68,7 @@ const DreamMentor = {
         skillRestriction: ['Any combat skill except Attack and Prayer'],
       },
     ],
-    misc: [
-      'Required for Dragon Slayer II, While Guthix Sleeps, Hard Desert Diary, Hard Kourend & Kebos Diary, Elite Varrock Diary',
-    ],
-    questPoints: 1,
+    questPoints: 2,
     unlocks: [
       {
         description:
@@ -89,21 +85,13 @@ const DreamMentor = {
 
   series: 'Fremennik',
 
-  shortName: 'DreamMentor',
+  shortName: 'dreamMentor',
 
   startLocation: 'Lunar Isle mine',
 
   status: QuestStatus.NotStarted,
 
-  steps: [
-    'Talk to Cyrisus on Lunar Isle to begin the quest.',
-    'Enter the Dream World through the portal.',
-    'Defeat the Sorrow in the dream world.',
-    'Defeat the Despair in the dream world.',
-    'Defeat the Fear in the dream world.',
-    'Defeat the Anger in the dream world.',
-    'Talk to Cyrisus in the real world to complete the quest.',
-  ],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/Dream_Mentor',
 };
 

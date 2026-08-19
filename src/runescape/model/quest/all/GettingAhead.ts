@@ -1,9 +1,11 @@
+import { LevelRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const GettingAhead: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help Gordon the farmer protect his sheep farm from a headless beast roaming the northern fields.',
   difficulty: QuestDifficulty.Novice,
   id: 49,
   length: QuestLength.Short,
@@ -14,7 +16,10 @@ const GettingAhead: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new LevelRequirement(Skill.Construction, 26, false),
+    new LevelRequirement(Skill.Crafting, 30, false),
+  ],
   rewards: {
     areas: [],
     experience: [],
@@ -28,7 +33,7 @@ const GettingAhead: Quest = {
   series: 'Twisted Tales',
   shortName: 'gettingAhead',
 
-  startLocation: '',
+  startLocation: 'Gordon, north of Camelot',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/Getting_Ahead',

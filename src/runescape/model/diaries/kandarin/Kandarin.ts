@@ -12,249 +12,382 @@ const skill = (skillName: string, level: number, boostable = true) => new LevelR
 export const KandarinDiary: Diary = {
   easy: {
     itemReward: 'Kandarin headgear 1',
-    itemsRequired: ['Magic runes', 'Woodcutting axe', 'Fishing supplies'],
-    questsRequired: [],
     rewards: {
       description: [
         {
           main: 'Kandarin headgear 1',
-          other: ['Reduces weight of equipment and provides teleport to Camelot'],
+          other: [
+            'Acts as a light source when worn or held in the inventory',
+            'While worn, gain double logs from regular trees (no extra XP)',
+          ],
         },
         {
-          main: '1 Antique lamp worth 2,500 experience in any skill of at least level 30',
+          main: 'Antique lamp worth 2,500 experience in any skill of at least level 30',
           other: [],
         },
         {
-          main: 'Increased drop rates for herbs in local areas',
+          main: 'Coal trucks can hold up to 140 coal (up from 120)',
+          other: [],
+        },
+        {
+          main: 'Flax keeper offers 30 noted bow strings daily for 30 noted flax',
+          other: [],
+        },
+        {
+          main: "5% more marks of grace from the Seers' Village Rooftop Course",
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 2500, levelToUse: 30 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 45, skill: 'magic' },
-      { boostable: true, level: 1, skill: 'woodcutting' },
-      { boostable: true, level: 15, skill: 'mining' },
-      { boostable: true, level: 10, skill: 'fishing' },
-      { boostable: true, level: 1, skill: 'fletching' },
-    ],
     tasks: [
       {
-        description: 'Cast the Camelot Teleport spell.',
-        requirements: [skill('magic', 45)],
+        description: 'Catch a Mackerel at Catherby.',
+        requirements: [skill('Fishing', 16)],
       },
       {
-        description: 'Chop wood from a tree near Camelot.',
-        requirements: [skill('woodcutting', 1)],
-      },
-      {
-        description: 'Mine ore in the Al Kharid mining area.',
-        requirements: [skill('mining', 15)],
-      },
-      {
-        description: 'Fish in the Barbarian Village.',
-        requirements: [skill('fishing', 10)],
-      },
-      {
-        description: 'Conduct a divine blessing.',
-        requirements: [skill('prayer', 10)],
-      },
-      {
-        description: 'Cross the bridge at Montaine.',
-        requirements: [skill('agility', 10)],
-      },
-      {
-        description: 'Pray at an altar in Camelot.',
-        requirements: [skill('prayer', 1)],
-      },
-      {
-        description: 'Prepare a wilderness route.',
-        requirements: [skill('survival', 5, false)],
-      },
-      {
-        description: 'Fletch some arrows in the Kandarin area.',
-        requirements: [skill('fletching', 1)],
-      },
-      {
-        description: 'Complete a task at the Kandarin market.',
+        description: 'Buy a candle from the Chandler in Catherby.',
         requirements: [],
+      },
+      {
+        description: "Collect five Flax from the Seers' flax fields.",
+        requirements: [],
+      },
+      {
+        description: "Play the Organ in Seers' church.",
+        requirements: [],
+      },
+      {
+        description: "Plant some Jute seeds in the patch north of McGrubor's Wood.",
+        notes: 'This is the farming patch next to Rhonen.',
+        requirements: [skill('Farming', 13)],
+      },
+      {
+        description: 'Have Galahad make you a cup of tea.',
+        requirements: [],
+      },
+      {
+        description: 'Defeat one of each Elemental in the Elemental Workshop.',
+        notes: 'These are the earth, water, air, and fire elemental found on the upper floor of the workshop.',
+        requirements: [quest('Elemental Workshop I')],
+      },
+      {
+        description: 'Get a pet fish from Harry in Catherby.',
+        notes: 'Talk to Harry with a fishbowl of water, seaweed, and 10 coins in your inventory.',
+        requirements: [],
+      },
+      {
+        description: "Buy a Stew from the Seers' pub (Forester's Arms).",
+        requirements: [],
+      },
+      {
+        description: 'Speak to Sherlock.',
+        requirements: [],
+      },
+      {
+        description: 'Cross the Coal truck log shortcut.',
+        requirements: [skill('Agility', 20)],
       },
     ],
   },
   elite: {
     itemReward: 'Kandarin headgear 4',
-    itemsRequired: ['Endgame supplies', 'Master crafting materials'],
-    questsRequired: ["My Arm's Big Adventure", 'The Gauntlet'],
     rewards: {
       description: [
         {
           main: 'Kandarin headgear 4',
-          other: ['Unlimited teleport access and complete weight reduction'],
+          other: ['Unlimited teleports to Sherlock'],
         },
         {
-          main: '1 Antique lamp worth 50,000 experience in any skill of at least level 70',
+          main: 'Antique lamp worth 50,000 experience in any skill of at least level 70',
           other: [],
         },
         {
-          main: 'Double drop rate for all Kandarin bosses',
+          main: 'First 200 coal in the coal trucks daily automatically transported to bank',
+          other: [],
+        },
+        {
+          main: 'Flax keeper offers 250 noted bow strings daily for 250 noted flax',
+          other: [],
+        },
+        {
+          main: '15% increased chance to save a harvest life at the Catherby herb patch',
+          other: [],
+        },
+        {
+          main: "50% discount on Thormac's enchanting services",
+          other: [],
+        },
+        {
+          main: 'Otto Godblessed turns your Zamorakian spear into a hasta for 150,000 coins (down from 300,000)',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 50000, levelToUse: 70 }],
     },
-    skillsRequired: [
-      { boostable: false, level: 99, skill: 'slayer' },
-      { boostable: false, level: 99, skill: 'agility' },
-      { boostable: false, level: 99, skill: 'smithing' },
-      { boostable: false, level: 99, skill: 'crafting' },
-    ],
     tasks: [
       {
-        description: 'Defeat the King of the Trolls.',
-        requirements: [skill('slayer', 99), quest('The Gauntlet')],
+        description: 'Read the Blackboard at Barbarian Assault after reaching level 5 in every role.',
+        notes: 'Requires earning enough honour points to buy level 5 in all four roles (about 5,600 points total).',
+        requirements: [],
       },
       {
-        description: 'Complete elite obstacle course without taking damage.',
-        requirements: [skill('agility', 99)],
+        description: 'Pick some Dwarf weed from the herb patch at Catherby.',
+        requirements: [skill('Farming', 79)],
       },
       {
-        description: 'Achieve 99 in all Kandarin skills.',
-        requirements: [skill('smithing', 99), skill('crafting', 99), skill('farming', 99)],
+        description: 'Fish and cook 5 Sharks in Catherby using the Cooking gauntlets.',
+        notes:
+          'Must use the range in the specific building between the bank and archery shop. Steps must be done consecutively. Requires cooking gauntlets.',
+        requirements: [quest('Family Crest'), skill('Fishing', 76), skill('Cooking', 80)],
       },
       {
-        description: 'Craft the ultimate Kandarin artifact.',
-        requirements: [skill('crafting', 99), skill('runecraft', 99)],
+        description: "Mix a Stamina mix on top of the Seers' Village bank.",
+        notes: 'Requires Barbarian Herblore access (via Barbarian Training). Requires a stamina potion (2) and caviar.',
+        requirements: [skill('Herblore', 86), skill('Agility', 60)],
       },
       {
-        description: 'Claim the Kandarin throne.',
-        requirements: [quest('The Gauntlet'), skill('combat', 100)],
+        description: "Smith a Rune hasta at Otto's Grotto.",
+        notes:
+          'Requires Barbarian Smithing access (via Barbarian Training). Requires a runite bar, magic logs, and a hammer.',
+        requirements: [skill('Smithing', 90)],
+      },
+      {
+        description: 'Construct a Pyre ship from Magic logs.',
+        notes:
+          'Requires Barbarian Firemaking access (via Barbarian Training). Must use chewed bones, not mangled bones.',
+        requirements: [skill('Firemaking', 85), skill('Crafting', 85)],
+      },
+      {
+        description: 'Teleport to Catherby.',
+        notes: 'Requires Lunar spellbook selected. Tele Group Catherby also works.',
+        requirements: [quest('Lunar Diplomacy'), skill('Magic', 87)],
       },
     ],
   },
   hard: {
     itemReward: 'Kandarin headgear 3',
-    itemsRequired: ['High-level combat gear', 'Crafting supplies', 'Smithing bars'],
-    questsRequired: ["My Arm's Big Adventure", 'The Gauntlet'],
     rewards: {
       description: [
         {
           main: 'Kandarin headgear 3',
-          other: ['Major weight reduction and rare item teleports'],
+          other: ['One daily teleport to Sherlock'],
         },
         {
-          main: '1 Antique lamp worth 15,000 experience in any skill of at least level 50',
+          main: 'Antique lamp worth 15,000 experience in any skill of at least level 50',
           other: [],
         },
         {
-          main: 'Access to exclusive loot tables',
+          main: 'Coal trucks can hold up to 308 coal (up from 280)',
+          other: [],
+        },
+        {
+          main: 'Flax keeper offers 120 noted bow strings daily for 120 noted flax',
+          other: [],
+        },
+        {
+          main: "15% more marks of grace from the Seers' Village Rooftop Course",
+          other: [],
+        },
+        {
+          main: '10% increased chance to save a harvest life at the Catherby herb patch',
+          other: [],
+        },
+        {
+          main: "25% discount on Thormac's enchanting services",
+          other: [],
+        },
+        {
+          main: '10% more honour points from Barbarian Assault',
+          other: [],
+        },
+        {
+          main: "Camelot Teleport can now teleport to Seers' Village bank",
+          other: [],
+        },
+        {
+          main: '10% increased chance to trigger enchanted bolt special effects',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 15000, levelToUse: 50 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 72, skill: 'slayer' },
-      { boostable: true, level: 70, skill: 'agility' },
-      { boostable: true, level: 80, skill: 'crafting' },
-      { boostable: true, level: 88, skill: 'smithing' },
-    ],
     tasks: [
       {
-        description: 'Defeat a high-level troll leader.',
-        requirements: [skill('slayer', 72), quest('The Gauntlet')],
+        description: 'Catch a Leaping Sturgeon.',
+        notes:
+          "Must be caught at Otto's Grotto. Requires Barbarian Fishing (access via Barbarian Training). Requires a Barbarian rod and suitable bait.",
+        requirements: [skill('Fishing', 70), skill('Agility', 45), skill('Strength', 45)],
       },
       {
-        description: 'Complete the hard Kandarin obstacle course.',
-        requirements: [skill('agility', 70)],
+        description: "Complete a lap of the Seers' Village Rooftop agility course.",
+        requirements: [skill('Agility', 60)],
       },
       {
-        description: 'Craft a fire tiara.',
-        requirements: [skill('crafting', 80)],
+        description: "Create a Yew longbow from scratch around Seers' Village.",
+        notes:
+          'Chop a yew tree, cut the logs into a yew longbow (u), then finish with a bow string. Steps must be done consecutively.',
+        requirements: [skill('Woodcutting', 60), skill('Fletching', 70)],
       },
       {
-        description: 'Smith an adamant or rune platebody.',
-        requirements: [skill('smithing', 88)],
+        description: "Enter the Seers' Village courthouse with Piety turned on.",
+        notes: 'Requires completion of the Knight Waves Training Grounds.',
+        requirements: [quest("King's Ransom"), skill('Prayer', 70, false), skill('Defence', 70, false)],
       },
       {
-        description: 'Achieve 99 in a Kandarin-related skill.',
-        requirements: [skill('smithing', 99)],
+        description: 'Charge a Water Orb.',
+        notes: 'Requires a dusty key or Agility 70. Protection from dragonfire recommended.',
+        requirements: [skill('Magic', 56)],
+      },
+      {
+        description: "Burn some Maple logs with a bow in Seers' Village.",
+        notes: 'Requires Barbarian Firemaking access (via Barbarian Training).',
+        requirements: [skill('Firemaking', 65)],
+      },
+      {
+        description: 'Kill a Shadow Hound in the Shadow dungeon.',
+        notes: 'Requires a ring of visibility (or ring of shadows) to enter the dungeon.',
+        requirements: [quest('Desert Treasure I'), skill('Thieving', 53)],
+      },
+      {
+        description: 'Kill a Mithril Dragon.',
+        notes:
+          'The Mithril dragon fought during Dragon Slayer II does not count. Requires Barbarian Firemaking access.',
+        requirements: [],
+      },
+      {
+        description: 'Purchase and equip a granite body from Barbarian Assault.',
+        notes:
+          'Requires defeating the Penance Queen. Buying and equipping count as separate steps — must be done consecutively.',
+        requirements: [skill('Strength', 50), skill('Defence', 50)],
+      },
+      {
+        description: "Have the Seers' estate agent decorate your house with Fancy Stone.",
+        notes: 'Costs 25,000 coins. Must finish the dialogue or the task will not count.',
+        requirements: [skill('Construction', 50, false)],
+      },
+      {
+        description: "Smith an Adamant spear at Otto's Grotto.",
+        notes:
+          'Requires Barbarian Smithing access (via Barbarian Training). Requires yew logs, an adamantite bar, and a hammer.',
+        requirements: [skill('Smithing', 75)],
       },
     ],
   },
+
   itemReward: 'Kandarin headgear',
+
   medium: {
     itemReward: 'Kandarin headgear 2',
-    itemsRequired: ['Combat gear', 'Farming supplies', 'Fletching supplies', 'Smithing bars'],
-    questsRequired: ["My Arm's Big Adventure"],
     rewards: {
       description: [
         {
           main: 'Kandarin headgear 2',
-          other: ['Improved weight reduction and additional teleport options'],
-        },
-        {
-          main: '1 Antique lamp worth 7,500 experience in any skill of at least level 40',
           other: [],
         },
         {
-          main: 'Access to restricted Kandarin areas',
+          main: 'Antique lamp worth 7,500 experience in any skill of at least level 40',
+          other: [],
+        },
+        {
+          main: 'Coal trucks can hold up to 280 coal (up from 140)',
+          other: [],
+        },
+        {
+          main: 'Flax keeper offers 60 noted bow strings daily for 60 noted flax',
+          other: [],
+        },
+        {
+          main: "10% more marks of grace from the Seers' Village Rooftop Course",
+          other: [],
+        },
+        {
+          main: "10% increased XP from cutting maple trees in Seers' Village",
+          other: [],
+        },
+        {
+          main: '5% increased chance to save a harvest life at the Catherby herb patch',
+          other: [],
+        },
+        {
+          main: "Seers' Village spinning wheel spins 33% faster",
+          other: [],
+        },
+        {
+          main: 'Ropes are permanently secured at the Baxtorian Falls (after completion of Waterfall Quest)',
           other: [],
         },
       ],
       lamps: [{ amount: 1, experience: 7500, levelToUse: 40 }],
     },
-    skillsRequired: [
-      { boostable: true, level: 60, skill: 'slayer' },
-      { boostable: true, level: 50, skill: 'agility' },
-      { boostable: true, level: 14, skill: 'farming' },
-      { boostable: true, level: 65, skill: 'fletching' },
-      { boostable: true, level: 40, skill: 'smithing' },
-      { boostable: true, level: 52, skill: 'cooking' },
-      { boostable: true, level: 40, skill: 'thieving' },
-    ],
     tasks: [
       {
-        description: 'Defeat a troll in the Trollheim dungeon.',
-        requirements: [skill('slayer', 60), quest("My Arm's Big Adventure")],
+        description: 'Complete a lap of the Barbarian agility course.',
+        requirements: [quest("Alfred Grimhand's Barcrawl"), skill('Agility', 35)],
       },
       {
-        description: 'Complete the Kandarin obstacle course.',
-        requirements: [skill('agility', 40)],
+        description: 'Create a Super Antipoison potion from scratch in the Seers/Catherby area.',
+        notes: 'Steps must be done consecutively without completing other tasks in-between.',
+        requirements: [skill('Herblore', 48)],
       },
       {
-        description: 'Grow an herb patch at the Kandarin farming location.',
-        requirements: [skill('farming', 14)],
+        description: 'Enter the Ranging Guild.',
+        requirements: [skill('Ranged', 40)],
       },
       {
-        description: 'Fletch yew shortbows.',
-        requirements: [skill('fletching', 65)],
+        description: 'Use the grapple shortcut to get from the water obelisk to Catherby shore.',
+        notes: 'Requires a mith grapple and any crossbow. Requires a dusty key or Agility 70.',
+        requirements: [skill('Agility', 36), skill('Strength', 22, false), skill('Ranged', 39, false)],
       },
       {
-        description: 'Smith adamant items at the anvil.',
-        requirements: [skill('smithing', 40)],
+        description: 'Catch and cook a Bass in Catherby.',
+        notes: 'Steps must be done consecutively without completing other tasks in-between.',
+        requirements: [skill('Fishing', 46), skill('Cooking', 43)],
       },
       {
-        description: 'Defeat a monster in the Yanille dungeon.',
-        requirements: [skill('combat', 30)],
+        description: 'Teleport to Camelot.',
+        requirements: [skill('Magic', 45)],
       },
       {
-        description: 'Use the shortcut at Camelot.',
-        requirements: [skill('agility', 50)],
+        description: "String a Maple shortbow in Seers' Village bank.",
+        requirements: [skill('Fletching', 50)],
       },
       {
-        description: 'Cook a swordfish in the area.',
-        requirements: [skill('cooking', 52)],
+        description: 'Pick some Limpwurt root from the farming patch in Catherby.',
+        notes: 'This is the flower patch next to Dantaera.',
+        requirements: [skill('Farming', 26)],
       },
       {
-        description: 'Craft a water staff.',
-        requirements: [skill('runecraft', 5), skill('crafting', 5)],
+        description: 'Create a Mind helmet.',
+        notes: 'This task is automatically completed during Elemental Workshop II.',
+        requirements: [quest('Elemental Workshop II')],
       },
       {
-        description: 'Access the secret cave.',
-        requirements: [skill('thieving', 40)],
+        description: 'Kill a Fire Giant inside the Baxtorian Waterfall dungeon.',
+        requirements: [quest('Waterfall Quest')],
+      },
+      {
+        description: 'Complete a wave of Barbarian Assault.',
+        notes: 'Must complete the Barbarian Assault tutorial first.',
+        requirements: [],
+      },
+      {
+        description: 'Steal from the chest in Hemenster.',
+        notes: 'The chest is in the building between the range and anvil buildings.',
+        requirements: [skill('Thieving', 47)],
+      },
+      {
+        description: "Travel to McGrubor's Wood by Fairy Ring.",
+        notes: 'Use fairy ring code ALS. Requires a dramen or lunar staff.',
+        requirements: [quest('Fairytale II - Cure a Queen')],
+      },
+      {
+        description: 'Mine some coal near the coal trucks.',
+        requirements: [skill('Mining', 30)],
       },
     ],
   },
+
   name: 'Kandarin Diary',
 };
 

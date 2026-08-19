@@ -42,7 +42,6 @@ describe('HunterGuild', () => {
     // assigngin this rumour should remove it from the pool for gilman and cervus
     const eligiblERumoursForGilman2 = hunterGuild.getEligibleRumours('Gilman', 99, []);
     const eligiblERumoursForCervus2 = hunterGuild.getEligibleRumours('Cervus', 99, []);
-    const u = 12;
 
     expect(eligiblERumoursForCervus.length).toBe(12);
     expect(eligiblERumoursForGilman.length).toBe(23);

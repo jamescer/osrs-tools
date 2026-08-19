@@ -11,11 +11,5 @@ export { MortimerSlayerMaster } from './MortimerSlayerMaster';
 export { SlayerMaster } from './SlayerMaster';
 export type { TaskJson } from './Task';
 export { Task } from './Task';
-export type {
-  SlayerAssignmentContext,
-  SlayerMasterConfig,
-  TaskDefinition,
-  TaskOptions,
-  TaskQuantity,
-} from './types';
+export type { SlayerAssignmentContext, SlayerMasterConfig, TaskDefinition, TaskOptions, TaskQuantity } from './types';
 export { POINTS_TABLE, SlayerBoss, SlayerLocation, TASK_DEFAULTS } from './types';

@@ -4,11 +4,11 @@ import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 
 const InAidOfTheMyreque: Quest = {
-  age: '',
-  description: '',
+  age: 'Fifth Age',
+  description: 'Help the Myreque resistance in Burgh de Rott survive the vampyre threat and establish a vital base of operations.',
   difficulty: QuestDifficulty.Intermediate,
   id: 60,
-  length: QuestLength.Long,
+  length: QuestLength.Medium,
   members: true,
   miniquest: false,
   name: 'In Aid of the Myreque',
@@ -18,9 +18,10 @@ const InAidOfTheMyreque: Quest = {
   recommendedSkills: {},
   requirements: [
     new QuestRequirement('In Search of the Myreque'),
-    new LevelRequirement('Crafting', 25, false),
-    new LevelRequirement('Mining', 15, false),
-    new LevelRequirement('Magic', 7, false),
+    new LevelRequirement(Skill.Agility, 25, true),
+    new LevelRequirement(Skill.Crafting, 25, false),
+    new LevelRequirement(Skill.Mining, 15, false),
+    new LevelRequirement(Skill.Magic, 7, false),
   ],
   rewards: {
     areas: [],
@@ -35,12 +36,15 @@ const InAidOfTheMyreque: Quest = {
     pets: [],
     points: [],
     questPoints: 2,
-    unlocks: [],
+    unlocks: [
+      { description: 'Access to Burgh de Rott bank' },
+      { description: 'Access to Temple Trekking minigame' },
+    ],
   },
   series: 'Myreque',
   shortName: 'inAidOfTheMyreque',
 
-  startLocation: '',
+  startLocation: 'Veliaf Hurtz, Myreque Hideout, below Canifis pub',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque',

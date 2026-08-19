@@ -1,8 +1,11 @@
+import { LevelRequirement , QuestRequirement} from '../../Requirement';
+import { Skill } from '../../account/Skill';
 import { QuestDifficulty, QuestLength } from '../enums';
 import { Quest, QuestStatus } from '../Quest';
 const ThePathOfGlouphrie: Quest = {
   age: 'Fifth Age',
-  description: 'Follow the path of Glouphrie.',
+  description: 'Delve deeper into Glouphrie\'s sinister plans and uncover the full extent of his treachery against gnomekind.',
+  
   difficulty: QuestDifficulty.Experienced,
   id: 1031,
   length: QuestLength.Medium,
@@ -13,13 +16,20 @@ const ThePathOfGlouphrie: Quest = {
   recommendations: [],
   recommendedPrayers: [],
   recommendedSkills: {},
-  requirements: [],
+  requirements: [
+    new QuestRequirement("The Eyes of Glouphrie"),
+    new LevelRequirement(Skill.Agility, 45, false),
+    new LevelRequirement(Skill.Ranged, 60, false),
+    new LevelRequirement(Skill.Slayer, 56, false),
+    new LevelRequirement(Skill.Strength, 60, false),
+    new LevelRequirement(Skill.Thieving, 56, false),
+  ],
   rewards: { areas: [], experience: [], items: [], lamps: [], pets: [], points: [], questPoints: 2, unlocks: [] },
-  series: 'Gnome, #3',
-  shortName: 'The Path of Glouphrie',
+  series: 'Gnome',
+  shortName: 'thePathOfGlouphrie',
   startLocation: 'Gnome Land',
   status: QuestStatus.NotStarted,
-  steps: ['Follow path'],
+  steps: [],
   url: 'https://oldschool.runescape.wiki/w/The_Path_of_Glouphrie',
 };
 export default ThePathOfGlouphrie;

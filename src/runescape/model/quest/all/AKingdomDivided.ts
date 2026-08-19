@@ -1,3 +1,4 @@
+import { Skill } from '../../account/Skill';
 import { LevelRequirement, QuestRequirement } from '../../Requirement';
 import { QuestDifficulty, QuestLength, QuestStatus } from '../enums';
 import { Quest } from '../Quest';
@@ -8,9 +9,9 @@ import { Quest } from '../Quest';
  * @reference https://oldschool.runescape.wiki/w/A_Kingdom_Divided
  */
 const AKingdomDivided: Quest = {
-  age: 'Modern',
+  age: 'Fifth Age',
   description:
-    "Great Kourend: a land of wealth, comfort and security. Across its five cities, the people of this Kingdom work to bring peace and prosperity. However, all is not as it seems. Beneath this delicate façade lies an uncomfortable truth: the kingdom of Great Kourend is A Kingdom Divided. Since the death of the last king, Great Kourend has been ruled by the Kourend Council. Under the watchful gaze of the Council, Kourend has enjoyed a golden age of progression. But not all of its citizens are happy, and, spurred by the recent arrest of Councillor Sophia Hughes, allegations of corruption are growing. However, the political games of the Council may be the least of Kourend's concerns. A darker power is gathering in the Kingdom - one that could change the face of Gielinor forever...",
+    'Investigate the power struggle within Great Kourend and unravel the mystery behind the disappearance of the royal family.',
   difficulty: QuestDifficulty.Experienced,
   id: 0,
   length: QuestLength.Long,
@@ -49,19 +50,20 @@ const AKingdomDivided: Quest = {
     new QuestRequirement('The Queen of Thieves'),
     new QuestRequirement('The Ascent of Arceuus'),
     new QuestRequirement('The Forsaken Tower'),
-    new LevelRequirement('Thieving', 54, false),
-    new LevelRequirement('Agility', 52, false),
-    new LevelRequirement('Woodcutting', 52, false),
-    new LevelRequirement('Magic', 50, false),
-    new LevelRequirement('Mining', 42, false),
-    new LevelRequirement('Smithing', 42, false),
-    new LevelRequirement('Farming', 35, false),
-    new LevelRequirement('Crafting', 38, false),
-    new LevelRequirement('Hunter', 42, false),
-    new LevelRequirement('Herblore', 45, false),
+    new QuestRequirement('Tale of the Righteous'),
+    new LevelRequirement(Skill.Farming, 35, false),
+    new LevelRequirement(Skill.Crafting, 38, false),
+    new LevelRequirement(Skill.Mining, 42, false),
+    new LevelRequirement(Skill.Smithing, 42, false),
+    new LevelRequirement(Skill.Hunter, 42, false),
+    new LevelRequirement(Skill.Herblore, 50, false),
+    new LevelRequirement(Skill.Magic, 50, false),
+    new LevelRequirement(Skill.Thieving, 52, false),
+    new LevelRequirement(Skill.Woodcutting, 52, false),
+    new LevelRequirement(Skill.Agility, 54, false),
   ],
   rewards: {
-    areas: ['Ability to set respawn point to Kourend Castle'],
+    areas: [],
     experience: [],
     items: [{ name: 'Book of the dead', quantity: 1 }],
     lamps: [
@@ -76,15 +78,17 @@ const AKingdomDivided: Quest = {
     questPoints: 2,
     unlocks: [
       {
-        description: '24 new spells in the Arceuus spellbook',
+        description:
+          '24 new spells added to the Arceuus spellbook (all combat spells except Ghostly Grasp and Inferior Demonbane)',
         url: 'https://oldschool.runescape.wiki/w/Arceuus_spellbook',
       },
-      { description: 'Ability to fight Yama', url: 'https://oldschool.runescape.wiki/w/Yama' },
+      { description: 'Ability to set respawn point to Kourend Castle' },
+      { description: 'Access to fight Yama (boss in Kourend Castle)', url: 'https://oldschool.runescape.wiki/w/Yama' },
     ],
   },
   series: 'Great Kourend',
   shortName: 'aKingdomDivided',
-  startLocation: 'Speak to Martin Holt at the entrance to Kourend Castle in Kingstown.',
+  startLocation: 'Martin Holt, entrance to Kourend Castle, Kingstown',
   status: QuestStatus.NotStarted,
   steps: [],
   url: 'https://oldschool.runescape.wiki/w/A_Kingdom_Divided',

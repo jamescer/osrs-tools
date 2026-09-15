@@ -14,7 +14,7 @@ export { HARD_COMBAT_ACHIEVEMENTS } from './Hard';
 export { MASTER_COMBAT_ACHIEVEMENTS } from './Master';
 export { MEDIUM_COMBAT_ACHIEVEMENTS } from './Medium';
 
-/** All 637 Combat Achievement tasks across every tier. */
+/** All 655 Combat Achievement tasks across every tier. */
 export const ALL_COMBAT_ACHIEVEMENT_TASKS: CombatAchievementTask[] = [
   ...EASY_COMBAT_ACHIEVEMENTS,
   ...MEDIUM_COMBAT_ACHIEVEMENTS,

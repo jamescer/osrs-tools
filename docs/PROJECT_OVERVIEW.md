@@ -34,7 +34,7 @@ entry point in `dist/`:
 | `osrs-tools/quest` | All quest classes + `QuestTool`, `Quest`, `Requirements` |
 | `osrs-tools/slayer` | All slayer master classes, `SlayerMaster`, `Task`, `Assignment`, rewards, unlocks |
 | `osrs-tools/diary` | All achievement diary data (region-based) + `DiaryTool` |
-| `osrs-tools/combat-achievements` | All 637 Combat Achievement tasks + `CombatAchievementTool`, reward tiers |
+| `osrs-tools/combat-achievements` | All 655 Combat Achievement tasks + `CombatAchievementTool`, reward tiers |
 | `osrs-tools/eligibility` | `evaluateRequirement` / `evaluateRequirements` — shared requirement-checking logic |
 | `osrs-tools/guilds` | Hunter Guild data + `HunterGuildMaster`, `HunterRumour` |
 | `osrs-tools/items` | `Item` model, clue/quest item reference tables |
@@ -80,7 +80,7 @@ src/
     │   │   ├── CombatAchievementTool.ts # CombatAchievementTool (see below)
     │   │   ├── RewardTiers.ts         # 6 reward tiers with point thresholds + reward text
     │   │   └── tasks/                 # Easy/Medium/Hard/Elite/Master/Grandmaster.ts
-    │   │                              # (all 637 tasks, authored from the OSRS Wiki) + index.ts aggregator
+    │   │                              # (all 655 tasks, authored from the OSRS Wiki) + index.ts aggregator
     │   ├── eligibility/                # Shared requirement-evaluation logic (see below)
     │   │   ├── RequirementEvaluator.ts # evaluateRequirement / evaluateRequirements
     │   │   └── index.ts
@@ -105,7 +105,7 @@ src/
     │   │   ├── Requirements.ts        # Quest requirement helpers
     │   │   ├── QuestList.ts           # Canonical list of all quest names
     │   │   ├── MiniQuestList.ts       # Mini-quest list
-    │   │   └── all/                   # 189 individual quest files (one per quest)
+    │   │   └── all/                   # 204 individual quest files (one per quest)
     │   ├── skills/
     │   │   ├── Skill.ts               # (re-exported) skill enum/metadata surface
     │   │   ├── SkillBoosts.ts         # getMaxSkillBoost() — max temporary boost per skill
@@ -179,14 +179,14 @@ that used to live separately in `QuestTool` and `SlayerMaster`.
   advisories using the account's actual completed-quest data instead of leaving them unverifiable
 - `QuestTool.getMaxSkillBoost(skillName)` — returns max possible temporary boost per skill (delegates to
   `skills/SkillBoosts.ts`)
-- Quest registry is lazily built from all 189 `all/*.ts` quest files on first call
+- Quest registry is lazily built from all 204 `all/*.ts` quest files on first call
 
 ### Slayer system (`src/runescape/model/slayer/`)
 - Each master class (e.g. `Duradel`) extends `SlayerMaster` and defines task lists with weights/quantities, sourced
   from the matching file in `slayer/task/` (e.g. `DuradelTasks.ts`)
 - `Assignment` represents an active assignment for an account
-- `Mortifier` / `MortimerSlayerMaster` — the Mortimer/Wyrmscraig system (see doc comments in source: marked
-  unreleased/WIP, values subject to change)
+- `Mortifier` / `MortimerSlayerMaster` — the Mortimer/Wyrmscraig system, released 29 July 2026 with Fallen From
+  Grace (100 Combat + 70 Slayer to unlock, or 99 Slayer regardless of Combat)
 - `slayer/core/eligibility.ts` — `meetsRequirements(requirements, context)` checks a `SlayerAssignmentContext`
   (slayer level, combat level, skill levels, completed quests, unlocked rewards) against a task's requirement list;
   only requirement types that can gate assignment (`SlayerLevel`, `CombatLevel`, `Level`, `Quest`, `SlayerUnlock`) are
@@ -207,9 +207,9 @@ that used to live separately in `QuestTool` and `SlayerMaster`.
 - `getDiaryProgress(diary)` — structured completable/remaining/total breakdown per tier
 
 ### Combat Achievements (`src/runescape/model/combat-achievements/`)
-- All 637 tasks (Easy 41 / Medium 60 / Hard 85 / Elite 162 / Master 168 / Grandmaster 121), authored directly from
+- All 655 tasks (Easy 41 / Medium 64 / Hard 89 / Elite 166 / Master 173 / Grandmaster 122), authored directly from
   the OSRS Wiki's live task table (id, name, monster, type, tier, points, description)
-- `COMBAT_ACHIEVEMENT_REWARD_TIERS` — the 6 real cumulative point thresholds (41/161/416/1064/1904/2630) and their
+- `COMBAT_ACHIEVEMENT_REWARD_TIERS` — the 6 real cumulative point thresholds (41/169/436/1100/1965/2697) and their
   reward text
 - `getCombatAchievementByName(name)` / `getCombatAchievementsByTier(tier)` / `getCombatAchievementsByMonster(monster)`
 

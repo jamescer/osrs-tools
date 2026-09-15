@@ -549,4 +549,43 @@ export const MEDIUM_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     tier: CombatAchievementTier.Medium,
     type: CombatAchievementTaskType.Perfection,
   },
+  {
+    description: 'Kill the Mad Angel 25 times.',
+    id: 637,
+    monster: 'Mad Angel',
+    name: 'Mad Angel Adept',
+    points: 2,
+    tier: CombatAchievementTier.Medium,
+    type: CombatAchievementTaskType.KillCount,
+  },
+  {
+    description:
+      'Kill the Mad Angel after attacking her between each bounce of the blast attack during her enrage phase.',
+    id: 638,
+    monster: 'Mad Angel',
+    name: 'Juggling Act',
+    points: 2,
+    tier: CombatAchievementTier.Medium,
+    type: CombatAchievementTaskType.Mechanical,
+  },
+  {
+    description:
+      'Kill the Mad Angel after getting 3 consecutive enhanced attacks by successfully praying against the smite attacks during her enrage phase.',
+    id: 639,
+    monster: 'Mad Angel',
+    name: 'Smite Fight',
+    points: 2,
+    tier: CombatAchievementTier.Medium,
+    type: CombatAchievementTaskType.Mechanical,
+  },
+  {
+    description:
+      'Kill the Mad Angel after getting 6 consecutive enhanced attacks by dodging the sweep attacks successfully during her enrage phase.',
+    id: 640,
+    monster: 'Mad Angel',
+    name: 'Dancing Queen',
+    points: 2,
+    tier: CombatAchievementTier.Medium,
+    type: CombatAchievementTaskType.Mechanical,
+  },
 ];

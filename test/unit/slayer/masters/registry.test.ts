@@ -20,7 +20,7 @@ describe('Slayer masters registry', () => {
   });
 
   describe('getAllMasters', () => {
-    it('returns every registered master, including the unreleased Mortimer', () => {
+    it('returns every registered master, including Mortimer', () => {
       const names = getAllMasters().map(master => master.getName());
       expect(names).toEqual(
         expect.arrayContaining([
@@ -53,9 +53,10 @@ describe('Slayer masters registry', () => {
   describe('getMastersByMinimumLevel', () => {
     it('only includes masters whose minimum combat level is at or below the given level', () => {
       const names = getMastersByMinimumLevel(20).map(master => master.getName());
-      expect(names).toEqual(expect.arrayContaining(['Turael', 'Spria', 'Mazchna', 'Mortimer', 'Krystilia']));
+      expect(names).toEqual(expect.arrayContaining(['Turael', 'Spria', 'Mazchna', 'Krystilia']));
       expect(names).not.toContain('Vannaka');
       expect(names).not.toContain('Nieve');
+      expect(names).not.toContain('Mortimer');
     });
 
     it('returns nothing below the lowest master requirement', () => {
@@ -71,6 +72,17 @@ describe('Slayer masters registry', () => {
     it('includes Duradel when player meets both combat 100 and Slayer 50', () => {
       const at100combat50slayer = getMastersByMinimumLevel(100, 50).map(m => m.getName());
       expect(at100combat50slayer).toContain('Duradel');
+    });
+
+    it('excludes Mortimer when player Slayer level is below 70', () => {
+      // Mortimer requires combat 100 AND Slayer 70
+      const at100combat1slayer = getMastersByMinimumLevel(100, 1).map(m => m.getName());
+      expect(at100combat1slayer).not.toContain('Mortimer');
+    });
+
+    it('includes Mortimer when player meets both combat 100 and Slayer 70', () => {
+      const at100combat70slayer = getMastersByMinimumLevel(100, 70).map(m => m.getName());
+      expect(at100combat70slayer).toContain('Mortimer');
     });
   });
 

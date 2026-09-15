@@ -24,7 +24,7 @@ export interface MortimerSlayerMasterConfig extends SlayerMasterConfig {
 }
 
 /**
- * Mortimer - a planned Slayer Master for the upcoming Wyrmscraig island.
+ * Mortimer - the Slayer Master of Wyrmscraig, released 29 July 2026 with Fallen From Grace.
  *
  * Unlike other masters, Mortimer:
  *  - Offers multiple task choices per visit (2, or 3 after 50 completed tasks) rather than
@@ -33,9 +33,8 @@ export interface MortimerSlayerMasterConfig extends SlayerMasterConfig {
  *  - Can assign Venators directly.
  *  - Uses the Mortifier system in place of standard Slayer point rewards as the main incentive.
  *  - Has a significantly higher skip cost and far fewer, more expensive block slots.
- *
- * NOTE: This content had not been released at time of writing (Player Designed Island
- * Competition submission); values are subject to change.
+ *  - Requires 100 Combat and 70 Slayer to unlock (or 99 Slayer regardless of Combat level),
+ *    on top of reaching the Wyrmscraig caverns during Fallen From Grace.
  */
 class MortimerSlayerMaster extends SlayerMaster {
   skipCost: number;

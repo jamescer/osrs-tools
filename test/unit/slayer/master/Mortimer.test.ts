@@ -14,15 +14,17 @@ describe('Mortimer', () => {
     expect(Mortimer.name).toBe('Mortimer');
   });
   it('should have the correct location', () => {
-    expect(Mortimer.location).toBe('Wyrmscraig');
+    expect(Mortimer.location).toBe('Wyrmscraig Cavern');
   });
   it('should have the correct wiki URL', () => {
     expect(Mortimer.wikiUrl).toBe('https://oldschool.runescape.wiki/w/Mortimer');
   });
   it('should have the correct image URL', () => {
-    expect(Mortimer.imageUrl).toBe(
-      'https://oldschool.runescape.wiki/w/Special:FilePath/Wyrmscraig%20-%20Activities%20%26%20Lock%20In%20Poll%20(5).png',
-    );
+    expect(Mortimer.imageUrl).toBe('https://oldschool.runescape.wiki/w/Special:FilePath/Mortimer.png');
+  });
+  it('should require 100 Combat and 70 Slayer to unlock', () => {
+    expect(Mortimer.getMinimumCombatLevel()).toBe(100);
+    expect(Mortimer.getMinimumSlayerLevel()).toBe(70);
   });
   it('should get tasks the same way other Slayer Masters do', () => {
     expect(Mortimer.getTasks()).toBe(Mortimer.tasks);

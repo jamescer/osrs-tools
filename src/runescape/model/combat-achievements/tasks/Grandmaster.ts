@@ -1117,4 +1117,13 @@ export const GRANDMASTER_COMBAT_ACHIEVEMENTS: CombatAchievementTask[] = [
     tier: CombatAchievementTier.Grandmaster,
     type: CombatAchievementTaskType.Mechanical,
   },
+  {
+    description: 'Complete the first 5 kills of the Maggot King within 9 minutes after entering the arena.',
+    id: 654,
+    monster: 'Maggot King',
+    name: 'Maggot King Speed Chaser',
+    points: 6,
+    tier: CombatAchievementTier.Grandmaster,
+    type: CombatAchievementTaskType.Speed,
+  },
 ];

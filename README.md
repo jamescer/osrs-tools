@@ -48,10 +48,10 @@ import { CombatAchievementTool } from "osrs-tools/combat-achievements";
 
 | Module | Subpath | Highlights |
 | --- | --- | --- |
-| Quests | `osrs-tools/quest` | `QuestTool`, 189+ quests, requirement classes (level, quest, item, combat, location…) |
+| Quests | `osrs-tools/quest` | `QuestTool`, 200+ quests, requirement classes (level, quest, item, combat, location…) |
 | Accounts | `osrs-tools/account` | `OsrsAccount` (hiscores-compatible), `Skill` enum, skill metadata |
 | Diaries | `osrs-tools/diary` | 10 regional achievement diaries, `DiaryTool` for progress checks |
-| Combat Achievements | `osrs-tools/combat-achievements` | All 637 tasks across six tiers, `CombatAchievementTool` |
+| Combat Achievements | `osrs-tools/combat-achievements` | All 655 tasks across six tiers, `CombatAchievementTool` |
 | Slayer | `osrs-tools/slayer` | 9 masters, tasks, points, unlocks/extends/buys |
 | Experience | `osrs-tools/tools` | XP ⇄ level conversion, full XP table |
 | Validation | `osrs-tools/utils` | Skill/level validation, `ValidationError` |

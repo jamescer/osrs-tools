@@ -7,9 +7,8 @@
  * that is unlocked permanently as a player completes more tasks with him, and which
  * is then applied (with a variable magnitude, "X") to a given task offer.
  *
- * NOTE: Mortimer and Wyrmscraig were, at time of writing, planned but not yet
- * released content (Player Designed Island Competition). Names, thresholds and
- * effects may change before/if this is implemented in the live game.
+ * Unlock thresholds (0/0/15/25/40/50 tasks completed with Mortimer) confirmed against the
+ * live release notes: https://oldschool.runescape.wiki/w/Update:Meet_Mortimer:_Your_Newest_Slayer_Master
  */
 
 export interface MortifierConfig {

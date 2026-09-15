@@ -1,4 +1,5 @@
-import { CombatLevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
+import { Skill } from '../../account/Skill';
+import { CombatLevelRequirement, LevelRequirement, QuestRequirement, SlayerLevelRequirement } from '../../Requirement';
 import { Task } from '../core/Task';
 
 /**
@@ -7,10 +8,6 @@ import { Task } from '../core/Task';
  *
  * Every task Mortimer assigns has a superior variant (see MortimerSlayerMaster.hasSuperiorVariants()).
  * Quantities, extended quantities and weights below are taken directly from the Wiki's task table.
- *
- * Gryphons, Custodian stalkers, Venators and Aquanites are Wyrmscraig-exclusive monsters with no
- * established Slayer level requirement at time of writing, so their `requirements` are left empty.
- * This content was planned but not yet released; details are subject to change.
  */
 const mortimerTasks: Task[] = [
   Task.create({
@@ -74,7 +71,11 @@ const mortimerTasks: Task[] = [
     extended: { max: 200, min: 160 },
     name: 'Gryphons',
     quantity: { max: 120, min: 80 },
-    requirements: [],
+    requirements: [
+      new SlayerLevelRequirement(51),
+      new LevelRequirement(Skill.Sailing, 45, false),
+      new QuestRequirement('Troubled Tortugans'),
+    ],
     weight: 10,
   }),
   Task.create({
@@ -87,7 +88,7 @@ const mortimerTasks: Task[] = [
     extended: { max: 250, min: 200 },
     name: 'Custodian stalkers',
     quantity: { max: 120, min: 80 },
-    requirements: [],
+    requirements: [new SlayerLevelRequirement(54), new QuestRequirement('Shadows of Custodia')],
     weight: 8,
   }),
   Task.create({
@@ -99,7 +100,7 @@ const mortimerTasks: Task[] = [
   Task.create({
     name: 'Warped creatures',
     quantity: { max: 120, min: 80 },
-    requirements: [new SlayerLevelRequirement(56)],
+    requirements: [new SlayerLevelRequirement(56), new QuestRequirement('The Path of Glouphrie')],
     weight: 10,
   }),
   Task.create({
@@ -152,7 +153,11 @@ const mortimerTasks: Task[] = [
   Task.create({
     name: 'Venators',
     quantity: { max: 180, min: 120 },
-    requirements: [],
+    requirements: [
+      new SlayerLevelRequirement(74),
+      new CombatLevelRequirement(60),
+      new QuestRequirement('The Blood Moon Rises'),
+    ],
     weight: 10,
   }),
   Task.create({
@@ -166,7 +171,7 @@ const mortimerTasks: Task[] = [
     extended: { max: 200, min: 150 },
     name: 'Aquanites',
     quantity: { max: 60, min: 40 },
-    requirements: [],
+    requirements: [new SlayerLevelRequirement(78), new LevelRequirement(Skill.Sailing, 73, false)],
     weight: 10,
   }),
   Task.create({

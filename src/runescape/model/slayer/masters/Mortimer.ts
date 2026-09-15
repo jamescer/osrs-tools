@@ -1,11 +1,12 @@
 /**
  * Mortimer - Slayer Master
- * Location: Wyrmscraig
+ * Location: Wyrmscraig Cavern
+ * Combat requirement: 100 (or any combat level with 99 Slayer)
+ * Slayer requirement: 70 (waived if base Slayer is 99)
+ * Quest requirement: Fallen From Grace (unlocked on reaching the Wyrmscraig caverns)
  * Wiki: https://oldschool.runescape.wiki/w/Mortimer
  *
- * NOTE: Mortimer is planned content for the upcoming Wyrmscraig island (Player Designed
- * Island Competition, designed by ScreteMonge) and had not been released at time of writing.
- * Values here reflect the published design and may change before/if this ships live.
+ * Released 29 July 2026 as part of Fallen From Grace.
  */
 
 import { MortimerSlayerMaster } from '../core/MortimerSlayerMaster';
@@ -24,11 +25,10 @@ import { registerMaster } from './registry';
 export const Mortimer = new MortimerSlayerMaster({
   blockSlotCost: 120,
   blockSlots: 2,
-  // Mortimer had not been released at time of writing; this is concept art (by Mod Jerv), not an in-game portrait.
-  imageUrl:
-    'https://oldschool.runescape.wiki/w/Special:FilePath/Wyrmscraig%20-%20Activities%20%26%20Lock%20In%20Poll%20(5).png',
-  location: 'Wyrmscraig',
-  minimumCombatLevel: 0,
+  imageUrl: 'https://oldschool.runescape.wiki/w/Special:FilePath/Mortimer.png',
+  location: 'Wyrmscraig Cavern',
+  minimumCombatLevel: 100,
+  minimumSlayerLevel: 70,
   name: 'Mortimer',
   pointsTable: {},
   skipCost: 100,

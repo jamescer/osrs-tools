@@ -17,6 +17,7 @@ import ANightAtTheTheatre from './all/ANightAtTheTheatre';
 import AnimalMagnetism from './all/AnimalMagnetism';
 import AnotherSliceOfHAM from './all/AnotherSliceOfHAM';
 import APorcineOfInterest from './all/APorcineOfInterest';
+import ARuffSituation from './all/ARuffSituation';
 import ASoulsBane from './all/ASoulsBane';
 import ATailOfTwoCats from './all/ATailOfTwoCats';
 import ATasteOfHope from './all/ATasteOfHope';
@@ -38,6 +39,7 @@ import ClockTower from './all/ClockTower';
 import ColdWar from './all/ColdWar';
 import Contact from './all/Contact';
 import CooksAssistant from './all/CooksAssistant';
+import CrabQuest from './all/CrabQuest';
 import CreatureOfFenkenstrain from './all/CreatureOfFenkenstrain';
 import CurrentAffairs from './all/CurrentAffairs';
 import CurseOfTheEmptyLord from './all/CurseOfTheEmptyLord';
@@ -68,6 +70,7 @@ import ErnestTheChicken from './all/ErnestTheChicken';
 import EthicallyAcquiredAntiquities from './all/EthicallyAcquiredAntiquities';
 import FairytaleIGrowingPains from './all/FairytaleIGrowingPains';
 import FairytaleIICureAQueen from './all/FairytaleIICureAQueen';
+import FallenFromGrace from './all/FallenFromGrace';
 import FamilyCrest from './all/FamilyCrest';
 import FamilyPest from './all/FamilyPest';
 import FightArena from './all/FightArena';
@@ -158,6 +161,7 @@ import TaiBwoWannaiTrio from './all/TaiBwoWannaiTrio';
 import TearsOfGuthix from './all/TearsOfGuthix';
 import TempleOfTheEye from './all/TempleOfTheEye';
 import TheAscentOfArceuus from './all/TheAscentOfArceuus';
+import TheBloodMoonRises from './all/TheBloodMoonRises';
 import TheCorsairCurse from './all/TheCorsairCurse';
 import TheCurseOfArrav from './all/TheCurseOfArrav';
 import TheDepthsOfDespair from './all/TheDepthsOfDespair';
@@ -324,6 +328,7 @@ class QuestTool {
     AKingdomDivided,
     ANightAtTheTheatre,
     APorcineOfInterest,
+    ARuffSituation,
     ASoulsBane,
     ATailOfTwoCats,
     ATasteOfHope,
@@ -345,6 +350,7 @@ class QuestTool {
     ColdWar,
     Contact,
     CooksAssistant,
+    CrabQuest,
     CreatureOfFenkenstrain,
     CurrentAffairs,
     DarknessOfHallowvale,
@@ -372,6 +378,7 @@ class QuestTool {
     EthicallyAcquiredAntiquities,
     FairytaleIGrowingPains,
     FairytaleIICureAQueen,
+    FallenFromGrace,
     FamilyCrest,
     FightArena,
     FishingContest,
@@ -453,6 +460,7 @@ class QuestTool {
     TearsOfGuthix,
     TempleOfTheEye,
     TheAscentOfArceuus,
+    TheBloodMoonRises,
     TheCorsairCurse,
     TheCurseOfArrav,
     TheDepthsOfDespair,

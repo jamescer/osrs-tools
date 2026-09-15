@@ -93,5 +93,5 @@ export enum SlayerMasterProgression {
   NIEVE = 'Nieve', // Combat 85
   DURADEL = 'Duradel', // Combat 100, Slayer 50
   KRYSTILIA = 'Krystilia', // Combat 1 (Wilderness)
-  MORTIMER = 'Mortimer', // Wyrmscraig (planned/unreleased)
+  MORTIMER = 'Mortimer', // Wyrmscraig, Combat 100 + Slayer 70 (or Slayer 99 alone)
 }

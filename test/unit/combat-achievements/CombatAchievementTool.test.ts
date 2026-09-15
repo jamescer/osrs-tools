@@ -122,9 +122,9 @@ describe('CombatAchievementTool', () => {
     });
 
     it('unlocks every tier at the maximum possible points', () => {
-      const unlocked = tool.getUnlockedRewardTiers(2630);
+      const unlocked = tool.getUnlockedRewardTiers(2697);
       expect(unlocked).toHaveLength(6);
-      expect(tool.getNextRewardTier(2630)).toBeUndefined();
+      expect(tool.getNextRewardTier(2697)).toBeUndefined();
     });
   });
 

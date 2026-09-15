@@ -20,7 +20,7 @@ export const COMBAT_ACHIEVEMENT_REWARD_TIERS: CombatAchievementRewardTier[] = [
     tier: CombatAchievementTier.Easy,
   },
   {
-    pointsRequired: 161,
+    pointsRequired: 169,
     rewards: [
       'An antique lamp worth 10,000 experience in any skill above 30',
       'A 5% increased chance to receive a medium clue scroll from all sources (excluding implings)',
@@ -33,7 +33,7 @@ export const COMBAT_ACHIEVEMENT_REWARD_TIERS: CombatAchievementRewardTier[] = [
     tier: CombatAchievementTier.Medium,
   },
   {
-    pointsRequired: 416,
+    pointsRequired: 436,
     rewards: [
       'An antique lamp worth 15,000 experience in any skill above 40',
       'A 5% increased chance to receive a hard clue scroll from all sources (excluding implings)',
@@ -51,7 +51,7 @@ export const COMBAT_ACHIEVEMENT_REWARD_TIERS: CombatAchievementRewardTier[] = [
     tier: CombatAchievementTier.Hard,
   },
   {
-    pointsRequired: 1064,
+    pointsRequired: 1100,
     rewards: [
       'An antique lamp worth 25,000 experience in any skill above 50',
       'A 5% increased chance to receive an elite clue scroll from all sources (excluding implings)',
@@ -67,7 +67,7 @@ export const COMBAT_ACHIEVEMENT_REWARD_TIERS: CombatAchievementRewardTier[] = [
     tier: CombatAchievementTier.Elite,
   },
   {
-    pointsRequired: 1904,
+    pointsRequired: 1965,
     rewards: [
       'An antique lamp worth 35,000 experience in any skill above 60',
       "Ghommal's hilt 5; Five daily teleports to Mor Ul Rek (within the inner city); Ability to create Ghommal's avernic defender 5 by combining it with an Avernic defender",
@@ -81,7 +81,7 @@ export const COMBAT_ACHIEVEMENT_REWARD_TIERS: CombatAchievementRewardTier[] = [
     tier: CombatAchievementTier.Master,
   },
   {
-    pointsRequired: 2630,
+    pointsRequired: 2697,
     rewards: [
       'An antique lamp worth 50,000 experience in any skill above 70',
       "Ghommal's hilt 6; Unlimited daily teleports to Mor Ul Rek (within the inner city); Ability to create Ghommal's avernic defender 6 by combining a Ghommal's hilt 6 with an Avernic defender",
